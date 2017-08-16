@@ -1,0 +1,33 @@
+{
+  "name": "coreui-vue",
+  "version": "1.0.0-alpha.6",
+  "description": "Open Source Vue Admin Template",
+  "main": "",
+  "homepage": "http://coreui.io",
+  "github": "https://github.com/mrholek/CoreUI-Vue#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrholek/CoreUI-Vue.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Admin",
+    "Template",
+    "Open Source",
+    "CSS",
+    "HTML",
+    "RWD",
+    "Dashboard",
+    "Vue",
+    "Vue.js",
+    "Vuejs"
+  ],
+  "author": "Łukasz Holeczek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrholek/CoreUI-Vue/issues"
+  }
+}
