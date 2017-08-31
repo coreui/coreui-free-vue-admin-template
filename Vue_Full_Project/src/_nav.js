@@ -11,7 +11,12 @@ export default {
     },
     {
       title: true,
-      name: 'UI elements'
+      name: 'UI elements',
+      class: '',
+      wrapper: {
+        element: '',
+        attributes: {}
+      }
     },
     {
       name: 'Components',
@@ -63,7 +68,11 @@ export default {
         {
           name: 'Font Awesome',
           url: '/icons/font-awesome',
-          icon: 'icon-star'
+          icon: 'icon-star',
+          badge: {
+            variant: 'secondary',
+            text: '4.7'
+          }
         },
         {
           name: 'Simple Line Icons',
@@ -77,7 +86,7 @@ export default {
       url: '/widgets',
       icon: 'icon-calculator',
       badge: {
-        variant: 'danger',
+        variant: 'primary',
         text: 'NEW'
       }
     },

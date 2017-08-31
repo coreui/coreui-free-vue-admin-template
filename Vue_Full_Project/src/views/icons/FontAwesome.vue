@@ -2155,7 +2155,7 @@
         <div class="row text-center">
 
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-            <i class="fa fa-circle-o-notch fa-lg mt-4"></i><br>circle-o-notch
+            <i class="fa fa-circle-o-notch fa-lg mt-4 fa-spin"></i><br>circle-o-notch
           </div>
 
           <div class="col-6 col-sm-4 col-md-3 col-lg-2">

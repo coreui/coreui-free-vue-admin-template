@@ -207,12 +207,18 @@
                   <Callout variant="info">
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
+                    <div class="chart-wrapper" style="width:60%">
+                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />
+                    </div>
                   </Callout>
                 </div><!--/.col-->
                 <div class="col-sm-6">
                   <Callout variant="danger">
-                    <small class="text-muted">Recuring Clients</small><br>
+                    <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
+                    <div class="chart-wrapper" style="width:60%">
+                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#f86c6b" width="80" height="30" />
+                    </div>
                   </Callout>
                 </div><!--/.col-->
               </div><!--/.row-->
@@ -292,12 +298,18 @@
                   <Callout variant="warning">
                     <small class="text-muted">Pageviews</small><br>
                     <strong class="h4">78,623</strong>
+                    <div class="chart-wrapper" style="width:60%">
+                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30" />
+                    </div>
                   </Callout>
                 </div><!--/.col-->
                 <div class="col-sm-6">
                   <Callout variant="success">
                     <small class="text-muted">Organic</small><br>
                     <strong class="h4">49,123</strong>
+                    <div class="chart-wrapper" style="width:60%">
+                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80px" height="30" />
+                    </div>
                   </Callout>
                 </div><!--/.col-->
               </div><!--/.row-->
@@ -363,12 +375,18 @@
                   <Callout>
                     <small class="text-muted">CTR</small><br>
                     <strong class="h4">23%</strong>
+                    <div class="chart-wrapper" style="width:60%">
+                      <callout-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" width="80px" height="30" />
+                    </div>
                   </Callout>
                 </div><!--/.col-->
                 <div class="col-sm-6">
                   <Callout variant="primary">
                     <small class="text-muted">Bounce Rate</small><br>
                     <strong class="h4">5%</strong>
+                    <div class="chart-wrapper" style="width:60%">
+                      <callout-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" variant="#20a8d8" width="80px" height="30" />
+                    </div>
                   </Callout>
                 </div><!--/.col-->
               </div><!--/.row-->
@@ -534,6 +552,7 @@ import CardLine3ChartExample from './dashboard/CardLine3ChartExample'
 import CardBarChartExample from './dashboard/CardBarChartExample'
 import MainChartExample from './dashboard/MainChartExample'
 import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
+import CalloutChartExample from './dashboard/CalloutChartExample'
 import { Callout } from '../components/'
 
 export default {
@@ -545,7 +564,8 @@ export default {
     CardLine3ChartExample,
     CardBarChartExample,
     MainChartExample,
-    SocialBoxChartExample
+    SocialBoxChartExample,
+    CalloutChartExample
   },
   data: function () {
     return {
