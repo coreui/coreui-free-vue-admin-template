@@ -5,7 +5,7 @@
       <ul class="nav">
         <li class="nav-item" v-for="(item, index) in navItems">
           <template v-if="item.title">
-            <SidebarNavTitle :name="item.name"/>
+            <SidebarNavTitle :name="item.name" :classes="item.class" :wrapper="item.wrapper"/>
           </template>
           <template v-else-if="item.divider">
             <li class="divider"></li>
