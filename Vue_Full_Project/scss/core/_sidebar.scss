@@ -114,7 +114,7 @@
           @include borders($sidebar-nav-link-hover-borders);
 
           i {
-            color: $sidebar-nav-link-hover-icon-color;
+            color: $sidebar-nav-link-hover-icon-color !important;
           }
         }
 
