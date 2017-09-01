@@ -100,7 +100,7 @@
             <strong>29.703 Users (40%)</strong>
             <b-progress class="progress-xs mt-2" :precision="1" variant="success" :value="40"></b-progress>
           </li>
-          <li class="hidden-sm-down">
+          <li class="d-none d-md-table-cell">
             <div class="text-muted">Unique</div>
             <strong>24.093 Users (20%)</strong>
             <b-progress class="progress-xs mt-2" :precision="1" variant="info" :value="20"></b-progress>
@@ -110,12 +110,12 @@
             <strong>78.706 Views (60%)</strong>
             <b-progress class="progress-xs mt-2" :precision="1" variant="warning" :value="60"></b-progress>
           </li>
-          <li class="hidden-sm-down">
+          <li class="d-none d-md-table-cell">
             <div class="text-muted">New Users</div>
             <strong>22.123 Users (80%)</strong>
             <b-progress class="progress-xs mt-2" :precision="1" variant="danger" :value="80"></b-progress>
           </li>
-          <li class="hidden-sm-down">
+          <li class="d-none d-md-table-cell">
             <div class="text-muted">Bounce Rate</div>
             <strong>40.15%</strong>
             <b-progress class="progress-xs mt-2" :precision="1" :value="40"></b-progress>
@@ -207,7 +207,7 @@
                   <Callout variant="info">
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
-                    <div class="chart-wrapper" style="width:60%">
+                    <div class="chart-wrapper">
                       <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />
                     </div>
                   </Callout>
@@ -216,7 +216,7 @@
                   <Callout variant="danger">
                     <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
-                    <div class="chart-wrapper" style="width:60%">
+                    <div class="chart-wrapper">
                       <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#f86c6b" width="80" height="30" />
                     </div>
                   </Callout>
@@ -298,7 +298,7 @@
                   <Callout variant="warning">
                     <small class="text-muted">Pageviews</small><br>
                     <strong class="h4">78,623</strong>
-                    <div class="chart-wrapper" style="width:60%">
+                    <div class="chart-wrapper">
                       <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30" />
                     </div>
                   </Callout>
@@ -307,7 +307,7 @@
                   <Callout variant="success">
                     <small class="text-muted">Organic</small><br>
                     <strong class="h4">49,123</strong>
-                    <div class="chart-wrapper" style="width:60%">
+                    <div class="chart-wrapper">
                       <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80px" height="30" />
                     </div>
                   </Callout>
@@ -375,7 +375,7 @@
                   <Callout>
                     <small class="text-muted">CTR</small><br>
                     <strong class="h4">23%</strong>
-                    <div class="chart-wrapper" style="width:60%">
+                    <div class="chart-wrapper">
                       <callout-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" width="80px" height="30" />
                     </div>
                   </Callout>
@@ -384,8 +384,8 @@
                   <Callout variant="primary">
                     <small class="text-muted">Bounce Rate</small><br>
                     <strong class="h4">5%</strong>
-                    <div class="chart-wrapper" style="width:60%">
-                      <callout-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" variant="#20a8d8" width="80px" height="30" />
+                    <div class="chart-wrapper">
+                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80px" height="30" />
                     </div>
                   </Callout>
                 </div><!--/.col-->
