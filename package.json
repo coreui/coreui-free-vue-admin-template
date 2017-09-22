@@ -1,9 +1,9 @@
 {
   "name": "coreui.io-vue",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0",
   "description": "Open Source Vue Admin Template",
   "main": "",
-  "homepage": "http://coreui.io",
+  "homepage": "http://coreui.io/vue/",
   "github": "https://github.com/mrholek/CoreUI-Vue#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

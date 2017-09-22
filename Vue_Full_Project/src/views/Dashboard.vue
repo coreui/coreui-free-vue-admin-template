@@ -2,7 +2,7 @@
   <div class="animated fadeIn">
     <div class="row">
       <div class="col-sm-6 col-lg-3">
-        <b-card class="bg-primary" :no-block="true">
+        <b-card class="bg-primary" :no-body="true">
           <div class="card-body pb-0">
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -20,7 +20,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-sm-6 col-lg-3">
-        <b-card class="bg-info" :no-block="true">
+        <b-card class="bg-info" :no-body="true">
           <div class="card-body pb-0">
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -38,7 +38,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-sm-6 col-lg-3">
-        <b-card class="bg-warning" :no-block="true">
+        <b-card class="bg-warning" :no-body="true">
           <div class="card-body pb-0">
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -56,7 +56,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-sm-6 col-lg-3">
-        <b-card class="bg-danger" :no-block="true">
+        <b-card class="bg-danger" :no-body="true">
           <div class="card-body pb-0">
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">

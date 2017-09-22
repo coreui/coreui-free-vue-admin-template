@@ -94,7 +94,7 @@
             label="Static"
             :label-cols="3"
             :horizontal="true">
-            <b-form-input-static type="text" value="Username"></b-form-input-static>
+            <b-form-input plaintext type="text" value="Username"></b-form-input>
           </b-form-fieldset>
           <b-form-fieldset
             description="This is a help text"

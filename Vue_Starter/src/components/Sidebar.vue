@@ -1,46 +1,55 @@
 <template>
   <div class="sidebar">
+    <SidebarHeader/>
+    <SidebarForm/>
     <nav class="sidebar-nav">
       <div slot="header"></div>
       <ul class="nav">
-        <li class="nav-item" v-for="(item, index) in navItems">
+        <template v-for="(item, index) in navItems">
           <template v-if="item.title">
-            <SidebarNavTitle :name="item.name"/>
+            <SidebarNavTitle :name="item.name" :classes="item.class" :wrapper="item.wrapper"/>
           </template>
           <template v-else-if="item.divider">
             <li class="divider"></li>
           </template>
           <template v-else>
             <template v-if="item.children">
+              <!-- First level dropdown -->
               <SidebarNavDropdown :name="item.name" :url="item.url" :icon="item.icon">
-                <template v-for="(child, index) in item.children">
-                  <template v-if="child.children">
-                    <SidebarNavDropdown :name="child.name" :url="child.url" :icon="child.icon">
-                      <li class="nav-item" v-for="(child, index) in item.children">
-                        <SidebarNavLink :name="child.name" :url="child.url" :icon="child.icon" :badge="child.badge"/>
+                <template v-for="(childL1, index) in item.children">
+                  <template v-if="childL1.children">
+                    <!-- Second level dropdown -->
+                    <SidebarNavDropdown :name="childL1.name" :url="childL1.url" :icon="childL1.icon">
+                      <li class="nav-item" v-for="(childL2, index) in childL1.children">
+                        <SidebarNavLink :name="childL2.name" :url="childL2.url" :icon="childL2.icon" :badge="childL2.badge"/>
                       </li>
                     </SidebarNavDropdown>
                   </template>
                   <template v-else>
                     <li class="nav-item">
-                      <SidebarNavLink :name="child.name" :url="child.url" :icon="child.icon" :badge="child.badge"/>
+                      <SidebarNavLink :name="childL1.name" :url="childL1.url" :icon="childL1.icon" :badge="childL1.badge"/>
                     </li>
                   </template>
                 </template>
               </SidebarNavDropdown>
             </template>
             <template v-else>
-              <SidebarNavLink :name="item.name" :url="item.url" :icon="item.icon" :badge="item.badge"/>
+              <li class="nav-item">
+                <SidebarNavLink :name="item.name" :url="item.url" :icon="item.icon" :badge="item.badge"/>
+              </li>
             </template>
           </template>
-        </li>
+        </template>
       </ul>
       <slot></slot>
-      <div slot="footer"></div>
     </nav>
+    <SidebarFooter/>
   </div>
 </template>
 <script>
+import SidebarFooter from './SidebarFooter'
+import SidebarForm from './SidebarForm'
+import SidebarHeader from './SidebarHeader'
 import SidebarNavDropdown from './SidebarNavDropdown'
 import SidebarNavLink from './SidebarNavLink'
 import SidebarNavTitle from './SidebarNavTitle'
@@ -54,6 +63,9 @@ export default {
     }
   },
   components: {
+    SidebarFooter,
+    SidebarForm,
+    SidebarHeader,
     SidebarNavDropdown,
     SidebarNavLink,
     SidebarNavTitle

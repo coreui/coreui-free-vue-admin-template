@@ -70,7 +70,7 @@
     </div><!--/.row-->
     <div class="row">
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-cogs bg-primary p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-primary mb-0 mt-2">$1.999,50</div>
@@ -79,7 +79,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-info mb-0 mt-2">$1.999,50</div>
@@ -88,7 +88,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-moon-o bg-warning p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-warning mb-0 mt-2">$1.999,50</div>
@@ -97,7 +97,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-bell bg-danger p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-danger mb-0 mt-2">$1.999,50</div>
@@ -106,7 +106,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block footer-class="px-3 py-2">
+        <b-card :no-body="true" footer-class="px-3 py-2">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-cogs bg-primary p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-primary mb-0 mt-2">$1.999,50</div>
@@ -118,7 +118,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block footer-class="px-3 py-2">
+        <b-card :no-body="true" footer-class="px-3 py-2">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-info mb-0 mt-2">$1.999,50</div>
@@ -130,7 +130,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block footer-class="px-3 py-2">
+        <b-card :no-body="true" footer-class="px-3 py-2">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-moon-o bg-warning p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-warning mb-0 mt-2">$1.999,50</div>
@@ -142,7 +142,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block footer-class="px-3 py-2">
+        <b-card :no-body="true" footer-class="px-3 py-2">
           <div class="card-body p-3 clearfix">
             <i class="fa fa-bell bg-danger p-3 font-2xl mr-3 float-left"></i>
             <div class="h5 text-danger mb-0 mt-2">$1.999,50</div>
@@ -156,7 +156,7 @@
     </div><!--/.row-->
     <div class="row">
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-cogs bg-primary p-4 font-2xl mr-3 float-left"></i>
             <div class="h5 text-primary mb-0 pt-3">$1.999,50</div>
@@ -165,7 +165,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-laptop bg-info p-4 font-2xl mr-3 float-left"></i>
             <div class="h5 text-info mb-0 pt-3">$1.999,50</div>
@@ -174,7 +174,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-moon-o bg-warning p-4 font-2xl mr-3 float-left"></i>
             <div class="h5 text-warning mb-0 pt-3">$1.999,50</div>
@@ -183,7 +183,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-bell bg-danger p-4 font-2xl mr-3 float-left"></i>
             <div class="h5 text-danger mb-0 pt-3">$1.999,50</div>
@@ -192,7 +192,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-cogs bg-primary p-4 px-5 font-2xl mr-3 float-left"></i>
             <div class="h5 text-primary mb-0 pt-3">$1.999,50</div>
@@ -201,7 +201,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-laptop bg-info p-4 px-5 font-2xl mr-3 float-left"></i>
             <div class="h5 text-info mb-0 pt-3">$1.999,50</div>
@@ -210,7 +210,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-moon-o bg-warning p-4 px-5 font-2xl mr-3 float-left"></i>
             <div class="h5 text-warning mb-0 pt-3">$1.999,50</div>
@@ -219,7 +219,7 @@
         </b-card>
       </div><!--/.col-->
       <div class="col-6 col-lg-3">
-        <b-card no-block>
+        <b-card :no-body="true">
           <div class="card-body p-0 clearfix">
             <i class="fa fa-bell bg-danger p-4 px-5 font-2xl mr-3 float-left"></i>
             <div class="h5 text-danger mb-0 pt-3">$1.999,50</div>

@@ -1,7 +1,7 @@
 <template>
   <router-link :to="url" class="nav-link">
     <i :class="icon"></i> {{name}}
-    <b-badge :variant="badge.variant">{{badge.text}}</b-badge>
+    <b-badge v-if="badge.text" :variant="badge.variant">{{badge.text}}</b-badge>
   </router-link>
 </template>
 
