@@ -21,22 +21,22 @@
                     <!-- Second level dropdown -->
                     <SidebarNavDropdown :name="childL1.name" :url="childL1.url" :icon="childL1.icon">
                       <li class="nav-item" v-for="(childL2, index) in childL1.children">
-                        <SidebarNavLink :name="childL2.name" :url="childL2.url" :icon="childL2.icon" :badge="childL2.badge"/>
+                        <SidebarNavLink :name="childL2.name" :url="childL2.url" :icon="childL2.icon" :badge="childL2.badge" :variant="item.variant"/>
                       </li>
                     </SidebarNavDropdown>
                   </template>
                   <template v-else>
-                    <li class="nav-item">
-                      <SidebarNavLink :name="childL1.name" :url="childL1.url" :icon="childL1.icon" :badge="childL1.badge"/>
-                    </li>
+                    <SidebarNavItem :classes="item.class">
+                      <SidebarNavLink :name="childL1.name" :url="childL1.url" :icon="childL1.icon" :badge="childL1.badge" :variant="item.variant"/>
+                    </SidebarNavItem>
                   </template>
                 </template>
               </SidebarNavDropdown>
             </template>
             <template v-else>
-              <li class="nav-item">
-                <SidebarNavLink :name="item.name" :url="item.url" :icon="item.icon" :badge="item.badge"/>
-              </li>
+              <SidebarNavItem :classes="item.class">
+                <SidebarNavLink :name="item.name" :url="item.url" :icon="item.icon" :badge="item.badge" :variant="item.variant"/>
+              </SidebarNavItem>
             </template>
           </template>
         </template>
@@ -44,15 +44,18 @@
       <slot></slot>
     </nav>
     <SidebarFooter/>
+    <SidebarMinimizer/>
   </div>
 </template>
 <script>
 import SidebarFooter from './SidebarFooter'
 import SidebarForm from './SidebarForm'
 import SidebarHeader from './SidebarHeader'
+import SidebarMinimizer from './SidebarMinimizer'
 import SidebarNavDropdown from './SidebarNavDropdown'
 import SidebarNavLink from './SidebarNavLink'
 import SidebarNavTitle from './SidebarNavTitle'
+import SidebarNavItem from './SidebarNavItem'
 export default {
   name: 'sidebar',
   props: {
@@ -66,9 +69,11 @@ export default {
     SidebarFooter,
     SidebarForm,
     SidebarHeader,
+    SidebarMinimizer,
     SidebarNavDropdown,
     SidebarNavLink,
-    SidebarNavTitle
+    SidebarNavTitle,
+    SidebarNavItem
   },
   methods: {
     handleClick (e) {
