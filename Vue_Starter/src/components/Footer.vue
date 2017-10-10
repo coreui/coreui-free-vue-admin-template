@@ -1,7 +1,7 @@
 <template>
   <footer class="app-footer">
-    <a href="http://coreui.io">CoreUI</a> &copy; 2017 creativeLabs.
-    <span class="float-right">Powered by <a href="http://coreui.io">CoreUI</a></span>
+    <span><a href="http://coreui.io">CoreUI</a> &copy; 2017 creativeLabs.</span>
+    <span class="ml-auto">Powered by <a href="http://coreui.io">CoreUI</a></span>
   </footer>
 </template>
 <script>
