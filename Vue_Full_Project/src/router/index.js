@@ -125,7 +125,7 @@ export default new Router({
     },
     {
       path: '/pages',
-      redirect: '/pages/p404',
+      redirect: '/pages/404',
       name: 'Pages',
       component: {
         render (c) { return c('router-view') }

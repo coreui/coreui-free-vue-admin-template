@@ -81,12 +81,12 @@
           <h4 class="card-title mb-0">Traffic</h4>
           <div class="small text-muted">November 2016</div>
         </div><!--/.col-->
-        <div class="col-sm-7 hidden-sm-down">
+        <div class="col-sm-7 d-none d-md-block">
           <b-button type="button" variant="primary" class="float-right"><i class="icon-cloud-download"></i></b-button>
           <b-button-toolbar class="float-right" aria-label="Toolbar with button groups">
             <b-button-group class="mr-3" aria-label="First group">
               <b-button variant="outline-secondary">Day</b-button>
-              <b-button variant="outline-secondary" :active="true">Month</b-button>
+              <b-button variant="outline-secondary" :pressed="true">Month</b-button>
               <b-button variant="outline-secondary">Year</b-button>
             </b-button-group>
           </b-button-toolbar>
@@ -288,7 +288,7 @@
                   </div>
                 </li>
                 <li class="legend">
-                  <span class="badge badge-pill badge-info"></span> <small>New clients</small> &nbsp; <span class="badge badge-pill badge-danger"></span> <small>Recurring clients</small>
+                  <b-badge pill variant="info"></b-badge> <small>New clients</small> &nbsp; <b-badge pill variant="danger"></b-badge> <small>Recurring clients</small>
                 </li>
               </ul>
             </div><!--/.col-->
@@ -502,13 +502,11 @@
             :fields="tableFields"
             head-variant="default"
             >
-            <template slot="avatar" scope="item">
-              <div class="avatar">
-                <img :src="item.value.url" class="img-avatar" alt="">
-                <span class="avatar-status" v-bind:class="{ 'bg-success': item.value.status == 'success',  'bg-warning': item.value.status == 'warning', 'bg-danger': item.value.status == 'danger', 'bg-secondary': item.value.status == '' }"></span>
-              </div>
-            </template>
-            <template slot="user" scope="item">
+            <div slot="avatar" class="avatar" slot-scope="item">
+              <img :src="item.value.url" class="img-avatar" alt="">
+              <span class="avatar-status" v-bind:class="{ 'bg-success': item.value.status == 'success',  'bg-warning': item.value.status == 'warning', 'bg-danger': item.value.status == 'danger', 'bg-secondary': item.value.status == '' }"></span>
+            </div>
+            <div slot="user" slot-scope="item">
               <div>{{item.value.name}}</div>
               <div class="small text-muted">
                 <span>
@@ -516,11 +514,9 @@
                   <template v-else>Recurring</template>
                 </span> | Registered: {{item.value.registered}}
               </div>
-            </template>
-            <template slot="country" scope="item">
-              <img :src="item.value.flag" :alt="item.value.name" style="height:24px;">
-            </template>
-            <template slot="usage" scope="item">
+            </div>
+            <img slot="country" slot-scope="item" :src="item.value.flag" :alt="item.value.name" style="height:24px;">
+            <div slot="usage" slot-scope="item">
               <div class="clearfix">
                 <div class="float-left">
                   <strong>{{item.value.value}}%</strong>
@@ -530,14 +526,12 @@
                 </div>
               </div>
               <b-progress class="progress-xs" v-model="item.value.value" :variant="variant(item.value.value)"></b-progress>
-            </template>
-            <template slot="payment" scope="item">
-              <i :class="item.value.icon" style="font-size:24px"></i>
-            </template>
-            <template slot="activity" scope="item">
+            </div>
+            <i slot="payment" slot-scope="item" :class="item.value.icon" style="font-size:24px"></i>
+            <div slot="activity" slot-scope="item">
               <div class="small text-muted">Last login</div>
               <strong>{{item.value}}</strong>
-            </template>
+            </div>
           </b-table>
         </b-card>
       </div><!--/.col-->

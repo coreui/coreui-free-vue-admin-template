@@ -34,7 +34,7 @@
         <b-card>
           <div slot="header">
             Card with label
-            <span class="badge badge-success float-right">Success</span>
+            <b-badge variant="success" class="float-right">Success</b-badge>
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
@@ -43,7 +43,7 @@
         <b-card>
           <div slot="header">
             Card with label
-            <span class="badge badge-pill badge-danger float-right">42</span>
+            <b-badge pill variant="danger" class="float-right">42</b-badge>
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>

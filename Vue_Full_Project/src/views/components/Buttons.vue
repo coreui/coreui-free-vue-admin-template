@@ -68,15 +68,15 @@
         </b-card>
         <b-card>
           <div slot="header">
-            <strong>Active state</strong> <small>Add this <code>:active="true"</code></small>
+            <strong>Active state</strong> <small>Add this <code>:pressed="true"</code></small>
           </div>
-          <b-button variant="primary" :active="true">Primary</b-button>
-          <b-button variant="secondary" :active="true">Secondary</b-button>
-          <b-button variant="success" :active="true">Success</b-button>
-          <b-button variant="info" :active="true">Info</b-button>
-          <b-button variant="warning" :active="true">Warning</b-button>
-          <b-button variant="danger" :active="true">Danger</b-button>
-          <b-button variant="link" :active="true">Link</b-button>
+          <b-button variant="primary" :pressed="true">Primary</b-button>
+          <b-button variant="secondary" :pressed="true">Secondary</b-button>
+          <b-button variant="success" :pressed="true">Success</b-button>
+          <b-button variant="info" :pressed="true">Info</b-button>
+          <b-button variant="warning" :pressed="true">Warning</b-button>
+          <b-button variant="danger" :pressed="true">Danger</b-button>
+          <b-button variant="link" :pressed="true">Link</b-button>
         </b-card>
         <b-card>
           <div slot="header">
@@ -152,14 +152,14 @@
         </b-card>
         <b-card>
           <div slot="header">
-            <strong>Active state</strong> <small>Add this <code>:active="true"</code></small>
+            <strong>Active state</strong> <small>Add this <code>:pressed="true"</code></small>
           </div>
-          <b-button variant="outline-primary" :active="true">Primary</b-button>
-          <b-button variant="outline-secondary" :active="true">Secondary</b-button>
-          <b-button variant="outline-success" :active="true">Success</b-button>
-          <b-button variant="outline-info" :active="true">Info</b-button>
-          <b-button variant="outline-warning" :active="true">Warning</b-button>
-          <b-button variant="outline-danger" :active="true">Danger</b-button>
+          <b-button variant="outline-primary" :pressed="true">Primary</b-button>
+          <b-button variant="outline-secondary" :pressed="true">Secondary</b-button>
+          <b-button variant="outline-success" :pressed="true">Success</b-button>
+          <b-button variant="outline-info" :pressed="true">Info</b-button>
+          <b-button variant="outline-warning" :pressed="true">Warning</b-button>
+          <b-button variant="outline-danger" :pressed="true">Danger</b-button>
         </b-card>
         <b-card>
           <div slot="header">
