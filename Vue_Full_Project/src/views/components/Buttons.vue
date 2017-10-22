@@ -68,7 +68,19 @@
         </b-card>
         <b-card>
           <div slot="header">
-            <strong>Active state</strong> <small>Add this <code>:pressed="true"</code></small>
+            <strong>Active state</strong> <small>Add this <code>:active="true"</code></small>
+          </div>
+          <b-button variant="primary" :active="true">Primary</b-button>
+          <b-button variant="secondary" :active="true">Secondary</b-button>
+          <b-button variant="success" :active="true">Success</b-button>
+          <b-button variant="info" :active="true">Info</b-button>
+          <b-button variant="warning" :active="true">Warning</b-button>
+          <b-button variant="danger" :active="true">Danger</b-button>
+          <b-button variant="link" :active="true">Link</b-button>
+        </b-card>
+        <b-card header-tag="header">
+          <div slot="header">
+            <strong>Pressed state</strong> <small>Add this <code>:pressed="true"</code></small>
           </div>
           <b-button variant="primary" :pressed="true">Primary</b-button>
           <b-button variant="secondary" :pressed="true">Secondary</b-button>
@@ -78,6 +90,18 @@
           <b-button variant="danger" :pressed="true">Danger</b-button>
           <b-button variant="link" :pressed="true">Link</b-button>
         </b-card>
+        <b-card>
+          <div slot="header">
+            <strong>Toggle pressed state</strong>
+          </div>
+          <b-button variant="primary" :pressed.sync="myToggle">Primary {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="secondary" :pressed.sync="myToggle">Secondary {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="success" :pressed.sync="myToggle">Success {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="info" :pressed.sync="myToggle">Info {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="warning" :pressed.sync="myToggle">Warning {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="danger" :pressed.sync="myToggle">Danger {{myToggle ? 'On ' : 'Off'}}</b-button>
+        </b-card>
+
         <b-card>
           <div slot="header">
             <strong>Block Level Buttons</strong> <small>Add this <code>:block="true"</code></small>
@@ -130,7 +154,7 @@
         </b-card>
         <b-card>
           <div slot="header">
-            <strong>Size Small</strong> <small>Add this <code>size="sm"</code></small></small>
+            <strong>Size Small</strong> <small>Add this <code>size="sm"</code></small>
           </div>
           <b-button size="sm" variant="outline-primary">Primary</b-button>
           <b-button size="sm" variant="outline-secondary">Secondary</b-button>
@@ -152,7 +176,18 @@
         </b-card>
         <b-card>
           <div slot="header">
-            <strong>Active state</strong> <small>Add this <code>:pressed="true"</code></small>
+            <strong>Active state</strong> <small>Add this <code>:active="true"</code></small>
+          </div>
+          <b-button variant="outline-primary" :active="true">Primary</b-button>
+          <b-button variant="outline-secondary" :active="true">Secondary</b-button>
+          <b-button variant="outline-success" :active="true">Success</b-button>
+          <b-button variant="outline-info" :active="true">Info</b-button>
+          <b-button variant="outline-warning" :active="true">Warning</b-button>
+          <b-button variant="outline-danger" :active="true">Danger</b-button>
+        </b-card>
+        <b-card>
+          <div slot="header">
+            <strong>Pressed state</strong> <small>Add this <code>:pressed="true"</code></small>
           </div>
           <b-button variant="outline-primary" :pressed="true">Primary</b-button>
           <b-button variant="outline-secondary" :pressed="true">Secondary</b-button>
@@ -160,6 +195,17 @@
           <b-button variant="outline-info" :pressed="true">Info</b-button>
           <b-button variant="outline-warning" :pressed="true">Warning</b-button>
           <b-button variant="outline-danger" :pressed="true">Danger</b-button>
+        </b-card>
+        <b-card>
+          <div slot="header">
+            <strong>Toggle pressed state</strong>
+          </div>
+          <b-button variant="outline-primary" :pressed.sync="myToggle">Primary {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="outline-secondary" :pressed.sync="myToggle">Secondary {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="outline-success" :pressed.sync="myToggle">Success {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="outline-info" :pressed.sync="myToggle">Info {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="outline-warning" :pressed.sync="myToggle">Warning {{myToggle ? 'On ' : 'Off'}}</b-button>
+          <b-button variant="outline-danger" :pressed.sync="myToggle">Danger {{myToggle ? 'On ' : 'Off'}}</b-button>
         </b-card>
         <b-card>
           <div slot="header">
@@ -179,6 +225,9 @@
 
 <script>
 export default {
-  name: 'buttons'
+  name: 'buttons',
+  data: () => {
+    return { myToggle: false }
+  }
 }
 </script>

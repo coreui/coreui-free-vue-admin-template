@@ -22,9 +22,9 @@
       <div class="col-sm-6 col-lg-3">
         <b-card class="bg-info" :no-body="true">
           <div class="card-body pb-0">
-            <b-dropdown class="float-right" variant="transparent p-0" right>
+            <b-dropdown class="float-right" variant="transparent p-0" right no-caret>
               <template slot="button-content">
-                <i class="icon-settings"></i>
+                <i class="icon-location-pin"></i>
               </template>
               <b-dropdown-item>Action</b-dropdown-item>
               <b-dropdown-item>Another action</b-dropdown-item>
@@ -497,10 +497,10 @@
             </div><!--/.col-->
           </div><!--/.row-->
           <br/>
-          <b-table class="table-outline mb-0" hover responsive outline
+          <b-table class="table-outline table-responsive-sm b-0" hover
             :items="tableItems"
             :fields="tableFields"
-            head-variant="default"
+            head-variant="light"
             >
             <div slot="avatar" class="avatar" slot-scope="item">
               <img :src="item.value.url" class="img-avatar" alt="">

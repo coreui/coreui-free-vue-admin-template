@@ -10,7 +10,8 @@ const datasets = [
   }
 ]
 
-export default Bar.extend({
+export default {
+  extends: Bar,
   props: ['height'],
   mounted () {
     this.renderChart({
@@ -33,5 +34,5 @@ export default Bar.extend({
       }
     })
   }
-})
+}
 </script>

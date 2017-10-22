@@ -7,7 +7,8 @@ import { Line } from 'vue-chartjs'
 // const brandWarning = '#f8cb00'
 // const brandDanger = '#f86c6b'
 
-export default Line.extend({
+export default {
+  extends: Line,
   props: ['data', 'height', 'width', 'variant'],
   mounted () {
     this.renderChart({
@@ -46,5 +47,5 @@ export default Line.extend({
       }
     })
   }
-})
+}
 </script>

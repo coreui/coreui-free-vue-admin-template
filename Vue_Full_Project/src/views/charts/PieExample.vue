@@ -1,7 +1,8 @@
 <script>
 import { Pie } from 'vue-chartjs'
 
-export default Pie.extend({
+export default {
+  extends: Pie,
   mounted () {
     this.renderChart({
       labels: ['VueJs', 'EmberJs', 'ReactJs', 'AngularJs'],
@@ -18,5 +19,5 @@ export default Pie.extend({
       ]
     }, {responsive: true, maintainAspectRatio: false})
   }
-})
+}
 </script>

@@ -290,7 +290,7 @@
         </div><!--/social-box-->
       </div><!--/.col-->
     </div><!--/.row-->
-    <div class="card-group">
+    <div class="card-group mb-4">
       <b-card>
         <div class="h1 text-muted text-right mb-4">
           <i class="icon-people"></i>

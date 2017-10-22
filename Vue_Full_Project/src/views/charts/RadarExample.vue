@@ -1,7 +1,8 @@
 <script>
 import { Radar } from 'vue-chartjs'
 
-export default Radar.extend({
+export default {
+  extends: Radar,
   mounted () {
     this.renderChart({
       labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
@@ -29,5 +30,5 @@ export default Radar.extend({
       ]
     }, {responsive: true, maintainAspectRatio: false})
   }
-})
+}
 </script>

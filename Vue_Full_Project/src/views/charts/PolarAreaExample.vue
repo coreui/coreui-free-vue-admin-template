@@ -1,7 +1,8 @@
 <script>
 import { PolarArea } from 'vue-chartjs'
 
-export default PolarArea.extend({
+export default {
+  extends: PolarArea,
   mounted () {
     this.renderChart({
       labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
@@ -27,5 +28,5 @@ export default PolarArea.extend({
       ]
     }, {responsive: true, maintainAspectRatio: false})
   }
-})
+}
 </script>

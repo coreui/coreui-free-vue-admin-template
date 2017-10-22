@@ -460,11 +460,11 @@
           </div>
           <div class="card-body">
             <div class="form-group">
-              <label class="form-form-control-label" for="inputSuccess1">Input with success</label>
+              <label class="form-col-form-label" for="inputSuccess1">Input with success</label>
               <input type="text" class="form-control is-valid" id="inputSuccess1">
             </div>
             <div class="form-group">
-              <label class="form-form-control-label" for="inputError1">Input with error</label>
+              <label class="form-col-form-label" for="inputError1">Input with error</label>
               <input type="text" class="form-control is-invalid" id="inputError1">
               <div class="invalid-feedback">
                 Please provide a valid informations.

@@ -1,7 +1,8 @@
 <script>
 import { Line } from 'vue-chartjs'
 
-export default Line.extend({
+export default {
+  extends: Line,
   props: ['data', 'height'],
   mounted () {
     this.renderChart({
@@ -39,5 +40,5 @@ export default Line.extend({
       }
     })
   }
-})
+}
 </script>
