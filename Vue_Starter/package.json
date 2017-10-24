@@ -1,8 +1,11 @@
 {
   "name": "@coreui/vue",
-  "version": "1.0.3",
-  "description": "",
-  "author": "Łukasz Holeczek <lukasz@holeczek.pl>",
+  "version": "1.0.4",
+  "description": "Open Source Bootstrap Admin Template",
+  "author": "Łukasz Holeczek",
+  "homepage": "http://coreui.io",
+  "copyright": "Copyright 2017 creativeLabs Łukasz Holeczek",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -14,6 +17,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "bootstrap": "4.0.0-beta.2",
     "bootstrap-vue": "1.0.0-beta.9",
     "chart.js": "2.7.0",
     "font-awesome": "^4.7.0",
