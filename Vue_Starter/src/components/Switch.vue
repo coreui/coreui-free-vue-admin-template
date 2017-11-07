@@ -4,6 +4,7 @@
            class="switch-input"
            :value="value"
            :checked="isChecked"
+           :disabled="isDisabled"
            @change="handleChange">
     <template v-if="isOn">
       <span class="switch-label" :data-on="on" :data-off="off"></span>
@@ -54,6 +55,12 @@ export default {
     size: {
       type: String,
       default: null
+    },
+    disable: {
+      default: true
+    },
+    disabled: {
+      default: false
     }
   },
   computed: {
@@ -78,6 +85,9 @@ export default {
     switchSize () {
       return this.size ? `switch-${this.size}` : ''
     },
+    isDisabled () {
+      return this.disabled === this.disable
+    },    
     isChecked () {
       return this.checked === this.value
     },
