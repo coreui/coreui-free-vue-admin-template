@@ -14,6 +14,8 @@
           <c-switch type="3d" variant="info" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
           <c-switch type="3d" variant="danger" :checked="true"/>
+          &nbsp;&nbsp;&nbsp;
+          <c-switch type="3d" :disabled="true" variant="danger" :checked="true"/>
         </b-card>
       </div><!--/.col-->
       <div class="col-md-6">

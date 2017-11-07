@@ -90,7 +90,7 @@ export default {
     },
     isDisabled () {
       return this.disabled === this.disable
-    },    
+    },
     isOn () {
       return !this.on ? null : true
     }
