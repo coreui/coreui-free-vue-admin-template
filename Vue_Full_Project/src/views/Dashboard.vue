@@ -497,7 +497,7 @@
             </div><!--/.col-->
           </div><!--/.row-->
           <br/>
-          <b-table class="table-outline table-responsive-sm b-0" hover
+          <b-table class="table-outline table-responsive-sm mb-0" hover
             :items="tableItems"
             :fields="tableFields"
             head-variant="light"
