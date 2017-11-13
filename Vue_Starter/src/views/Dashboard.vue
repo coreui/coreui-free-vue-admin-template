@@ -1,6 +1,6 @@
 <template>
   <div class="animated fadeIn">
-    <p class="text-info">Hello World</p>
+    Hello World
   </div>
 </template>
 

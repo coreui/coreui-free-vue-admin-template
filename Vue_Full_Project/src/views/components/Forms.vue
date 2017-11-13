@@ -205,7 +205,7 @@
             label="Radios"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :plain="true"
               :options="[
                 {text: 'Option 1 ',value: '1'},
@@ -213,45 +213,49 @@
                 {text: 'Option 3 ',value: '3'}
               ]"
               value="1"
-              stacked></b-form-radio>
+              stacked>
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Radios - custom"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :options="[
                 {text: 'Option 1',value: '1'},
                 {text: 'Option 2',value: '2'},
                 {text: 'Option 3',value: '3'}
               ]"
               value="1"
-              stacked></b-form-radio>
+              stacked>
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Inline radios"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :plain="true"
               :options="[
                 {text: 'Option 1 ',value: '1'},
                 {text: 'Option 2 ',value: '2'},
                 {text: 'Option 3 ',value: '3'}
               ]"
-              value="1"></b-form-radio>
+              value="1">
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Inline radios - custom"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :options="[
                 {text: 'Option 1',value: '1'},
                 {text: 'Option 2',value: '2'},
                 {text: 'Option 3',value: '3'}
               ]"
-              value="1"></b-form-radio>
+              value="1">
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Checkboxes"
@@ -460,11 +464,11 @@
           </div>
           <div class="card-body">
             <div class="form-group">
-              <label class="form-col-form-label" for="inputSuccess1">Input with success</label>
+              <label class="col-form-label" for="inputSuccess1">Input with success</label>
               <input type="text" class="form-control is-valid" id="inputSuccess1">
             </div>
             <div class="form-group">
-              <label class="form-col-form-label" for="inputError1">Input with error</label>
+              <label class="col-form-label" for="inputError1">Input with error</label>
               <input type="text" class="form-control is-invalid" id="inputError1">
               <div class="invalid-feedback">
                 Please provide a valid informations.
