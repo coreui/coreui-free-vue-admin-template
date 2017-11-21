@@ -1,23 +1,23 @@
 <template>
   <div class="animated fadeIn">
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
+    <b-row>
+      <b-col sm="6" md="4">
         <b-card header="Card title">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card show-footer>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
           <div slot="footer">Card footer</div>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card header="<i class='fa fa-check'></i> Card with icon">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card>
           <div slot="header">
             Card with switch
@@ -29,8 +29,8 @@
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card>
           <div slot="header">
             Card with label
@@ -38,8 +38,8 @@
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card>
           <div slot="header">
             Card with label
@@ -47,75 +47,75 @@
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
-        <b-card header="Card outline" class="border-primary">
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline" border-variant="primary">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card header="Card outline" class="border-secondary">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline" border-variant="secondary">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card header="Card outline" class="border-success">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline" border-variant="success">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card header="Card outline" class="border-info">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline" border-variant="info">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card header="Card outline" class="border-warning">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline" border-variant="warning">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card header="Card outline" class="border-danger">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card header="Card outline" border-variant="danger">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
+      </b-col>
+    </b-row><!--/.row-->
 
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
-        <b-card variant="accent-primary" header="Card with accent">
+    <b-row>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-primary" header="Card with accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card variant="accent-secondary" header="Card with accent">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-secondary" header="Card with accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card variant="accent-success" header="Card with accent">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-success" header="Card with accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card variant="accent-info" header="Card with accent">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-info" header="Card with accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card variant="accent-warning" header="Card with accent">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-warning" header="Card with accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
-        <b-card variant="accent-danger" header="Card with accent">
+      </b-col>
+      <b-col sm="6" md="4">
+        <b-card class="card-accent-danger" header="Card with accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col sm="6" md="4">
         <b-card class="bg-primary text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -124,8 +124,8 @@
             </footer>
           </blockquote>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card class="bg-success text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -134,8 +134,8 @@
             </footer>
           </blockquote>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card class="bg-info text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -144,8 +144,8 @@
             </footer>
           </blockquote>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card class="bg-warning text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -154,8 +154,8 @@
             </footer>
           </blockquote>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card class="bg-danger text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -164,8 +164,8 @@
             </footer>
           </blockquote>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card class="bg-secondary text-center">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -174,40 +174,40 @@
             </footer>
           </blockquote>
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col sm="6" md="4">
         <b-card header="Card title" class="bg-primary">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card header="Card title" class="bg-success">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card header="Card title" class="bg-info">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card header="Card title" class="bg-warning">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card header="Card title" class="bg-danger">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6 col-md-4">
+      </b-col>
+      <b-col sm="6" md="4">
         <b-card header="Card title" class="bg-secondary">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
+      </b-col>
+    </b-row><!--/.row-->
   </div>
 </template>
 

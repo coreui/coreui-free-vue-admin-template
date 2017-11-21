@@ -201,16 +201,16 @@
           <hr>
           <h6>System Utilization</h6>
           <div class="text-uppercase mb-1 mt-4"><small><b>CPU Usage</b></small></div>
-          <b-progress class="progress-xs" variant="info" :value="25"></b-progress>
+          <b-progress height={} class="progress-xs" variant="info" :value="25"></b-progress>
           <small class="text-muted">348 Processes. 1/4 Cores.</small>
           <div class="text-uppercase mb-1 mt-2"><small><b>Memory Usage</b></small></div>
-          <b-progress class="progress-xs" variant="warning" :value="70"></b-progress>
+          <b-progress height={} class="progress-xs" variant="warning" :value="70"></b-progress>
           <small class="text-muted">11444GB/16384MB</small>
           <div class="text-uppercase mb-1 mt-2"><small><b>SSD 1 Usage</b></small></div>
-          <b-progress class="progress-xs" variant="danger" :value="95"></b-progress>
+          <b-progress height={} class="progress-xs" variant="danger" :value="95"></b-progress>
           <small class="text-muted">243GB/256GB</small>
           <div class="text-uppercase mb-1 mt-2"><small><b>SSD 2 Usage</b></small></div>
-          <b-progress class="progress-xs" variant="success" :value="10"></b-progress>
+          <b-progress height={} class="progress-xs" variant="success" :value="10"></b-progress>
           <small class="text-muted">25GB/256GB</small>
         </div>
       </b-tab>

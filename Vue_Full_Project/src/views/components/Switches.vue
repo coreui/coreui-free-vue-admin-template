@@ -1,7 +1,7 @@
 <template>
   <div class="animated fadeIn">
-    <div class="row">
-      <div class="col-md-12">
+    <b-row>
+      <b-col md="12">
         <b-card header="3d Switch">
           <c-switch type="3d" variant="primary" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -15,8 +15,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="3d" variant="danger" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch default">
           <c-switch type="default" variant="primary" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -30,8 +30,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="default" variant="danger" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch default - pills">
           <c-switch type="default" variant="primary" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -45,8 +45,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="default" variant="danger" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch outline">
           <c-switch type="default" variant="primary-outline" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -60,8 +60,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="default" variant="danger-outline" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch outline - pills">
           <c-switch type="default" variant="primary-outline" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -75,8 +75,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="default" variant="danger-outline" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch outline alternative">
           <c-switch type="default" variant="primary-outline-alt" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -90,8 +90,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="default" variant="danger-outline-alt" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch outline alternative - pills">
           <c-switch type="default" variant="primary-outline-alt" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -105,9 +105,9 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="default" variant="danger-outline-alt" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
+      </b-col>
 
-      <div class="col-md-6">
+      <b-col md="6">
         <b-card header="Switch with text">
           <c-switch type="text" variant="primary" on="On" off="Off" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -121,8 +121,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="text" variant="danger" on="On" off="Off" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with text - pills">
           <c-switch type="text" variant="primary" on="On" off="Off" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -136,8 +136,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="text" variant="danger" on="On" off="Off" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with text outline">
           <c-switch type="text" variant="primary-outline" on="On" off="Off" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -151,8 +151,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="text" variant="danger-outline" on="On" off="Off" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with text outline - pills">
           <c-switch type="text" variant="primary-outline" on="On" off="Off" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -166,8 +166,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="text" variant="danger-outline" on="On" off="Off" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with text outline alternative">
           <c-switch type="text" variant="primary-outline-alt" on="On" off="Off" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -181,8 +181,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="text" variant="danger-outline-alt" on="On" off="Off" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with text outline alternative - pills">
           <c-switch type="text" variant="primary-outline-alt" on="On" off="Off" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -196,9 +196,9 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="text" variant="danger-outline-alt" on="On" off="Off" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
+      </b-col>
 
-      <div class="col-md-6">
+      <b-col md="6">
         <b-card header="Switch with icon">
           <c-switch type="icon" variant="primary" v-bind="{on: '\uf00c', off: '\uf00d'}" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -212,8 +212,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="icon" variant="danger" v-bind="{on: '\uf00c', off: '\uf00d'}" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with icon - pills">
           <c-switch type="icon" variant="primary" v-bind="{on: '\uf00c', off: '\uf00d'}" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -227,8 +227,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="icon" variant="danger" v-bind="{on: '\uf00c', off: '\uf00d'}" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with icon outline">
           <c-switch type="icon" variant="primary-outline" v-bind="{on: '\uf00c', off: '\uf00d'}" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -242,8 +242,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="icon" variant="danger-outline" v-bind="{on: '\uf00c', off: '\uf00d'}" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with icon outline - pills">
           <c-switch type="icon" variant="primary-outline" v-bind="{on: '\uf00c', off: '\uf00d'}" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -257,8 +257,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="icon" variant="danger-outline" v-bind="{on: '\uf00c', off: '\uf00d'}" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with icon outline alternative">
           <c-switch type="icon" variant="primary-outline-alt" v-bind="{on: '\uf00c', off: '\uf00d'}" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -272,8 +272,8 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="icon" variant="danger-outline-alt" v-bind="{on: '\uf00c', off: '\uf00d'}" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card header="Switch with icon outline alternative - pills">
           <c-switch type="icon" variant="primary-outline-alt" v-bind="{on: '\uf00c', off: '\uf00d'}" :pill="true" :checked="true"/>
           &nbsp;&nbsp;&nbsp;
@@ -287,85 +287,53 @@
           &nbsp;&nbsp;&nbsp;
           <c-switch type="icon" variant="danger-outline-alt" v-bind="{on: '\uf00c', off: '\uf00d'}" :pill="true" :checked="true"/>
         </b-card>
-      </div><!--/.col-->
+      </b-col>
 
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-header">
+      <b-col md="12">
+        <b-card no-body>
+          <div slot="header">
             Sizes
           </div>
-          <div class="card-body p-0">
-            <table class="table table-hover table-striped table-align-middle mb-0">
-              <thead>
-                <th>Size</th>
-                <th>Example</th>
-                <th>CSS Class</th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    Large
-                  </td>
-                  <td>
-                    <c-switch type="3d" variant="primary" size="lg" :checked="true"/>
-                  </td>
-                  <td>
-                    Add following code <code>size="lg"</code>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Normal
-                  </td>
-                  <td>
-                    <c-switch type="3d" variant="primary" :checked="true"/>
-                  </td>
-                  <td>
-                    -
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Small
-                  </td>
-                  <td>
-                    <c-switch type="3d" variant="primary" size="sm" :checked="true"/>
-                  </td>
-                  <td>
-                    Add following code <code>size="sm"</code>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Extra small
-                  </td>
-                  <td>
-                    <c-switch type="3d" variant="primary" size="xs" :checked="true"/>
-                  </td>
-                  <td>
-                    Add following code <code>size="xs"</code>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div><!--/.col-->
-    </div><!--/.row-->
+          <b-card-body class="p-0">
+            <b-table hover striped class="table-responsive-sm table-align-middle mb-0" :items="items" :fields="fields">
+              <template slot="example" slot-scope="data">
+                <c-switch :type="data.value.type" :variant="data.value.variant" :size="data.value.size" :checked="data.value.checked"/>
+              </template>
+            </b-table>
+          </b-card-body>
+        </b-card>
+      </b-col>
+    </b-row><!--/.row-->
   </div>
 </template>
 
 <script>
-import cSwitch from '../../components/Switch'
-export default {
-  name: 'switches',
-  components: {
-    cSwitch
-  },
-  computed: {
-    icon (icon) {
-      return icon
+  import cSwitch from '../../components/Switch'
+
+  export default {
+    name: 'switches',
+    components: {
+      cSwitch
+    },
+    computed: {
+      icon (icon) {
+        return icon
+      }
+    },
+    data: () => {
+      return {
+        fields: [
+          {key: 'size'},
+          {key: 'example'},
+          {key: 'css_class', label: 'CSS Class'}
+        ],
+        items: [
+          {size: 'Large', example: {type: '3d', variant: 'primary', size: 'lg', checked: true}, css_class: 'Add following code <code>size="lg"</code>'},
+          {size: 'Normal', example: {type: '3d', variant: 'primary', size: '', checked: true}, css_class: '-'},
+          {size: 'Small', example: {type: '3d', variant: 'primary', size: 'sm', checked: true}, css_class: 'Add following code <code>size="sm"</code>'},
+          {size: 'Extra small', example: {type: '3d', variant: 'primary', size: 'xs', checked: true}, css_class: 'Add following code <code>size="xs"</code>'}
+        ]
+      }
     }
   }
-}
 </script>

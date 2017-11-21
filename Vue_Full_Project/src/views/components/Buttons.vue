@@ -1,7 +1,7 @@
 <template>
   <div class="animated fadeIn">
-    <div class="row">
-      <div class="col-md-6">
+    <b-row>
+      <b-col md="6">
         <b-card>
           <div slot="header">
             <strong>Options</strong>
@@ -114,8 +114,8 @@
           <b-button size="lg" variant="danger" :block="true">Block level button</b-button>
           <b-button size="lg" variant="link" :block="true">Block level button</b-button>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-md-6">
+      </b-col><!--/.col-->
+      <b-col md="6">
         <b-card>
           <div slot="header">
             <strong>Options</strong>
@@ -218,8 +218,8 @@
           <b-button size="lg" variant="outline-warning" :block="true">Block level button</b-button>
           <b-button size="lg" variant="outline-danger" :block="true">Block level button</b-button>
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
+      </b-col><!--/.col-->
+    </b-row><!--/.row-->
   </div>
 </template>
 
