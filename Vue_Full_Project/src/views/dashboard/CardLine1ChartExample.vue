@@ -11,7 +11,8 @@ const datasets = [
   }
 ]
 
-export default Line.extend({
+export default {
+  extends: Line,
   props: ['height'],
   mounted () {
     this.renderChart({
@@ -54,5 +55,5 @@ export default Line.extend({
       }
     })
   }
-})
+}
 </script>

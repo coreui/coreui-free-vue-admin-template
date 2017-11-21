@@ -1,7 +1,7 @@
 <template>
   <div class="animated fadeIn">
-    <div class="row">
-      <div class="col-12">
+    <b-row>
+      <b-col cols="12">
         <b-card>
           <div slot="header">
             <strong>Social Media Button</strong> <small>Usage ex.</small><code style="text-transform:lowercase">&lt;b-button variant="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/b-button&gt;</code>
@@ -91,8 +91,8 @@
             <b-button size="lg" variant="vimeo"><span>Vimeo</span></b-button>
           </p>
         </b-card>
-      </div><!--/.col-->
-      <div class="col-12">
+      </b-col><!--/.col-->
+      <b-col cols="12">
         <b-card>
           <div slot="header">
             <strong>Social Media Button</strong> <small>Only icons. Usage ex.</small> <code style="text-transform:lowercase">&lt;b-button variant="facebook icon"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/b-button&gt;</code>
@@ -182,9 +182,9 @@
             <b-button size="lg" variant="vimeo icon"><span>Vimeo</span></b-button>
           </p>
         </b-card>
-      </div><!--/.col-->
+      </b-col><!--/.col-->
 
-      <div class="col-12">
+      <b-col cols="12">
         <b-card>
           <div slot="header">
             <strong>Social Media Button</strong> <small>Only text. Usage ex.</small> <code style="text-transform:lowercase">&lt;b-button variant="facebook text"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/b-button&gt;</code>
@@ -274,8 +274,8 @@
             <b-button size="lg" variant="vimeo text"><span>Vimeo</span></b-button>
           </p>
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
+      </b-col><!--/.col-->
+    </b-row><!--/.row-->
   </div>
 </template>
 

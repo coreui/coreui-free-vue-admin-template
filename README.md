@@ -1,10 +1,10 @@
+# CoreUI Vue - Free Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Vue%20Admin%20Template%20&url=http://coreui.io/vue/&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+
 ### Check out our Vue Admin Templates and support CoreUI Development
 
 [![Bootstrap Admin Templates Bundle](https://genesisui.com/img/bundle2.png)](https://genesisui.com/bundle.html?support=1)
 
 [Check out Bootstrap Admin Templates Bundle](https://genesisui.com/bundle.html?support=1)
-
-# CoreUI Vue - Free Bootstrap Admin Template
 
 This is Vue.js version of our Bootstrap 4 admin template [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template).
 

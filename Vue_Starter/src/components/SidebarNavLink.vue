@@ -1,5 +1,5 @@
 <template>
-  <div v-if="linkExternal">
+  <div v-if="isExternalLink">
     <a :href="url" :class="classList">
       <i :class="icon"></i> {{name}}
       <b-badge v-if="badge && badge.text" :variant="badge.variant">{{badge.text}}</b-badge>
@@ -14,8 +14,6 @@
 </template>
 
 <script>
-  import isExternal from 'is-url-external'
-
   export default {
     name: 'sidebar-nav-link',
     props: {
@@ -38,20 +36,32 @@
       variant: {
         type: String,
         default: ''
+      },
+      classes: {
+        type: String,
+        default: ''
       }
     },
     computed: {
       classList () {
         return [
           'nav-link',
-          this.linkVariant
+          this.linkVariant,
+          ...this.itemClasses
         ]
       },
       linkVariant () {
         return this.variant ? `nav-link-${this.variant}` : ''
       },
-      linkExternal () {
-        return isExternal(this.url)
+      itemClasses () {
+        return this.classes ? this.classes.split(' ') : []
+      },
+      isExternalLink () {
+        if (this.url.substring(0, 4) === 'http') {
+          return true
+        } else {
+          return false
+        }
       }
     }
   }

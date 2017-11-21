@@ -1,7 +1,8 @@
 <script>
 import { Line } from 'vue-chartjs'
 
-export default Line.extend({
+export default {
+  extends: Line,
   mounted () {
     this.renderChart({
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -14,5 +15,5 @@ export default Line.extend({
       ]
     }, {responsive: true, maintainAspectRatio: false})
   }
-})
+}
 </script>

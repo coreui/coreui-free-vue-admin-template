@@ -20,7 +20,8 @@ function random (min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-export default Line.extend({
+export default {
+  extends: Line,
   props: ['height'],
   mounted () {
     var elements = 27
@@ -95,5 +96,5 @@ export default Line.extend({
       }
     })
   }
-})
+}
 </script>

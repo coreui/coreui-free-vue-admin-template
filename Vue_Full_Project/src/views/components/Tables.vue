@@ -1,355 +1,40 @@
 <template>
   <div class="animated fadeIn">
-    <div class="row">
-      <div class="col-lg-6">
-        <b-card header="<i class='fa fa-align-justify'></i> Simple Table">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Samppa Nori</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Estavan Lykos</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="danger">Banned</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Chetan Mohamed</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <b-badge variant="secondary">Inactive</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Derick Maximinus</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="warning">Pending</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Friderik Dávid</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
-        </b-card>
-      </div><!--/.col-->
 
-      <div class="col-lg-6">
-        <b-card header="<i class='fa fa-align-justify'></i> Striped Table">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Yiorgos Avraamu</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Avram Tarasios</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="danger">Banned</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Quintin Ed</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <b-badge variant="secondary">Inactive</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Enéas Kwadwo</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="warning">Pending</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Agapetus Tadeáš</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
-        </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
+    <b-row>
+      <b-col lg="6">
+        <c-table caption="<i class='fa fa-align-justify'></i> Simple Table"></c-table>
+      </b-col><!--/.col-->
 
-    <div class="row">
+      <b-col lg="6">
+        <c-table striped caption="<i class='fa fa-align-justify'></i> Striped Table"></c-table>
+      </b-col><!--/.col-->
+    </b-row><!--/.row-->
 
-      <div class="col-lg-6">
-        <b-card header="<i class='fa fa-align-justify'></i> Condensed Table">
-          <table class="table table-sm">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Carwyn Fachtna</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Nehemiah Tatius</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="danger">Banned</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Ebbe Gemariah</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <b-badge variant="secondary">Inactive</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Eustorgios Amulius</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="warning">Pending</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Leopold Gáspár</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
-        </b-card>
-      </div><!--/.col-->
+    <b-row>
+      <b-col lg="6">
+        <c-table small caption="<i class='fa fa-align-justify'></i> Condensed Table"></c-table>
+      </b-col><!--/.col-->
 
-      <div class="col-lg-6">
-        <b-card header="<i class='fa fa-align-justify'></i> Bordered Table">
-          <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Pompeius René</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Paĉjo Jadon</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="danger">Banned</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Micheal Mercurius</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <b-badge variant="secondary">Inactive</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Ganesha Dubhghall</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="warning">Pending</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Hiroto Šimun</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
-            <li class="page-item active">
-              <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
-        </b-card>
+      <b-col lg="6">
+        <c-table fixed bordered caption="<i class='fa fa-align-justify'></i> Bordered Table"></c-table>
+      </b-col><!--/.col-->
+    </b-row><!--/.row-->
 
-      </div><!--/.col-->
-    </div><!--/.row-->
-
-    <div class="row">
-      <div class="col-12">
-        <b-card header="<i class='fa fa-align-justify'></i> Combined All Table">
-          <table class="table table-bordered table-striped table-sm">
-            <thead>
-              <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Vishnu Serghei</td>
-                <td>2012/01/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Zbyněk Phoibos</td>
-                <td>2012/02/01</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="danger">Banned</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Einar Randall</td>
-                <td>2012/02/01</td>
-                <td>Admin</td>
-                <td>
-                  <b-badge variant="secondary">Inactive</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Félix Troels</td>
-                <td>2012/03/01</td>
-                <td>Member</td>
-                <td>
-                  <b-badge variant="warning">Pending</b-badge>
-                </td>
-              </tr>
-              <tr>
-                <td>Aulus Agmundr</td>
-                <td>2012/01/21</td>
-                <td>Staff</td>
-                <td>
-                  <b-badge variant="success">Active</b-badge>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <nav>
-            <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="#">Prev</a></li>
-              <li class="page-item active">
-                <a class="page-link" href="#">1</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">4</a></li>
-              <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-          </nav>
-        </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
+    <b-row>
+      <b-col sm="12">
+        <c-table hover striped bordered small fixed caption="<i class='fa fa-align-justify'></i> Combined All Table"></c-table>
+      </b-col>
+    </b-row>
   </div>
 
 </template>
 
 <script>
-export default {
-  name: 'tables'
-}
+  import cTable from './Table.vue'
+
+  export default {
+    name: 'tables',
+    components: {cTable}
+  }
 </script>

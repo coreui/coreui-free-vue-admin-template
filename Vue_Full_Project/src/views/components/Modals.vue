@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <div class="row">
-        <div class="col-12">
+      <b-row>
+        <b-col cols="12">
           <b-card header="Bootstrap Modals">
             <b-button type="button" variant="secondary" @click="myModal = true">Launch demo modal</b-button>
             <b-button type="button" variant="secondary" @click="largeModal = true">Launch large modal</b-button>
@@ -14,8 +14,8 @@
             <b-button type="button" variant="danger" @click="dangerModal = true">Launch danger modal</b-button>
             <b-button type="button" variant="info" @click="infoModal = true">Launch info modal</b-button>
           </b-card>
-        </div><!--/.col-->
-      </div><!--/.row-->
+        </b-col><!--/.col-->
+      </b-row><!--/.row-->
     </div>
 
     <!-- Modal Component -->
@@ -52,7 +52,7 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-success" v-model="successModal" @ok="successModal = false">
+    <b-modal title="Modal title" class="modal-success" v-model="successModal" @ok="successModal = false" ok-variant="success">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -60,7 +60,7 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-warning" v-model="warningModal" @ok="warningModal = false">
+    <b-modal title="Modal title" class="modal-warning" v-model="warningModal" @ok="warningModal = false" ok-variant="warning">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -68,7 +68,7 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-danger" v-model="dangerModal" @ok="dangerModal = false">
+    <b-modal title="Modal title" class="modal-danger" v-model="dangerModal" @ok="dangerModal = false" ok-variant="danger">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -76,7 +76,7 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-info" v-model="infoModal" @ok="infoModal = false">
+    <b-modal title="Modal title" class="modal-info" v-model="infoModal" @ok="infoModal = false" ok-variant="info">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

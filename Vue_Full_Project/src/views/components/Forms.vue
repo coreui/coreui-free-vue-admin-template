@@ -1,51 +1,51 @@
 <template>
   <div class="animated fadeIn">
-    <div class="row">
-      <div class="col-sm-6">
+    <b-row>
+      <b-col sm="6">
         <b-card>
           <div slot="header">
             <strong>Credit Card</strong> <small>Form</small>
           </div>
-          <div class="row">
-            <div class="col-sm-12">
+          <b-row>
+            <b-col sm="12">
               <b-form-fieldset label="Name">
                 <b-form-input type="text" id="name" placeholder="Enter your name"></b-form-input>
               </b-form-fieldset>
-            </div>
-          </div><!--/.row-->
-          <div class="row">
-            <div class="col-sm-12">
+            </b-col>
+          </b-row><!--/.row-->
+          <b-row>
+            <b-col sm="12">
               <b-form-fieldset label="Credit Card Number">
                 <b-form-input type="text" id="ccnumber" placeholder="0000 0000 0000 0000"></b-form-input>
               </b-form-fieldset>
-            </div>
-          </div><!--/.row-->
-          <div class="row">
-            <div class="col-sm-4">
+            </b-col>
+          </b-row><!--/.row-->
+          <b-row>
+            <b-col sm="4">
               <b-form-fieldset label="Month">
                 <b-form-select
                   :plain="true"
                   :options="[1,2,3,4,5,6,7,8,9,10,11,12]">
                 </b-form-select>
               </b-form-fieldset>
-            </div><!--/.col-->
-            <div class="col-sm-4">
+            </b-col><!--/.col-->
+            <b-col sm="4">
               <b-form-fieldset label="Year">
                 <b-form-select
                   :plain="true"
                   :options="[2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025]">
                 </b-form-select>
               </b-form-fieldset>
-            </div><!--/.col-->
-            <div class="col-sm-4">
+            </b-col><!--/.col-->
+            <b-col sm="4">
               <b-form-fieldset label="CVV/CVC">
                 <b-form-input type="text" id="cvv" placeholder="123"></b-form-input>
               </b-form-fieldset>
-            </div><!--/.col-->
-          </div><!--/.row-->
+            </b-col><!--/.col-->
+          </b-row><!--/.row-->
         </b-card>
-      </div><!--/.col-->
-      <div class="col-sm-6">
+      </b-col><!--/.col-->
+      <b-col sm="6">
         <b-card>
           <div slot="header">
             <strong>Company</strong> <small>Form</small>
@@ -59,26 +59,26 @@
           <b-form-fieldset label="Street">
             <b-form-input type="text" id="street" placeholder="Enter street name"></b-form-input>
           </b-form-fieldset>
-          <div class="row">
-            <div class="col-sm-8">
+          <b-row>
+            <b-col sm="8">
               <b-form-fieldset label="City">
                 <b-form-input type="text" id="city" placeholder="Enter your city"></b-form-input>
               </b-form-fieldset>
-            </div><!--/.col-->
-            <div class="col-sm-4">
+            </b-col><!--/.col-->
+            <b-col sm="4">
               <b-form-fieldset label="Postal Code">
                 <b-form-input type="text" id="postal-code" placeholder="Postal Code"></b-form-input>
               </b-form-fieldset>
-            </div><!--/.col-->
-          </div><!--/.row-->
+            </b-col><!--/.col-->
+          </b-row><!--/.row-->
           <b-form-fieldset label="Country">
             <b-form-input type="text" id="country" placeholder="Country name"></b-form-input>
           </b-form-fieldset>
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
-    <div class="row">
-      <div class="col-md-6">
+      </b-col><!--/.col-->
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col md="6">
         <b-card>
           <div slot="header">
             <strong>Basic Form</strong> Elements
@@ -205,7 +205,7 @@
             label="Radios"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :plain="true"
               :options="[
                 {text: 'Option 1 ',value: '1'},
@@ -213,45 +213,49 @@
                 {text: 'Option 3 ',value: '3'}
               ]"
               value="1"
-              stacked></b-form-radio>
+              stacked>
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Radios - custom"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :options="[
                 {text: 'Option 1',value: '1'},
                 {text: 'Option 2',value: '2'},
                 {text: 'Option 3',value: '3'}
               ]"
               value="1"
-              stacked></b-form-radio>
+              stacked>
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Inline radios"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :plain="true"
               :options="[
                 {text: 'Option 1 ',value: '1'},
                 {text: 'Option 2 ',value: '2'},
                 {text: 'Option 3 ',value: '3'}
               ]"
-              value="1"></b-form-radio>
+              value="1">
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Inline radios - custom"
             :label-cols="3"
             :horizontal="true">
-            <b-form-radio
+            <b-form-radio-group
               :options="[
                 {text: 'Option 1',value: '1'},
                 {text: 'Option 2',value: '2'},
                 {text: 'Option 3',value: '3'}
               ]"
-              value="1"></b-form-radio>
+              value="1">
+            </b-form-radio-group>
           </b-form-fieldset>
           <b-form-fieldset
             label="Checkboxes"
@@ -307,23 +311,19 @@
             <strong>Inline</strong> Form
           </div>
           <!-- Bootstrap Vue has some problems with Inline forms that's why we use some standard bootstrap classes -->
-          <b-form :inline="true">
-            <div class="form-group">
-              <label>Name</label>
-              <b-form-input type="text" placeholder="Jane Doe"></b-form-input>
-            </div>
-            <div class="form-group">
-              <label>Email</label>
-              <b-form-input type="email" placeholder="ane.doe@example.com"></b-form-input>
-            </div>
+          <b-form inline>
+            <label class="mr-sm-2" for="inlineInput1">Name: </label>
+            <b-input id="inlineInput1" type="text" placeholder="Jane Doe"></b-input>
+            <label class="mr-sm-2" for="inlineInput2">Email: </label>
+            <b-input id="inlineInput2" type="email" placeholder="jane.doe@example.com"></b-input>
           </b-form>
           <div slot="footer">
             <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
           </div>
         </b-card>
-      </div>
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card>
           <div slot="header">
             <strong>Horizontal</strong> Form
@@ -366,62 +366,62 @@
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
           </div>
         </b-card>
-        <b-card :no-block="true">
+        <b-card no-body :no-block="true">
           <div slot="header">
             Input <strong>Grid</strong>
           </div>
-          <div class="card-body">
-            <div class="form-group row">
-              <div class="col-sm-3">
+          <b-card-body>
+            <b-row class="form-group">
+              <b-col sm="3">
                 <b-form-input type="text" placeholder=".col-sm-3"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-4">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="4">
                 <b-form-input type="text" placeholder=".col-sm-4"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-5">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="5">
                 <b-form-input type="text" placeholder=".col-sm-5"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-6">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="6">
                 <b-form-input type="text" placeholder=".col-sm-6"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-7">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="7">
                 <b-form-input type="text" placeholder=".col-sm-7"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-8">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="8">
                 <b-form-input type="text" placeholder=".col-sm-8"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-9">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="9">
                 <b-form-input type="text" placeholder=".col-sm-9"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-10">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="10">
                 <b-form-input type="text" placeholder=".col-sm-10"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-11">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="11">
                 <b-form-input type="text" placeholder=".col-sm-11"></b-form-input>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-12">
+              </b-col>
+            </b-row>
+            <b-row class="form-group">
+              <b-col sm="12">
                 <b-form-input type="text" placeholder=".col-sm-12"></b-form-input>
-              </div>
-            </div>
-          </div>
+              </b-col>
+            </b-row>
+          </b-card-body>
           <div slot="footer">
             <b-button type="submit" size="sm" variant="primary"><i class="fa fa-user"></i> Login</b-button>
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
@@ -454,28 +454,61 @@
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
           </div>
         </b-card>
-        <b-card :no-block="true">
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col sm="12" md="6">
+        <b-card no-body :no-block="true">
           <div slot="header">
-            <strong>Validation states</strong> Form
+            <strong>Validation feedback</strong> Form
           </div>
-          <div class="card-body">
-            <div class="form-group">
-              <label class="form-form-control-label" for="inputSuccess1">Input with success</label>
-              <input type="text" class="form-control is-valid" id="inputSuccess1">
-            </div>
-            <div class="form-group">
-              <label class="form-form-control-label" for="inputError1">Input with error</label>
-              <input type="text" class="form-control is-invalid" id="inputError1">
-              <div class="invalid-feedback">
-                Please provide a valid informations.
-              </div>
-            </div>
-          </div>
+          <b-card-body>
+            <b-form-group>
+              <label class="col-form-label" for="inputIsValid">Input is valid</label>
+              <input type="text" class="form-control is-valid" id="inputIsValid">
+              <b-form-valid-feedback>
+                Input is valid.
+              </b-form-valid-feedback>
+            </b-form-group>
+            <b-form-group>
+              <label class="col-form-label" for="inputIsInvalid">Input is invalid</label>
+              <input type="text" class="form-control is-invalid" id="inputIsInvalid">
+              <b-form-invalid-feedback>
+                Please provide a valid information.
+              </b-form-invalid-feedback>
+            </b-form-group>
+          </b-card-body>
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
-    <div class="row">
-      <div class="col-sm-4">
+      </b-col>
+      <b-col sm="12" md="6">
+        <b-card no-body :no-block="true">
+          <div slot="header">
+            <strong>Validation feedback</strong> Form
+          </div>
+          <b-card-body>
+            <b-form validated novalidate>
+              <b-form-group label-for="inputSuccess2" label="Non-required input">
+                <b-form-input type="text" class="form-control-success" id="inputSuccess2"></b-form-input>
+                <b-form-valid-feedback>
+                  Input is not required.
+                </b-form-valid-feedback>
+              </b-form-group>
+              <b-form-group label-for="inputError2" label="Required input">
+                <b-form-input type="text" class="form-control-warning" id="inputError2" required></b-form-input>
+                <b-form-valid-feedback>
+                  Input provided.
+                </b-form-valid-feedback>
+                <b-form-invalid-feedback>
+                  Please provide a required input.
+                </b-form-invalid-feedback>
+              </b-form-group>
+            </b-form>
+          </b-card-body>
+        </b-card>
+      </b-col><!--/.col-->
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col sm="4">
         <b-card>
           <div slot="header">
             <strong>Icon/Text</strong> Groups
@@ -500,8 +533,8 @@
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
           </div>
         </b-card>
-      </div>
-      <div class="col-sm-4">
+      </b-col>
+      <b-col sm="4">
         <b-card>
           <div slot="header">
             <strong>Buttons</strong> Groups
@@ -543,8 +576,8 @@
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
           </div>
         </b-card>
-      </div>
-      <div class="col-sm-4">
+      </b-col>
+      <b-col sm="4">
         <b-card>
           <div slot="header">
             <strong>Dropdowns</strong> Groups
@@ -605,54 +638,54 @@
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
           </div>
         </b-card>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col md="6">
         <b-card>
           <div slot="header">
             Use the grid for big devices! <small><code>.col-lg-*</code> <code>.col-md-*</code> <code>.col-sm-*</code></small>
           </div>
-          <div class="form-group row">
-            <div class="col-md-8">
+          <b-row class="form-group">
+            <b-col md="8">
               <b-form-input type="text" placeholder=".col-md-8"></b-form-input>
-            </div>
-            <div class="col-md-4">
+            </b-col>
+            <b-col md="4">
               <b-form-input type="text" placeholder=".col-md-4"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-md-7">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col md="7">
               <b-form-input type="text" placeholder=".col-md-7"></b-form-input>
-            </div>
-            <div class="col-md-5">
+            </b-col>
+            <b-col md="5">
               <b-form-input type="text" placeholder=".col-md-5"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-md-6">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col md="6">
               <b-form-input type="text" placeholder=".col-md-6"></b-form-input>
-            </div>
-            <div class="col-md-6">
+            </b-col>
+            <b-col md="6">
               <b-form-input type="text" placeholder=".col-md-6"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-md-5">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col md="5">
               <b-form-input type="text" placeholder=".col-md-5"></b-form-input>
-            </div>
-            <div class="col-md-7">
+            </b-col>
+            <b-col md="7">
               <b-form-input type="text" placeholder=".col-md-7"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-md-4">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col md="4">
               <b-form-input type="text" placeholder=".col-md-4"></b-form-input>
-            </div>
-            <div class="col-md-8">
+            </b-col>
+            <b-col md="8">
               <b-form-input type="text" placeholder=".col-md-8"></b-form-input>
-            </div>
-          </div>
+            </b-col>
+          </b-row>
           <div slot="footer">
             <b-button type="submit" size="sm" variant="primary">Action</b-button>
             <b-button type="button" size="sm" variant="danger">Action</b-button>
@@ -661,52 +694,52 @@
             <b-button type="button" size="sm" variant="success">Action</b-button>
           </div>
         </b-card>
-      </div>
-      <div class="col-md-6">
+      </b-col>
+      <b-col md="6">
         <b-card>
           <div slot="header">
             Input Grid for small devices! <small> <code>.col-*</code></small>
           </div>
-          <div class="form-group row">
-            <div class="col-4">
+          <b-row class="form-group">
+            <b-col cols="4">
               <b-form-input type="text" placeholder=".col-4"></b-form-input>
-            </div>
-            <div class="col-8">
+            </b-col>
+            <b-col cols="8">
               <b-form-input type="text" placeholder=".col-8"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-5">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col cols="5">
               <b-form-input type="text" placeholder=".col-5"></b-form-input>
-            </div>
-            <div class="col-7">
+            </b-col>
+            <b-col cols="7">
               <b-form-input type="text" placeholder=".col-7"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-6">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col cols="6">
               <b-form-input type="text" placeholder=".col-6"></b-form-input>
-            </div>
-            <div class="col-6">
+            </b-col>
+            <b-col cols="6">
               <b-form-input type="text" placeholder=".col-6"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-7">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col cols="7">
               <b-form-input type="text" placeholder=".col-5"></b-form-input>
-            </div>
-            <div class="col-5">
+            </b-col>
+            <b-col cols="5">
               <b-form-input type="text" placeholder=".col-5"></b-form-input>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-8">
+            </b-col>
+          </b-row>
+          <b-row class="form-group">
+            <b-col cols="8">
               <b-form-input type="text" placeholder=".col-8"></b-form-input>
-            </div>
-            <div class="col-4">
+            </b-col>
+            <b-col cols="4">
               <b-form-input type="text" placeholder=".col-4"></b-form-input>
-            </div>
-          </div>
+            </b-col>
+          </b-row>
           <div slot="footer">
             <b-button type="submit" size="sm" variant="primary">Action</b-button>
             <b-button type="button" size="sm" variant="danger">Action</b-button>
@@ -715,10 +748,10 @@
             <b-button type="button" size="sm" variant="success">Action</b-button>
           </div>
         </b-card>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col sm="4">
         <b-card>
           <div slot="header">
             Example Form
@@ -742,8 +775,8 @@
             <b-button type="submit" size="sm" variant="primary">Submit</b-button>
           </div>
         </b-card>
-      </div>
-      <div class="col-sm-4">
+      </b-col>
+      <b-col sm="4">
         <b-card>
           <div slot="header">
             Example Form
@@ -767,8 +800,8 @@
             <b-button type="submit" class="btn btn-sm btn-secondary">Submit</b-button>
           </div>
         </b-card>
-      </div>
-      <div class="col-sm-4">
+      </b-col>
+      <b-col sm="4">
         <b-card>
           <div slot="header">
             Example Form
@@ -792,10 +825,10 @@
             <b-button type="submit" size="sm" variant="success">Submit</b-button>
           </div>
         </b-card>
-      </div>
-    </div><!--/.row-->
-    <div class="row">
-      <div class="col-lg-12">
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col lg="12">
         <b-card>
           <div slot="header">
             <i class="fa fa-edit"></i> Form Elements
@@ -839,8 +872,8 @@
             <b-button type="button" variant="secondary">Cancel</b-button>
           </div>
         </b-card>
-      </div><!--/.col-->
-    </div><!--/.row-->
+      </b-col><!--/.col-->
+    </b-row><!--/.row-->
   </div>
 </template>
 

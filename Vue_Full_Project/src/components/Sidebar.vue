@@ -10,7 +10,7 @@
             <SidebarNavTitle :name="item.name" :classes="item.class" :wrapper="item.wrapper"/>
           </template>
           <template v-else-if="item.divider">
-            <li class="divider"></li>
+            <SidebarNavDivider :classes="item.class"/>
           </template>
           <template v-else>
             <template v-if="item.children">
@@ -52,6 +52,7 @@ import SidebarFooter from './SidebarFooter'
 import SidebarForm from './SidebarForm'
 import SidebarHeader from './SidebarHeader'
 import SidebarMinimizer from './SidebarMinimizer'
+import SidebarNavDivider from './SidebarNavDivider'
 import SidebarNavDropdown from './SidebarNavDropdown'
 import SidebarNavLink from './SidebarNavLink'
 import SidebarNavTitle from './SidebarNavTitle'
@@ -70,6 +71,7 @@ export default {
     SidebarForm,
     SidebarHeader,
     SidebarMinimizer,
+    SidebarNavDivider,
     SidebarNavDropdown,
     SidebarNavLink,
     SidebarNavTitle,
