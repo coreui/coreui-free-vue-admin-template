@@ -36,17 +36,25 @@
       variant: {
         type: String,
         default: ''
+      },
+      classes: {
+        type: String,
+        default: ''
       }
     },
     computed: {
       classList () {
         return [
           'nav-link',
-          this.linkVariant
+          this.linkVariant,
+          ...this.itemClasses
         ]
       },
       linkVariant () {
         return this.variant ? `nav-link-${this.variant}` : ''
+      },
+      itemClasses () {
+        return this.classes ? this.classes.split(' ') : []
       },
       isExternalLink () {
         if (this.url.substring(0, 4) === 'http') {

@@ -1,6 +1,6 @@
 <template>
   <div class="animated fadeIn">
-    <div class="card-columns cols-2">
+    <b-card-group columns class="card-columns cols-2">
       <b-card header="Line Chart">
         <div class="chart-wrapper">
           <line-example/>
@@ -31,7 +31,7 @@
           <polar-area-example/>
         </div>
       </b-card>
-    </div>
+    </b-card-group>
   </div>
 </template>
 <script>
