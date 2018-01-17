@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'aside'
+  name: 'c-aside'
 }
 </script>

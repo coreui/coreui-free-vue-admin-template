@@ -1,7 +1,9 @@
 <template>
   <div class="animated fadeIn">
     <b-card no-body id="new47">
-      <div slot="header">50 New Icons in 4.7</div>
+      <div slot="header">
+        <i class="fa fa-font-awesome"></i> 50 New Icons in 4.7
+      </div>
       <b-card-body>
         <b-row class="text-center">
           <b-col cols="6" sm="4" md="3" lg="2">
