@@ -34,7 +34,7 @@
   import HeaderDropdown from './HeaderDropdown.vue'
 
   export default {
-    name: 'header',
+    name: 'c-header',
     components: {
       HeaderDropdown
     },
