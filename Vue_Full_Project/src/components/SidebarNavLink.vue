@@ -7,8 +7,10 @@
   </div>
   <div v-else>
     <router-link :to="url" :class="classList">
-      <i :class="icon"></i> {{name}}
-      <b-badge v-if="badge && badge.text" :variant="badge.variant">{{badge.text}}</b-badge>
+      <span @click="hideMobile">
+        <i :class="icon"></i> {{name}}
+        <b-badge v-if="badge && badge.text" :variant="badge.variant">{{badge.text}}</b-badge>
+      </span>
     </router-link>
   </div>
 </template>
@@ -61,6 +63,13 @@
           return true
         } else {
           return false
+        }
+      }
+    },
+    methods: {
+      hideMobile () {
+        if (document.body.classList.contains('sidebar-mobile-show')) {
+          document.body.classList.toggle('sidebar-mobile-show')
         }
       }
     }
