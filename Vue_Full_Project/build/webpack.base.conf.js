@@ -48,17 +48,20 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+        exclude: [/fonts/],
         use: {
           loader: 'file-loader',
           options: {
             name: '[name].[hash:7].[ext]',
             publicPath: '../../',
-            outputPath: utils.assetsPath('img/')
+            outputPath: utils.assetsPath('img/'),
+            emitFile: true
           }
         }
       },
       {
         test: /\.(woff2?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        exclude: [/flags/],
         use: {
           loader: 'file-loader',
           options: {

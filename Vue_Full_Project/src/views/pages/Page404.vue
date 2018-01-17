@@ -8,13 +8,17 @@
             <h4 class="pt-3">Oops! You're lost.</h4>
             <p class="text-muted">The page you are looking for was not found.</p>
           </div>
-          <div class="input-prepend input-group">
-            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+          <b-input-group>
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-search"></i>
+              </span>
+            </div>
             <input id="prependedInput" class="form-control" size="16" type="text" placeholder="What are you looking for?">
-            <span class="input-group-btn">
+            <div class="input-group-append">
               <b-button variant="info">Search</b-button>
-            </span>
-          </div>
+            </div>
+          </b-input-group>
         </b-col>
       </b-row>
     </div>
