@@ -1,5 +1,17 @@
 ## [vue](./README.md) version `changelog`
 
+###### `v1.0.8`
+- update: vue to `2.5.13`
+- update: Bootstrap to `4.0.0-beta.3`
+- update: bootstrap-vue to `1.4.0`
+- chore: dependencies update
+- refactor: `<b-table>` use the prop `responsive="sm"` instead of `class="table-responsive-sm"`
+- fix: `Vue warn:` Do not use built-in or reserved HTML elements as component id: (header, aside, footer, table)
+- feature: some Bootstrap4 components added
+- temp tweaks(b4 beta3): `InputGroupAddon` and `InputGroupButton` 
+- refactor(checkboxes, radios, labels): temp tweaks 
+- feat: mobile sidebar link click closes the sidebar [#18](https://github.com/mrholek/CoreUI-Vue/pull/18)
+
 ###### `v1.0.6`
 - refactor: raw html to `b-row`, `b-col`, `b-card`, `b-button` components
 - fix: Cards.vue: change `variant="accent-` to `class="card-accent-`

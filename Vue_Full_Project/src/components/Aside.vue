@@ -222,7 +222,7 @@
 import Callout from './Callout'
 import cSwitch from './Switch'
 export default {
-  name: 'aside',
+  name: 'c-aside',
   components: {
     Callout,
     cSwitch

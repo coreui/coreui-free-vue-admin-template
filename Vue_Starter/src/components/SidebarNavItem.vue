@@ -1,5 +1,5 @@
 <template>
-  <li :class="classList">
+  <li :class="classList" @click="hideMobile">
     <slot></slot>
   </li>
 </template>
@@ -22,6 +22,13 @@
       },
       itemClasses () {
         return this.classes ? this.classes.split(' ') : ''
+      }
+    },
+    methods: {
+      hideMobile () {
+        if (document.body.classList.contains('sidebar-mobile-show')) {
+          document.body.classList.toggle('sidebar-mobile-show')
+        }
       }
     }
   }
