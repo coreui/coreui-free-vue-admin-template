@@ -1,5 +1,10 @@
 ## [vue](./README.md) version `changelog`
 
+###### `v1.0.9`
+- refactor: Sidebar structure
+- test: initial e2e test added
+- chore: dependencies update
+
 ###### `v1.0.8`
 - update: vue to `2.5.13`
 - update: Bootstrap to `4.0.0-beta.3`
