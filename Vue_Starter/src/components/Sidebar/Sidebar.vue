@@ -12,6 +12,9 @@
           <template v-else-if="item.divider">
             <SidebarNavDivider :classes="item.class"/>
           </template>
+          <template v-else-if="item.label">
+            <SidebarNavLabel :name="item.name" :url="item.url" :icon="item.icon" :label="item.label" :classes="item.class"/>
+          </template>
           <template v-else>
             <template v-if="item.children">
               <!-- First level dropdown -->
@@ -57,6 +60,7 @@ import SidebarNavDropdown from './SidebarNavDropdown'
 import SidebarNavLink from './SidebarNavLink'
 import SidebarNavTitle from './SidebarNavTitle'
 import SidebarNavItem from './SidebarNavItem'
+import SidebarNavLabel from './SidebarNavLabel'
 export default {
   name: 'sidebar',
   props: {
@@ -75,7 +79,8 @@ export default {
     SidebarNavDropdown,
     SidebarNavLink,
     SidebarNavTitle,
-    SidebarNavItem
+    SidebarNavItem,
+    SidebarNavLabel
   },
   methods: {
     handleClick (e) {
