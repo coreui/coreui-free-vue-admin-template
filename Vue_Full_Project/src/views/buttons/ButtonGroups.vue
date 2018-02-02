@@ -7,10 +7,10 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i><strong>Bootstrap button group</strong>
+              <i class="fa fa-align-justify"></i> <strong>Bootstrap button group</strong>
               <div class="card-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/button-group" target="_blank">
-                  <small className="text-muted">docs</small>
+                  <small class="text-muted">docs</small>
                 </a>
               </div>
             </div>
@@ -39,7 +39,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i><strong>Button group</strong> sizing
+              <i class="fa fa-align-justify"></i> <strong>Button group</strong> sizing
             </div>
             <div>
               <b-button-group>
@@ -67,7 +67,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i><strong>Button group</strong> dropdown support
+              <i class="fa fa-align-justify"></i> <strong>Button group</strong> dropdown support
             </div>
             <div>
               <b-button-group>
@@ -95,7 +95,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i><strong>Button group</strong> vertical variation
+              <i class="fa fa-align-justify"></i> <strong>Button group</strong> vertical variation
             </div>
             <div>
               <b-button-group vertical>
@@ -111,10 +111,10 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i><strong>Button toolbar</strong> <small>with button groups</small>
+              <i class="fa fa-align-justify"></i> <strong>Button toolbar</strong> <small>with button groups</small>
                 <div class="card-actions">
                   <a href="https://bootstrap-vue.js.org/docs/components/button-toolbar" target="_blank">
-                    <small className="text-muted">docs</small>
+                    <small class="text-muted">docs</small>
                   </a>
                 </div>
             </div>
@@ -143,18 +143,18 @@
                   <b-btn>Edit</b-btn>
                 </b-button-group>
                 <b-input-group size="sm" class="w-25 mx-1">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">$</span>
-                  </div>
+                  <b-input-group-prepend>
+                    <b-input-group-text>$</b-input-group-text>
+                  </b-input-group-prepend>
                   <b-form-input value="100" class="text-right"></b-form-input>
-                  <div class="input-group-append">
-                    <span class="input-group-text">.00</span>
-                  </div>
+                  <b-input-group-append>
+                    <b-input-group-text>.00</b-input-group-text>
+                  </b-input-group-append>
                 </b-input-group>
                 <b-input-group  size="sm" class="w-25 mx-1">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">Size</span>
-                  </div>
+                  <b-input-group-prepend>
+                    <b-input-group-text>Size</b-input-group-text>
+                  </b-input-group-prepend>
                   <b-form-select value="Medium" :options="['Large','Medium','Small']"></b-form-select>
                 </b-input-group>
                 <b-button-group  size="sm" class="mx-1">

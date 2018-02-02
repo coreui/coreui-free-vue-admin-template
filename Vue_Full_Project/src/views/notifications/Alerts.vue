@@ -7,10 +7,10 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i><strong>Bootstrap Alert</strong>
+              <i class="fa fa-align-justify"></i> <strong>Bootstrap Alert</strong>
               <div class="card-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/alert" target="_blank">
-                  <small className="text-muted">docs</small>
+                  <small class="text-muted">docs</small>
                 </a>
               </div>
             </div>
@@ -31,7 +31,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i> Alert
+              <i class="fa fa-align-justify"></i> Alert
               <small> use <code>.alert-link</code> to provide links</small>
             </div>
             <div>
@@ -69,7 +69,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i>Alerts</strong>
+              <i class="fa fa-align-justify"></i>Alerts</strong>
               <small>with additional content</small>
             </div>
             <b-alert show variant="success">
@@ -91,7 +91,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i>Alerts</strong>
+              <i class="fa fa-align-justify"></i>Alerts</strong>
               <small>dismissible</small>
             </div>
             <div>
@@ -113,7 +113,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i className="fa fa-align-justify"></i>Alerts</strong>
+              <i class="fa fa-align-justify"></i>Alerts</strong>
               <small>auto dismissible</small>
             </div>
             <div>

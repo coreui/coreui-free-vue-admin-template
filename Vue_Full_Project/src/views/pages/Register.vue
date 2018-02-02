@@ -8,30 +8,30 @@
               <h1>Register</h1>
               <p class="text-muted">Create your account</p>
               <b-input-group class="mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="icon-user"></i></span>
-                </div>
+                <b-input-group-prepend>
+                  <b-input-group-text><i class="icon-user"></i></b-input-group-text>
+                </b-input-group-prepend>
                 <input type="text" class="form-control" placeholder="Username">
               </b-input-group>
 
               <b-input-group class="mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">@</span>
-                </div>
+                <b-input-group-prepend>
+                  <b-input-group-text>@</b-input-group-text>
+                </b-input-group-prepend>
                 <input type="text" class="form-control" placeholder="Email">
               </b-input-group>
 
               <b-input-group class="mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="icon-lock"></i></span>
-                </div>
+                <b-input-group-prepend>
+                  <b-input-group-text><i class="icon-lock"></i></b-input-group-text>
+                </b-input-group-prepend>
                 <input type="password" class="form-control" placeholder="Password">
               </b-input-group>
 
               <b-input-group class="mb-4">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="icon-lock"></i></span>
-                </div>
+                <b-input-group-prepend>
+                  <b-input-group-text><i class="icon-lock"></i></b-input-group-text>
+                </b-input-group-prepend>
                 <input type="password" class="form-control" placeholder="Repeat password">
               </b-input-group>
 

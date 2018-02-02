@@ -5,10 +5,10 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navbar</strong>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navbar</strong>
           <div class="card-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/navbar" target="_blank">
-              <small className="text-muted">docs</small>
+              <small class="text-muted">docs</small>
             </a>
           </div>
         </div>
@@ -57,7 +57,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Navbar</strong>
+          <i class="fa fa-align-justify"></i> <strong>Navbar</strong>
           <small>brand</small>
         </div>
         <div>
@@ -74,7 +74,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Navbar</strong>
+          <i class="fa fa-align-justify"></i> <strong>Navbar</strong>
           <small>text</small>
         </div>
         <div>
@@ -93,7 +93,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Navbar</strong>
+          <i class="fa fa-align-justify"></i> <strong>Navbar</strong>
           <small>dropdown</small>
         </div>
         <div>
@@ -123,7 +123,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Navbar</strong>
+          <i class="fa fa-align-justify"></i> <strong>Navbar</strong>
           <small>form</small>
         </div>
         <div>
@@ -139,7 +139,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Navbar</strong>
+          <i class="fa fa-align-justify"></i> <strong>Navbar</strong>
           <small>input group</small>
         </div>
         <div>

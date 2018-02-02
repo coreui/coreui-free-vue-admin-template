@@ -5,10 +5,10 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Tooltips</strong><small><code>v-b-tooltip</code>directive</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Tooltips</strong><small><code>v-b-tooltip</code>directive</small>
           <div class="card-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/tooltip" target="_blank">
-              <small className="text-muted">docs</small>
+              <small class="text-muted">docs</small>
             </a>
           </div>
         </div>
@@ -32,7 +32,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Tooltips</strong><small><code>b-tooltip</code>component</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>b-tooltip</code>component</small>
         </div>
         <b-row>
           <b-col md="6" class="py-4 text-center">
@@ -55,7 +55,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Tooltips</strong><small><code>show</code>prop</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>show</code>prop</small>
         </div>
         <div class="text-center">
           <b-btn id="tooltipButton-1" variant="primary">I have a tooltip</b-btn>
@@ -71,7 +71,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Tooltips</strong><small><code>open close</code>events</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>open close</code>events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
           <div class="p-2">
@@ -91,7 +91,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Tooltips</strong><small><code>enable disable</code>events</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>enable disable</code>events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
           <div class="p-2">
