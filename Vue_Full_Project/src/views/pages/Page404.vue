@@ -9,15 +9,15 @@
             <p class="text-muted">The page you are looking for was not found.</p>
           </div>
           <b-input-group>
-            <div class="input-group-prepend">
-              <span class="input-group-text">
+            <b-input-group-prepend>
+              <b-input-group-text>
                 <i class="fa fa-search"></i>
-              </span>
-            </div>
+              </b-input-group-text>
+            </b-input-group-prepend>
             <input id="prependedInput" class="form-control" size="16" type="text" placeholder="What are you looking for?">
-            <div class="input-group-append">
+            <b-input-group-append>
               <b-button variant="info">Search</b-button>
-            </div>
+            </b-input-group-append>
           </b-input-group>
         </b-col>
       </b-row>

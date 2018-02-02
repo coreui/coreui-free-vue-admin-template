@@ -1,5 +1,15 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v1.0.10`
+- fix: `className` -> `class`
+- refactor: `<b-input-group-prepend>`
+- refactor: `<b-input-group-append>`
+- refactor: `<b-input-group-text>`
+- refactor: remove `<b-input-group-button>`
+- test: initial `Dashboard` unit test added
+- update: bootstrap-vue to `2.0.0-rc.1`
+- chore: dependencies update
+
 ###### `v1.0.9`
 - refactor: Sidebar structure
 - test: initial e2e test added

@@ -5,10 +5,10 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navs</strong>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong>
           <div class="card-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/nav" target="_blank">
-              <small className="text-muted">docs</small>
+              <small class="text-muted">docs</small>
             </a>
           </div>
         </div>
@@ -25,7 +25,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navs</strong> <small>tab style</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>tab style</small>
         </div>
         <div>
           <b-nav tabs>
@@ -40,7 +40,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navs</strong> <small>pill style</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>pill style</small>
         </div>
         <div>
           <b-nav pills>
@@ -55,7 +55,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navs</strong> <small>fill tabs</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>fill tabs</small>
         </div>
         <div>
           <b-nav fill tabs>
@@ -70,7 +70,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navs</strong> <small>justified tabs</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>justified tabs</small>
         </div>
         <div>
           <b-nav justified tabs>
@@ -85,7 +85,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navs</strong> <small>dropdown support</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>dropdown support</small>
         </div>
         <div>
           <b-nav pills>
@@ -104,7 +104,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Navs</strong> <small>vertical variation</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>vertical variation</small>
         </div>
         <div>
           <b-nav vertical class="w-25">
