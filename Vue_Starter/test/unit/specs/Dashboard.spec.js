@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Dashboard from '@/views/Dashboard'
 
-describe('Dashboard.vue', () => {
+describe('Dashboard', () => {
   it('should render correct contents', () => {
     const Constructor = Vue.extend(Dashboard)
     const vm = new Constructor().$mount()
