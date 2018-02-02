@@ -5,10 +5,10 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Popovers</strong>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Popovers</strong>
           <div class="card-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/popovers" target="_blank">
-              <small className="text-muted">docs</small>
+              <small class="text-muted">docs</small>
             </a>
           </div>
         </div>
@@ -35,7 +35,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Popovers</strong>
+          <i class="fa fa-align-justify"></i> <strong>Popovers</strong>
           <small>placement</small>
         </div>
         <div class="my-3">
@@ -59,7 +59,7 @@
               header-tag="header"
               footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Popovers</strong>
+          <i class="fa fa-align-justify"></i> <strong>Popovers</strong>
           <small>via properties or slots</small>
         </div>
         <b-row>
@@ -86,7 +86,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Popovers</strong>
+          <i class="fa fa-align-justify"></i> <strong>Popovers</strong>
           <small>show</small>
         </div>
         <div class="d-flex flex-column text-md-center">
@@ -106,7 +106,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Popover</strong>
+          <i class="fa fa-align-justify"></i> <strong>Popover</strong>
           <small>open/close events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
@@ -127,7 +127,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Popover</strong>
+          <i class="fa fa-align-justify"></i> <strong>Popover</strong>
           <small>enable/disable events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
@@ -148,7 +148,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Popover</strong><small><code>v-b-popover</code>directive</small>
+          <i class="fa fa-align-justify"></i> <strong>Popover</strong><small><code>v-b-popover</code>directive</small>
         </div>
         <b-row>
           <b-col md="3" class="py-3 text-center">

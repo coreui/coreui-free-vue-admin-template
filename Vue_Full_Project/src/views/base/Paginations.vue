@@ -5,10 +5,10 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Bootstrap Pagination</strong>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Pagination</strong>
           <div class="card-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/pagination" target="_blank">
-              <small className="text-muted">docs</small>
+              <small class="text-muted">docs</small>
             </a>
           </div>
         </div>
@@ -37,7 +37,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Pagination</strong>
+          <i class="fa fa-align-justify"></i> <strong>Pagination</strong>
           <small>alignment</small>
         </div>
         <div>
@@ -63,11 +63,11 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i className="fa fa-align-justify"></i><strong>Pagination</strong>
+          <i class="fa fa-align-justify"></i> <strong>Pagination</strong>
           <small>navigation</small>
           <div class="card-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/pagination" target="_blank">
-              <small className="text-muted">docs</small>
+              <small class="text-muted">docs</small>
             </a>
           </div>
         </div>
