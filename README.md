@@ -2,9 +2,9 @@
 
 ### Check out our Vue Admin Templates and support CoreUI Development
 
-[![Bootstrap Admin Templates Bundle](https://genesisui.com/img/bundle2.png)](https://genesisui.com/bundle.html?support=1)
+[![Bootstrap Admin Templates Bundle](https://genesisui.com/img/bundle2.png)](https://genesisui.com/admin-templates/vuejs/prime/?support=1)
 
-[Check out Bootstrap Admin Templates Bundle](https://genesisui.com/bundle.html?support=1)
+[Check out Bootstrap Admin Templates Bundle](https://genesisui.com/admin-templates/vuejs/prime/?support=1)
 
 This is Vue.js version of our Bootstrap 4 admin template [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template).
 
