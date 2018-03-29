@@ -78,7 +78,7 @@
           <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>variants</small>
         </div>
         <div>
-          <div v-for="bar in bars" class="row mb-1">
+          <div :key="index" v-for="(bar, index) in bars" class="row mb-1">
             <div class="col-sm-2">{{ bar.variant }}:</div>
             <div class="col-sm-10 pt-1">
               <b-progress :value="bar.value"
@@ -133,12 +133,12 @@
             <b-progress-bar variant="success" :value="values[1]"></b-progress-bar>
             <b-progress-bar variant="info" :value="values[2]"></b-progress-bar>
           </b-progress>
-          <b-progress show-progress :max="max3" class="mb-3"></b-progress-bar>
+          <b-progress show-progress :max="max3" class="mb-3">
             <b-progress-bar variant="primary" :value="values[0]"></b-progress-bar>
             <b-progress-bar variant="success" :value="values[1]"></b-progress-bar>
             <b-progress-bar variant="info" :value="values[2]"></b-progress-bar>
           </b-progress>
-          <b-progress show-value striped :max="max3" class="mb-3"></b-progress-bar>
+          <b-progress show-value striped :max="max3" class="mb-3">
             <b-progress-bar variant="primary" :value="values[0]"></b-progress-bar>
             <b-progress-bar variant="success" :value="values[1]"></b-progress-bar>
             <b-progress-bar variant="info" :value="values[2]"></b-progress-bar>
@@ -155,50 +155,50 @@
 </template>
 
 <script>
-  export default {
-    name: 'progress-bars',
-    data () {
-      return {
-        counter: 45,
-        max: 100,
-        max2: 50,
-        value: 33.333333333,
-        value3: 75,
-        bars: [
-          {variant: 'success', value: 75},
-          {variant: 'info', value: 75},
-          {variant: 'warning', value: 75},
-          {variant: 'danger', value: 75},
-          {variant: 'primary', value: 75},
-          {variant: 'secondary', value: 75},
-          {variant: 'dark', value: 75}
-        ],
-        timer: null,
-        striped: true,
-        animate: true,
-        max3: 100,
-        values: [ 15, 30, 20 ]
-      }
-    },
-    methods: {
-      clicked () {
-        this.counter = Math.random() * this.max
-        console.log('Change progress to ' +
-          Math.round(this.counter * 100) / 100)
-      }
-    },
-    mounted () {
-      this.timer = setInterval(() => {
-        this.bars.forEach(bar => {
-          bar.value = 25 + (Math.random() * 75)
-        })
-      }, 2000)
-    },
-    beforeDestroy () {
-      clearInterval(this.timer)
-      this.timer = null
+export default {
+  name: 'progress-bars',
+  data () {
+    return {
+      counter: 45,
+      max: 100,
+      max2: 50,
+      value: 33.333333333,
+      value3: 75,
+      bars: [
+        {variant: 'success', value: 75},
+        {variant: 'info', value: 75},
+        {variant: 'warning', value: 75},
+        {variant: 'danger', value: 75},
+        {variant: 'primary', value: 75},
+        {variant: 'secondary', value: 75},
+        {variant: 'dark', value: 75}
+      ],
+      timer: null,
+      striped: true,
+      animate: true,
+      max3: 100,
+      values: [ 15, 30, 20 ]
     }
+  },
+  methods: {
+    clicked () {
+      this.counter = Math.random() * this.max
+      console.log('Change progress to ' +
+          Math.round(this.counter * 100) / 100)
+    }
+  },
+  mounted () {
+    this.timer = setInterval(() => {
+      this.bars.forEach(bar => {
+        bar.value = 25 + (Math.random() * 75)
+      })
+    }, 2000)
+  },
+  beforeDestroy () {
+    clearInterval(this.timer)
+    this.timer = null
   }
+}
 </script>
 
 <style scoped>

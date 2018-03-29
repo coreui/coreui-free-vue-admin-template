@@ -157,9 +157,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'navbars'
-  }
+export default {
+  name: 'navbars'
+}
 </script>
 
 <style scoped>

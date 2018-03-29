@@ -1,5 +1,11 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v1.0.11`
+- refactor: project directory structure
+- update: vuejs-templates/webpack to `1.3.1`
+- update: vue to `2.5.13`
+- chore: dependencies update
+
 ##### `v1.0.10`
 - fix: `className` -> `class`
 - refactor: `<b-input-group-prepend>`
@@ -33,7 +39,7 @@
 - refactor: Modal's ok-button variants
 - refactor: forms with validation feedback
 - update: bootstrap-vue to `1.1.0`
-- update: to vue: `2.5.6`
+- update: vue to `2.5.6`
 
 ###### `v1.0.5`
 - update: bootstrap-vue to `1.0.x`

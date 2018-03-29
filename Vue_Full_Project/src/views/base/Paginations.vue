@@ -87,19 +87,19 @@
 </template>
 
 <script>
-  export default {
-    name: 'paginations',
-    data () {
-      return {
-        currentPage: 3
-      }
-    },
-    methods: {
-      linkGen (pageNum) {
-        return '#page/' + pageNum + '/foobar'
-      }
+export default {
+  name: 'paginations',
+  data () {
+    return {
+      currentPage: 3
+    }
+  },
+  methods: {
+    linkGen (pageNum) {
+      return '#page/' + pageNum + '/foobar'
     }
   }
+}
 </script>
 
 <style scoped>

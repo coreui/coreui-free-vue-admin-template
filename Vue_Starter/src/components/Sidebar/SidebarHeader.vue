@@ -1,5 +1,6 @@
 <template>
-  <!-- <div class="sidebar-header"></div> -->
+  <div></div>
+  <!--<div class="sidebar-header"></div>-->
 </template>
 <script>
 

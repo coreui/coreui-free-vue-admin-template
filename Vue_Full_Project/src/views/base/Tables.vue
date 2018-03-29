@@ -31,10 +31,10 @@
 </template>
 
 <script>
-  import cTable from './Table.vue'
+import cTable from './Table.vue'
 
-  export default {
-    name: 'tables',
-    components: {cTable}
-  }
+export default {
+  name: 'tables',
+  components: {cTable}
+}
 </script>
