@@ -1,6 +1,6 @@
 <template>
   <div class="animated fadeIn">
-    <b-card no-body id="new47">
+    <b-card no-body id="flags">
       <div slot="header">
         <i class="fa fa-font-awesome"></i> Flags
       </div>

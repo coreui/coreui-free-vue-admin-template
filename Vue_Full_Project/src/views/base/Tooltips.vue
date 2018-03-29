@@ -5,7 +5,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Tooltips</strong><small><code>v-b-tooltip</code>directive</small>
+          <i class="fa fa-align-justify"></i> <strong>Bootstrap Tooltips</strong> <small><code>v-b-tooltip</code> directive</small>
           <div class="card-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/tooltip" target="_blank">
               <small class="text-muted">docs</small>
@@ -32,7 +32,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>b-tooltip</code>component</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong> <small><code>b-tooltip</code> component</small>
         </div>
         <b-row>
           <b-col md="6" class="py-4 text-center">
@@ -55,7 +55,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>show</code>prop</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong> <small><code>show</code> prop</small>
         </div>
         <div class="text-center">
           <b-btn id="tooltipButton-1" variant="primary">I have a tooltip</b-btn>
@@ -71,7 +71,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>open close</code>events</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong> <small><code>open close</code> events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
           <div class="p-2">
@@ -91,7 +91,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>enable disable</code>events</small>
+          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong> <small><code>enable disable</code> events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
           <div class="p-2">
@@ -117,30 +117,30 @@
 </template>
 
 <script>
-  export default {
-    name: 'tooltips',
-    data () {
-      return {
-        show: true,
-        disabled: false
-      }
+export default {
+  name: 'tooltips',
+  data () {
+    return {
+      show: true,
+      disabled: false
+    }
+  },
+  methods: {
+    onOpen () {
+      this.$refs.tooltip.$emit('open')
     },
-    methods: {
-      onOpen () {
-        this.$refs.tooltip.$emit('open')
-      },
-      onClose () {
-        this.$refs.tooltip.$emit('close')
-      },
-      disableByRef () {
-        if (this.disabled) {
-          this.$refs.tooltip2.$emit('enable')
-        } else {
-          this.$refs.tooltip2.$emit('disable')
-        }
+    onClose () {
+      this.$refs.tooltip.$emit('close')
+    },
+    disableByRef () {
+      if (this.disabled) {
+        this.$refs.tooltip2.$emit('enable')
+      } else {
+        this.$refs.tooltip2.$emit('disable')
       }
     }
   }
+}
 </script>
 
 <style scoped>

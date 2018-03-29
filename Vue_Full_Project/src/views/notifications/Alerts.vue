@@ -31,8 +31,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> Alert
-              <small> use <code>.alert-link</code> to provide links</small>
+              <i class="fa fa-align-justify"></i> Alert <small> use <code>.alert-link</code> to provide links</small>
             </div>
             <div>
               <b-alert show variant="primary">
@@ -69,8 +68,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts</strong>
-              <small>with additional content</small>
+              <i class="fa fa-align-justify"></i> Alerts <small>with additional content</small>
             </div>
             <b-alert show variant="success">
               <h4 class="alert-heading">Well done!</h4>
@@ -91,8 +89,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts</strong>
-              <small>dismissible</small>
+              <i class="fa fa-align-justify"></i> Alerts <small>dismissible</small>
             </div>
             <div>
               <b-alert show dismissible>
@@ -113,8 +110,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts</strong>
-              <small>auto dismissible</small>
+              <i class="fa fa-align-justify"></i> Alerts <small>auto dismissible</small>
             </div>
             <div>
               <b-alert :show="dismissCountDown"
@@ -148,22 +144,22 @@
 </template>
 
 <script>
-  export default {
-    name: 'alerts',
-    data () {
-      return {
-        dismissSecs: 10,
-        dismissCountDown: 0,
-        showDismissibleAlert: false
-      }
+export default {
+  name: 'alerts',
+  data () {
+    return {
+      dismissSecs: 10,
+      dismissCountDown: 0,
+      showDismissibleAlert: false
+    }
+  },
+  methods: {
+    countDownChanged (dismissCountDown) {
+      this.dismissCountDown = dismissCountDown
     },
-    methods: {
-      countDownChanged (dismissCountDown) {
-        this.dismissCountDown = dismissCountDown
-      },
-      showAlert () {
-        this.dismissCountDown = this.dismissSecs
-      }
+    showAlert () {
+      this.dismissCountDown = this.dismissSecs
     }
   }
+}
 </script>

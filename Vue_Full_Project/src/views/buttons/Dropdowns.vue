@@ -175,7 +175,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong><small><code>variant</code></small>
+              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong> <small><code>variant</code></small>
             </div>
             <b-dropdown size="sm" id="ddown_primary" text="Primary" variant="primary" class="m-0">
               <b-dropdown-item>First Action</b-dropdown-item>
@@ -230,7 +230,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'dropdowns'
-  }
+export default {
+  name: 'dropdowns'
+}
 </script>
