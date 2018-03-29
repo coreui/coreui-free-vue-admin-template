@@ -118,6 +118,12 @@
             <b-form-input id="basicText" type="text" placeholder="Text"></b-form-input>
           </b-form-group>
           <b-form-group
+            label="Date" label-for="date"
+            :label-cols="3"
+            :horizontal="true">
+            <b-form-input type="date" id="date"></b-form-input>
+          </b-form-group>
+          <b-form-group
             description="Please enter your email"
             label="Email Input"
             label-for="basicEmail"

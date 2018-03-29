@@ -19,11 +19,10 @@
       </b-nav-item-dropdown>
 </template>
 <script>
-  export default {
-    name: 'header-dropdown',
-    data: () => {
-      return { itemsCount: 42 }
-    }
+export default {
+  name: 'header-dropdown',
+  data: () => {
+    return { itemsCount: 42 }
   }
+}
 </script>
-

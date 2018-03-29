@@ -7,29 +7,29 @@
       <ul class="nav">
         <template v-for="(item, index) in navItems">
           <template v-if="item.title">
-            <SidebarNavTitle :name="item.name" :classes="item.class" :wrapper="item.wrapper"/>
+            <SidebarNavTitle :key="index" :name="item.name" :classes="item.class" :wrapper="item.wrapper"/>
           </template>
           <template v-else-if="item.divider">
-            <SidebarNavDivider :classes="item.class"/>
+            <SidebarNavDivider :key="index" :classes="item.class"/>
           </template>
           <template v-else-if="item.label">
-            <SidebarNavLabel :name="item.name" :url="item.url" :icon="item.icon" :label="item.label" :classes="item.class"/>
+            <SidebarNavLabel :key="index" :name="item.name" :url="item.url" :icon="item.icon" :label="item.label" :classes="item.class"/>
           </template>
           <template v-else>
             <template v-if="item.children">
               <!-- First level dropdown -->
-              <SidebarNavDropdown :name="item.name" :url="item.url" :icon="item.icon">
+              <SidebarNavDropdown :key="index" :name="item.name" :url="item.url" :icon="item.icon">
                 <template v-for="(childL1, index) in item.children">
                   <template v-if="childL1.children">
                     <!-- Second level dropdown -->
-                    <SidebarNavDropdown :name="childL1.name" :url="childL1.url" :icon="childL1.icon">
-                      <li class="nav-item" v-for="(childL2, index) in childL1.children">
+                    <SidebarNavDropdown :key="index" :name="childL1.name" :url="childL1.url" :icon="childL1.icon">
+                      <li class="nav-item" :key="index2" v-for="(childL2, index2) in childL1.children">
                         <SidebarNavLink :name="childL2.name" :url="childL2.url" :icon="childL2.icon" :badge="childL2.badge" :variant="item.variant"/>
                       </li>
                     </SidebarNavDropdown>
                   </template>
                   <template v-else>
-                    <SidebarNavItem :classes="item.class">
+                    <SidebarNavItem :key="index" :classes="item.class">
                       <SidebarNavLink :name="childL1.name" :url="childL1.url" :icon="childL1.icon" :badge="childL1.badge" :variant="item.variant"/>
                     </SidebarNavItem>
                   </template>
@@ -37,7 +37,7 @@
               </SidebarNavDropdown>
             </template>
             <template v-else>
-              <SidebarNavItem :classes="item.class">
+              <SidebarNavItem :key="index" :classes="item.class">
                 <SidebarNavLink :name="item.name" :url="item.url" :icon="item.icon" :badge="item.badge" :variant="item.variant"/>
               </SidebarNavItem>
             </template>
