@@ -12,31 +12,31 @@
 </template>
 
 <script>
-  export default {
-    props: {
-      name: {
-        type: String,
-        default: ''
-      },
-      classes: {
-        type: String,
-        default: ''
-      },
-      wrapper: {
-        type: Object,
-        default: () => {}
-      }
+export default {
+  props: {
+    name: {
+      type: String,
+      default: ''
     },
-    computed: {
-      classList () {
-        return [
-          'nav-title',
-          ...this.itemClasses
-        ]
-      },
-      itemClasses () {
-        return this.classes ? this.classes.split(' ') : ''
-      }
+    classes: {
+      type: String,
+      default: ''
+    },
+    wrapper: {
+      type: Object,
+      default: () => {}
+    }
+  },
+  computed: {
+    classList () {
+      return [
+        'nav-title',
+        ...this.itemClasses
+      ]
+    },
+    itemClasses () {
+      return this.classes ? this.classes.split(' ') : ''
     }
   }
+}
 </script>

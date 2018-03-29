@@ -8,19 +8,21 @@ export default {
 }
 </script>
 
-<style>
-  /* Import Font Awesome Icons Set */
-  @import '~flag-icon-css/css/flag-icon.min.css';
+<style lang="scss">
   /* Import Font Awesome Icons Set */
   $fa-font-path: '~font-awesome/fonts/';
-  @import '~font-awesome/css/font-awesome.min.css';
+  @import '~font-awesome/scss/font-awesome.scss';
   /* Import Simple Line Icons Set */
   $simple-line-font-path: '~simple-line-icons/fonts/';
-  @import '~simple-line-icons/css/simple-line-icons.css';
+  @import '~simple-line-icons/scss/simple-line-icons.scss';
+</style>
+<style>
+  /* Import Flag Icons Set */
+  @import 'flag-icon-css/css/flag-icon.min.css';
   /* Import Bootstrap Vue Styles */
-  @import '~bootstrap-vue/dist/bootstrap-vue.css';
+  @import 'bootstrap-vue/dist/bootstrap-vue.css';
 </style>
 <style lang="scss">
   // Import Main styles for this application
-  @import './scss/style';
+  @import './assets/scss/style';
 </style>

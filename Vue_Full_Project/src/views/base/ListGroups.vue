@@ -245,9 +245,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'list-groups'
-  }
+export default {
+  name: 'list-groups'
+}
 </script>
 
 <style scoped>
