@@ -8,14 +8,14 @@
               <b-card-body>
                 <h1>Login</h1>
                 <p class="text-muted">Sign In to your account</p>
-                <div class="input-group mb-3">
-                  <span class="input-group-addon"><i class="icon-user"></i></span>
+                <b-input-group class="mb-3">
+                  <b-input-group-prepend><b-input-group-text><i class="icon-user"></i></b-input-group-text></b-input-group-prepend>
                   <input type="text" class="form-control" placeholder="Username">
-                </div>
-                <div class="input-group mb-4">
-                  <span class="input-group-addon"><i class="icon-lock"></i></span>
+                </b-input-group>
+                <b-input-group class="mb-4">
+                  <b-input-group-prepend><b-input-group-text><i class="icon-lock"></i></b-input-group-text></b-input-group-prepend>
                   <input type="password" class="form-control" placeholder="Password">
-                </div>
+                </b-input-group>
                 <b-row>
                   <b-col cols="6">
                     <b-button variant="primary" class="px-4">Login</b-button>
