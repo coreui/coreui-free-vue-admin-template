@@ -390,7 +390,7 @@
           </div>
           <div class="h4 mb-0">972</div>
           <small class="text-muted text-uppercase font-weight-bold">Comments</small>
-          <b-progress height={} class="progress-xs mt-3 mb-0"variant="info" :value="25"/>
+          <b-progress height={} class="progress-xs mt-3 mb-0" variant="info" :value="25"/>
         </b-card>
       </b-col>
     </b-row><!--/.row-->
