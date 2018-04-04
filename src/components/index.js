@@ -1,17 +1,32 @@
-import Aside from './Aside.vue'
-import Breadcrumb from './Breadcrumb.vue'
-import Callout from './Callout.vue'
-import Footer from './Footer.vue'
-import Header from './Header/Header.vue'
-import Sidebar from './Sidebar/Sidebar.vue'
-import Switch from './Switch.vue'
+import Breadcrumb from './Breadcrumb/Breadcrumb'
+import Callout from './Callout/Callout'
+import Footer from './Footer/Footer'
+import Switch from './Switch/Switch'
+
+import { Aside, AsideToggler } from './Aside'
+import { Header, HeaderDropdown } from './Header'
+import { Sidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, SidebarNavDivider, SidebarNavItem, SidebarNavDropdown, SidebarNavLabel, SidebarNavLink, SidebarNavTitle, SidebarToggler } from './Sidebar'
 
 export {
   Aside,
+  AsideToggler,
   Breadcrumb,
   Callout,
   Footer,
   Header,
+  HeaderDropdown,
   Sidebar,
+  SidebarFooter,
+  SidebarForm,
+  SidebarHeader,
+  SidebarMinimizer,
+  SidebarNav,
+  SidebarNavDivider,
+  SidebarNavItem,
+  SidebarNavDropdown,
+  SidebarNavLabel,
+  SidebarNavLink,
+  SidebarNavTitle,
+  SidebarToggler,
   Switch
 }
