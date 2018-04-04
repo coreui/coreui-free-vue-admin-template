@@ -1,13 +1,13 @@
 <template>
   <div v-if="isExternalLink">
     <a :href="url" :class="classList">
-      <i :class="classIcon"></i> {{name}}
+      <i :class="icon"></i> {{name}}
       <b-badge v-if="badge && badge.text" :variant="badge.variant">{{badge.text}}</b-badge>
     </a>
   </div>
   <div v-else>
     <router-link :to="url" :class="classList">
-      <i :class="classIcon"></i> {{name}}
+      <i :class="icon"></i> {{name}}
       <b-badge v-if="badge && badge.text" :variant="badge.variant">{{badge.text}}</b-badge>
     </router-link>
   </div>
@@ -48,12 +48,6 @@
           'nav-link',
           this.linkVariant,
           ...this.itemClasses
-        ]
-      },
-      classIcon () {
-        return [
-          'nav-icon',
-          this.icon
         ]
       },
       linkVariant () {

@@ -142,6 +142,11 @@ export default {
       ]
     },
     {
+      name: 'Charts',
+      url: '/charts',
+      icon: 'icon-pie-chart'
+    },
+    {
       name: 'Icons',
       url: '/icons',
       icon: 'icon-star',
@@ -170,11 +175,6 @@ export default {
           icon: 'icon-star'
         }
       ]
-    },
-    {
-      name: 'Charts',
-      url: '/charts',
-      icon: 'icon-pie-chart'
     },
     {
       name: 'Notifications',

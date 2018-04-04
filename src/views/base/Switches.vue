@@ -308,7 +308,7 @@
 </template>
 
 <script>
-  import cSwitch from '../../components/Switch'
+  import { Switch as cSwitch } from '../../components'
 
   export default {
     name: 'switches',
