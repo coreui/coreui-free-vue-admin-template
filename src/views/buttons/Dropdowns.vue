@@ -8,8 +8,10 @@
             footer-tag="footer">
             <div slot="header">
               <i class="fa fa-align-justify"></i> <strong>Bootstrap Dropdown</strong>
-              <div class="card-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/dropdown" target="_blank"><small class="text-muted">docs</small></a>
+              <div class="card-header-actions">
+                <a href="https://bootstrap-vue.js.org/docs/components/dropdown" class="card-header-action" rel="noreferrer noopener" target="_blank">
+                  <small class="text-muted">docs</small>
+                </a>
               </div>
             </div>
             <div>
@@ -175,7 +177,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong><small><code>variant</code></small>
+              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong> <small><code>variant</code></small>
             </div>
             <b-dropdown size="sm" id="ddown_primary" text="Primary" variant="primary" class="m-0">
               <b-dropdown-item>First Action</b-dropdown-item>

@@ -6,8 +6,8 @@
         footer-tag="footer">
         <div slot="header">
           <i class="fa fa-align-justify"></i> <strong>Bootstrap Jumbotron</strong>
-          <div class="card-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/jumbotron" target="_blank">
+          <div class="card-header-actions">
+            <a href="https://bootstrap-vue.js.org/docs/components/jumbotron" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
           </div>

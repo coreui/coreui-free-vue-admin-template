@@ -8,8 +8,10 @@
             footer-tag="footer">
             <div slot="header">
               <i class="fa fa-align-justify"></i> <strong>Bootstrap Collapse</strong>
-              <div class="card-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/collapse" target="_blank"><small class="text-muted">docs</small></a>
+              <div class="card-header-actions">
+                <a href="https://bootstrap-vue.js.org/docs/components/collapse" class="card-header-action" rel="noreferrer noopener" target="_blank">
+                  <small class="text-muted">docs</small>
+                </a>
               </div>
             </div>
             <div>
@@ -31,7 +33,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Collapse</strong> <small>with<code>v-b-toggle</code>directive</small>
+              <i class="fa fa-align-justify"></i> <strong>Collapse</strong> <small>with <code>v-b-toggle</code> directive</small>
             </div>
             <div>
               <!-- Using modifiers -->
@@ -56,7 +58,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Collapse</strong> <small>with<code>visibility</code></small>
+              <i class="fa fa-align-justify"></i> <strong>Collapse</strong> <small>with <code>visibility</code></small>
             </div>
             <div>
               <b-btn v-b-toggle.collapse3 class="m-1">Toggle Collapse</b-btn>
@@ -73,7 +75,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Collapse</strong> <small>with<code>v-model</code></small>
+              <i class="fa fa-align-justify"></i> <strong>Collapse</strong> <small>with <code>v-model</code></small>
             </div>
             <div>
               <b-btn @click="showCollapse = !showCollapse"
@@ -122,7 +124,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Collapse</strong><small><code>accordion</code>support</small>
+              <i class="fa fa-align-justify"></i> <strong>Collapse</strong> <small><code>accordion</code> support</small>
             </div>
             <div role="tablist">
               <b-card no-body class="mb-1">

@@ -8,8 +8,10 @@
             footer-tag="footer">
             <div slot="header">
               <i class="fa fa-align-justify"></i> <strong>Bootstrap Breadcrumb</strong>
-              <div class="card-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/breadcrumb" target="_blank"><small class="text-muted">docs</small></a>
+              <div class="card-header-actions">
+                <a href="https://bootstrap-vue.js.org/docs/components/breadcrumb" class="card-header-action" rel="noreferrer noopener" target="_blank">
+                  <small class="text-muted">docs</small>
+                </a>
               </div>
             </div>
             <b-breadcrumb :items="items"/>
