@@ -232,7 +232,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'dropdowns'
-  }
+export default {
+  name: 'dropdowns'
+}
 </script>

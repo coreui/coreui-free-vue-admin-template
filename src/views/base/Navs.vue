@@ -120,9 +120,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'navs'
-  }
+export default {
+  name: 'navs'
+}
 </script>
 
 <style scoped>

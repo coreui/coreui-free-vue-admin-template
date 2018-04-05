@@ -16,10 +16,10 @@
             <strong>Lucas</strong>
           </div>
           <small class="text-muted mr-3">
-            <i class="icon-calendar"></i>  1 - 3pm
+            <i class="icon-calendar"></i>&nbsp;&nbsp;1 - 3pm
           </small>
           <small class="text-muted">
-            <i class="icon-location-pin"></i>  Palo Alto, CA
+            <i class="icon-location-pin"></i>&nbsp;&nbsp;Palo Alto, CA
           </small>
         </b-list-group-item>
         <b-list-group-item class="list-group-item-accent-info">
@@ -28,8 +28,8 @@
           </div>
           <div>Skype with <strong>Megan</strong>
           </div>
-          <small class="text-muted mr-3"><i class="icon-calendar"></i>  4 - 5pm</small>
-          <small class="text-muted"><i class="icon-social-skype"></i>  On-line</small>
+          <small class="text-muted mr-3"><i class="icon-calendar"></i>&nbsp;&nbsp;4 - 5pm</small>
+          <small class="text-muted"><i class="icon-social-skype"></i>&nbsp;&nbsp;On-line</small>
         </b-list-group-item>
         <hr class="transparent mx-3 my-0">
         <b-list-group-item class="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">
@@ -38,8 +38,8 @@
         <b-list-group-item class="list-group-item-accent-danger list-group-item-divider">
           <div>New UI Project - <strong>deadline</strong>
           </div>
-          <small class="text-muted mr-3"><i class="icon-calendar"></i>  10 - 11pm</small>
-          <small class="text-muted"><i class="icon-home"></i>  creativeLabs HQ</small>
+          <small class="text-muted mr-3"><i class="icon-calendar"></i>&nbsp;&nbsp;10 - 11pm</small>
+          <small class="text-muted"><i class="icon-home"></i>&nbsp;&nbsp;creativeLabs HQ</small>
           <div class="avatars-stack mt-2">
             <div class="avatar avatar-xs">
               <img class="img-avatar" src="static/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
@@ -241,12 +241,11 @@
 </template>
 
 <script>
-  import {Switch as cSwitch} from '../components'
-  export default {
-    name: 'FullAside',
-    components: {
-      cSwitch
-    }
+import {Switch as cSwitch} from '../components'
+export default {
+  name: 'FullAside',
+  components: {
+    cSwitch
   }
+}
 </script>
-

@@ -190,8 +190,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'button-groups'
-  }
+export default {
+  name: 'button-groups'
+}
 </script>
-

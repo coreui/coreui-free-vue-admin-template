@@ -113,7 +113,7 @@
             <div class="text-muted text-uppercase font-weight-bold font-xs">Income</div>
           </b-card-body>
           <div slot="footer">
-            <a class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></a>
+            <b-link class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></b-link>
           </div>
         </b-card>
       </b-col>
@@ -125,7 +125,7 @@
             <div class="text-muted text-uppercase font-weight-bold font-xs">Income</div>
           </b-card-body>
           <div slot="footer">
-            <a class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></a>
+            <b-link class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></b-link>
           </div>
         </b-card>
       </b-col>
@@ -137,7 +137,7 @@
             <div class="text-muted text-uppercase font-weight-bold font-xs">Income</div>
           </b-card-body>
           <div slot="footer">
-            <a class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></a>
+            <b-link class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></b-link>
           </div>
         </b-card>
       </b-col>
@@ -149,7 +149,7 @@
             <div class="text-muted text-uppercase font-weight-bold font-xs">Income</div>
           </b-card-body>
           <div slot="footer">
-            <a class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></a>
+            <b-link class="font-weight-bold font-xs btn-block text-muted" href="#">View More <i class="fa fa-angle-right float-right font-lg"></i></b-link>
           </div>
         </b-card>
       </b-col>
@@ -230,64 +230,84 @@
     </b-row><!--/.row-->
     <b-row>
       <b-col md="3" sm="6">
-        <div class="social-box facebook">
-          <i class="fa fa-facebook"></i>
-          <ul>
-            <li>
-              <strong>89k</strong>
-              <span>friends</span>
-            </li>
-            <li>
-              <strong>459</strong>
-              <span>feeds</span>
-            </li>
-          </ul>
-        </div><!--/social-box-->
+        <div class="brand-card">
+          <div class="brand-card-header bg-facebook">
+            <i class="fa fa-facebook"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" height="100"/>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">89k</div>
+              <div class="text-uppercase text-muted small">friends</div>
+            </div>
+            <div>
+              <div class="text-value">459</div>
+              <div class="text-uppercase text-muted small">feeds</div>
+            </div>
+          </div>
+        </div>
       </b-col>
       <b-col md="3" sm="6">
-        <div class="social-box twitter">
-          <i class="fa fa-twitter"></i>
-          <ul>
-            <li>
-              <strong>973k</strong>
-              <span>followers</span>
-            </li>
-            <li>
-              <strong>1.792</strong>
-              <span>tweets</span>
-            </li>
-          </ul>
-        </div><!--/social-box-->
+        <div class="brand-card">
+          <div class="brand-card-header bg-twitter">
+            <i class="fa fa-twitter"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" height="100"/>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">973k</div>
+              <div class="text-uppercase text-muted small">followers</div>
+            </div>
+            <div>
+              <div class="text-value">1.792</div>
+              <div class="text-uppercase text-muted small">tweets</div>
+            </div>
+          </div>
+        </div>
       </b-col>
       <b-col md="3" sm="6">
-        <div class="social-box linkedin">
-          <i class="fa fa-linkedin"></i>
-          <ul>
-            <li>
-              <strong>500+</strong>
-              <span>contacts</span>
-            </li>
-            <li>
-              <strong>292</strong>
-              <span>feeds</span>
-            </li>
-          </ul>
-        </div><!--/social-box-->
+        <div class="brand-card">
+          <div class="brand-card-header bg-linkedin">
+            <i class="fa fa-linkedin"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" height="100"/>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">500+</div>
+              <div class="text-uppercase text-muted small">contacts</div>
+            </div>
+            <div>
+              <div class="text-value">292</div>
+              <div class="text-uppercase text-muted small">feeds</div>
+            </div>
+          </div>
+        </div>
       </b-col>
       <b-col md="3" sm="6">
-        <div class="social-box google-plus">
-          <i class="fa fa-google-plus"></i>
-          <ul>
-            <li>
-              <strong>894</strong>
-              <span>followers</span>
-            </li>
-            <li>
-              <strong>92</strong>
-              <span>circles</span>
-            </li>
-          </ul>
-        </div><!--/social-box-->
+        <div class="brand-card">
+          <div class="brand-card-header bg-google-plus">
+            <i class="fa fa-google-plus"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" height="100"/>
+            </div>
+          </div>
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">894</div>
+              <div class="text-uppercase text-muted small">followers</div>
+            </div>
+            <div>
+              <div class="text-value">92</div>
+              <div class="text-uppercase text-muted small">circles</div>
+            </div>
+          </div>
+        </div>
       </b-col>
     </b-row><!--/.row-->
     <b-card-group class="mb-4">
@@ -390,7 +410,7 @@
           </div>
           <div class="h4 mb-0">972</div>
           <small class="text-muted text-uppercase font-weight-bold">Comments</small>
-          <b-progress height={} class="progress-xs mt-3 mb-0"variant="info" :value="25"/>
+          <b-progress height={} class="progress-xs mt-3 mb-0" variant="info" :value="25"/>
         </b-card>
       </b-col>
     </b-row><!--/.row-->
@@ -460,8 +480,12 @@
 </template>
 
 <script>
+import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
 export default {
   name: 'widgets',
+  components: {
+    SocialBoxChartExample
+  },
   data () {
     return {
       msg: 'Widgets'

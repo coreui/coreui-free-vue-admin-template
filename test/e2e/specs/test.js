@@ -3,12 +3,12 @@
 
 module.exports = {
 
-  before : function(browser) {
-    console.log('Setting up...');
+  before: function (browser) {
+    console.log('Setting up...')
   },
 
-  after : function(browser) {
-    console.log('Closing down...');
+  after: function (browser) {
+    console.log('Closing down...')
   },
 
   'CoreUI Vue e2e tests': function (browser) {
@@ -16,12 +16,9 @@ module.exports = {
     // default: http://localhost:8080
     // see nightwatch.conf.js
 
-    const devServer = browser.globals.devServerURL;
+    const devServer = browser.globals.devServerURL
 
-    browser
-      .url(devServer)
-      .pause(500)
-      .expect.element('body').to.be.present;
+    browser.url(devServer).pause(500).expect.element('body').to.be.present
 
     browser.waitForElementVisible('.app > .app', 3000)
       .assert.elementPresent('.app-header')
@@ -36,47 +33,47 @@ module.exports = {
       .assert.containsText('.app-footer > span.ml-auto', 'Powered by')
       .assert.elementCount('button', 18)
       .resizeWindow(1024, 800)
-      .pause(500);
+      .pause(500)
 
-    browser.click('body > div > header > button.navbar-toggler.aside-menu-toggler.d-md-down-none', function(response) {
-      this.assert.ok(browser === this, 'Check if the context is right.');
-      this.assert.cssClassNotPresent('body', 'aside-menu-hidden');
-    });
+    browser.click('body > div > header > button.navbar-toggler.aside-menu-toggler.d-md-down-none', function (response) {
+      this.assert.ok(browser === this, 'Check if the context is right.')
+      this.assert.cssClassNotPresent('body', 'aside-menu-hidden')
+    })
 
-    browser.pause(500);
+    browser.pause(500)
 
-    browser.click('body > div > header > button.navbar-toggler.aside-menu-toggler.d-md-down-none', function(response) {
-      this.assert.cssClassPresent('body', 'aside-menu-hidden');
-    });
+    browser.click('body > div > header > button.navbar-toggler.aside-menu-toggler.d-md-down-none', function (response) {
+      this.assert.cssClassPresent('body', 'aside-menu-hidden')
+    })
 
-    browser.pause(500);
+    browser.pause(500)
 
     browser
       .useXpath()
-      .click('/html/body/div/header/button[2]', function(response) {
-        this.assert.cssClassPresent('/html/body', 'sidebar-hidden');
-      });
+      .click('/html/body/div/header/button[2]', function (response) {
+        this.assert.cssClassPresent('/html/body', 'sidebar-hidden')
+      })
 
     browser
       .pause(500)
-      .click('/html/body/div/header/button[2]', function(response) {
-        this.assert.cssClassNotPresent('/html/body', 'sidebar-hidden');
-      });
+      .click('/html/body/div/header/button[2]', function (response) {
+        this.assert.cssClassNotPresent('/html/body', 'sidebar-hidden')
+      })
 
     browser
       .pause(500)
-      .click('/html/body/div/div/div/button', function(response) {
-        this.assert.cssClassPresent('/html/body', 'sidebar-minimized');
-        this.assert.cssClassPresent('/html/body', 'brand-minimized');
+      .click('/html/body/div/div/div/button', function (response) {
+        this.assert.cssClassPresent('/html/body', 'sidebar-minimized')
+        this.assert.cssClassPresent('/html/body', 'brand-minimized')
       })
       .pause(500)
-      .click('/html/body/div/div/div/button', function(response) {
-        this.assert.cssClassNotPresent('/html/body', 'sidebar-minimized');
-        this.assert.cssClassNotPresent('/html/body', 'brand-minimized');
-      });
+      .click('/html/body/div/div/div/button', function (response) {
+        this.assert.cssClassNotPresent('/html/body', 'sidebar-minimized')
+        this.assert.cssClassNotPresent('/html/body', 'brand-minimized')
+      })
 
     browser
       .pause(3000)
-      .end();
+      .end()
   }
-};
+}
