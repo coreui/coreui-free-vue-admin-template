@@ -8,8 +8,8 @@
             footer-tag="footer">
             <div slot="header">
               <i class="fa fa-align-justify"></i> <strong>Bootstrap button group</strong>
-              <div class="card-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/button-group" target="_blank">
+              <div class="card-header-actions">
+                <a href="https://bootstrap-vue.js.org/docs/components/button-group" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
               </div>
@@ -112,11 +112,11 @@
             footer-tag="footer">
             <div slot="header">
               <i class="fa fa-align-justify"></i> <strong>Button toolbar</strong> <small>with button groups</small>
-                <div class="card-actions">
-                  <a href="https://bootstrap-vue.js.org/docs/components/button-toolbar" target="_blank">
-                    <small class="text-muted">docs</small>
-                  </a>
-                </div>
+              <div class="card-header-actions">
+                <a href="https://bootstrap-vue.js.org/docs/components/button-toolbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
+                  <small class="text-muted">docs</small>
+                </a>
+              </div>
             </div>
             <div>
               <b-button-toolbar key-nav aria-label="Toolbar with button groups">

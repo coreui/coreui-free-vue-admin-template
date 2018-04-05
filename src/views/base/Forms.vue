@@ -951,10 +951,16 @@
         <b-card no-body>
           <div slot="header">
             <i class="fa fa-edit"></i> Form Elements
-            <div class="card-actions">
-              <a href="#" class="btn btn-setting"><i class="icon-settings"></i></a>
-              <b-btn class="btn btn-minimize" v-b-toggle.collapse1><i class="icon-arrow-up"></i></b-btn>
-              <a href="#" class="btn btn-close"><i class="icon-close"></i></a>
+            <div class="card-header-actions">
+              <b-link href="#" class="card-header-action btn-setting">
+                <i class="icon-settings"></i>
+              </b-link>
+              <b-link class="card-header-action btn-minimize" v-b-toggle.collapse1>
+                <i class="icon-arrow-up"></i>
+              </b-link>
+              <b-link href="#" class="card-header-action btn-close">
+                <i class="icon-close"></i>
+              </b-link>
             </div>
           </div>
           <b-collapse id="collapse1" visible>
