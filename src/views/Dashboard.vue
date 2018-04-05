@@ -94,120 +94,129 @@
       </b-row>
       <main-chart-example class="chart-wrapper" style="height:300px;margin-top:40px;" height="300"></main-chart-example>
       <div slot="footer">
-        <ul>
-          <li>
+        <b-row class="text-center">
+          <b-col class="mb-sm-2 mb-0">
             <div class="text-muted">Visits</div>
             <strong>29.703 Users (40%)</strong>
             <b-progress height={} class="progress-xs mt-2" :precision="1" variant="success" :value="40"></b-progress>
-          </li>
-          <li class="d-none d-md-table-cell">
+          </b-col>
+          <b-col class="mb-sm-2 mb-0 d-md-down-none">
             <div class="text-muted">Unique</div>
             <strong>24.093 Users (20%)</strong>
             <b-progress height={} class="progress-xs mt-2" :precision="1" variant="info" :value="20"></b-progress>
-          </li>
-          <li>
+          </b-col>
+          <b-col class="mb-sm-2 mb-0">
             <div class="text-muted">Pageviews</div>
             <strong>78.706 Views (60%)</strong>
             <b-progress height={} class="progress-xs mt-2" :precision="1" variant="warning" :value="60"></b-progress>
-          </li>
-          <li class="d-none d-md-table-cell">
+          </b-col>
+          <b-col class="mb-sm-2 mb-0">
             <div class="text-muted">New Users</div>
             <strong>22.123 Users (80%)</strong>
             <b-progress height={} class="progress-xs mt-2" :precision="1" variant="danger" :value="80"></b-progress>
-          </li>
-          <li class="d-none d-md-table-cell">
+          </b-col>
+          <b-col class="mb-sm-2 mb-0 d-md-down-none">
             <div class="text-muted">Bounce Rate</div>
-            <strong>40.15%</strong>
+            <strong>Average Rate (40.15%)</strong>
             <b-progress height={} class="progress-xs mt-2" :precision="1" :value="40"></b-progress>
-          </li>
-        </ul>
+          </b-col>
+        </b-row>
       </div>
     </b-card>
     <b-row>
       <b-col sm="6" lg="3">
-        <div class="social-box facebook">
-          <i class="fa fa-facebook"></i>
-          <div class="chart-wrapper">
-            <social-box-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" height="90"/>
+        <div class="brand-card">
+          <div class="brand-card-header bg-facebook">
+            <i class="fa fa-facebook"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" height="100"/>
+            </div>
           </div>
-          <ul>
-            <li>
-              <strong>89k</strong>
-              <span>friends</span>
-            </li>
-            <li>
-              <strong>459</strong>
-              <span>feeds</span>
-            </li>
-          </ul>
-        </div><!--/.social-box-->
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">89k</div>
+              <div class="text-uppercase text-muted small">friends</div>
+            </div>
+            <div>
+              <div class="text-value">459</div>
+              <div class="text-uppercase text-muted small">feeds</div>
+            </div>
+          </div>
+        </div>
       </b-col>
       <b-col sm="6" lg="3">
-        <div class="social-box twitter">
-          <i class="fa fa-twitter"></i>
-          <div class="chart-wrapper">
-            <social-box-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" height="90"/>
+        <div class="brand-card">
+          <div class="brand-card-header bg-twitter">
+            <i class="fa fa-twitter"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" height="100"/>
+            </div>
           </div>
-          <ul>
-            <li>
-              <strong>973k</strong>
-              <span>followers</span>
-            </li>
-            <li>
-              <strong>1.792</strong>
-              <span>tweets</span>
-            </li>
-          </ul>
-        </div><!--/.social-box-->
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">973k</div>
+              <div class="text-uppercase text-muted small">followers</div>
+            </div>
+            <div>
+              <div class="text-value">1.792</div>
+              <div class="text-uppercase text-muted small">tweets</div>
+            </div>
+          </div>
+          </div>
       </b-col>
       <b-col sm="6" lg="3">
-        <div class="social-box linkedin">
-          <i class="fa fa-linkedin"></i>
-          <div class="chart-wrapper">
-            <social-box-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" height="90"/>
+        <div class="brand-card">
+          <div class="brand-card-header bg-linkedin">
+            <i class="fa fa-linkedin"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" height="100"/>
+            </div>
           </div>
-          <ul>
-            <li>
-              <strong>500+</strong>
-              <span>contacts</span>
-            </li>
-            <li>
-              <strong>292</strong>
-              <span>feeds</span>
-            </li>
-          </ul>
-        </div><!--/.social-box-->
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">500+</div>
+              <div class="text-uppercase text-muted small">contacts</div>
+            </div>
+            <div>
+              <div class="text-value">292</div>
+              <div class="text-uppercase text-muted small">feeds</div>
+            </div>
+          </div>
+        </div>
       </b-col>
       <b-col sm="6" lg="3">
-        <div class="social-box google-plus">
-          <i class="fa fa-google-plus"></i>
-          <div class="chart-wrapper">
-            <social-box-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" height="90"/>
+        <div class="brand-card">
+          <div class="brand-card-header bg-google-plus">
+            <i class="fa fa-google-plus"></i>
+            <div class="chart-wrapper">
+              <social-box-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" height="100"/>
+            </div>
           </div>
-          <ul>
-            <li>
-              <strong>894</strong>
-              <span>followers</span>
-            </li>
-            <li>
-              <strong>92</strong>
-              <span>circles</span>
-            </li>
-          </ul>
-        </div><!--/.social-box-->
+          <div class="brand-card-body">
+            <div>
+              <div class="text-value">894</div>
+              <div class="text-uppercase text-muted small">followers</div>
+            </div>
+            <div>
+              <div class="text-value">92</div>
+              <div class="text-uppercase text-muted small">circles</div>
+            </div>
+          </div>
+        </div>
+
       </b-col>
     </b-row>
     <b-row>
       <b-col md="12">
         <b-card header="Traffic &amp; Sales">
           <b-row>
-            <b-col sm="12" lg="4">
+            <b-col sm="12" lg="6">
               <b-row>
                 <b-col sm="6">
                   <Callout variant="info">
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
-                    <div class="chart-wrapper">
+                    <div class="chart-wrapper" :style="{ top: '-10px'}">
                       <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />
                     </div>
                   </Callout>
@@ -216,90 +225,108 @@
                   <Callout variant="danger">
                     <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
-                    <div class="chart-wrapper">
+                    <div class="chart-wrapper" :style="{ top: '-10px'}">
                       <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#f86c6b" width="80" height="30" />
                     </div>
                   </Callout>
                 </b-col>
               </b-row>
               <hr class="mt-0">
-              <ul class="horizontal-bars">
-                <li>
-                  <div class="title">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Monday
-                  </div>
-                  <div class="bars">
-                    <b-progress height={} class="progress-xs" :value="34" variant="info"></b-progress>
-                    <b-progress height={} class="progress-xs" :value="78" variant="danger"></b-progress>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
+                  </span>
+                </div>
+                <div class="progress-group-bars">
+                  <b-progress class="progress-xs" variant="info" :value="34" height={} />
+                  <b-progress class="progress-xs" variant="danger" :value="78" height={} />
+                </div>
+              </div>
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Tuesday
-                  </div>
-                  <div class="bars">
-                    <b-progress height={} class="progress-xs" :value="56" variant="info"></b-progress>
-                    <b-progress height={} class="progress-xs" :value="94" variant="danger"></b-progress>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
+                  </span>
+                </div>
+                <div class="progress-group-bars">
+                  <b-progress height={} class="progress-xs" :value="56" variant="info"></b-progress>
+                  <b-progress height={} class="progress-xs" :value="94" variant="danger"></b-progress>
+                </div>
+              </div>
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Wednesday
-                  </div>
-                  <div class="bars">
-                    <b-progress height={} class="progress-xs" :value="12" variant="info"></b-progress>
-                    <b-progress height={} class="progress-xs" :value="67" variant="danger"></b-progress>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
+                  </span>
+                </div>
+                <div class="progress-group-bars">
+                  <b-progress height={} class="progress-xs" :value="12" variant="info"></b-progress>
+                  <b-progress height={} class="progress-xs" :value="67" variant="danger"></b-progress>
+                </div>
+              </div>
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Thursday
-                  </div>
-                  <div class="bars">
-                    <b-progress height={} class="progress-xs" :value="43" variant="info"></b-progress>
-                    <b-progress height={} class="progress-xs" :value="91" variant="danger"></b-progress>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
+                  </span>
+                </div>
+                <div class="progress-group-bars">
+                  <b-progress height={} class="progress-xs" :value="43" variant="info"></b-progress>
+                  <b-progress height={} class="progress-xs" :value="91" variant="danger"></b-progress>
+                </div>
+              </div>
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Friday
-                  </div>
-                  <div class="bars">
-                    <b-progress height={} class="progress-xs" :value="22" variant="info"></b-progress>
-                    <b-progress height={} class="progress-xs" :value="73" variant="danger"></b-progress>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
+                  </span>
+                </div>
+                <div class="progress-group-bars">
+                  <b-progress height={} class="progress-xs" :value="22" variant="info"></b-progress>
+                  <b-progress height={} class="progress-xs" :value="73" variant="danger"></b-progress>
+                </div>
+              </div>
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Saturday
-                  </div>
-                  <div class="bars">
-                    <b-progress height={} class="progress-xs" :value="53" variant="info"></b-progress>
-                    <b-progress height={} class="progress-xs" :value="82" variant="danger"></b-progress>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
+                  </span>
+                </div>
+                <div class="progress-group-bars">
+                  <b-progress height={} class="progress-xs" :value="53" variant="info"></b-progress>
+                  <b-progress height={} class="progress-xs" :value="82" variant="danger"></b-progress>
+                </div>
+              </div>
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Sunday
-                  </div>
-                  <div class="bars">
-                    <b-progress height={} class="progress-xs" :value="9" variant="info"></b-progress>
-                    <b-progress height={} class="progress-xs" :value="69" variant="danger"></b-progress>
-                  </div>
-                </li>
-                <li class="legend">
-                  <b-badge pill variant="info"></b-badge> <small>New clients</small> &nbsp; <b-badge pill variant="danger"></b-badge> <small>Recurring clients</small>
-                </li>
-              </ul>
+                  </span>
+                </div>
+                <div class="progress-group-bars">
+                  <b-progress height={} class="progress-xs" :value="9" variant="info"></b-progress>
+                  <b-progress height={} class="progress-xs" :value="69" variant="danger"></b-progress>
+                </div>
+              </div>
+              <div class="legend text-center">
+                <small>
+                  <sup><b-badge pill variant="info">&nbsp;</b-badge></sup>
+                  New clients
+                  &nbsp;&nbsp;
+                  <sup><b-badge pill variant="danger">&nbsp;</b-badge></sup>
+                  Recurring clients
+                </small>
+              </div>
             </b-col>
-            <b-col sm="6" lg="4">
+            <b-col sm="12" lg="6">
               <b-row>
                 <b-col sm="6">
                   <Callout variant="warning">
                     <small class="text-muted">Pageviews</small><br>
                     <strong class="h4">78,623</strong>
-                    <div class="chart-wrapper">
-                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30" />
+                    <div class="chart-wrapper" :style="{ top: '-10px'}">
+                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30"/>
                     </div>
                   </Callout>
                 </b-col>
@@ -307,192 +334,77 @@
                   <Callout variant="success">
                     <small class="text-muted">Organic</small><br>
                     <strong class="h4">49,123</strong>
-                    <div class="chart-wrapper">
-                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80px" height="30" />
+                    <div class="chart-wrapper" :style="{ top: '-10px'}">
+                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80" height="30" />
                     </div>
                   </Callout>
                 </b-col>
               </b-row>
               <hr class="mt-0">
               <ul class="horizontal-bars type-2">
-                <li>
-                  <i class="icon-user"></i>
-                  <span class="title">Male</span>
-                  <span class="value">43%</span>
-                  <div class="bars">
+                <div class="progress-group">
+                  <div class="progress-group-header">
+                    <i class="icon-user progress-group-icon"></i>
+                    <span class="title">Male</span>
+                    <span class="ml-auto font-weight-bold">43%</span>
+                  </div>
+                  <div class="progress-group-bars">
                     <b-progress height={} class="progress-xs" :value="43" variant="warning"></b-progress>
                   </div>
-                </li>
-                <li>
-                  <i class="icon-user-female"></i>
-                  <span class="title">Female</span>
-                  <span class="value">37%</span>
-                  <div class="bars">
+                </div>
+                <div class="progress-group mb-5">
+                  <div class="progress-group-header">
+                    <i class="icon-user-female progress-group-icon"></i>
+                    <span class="title">Female</span>
+                    <span class="ml-auto font-weight-bold">37%</span>
+                  </div>
+                  <div class="progress-group-bars">
                     <b-progress height={} class="progress-xs" :value="37" variant="warning"></b-progress>
                   </div>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <i class="icon-globe"></i>
-                  <span class="title">Organic Search</span>
-                  <span class="value">191,235 <span class="text-muted small">(56%)</span></span>
-                  <div class="bars">
+                </div>
+                <div class="progress-group">
+                  <div class="progress-group-header">
+                    <i class="icon-globe progress-group-icon"></i>
+                    <span class="title">Organic Search</span>
+                    <span class="ml-auto font-weight-bold">191,235 <span class="text-muted small">(56%)</span></span>
+                  </div>
+                  <div class="progress-group-bars">
                     <b-progress height={} class="progress-xs" :value="56" variant="success"></b-progress>
                   </div>
-                </li>
-                <li>
-                  <i class="icon-social-facebook"></i>
-                  <span class="title">Facebook</span>
-                  <span class="value">51,223 <span class="text-muted small">(15%)</span></span>
-                  <div class="bars">
+                </div>
+                <div class="progress-group">
+                  <div class="progress-group-header">
+                    <i class="icon-social-facebook progress-group-icon"></i>
+                    <span class="title">Facebook</span>
+                    <span class="ml-auto font-weight-bold">51,223 <span class="text-muted small">(15%)</span></span>
+                  </div>
+                  <div class="progress-group-bars">
                     <b-progress height={} class="progress-xs" :value="15" variant="success"></b-progress>
                   </div>
-                </li>
-                <li>
-                  <i class="icon-social-twitter"></i>
-                  <span class="title">Twitter</span>
-                  <span class="value">37,564 <span class="text-muted small">(11%)</span></span>
-                  <div class="bars">
+                </div>
+                <div class="progress-group">
+                  <div class="progress-group-header">
+                    <i class="icon-social-twitter progress-group-icon"></i>
+                    <span class="title">Twitter</span>
+                    <span class="ml-auto font-weight-bold">37,564 <span class="text-muted small">(11%)</span></span>
+                  </div>
+                  <div class="progress-group-bars">
                     <b-progress height={} class="progress-xs" :value="11" variant="success"></b-progress>
                   </div>
-                </li>
-                <li>
-                  <i class="icon-social-linkedin"></i>
-                  <span class="title">LinkedIn</span>
-                  <span class="value">27,319 <span class="text-muted small">(8%)</span></span>
-                  <div class="bars">
+                </div>
+                <div class="progress-group">
+                  <div class="progress-group-header">
+                    <i class="icon-social-linkedin progress-group-icon"></i>
+                    <span class="title">LinkedIn</span>
+                    <span class="ml-auto font-weight-bold">27,319 <span class="text-muted small">&nbsp;(8%)</span></span>
+                  </div>
+                  <div class="progress-group-bars">
                     <b-progress height={} class="progress-xs" :value="8" variant="success"></b-progress>
                   </div>
-                </li>
-                <li class="divider text-center">
+                </div>
+                <div class="divider text-center">
                   <b-button variant="link" size="sm" class="text-muted"><i class="icon-options"></i></b-button>
-                </li>
-              </ul>
-            </b-col>
-            <b-col sm="6" lg="4">
-              <b-row>
-                <b-col sm="6">
-                  <Callout>
-                    <small class="text-muted">CTR</small><br>
-                    <strong class="h4">23%</strong>
-                    <div class="chart-wrapper">
-                      <callout-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" width="80px" height="30" />
-                    </div>
-                  </Callout>
-                </b-col>
-                <b-col sm="6">
-                  <Callout variant="primary">
-                    <small class="text-muted">Bounce Rate</small><br>
-                    <strong class="h4">5%</strong>
-                    <div class="chart-wrapper">
-                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80px" height="30" />
-                    </div>
-                  </Callout>
-                </b-col>
-              </b-row>
-              <hr class="mt-0">
-              <ul class="icons-list">
-                <li>
-                  <i class="icon-screen-desktop bg-primary"></i>
-                  <div class="desc">
-                    <div class="title">iMac 4k</div>
-                    <small>Lorem ipsum dolor sit amet</small>
-                  </div>
-                  <div class="value">
-                    <div class="small text-muted">Sold this week</div>
-                    <strong>1.924</strong>
-                  </div>
-                  <div class="actions">
-                    <b-button variant="link" class="text-muted"><i class="icon-settings"></i></b-button>
-                  </div>
-                </li>
-                <li>
-                  <i class="icon-screen-smartphone bg-info"></i>
-                  <div class="desc">
-                    <div class="title">Samsung Galaxy Edge</div>
-                    <small>Lorem ipsum dolor sit amet</small>
-                  </div>
-                  <div class="value">
-                    <div class="small text-muted">Sold this week</div>
-                    <strong>1.224</strong>
-                  </div>
-                  <div class="actions">
-                    <b-button variant="link" class="text-muted"><i class="icon-settings"></i></b-button>
-                  </div>
-                </li>
-                <li>
-                  <i class="icon-screen-smartphone bg-warning"></i>
-                  <div class="desc">
-                    <div class="title">iPhone 6S</div>
-                    <small>Lorem ipsum dolor sit amet</small>
-                  </div>
-                  <div class="value">
-                    <div class="small text-muted">Sold this week</div>
-                    <strong>1.163</strong>
-                  </div>
-                  <div class="actions">
-                    <b-button variant="link" class="text-muted"><i class="icon-settings"></i></b-button>
-                  </div>
-                </li>
-                <li>
-                  <i class="icon-user bg-danger"></i>
-                  <div class="desc">
-                    <div class="title">Premium accounts</div>
-                    <small>Lorem ipsum dolor sit amet</small>
-                  </div>
-                  <div class="value">
-                    <div class="small text-muted">Sold this week</div>
-                    <strong>928</strong>
-                  </div>
-                  <div class="actions">
-                    <b-button variant="link" class="text-muted"><i class="icon-settings"></i></b-button>
-                  </div>
-                </li>
-                <li>
-                  <i class="icon-social-spotify bg-success"></i>
-                  <div class="desc">
-                    <div class="title">Spotify Subscriptions</div>
-                    <small>Lorem ipsum dolor sit amet</small>
-                  </div>
-                  <div class="value">
-                    <div class="small text-muted">Sold this week</div>
-                    <strong>893</strong>
-                  </div>
-                  <div class="actions">
-                    <b-button variant="link" class="text-muted"><i class="icon-settings"></i></b-button>
-                  </div>
-                </li>
-                <li>
-                  <i class="icon-cloud-download bg-danger"></i>
-                  <div class="desc">
-                    <div class="title">Ebook</div>
-                    <small>Lorem ipsum dolor sit amet</small>
-                  </div>
-                  <div class="value">
-                    <div class="small text-muted">Downloads</div>
-                    <strong>121.924</strong>
-                  </div>
-                  <div class="actions">
-                    <b-button variant="link" class="text-muted"><i class="icon-settings"></i></b-button>
-                  </div>
-                </li>
-                <li>
-                  <i class="icon-camera bg-warning"></i>
-                  <div class="desc">
-                    <div class="title">Photos</div>
-                    <small>Lorem ipsum dolor sit amet</small>
-                  </div>
-                  <div class="value">
-                    <div class="small text-muted">Uploaded</div>
-                    <strong>12.125</strong>
-                  </div>
-                  <div class="actions">
-                    <b-button variant="link" class="text-muted"><i class="icon-settings"></i></b-button>
-                  </div>
-                </li>
-                <li class="divider text-center">
-                  <b-button size="sm" variant="link" class="text-muted"><i class="icon-options"></i></b-button>
-                </li>
+                </div>
               </ul>
             </b-col>
           </b-row>
