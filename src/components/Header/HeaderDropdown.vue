@@ -14,21 +14,20 @@
   </b-nav-item-dropdown>
 </template>
 <script>
-  export default {
-    name: 'HeaderDropdown',
-    props: {
-      right: {
-        type: Boolean,
-        default: false
-      },
-      noCaret: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: 'HeaderDropdown',
+  props: {
+    right: {
+      type: Boolean,
+      default: false
     },
-    data: () => {
-      return { itemsCount: 42 }
+    noCaret: {
+      type: Boolean,
+      default: false
     }
+  },
+  data: () => {
+    return { itemsCount: 42 }
   }
+}
 </script>
-

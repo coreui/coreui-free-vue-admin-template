@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <!-- <div class="sidebar-form"></div> -->
 </template>

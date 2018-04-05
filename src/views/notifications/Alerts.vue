@@ -69,7 +69,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts</strong>
+              <i class="fa fa-align-justify"></i>Alerts
               <small>with additional content</small>
             </div>
             <b-alert show variant="success">
@@ -91,7 +91,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts</strong>
+              <i class="fa fa-align-justify"></i>Alerts
               <small>dismissible</small>
             </div>
             <div>
@@ -113,7 +113,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts</strong>
+              <i class="fa fa-align-justify"></i>Alerts
               <small>auto dismissible</small>
             </div>
             <div>
@@ -148,22 +148,22 @@
 </template>
 
 <script>
-  export default {
-    name: 'alerts',
-    data () {
-      return {
-        dismissSecs: 10,
-        dismissCountDown: 0,
-        showDismissibleAlert: false
-      }
+export default {
+  name: 'alerts',
+  data () {
+    return {
+      dismissSecs: 10,
+      dismissCountDown: 0,
+      showDismissibleAlert: false
+    }
+  },
+  methods: {
+    countDownChanged (dismissCountDown) {
+      this.dismissCountDown = dismissCountDown
     },
-    methods: {
-      countDownChanged (dismissCountDown) {
-        this.dismissCountDown = dismissCountDown
-      },
-      showAlert () {
-        this.dismissCountDown = this.dismissSecs
-      }
+    showAlert () {
+      this.dismissCountDown = this.dismissSecs
     }
   }
+}
 </script>

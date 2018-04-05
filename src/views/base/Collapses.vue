@@ -176,12 +176,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'collapses',
-    data () {
-      return {
-        showCollapse: true,
-        text: `
+export default {
+  name: 'collapses',
+  data () {
+    return {
+      showCollapse: true,
+      text: `
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
         richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
         brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
@@ -191,7 +191,7 @@
         vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
         synth nesciunt you probably haven't heard of them accusamus labore VHS.
       `
-      }
     }
   }
+}
 </script>

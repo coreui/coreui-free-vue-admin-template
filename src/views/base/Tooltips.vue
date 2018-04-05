@@ -117,30 +117,30 @@
 </template>
 
 <script>
-  export default {
-    name: 'tooltips',
-    data () {
-      return {
-        show: true,
-        disabled: false
-      }
+export default {
+  name: 'tooltips',
+  data () {
+    return {
+      show: true,
+      disabled: false
+    }
+  },
+  methods: {
+    onOpen () {
+      this.$refs.tooltip.$emit('open')
     },
-    methods: {
-      onOpen () {
-        this.$refs.tooltip.$emit('open')
-      },
-      onClose () {
-        this.$refs.tooltip.$emit('close')
-      },
-      disableByRef () {
-        if (this.disabled) {
-          this.$refs.tooltip2.$emit('enable')
-        } else {
-          this.$refs.tooltip2.$emit('disable')
-        }
+    onClose () {
+      this.$refs.tooltip.$emit('close')
+    },
+    disableByRef () {
+      if (this.disabled) {
+        this.$refs.tooltip2.$emit('enable')
+      } else {
+        this.$refs.tooltip2.$emit('disable')
       }
     }
   }
+}
 </script>
 
 <style scoped>
