@@ -85,7 +85,7 @@
         <FullAside/>
       </AppAside>
     </div>
-    <AppFooter>
+    <AppFooter fixed>
       <!--footer-->
     </AppFooter>
   </div>
