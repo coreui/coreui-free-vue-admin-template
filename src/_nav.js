@@ -83,6 +83,11 @@ export default {
           icon: 'icon-puzzle'
         },
         {
+          name: 'Navbars',
+          url: '/base/navbars',
+          icon: 'icon-puzzle'
+        },
+        {
           name: 'Paginations',
           url: '/base/paginations',
           icon: 'icon-puzzle'
