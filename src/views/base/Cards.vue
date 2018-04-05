@@ -51,32 +51,32 @@
     </b-row><!--/.row-->
     <b-row>
       <b-col sm="6" md="4">
-        <b-card header="Card outline" border-variant="primary">
+        <b-card header="Card outline primary" border-variant="primary">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card header="Card outline" border-variant="secondary">
+        <b-card header="Card outline secondary" border-variant="secondary">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card header="Card outline" border-variant="success">
+        <b-card header="Card outline success" border-variant="success">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card header="Card outline" border-variant="info">
+        <b-card header="Card outline info" border-variant="info">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card header="Card outline" border-variant="warning">
+        <b-card header="Card outline warning" border-variant="warning">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card header="Card outline" border-variant="danger">
+        <b-card header="Card outline danger" border-variant="danger">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
@@ -84,32 +84,32 @@
 
     <b-row>
       <b-col sm="6" md="4">
-        <b-card class="card-accent-primary" header="Card with accent">
+        <b-card class="card-accent-primary" header="Card with primary accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card class="card-accent-secondary" header="Card with accent">
+        <b-card class="card-accent-secondary" header="Card with secondary accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card class="card-accent-success" header="Card with accent">
+        <b-card class="card-accent-success" header="Card with success accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card class="card-accent-info" header="Card with accent">
+        <b-card class="card-accent-info" header="Card with info accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card class="card-accent-warning" header="Card with accent">
+        <b-card class="card-accent-warning" header="Card with warning accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card class="card-accent-danger" header="Card with accent">
+        <b-card class="card-accent-danger" header="Card with danger accent">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
