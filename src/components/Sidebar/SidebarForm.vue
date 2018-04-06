@@ -1,5 +1,6 @@
 /* eslint-disable */
 <template>
+  <div></div>
   <!-- <div class="sidebar-form"></div> -->
 </template>
 <script>
