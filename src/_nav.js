@@ -125,7 +125,7 @@ export default {
       icon: 'icon-cursor',
       children: [
         {
-          name: 'Standard Buttons',
+          name: 'Buttons',
           url: '/buttons/standard-buttons',
           icon: 'icon-cursor'
         },
@@ -140,8 +140,8 @@ export default {
           icon: 'icon-cursor'
         },
         {
-          name: 'Social Buttons',
-          url: '/buttons/social-buttons',
+          name: 'Brand Buttons',
+          url: '/buttons/brand-buttons',
           icon: 'icon-cursor'
         }
       ]

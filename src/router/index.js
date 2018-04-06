@@ -34,7 +34,7 @@ import Tooltips from '@/views/base/Tooltips'
 import StandardButtons from '@/views/buttons/StandardButtons'
 import ButtonGroups from '@/views/buttons/ButtonGroups'
 import Dropdowns from '@/views/buttons/Dropdowns'
-import SocialButtons from '@/views/buttons/SocialButtons'
+import BrandButtons from '@/views/buttons/BrandButtons'
 
 // Views - Icons
 import Flags from '@/views/icons/Flags'
@@ -195,7 +195,7 @@ export default new Router({
           children: [
             {
               path: 'standard-buttons',
-              name: 'Standard Buttons',
+              name: 'Buttons',
               component: StandardButtons
             },
             {
@@ -209,9 +209,9 @@ export default new Router({
               component: Dropdowns
             },
             {
-              path: 'social-buttons',
-              name: 'Social Buttons',
-              component: SocialButtons
+              path: 'brand-buttons',
+              name: 'Brand Buttons',
+              component: BrandButtons
             }
           ]
         },
