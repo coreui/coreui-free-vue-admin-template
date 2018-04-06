@@ -3,7 +3,7 @@
     <div class="animated fadeIn">
       <b-row>
         <b-col cols="12">
-          <b-card header="Bootstrap Modals">
+          <b-card header="<i class='fa fa-align-justify'></i> Bootstrap Modals">
             <b-button type="button" variant="secondary" @click="myModal = true">Launch demo modal</b-button>
             <b-button type="button" variant="secondary" @click="largeModal = true">Launch large modal</b-button>
             <b-button type="button" variant="secondary" @click="smallModal = true">Launch small modal</b-button>

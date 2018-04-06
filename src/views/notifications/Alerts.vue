@@ -69,8 +69,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts
-              <small>with additional content</small>
+              <i class="fa fa-align-justify"></i> Alerts <small>with additional content</small>
             </div>
             <b-alert show variant="success">
               <h4 class="alert-heading">Well done!</h4>
@@ -91,8 +90,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts
-              <small>dismissible</small>
+              <i class="fa fa-align-justify"></i> Alerts <small>dismissible</small>
             </div>
             <div>
               <b-alert show dismissible>
@@ -113,8 +111,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i>Alerts
-              <small>auto dismissible</small>
+              <i class="fa fa-align-justify"></i> Alerts <small>auto dismissible</small>
             </div>
             <div>
               <b-alert :show="dismissCountDown"
