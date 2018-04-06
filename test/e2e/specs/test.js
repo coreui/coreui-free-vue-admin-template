@@ -29,21 +29,21 @@ module.exports = {
       .assert.elementPresent('.app-body > .sidebar > .sidebar-nav')
       .assert.elementPresent('.app-body > .sidebar > .sidebar-minimizer')
       .assert.elementPresent('.app-footer')
-      .assert.containsText('.app-footer > span', 'creativeLabs')
-      .assert.containsText('.app-footer > span.ml-auto', 'Powered by')
-      .assert.elementCount('button', 18)
+      .assert.containsText('.app-footer > div > span', 'creativeLabs')
+      .assert.containsText('.app-footer > div.ml-auto > span', 'Powered by')
+      .assert.elementCount('button', 10)
       .resizeWindow(1024, 800)
       .pause(500)
 
-    browser.click('body > div > header > button.navbar-toggler.aside-menu-toggler.d-md-down-none', function (response) {
+    browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
       this.assert.ok(browser === this, 'Check if the context is right.')
-      this.assert.cssClassNotPresent('body', 'aside-menu-hidden')
+      this.assert.cssClassPresent('body', 'aside-menu-show')
     })
 
     browser.pause(500)
 
-    browser.click('body > div > header > button.navbar-toggler.aside-menu-toggler.d-md-down-none', function (response) {
-      this.assert.cssClassPresent('body', 'aside-menu-hidden')
+    browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
+      this.assert.cssClassNotPresent('body', 'aside-menu-show')
     })
 
     browser.pause(500)
@@ -51,13 +51,13 @@ module.exports = {
     browser
       .useXpath()
       .click('/html/body/div/header/button[2]', function (response) {
-        this.assert.cssClassPresent('/html/body', 'sidebar-hidden')
+        this.assert.cssClassNotPresent('/html/body', 'sidebar-lg-show')
       })
 
     browser
       .pause(500)
       .click('/html/body/div/header/button[2]', function (response) {
-        this.assert.cssClassNotPresent('/html/body', 'sidebar-hidden')
+        this.assert.cssClassPresent('/html/body', 'sidebar-lg-show')
       })
 
     browser
