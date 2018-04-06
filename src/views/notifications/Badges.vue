@@ -29,7 +29,7 @@
           </b-card>
         </b-col>
         <b-col cols="12" md="6">
-          <b-card header="Badge <small>contextual variations</small>"
+          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>contextual variations</small>"
             header-tag="header"
             footer-tag="footer">
             <div>
@@ -43,7 +43,7 @@
               <b-badge variant="dark">Dark</b-badge>
             </div>
           </b-card>
-          <b-card header="Badge <small>pills</small>"
+          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>pills</small>"
             header-tag="header"
             footer-tag="footer">
             <div>
@@ -57,7 +57,7 @@
               <b-badge pill variant="dark">Dark</b-badge>
             </div>
           </b-card>
-          <b-card header="Badge <small>actionable</small>"
+          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>actionable</small>"
             header-tag="header"
             footer-tag="footer">
             <div>
