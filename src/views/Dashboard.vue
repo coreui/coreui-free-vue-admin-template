@@ -129,7 +129,7 @@
           <div class="brand-card-header bg-facebook">
             <i class="fa fa-facebook"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" height="100"/>
+              <social-box-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" height="90"/>
             </div>
           </div>
           <div class="brand-card-body">
@@ -149,7 +149,7 @@
           <div class="brand-card-header bg-twitter">
             <i class="fa fa-twitter"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" height="100"/>
+              <social-box-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" height="90"/>
             </div>
           </div>
           <div class="brand-card-body">
@@ -169,7 +169,7 @@
           <div class="brand-card-header bg-linkedin">
             <i class="fa fa-linkedin"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" height="100"/>
+              <social-box-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" height="90"/>
             </div>
           </div>
           <div class="brand-card-body">
@@ -189,7 +189,7 @@
           <div class="brand-card-header bg-google-plus">
             <i class="fa fa-google-plus"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" height="100"/>
+              <social-box-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" height="90"/>
             </div>
           </div>
           <div class="brand-card-body">
@@ -216,7 +216,8 @@
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
                     <div class="chart-wrapper" :style="{ top: '-10px'}">
-                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />
+                      <!--<callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />-->
+                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="info" width="80" height="30" />
                     </div>
                   </Callout>
                 </b-col>
@@ -225,7 +226,7 @@
                     <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
                     <div class="chart-wrapper" :style="{ top: '-10px'}">
-                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#f86c6b" width="80" height="30" />
+                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="danger" width="80" height="30" />
                     </div>
                   </Callout>
                 </b-col>

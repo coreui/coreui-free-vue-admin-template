@@ -1,10 +1,11 @@
 <script>
 import { Line } from 'vue-chartjs'
+import { getStyle } from '@coreui/coreui/js/src/utilities'
 
 // const brandPrimary = '#20a8d8'
-const brandSuccess = '#4dbd74'
-const brandInfo = '#63c2de'
-const brandDanger = '#f86c6b'
+// const brandSuccess = '#4dbd74'
+// const brandInfo = '#63c2de'
+// const brandDanger = '#f86c6b'
 
 function convertHex (hex, opacity) {
   hex = hex.replace('#', '')
@@ -12,8 +13,8 @@ function convertHex (hex, opacity) {
   const g = parseInt(hex.substring(2, 4), 16)
   const b = parseInt(hex.substring(4, 6), 16)
 
-  const result = 'rgba(' + r + ',' + g + ',' + b + ',' + opacity / 100 + ')'
-  return result
+  // const result = 'rgba(' + r + ',' + g + ',' + b + ',' + opacity / 100 + ')'
+  return `rgba(${r}, ${g}, ${b}, ${opacity / 100})`
 }
 
 function random (min, max) {
@@ -24,12 +25,12 @@ export default {
   extends: Line,
   props: ['height'],
   mounted () {
-    var elements = 27
-    var data1 = []
-    var data2 = []
-    var data3 = []
+    let elements = 27
+    const data1 = []
+    const data2 = []
+    const data3 = []
 
-    for (var i = 0; i <= elements; i++) {
+    for (let i = 0; i <= elements; i++) {
       data1.push(random(50, 200))
       data2.push(random(80, 100))
       data3.push(65)
@@ -39,8 +40,8 @@ export default {
       datasets: [
         {
           label: 'My First dataset',
-          backgroundColor: convertHex(brandInfo, 10),
-          borderColor: brandInfo,
+          backgroundColor: convertHex(getStyle('--info'), 10),
+          borderColor: getStyle('--info'),
           pointHoverBackgroundColor: '#fff',
           borderWidth: 2,
           data: data1
@@ -48,7 +49,7 @@ export default {
         {
           label: 'My Second dataset',
           backgroundColor: 'transparent',
-          borderColor: brandSuccess,
+          borderColor: getStyle('--success'),
           pointHoverBackgroundColor: '#fff',
           borderWidth: 2,
           data: data2
@@ -56,7 +57,7 @@ export default {
         {
           label: 'My Third dataset',
           backgroundColor: 'transparent',
-          borderColor: brandDanger,
+          borderColor: getStyle('--danger'),
           pointHoverBackgroundColor: '#fff',
           borderWidth: 1,
           borderDash: [8, 5],

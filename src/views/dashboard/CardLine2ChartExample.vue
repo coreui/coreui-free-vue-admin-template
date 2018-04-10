@@ -1,8 +1,11 @@
 <script>
 import { Line } from 'vue-chartjs'
+// import { getStyle } from '@coreui/coreui/js/src/utilities'
 
 const brandInfo = '#63c2de'
-const datasets = [
+// const brandInfo = getStyle('--light-blue')
+
+const datasets2 = [
   {
     label: 'My First dataset',
     backgroundColor: brandInfo,
@@ -13,11 +16,11 @@ const datasets = [
 
 export default {
   extends: Line,
-  props: ['height'],
+  props: ['height', 'width'],
   mounted () {
     this.renderChart({
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-      datasets: datasets
+      datasets: datasets2
     }, {
       maintainAspectRatio: false,
       legend: {
@@ -39,8 +42,8 @@ export default {
           display: false,
           ticks: {
             display: false,
-            min: Math.min.apply(Math, datasets[0].data) - 5,
-            max: Math.max.apply(Math, datasets[0].data) + 5
+            min: Math.min.apply(Math, datasets2[0].data) - 5,
+            max: Math.max.apply(Math, datasets2[0].data) + 5
           }
         }]
       },
