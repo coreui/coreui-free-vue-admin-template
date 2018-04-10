@@ -1,6 +1,6 @@
 <template>
   <nav class="sidebar-nav">
-    <div slot="header"></div>
+    <VuePerfectScrollbar class="scroll-area" :settings="psSettings" @ps-scroll-y="scrollHandle">
     <ul class="nav">
       <template v-for="(item, index) in navItems">
         <template v-if="item.title">
@@ -42,6 +42,7 @@
       </template>
     </ul>
     <slot></slot>
+    </VuePerfectScrollbar>
   </nav>
 </template>
 
@@ -52,6 +53,8 @@ import SidebarNavLink from './SidebarNavLink'
 import SidebarNavTitle from './SidebarNavTitle'
 import SidebarNavItem from './SidebarNavItem'
 import SidebarNavLabel from './SidebarNavLabel'
+import VuePerfectScrollbar from 'vue-perfect-scrollbar'
+
 export default {
   name: 'SidebarNav',
   props: {
@@ -67,13 +70,28 @@ export default {
     SidebarNavLink,
     SidebarNavTitle,
     SidebarNavItem,
-    SidebarNavLabel
+    SidebarNavLabel,
+    VuePerfectScrollbar
+  },
+  data () {
+    return {
+      psSettings: {
+        maxScrollbarLength: 200
+      }
+    }
+  },
+  methods: {
+    scrollHandle (evt) {
+      // console.log(evt)
+    }
   }
 }
 </script>
 
 <style scoped lang="css">
-  .nav-link {
-    cursor:pointer;
+  .scroll-area {
+    position: relative;
+    height: 100%;
+    margin: auto;
   }
 </style>
