@@ -1,5 +1,6 @@
 <script>
 import { Line } from 'vue-chartjs'
+import { getStyle } from '@coreui/coreui/js/src/utilities'
 
 // const brandPrimary = '#20a8d8'
 // const brandSuccess = '#4dbd74'
@@ -8,6 +9,9 @@ import { Line } from 'vue-chartjs'
 // const brandDanger = '#f86c6b'
 
 export default {
+  components: {
+    getStyle
+  },
   extends: Line,
   props: ['data', 'height', 'width', 'variant'],
   mounted () {
@@ -16,7 +20,7 @@ export default {
       datasets: [
         {
           backgroundColor: 'transparent',
-          borderColor: this.variant ? this.variant : '#c2cfd6',
+          borderColor: this.getVariant(this.variant) || '#c2cfd6',
           data: this.data
         }
       ]
@@ -46,6 +50,11 @@ export default {
         display: false
       }
     })
+  },
+  methods: {
+    getVariant (val, el) {
+      return val[0] === '#' ? val : getStyle(`--${val}`, el)
+    }
   }
 }
 </script>

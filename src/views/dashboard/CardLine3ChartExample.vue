@@ -12,7 +12,7 @@ const datasets = [
 
 export default {
   extends: Line,
-  props: ['height'],
+  props: ['height', 'width'],
   mounted () {
     this.renderChart({
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
