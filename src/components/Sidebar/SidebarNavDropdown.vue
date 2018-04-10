@@ -39,3 +39,9 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="css">
+  .nav-link {
+    cursor:pointer;
+  }
+</style>
