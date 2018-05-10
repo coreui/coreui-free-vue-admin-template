@@ -1,7 +1,10 @@
 <template>
   <aside class="aside-menu">
     <b-tabs>
-      <b-tab title="<i class='icon-list'></i>">
+      <b-tab>
+        <template slot="title">
+          <i class='icon-list'></i>
+        </template>
         <Callout class="m-0 py-2 text-muted text-center bg-light text-uppercase">
           <small><b>Today</b></small>
         </Callout>
@@ -87,7 +90,10 @@
         </Callout>
         <hr class="mx-3 my-0">
       </b-tab>
-      <b-tab title="<i class='icon-speech'></i>">
+      <b-tab>
+        <template slot="title">
+          <i class='icon-speech'></i>
+        </template>
         <div class="p-3">
           <div class="message">
             <div class="py-3 pb-5 mr-3 float-left">
@@ -165,7 +171,10 @@
           </div>
         </div>
       </b-tab>
-      <b-tab title="<i class='icon-settings'></i>">
+      <b-tab>
+        <template slot="title">
+          <i class='icon-settings'></i>
+        </template>
         <div class="p-3">
           <h6>Settings</h6>
           <div class="aside-options">
