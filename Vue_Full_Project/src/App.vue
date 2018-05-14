@@ -15,14 +15,10 @@ export default {
   /* Import Simple Line Icons Set */
   $simple-line-font-path: '~simple-line-icons/fonts/';
   @import '~simple-line-icons/scss/simple-line-icons.scss';
-</style>
-<style>
   /* Import Flag Icons Set */
   @import 'flag-icon-css/css/flag-icon.min.css';
   /* Import Bootstrap Vue Styles */
   @import 'bootstrap-vue/dist/bootstrap-vue.css';
-</style>
-<style lang="scss">
   // Import Main styles for this application
   @import './assets/scss/style';
 </style>

@@ -1,5 +1,21 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v1.0.13`
+- fix: rollback `optimize-css-assets-webpack-plugin` to `^3.2.0`
+- refactor: App.vue scss/css imports cleanup
+- chore: dependencies update
+
+##### `v1.0.12`
+- refactor(Aside): b-tab title with icon issue
+- chore: dependencies update
+- refactor(pages): `<b-input-group-prepend>`, `<b-input-group-text>`
+- refactor(dashboard): `<b-form-radio-group>`
+- fix(widgets): props spacing
+- refactor: `router/index/ja` minor tweaks
+- refactor: rename components `c-aside`, `c-footer`
+- refactor(breadcrumb): add `:key` porp 
+- feat(forms): datepicker input `<b-form-input type="date">`
+
 ##### `v1.0.11`
 - refactor: project directory structure
 - update: vuejs-templates/webpack to `1.3.1`
