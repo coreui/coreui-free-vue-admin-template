@@ -1,6 +1,6 @@
 <script>
 import { Line } from 'vue-chartjs'
-import { getStyle } from '@coreui/coreui/js/src/utilities'
+import { getStyle } from '@coreui/coreui/dist/js/coreui-utilities'
 
 // const brandPrimary = '#20a8d8'
 // const brandSuccess = '#4dbd74'
