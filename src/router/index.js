@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // Containers
-import Full from '@/containers/Full'
+import DefaultContainer from '@/containers/DefaultContainer'
 
 // Views
 import Dashboard from '@/views/Dashboard'
@@ -63,7 +63,7 @@ export default new Router({
       path: '/',
       redirect: '/dashboard',
       name: 'Home',
-      component: Full,
+      component: DefaultContainer,
       children: [
         {
           path: 'dashboard',
@@ -187,7 +187,7 @@ export default new Router({
         },
         {
           path: 'buttons',
-          redirect: '/buttons/buttons',
+          redirect: '/buttons/standard-buttons',
           name: 'Buttons',
           component: {
             render (c) { return c('router-view') }
@@ -195,7 +195,7 @@ export default new Router({
           children: [
             {
               path: 'standard-buttons',
-              name: 'Buttons',
+              name: 'Standard Buttons',
               component: StandardButtons
             },
             {

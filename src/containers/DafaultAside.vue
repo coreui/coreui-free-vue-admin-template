@@ -8,7 +8,7 @@
         <b-list-group-item class="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">
           Today
         </b-list-group-item>
-        <b-list-group-item class="list-group-item list-group-item-accent-warning list-group-item-divider">
+        <b-list-group-item href="#" class="list-group-item-accent-warning list-group-item-divider">
           <div class="avatar float-right">
             <img class="img-avatar" src="static/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
           </div>
@@ -22,7 +22,7 @@
             <i class="icon-location-pin"></i>&nbsp;&nbsp;Palo Alto, CA
           </small>
         </b-list-group-item>
-        <b-list-group-item class="list-group-item-accent-info">
+        <b-list-group-item href="#" class="list-group-item-accent-info">
           <div class="avatar float-right">
             <img class="img-avatar" src="static/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
           </div>
@@ -35,7 +35,7 @@
         <b-list-group-item class="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">
           Tomorrow
         </b-list-group-item>
-        <b-list-group-item class="list-group-item-accent-danger list-group-item-divider">
+        <b-list-group-item href="#" class="list-group-item-accent-danger list-group-item-divider">
           <div>New UI Project - <strong>deadline</strong>
           </div>
           <small class="text-muted mr-3"><i class="icon-calendar"></i>&nbsp;&nbsp;10 - 11pm</small>
@@ -58,12 +58,12 @@
             </div>
           </div>
         </b-list-group-item>
-        <b-list-group-item class="list-group-item-accent-success list-group-item-divider">
+        <b-list-group-item href="#" class="list-group-item-accent-success list-group-item-divider">
           <div><strong>#10 Startups.Garden</strong> Meetup</div>
           <small class="text-muted mr-3"><i class="icon-calendar"></i>&nbsp; 1 - 3pm</small>
           <small class="text-muted"><i class="icon-location-pin"></i>&nbsp; Palo Alto, CA</small>
         </b-list-group-item>
-        <b-list-group-item class="list-group-item-accent-primary list-group-item-divider">
+        <b-list-group-item href="#" class="list-group-item-accent-primary list-group-item-divider">
           <div><strong>Team meeting</strong></div>
           <small class="text-muted mr-3"><i class="icon-calendar"></i>&nbsp; 4 - 6pm</small>
           <small class="text-muted"><i class="icon-home"></i>&nbsp; creativeLabs HQ</small>
@@ -183,7 +183,7 @@
         <div class="aside-options">
           <div class="clearfix mt-4">
             <small><b>Option 1</b></small>
-            <c-switch type="text" variant="success" on="on" off="off" :pill="true" size="sm" class="float-right" :checked="true" />
+            <c-switch color="success" label variant="pill" size="sm" class="float-right" checked />
           </div>
           <div>
             <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
@@ -192,7 +192,7 @@
         <div class="aside-options">
           <div class="clearfix mt-3">
             <small><b>Option 2</b></small>
-            <c-switch type="text" variant="success" on="on" off="off" :pill="true" size="sm" class="float-right" />
+            <c-switch color="success" label variant="pill" size="sm" class="float-right" />
           </div>
           <div>
             <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
@@ -201,7 +201,7 @@
         <div class="aside-options">
           <div class="clearfix mt-3">
             <small><b>Option 3</b></small>
-            <c-switch type="text" variant="success" on="on" off="off" :pill="true" size="sm" class="float-right" disabled />
+            <c-switch color="success" label variant="pill" size="sm" class="float-right" disabled defaultChecked/>
           </div>
           <div>
             <small class="text-muted">Disabled option.</small>
@@ -210,7 +210,7 @@
         <div class="aside-options">
           <div class="clearfix mt-3">
             <small><b>Option 4</b></small>
-            <c-switch type="text" variant="success" on="on" off="off" :pill="true" size="sm" class="float-right" checked />
+            <c-switch color="success" label variant="pill" size="sm" class="float-right" checked />
           </div>
         </div>
         <hr>
@@ -241,9 +241,9 @@
 </template>
 
 <script>
-import {Switch as cSwitch} from '../components'
+import { Switch as cSwitch } from '@coreui/vue'
 export default {
-  name: 'FullAside',
+  name: 'DafaultAside',
   components: {
     cSwitch
   }

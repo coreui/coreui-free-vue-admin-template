@@ -456,7 +456,7 @@ import CardBarChartExample from './dashboard/CardBarChartExample'
 import MainChartExample from './dashboard/MainChartExample'
 import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
 import CalloutChartExample from './dashboard/CalloutChartExample'
-import { Callout } from '../components/'
+import { Callout } from '@coreui/vue'
 
 export default {
   name: 'dashboard',

@@ -82,19 +82,21 @@
       </main>
       <AppAside fixed>
         <!--aside-->
-        <FullAside/>
+        <DafaultAside/>
       </AppAside>
     </div>
-    <AppFooter fixed>
+    <TheFooter>
       <!--footer-->
-    </AppFooter>
+    </TheFooter>
   </div>
 </template>
 
 <script>
 import nav from '../_nav'
-import { Header as AppHeader, HeaderDropdown as AppHeaderDropdown, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Footer as AppFooter, Breadcrumb } from '../components/'
-import FullAside from './FullAside'
+import { Header as AppHeader, HeaderDropdown as AppHeaderDropdown, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Footer as TheFooter, Breadcrumb } from '@coreui/vue'
+// import { Header as AppHeader, HeaderDropdown as AppHeaderDropdown, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Breadcrumb } from '../components/'
+// import { Footer as TheFooter } from '@coreui/vue'
+import DafaultAside from './DafaultAside'
 
 export default {
   name: 'full',
@@ -104,9 +106,9 @@ export default {
     AppHeaderDropdown,
     AppSidebar,
     AppAside,
-    AppFooter,
+    TheFooter,
     Breadcrumb,
-    FullAside,
+    DafaultAside,
     SidebarForm,
     SidebarFooter,
     SidebarToggler,
