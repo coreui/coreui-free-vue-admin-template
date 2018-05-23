@@ -1,7 +1,7 @@
 ## [vue](./README.md) version `changelog`
 
 ##### `v2.0.0-alpha.0`
-- refactor: separation of concerns - (CoreUI template vs CoreUI components) prepare to use CoreUI as dependency
+- refactor: separation of concerns - (CoreUI template/components) for use CoreUI as npm module
 - refactor: project structure change
 - refactor: moved to [vuejs-templates](http://vuejs-templates.github.io/webpack/)
 - chore: moved to [Semantic Versioning](https://semver.org/)
@@ -9,6 +9,9 @@
 - refactor: rename containers
 - refactor(Colors): view layout, sub-components
 - refactor(Switches): move to `Switch component v2`
+- refactor(Cards): add transition to card-header-action `btn-close`
+- refactor(Cards): add collapse to card-header-action `btn-minimize`
+- refactor(Forms): add transition to card-header-action `btn-close`
 
 other:  
 

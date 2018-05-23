@@ -555,20 +555,22 @@
             <strong>Validation feedback</strong> Form
           </div>
           <b-card-body>
-            <b-form-group>
-              <label class="col-form-label" for="inputIsValid">Input is valid</label>
-              <input type="text" class="form-control is-valid" id="inputIsValid">
-              <b-form-valid-feedback>
-                Input is valid.
-              </b-form-valid-feedback>
-            </b-form-group>
-            <b-form-group>
-              <label class="col-form-label" for="inputIsInvalid">Input is invalid</label>
-              <input type="text" class="form-control is-invalid" id="inputIsInvalid">
-              <b-form-invalid-feedback>
-                Please provide a valid information.
-              </b-form-invalid-feedback>
-            </b-form-group>
+            <b-form>
+              <b-form-group validated>
+                <label class="col-form-label" for="inputIsValid">Input is valid</label>
+                <input type="text" class="form-control is-valid" id="inputIsValid">
+                <b-form-valid-feedback>
+                  Input is valid.
+                </b-form-valid-feedback>
+              </b-form-group>
+              <b-form-group>
+                <label class="col-form-label" for="inputIsInvalid">Input is invalid</label>
+                <input type="text" class="form-control is-invalid" id="inputIsInvalid">
+                <b-form-invalid-feedback>
+                  Please provide a valid information.
+                </b-form-invalid-feedback>
+              </b-form-group>
+            </b-form>
           </b-card-body>
         </b-card>
       </b-col>
@@ -948,70 +950,72 @@
     </b-row>
     <b-row>
       <b-col lg="12">
-        <b-card no-body>
-          <div slot="header">
-            <i class="fa fa-edit"></i> Form Elements
-            <div class="card-header-actions">
-              <b-link href="#" class="card-header-action btn-setting">
-                <i class="icon-settings"></i>
-              </b-link>
-              <b-link class="card-header-action btn-minimize" v-b-toggle.collapse1>
-                <i class="icon-arrow-up"></i>
-              </b-link>
-              <b-link href="#" class="card-header-action btn-close">
-                <i class="icon-close"></i>
-              </b-link>
-            </div>
-          </div>
-          <b-collapse id="collapse1" visible>
-            <b-card-body>
-              <b-form-group label="Prepended text" label-for="elementsEmail" description="Here's some help text">
-                <b-input-group>
-                  <b-input-group-prepend>
-                    <b-input-group-text>@</b-input-group-text>
-                  </b-input-group-prepend>
-                  <b-form-input id="elementsEmail" type="email"></b-form-input>
-                </b-input-group>
-              </b-form-group>
-              <b-form-group label="Appended text" label-for="elementsAppend" description="Here's some help text">
-                <b-input-group>
-                  <b-form-input id="elementsAppend" type="text"></b-form-input>
-                  <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
-                </b-input-group>
-              </b-form-group>
-              <b-form-group label="Append and prepend" label-for="elementsPrependAppend" description="Here's some help text">
-                <b-input-group>
-                  <b-input-group-prepend>
-                    <b-input-group-text>$</b-input-group-text>
-                  </b-input-group-prepend>
-                  <b-form-input id="elementsPrependAppend" type="text"></b-form-input>
-                  <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
-                </b-input-group>
-              </b-form-group>
-              <b-form-group label="Append with button" label-for="elementsAppendButton" description="Here's some help text">
-                <b-input-group>
-                  <b-form-input id="elementsAppendButton" type="text"></b-form-input>
-                  <b-input-group-append>
-                    <b-button variant="primary">Go!</b-button>
-                  </b-input-group-append>
-                </b-input-group>
-              </b-form-group>
-              <b-form-group label="Two-buttons append" label-for="elementsTwoButtons">
-                <b-input-group>
-                  <b-form-input id="elementsTwoButtons" type="text"></b-form-input>
-                  <b-input-group-append>
-                    <b-button variant="primary">Search</b-button>
-                    <b-button variant="danger">Options</b-button>
-                  </b-input-group-append>
-                </b-input-group>
-              </b-form-group>
-              <div class="form-actions">
-                <b-button type="submit" variant="primary">Save changes</b-button>
-                <b-button type="button" variant="secondary">Cancel</b-button>
+        <transition name="fade">
+          <b-card no-body v-if="show">
+            <div slot="header">
+              <i class="fa fa-edit"></i> Form Elements
+              <div class="card-header-actions">
+                <b-link href="#" class="card-header-action btn-setting">
+                  <i class="icon-settings"></i>
+                </b-link>
+                <b-link class="card-header-action btn-minimize" v-b-toggle.collapse1>
+                  <i class="icon-arrow-up"></i>
+                </b-link>
+                <b-link href="#" class="card-header-action btn-close" v-on:click="show = !show">
+                  <i class="icon-close"></i>
+                </b-link>
               </div>
-            </b-card-body>
-          </b-collapse>
-        </b-card>
+            </div>
+            <b-collapse id="collapse1" visible>
+              <b-card-body>
+                <b-form-group label="Prepended text" label-for="elementsEmail" description="Here's some help text">
+                  <b-input-group>
+                    <b-input-group-prepend>
+                      <b-input-group-text>@</b-input-group-text>
+                    </b-input-group-prepend>
+                    <b-form-input id="elementsEmail" type="email"></b-form-input>
+                  </b-input-group>
+                </b-form-group>
+                <b-form-group label="Appended text" label-for="elementsAppend" description="Here's some help text">
+                  <b-input-group>
+                    <b-form-input id="elementsAppend" type="text"></b-form-input>
+                    <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
+                  </b-input-group>
+                </b-form-group>
+                <b-form-group label="Append and prepend" label-for="elementsPrependAppend" description="Here's some help text">
+                  <b-input-group>
+                    <b-input-group-prepend>
+                      <b-input-group-text>$</b-input-group-text>
+                    </b-input-group-prepend>
+                    <b-form-input id="elementsPrependAppend" type="text"></b-form-input>
+                    <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
+                  </b-input-group>
+                </b-form-group>
+                <b-form-group label="Append with button" label-for="elementsAppendButton" description="Here's some help text">
+                  <b-input-group>
+                    <b-form-input id="elementsAppendButton" type="text"></b-form-input>
+                    <b-input-group-append>
+                      <b-button variant="primary">Go!</b-button>
+                    </b-input-group-append>
+                  </b-input-group>
+                </b-form-group>
+                <b-form-group label="Two-buttons append" label-for="elementsTwoButtons">
+                  <b-input-group>
+                    <b-form-input id="elementsTwoButtons" type="text"></b-form-input>
+                    <b-input-group-append>
+                      <b-button variant="primary">Search</b-button>
+                      <b-button variant="danger">Options</b-button>
+                    </b-input-group-append>
+                  </b-input-group>
+                </b-form-group>
+                <div class="form-actions">
+                  <b-button type="submit" variant="primary">Save changes</b-button>
+                  <b-button type="button" variant="secondary">Cancel</b-button>
+                </div>
+              </b-card-body>
+            </b-collapse>
+          </b-card>
+        </transition>
       </b-col>
     </b-row>
   </div>
@@ -1022,7 +1026,8 @@ export default {
   name: 'forms',
   data () {
     return {
-      selected: [] // Must be an array reference!
+      selected: [], // Must be an array reference!
+      show: true
     }
   },
   methods: {
@@ -1032,3 +1037,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+</style>
