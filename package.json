@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@coreui/coreui": "^2.0.1",
+    "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
+    "@coreui/icons": "^0.2.0",
     "@coreui/vue": "^2.0.0-alpha.0",
     "bootstrap": "^4.1.1",
     "bootstrap-vue": "^2.0.0-rc.11",
