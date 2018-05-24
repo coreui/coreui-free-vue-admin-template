@@ -18,6 +18,7 @@ import Cards from '@/views/base/Cards'
 import Forms from '@/views/base/Forms'
 import Switches from '@/views/base/Switches'
 import Tables from '@/views/base/Tables'
+import Tabs from '@/views/base/Tabs'
 import Breadcrumbs from '@/views/base/Breadcrumbs'
 import Carousels from '@/views/base/Carousels'
 import Collapses from '@/views/base/Collapses'
@@ -128,6 +129,11 @@ export default new Router({
               path: 'tables',
               name: 'Tables',
               component: Tables
+            },
+            {
+              path: 'tabs',
+              name: 'Tabs',
+              component: Tabs
             },
             {
               path: 'breadcrumbs',
