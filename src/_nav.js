@@ -113,6 +113,11 @@ export default {
           icon: 'icon-puzzle'
         },
         {
+          name: 'Tabs',
+          url: '/base/tabs',
+          icon: 'icon-puzzle'
+        },
+        {
           name: 'Tooltips',
           url: '/base/tooltips',
           icon: 'icon-puzzle'
