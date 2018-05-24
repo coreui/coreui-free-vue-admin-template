@@ -135,13 +135,13 @@ export default {
           icon: 'icon-cursor'
         },
         {
-          name: 'Button Groups',
-          url: '/buttons/button-groups',
+          name: 'Button Dropdowns',
+          url: '/buttons/dropdowns',
           icon: 'icon-cursor'
         },
         {
-          name: 'Dropdowns',
-          url: '/buttons/dropdowns',
+          name: 'Button Groups',
+          url: '/buttons/button-groups',
           icon: 'icon-cursor'
         },
         {
