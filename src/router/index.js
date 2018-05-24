@@ -40,6 +40,7 @@ import BrandButtons from '@/views/buttons/BrandButtons'
 import Flags from '@/views/icons/Flags'
 import FontAwesome from '@/views/icons/FontAwesome'
 import SimpleLineIcons from '@/views/icons/SimpleLineIcons'
+import CoreUIIcons from '@/views/icons/CoreUIIcons'
 
 // Views - Notifications
 import Alerts from '@/views/notifications/Alerts'
@@ -223,6 +224,11 @@ export default new Router({
             render (c) { return c('router-view') }
           },
           children: [
+            {
+              path: 'coreui-icons',
+              name: 'CoreUI Icons',
+              component: CoreUIIcons
+            },
             {
               path: 'flags',
               name: 'Flags',
