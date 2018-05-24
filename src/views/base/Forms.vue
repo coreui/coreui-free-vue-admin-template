@@ -94,13 +94,14 @@
           <div slot="header">
             <strong>Basic Form</strong> Elements
           </div>
+          <b-form>
           <b-form-group
             description="Let us know your full name."
             label="Enter your name"
             label-for="basicName"
             :label-cols="3"
             :horizontal="true">
-            <b-form-input id="basicName" type="text"></b-form-input>
+            <b-form-input id="basicName" type="text" autocomplete="name"></b-form-input>
           </b-form-group>
           <b-form-group
             label="Static"
@@ -129,7 +130,7 @@
             label-for="basicEmail"
             :label-cols="3"
             :horizontal="true">
-            <b-form-input id="basicEmail" type="email" placeholder="Enter your email"></b-form-input>
+            <b-form-input id="basicEmail" type="email" placeholder="Enter your email" autocomplete="email"></b-form-input>
           </b-form-group>
           <b-form-group
             description="Please enter a complex password"
@@ -137,7 +138,7 @@
             label-for="basicPassword"
             :label-cols="3"
             :horizontal="true">
-            <b-form-input id="basicPassword" type="password" placeholder="Enter your password"></b-form-input>
+            <b-form-input id="basicPassword" type="password" placeholder="Enter your password" autocomplete="current-password"></b-form-input>
           </b-form-group>
           <b-form-group
             label="Disabled Input"
@@ -388,6 +389,7 @@
             <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
             <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
           </div>
+          </b-form>
         </b-card>
         <b-card>
           <div slot="header">
@@ -398,7 +400,7 @@
             <label class="mr-sm-2" for="inlineInput1">Name: </label>
             <b-input id="inlineInput1" type="text" placeholder="Jane Doe"></b-input>
             <label class="mx-sm-2" for="inlineInput2">Email: </label>
-            <b-input id="inlineInput2" type="email" placeholder="jane.doe@example.com"></b-input>
+            <b-input id="inlineInput2" type="email" placeholder="jane.doe@example.com" autocomplete="email"></b-input>
           </b-form>
           <div slot="footer">
             <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
@@ -411,47 +413,51 @@
           <div slot="header">
             <strong>Horizontal</strong> Form
           </div>
-          <b-form-group
-            label="Email"
-            label-for="horizEmail"
-            description="Please enter your email."
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="horizEmail" type="email" placeholder="Enter Email.."></b-form-input>
-          </b-form-group>
-          <b-form-group
-            label="Password"
-            label-for="horizPass"
-            description="Please enter your password."
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="horizPass" type="password" placeholder="Enter Password.."></b-form-input>
-          </b-form-group>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
+          <b-form>
+            <b-form-group
+              label="Email"
+              label-for="horizEmail"
+              description="Please enter your email."
+              :label-cols="3"
+              :horizontal="true">
+              <b-form-input id="horizEmail" type="email" placeholder="Enter Email.." autocomplete="username email"></b-form-input>
+            </b-form-group>
+            <b-form-group
+              label="Password"
+              label-for="horizPass"
+              description="Please enter your password."
+              :label-cols="3"
+              :horizontal="true">
+              <b-form-input id="horizPass" type="password" placeholder="Enter Password.." autocomplete="current-password"></b-form-input>
+            </b-form-group>
+            <div slot="footer">
+              <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
+              <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
+            </div>
+          </b-form>
         </b-card>
         <b-card>
           <div slot="header">
             <strong>Normal</strong> Form
           </div>
-          <b-form-group validated
-            label="Email"
-            label-for="normalEmail"
-            description="Please enter your email.">
-            <b-form-input id="normalEmail" type="email" placeholder="Enter Email.." required></b-form-input>
-          </b-form-group>
-          <b-form-group validated
-            label="Password"
-            label-for="normalPass"
-            description="Please enter your password.">
-            <b-form-input id="normalPass" type="password" placeholder="Enter Password.." required></b-form-input>
-          </b-form-group>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
+          <b-form>
+            <b-form-group validated
+              label="Email"
+              label-for="normalEmail"
+              description="Please enter your email.">
+              <b-form-input id="normalEmail" type="email" placeholder="Enter Email.." required autocomplete="email"></b-form-input>
+            </b-form-group>
+            <b-form-group validated
+              label="Password"
+              label-for="normalPass"
+              description="Please enter your password.">
+              <b-form-input id="normalPass" type="password" placeholder="Enter Password.." required autocomplete="current-password"></b-form-input>
+            </b-form-group>
+            <div slot="footer">
+              <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
+              <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
+            </div>
+          </b-form>
         </b-card>
         <b-card no-body :no-block="true">
           <div slot="header">
@@ -617,7 +623,7 @@
           </b-form-group>
           <b-form-group>
             <b-input-group>
-              <b-form-input type="email" placeholder="Email"></b-form-input>
+              <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
               <b-input-group-append><b-input-group-text><i class="fa fa-envelope-o"></i></b-input-group-text></b-input-group-append>
             </b-input-group>
           </b-form-group>
@@ -654,7 +660,7 @@
           </b-form-group>
           <b-form-group>
             <b-input-group>
-              <b-form-input type="email" placeholder="Email"></b-form-input>
+              <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
               <!-- Attach Right button -->
               <b-input-group-append>
                 <b-button variant="primary">Submit</b-button>
@@ -667,7 +673,7 @@
               <b-input-group-prepend>
                 <b-button variant="primary"><i class="fa fa-facebook"></i></b-button>
               </b-input-group-prepend>
-              <b-form-input type="email" placeholder="Email"></b-form-input>
+              <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
               <!-- Attach Left button -->
               <b-input-group-append>
                 <b-button variant="primary"><i class="fa fa-twitter"></i></b-button>
@@ -859,30 +865,32 @@
           <div slot="header">
             Example Form
           </div>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend><b-input-group-text>Username</b-input-group-text></b-input-group-prepend>
-              <b-form-input type="text"></b-form-input>
-              <b-input-group-append><b-input-group-text><i class="fa fa-user"></i></b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend><b-input-group-text>Email</b-input-group-text></b-input-group-prepend>
-              <b-form-input type="email"></b-form-input>
-              <b-input-group-append><b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend><b-input-group-text>Password</b-input-group-text></b-input-group-prepend>
-              <b-form-input type="password"></b-form-input>
-              <b-input-group-append><b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <div class="form-group form-actions">
-            <b-button type="submit" size="sm" variant="primary">Submit</b-button>
-          </div>
+          <b-form>
+            <b-form-group>
+              <b-input-group>
+                <b-input-group-prepend><b-input-group-text>Username</b-input-group-text></b-input-group-prepend>
+                <b-form-input type="text"></b-form-input>
+                <b-input-group-append><b-input-group-text><i class="fa fa-user"></i></b-input-group-text></b-input-group-append>
+              </b-input-group>
+            </b-form-group>
+            <b-form-group>
+              <b-input-group>
+                <b-input-group-prepend><b-input-group-text>Email</b-input-group-text></b-input-group-prepend>
+                <b-form-input type="email" autocomplete="email"></b-form-input>
+                <b-input-group-append><b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text></b-input-group-append>
+              </b-input-group>
+            </b-form-group>
+            <b-form-group>
+              <b-input-group>
+                <b-input-group-prepend><b-input-group-text>Password</b-input-group-text></b-input-group-prepend>
+                <b-form-input type="password" autocomplete="current-password"></b-form-input>
+                <b-input-group-append><b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text></b-input-group-append>
+              </b-input-group>
+            </b-form-group>
+            <div class="form-group form-actions">
+              <b-button type="submit" size="sm" variant="primary">Submit</b-button>
+            </div>
+          </b-form>
         </b-card>
       </b-col>
       <b-col sm="4">
@@ -890,27 +898,29 @@
           <div slot="header">
             Example Form
           </div>
-          <b-form-group>
-            <b-input-group>
-              <b-form-input type="text" placeholder="Username"></b-form-input>
-              <b-input-group-append><b-input-group-text><i class="fa fa-user"></i></b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-form-input type="email" placeholder="Email"></b-form-input>
-              <b-input-group-append><b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-form-input type="password" placeholder="Password"></b-form-input>
-              <b-input-group-append><b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <div class="form-group form-actions">
-            <b-button type="submit" class="btn btn-sm btn-secondary">Submit</b-button>
-          </div>
+          <b-form>
+            <b-form-group>
+              <b-input-group>
+                <b-form-input type="text" placeholder="Username"></b-form-input>
+                <b-input-group-append><b-input-group-text><i class="fa fa-user"></i></b-input-group-text></b-input-group-append>
+              </b-input-group>
+            </b-form-group>
+            <b-form-group>
+              <b-input-group>
+                <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
+                <b-input-group-append><b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text></b-input-group-append>
+              </b-input-group>
+            </b-form-group>
+            <b-form-group>
+              <b-input-group>
+                <b-form-input type="password" placeholder="Password" autocomplete="current-password"></b-form-input>
+                <b-input-group-append><b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text></b-input-group-append>
+              </b-input-group>
+            </b-form-group>
+            <div class="form-group form-actions">
+              <b-button type="submit" class="btn btn-sm btn-secondary">Submit</b-button>
+            </div>
+          </b-form>
         </b-card>
       </b-col>
       <b-col sm="4">
@@ -918,33 +928,35 @@
           <div slot="header">
             Example Form
           </div>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend>
-                <b-input-group-text><i class="fa fa-user"></i></b-input-group-text>
-              </b-input-group-prepend>
-              <b-form-input type="text" placeholder="Username"></b-form-input>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend>
-                <b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text>
-              </b-input-group-prepend>
-              <b-form-input type="email" placeholder="Email"></b-form-input>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend>
-                <b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text>
-              </b-input-group-prepend>
-              <b-form-input type="password" placeholder="Password"></b-form-input>
-            </b-input-group>
-          </b-form-group>
-          <div class="form-group form-actions">
-            <b-button type="submit" size="sm" variant="success">Submit</b-button>
-          </div>
+          <b-form>
+            <b-form-group>
+              <b-input-group>
+                <b-input-group-prepend>
+                  <b-input-group-text><i class="fa fa-user"></i></b-input-group-text>
+                </b-input-group-prepend>
+                <b-form-input type="text" placeholder="Username"></b-form-input>
+              </b-input-group>
+            </b-form-group>
+            <b-form-group>
+              <b-input-group>
+                <b-input-group-prepend>
+                  <b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text>
+                </b-input-group-prepend>
+                <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
+              </b-input-group>
+            </b-form-group>
+            <b-form-group>
+              <b-input-group>
+                <b-input-group-prepend>
+                  <b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text>
+                </b-input-group-prepend>
+                <b-form-input type="password" placeholder="Password" autocomplete="current-password"></b-form-input>
+              </b-input-group>
+            </b-form-group>
+            <div class="form-group form-actions">
+              <b-button type="submit" size="sm" variant="success">Submit</b-button>
+            </div>
+          </b-form>
         </b-card>
       </b-col>
     </b-row>
@@ -973,7 +985,7 @@
                     <b-input-group-prepend>
                       <b-input-group-text>@</b-input-group-text>
                     </b-input-group-prepend>
-                    <b-form-input id="elementsEmail" type="email"></b-form-input>
+                    <b-form-input id="elementsEmail" type="email" autocomplete="email"></b-form-input>
                   </b-input-group>
                 </b-form-group>
                 <b-form-group label="Appended text" label-for="elementsAppend" description="Here's some help text">
@@ -1039,10 +1051,12 @@ export default {
 </script>
 
 <style scoped>
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity .5s;
-  }
-  .fade-enter, .fade-leave-to {
-    opacity: 0;
-  }
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>
