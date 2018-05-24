@@ -9,9 +9,16 @@
 - refactor: rename containers
 - refactor(Colors): view layout, sub-components
 - refactor(Switches): move to `Switch component v2`
-- refactor(Cards): add transition to card-header-action `btn-close`
-- refactor(Cards): add collapse to card-header-action `btn-minimize`
-- refactor(Forms): add transition to card-header-action `btn-close`
+- refactor(Cards): add `transition` to card-header-action `btn-close`
+- refactor(Cards): add `collapse` to card-header-action `btn-minimize`
+- refactor(Forms): add `transition` to card-header-action `btn-close`
+- refactor(Forms): add `autocomplete` attrib
+- refactor(Forms): add missing `form` tags
+- refactor(Buttons): view rearrange
+- refactor(Jumbotrons): view rearrange  
+- feat(Icons): add `CoreUI Icons` set
+- feat(Tabs): add missing feat `tabs`
+- feat(Charts): add `CustomTooltips`, fix tooltip `chartId` issue
 
 other:  
 
