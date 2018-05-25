@@ -1,16 +1,12 @@
 <script>
 import { Line } from 'vue-chartjs'
-import { getStyle } from '@coreui/coreui/dist/js/coreui-utilities'
-
-// const brandPrimary = '#20a8d8'
-// const brandSuccess = '#4dbd74'
-// const brandInfo = '#63c2de'
-// const brandWarning = '#f8cb00'
-// const brandDanger = '#f86c6b'
+import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
+// import { getStyle } from '@coreui/coreui/dist/js/coreui-utilities'
+import getStyle from '../../utils/getStyle'
 
 export default {
   components: {
-    getStyle
+    CustomTooltips
   },
   extends: Line,
   props: ['data', 'height', 'width', 'variant'],
@@ -26,6 +22,18 @@ export default {
       ]
     }, {
       responsive: true,
+      tooltips: {
+        enabled: false,
+        custom: CustomTooltips,
+        intersect: true,
+        mode: 'index',
+        position: 'nearest',
+        callbacks: {
+          labelColor: function (tooltipItem, chart) {
+            return { backgroundColor: chart.data.datasets[tooltipItem.datasetIndex].borderColor }
+          }
+        }
+      },
       maintainAspectRatio: true,
       scales: {
         xAxes: [{

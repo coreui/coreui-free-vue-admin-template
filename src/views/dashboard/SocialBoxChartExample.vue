@@ -1,5 +1,6 @@
 <script>
 import { Line } from 'vue-chartjs'
+import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 
 export default {
   extends: Line,
@@ -26,6 +27,10 @@ export default {
         }
       ]
     }, {
+      tooltips: {
+        enabled: false,
+        custom: CustomTooltips
+      },
       responsive: true,
       maintainAspectRatio: false,
       legend: {

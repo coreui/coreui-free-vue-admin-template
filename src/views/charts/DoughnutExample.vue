@@ -17,7 +17,7 @@ export default {
           data: [40, 20, 80, 10]
         }
       ]
-    }, {responsive: true, maintainAspectRatio: false})
+    }, {responsive: true, maintainAspectRatio: true})
   }
 }
 </script>

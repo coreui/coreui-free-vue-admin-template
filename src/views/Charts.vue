@@ -1,34 +1,34 @@
 <template>
   <div class="animated fadeIn">
-    <b-card-group columns class="card-columns cols-2">
+    <b-card-group columns class="card-columns">
       <b-card header="Line Chart">
         <div class="chart-wrapper">
-          <line-example/>
+          <line-example chartId="chart-line-01"/>
         </div>
       </b-card>
       <b-card header="Bar Chart">
         <div class="chart-wrapper">
-          <bar-example/>
+          <bar-example chartId="chart-bar-01"/>
         </div>
       </b-card>
       <b-card header="Doughnut Chart">
         <div class="chart-wrapper">
-          <doughnut-example/>
+          <doughnut-example chartId="chart-doughnut-01"/>
         </div>
       </b-card>
       <b-card header="Radar Chart">
         <div class="chart-wrapper">
-          <radar-example/>
+          <radar-example chartId="chart-radar-01"/>
         </div>
       </b-card>
       <b-card header="Pie Chart">
         <div class="chart-wrapper">
-          <pie-example/>
+          <pie-example chartId="chart-pie-01"/>
         </div>
       </b-card>
       <b-card header="Polar Area Chart">
         <div class="chart-wrapper">
-          <polar-area-example/>
+          <polar-area-example chartId="chart-polar-area-01"/>
         </div>
       </b-card>
     </b-card-group>
