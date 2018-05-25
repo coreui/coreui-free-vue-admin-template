@@ -1,6 +1,6 @@
 ## [vue](./README.md) version `changelog`
 
-##### `v2.0.0-alpha.0`
+##### `v2.0.0-alpha.1`
 - refactor: separation of concerns - (CoreUI template/components) for use CoreUI as npm module
 - refactor: project structure change
 - refactor: moved to [vuejs-templates](http://vuejs-templates.github.io/webpack/)
