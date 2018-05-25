@@ -19,6 +19,10 @@
 - feat(Icons): add `CoreUI Icons` set
 - feat(Tabs): add missing feat `tabs`
 - feat(Charts): add `CustomTooltips`, fix tooltip `chartId` issue
+- refactor: move `scss` to `assets`
+- refactor: IE polyfills
+- chore: dependencies update
+- chore: cleanups
 
 other:  
 
