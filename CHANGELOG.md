@@ -1,5 +1,11 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-beta.1`
+- chore: update `@coreui/vue` to `2.0.0-beta.0`
+
+##### `v2.0.0-beta.0`
+- chore: update `core-js` to `2.5.7`
+
 ##### `v2.0.0-alpha.1`
 - refactor: separation of concerns - (CoreUI template/components) for use CoreUI as npm module
 - refactor: project structure change
