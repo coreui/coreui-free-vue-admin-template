@@ -23,45 +23,7 @@
         <b-nav-item class="d-md-down-none">
           <i class="icon-location-pin"></i>
         </b-nav-item>
-        <AppHeaderDropdown right no-caret>
-          <div>
-          <template slot="button-content">
-            <img
-              src="static/img/avatars/6.jpg"
-              class="img-avatar"
-              alt="admin@bootstrapmaster.com" />
-          </template>
-          <b-dropdown-header tag="div" class="text-center"><strong>Account</strong></b-dropdown-header>
-          <b-dropdown-item><i class="fa fa-bell-o" /> Updates
-            <b-badge variant="info">{{ itemsCount }}</b-badge>
-          </b-dropdown-item>
-          <b-dropdown-item><i class="fa fa-envelope-o" /> Messages
-            <b-badge variant="success">{{ itemsCount }}</b-badge>
-          </b-dropdown-item>
-          <b-dropdown-item><i class="fa fa-tasks" /> Tasks
-            <b-badge variant="danger">{{ itemsCount }}</b-badge>
-          </b-dropdown-item>
-          <b-dropdown-item><i class="fa fa-comments" /> Comments
-            <b-badge variant="warning">{{ itemsCount }}</b-badge>
-          </b-dropdown-item>
-          <b-dropdown-header
-            tag="div"
-            class="text-center">
-            <strong>Settings</strong>
-          </b-dropdown-header>
-          <b-dropdown-item><i class="fa fa-user" /> Profile</b-dropdown-item>
-          <b-dropdown-item><i class="fa fa-wrench" /> Settings</b-dropdown-item>
-          <b-dropdown-item><i class="fa fa-usd" /> Payments
-            <b-badge variant="secondary">{{ itemsCount }}</b-badge>
-          </b-dropdown-item>
-          <b-dropdown-item><i class="fa fa-file" /> Projects
-            <b-badge variant="primary">{{ itemsCount }}</b-badge>
-          </b-dropdown-item>
-          <b-dropdown-divider />
-          <b-dropdown-item><i class="fa fa-shield" /> Lock Account</b-dropdown-item>
-          <b-dropdown-item><i class="fa fa-lock" /> Logout</b-dropdown-item>
-          </div>
-        </AppHeaderDropdown>
+        <DefaultHeaderDropdownAccnt/>
       </b-navbar-nav>
       <AsideToggler class="d-none d-lg-block" />
       <!--<AsideToggler class="d-lg-none" mobile />-->
@@ -93,22 +55,21 @@
 
 <script>
 import nav from '../_nav'
-import { Header as AppHeader, HeaderDropdown as AppHeaderDropdown, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Footer as TheFooter, Breadcrumb } from '@coreui/vue'
-// import { Header as AppHeader, HeaderDropdown as AppHeaderDropdown, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Breadcrumb } from '../components/'
-// import { Footer as TheFooter } from '@coreui/vue'
+import { Header as AppHeader, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Footer as TheFooter, Breadcrumb } from '@coreui/vue'
 import DafaultAside from './DafaultAside'
+import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
 
 export default {
   name: 'full',
   components: {
     AsideToggler,
     AppHeader,
-    AppHeaderDropdown,
     AppSidebar,
     AppAside,
     TheFooter,
     Breadcrumb,
     DafaultAside,
+    DefaultHeaderDropdownAccnt,
     SidebarForm,
     SidebarFooter,
     SidebarToggler,
@@ -118,8 +79,7 @@ export default {
   },
   data () {
     return {
-      nav: nav.items,
-      itemsCount: 42
+      nav: nav.items
     }
   },
   computed: {

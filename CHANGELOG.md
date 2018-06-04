@@ -1,5 +1,10 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-beta.2`
+- refactor: `HeaderDropdown` with new slots `header` and `dropdown` *breaking change*
+- chore: update `@coreui/vue` to `2.0.0-beta.1`
+- chore: dependencies update
+
 ##### `v2.0.0-beta.1`
 - chore: update `@coreui/vue` to `2.0.0-beta.0`
 
