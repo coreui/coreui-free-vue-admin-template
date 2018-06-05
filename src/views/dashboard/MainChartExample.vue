@@ -1,9 +1,7 @@
 <script>
 import { Line } from 'vue-chartjs'
-// import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
-import { hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
+import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
-import getStyle from '../../utils/getStyle'
 
 function random (min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
