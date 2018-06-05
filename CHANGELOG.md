@@ -1,5 +1,9 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-beta.3`
+- refactor: `getStyles()` back to `@coreui/coreui` version `^2.0.2`
+- fix(Dashboard): `width` card-line*-chart-example `ie` issue
+
 ##### `v2.0.0-beta.2`
 - refactor: `HeaderDropdown` with new slots `header` and `dropdown` *breaking change*
 - chore: update `@coreui/vue` to `2.0.0-beta.1`
