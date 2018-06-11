@@ -18,7 +18,7 @@ If the execution has run correctly we can tag this machine as:
 
 To run the project, then simply: 
 
-``` docker run -it -p 8080:8080 -v ${LOCAL_PROJECT_PATH}:/var/www/html/dashboard tangelogamesbarcelona/dashboard```
+``` docker run -itd -p 8080:8080 -v ${LOCAL_PROJECT_PATH}:/var/www/html/dashboard tangelogamesbarcelona/dashboard```
 
 To see if everything is working properly, try in your browser: 
 
@@ -32,7 +32,7 @@ Please do all of this from inside the docker machine, to get into the docker , o
  
 Then: 
 
-``` docker exec -itd ${DOCKER_NAME} /bin/bash ```
+``` docker exec -it ${DOCKER_NAME} /bin/bash ```
 
 
 ``` bash
