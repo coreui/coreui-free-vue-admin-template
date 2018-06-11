@@ -26,6 +26,15 @@ To see if everything is working properly, try in your browser:
 
 ## Build Setup of project
 
+Please do all of this from inside the docker machine, to get into the docker , once is running, do: 
+
+``` docker ps ``` to choose the docker name 
+ 
+Then: 
+
+``` docker exec -itd ${DOCKER_NAME} /bin/bash ```
+
+
 ``` bash
 # install dependencies
 npm install
