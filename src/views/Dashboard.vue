@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'dashboard'
+  name: 'Bingo metrics'
 }
 </script>
