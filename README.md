@@ -1,8 +1,26 @@
-# CoreUI Vue
+# Dashboard
 
-> CoreUI Vue Open Source Bootsrtap 4 Admin Template
+This project is intended to show metrics and provide simplest instrumentation of the games 
 
-## Build Setup
+## Using through Docker
+
+This project includes a docker for its execution, once on this project you only have to: 
+
+``` docker build . ```
+
+If the execution has run correctly we can tag this machine as: 
+
+``` docker tag ${{hash}} tangelogamesbarcelona/dashboard ```
+
+To run the project, then simply: 
+
+``` docker run -it -p 8080:8080 -v ${LOCAL_PROJECT_PATH}:/var/www/html/dashboard tangelogamesbarcelona/dashboard```
+
+To see if everything is working properly, try in your browser: 
+
+``` http://localhost:8080```
+
+## Build Setup of project
 
 ``` bash
 # install dependencies
