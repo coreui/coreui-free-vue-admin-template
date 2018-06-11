@@ -1,11 +1,14 @@
 <template>
-  <div class="animated fadeIn">
-    <p class="text-info">Hello World</p>
+  <div id="userCount" class="animated fadeIn">
+    <count-bingo-users></count-bingo-users>
   </div>
 </template>
 
 <script>
+  import CountBingoUsers from "../components/count-bingo-users/CountBingoUsers";
+
 export default {
-  name: 'Bingo metrics'
+  components: {CountBingoUsers},
+  name: 'BingoMetrics'
 }
 </script>
