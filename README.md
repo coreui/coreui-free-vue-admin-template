@@ -2,6 +2,10 @@
 
 This project is intended to show metrics and provide simplest instrumentation of the games 
 
+## Important notice
+
+Use this project from develop branch and child branch from develop also.
+
 ## Using through Docker
 
 This project includes a docker for its execution, once on this project you only have to: 
