@@ -1,53 +1,48 @@
 export default {
-  name: 'gameserver',
-  gameserver: function GameServer() {
+  name: 'GameServer',
+  GameServer: function GameServer () {
+    this.channel = null
 
-    this.channel = null;
-
-    this.open = function(url) {
-      this.close();
-      this.channel = new WebSocket(url);
+    this.open = function (url) {
+      this.close()
+      this.channel = new WebSocket(url)
     }
 
-    this.close = function() {
+    this.close = function () {
       if (this.channel != null) {
-        this.channel.close();
-        this.channel = null;
-        console.log("websocket disconnected.");
+        this.channel.close()
+        this.channel = null
       }
     }
 
-    this.send = function(message, parameters) {
-      this.sendTo('BingoService', message, parameters);
+    this.send = function (message, parameters) {
+      this.sendTo('BingoService', message, parameters)
     }
 
-    this.sendTo = function(to, message, parameters) {
-
+    this.sendTo = function (to, message, parameters) {
       if (this.channel == null) {
-        console.log("ERROR sendMessage " + message + " (no connection available)");
-        return;
+        return
       }
 
-      var json = JSON.stringify({ type : message, to : to, data : (parameters == null) ? {} : parameters });
-      console.log("sendMessage >> " + json);
-      this.channel.send(json);
+      var json = JSON.stringify({ type: message, to: to, data: (parameters == null) ? {} : parameters })
+      this.channel.send(json)
     }
 
-    this.onOpen = function(handler) {
+    this.onOpen = function (handler) {
       if (this.channel != null) {
-        this.channel.onopen = handler;
+        this.channel.onopen = handler
       }
     }
 
-    this.onClose = function(handler) {
+    this.onClose = function (handler) {
       if (this.channel != null) {
-        this.channel.onclose = handler;
+        this.channel.onclose = handler
       }
     }
 
-    this.onMessage = function(handler) {
+    this.onMessage = function (handler) {
       if (this.channel != null) {
-        this.channel.onmessage = handler;
+        this.channel.onmessage = handler
       }
     }
   }

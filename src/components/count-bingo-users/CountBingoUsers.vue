@@ -1,53 +1,71 @@
 <template>
   <div>
-    <span id="userCount">connecting...</span>
+    <input id="connect" type="button" value="connect"/>
+    <input id="disconnect" type="button" value="disconnect"/>
+    <input id="state" type="text" value="" placeholder="State"/>
+    <input id="connectedUsers" type="text" value="" placeholder="Users connected"/>
   </div>
 </template>
+
 <script>
-  import ws from './ws';
-  var gameserver;
-  export default {
-    name: 'CountBingoUsers',
-    mounted: function(){
-      gameserver = new ws.gameserver();
+import ws from './ws'
+
+var delay = 5000
+var gameserver
+var url = 'wss://bingoserver-dev.devel.akamon.com/ws1'
+var userID = 'ef7ae655-44d8-4b6f-4d3f-32ffc79f613d'
+
+export default {
+  name: 'CountBingoUsers',
+  mounted: function () {
+    gameserver = new ws.GameServer()
+
+    document.getElementById('connect').onclick = function () {
+      gameserver.open(url)
+
+      gameserver.onOpen(function () {
+        document.getElementById('state').value = 'Connected'
+        gameserver.send(
+          'com.tangelogames.protocol.sessions.TakeSessionRequest',
+          {
+            clientUUID: userID,
+            id: ''
+          }
+        )
+        document.getElementById('state').value = 'TakeSession ok'
+      })
+
+      gameserver.onClose(function () {
+        document.getElementById('state').value = 'Connection closed'
+      })
 
       gameserver.onMessage(function (evt) {
+        var msg = JSON.parse(evt.data)
 
-        console.log("onMessage: " + evt.data);
+        if (msg.type === 'com.tangelogames.games.bingo.protocol.profile.BingoLoginProfile') {
+          document.getElementById('state').value = 'Bingo profile ok '
+          askAllConnectedPeriodic()
+        }
 
-        var msg = JSON.parse(evt.data);
+        if (msg.type === 'com.tangelogames.games.bingo.protocol.room.AllConnectedUsers') {
+          document.getElementById('connectedUsers').value = 'Connected users: ' + msg.data.totalUsersConnected
+          askAllConnectedPeriodic()
+        }
 
-        if (msg.type == "com.tangelogames.games.bingo.protocol.profile.BingoLoginProfile") {
-          setInterval(function(){
+        function askAllConnectedPeriodic () {
+          setInterval(function () {
             gameserver.sendTo(
               'RoomService',
               'com.tangelogames.games.bingo.protocol.room.AskAllConnectedUsers'
-            );
-          },5000);
-
+            )
+          }, delay)
         }
+      })
+    }
 
-        if (msg.type == "com.tangelogames.games.bingo.protocol.room.AllConnectedUsers") {
-          document.getElementById("userCount").innerText = msg.data.totalUsersConnected;
-        }
-
-      });
-
-      gameserver.open("wss://bingoserver-dev.devel.akamon.com/ws1");
-
-      //readyState=1 means that the websocket is connected
-      console.log(gameserver.channel.readyState);
-      document.getElementById("userCount").innerText = "connecting... " + gameserver.channel.readyState;
-      if(gameserver.channel.readyState == 0){
-        setTimeout(function(){console.log("waiting")}, 5000);
-      }
-      gameserver.send(
-        'com.tangelogames.protocol.sessions.TakeSessionRequest',
-        {
-          clientUUID : "ef7ae655-44d8-4b6f-4d3f-32ffc79f613d",
-          id : ""
-        }
-      );
+    document.getElementById('disconnect').onclick = function () {
+      gameserver.close()
     }
   }
+}
 </script>

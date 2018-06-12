@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import CountBingoUsers from "../components/count-bingo-users/CountBingoUsers";
+import CountBingoUsers from '../components/count-bingo-users/CountBingoUsers'
 
 export default {
   components: {CountBingoUsers},
