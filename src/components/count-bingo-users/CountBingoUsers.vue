@@ -22,7 +22,8 @@ import ws from './ws'
 
 var delay = 5000
 var gameserver
-var url = 'wss://bingoserver-dev.devel.akamon.com/ws1'
+
+var url = 'wss://bingoserver-dev.devel.akamon.com/ws1' // TODO Change it to prod
 var userID = 'ef7ae655-44d8-4b6f-4d3f-32ffc79f613d'
 
 export default {
@@ -54,12 +55,27 @@ export default {
 
         if (msg.type === 'com.tangelogames.games.bingo.protocol.profile.BingoLoginProfile') {
           document.getElementById('state').value = 'Bingo profile ok '
+          login()
           askAllConnectedPeriodic()
         }
 
         if (msg.type === 'com.tangelogames.games.bingo.protocol.room.AllConnectedUsers') {
           document.getElementById('connectedUsers').value = 'Connected users: ' + msg.data.totalUsersConnected
           askAllConnectedPeriodic()
+        }
+
+        function login () {
+          gameserver.sendTo(
+            'MundijuegosLoginService',
+            'com.tangelogames.protocol.suite.platform.protocol.client.MundijuegosLoginUserRequest',
+            {
+              user_id: userID,
+              userOAuthToken: '',
+              gameId: 'BINGO',
+              clientTypeId: 'viva_client_web_facebook'
+            }
+          )
+          document.getElementById('state').value = 'Login Lobby'
         }
 
         function askAllConnectedPeriodic () {
