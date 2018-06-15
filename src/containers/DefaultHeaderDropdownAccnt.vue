@@ -2,7 +2,7 @@
   <AppHeaderDropdown right no-caret>
     <template slot="header">
       <img
-        src="static/img/avatars/6.jpg"
+        src="img/avatars/6.jpg"
         class="img-avatar"
         alt="admin@bootstrapmaster.com" />
     </template>\
