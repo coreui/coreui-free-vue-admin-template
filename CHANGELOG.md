@@ -1,5 +1,15 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-beta.5`
+- chore: move tooling to `vue-cli v3.0.0-rc.2`
+- refactor: move from `static/img` to `public/img` dir
+- refactor: move `index.thml` to `public` dir
+- refactor: move to Jest testing
+- tests: fix e2e, unit
+
+##### `v2.0.0-beta.4`
+- chore: dependencies update
+
 ##### `v2.0.0-beta.3`
 - refactor: `getStyles()` back to `@coreui/coreui` version `^2.0.2`
 - fix(Dashboard): `width` card-line*-chart-example `ie` issue
