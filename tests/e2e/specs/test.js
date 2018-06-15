@@ -4,11 +4,11 @@
 module.exports = {
 
   before: function (browser) {
-    console.log('Setting up...')
+    console.log('Setting up... browser', typeof browser)
   },
 
   after: function (browser) {
-    console.log('Closing down...')
+    console.log('Closing down... browser', typeof browser)
   },
 
   'CoreUI Vue e2e tests': function (browser) {
@@ -16,11 +16,13 @@ module.exports = {
     // default: http://localhost:8080
     // see nightwatch.conf.js
 
-    const devServer = browser.globals.devServerURL
+    // const devServer = browser.globals.devServerURL
+    const devServer = process.env.VUE_DEV_SERVER_URL
+
 
     browser.url(devServer).pause(500).expect.element('body').to.be.present
 
-    browser.waitForElementVisible('.app > .app', 3000)
+    browser.waitForElementVisible('.app', 10000)
       .assert.elementPresent('.app-header')
       .assert.elementPresent('.app-header > .navbar-brand')
       .assert.elementPresent('.app-body')
@@ -36,6 +38,7 @@ module.exports = {
       .pause(500)
 
     browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
+      console.log('response', typeof response)
       this.assert.ok(browser === this, 'Check if the context is right.')
       this.assert.cssClassPresent('body', 'aside-menu-show')
     })
@@ -43,6 +46,7 @@ module.exports = {
     browser.pause(500)
 
     browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
+      console.log('response', typeof response)
       this.assert.cssClassNotPresent('body', 'aside-menu-show')
     })
 
@@ -51,29 +55,33 @@ module.exports = {
     browser
       .useXpath()
       .click('/html/body/div/header/button[2]', function (response) {
+        console.log('response', typeof response)
         this.assert.cssClassNotPresent('/html/body', 'sidebar-lg-show')
       })
 
     browser
       .pause(500)
       .click('/html/body/div/header/button[2]', function (response) {
+        console.log('response', typeof response)
         this.assert.cssClassPresent('/html/body', 'sidebar-lg-show')
       })
 
     browser
       .pause(500)
       .click('/html/body/div/div/div/button', function (response) {
+        console.log('response', typeof response)
         this.assert.cssClassPresent('/html/body', 'sidebar-minimized')
         this.assert.cssClassPresent('/html/body', 'brand-minimized')
       })
       .pause(500)
       .click('/html/body/div/div/div/button', function (response) {
+        console.log('response', typeof response)
         this.assert.cssClassNotPresent('/html/body', 'sidebar-minimized')
         this.assert.cssClassNotPresent('/html/body', 'brand-minimized')
       })
 
     browser
-      .pause(3000)
+      .pause(5000)
       .end()
   }
 }
