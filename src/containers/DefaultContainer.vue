@@ -56,7 +56,7 @@
 <script>
 import nav from '../_nav'
 import { Header as AppHeader, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Footer as TheFooter, Breadcrumb } from '@coreui/vue'
-import DafaultAside from './DafaultAside'
+import DefaultAside from './DefaultAside'
 import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
 
 export default {
@@ -68,7 +68,7 @@ export default {
     AppAside,
     TheFooter,
     Breadcrumb,
-    DafaultAside,
+    DefaultAside,
     DefaultHeaderDropdownAccnt,
     SidebarForm,
     SidebarFooter,
