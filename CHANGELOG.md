@@ -2,6 +2,8 @@
 
 ##### `v2.0.0-next`
 - fix: typo `DafaultAside` to `DefaultAside` - thanks @DamianLion
+- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Login 
+- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Register 
 - chore: update `@coreui/coreui` to `2.0.3`
 - chore: update `@vue/cli-plugin-babel` to `3.0.0-rc.3`
 - chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.0-rc.3`
