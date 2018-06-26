@@ -44,7 +44,7 @@
       </main>
       <AppAside fixed>
         <!--aside-->
-        <DafaultAside/>
+        <DefaultAside/>
       </AppAside>
     </div>
     <TheFooter>
