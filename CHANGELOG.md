@@ -1,7 +1,10 @@
 ## [vue](./README.md) version `changelog`
 
-##### `v2.0.0-next`
+##### `v2.0.0-beta.6`
 - fix: typo `DafaultAside` to `DefaultAside` - thanks @DamianLion
+- feat(router): `Users/User Details` Breadcrumb example with `/users/:id`
+- refactor(router): add dynamic imports for Webpack code splitting
+- refactor: remove empty `<style>` sections from `vue` files
 - refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Login 
 - refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Register 
 - chore: update `@coreui/coreui` to `2.0.3`
