@@ -1,6 +1,6 @@
 {
   "name": "@coreui/coreui-free-vue-admin-template",
-  "version": "2.0.0-beta.5",
+  "version": "2.0.0-beta.6",
   "description": "Open Source Bootstrap Admin Template",
   "author": "Łukasz Holeczek",
   "homepage": "http://coreui.io",
@@ -14,9 +14,9 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
-    "@coreui/coreui": "^2.0.2",
+    "@coreui/coreui": "^2.0.3",
     "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
-    "@coreui/icons": "^0.2.0",
+    "@coreui/icons": "0.2.0",
     "@coreui/vue": "^2.0.0-beta.2",
     "bootstrap": "^4.1.1",
     "bootstrap-vue": "^2.0.0-rc.11",
@@ -28,19 +28,19 @@
     "perfect-scrollbar": "^1.4.0",
     "simple-line-icons": "^2.4.1",
     "vue": "^2.5.16",
-    "vue-chartjs": "^3.3.1",
+    "vue-chartjs": "^3.3.2",
     "vue-perfect-scrollbar": "^0.1.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-rc.2",
-    "@vue/cli-plugin-e2e-nightwatch": "^3.0.0-rc.2",
-    "@vue/cli-plugin-eslint": "^3.0.0-rc.2",
-    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.2",
-    "@vue/cli-service": "^3.0.0-rc.2",
-    "@vue/test-utils": "^1.0.0-beta.19",
+    "@vue/cli-plugin-babel": "^3.0.0-rc.3",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.0.0-rc.3",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.3",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.3",
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "@vue/test-utils": "^1.0.0-beta.20",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.0.1",
+    "babel-jest": "^23.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
     "vue-template-compiler": "^2.5.16"

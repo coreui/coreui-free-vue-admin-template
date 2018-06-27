@@ -1,5 +1,21 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-beta.6`
+- fix: typo `DafaultAside` to `DefaultAside` - thanks @DamianLion
+- feat(router): `Users/User Details` Breadcrumb example with `/users/:id`
+- refactor(router): add dynamic imports for Webpack code splitting
+- refactor: remove empty `<style>` sections from `vue` files
+- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Login 
+- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Register 
+- chore: update `@coreui/coreui` to `2.0.3`
+- chore: update `@vue/cli-plugin-babel` to `3.0.0-rc.3`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.0-rc.3`
+- chore: update `@vue/cli-plugin-eslint` to `3.0.0-rc.3`
+- chore: update `@vue/cli-plugin-unit-jest` to `3.0.0-rc.3`
+- chore: update `@vue/cli-service` to `3.0.0-rc.3`
+- chore: update `@vue/test-utils` to `3.0.0-rc.3`
+- chore: update `babel-jest` to `23.2.0`     
+
 ##### `v2.0.0-beta.5`
 - chore: move tooling to `vue-cli v3.0.0-rc.2`
 - refactor: move from `static/img` to `public/img` dir
