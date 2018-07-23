@@ -1,5 +1,20 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-beta.7`
+- refactor(Footer): move default footer to the template
+- fix(Footer): IE sticky footer issue
+- chore: update `@coreui/vue` to `2.0.0-rc.3`
+- chore: update `bootstrap` to `4.1.2`
+- chore: update `@coreui/coreui` to `2.0.4`
+- chore: update `@vue/cli-plugin-babel` to `3.0.0-rc.5`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.0-rc.5`
+- chore: update `@vue/cli-plugin-eslint` to `3.0.0-rc.5`
+- chore: update `@vue/cli-plugin-unit-jest` to `3.0.0-rc.5`
+- chore: update `@vue/cli-service` to `3.0.0-rc.5`
+- chore: update `@vue/test-utils` to `1.0.0-beta.21`
+- chore: update `babel-jest` to `23.4.0`
+- chore: update `node-sass` to `4.9.2`
+
 ##### `v2.0.0-beta.6`
 - fix: typo `DafaultAside` to `DefaultAside` - thanks @DamianLion
 - feat(router): `Users/User Details` Breadcrumb example with `/users/:id`
@@ -13,7 +28,7 @@
 - chore: update `@vue/cli-plugin-eslint` to `3.0.0-rc.3`
 - chore: update `@vue/cli-plugin-unit-jest` to `3.0.0-rc.3`
 - chore: update `@vue/cli-service` to `3.0.0-rc.3`
-- chore: update `@vue/test-utils` to `3.0.0-rc.3`
+- chore: update `@vue/test-utils` to `^1.0.0-beta.20`
 - chore: update `babel-jest` to `23.2.0`     
 
 ##### `v2.0.0-beta.5`
