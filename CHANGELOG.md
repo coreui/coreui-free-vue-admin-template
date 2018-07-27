@@ -1,5 +1,14 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-beta.13`
+- fix(jest.config.js): solves - _SecurityError: localStorage is not available for opaque origins_
+- chore: update `bootstrap` to `4.1.3`
+- chore: update `@vue/cli-plugin-babel` to `3.0.0-rc.7`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.0-rc.7`
+- chore: update `@vue/cli-plugin-eslint` to `3.0.0-rc.7`
+- chore: update `@vue/cli-plugin-unit-jest` to `3.0.0-rc.7`
+- chore: update `@vue/cli-service` to `3.0.0-rc.7`
+
 ##### `v2.0.0-beta.7`
 - refactor(Footer): move default footer to the template
 - fix(Footer): IE sticky footer issue
