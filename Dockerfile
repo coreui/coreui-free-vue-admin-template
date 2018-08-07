@@ -7,7 +7,7 @@ RUN apt-get install -y nodejs
 
 COPY . /usr/src/coreui-vue
 WORKDIR /usr/src/coreui-vue
-RUN npm install -g npm@5.6.0 vue-cli
+RUN npm install -g npm@6.3.0 @vue/cli
 RUN npm install
 
 EXPOSE 8080
