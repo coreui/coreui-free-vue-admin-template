@@ -29,7 +29,6 @@
     "simple-line-icons": "^2.4.1",
     "vue": "^2.5.16",
     "vue-chartjs": "^3.3.2",
-    "vue-froala-wysiwyg": "^2.8.4",
     "vue-perfect-scrollbar": "^0.1.0",
     "vue-router": "^3.0.1"
   },
