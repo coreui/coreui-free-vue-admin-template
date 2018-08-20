@@ -1,5 +1,21 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-rc.0`
+- test(unit): add some views testing 
+- test(e2e): add testing for mobile `sidebar-show` 
+- chore: update `vue` to `2.5.17`
+- chore: update `vue-template-compiler` to `2.5.17`
+- chore: update `@vue/cli-plugin-babel` to `3.0.1`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.1`
+- chore: update `@vue/cli-plugin-eslint` to `3.0.1`
+- chore: update `@vue/cli-plugin-unit-jest` to `3.0.1`
+- chore: update `@vue/cli-service` to `3.0.1`
+- chore: update `@vue/test-utils` to `1.0.0-beta.24`
+- chore: update `babel-jest` to `23.4.2`
+- chore: update `node-sass` to `4.9.3`
+- chore: update `sass-loader` to `7.1.0`
+- chore: update `vue-chartjs` to `3.4.0`
+
 ##### `v2.0.0-beta.13`
 - fix(jest.config.js): solves - _SecurityError: localStorage is not available for opaque origins_
 - chore: update `bootstrap` to `4.1.3`
