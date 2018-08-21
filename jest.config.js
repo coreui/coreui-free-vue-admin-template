@@ -21,5 +21,11 @@ module.exports = {
     '<rootDir>/tests/unit/Dashboard.spec.js'
   ],
   verbose: true,
-  testURL: "http://localhost/"
+  testURL: "http://localhost/",
+  collectCoverage: true,
+  collectCoverageFrom: [
+      "src/**/*.{js,vue}",
+      "!**/node_modules/**"
+  ],
+  coverageReporters: ["html", "text-summary"]
 }
