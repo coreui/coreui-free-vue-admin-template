@@ -5,7 +5,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Tooltips</strong><small><code>v-b-tooltip</code>directive</small>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Tooltips </strong><small><code>v-b-tooltip</code> directive</small>
           <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/tooltip" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
@@ -32,7 +32,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>b-tooltip</code>component</small>
+          <i class="fa fa-align-justify"></i><strong> Tooltips </strong><small><code>b-tooltip</code> component</small>
         </div>
         <b-row>
           <b-col md="6" class="py-4 text-center">
@@ -55,7 +55,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>show</code>prop</small>
+          <i class="fa fa-align-justify"></i><strong> Tooltips </strong><small><code>show</code> prop</small>
         </div>
         <div class="text-center">
           <b-btn id="tooltipButton-1" variant="primary">I have a tooltip</b-btn>
@@ -71,14 +71,14 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>open close</code>events</small>
+          <i class="fa fa-align-justify"></i><strong> Tooltips </strong><small><code>open close</code> events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
           <div class="p-2">
             <b-btn id="tooltipButton-showEvent" variant="primary">I have a tooltip</b-btn>
           </div>
           <div class="p-2">
-            <b-btn class="px-1" @click="onOpen">Open</b-btn>
+            <b-btn class="px-1 mr-1" @click="onOpen">Open</b-btn>
             <b-btn class="px-1" @click="onClose">Close</b-btn>
           </div>
 
@@ -91,14 +91,14 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Tooltips</strong><small><code>enable disable</code>events</small>
+          <i class="fa fa-align-justify"></i><strong> Tooltips </strong><small><code>enable disable</code> events</small>
         </div>
         <div class="d-flex flex-column text-md-center">
           <div class="p-2">
             <b-btn id="tooltipButton-disable" variant="primary">I have a tooltip</b-btn>
           </div>
           <div class="p-2">
-            <b-btn @click="disabled = !disabled">
+            <b-btn @click="disabled = !disabled" class="mr-1">
               {{ disabled ? 'Enable' : 'Disable' }} Tooltip by prop
             </b-btn>
 

@@ -81,6 +81,24 @@ module.exports = {
       })
 
     browser
+    .resizeWindow(800, 600)
+    .pause(500)
+
+    browser
+    .pause(500)
+    .click('/html/body/div/header/button[1]', function (response) {
+      console.log('response', typeof response)
+      this.assert.cssClassPresent('/html/body', 'sidebar-show')
+    })
+
+    browser
+    .pause(500)
+    .click('/html/body/div/div/div/nav/section/ul/li[1]/div/a', function (response) {
+      console.log('response', typeof response)
+      this.assert.cssClassNotPresent('/html/body', 'sidebar-show')
+    })
+
+    browser
       .pause(5000)
       .end()
   }
