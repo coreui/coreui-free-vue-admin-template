@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import { shallowMount, mount } from '@vue/test-utils'
 import BootstrapVue from 'bootstrap-vue'
 import DefaultContainer from '@/containers/DefaultContainer'
 

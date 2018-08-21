@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { shallowMount, mount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 import BootstrapVue from 'bootstrap-vue'
 import Table from '@/views/base/Table'
 
