@@ -6,6 +6,9 @@ import Dashboard from '@/views/Dashboard'
 Vue.use(BootstrapVue)
 
 describe('Dashboard.vue', () => {
+  it('has a name', () => {
+    expect(Dashboard.name).toMatch('dashboard')
+  })
   it('has a created hook', () => {
     expect(typeof Dashboard.data).toMatch('function')
   })
@@ -22,8 +25,8 @@ describe('Dashboard.vue', () => {
     const wrapper = shallowMount(Dashboard)
     expect(wrapper.is(Dashboard)).toBe(true)
   })
-  // it('should render correct content', () => {
-  //   const wrapper = shallowMount(Dashboard)
-  //   expect(wrapper.find('h4 > #traffic').text()).toMatch('Traffic')
-  // })
+  it('should render correct content', () => {
+    const wrapper = shallowMount(Dashboard)
+    expect(wrapper.find('#traffic').text()).toMatch('Traffic')
+  })
 })

@@ -7,7 +7,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Bootstrap Alert</strong>
+              <i class="fa fa-align-justify"></i><strong> Bootstrap Alert</strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/alert" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
