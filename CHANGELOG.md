@@ -3,6 +3,7 @@
 ##### `v2.0.0-rc.0`
 - test(unit): add some views testing 
 - test(e2e): add testing for mobile `sidebar-show` 
+- refactor: card headers margins
 - chore: update `vue` to `2.5.17`
 - chore: update `vue-template-compiler` to `2.5.17`
 - chore: update `@vue/cli-plugin-babel` to `3.0.1`

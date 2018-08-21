@@ -5,7 +5,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Progress</strong>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Progress</strong>
           <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/progress" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
@@ -26,18 +26,18 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>labels</small>
+          <i class="fa fa-align-justify"></i> <strong> Progress </strong><small>labels</small>
         </div>
         <div>
-          <h5>No label</h5>
+          <h6>No label</h6>
           <b-progress :value="value" :max="max2" class="mb-3"></b-progress>
-          <h5>Value label</h5>
+          <h6>Value label</h6>
           <b-progress :value="value" :max="max2" show-value class="mb-3"></b-progress>
-          <h5>Progress label</h5>
+          <h6>Progress label</h6>
           <b-progress :value="value" :max="max2" show-progress class="mb-3"></b-progress>
-          <h5>Value label with precision</h5>
+          <h6>Value label with precision</h6>
           <b-progress :value="value" :max="max2" :precision="2" show-value class="mb-3"></b-progress>
-          <h5>Progress label with precision</h5>
+          <h6>Progress label with precision</h6>
           <b-progress :value="value" :max="max2" :precision="2" show-progress class="mb-3"></b-progress>
         </div>
       </b-card>
@@ -45,12 +45,12 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>width</small>
+          <i class="fa fa-align-justify"></i><strong> Progress </strong><small>width</small>
         </div>
         <div>
-          <h5>Default width</h5>
+          <h6>Default width</h6>
           <b-progress :value="value3" class="mb-3"></b-progress>
-          <h5>Custom widths</h5>
+          <h6>Custom widths</h6>
           <b-progress :value="value3" class="w-75 mb-2"></b-progress>
           <b-progress :value="value3" class="w-50 mb-2"></b-progress>
           <b-progress :value="value3" class="w-25"></b-progress>
@@ -60,12 +60,12 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>height</small>
+          <i class="fa fa-align-justify"></i><strong> Progress </strong><small>height</small>
         </div>
         <div>
-          <h5>Default height</h5>
+          <h6>Default height</h6>
           <b-progress :value="value3" show-progress class="mb-3"></b-progress>
-          <h5>Custom heights</h5>
+          <h6>Custom heights</h6>
           <b-progress height="2rem" :value="value3" show-progress class="mb-2"></b-progress>
           <b-progress height="20px" :value="value3" show-progress class="mb-2"></b-progress>
           <b-progress height="2px" :value="value3"></b-progress>
@@ -75,7 +75,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>variants</small>
+          <i class="fa fa-align-justify"></i><strong> Progress </strong><small>variants</small>
         </div>
         <div>
           <div :key="index" v-for="(bar, index) in bars" class="row mb-1">
@@ -93,7 +93,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>striped</small>
+          <i class="fa fa-align-justify"></i><strong> Progress </strong><small>striped</small>
         </div>
         <div>
           <b-progress :value="25" variant="success" :striped="striped" class="mb-2"></b-progress>
@@ -109,7 +109,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>animated</small>
+          <i class="fa fa-align-justify"></i><strong> Progress </strong><small>animated</small>
         </div>
         <div>
           <b-progress :value="25" variant="success" striped :animated="animate" class="mb-2"></b-progress>
@@ -125,7 +125,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Progress</strong> <small>multiple bars</small>
+          <i class="fa fa-align-justify"></i><strong> Progress </strong><small>multiple bars</small>
         </div>
         <div>
           <b-progress :max="max3" class="mb-3">
