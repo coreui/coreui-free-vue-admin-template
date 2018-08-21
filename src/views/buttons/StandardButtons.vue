@@ -686,3 +686,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .btn.disabled {
+    cursor: auto;
+  }
+</style>

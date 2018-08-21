@@ -7,7 +7,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Bootstrap Badge</strong>
+              <i class="fa fa-align-justify"></i><strong> Bootstrap Badge</strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/badge" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>

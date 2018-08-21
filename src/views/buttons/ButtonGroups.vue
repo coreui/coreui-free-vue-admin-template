@@ -7,7 +7,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Bootstrap button group</strong>
+              <i class="fa fa-align-justify"></i><strong> Bootstrap button group</strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/button-group" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
@@ -39,7 +39,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Button group</strong> sizing
+              <i class="fa fa-align-justify"></i><strong> Button group </strong>sizing
             </div>
             <div>
               <b-button-group>
@@ -67,7 +67,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Button group</strong> dropdown support
+              <i class="fa fa-align-justify"></i><strong> Button group </strong>dropdown support
             </div>
             <div>
               <b-button-group>
@@ -95,7 +95,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Button group</strong> vertical variation
+              <i class="fa fa-align-justify"></i><strong> Button group </strong>vertical variation
             </div>
             <div>
               <b-button-group vertical>

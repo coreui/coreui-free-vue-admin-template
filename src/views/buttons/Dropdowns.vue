@@ -7,7 +7,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Bootstrap Dropdown</strong>
+              <i class="fa fa-align-justify"></i><strong> Bootstrap Dropdown</strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/dropdown" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
@@ -54,7 +54,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong> <small>positioning</small>
+              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>positioning</small>
             </div>
             <div>
               <b-dropdown id="ddown-left" text="Left align" variant="primary" class="m-2">
@@ -98,7 +98,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong> <small>hidden caret</small>
+              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>hidden caret</small>
             </div>
             <div>
               <b-dropdown variant="link" size="lg" no-caret>
@@ -118,7 +118,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong> <small>sizing</small>
+              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>sizing</small>
             </div>
             <div>
               <b-dropdown id="ddown-lg" size="lg" text="Large" class="m-2">
@@ -152,7 +152,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong> <small>headers and accessibility</small>
+              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>headers and accessibility</small>
             </div>
             <div>
               <b-dropdown id="ddown-aria" text="Dropdown ARIA" variant="primary" class="m-2">
@@ -177,7 +177,7 @@
             header-tag="header"
             footer-tag="footer">
             <div slot="header">
-              <i class="fa fa-align-justify"></i> <strong>Dropdown</strong> <small><code>variant</code></small>
+              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small><code>variant</code></small>
             </div>
             <b-dropdown size="sm" id="ddown_primary" text="Primary" variant="primary" class="m-0">
               <b-dropdown-item>First Action</b-dropdown-item>

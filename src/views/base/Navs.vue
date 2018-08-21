@@ -5,7 +5,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs</strong>
           <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/nav" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
@@ -25,7 +25,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>tab style</small>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>tab style</small>
         </div>
         <div>
           <b-nav tabs>
@@ -40,7 +40,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>pill style</small>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>pill style</small>
         </div>
         <div>
           <b-nav pills>
@@ -55,7 +55,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>fill tabs</small>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>fill tabs</small>
         </div>
         <div>
           <b-nav fill tabs>
@@ -70,7 +70,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>justified tabs</small>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>justified tabs</small>
         </div>
         <div>
           <b-nav justified tabs>
@@ -85,7 +85,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>dropdown support</small>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>dropdown support</small>
         </div>
         <div>
           <b-nav pills>
@@ -104,7 +104,7 @@
         header-tag="header"
         footer-tag="footer">
         <div slot="header">
-          <i class="fa fa-align-justify"></i> <strong>Bootstrap Navs</strong> <small>vertical variation</small>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>vertical variation</small>
         </div>
         <div>
           <b-nav vertical class="w-25">

@@ -4,7 +4,7 @@
       <b-col sm="6">
         <b-card>
           <div slot="header">
-            <strong>Credit Card</strong> <small>Form</small>
+            <strong>Credit Card </strong> <small>Form</small>
           </div>
           <b-row>
             <b-col sm="12">
@@ -53,7 +53,7 @@
       <b-col sm="6">
         <b-card>
           <div slot="header">
-            <strong>Company</strong> <small>Form</small>
+            <strong>Company </strong><small>Form</small>
           </div>
           <b-form-group>
             <label for="company">Company</label>
