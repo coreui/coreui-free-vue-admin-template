@@ -1,5 +1,9 @@
 ## [vue](./README.md) version `changelog`
 
+##### `v2.0.0-next`
+- test(unit): add test for User.vue
+- test: add jest config for coverage
+
 ##### `v2.0.0-rc.0`
 - test(unit): add some views testing 
 - test(e2e): add testing for mobile `sidebar-show` 
