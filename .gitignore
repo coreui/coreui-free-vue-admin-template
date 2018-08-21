@@ -2,6 +2,7 @@
 node_modules
 package-lock.json
 /dist
+/coverage
 
 /tests/e2e/reports/
 selenium-debug.log
