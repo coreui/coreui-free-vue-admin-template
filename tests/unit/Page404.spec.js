@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
 import BootstrapVue from 'bootstrap-vue'
-import Page404 from '@/views/Pages/Page404'
+import Page404 from '@/views/pages/Page404'
 
 Vue.use(BootstrapVue)
 
