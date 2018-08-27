@@ -1,7 +1,7 @@
 import { shallowMount, mount, createLocalVue } from '@vue/test-utils'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
-import User from '@/views/Users/User'
+import User from '@/views/users/User'
 
 const localVue = createLocalVue()
 localVue.use(VueRouter)
