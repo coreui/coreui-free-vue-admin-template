@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
 import BootstrapVue from 'bootstrap-vue'
-import Login from '@/views/Pages/Login'
+import Login from '@/views/pages/Login'
 
 Vue.use(BootstrapVue)
 
