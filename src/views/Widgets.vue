@@ -69,7 +69,7 @@
       </b-col>
     </b-row><!--/.row-->
     <b-row>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-cogs bg-primary p-3 font-2xl mr-3 float-left"></i>
@@ -78,7 +78,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left"></i>
@@ -87,7 +87,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-moon-o bg-warning p-3 font-2xl mr-3 float-left"></i>
@@ -96,7 +96,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-bell bg-danger p-3 font-2xl mr-3 float-left"></i>
@@ -105,7 +105,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true" footer-class="px-3 py-2">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-cogs bg-primary p-3 font-2xl mr-3 float-left"></i>
@@ -117,7 +117,7 @@
           </div>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true" footer-class="px-3 py-2">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left"></i>
@@ -129,7 +129,7 @@
           </div>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true" footer-class="px-3 py-2">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-moon-o bg-warning p-3 font-2xl mr-3 float-left"></i>
@@ -141,7 +141,7 @@
           </div>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true" footer-class="px-3 py-2">
           <b-card-body class="p-3 clearfix">
             <i class="fa fa-bell bg-danger p-3 font-2xl mr-3 float-left"></i>
@@ -155,7 +155,7 @@
       </b-col>
     </b-row><!--/.row-->
     <b-row>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-cogs bg-primary p-4 font-2xl mr-3 float-left"></i>
@@ -164,7 +164,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-laptop bg-info p-4 font-2xl mr-3 float-left"></i>
@@ -173,7 +173,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-moon-o bg-warning p-4 font-2xl mr-3 float-left"></i>
@@ -182,7 +182,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-bell bg-danger p-4 font-2xl mr-3 float-left"></i>
@@ -191,7 +191,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-cogs bg-primary p-4 px-5 font-2xl mr-3 float-left"></i>
@@ -200,7 +200,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-laptop bg-info p-4 px-5 font-2xl mr-3 float-left"></i>
@@ -209,7 +209,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-moon-o bg-warning p-4 px-5 font-2xl mr-3 float-left"></i>
@@ -218,7 +218,7 @@
           </b-card-body>
         </b-card>
       </b-col>
-      <b-col cols="6" lg="3">
+      <b-col cols="12" sm="6" lg="3">
         <b-card :no-body="true">
           <b-card-body class="p-0 clearfix">
             <i class="fa fa-bell bg-danger p-4 px-5 font-2xl mr-3 float-left"></i>
@@ -234,7 +234,7 @@
           <div class="brand-card-header bg-facebook">
             <i class="fa fa-facebook"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" height="90"/>
+              <social-box-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" />
             </div>
           </div>
           <div class="brand-card-body">
@@ -254,7 +254,7 @@
           <div class="brand-card-header bg-twitter">
             <i class="fa fa-twitter"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" height="90"/>
+              <social-box-chart-example :data="[1, 13, 9, 17, 34, 41, 38]" />
             </div>
           </div>
           <div class="brand-card-body">
@@ -274,7 +274,7 @@
           <div class="brand-card-header bg-linkedin">
             <i class="fa fa-linkedin"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" height="90"/>
+              <social-box-chart-example :data="[78, 81, 80, 45, 34, 12, 40]" />
             </div>
           </div>
           <div class="brand-card-body">
@@ -294,7 +294,7 @@
           <div class="brand-card-header bg-google-plus">
             <i class="fa fa-google-plus"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" height="90"/>
+              <social-box-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" />
             </div>
           </div>
           <div class="brand-card-body">
