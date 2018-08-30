@@ -129,7 +129,7 @@
           <div class="brand-card-header bg-facebook">
             <i class="fa fa-facebook"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example chartId="box-chart-01" :data="[65, 59, 84, 84, 51, 55, 40]" height="90"/>
+              <social-box-chart-example chartId="box-chart-01" :data="[65, 59, 84, 84, 51, 55, 40]" />
             </div>
           </div>
           <div class="brand-card-body">
@@ -149,7 +149,7 @@
           <div class="brand-card-header bg-twitter">
             <i class="fa fa-twitter"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example chartId="box-chart-02" :data="[1, 13, 9, 17, 34, 41, 38]" height="90"/>
+              <social-box-chart-example chartId="box-chart-02" :data="[1, 13, 9, 17, 34, 41, 38]" />
             </div>
           </div>
           <div class="brand-card-body">
@@ -169,7 +169,7 @@
           <div class="brand-card-header bg-linkedin">
             <i class="fa fa-linkedin"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example chartId="box-chart-03" :data="[78, 81, 80, 45, 34, 12, 40]" height="90"/>
+              <social-box-chart-example chartId="box-chart-03" :data="[78, 81, 80, 45, 34, 12, 40]" />
             </div>
           </div>
           <div class="brand-card-body">
@@ -189,7 +189,7 @@
           <div class="brand-card-header bg-google-plus">
             <i class="fa fa-google-plus"></i>
             <div class="chart-wrapper">
-              <social-box-chart-example chartId="box-chart-04" :data="[35, 23, 56, 22, 97, 23, 64]" height="90"/>
+              <social-box-chart-example chartId="box-chart-04" :data="[35, 23, 56, 22, 97, 23, 64]" />
             </div>
           </div>
           <div class="brand-card-body">
