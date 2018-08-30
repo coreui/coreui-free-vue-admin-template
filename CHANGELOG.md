@@ -1,6 +1,12 @@
 ## [vue](./README.md) version `changelog`
 
-##### `v2.0.0-next`
+##### `v2.0.0`
+- chore: update `@coreui/vue` to `2.0.0`
+- chore: update `@coreui/icons` to `0.3.0`
+- refactor(CoreUIIcons): move to `@coreui/icons v0.3.0`
+- fix(Dashboard): SocialBoxChartExample height
+- fix(Widgets): SocialBoxChartExample height 
+- fix(Widgets):  Income widgets cols
 - test(unit): add test for User.vue
 - test: add jest config for coverage
 
