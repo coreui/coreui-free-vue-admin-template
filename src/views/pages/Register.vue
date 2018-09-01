@@ -36,16 +36,16 @@
                   <b-form-input type="password" class="form-control" placeholder="Repeat password" autocomplete="new-password" />
                 </b-input-group>
 
-                <b-button variant="success" block>Create Account</b-button>
+                <b-button variant="success" block  href='#/login'>Create Account</b-button>
               </b-form>
             </b-card-body>
             <b-card-footer class="p-4">
               <b-row>
                 <b-col cols="6">
-                  <b-button block class="btn btn-facebook"><span>facebook</span></b-button>
+                  <b-button block class="btn btn-facebook"  href='#/login'><span>facebook</span></b-button>
                 </b-col>
                 <b-col cols="6">
-                  <b-button block class="btn btn-twitter" type="button"><span>twitter</span></b-button>
+                  <b-button block class="btn btn-twitter" type="button"  href='#/login'><span>twitter</span></b-button>
                 </b-col>
               </b-row>
             </b-card-footer>
