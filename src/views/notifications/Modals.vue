@@ -4,15 +4,15 @@
       <b-row>
         <b-col cols="12">
           <b-card header="<i class='fa fa-align-justify'></i> Bootstrap Modals">
-            <b-button type="button" variant="secondary" @click="myModal = true">Launch demo modal</b-button>
-            <b-button type="button" variant="secondary" @click="largeModal = true">Launch large modal</b-button>
-            <b-button type="button" variant="secondary" @click="smallModal = true">Launch small modal</b-button>
+            <b-button type="button" variant="secondary" @click="myModal = true" class="mr-1">Launch demo modal</b-button>
+            <b-button type="button" variant="secondary" @click="largeModal = true" class="mr-1">Launch large modal</b-button>
+            <b-button type="button" variant="secondary" @click="smallModal = true" class="mr-1">Launch small modal</b-button>
             <hr>
-            <b-button type="button" variant="primary" @click="primaryModal = true">Launch primary modal</b-button>
-            <b-button type="button" variant="success" @click="successModal = true">Launch success modal</b-button>
-            <b-button type="button" variant="warning" @click="warningModal = true">Launch warning modal</b-button>
-            <b-button type="button" variant="danger" @click="dangerModal = true">Launch danger modal</b-button>
-            <b-button type="button" variant="info" @click="infoModal = true">Launch info modal</b-button>
+            <b-button type="button" variant="primary" @click="primaryModal = true" class="mr-1">Launch primary modal</b-button>
+            <b-button type="button" variant="success" @click="successModal = true" class="mr-1">Launch success modal</b-button>
+            <b-button type="button" variant="warning" @click="warningModal = true" class="mr-1">Launch warning modal</b-button>
+            <b-button type="button" variant="danger" @click="dangerModal = true" class="mr-1">Launch danger modal</b-button>
+            <b-button type="button" variant="info" @click="infoModal = true" class="mr-1">Launch info modal</b-button>
           </b-card>
         </b-col><!--/.col-->
       </b-row><!--/.row-->
