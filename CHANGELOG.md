@@ -1,4 +1,20 @@
-## [vue](./README.md) version `changelog`
+## [CoreUI for Vue.js](./README.md) version `changelog`
+
+##### `v2.0.1`
+- refactor(Modals): add spacing
+- refactor(BrandButtons): add spacing
+- chore: update `@coreui/coreui` to `2.0.14`
+- chore: update `@coreui/vue` to `2.0.2`
+- chore: update `flag-icon-css` to `3.2.0`
+- chore: update `@vue/cli-plugin-babel` to `3.0.4`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.4`
+- chore: update `@vue/cli-plugin-eslint` to `3.0.4`
+- chore: update `@vue/cli-plugin-unit-jest` to `3.0.4`
+- chore: update `@vue/cli-service` to `3.0.4`
+- chore: update `@vue/test-utils` to `1.0.0-beta.25`
+- chore: update `babel-jest` to `23.6.0`
+- chore: update `growl` to `1.10.5`
+- chore: update `https-proxy-agent` to `2.2.1`
 
 ##### `v2.0.0`
 - chore: update `@coreui/vue` to `2.0.0`
