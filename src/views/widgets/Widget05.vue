@@ -1,16 +1,18 @@
 <template>
-  <b-card :class="styleClasses">
-    <div class="h4 m-0">{{header}}</div>
-    <div>{{text}}</div>
-    <b-progress height={} :variant="variant" :value="value"
-                :class="[backgroundColor ? 'progress-white' : '', 'progress-xs my-3 mb-0']"/>
-    <small class="text-muted">{{footer}}</small>
-  </b-card>
+    <b-card :class="styleClasses">
+      <div class="h1 text-muted text-right mb-4">
+        <i :class="iconClasses"></i>
+      </div>
+      <div class="h4 mb-0">{{header}}</div>
+      <small class="text-muted text-uppercase font-weight-bold">{{text}}</small>
+      <b-progress height={} :variant="variant" :value="value"
+                  :class="[backgroundColor ? 'progress-white' : '', 'progress-xs my-3 mb-0']"/>
+    </b-card>
 </template>
 
 <script>
 export default {
-  name: 'Widget01',
+  name: 'Widget05',
   data () {
     return{
       backgroundColor: '',
@@ -24,6 +26,10 @@ export default {
     }
   },
   props: {
+    iconClasses: {
+      type: String,
+      default: 'icon-people'
+    },
     header: {
       type: String,
       default: 'Lorem ipsum...'
@@ -35,10 +41,6 @@ export default {
     variant: {
       type: String,
       default: ''
-    },
-    footer: {
-      type: String,
-      default: 'Lorem ipsum dolor sit amet enim.'
     },
     value: {
       type: Number,

@@ -1,13 +1,11 @@
 <template>
-  <b-col cols="12" sm="6" lg="3">
-    <b-card :no-body="true">
-      <b-card-body class="p-0 clearfix">
-        <i :class="iconClasses" class="p-4 font-2xl mr-3 float-left"></i>
-        <div class="h5 text-primary mb-0 pt-3">{{header}}</div>
-        <div class="text-muted text-uppercase font-weight-bold font-xs">{{text}}</div>
-      </b-card-body>
-    </b-card>
-  </b-col>
+  <b-card :no-body="true">
+    <b-card-body class="p-0 clearfix">
+      <i :class="iconClasses" class="p-4 font-2xl mr-3 float-left"></i>
+      <div class="h5 text-primary mb-0 pt-3">{{header}}</div>
+      <div class="text-muted text-uppercase font-weight-bold font-xs">{{text}}</div>
+    </b-card-body>
+  </b-card>
 </template>
 
 <script>
