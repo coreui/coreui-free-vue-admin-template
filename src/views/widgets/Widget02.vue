@@ -21,11 +21,11 @@ export default {
     },
     header: {
       type: String,
-      default: 'Lorem ipsum...'
+      default: 'header|string'
     },
     text: {
       type: String,
-      default: 'Income'
+      default: 'text|string'
     },
     showLink: {
       type: Boolean,

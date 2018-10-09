@@ -2,86 +2,94 @@
   <div class="animated fadeIn">
     <b-row>
       <b-col sm="6" lg="3">
-        <widget01 header="89.9%" variant="success"/>
+        <widget01 header="89.9%" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                  variant="success" :value="25"/>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget01 header="12.124" variant="info"/>
+        <widget01 header="12.124" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                  variant="info" :value="25"/>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget01 header="$98.111,00" variant="warning"/>
+        <widget01 header="$98.111,00" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                  variant="warning" :value="25"/>
       </b-col>
       <b-col sm="6" lg="3">
-          <widget01 header="2 TB" variant="danger"/>
+          <widget01 header="2 TB" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                    variant="danger" :value="25"/>
       </b-col>
     </b-row><!--/.row-->
     <b-row>
       <b-col sm="6" lg="3">
-        <widget01 header="89.9%"  variant="background-success"/>
+        <widget01 header="89.9%" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                  variant="background-success" :value="25"/>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget01 header="12.124" variant="background-info"/>
+        <widget01 header="12.124" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                  variant="background-info" :value="25"/>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget01 header="$98.111,00" variant="background-warning"/>
+        <widget01 header="$98.111,00" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                  variant="background-warning" :value="25"/>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget01 header="2 TB" variant="background-danger"/>
+        <widget01 header="2 TB" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
+                  variant="background-danger" :value="25"/>
       </b-col>
     </b-row><!--/.row-->
     <b-row>
       <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-cogs bg-primary"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-cogs bg-primary" text="Income"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-laptop bg-info"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-laptop bg-info" text="Income"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-moon-o bg-warning bg-primary"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-moon-o bg-warning bg-primary" text="Income"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-bell bg-danger"/>
-      </b-col>
-    </b-row><!--/.row-->
-    <b-row>
-      <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-cogs bg-primary" :showLink="true"/>
-      </b-col>
-      <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-laptop bg-info" :showLink="true"/>
-      </b-col>
-      <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-moon-o bg-warning bg-primary" :showLink="true"/>
-      </b-col>
-      <b-col cols="12" sm="6" lg="3">
-        <widget02 header="$1.999,50" iconClasses="fa fa-bell bg-danger" :showLink="true"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-bell bg-danger" text="Income"/>
       </b-col>
     </b-row><!--/.row-->
     <b-row>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-cogs bg-primary"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-cogs bg-primary" text="Income" :showLink="true"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-laptop bg-info"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-laptop bg-info" text="Income" :showLink="true"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-moon-o bg-warning bg-primary"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-moon-o bg-warning bg-primary" text="Income" :showLink="true"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-bell bg-danger"/>
+        <widget02 header="$1.999,50" iconClasses="fa fa-bell bg-danger" text="Income" :showLink="true"/>
       </b-col>
     </b-row><!--/.row-->
     <b-row>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-cogs bg-primary px-5"/>
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-cogs bg-primary"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-laptop bg-info px-5"/>
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-laptop bg-info"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-moon-o bg-warning bg-primary px-5"/>
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-moon-o bg-warning bg-primary"/>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <widget03 header="$1.999,50" iconClasses="fa fa-bell bg-danger px-5"/>
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-bell bg-danger"/>
+      </b-col>
+    </b-row><!--/.row-->
+    <b-row>
+      <b-col cols="12" sm="6" lg="3">
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-cogs bg-primary px-5"/>
+      </b-col>
+      <b-col cols="12" sm="6" lg="3">
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-laptop bg-info px-5"/>
+      </b-col>
+      <b-col cols="12" sm="6" lg="3">
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-moon-o bg-warning bg-primary px-5"/>
+      </b-col>
+      <b-col cols="12" sm="6" lg="3">
+        <widget03 header="$1.999,50" text="Income" iconClasses="fa fa-bell bg-danger px-5"/>
       </b-col>
     </b-row><!--/.row-->
     <b-row>
@@ -160,7 +168,7 @@ import Widget04 from './widgets/Widget04'
 import Widget05 from './widgets/Widget05'
 
 export default {
-  name: 'widgets',
+  name: 'Widgets',
   components: {
     Widget01,
     Widget02,
@@ -168,10 +176,5 @@ export default {
     Widget04,
     Widget05
   },
-  data () {
-    return {
-      msg: 'Widgets'
-    }
-  }
 }
 </script>

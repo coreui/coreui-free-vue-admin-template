@@ -39,19 +39,19 @@ export default {
     },
     rightHeader: {
       type: String,
-      default: '89k'
+      default: 'rightHeader|string'
     },
     rightFooter: {
       type: String,
-      default: 'friends'
+      default: 'rightFooter|string'
     },
     leftHeader: {
       type: String,
-      default: '459'
+      default: 'leftHeader|string'
     },
     leftFooter: {
       type: String,
-      default: 'feeds'
+      default: 'leftFooter|string'
     },
   }
 }

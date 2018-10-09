@@ -32,11 +32,11 @@ export default {
     },
     header: {
       type: String,
-      default: 'Lorem ipsum...'
+      default: 'header|string'
     },
     text: {
       type: String,
-      default: 'Lorem ipsum...'
+      default: 'text|string'
     },
     variant: {
       type: String,

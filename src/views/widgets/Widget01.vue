@@ -26,11 +26,11 @@ export default {
   props: {
     header: {
       type: String,
-      default: 'Lorem ipsum...'
+      default: 'header|string'
     },
     text: {
       type: String,
-      default: 'Lorem ipsum...'
+      default: 'text|string'
     },
     variant: {
       type: String,
@@ -38,7 +38,7 @@ export default {
     },
     footer: {
       type: String,
-      default: 'Lorem ipsum dolor sit amet enim.'
+      default: 'footer|string'
     },
     value: {
       type: Number,
