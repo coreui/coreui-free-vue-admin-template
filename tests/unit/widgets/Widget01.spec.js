@@ -22,10 +22,10 @@ describe(ComponentName + '.vue', () => {
     const vm = new Vue(Component).$mount()
     expect(vm.backgroundColor).toBe('')
     expect(vm.styleClasses).toBe('')
-    expect(vm.header).toBe('header|string')
-    expect(vm.text).toBe('text|string')
+    expect(vm.header).toBe('header:string')
+    expect(vm.text).toBe('text:string')
     expect(vm.variant).toBe('')
-    expect(vm.footer).toBe('footer|string')
+    expect(vm.footer).toBe('footer:string')
     expect(vm.value == 25).toBe(true)
   })
   it('correctly sets variant when background is not white', () => {

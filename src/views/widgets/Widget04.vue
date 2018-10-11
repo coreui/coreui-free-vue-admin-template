@@ -1,9 +1,9 @@
 <template>
   <div class="brand-card">
-    <div :class="'bg-' + type" class="brand-card-header bg-facebook">
+    <div :class="'bg-' + type" class="brand-card-header">
       <i  class="fa" :class="'fa-'+ type"></i>
       <div class="chart-wrapper">
-        <social-box-chart-example :data="dataPoints" />
+        <slot></slot>
       </div>
     </div>
     <div class="brand-card-body">
@@ -20,38 +20,28 @@
 </template>
 
 <script>
-import SocialBoxChartExample from './../dashboard/SocialBoxChartExample'
-
-
 export default {
   name: 'Widget04',
-  components: {
-    SocialBoxChartExample
-  },
   props: {
     type: {
       type: String,
       default: 'facebook'
     },
-    dataPoints: {
-      type: Array,
-      default: [65, 59, 84, 84, 51, 55, 40]
-    },
     rightHeader: {
       type: String,
-      default: 'rightHeader|string'
+      default: 'rightHeader:string'
     },
     rightFooter: {
       type: String,
-      default: 'rightFooter|string'
+      default: 'rightFooter:string'
     },
     leftHeader: {
       type: String,
-      default: 'leftHeader|string'
+      default: 'leftHeader:string'
     },
     leftFooter: {
       type: String,
-      default: 'leftFooter|string'
+      default: 'leftFooter:string'
     },
   }
 }

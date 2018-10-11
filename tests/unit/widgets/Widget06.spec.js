@@ -17,8 +17,8 @@ describe(ComponentName + '.vue', () => {
   })
   it('correctly sets default props and data when created', () => {
     expect(wrapper.props().cardClasses).toBe('')
-    expect(wrapper.props().header).toBe('header|string')
-    expect(wrapper.props().text).toBe('text|string')
+    expect(wrapper.props().header).toBe('header:string')
+    expect(wrapper.props().text).toBe('text:string')
     expect(wrapper.props().chartType).toBe('chart1')
     expect(wrapper.props().chartHeight == 70).toBe(true)
   })

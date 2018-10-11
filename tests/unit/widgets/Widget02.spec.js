@@ -17,8 +17,8 @@ describe(ComponentName + '.vue', () => {
   })
   it('correctly sets default props when created', () => {
     const vm = new Vue(Component).$mount()
-    expect(vm.header).toBe('header|string')
-    expect(vm.text).toBe('text|string')
+    expect(vm.header).toBe('header:string')
+    expect(vm.text).toBe('text:string')
     expect(vm.link).toBe('#')
     expect(vm.iconClasses).toBe('fa fa-cogs bg-primary')
     expect(vm.showLink).toBe(false)

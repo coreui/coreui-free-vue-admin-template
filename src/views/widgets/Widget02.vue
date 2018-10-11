@@ -21,11 +21,11 @@ export default {
     },
     header: {
       type: String,
-      default: 'header|string'
+      default: 'header:string'
     },
     text: {
       type: String,
-      default: 'text|string'
+      default: 'text:string'
     },
     showLink: {
       type: Boolean,

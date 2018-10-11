@@ -26,11 +26,11 @@ export default {
   props: {
     header: {
       type: String,
-      default: 'header|string'
+      default: 'header:string'
     },
     text: {
       type: String,
-      default: 'text|string'
+      default: 'text:string'
     },
     variant: {
       type: String,
@@ -38,7 +38,7 @@ export default {
     },
     footer: {
       type: String,
-      default: 'footer|string'
+      default: 'footer:string'
     },
     value: {
       type: Number,

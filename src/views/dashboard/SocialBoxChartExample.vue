@@ -7,18 +7,29 @@ export default {
   props: {
     data: {
       type: Array,
-      default: () => [0, 22, 34, 46, 58, 70, 46]
+      default: () => [0, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]
     },
     height: {
       type: String,
       default: '100'
+    },
+    label:{
+      type: String,
+      default: 'label|string'
+    },
+    labels:{
+      type: Array,
+      default () {
+        return(['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'])
+      }
     }
   },
   mounted () {
     this.renderChart({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      labels: this.labels,
       datasets: [
         {
+          label: this.label,
           backgroundColor: 'rgba(255,255,255,.1)',
           borderColor: 'rgba(255,255,255,.55)',
           pointHoverBackgroundColor: '#fff',
