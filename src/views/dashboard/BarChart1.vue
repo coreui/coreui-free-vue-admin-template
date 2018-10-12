@@ -1,9 +1,12 @@
 <script>
 import { Bar } from 'vue-chartjs'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
+import { generatedLabels, generatedBackgroundColor,generatedBorderColor, generatedOptions } from '@/mixins/charts/chartMixins'
 
 export default {
+  name: 'BarChart',
   extends: Bar,
+  mixins: [generatedLabels, generatedBackgroundColor, generatedBorderColor, generatedOptions],
   props: {
     data: {
       type: Array,
@@ -17,33 +20,19 @@ export default {
       type: String,
       default: 'label|string'
     },
-    labels:{
-      type: Array,
-      default () {
-        return(['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'])
-      }
+    borderColor:{
+      type: String,
+      default: 'rgba(255,255,255,.55)'
     },
     backgroundColor:{
       type: String,
-      default: 'rgba(255,255,255,.3)'
+      default: 'rgba(0,0,0,.2)'
     },
-    pointHoverBackgroundColor: String,
-  },
-  mounted () {
-    const dataset = [
-      {
-        label: this.label,
-        backgroundColor: this.backgroundColor,
-        borderColor: 'transparent',
-        data: this.data
-      }
-    ]
-    this.renderChart(
-      {
-        labels: this.labels,
-        datasets: dataset
-      },
-      {
+    labels: Array,
+    options:Object,
+    finalOptions:{
+      type: Object,
+      default: () => ({
         tooltips: {
           enabled: false,
           custom: CustomTooltips
@@ -62,7 +51,24 @@ export default {
             display: false
           }]
         }
+      })
+    }
+  },
+  mounted () {
+    const dataset = [
+      {
+        label: this.label,
+        backgroundColor: this.generatedBackgroundColor,
+        borderColor: this.generatedBorderColor,
+        data: this.data
       }
+    ]
+    this.renderChart(
+      {
+        labels: this.generatedLabels,
+        datasets: dataset
+      },
+      this.generatedOptions
     )
   }
 }

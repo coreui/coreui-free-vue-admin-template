@@ -1,11 +1,12 @@
 <script>
 import { Line } from 'vue-chartjs'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
-import { getStyle } from '@coreui/coreui/dist/js/coreui-utilities'
-const defaultBorderColor = 'rgba(255,255,255,.55)'
+import { generatedLabels, generatedBackgroundColor, generatedBorderColor, generatedPointHoverBackgroundColor, generatedOptions } from '@/mixins/charts/chartMixins'
 
 export default {
+  name: 'LineChart2',
   extends: Line,
+  mixins: [generatedLabels, generatedBackgroundColor, generatedBorderColor, generatedPointHoverBackgroundColor, generatedOptions],
   props: {
     data: {
       type: Array,
@@ -19,48 +20,24 @@ export default {
       type: String,
       default: 'label|string'
     },
-    labels:{
-      type: Array,
-      default () {
-        return(['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'])
-      }
-    },
     borderColor:{
       type: String,
-      default: defaultBorderColor
+      default: 'rgba(255,255,255,.55)'
     },
+    labels: Array,
     backgroundColor:{
       type: String,
       default: 'transparent'
     },
-    pointHoverBackgroundColor: String,
+    pointHoverBackgroundColor:{
+      type: String,
+      default: 'transparent'
+    },
+    options:Object,
   },
   computed:{
-    hoverBackgroundColor () {
-     if(this.pointHoverBackgroundColor !== undefined)
-       return this.pointHoverBackgroundColor
-     if(this.borderColor !== defaultBorderColor)
-       return this.borderColor
-     return 'transparent'
-    }
-  },
-  mounted () {
-    const datasets1 = [
-      {
-        label: this.label,
-        borderColor: this.borderColor,
-        backgroundColor: this.backgroundColor,
-        pointHoverBackgroundColor: this.hoverBackgroundColor,
-        data: this.data
-      }
-    ]
-
-    this.renderChart(
-      {
-        labels: this.labels,
-        datasets: datasets1
-      },
-      {
+    finalOptions () {
+      return{
         tooltips: {
           enabled: false,
           custom: CustomTooltips
@@ -87,15 +64,14 @@ export default {
               display: false,
               ticks: {
                 display: false,
-                min: Math.min.apply(Math, datasets1[0].data) - 5,
-                max: Math.max.apply(Math, datasets1[0].data) + 5
+                min: Math.min.apply(Math, this.data) - 5,
+                max: Math.max.apply(Math, this.data) + 5
               }
             }
           ]
         },
         elements: {
           line: {
-            tension: 0.00001,
             borderWidth: 1
           },
           point: {
@@ -105,6 +81,24 @@ export default {
           }
         }
       }
+    }
+  },
+  mounted () {
+    const datasets1 = [
+      {
+        label: this.label,
+        borderColor: this.generatedBorderColor,
+        backgroundColor: this.generatedBackgroundColor,
+        pointHoverBackgroundColor: this.generatedPointHoverBackgroundColor,
+        data: this.data
+      }
+    ]
+    this.renderChart(
+      {
+        labels: this.generatedLabels,
+        datasets: datasets1
+      },
+      this.generatedOptions
     )
   }
 }

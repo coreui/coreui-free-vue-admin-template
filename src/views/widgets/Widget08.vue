@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Widget07',
+  name: 'Widget08',
   props: {
     cardClasses: {
       type: String,

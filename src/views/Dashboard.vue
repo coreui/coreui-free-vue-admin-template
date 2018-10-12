@@ -155,6 +155,7 @@
         </widget04>
        </b-col>
     </b-row><!--/.row-->
+    <b-row>
       <b-col md="12">
         <b-card header="Traffic &amp; Sales">
           <b-row>

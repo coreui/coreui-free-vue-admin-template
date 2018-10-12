@@ -2,6 +2,7 @@
 import { Doughnut } from 'vue-chartjs'
 
 export default {
+  name: 'DoughnutExample',
   extends: Doughnut,
   mounted () {
     this.renderChart({

@@ -1,11 +1,12 @@
 <script>
 import { Line } from 'vue-chartjs'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
-import { getStyle } from '@coreui/coreui/dist/js/coreui-utilities'
-const defaultBorderColor = 'rgba(255,255,255,.55)'
+import { generatedLabels, generatedBackgroundColor, generatedBorderColor, generatedPointHoverBackgroundColor, generatedOptions } from '@/mixins/charts/chartMixins'
 
 export default {
+  name: 'LineChart1',
   extends: Line,
+  mixins: [generatedLabels, generatedBackgroundColor, generatedBorderColor, generatedPointHoverBackgroundColor, generatedOptions],
   props: {
     data: {
       type: Array,
@@ -19,53 +20,28 @@ export default {
       type: String,
       default: 'label|string'
     },
-    labels:{
-      type: Array,
-      default () {
-        return(['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'])
-      }
-    },
     borderColor:{
       type: String,
-      default: defaultBorderColor
+      default: 'rgba(255,255,255,.55)'
     },
+    labels: Array,
     backgroundColor:{
       type: String,
       default: 'transparent'
     },
-    pointHoverBackgroundColor: String,
-  },
-  computed:{
-    hoverBackgroundColor () {
-     if(this.pointHoverBackgroundColor !== undefined)
-       return this.pointHoverBackgroundColor
-     if(this.borderColor !== defaultBorderColor)
-       return this.borderColor
-     return 'transparent'
-    }
-  },
-  mounted () {
-    const datasets1 = [
-      {
-        label: this.label,
-        borderColor: this.borderColor,
-        backgroundColor: this.backgroundColor,
-        pointHoverBackgroundColor: this.hoverBackgroundColor,
-        data: this.data
-      }
-    ]
-
-    this.renderChart(
-      {
-        labels: this.labels,
-        datasets: datasets1
-      },
-      {
+    pointHoverBackgroundColor:{
+      type: String,
+      default: 'transparent'
+    },
+    options:Object,
+    finalOptions:{
+      type: Object,
+      default: () => ({
         tooltips: {
           enabled: false,
           custom: CustomTooltips
         },
-        // responsive: true,
+        responsive: true,
         maintainAspectRatio: false,
         legend: {
           display: false
@@ -88,8 +64,26 @@ export default {
             hoverRadius: 4
           }
         }
+      })
+    }
+  },
+  mounted () {
+    const datasets = [
+      {
+        label: this.label,
+        borderColor: this.generatedBorderColor,
+        backgroundColor: this.generatedBackgroundColor,
+        pointHoverBackgroundColor: this.generatedPointHoverBackgroundColor,
+        data: this.data
       }
+    ]
+    this.renderChart(
+      {
+        labels: this.generatedLabels,
+        datasets: datasets
+      },
+      this.generatedOptions
     )
-  }
+  },
 }
 </script>
