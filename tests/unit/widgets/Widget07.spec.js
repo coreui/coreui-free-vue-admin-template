@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
 import BootstrapVue from 'bootstrap-vue'
-import Component from '@/views/widgets/Widget06'
+import Component from '@/views/widgets/Widget07'
 
 Vue.use(BootstrapVue)
 
-const ComponentName = 'Widget06'
+const ComponentName = 'Widget07'
 const wrapper = shallowMount(Component)
 
 describe(ComponentName + '.vue', () => {
@@ -14,10 +14,5 @@ describe(ComponentName + '.vue', () => {
   })
   it('is Vue instance', () => {
     expect(wrapper.isVueInstance()).toBe(true)
-  })
-  it('correctly sets default props and data when created', () => {
-    expect(wrapper.props().cardClasses).toBe('')
-    expect(wrapper.props().header).toBe('header:string')
-    expect(wrapper.props().text).toBe('text:string')
   })
 })
