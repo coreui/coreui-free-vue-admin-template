@@ -1,6 +1,6 @@
 ### Widget06
 
-This widget can style is defined by cardClasses.
+This widget can style is defined by cardClasses. Inside component there is additional slot for chart (name="chart").
 
 prop | default
 --- | ---
