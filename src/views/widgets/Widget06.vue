@@ -5,7 +5,9 @@
       <h4 class="mb-0">{{header}}</h4>
       <p>{{text}}</p>
     </b-card-body>
-    <slot name='chart'></slot>
+    <div class="chart-wrapper">
+      <slot name='chart'></slot>
+    </div>
   </b-card>
 </template>
 

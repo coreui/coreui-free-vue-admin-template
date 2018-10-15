@@ -1,5 +1,4 @@
-import { deepObjectsMerge } from '@coreui/coreui/dist/js/coreui-utilities'
-import getColor from '@coreui/coreui/js/src/utilities/get-color'
+import { deepObjectsMerge, getColor } from '@coreui/coreui/dist/js/coreui-utilities'
 
 const generatedLabels = {
   computed:{

@@ -13,7 +13,9 @@
           <small>{{leftFooter}}</small>
         </span>
       </div>
-      <slot></slot>
+      <div class="chart-wrapper">
+        <slot></slot>
+      </div>
     </div>
   </div>
 </template>

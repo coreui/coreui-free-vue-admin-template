@@ -17,7 +17,7 @@
           <template slot='chart'>
             <line-chart2 chartId="widget06_1" slot='chart' class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
                          :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                         style='height:70px' label='Members'/>
+                         style='height:70px' label='Members' pointHoverBackgroundColor='primary'/>
           </template>
         </widget06>
       </b-col>
@@ -35,9 +35,10 @@
             </b-dropdown>
           </template>
           <template slot='chart'>
-            <line-chart2 chartId="widget06_2" slot='chart' class='px-3' :data='[1, 18, 9, 17, 34, 22, 11]'
+            <line-chart2 chartId='widget06_2' slot='chart' class='px-3' :data='[1, 18, 9, 17, 34, 22, 11]'
                          :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                         style='height:70px' label='Members'/>
+                         style='height:70px' label='Members' :options='{elements: {line: {tension: 0.00001}}}'
+                         pointHoverBackgroundColor='info'/>
           </template>
         </widget06>
       </b-col>
@@ -57,7 +58,8 @@
           <template slot='chart'>
             <line-chart1 chartId="widget06_3" slot='chart' :data='[78, 81, 80, 45, 34, 12, 40]'
                          :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                         style='height:70px' backgroundColor ='rgba(255,255,255,.2)' label='Members'/>
+                         style='height:70px' backgroundColor ='rgba(255,255,255,.2)' label='Members'
+                         :options="{elements: {line: {borderWidth: 2.5}}}" pointHoverBackgroundColor='warning'/>
           </template>
         </widget06>
       </b-col>
@@ -76,7 +78,7 @@
           </template>
           <template name='chart'>
             <bar-chart1 chartId="widget06_4" slot='chart' :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                        label='Members' backgroundColor='rgb(250, 152, 152)' style='height:70px'/>
+                        label='Members' backgroundColor='rgb(250, 152, 152)' style='height:70px' />
           </template>
         </widget06>
       </b-col>
@@ -132,25 +134,29 @@
     <b-row>
       <b-col md="3" sm="6">
         <widget04 type="facebook" rightHeader="89k" rightFooter="friends" leftHeader="459" leftFooter="feeds">
-          <line-chart1 chartId="facebook" :data='[0, 22, 34, 46, 58, 70, 68, 58, 52, 60, 64, 70]' label='Friends'
+          <line-chart1 chartId="facebook" :data='[65, 59, 84, 84, 51, 55, 40]' label='Friends'
+                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
                        style='height:100px' backgroundColor='rgba(255,255,255,.1)'/>
         </widget04>
        </b-col>
        <b-col md="3" sm="6">
         <widget04 type="twitter" rightHeader="973k" rightFooter="followers" leftHeader="1.792" leftFooter="tweets">
-          <line-chart1 chartId="twitter" :data='[5, 22, 34, 46, 58, 70, 68, 58, 52, 60, 64, 72]' label='Followers'
+          <line-chart1 chartId="twitter" :data='[1, 13, 9, 17, 34, 41, 38]' label='Followers'
+                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
                        style='height:100px'  backgroundColor='rgba(255,255,255,.1)'/>
         </widget04>
        </b-col>
        <b-col md="3" sm="6">
         <widget04 type="linkedin" rightHeader="500+" rightFooter="contracts" leftHeader="292" leftFooter="feeds">
-          <line-chart1 chartId="linkedIn" :data='[15, 22, 34, 46, 58, 70, 68, 58, 52, 60, 64, 71]' label='Contracts'
+          <line-chart1 chartId="linkedIn" :data='[78, 81, 80, 45, 34, 12, 40]' label='Contracts'
+                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
                        style='height:100px'  backgroundColor='rgba(255,255,255,.1)'/>
         </widget04>
        </b-col>
        <b-col md="3" sm="6">
         <widget04  type='google-plus' rightHeader='894' rightFooter='followers' leftHeader='92' leftFooter='circles'>
-          <line-chart1 chartId="google-plus" :data='[10, 22, 34, 46, 58, 70, 68, 58, 52, 60, 64, 74]' label='Followers'
+          <line-chart1 chartId="google-plus" :data='[35, 23, 56, 22, 97, 23, 64]' label='Followers'
+                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
                        style='height:100px' backgroundColor='rgba(255,255,255,.1)'/>
         </widget04>
        </b-col>

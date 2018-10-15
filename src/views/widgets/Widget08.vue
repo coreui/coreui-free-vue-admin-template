@@ -3,9 +3,9 @@
     <div class="card-body text-center">
       <div class="text-muted small text-uppercase font-weight-bold">{{header}}</div>
         <div class="h2 py-3">{{text}}</div>
-          <!-- <div class="chart-wrapper"> -->
+          <div class="chart-wrapper">
             <slot></slot>
-          <!-- </div> -->
+          </div>
     </div>
   </div>
 </template>
