@@ -1,0 +1,1486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdowns.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Bootstrap Dropdown
+              </strong>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/dropdown"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown1"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="ddown1__BV_toggle_"
+                  type="button"
+                >
+                  Dropdown Button
+                </button>
+                <div
+                  aria-labelledby="ddown1__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    First Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Second Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Third Action
+                  </a>
+                   
+                  <div
+                    class="dropdown-divider"
+                    role="separator"
+                  />
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                   
+                  <a
+                    aria-disabled="true"
+                    class="dropdown-item disabled"
+                    href="#"
+                    role="menuitem"
+                    tabindex="-1"
+                    target="_self"
+                  >
+                    Disabled action
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-buttons"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="ddown-buttons__BV_toggle_"
+                  type="button"
+                >
+                  Dropdown using buttons as menu items
+                </button>
+                <div
+                  aria-labelledby="ddown-buttons__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    I'm a button
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    I'm also a button
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    disabled="disabled"
+                    role="menuitem"
+                    type="button"
+                  >
+                    I'm a button, but disabled!
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    I don't look like a button, but I am!
+                  </button>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-divider"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="ddown-divider__BV_toggle_"
+                  type="button"
+                >
+                  Dropdown with divider
+                </button>
+                <div
+                  aria-labelledby="ddown-divider__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    First item
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Second item
+                  </button>
+                   
+                  <div
+                    class="dropdown-divider"
+                    role="separator"
+                  />
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Separated Item
+                  </button>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-header"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="ddown-header__BV_toggle_"
+                  type="button"
+                >
+                  Dropdown with header
+                </button>
+                <div
+                  aria-labelledby="ddown-header__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <h6
+                    class="dropdown-header"
+                  >
+                    Dropdown header
+                  </h6>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    First item
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Second Item
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Dropdown 
+              </strong>
+              <small>
+                positioning
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-left"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-primary dropdown-toggle"
+                  id="ddown-left__BV_toggle_"
+                  type="button"
+                >
+                  Left align
+                </button>
+                <div
+                  aria-labelledby="ddown-left__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+               
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-right"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-primary dropdown-toggle"
+                  id="ddown-right__BV_toggle_"
+                  type="button"
+                >
+                  Right align
+                </button>
+                <div
+                  aria-labelledby="ddown-right__BV_toggle_"
+                  class="dropdown-menu dropdown-menu-right"
+                  role="menu"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown dropup"
+                id="ddown-dropup"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-info dropdown-toggle"
+                  id="ddown-dropup__BV_toggle_"
+                  type="button"
+                >
+                  Drop-Up
+                </button>
+                <div
+                  aria-labelledby="ddown-dropup__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-offset"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="ddown-offset__BV_toggle_"
+                  type="button"
+                >
+                  Offset Dropdown
+                </button>
+                <div
+                  aria-labelledby="ddown-offset__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-split"
+              >
+                <button
+                  class="btn btn-secondary"
+                  id="ddown-split__BV_button_"
+                  type="button"
+                >
+                  Split Dropdown
+                </button>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                  id="ddown-split__BV_toggle_"
+                  type="button"
+                >
+                  <span
+                    class="sr-only"
+                  >
+                    Toggle Dropdown
+                  </span>
+                </button>
+                <div
+                  aria-labelledby="ddown-split__BV_button_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Dropdown 
+              </strong>
+              <small>
+                hidden caret
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="btn-group b-dropdown dropdown"
+                id="__BVID__89"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-link btn-lg"
+                  id="__BVID__89__BV_toggle_"
+                  type="button"
+                >
+                  
+                🔍
+                  <span
+                    class="sr-only"
+                  >
+                    Search
+                  </span>
+                </button>
+                <div
+                  aria-labelledby="__BVID__89__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Dropdown 
+              </strong>
+              <small>
+                sizing
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-lg"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary btn-lg dropdown-toggle"
+                  id="ddown-lg__BV_toggle_"
+                  type="button"
+                >
+                  Large
+                </button>
+                <div
+                  aria-labelledby="ddown-lg__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Another action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Something else here
+                  </button>
+                </div>
+              </div>
+               
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-lg-split"
+              >
+                <button
+                  class="btn btn-secondary btn-lg"
+                  id="ddown-lg-split__BV_button_"
+                  type="button"
+                >
+                  Large Split
+                </button>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary btn-lg dropdown-toggle dropdown-toggle-split"
+                  id="ddown-lg-split__BV_toggle_"
+                  type="button"
+                >
+                  <span
+                    class="sr-only"
+                  >
+                    Toggle Dropdown
+                  </span>
+                </button>
+                <div
+                  aria-labelledby="ddown-lg-split__BV_button_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Another action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Something else here...
+                  </button>
+                </div>
+              </div>
+               
+              <br />
+               
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-sm"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary btn-sm dropdown-toggle"
+                  id="ddown-sm__BV_toggle_"
+                  type="button"
+                >
+                  Small
+                </button>
+                <div
+                  aria-labelledby="ddown-sm__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Another action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Something else here...
+                  </button>
+                </div>
+              </div>
+               
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-sm-split"
+              >
+                <button
+                  class="btn btn-secondary btn-sm"
+                  id="ddown-sm-split__BV_button_"
+                  type="button"
+                >
+                  Small Split
+                </button>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-secondary btn-sm dropdown-toggle dropdown-toggle-split"
+                  id="ddown-sm-split__BV_toggle_"
+                  type="button"
+                >
+                  <span
+                    class="sr-only"
+                  >
+                    Toggle Dropdown
+                  </span>
+                </button>
+                <div
+                  aria-labelledby="ddown-sm-split__BV_button_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Another action
+                  </button>
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Something else here...
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Dropdown 
+              </strong>
+              <small>
+                headers and accessibility
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="m-2 btn-group b-dropdown dropdown"
+                id="ddown-aria"
+              >
+                <!---->
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="btn btn-primary dropdown-toggle"
+                  id="ddown-aria__BV_toggle_"
+                  type="button"
+                >
+                  Dropdown ARIA
+                </button>
+                <div
+                  aria-labelledby="ddown-aria__BV_toggle_"
+                  class="dropdown-menu"
+                  role="menu"
+                >
+                  <div
+                    aria-lableledby="header1"
+                    role="group"
+                  >
+                    <h6
+                      class="dropdown-header"
+                      id="header1"
+                    >
+                      Groups
+                    </h6>
+                     
+                    <button
+                      aria-describedby="header1"
+                      class="dropdown-item"
+                      role="menuitem"
+                      type="button"
+                    >
+                      Add
+                    </button>
+                     
+                    <button
+                      aria-describedby="header1"
+                      class="dropdown-item"
+                      role="menuitem"
+                      type="button"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                   
+                  <div
+                    aria-lableledby="header2"
+                    role="group"
+                  >
+                    <h6
+                      class="dropdown-header"
+                      id="header2"
+                    >
+                      Users
+                    </h6>
+                     
+                    <button
+                      aria-describedby="header2"
+                      class="dropdown-item"
+                      role="menuitem"
+                      type="button"
+                    >
+                      Add
+                    </button>
+                     
+                    <button
+                      aria-describedby="header2"
+                      class="dropdown-item"
+                      role="menuitem"
+                      type="button"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                   
+                  <div
+                    class="dropdown-divider"
+                    role="separator"
+                  />
+                   
+                  <button
+                    class="dropdown-item"
+                    role="menuitem"
+                    type="button"
+                  >
+                    Something 
+                    <strong>
+                      not
+                    </strong>
+                     associated with user
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Dropdown 
+              </strong>
+              <small>
+                <code>
+                  variant
+                </code>
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_primary"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-primary btn-sm dropdown-toggle"
+                id="ddown_primary__BV_toggle_"
+                type="button"
+              >
+                Primary
+              </button>
+              <div
+                aria-labelledby="ddown_primary__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_secondary"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-secondary btn-sm dropdown-toggle"
+                id="ddown_secondary__BV_toggle_"
+                type="button"
+              >
+                Secondary
+              </button>
+              <div
+                aria-labelledby="ddown_secondary__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_success"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-success btn-sm dropdown-toggle"
+                id="ddown_success__BV_toggle_"
+                type="button"
+              >
+                Success
+              </button>
+              <div
+                aria-labelledby="ddown_success__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_warning"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-warning btn-sm dropdown-toggle"
+                id="ddown_warning__BV_toggle_"
+                type="button"
+              >
+                Warning
+              </button>
+              <div
+                aria-labelledby="ddown_warning__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_danger"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-danger btn-sm dropdown-toggle"
+                id="ddown_danger__BV_toggle_"
+                type="button"
+              >
+                Danger
+              </button>
+              <div
+                aria-labelledby="ddown_danger__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_info"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-info btn-sm dropdown-toggle"
+                id="ddown_info__BV_toggle_"
+                type="button"
+              >
+                Info
+              </button>
+              <div
+                aria-labelledby="ddown_info__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_light"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-light btn-sm dropdown-toggle"
+                id="ddown_light__BV_toggle_"
+                type="button"
+              >
+                Light
+              </button>
+              <div
+                aria-labelledby="ddown_light__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_dark"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-dark btn-sm dropdown-toggle"
+                id="ddown_dark__BV_toggle_"
+                type="button"
+              >
+                Dark
+              </button>
+              <div
+                aria-labelledby="ddown_dark__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-0 btn-group b-dropdown dropdown"
+              id="ddown_link"
+            >
+              <!---->
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-link btn-sm dropdown-toggle"
+                id="ddown_link__BV_toggle_"
+                type="button"
+              >
+                Link
+              </button>
+              <div
+                aria-labelledby="ddown_link__BV_toggle_"
+                class="dropdown-menu"
+                role="menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

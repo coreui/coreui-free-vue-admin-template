@@ -1,0 +1,2460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandButtons.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <div
+    class="row"
+  >
+    <div
+      class="col-12"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            <strong>
+              Brand Button
+            </strong>
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+           
+          <small>
+            Usage 
+          </small>
+          <code
+            style="text-transform: lowercase;"
+          >
+            &lt;b-button variant="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/b-button&gt;
+          </code>
+           
+          <hr />
+           
+          <h6>
+            Size Small 
+            <small>
+              Add 
+              <code>
+                size="sm"
+              </code>
+            </small>
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+              <span>
+                Facebook
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+              <span>
+                Twitter
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-linkedin"
+              />
+              <span>
+                LinkedIn
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-flickr"
+              />
+              <span>
+                Flickr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-tumblr"
+              />
+              <span>
+                Tumblr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-xing"
+              />
+              <span>
+                Xing
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-github"
+              />
+              <span>
+                Github
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-html5"
+              />
+              <span>
+                HTML5
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-openid"
+              />
+              <span>
+                OpenID
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-stack-overflow"
+              />
+              <span>
+                StackOverflow
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-css3"
+              />
+              <span>
+                CSS3
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-youtube"
+              />
+              <span>
+                YouTube
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-dribbble"
+              />
+              <span>
+                Dribbble
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-google-plus"
+              />
+              <span>
+                Google+
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+              <span>
+                Instagram
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-pinterest"
+              />
+              <span>
+                Pinterest
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-vk"
+              />
+              <span>
+                VK
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-yahoo"
+              />
+              <span>
+                Yahoo
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-behance"
+              />
+              <span>
+                Behance
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-dropbox"
+              />
+              <span>
+                Dropbox
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-reddit"
+              />
+              <span>
+                Reddit
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-spotify"
+              />
+              <span>
+                Spotify
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-vine"
+              />
+              <span>
+                Vine
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-foursquare"
+              />
+              <span>
+                Forsquare
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-vimeo"
+              />
+              <span>
+                Vimeo
+              </span>
+            </button>
+          </p>
+           
+          <h6>
+            Size Normal
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook"
+              type="button"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+              <span>
+                Facebook
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter"
+              type="button"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+              <span>
+                Twitter
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin"
+              type="button"
+            >
+              <i
+                class="fa fa-linkedin"
+              />
+              <span>
+                LinkedIn
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr"
+              type="button"
+            >
+              <i
+                class="fa fa-flickr"
+              />
+              <span>
+                Flickr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr"
+              type="button"
+            >
+              <i
+                class="fa fa-tumblr"
+              />
+              <span>
+                Tumblr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing"
+              type="button"
+            >
+              <i
+                class="fa fa-xing"
+              />
+              <span>
+                Xing
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github"
+              type="button"
+            >
+              <i
+                class="fa fa-github"
+              />
+              <span>
+                Github
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5"
+              type="button"
+            >
+              <i
+                class="fa fa-html5"
+              />
+              <span>
+                HTML5
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid"
+              type="button"
+            >
+              <i
+                class="fa fa-openid"
+              />
+              <span>
+                OpenID
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow"
+              type="button"
+            >
+              <i
+                class="fa fa-stack-overflow"
+              />
+              <span>
+                StackOverflow
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3"
+              type="button"
+            >
+              <i
+                class="fa fa-css3"
+              />
+              <span>
+                CSS3
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube"
+              type="button"
+            >
+              <i
+                class="fa fa-youtube"
+              />
+              <span>
+                YouTube
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble"
+              type="button"
+            >
+              <i
+                class="fa fa-dribbble"
+              />
+              <span>
+                Dribbble
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus"
+              type="button"
+            >
+              <i
+                class="fa fa-google-plus"
+              />
+              <span>
+                Google+
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram"
+              type="button"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+              <span>
+                Instagram
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest"
+              type="button"
+            >
+              <i
+                class="fa fa-pinterest"
+              />
+              <span>
+                Pinterest
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk"
+              type="button"
+            >
+              <i
+                class="fa fa-vk"
+              />
+              <span>
+                VK
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo"
+              type="button"
+            >
+              <i
+                class="fa fa-yahoo"
+              />
+              <span>
+                Yahoo
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance"
+              type="button"
+            >
+              <i
+                class="fa fa-behance"
+              />
+              <span>
+                Behance
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox"
+              type="button"
+            >
+              <i
+                class="fa fa-dropbox"
+              />
+              <span>
+                Dropbox
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit"
+              type="button"
+            >
+              <i
+                class="fa fa-reddit"
+              />
+              <span>
+                Reddit
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify"
+              type="button"
+            >
+              <i
+                class="fa fa-spotify"
+              />
+              <span>
+                Spotify
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine"
+              type="button"
+            >
+              <i
+                class="fa fa-vine"
+              />
+              <span>
+                Vine
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare"
+              type="button"
+            >
+              <i
+                class="fa fa-foursquare"
+              />
+              <span>
+                Forsquare
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo"
+              type="button"
+            >
+              <i
+                class="fa fa-vimeo"
+              />
+              <span>
+                Vimeo
+              </span>
+            </button>
+          </p>
+           
+          <h6>
+            Size Large 
+            <small>
+              Add 
+              <code>
+                size="lg"
+              </code>
+            </small>
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+              <span>
+                Facebook
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+              <span>
+                Twitter
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-linkedin"
+              />
+              <span>
+                LinkedIn
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-flickr"
+              />
+              <span>
+                Flickr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-tumblr"
+              />
+              <span>
+                Tumblr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-xing"
+              />
+              <span>
+                Xing
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-github"
+              />
+              <span>
+                Github
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-html5"
+              />
+              <span>
+                HTML5
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-openid"
+              />
+              <span>
+                OpenID
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-stack-overflow"
+              />
+              <span>
+                StackOverflow
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-css3"
+              />
+              <span>
+                CSS3
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-youtube"
+              />
+              <span>
+                YouTube
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-dribbble"
+              />
+              <span>
+                Dribbble
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-google-plus"
+              />
+              <span>
+                Google+
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+              <span>
+                Instagram
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-pinterest"
+              />
+              <span>
+                Pinterest
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-vk"
+              />
+              <span>
+                VK
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-yahoo"
+              />
+              <span>
+                Yahoo
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-behance"
+              />
+              <span>
+                Behance
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-dropbox"
+              />
+              <span>
+                Dropbox
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-reddit"
+              />
+              <span>
+                Reddit
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-spotify"
+              />
+              <span>
+                Spotify
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-vine"
+              />
+              <span>
+                Vine
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-foursquare"
+              />
+              <span>
+                Forsquare
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-vimeo"
+              />
+              <span>
+                Vimeo
+              </span>
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-12"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            <strong>
+              Brand Button 
+            </strong>
+             
+            <small>
+              Icons only
+            </small>
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+           
+          <small>
+            Usage 
+          </small>
+           
+          <code
+            style="text-transform: lowercase;"
+          >
+            &lt;b-button variant="facebook icon"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/b-button&gt;
+          </code>
+           
+          <hr />
+           
+          <h6>
+            Size Small 
+            <small>
+              Add 
+              <code>
+                size="sm"
+              </code>
+            </small>
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-linkedin"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-flickr"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-tumblr"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-xing"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-github"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-html5"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-openid"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-stack-overflow"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-css3"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-youtube"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-dribbble"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-google-plus"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-pinterest"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-vk"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-yahoo"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-behance"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-dropbox"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-reddit"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-spotify"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-vine"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-foursquare"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo icon btn-sm"
+              type="button"
+            >
+              <i
+                class="fa fa-vimeo"
+              />
+            </button>
+          </p>
+           
+          <h6>
+            Size Normal
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook icon"
+              type="button"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter icon"
+              type="button"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin icon"
+              type="button"
+            >
+              <i
+                class="fa fa-linkedin"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr icon"
+              type="button"
+            >
+              <i
+                class="fa fa-flickr"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr icon"
+              type="button"
+            >
+              <i
+                class="fa fa-tumblr"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing icon"
+              type="button"
+            >
+              <i
+                class="fa fa-xing"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github icon"
+              type="button"
+            >
+              <i
+                class="fa fa-github"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 icon"
+              type="button"
+            >
+              <i
+                class="fa fa-html5"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid icon"
+              type="button"
+            >
+              <i
+                class="fa fa-openid"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow icon"
+              type="button"
+            >
+              <i
+                class="fa fa-stack-overflow"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 icon"
+              type="button"
+            >
+              <i
+                class="fa fa-css3"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube icon"
+              type="button"
+            >
+              <i
+                class="fa fa-youtube"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble icon"
+              type="button"
+            >
+              <i
+                class="fa fa-dribbble"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus icon"
+              type="button"
+            >
+              <i
+                class="fa fa-google-plus"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram icon"
+              type="button"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest icon"
+              type="button"
+            >
+              <i
+                class="fa fa-pinterest"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk icon"
+              type="button"
+            >
+              <i
+                class="fa fa-vk"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo icon"
+              type="button"
+            >
+              <i
+                class="fa fa-yahoo"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance icon"
+              type="button"
+            >
+              <i
+                class="fa fa-behance"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox icon"
+              type="button"
+            >
+              <i
+                class="fa fa-dropbox"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit icon"
+              type="button"
+            >
+              <i
+                class="fa fa-reddit"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify icon"
+              type="button"
+            >
+              <i
+                class="fa fa-spotify"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine icon"
+              type="button"
+            >
+              <i
+                class="fa fa-vine"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare icon"
+              type="button"
+            >
+              <i
+                class="fa fa-foursquare"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo icon"
+              type="button"
+            >
+              <i
+                class="fa fa-vimeo"
+              />
+            </button>
+          </p>
+           
+          <h6>
+            Size Large 
+            <small>
+              Add 
+              <code>
+                size="lg"
+              </code>
+            </small>
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-facebook"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-twitter"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-linkedin"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-flickr"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-tumblr"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-xing"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-github"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-html5"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-openid"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-stack-overflow"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-css3"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-youtube"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-dribbble"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-google-plus"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-instagram"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-pinterest"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-vk"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-yahoo"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-behance"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-dropbox"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-reddit"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-spotify"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-vine"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-foursquare"
+              />
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo icon btn-lg"
+              type="button"
+            >
+              <i
+                class="fa fa-vimeo"
+              />
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-12"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            <strong>
+              Brand Button 
+            </strong>
+             
+            <small>
+              Text only
+            </small>
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+           
+          <small>
+            Usage 
+          </small>
+           
+          <code
+            style="text-transform: lowercase;"
+          >
+            &lt;b-button variant="facebook text"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/b-button&gt;
+          </code>
+           
+          <hr />
+           
+          <h6>
+            Size Small 
+            <small>
+              Add 
+              <code>
+                size="sm"
+              </code>
+            </small>
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook text btn-sm"
+              type="button"
+            >
+              <span>
+                Facebook
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter text btn-sm"
+              type="button"
+            >
+              <span>
+                Twitter
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin text btn-sm"
+              type="button"
+            >
+              <span>
+                LinkedIn
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr text btn-sm"
+              type="button"
+            >
+              <span>
+                Flickr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr text btn-sm"
+              type="button"
+            >
+              <span>
+                Tumblr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing text btn-sm"
+              type="button"
+            >
+              <span>
+                Xing
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github text btn-sm"
+              type="button"
+            >
+              <span>
+                Github
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 text btn-sm"
+              type="button"
+            >
+              <span>
+                HTML5
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid text btn-sm"
+              type="button"
+            >
+              <span>
+                OpenID
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow text btn-sm"
+              type="button"
+            >
+              <span>
+                StackOverflow
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 text btn-sm"
+              type="button"
+            >
+              <span>
+                CSS3
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube text btn-sm"
+              type="button"
+            >
+              <span>
+                YouTube
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble text btn-sm"
+              type="button"
+            >
+              <span>
+                Dribbble
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus text btn-sm"
+              type="button"
+            >
+              <span>
+                Google+
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram text btn-sm"
+              type="button"
+            >
+              <span>
+                Instagram
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest text btn-sm"
+              type="button"
+            >
+              <span>
+                Pinterest
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk text btn-sm"
+              type="button"
+            >
+              <span>
+                VK
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo text btn-sm"
+              type="button"
+            >
+              <span>
+                Yahoo
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance text btn-sm"
+              type="button"
+            >
+              <span>
+                Behance
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox text btn-sm"
+              type="button"
+            >
+              <span>
+                Dropbox
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit text btn-sm"
+              type="button"
+            >
+              <span>
+                Reddit
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify text btn-sm"
+              type="button"
+            >
+              <span>
+                Spotify
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine text btn-sm"
+              type="button"
+            >
+              <span>
+                Vine
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare text btn-sm"
+              type="button"
+            >
+              <span>
+                Forsquare
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo text btn-sm"
+              type="button"
+            >
+              <span>
+                Vimeo
+              </span>
+            </button>
+          </p>
+           
+          <h6>
+            Size Normal
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook text"
+              type="button"
+            >
+              <span>
+                Facebook
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter text"
+              type="button"
+            >
+              <span>
+                Twitter
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin text"
+              type="button"
+            >
+              <span>
+                LinkedIn
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr text"
+              type="button"
+            >
+              <span>
+                Flickr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr text"
+              type="button"
+            >
+              <span>
+                Tumblr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing text"
+              type="button"
+            >
+              <span>
+                Xing
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github text"
+              type="button"
+            >
+              <span>
+                Github
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 text"
+              type="button"
+            >
+              <span>
+                HTML5
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid text"
+              type="button"
+            >
+              <span>
+                OpenID
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow text"
+              type="button"
+            >
+              <span>
+                StackOverflow
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 text"
+              type="button"
+            >
+              <span>
+                CSS3
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube text"
+              type="button"
+            >
+              <span>
+                YouTube
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble text"
+              type="button"
+            >
+              <span>
+                Dribbble
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus text"
+              type="button"
+            >
+              <span>
+                Google+
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram text"
+              type="button"
+            >
+              <span>
+                Instagram
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest text"
+              type="button"
+            >
+              <span>
+                Pinterest
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk text"
+              type="button"
+            >
+              <span>
+                VK
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo text"
+              type="button"
+            >
+              <span>
+                Yahoo
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance text"
+              type="button"
+            >
+              <span>
+                Behance
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox text"
+              type="button"
+            >
+              <span>
+                Dropbox
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit text"
+              type="button"
+            >
+              <span>
+                Reddit
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify text"
+              type="button"
+            >
+              <span>
+                Spotify
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine text"
+              type="button"
+            >
+              <span>
+                Vine
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare text"
+              type="button"
+            >
+              <span>
+                Forsquare
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo text"
+              type="button"
+            >
+              <span>
+                Vimeo
+              </span>
+            </button>
+          </p>
+           
+          <h6>
+            Size Large 
+            <small>
+              Add 
+              <code>
+                size="lg"
+              </code>
+            </small>
+          </h6>
+           
+          <p>
+            <button
+              class="btn mr-1 btn-brand btn-facebook text btn-lg"
+              type="button"
+            >
+              <span>
+                Facebook
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-twitter text btn-lg"
+              type="button"
+            >
+              <span>
+                Twitter
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-linkedin text btn-lg"
+              type="button"
+            >
+              <span>
+                LinkedIn
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-flickr text btn-lg"
+              type="button"
+            >
+              <span>
+                Flickr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-tumblr text btn-lg"
+              type="button"
+            >
+              <span>
+                Tumblr
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-xing text btn-lg"
+              type="button"
+            >
+              <span>
+                Xing
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-github text btn-lg"
+              type="button"
+            >
+              <span>
+                Github
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-html5 text btn-lg"
+              type="button"
+            >
+              <span>
+                HTML5
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-openid text btn-lg"
+              type="button"
+            >
+              <span>
+                OpenID
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-stack-overflow text btn-lg"
+              type="button"
+            >
+              <span>
+                StackOverflow
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-css3 text btn-lg"
+              type="button"
+            >
+              <span>
+                CSS3
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-youtube text btn-lg"
+              type="button"
+            >
+              <span>
+                YouTube
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dribbble text btn-lg"
+              type="button"
+            >
+              <span>
+                Dribbble
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-google-plus text btn-lg"
+              type="button"
+            >
+              <span>
+                Google+
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-instagram text btn-lg"
+              type="button"
+            >
+              <span>
+                Instagram
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-pinterest text btn-lg"
+              type="button"
+            >
+              <span>
+                Pinterest
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vk text btn-lg"
+              type="button"
+            >
+              <span>
+                VK
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-yahoo text btn-lg"
+              type="button"
+            >
+              <span>
+                Yahoo
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-behance text btn-lg"
+              type="button"
+            >
+              <span>
+                Behance
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-dropbox text btn-lg"
+              type="button"
+            >
+              <span>
+                Dropbox
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-reddit text btn-lg"
+              type="button"
+            >
+              <span>
+                Reddit
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-spotify text btn-lg"
+              type="button"
+            >
+              <span>
+                Spotify
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vine text btn-lg"
+              type="button"
+            >
+              <span>
+                Vine
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-foursquare text btn-lg"
+              type="button"
+            >
+              <span>
+                Forsquare
+              </span>
+            </button>
+             
+            <button
+              class="btn mr-1 btn-brand btn-vimeo text btn-lg"
+              type="button"
+            >
+              <span>
+                Vimeo
+              </span>
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

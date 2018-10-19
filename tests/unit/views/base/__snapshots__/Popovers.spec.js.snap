@@ -1,0 +1,941 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popovers.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Popovers
+        </strong>
+         
+        <div
+          class="card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://bootstrap-vue.js.org/docs/components/popovers"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </div>
+       
+      <brow-stub
+        tag="div"
+      >
+        <bcol-stub
+          cols="6"
+          tag="div"
+        >
+          <div
+            class="my-3 text-center"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              title="Popover Title"
+              type="button"
+            >
+              
+              Hover Me
+            
+            </bbtn-stub>
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          cols="6"
+          tag="div"
+        >
+          <div
+            class="my-3 text-center"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="popoverButton-open"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              Button
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content=""
+              placement="right"
+              show=""
+              target="popoverButton-open"
+              title="Popover"
+              triggers="click"
+            >
+              
+              I start 
+              <strong>
+                open
+              </strong>
+            </bpopover-stub>
+          </div>
+        </bcol-stub>
+      </brow-stub>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Popovers 
+        </strong>
+         
+        <small>
+          placement
+        </small>
+      </div>
+       
+      <div
+        class="my-3"
+      >
+        <brow-stub
+          tag="div"
+        >
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-topright"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              topright
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement topright"
+              placement="topright"
+              target="exPopover1-topright"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-top"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              top
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement top"
+              placement="top"
+              target="exPopover1-top"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-topleft"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              topleft
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement topleft"
+              placement="topleft"
+              target="exPopover1-topleft"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-bottomright"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              bottomright
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement bottomright"
+              placement="bottomright"
+              target="exPopover1-bottomright"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-bottom"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              bottom
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement bottom"
+              placement="bottom"
+              target="exPopover1-bottom"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-bottomleft"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              bottomleft
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement bottomleft"
+              placement="bottomleft"
+              target="exPopover1-bottomleft"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-righttop"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              righttop
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement righttop"
+              placement="righttop"
+              target="exPopover1-righttop"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-right"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              right
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement right"
+              placement="right"
+              target="exPopover1-right"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-lefttop"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              lefttop
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement lefttop"
+              placement="lefttop"
+              target="exPopover1-lefttop"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-rightbottom"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              rightbottom
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement rightbottom"
+              placement="rightbottom"
+              target="exPopover1-rightbottom"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-left"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              left
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement left"
+              placement="left"
+              target="exPopover1-left"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+          <bcol-stub
+            class="py-4 text-center"
+            md="4"
+            tag="div"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="exPopover1-leftbottom"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              leftbottom
+            
+            </bbtn-stub>
+             
+            <bpopover-stub
+              content="Placement leftbottom"
+              placement="leftbottom"
+              target="exPopover1-leftbottom"
+              title="Popover!"
+              triggers="hover focus"
+            />
+          </bcol-stub>
+        </brow-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      class="d-sm-down-none"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Popovers 
+        </strong>
+         
+        <small>
+          via properties or slots
+        </small>
+      </div>
+       
+      <brow-stub
+        tag="div"
+      >
+        <bcol-stub
+          class="py-4 text-center"
+          md="6"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="exPopover2"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Using properties
+          </bbtn-stub>
+           
+          <bpopover-stub
+            content="Embedding content using properties is easy"
+            placement="right"
+            target="exPopover2"
+            title="Prop Examples"
+            triggers="hover focus"
+          />
+        </bcol-stub>
+         
+        <bcol-stub
+          class="py-4 text-center"
+          md="6"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="exPopover3"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Using slots
+          </bbtn-stub>
+           
+          <bpopover-stub
+            content=""
+            placement="right"
+            target="exPopover3"
+            title=""
+            triggers="hover focus"
+          >
+            <template>
+              Content via Slots
+            </template>
+            
+            Embedding content 
+            <span
+              class="text-danger"
+            >
+              using slots
+            </span>
+            
+            affords you 
+            <em>
+              greater 
+              <strong>
+                control.
+              </strong>
+            </em>
+             and
+            basic HTML support.
+          
+          </bpopover-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Popovers 
+        </strong>
+         
+        <small>
+          show
+        </small>
+      </div>
+       
+      <div
+        class="d-flex flex-column text-md-center"
+      >
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="popoverButton-sync"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            I have a popover
+          </bbtn-stub>
+        </div>
+         
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            class="px-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Toggle Popover
+          </bbtn-stub>
+           
+          <bpopover-stub
+            content=""
+            placement="right"
+            target="popoverButton-sync"
+            title="Popover"
+            triggers="click"
+          >
+            
+            Hello 
+            <strong>
+              World!
+            </strong>
+          </bpopover-stub>
+        </div>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Popover 
+        </strong>
+         
+        <small>
+          open/close events
+        </small>
+      </div>
+       
+      <div
+        class="d-flex flex-column text-md-center"
+      >
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="popoverButton-event"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            I have a popover
+          </bbtn-stub>
+        </div>
+         
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            class="px-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Open
+          </bbtn-stub>
+           
+          <bbtn-stub
+            activeclass="active"
+            class="px-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Close
+          </bbtn-stub>
+        </div>
+         
+        <bpopover-stub
+          content=""
+          placement="right"
+          target="popoverButton-event"
+          title="Popover"
+          triggers="click"
+        >
+          
+          Hello 
+          <strong>
+            World!
+          </strong>
+        </bpopover-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Popover 
+        </strong>
+         
+        <small>
+          enable/disable events
+        </small>
+      </div>
+       
+      <div
+        class="d-flex flex-column text-md-center"
+      >
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="popoverButton-disableevent"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            I have a popover
+          </bbtn-stub>
+        </div>
+         
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            class="px-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Enable
+          </bbtn-stub>
+           
+          <bbtn-stub
+            activeclass="active"
+            class="px-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Disable
+          </bbtn-stub>
+        </div>
+         
+        <bpopover-stub
+          content=""
+          placement="right"
+          target="popoverButton-disableevent"
+          title="Popover"
+          triggers="click"
+        >
+          
+          Hello 
+          <strong>
+            World!
+          </strong>
+        </bpopover-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Popover 
+        </strong>
+        <small>
+          <code>
+            v-b-popover
+          </code>
+           directive
+        </small>
+      </div>
+       
+      <brow-stub
+        tag="div"
+      >
+        <bcol-stub
+          class="py-3 text-center"
+          md="3"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            title="Popover!"
+            type="button"
+            variant="primary"
+          >
+            Top
+          </bbtn-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="py-3 text-center"
+          md="3"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            title="Popover!"
+            type="button"
+            variant="primary"
+          >
+            Left
+          </bbtn-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="py-3 text-center"
+          md="3"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            title="Popover!"
+            type="button"
+            variant="primary"
+          >
+            Right
+          </bbtn-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="py-3 text-center"
+          md="3"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            title="Popover!"
+            type="button"
+            variant="primary"
+          >
+            Bottom
+          </bbtn-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcard-stub>
+  </div>
+</div>
+`;

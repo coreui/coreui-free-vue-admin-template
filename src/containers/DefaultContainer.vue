@@ -68,7 +68,7 @@ import DefaultAside from './DefaultAside'
 import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
 
 export default {
-  name: 'full',
+  name: 'DefaultContainer',
   components: {
     AsideToggler,
     AppHeader,

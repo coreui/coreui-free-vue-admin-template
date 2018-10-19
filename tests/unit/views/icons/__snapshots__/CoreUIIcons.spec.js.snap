@@ -1,0 +1,1250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreUIIcons.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <div
+    class="card"
+  >
+    <div
+      class="card-header"
+    >
+      <i
+        class="fa fa-picture-o"
+      />
+      CoreUI Icons 
+      <span
+        class="badge badge-info"
+      >
+        New
+      </span>
+       
+      <div
+        class="card-header-actions"
+      >
+        <a
+          class="card-header-action"
+          href="https://github.com/coreui/coreui-icons"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <small
+            class="text-muted"
+          >
+            Github
+          </small>
+        </a>
+      </div>
+    </div>
+     
+    <div
+      class="card-body"
+    >
+      <div
+        class="row text-center"
+      >
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-account-logout icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            account-logout
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-action-redo icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            action-redo
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-action-undo icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            action-undo
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-align-center icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            align-center
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-align-left icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            align-left
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-align-right icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            align-right
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-arrow-bottom icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            arrow-bottom
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-arrow-left icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            arrow-left
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-arrow-right icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            arrow-right
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-arrow-top icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            arrow-top
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-ban icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            ban
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-basket-loaded icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            basket-loaded
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-bell icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            bell
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-bold icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            bold
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-bookmark icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            bookmark
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-briefcase icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            briefcase
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-british-pound icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            british-pound
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-brush icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            brush
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-calculator icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            calculator
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-calendar icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            calendar
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-cart icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            cart
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-chart icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            chart
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-check icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            check
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-chevron-bottom icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            chevron-bottom
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-chevron-left icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            chevron-left
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-chevron-right icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            chevron-right
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-chevron-top icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            chevron-top
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-circle-check icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            circle-check
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-circle-x icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            circle-x
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-cloud icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            cloud
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-cloud-download icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            cloud-download
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-cloud-upload icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            cloud-upload
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-code icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            code
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-cog icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            cog
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-comment-square icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            comment-square
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-credit-card icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            credit-card
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-cursor icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            cursor
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-dashboard icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            dashboard
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-delete icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            delete
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-dollar icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            dollar
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-drop icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            drop
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-envelope-closed icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            envelope-closed
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-envelope-letter icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            envelope-letter
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-envelope-open icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            envelope-open
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-euro icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            euro
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-file icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            file
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-globe icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            globe
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-graph icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            graph
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-home icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            home
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-inbox icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            inbox
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-info icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            info
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-italic icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            italic
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-justify-center icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            justify-center
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-justify-left icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            justify-left
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-justify-right icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            justify-right
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-laptop icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            laptop
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-layers icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            layers
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-lightbulb icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            lightbulb
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-list icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            list
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-location-pin icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            location-pin
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-lock-locked icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            lock-locked
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-lock-unlocked icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            lock-unlocked
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-magnifying-glass icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            magnifying-glass
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-map icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            map
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-monitor icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            monitor
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-moon icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            moon
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-note icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            note
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-options icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            options
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-paperclip icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            paperclip
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-pencil icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            pencil
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-people icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            people
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-phone icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            phone
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-pie-chart icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            pie-chart
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-print icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            print
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-puzzle icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            puzzle
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-rss icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            rss
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-screen-desktop icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            screen-desktop
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-screen-smartphone icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            screen-smartphone
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-settings icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            settings
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-share icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            share
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-shield icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            shield
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-sort-ascending icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            sort-ascending
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-sort-descending icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            sort-descending
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-speech icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            speech
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-speedometer icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            speedometer
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-star icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            star
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-sun icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            sun
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-tablet icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            tablet
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-tags icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            tags
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-task icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            task
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-thumb-down icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            thumb-down
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-thumb-up icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            thumb-up
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-trash icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            trash
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-underline icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            underline
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-user icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            user
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-user-female icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            user-female
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-user-follow icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            user-follow
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-user-unfollow icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            user-unfollow
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-wrench icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            wrench
+          </div>
+        </div>
+         
+        <div
+          class="col-sm-4 col-md-3 col-xl-2 col-6"
+        >
+          <i
+            class="cui-yen icons font-2xl d-block mt-4"
+          />
+           
+          <div>
+            yen
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
