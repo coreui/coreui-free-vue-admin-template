@@ -42,10 +42,10 @@
           <b-row>
             <b-col md="4" class="py-4 text-center"
                    v-for="placement in placements" :key="placement">
-              <b-btn :id="'exPopover1-'+placement" variant="primary">
+              <b-btn :id="`exPopover1-${placement}`" variant="primary">
                 {{ placement }}
               </b-btn>
-              <b-popover :target="'exPopover1-'+placement"
+              <b-popover :target="`exPopover1-${placement}`"
                          :placement="placement"
                          title="Popover!"
                          triggers="hover focus"

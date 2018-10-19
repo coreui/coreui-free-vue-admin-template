@@ -417,11 +417,6 @@ export default {
   components: {
     cSwitch
   },
-  computed: {
-    icon (icon) {
-      return icon
-    }
-  },
   data: () => {
     return {
       fields: [
