@@ -1,5 +1,21 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.0.2`
+- refactor: extract random() to `shared/utils`
+- refactor: extract shuffleArray() to shared/utils
+- refactor: Tables pass items as props to Table
+- refactor: some views minor cleanup
+- tests(e2e): add some more test cases
+- tests(unit): add some more test cases and snapshots
+- chore: update `@coreui/coreui` to `2.0.20`
+- chore: update `chart.js` to `2.7.3`
+- chore: update `@vue/cli-plugin-babel` to `3.0.5`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.5`
+- chore: update `@vue/cli-plugin-eslint` to `3.0.5`
+- chore: update `@vue/cli-plugin-unit-jest` to `3.0.5`
+- chore: update `@vue/cli-service` to `3.0.5`
+- chore: update `node-sass` to `4.9.4`
+
 ##### `v2.0.1`
 - refactor(Modals): add spacing
 - refactor(BrandButtons): add spacing
