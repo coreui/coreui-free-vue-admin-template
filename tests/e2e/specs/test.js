@@ -40,14 +40,14 @@ module.exports = {
     browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
       console.log('response', typeof response)
       this.assert.ok(browser === this, 'Check if the context is right.')
-      this.assert.cssClassPresent('body', 'aside-menu-show')
+      this.assert.cssClassPresent('body', 'aside-menu-lg-show')
     })
 
     browser.pause(500)
 
     browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
       console.log('response', typeof response)
-      this.assert.cssClassNotPresent('body', 'aside-menu-show')
+      this.assert.cssClassNotPresent('body', 'aside-menu-lg-show')
     })
 
     browser.pause(500)
@@ -72,6 +72,7 @@ module.exports = {
         console.log('response', typeof response)
         this.assert.cssClassPresent('/html/body', 'sidebar-minimized')
         this.assert.cssClassPresent('/html/body', 'brand-minimized')
+        this.assert.cssProperty("/html/body/div/div/main", "margin-left", "50px");
       })
       .pause(500)
       .click('/html/body/div/div/div/button', function (response) {
@@ -89,6 +90,7 @@ module.exports = {
     .click('/html/body/div/header/button[1]', function (response) {
       console.log('response', typeof response)
       this.assert.cssClassPresent('/html/body', 'sidebar-show')
+      this.assert.cssProperty("/html/body/div/div/main", "margin-left", "200px");
     })
 
     browser
@@ -96,6 +98,16 @@ module.exports = {
     .click('/html/body/div/div/div/nav/section/ul/li[1]/div/a', function (response) {
       console.log('response', typeof response)
       this.assert.cssClassNotPresent('/html/body', 'sidebar-show')
+    })
+
+    browser
+    .resizeWindow(500, 600)
+    .pause(500)
+
+    .click('/html/body/div/header/button[1]', function (response) {
+      console.log('response', typeof response)
+      this.assert.cssClassPresent('/html/body', 'sidebar-show')
+      this.assert.cssProperty("/html/body/div/div/main", "margin-left", "0px");
     })
 
     browser
