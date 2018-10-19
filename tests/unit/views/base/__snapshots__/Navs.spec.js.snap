@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navs.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs
+        </strong>
+         
+        <div
+          class="card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://bootstrap-vue.js.org/docs/components/nav"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </div>
+       
+      <div>
+        <bnav-stub
+          tag="ul"
+        >
+          <bnavitem-stub
+            active="true"
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Active
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Another Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Disabled
+          </bnavitem-stub>
+        </bnav-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs 
+        </strong>
+        <small>
+          tab style
+        </small>
+      </div>
+       
+      <div>
+        <bnav-stub
+          tabs="true"
+          tag="ul"
+        >
+          <bnavitem-stub
+            active="true"
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Active
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Another Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Disabled
+          </bnavitem-stub>
+        </bnav-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs 
+        </strong>
+        <small>
+          pill style
+        </small>
+      </div>
+       
+      <div>
+        <bnav-stub
+          pills="true"
+          tag="ul"
+        >
+          <bnavitem-stub
+            active="true"
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Active
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Another Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Disabled
+          </bnavitem-stub>
+        </bnav-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs 
+        </strong>
+        <small>
+          fill tabs
+        </small>
+      </div>
+       
+      <div>
+        <bnav-stub
+          fill="true"
+          tabs="true"
+          tag="ul"
+        >
+          <bnavitem-stub
+            active="true"
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Active
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link with a long name 
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Disabled
+          </bnavitem-stub>
+        </bnav-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs 
+        </strong>
+        <small>
+          justified tabs
+        </small>
+      </div>
+       
+      <div>
+        <bnav-stub
+          justified="true"
+          tabs="true"
+          tag="ul"
+        >
+          <bnavitem-stub
+            active="true"
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Active
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link with a long name 
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Disabled
+          </bnavitem-stub>
+        </bnav-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs 
+        </strong>
+        <small>
+          dropdown support
+        </small>
+      </div>
+       
+      <div>
+        <bnav-stub
+          pills="true"
+          tag="ul"
+        >
+          <bnavitem-stub
+            active="true"
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Active
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link
+          </bnavitem-stub>
+           
+          <bnavitemdropdown-stub
+            extramenuclasses=""
+            extratoggleclasses=""
+            id="nav7_ddown"
+            right=""
+            role="menu"
+            text="Dropdown"
+          >
+            <bdropdownitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+            >
+              one
+            </bdropdownitem-stub>
+             
+            <bdropdownitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+            >
+              two
+            </bdropdownitem-stub>
+             
+            <bdropdowndivider-stub
+              tag="div"
+            />
+             
+            <bdropdownitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+            >
+              three
+            </bdropdownitem-stub>
+          </bnavitemdropdown-stub>
+        </bnav-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs 
+        </strong>
+        <small>
+          vertical variation
+        </small>
+      </div>
+       
+      <div>
+        <bnav-stub
+          class="w-25"
+          tag="ul"
+          vertical="true"
+        >
+          <bnavitem-stub
+            active="true"
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Active
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Another Link
+          </bnavitem-stub>
+           
+          <bnavitem-stub
+            activeclass="active"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+          >
+            Disabled
+          </bnavitem-stub>
+        </bnav-stub>
+      </div>
+    </bcard-stub>
+  </div>
+</div>
+`;

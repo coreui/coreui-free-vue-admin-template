@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paginations.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Pagination
+        </strong>
+         
+        <div
+          class="card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://bootstrap-vue.js.org/docs/components/pagination"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </div>
+       
+      <div>
+        <h6>
+          Default
+        </h6>
+         
+        <bpagination-stub
+          perpage="10"
+          size="md"
+          totalrows="100"
+        />
+         
+        <br />
+         
+        <h6>
+          Small
+        </h6>
+         
+        <bpagination-stub
+          perpage="10"
+          size="sm"
+          totalrows="100"
+        />
+         
+        <br />
+         
+        <div
+          class="d-sm-down-none"
+        >
+          <h6>
+            Large
+          </h6>
+           
+          <bpagination-stub
+            perpage="10"
+            size="lg"
+            totalrows="100"
+          />
+           
+          <br />
+        </div>
+         
+        <div>
+          currentPage: 3
+        </div>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Pagination 
+        </strong>
+         
+        <small>
+          alignment
+        </small>
+      </div>
+       
+      <div>
+        <h6>
+          Left alignment (default)
+        </h6>
+         
+        <bpagination-stub
+          perpage="10"
+          totalrows="100"
+        />
+         
+        <br />
+         
+        <h6>
+          Center alignment
+        </h6>
+         
+        <bpagination-stub
+          align="center"
+          perpage="10"
+          totalrows="100"
+        />
+         
+        <br />
+         
+        <h6>
+          Right (end) alignment
+        </h6>
+         
+        <bpagination-stub
+          align="right"
+          perpage="10"
+          totalrows="100"
+        />
+         
+        <br />
+         
+        <div>
+          currentPage: 3
+        </div>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Pagination 
+        </strong>
+         
+        <small>
+          navigation
+        </small>
+      </div>
+       
+      <div>
+        <h6>
+          Default
+        </h6>
+         
+        <bpaginationnav-stub
+          activeclass="active"
+          baseurl="#"
+          numberofpages="10"
+        />
+         
+        <h6
+          class="mt-4"
+        >
+          With link generator function
+        </h6>
+         
+        <bpaginationnav-stub
+          activeclass="active"
+          baseurl="/"
+          linkgen="function () { [native code] }"
+          numberofpages="10"
+        />
+         
+        <br />
+         
+        <div
+          class="mt-4"
+        >
+          currentPage: 3
+        </div>
+      </div>
+    </bcard-stub>
+  </div>
+</div>
+`;

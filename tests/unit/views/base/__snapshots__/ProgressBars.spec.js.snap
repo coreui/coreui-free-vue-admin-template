@@ -1,0 +1,745 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBars.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Progress
+        </strong>
+         
+        <div
+          class="card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://bootstrap-vue.js.org/docs/components/progress"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </div>
+       
+      <div>
+        <bprogress-stub
+          animated="true"
+          max="100"
+          precision="0"
+          showprogress="true"
+          value="45"
+        />
+         
+        <bprogress-stub
+          class="mt-1"
+          max="100"
+          precision="0"
+          showvalue="true"
+          value="0"
+        >
+          <bprogressbar-stub
+            value="27"
+            variant="success"
+          />
+           
+          <bprogressbar-stub
+            value="11.25"
+            variant="warning"
+          />
+           
+          <bprogressbar-stub
+            value="6.75"
+            variant="danger"
+          />
+        </bprogress-stub>
+         
+        <bbtn-stub
+          activeclass="active"
+          class="mt-4"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+        >
+          Click me
+        </bbtn-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Progress 
+        </strong>
+        <small>
+          labels
+        </small>
+      </div>
+       
+      <div>
+        <h6>
+          No label
+        </h6>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="50"
+          precision="0"
+          value="33.333333333"
+        />
+         
+        <h6>
+          Value label
+        </h6>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="50"
+          precision="0"
+          showvalue="true"
+          value="33.333333333"
+        />
+         
+        <h6>
+          Progress label
+        </h6>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="50"
+          precision="0"
+          showprogress="true"
+          value="33.333333333"
+        />
+         
+        <h6>
+          Value label with precision
+        </h6>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="50"
+          precision="2"
+          showvalue="true"
+          value="33.333333333"
+        />
+         
+        <h6>
+          Progress label with precision
+        </h6>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="50"
+          precision="2"
+          showprogress="true"
+          value="33.333333333"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Progress 
+        </strong>
+        <small>
+          width
+        </small>
+      </div>
+       
+      <div>
+        <h6>
+          Default width
+        </h6>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="100"
+          precision="0"
+          value="75"
+        />
+         
+        <h6>
+          Custom widths
+        </h6>
+         
+        <bprogress-stub
+          class="w-75 mb-2"
+          max="100"
+          precision="0"
+          value="75"
+        />
+         
+        <bprogress-stub
+          class="w-50 mb-2"
+          max="100"
+          precision="0"
+          value="75"
+        />
+         
+        <bprogress-stub
+          class="w-25"
+          max="100"
+          precision="0"
+          value="75"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Progress 
+        </strong>
+        <small>
+          height
+        </small>
+      </div>
+       
+      <div>
+        <h6>
+          Default height
+        </h6>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="100"
+          precision="0"
+          showprogress="true"
+          value="75"
+        />
+         
+        <h6>
+          Custom heights
+        </h6>
+         
+        <bprogress-stub
+          class="mb-2"
+          height="2rem"
+          max="100"
+          precision="0"
+          showprogress="true"
+          value="75"
+        />
+         
+        <bprogress-stub
+          class="mb-2"
+          height="20px"
+          max="100"
+          precision="0"
+          showprogress="true"
+          value="75"
+        />
+         
+        <bprogress-stub
+          height="2px"
+          max="100"
+          precision="0"
+          value="75"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Progress 
+        </strong>
+        <small>
+          variants
+        </small>
+      </div>
+       
+      <div>
+        <div
+          class="row mb-1"
+        >
+          <div
+            class="col-sm-2"
+          >
+            success:
+          </div>
+           
+          <div
+            class="col-sm-10 pt-1"
+          >
+            <bprogress-stub
+              max="100"
+              precision="0"
+              value="75"
+              variant="success"
+            />
+          </div>
+        </div>
+        <div
+          class="row mb-1"
+        >
+          <div
+            class="col-sm-2"
+          >
+            info:
+          </div>
+           
+          <div
+            class="col-sm-10 pt-1"
+          >
+            <bprogress-stub
+              max="100"
+              precision="0"
+              value="75"
+              variant="info"
+            />
+          </div>
+        </div>
+        <div
+          class="row mb-1"
+        >
+          <div
+            class="col-sm-2"
+          >
+            warning:
+          </div>
+           
+          <div
+            class="col-sm-10 pt-1"
+          >
+            <bprogress-stub
+              max="100"
+              precision="0"
+              value="75"
+              variant="warning"
+            />
+          </div>
+        </div>
+        <div
+          class="row mb-1"
+        >
+          <div
+            class="col-sm-2"
+          >
+            danger:
+          </div>
+           
+          <div
+            class="col-sm-10 pt-1"
+          >
+            <bprogress-stub
+              max="100"
+              precision="0"
+              value="75"
+              variant="danger"
+            />
+          </div>
+        </div>
+        <div
+          class="row mb-1"
+        >
+          <div
+            class="col-sm-2"
+          >
+            primary:
+          </div>
+           
+          <div
+            class="col-sm-10 pt-1"
+          >
+            <bprogress-stub
+              max="100"
+              precision="0"
+              value="75"
+              variant="primary"
+            />
+          </div>
+        </div>
+        <div
+          class="row mb-1"
+        >
+          <div
+            class="col-sm-2"
+          >
+            secondary:
+          </div>
+           
+          <div
+            class="col-sm-10 pt-1"
+          >
+            <bprogress-stub
+              max="100"
+              precision="0"
+              value="75"
+              variant="secondary"
+            />
+          </div>
+        </div>
+        <div
+          class="row mb-1"
+        >
+          <div
+            class="col-sm-2"
+          >
+            dark:
+          </div>
+           
+          <div
+            class="col-sm-10 pt-1"
+          >
+            <bprogress-stub
+              max="100"
+              precision="0"
+              value="75"
+              variant="dark"
+            />
+          </div>
+        </div>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Progress 
+        </strong>
+        <small>
+          striped
+        </small>
+      </div>
+       
+      <div>
+        <bprogress-stub
+          class="mb-2"
+          max="100"
+          precision="0"
+          striped="true"
+          value="25"
+          variant="success"
+        />
+         
+        <bprogress-stub
+          class="mb-2"
+          max="100"
+          precision="0"
+          striped="true"
+          value="50"
+          variant="info"
+        />
+         
+        <bprogress-stub
+          class="mb-2"
+          max="100"
+          precision="0"
+          striped="true"
+          value="75"
+          variant="warning"
+        />
+         
+        <bprogress-stub
+          class="mb-2"
+          max="100"
+          precision="0"
+          striped="true"
+          value="100"
+          variant="danger"
+        />
+         
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="secondary"
+        >
+          
+          Remove Striped
+        
+        </bbutton-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Progress 
+        </strong>
+        <small>
+          animated
+        </small>
+      </div>
+       
+      <div>
+        <bprogress-stub
+          animated="true"
+          class="mb-2"
+          max="100"
+          precision="0"
+          striped="true"
+          value="25"
+          variant="success"
+        />
+         
+        <bprogress-stub
+          animated="true"
+          class="mb-2"
+          max="100"
+          precision="0"
+          striped="true"
+          value="50"
+          variant="info"
+        />
+         
+        <bprogress-stub
+          animated="true"
+          class="mb-2"
+          max="100"
+          precision="0"
+          striped="true"
+          value="75"
+          variant="warning"
+        />
+         
+        <bprogress-stub
+          animated="true"
+          class="mb-3"
+          max="100"
+          precision="0"
+          value="100"
+          variant="danger"
+        />
+         
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="secondary"
+        >
+          
+          Stop Animation
+        
+        </bbutton-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Progress 
+        </strong>
+        <small>
+          multiple bars
+        </small>
+      </div>
+       
+      <div>
+        <bprogress-stub
+          class="mb-3"
+          max="100"
+          precision="0"
+          value="0"
+        >
+          <bprogressbar-stub
+            value="15"
+            variant="primary"
+          />
+           
+          <bprogressbar-stub
+            value="30"
+            variant="success"
+          />
+           
+          <bprogressbar-stub
+            value="20"
+            variant="info"
+          />
+        </bprogress-stub>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="100"
+          precision="0"
+          showprogress="true"
+          value="0"
+        >
+          <bprogressbar-stub
+            value="15"
+            variant="primary"
+          />
+           
+          <bprogressbar-stub
+            value="30"
+            variant="success"
+          />
+           
+          <bprogressbar-stub
+            value="20"
+            variant="info"
+          />
+        </bprogress-stub>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="100"
+          precision="0"
+          showvalue="true"
+          striped="true"
+          value="0"
+        >
+          <bprogressbar-stub
+            value="15"
+            variant="primary"
+          />
+           
+          <bprogressbar-stub
+            value="30"
+            variant="success"
+          />
+           
+          <bprogressbar-stub
+            value="20"
+            variant="info"
+          />
+        </bprogress-stub>
+         
+        <bprogress-stub
+          class="mb-3"
+          max="100"
+          precision="0"
+          value="0"
+        >
+          <bprogressbar-stub
+            showprogress="true"
+            value="15"
+            variant="primary"
+          />
+           
+          <bprogressbar-stub
+            animated="true"
+            showprogress="true"
+            value="30"
+            variant="success"
+          />
+           
+          <bprogressbar-stub
+            showprogress="true"
+            striped="true"
+            value="20"
+            variant="info"
+          />
+        </bprogress-stub>
+      </div>
+    </bcard-stub>
+  </div>
+</div>
+`;

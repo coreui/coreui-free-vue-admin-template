@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapses.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Bootstrap Collapse 
+              </strong>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/collapse"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <button
+                aria-controls="collapse1"
+                aria-expanded="false"
+                class="btn btn-primary collapsed"
+                type="button"
+              >
+                Toggle Collapse
+              </button>
+               
+              <div
+                class="mt-2 collapse"
+                id="collapse1"
+                style="display: none;"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    <p
+                      class="card-text"
+                    >
+                      Collapse contents Here
+                    </p>
+                     
+                    <button
+                      aria-controls="collapse1_inner"
+                      aria-expanded="false"
+                      class="btn btn-secondary btn-sm collapsed"
+                      type="button"
+                    >
+                      Toggle Inner Collapse
+                    </button>
+                     
+                    <div
+                      class="mt-2 collapse"
+                      id="collapse1_inner"
+                      style="display: none;"
+                    >
+                      <div
+                        class="card"
+                      >
+                        <div
+                          class="card-body"
+                        >
+                          Hello!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Collapse 
+              </strong>
+               
+              <small>
+                with 
+                <code>
+                  v-b-toggle
+                </code>
+                 directive
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <button
+                aria-controls="collapse2"
+                aria-expanded="false"
+                class="btn m-1 btn-secondary collapsed"
+                type="button"
+              >
+                Toggle Collapse
+              </button>
+               
+              <button
+                aria-controls="collapse2"
+                aria-expanded="false"
+                class="btn m-1 btn-secondary collapsed"
+                type="button"
+              >
+                Toggle Collapse
+              </button>
+               
+              <div
+                class="collapse"
+                id="collapse2"
+                style="display: none;"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    
+                I am collapsible content!
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Collapse 
+              </strong>
+               
+              <small>
+                with 
+                <code>
+                  visibility
+                </code>
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <button
+                aria-controls="collapse3"
+                aria-expanded="true"
+                class="btn m-1 btn-secondary"
+                type="button"
+              >
+                Toggle Collapse
+              </button>
+               
+              <div
+                class="collapse show"
+                id="collapse3"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    
+                I should start open!
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Collapse 
+              </strong>
+               
+              <small>
+                with 
+                <code>
+                  v-model
+                </code>
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <button
+                aria-controls="collapse4"
+                aria-expanded="true"
+                class="btn btn-secondary collapsed"
+                type="button"
+              >
+                
+              Toggle Collapse
+            
+              </button>
+               
+              <div
+                class="mt-2 collapse show"
+                id="collapse4"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    
+                I should start open!
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Collapse 
+              </strong>
+               
+              <small>
+                multiple elements
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <button
+                aria-controls="collapseA collapseB"
+                aria-expanded="false"
+                class="btn btn-secondary collapsed"
+                type="button"
+              >
+                Toggle Both Collapse A and B
+              </button>
+               
+              <div
+                class="mt-2 collapse"
+                id="collapseA"
+                style="display: none;"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    
+                I am collapsable content A!
+              
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="mt-2 collapse"
+                id="collapseB"
+                style="display: none;"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    
+                I am collapsable content B!
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Collapse 
+              </strong>
+               
+              <small>
+                <code>
+                  accordion
+                </code>
+                 support
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div
+              role="tablist"
+            >
+              <div
+                class="card mb-1"
+              >
+                <header
+                  class="card-header p-1"
+                  role="tab"
+                >
+                  <a
+                    aria-controls="accordion1"
+                    aria-expanded="true"
+                    class="btn btn-info btn-block"
+                    href="#"
+                    role="button"
+                    target="_self"
+                  >
+                    Accordion 1
+                  </a>
+                </header>
+                 
+                <div
+                  class="collapse show"
+                  id="accordion1"
+                  role="tabpanel"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    <p
+                      class="card-text"
+                    >
+                      
+                    I start opened because 
+                      <code>
+                        visible
+                      </code>
+                       is 
+                      <code>
+                        true
+                      </code>
+                    </p>
+                     
+                    <p
+                      class="card-text"
+                    >
+                      
+                    
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+        vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+        synth nesciunt you probably haven't heard of them accusamus labore VHS.
+      
+                  
+                    </p>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="card mb-1"
+              >
+                <header
+                  class="card-header p-1"
+                  role="tab"
+                >
+                  <a
+                    aria-controls="accordion2"
+                    aria-expanded="false"
+                    class="btn btn-info btn-block collapsed"
+                    href="#"
+                    role="button"
+                    target="_self"
+                  >
+                    Accordion 2
+                  </a>
+                </header>
+                 
+                <div
+                  class="collapse"
+                  id="accordion2"
+                  role="tabpanel"
+                  style="display: none;"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    <p
+                      class="card-text"
+                    >
+                      
+                    
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+        vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+        synth nesciunt you probably haven't heard of them accusamus labore VHS.
+      
+                  
+                    </p>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="card mb-1"
+              >
+                <header
+                  class="card-header p-1"
+                  role="tab"
+                >
+                  <a
+                    aria-controls="accordion3"
+                    aria-expanded="false"
+                    class="btn btn-info btn-block collapsed"
+                    href="#"
+                    role="button"
+                    target="_self"
+                  >
+                    Accordion 3
+                  </a>
+                </header>
+                 
+                <div
+                  class="collapse"
+                  id="accordion3"
+                  role="tabpanel"
+                  style="display: none;"
+                >
+                  <div
+                    class="card-body"
+                  >
+                    <p
+                      class="card-text"
+                    >
+                      
+                    
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+        vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+        synth nesciunt you probably haven't heard of them accusamus labore VHS.
+      
+                  
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

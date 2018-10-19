@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User.vue renders correctly 1`] = `
+<brow-stub
+  tag="div"
+>
+  <bcol-stub
+    cols="12"
+    lg="6"
+    tag="div"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      headertag="div"
+      no-header=""
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <template>
+        
+        User id:  
+      
+      </template>
+       
+      <btable-stub
+        apiurl=""
+        currentpage="1"
+        emptyfilteredtext="There are no records matching your request"
+        emptytext="There are no records to show"
+        fields="[object Object],[object Object]"
+        fixed="true"
+        footvariant=""
+        headvariant=""
+        items="[object Object]"
+        labelsortasc="Click to sort Ascending"
+        labelsortdesc="Click to sort Descending"
+        perpage="0"
+        responsive="sm"
+        small="true"
+        sortdirection="asc"
+        striped="true"
+        value=""
+      />
+       
+      <template>
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+        >
+          Back
+        </bbutton-stub>
+      </template>
+    </bcard-stub>
+  </bcol-stub>
+</brow-stub>
+`;
