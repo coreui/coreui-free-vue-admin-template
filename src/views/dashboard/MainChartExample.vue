@@ -2,10 +2,7 @@
 import { Line } from 'vue-chartjs'
 import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
-
-function random (min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min)
-}
+import { random } from '@/shared/utils'
 
 export default {
   extends: Line,
