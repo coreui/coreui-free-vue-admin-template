@@ -1,0 +1,836 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroups.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Bootstrap button group
+              </strong>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/button-group"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="btn-group"
+                role="group"
+              >
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  One
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Two
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Three
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Four
+                </button>
+                 
+                <button
+                  class="btn d-sm-down-none btn-secondary"
+                  type="button"
+                >
+                  Five
+                </button>
+              </div>
+               
+              <br />
+              <br />
+               
+              <div
+                class="btn-group"
+                role="group"
+              >
+                <button
+                  class="btn d-sm-down-none btn-success"
+                  type="button"
+                >
+                  Success
+                </button>
+                 
+                <button
+                  class="btn btn-info"
+                  type="button"
+                >
+                  Info
+                </button>
+                 
+                <button
+                  class="btn btn-warning"
+                  type="button"
+                >
+                  Warn
+                </button>
+                 
+                <button
+                  class="btn d-sm-down-none btn-primary"
+                  type="button"
+                >
+                  Primary
+                </button>
+                 
+                <button
+                  class="btn btn-danger"
+                  type="button"
+                >
+                  Danger
+                </button>
+                 
+                <button
+                  class="btn btn-link"
+                  type="button"
+                >
+                  Link
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Button group 
+              </strong>
+              sizing
+          
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="btn-group"
+                role="group"
+              >
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Left
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Middle
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Right
+                </button>
+              </div>
+               
+              <br />
+              <br />
+               
+              <div
+                class="btn-group btn-group-sm"
+                role="group"
+              >
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Left
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Middle
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Right
+                </button>
+              </div>
+               
+              <br />
+              <br />
+               
+              <div
+                class="btn-group btn-group-lg"
+                role="group"
+              >
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Left
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Middle
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Right
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Button group 
+              </strong>
+              dropdown support
+          
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="btn-group"
+                role="group"
+              >
+                <button
+                  class="btn d-sm-down-none btn-secondary"
+                  type="button"
+                >
+                  Button 1
+                </button>
+                 
+                <button
+                  class="btn d-sm-down-none btn-secondary"
+                  type="button"
+                >
+                  Button 2
+                </button>
+                 
+                <div
+                  class="btn-group b-dropdown dropdown"
+                  id="__BVID__32"
+                >
+                  <!---->
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="btn btn-success dropdown-toggle"
+                    id="__BVID__32__BV_toggle_"
+                    type="button"
+                  >
+                    Menu
+                  </button>
+                  <div
+                    aria-labelledby="__BVID__32__BV_toggle_"
+                    class="dropdown-menu dropdown-menu-right"
+                    role="menu"
+                  >
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 1
+                    </a>
+                     
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 2
+                    </a>
+                     
+                    <div
+                      class="dropdown-divider"
+                      role="separator"
+                    />
+                     
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 3
+                    </a>
+                  </div>
+                </div>
+                 
+                <button
+                  class="btn d-sm-down-none btn-secondary"
+                  type="button"
+                >
+                  Button 3
+                </button>
+                 
+                <div
+                  class="btn-group b-dropdown dropdown"
+                  id="__BVID__33"
+                >
+                  <button
+                    class="btn btn-info"
+                    id="__BVID__33__BV_button_"
+                    type="button"
+                  >
+                    Split Menu
+                  </button>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                    id="__BVID__33__BV_toggle_"
+                    type="button"
+                  >
+                    <span
+                      class="sr-only"
+                    >
+                      Toggle Dropdown
+                    </span>
+                  </button>
+                  <div
+                    aria-labelledby="__BVID__33__BV_button_"
+                    class="dropdown-menu dropdown-menu-right"
+                    role="menu"
+                  >
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 1
+                    </a>
+                     
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 2
+                    </a>
+                     
+                    <div
+                      class="dropdown-divider"
+                      role="separator"
+                    />
+                     
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 3
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Button group 
+              </strong>
+              vertical variation
+          
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                class="btn-group-vertical"
+                role="group"
+              >
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Top
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Middle
+                </button>
+                 
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  Bottom
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               
+              <strong>
+                Button toolbar
+              </strong>
+               
+              <small>
+                with button groups
+              </small>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/button-toolbar"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                aria-label="Toolbar with button groups"
+                class="btn-toolbar"
+                role="toolbar"
+                tabindex="0"
+              >
+                <div
+                  class="mx-1 btn-group"
+                  role="group"
+                >
+                  <button
+                    class="btn d-sm-down-none btn-secondary"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    «
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    ‹
+                  </button>
+                </div>
+                 
+                <div
+                  class="mx-1 btn-group"
+                  role="group"
+                >
+                  <button
+                    class="btn d-sm-down-none btn-secondary"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Edit
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Undo
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Redo
+                  </button>
+                </div>
+                 
+                <div
+                  class="mx-1 btn-group"
+                  role="group"
+                >
+                  <button
+                    class="btn btn-secondary"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    ›
+                  </button>
+                   
+                  <button
+                    class="btn d-sm-down-none btn-secondary"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    »
+                  </button>
+                </div>
+              </div>
+            </div>
+             
+            <hr
+              class="d-sm-down-none"
+            />
+             
+            <div>
+              <div
+                aria-label="Toolbar with button groups and input groups"
+                class="d-sm-down-none btn-toolbar"
+                role="toolbar"
+              >
+                <div
+                  class="mx-1 btn-group btn-group-sm"
+                  role="group"
+                >
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    New
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    Edit
+                  </button>
+                </div>
+                 
+                <div
+                  class="input-group w-25 mx-1 input-group-sm"
+                  role="group"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <div
+                      class="input-group-text"
+                    >
+                      $
+                    </div>
+                  </div>
+                   
+                  <input
+                    class="text-right form-control"
+                    id="__BVID__36"
+                    type="text"
+                    value="100"
+                  />
+                   
+                  <div
+                    class="input-group-append"
+                  >
+                    <div
+                      class="input-group-text"
+                    >
+                      .00
+                    </div>
+                  </div>
+                </div>
+                 
+                <div
+                  class="input-group w-25 mx-1 input-group-sm"
+                  role="group"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <div
+                      class="input-group-text"
+                    >
+                      Size
+                    </div>
+                  </div>
+                   
+                  <select
+                    class="form-control custom-select"
+                    id="__BVID__37"
+                  >
+                    <option
+                      value="Large"
+                    >
+                      Large
+                    </option>
+                    <option
+                      value="Medium"
+                    >
+                      Medium
+                    </option>
+                    <option
+                      value="Small"
+                    >
+                      Small
+                    </option>
+                  </select>
+                </div>
+                 
+                <div
+                  class="mx-1 btn-group btn-group-sm"
+                  role="group"
+                >
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    Save
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+             
+            <hr />
+             
+            <div>
+              <div
+                aria-label="Toolbar with button groups and dropdown menu"
+                class="btn-toolbar"
+                role="toolbar"
+              >
+                <div
+                  class="mx-1 d-sm-down-none btn-group"
+                  role="group"
+                >
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    New
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    Edit
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    Undo
+                  </button>
+                </div>
+                 
+                <div
+                  class="mx-1 btn-group b-dropdown dropdown"
+                  id="__BVID__39"
+                >
+                  <!---->
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="btn btn-secondary dropdown-toggle"
+                    id="__BVID__39__BV_toggle_"
+                    type="button"
+                  >
+                    menu
+                  </button>
+                  <div
+                    aria-labelledby="__BVID__39__BV_toggle_"
+                    class="dropdown-menu dropdown-menu-right"
+                    role="menu"
+                  >
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 1
+                    </a>
+                     
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 2
+                    </a>
+                     
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Item 3
+                    </a>
+                  </div>
+                </div>
+                 
+                <div
+                  class="mx-1 btn-group"
+                  role="group"
+                >
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    Save
+                  </button>
+                   
+                  <button
+                    class="btn btn-secondary"
+                    type="button"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,4290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flags.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    id="new47"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <div
+      slot="header"
+    >
+      <i
+        class="fa fa-font-awesome"
+      />
+       Flags
+    
+    </div>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <brow-stub
+        class="text-center"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-5"
+          cols="12"
+          tag="div"
+        >
+          
+          For using the flags inline with text add the classes 
+          <code>
+            .flag-icon
+          </code>
+           and 
+          <code>
+            .flag-icon-xx
+          </code>
+           (where xx is the ISO 3166-1-alpha-2 code of a country) to an empty span. If you want to have a squared version flag then add the class flag-icon-squared as well.
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ad h1"
+            id="ad"
+            title="ad"
+          />
+           
+          <div>
+            flag-icon-ad
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ae h1"
+            id="ae"
+            title="ae"
+          />
+           
+          <div>
+            flag-icon-ae
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-af h1"
+            id="af"
+            title="af"
+          />
+           
+          <div>
+            flag-icon-af
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ag h1"
+            id="ag"
+            title="ag"
+          />
+           
+          <div>
+            flag-icon-ag
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ai h1"
+            id="ai"
+            title="ai"
+          />
+           
+          <div>
+            flag-icon-ai
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-al h1"
+            id="al"
+            title="al"
+          />
+           
+          <div>
+            flag-icon-al
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-am h1"
+            id="am"
+            title="am"
+          />
+           
+          <div>
+            flag-icon-am
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ao h1"
+            id="ao"
+            title="ao"
+          />
+           
+          <div>
+            flag-icon-ao
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-aq h1"
+            id="aq"
+            title="aq"
+          />
+           
+          <div>
+            flag-icon-aq
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ar h1"
+            id="ar"
+            title="ar"
+          />
+           
+          <div>
+            flag-icon-ar
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-as h1"
+            id="as"
+            title="as"
+          />
+           
+          <div>
+            flag-icon-as
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-at h1"
+            id="at"
+            title="at"
+          />
+           
+          <div>
+            flag-icon-at
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-au h1"
+            id="au"
+            title="au"
+          />
+           
+          <div>
+            flag-icon-au
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-aw h1"
+            id="aw"
+            title="aw"
+          />
+           
+          <div>
+            flag-icon-aw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ax h1"
+            id="ax"
+            title="ax"
+          />
+           
+          <div>
+            flag-icon-ax
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-az h1"
+            id="az"
+            title="az"
+          />
+           
+          <div>
+            flag-icon-az
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ba h1"
+            id="ba"
+            title="ba"
+          />
+           
+          <div>
+            flag-icon-ba
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bb h1"
+            id="bb"
+            title="bb"
+          />
+           
+          <div>
+            flag-icon-bb
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bd h1"
+            id="bd"
+            title="bd"
+          />
+           
+          <div>
+            flag-icon-bd
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-be h1"
+            id="be"
+            title="be"
+          />
+           
+          <div>
+            flag-icon-be
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bf h1"
+            id="bf"
+            title="bf"
+          />
+           
+          <div>
+            flag-icon-bf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bg h1"
+            id="bg"
+            title="bg"
+          />
+           
+          <div>
+            flag-icon-bg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bh h1"
+            id="bh"
+            title="bh"
+          />
+           
+          <div>
+            flag-icon-bh
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bi h1"
+            id="bi"
+            title="bi"
+          />
+           
+          <div>
+            flag-icon-bi
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bj h1"
+            id="bj"
+            title="bj"
+          />
+           
+          <div>
+            flag-icon-bj
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bl h1"
+            id="bl"
+            title="bl"
+          />
+           
+          <div>
+            flag-icon-bl
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bm h1"
+            id="bm"
+            title="bm"
+          />
+           
+          <div>
+            flag-icon-bm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bn h1"
+            id="bn"
+            title="bn"
+          />
+           
+          <div>
+            flag-icon-bn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bo h1"
+            id="bo"
+            title="bo"
+          />
+           
+          <div>
+            flag-icon-bo
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bq h1"
+            id="bq"
+            title="bq"
+          />
+           
+          <div>
+            flag-icon-bq
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-br h1"
+            id="br"
+            title="br"
+          />
+           
+          <div>
+            flag-icon-br
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bs h1"
+            id="bs"
+            title="bs"
+          />
+           
+          <div>
+            flag-icon-bs
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bt h1"
+            id="bt"
+            title="bt"
+          />
+           
+          <div>
+            flag-icon-bt
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bv h1"
+            id="bv"
+            title="bv"
+          />
+           
+          <div>
+            flag-icon-bv
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bw h1"
+            id="bw"
+            title="bw"
+          />
+           
+          <div>
+            flag-icon-bw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-by h1"
+            id="by"
+            title="by"
+          />
+           
+          <div>
+            flag-icon-by
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-bz h1"
+            id="bz"
+            title="bz"
+          />
+           
+          <div>
+            flag-icon-bz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ca h1"
+            id="ca"
+            title="ca"
+          />
+           
+          <div>
+            flag-icon-ca
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cc h1"
+            id="cc"
+            title="cc"
+          />
+           
+          <div>
+            flag-icon-cc
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cd h1"
+            id="cd"
+            title="cd"
+          />
+           
+          <div>
+            flag-icon-cd
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cf h1"
+            id="cf"
+            title="cf"
+          />
+           
+          <div>
+            flag-icon-cf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cg h1"
+            id="cg"
+            title="cg"
+          />
+           
+          <div>
+            flag-icon-cg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ch h1"
+            id="ch"
+            title="ch"
+          />
+           
+          <div>
+            flag-icon-ch
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ci h1"
+            id="ci"
+            title="ci"
+          />
+           
+          <div>
+            flag-icon-ci
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ck h1"
+            id="ck"
+            title="ck"
+          />
+           
+          <div>
+            flag-icon-ck
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cl h1"
+            id="cl"
+            title="cl"
+          />
+           
+          <div>
+            flag-icon-cl
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cm h1"
+            id="cm"
+            title="cm"
+          />
+           
+          <div>
+            flag-icon-cm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cn h1"
+            id="cn"
+            title="cn"
+          />
+           
+          <div>
+            flag-icon-cn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-co h1"
+            id="co"
+            title="co"
+          />
+           
+          <div>
+            flag-icon-co
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cr h1"
+            id="cr"
+            title="cr"
+          />
+           
+          <div>
+            flag-icon-cr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cu h1"
+            id="cu"
+            title="cu"
+          />
+           
+          <div>
+            flag-icon-cu
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cv h1"
+            id="cv"
+            title="cv"
+          />
+           
+          <div>
+            flag-icon-cv
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cw h1"
+            id="cw"
+            title="cw"
+          />
+           
+          <div>
+            flag-icon-cw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cx h1"
+            id="cx"
+            title="cx"
+          />
+           
+          <div>
+            flag-icon-cx
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cy h1"
+            id="cy"
+            title="cy"
+          />
+           
+          <div>
+            flag-icon-cy
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-cz h1"
+            id="cz"
+            title="cz"
+          />
+           
+          <div>
+            flag-icon-cz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-de h1"
+            id="de"
+            title="de"
+          />
+           
+          <div>
+            flag-icon-de
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-dj h1"
+            id="dj"
+            title="dj"
+          />
+           
+          <div>
+            flag-icon-dj
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-dk h1"
+            id="dk"
+            title="dk"
+          />
+           
+          <div>
+            flag-icon-dk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-dm h1"
+            id="dm"
+            title="dm"
+          />
+           
+          <div>
+            flag-icon-dm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-do h1"
+            id="do"
+            title="do"
+          />
+           
+          <div>
+            flag-icon-do
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-dz h1"
+            id="dz"
+            title="dz"
+          />
+           
+          <div>
+            flag-icon-dz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ec h1"
+            id="ec"
+            title="ec"
+          />
+           
+          <div>
+            flag-icon-ec
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ee h1"
+            id="ee"
+            title="ee"
+          />
+           
+          <div>
+            flag-icon-ee
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-eg h1"
+            id="eg"
+            title="eg"
+          />
+           
+          <div>
+            flag-icon-eg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-eh h1"
+            id="eh"
+            title="eh"
+          />
+           
+          <div>
+            flag-icon-eh
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-er h1"
+            id="er"
+            title="er"
+          />
+           
+          <div>
+            flag-icon-er
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-es h1"
+            id="es"
+            title="es"
+          />
+           
+          <div>
+            flag-icon-es
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-et h1"
+            id="et"
+            title="et"
+          />
+           
+          <div>
+            flag-icon-et
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-fi h1"
+            id="fi"
+            title="fi"
+          />
+           
+          <div>
+            flag-icon-fi
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-fj h1"
+            id="fj"
+            title="fj"
+          />
+           
+          <div>
+            flag-icon-fj
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-fk h1"
+            id="fk"
+            title="fk"
+          />
+           
+          <div>
+            flag-icon-fk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-fm h1"
+            id="fm"
+            title="fm"
+          />
+           
+          <div>
+            flag-icon-fm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-fo h1"
+            id="fo"
+            title="fo"
+          />
+           
+          <div>
+            flag-icon-fo
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-fr h1"
+            id="fr"
+            title="fr"
+          />
+           
+          <div>
+            flag-icon-fr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ga h1"
+            id="ga"
+            title="ga"
+          />
+           
+          <div>
+            flag-icon-ga
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gb h1"
+            id="gb"
+            title="gb"
+          />
+           
+          <div>
+            flag-icon-gb
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gd h1"
+            id="gd"
+            title="gd"
+          />
+           
+          <div>
+            flag-icon-gd
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ge h1"
+            id="ge"
+            title="ge"
+          />
+           
+          <div>
+            flag-icon-ge
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gf h1"
+            id="gf"
+            title="gf"
+          />
+           
+          <div>
+            flag-icon-gf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gg h1"
+            id="gg"
+            title="gg"
+          />
+           
+          <div>
+            flag-icon-gg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gh h1"
+            id="gh"
+            title="gh"
+          />
+           
+          <div>
+            flag-icon-gh
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gi h1"
+            id="gi"
+            title="gi"
+          />
+           
+          <div>
+            flag-icon-gi
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gl h1"
+            id="gl"
+            title="gl"
+          />
+           
+          <div>
+            flag-icon-gl
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gm h1"
+            id="gm"
+            title="gm"
+          />
+           
+          <div>
+            flag-icon-gm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gn h1"
+            id="gn"
+            title="gn"
+          />
+           
+          <div>
+            flag-icon-gn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gp h1"
+            id="gp"
+            title="gp"
+          />
+           
+          <div>
+            flag-icon-gp
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gq h1"
+            id="gq"
+            title="gq"
+          />
+           
+          <div>
+            flag-icon-gq
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gr h1"
+            id="gr"
+            title="gr"
+          />
+           
+          <div>
+            flag-icon-gr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gs h1"
+            id="gs"
+            title="gs"
+          />
+           
+          <div>
+            flag-icon-gs
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gt h1"
+            id="gt"
+            title="gt"
+          />
+           
+          <div>
+            flag-icon-gt
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gu h1"
+            id="gu"
+            title="gu"
+          />
+           
+          <div>
+            flag-icon-gu
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gw h1"
+            id="gw"
+            title="gw"
+          />
+           
+          <div>
+            flag-icon-gw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-gy h1"
+            id="gy"
+            title="gy"
+          />
+           
+          <div>
+            flag-icon-gy
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-hk h1"
+            id="hk"
+            title="hk"
+          />
+           
+          <div>
+            flag-icon-hk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-hm h1"
+            id="hm"
+            title="hm"
+          />
+           
+          <div>
+            flag-icon-hm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-hn h1"
+            id="hn"
+            title="hn"
+          />
+           
+          <div>
+            flag-icon-hn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-hr h1"
+            id="hr"
+            title="hr"
+          />
+           
+          <div>
+            flag-icon-hr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ht h1"
+            id="ht"
+            title="ht"
+          />
+           
+          <div>
+            flag-icon-ht
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-hu h1"
+            id="hu"
+            title="hu"
+          />
+           
+          <div>
+            flag-icon-hu
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-id h1"
+            id="id"
+            title="id"
+          />
+           
+          <div>
+            flag-icon-id
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ie h1"
+            id="ie"
+            title="ie"
+          />
+           
+          <div>
+            flag-icon-ie
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-il h1"
+            id="il"
+            title="il"
+          />
+           
+          <div>
+            flag-icon-il
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-im h1"
+            id="im"
+            title="im"
+          />
+           
+          <div>
+            flag-icon-im
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-in h1"
+            id="in"
+            title="in"
+          />
+           
+          <div>
+            flag-icon-in
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-io h1"
+            id="io"
+            title="io"
+          />
+           
+          <div>
+            flag-icon-io
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-iq h1"
+            id="iq"
+            title="iq"
+          />
+           
+          <div>
+            flag-icon-iq
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ir h1"
+            id="ir"
+            title="ir"
+          />
+           
+          <div>
+            flag-icon-ir
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-is h1"
+            id="is"
+            title="is"
+          />
+           
+          <div>
+            flag-icon-is
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-it h1"
+            id="it"
+            title="it"
+          />
+           
+          <div>
+            flag-icon-it
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-je h1"
+            id="je"
+            title="je"
+          />
+           
+          <div>
+            flag-icon-je
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-jm h1"
+            id="jm"
+            title="jm"
+          />
+           
+          <div>
+            flag-icon-jm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-jo h1"
+            id="jo"
+            title="jo"
+          />
+           
+          <div>
+            flag-icon-jo
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-jp h1"
+            id="jp"
+            title="jp"
+          />
+           
+          <div>
+            flag-icon-jp
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ke h1"
+            id="ke"
+            title="ke"
+          />
+           
+          <div>
+            flag-icon-ke
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-kg h1"
+            id="kg"
+            title="kg"
+          />
+           
+          <div>
+            flag-icon-kg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-kh h1"
+            id="kh"
+            title="kh"
+          />
+           
+          <div>
+            flag-icon-kh
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ki h1"
+            id="ki"
+            title="ki"
+          />
+           
+          <div>
+            flag-icon-ki
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-km h1"
+            id="km"
+            title="km"
+          />
+           
+          <div>
+            flag-icon-km
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-kn h1"
+            id="kn"
+            title="kn"
+          />
+           
+          <div>
+            flag-icon-kn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-kp h1"
+            id="kp"
+            title="kp"
+          />
+           
+          <div>
+            flag-icon-kp
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-kr h1"
+            id="kr"
+            title="kr"
+          />
+           
+          <div>
+            flag-icon-kr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-kw h1"
+            id="kw"
+            title="kw"
+          />
+           
+          <div>
+            flag-icon-kw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ky h1"
+            id="ky"
+            title="ky"
+          />
+           
+          <div>
+            flag-icon-ky
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-kz h1"
+            id="kz"
+            title="kz"
+          />
+           
+          <div>
+            flag-icon-kz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-la h1"
+            id="la"
+            title="la"
+          />
+           
+          <div>
+            flag-icon-la
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-lb h1"
+            id="lb"
+            title="lb"
+          />
+           
+          <div>
+            flag-icon-lb
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-lc h1"
+            id="lc"
+            title="lc"
+          />
+           
+          <div>
+            flag-icon-lc
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-li h1"
+            id="li"
+            title="li"
+          />
+           
+          <div>
+            flag-icon-li
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-lk h1"
+            id="lk"
+            title="lk"
+          />
+           
+          <div>
+            flag-icon-lk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-lr h1"
+            id="lr"
+            title="lr"
+          />
+           
+          <div>
+            flag-icon-lr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ls h1"
+            id="ls"
+            title="ls"
+          />
+           
+          <div>
+            flag-icon-ls
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-lt h1"
+            id="lt"
+            title="lt"
+          />
+           
+          <div>
+            flag-icon-lt
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-lu h1"
+            id="lu"
+            title="lu"
+          />
+           
+          <div>
+            flag-icon-lu
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-lv h1"
+            id="lv"
+            title="lv"
+          />
+           
+          <div>
+            flag-icon-lv
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ly h1"
+            id="ly"
+            title="ly"
+          />
+           
+          <div>
+            flag-icon-ly
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ma h1"
+            id="ma"
+            title="ma"
+          />
+           
+          <div>
+            flag-icon-ma
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mc h1"
+            id="mc"
+            title="mc"
+          />
+           
+          <div>
+            flag-icon-mc
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-md h1"
+            id="md"
+            title="md"
+          />
+           
+          <div>
+            flag-icon-md
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-me h1"
+            id="me"
+            title="me"
+          />
+           
+          <div>
+            flag-icon-me
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mf h1"
+            id="mf"
+            title="mf"
+          />
+           
+          <div>
+            flag-icon-mf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mg h1"
+            id="mg"
+            title="mg"
+          />
+           
+          <div>
+            flag-icon-mg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mh h1"
+            id="mh"
+            title="mh"
+          />
+           
+          <div>
+            flag-icon-mh
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mk h1"
+            id="mk"
+            title="mk"
+          />
+           
+          <div>
+            flag-icon-mk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ml h1"
+            id="ml"
+            title="ml"
+          />
+           
+          <div>
+            flag-icon-ml
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mm h1"
+            id="mm"
+            title="mm"
+          />
+           
+          <div>
+            flag-icon-mm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mn h1"
+            id="mn"
+            title="mn"
+          />
+           
+          <div>
+            flag-icon-mn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mo h1"
+            id="mo"
+            title="mo"
+          />
+           
+          <div>
+            flag-icon-mo
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mp h1"
+            id="mp"
+            title="mp"
+          />
+           
+          <div>
+            flag-icon-mp
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mq h1"
+            id="mq"
+            title="mq"
+          />
+           
+          <div>
+            flag-icon-mq
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mr h1"
+            id="mr"
+            title="mr"
+          />
+           
+          <div>
+            flag-icon-mr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ms h1"
+            id="ms"
+            title="ms"
+          />
+           
+          <div>
+            flag-icon-ms
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mt h1"
+            id="mt"
+            title="mt"
+          />
+           
+          <div>
+            flag-icon-mt
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mu h1"
+            id="mu"
+            title="mu"
+          />
+           
+          <div>
+            flag-icon-mu
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mv h1"
+            id="mv"
+            title="mv"
+          />
+           
+          <div>
+            flag-icon-mv
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mw h1"
+            id="mw"
+            title="mw"
+          />
+           
+          <div>
+            flag-icon-mw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mx h1"
+            id="mx"
+            title="mx"
+          />
+           
+          <div>
+            flag-icon-mx
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-my h1"
+            id="my"
+            title="my"
+          />
+           
+          <div>
+            flag-icon-my
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-mz h1"
+            id="mz"
+            title="mz"
+          />
+           
+          <div>
+            flag-icon-mz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-na h1"
+            id="na"
+            title="na"
+          />
+           
+          <div>
+            flag-icon-na
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-nc h1"
+            id="nc"
+            title="nc"
+          />
+           
+          <div>
+            flag-icon-nc
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ne h1"
+            id="ne"
+            title="ne"
+          />
+           
+          <div>
+            flag-icon-ne
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-nf h1"
+            id="nf"
+            title="nf"
+          />
+           
+          <div>
+            flag-icon-nf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ng h1"
+            id="ng"
+            title="ng"
+          />
+           
+          <div>
+            flag-icon-ng
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ni h1"
+            id="ni"
+            title="ni"
+          />
+           
+          <div>
+            flag-icon-ni
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-nl h1"
+            id="nl"
+            title="nl"
+          />
+           
+          <div>
+            flag-icon-nl
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-no h1"
+            id="no"
+            title="no"
+          />
+           
+          <div>
+            flag-icon-no
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-np h1"
+            id="np"
+            title="np"
+          />
+           
+          <div>
+            flag-icon-np
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-nr h1"
+            id="nr"
+            title="nr"
+          />
+           
+          <div>
+            flag-icon-nr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-nu h1"
+            id="nu"
+            title="nu"
+          />
+           
+          <div>
+            flag-icon-nu
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-nz h1"
+            id="nz"
+            title="nz"
+          />
+           
+          <div>
+            flag-icon-nz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-om h1"
+            id="om"
+            title="om"
+          />
+           
+          <div>
+            flag-icon-om
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pa h1"
+            id="pa"
+            title="pa"
+          />
+           
+          <div>
+            flag-icon-pa
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pe h1"
+            id="pe"
+            title="pe"
+          />
+           
+          <div>
+            flag-icon-pe
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pf h1"
+            id="pf"
+            title="pf"
+          />
+           
+          <div>
+            flag-icon-pf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pg h1"
+            id="pg"
+            title="pg"
+          />
+           
+          <div>
+            flag-icon-pg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ph h1"
+            id="ph"
+            title="ph"
+          />
+           
+          <div>
+            flag-icon-ph
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pk h1"
+            id="pk"
+            title="pk"
+          />
+           
+          <div>
+            flag-icon-pk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pl h1"
+            id="pl"
+            title="pl"
+          />
+           
+          <div>
+            flag-icon-pl
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pm h1"
+            id="pm"
+            title="pm"
+          />
+           
+          <div>
+            flag-icon-pm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pn h1"
+            id="pn"
+            title="pn"
+          />
+           
+          <div>
+            flag-icon-pn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pr h1"
+            id="pr"
+            title="pr"
+          />
+           
+          <div>
+            flag-icon-pr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ps h1"
+            id="ps"
+            title="ps"
+          />
+           
+          <div>
+            flag-icon-ps
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pt h1"
+            id="pt"
+            title="pt"
+          />
+           
+          <div>
+            flag-icon-pt
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-pw h1"
+            id="pw"
+            title="pw"
+          />
+           
+          <div>
+            flag-icon-pw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-py h1"
+            id="py"
+            title="py"
+          />
+           
+          <div>
+            flag-icon-py
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-qa h1"
+            id="qa"
+            title="qa"
+          />
+           
+          <div>
+            flag-icon-qa
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-re h1"
+            id="re"
+            title="re"
+          />
+           
+          <div>
+            flag-icon-re
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ro h1"
+            id="ro"
+            title="ro"
+          />
+           
+          <div>
+            flag-icon-ro
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-rs h1"
+            id="rs"
+            title="rs"
+          />
+           
+          <div>
+            flag-icon-rs
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ru h1"
+            id="ru"
+            title="ru"
+          />
+           
+          <div>
+            flag-icon-ru
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-rw h1"
+            id="rw"
+            title="rw"
+          />
+           
+          <div>
+            flag-icon-rw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sa h1"
+            id="sa"
+            title="sa"
+          />
+           
+          <div>
+            flag-icon-sa
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sb h1"
+            id="sb"
+            title="sb"
+          />
+           
+          <div>
+            flag-icon-sb
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sc h1"
+            id="sc"
+            title="sc"
+          />
+           
+          <div>
+            flag-icon-sc
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sd h1"
+            id="sd"
+            title="sd"
+          />
+           
+          <div>
+            flag-icon-sd
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-se h1"
+            id="se"
+            title="se"
+          />
+           
+          <div>
+            flag-icon-se
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sg h1"
+            id="sg"
+            title="sg"
+          />
+           
+          <div>
+            flag-icon-sg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sh h1"
+            id="sh"
+            title="sh"
+          />
+           
+          <div>
+            flag-icon-sh
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-si h1"
+            id="si"
+            title="si"
+          />
+           
+          <div>
+            flag-icon-si
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sj h1"
+            id="sj"
+            title="sj"
+          />
+           
+          <div>
+            flag-icon-sj
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sk h1"
+            id="sk"
+            title="sk"
+          />
+           
+          <div>
+            flag-icon-sk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sl h1"
+            id="sl"
+            title="sl"
+          />
+           
+          <div>
+            flag-icon-sl
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sm h1"
+            id="sm"
+            title="sm"
+          />
+           
+          <div>
+            flag-icon-sm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sn h1"
+            id="sn"
+            title="sn"
+          />
+           
+          <div>
+            flag-icon-sn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-so h1"
+            id="so"
+            title="so"
+          />
+           
+          <div>
+            flag-icon-so
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sr h1"
+            id="sr"
+            title="sr"
+          />
+           
+          <div>
+            flag-icon-sr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ss h1"
+            id="ss"
+            title="ss"
+          />
+           
+          <div>
+            flag-icon-ss
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-st h1"
+            id="st"
+            title="st"
+          />
+           
+          <div>
+            flag-icon-st
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sv h1"
+            id="sv"
+            title="sv"
+          />
+           
+          <div>
+            flag-icon-sv
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sx h1"
+            id="sx"
+            title="sx"
+          />
+           
+          <div>
+            flag-icon-sx
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sy h1"
+            id="sy"
+            title="sy"
+          />
+           
+          <div>
+            flag-icon-sy
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-sz h1"
+            id="sz"
+            title="sz"
+          />
+           
+          <div>
+            flag-icon-sz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tc h1"
+            id="tc"
+            title="tc"
+          />
+           
+          <div>
+            flag-icon-tc
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-td h1"
+            id="td"
+            title="td"
+          />
+           
+          <div>
+            flag-icon-td
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tf h1"
+            id="tf"
+            title="tf"
+          />
+           
+          <div>
+            flag-icon-tf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tg h1"
+            id="tg"
+            title="tg"
+          />
+           
+          <div>
+            flag-icon-tg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-th h1"
+            id="th"
+            title="th"
+          />
+           
+          <div>
+            flag-icon-th
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tj h1"
+            id="tj"
+            title="tj"
+          />
+           
+          <div>
+            flag-icon-tj
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tk h1"
+            id="tk"
+            title="tk"
+          />
+           
+          <div>
+            flag-icon-tk
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tl h1"
+            id="tl"
+            title="tl"
+          />
+           
+          <div>
+            flag-icon-tl
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tm h1"
+            id="tm"
+            title="tm"
+          />
+           
+          <div>
+            flag-icon-tm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tn h1"
+            id="tn"
+            title="tn"
+          />
+           
+          <div>
+            flag-icon-tn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-to h1"
+            id="to"
+            title="to"
+          />
+           
+          <div>
+            flag-icon-to
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tr h1"
+            id="tr"
+            title="tr"
+          />
+           
+          <div>
+            flag-icon-tr
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tt h1"
+            id="tt"
+            title="tt"
+          />
+           
+          <div>
+            flag-icon-tt
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tv h1"
+            id="tv"
+            title="tv"
+          />
+           
+          <div>
+            flag-icon-tv
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tw h1"
+            id="tw"
+            title="tw"
+          />
+           
+          <div>
+            flag-icon-tw
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-tz h1"
+            id="tz"
+            title="tz"
+          />
+           
+          <div>
+            flag-icon-tz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ua h1"
+            id="ua"
+            title="ua"
+          />
+           
+          <div>
+            flag-icon-ua
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ug h1"
+            id="ug"
+            title="ug"
+          />
+           
+          <div>
+            flag-icon-ug
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-um h1"
+            id="um"
+            title="um"
+          />
+           
+          <div>
+            flag-icon-um
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-us h1"
+            id="us"
+            title="us"
+          />
+           
+          <div>
+            flag-icon-us
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-uy h1"
+            id="uy"
+            title="uy"
+          />
+           
+          <div>
+            flag-icon-uy
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-uz h1"
+            id="uz"
+            title="uz"
+          />
+           
+          <div>
+            flag-icon-uz
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-va h1"
+            id="va"
+            title="va"
+          />
+           
+          <div>
+            flag-icon-va
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-vc h1"
+            id="vc"
+            title="vc"
+          />
+           
+          <div>
+            flag-icon-vc
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ve h1"
+            id="ve"
+            title="ve"
+          />
+           
+          <div>
+            flag-icon-ve
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-vg h1"
+            id="vg"
+            title="vg"
+          />
+           
+          <div>
+            flag-icon-vg
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-vi h1"
+            id="vi"
+            title="vi"
+          />
+           
+          <div>
+            flag-icon-vi
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-vn h1"
+            id="vn"
+            title="vn"
+          />
+           
+          <div>
+            flag-icon-vn
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-vu h1"
+            id="vu"
+            title="vu"
+          />
+           
+          <div>
+            flag-icon-vu
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-wf h1"
+            id="wf"
+            title="wf"
+          />
+           
+          <div>
+            flag-icon-wf
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ws h1"
+            id="ws"
+            title="ws"
+          />
+           
+          <div>
+            flag-icon-ws
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-ye h1"
+            id="ye"
+            title="ye"
+          />
+           
+          <div>
+            flag-icon-ye
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-yt h1"
+            id="yt"
+            title="yt"
+          />
+           
+          <div>
+            flag-icon-yt
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-za h1"
+            id="za"
+            title="za"
+          />
+           
+          <div>
+            flag-icon-za
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-zm h1"
+            id="zm"
+            title="zm"
+          />
+           
+          <div>
+            flag-icon-zm
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-5"
+          cols="3"
+          sm="2"
+          tag="div"
+        >
+          <i
+            class="flag-icon flag-icon-zw h1"
+            id="zw"
+            title="zw"
+          />
+           
+          <div>
+            flag-icon-zw
+          </div>
+        </bcol-stub>
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+</div>
+`;

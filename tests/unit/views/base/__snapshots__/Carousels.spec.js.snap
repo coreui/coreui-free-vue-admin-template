@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousels.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-12 col-lg-9"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Bootstrap Carousel
+              </strong>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/carousel"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                aria-busy="false"
+                class="carousel slide"
+                id="carousel1"
+                role="region"
+                style="text-shadow: 1px 1px 2px #333; background: rgb(171, 171, 171);"
+              >
+                <div
+                  class="carousel-inner"
+                  id="carousel1___BV_inner_"
+                  role="list"
+                >
+                  <div
+                    aria-current="true"
+                    aria-posinset="1"
+                    aria-setsize="5"
+                    class="carousel-item active"
+                    id="__BVID__27"
+                    role="listitem"
+                    tabindex="-1"
+                  >
+                    <img
+                      class="img-fluid w-100 d-block"
+                      height="480"
+                      src="https://lorempixel.com/1024/480/technics/2/"
+                      width="1024"
+                    />
+                    <div
+                      class="carousel-caption"
+                    >
+                      <h3>
+                        First slide
+                      </h3>
+                      <p>
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                      </p>
+                    </div>
+                  </div>
+                   
+                  <div
+                    aria-current="false"
+                    aria-posinset="2"
+                    aria-setsize="5"
+                    class="carousel-item"
+                    id="__BVID__28"
+                    role="listitem"
+                    tabindex="-1"
+                  >
+                    <img
+                      class="img-fluid w-100 d-block"
+                      height="480"
+                      src="https://lorempixel.com/1024/480/technics/4/"
+                      width="1024"
+                    />
+                    <div
+                      class="carousel-caption"
+                    >
+                      <!---->
+                      <!---->
+                      <h1>
+                        Hello world!
+                      </h1>
+                    </div>
+                  </div>
+                   
+                  <div
+                    aria-current="false"
+                    aria-posinset="3"
+                    aria-setsize="5"
+                    class="carousel-item"
+                    id="__BVID__29"
+                    role="listitem"
+                    tabindex="-1"
+                  >
+                    <img
+                      class="img-fluid w-100 d-block"
+                      height="480"
+                      src="https://lorempixel.com/1024/480/technics/8/"
+                      width="1024"
+                    />
+                    <div
+                      class="carousel-caption"
+                    >
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                   
+                  <div
+                    aria-current="false"
+                    aria-posinset="4"
+                    aria-setsize="5"
+                    class="carousel-item"
+                    id="__BVID__30"
+                    role="listitem"
+                    tabindex="-1"
+                  >
+                    <img
+                      alt="image slot"
+                      class="d-block img-fluid w-100"
+                      height="480"
+                      src="https://lorempixel.com/1024/480/technics/5/"
+                      width="1024"
+                    />
+                    <div
+                      class="carousel-caption"
+                    >
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                   
+                  <div
+                    aria-current="false"
+                    aria-posinset="5"
+                    aria-setsize="5"
+                    class="carousel-item"
+                    id="__BVID__31"
+                    role="listitem"
+                    tabindex="-1"
+                  >
+                    <img
+                      alt="Blank image"
+                      class="img-fluid w-100 d-block"
+                      height="480"
+                      src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%221024%22%20height%3D%22480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20%25%7Bw%7D%20%25%7Bh%7D%22%20preserveAspectRatio%3D%22none%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22fill%3Atransparent%3B%22%3E%3C%2Frect%3E%3C%2Fsvg%3E"
+                      width="1024"
+                    />
+                    <div
+                      class="carousel-caption"
+                    >
+                      <h3>
+                        Blank Image
+                      </h3>
+                      <!---->
+                      <p>
+                        
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  eros felis, tincidunt a tincidunt eget, convallis vel est. Ut pellentesque
+                  ut lacus vel interdum.
+                
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  aria-controls="carousel1___BV_inner_"
+                  class="carousel-control-prev"
+                  href="#"
+                  role="button"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="carousel-control-prev-icon"
+                  />
+                  <span
+                    class="sr-only"
+                  >
+                    Previous Slide
+                  </span>
+                </a>
+                <a
+                  aria-controls="carousel1___BV_inner_"
+                  class="carousel-control-next"
+                  href="#"
+                  role="button"
+                >
+                  <span
+                    aria-hidden="true"
+                    class="carousel-control-next-icon"
+                  />
+                  <span
+                    class="sr-only"
+                  >
+                    Next Slide
+                  </span>
+                </a>
+                <ol
+                  aria-hidden="false"
+                  aria-label="Select a slide to display"
+                  aria-owns="carousel1___BV_inner_"
+                  class="carousel-indicators"
+                  id="carousel1___BV_indicators_"
+                />
+              </div>
+               
+              <p
+                class="mt-4"
+              >
+                
+              Slide #: 0
+                <br />
+                
+              Sliding: 
+            
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

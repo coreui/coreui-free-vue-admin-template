@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alerts.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Bootstrap Alert
+              </strong>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/alert"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-primary"
+                role="alert"
+              >
+                <!---->
+                Primary Alert
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-secondary"
+                role="alert"
+              >
+                <!---->
+                Secondary Alert
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-success"
+                role="alert"
+              >
+                <!---->
+                Success Alert
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-danger"
+                role="alert"
+              >
+                <!---->
+                Danger Alert
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-warning"
+                role="alert"
+              >
+                <!---->
+                Warning Alert
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-info"
+                role="alert"
+              >
+                <!---->
+                Info Alert
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-light"
+                role="alert"
+              >
+                <!---->
+                Light Alert
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-dark"
+                role="alert"
+              >
+                <!---->
+                Dark Alert
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               Alert
+            
+              <small>
+                 use 
+                <code>
+                  .alert-link
+                </code>
+                 to provide links
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-primary"
+                role="alert"
+              >
+                <!---->
+                
+              Primary Alert with 
+                <a
+                  class="alert-link"
+                  href="#"
+                >
+                  an example link
+                </a>
+                .
+            
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-secondary"
+                role="alert"
+              >
+                <!---->
+                
+              Secondary Alert with 
+                <a
+                  class="alert-link"
+                  href="#"
+                >
+                  an example link
+                </a>
+                .
+            
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-success"
+                role="alert"
+              >
+                <!---->
+                
+              Success Alert with 
+                <a
+                  class="alert-link"
+                  href="#"
+                >
+                  an example link
+                </a>
+                .
+            
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-danger"
+                role="alert"
+              >
+                <!---->
+                
+              Danger Alert with 
+                <a
+                  class="alert-link"
+                  href="#"
+                >
+                  an example link
+                </a>
+                .
+            
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-warning"
+                role="alert"
+              >
+                <!---->
+                
+              Warning Alert with 
+                <a
+                  class="alert-link"
+                  href="#"
+                >
+                  an example link
+                </a>
+                .
+            
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-info"
+                role="alert"
+              >
+                <!---->
+                
+              Info Alert with 
+                <a
+                  class="alert-link"
+                  href="#"
+                >
+                  an example link
+                </a>
+                .
+            
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-light"
+                role="alert"
+              >
+                <!---->
+                
+              Light Alert with 
+                <a
+                  class="alert-link"
+                  href="#"
+                >
+                  an example link
+                </a>
+                .
+            
+              </div>
+               
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-dark"
+                role="alert"
+              >
+                <!---->
+                
+              Dark Alert with
+              
+                <a
+                  class="alert-link"
+                  href="#"
+                  target="_self"
+                >
+                  an example link
+                </a>
+                
+              .
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               Alerts 
+              <small>
+                with additional content
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div
+              aria-atomic="true"
+              aria-live="polite"
+              class="alert alert-success"
+              role="alert"
+            >
+              <!---->
+              <h4
+                class="alert-heading"
+              >
+                Well done!
+              </h4>
+               
+              <p>
+                
+              Aww yeah, you successfully read this important alert message.
+              This example text is going to run a bit longer so that you can see
+              how spacing within an alert works with this kind of content.
+            
+              </p>
+               
+              <hr />
+               
+              <p
+                class="mb-0"
+              >
+                
+              Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
+            
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               Alerts 
+              <small>
+                dismissible
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <div
+                aria-atomic="true"
+                aria-live="polite"
+                class="alert alert-info alert-dismissible"
+                role="alert"
+              >
+                <button
+                  aria-label="Close"
+                  class="close"
+                  type="button"
+                >
+                  ×
+                </button>
+                
+              Dismissible Alert!
+            
+              </div>
+               
+              <!---->
+               
+              <button
+                class="btn m-1 btn-info"
+                type="button"
+              >
+                
+            Show dismissible alert (hidden)
+          
+              </button>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               Alerts 
+              <small>
+                auto dismissible
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <!---->
+               
+              <!---->
+               
+              <button
+                class="btn m-1 btn-info"
+                type="button"
+              >
+                
+              Show alert with timer
+            
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

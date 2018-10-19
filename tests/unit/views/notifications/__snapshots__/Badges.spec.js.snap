@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badges.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Bootstrap Badge
+              </strong>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/badge"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <div>
+              <h2>
+                Example heading 
+                <span
+                  class="badge badge-secondary"
+                >
+                  New
+                </span>
+              </h2>
+               
+              <h3>
+                Example heading 
+                <span
+                  class="badge badge-secondary"
+                >
+                  New
+                </span>
+              </h3>
+               
+              <h4>
+                Example heading 
+                <span
+                  class="badge badge-secondary"
+                >
+                  New
+                </span>
+              </h4>
+               
+              <h5>
+                Example heading 
+                <span
+                  class="badge badge-secondary"
+                >
+                  New
+                </span>
+              </h5>
+               
+              <h6>
+                Example heading 
+                <span
+                  class="badge badge-secondary"
+                >
+                  New
+                </span>
+              </h6>
+            </div>
+             
+          </div>
+          <footer
+            class="card-footer"
+          >
+            <div>
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                
+              Notifications 
+                <span
+                  class="badge badge-light"
+                  style="position: static;"
+                >
+                  4
+                </span>
+              </button>
+            </div>
+          </footer>
+        </div>
+      </div>
+       
+      <div
+        class="col-md-6 col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               Badge 
+              <small>
+                contextual variations
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+            <div>
+              <span
+                class="badge badge-primary"
+              >
+                Primary
+              </span>
+               
+              <span
+                class="badge badge-secondary"
+              >
+                Secondary
+              </span>
+               
+              <span
+                class="badge badge-success"
+              >
+                Success
+              </span>
+               
+              <span
+                class="badge badge-danger"
+              >
+                Danger
+              </span>
+               
+              <span
+                class="badge badge-warning"
+              >
+                Warning
+              </span>
+               
+              <span
+                class="badge badge-info"
+              >
+                Info
+              </span>
+               
+              <span
+                class="badge badge-light"
+              >
+                Light
+              </span>
+               
+              <span
+                class="badge badge-dark"
+              >
+                Dark
+              </span>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               Badge 
+              <small>
+                pills
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+            <div>
+              <span
+                class="badge badge-primary badge-pill"
+              >
+                Primary
+              </span>
+               
+              <span
+                class="badge badge-secondary badge-pill"
+              >
+                Secondary
+              </span>
+               
+              <span
+                class="badge badge-success badge-pill"
+              >
+                Success
+              </span>
+               
+              <span
+                class="badge badge-danger badge-pill"
+              >
+                Danger
+              </span>
+               
+              <span
+                class="badge badge-warning badge-pill"
+              >
+                Warning
+              </span>
+               
+              <span
+                class="badge badge-info badge-pill"
+              >
+                Info
+              </span>
+               
+              <span
+                class="badge badge-light badge-pill"
+              >
+                Light
+              </span>
+               
+              <span
+                class="badge badge-dark badge-pill"
+              >
+                Dark
+              </span>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+               Badge 
+              <small>
+                actionable
+              </small>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+            <div>
+              <a
+                class="badge badge-primary"
+                href="#"
+                target="_self"
+              >
+                Primary
+              </a>
+               
+              <a
+                class="badge badge-secondary"
+                href="#"
+                target="_self"
+              >
+                Secondary
+              </a>
+               
+              <a
+                class="badge badge-success"
+                href="#"
+                target="_self"
+              >
+                Success
+              </a>
+               
+              <a
+                class="badge badge-danger"
+                href="#"
+                target="_self"
+              >
+                Danger
+              </a>
+               
+              <a
+                class="badge badge-warning"
+                href="#"
+                target="_self"
+              >
+                Warning
+              </a>
+               
+              <a
+                class="badge badge-info"
+                href="#"
+                target="_self"
+              >
+                Info
+              </a>
+               
+              <a
+                class="badge badge-light"
+                href="#"
+                target="_self"
+              >
+                Light
+              </a>
+               
+              <a
+                class="badge badge-dark"
+                href="#"
+                target="_self"
+              >
+                Dark
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

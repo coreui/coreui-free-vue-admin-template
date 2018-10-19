@@ -1,0 +1,3544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forms.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      sm="6"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Credit Card 
+          </strong>
+           
+          <small>
+            Form
+          </small>
+        </div>
+         
+        <brow-stub
+          tag="div"
+        >
+          <bcol-stub
+            sm="12"
+            tag="div"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                for="name"
+              >
+                Name
+              </label>
+               
+              <bforminput-stub
+                id="name"
+                placeholder="Enter your name"
+                type="text"
+              />
+            </bformgroup-stub>
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          tag="div"
+        >
+          <bcol-stub
+            sm="12"
+            tag="div"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                for="ccnumber"
+              >
+                Credit Card Number
+              </label>
+               
+              <bforminput-stub
+                id="ccnumber"
+                placeholder="0000 0000 0000 0000"
+                type="text"
+              />
+            </bformgroup-stub>
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          tag="div"
+        >
+          <bcol-stub
+            sm="4"
+            tag="div"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                for="month1"
+              >
+                Month
+              </label>
+               
+              <bformselect-stub
+                id="month1"
+                options="1,2,3,4,5,6,7,8,9,10,11,12"
+                plain="true"
+                selectsize="0"
+              />
+            </bformgroup-stub>
+          </bcol-stub>
+           
+          <bcol-stub
+            sm="4"
+            tag="div"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                for="year1"
+              >
+                Year
+              </label>
+               
+              <bformselect-stub
+                id="year1"
+                options="2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025"
+                plain="true"
+                selectsize="0"
+              />
+            </bformgroup-stub>
+          </bcol-stub>
+           
+          <bcol-stub
+            sm="4"
+            tag="div"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                for="cvv"
+              >
+                CVV/CVC
+              </label>
+               
+              <bforminput-stub
+                id="cvv"
+                placeholder="123"
+                type="text"
+              />
+            </bformgroup-stub>
+          </bcol-stub>
+        </brow-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      sm="6"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Company 
+          </strong>
+          <small>
+            Form
+          </small>
+        </div>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <label
+            for="company"
+          >
+            Company
+          </label>
+           
+          <bforminput-stub
+            id="company"
+            placeholder="Enter your company name"
+            type="text"
+          />
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <label
+            for="vat"
+          >
+            VAT
+          </label>
+           
+          <bforminput-stub
+            id="vat"
+            placeholder="PL1234567890"
+            type="text"
+          />
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <label
+            for="street"
+          >
+            Street
+          </label>
+           
+          <bforminput-stub
+            id="street"
+            placeholder="Enter street name"
+            type="text"
+          />
+        </bformgroup-stub>
+         
+        <brow-stub
+          tag="div"
+        >
+          <bcol-stub
+            sm="8"
+            tag="div"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                for="city"
+              >
+                City
+              </label>
+               
+              <bforminput-stub
+                id="city"
+                placeholder="Enter your city"
+                type="text"
+              />
+            </bformgroup-stub>
+          </bcol-stub>
+           
+          <bcol-stub
+            sm="4"
+            tag="div"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                for="postal-code"
+              >
+                Postal Code
+              </label>
+               
+              <bforminput-stub
+                id="postal-code"
+                placeholder="Postal Code"
+                type="text"
+              />
+            </bformgroup-stub>
+          </bcol-stub>
+        </brow-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <label
+            for="country"
+          >
+            Country
+          </label>
+           
+          <bforminput-stub
+            id="country"
+            placeholder="Country name"
+            type="text"
+          />
+        </bformgroup-stub>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      md="6"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Basic Form
+          </strong>
+           Elements
+        
+        </div>
+         
+        <bform-stub>
+          <bformgroup-stub
+            breakpoint="sm"
+            description="Let us know your full name."
+            horizontal="true"
+            label="Enter your name"
+            labelcols="3"
+            labelfor="basicName"
+          >
+            <bforminput-stub
+              autocomplete="name"
+              id="basicName"
+              type="text"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Static"
+            labelcols="3"
+            labelfor="basicStatic"
+          >
+            <bforminput-stub
+              id="basicStatic"
+              plaintext="true"
+              type="text"
+              value="Username"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            description="This is a help text"
+            horizontal="true"
+            label="Text Input"
+            labelcols="3"
+            labelfor="basicText"
+          >
+            <bforminput-stub
+              id="basicText"
+              placeholder="Text"
+              type="text"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Date"
+            labelcols="3"
+            labelfor="date"
+          >
+            <bforminput-stub
+              id="date"
+              type="date"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            description="Please enter your email"
+            horizontal="true"
+            label="Email Input"
+            labelcols="3"
+            labelfor="basicEmail"
+          >
+            <bforminput-stub
+              autocomplete="email"
+              id="basicEmail"
+              placeholder="Enter your email"
+              type="email"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            description="Please enter a complex password"
+            horizontal="true"
+            label="Password Input"
+            labelcols="3"
+            labelfor="basicPassword"
+          >
+            <bforminput-stub
+              autocomplete="current-password"
+              id="basicPassword"
+              placeholder="Enter your password"
+              type="password"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Disabled Input"
+            labelcols="3"
+            labelfor="basicInputDisabled"
+          >
+            <bforminput-stub
+              disabled="true"
+              id="basicInputDisabled"
+              placeholder="Disabled"
+              type="text"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Textarea"
+            labelcols="3"
+            labelfor="basicTextarea"
+          >
+            <bforminput-stub
+              id="basicTextarea"
+              placeholder="Content.."
+              rows="9"
+              textarea="true"
+              type="text"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Select"
+            labelcols="3"
+            labelfor="basicSelect"
+          >
+            <bformselect-stub
+              id="basicSelect"
+              options="Please select,Option 1,Option 2,Option 3"
+              plain="true"
+              selectsize="0"
+              value="Please select"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Select large"
+            labelcols="3"
+            labelfor="basicSelectLg"
+          >
+            <bformselect-stub
+              id="basicSelectLg"
+              options="Please select,Option 1,Option 2,Option 3"
+              plain="true"
+              selectsize="0"
+              size="lg"
+              value="Please select"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Select small"
+            labelcols="3"
+            labelfor="basicSelectSm"
+          >
+            <bformselect-stub
+              id="basicSelectSm"
+              options="Please select,Option 1,Option 2,Option 3"
+              plain="true"
+              selectsize="0"
+              size="sm"
+              value="Please select"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Disabled select"
+            labelcols="3"
+            labelfor="basicSelectDisabled"
+          >
+            <bformselect-stub
+              disabled="true"
+              id="basicSelectDisabled"
+              options="Please select,Option 1,Option 2,Option 3"
+              plain="true"
+              selectsize="0"
+              value="Please select"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Select"
+            labelcols="3"
+            labelfor="basicMultiSelect"
+          >
+            <bformselect-stub
+              id="basicMultiSelect"
+              multiple="true"
+              options="[object Object],[object Object],[object Object],[object Object],[object Object]"
+              plain="true"
+              selectsize="0"
+              value=",c"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Radios"
+            labelcols="3"
+            labelfor="basicRadios"
+          >
+            <bformradiogroup-stub
+              buttonvariant="secondary"
+              checked="2"
+              id="basicRadios"
+              options="[object Object],[object Object],[object Object]"
+              plain="true"
+              stacked="true"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Inline radios"
+            labelcols="3"
+            labelfor="basicInlineRadios"
+          >
+            <bformradiogroup-stub
+              buttonvariant="secondary"
+              checked="3"
+              id="basicInlineRadios"
+              options="[object Object],[object Object],[object Object]"
+              plain="true"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Checkboxes"
+            labelcols="3"
+            labelfor="basicCheckboxes"
+          >
+            <bformcheckboxgroup-stub
+              buttonvariant="secondary"
+              checked="2,3"
+              id="basicCheckboxes"
+              name="Checkboxes"
+              plain="true"
+              stacked="true"
+            >
+              <bformcheckbox-stub
+                value="1"
+              >
+                Option 1
+              </bformcheckbox-stub>
+               
+              <bformcheckbox-stub
+                value="2"
+              >
+                Option 2
+              </bformcheckbox-stub>
+               
+              <bformcheckbox-stub
+                value="3"
+              >
+                Option 3
+              </bformcheckbox-stub>
+            </bformcheckboxgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Inline checkboxes"
+            labelcols="3"
+            labelfor="basicInlineCheckboxes"
+          >
+            <bformcheckboxgroup-stub
+              buttonvariant="secondary"
+              checked="1,3"
+              id="basicInlineCheckboxes"
+              name="InlineCheckboxes"
+              plain="true"
+            >
+              <bformcheckbox-stub
+                plain="true"
+                value="1"
+              >
+                Option 1
+              </bformcheckbox-stub>
+               
+              <bformcheckbox-stub
+                plain="true"
+                value="2"
+              >
+                Option 2
+              </bformcheckbox-stub>
+               
+              <bformcheckbox-stub
+                plain="true"
+                value="3"
+              >
+                Option 3
+              </bformcheckbox-stub>
+            </bformcheckboxgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Radios - custom"
+            labelcols="3"
+            labelfor="basicRadiosCustom"
+          >
+            <bformradiogroup-stub
+              buttonvariant="secondary"
+              id="basicRadiosCustom"
+              stacked="true"
+              value="1"
+            >
+              <div
+                class="custom-control custom-radio"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customRadio1"
+                  name="customRadio"
+                  type="radio"
+                  value="1"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customRadio1"
+                >
+                  Option 1
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-radio"
+              >
+                <input
+                  checked="checked"
+                  class="custom-control-input"
+                  id="customRadio2"
+                  name="customRadio"
+                  type="radio"
+                  value="2"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customRadio2"
+                >
+                  Option 2
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-radio"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customRadio3"
+                  name="customRadio"
+                  type="radio"
+                  value="3"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customRadio3"
+                >
+                  Option 3
+                </label>
+              </div>
+            </bformradiogroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Inline radios - custom"
+            labelcols="3"
+            labelfor="basicCustomRadios1"
+          >
+            <bformradiogroup-stub
+              buttonvariant="secondary"
+              id="basicCustomRadios1"
+              name="customRadioInline1"
+            >
+              <div
+                class="custom-control custom-radio custom-control-inline"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customRadioInline1"
+                  name="customRadioInline1"
+                  type="radio"
+                  value="1"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customRadioInline1"
+                >
+                  Option 1
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-radio custom-control-inline"
+              >
+                <input
+                  checked="checked"
+                  class="custom-control-input"
+                  id="customRadioInline2"
+                  name="customRadioInline1"
+                  type="radio"
+                  value="2"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customRadioInline2"
+                >
+                  Option 2
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-radio custom-control-inline"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customRadioInline3"
+                  name="customRadioInline1"
+                  type="radio"
+                  value="3"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customRadioInline3"
+                >
+                  Option 3
+                </label>
+              </div>
+            </bformradiogroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Checkboxes - custom"
+            labelcols="3"
+            labelfor="basicCustomCheckboxes"
+          >
+            <bformcheckboxgroup-stub
+              buttonvariant="secondary"
+              id="basicCustomCheckboxes"
+              stacked="true"
+            >
+              <div
+                class="custom-control custom-checkbox"
+              >
+                <input
+                  checked="checked"
+                  class="custom-control-input"
+                  id="customChk1"
+                  type="checkbox"
+                  value="1"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customChk1"
+                >
+                  Option 1
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-checkbox"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customChk2"
+                  type="checkbox"
+                  value="2"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customChk2"
+                >
+                  Option 2
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-checkbox"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customChk3"
+                  type="checkbox"
+                  value="3"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customChk3"
+                >
+                  Option 3
+                </label>
+              </div>
+            </bformcheckboxgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Inline checkboxes - custom"
+            labelcols="3"
+            labelfor="basicInlineCustomCheckboxes"
+          >
+            <bformcheckboxgroup-stub
+              buttonvariant="secondary"
+              id="basicInlineCustomCheckboxes"
+            >
+              <div
+                class="custom-control custom-checkbox custom-control-inline"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customInChk1"
+                  type="checkbox"
+                  value="1"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customInChk1"
+                >
+                  Option 1
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-checkbox custom-control-inline"
+              >
+                <input
+                  checked="checked"
+                  class="custom-control-input"
+                  id="customInChk2"
+                  type="checkbox"
+                  value="2"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customInChk2"
+                >
+                  Option 2
+                </label>
+              </div>
+               
+              <div
+                class="custom-control custom-checkbox custom-control-inline"
+              >
+                <input
+                  class="custom-control-input"
+                  id="customInChk3"
+                  type="checkbox"
+                  value="3"
+                />
+                 
+                <label
+                  class="custom-control-label"
+                  for="customInChk3"
+                >
+                  Option 3
+                </label>
+              </div>
+            </bformcheckboxgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="File input"
+            labelcols="3"
+            labelfor="fileInput"
+          >
+            <bformfile-stub
+              accept=""
+              id="fileInput"
+              plain="true"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            horizontal="true"
+            label="Multiple file input"
+            labelcols="3"
+            labelfor="fileInputMulti"
+          >
+            <bformfile-stub
+              accept=""
+              id="fileInputMulti"
+              multiple="true"
+              plain="true"
+            />
+          </bformgroup-stub>
+           
+          <div
+            slot="footer"
+          >
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="submit"
+              variant="primary"
+            >
+              <i
+                class="fa fa-dot-circle-o"
+              />
+               Submit
+            </bbutton-stub>
+             
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="reset"
+              variant="danger"
+            >
+              <i
+                class="fa fa-ban"
+              />
+               Reset
+            </bbutton-stub>
+          </div>
+        </bform-stub>
+      </bcard-stub>
+       
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Inline
+          </strong>
+           Form
+        
+        </div>
+         
+        <bform-stub
+          inline="true"
+        >
+          <label
+            class="mr-sm-2"
+            for="inlineInput1"
+          >
+            Name: 
+          </label>
+           
+          <binput-stub
+            id="inlineInput1"
+            placeholder="Jane Doe"
+            type="text"
+          />
+           
+          <label
+            class="mx-sm-2"
+            for="inlineInput2"
+          >
+            Email: 
+          </label>
+           
+          <binput-stub
+            autocomplete="email"
+            id="inlineInput2"
+            placeholder="jane.doe@example.com"
+            type="email"
+          />
+        </bform-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="primary"
+          >
+            <i
+              class="fa fa-dot-circle-o"
+            />
+             Submit
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="reset"
+            variant="danger"
+          >
+            <i
+              class="fa fa-ban"
+            />
+             Reset
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      md="6"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Horizontal
+          </strong>
+           Form
+        
+        </div>
+         
+        <bform-stub>
+          <bformgroup-stub
+            breakpoint="sm"
+            description="Please enter your email."
+            horizontal="true"
+            label="Email"
+            labelcols="3"
+            labelfor="horizEmail"
+          >
+            <bforminput-stub
+              autocomplete="username email"
+              id="horizEmail"
+              placeholder="Enter Email.."
+              type="email"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            description="Please enter your password."
+            horizontal="true"
+            label="Password"
+            labelcols="3"
+            labelfor="horizPass"
+          >
+            <bforminput-stub
+              autocomplete="current-password"
+              id="horizPass"
+              placeholder="Enter Password.."
+              type="password"
+            />
+          </bformgroup-stub>
+           
+          <div
+            slot="footer"
+          >
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="submit"
+              variant="primary"
+            >
+              <i
+                class="fa fa-dot-circle-o"
+              />
+               Submit
+            </bbutton-stub>
+             
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="reset"
+              variant="danger"
+            >
+              <i
+                class="fa fa-ban"
+              />
+               Reset
+            </bbutton-stub>
+          </div>
+        </bform-stub>
+      </bcard-stub>
+       
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Normal
+          </strong>
+           Form
+        
+        </div>
+         
+        <bform-stub>
+          <bformgroup-stub
+            breakpoint="sm"
+            description="Please enter your email."
+            label="Email"
+            labelcols="3"
+            labelfor="normalEmail"
+            validated="true"
+          >
+            <bforminput-stub
+              autocomplete="email"
+              id="normalEmail"
+              placeholder="Enter Email.."
+              required=""
+              type="email"
+            />
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            description="Please enter your password."
+            label="Password"
+            labelcols="3"
+            labelfor="normalPass"
+            validated="true"
+          >
+            <bforminput-stub
+              autocomplete="current-password"
+              id="normalPass"
+              placeholder="Enter Password.."
+              required=""
+              type="password"
+            />
+          </bformgroup-stub>
+           
+          <div
+            slot="footer"
+          >
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="submit"
+              variant="primary"
+            >
+              <i
+                class="fa fa-dot-circle-o"
+              />
+               Submit
+            </bbutton-stub>
+             
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="reset"
+              variant="danger"
+            >
+              <i
+                class="fa fa-ban"
+              />
+               Reset
+            </bbutton-stub>
+          </div>
+        </bform-stub>
+      </bcard-stub>
+       
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        no-block="true"
+        nobody="true"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Input 
+          <strong>
+            Grid
+          </strong>
+        </div>
+         
+        <bcardbody-stub
+          bodytag="div"
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="3"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-3"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="4"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-4"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="5"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-5"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="6"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-6"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="7"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-7"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="8"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-8"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="9"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-9"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="10"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-10"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="11"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-11"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+           
+          <brow-stub
+            class="form-group"
+            tag="div"
+          >
+            <bcol-stub
+              sm="12"
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder=".col-sm-12"
+                type="text"
+              />
+            </bcol-stub>
+          </brow-stub>
+        </bcardbody-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="primary"
+          >
+            <i
+              class="fa fa-user"
+            />
+             Login
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="reset"
+            variant="danger"
+          >
+            <i
+              class="fa fa-ban"
+            />
+             Reset
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+       
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Input 
+          <strong>
+            Sizes
+          </strong>
+        </div>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          horizontal="true"
+          label="Small input"
+          labelcols="5"
+          labelfor="smInput"
+          labelsize="sm"
+        >
+          <bforminput-stub
+            id="smInput"
+            placeholder="size='sm'"
+            size="sm"
+            type="text"
+          />
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          horizontal="true"
+          label="Default input"
+          labelcols="5"
+          labelfor="defaultInput"
+        >
+          <bforminput-stub
+            id="defaultInput"
+            placeholder="normal"
+            type="text"
+          />
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          horizontal="true"
+          label="Large input"
+          labelcols="5"
+          labelfor="lgInput"
+          labelsize="lg"
+        >
+          <bforminput-stub
+            id="lgInput"
+            placeholder="size='lg'"
+            size="lg"
+            type="text"
+          />
+        </bformgroup-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="primary"
+          >
+            <i
+              class="fa fa-dot-circle-o"
+            />
+             Submit
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="reset"
+            variant="danger"
+          >
+            <i
+              class="fa fa-ban"
+            />
+             Reset
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      md="6"
+      sm="12"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        no-block="true"
+        nobody="true"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Validation feedback
+          </strong>
+           Form
+        
+        </div>
+         
+        <bcardbody-stub
+          bodytag="div"
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <bform-stub>
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+              validated="true"
+            >
+              <label
+                class="col-form-label"
+                for="inputIsValid"
+              >
+                Input is valid
+              </label>
+               
+              <input
+                class="form-control is-valid"
+                id="inputIsValid"
+                type="text"
+              />
+               
+              <bformvalidfeedback-stub
+                tag="div"
+              >
+                
+                Input is valid.
+              
+              </bformvalidfeedback-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              labelcols="3"
+            >
+              <label
+                class="col-form-label"
+                for="inputIsInvalid"
+              >
+                Input is invalid
+              </label>
+               
+              <input
+                class="form-control is-invalid"
+                id="inputIsInvalid"
+                type="text"
+              />
+               
+              <bforminvalidfeedback-stub
+                tag="div"
+              >
+                
+                Please provide a valid information.
+              
+              </bforminvalidfeedback-stub>
+            </bformgroup-stub>
+          </bform-stub>
+        </bcardbody-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      md="6"
+      sm="12"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        no-block="true"
+        nobody="true"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Validation feedback
+          </strong>
+           Form
+        
+        </div>
+         
+        <bcardbody-stub
+          bodytag="div"
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <bform-stub
+            novalidate="true"
+            validated="true"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              label="Non-required input"
+              labelcols="3"
+              labelfor="inputSuccess2"
+            >
+              <bforminput-stub
+                class="form-control-success"
+                id="inputSuccess2"
+                type="text"
+              />
+               
+              <bformvalidfeedback-stub
+                tag="div"
+              >
+                
+                Input is not required.
+              
+              </bformvalidfeedback-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              label="Required input"
+              labelcols="3"
+              labelfor="inputError2"
+            >
+              <bforminput-stub
+                class="form-control-warning"
+                id="inputError2"
+                required=""
+                type="text"
+              />
+               
+              <bformvalidfeedback-stub
+                tag="div"
+              >
+                
+                Input provided.
+              
+              </bformvalidfeedback-stub>
+               
+              <bforminvalidfeedback-stub
+                tag="div"
+              >
+                
+                Please provide a required input.
+              
+              </bforminvalidfeedback-stub>
+            </bformgroup-stub>
+          </bform-stub>
+        </bcardbody-stub>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      sm="4"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Icon/Text
+          </strong>
+           Groups
+        
+        </div>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <binputgroupprepend-stub
+              tag="div"
+            >
+              <binputgrouptext-stub
+                tag="div"
+              >
+                <i
+                  class="fa fa-user"
+                />
+              </binputgrouptext-stub>
+            </binputgroupprepend-stub>
+             
+            <bforminput-stub
+              placeholder="Username"
+              type="text"
+            />
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <bforminput-stub
+              autocomplete="email"
+              placeholder="Email"
+              type="email"
+            />
+             
+            <binputgroupappend-stub
+              append="true"
+              tag="div"
+            >
+              <binputgrouptext-stub
+                tag="div"
+              >
+                <i
+                  class="fa fa-envelope-o"
+                />
+              </binputgrouptext-stub>
+            </binputgroupappend-stub>
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <binputgroupprepend-stub
+              tag="div"
+            >
+              <binputgrouptext-stub
+                tag="div"
+              >
+                <i
+                  class="fa fa-euro"
+                />
+              </binputgrouptext-stub>
+            </binputgroupprepend-stub>
+             
+            <bforminput-stub
+              placeholder="ex. $1.000.000"
+              type="text"
+            />
+             
+            <binputgroupappend-stub
+              append="true"
+              tag="div"
+            >
+              <binputgrouptext-stub
+                tag="div"
+              >
+                .00
+              </binputgrouptext-stub>
+            </binputgroupappend-stub>
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="success"
+          >
+            <i
+              class="fa fa-dot-circle-o"
+            />
+             Submit
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="reset"
+            variant="danger"
+          >
+            <i
+              class="fa fa-ban"
+            />
+             Reset
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      sm="4"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Buttons
+          </strong>
+           Groups
+        
+        </div>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <binputgroupprepend-stub
+              tag="div"
+            >
+              <bbutton-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                <i
+                  class="fa fa-search"
+                />
+                 Search
+              
+              </bbutton-stub>
+            </binputgroupprepend-stub>
+             
+            <bforminput-stub
+              placeholder="Username"
+              type="text"
+            />
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <bforminput-stub
+              autocomplete="email"
+              placeholder="Email"
+              type="email"
+            />
+             
+            <binputgroupappend-stub
+              append="true"
+              tag="div"
+            >
+              <bbutton-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                Submit
+              </bbutton-stub>
+            </binputgroupappend-stub>
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <binputgroupprepend-stub
+              tag="div"
+            >
+              <bbutton-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                <i
+                  class="fa fa-facebook"
+                />
+              </bbutton-stub>
+            </binputgroupprepend-stub>
+             
+            <bforminput-stub
+              autocomplete="email"
+              placeholder="Email"
+              type="email"
+            />
+             
+            <binputgroupappend-stub
+              append="true"
+              tag="div"
+            >
+              <bbutton-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                <i
+                  class="fa fa-twitter"
+                />
+              </bbutton-stub>
+            </binputgroupappend-stub>
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="success"
+          >
+            <i
+              class="fa fa-dot-circle-o"
+            />
+             Submit
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="reset"
+            variant="danger"
+          >
+            <i
+              class="fa fa-ban"
+            />
+             Reset
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      sm="4"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Dropdowns
+          </strong>
+           Groups
+        
+        </div>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <binputgroupprepend-stub
+              tag="div"
+            >
+              <bdropdown-stub
+                boundary="scrollParent"
+                role="menu"
+                text="Action"
+                toggletext="Toggle Dropdown"
+                variant="primary"
+              >
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Another action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Something else here...
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  disabled="true"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Disabled action
+                </bdropdownitem-stub>
+              </bdropdown-stub>
+            </binputgroupprepend-stub>
+             
+            <bforminput-stub
+              placeholder="Username"
+              type="text"
+            />
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder="Email"
+              type="text"
+            />
+             
+            <binputgroupappend-stub
+              append="true"
+              tag="div"
+            >
+              <bdropdown-stub
+                boundary="scrollParent"
+                right=""
+                role="menu"
+                text="Action"
+                toggletext="Toggle Dropdown"
+                variant="primary"
+              >
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Another action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Something else here...
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  disabled="true"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Disabled action
+                </bdropdownitem-stub>
+              </bdropdown-stub>
+            </binputgroupappend-stub>
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <bformgroup-stub
+          breakpoint="sm"
+          labelcols="3"
+        >
+          <binputgroup-stub
+            tag="div"
+          >
+            <binputgroupprepend-stub
+              tag="div"
+            >
+              <bdropdown-stub
+                boundary="scrollParent"
+                role="menu"
+                split="true"
+                text="Split"
+                toggletext="Toggle Dropdown"
+                variant="primary"
+              >
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  Action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  Another action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  target="_self"
+                >
+                  Something else here...
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  disabled="true"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Disabled action
+                </bdropdownitem-stub>
+              </bdropdown-stub>
+            </binputgroupprepend-stub>
+             
+            <bforminput-stub
+              placeholder="..."
+              type="text"
+            />
+             
+            <binputgroupappend-stub
+              append="true"
+              tag="div"
+            >
+              <bdropdown-stub
+                boundary="scrollParent"
+                right=""
+                role="menu"
+                text="Action"
+                toggletext="Toggle Dropdown"
+                variant="primary"
+              >
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Another action
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Something else here...
+                </bdropdownitem-stub>
+                 
+                <bdropdownitem-stub
+                  activeclass="active"
+                  disabled="true"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                >
+                  Disabled action
+                </bdropdownitem-stub>
+              </bdropdown-stub>
+            </binputgroupappend-stub>
+          </binputgroup-stub>
+        </bformgroup-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="success"
+          >
+            <i
+              class="fa fa-dot-circle-o"
+            />
+             Submit
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="reset"
+            variant="danger"
+          >
+            <i
+              class="fa fa-ban"
+            />
+             Reset
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      md="6"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Use the grid for big devices! 
+          <small>
+            <code>
+              .col-lg-*
+            </code>
+             
+            <code>
+              .col-md-*
+            </code>
+             
+            <code>
+              .col-sm-*
+            </code>
+          </small>
+        </div>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            md="8"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-8"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            md="4"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-4"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            md="7"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-7"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            md="5"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-5"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            md="6"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-6"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            md="6"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-6"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            md="5"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-5"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            md="7"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-7"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            md="4"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-4"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            md="8"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-md-8"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="primary"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="btn btn-sm btn-warning"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="btn btn-sm btn-info"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Action
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      md="6"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Input Grid for small devices! 
+          <small>
+            <code>
+              .col-*
+            </code>
+          </small>
+        </div>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            cols="4"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-4"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            cols="8"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-8"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            cols="5"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-5"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            cols="7"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-7"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            cols="6"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-6"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            cols="6"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-6"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            cols="7"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-5"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            cols="5"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-5"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <brow-stub
+          class="form-group"
+          tag="div"
+        >
+          <bcol-stub
+            cols="8"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-8"
+              type="text"
+            />
+          </bcol-stub>
+           
+          <bcol-stub
+            cols="4"
+            tag="div"
+          >
+            <bforminput-stub
+              placeholder=".col-4"
+              type="text"
+            />
+          </bcol-stub>
+        </brow-stub>
+         
+        <div
+          slot="footer"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="submit"
+            variant="primary"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="btn btn-sm btn-warning"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="btn btn-sm btn-info"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Action
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Action
+          </bbutton-stub>
+        </div>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      sm="4"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Example Form
+        
+        </div>
+         
+        <bform-stub>
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <binputgroupprepend-stub
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  Username
+                </binputgrouptext-stub>
+              </binputgroupprepend-stub>
+               
+              <bforminput-stub
+                type="text"
+              />
+               
+              <binputgroupappend-stub
+                append="true"
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-user"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupappend-stub>
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <binputgroupprepend-stub
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  Email
+                </binputgrouptext-stub>
+              </binputgroupprepend-stub>
+               
+              <bforminput-stub
+                autocomplete="email"
+                type="email"
+              />
+               
+              <binputgroupappend-stub
+                append="true"
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-envelope"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupappend-stub>
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <binputgroupprepend-stub
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  Password
+                </binputgrouptext-stub>
+              </binputgroupprepend-stub>
+               
+              <bforminput-stub
+                autocomplete="current-password"
+                type="password"
+              />
+               
+              <binputgroupappend-stub
+                append="true"
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-asterisk"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupappend-stub>
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <div
+            class="form-group form-actions"
+          >
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="submit"
+              variant="primary"
+            >
+              Submit
+            </bbutton-stub>
+          </div>
+        </bform-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      sm="4"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Example Form
+        
+        </div>
+         
+        <bform-stub>
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <bforminput-stub
+                placeholder="Username"
+                type="text"
+              />
+               
+              <binputgroupappend-stub
+                append="true"
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-user"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupappend-stub>
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <bforminput-stub
+                autocomplete="email"
+                placeholder="Email"
+                type="email"
+              />
+               
+              <binputgroupappend-stub
+                append="true"
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-envelope"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupappend-stub>
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <bforminput-stub
+                autocomplete="current-password"
+                placeholder="Password"
+                type="password"
+              />
+               
+              <binputgroupappend-stub
+                append="true"
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-asterisk"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupappend-stub>
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <div
+            class="form-group form-actions"
+          >
+            <bbutton-stub
+              activeclass="active"
+              class="btn btn-sm btn-secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="submit"
+            >
+              Submit
+            </bbutton-stub>
+          </div>
+        </bform-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      sm="4"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Example Form
+        
+        </div>
+         
+        <bform-stub>
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <binputgroupprepend-stub
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-user"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupprepend-stub>
+               
+              <bforminput-stub
+                placeholder="Username"
+                type="text"
+              />
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <binputgroupprepend-stub
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-envelope"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupprepend-stub>
+               
+              <bforminput-stub
+                autocomplete="email"
+                placeholder="Email"
+                type="email"
+              />
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <bformgroup-stub
+            breakpoint="sm"
+            labelcols="3"
+          >
+            <binputgroup-stub
+              tag="div"
+            >
+              <binputgroupprepend-stub
+                tag="div"
+              >
+                <binputgrouptext-stub
+                  tag="div"
+                >
+                  <i
+                    class="fa fa-asterisk"
+                  />
+                </binputgrouptext-stub>
+              </binputgroupprepend-stub>
+               
+              <bforminput-stub
+                autocomplete="current-password"
+                placeholder="Password"
+                type="password"
+              />
+            </binputgroup-stub>
+          </bformgroup-stub>
+           
+          <div
+            class="form-group form-actions"
+          >
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              size="sm"
+              target="_self"
+              type="submit"
+              variant="success"
+            >
+              Submit
+            </bbutton-stub>
+          </div>
+        </bform-stub>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      lg="12"
+      tag="div"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        name="fade"
+        nobody="true"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <i
+            class="fa fa-edit"
+          />
+           Form Elements
+            
+          <div
+            class="card-header-actions"
+          >
+            <blink-stub
+              activeclass="active"
+              class="card-header-action btn-setting"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              target="_self"
+            >
+              <i
+                class="icon-settings"
+              />
+            </blink-stub>
+             
+            <blink-stub
+              activeclass="active"
+              class="card-header-action btn-minimize"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+            >
+              <i
+                class="icon-arrow-up"
+              />
+            </blink-stub>
+             
+            <blink-stub
+              activeclass="active"
+              class="card-header-action btn-close"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              target="_self"
+            >
+              <i
+                class="icon-close"
+              />
+            </blink-stub>
+          </div>
+        </div>
+         
+        <bcollapse-stub
+          id="collapse1"
+          tag="div"
+          visible="true"
+        >
+          <bcardbody-stub
+            bodytag="div"
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <bformgroup-stub
+              breakpoint="sm"
+              description="Here's some help text"
+              label="Prepended text"
+              labelcols="3"
+              labelfor="elementsEmail"
+            >
+              <binputgroup-stub
+                tag="div"
+              >
+                <binputgroupprepend-stub
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    @
+                  </binputgrouptext-stub>
+                </binputgroupprepend-stub>
+                 
+                <bforminput-stub
+                  autocomplete="email"
+                  id="elementsEmail"
+                  type="email"
+                />
+              </binputgroup-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              description="Here's some help text"
+              label="Appended text"
+              labelcols="3"
+              labelfor="elementsAppend"
+            >
+              <binputgroup-stub
+                tag="div"
+              >
+                <bforminput-stub
+                  id="elementsAppend"
+                  type="text"
+                />
+                 
+                <binputgroupappend-stub
+                  append="true"
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    .00
+                  </binputgrouptext-stub>
+                </binputgroupappend-stub>
+              </binputgroup-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              description="Here's some help text"
+              label="Append and prepend"
+              labelcols="3"
+              labelfor="elementsPrependAppend"
+            >
+              <binputgroup-stub
+                tag="div"
+              >
+                <binputgroupprepend-stub
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    $
+                  </binputgrouptext-stub>
+                </binputgroupprepend-stub>
+                 
+                <bforminput-stub
+                  id="elementsPrependAppend"
+                  type="text"
+                />
+                 
+                <binputgroupappend-stub
+                  append="true"
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    .00
+                  </binputgrouptext-stub>
+                </binputgroupappend-stub>
+              </binputgroup-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              description="Here's some help text"
+              label="Append with button"
+              labelcols="3"
+              labelfor="elementsAppendButton"
+            >
+              <binputgroup-stub
+                tag="div"
+              >
+                <bforminput-stub
+                  id="elementsAppendButton"
+                  type="text"
+                />
+                 
+                <binputgroupappend-stub
+                  append="true"
+                  tag="div"
+                >
+                  <bbutton-stub
+                    activeclass="active"
+                    event="click"
+                    exactactiveclass="active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="primary"
+                  >
+                    Go!
+                  </bbutton-stub>
+                </binputgroupappend-stub>
+              </binputgroup-stub>
+            </bformgroup-stub>
+             
+            <bformgroup-stub
+              breakpoint="sm"
+              label="Two-buttons append"
+              labelcols="3"
+              labelfor="elementsTwoButtons"
+            >
+              <binputgroup-stub
+                tag="div"
+              >
+                <bforminput-stub
+                  id="elementsTwoButtons"
+                  type="text"
+                />
+                 
+                <binputgroupappend-stub
+                  append="true"
+                  tag="div"
+                >
+                  <bbutton-stub
+                    activeclass="active"
+                    event="click"
+                    exactactiveclass="active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="primary"
+                  >
+                    Search
+                  </bbutton-stub>
+                   
+                  <bbutton-stub
+                    activeclass="active"
+                    event="click"
+                    exactactiveclass="active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="danger"
+                  >
+                    Options
+                  </bbutton-stub>
+                </binputgroupappend-stub>
+              </binputgroup-stub>
+            </bformgroup-stub>
+             
+            <div
+              class="form-actions"
+            >
+              <bbutton-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                routertag="a"
+                target="_self"
+                type="submit"
+                variant="primary"
+              >
+                Save changes
+              </bbutton-stub>
+               
+              <bbutton-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="secondary"
+              >
+                Cancel
+              </bbutton-stub>
+            </div>
+          </bcardbody-stub>
+        </bcollapse-stub>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+</div>
+`;

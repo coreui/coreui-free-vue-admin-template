@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <header
+            class="card-header"
+          >
+            <div>
+              <i
+                class="fa fa-align-justify"
+              />
+              <strong>
+                 Bootstrap Breadcrumb
+              </strong>
+               
+              <div
+                class="card-header-actions"
+              >
+                <a
+                  class="card-header-action"
+                  href="https://bootstrap-vue.js.org/docs/components/breadcrumb"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    docs
+                  </small>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div
+            class="card-body"
+          >
+             
+            <ol
+              class="breadcrumb"
+            >
+              <li
+                class="breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class=""
+                  href="#"
+                  target="_self"
+                >
+                  Admin
+                </a>
+              </li>
+              <li
+                class="breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class=""
+                  href="#"
+                  target="_self"
+                >
+                  Manage
+                </a>
+              </li>
+              <li
+                class="breadcrumb-item active"
+                role="presentation"
+              >
+                <span
+                  aria-current="location"
+                >
+                  Library
+                </span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

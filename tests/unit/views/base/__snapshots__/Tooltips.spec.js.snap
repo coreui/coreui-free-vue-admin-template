@@ -1,0 +1,451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltips.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Tooltips 
+        </strong>
+        <small>
+          <code>
+            v-b-tooltip
+          </code>
+           directive
+        </small>
+         
+        <div
+          class="card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://bootstrap-vue.js.org/docs/components/tooltip"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </div>
+       
+      <brow-stub
+        tag="div"
+      >
+        <bcol-stub
+          cols="6"
+          tag="div"
+        >
+          <div
+            class="text-center my-3"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              title="I am a tooltip!"
+              type="button"
+            >
+              Hover Me
+            </bbtn-stub>
+          </div>
+        </bcol-stub>
+         
+        <bcol-stub
+          cols="6"
+          tag="div"
+        >
+          <div
+            class="text-center my-3"
+          >
+            <bbtn-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              id="tooltipButton-2"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              Button
+            </bbtn-stub>
+             
+            <btooltip-stub
+              placement="top"
+              show=""
+              target="tooltipButton-2"
+              title=""
+              triggers="hover focus"
+            >
+              
+              I start open
+            
+            </btooltip-stub>
+          </div>
+        </bcol-stub>
+      </brow-stub>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Tooltips 
+        </strong>
+        <small>
+          <code>
+            b-tooltip
+          </code>
+           component
+        </small>
+      </div>
+       
+      <brow-stub
+        tag="div"
+      >
+        <bcol-stub
+          class="py-4 text-center"
+          md="6"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="exButton1"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-success"
+          >
+            Live chat
+          </bbtn-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="py-4 text-center"
+          md="6"
+          tag="div"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="exButton2"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-success"
+          >
+            Html chat
+          </bbtn-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <btooltip-stub
+        placement="top"
+        target="exButton1"
+        title="Online!"
+        triggers="hover focus"
+      />
+       
+      <btooltip-stub
+        placement="bottom"
+        target="exButton2"
+        title=""
+        triggers="hover focus"
+      >
+        
+        Hello 
+        <strong>
+          World!
+        </strong>
+      </btooltip-stub>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Tooltips 
+        </strong>
+        <small>
+          <code>
+            show
+          </code>
+           prop
+        </small>
+      </div>
+       
+      <div
+        class="text-center"
+      >
+        <bbtn-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          id="tooltipButton-1"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="primary"
+        >
+          I have a tooltip
+        </bbtn-stub>
+         
+        <br />
+        <br />
+         
+        <bbtn-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+        >
+          Toggle Tooltip
+        </bbtn-stub>
+         
+        <btooltip-stub
+          placement="top"
+          show="true"
+          target="tooltipButton-1"
+          title=""
+          triggers="hover focus"
+        >
+          
+          Hello 
+          <strong>
+            World!
+          </strong>
+        </btooltip-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Tooltips 
+        </strong>
+        <small>
+          <code>
+            open close
+          </code>
+           events
+        </small>
+      </div>
+       
+      <div
+        class="d-flex flex-column text-md-center"
+      >
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="tooltipButton-showEvent"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            I have a tooltip
+          </bbtn-stub>
+        </div>
+         
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            class="px-1 mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Open
+          </bbtn-stub>
+           
+          <bbtn-stub
+            activeclass="active"
+            class="px-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            Close
+          </bbtn-stub>
+        </div>
+         
+        <btooltip-stub
+          placement="top"
+          target="tooltipButton-showEvent"
+          title=""
+          triggers="hover focus"
+        >
+          
+          Hello 
+          <strong>
+            World!
+          </strong>
+        </btooltip-stub>
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="footer"
+      headertag="header"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        slot="header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Tooltips 
+        </strong>
+        <small>
+          <code>
+            enable disable
+          </code>
+           events
+        </small>
+      </div>
+       
+      <div
+        class="d-flex flex-column text-md-center"
+      >
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            id="tooltipButton-disable"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            I have a tooltip
+          </bbtn-stub>
+        </div>
+         
+        <div
+          class="p-2"
+        >
+          <bbtn-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            
+            Disable Tooltip by prop
+          
+          </bbtn-stub>
+           
+          <bbtn-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            
+            Disable Tooltip by $ref event
+          
+          </bbtn-stub>
+           
+          <btooltip-stub
+            placement="top"
+            target="tooltipButton-disable"
+            title=""
+            triggers="hover focus"
+          >
+            
+            Hello 
+            <strong>
+              World!
+            </strong>
+          </btooltip-stub>
+        </div>
+      </div>
+    </bcard-stub>
+  </div>
+</div>
+`;

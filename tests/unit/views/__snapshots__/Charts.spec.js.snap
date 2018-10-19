@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Charts.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <bcardgroup-stub
+    class="card-columns"
+    columns="true"
+    tag="div"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      header="Line Chart"
+      headertag="div"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        class="chart-wrapper"
+      >
+        <lineexample-stub
+          chartid="chart-line-01"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      header="Bar Chart"
+      headertag="div"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        class="chart-wrapper"
+      >
+        <barexample-stub
+          chartid="chart-bar-01"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      header="Doughnut Chart"
+      headertag="div"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        class="chart-wrapper"
+      >
+        <doughnutexample-stub
+          chartid="chart-doughnut-01"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      header="Radar Chart"
+      headertag="div"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        class="chart-wrapper"
+      >
+        <radarexample-stub
+          chartid="chart-radar-01"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      header="Pie Chart"
+      headertag="div"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        class="chart-wrapper"
+      >
+        <pieexample-stub
+          chartid="chart-pie-01"
+        />
+      </div>
+    </bcard-stub>
+     
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      header="Polar Area Chart"
+      headertag="div"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <div
+        class="chart-wrapper"
+      >
+        <polarareaexample-stub
+          chartid="chart-polar-area-01"
+        />
+      </div>
+    </bcard-stub>
+  </bcardgroup-stub>
+</div>
+`;

@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register.vue renders correctly 1`] = `
+<div
+  class="app flex-row align-items-center"
+>
+  <div
+    class="container"
+  >
+    <brow-stub
+      class="justify-content-center"
+      tag="div"
+    >
+      <bcol-stub
+        md="6"
+        sm="8"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          class="mx-4"
+          footertag="div"
+          headertag="div"
+          nobody="true"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <bcardbody-stub
+            bodytag="div"
+            class="p-4"
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <bform-stub>
+              <h1>
+                Register
+              </h1>
+               
+              <p
+                class="text-muted"
+              >
+                Create your account
+              </p>
+               
+              <binputgroup-stub
+                class="mb-3"
+                tag="div"
+              >
+                <binputgroupprepend-stub
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    <i
+                      class="icon-user"
+                    />
+                  </binputgrouptext-stub>
+                </binputgroupprepend-stub>
+                 
+                <bforminput-stub
+                  autocomplete="username"
+                  class="form-control"
+                  placeholder="Username"
+                  type="text"
+                />
+              </binputgroup-stub>
+               
+              <binputgroup-stub
+                class="mb-3"
+                tag="div"
+              >
+                <binputgroupprepend-stub
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    @
+                  </binputgrouptext-stub>
+                </binputgroupprepend-stub>
+                 
+                <bforminput-stub
+                  autocomplete="email"
+                  class="form-control"
+                  placeholder="Email"
+                  type="text"
+                />
+              </binputgroup-stub>
+               
+              <binputgroup-stub
+                class="mb-3"
+                tag="div"
+              >
+                <binputgroupprepend-stub
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    <i
+                      class="icon-lock"
+                    />
+                  </binputgrouptext-stub>
+                </binputgroupprepend-stub>
+                 
+                <bforminput-stub
+                  autocomplete="new-password"
+                  class="form-control"
+                  placeholder="Password"
+                  type="password"
+                />
+              </binputgroup-stub>
+               
+              <binputgroup-stub
+                class="mb-4"
+                tag="div"
+              >
+                <binputgroupprepend-stub
+                  tag="div"
+                >
+                  <binputgrouptext-stub
+                    tag="div"
+                  >
+                    <i
+                      class="icon-lock"
+                    />
+                  </binputgrouptext-stub>
+                </binputgroupprepend-stub>
+                 
+                <bforminput-stub
+                  autocomplete="new-password"
+                  class="form-control"
+                  placeholder="Repeat password"
+                  type="password"
+                />
+              </binputgroup-stub>
+               
+              <bbutton-stub
+                activeclass="active"
+                block="true"
+                event="click"
+                exactactiveclass="active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="success"
+              >
+                Create Account
+              </bbutton-stub>
+            </bform-stub>
+          </bcardbody-stub>
+           
+          <bcardfooter-stub
+            class="p-4"
+            footertag="div"
+          >
+            <brow-stub
+              tag="div"
+            >
+              <bcol-stub
+                cols="6"
+                tag="div"
+              >
+                <bbutton-stub
+                  activeclass="active"
+                  block="true"
+                  class="btn btn-facebook"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                >
+                  <span>
+                    facebook
+                  </span>
+                </bbutton-stub>
+              </bcol-stub>
+               
+              <bcol-stub
+                cols="6"
+                tag="div"
+              >
+                <bbutton-stub
+                  activeclass="active"
+                  block="true"
+                  class="btn btn-twitter"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                >
+                  <span>
+                    twitter
+                  </span>
+                </bbutton-stub>
+              </bcol-stub>
+            </brow-stub>
+          </bcardfooter-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+  </div>
+</div>
+`;

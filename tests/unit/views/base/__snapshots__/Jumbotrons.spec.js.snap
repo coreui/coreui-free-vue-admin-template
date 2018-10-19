@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jumbotrons.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Bootstrap Jumbotron 
+            </strong>
+             
+            <div
+              class="card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://bootstrap-vue.js.org/docs/components/jumbotron"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </div>
+           
+          <div>
+            <bjumbotron-stub
+              header="Bootstrap 4"
+              headerlevel="3"
+              headertag="h1"
+              lead="Bootstrap 4 Components for Vue.js 2"
+              leadtag="p"
+              tag="div"
+            >
+              <p>
+                For more information visit website
+              </p>
+               
+              <bbtn-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                href="#"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                More Info
+              </bbtn-stub>
+            </bjumbotron-stub>
+          </div>
+        </bcard-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Jumbotron 
+            </strong>
+             
+            <small>
+              with slots
+            </small>
+          </div>
+           
+          <div>
+            <bjumbotron-stub
+              headerlevel="3"
+              headertag="h1"
+              leadtag="p"
+              tag="div"
+            >
+              <template>
+                
+                Bootstrap 4
+              
+              </template>
+               
+              <template>
+                
+                This is a simple hero unit, a simple jumbotron-style component for
+                calling extra attention to featured content or information.
+              
+              </template>
+               
+              <hr
+                class="my-4"
+              />
+               
+              <p>
+                
+                It uses utility classes for typography and spacing to space content
+                out within the larger container.
+              
+              </p>
+               
+              <bbtn-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                href="#"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                Do Something
+              </bbtn-stub>
+               
+              <bbtn-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                href="#"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="success"
+              >
+                Do Something Else
+              </bbtn-stub>
+            </bjumbotron-stub>
+          </div>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+     
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Jumbotron 
+            </strong>
+             
+            <small>
+              variants
+            </small>
+          </div>
+           
+          <div>
+            <bjumbotron-stub
+              bgvariant="info"
+              bordervariant="dark"
+              headerlevel="3"
+              headertag="h1"
+              leadtag="p"
+              tag="div"
+              textvariant="white"
+            >
+              <template>
+                
+                Bootstrap 4
+              
+              </template>
+               
+              <template>
+                
+                This is a simple hero unit, a simple jumbotron-style component for
+                calling extra attention to featured content or information.
+              
+              </template>
+               
+              <hr
+                class="my-4"
+              />
+               
+              <p>
+                
+                It uses utility classes for typography and spacing to space content
+                out within the larger container.
+              
+              </p>
+            </bjumbotron-stub>
+          </div>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+  </div>
+</div>
+`;

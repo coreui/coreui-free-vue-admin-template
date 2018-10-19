@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
+<appheaderdropdown-stub
+  nocaret="true"
+  right="true"
+>
+  <template>
+    <img
+      alt="admin@bootstrapmaster.com"
+      class="img-avatar"
+      src="img/avatars/6.jpg"
+    />
+  </template>
+  \\
+  
+  <template>
+    <bdropdownheader-stub
+      class="text-center"
+      tag="div"
+    >
+      <strong>
+        Account
+      </strong>
+    </bdropdownheader-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-bell-o"
+      />
+       Updates
+      
+      <bbadge-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="info"
+      >
+        42
+      </bbadge-stub>
+    </bdropdownitem-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-envelope-o"
+      />
+       Messages
+      
+      <bbadge-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="success"
+      >
+        42
+      </bbadge-stub>
+    </bdropdownitem-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-tasks"
+      />
+       Tasks
+      
+      <bbadge-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="danger"
+      >
+        42
+      </bbadge-stub>
+    </bdropdownitem-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-comments"
+      />
+       Comments
+      
+      <bbadge-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="warning"
+      >
+        42
+      </bbadge-stub>
+    </bdropdownitem-stub>
+     
+    <bdropdownheader-stub
+      class="text-center"
+      tag="div"
+    >
+      <strong>
+        Settings
+      </strong>
+    </bdropdownheader-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-user"
+      />
+       Profile
+    </bdropdownitem-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-wrench"
+      />
+       Settings
+    </bdropdownitem-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-usd"
+      />
+       Payments
+      
+      <bbadge-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="secondary"
+      >
+        42
+      </bbadge-stub>
+    </bdropdownitem-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-file"
+      />
+       Projects
+      
+      <bbadge-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="primary"
+      >
+        42
+      </bbadge-stub>
+    </bdropdownitem-stub>
+     
+    <bdropdowndivider-stub
+      tag="div"
+    />
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-shield"
+      />
+       Lock Account
+    </bdropdownitem-stub>
+     
+    <bdropdownitem-stub
+      activeclass="active"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+    >
+      <i
+        class="fa fa-lock"
+      />
+       Logout
+    </bdropdownitem-stub>
+  </template>
+</appheaderdropdown-stub>
+`;
