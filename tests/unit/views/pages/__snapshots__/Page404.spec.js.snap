@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page404.vue renders correctly 1`] = `
+<div
+  class="app flex-row align-items-center"
+>
+  <div
+    class="container"
+  >
+    <brow-stub
+      class="justify-content-center"
+      tag="div"
+    >
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <div
+          class="clearfix"
+        >
+          <h1
+            class="float-left display-3 mr-4"
+          >
+            404
+          </h1>
+           
+          <h4
+            class="pt-3"
+          >
+            Oops! You're lost.
+          </h4>
+           
+          <p
+            class="text-muted"
+          >
+            The page you are looking for was not found.
+          </p>
+        </div>
+         
+        <binputgroup-stub
+          tag="div"
+        >
+          <binputgroupprepend-stub
+            tag="div"
+          >
+            <binputgrouptext-stub
+              tag="div"
+            >
+              <i
+                class="fa fa-search"
+              />
+            </binputgrouptext-stub>
+          </binputgroupprepend-stub>
+           
+          <input
+            class="form-control"
+            id="prependedInput"
+            placeholder="What are you looking for?"
+            size="16"
+            type="text"
+          />
+           
+          <binputgroupappend-stub
+            append="true"
+            tag="div"
+          >
+            <bbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="info"
+            >
+              Search
+            </bbutton-stub>
+          </binputgroupappend-stub>
+        </binputgroup-stub>
+      </bcol-stub>
+    </brow-stub>
+  </div>
+</div>
+`;

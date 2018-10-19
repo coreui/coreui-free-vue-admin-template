@@ -1,0 +1,1188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListGroups.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               Bootstrap list group 
+            </strong>
+             
+            <div
+              class="card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://bootstrap-vue.js.org/docs/components/list-group"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Cras justo odio
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Dapibus ac facilisis in
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Morbi leo risus
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Porta ac consectetur ac
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Vestibulum at eros
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              active items
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Cras justo odio
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              active="true"
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Dapibus ac facilisis in
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Morbi leo risus
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Porta ac consectetur ac
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Vestibulum at eros
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+     
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              disabled items
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              disabled="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Cras justo odio
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Dapibus ac facilisis in
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Morbi leo risus
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              disabled="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Porta ac consectetur ac
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Vestibulum at eros
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              actionable items
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#some-link"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Awesome link
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              active="true"
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Link with active state
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Action links are easy
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              disabled="true"
+              event="click"
+              exactactiveclass="active"
+              href="#foobar"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Disabled link
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+     
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              buttons
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              button="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Button item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              button="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              I am a button
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              button="true"
+              disabled="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              Disabled button
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              button="true"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              This is a button too
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              with badges
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              class="d-flex justify-content-between align-items-center"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              
+              Cras justo odio
+              
+              <bbadge-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                pill="true"
+                routertag="a"
+                tag="span"
+                target="_self"
+                variant="primary"
+              >
+                14
+              </bbadge-stub>
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              class="d-flex justify-content-between align-items-center"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              
+              Dapibus ac facilisis in
+              
+              <bbadge-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                pill="true"
+                routertag="a"
+                tag="span"
+                target="_self"
+                variant="primary"
+              >
+                2
+              </bbadge-stub>
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              class="d-flex justify-content-between align-items-center"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              
+              Morbi leo risus
+              
+              <bbadge-stub
+                activeclass="active"
+                event="click"
+                exactactiveclass="active"
+                pill="true"
+                routertag="a"
+                tag="span"
+                target="_self"
+                variant="primary"
+              >
+                1
+              </bbadge-stub>
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+     
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              variants
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              This is a default list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="primary"
+            >
+              This is a primary list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="secondary"
+            >
+              This is a secondary list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="success"
+            >
+              This is a success list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="danger"
+            >
+              This is a danger list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="warning"
+            >
+              This is a warning list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="info"
+            >
+              This is a info list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="light"
+            >
+              This is a light list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="dark"
+            >
+              This is a dark list group item
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              variants active
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              This is a default list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="primary"
+            >
+              This is a primary list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="secondary"
+            >
+              This is a secondary list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="success"
+            >
+              This is a success list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="danger"
+            >
+              This is a danger list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="warning"
+            >
+              This is a warning list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="info"
+            >
+              This is a info list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="light"
+            >
+              This is a light list group item
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+              variant="dark"
+            >
+              This is a dark list group item
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+     
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        cols="12"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              inside cards
+            </small>
+          </div>
+           
+          <bcardgroup-stub
+            deck="true"
+            tag="div"
+          >
+            <bcard-stub
+              bodytag="div"
+              footertag="div"
+              header=<b>Card with list group</b>
+              headertag="div"
+              subtitletag="h6"
+              tag="div"
+              titletag="h4"
+            >
+              <blistgroup-stub
+                tag="div"
+              >
+                <blistgroupitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Cras justo odio
+                </blistgroupitem-stub>
+                 
+                <blistgroupitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Dapibus ac facilisis in
+                </blistgroupitem-stub>
+                 
+                <blistgroupitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Vestibulum at eros
+                </blistgroupitem-stub>
+              </blistgroup-stub>
+               
+              <p
+                class="card-text mt-2"
+              >
+                
+                Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
+                nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
+                consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
+                ad sit ipsum anim Lorem.
+              
+              </p>
+            </bcard-stub>
+             
+            <bcard-stub
+              bodytag="div"
+              footertag="div"
+              header=<b>Card with flush list group</b>
+              headertag="div"
+              nobody="true"
+              subtitletag="h6"
+              tag="div"
+              titletag="h4"
+            >
+              <blistgroup-stub
+                flush="true"
+                tag="div"
+              >
+                <blistgroupitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Cras justo odio
+                </blistgroupitem-stub>
+                 
+                <blistgroupitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Dapibus ac facilisis in
+                </blistgroupitem-stub>
+                 
+                <blistgroupitem-stub
+                  activeclass="active"
+                  event="click"
+                  exactactiveclass="active"
+                  href="#"
+                  routertag="a"
+                  tag="div"
+                  target="_self"
+                >
+                  Vestibulum at eros
+                </blistgroupitem-stub>
+              </blistgroup-stub>
+               
+              <bcardbody-stub
+                bodytag="div"
+                subtitletag="h6"
+                titletag="h4"
+              >
+                
+                Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
+                nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
+                consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
+                ad sit ipsum anim Lorem.
+              
+              </bcardbody-stub>
+            </bcard-stub>
+          </bcardgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+     
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        md="6"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="footer"
+          headertag="header"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               List group 
+            </strong>
+            <small>
+              custom content
+            </small>
+          </div>
+           
+          <blistgroup-stub
+            tag="div"
+          >
+            <blistgroupitem-stub
+              active="true"
+              activeclass="active"
+              class="flex-column align-items-start"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              <div
+                class="d-flex w-100 justify-content-between"
+              >
+                <h5
+                  class="mb-1"
+                >
+                  List group item heading
+                </h5>
+                 
+                <small>
+                  3 days ago
+                </small>
+              </div>
+               
+              <p
+                class="mb-1"
+              >
+                
+                Donec id elit non mi porta gravida at eget metus. Maecenas
+                sed diam eget risus varius blandit.
+              
+              </p>
+               
+              <small>
+                Donec id elit non mi porta.
+              </small>
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              class="flex-column align-items-start"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              <div
+                class="d-flex w-100 justify-content-between"
+              >
+                <h5
+                  class="mb-1"
+                >
+                  List group item heading
+                </h5>
+                 
+                <small
+                  class="text-muted"
+                >
+                  3 days ago
+                </small>
+              </div>
+               
+              <p
+                class="mb-1"
+              >
+                
+                Donec id elit non mi porta gravida at eget metus. Maecenas
+                sed diam eget risus varius blandit.
+              
+              </p>
+               
+              <small
+                class="text-muted"
+              >
+                Donec id elit non mi porta.
+              </small>
+            </blistgroupitem-stub>
+             
+            <blistgroupitem-stub
+              activeclass="active"
+              class="flex-column align-items-start"
+              disabled="true"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="div"
+              target="_self"
+            >
+              <div
+                class="d-flex w-100 justify-content-between"
+              >
+                <h5
+                  class="mb-1"
+                >
+                  Disabled List group item
+                </h5>
+                 
+                <small
+                  class="text-muted"
+                >
+                  3 days ago
+                </small>
+              </div>
+               
+              <p
+                class="mb-1"
+              >
+                
+                Donec id elit non mi porta gravida at eget metus. Maecenas
+                sed diam eget risus varius blandit.
+              
+              </p>
+               
+              <small
+                class="text-muted"
+              >
+                Donec id elit non mi porta.
+              </small>
+            </blistgroupitem-stub>
+          </blistgroup-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+  </div>
+</div>
+`;

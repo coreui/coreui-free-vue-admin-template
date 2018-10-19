@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login.vue renders correctly 1`] = `
+<div
+  class="app flex-row align-items-center"
+>
+  <div
+    class="container"
+  >
+    <brow-stub
+      class="justify-content-center"
+      tag="div"
+    >
+      <bcol-stub
+        md="8"
+        tag="div"
+      >
+        <bcardgroup-stub
+          tag="div"
+        >
+          <bcard-stub
+            bodytag="div"
+            class="p-4"
+            footertag="div"
+            headertag="div"
+            nobody="true"
+            subtitletag="h6"
+            tag="div"
+            titletag="h4"
+          >
+            <bcardbody-stub
+              bodytag="div"
+              subtitletag="h6"
+              titletag="h4"
+            >
+              <bform-stub>
+                <h1>
+                  Login
+                </h1>
+                 
+                <p
+                  class="text-muted"
+                >
+                  Sign In to your account
+                </p>
+                 
+                <binputgroup-stub
+                  class="mb-3"
+                  tag="div"
+                >
+                  <binputgroupprepend-stub
+                    tag="div"
+                  >
+                    <binputgrouptext-stub
+                      tag="div"
+                    >
+                      <i
+                        class="icon-user"
+                      />
+                    </binputgrouptext-stub>
+                  </binputgroupprepend-stub>
+                   
+                  <bforminput-stub
+                    autocomplete="username email"
+                    class="form-control"
+                    placeholder="Username"
+                    type="text"
+                  />
+                </binputgroup-stub>
+                 
+                <binputgroup-stub
+                  class="mb-4"
+                  tag="div"
+                >
+                  <binputgroupprepend-stub
+                    tag="div"
+                  >
+                    <binputgrouptext-stub
+                      tag="div"
+                    >
+                      <i
+                        class="icon-lock"
+                      />
+                    </binputgrouptext-stub>
+                  </binputgroupprepend-stub>
+                   
+                  <bforminput-stub
+                    autocomplete="current-password"
+                    class="form-control"
+                    placeholder="Password"
+                    type="password"
+                  />
+                </binputgroup-stub>
+                 
+                <brow-stub
+                  tag="div"
+                >
+                  <bcol-stub
+                    cols="6"
+                    tag="div"
+                  >
+                    <bbutton-stub
+                      activeclass="active"
+                      class="px-4"
+                      event="click"
+                      exactactiveclass="active"
+                      routertag="a"
+                      target="_self"
+                      type="button"
+                      variant="primary"
+                    >
+                      Login
+                    </bbutton-stub>
+                  </bcol-stub>
+                   
+                  <bcol-stub
+                    class="text-right"
+                    cols="6"
+                    tag="div"
+                  >
+                    <bbutton-stub
+                      activeclass="active"
+                      class="px-0"
+                      event="click"
+                      exactactiveclass="active"
+                      routertag="a"
+                      target="_self"
+                      type="button"
+                      variant="link"
+                    >
+                      Forgot password?
+                    </bbutton-stub>
+                  </bcol-stub>
+                </brow-stub>
+              </bform-stub>
+            </bcardbody-stub>
+          </bcard-stub>
+           
+          <bcard-stub
+            bodytag="div"
+            class="text-white bg-primary py-5 d-md-down-none"
+            footertag="div"
+            headertag="div"
+            nobody="true"
+            subtitletag="h6"
+            tag="div"
+            titletag="h4"
+          >
+            <bcardbody-stub
+              bodytag="div"
+              class="text-center"
+              subtitletag="h6"
+              titletag="h4"
+            >
+              <div>
+                <h2>
+                  Sign up
+                </h2>
+                 
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                 
+                <bbutton-stub
+                  activeclass="active"
+                  class="active mt-3"
+                  event="click"
+                  exactactiveclass="active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="primary"
+                >
+                  Register Now!
+                </bbutton-stub>
+              </div>
+            </bcardbody-stub>
+          </bcard-stub>
+        </bcardgroup-stub>
+      </bcol-stub>
+    </brow-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tables.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctable-stub
+        caption=<i class='fa fa-align-justify'></i> Simple Table
+        fields="[object Object],[object Object],[object Object],[object Object]"
+        perpage="5"
+        tabledata="function someData() {
+    /* istanbul ignore next */cov_10ilegof86.f[1]++;
+    cov_10ilegof86.s[7]++;
+
+    return (0, _utils.shuffleArray)([{
+      username: 'Samppa Nori',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active',
+      _rowVariant: 'success'
+    }, {
+      username: 'Estavan Lykos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned',
+      _rowVariant: 'danger'
+    }, {
+      username: 'Chetan Mohamed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive',
+      _rowVariant: 'info'
+    }, {
+      username: 'Derick Maximinus',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Friderik Dávid',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Yiorgos Avraamu',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Avram Tarasios',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Quintin Ed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Enéas Kwadwo',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Agapetus Tadeáš',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Carwyn Fachtna',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Nehemiah Tatius',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Ebbe Gemariah',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Eustorgios Amulius',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Leopold Gáspár',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Pompeius René',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Paĉjo Jadon',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Micheal Mercurius',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Ganesha Dubhghall',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Hiroto Šimun',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Vishnu Serghei',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Zbyněk Phoibos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Einar Randall',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Félix Troels',
+      registered: '2012/03/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Aulus Agmundr',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Pending'
+    }]);
+  }"
+      />
+    </bcol-stub>
+     
+    <bcol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctable-stub
+        caption=<i class='fa fa-align-justify'></i> Striped Table
+        fields=""
+        perpage="5"
+        striped="true"
+        tabledata="function someData() {
+    /* istanbul ignore next */cov_10ilegof86.f[1]++;
+    cov_10ilegof86.s[7]++;
+
+    return (0, _utils.shuffleArray)([{
+      username: 'Samppa Nori',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active',
+      _rowVariant: 'success'
+    }, {
+      username: 'Estavan Lykos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned',
+      _rowVariant: 'danger'
+    }, {
+      username: 'Chetan Mohamed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive',
+      _rowVariant: 'info'
+    }, {
+      username: 'Derick Maximinus',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Friderik Dávid',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Yiorgos Avraamu',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Avram Tarasios',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Quintin Ed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Enéas Kwadwo',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Agapetus Tadeáš',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Carwyn Fachtna',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Nehemiah Tatius',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Ebbe Gemariah',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Eustorgios Amulius',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Leopold Gáspár',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Pompeius René',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Paĉjo Jadon',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Micheal Mercurius',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Ganesha Dubhghall',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Hiroto Šimun',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Vishnu Serghei',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Zbyněk Phoibos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Einar Randall',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Félix Troels',
+      registered: '2012/03/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Aulus Agmundr',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Pending'
+    }]);
+  }"
+      />
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctable-stub
+        caption=<i class='fa fa-align-justify'></i> Condensed Table
+        fields=""
+        perpage="5"
+        small="true"
+        tabledata="function someData() {
+    /* istanbul ignore next */cov_10ilegof86.f[1]++;
+    cov_10ilegof86.s[7]++;
+
+    return (0, _utils.shuffleArray)([{
+      username: 'Samppa Nori',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active',
+      _rowVariant: 'success'
+    }, {
+      username: 'Estavan Lykos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned',
+      _rowVariant: 'danger'
+    }, {
+      username: 'Chetan Mohamed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive',
+      _rowVariant: 'info'
+    }, {
+      username: 'Derick Maximinus',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Friderik Dávid',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Yiorgos Avraamu',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Avram Tarasios',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Quintin Ed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Enéas Kwadwo',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Agapetus Tadeáš',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Carwyn Fachtna',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Nehemiah Tatius',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Ebbe Gemariah',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Eustorgios Amulius',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Leopold Gáspár',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Pompeius René',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Paĉjo Jadon',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Micheal Mercurius',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Ganesha Dubhghall',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Hiroto Šimun',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Vishnu Serghei',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Zbyněk Phoibos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Einar Randall',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Félix Troels',
+      registered: '2012/03/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Aulus Agmundr',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Pending'
+    }]);
+  }"
+      />
+    </bcol-stub>
+     
+    <bcol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctable-stub
+        bordered="true"
+        caption=<i class='fa fa-align-justify'></i> Bordered Table
+        fields=""
+        fixed="true"
+        perpage="5"
+        tabledata="function someData() {
+    /* istanbul ignore next */cov_10ilegof86.f[1]++;
+    cov_10ilegof86.s[7]++;
+
+    return (0, _utils.shuffleArray)([{
+      username: 'Samppa Nori',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active',
+      _rowVariant: 'success'
+    }, {
+      username: 'Estavan Lykos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned',
+      _rowVariant: 'danger'
+    }, {
+      username: 'Chetan Mohamed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive',
+      _rowVariant: 'info'
+    }, {
+      username: 'Derick Maximinus',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Friderik Dávid',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Yiorgos Avraamu',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Avram Tarasios',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Quintin Ed',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Enéas Kwadwo',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Agapetus Tadeáš',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Carwyn Fachtna',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Nehemiah Tatius',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Ebbe Gemariah',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Eustorgios Amulius',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Leopold Gáspár',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Pompeius René',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Paĉjo Jadon',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Micheal Mercurius',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Ganesha Dubhghall',
+      registered: '2012/03/01',
+      role: 'Member',
+      status: 'Pending'
+    }, {
+      username: 'Hiroto Šimun',
+      registered: '2012/01/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Vishnu Serghei',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Active'
+    }, {
+      username: 'Zbyněk Phoibos',
+      registered: '2012/02/01',
+      role: 'Staff',
+      status: 'Banned'
+    }, {
+      username: 'Einar Randall',
+      registered: '2012/02/01',
+      role: 'Admin',
+      status: 'Inactive'
+    }, {
+      username: 'Félix Troels',
+      registered: '2012/03/21',
+      role: 'Staff',
+      status: 'Active'
+    }, {
+      username: 'Aulus Agmundr',
+      registered: '2012/01/01',
+      role: 'Member',
+      status: 'Pending'
+    }]);
+  }"
+      />
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      sm="12"
+      tag="div"
+    >
+      <ctable-stub
+        bordered="true"
+        caption=<i class='fa fa-align-justify'></i> Combined All Table
+        fields=""
+        fixed="true"
+        hover="true"
+        perpage="10"
+        small="true"
+        striped="true"
+        tabledata="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      />
+    </bcol-stub>
+  </brow-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      sm="12"
+      tag="div"
+    >
+      <ctable-stub
+        bordered="true"
+        caption=<i class='fa fa-align-justify'></i> Dark Table
+        dark="true"
+        fields=""
+        fixed="true"
+        hover="true"
+        perpage="10"
+        small="true"
+        striped="true"
+        tabledata="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      />
+    </bcol-stub>
+  </brow-stub>
+</div>
+`;

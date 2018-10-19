@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modals.vue renders correctly 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="animated fadeIn"
+  >
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        cols="12"
+        tag="div"
+      >
+        <bcard-stub
+          bodytag="div"
+          footertag="div"
+          header=<i class='fa fa-align-justify'></i> Bootstrap Modals
+          headertag="div"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Launch demo modal
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Launch large modal
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Launch small modal
+          </bbutton-stub>
+           
+          <hr />
+           
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Launch primary modal
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Launch success modal
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Launch warning modal
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Launch danger modal
+          </bbutton-stub>
+           
+          <bbutton-stub
+            activeclass="active"
+            class="mr-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Launch info modal
+          </bbutton-stub>
+        </bcard-stub>
+      </bcol-stub>
+    </brow-stub>
+  </div>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="primary"
+    size="md"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="primary"
+    size="lg"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="primary"
+    size="sm"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    class="modal-primary"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="primary"
+    size="md"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    class="modal-success"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="success"
+    size="md"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    class="modal-warning"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="warning"
+    size="md"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    class="modal-danger"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="danger"
+    size="md"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+   
+  <bmodal-stub
+    buttonsize=""
+    canceltitle="Cancel"
+    cancelvariant="secondary"
+    class="modal-info"
+    headercloselabel="Close"
+    oktitle="OK"
+    okvariant="info"
+    size="md"
+    title="Modal title"
+    titletag="h5"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </bmodal-stub>
+</div>
+`;

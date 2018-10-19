@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Tabs
+        
+        </div>
+         
+        <btabs-stub
+          tag="div"
+        >
+          <btab-stub
+            active="true"
+            buttonid=""
+            href="#"
+            tag="div"
+            title="Home"
+          >
+            <br />
+             1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+           
+          <btab-stub
+            buttonid=""
+            href="#"
+            tag="div"
+            title="Profile"
+          >
+            <br />
+            2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+           
+          <btab-stub
+            buttonid=""
+            disabled="true"
+            href="#"
+            tag="div"
+            title="Disabled"
+          >
+            <br />
+            3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+        </btabs-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Tabs with icons
+        
+        </div>
+         
+        <btabs-stub
+          tag="div"
+        >
+          <btab-stub
+            active="true"
+            buttonid=""
+            href="#"
+            tag="div"
+            title=""
+          >
+            <template>
+              <i
+                class="icon-calculator"
+              />
+            </template>
+             
+            <br />
+             1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+           
+          <btab-stub
+            buttonid=""
+            href="#"
+            tag="div"
+            title=""
+          >
+            <template>
+              <i
+                class="icon-basket-loaded"
+              />
+            </template>
+             
+            <br />
+            2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+           
+          <btab-stub
+            buttonid=""
+            href="#"
+            tag="div"
+            title=""
+          >
+            <template>
+              <i
+                class="icon-pie-chart"
+              />
+            </template>
+             
+            <br />
+            3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+        </btabs-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Tabs with icons
+        
+        </div>
+         
+        <btabs-stub
+          tag="div"
+          value="0"
+        >
+          <btab-stub
+            active="true"
+            buttonid=""
+            href="#"
+            tag="div"
+            title=""
+          >
+            <template>
+              <i
+                class="icon-calculator"
+              />
+               Calculator
+            
+            </template>
+             
+            <br />
+             1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+           
+          <btab-stub
+            buttonid=""
+            href="#"
+            tag="div"
+            title=""
+          >
+            <template>
+              <i
+                class="icon-basket-loaded"
+              />
+               Shopping cart
+            
+            </template>
+             
+            <br />
+            2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+           
+          <btab-stub
+            buttonid=""
+            href="#"
+            tag="div"
+            title=""
+          >
+            <template>
+              <i
+                class="icon-pie-chart"
+              />
+               Charts
+            
+            </template>
+             
+            <br />
+            3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+          </btab-stub>
+        </btabs-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          
+          Tabs vertical
+        
+        </div>
+         
+        <bcard-stub
+          bodytag="div"
+          footertag="div"
+          headertag="div"
+          nobody="true"
+          subtitletag="h6"
+          tag="div"
+          titletag="h4"
+        >
+          <btabs-stub
+            card="true"
+            navwrapperclass="w-40"
+            pills="true"
+            tag="div"
+            value="0"
+            vertical="true"
+          >
+            <btab-stub
+              active="true"
+              buttonid=""
+              href="#"
+              tag="div"
+              title=""
+            >
+              <template>
+                <i
+                  class="icon-calculator"
+                />
+                 Calculator
+            
+              </template>
+              
+            1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+            </btab-stub>
+             
+            <btab-stub
+              buttonid=""
+              href="#"
+              tag="div"
+              title=""
+            >
+              <template>
+                <i
+                  class="icon-basket-loaded"
+                />
+                 Shopping cart
+            
+              </template>
+              
+            2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+            </btab-stub>
+             
+            <btab-stub
+              buttonid=""
+              href="#"
+              tag="div"
+              title=""
+            >
+              <template>
+                <i
+                  class="icon-pie-chart"
+                />
+                 Charts
+            
+              </template>
+              
+            3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          
+            </btab-stub>
+          </btabs-stub>
+        </bcard-stub>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+</div>
+`;

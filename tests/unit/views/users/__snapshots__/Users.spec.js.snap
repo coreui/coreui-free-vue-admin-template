@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users.vue renders correctly 1`] = `
+<brow-stub
+  tag="div"
+>
+  <bcol-stub
+    cols="12"
+    tag="div"
+    xl="6"
+  >
+    <bcard-stub
+      bodytag="div"
+      footertag="div"
+      header="Users"
+      headertag="div"
+      name="slide"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <btable-stub
+        apiurl=""
+        currentpage="1"
+        emptyfilteredtext="There are no records matching your request"
+        emptytext="There are no records to show"
+        fields="[object Object],[object Object],[object Object],[object Object],[object Object]"
+        footvariant=""
+        headvariant=""
+        hover="true"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        labelsortasc="Click to sort Ascending"
+        labelsortdesc="Click to sort Descending"
+        perpage="5"
+        responsive="sm"
+        sortdirection="asc"
+        striped="true"
+        value=""
+      />
+       
+      <nav>
+        <bpagination-stub
+          hide-goto-end-buttons=""
+          next-text="Next"
+          perpage="5"
+          prev-text="Prev"
+          size="sm"
+          totalrows="26"
+        />
+      </nav>
+    </bcard-stub>
+  </bcol-stub>
+</brow-stub>
+`;

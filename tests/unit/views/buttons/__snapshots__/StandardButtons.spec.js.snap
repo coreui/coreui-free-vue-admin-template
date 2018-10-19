@@ -1,0 +1,4397 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StandardButtons.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <strong>
+        Standard buttons
+      </strong>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <brow-stub
+        class="align-items-center"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Normal
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Active State
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Disabled
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+   
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <strong>
+        Outline Buttons
+      </strong>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <p>
+        
+        Use 
+        <code>
+          variant="outline-*"
+        </code>
+         prop
+      
+      </p>
+       
+      <brow-stub
+        class="align-items-center"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Normal
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        />
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Active State
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        />
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Disabled
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        />
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+   
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <strong>
+        Ghost Buttons
+      </strong>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <p>
+        
+        Use
+        
+        <code>
+          .btn-ghost-*
+        </code>
+         class for ghost buttons.
+      
+      </p>
+       
+      <brow-stub
+        class="align-items-center"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Normal
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        />
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Active State
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        />
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Disabled
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        />
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+   
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <strong>
+        Square Buttons
+      </strong>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <p>
+        
+        Use
+        
+        <code>
+          .btn-square
+        </code>
+         class for square buttons.
+      
+      </p>
+       
+      <brow-stub
+        class="align-items-center"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Normal
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Active State
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Disabled
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-square"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+   
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <strong>
+        Pill Buttons
+      </strong>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <p>
+        
+        Use
+        
+        <code>
+          .btn-pill
+        </code>
+         class for pill buttons.
+      
+      </p>
+       
+      <brow-stub
+        class="align-items-center"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Normal
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Active State
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            aria-pressed="true"
+            block="true"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            pressed="true"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="12"
+          tag="div"
+          xl="true"
+        >
+          
+          Disabled
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Primary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            Secondary
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="success"
+          >
+            Success
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Warning
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Danger
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            Info
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="light"
+          >
+            Light
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="dark"
+          >
+            Dark
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="6"
+          md="2"
+          sm="4"
+          tag="div"
+          xl="true"
+        >
+          <bbutton-stub
+            activeclass="active"
+            block="true"
+            class="btn-pill"
+            disabled="true"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="link"
+          >
+            Link
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+   
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <strong>
+        Sizes
+      </strong>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <p>
+        Fancy larger or smaller buttons? Add 
+        <code>
+          size="lg"
+        </code>
+         or 
+        <code>
+          size="sm"
+        </code>
+         for additional sizes.
+      </p>
+       
+      <brow-stub
+        class="align-items-center"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="2"
+          tag="div"
+          xl="true"
+        >
+          
+          Small
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Standard Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="outline-secondary"
+          >
+            Outline Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="ghost-success"
+          >
+            Ghost Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Square Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="sm"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Pill Button
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="2"
+          tag="div"
+          xl="true"
+        >
+          
+          Normal
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Standard Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="outline-secondary"
+          >
+            Outline Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-success"
+          >
+            Ghost Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Square Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Pill Button
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+       
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="mb-3 mb-xl-0"
+          cols="2"
+          tag="div"
+          xl="true"
+        >
+          
+          Large
+        
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="lg"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            Standard Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="lg"
+            target="_self"
+            type="button"
+            variant="outline-secondary"
+          >
+            Outline Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="lg"
+            target="_self"
+            type="button"
+            variant="ghost-success"
+          >
+            Ghost Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="lg"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            Square Button
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="mb-3 mb-xl-0 text-center"
+          cols="2"
+          tag="div"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            size="lg"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            Pill Button
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+   
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    nobody="true"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <bcardheader-stub
+      headertag="div"
+    >
+      <strong>
+        With Icons
+      </strong>
+    </bcardheader-stub>
+     
+    <bcardbody-stub
+      bodytag="div"
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <brow-stub
+        class="align-items-center mt-3"
+        tag="div"
+      >
+        <bcol-stub
+          class="text-center mt-3"
+          sm="true"
+          tag="div"
+          xs="12"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            <i
+              class="fa fa-lightbulb-o"
+            />
+             Standard Button
+          
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="text-center mt-3"
+          sm="true"
+          tag="div"
+          xs="12"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            outline=""
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="secondary"
+          >
+            <i
+              class="fa fa-lightbulb-o"
+            />
+             Outline Button
+          
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="text-center mt-3"
+          sm="true"
+          tag="div"
+          xs="12"
+        >
+          <bbutton-stub
+            activeclass="active"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="ghost-success"
+          >
+            <i
+              class="fa fa-lightbulb-o"
+            />
+             Ghost Button
+          
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="text-center mt-3"
+          sm="true"
+          tag="div"
+          xs="12"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-square"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="warning"
+          >
+            <i
+              class="fa fa-lightbulb-o"
+            />
+             Square Button
+          
+          </bbutton-stub>
+        </bcol-stub>
+         
+        <bcol-stub
+          class="text-center mt-3"
+          sm="true"
+          tag="div"
+          xs="12"
+        >
+          <bbutton-stub
+            activeclass="active"
+            class="btn-pill"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="danger"
+          >
+            <i
+              class="fa fa-lightbulb-o"
+            />
+             Pill Button
+          
+          </bbutton-stub>
+        </bcol-stub>
+      </brow-stub>
+    </bcardbody-stub>
+  </bcard-stub>
+   
+  <bcard-stub
+    bodytag="div"
+    footertag="div"
+    headertag="div"
+    subtitletag="h6"
+    tag="div"
+    titletag="h4"
+  >
+    <div
+      slot="header"
+    >
+      <strong>
+        Toggle pressed state
+      </strong>
+    </div>
+     
+    <brow-stub
+      tag="div"
+    >
+      <bcol-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="outline-primary"
+        >
+          Primary Off
+        </bbutton-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="outline-secondary"
+        >
+          Secondary Off
+        </bbutton-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="outline-success"
+        >
+          Success Off
+        </bbutton-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="outline-info"
+        >
+          Info Off
+        </bbutton-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="outline-warning"
+        >
+          Warning Off
+        </bbutton-stub>
+      </bcol-stub>
+       
+      <bcol-stub
+        class="text-center mt-3"
+        sm="true"
+        tag="div"
+        xs="12"
+      >
+        <bbutton-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="outline-danger"
+        >
+          Danger Off
+        </bbutton-stub>
+      </bcol-stub>
+    </brow-stub>
+  </bcard-stub>
+   
+  <brow-stub
+    tag="div"
+  >
+    <bcol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Block Level b-buttons
+          </strong>
+           
+          <small>
+            Add this 
+            <code>
+              block
+            </code>
+          </small>
+        </div>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="secondary"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="primary"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="success"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="info"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="warning"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="danger"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="link"
+        >
+          Block level button
+        </bbutton-stub>
+      </bcard-stub>
+    </bcol-stub>
+     
+    <bcol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <bcard-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <div
+          slot="header"
+        >
+          <strong>
+            Block Level b-buttons
+          </strong>
+           
+          <small>
+            Add this 
+            <code>
+              block
+            </code>
+          </small>
+        </div>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="outline-secondary"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="outline-primary"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="outline-success"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="outline-info"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="outline-warning"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="outline-danger"
+        >
+          Block level button
+        </bbutton-stub>
+         
+        <bbutton-stub
+          activeclass="active"
+          block="true"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          size="lg"
+          target="_self"
+          type="button"
+          variant="ghost-info"
+        >
+          Block level button
+        </bbutton-stub>
+      </bcard-stub>
+    </bcol-stub>
+  </brow-stub>
+</div>
+`;

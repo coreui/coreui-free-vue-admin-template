@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultContainer.vue renders correctly 1`] = `
+<div
+  class="app"
+>
+  <appheader-stub
+    fixed="true"
+  >
+    <sidebartoggler-stub
+      class="d-lg-none"
+      defaultopen="true"
+      display="md"
+      mobile="true"
+    />
+     
+    <blink-stub
+      activeclass="active"
+      class="navbar-brand"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      target="_self"
+      to="#"
+    >
+      <img
+        alt="CoreUI Logo"
+        class="navbar-brand-full"
+        height="25"
+        src="img/brand/logo.svg"
+        width="89"
+      />
+       
+      <img
+        alt="CoreUI Logo"
+        class="navbar-brand-minimized"
+        height="30"
+        src="img/brand/sygnet.svg"
+        width="30"
+      />
+    </blink-stub>
+     
+    <sidebartoggler-stub
+      class="d-md-down-none"
+      defaultopen="true"
+      display="lg"
+    />
+     
+    <bnavbarnav-stub
+      class="d-md-down-none"
+      tag="ul"
+    >
+      <bnavitem-stub
+        activeclass="active"
+        class="px-3"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+        to="/dashboard"
+      >
+        Dashboard
+      </bnavitem-stub>
+       
+      <bnavitem-stub
+        activeclass="active"
+        class="px-3"
+        event="click"
+        exact="true"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+        to="/users"
+      >
+        Users
+      </bnavitem-stub>
+       
+      <bnavitem-stub
+        activeclass="active"
+        class="px-3"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        Settings
+      </bnavitem-stub>
+    </bnavbarnav-stub>
+     
+    <bnavbarnav-stub
+      class="ml-auto"
+      tag="ul"
+    >
+      <bnavitem-stub
+        activeclass="active"
+        class="d-md-down-none"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        <i
+          class="icon-bell"
+        />
+         
+        <bbadge-stub
+          activeclass="active"
+          event="click"
+          exactactiveclass="active"
+          pill="true"
+          routertag="a"
+          tag="span"
+          target="_self"
+          variant="danger"
+        >
+          5
+        </bbadge-stub>
+      </bnavitem-stub>
+       
+      <bnavitem-stub
+        activeclass="active"
+        class="d-md-down-none"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        <i
+          class="icon-list"
+        />
+      </bnavitem-stub>
+       
+      <bnavitem-stub
+        activeclass="active"
+        class="d-md-down-none"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        <i
+          class="icon-location-pin"
+        />
+      </bnavitem-stub>
+       
+      <defaultheaderdropdownaccnt-stub />
+    </bnavbarnav-stub>
+     
+    <asidetoggler-stub
+      class="d-none d-lg-block"
+      display="lg"
+    />
+  </appheader-stub>
+   
+  <div
+    class="app-body"
+  >
+    <appsidebar-stub
+      fixed="true"
+    >
+      <sidebarheader-stub />
+       
+      <sidebarform-stub />
+       
+      <sidebarnav-stub
+        navitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      />
+       
+      <sidebarfooter-stub />
+       
+      <sidebarminimizer-stub />
+    </appsidebar-stub>
+     
+    <main
+      class="main"
+    >
+      <breadcrumb-stub
+        list=""
+      />
+       
+      <div
+        class="container-fluid"
+      >
+        <router-view-stub
+          name="default"
+        />
+      </div>
+    </main>
+     
+    <appaside-stub
+      display=""
+      fixed="true"
+      offcanvas="true"
+    >
+      <defaultaside-stub />
+    </appaside-stub>
+  </div>
+   
+  <thefooter-stub>
+    <div>
+      <a
+        href="https://coreui.io"
+      >
+        CoreUI
+      </a>
+       
+      <span
+        class="ml-1"
+      >
+        © 2018 creativeLabs.
+      </span>
+    </div>
+     
+    <div
+      class="ml-auto"
+    >
+      <span
+        class="mr-1"
+      >
+        Powered by
+      </span>
+       
+      <a
+        href="https://coreui.io"
+      >
+        CoreUI for Vue
+      </a>
+    </div>
+  </thefooter-stub>
+</div>
+`;

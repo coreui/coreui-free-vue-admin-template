@@ -1,0 +1,842 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards.vue renders correctly 1`] = `
+<div
+  class="animated fadeIn"
+>
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card title
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card"
+        show-footer=""
+      >
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        
+        </div>
+        <div
+          class="card-footer"
+        >
+          <div>
+            Card footer
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            <i
+              class="fa fa-check"
+            />
+             Card with icon
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            
+          Card with switch
+          
+            <label
+              class="switch switch-sm switch-text switch-info float-right mb-0"
+            >
+              <input
+                class="switch-input"
+                type="checkbox"
+              />
+               
+              <span
+                class="switch-label"
+                data-off="Off"
+                data-on="On"
+              />
+               
+              <span
+                class="switch-handle"
+              />
+            </label>
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            
+          Card with label
+          
+            <span
+              class="badge float-right badge-success"
+            >
+              Success
+            </span>
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            
+          Card with label
+          
+            <span
+              class="badge float-right badge-danger badge-pill"
+            >
+              42
+            </span>
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card border-primary"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card outline primary
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card border-secondary"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card outline secondary
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card border-success"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card outline success
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card border-info"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card outline info
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card border-warning"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card outline warning
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card border-danger"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card outline danger
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card card-accent-primary"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card with primary accent
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card card-accent-secondary"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card with secondary accent
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card card-accent-success"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card with success accent
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card card-accent-info"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card with info accent
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card card-accent-warning"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card with warning accent
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card card-accent-danger"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card with danger accent
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-primary text-center"
+      >
+        <div
+          class="card-body"
+        >
+          <blockquote
+            class="card-blockquote"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            </p>
+             
+            <footer>
+              Someone famous in
+            
+              <cite
+                title="Source Title"
+              >
+                Source Title
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-success text-center"
+      >
+        <div
+          class="card-body"
+        >
+          <blockquote
+            class="card-blockquote"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            </p>
+             
+            <footer>
+              Someone famous in
+            
+              <cite
+                title="Source Title"
+              >
+                Source Title
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-info text-center"
+      >
+        <div
+          class="card-body"
+        >
+          <blockquote
+            class="card-blockquote"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            </p>
+             
+            <footer>
+              Someone famous in
+            
+              <cite
+                title="Source Title"
+              >
+                Source Title
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-warning text-center"
+      >
+        <div
+          class="card-body"
+        >
+          <blockquote
+            class="card-blockquote"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            </p>
+             
+            <footer>
+              Someone famous in
+            
+              <cite
+                title="Source Title"
+              >
+                Source Title
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-danger text-center"
+      >
+        <div
+          class="card-body"
+        >
+          <blockquote
+            class="card-blockquote"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            </p>
+             
+            <footer>
+              Someone famous in
+            
+              <cite
+                title="Source Title"
+              >
+                Source Title
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-secondary text-center"
+      >
+        <div
+          class="card-body"
+        >
+          <blockquote
+            class="card-blockquote"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            </p>
+             
+            <footer>
+              Someone famous in
+            
+              <cite
+                title="Source Title"
+              >
+                Source Title
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-primary"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card title
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-success"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card title
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-info"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card title
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-warning"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card title
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-danger"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            Card title
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="col-sm-6 col-md-4"
+    >
+      <div
+        class="card bg-secondary"
+        name="fade"
+      >
+        <div
+          class="card-header"
+        >
+          <div>
+            
+            Card with header actions
+            
+            <div
+              class="card-header-actions"
+            >
+              <a
+                class="card-header-action btn-setting"
+                href="#"
+                target="_self"
+              >
+                <i
+                  class="icon-settings"
+                />
+              </a>
+               
+              <a
+                aria-controls="collapse1"
+                aria-expanded="true"
+                class="card-header-action btn-minimize"
+                href="#"
+                role="button"
+                target="_self"
+              >
+                <i
+                  class="icon-arrow-up"
+                />
+              </a>
+               
+              <a
+                class="card-header-action btn-close"
+                href="#"
+                target="_self"
+              >
+                <i
+                  class="icon-close"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="collapse show"
+          id="collapse1"
+        >
+          <div
+            class="card-body"
+          >
+            
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
