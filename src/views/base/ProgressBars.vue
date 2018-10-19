@@ -185,14 +185,17 @@ export default {
       this.counter = Math.random() * this.max
       console.log('Change progress to ' +
           Math.round(this.counter * 100) / 100)
+    },
+    setClock() {
+      this.timer = setInterval(() => {
+        this.bars.forEach(bar => {
+          bar.value = 25 + (Math.random() * 75)
+        })
+      }, 2000)
     }
   },
   mounted () {
-    this.timer = setInterval(() => {
-      this.bars.forEach(bar => {
-        bar.value = 25 + (Math.random() * 75)
-      })
-    }, 2000)
+    this.setClock()
   },
   beforeDestroy () {
     clearInterval(this.timer)
