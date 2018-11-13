@@ -36,6 +36,8 @@ module.exports = {
       .assert.elementCount('button', 10)
       .resizeWindow(1024, 800)
       .pause(500)
+      .assert.cssClassNotPresent('body', 'aside-menu-show')
+      .assert.cssClassNotPresent('body', 'aside-menu-lg-show')
 
     browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
       console.log('response', typeof response)
