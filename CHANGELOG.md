@@ -1,5 +1,17 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.0.3`
+- test(init): update Tables snapshot
+- test(e2e): add `aside-menu-*-show` testing
+- chore: update `@coreui/coreui` to `2.1.0`
+- chore: update `css-vars-ponyfill` to `1.15.0`
+- chore: update `@vue/cli-plugin-babel` to `3.1.1`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.1.1`
+- chore: update `@vue/cli-plugin-eslint` to `3.1.5`
+- chore: update `@vue/cli-plugin-unit-jest` to `3.1.1`
+- chore: update `@vue/cli-service` to `3.1.4`
+- chore: update `node-sass` to `4.10.0`
+
 ##### `v2.0.2`
 - refactor: extract random() to `shared/utils`
 - refactor: extract shuffleArray() to shared/utils
