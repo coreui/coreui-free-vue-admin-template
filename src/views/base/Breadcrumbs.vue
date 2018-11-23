@@ -14,7 +14,11 @@
                 </a>
               </div>
             </div>
-            <b-breadcrumb :items="items"/>
+            <CBreadcrumb :items="items"/>
+            <CBreadcrumb :items="items2"/>
+            <CBreadcrumb :items="items3"/>
+            <Breadcrumb :list="items3"/>
+
           </b-card>
         </b-col>
       </b-row>
@@ -23,8 +27,12 @@
 </template>
 
 <script>
+// import CBreadcrumb from './CBreadcrumb'
 export default {
   name: 'breadcrumbs',
+  // components: {
+  //   CBreadcrumb
+  // },
   data () {
     return {
       items: [{
@@ -34,8 +42,33 @@ export default {
         text: 'Manage',
         href: '#'
       }, {
-        text: 'Library',
-        active: true
+        text: 'Library'
+      }],
+      items2: [{
+        text: 'Go to dashboard',
+        to: '/dashboard'
+      }, {
+        text: 'Go to widgets',
+        to: '/Widgets'
+      }, {
+        text: 'Go to Google',
+        href: 'http://google.com'
+      },{
+        text: 'Current page'
+      }],
+      items3: ['sd', {
+        text: 'Link',
+        to: '#2',
+        activeClass: 'bg-info p-1'
+      }, {
+        text: 'Active',
+        to: '#3',
+        activeClass: 'bg-warning p-1'
+      },{
+        text: 'Classes',
+        to: '#4',
+        activeClass: 'bg-danger p-1',
+        current: false
       }]
     }
   }

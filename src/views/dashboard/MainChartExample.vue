@@ -1,5 +1,5 @@
 <script>
-import { Line } from 'vue-chartjs'
+import { Line } from '@coreui/vue/src/extends/BaseCharts'
 import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 

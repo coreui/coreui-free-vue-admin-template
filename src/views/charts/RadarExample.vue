@@ -1,5 +1,5 @@
 <script>
-import { Radar } from 'vue-chartjs'
+import { Radar } from '@coreui/vue/src/extends/BaseCharts'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 
 export default {

@@ -3,7 +3,7 @@
 
     <b-row>
       <b-col lg="6">
-        <c-table caption="<i class='fa fa-align-justify'></i> Simple Table"></c-table>
+        <c-table caption="<i class='fa fa-align-justify' items='{username: 'Samppa Nori', registered: '2012/01/01', role: 'Member', status: 'Active'}' ></i> Simple Table"></c-table>
       </b-col><!--/.col-->
 
       <b-col lg="6">

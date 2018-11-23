@@ -33,12 +33,20 @@
                 <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
               </b-nav-form>
 
-              <b-nav-item-dropdown text="Lang" right>
-                <b-dropdown-item href="#">EN</b-dropdown-item>
-                <b-dropdown-item href="#">ES</b-dropdown-item>
-                <b-dropdown-item href="#">RU</b-dropdown-item>
-                <b-dropdown-item href="#">FA</b-dropdown-item>
-              </b-nav-item-dropdown>
+              <c-nav-item-dropdown text="Lang">
+                <!-- <template slot="button-content">
+                  <img
+                    src="img/avatars/6.jpg"
+                    class="img-avatar"
+                    alt="admin@bootstrapmaster.com" />
+                </template> -->
+                <template slot="dropdown">
+                  <a href="#" class='dropdown-item'>EN</a>
+                  <a href="#" class='dropdown-item'>ES</a>
+                  <a href="#" class='dropdown-item'>RU</a>
+                  <a href="#" class='dropdown-item'>FA</a>
+                </template>
+              </c-nav-item-dropdown>
 
               <b-nav-item-dropdown right>
                 <!-- Using button-content slot -->
@@ -157,8 +165,12 @@
 </template>
 
 <script>
+import CNavItemDropdown from './CNavItemDropdown'
+
 export default {
-  name: 'navbars'
+  name: 'navbars',
+  components:{
+    CNavItemDropdown
+  }
 }
 </script>
-

@@ -233,6 +233,6 @@
 
 <script>
 export default {
-  name: 'dropdowns'
+  name: 'Dropdowns'
 }
 </script>

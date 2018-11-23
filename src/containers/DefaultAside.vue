@@ -102,7 +102,7 @@
           <div class="py-3 pb-5 mr-3 float-left">
             <div class="avatar">
               <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-              <b-badge variant="success" class="avatar-status"></b-badge>
+              <CBadge variant="success" class="avatar-status"/>
             </div>
           </div>
           <div>
@@ -117,7 +117,7 @@
           <div class="py-3 pb-5 mr-3 float-left">
             <div class="avatar">
               <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-              <b-badge variant="danger" class="avatar-status"></b-badge>
+              <c-badge variant="danger" class="avatar-status"></c-badge>
             </div>
           </div>
           <div>
@@ -132,7 +132,7 @@
           <div class="py-3 pb-5 mr-3 float-left">
             <div class="avatar">
               <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-              <b-badge variant="info" class="avatar-status"></b-badge>
+              <c-badge variant="info" class="avatar-status"></c-badge>
             </div>
           </div>
           <div>
@@ -147,7 +147,7 @@
           <div class="py-3 pb-5 mr-3 float-left">
             <div class="avatar">
               <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-              <b-badge variant="warning" class="avatar-status"></b-badge>
+              <c-badge variant="warning" class="avatar-status"></c-badge>
             </div>
           </div>
           <div>
@@ -162,7 +162,7 @@
           <div class="py-3 pb-5 mr-3 float-left">
             <div class="avatar">
               <img src="img/avatars/7.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-              <b-badge variant="dark" class="avatar-status"></b-badge>
+              <c-badge variant="dark" class="avatar-status"></c-badge>
             </div>
           </div>
           <div>

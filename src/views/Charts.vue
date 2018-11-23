@@ -2,34 +2,35 @@
   <div class="animated fadeIn">
     <b-card-group columns class="card-columns">
       <b-card header="Line Chart">
-        <div class="chart-wrapper">
-          <line-example chartId="chart-line-01"/>
-        </div>
+        <line-example/>
       </b-card>
       <b-card header="Bar Chart">
-        <div class="chart-wrapper">
-          <bar-example chartId="chart-bar-01"/>
-        </div>
+        <bar-example/>
       </b-card>
       <b-card header="Doughnut Chart">
-        <div class="chart-wrapper">
-          <doughnut-example chartId="chart-doughnut-01"/>
-        </div>
+        <doughnut-example/>
       </b-card>
       <b-card header="Radar Chart">
-        <div class="chart-wrapper">
-          <radar-example chartId="chart-radar-01"/>
-        </div>
+        <radar-example/>
       </b-card>
       <b-card header="Pie Chart">
-        <div class="chart-wrapper">
-          <pie-example chartId="chart-pie-01"/>
-        </div>
+        <pie-example/>
       </b-card>
       <b-card header="Polar Area Chart">
-        <div class="chart-wrapper">
-          <polar-area-example chartId="chart-polar-area-01"/>
-        </div>
+        <polar-area-example/>
+      </b-card>
+      <b-card header="Simple line chart">
+        <c-simple-line-chart style="height:80px" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
+                     label='Sales' borderColor='success'/>
+      </b-card>
+      <b-card header="Simple pointed chart">
+        <c-simple-pointed-chart class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
+                     :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
+                     style='height:80px' label='Members' pointHoverColor='warning' borderColor='warning'/>
+      </b-card>
+      <b-card header="Simple bar chart">
+        <c-simple-bar-chart style="height:80px" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
+                    label='Sales' color='danger'/>
       </b-card>
     </b-card-group>
   </div>
@@ -43,7 +44,7 @@ import PieExample from './charts/PieExample'
 import PolarAreaExample from './charts/PolarAreaExample'
 
 export default {
-  name: 'charts',
+  name: 'Charts',
   components: {
     BarExample,
     LineExample,

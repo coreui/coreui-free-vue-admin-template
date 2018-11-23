@@ -1,5 +1,5 @@
 <script>
-import { Pie } from 'vue-chartjs'
+import { Pie } from '@coreui/vue/src/extends/BaseCharts'
 
 export default {
   extends: Pie,

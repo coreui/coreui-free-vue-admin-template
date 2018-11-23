@@ -1,8 +1,9 @@
 <script>
-import { Line } from 'vue-chartjs'
+import { Line } from '@coreui/vue/src/extends/BaseCharts'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 
 export default {
+  name: 'SocialBoxChartExample',
   extends: Line,
   props: {
     data: {

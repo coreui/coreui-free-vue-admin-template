@@ -37,7 +37,7 @@
         <SidebarMinimizer/>
       </AppSidebar>
       <main class="main">
-        <Breadcrumb :list="list"/>
+        <CBreadcrumbRouter/>
         <div class="container-fluid">
           <router-view></router-view>
         </div>
@@ -63,7 +63,7 @@
 
 <script>
 import nav from '@/_nav'
-import { Header as AppHeader, SidebarToggler, Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, AsideToggler, Footer as TheFooter, Breadcrumb } from '@coreui/vue'
+import { Header as AppHeader, SidebarToggler, Sidebar as AppSidebar, SidebarFooter,SidebarNav, SidebarForm, SidebarHeader, SidebarMinimizer, Aside as AppAside, AsideToggler, Footer as TheFooter } from '@coreui/vue'
 import DefaultAside from './DefaultAside'
 import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
 
@@ -75,7 +75,6 @@ export default {
     AppSidebar,
     AppAside,
     TheFooter,
-    Breadcrumb,
     DefaultAside,
     DefaultHeaderDropdownAccnt,
     SidebarForm,
@@ -88,14 +87,6 @@ export default {
   data () {
     return {
       nav: nav.items
-    }
-  },
-  computed: {
-    name () {
-      return this.$route.name
-    },
-    list () {
-      return this.$route.matched.filter((route) => route.name || route.meta.label )
     }
   }
 }

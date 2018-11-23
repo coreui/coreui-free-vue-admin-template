@@ -1,5 +1,5 @@
 <script>
-import { Bar } from 'vue-chartjs'
+import { Bar } from '@coreui/vue/src/extends/BaseCharts'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 
 export default {

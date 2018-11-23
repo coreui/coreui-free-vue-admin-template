@@ -1,5 +1,5 @@
 <script>
-import { Doughnut } from 'vue-chartjs'
+import { Doughnut } from '@coreui/vue/src/extends/BaseCharts'
 
 export default {
   name: 'DoughnutExample',

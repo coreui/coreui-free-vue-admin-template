@@ -15,14 +15,15 @@
               </div>
             </div>
             <div>
-              <b-alert show variant="primary">Primary Alert</b-alert>
-              <b-alert show variant="secondary">Secondary Alert</b-alert>
-              <b-alert show variant="success">Success Alert</b-alert>
-              <b-alert show variant="danger">Danger Alert</b-alert>
-              <b-alert show variant="warning">Warning Alert</b-alert>
-              <b-alert show variant="info">Info Alert</b-alert>
-              <b-alert show variant="light">Light Alert</b-alert>
-              <b-alert show variant="dark">Dark Alert</b-alert>
+              <p></p>
+              <CAlert show variant="primary">Primary Alert</CAlert>
+              <CAlert show variant="secondary">Secondary Alert</CAlert>
+              <CAlert show variant="success">Success Alert</CAlert>
+              <CAlert show variant="danger">Danger Alert</CAlert>
+              <CAlert show variant="warning">Warning Alert</CAlert>
+              <CAlert show variant="info">Info Alert</CAlert>
+              <CAlert show variant="light">Light Alert</CAlert>
+              <CAlert show variant="dark">Dark Alert</CAlert>
             </div>
           </b-card>
         </b-col>
@@ -35,32 +36,32 @@
               <small> use <code>.alert-link</code> to provide links</small>
             </div>
             <div>
-              <b-alert show variant="primary">
+              <CAlert show variant="primary">
                 Primary Alert with <a href="#" class="alert-link">an example link</a>.
-              </b-alert>
-              <b-alert show variant="secondary">
+              </CAlert>
+              <CAlert show variant="secondary">
                 Secondary Alert with <a href="#" class="alert-link">an example link</a>.
-              </b-alert>
-              <b-alert show variant="success">
+              </CAlert>
+              <CAlert show variant="success">
                 Success Alert with <a href="#" class="alert-link">an example link</a>.
-              </b-alert>
-              <b-alert show variant="danger">
+              </CAlert>
+              <CAlert show variant="danger">
                 Danger Alert with <a href="#" class="alert-link">an example link</a>.
-              </b-alert>
-              <b-alert show variant="warning">
+              </CAlert>
+              <CAlert show variant="warning">
                 Warning Alert with <a href="#" class="alert-link">an example link</a>.
-              </b-alert>
-              <b-alert show variant="info">
+              </CAlert>
+              <CAlert show variant="info">
                 Info Alert with <a href="#" class="alert-link">an example link</a>.
-              </b-alert>
-              <b-alert show variant="light">
+              </CAlert>
+              <CAlert show variant="light">
                 Light Alert with <a href="#" class="alert-link">an example link</a>.
-              </b-alert>
-              <b-alert show variant="dark">
+              </CAlert>
+              <CAlert show variant="dark">
                 Dark Alert with
                 <b-link href="#" class="alert-link">an example link</b-link>
                 .
-              </b-alert>
+              </CAlert>
             </div>
           </b-card>
         </b-col>
@@ -71,7 +72,7 @@
             <div slot="header">
               <i class="fa fa-align-justify"></i> Alerts <small>with additional content</small>
             </div>
-            <b-alert show variant="success">
+            <CAlert show variant="success">
               <h4 class="alert-heading">Well done!</h4>
               <p>
                 Aww yeah, you successfully read this important alert message.
@@ -82,7 +83,7 @@
               <p class="mb-0">
                 Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
               </p>
-            </b-alert>
+            </CAlert>
           </b-card>
         </b-col>
         <b-col cols="12" md="6">
@@ -93,15 +94,30 @@
               <i class="fa fa-align-justify"></i> Alerts <small>dismissible</small>
             </div>
             <div>
-              <b-alert show dismissible>
+              <CAlert :show="true" dismissible disabled>
                 Dismissible Alert!
-              </b-alert>
-            <b-alert variant="danger"
+              </CAlert>
+              <!-- :dismissible="{attrs: {disabled:'disabled', 'aria-label':'close it'}, class:'hehe' } -->
+              <CAlert :show="true"
+                      dismissible>
+                Dismissible Alert!
+                <CButtonClose slot-scope="{ dismiss }"
+                              @click="dismiss"
+                              aria-label="close it"
+                              style="color:red">
+                  ok
+                </CButtonClose>
+              </CAlert>
+              <CAlert show dismissible>
+                Dismissible Alert!
+              </CAlert>
+            <CAlert variant="danger"
                      dismissible
+                     fade
                      :show="showDismissibleAlert"
                      @dismissed="showDismissibleAlert=false">
               Dismissible Alert!
-            </b-alert>
+            </CAlert>
             <b-btn @click="showDismissibleAlert=true" variant="info" class="m-1">
               Show dismissible alert ({{showDismissibleAlert?'visible':'hidden'}})
             </b-btn>
@@ -114,14 +130,15 @@
               <i class="fa fa-align-justify"></i> Alerts <small>auto dismissible</small>
             </div>
             <div>
-              <b-alert :show="dismissCountDown"
+              <CAlert :show="dismissCountDown"
                        dismissible
                        variant="warning"
                        @dismissed="dismissCountdown=0"
                        @dismiss-count-down="countDownChanged">
                 Alert will dismiss after <strong>{{dismissCountDown}}</strong> seconds...
-              </b-alert>
-              <b-alert :show="dismissCountDown"
+              </CAlert>
+
+              <CAlert :show="dismissCountDown"
                        dismissible
                        variant="info"
                        @dismissed="dismissCountdown=0"
@@ -132,7 +149,7 @@
                             :value="dismissCountDown"
                             height="4px">
                 </b-progress>
-              </b-alert>
+              </CAlert>
               <b-btn @click="showAlert" variant="info" class="m-1">
                 Show alert with timer
               </b-btn>
@@ -145,8 +162,14 @@
 </template>
 
 <script>
+// import CAlert from './CAlert'
+// import CButtonClose from './CButtonClose'
 export default {
   name: 'alerts',
+  // components: {
+  //   CAlert,
+  //   CButtonClose
+  // },
   data () {
     return {
       dismissSecs: 10,

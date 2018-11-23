@@ -1,5 +1,5 @@
 <script>
-import { PolarArea } from 'vue-chartjs'
+import { PolarArea } from '@coreui/vue/src/extends/BaseCharts'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 
 export default {

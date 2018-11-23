@@ -2,9 +2,8 @@
   <div class="animated fadeIn">
     <b-row>
       <b-col sm="6" lg="3">
-        <widget06 cardClasses="bg-primary" header="9.823" text="Members online" chartType="chart1">
-          <template slot='dropdown'>
-            <b-dropdown class="float-right" variant="transparent p-0" right>
+        <c-widget06 cardClasses="bg-primary" header="9.823" text="Members online">
+            <b-dropdown slot='dropdown' class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
                 <i class="icon-settings"></i>
               </template>
@@ -13,16 +12,14 @@
               <b-dropdown-item>Something else here...</b-dropdown-item>
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
-          </template>
-          <template slot='chart'>
-            <line-chart2 chartId="widget06_1" slot='chart' class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
-                         :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                         style='height:70px' label='Members' pointHoverBackgroundColor='primary'/>
-          </template>
-        </widget06>
+          <c-simple-pointed-chart  class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
+                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
+                       style='height:70px' label='Members' pointHoverColor='primary'/>
+
+        </c-widget06>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget06 cardClasses="bg-info" header="9.823" text="Members online" chartType="chart2">
+        <c-widget06 cardClasses="bg-info" header="9.823" text="Members online">
           <template slot='dropdown'>
             <b-dropdown class="float-right" variant="transparent p-0" right no-caret>
               <template slot="button-content">
@@ -34,16 +31,14 @@
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
           </template>
-          <template slot='chart'>
-            <line-chart2 chartId='widget06_2' slot='chart' class='px-3' :data='[1, 18, 9, 17, 34, 22, 11]'
+            <c-simple-pointed-chart class='px-3' :data='[1, 18, 9, 17, 34, 22, 11]'
                          :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
                          style='height:70px' label='Members' :options='{elements: {line: {tension: 0.00001}}}'
-                         pointHoverBackgroundColor='info'/>
-          </template>
-        </widget06>
+                         pointHoverColor='info'/>
+        </c-widget06>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget06 cardClasses="bg-warning" header="9.823" text="Members online" chartType="chart3">
+        <c-widget06 cardClasses="bg-warning" header="9.823" text="Members online">
           <template slot='dropdown'>
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -55,17 +50,15 @@
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
           </template>
-          <template slot='chart'>
-            <line-chart1 chartId="widget06_3" slot='chart' :data='[78, 81, 80, 45, 34, 12, 40]'
+            <c-simple-line-chart :data='[78, 81, 80, 45, 34, 12, 40]'
                          :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                         style='height:70px' backgroundColor ='rgba(255,255,255,.2)' label='Members'
-                         :options="{elements: {line: {borderWidth: 2.5}}}" pointHoverBackgroundColor='warning'/>
-          </template>
-        </widget06>
+                         style='height:70px' color ='rgba(255,255,255,.2)' label='Members'
+                         :options="{elements: {line: {borderWidth: 2.5}}}" pointHoverColor='warning'/>
+        </c-widget06>
       </b-col>
       <b-col sm="6" lg="3">
-        <widget06 cardClasses="bg-danger" header="9.823" text="Members online" chartType="chart4">
-          <template name='dropdown'>
+        <c-widget06 cardClasses="bg-danger" header="9.823" text="Members online">
+          <template slot='dropdown'>
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
                 <i class="icon-settings"></i>
@@ -76,11 +69,9 @@
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
           </template>
-          <template name='chart'>
-            <bar-chart1 chartId="widget06_4" slot='chart' :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                        label='Members' backgroundColor='rgb(250, 152, 152)' style='height:70px' />
-          </template>
-        </widget06>
+            <c-simple-bar-chart :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
+                        label='Members' color='rgb(250, 152, 152)' style='height:70px' />
+        </c-widget06>
       </b-col>
     </b-row>
     <b-card>
@@ -100,7 +91,7 @@
           </b-button-toolbar>
         </b-col>
       </b-row>
-      <main-chart-example chartId="main-chart-01" class="chart-wrapper" style="height:300px;margin-top:40px;" height="300"></main-chart-example>
+      <main-chart-example style="height:300px;margin-top:40px;" height="300"></main-chart-example>
       <div slot="footer">
         <b-row class="text-center">
           <b-col class="mb-sm-2 mb-0">
@@ -133,32 +124,32 @@
     </b-card>
     <b-row>
       <b-col md="3" sm="6">
-        <widget04 type="facebook" rightHeader="89k" rightFooter="friends" leftHeader="459" leftFooter="feeds">
-          <line-chart1 chartId="facebook" :data='[65, 59, 84, 84, 51, 55, 40]' label='Friends'
+        <c-widget04 variant="facebook" rightHeader="89k" rightFooter="friends" leftHeader="459" leftFooter="feeds">
+          <c-simple-line-chart :data='[65, 59, 84, 84, 51, 55, 40]' label='Friends'
                        :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:100px' backgroundColor='rgba(255,255,255,.1)'/>
-        </widget04>
+                       style='height:100px' color='rgba(255,255,255,.1)'/>
+        </c-widget04>
        </b-col>
        <b-col md="3" sm="6">
-        <widget04 type="twitter" rightHeader="973k" rightFooter="followers" leftHeader="1.792" leftFooter="tweets">
-          <line-chart1 chartId="twitter" :data='[1, 13, 9, 17, 34, 41, 38]' label='Followers'
+        <c-widget04 variant="twitter" rightHeader="973k" rightFooter="followers" leftHeader="1.792" leftFooter="tweets">
+          <c-simple-line-chart :data='[1, 13, 9, 17, 34, 41, 38]' label='Followers'
                        :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:100px'  backgroundColor='rgba(255,255,255,.1)'/>
-        </widget04>
+                       style='height:100px'  color='rgba(255,255,255,.1)'/>
+        </c-widget04>
        </b-col>
        <b-col md="3" sm="6">
-        <widget04 type="linkedin" rightHeader="500+" rightFooter="contracts" leftHeader="292" leftFooter="feeds">
-          <line-chart1 chartId="linkedIn" :data='[78, 81, 80, 45, 34, 12, 40]' label='Contracts'
+        <c-widget04 variant="linkedin" rightHeader="500+" rightFooter="contracts" leftHeader="292" leftFooter="feeds">
+          <c-simple-line-chart :data='[78, 81, 80, 45, 34, 12, 40]' label='Contracts'
                        :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:100px'  backgroundColor='rgba(255,255,255,.1)'/>
-        </widget04>
+                       style='height:100px'  color='rgba(255,255,255,.1)'/>
+        </c-widget04>
        </b-col>
        <b-col md="3" sm="6">
-        <widget04  type='google-plus' rightHeader='894' rightFooter='followers' leftHeader='92' leftFooter='circles'>
-          <line-chart1 chartId="google-plus" :data='[35, 23, 56, 22, 97, 23, 64]' label='Followers'
+        <c-widget04  variant='google-plus' rightHeader='894' rightFooter='followers' leftHeader='92' leftFooter='circles'>
+          <c-simple-line-chart :data='[35, 23, 56, 22, 97, 23, 64]' label='Followers'
                        :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:100px' backgroundColor='rgba(255,255,255,.1)'/>
-        </widget04>
+                       style='height:100px' color='rgba(255,255,255,.1)'/>
+        </c-widget04>
        </b-col>
     </b-row><!--/.row-->
     <b-row>
@@ -171,9 +162,9 @@
                   <Callout variant="info">
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
-                    <div class="chart-wrapper" :style="{ top: '-10px'}">
+                    <div :style="{ top: '-10px'}">
                       <!--<callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />-->
-                      <callout-chart-example chartId="callout-chart-01" :data="[35, 23, 56, 22, 97, 23, 64]" variant="info" width="80" height="30" />
+                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="info" width="80" height="30" />
                     </div>
                   </Callout>
                 </b-col>
@@ -181,8 +172,8 @@
                   <Callout variant="danger">
                     <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
-                    <div class="chart-wrapper" :style="{ top: '-10px'}">
-                      <callout-chart-example chartId="callout-chart-02" :data="[65, 59, 84, 84, 51, 55, 40]" variant="danger" width="80" height="30" />
+                    <div :style="{ top: '-10px'}">
+                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="danger" width="80" height="30" />
                     </div>
                   </Callout>
                 </b-col>
@@ -281,8 +272,8 @@
                   <Callout variant="warning">
                     <small class="text-muted">Pageviews</small><br>
                     <strong class="h4">78,623</strong>
-                    <div class="chart-wrapper" :style="{ top: '-10px'}">
-                      <callout-chart-example chartId="callout-chart-03" :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30"/>
+                    <div :style="{ top: '-10px'}">
+                      <callout-chart-example :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30"/>
                     </div>
                   </Callout>
                 </b-col>
@@ -290,8 +281,8 @@
                   <Callout variant="success">
                     <small class="text-muted">Organic</small><br>
                     <strong class="h4">49,123</strong>
-                    <div class="chart-wrapper" :style="{ top: '-10px'}">
-                      <callout-chart-example chartId="callout-chart-04" :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80" height="30" />
+                    <div :style="{ top: '-10px'}">
+                      <callout-chart-example :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80" height="30" />
                     </div>
                   </Callout>
                 </b-col>
@@ -408,27 +399,13 @@
 import MainChartExample from './dashboard/MainChartExample'
 import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
 import CalloutChartExample from './dashboard/CalloutChartExample'
-import { Callout } from '@coreui/vue'
-import Widget04 from './widgets/Widget04'
-import Widget06 from './widgets/Widget06'
-import LineChart1 from './dashboard/LineChart1'
-import LineChart2 from './dashboard/LineChart2'
-
-import BarChart1 from './dashboard/BarChart1'
-
 
 export default {
-  name: 'dashboard',
+  name: 'Dashboard',
   components: {
-    Callout,
     MainChartExample,
     SocialBoxChartExample,
     CalloutChartExample,
-    Widget04,
-    Widget06,
-    LineChart1,
-    LineChart2,
-    BarChart1
   },
   data: function () {
     return {

@@ -13,12 +13,12 @@
           </div>
         </div>
         <div>
-          <b-progress :value="counter" :max="max" show-progress animated></b-progress>
-          <b-progress class="mt-1" :max="max" show-value>
-            <b-progress-bar :value="counter*(6/10)" variant="success"></b-progress-bar>
-            <b-progress-bar :value="counter*(2.5/10)" variant="warning"></b-progress-bar>
-            <b-progress-bar :value="counter*(1.5/10)" variant="danger"></b-progress-bar>
-          </b-progress>
+          <c-progress :value="counter" :max="max" show-progress animated></c-progress>
+          <CProgress class="mt-1" :max="max" show-value>
+            <CProgressBar :value="counter*(6/10)" color="success"/>
+            <CProgressBar :value="counter*(2.5/10)" color="warning"/>
+            <CProgressBar :value="counter*(1.5/10)" color="danger"/>
+          </CProgress>
           <b-btn class="mt-4" @click="clicked">Click me</b-btn>
         </div>
       </b-card>
@@ -200,4 +200,3 @@ export default {
   }
 }
 </script>
-
