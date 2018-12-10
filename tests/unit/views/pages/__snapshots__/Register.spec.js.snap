@@ -7,16 +7,16 @@ exports[`Register.vue renders correctly 1`] = `
   <div
     class="container"
   >
-    <brow-stub
+    <b-row-stub
       class="justify-content-center"
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         md="6"
         sm="8"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           class="mx-4"
           footertag="div"
@@ -26,13 +26,13 @@ exports[`Register.vue renders correctly 1`] = `
           tag="div"
           titletag="h4"
         >
-          <bcardbody-stub
+          <b-card-body-stub
             bodytag="div"
             class="p-4"
             subtitletag="h6"
             titletag="h4"
           >
-            <bform-stub>
+            <b-form-stub>
               <h1>
                 Register
               </h1>
@@ -43,101 +43,101 @@ exports[`Register.vue renders correctly 1`] = `
                 Create your account
               </p>
                
-              <binputgroup-stub
+              <b-input-group-stub
                 class="mb-3"
                 tag="div"
               >
-                <binputgroupprepend-stub
+                <b-input-group-prepend-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     <i
                       class="icon-user"
                     />
-                  </binputgrouptext-stub>
-                </binputgroupprepend-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-prepend-stub>
                  
-                <bforminput-stub
+                <b-form-input-stub
                   autocomplete="username"
                   class="form-control"
                   placeholder="Username"
                   type="text"
                 />
-              </binputgroup-stub>
+              </b-input-group-stub>
                
-              <binputgroup-stub
+              <b-input-group-stub
                 class="mb-3"
                 tag="div"
               >
-                <binputgroupprepend-stub
+                <b-input-group-prepend-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     @
-                  </binputgrouptext-stub>
-                </binputgroupprepend-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-prepend-stub>
                  
-                <bforminput-stub
+                <b-form-input-stub
                   autocomplete="email"
                   class="form-control"
                   placeholder="Email"
                   type="text"
                 />
-              </binputgroup-stub>
+              </b-input-group-stub>
                
-              <binputgroup-stub
+              <b-input-group-stub
                 class="mb-3"
                 tag="div"
               >
-                <binputgroupprepend-stub
+                <b-input-group-prepend-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     <i
                       class="icon-lock"
                     />
-                  </binputgrouptext-stub>
-                </binputgroupprepend-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-prepend-stub>
                  
-                <bforminput-stub
+                <b-form-input-stub
                   autocomplete="new-password"
                   class="form-control"
                   placeholder="Password"
                   type="password"
                 />
-              </binputgroup-stub>
+              </b-input-group-stub>
                
-              <binputgroup-stub
+              <b-input-group-stub
                 class="mb-4"
                 tag="div"
               >
-                <binputgroupprepend-stub
+                <b-input-group-prepend-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     <i
                       class="icon-lock"
                     />
-                  </binputgrouptext-stub>
-                </binputgroupprepend-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-prepend-stub>
                  
-                <bforminput-stub
+                <b-form-input-stub
                   autocomplete="new-password"
                   class="form-control"
                   placeholder="Repeat password"
                   type="password"
                 />
-              </binputgroup-stub>
+              </b-input-group-stub>
                
-              <bbutton-stub
+              <b-button-stub
                 activeclass="active"
                 block="true"
                 event="click"
@@ -148,22 +148,22 @@ exports[`Register.vue renders correctly 1`] = `
                 variant="success"
               >
                 Create Account
-              </bbutton-stub>
-            </bform-stub>
-          </bcardbody-stub>
+              </b-button-stub>
+            </b-form-stub>
+          </b-card-body-stub>
            
-          <bcardfooter-stub
+          <b-card-footer-stub
             class="p-4"
             footertag="div"
           >
-            <brow-stub
+            <b-row-stub
               tag="div"
             >
-              <bcol-stub
+              <b-col-stub
                 cols="6"
                 tag="div"
               >
-                <bbutton-stub
+                <b-button-stub
                   activeclass="active"
                   block="true"
                   class="btn btn-facebook"
@@ -176,14 +176,14 @@ exports[`Register.vue renders correctly 1`] = `
                   <span>
                     facebook
                   </span>
-                </bbutton-stub>
-              </bcol-stub>
+                </b-button-stub>
+              </b-col-stub>
                
-              <bcol-stub
+              <b-col-stub
                 cols="6"
                 tag="div"
               >
-                <bbutton-stub
+                <b-button-stub
                   activeclass="active"
                   block="true"
                   class="btn btn-twitter"
@@ -196,13 +196,13 @@ exports[`Register.vue renders correctly 1`] = `
                   <span>
                     twitter
                   </span>
-                </bbutton-stub>
-              </bcol-stub>
-            </brow-stub>
-          </bcardfooter-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+                </b-button-stub>
+              </b-col-stub>
+            </b-row-stub>
+          </b-card-footer-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
   </div>
 </div>
 `;

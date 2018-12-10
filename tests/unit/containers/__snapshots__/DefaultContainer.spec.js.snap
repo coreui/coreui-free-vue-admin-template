@@ -14,7 +14,7 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       mobile="true"
     />
      
-    <blink-stub
+    <b-link-stub
       activeclass="active"
       class="navbar-brand"
       event="click"
@@ -38,7 +38,7 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
         src="img/brand/sygnet.svg"
         width="30"
       />
-    </blink-stub>
+    </b-link-stub>
      
     <sidebartoggler-stub
       class="d-md-down-none"
@@ -46,11 +46,11 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       display="lg"
     />
      
-    <bnavbarnav-stub
+    <b-navbar-nav-stub
       class="d-md-down-none"
       tag="ul"
     >
-      <bnavitem-stub
+      <b-nav-item-stub
         activeclass="active"
         class="px-3"
         event="click"
@@ -60,9 +60,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
         to="/dashboard"
       >
         Dashboard
-      </bnavitem-stub>
+      </b-nav-item-stub>
        
-      <bnavitem-stub
+      <b-nav-item-stub
         activeclass="active"
         class="px-3"
         event="click"
@@ -73,9 +73,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
         to="/users"
       >
         Users
-      </bnavitem-stub>
+      </b-nav-item-stub>
        
-      <bnavitem-stub
+      <b-nav-item-stub
         activeclass="active"
         class="px-3"
         event="click"
@@ -84,14 +84,14 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
         target="_self"
       >
         Settings
-      </bnavitem-stub>
-    </bnavbarnav-stub>
+      </b-nav-item-stub>
+    </b-navbar-nav-stub>
      
-    <bnavbarnav-stub
+    <b-navbar-nav-stub
       class="ml-auto"
       tag="ul"
     >
-      <bnavitem-stub
+      <b-nav-item-stub
         activeclass="active"
         class="d-md-down-none"
         event="click"
@@ -103,7 +103,7 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
           class="icon-bell"
         />
          
-        <bbadge-stub
+        <b-badge-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -114,10 +114,10 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
           variant="danger"
         >
           5
-        </bbadge-stub>
-      </bnavitem-stub>
+        </b-badge-stub>
+      </b-nav-item-stub>
        
-      <bnavitem-stub
+      <b-nav-item-stub
         activeclass="active"
         class="d-md-down-none"
         event="click"
@@ -128,9 +128,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
         <i
           class="icon-list"
         />
-      </bnavitem-stub>
+      </b-nav-item-stub>
        
-      <bnavitem-stub
+      <b-nav-item-stub
         activeclass="active"
         class="d-md-down-none"
         event="click"
@@ -141,10 +141,10 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
         <i
           class="icon-location-pin"
         />
-      </bnavitem-stub>
+      </b-nav-item-stub>
        
       <defaultheaderdropdownaccnt-stub />
-    </bnavbarnav-stub>
+    </b-navbar-nav-stub>
      
     <asidetoggler-stub
       class="d-none d-lg-block"
@@ -163,7 +163,7 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       <sidebarform-stub />
        
       <sidebarnav-stub
-        navitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        navitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       />
        
       <sidebarfooter-stub />

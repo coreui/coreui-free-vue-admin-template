@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Table.vue renders correctly 1`] = `
-<bcard-stub
+<b-card-stub
   bodytag="div"
   footertag="div"
   header="Table"
@@ -10,7 +10,7 @@ exports[`Table.vue renders correctly 1`] = `
   tag="div"
   titletag="h4"
 >
-  <btable-stub
+  <b-table-stub
     apiurl=""
     currentpage="1"
     emptyfilteredtext="There are no records matching your request"
@@ -28,7 +28,7 @@ exports[`Table.vue renders correctly 1`] = `
   />
    
   <nav>
-    <bpagination-stub
+    <b-pagination-stub
       hide-goto-end-buttons=""
       next-text="Next"
       perpage="5"
@@ -36,5 +36,5 @@ exports[`Table.vue renders correctly 1`] = `
       totalrows="0"
     />
   </nav>
-</bcard-stub>
+</b-card-stub>
 `;

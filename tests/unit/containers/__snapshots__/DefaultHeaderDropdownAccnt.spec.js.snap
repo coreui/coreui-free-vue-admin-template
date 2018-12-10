@@ -15,16 +15,16 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   \\
   
   <template>
-    <bdropdownheader-stub
+    <b-dropdown-header-stub
       class="text-center"
       tag="div"
     >
       <strong>
         Account
       </strong>
-    </bdropdownheader-stub>
+    </b-dropdown-header-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -36,7 +36,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Updates
       
-      <bbadge-stub
+      <b-badge-stub
         activeclass="active"
         event="click"
         exactactiveclass="active"
@@ -46,10 +46,10 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         variant="info"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -61,7 +61,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Messages
       
-      <bbadge-stub
+      <b-badge-stub
         activeclass="active"
         event="click"
         exactactiveclass="active"
@@ -71,10 +71,10 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         variant="success"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -86,7 +86,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Tasks
       
-      <bbadge-stub
+      <b-badge-stub
         activeclass="active"
         event="click"
         exactactiveclass="active"
@@ -96,10 +96,10 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         variant="danger"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -111,7 +111,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Comments
       
-      <bbadge-stub
+      <b-badge-stub
         activeclass="active"
         event="click"
         exactactiveclass="active"
@@ -121,19 +121,19 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         variant="warning"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownheader-stub
+    <b-dropdown-header-stub
       class="text-center"
       tag="div"
     >
       <strong>
         Settings
       </strong>
-    </bdropdownheader-stub>
+    </b-dropdown-header-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -144,9 +144,9 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-user"
       />
        Profile
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -157,9 +157,9 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-wrench"
       />
        Settings
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -171,7 +171,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Payments
       
-      <bbadge-stub
+      <b-badge-stub
         activeclass="active"
         event="click"
         exactactiveclass="active"
@@ -181,10 +181,10 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         variant="secondary"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -196,7 +196,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Projects
       
-      <bbadge-stub
+      <b-badge-stub
         activeclass="active"
         event="click"
         exactactiveclass="active"
@@ -206,14 +206,14 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         variant="primary"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdowndivider-stub
+    <b-dropdown-divider-stub
       tag="div"
     />
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -224,9 +224,9 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-shield"
       />
        Lock Account
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
+    <b-dropdown-item-stub
       activeclass="active"
       event="click"
       exactactiveclass="active"
@@ -237,7 +237,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-lock"
       />
        Logout
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
   </template>
 </appheaderdropdown-stub>
 `;

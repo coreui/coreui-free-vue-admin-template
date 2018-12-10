@@ -4,14 +4,14 @@ exports[`Tables.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
     >
-      <ctable-stub
+      <c-table-stub
         caption=<i class='fa fa-align-justify'></i> Simple Table
         fields="[object Object],[object Object],[object Object],[object Object]"
         perpage="5"
@@ -149,13 +149,13 @@ exports[`Tables.vue renders correctly 1`] = `
     }]);
   }"
       />
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
     >
-      <ctable-stub
+      <c-table-stub
         caption=<i class='fa fa-align-justify'></i> Striped Table
         fields=""
         perpage="5"
@@ -294,17 +294,17 @@ exports[`Tables.vue renders correctly 1`] = `
     }]);
   }"
       />
-    </bcol-stub>
-  </brow-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
     >
-      <ctable-stub
+      <c-table-stub
         caption=<i class='fa fa-align-justify'></i> Condensed Table
         fields=""
         perpage="5"
@@ -443,13 +443,13 @@ exports[`Tables.vue renders correctly 1`] = `
     }]);
   }"
       />
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
     >
-      <ctable-stub
+      <c-table-stub
         bordered="true"
         caption=<i class='fa fa-align-justify'></i> Bordered Table
         fields=""
@@ -589,17 +589,17 @@ exports[`Tables.vue renders correctly 1`] = `
     }]);
   }"
       />
-    </bcol-stub>
-  </brow-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       sm="12"
       tag="div"
     >
-      <ctable-stub
+      <c-table-stub
         bordered="true"
         caption=<i class='fa fa-align-justify'></i> Combined All Table
         fields=""
@@ -610,17 +610,17 @@ exports[`Tables.vue renders correctly 1`] = `
         striped="true"
         tabledata="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       />
-    </bcol-stub>
-  </brow-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       sm="12"
       tag="div"
     >
-      <ctable-stub
+      <c-table-stub
         bordered="true"
         caption=<i class='fa fa-align-justify'></i> Dark Table
         dark="true"
@@ -632,7 +632,7 @@ exports[`Tables.vue renders correctly 1`] = `
         striped="true"
         tabledata="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       />
-    </bcol-stub>
-  </brow-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

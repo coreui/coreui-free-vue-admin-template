@@ -7,7 +7,7 @@ exports[`Tooltips.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -49,17 +49,17 @@ exports[`Tooltips.vue renders correctly 1`] = `
         </div>
       </div>
        
-      <brow-stub
+      <b-row-stub
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           cols="6"
           tag="div"
         >
           <div
             class="text-center my-3"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -69,18 +69,18 @@ exports[`Tooltips.vue renders correctly 1`] = `
               type="button"
             >
               Hover Me
-            </bbtn-stub>
+            </b-btn-stub>
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           tag="div"
         >
           <div
             class="text-center my-3"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -91,9 +91,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
               variant="primary"
             >
               Button
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <btooltip-stub
+            <b-tooltip-stub
               placement="top"
               show=""
               target="tooltipButton-2"
@@ -103,13 +103,13 @@ exports[`Tooltips.vue renders correctly 1`] = `
               
               I start open
             
-            </btooltip-stub>
+            </b-tooltip-stub>
           </div>
-        </bcol-stub>
-      </brow-stub>
-    </bcard-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -134,15 +134,15 @@ exports[`Tooltips.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <brow-stub
+      <b-row-stub
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="py-4 text-center"
           md="6"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -153,15 +153,15 @@ exports[`Tooltips.vue renders correctly 1`] = `
             variant="outline-success"
           >
             Live chat
-          </bbtn-stub>
-        </bcol-stub>
+          </b-btn-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="py-4 text-center"
           md="6"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -172,18 +172,18 @@ exports[`Tooltips.vue renders correctly 1`] = `
             variant="outline-success"
           >
             Html chat
-          </bbtn-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-btn-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <btooltip-stub
+      <b-tooltip-stub
         placement="top"
         target="exButton1"
         title="Online!"
         triggers="hover focus"
       />
        
-      <btooltip-stub
+      <b-tooltip-stub
         placement="bottom"
         target="exButton2"
         title=""
@@ -194,10 +194,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
         <strong>
           World!
         </strong>
-      </btooltip-stub>
-    </bcard-stub>
+      </b-tooltip-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -225,7 +225,7 @@ exports[`Tooltips.vue renders correctly 1`] = `
       <div
         class="text-center"
       >
-        <bbtn-stub
+        <b-btn-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -236,12 +236,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           variant="primary"
         >
           I have a tooltip
-        </bbtn-stub>
+        </b-btn-stub>
          
         <br />
         <br />
          
-        <bbtn-stub
+        <b-btn-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -250,9 +250,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
           type="button"
         >
           Toggle Tooltip
-        </bbtn-stub>
+        </b-btn-stub>
          
-        <btooltip-stub
+        <b-tooltip-stub
           placement="top"
           show="true"
           target="tooltipButton-1"
@@ -264,11 +264,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
           <strong>
             World!
           </strong>
-        </btooltip-stub>
+        </b-tooltip-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -299,7 +299,7 @@ exports[`Tooltips.vue renders correctly 1`] = `
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -310,13 +310,13 @@ exports[`Tooltips.vue renders correctly 1`] = `
             variant="primary"
           >
             I have a tooltip
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="px-1 mr-1"
             event="click"
@@ -326,9 +326,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
             type="button"
           >
             Open
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="px-1"
             event="click"
@@ -338,10 +338,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             type="button"
           >
             Close
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
-        <btooltip-stub
+        <b-tooltip-stub
           placement="top"
           target="tooltipButton-showEvent"
           title=""
@@ -352,11 +352,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
           <strong>
             World!
           </strong>
-        </btooltip-stub>
+        </b-tooltip-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -387,7 +387,7 @@ exports[`Tooltips.vue renders correctly 1`] = `
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -398,13 +398,13 @@ exports[`Tooltips.vue renders correctly 1`] = `
             variant="primary"
           >
             I have a tooltip
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="mr-1"
             event="click"
@@ -416,9 +416,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
             
             Disable Tooltip by prop
           
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -429,9 +429,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
             
             Disable Tooltip by $ref event
           
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <btooltip-stub
+          <b-tooltip-stub
             placement="top"
             target="tooltipButton-disable"
             title=""
@@ -442,10 +442,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             <strong>
               World!
             </strong>
-          </btooltip-stub>
+          </b-tooltip-stub>
         </div>
       </div>
-    </bcard-stub>
+    </b-card-stub>
   </div>
 </div>
 `;

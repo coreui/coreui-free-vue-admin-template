@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`User.vue renders correctly 1`] = `
-<brow-stub
+<b-row-stub
   tag="div"
 >
-  <bcol-stub
+  <b-col-stub
     cols="12"
     lg="6"
     tag="div"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
       headertag="div"
@@ -24,7 +24,7 @@ exports[`User.vue renders correctly 1`] = `
       
       </template>
        
-      <btable-stub
+      <b-table-stub
         apiurl=""
         currentpage="1"
         emptyfilteredtext="There are no records matching your request"
@@ -45,7 +45,7 @@ exports[`User.vue renders correctly 1`] = `
       />
        
       <template>
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -54,9 +54,9 @@ exports[`User.vue renders correctly 1`] = `
           type="button"
         >
           Back
-        </bbutton-stub>
+        </b-button-stub>
       </template>
-    </bcard-stub>
-  </bcol-stub>
-</brow-stub>
+    </b-card-stub>
+  </b-col-stub>
+</b-row-stub>
 `;

@@ -7,7 +7,7 @@ exports[`Popovers.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -43,17 +43,17 @@ exports[`Popovers.vue renders correctly 1`] = `
         </div>
       </div>
        
-      <brow-stub
+      <b-row-stub
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           cols="6"
           tag="div"
         >
           <div
             class="my-3 text-center"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -65,18 +65,18 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               Hover Me
             
-            </bbtn-stub>
+            </b-btn-stub>
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           tag="div"
         >
           <div
             class="my-3 text-center"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -87,9 +87,9 @@ exports[`Popovers.vue renders correctly 1`] = `
               variant="primary"
             >
               Button
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content=""
               placement="right"
               show=""
@@ -102,13 +102,13 @@ exports[`Popovers.vue renders correctly 1`] = `
               <strong>
                 open
               </strong>
-            </bpopover-stub>
+            </b-popover-stub>
           </div>
-        </bcol-stub>
-      </brow-stub>
-    </bcard-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -134,15 +134,15 @@ exports[`Popovers.vue renders correctly 1`] = `
       <div
         class="my-3"
       >
-        <brow-stub
+        <b-row-stub
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -155,22 +155,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               topright
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement topright"
               placement="topright"
               target="exPopover1-topright"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -183,22 +183,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               top
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement top"
               placement="top"
               target="exPopover1-top"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -211,22 +211,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               topleft
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement topleft"
               placement="topleft"
               target="exPopover1-topleft"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -239,22 +239,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               bottomright
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement bottomright"
               placement="bottomright"
               target="exPopover1-bottomright"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -267,22 +267,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               bottom
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement bottom"
               placement="bottom"
               target="exPopover1-bottom"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -295,22 +295,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               bottomleft
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement bottomleft"
               placement="bottomleft"
               target="exPopover1-bottomleft"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -323,22 +323,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               righttop
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement righttop"
               placement="righttop"
               target="exPopover1-righttop"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -351,22 +351,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               right
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement right"
               placement="right"
               target="exPopover1-right"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -379,22 +379,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               lefttop
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement lefttop"
               placement="lefttop"
               target="exPopover1-lefttop"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -407,22 +407,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               rightbottom
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement rightbottom"
               placement="rightbottom"
               target="exPopover1-rightbottom"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -435,22 +435,22 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               left
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement left"
               placement="left"
               target="exPopover1-left"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-          <bcol-stub
+          </b-col-stub>
+          <b-col-stub
             class="py-4 text-center"
             md="4"
             tag="div"
           >
-            <bbtn-stub
+            <b-btn-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -463,21 +463,21 @@ exports[`Popovers.vue renders correctly 1`] = `
               
               leftbottom
             
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <bpopover-stub
+            <b-popover-stub
               content="Placement leftbottom"
               placement="leftbottom"
               target="exPopover1-leftbottom"
               title="Popover!"
               triggers="hover focus"
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       class="d-sm-down-none"
       footertag="footer"
@@ -501,15 +501,15 @@ exports[`Popovers.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <brow-stub
+      <b-row-stub
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="py-4 text-center"
           md="6"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -520,23 +520,23 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             Using properties
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bpopover-stub
+          <b-popover-stub
             content="Embedding content using properties is easy"
             placement="right"
             target="exPopover2"
             title="Prop Examples"
             triggers="hover focus"
           />
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="py-4 text-center"
           md="6"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -547,9 +547,9 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             Using slots
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bpopover-stub
+          <b-popover-stub
             content=""
             placement="right"
             target="exPopover3"
@@ -577,12 +577,12 @@ exports[`Popovers.vue renders correctly 1`] = `
              and
             basic HTML support.
           
-          </bpopover-stub>
-        </bcol-stub>
-      </brow-stub>
-    </bcard-stub>
+          </b-popover-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -611,7 +611,7 @@ exports[`Popovers.vue renders correctly 1`] = `
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -622,13 +622,13 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             I have a popover
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="px-1"
             event="click"
@@ -638,9 +638,9 @@ exports[`Popovers.vue renders correctly 1`] = `
             type="button"
           >
             Toggle Popover
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bpopover-stub
+          <b-popover-stub
             content=""
             placement="right"
             target="popoverButton-sync"
@@ -652,12 +652,12 @@ exports[`Popovers.vue renders correctly 1`] = `
             <strong>
               World!
             </strong>
-          </bpopover-stub>
+          </b-popover-stub>
         </div>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -686,7 +686,7 @@ exports[`Popovers.vue renders correctly 1`] = `
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -697,13 +697,13 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             I have a popover
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="px-1"
             event="click"
@@ -713,9 +713,9 @@ exports[`Popovers.vue renders correctly 1`] = `
             type="button"
           >
             Open
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="px-1"
             event="click"
@@ -725,10 +725,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             type="button"
           >
             Close
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
-        <bpopover-stub
+        <b-popover-stub
           content=""
           placement="right"
           target="popoverButton-event"
@@ -740,11 +740,11 @@ exports[`Popovers.vue renders correctly 1`] = `
           <strong>
             World!
           </strong>
-        </bpopover-stub>
+        </b-popover-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -773,7 +773,7 @@ exports[`Popovers.vue renders correctly 1`] = `
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -784,13 +784,13 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             I have a popover
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
         <div
           class="p-2"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="px-1"
             event="click"
@@ -800,9 +800,9 @@ exports[`Popovers.vue renders correctly 1`] = `
             type="button"
           >
             Enable
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             class="px-1"
             event="click"
@@ -812,10 +812,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             type="button"
           >
             Disable
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
-        <bpopover-stub
+        <b-popover-stub
           content=""
           placement="right"
           target="popoverButton-disableevent"
@@ -827,11 +827,11 @@ exports[`Popovers.vue renders correctly 1`] = `
           <strong>
             World!
           </strong>
-        </bpopover-stub>
+        </b-popover-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -856,15 +856,15 @@ exports[`Popovers.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <brow-stub
+      <b-row-stub
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="py-3 text-center"
           md="3"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -875,15 +875,15 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             Top
-          </bbtn-stub>
-        </bcol-stub>
+          </b-btn-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="py-3 text-center"
           md="3"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -894,15 +894,15 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             Left
-          </bbtn-stub>
-        </bcol-stub>
+          </b-btn-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="py-3 text-center"
           md="3"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -913,15 +913,15 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             Right
-          </bbtn-stub>
-        </bcol-stub>
+          </b-btn-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="py-3 text-center"
           md="3"
           tag="div"
         >
-          <bbtn-stub
+          <b-btn-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -932,10 +932,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             variant="primary"
           >
             Bottom
-          </bbtn-stub>
-        </bcol-stub>
-      </brow-stub>
-    </bcard-stub>
+          </b-btn-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-stub>
   </div>
 </div>
 `;

@@ -4,7 +4,7 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     class="card-default"
     footertag="div"
@@ -24,16 +24,16 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
     
     </div>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
     >
-      <brow-stub
+      <b-row-stub
         class="text-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -44,9 +44,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-user
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -57,9 +57,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-people
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -70,9 +70,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-user-female
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -83,9 +83,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-user-follow
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -96,9 +96,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-user-following
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -109,9 +109,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-user-unfollow
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -122,9 +122,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-login
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -135,9 +135,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-logout
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -148,9 +148,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-emotsmile
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -161,9 +161,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-phone
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -174,9 +174,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-call-end
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -187,9 +187,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-call-in
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -200,9 +200,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-call-out
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -213,9 +213,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-map
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -226,9 +226,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-location-pin
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -239,9 +239,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-direction
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -252,9 +252,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-directions
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -265,9 +265,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-compass
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -278,9 +278,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-layers
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -291,9 +291,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-menu
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -304,9 +304,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-list
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -317,9 +317,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-options-vertical
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -330,9 +330,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-options
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -343,9 +343,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-down
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -356,9 +356,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-left
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -369,9 +369,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-right
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -382,9 +382,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-up
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -395,9 +395,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-up-circle
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -408,9 +408,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-left-circle
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -421,9 +421,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-right-circle
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -434,9 +434,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-arrow-down-circle
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -447,9 +447,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-check
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -460,9 +460,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-clock
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -473,9 +473,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-plus
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -486,9 +486,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-close
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -499,9 +499,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-trophy
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -512,9 +512,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-screen-smartphone
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -525,9 +525,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-screen-desktop
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -538,9 +538,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-plane
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -551,9 +551,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-notebook
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -564,9 +564,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-mustache
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -577,9 +577,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-mouse
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -590,9 +590,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-magnet
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -603,9 +603,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-energy
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -616,9 +616,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-disc
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -629,9 +629,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-cursor
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -642,9 +642,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-cursor-move
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -655,9 +655,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-crop
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -668,9 +668,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-chemistry
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -681,9 +681,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-speedometer
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -694,9 +694,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-shield
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -707,21 +707,22 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-screen-tablet
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
+          cols="6"
+          md="3"
+          sm="4"
           tag="div"
         >
-           cols="6" sm="4" md="3"&gt;
-          
           <i
             class="icon-magic-wand icons font-2xl d-block mt-4"
           />
           icon-magic-wand
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -732,9 +733,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-hourglass
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -745,9 +746,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-graduation
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -758,9 +759,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-ghost
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -771,9 +772,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-game-controller
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -784,9 +785,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-fire
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -797,9 +798,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-eyeglass
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -810,9 +811,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-envelope-open
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -823,9 +824,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-envelope-letter
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -836,9 +837,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-bell
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -849,9 +850,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-badge
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -862,9 +863,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-anchor
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -875,9 +876,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-wallet
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -888,9 +889,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-vector
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -901,9 +902,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-speech
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -914,9 +915,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-puzzle
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -927,9 +928,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-printer
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -940,9 +941,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-present
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -953,9 +954,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-playlist
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -966,9 +967,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-pin
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -979,9 +980,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-picture
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -992,9 +993,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-handbag
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1005,9 +1006,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-globe-alt
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1018,9 +1019,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-globe
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1031,9 +1032,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-folder-alt
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1044,9 +1045,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-folder
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1057,9 +1058,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-film
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1070,9 +1071,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-feed
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1083,9 +1084,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-drop
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1096,9 +1097,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-drawer
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1109,9 +1110,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-docs
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1122,9 +1123,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-doc
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1135,9 +1136,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-diamond
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1148,9 +1149,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-cup
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1161,9 +1162,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-calculator
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1174,9 +1175,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-bubbles
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1187,9 +1188,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-briefcase
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1200,9 +1201,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-book-open
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1213,9 +1214,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-basket-loaded
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1226,9 +1227,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-basket
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1239,9 +1240,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-bag
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1252,9 +1253,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-action-undo
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1265,9 +1266,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-action-redo
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1278,9 +1279,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-wrench
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1291,9 +1292,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-umbrella
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1304,9 +1305,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-trash
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1317,9 +1318,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-tag
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1330,9 +1331,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-support
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1343,9 +1344,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-frame
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1356,9 +1357,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-size-fullscreen
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1369,9 +1370,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-size-actual
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1382,9 +1383,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-shuffle
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1395,9 +1396,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-share-alt
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1408,9 +1409,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-share
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1421,9 +1422,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-rocket
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1434,9 +1435,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-question
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1447,9 +1448,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-pie-chart
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1460,9 +1461,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-pencil
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1473,9 +1474,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-note
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1486,9 +1487,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-loop
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1499,9 +1500,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-home
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1512,9 +1513,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-grid
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1525,9 +1526,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-graph
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1538,9 +1539,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-microphone
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1551,9 +1552,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-music-tone-alt
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1564,9 +1565,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-music-tone
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1577,9 +1578,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-earphones-alt
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1590,9 +1591,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-earphones
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1603,9 +1604,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-equalizer
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1616,9 +1617,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-like
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1629,9 +1630,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-dislike
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1642,9 +1643,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-control-start
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1655,9 +1656,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-control-rewind
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1668,9 +1669,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-control-play
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1681,9 +1682,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-control-pause
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1694,9 +1695,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-control-forward
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1707,9 +1708,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-control-end
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1720,9 +1721,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-volume-1
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1733,9 +1734,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-volume-2
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1746,9 +1747,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-volume-off
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1759,9 +1760,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-calendar
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1772,9 +1773,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-bulb
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1785,9 +1786,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-chart
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1798,9 +1799,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-ban
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1811,9 +1812,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-bubble
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1824,9 +1825,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-camrecorder
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1837,9 +1838,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-camera
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1850,9 +1851,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-cloud-download
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1863,9 +1864,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-cloud-upload
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1876,9 +1877,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-envelope
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1889,9 +1890,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-eye
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1902,9 +1903,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-flag
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1915,9 +1916,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-heart
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1928,9 +1929,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-info
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1941,9 +1942,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-key
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1954,9 +1955,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-link
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1967,9 +1968,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-lock
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1980,9 +1981,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-lock-open
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -1993,9 +1994,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-magnifier
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2006,9 +2007,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-magnifier-add
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2019,9 +2020,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-magnifier-remove
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2032,9 +2033,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-paper-clip
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2045,9 +2046,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-paper-plane
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2058,9 +2059,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-power
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2071,9 +2072,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-refresh
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2084,9 +2085,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-reload
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2097,9 +2098,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-settings
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2110,9 +2111,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-star
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2123,9 +2124,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-symbol-female
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2136,9 +2137,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-symbol-male
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2149,9 +2150,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-target
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2162,9 +2163,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-credit-card
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2175,9 +2176,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-paypal
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2188,9 +2189,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-tumblr
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2201,9 +2202,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-twitter
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2214,9 +2215,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-facebook
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2227,9 +2228,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-instagram
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2240,9 +2241,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-linkedin
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2253,9 +2254,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-pinterest
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2266,9 +2267,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-github
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2279,9 +2280,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-gplus
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2292,9 +2293,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-reddit
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2305,9 +2306,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-skype
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2318,9 +2319,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-dribbble
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2331,9 +2332,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-behance
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2344,9 +2345,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-foursqare
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2357,9 +2358,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-soundcloud
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2370,9 +2371,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-spotify
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2383,9 +2384,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-stumbleupon
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2396,9 +2397,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-youtube
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           md="3"
           sm="4"
@@ -2409,9 +2410,9 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
           />
           icon-social-dropbox
         
-        </bcol-stub>
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
 </div>
 `;

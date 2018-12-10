@@ -7,7 +7,7 @@ exports[`Paginations.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -48,7 +48,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           Default
         </h6>
          
-        <bpagination-stub
+        <b-pagination-stub
           perpage="10"
           size="md"
           totalrows="100"
@@ -60,7 +60,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           Small
         </h6>
          
-        <bpagination-stub
+        <b-pagination-stub
           perpage="10"
           size="sm"
           totalrows="100"
@@ -75,7 +75,7 @@ exports[`Paginations.vue renders correctly 1`] = `
             Large
           </h6>
            
-          <bpagination-stub
+          <b-pagination-stub
             perpage="10"
             size="lg"
             totalrows="100"
@@ -88,9 +88,9 @@ exports[`Paginations.vue renders correctly 1`] = `
           currentPage: 3
         </div>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -118,7 +118,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           Left alignment (default)
         </h6>
          
-        <bpagination-stub
+        <b-pagination-stub
           perpage="10"
           totalrows="100"
         />
@@ -129,7 +129,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           Center alignment
         </h6>
          
-        <bpagination-stub
+        <b-pagination-stub
           align="center"
           perpage="10"
           totalrows="100"
@@ -141,7 +141,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           Right (end) alignment
         </h6>
          
-        <bpagination-stub
+        <b-pagination-stub
           align="right"
           perpage="10"
           totalrows="100"
@@ -153,9 +153,9 @@ exports[`Paginations.vue renders correctly 1`] = `
           currentPage: 3
         </div>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -183,7 +183,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           Default
         </h6>
          
-        <bpaginationnav-stub
+        <b-pagination-nav-stub
           activeclass="active"
           baseurl="#"
           numberofpages="10"
@@ -195,7 +195,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           With link generator function
         </h6>
          
-        <bpaginationnav-stub
+        <b-pagination-nav-stub
           activeclass="active"
           baseurl="/"
           linkgen="function () { [native code] }"
@@ -210,7 +210,7 @@ exports[`Paginations.vue renders correctly 1`] = `
           currentPage: 3
         </div>
       </div>
-    </bcard-stub>
+    </b-card-stub>
   </div>
 </div>
 `;
