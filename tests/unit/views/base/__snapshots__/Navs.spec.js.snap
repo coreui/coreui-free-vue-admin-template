@@ -7,7 +7,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -44,10 +44,10 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnav-stub
+        <b-nav-stub
           tag="ul"
         >
-          <bnavitem-stub
+          <b-nav-item-stub
             active="true"
             activeclass="active"
             event="click"
@@ -56,9 +56,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Active
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -66,9 +66,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -76,9 +76,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Another Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             disabled="true"
             event="click"
@@ -87,12 +87,12 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Disabled
-          </bnavitem-stub>
-        </bnav-stub>
+          </b-nav-item-stub>
+        </b-nav-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -115,11 +115,11 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnav-stub
+        <b-nav-stub
           tabs="true"
           tag="ul"
         >
-          <bnavitem-stub
+          <b-nav-item-stub
             active="true"
             activeclass="active"
             event="click"
@@ -128,9 +128,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Active
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -138,9 +138,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -148,9 +148,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Another Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             disabled="true"
             event="click"
@@ -159,12 +159,12 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Disabled
-          </bnavitem-stub>
-        </bnav-stub>
+          </b-nav-item-stub>
+        </b-nav-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -187,11 +187,11 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnav-stub
+        <b-nav-stub
           pills="true"
           tag="ul"
         >
-          <bnavitem-stub
+          <b-nav-item-stub
             active="true"
             activeclass="active"
             event="click"
@@ -200,9 +200,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Active
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -210,9 +210,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -220,9 +220,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Another Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             disabled="true"
             event="click"
@@ -231,12 +231,12 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Disabled
-          </bnavitem-stub>
-        </bnav-stub>
+          </b-nav-item-stub>
+        </b-nav-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -259,12 +259,12 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnav-stub
+        <b-nav-stub
           fill="true"
           tabs="true"
           tag="ul"
         >
-          <bnavitem-stub
+          <b-nav-item-stub
             active="true"
             activeclass="active"
             event="click"
@@ -273,9 +273,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Active
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -283,9 +283,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -293,9 +293,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link with a long name 
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             disabled="true"
             event="click"
@@ -304,12 +304,12 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Disabled
-          </bnavitem-stub>
-        </bnav-stub>
+          </b-nav-item-stub>
+        </b-nav-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -332,12 +332,12 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnav-stub
+        <b-nav-stub
           justified="true"
           tabs="true"
           tag="ul"
         >
-          <bnavitem-stub
+          <b-nav-item-stub
             active="true"
             activeclass="active"
             event="click"
@@ -346,9 +346,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Active
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -356,9 +356,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -366,9 +366,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link with a long name 
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             disabled="true"
             event="click"
@@ -377,12 +377,12 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Disabled
-          </bnavitem-stub>
-        </bnav-stub>
+          </b-nav-item-stub>
+        </b-nav-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -405,11 +405,11 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnav-stub
+        <b-nav-stub
           pills="true"
           tag="ul"
         >
-          <bnavitem-stub
+          <b-nav-item-stub
             active="true"
             activeclass="active"
             event="click"
@@ -418,9 +418,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Active
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -428,9 +428,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitemdropdown-stub
+          <b-nav-item-dropdown-stub
             extramenuclasses=""
             extratoggleclasses=""
             id="nav7_ddown"
@@ -438,7 +438,7 @@ exports[`Navs.vue renders correctly 1`] = `
             role="menu"
             text="Dropdown"
           >
-            <bdropdownitem-stub
+            <b-dropdown-item-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -446,9 +446,9 @@ exports[`Navs.vue renders correctly 1`] = `
               target="_self"
             >
               one
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
+            <b-dropdown-item-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -456,13 +456,13 @@ exports[`Navs.vue renders correctly 1`] = `
               target="_self"
             >
               two
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdowndivider-stub
+            <b-dropdown-divider-stub
               tag="div"
             />
              
-            <bdropdownitem-stub
+            <b-dropdown-item-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -470,13 +470,13 @@ exports[`Navs.vue renders correctly 1`] = `
               target="_self"
             >
               three
-            </bdropdownitem-stub>
-          </bnavitemdropdown-stub>
-        </bnav-stub>
+            </b-dropdown-item-stub>
+          </b-nav-item-dropdown-stub>
+        </b-nav-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -499,12 +499,12 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnav-stub
+        <b-nav-stub
           class="w-25"
           tag="ul"
           vertical="true"
         >
-          <bnavitem-stub
+          <b-nav-item-stub
             active="true"
             activeclass="active"
             event="click"
@@ -513,9 +513,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Active
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -523,9 +523,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -533,9 +533,9 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Another Link
-          </bnavitem-stub>
+          </b-nav-item-stub>
            
-          <bnavitem-stub
+          <b-nav-item-stub
             activeclass="active"
             disabled="true"
             event="click"
@@ -544,10 +544,10 @@ exports[`Navs.vue renders correctly 1`] = `
             target="_self"
           >
             Disabled
-          </bnavitem-stub>
-        </bnav-stub>
+          </b-nav-item-stub>
+        </b-nav-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
   </div>
 </div>
 `;

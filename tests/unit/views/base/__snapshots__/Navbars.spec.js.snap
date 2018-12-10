@@ -7,7 +7,7 @@ exports[`Navbars.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -43,18 +43,18 @@ exports[`Navbars.vue renders correctly 1`] = `
         </div>
       </div>
        
-      <bnavbar-stub
+      <b-navbar-stub
         tag="nav"
         toggleable="md"
         type="dark"
         variant="info"
       >
-        <bnavbartoggle-stub
+        <b-navbar-toggle-stub
           label="Toggle navigation"
           target="nav_collapse"
         />
          
-        <bnavbarbrand-stub
+        <b-navbar-brand-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -64,17 +64,17 @@ exports[`Navbars.vue renders correctly 1`] = `
           target="_self"
         >
           NavBar
-        </bnavbarbrand-stub>
+        </b-navbar-brand-stub>
          
-        <bcollapse-stub
+        <b-collapse-stub
           id="nav_collapse"
           isnav="true"
           tag="div"
         >
-          <bnavbarnav-stub
+          <b-navbar-nav-stub
             tag="ul"
           >
-            <bnavitem-stub
+            <b-nav-item-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -83,9 +83,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               target="_self"
             >
               Link
-            </bnavitem-stub>
+            </b-nav-item-stub>
              
-            <bnavitem-stub
+            <b-nav-item-stub
               activeclass="active"
               disabled="true"
               event="click"
@@ -95,22 +95,22 @@ exports[`Navbars.vue renders correctly 1`] = `
               target="_self"
             >
               Disabled
-            </bnavitem-stub>
-          </bnavbarnav-stub>
+            </b-nav-item-stub>
+          </b-navbar-nav-stub>
            
-          <bnavbarnav-stub
+          <b-navbar-nav-stub
             class="ml-auto"
             tag="ul"
           >
-            <bnavform-stub>
-              <bforminput-stub
+            <b-nav-form-stub>
+              <b-form-input-stub
                 class="mr-sm-2"
                 placeholder="Search"
                 size="sm"
                 type="text"
               />
                
-              <bbutton-stub
+              <b-button-stub
                 activeclass="active"
                 class="my-2 my-sm-0"
                 event="click"
@@ -121,17 +121,17 @@ exports[`Navbars.vue renders correctly 1`] = `
                 type="submit"
               >
                 Search
-              </bbutton-stub>
-            </bnavform-stub>
+              </b-button-stub>
+            </b-nav-form-stub>
              
-            <bnavitemdropdown-stub
+            <b-nav-item-dropdown-stub
               extramenuclasses=""
               extratoggleclasses=""
               right=""
               role="menu"
               text="Lang"
             >
-              <bdropdownitem-stub
+              <b-dropdown-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -140,9 +140,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 EN
-              </bdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <bdropdownitem-stub
+              <b-dropdown-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -151,9 +151,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 ES
-              </bdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <bdropdownitem-stub
+              <b-dropdown-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -162,9 +162,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 RU
-              </bdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <bdropdownitem-stub
+              <b-dropdown-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -173,10 +173,10 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 FA
-              </bdropdownitem-stub>
-            </bnavitemdropdown-stub>
+              </b-dropdown-item-stub>
+            </b-nav-item-dropdown-stub>
              
-            <bnavitemdropdown-stub
+            <b-nav-item-dropdown-stub
               extramenuclasses=""
               extratoggleclasses=""
               right=""
@@ -188,7 +188,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 </em>
               </template>
                
-              <bdropdownitem-stub
+              <b-dropdown-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -197,9 +197,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 Profile
-              </bdropdownitem-stub>
+              </b-dropdown-item-stub>
                
-              <bdropdownitem-stub
+              <b-dropdown-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -208,14 +208,14 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 Signout
-              </bdropdownitem-stub>
-            </bnavitemdropdown-stub>
-          </bnavbarnav-stub>
-        </bcollapse-stub>
-      </bnavbar-stub>
-    </bcard-stub>
+              </b-dropdown-item-stub>
+            </b-nav-item-dropdown-stub>
+          </b-navbar-nav-stub>
+        </b-collapse-stub>
+      </b-navbar-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -240,12 +240,12 @@ exports[`Navbars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnavbar-stub
+        <b-navbar-stub
           tag="nav"
           type="light"
           variant="faded"
         >
-          <bnavbarbrand-stub
+          <b-navbar-brand-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -262,12 +262,12 @@ exports[`Navbars.vue renders correctly 1`] = `
             
             BootstrapVue
           
-          </bnavbarbrand-stub>
-        </bnavbar-stub>
+          </b-navbar-brand-stub>
+        </b-navbar-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -292,18 +292,18 @@ exports[`Navbars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnavbar-stub
+        <b-navbar-stub
           tag="nav"
           toggleable="true"
           type="light"
           variant="light"
         >
-          <bnavbartoggle-stub
+          <b-navbar-toggle-stub
             label="Toggle navigation"
             target="nav_text_collapse"
           />
            
-          <bnavbarbrand-stub
+          <b-navbar-brand-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -312,28 +312,28 @@ exports[`Navbars.vue renders correctly 1`] = `
             target="_self"
           >
             BootstrapVue
-          </bnavbarbrand-stub>
+          </b-navbar-brand-stub>
            
-          <bcollapse-stub
+          <b-collapse-stub
             id="nav_text_collapse"
             isnav="true"
             tag="div"
           >
-            <bnavbarnav-stub
+            <b-navbar-nav-stub
               tag="ul"
             >
-              <bnavtext-stub
+              <b-nav-text-stub
                 tag="span"
               >
                 Navbar text
-              </bnavtext-stub>
-            </bnavbarnav-stub>
-          </bcollapse-stub>
-        </bnavbar-stub>
+              </b-nav-text-stub>
+            </b-navbar-nav-stub>
+          </b-collapse-stub>
+        </b-navbar-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -358,26 +358,26 @@ exports[`Navbars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnavbar-stub
+        <b-navbar-stub
           tag="nav"
           toggleable="true"
           type="dark"
           variant="primary"
         >
-          <bnavbartoggle-stub
+          <b-navbar-toggle-stub
             label="Toggle navigation"
             target="nav_dropdown_collapse"
           />
            
-          <bcollapse-stub
+          <b-collapse-stub
             id="nav_dropdown_collapse"
             isnav="true"
             tag="div"
           >
-            <bnavbarnav-stub
+            <b-navbar-nav-stub
               tag="ul"
             >
-              <bnavitem-stub
+              <b-nav-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -386,9 +386,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 Home
-              </bnavitem-stub>
+              </b-nav-item-stub>
                
-              <bnavitem-stub
+              <b-nav-item-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -397,16 +397,16 @@ exports[`Navbars.vue renders correctly 1`] = `
                 target="_self"
               >
                 Link
-              </bnavitem-stub>
+              </b-nav-item-stub>
                
-              <bnavitemdropdown-stub
+              <b-nav-item-dropdown-stub
                 extramenuclasses=""
                 extratoggleclasses=""
                 right=""
                 role="menu"
                 text="Lang"
               >
-                <bdropdownitem-stub
+                <b-dropdown-item-stub
                   activeclass="active"
                   event="click"
                   exactactiveclass="active"
@@ -415,9 +415,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                   target="_self"
                 >
                   EN
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
+                <b-dropdown-item-stub
                   activeclass="active"
                   event="click"
                   exactactiveclass="active"
@@ -426,9 +426,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                   target="_self"
                 >
                   ES
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
+                <b-dropdown-item-stub
                   activeclass="active"
                   event="click"
                   exactactiveclass="active"
@@ -437,9 +437,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                   target="_self"
                 >
                   RU
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
+                <b-dropdown-item-stub
                   activeclass="active"
                   event="click"
                   exactactiveclass="active"
@@ -448,17 +448,17 @@ exports[`Navbars.vue renders correctly 1`] = `
                   target="_self"
                 >
                   FA
-                </bdropdownitem-stub>
-              </bnavitemdropdown-stub>
+                </b-dropdown-item-stub>
+              </b-nav-item-dropdown-stub>
                
-              <bnavitemdropdown-stub
+              <b-nav-item-dropdown-stub
                 extramenuclasses=""
                 extratoggleclasses=""
                 right=""
                 role="menu"
                 text="User"
               >
-                <bdropdownitem-stub
+                <b-dropdown-item-stub
                   activeclass="active"
                   event="click"
                   exactactiveclass="active"
@@ -467,9 +467,9 @@ exports[`Navbars.vue renders correctly 1`] = `
                   target="_self"
                 >
                   Account
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
+                <b-dropdown-item-stub
                   activeclass="active"
                   event="click"
                   exactactiveclass="active"
@@ -478,15 +478,15 @@ exports[`Navbars.vue renders correctly 1`] = `
                   target="_self"
                 >
                   Settings
-                </bdropdownitem-stub>
-              </bnavitemdropdown-stub>
-            </bnavbarnav-stub>
-          </bcollapse-stub>
-        </bnavbar-stub>
+                </b-dropdown-item-stub>
+              </b-nav-item-dropdown-stub>
+            </b-navbar-nav-stub>
+          </b-collapse-stub>
+        </b-navbar-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -511,19 +511,19 @@ exports[`Navbars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnavbar-stub
+        <b-navbar-stub
           tag="nav"
           type="light"
           variant="light"
         >
-          <bnavform-stub>
-            <bforminput-stub
+          <b-nav-form-stub>
+            <b-form-input-stub
               class="mr-sm-2"
               placeholder="Search"
               type="text"
             />
              
-            <bbutton-stub
+            <b-button-stub
               activeclass="active"
               class="my-2 my-sm-0"
               event="click"
@@ -534,13 +534,13 @@ exports[`Navbars.vue renders correctly 1`] = `
               variant="outline-success"
             >
               Search
-            </bbutton-stub>
-          </bnavform-stub>
-        </bnavbar-stub>
+            </b-button-stub>
+          </b-nav-form-stub>
+        </b-navbar-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
@@ -565,26 +565,26 @@ exports[`Navbars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bnavbar-stub
+        <b-navbar-stub
           tag="nav"
           type="light"
           variant="light"
         >
-          <bnavform-stub>
-            <binputgroup-stub
+          <b-nav-form-stub>
+            <b-input-group-stub
               left="@"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 class="mr-sm-2"
                 placeholder="Username"
                 type="text"
               />
-            </binputgroup-stub>
-          </bnavform-stub>
-        </bnavbar-stub>
+            </b-input-group-stub>
+          </b-nav-form-stub>
+        </b-navbar-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
   </div>
 </div>
 `;

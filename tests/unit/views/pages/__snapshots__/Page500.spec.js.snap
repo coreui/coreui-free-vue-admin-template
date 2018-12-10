@@ -7,11 +7,11 @@ exports[`Page500.vue renders correctly 1`] = `
   <div
     class="container"
   >
-    <brow-stub
+    <b-row-stub
       class="justify-content-center"
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
@@ -37,20 +37,20 @@ exports[`Page500.vue renders correctly 1`] = `
           </p>
         </div>
          
-        <binputgroup-stub
+        <b-input-group-stub
           tag="div"
         >
-          <binputgroupprepend-stub
+          <b-input-group-prepend-stub
             tag="div"
           >
-            <binputgrouptext-stub
+            <b-input-group-text-stub
               tag="div"
             >
               <i
                 class="fa fa-search"
               />
-            </binputgrouptext-stub>
-          </binputgroupprepend-stub>
+            </b-input-group-text-stub>
+          </b-input-group-prepend-stub>
            
           <input
             class="form-control"
@@ -60,11 +60,11 @@ exports[`Page500.vue renders correctly 1`] = `
             type="text"
           />
            
-          <binputgroupappend-stub
+          <b-input-group-append-stub
             append="true"
             tag="div"
           >
-            <bbutton-stub
+            <b-button-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
@@ -74,11 +74,11 @@ exports[`Page500.vue renders correctly 1`] = `
               variant="info"
             >
               Search
-            </bbutton-stub>
-          </binputgroupappend-stub>
-        </binputgroup-stub>
-      </bcol-stub>
-    </brow-stub>
+            </b-button-stub>
+          </b-input-group-append-stub>
+        </b-input-group-stub>
+      </b-col-stub>
+    </b-row-stub>
   </div>
 </div>
 `;

@@ -99,7 +99,7 @@ module.exports = {
 
     browser
     .pause(500)
-    .click('/html/body/div/div/div/nav/section/ul/li[1]/div/a', function (response) {
+    .click('/html/body/div/div/div/nav/section/ul/li[1]/a', function (response) {
       console.log('response', typeof response)
       this.assert.cssClassNotPresent('/html/body', 'sidebar-show')
     })

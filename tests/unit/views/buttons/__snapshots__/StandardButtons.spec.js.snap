@@ -4,7 +4,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -13,24 +13,24 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     tag="div"
     titletag="h4"
   >
-    <bcardheader-stub
+    <b-card-header-stub
       headertag="div"
     >
       <strong>
         Standard buttons
       </strong>
-    </bcardheader-stub>
+    </b-card-header-stub>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
     >
-      <brow-stub
+      <b-row-stub
         class="align-items-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -39,9 +39,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Normal
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -49,7 +49,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -60,10 +60,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -71,7 +71,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -82,10 +82,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -93,7 +93,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -104,10 +104,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -115,7 +115,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -126,10 +126,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -137,7 +137,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -148,10 +148,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -159,7 +159,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -170,10 +170,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -181,7 +181,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -192,10 +192,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -203,7 +203,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -214,10 +214,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -225,7 +225,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -236,15 +236,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -253,9 +253,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Active State
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -263,7 +263,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -276,10 +276,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -287,7 +287,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -300,10 +300,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -311,7 +311,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -324,10 +324,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -335,7 +335,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -348,10 +348,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -359,7 +359,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -372,10 +372,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -383,7 +383,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -396,10 +396,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -407,7 +407,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -420,10 +420,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -431,7 +431,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -444,10 +444,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -455,7 +455,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -468,15 +468,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -485,9 +485,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Disabled
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -495,7 +495,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -507,10 +507,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -518,7 +518,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -530,10 +530,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -541,7 +541,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -553,10 +553,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -564,7 +564,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -576,10 +576,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -587,7 +587,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -599,10 +599,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -610,7 +610,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -622,10 +622,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -633,7 +633,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -645,10 +645,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -656,7 +656,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -668,10 +668,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -679,7 +679,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -691,13 +691,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -706,15 +706,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     tag="div"
     titletag="h4"
   >
-    <bcardheader-stub
+    <b-card-header-stub
       headertag="div"
     >
       <strong>
         Outline Buttons
       </strong>
-    </bcardheader-stub>
+    </b-card-header-stub>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
@@ -729,11 +729,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       
       </p>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -742,9 +742,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Normal
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -752,7 +752,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -763,10 +763,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -774,7 +774,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -785,10 +785,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -796,7 +796,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -807,10 +807,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -818,7 +818,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -829,10 +829,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -840,7 +840,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -851,10 +851,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -862,7 +862,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -873,10 +873,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -884,7 +884,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -895,10 +895,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -906,7 +906,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -917,10 +917,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -928,13 +928,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         />
-      </brow-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -943,9 +943,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Active State
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -953,7 +953,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -966,10 +966,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -977,7 +977,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -990,10 +990,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1001,7 +1001,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1014,10 +1014,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1025,7 +1025,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1038,10 +1038,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1049,7 +1049,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1062,10 +1062,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1073,7 +1073,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1086,10 +1086,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1097,7 +1097,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1110,10 +1110,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1121,7 +1121,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1134,10 +1134,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1145,13 +1145,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         />
-      </brow-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -1160,9 +1160,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Disabled
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1170,7 +1170,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1182,10 +1182,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1193,7 +1193,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1205,10 +1205,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1216,7 +1216,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1228,10 +1228,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1239,7 +1239,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1251,10 +1251,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1262,7 +1262,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1274,10 +1274,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1285,7 +1285,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1297,10 +1297,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1308,7 +1308,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1320,10 +1320,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1331,7 +1331,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1343,10 +1343,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1354,11 +1354,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         />
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -1367,15 +1367,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     tag="div"
     titletag="h4"
   >
-    <bcardheader-stub
+    <b-card-header-stub
       headertag="div"
     >
       <strong>
         Ghost Buttons
       </strong>
-    </bcardheader-stub>
+    </b-card-header-stub>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
@@ -1391,11 +1391,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       
       </p>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -1404,9 +1404,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Normal
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1414,7 +1414,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1425,10 +1425,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1436,7 +1436,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1447,10 +1447,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1458,7 +1458,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1469,10 +1469,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1480,7 +1480,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1491,10 +1491,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1502,7 +1502,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1513,10 +1513,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1524,7 +1524,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1535,10 +1535,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1546,7 +1546,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1557,10 +1557,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1568,7 +1568,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             event="click"
@@ -1579,10 +1579,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1590,13 +1590,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         />
-      </brow-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -1605,9 +1605,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Active State
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1615,7 +1615,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1628,10 +1628,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1639,7 +1639,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1652,10 +1652,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1663,7 +1663,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1676,10 +1676,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1687,7 +1687,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1700,10 +1700,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1711,7 +1711,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1724,10 +1724,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1735,7 +1735,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1748,10 +1748,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1759,7 +1759,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1772,10 +1772,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1783,7 +1783,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -1796,10 +1796,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1807,13 +1807,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         />
-      </brow-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -1822,9 +1822,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Disabled
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1832,7 +1832,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1844,10 +1844,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1855,7 +1855,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1867,10 +1867,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1878,7 +1878,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1890,10 +1890,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1901,7 +1901,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1913,10 +1913,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1924,7 +1924,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1936,10 +1936,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1947,7 +1947,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1959,10 +1959,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1970,7 +1970,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -1982,10 +1982,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -1993,7 +1993,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             disabled="true"
@@ -2005,10 +2005,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2016,11 +2016,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         />
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -2029,15 +2029,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     tag="div"
     titletag="h4"
   >
-    <bcardheader-stub
+    <b-card-header-stub
       headertag="div"
     >
       <strong>
         Square Buttons
       </strong>
-    </bcardheader-stub>
+    </b-card-header-stub>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
@@ -2053,11 +2053,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       
       </p>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -2066,9 +2066,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Normal
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2076,7 +2076,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2088,10 +2088,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2099,7 +2099,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2111,10 +2111,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2122,7 +2122,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2134,10 +2134,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2145,7 +2145,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2157,10 +2157,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2168,7 +2168,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2180,10 +2180,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2191,7 +2191,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2203,10 +2203,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2214,7 +2214,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2226,10 +2226,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2237,7 +2237,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2249,10 +2249,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2260,7 +2260,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2272,15 +2272,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -2289,9 +2289,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Active State
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2299,7 +2299,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2313,10 +2313,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2324,7 +2324,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2338,10 +2338,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2349,7 +2349,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2363,10 +2363,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2374,7 +2374,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2388,10 +2388,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2399,7 +2399,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2413,10 +2413,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2424,7 +2424,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2438,10 +2438,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2449,7 +2449,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2463,10 +2463,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2474,7 +2474,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2488,10 +2488,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2499,7 +2499,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -2513,15 +2513,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -2530,9 +2530,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Disabled
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2540,7 +2540,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2553,10 +2553,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2564,7 +2564,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2577,10 +2577,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2588,7 +2588,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2601,10 +2601,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2612,7 +2612,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2625,10 +2625,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2636,7 +2636,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2649,10 +2649,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2660,7 +2660,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2673,10 +2673,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2684,7 +2684,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2697,10 +2697,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2708,7 +2708,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2721,10 +2721,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2732,7 +2732,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-square"
@@ -2745,13 +2745,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -2760,15 +2760,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     tag="div"
     titletag="h4"
   >
-    <bcardheader-stub
+    <b-card-header-stub
       headertag="div"
     >
       <strong>
         Pill Buttons
       </strong>
-    </bcardheader-stub>
+    </b-card-header-stub>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
@@ -2784,11 +2784,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       
       </p>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -2797,9 +2797,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Normal
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2807,7 +2807,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2819,10 +2819,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2830,7 +2830,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2842,10 +2842,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2853,7 +2853,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2865,10 +2865,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2876,7 +2876,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2888,10 +2888,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2899,7 +2899,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2911,10 +2911,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2922,7 +2922,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2934,10 +2934,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2945,7 +2945,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2957,10 +2957,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2968,7 +2968,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -2980,10 +2980,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -2991,7 +2991,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3003,15 +3003,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -3020,9 +3020,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Active State
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3030,7 +3030,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3044,10 +3044,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3055,7 +3055,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3069,10 +3069,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3080,7 +3080,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3094,10 +3094,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3105,7 +3105,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3119,10 +3119,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3130,7 +3130,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3144,10 +3144,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3155,7 +3155,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3169,10 +3169,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3180,7 +3180,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3194,10 +3194,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3205,7 +3205,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3219,10 +3219,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3230,7 +3230,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             aria-pressed="true"
             block="true"
@@ -3244,15 +3244,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="12"
           tag="div"
@@ -3261,9 +3261,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Disabled
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3271,7 +3271,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3284,10 +3284,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Primary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3295,7 +3295,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3308,10 +3308,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="secondary"
           >
             Secondary
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3319,7 +3319,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3332,10 +3332,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="success"
           >
             Success
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3343,7 +3343,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3356,10 +3356,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Warning
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3367,7 +3367,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3380,10 +3380,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Danger
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3391,7 +3391,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3404,10 +3404,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="info"
           >
             Info
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3415,7 +3415,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3428,10 +3428,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="light"
           >
             Light
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3439,7 +3439,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3452,10 +3452,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="dark"
           >
             Dark
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="6"
           md="2"
@@ -3463,7 +3463,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
           xl="true"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             block="true"
             class="btn-pill"
@@ -3476,13 +3476,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="link"
           >
             Link
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -3491,15 +3491,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     tag="div"
     titletag="h4"
   >
-    <bcardheader-stub
+    <b-card-header-stub
       headertag="div"
     >
       <strong>
         Sizes
       </strong>
-    </bcardheader-stub>
+    </b-card-header-stub>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
@@ -3516,11 +3516,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
          for additional sizes.
       </p>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="2"
           tag="div"
@@ -3529,14 +3529,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Small
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3547,15 +3547,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Standard Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3566,15 +3566,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-secondary"
           >
             Outline Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3585,15 +3585,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-success"
           >
             Ghost Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-square"
             event="click"
@@ -3605,15 +3605,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Square Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-pill"
             event="click"
@@ -3625,15 +3625,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Pill Button
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="2"
           tag="div"
@@ -3642,14 +3642,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Normal
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3659,15 +3659,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Standard Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3677,15 +3677,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-secondary"
           >
             Outline Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3695,15 +3695,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-success"
           >
             Ghost Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-square"
             event="click"
@@ -3714,15 +3714,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Square Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-pill"
             event="click"
@@ -3733,15 +3733,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Pill Button
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0"
           cols="2"
           tag="div"
@@ -3750,14 +3750,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           
           Large
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3768,15 +3768,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="primary"
           >
             Standard Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3787,15 +3787,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline-secondary"
           >
             Outline Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3806,15 +3806,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="ghost-success"
           >
             Ghost Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-square"
             event="click"
@@ -3826,15 +3826,15 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="warning"
           >
             Square Button
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-3 mb-xl-0 text-center"
           cols="2"
           tag="div"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-pill"
             event="click"
@@ -3846,13 +3846,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="danger"
           >
             Pill Button
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -3861,30 +3861,30 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     tag="div"
     titletag="h4"
   >
-    <bcardheader-stub
+    <b-card-header-stub
       headertag="div"
     >
       <strong>
         With Icons
       </strong>
-    </bcardheader-stub>
+    </b-card-header-stub>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
     >
-      <brow-stub
+      <b-row-stub
         class="align-items-center mt-3"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3898,16 +3898,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             />
              Standard Button
           
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3922,16 +3922,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             />
              Outline Button
           
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             event="click"
             exactactiveclass="active"
@@ -3945,16 +3945,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             />
              Ghost Button
           
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-square"
             event="click"
@@ -3969,16 +3969,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             />
              Square Button
           
-          </bbutton-stub>
-        </bcol-stub>
+          </b-button-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="text-center mt-3"
           sm="true"
           tag="div"
           xs="12"
         >
-          <bbutton-stub
+          <b-button-stub
             activeclass="active"
             class="btn-pill"
             event="click"
@@ -3993,13 +3993,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             />
              Pill Button
           
-          </bbutton-stub>
-        </bcol-stub>
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+          </b-button-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -4015,16 +4015,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       </strong>
     </div>
      
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         class="text-center mt-3"
         sm="true"
         tag="div"
         xs="12"
       >
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -4034,16 +4034,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-primary"
         >
           Primary Off
-        </bbutton-stub>
-      </bcol-stub>
+        </b-button-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         class="text-center mt-3"
         sm="true"
         tag="div"
         xs="12"
       >
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -4053,16 +4053,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-secondary"
         >
           Secondary Off
-        </bbutton-stub>
-      </bcol-stub>
+        </b-button-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         class="text-center mt-3"
         sm="true"
         tag="div"
         xs="12"
       >
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -4072,16 +4072,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-success"
         >
           Success Off
-        </bbutton-stub>
-      </bcol-stub>
+        </b-button-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         class="text-center mt-3"
         sm="true"
         tag="div"
         xs="12"
       >
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -4091,16 +4091,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-info"
         >
           Info Off
-        </bbutton-stub>
-      </bcol-stub>
+        </b-button-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         class="text-center mt-3"
         sm="true"
         tag="div"
         xs="12"
       >
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -4110,16 +4110,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-warning"
         >
           Warning Off
-        </bbutton-stub>
-      </bcol-stub>
+        </b-button-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         class="text-center mt-3"
         sm="true"
         tag="div"
         xs="12"
       >
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           event="click"
           exactactiveclass="active"
@@ -4129,20 +4129,20 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-danger"
         >
           Danger Off
-        </bbutton-stub>
-      </bcol-stub>
-    </brow-stub>
-  </bcard-stub>
+        </b-button-stub>
+      </b-col-stub>
+    </b-row-stub>
+  </b-card-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
@@ -4165,7 +4165,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4177,9 +4177,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="secondary"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4191,9 +4191,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="primary"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4205,9 +4205,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="success"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4219,9 +4219,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="info"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4233,9 +4233,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="warning"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4247,9 +4247,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="danger"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4261,16 +4261,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="link"
         >
           Block level button
-        </bbutton-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-button-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
@@ -4293,7 +4293,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4305,9 +4305,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-secondary"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4319,9 +4319,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-primary"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4333,9 +4333,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-success"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4347,9 +4347,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-info"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4361,9 +4361,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-warning"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4375,9 +4375,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="outline-danger"
         >
           Block level button
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbutton-stub
+        <b-button-stub
           activeclass="active"
           block="true"
           event="click"
@@ -4389,9 +4389,9 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           variant="ghost-info"
         >
           Block level button
-        </bbutton-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+        </b-button-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DefaultAside.vue renders correctly 1`] = `
-<btabs-stub
+<b-tabs-stub
   tag="div"
 >
-  <btab-stub
+  <b-tab-stub
     buttonid=""
     href="#"
     tag="div"
@@ -16,11 +16,11 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       />
     </template>
      
-    <blistgroup-stub
+    <b-list-group-stub
       class="list-group-accent"
       tag="div"
     >
-      <blistgroupitem-stub
+      <b-list-group-item-stub
         activeclass="active"
         class="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small"
         event="click"
@@ -32,9 +32,9 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         
         Today
       
-      </blistgroupitem-stub>
+      </b-list-group-item-stub>
        
-      <blistgroupitem-stub
+      <b-list-group-item-stub
         activeclass="active"
         class="list-group-item-accent-warning list-group-item-divider"
         event="click"
@@ -81,9 +81,9 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             Palo Alto, CA
         
         </small>
-      </blistgroupitem-stub>
+      </b-list-group-item-stub>
        
-      <blistgroupitem-stub
+      <b-list-group-item-stub
         activeclass="active"
         class="list-group-item-accent-info"
         event="click"
@@ -127,13 +127,13 @@ exports[`DefaultAside.vue renders correctly 1`] = `
           />
             On-line
         </small>
-      </blistgroupitem-stub>
+      </b-list-group-item-stub>
        
       <hr
         class="transparent mx-3 my-0"
       />
        
-      <blistgroupitem-stub
+      <b-list-group-item-stub
         activeclass="active"
         class="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small"
         event="click"
@@ -145,9 +145,9 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         
         Tomorrow
       
-      </blistgroupitem-stub>
+      </b-list-group-item-stub>
        
-      <blistgroupitem-stub
+      <b-list-group-item-stub
         activeclass="active"
         class="list-group-item-accent-danger list-group-item-divider"
         event="click"
@@ -235,9 +235,9 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             />
           </div>
         </div>
-      </blistgroupitem-stub>
+      </b-list-group-item-stub>
        
-      <blistgroupitem-stub
+      <b-list-group-item-stub
         activeclass="active"
         class="list-group-item-accent-success list-group-item-divider"
         event="click"
@@ -271,9 +271,9 @@ exports[`DefaultAside.vue renders correctly 1`] = `
           />
             Palo Alto, CA
         </small>
-      </blistgroupitem-stub>
+      </b-list-group-item-stub>
        
-      <blistgroupitem-stub
+      <b-list-group-item-stub
         activeclass="active"
         class="list-group-item-accent-primary list-group-item-divider"
         event="click"
@@ -380,11 +380,11 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             />
           </div>
         </div>
-      </blistgroupitem-stub>
-    </blistgroup-stub>
-  </btab-stub>
+      </b-list-group-item-stub>
+    </b-list-group-stub>
+  </b-tab-stub>
    
-  <btab-stub
+  <b-tab-stub
     buttonid=""
     href="#"
     tag="div"
@@ -414,7 +414,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
               src="img/avatars/7.jpg"
             />
              
-            <bbadge-stub
+            <b-badge-stub
               activeclass="active"
               class="avatar-status"
               event="click"
@@ -471,7 +471,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
               src="img/avatars/7.jpg"
             />
              
-            <bbadge-stub
+            <b-badge-stub
               activeclass="active"
               class="avatar-status"
               event="click"
@@ -528,7 +528,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
               src="img/avatars/7.jpg"
             />
              
-            <bbadge-stub
+            <b-badge-stub
               activeclass="active"
               class="avatar-status"
               event="click"
@@ -585,7 +585,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
               src="img/avatars/7.jpg"
             />
              
-            <bbadge-stub
+            <b-badge-stub
               activeclass="active"
               class="avatar-status"
               event="click"
@@ -642,7 +642,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
               src="img/avatars/7.jpg"
             />
              
-            <bbadge-stub
+            <b-badge-stub
               activeclass="active"
               class="avatar-status"
               event="click"
@@ -682,9 +682,9 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         </small>
       </div>
     </div>
-  </btab-stub>
+  </b-tab-stub>
    
-  <btab-stub
+  <b-tab-stub
     buttonid=""
     href="#"
     tag="div"
@@ -715,7 +715,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             </b>
           </small>
            
-          <cswitch-stub
+          <c-switch-stub
             checked="true"
             class="float-right"
             color="success"
@@ -750,7 +750,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             </b>
           </small>
            
-          <cswitch-stub
+          <c-switch-stub
             class="float-right"
             color="success"
             dataoff="Off"
@@ -784,7 +784,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             </b>
           </small>
            
-          <cswitch-stub
+          <c-switch-stub
             class="float-right"
             color="success"
             dataoff="Off"
@@ -820,7 +820,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             </b>
           </small>
            
-          <cswitch-stub
+          <c-switch-stub
             checked="true"
             class="float-right"
             color="success"
@@ -851,7 +851,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs"
         height="{}"
         max="100"
@@ -876,7 +876,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs"
         height="{}"
         max="100"
@@ -901,7 +901,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs"
         height="{}"
         max="100"
@@ -926,7 +926,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs"
         height="{}"
         max="100"
@@ -941,6 +941,6 @@ exports[`DefaultAside.vue renders correctly 1`] = `
         25GB/256GB
       </small>
     </div>
-  </btab-stub>
-</btabs-stub>
+  </b-tab-stub>
+</b-tabs-stub>
 `;

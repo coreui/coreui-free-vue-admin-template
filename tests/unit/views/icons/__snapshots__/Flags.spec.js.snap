@@ -4,7 +4,7 @@ exports[`Flags.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
@@ -24,16 +24,16 @@ exports[`Flags.vue renders correctly 1`] = `
     
     </div>
      
-    <bcardbody-stub
+    <b-card-body-stub
       bodytag="div"
       subtitletag="h6"
       titletag="h4"
     >
-      <brow-stub
+      <b-row-stub
         class="text-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="12"
           tag="div"
@@ -49,9 +49,9 @@ exports[`Flags.vue renders correctly 1`] = `
           </code>
            (where xx is the ISO 3166-1-alpha-2 code of a country) to an empty span. If you want to have a squared version flag then add the class flag-icon-squared as well.
         
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -66,9 +66,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ad
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -83,9 +83,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ae
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -100,9 +100,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-af
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -117,9 +117,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ag
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -134,9 +134,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ai
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -151,9 +151,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-al
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -168,9 +168,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-am
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -185,9 +185,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ao
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -202,9 +202,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-aq
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -219,9 +219,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ar
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -236,9 +236,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-as
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -253,9 +253,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-at
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -270,9 +270,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-au
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -287,9 +287,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-aw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -304,9 +304,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ax
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -321,9 +321,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-az
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -338,9 +338,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ba
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -355,9 +355,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bb
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -372,9 +372,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bd
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -389,9 +389,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-be
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -406,9 +406,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -423,9 +423,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -440,9 +440,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bh
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -457,9 +457,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bi
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -474,9 +474,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bj
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -491,9 +491,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bl
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -508,9 +508,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -525,9 +525,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -542,9 +542,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bo
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -559,9 +559,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bq
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -576,9 +576,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-br
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -593,9 +593,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bs
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -610,9 +610,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bt
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -627,9 +627,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bv
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -644,9 +644,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -661,9 +661,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-by
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -678,9 +678,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-bz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -695,9 +695,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ca
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -712,9 +712,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cc
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -729,9 +729,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cd
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -746,9 +746,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -763,9 +763,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -780,9 +780,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ch
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -797,9 +797,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ci
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -814,9 +814,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ck
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -831,9 +831,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cl
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -848,9 +848,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -865,9 +865,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -882,9 +882,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-co
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -899,9 +899,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -916,9 +916,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cu
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -933,9 +933,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cv
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -950,9 +950,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -967,9 +967,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cx
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -984,9 +984,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cy
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1001,9 +1001,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-cz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1018,9 +1018,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-de
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1035,9 +1035,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-dj
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1052,9 +1052,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-dk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1069,9 +1069,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-dm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1086,9 +1086,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-do
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1103,9 +1103,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-dz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1120,9 +1120,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ec
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1137,9 +1137,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ee
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1154,9 +1154,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-eg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1171,9 +1171,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-eh
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1188,9 +1188,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-er
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1205,9 +1205,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-es
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1222,9 +1222,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-et
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1239,9 +1239,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-fi
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1256,9 +1256,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-fj
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1273,9 +1273,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-fk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1290,9 +1290,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-fm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1307,9 +1307,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-fo
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1324,9 +1324,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-fr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1341,9 +1341,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ga
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1358,9 +1358,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gb
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1375,9 +1375,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gd
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1392,9 +1392,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ge
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1409,9 +1409,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1426,9 +1426,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1443,9 +1443,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gh
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1460,9 +1460,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gi
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1477,9 +1477,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gl
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1494,9 +1494,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1511,9 +1511,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1528,9 +1528,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gp
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1545,9 +1545,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gq
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1562,9 +1562,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1579,9 +1579,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gs
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1596,9 +1596,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gt
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1613,9 +1613,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gu
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1630,9 +1630,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1647,9 +1647,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-gy
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1664,9 +1664,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-hk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1681,9 +1681,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-hm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1698,9 +1698,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-hn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1715,9 +1715,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-hr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1732,9 +1732,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ht
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1749,9 +1749,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-hu
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1766,9 +1766,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-id
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1783,9 +1783,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ie
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1800,9 +1800,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-il
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1817,9 +1817,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-im
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1834,9 +1834,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-in
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1851,9 +1851,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-io
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1868,9 +1868,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-iq
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1885,9 +1885,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ir
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1902,9 +1902,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-is
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1919,9 +1919,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-it
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1936,9 +1936,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-je
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1953,9 +1953,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-jm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1970,9 +1970,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-jo
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -1987,9 +1987,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-jp
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2004,9 +2004,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ke
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2021,9 +2021,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-kg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2038,9 +2038,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-kh
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2055,9 +2055,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ki
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2072,9 +2072,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-km
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2089,9 +2089,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-kn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2106,9 +2106,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-kp
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2123,9 +2123,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-kr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2140,9 +2140,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-kw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2157,9 +2157,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ky
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2174,9 +2174,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-kz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2191,9 +2191,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-la
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2208,9 +2208,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-lb
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2225,9 +2225,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-lc
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2242,9 +2242,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-li
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2259,9 +2259,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-lk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2276,9 +2276,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-lr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2293,9 +2293,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ls
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2310,9 +2310,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-lt
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2327,9 +2327,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-lu
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2344,9 +2344,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-lv
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2361,9 +2361,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ly
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2378,9 +2378,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ma
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2395,9 +2395,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mc
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2412,9 +2412,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-md
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2429,9 +2429,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-me
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2446,9 +2446,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2463,9 +2463,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2480,9 +2480,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mh
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2497,9 +2497,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2514,9 +2514,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ml
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2531,9 +2531,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2548,9 +2548,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2565,9 +2565,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mo
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2582,9 +2582,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mp
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2599,9 +2599,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mq
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2616,9 +2616,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2633,9 +2633,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ms
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2650,9 +2650,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mt
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2667,9 +2667,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mu
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2684,9 +2684,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mv
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2701,9 +2701,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2718,9 +2718,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mx
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2735,9 +2735,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-my
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2752,9 +2752,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-mz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2769,9 +2769,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-na
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2786,9 +2786,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-nc
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2803,9 +2803,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ne
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2820,9 +2820,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-nf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2837,9 +2837,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ng
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2854,9 +2854,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ni
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2871,9 +2871,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-nl
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2888,9 +2888,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-no
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2905,9 +2905,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-np
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2922,9 +2922,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-nr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2939,9 +2939,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-nu
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2956,9 +2956,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-nz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2973,9 +2973,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-om
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -2990,9 +2990,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pa
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3007,9 +3007,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pe
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3024,9 +3024,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3041,9 +3041,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3058,9 +3058,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ph
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3075,9 +3075,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3092,9 +3092,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pl
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3109,9 +3109,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3126,9 +3126,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3143,9 +3143,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3160,9 +3160,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ps
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3177,9 +3177,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pt
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3194,9 +3194,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-pw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3211,9 +3211,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-py
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3228,9 +3228,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-qa
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3245,9 +3245,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-re
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3262,9 +3262,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ro
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3279,9 +3279,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-rs
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3296,9 +3296,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ru
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3313,9 +3313,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-rw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3330,9 +3330,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sa
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3347,9 +3347,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sb
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3364,9 +3364,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sc
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3381,9 +3381,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sd
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3398,9 +3398,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-se
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3415,9 +3415,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3432,9 +3432,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sh
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3449,9 +3449,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-si
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3466,9 +3466,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sj
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3483,9 +3483,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3500,9 +3500,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sl
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3517,9 +3517,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3534,9 +3534,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3551,9 +3551,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-so
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3568,9 +3568,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3585,9 +3585,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ss
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3602,9 +3602,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-st
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3619,9 +3619,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sv
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3636,9 +3636,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sx
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3653,9 +3653,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sy
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3670,9 +3670,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-sz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3687,9 +3687,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tc
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3704,9 +3704,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-td
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3721,9 +3721,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3738,9 +3738,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3755,9 +3755,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-th
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3772,9 +3772,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tj
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3789,9 +3789,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tk
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3806,9 +3806,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tl
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3823,9 +3823,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3840,9 +3840,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3857,9 +3857,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-to
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3874,9 +3874,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tr
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3891,9 +3891,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tt
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3908,9 +3908,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tv
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3925,9 +3925,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tw
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3942,9 +3942,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-tz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3959,9 +3959,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ua
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3976,9 +3976,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ug
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -3993,9 +3993,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-um
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4010,9 +4010,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-us
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4027,9 +4027,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-uy
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4044,9 +4044,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-uz
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4061,9 +4061,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-va
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4078,9 +4078,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-vc
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4095,9 +4095,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ve
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4112,9 +4112,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-vg
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4129,9 +4129,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-vi
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4146,9 +4146,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-vn
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4163,9 +4163,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-vu
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4180,9 +4180,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-wf
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4197,9 +4197,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ws
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4214,9 +4214,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-ye
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4231,9 +4231,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-yt
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4248,9 +4248,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-za
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4265,9 +4265,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-zm
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-5"
           cols="3"
           sm="2"
@@ -4282,9 +4282,9 @@ exports[`Flags.vue renders correctly 1`] = `
           <div>
             flag-icon-zw
           </div>
-        </bcol-stub>
-      </brow-stub>
-    </bcardbody-stub>
-  </bcard-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-body-stub>
+  </b-card-stub>
 </div>
 `;

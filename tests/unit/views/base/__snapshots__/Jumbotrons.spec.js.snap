@@ -7,13 +7,13 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
@@ -51,7 +51,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           </div>
            
           <div>
-            <bjumbotron-stub
+            <b-jumbotron-stub
               header="Bootstrap 4"
               headerlevel="3"
               headertag="h1"
@@ -63,7 +63,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
                 For more information visit website
               </p>
                
-              <bbtn-stub
+              <b-btn-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -74,16 +74,16 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
                 variant="primary"
               >
                 More Info
-              </bbtn-stub>
-            </bjumbotron-stub>
+              </b-btn-stub>
+            </b-jumbotron-stub>
           </div>
-        </bcard-stub>
-      </bcol-stub>
+        </b-card-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
@@ -108,7 +108,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           </div>
            
           <div>
-            <bjumbotron-stub
+            <b-jumbotron-stub
               headerlevel="3"
               headertag="h1"
               leadtag="p"
@@ -138,7 +138,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
               
               </p>
                
-              <bbtn-stub
+              <b-btn-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -149,9 +149,9 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
                 variant="primary"
               >
                 Do Something
-              </bbtn-stub>
+              </b-btn-stub>
                
-              <bbtn-stub
+              <b-btn-stub
                 activeclass="active"
                 event="click"
                 exactactiveclass="active"
@@ -162,20 +162,20 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
                 variant="success"
               >
                 Do Something Else
-              </bbtn-stub>
-            </bjumbotron-stub>
+              </b-btn-stub>
+            </b-jumbotron-stub>
           </div>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
@@ -200,7 +200,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           </div>
            
           <div>
-            <bjumbotron-stub
+            <b-jumbotron-stub
               bgvariant="info"
               bordervariant="dark"
               headerlevel="3"
@@ -232,11 +232,11 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
                 out within the larger container.
               
               </p>
-            </bjumbotron-stub>
+            </b-jumbotron-stub>
           </div>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
   </div>
 </div>
 `;
