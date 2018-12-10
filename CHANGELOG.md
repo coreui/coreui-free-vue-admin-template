@@ -1,5 +1,41 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.1.0`
+- feat(SidebarNav): navLink `attributes` - optional JS object with valid JS API naming:
+  - attributes: `rel`, `target`, `hidden`, `disabled`, etc...  
+  - starting with `@coreui/coreui ^2.1.4`, `@coreui/vue ^2.1.0` 
+  - item example(`./src/_nav.js`):
+```
+{
+  name: 'Disabled',
+  url: '/disabled',
+  icon: 'icon-ban',
+  attributes: { disabled: true },
+},
+{
+  name: 'Try CoreUI PRO',
+  url: 'https://coreui.io/pro/react/',
+  icon: 'cui-layers icons',
+  variant: 'danger',
+  attributes: { target: '_blank', rel: "noopener" },
+},
+```
+- test: e2e and snapshots update
+- chore: update `@coreui/coreui` to `^2.1.4`
+- chore: update `@coreui/vue` to `^2.1.0`
+- chore: update `core-js` to `^2.6.0`
+- chore: update `css-vars-ponyfill` to `^1.15.3`
+- chore: update `vue` to `^2.5.19`
+- chore: update `vue-router` to `^3.0.2"
+- chore: update `vue-template-compiler` to `^2.5.19`
+- chore: update `@vue/cli-plugin-babel` to `^3.2.0`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `^3.2.0`
+- chore: update `@vue/cli-plugin-eslint` to `^3.2.1`
+- chore: update `@vue/cli-plugin-unit-jest` to `^3.2.0`
+- chore: update `@vue/cli-service` to `^3.2.0`
+- chore: update `@vue/test-utils` to `^1.0.0-beta.27`
+- chore: update `node-sass` to `^4.11.0`
+
 ##### `v2.0.3`
 - test(init): update Tables snapshot
 - test(e2e): add `aside-menu-*-show` testing
