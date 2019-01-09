@@ -1,5 +1,20 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.1.1`
+- chore: update `@coreui/coreui` to `^2.1.5`
+- chore: update `@coreui/vue` to `^2.1.1`
+- chore: update `bootstrap` to `^4.2.1`
+- chore: update `core-js` to `^2.6.1`
+- chore: update `css-vars-ponyfill` to `^1.16.2`
+- chore: update `vue` to `^2.5.21`
+- chore: update `@vue/cli-plugin-babel` to `^3.3.0`
+- chore: update `@vue/cli-plugin-e2e-nightwatch` to `^3.3.0`
+- chore: update `@vue/cli-plugin-eslint` to `^3.3.0`
+- chore: update `@vue/cli-plugin-unit-jest` to `^3.3.0`
+- chore: update `@vue/cli-service` to `^3.3.0`
+- chore: update `@vue/test-utils` to `^1.0.0-beta.28`
+- chore: update `vue-template-compiler` to `^2.5.21`
+
 ##### `v2.1.0`
 - feat(SidebarNav): navLink `attributes` - optional JS object with valid JS API naming:
   - attributes: `rel`, `target`, `hidden`, `disabled`, etc...  
