@@ -14,20 +14,20 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
-    "@coreui/coreui": "^2.1.5",
+    "@coreui/coreui": "^2.1.6",
     "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
     "@coreui/icons": "0.3.0",
-    "@coreui/vue": "^2.1.1",
+    "@coreui/vue": "^2.1.2",
     "bootstrap": "^4.2.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "chart.js": "^2.7.3",
-    "core-js": "^2.6.1",
+    "core-js": "^2.6.2",
     "css-vars-ponyfill": "^1.16.2",
     "flag-icon-css": "^3.2.0",
     "font-awesome": "^4.7.0",
     "perfect-scrollbar": "^1.4.0",
     "simple-line-icons": "^2.4.1",
-    "vue": "^2.5.21",
+    "vue": "^2.5.22",
     "vue-chartjs": "^3.4.0",
     "vue-perfect-scrollbar": "^0.1.0",
     "vue-router": "^3.0.2"
@@ -45,7 +45,7 @@
     "https-proxy-agent": "^2.2.1",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.22"
   },
   "browserslist": [
     "> 1%",
