@@ -1,5 +1,12 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.1.2`
+- chore: update `@coreui/coreui` to `^2.1.6`
+- chore: update `@coreui/vue` to `^2.1.2`
+- chore: update `core-js` to `^2.6.2`
+- chore: update `vue` to `^2.5.22`
+- chore: update `vue-template-compiler` to `^2.5.22`
+
 ##### `v2.1.1`
 - chore: update `@coreui/coreui` to `^2.1.5`
 - chore: update `@coreui/vue` to `^2.1.1`
