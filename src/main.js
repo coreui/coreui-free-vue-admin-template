@@ -9,6 +9,7 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import App from './App'
 import router from './router'
+//Import built package
 import CoreuiVue from '@coreui/vue'
 
 Vue.config.performance = true
