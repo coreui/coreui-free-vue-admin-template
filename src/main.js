@@ -9,14 +9,19 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import App from './App'
 import router from './router'
-import CoreuiVue from '@coreui/vue'
+
+
+
+//only for development with link
+import CoreuiVueLink from '@coreui/vue/src'
+// import CoreuiVue from '@coreui/vue'
 
 Vue.config.performance = true
 
 // todo
 // cssVars()
 Vue.use(BootstrapVue)
-Vue.use(CoreuiVue)
+Vue.use(CoreuiVueLink)
 
 
 /* eslint-disable no-new */
