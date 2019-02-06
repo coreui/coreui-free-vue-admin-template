@@ -13,6 +13,8 @@
             <b-button type="button" variant="warning" @click="warningModal = true" class="mr-1">Launch warning modal</b-button>
             <b-button type="button" variant="danger" @click="dangerModal = true" class="mr-1">Launch danger modal</b-button>
             <b-button type="button" variant="info" @click="infoModal = true" class="mr-1">Launch info modal</b-button>
+            <b-button type="button" variant="info" @click="cmodal = !cmodal" class="mr-1">CModal</b-button>
+
           </b-card>
         </b-col><!--/.col-->
       </b-row><!--/.row-->
@@ -84,13 +86,53 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
+    <CModal v-model="cmodal"
+            :noBackdrop="false"
+            :noCloseOnBackdrop="false"
+            :noFade="false"
+            :centered="true"
+            title="Modal title 2"
+            size="lg"
+            variant="success"
+            borderVariant="danger2"
+            addModalClasses="hehe1"
+            addDialogClasses="hehe2"
+            addContentClasses="hehe3"
+            :noHeader="true"
+            :noBody="false"
+            :noFooter="true"
+    >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <!-- <div slot="header" class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">new header</h5>
+        <button type="button" class="close closeModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> -->
+      <div slot="body" class="modal-body">
+        n
+      </div>
+      <div class="modal-footer" slot="footer">
+        <button type="button" class="btn btn-secondary closeModal">Close2</button>
+        <button type="button" class="btn btn-primary closeModal">OK2</button>
+      </div>
+    </CModal>
   </div>
 
 </template>
 
 <script>
+// import CModal from './CModal'
 export default {
   name: 'modals',
+  // components: {
+  //   CModal
+  // },
   data () {
     return {
       myModal: false,
@@ -100,7 +142,8 @@ export default {
       successModal: false,
       warningModal: false,
       dangerModal: false,
-      infoModal: false
+      infoModal: false,
+      cmodal: false
     }
   }
 }

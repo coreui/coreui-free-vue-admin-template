@@ -13,12 +13,12 @@
           </div>
         </div>
         <div>
-          <b-nav>
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Another Link</b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
-          </b-nav>
+          <c-nav>
+            <c-nav-item active>Active</c-nav-item>
+            <c-nav-item>Link</c-nav-item>
+            <c-nav-item>Another Link</c-nav-item>
+            <c-nav-item disabled>Disabled</c-nav-item>
+          </c-nav>
         </div>
       </b-card>
       <b-card
@@ -28,27 +28,47 @@
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>tab style</small>
         </div>
         <div>
-          <b-nav tabs>
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Another Link</b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
-          </b-nav>
+            <c-nav tabs v-model="item" tab-content>
+              <!-- <c-nav-item index="hehe2">Active</c-nav-item> -->
+              <c-nav-item id="hehe">
+                <i class="icon-basket-loaded"></i> Active
+                <div slot="tab">hehe</div>
+              </c-nav-item>
+              <c-nav-item>
+                Link
+
+              </c-nav-item>
+              <c-nav-item>
+                Another Link
+                <div slot="tab">hehe3</div>
+              </c-nav-item>
+              <c-nav-item disabled>Disabled</c-nav-item>
+
+            </c-nav>
+          <!-- <CTab fade :activeItem="item">
+            <CTabItem id="hehe2">text1</CTabItem>
+            <CTabItem>text1</CTabItem>
+            <CTabItem>text2</CTabItem>
+            <CTabItem @click="smh = 1">text3</CTabItem>
+            <CTabItem>text4</CTabItem>
+          </CTab> -->
         </div>
+
+
       </b-card>
       <b-card
         header-tag="header"
         footer-tag="footer">
-        <div slot="header">
+        <div slot="header" @click="item++">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>pill style</small>
         </div>
-        <div>
-          <b-nav pills>
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Another Link</b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
-          </b-nav>
+        <div @click="item--">
+          <c-nav pills>
+            <c-nav-item active>Active</c-nav-item>
+            <c-nav-item>Link</c-nav-item>
+            <c-nav-item>Another Link</c-nav-item>
+            <c-nav-item disabled>Disabled</c-nav-item>
+          </c-nav>
         </div>
       </b-card>
       <b-card
@@ -58,12 +78,12 @@
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>fill tabs</small>
         </div>
         <div>
-          <b-nav fill tabs>
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Link with a long name </b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
-          </b-nav>
+          <c-nav fill tabs>
+            <c-nav-item active>Active</c-nav-item>
+            <c-nav-item>Link</c-nav-item>
+            <c-nav-item>Link with a long name </c-nav-item>
+            <c-nav-item disabled>Disabled</c-nav-item>
+          </c-nav>
         </div>
       </b-card>
       <b-card
@@ -73,12 +93,12 @@
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>justified tabs</small>
         </div>
         <div>
-          <b-nav justified tabs>
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Link with a long name </b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
-          </b-nav>
+          <c-nav justified tabs>
+            <c-nav-item active>Active</c-nav-item>
+            <c-nav-item>Link</c-nav-item>
+            <c-nav-item>Link with a long name </c-nav-item>
+            <c-nav-item disabled>Disabled</c-nav-item>
+          </c-nav>
         </div>
       </b-card>
       <b-card
@@ -88,16 +108,17 @@
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>dropdown support</small>
         </div>
         <div>
-          <b-nav pills>
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item-dropdown id="nav7_ddown" text="Dropdown" right>
-              <b-dropdown-item>one</b-dropdown-item>
-              <b-dropdown-item>two</b-dropdown-item>
-              <b-dropdown-divider></b-dropdown-divider>
-              <b-dropdown-item>three</b-dropdown-item>
-            </b-nav-item-dropdown>
-          </b-nav>
+          <c-nav pills>
+            <c-nav-item active>Active</c-nav-item>
+            <c-nav-item>Link</c-nav-item>
+            <c-dropdown id="nav7_ddown" text="Dropdown" right>
+              <a class="nav-link dropdown-toggle" slot="button">Dropdown</a>
+              <c-dropdown-item>one</c-dropdown-item>
+              <c-dropdown-item>two</c-dropdown-item>
+              <c-dropdown-divider></c-dropdown-divider>
+              <c-dropdown-item>three</c-dropdown-item>
+            </c-dropdown>
+          </c-nav>
         </div>
       </b-card>
       <b-card
@@ -107,12 +128,12 @@
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>vertical variation</small>
         </div>
         <div>
-          <b-nav vertical class="w-25">
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Another Link</b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
-          </b-nav>
+          <c-nav vertical class="w-25">
+            <c-nav-item active>Active</c-nav-item>
+            <c-nav-item>Link</c-nav-item>
+            <c-nav-item>Another Link</c-nav-item>
+            <c-nav-item disabled>Disabled</c-nav-item>
+          </c-nav>
         </div>
       </b-card>
     </div>
@@ -120,8 +141,24 @@
 </template>
 
 <script>
+// import CNav from './CNav'
+// import CNavItem from './CNavItem'
+// import CTab from './CTab'
+// import CTabItem from './CTabItem'
+
+
 export default {
-  name: 'navs'
+  name: 'navs',
+  data () {
+    return {
+      item: 2
+    }
+  },
+  // components: {
+  //   CNav,
+  //   CNavItem,
+  //   CTab,
+  //   CTabItem
+  // }
 }
 </script>
-

@@ -32,7 +32,7 @@
       <AppSidebar fixed>
         <SidebarHeader/>
         <SidebarForm/>
-        <SidebarNav :navItems="nav"></SidebarNav>
+        <SidebarNav :navItems="computedNav"></SidebarNav>
         <SidebarFooter/>
         <SidebarMinimizer/>
       </AppSidebar>
@@ -87,6 +87,11 @@ export default {
   data () {
     return {
       nav: nav.items
+    }
+  },
+  computed: {
+    computedNav () {
+      return this.nav.filter((item) => item.name !== 'Dashboard')
     }
   }
 }

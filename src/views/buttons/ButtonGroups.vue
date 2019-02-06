@@ -15,13 +15,69 @@
               </div>
             </div>
             <div>
-              <b-button-group>
-                <b-button>One</b-button>
-                <b-button>Two</b-button>
-                <b-button>Three</b-button>
-                <b-button>Four</b-button>
-                <b-button class="d-sm-down-none">Five</b-button>
-              </b-button-group>
+              <CButton variant="success" to="/dashboard" disabled>sdjk</CButton>
+              <CButton variant="success" to="/dashboard" role="smh">sdjk</CButton>
+
+              <CButton variant="success" :pressed.sync="myToggle">sdjk</CButton>
+              <CButton variant="success" :pressed.sync="myToggle2">sdjk</CButton>
+
+              <CButton variant="outline-success" pressed>sdjk</CButton>
+
+              <CButton square block ghost>sdjk</CButton>
+              </br></br>
+              <CButton pill ghost>sdjk</CButton>
+              <CButton block size="sm" variant="success" pill square  :pressed="false" disabled>sdjk</CButton>
+              <CButton block size="sm" variant="success" pill square to="/dashboard" disabled>sdjk</CButton>
+
+              <CButton block size="lg" variant="info" square >sdjk</CButton>
+
+              </br></br>
+              <CEmbed
+                tag="p"
+                aspect="16by9"
+                src="https://www.youtube.com/embed/axTSc3e6wu8"
+                frameborder="0"
+                allow="accelerometer;autoplay; encrypted-media; gyroscope; picture-in-picture"
+              >
+
+              </CEmbed>
+              <b-nav pills>
+                <b-nav-item active>Active</b-nav-item>
+                <b-nav-item>Link</b-nav-item>
+                <b-nav-item-dropdown id="nav7_ddown" text="Dropdown" extra-toggle-classes="nav-link-custom" right>
+                  <b-dropdown-item>one</b-dropdown-item>
+                  <b-dropdown-item>two</b-dropdown-item>
+                  <b-dropdown-divider></b-dropdown-divider>
+                  <b-dropdown-item>three</b-dropdown-item>
+                </b-nav-item-dropdown>
+              </b-nav>
+              <b-nav pills>
+                <b-nav-item active>Active</b-nav-item>
+                <b-nav-item>Link</b-nav-item>
+                <!-- <c-nav-item-dropdown id="nav7_ddown" text="Dropdown" extra-toggle-classes="nav-link-custom" right>
+                  <b-dropdown-item>one</b-dropdown-item>
+                  <b-dropdown-item>two</b-dropdown-item>
+                  <b-dropdown-divider></b-dropdown-divider>
+                  <b-dropdown-item>three</b-dropdown-item>
+                </c-nav-item-dropdown> -->
+              </b-nav>
+              <CButtonToolbar role="smh">
+                <c-button-group>
+
+                  <b-button>One</b-button>
+                  <b-button>Two</b-button>
+                  <b-button>Three</b-button>
+                  <b-button>Four</b-button>
+                  <b-button class="d-sm-down-none">Five</b-button>
+                </c-button-group>
+                <c-button-group>
+                  <b-button>One</b-button>
+                  <b-button>Two</b-button>
+                  <b-button>Three</b-button>
+                  <b-button>Four</b-button>
+                  <b-button class="d-sm-down-none">Five</b-button>
+                </c-button-group>
+              </CButtonToolbar>
               <br><br>
               <b-button-group>
                 <b-button class="d-sm-down-none" variant="success">Success</b-button>
@@ -34,6 +90,43 @@
             </div>
           </b-card>
         </b-col>
+        <CDropdown no-caret show>
+          <img slot="button-content"
+            src="img/avatars/6.jpg"
+            class="img-avatar"
+            alt="admin@bootstrapmaster.com"
+          />
+
+          <b-dropdown-header tag="div" class="text-center"><strong>Account</strong></b-dropdown-header>
+          <b-dropdown-item><i class="fa fa-bell-o" /> Updates
+            <c-badge variant="info" additionalClasses="hehe">{{ itemsCount }}</c-badge>
+          </b-dropdown-item>
+          <b-dropdown-item><i class="fa fa-envelope-o" /> Messages
+            <c-badge variant="success">{{ itemsCount }}</c-badge>
+          </b-dropdown-item>
+          <b-dropdown-item><i class="fa fa-tasks" /> Tasks
+            <c-badge variant="danger">{{ itemsCount }}</c-badge>
+          </b-dropdown-item>
+          <b-dropdown-item><i class="fa fa-comments" /> Comments
+            <c-badge variant="warning">{{ itemsCount }}</c-badge>
+          </b-dropdown-item>
+          <b-dropdown-header
+            tag="div"
+            class="text-center">
+            <strong>Settings</strong>
+          </b-dropdown-header>
+          <b-dropdown-item><i class="fa fa-user" /> Profile</b-dropdown-item>
+          <b-dropdown-item><i class="fa fa-wrench" /> Settings</b-dropdown-item>
+          <b-dropdown-item><i class="fa fa-usd" /> Payments
+            <c-badge variant="secondary">{{ itemsCount }}</c-badge>
+          </b-dropdown-item>
+          <b-dropdown-item><i class="fa fa-file" /> Projects
+            <c-badge variant="primary">{{ itemsCount }}</c-badge>
+          </b-dropdown-item>
+          <b-dropdown-divider ></b-dropdown-divider >
+          <b-dropdown-item><i class="fa fa-shield" /> Lock Account</b-dropdown-item>
+          <b-dropdown-item><i class="fa fa-lock" /> Logout</b-dropdown-item>
+        </CDropdown>
         <b-col cols="12">
           <b-card
             header-tag="header"
@@ -190,7 +283,31 @@
 </template>
 
 <script>
+// import CButton from './CButton'
+// import CButtonGroup from './CButtonGroup'
+// import CButtonToolbar from './CButtonToolbar'
+
+// import CEmbed from './CEmbed'
+// import CDropdown from '../../containers/CDropdown'
+
 export default {
-  name: 'button-groups'
+  name: 'button-groups',
+  // components: {
+  //   CButtonGroup,
+  //   CButtonToolbar,
+  //   CButton
+  // },
+  // components: {
+  //   CEmbed,
+  //   CDropdown
+  // },
+  data () {
+    return {
+      myToggle: false,
+      myToggle2: false,
+      itemsCount: 33
+
+    }
+  }
 }
 </script>

@@ -2,43 +2,7 @@
   <div class="animated fadeIn">
     <b-row>
       <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-primary" header="9.823" text="Members online">
-            <b-dropdown slot='dropdown' class="float-right" variant="transparent p-0" right>
-              <template slot="button-content">
-                <i class="icon-settings"></i>
-              </template>
-              <b-dropdown-item>Action</b-dropdown-item>
-              <b-dropdown-item>Another action</b-dropdown-item>
-              <b-dropdown-item>Something else here...</b-dropdown-item>
-              <b-dropdown-item disabled>Disabled action</b-dropdown-item>
-            </b-dropdown>
-          <c-simple-pointed-chart  class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
-                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:70px' label='Members' pointHoverColor='primary'/>
-
-        </c-widget06>
-      </b-col>
-      <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-info" header="9.823" text="Members online">
-          <template slot='dropdown'>
-            <b-dropdown class="float-right" variant="transparent p-0" right no-caret>
-              <template slot="button-content">
-                <i class="icon-location-pin"></i>
-              </template>
-              <b-dropdown-item>Action</b-dropdown-item>
-              <b-dropdown-item>Another action</b-dropdown-item>
-              <b-dropdown-item>Something else here...</b-dropdown-item>
-              <b-dropdown-item disabled>Disabled action</b-dropdown-item>
-            </b-dropdown>
-          </template>
-            <c-simple-pointed-chart class='px-3' :data='[1, 18, 9, 17, 34, 22, 11]'
-                         :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                         style='height:70px' label='Members' :options='{elements: {line: {tension: 0.00001}}}'
-                         pointHoverColor='info'/>
-        </c-widget06>
-      </b-col>
-      <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-warning" header="9.823" text="Members online">
+        <c-widget06 header="9.823" text="Members online">
           <template slot='dropdown'>
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -50,15 +14,54 @@
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
           </template>
-            <c-simple-line-chart :data='[78, 81, 80, 45, 34, 12, 40]'
+          <c-simple-pointed-chart class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
+                         :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
+                         style='height:70px' label='Members' pointHoverColor='primary'/>
+        </c-widget06>
+      </b-col>
+      <b-col sm="6" lg="3">
+        <c-widget06 variant="info" header="9.823" text="Members online">
+          <b-dropdown slot="dropdown" class="float-right" variant="transparent p-0" right no-caret>
+            <i slot="button-content"
+               class="icon-location-pin"
+            ></i>
+            <b-dropdown-item>Action</b-dropdown-item>
+            <b-dropdown-item>Another action</b-dropdown-item>
+            <b-dropdown-item>Something else here...</b-dropdown-item>
+            <b-dropdown-item disabled>Disabled action</b-dropdown-item>
+          </b-dropdown>
+          <CSimplePointedChart class="px-3"
+                               :data="[1, 18, 9, 17, 34, 22, 11]"
+                               :labels="['January', 'February', 'March', 'April',  'May', 'June', 'July']"
+                               style="height:70px"
+                               label="Members"
+                               :options="{elements: {line: {tension: 0.00001}}}"
+                               pointHoverColor="info"
+          />
+        </c-widget06>
+      </b-col>
+      <b-col sm="6" lg="3">
+        <c-widget06 variant="warning" header="9.823" text="Members online">
+          <template slot='dropdown'>
+            <b-dropdown class="float-right" variant="transparent p-0" right>
+              <template slot="button-content">
+                <i class="icon-settings"></i>
+              </template>
+              <b-dropdown-item>Action</b-dropdown-item>
+              <b-dropdown-item>Another action</b-dropdown-item>
+              <b-dropdown-item>Something else here...</b-dropdown-item>
+              <b-dropdown-item disabled>Disabled action</b-dropdown-item>
+            </b-dropdown>
+          </template>
+          <c-simple-line-chart chartId="c-widget06_3" :data='[78, 81, 80, 45, 34, 12, 40]'
                          :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
                          style='height:70px' color ='rgba(255,255,255,.2)' label='Members'
                          :options="{elements: {line: {borderWidth: 2.5}}}" pointHoverColor='warning'/>
         </c-widget06>
       </b-col>
       <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-danger" header="9.823" text="Members online">
-          <template slot='dropdown'>
+        <c-widget06 variant="danger" header="9.823" text="Members online">
+          <template slot="dropdown">
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
                 <i class="icon-settings"></i>
@@ -69,11 +72,12 @@
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
           </template>
-            <c-simple-bar-chart :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
+          <c-simple-bar-chart chartId="CWidget06_4" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
                         label='Members' color='rgb(250, 152, 152)' style='height:70px' />
         </c-widget06>
       </b-col>
     </b-row>
+
     <b-card>
       <b-row>
         <b-col sm="5">

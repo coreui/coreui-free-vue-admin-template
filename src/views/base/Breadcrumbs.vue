@@ -17,7 +17,7 @@
             <CBreadcrumb :items="items"/>
             <CBreadcrumb :items="items2"/>
             <CBreadcrumb :items="items3"/>
-            <Breadcrumb :list="items3"/>
+            <!-- <Breadcrumb :list="items3"/> -->
 
           </b-card>
         </b-col>

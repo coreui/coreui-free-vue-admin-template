@@ -89,7 +89,8 @@
       </b-card>
       <b-card
         header-tag="header"
-        footer-tag="footer">
+        footer-tag="footer"
+        id="boundary">
         <div slot="header">
           <i class="fa fa-align-justify"></i><strong> Tooltips </strong><small><code>enable disable</code> events</small>
         </div>
@@ -111,18 +112,57 @@
             </b-tooltip>
           </div>
         </div>
+          <b-btn @click="test" id="refButton2">
+            test
+          </b-btn><br><br>
+          <b-btn id="refButton" data-toggle="tooltip" class="px-1" >button</b-btn>
+          <CTooltip targetId="refButton"
+                    :placement="placement"
+                    content="sas"
+                    ref="tooltip"
+                    :active="true"
+                    :popover="show"
+                    popoverHeader="smh"
+                    :delay="smh"
+                    :offset="smh"
+                    boundaries="boundary1"
+                    :appendToBody="false"
+          /><br><br><br>
+          <!-- :content="this is HTML <b>content!</b>" -->
+
+          <!-- :popover="true"
+          popoverHeader="Something" -->
+          <!-- title="<div class='card'><img src='https://picsum.photos/600/300/?image=25' class='card-img mb-2'><div class='card-header'><div>Card title</div></div><div class='card-body' style='max-height: 200px; overflow-y: auto;'>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  </div></div>" -->
+          <!-- <div class="tooltip" id="hehe33">
+            <div class="inner-tooltip">
+              hfhsdasad
+            </div>
+          </div> -->
       </b-card>
     </div>
   </div>
 </template>
 
 <script>
+// import CTooltip from './CTooltip'
 export default {
   name: 'tooltips',
+  // components: {
+  //   CTooltip
+  // },
   data () {
     return {
       show: true,
-      disabled: false
+      disabled: false,
+      smh: 0,
+      placement: 'bottom-end'
     }
   },
   methods: {
@@ -138,8 +178,12 @@ export default {
       } else {
         this.$refs.tooltip2.$emit('disable')
       }
+    },
+    test () {
+      this.show = !this.show
+      this.placement = 'right'
+      this.smh = 200
     }
   }
 }
 </script>
-

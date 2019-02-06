@@ -3,7 +3,7 @@
     <b-row>
       <b-col sm="6" lg="3">
         <c-widget01 header="89.9%" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim.">
-          <CProgress variant="success" :value="25" class="progress-xs my-3 mb-0"/>
+          <CProgress color="success" :value="25" class="progress-xs my-3 mb-0"/>
         </c-widget01>
       </b-col>
       <b-col sm="6" lg="3">
@@ -201,7 +201,7 @@
     </b-row>
     <b-row>
       <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-primary" header="9.823" text="Members online">
+        <c-widget06 header="9.823" text="Members online">
           <template slot='dropdown'>
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -219,7 +219,7 @@
         </c-widget06>
       </b-col>
       <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-info" header="9.823" text="Members online">
+        <c-widget06 variant="info" header="9.823" text="Members online">
           <b-dropdown slot="dropdown" class="float-right" variant="transparent p-0" right no-caret>
             <i slot="button-content"
                class="icon-location-pin"
@@ -240,7 +240,7 @@
         </c-widget06>
       </b-col>
       <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-warning" header="9.823" text="Members online">
+        <c-widget06 variant="warning" header="9.823" text="Members online">
           <template slot='dropdown'>
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -259,7 +259,7 @@
         </c-widget06>
       </b-col>
       <b-col sm="6" lg="3">
-        <c-widget06 cardClasses="bg-danger" header="9.823" text="Members online">
+        <c-widget06 variant="danger" header="9.823" text="Members online">
           <template slot="dropdown">
             <b-dropdown class="float-right" variant="transparent p-0" right>
               <template slot="button-content">
@@ -287,19 +287,19 @@
         </c-widget07>
       </b-col>
       <b-col sm="6" lg="3">
-        <c-widget07 cardClasses='bg-success' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
+        <c-widget07 variant='success' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
           <c-simple-line-chart style="height:40px" chartId="c-widget07_line2" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
           <c-simple-bar-chart style="height:40px" chartId="c-widget07_bar2" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
         </c-widget07>
       </b-col>
       <b-col sm="6" lg="3">
-        <c-widget07 cardClasses='bg-danger' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
+        <c-widget07 variant='danger' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
           <c-simple-line-chart style="height:40px" chartId="c-widget07_line3" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
           <c-simple-bar-chart style="height:40px" chartId="c-widget07_bar3" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
         </c-widget07>
       </b-col>
       <b-col sm="6" lg="3">
-        <c-widget07 cardClasses='bg-warning' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
+        <c-widget07 variant='warning' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
           <c-simple-line-chart style="height:40px" chartId="c-widget07_line4" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
           <c-simple-bar-chart style="height:40px" chartId="c-widget07_bar4" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
         </c-widget07>
@@ -350,7 +350,11 @@
 </template>
 
 <script>
+// import CWidget06 from './CWidget06'
 export default {
-  name: 'Widgets'
+  name: 'Widgets',
+  // components: {
+  //   CWidget06
+  // }
 }
 </script>

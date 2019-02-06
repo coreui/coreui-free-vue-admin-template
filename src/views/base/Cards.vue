@@ -1,21 +1,94 @@
 <template>
   <div class="animated fadeIn">
+    <!-- <CContainer fluid>
+      <CRow>
+        <CColumn lg md="7" :sm="{'order': 2, offset:'0', size:'4'}" class="hehe">
+          hehe
+        </CColumn>
+      </CRow>
+    </CContainer> -->
+    <CNavbar toggleable="md" light variant="light">
+      <CNavbarToggle class="hehe" @click="test2 = !test2"/>
+      <CLink class="navbar-brand">NavBar</CLink>
+      <CCollapse :duration="500" :show="test2" navbar @finish="test2 = test2" >
+        <CNavbarNav pills class="navbar-nav">
+          <CNavItem>
+            hehehe1
+          </CNavItem>
+          <CNavItem class="nav-item">
+            hehehe1
+          </CNavItem>
+          <CNavItem class="nav-item">
+            hehehe2
+          </CNavItem>
+          <DefaultHeaderDropdownAccnt/>
+        </CNavbarNav>
+        <CNavbarNav class="ml-auto">
+          <CDropdown right class="nav-item b-nav-dropdown" toggleClasses="nav-link">
+            <c-dropdown-item><i class="fa fa-file" /> Projects
+              <c-badge variant="primary">32</c-badge>
+            </c-dropdown-item>
+            <c-dropdown-item><i class="fa fa-shield" /> Lock Account</c-dropdown-item>
+            <c-dropdown-item><i class="fa fa-lock" /> Logout</c-dropdown-item>
+          </CDropdown>
+        </CNavbarNav>
+      </CCollapse>
+    </CNavbar>
+    <br>
     <b-row>
       <b-col sm="6" md="4">
-        <b-card header="Card title">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </b-card>
+        <transition name="fade">
+          <c-card class="bg-secondary" no-body v-if="show" >
+            <CCardHeader slot="header">
+              Card with header actions
+              <div class="card-header-actions">
+                <c-link href="#" class="card-header-action btn-setting" >
+                  <i class="icon-settings"></i>
+                </c-link>
+                <c-link class="card-header-action btn-minimize"  v-c-collapse:collapse1="test" @click="test = !test" data-duration="600">
+                  <i :class="`icon-arrow-${ !test ? 'up' : 'down'}`"></i>
+                </c-link>
+                <c-link href="#" class="card-header-action btn-close" v-on:click="show = !show">
+                  <i class="icon-close"></i>
+                </c-link>
+              </div>
+            </CCardHeader>
+            <c-card-body id="collapse1">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            </c-card-body>
+          </c-card>
+        </transition>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card show-footer>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-          <div slot="footer">Card footer</div>
-        </b-card>
+        <c-card>
+          <CCardImg imgSrc="https://picsum.photos/600/300/?image=25" class="mb-2"/>
+          <CCardHeader header="Card title"/>
+          <CCardBody  style="max-height:200px;overflow-y:auto">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </CCardBody>
+        </c-card>
+
       </b-col>
       <b-col sm="6" md="4">
-        <b-card header="<i class='fa fa-check'></i> Card with icon">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </b-card>
+        <c-card footer="Card footer"
+                body="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+                header="<i class='fa fa-check'></i> Card with icon"/>
+      </b-col>
+      <b-col sm="6" md="4">
+        <CCard footer="Card footer">
+          <CCardHeader slot="header">
+            <i class='fa fa-check'></i> Card with icon
+          </CCardHeader>
+          <CCardBody slot="body"
+                     title="title"
+                     subtitle="subtitle"
+                     body="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."/>
+        </CCard>
       </b-col>
       <b-col sm="6" md="4">
         <b-card>
@@ -202,41 +275,26 @@
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
-      <b-col sm="6" md="4">
-        <transition name="fade">
-          <b-card class="bg-secondary" no-body v-if="show">
-            <div slot="header">
-              Card with header actions
-              <div class="card-header-actions">
-                <b-link href="#" class="card-header-action btn-setting">
-                  <i class="icon-settings"></i>
-                </b-link>
-                <b-link class="card-header-action btn-minimize" v-b-toggle.collapse1>
-                  <i class="icon-arrow-up"></i>
-                </b-link>
-                <b-link href="#" class="card-header-action btn-close" v-on:click="show = !show">
-                  <i class="icon-close"></i>
-                </b-link>
-              </div>
-            </div>
-            <b-collapse id="collapse1" visible>
-              <b-card-body>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-              </b-card-body>
-            </b-collapse>
-          </b-card>
-        </transition>
-      </b-col>
     </b-row><!--/.row-->
   </div>
 </template>
 
 <script>
+import DefaultHeaderDropdownAccnt from'../../containers/DefaultHeaderDropdownAccnt'
+
 export default {
   name: 'cards',
+  components: {
+    DefaultHeaderDropdownAccnt
+  },
   data: function () {
     return {
-      show: true
+      show: true,
+      showCollapse: true,
+      test: true,
+      test2: false,
+      form: 1,
+      smh: 'sdfsdf'
     }
   }
 }

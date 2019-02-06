@@ -24,7 +24,7 @@
           </b-row>
           <b-row>
             <b-col sm="4">
-              <b-form-group >
+              <b-form-group>
                 <label for="month1">Month</label>
                 <b-form-select id="month1"
                   :plain="true"
@@ -440,7 +440,7 @@
           <div slot="header">
             <strong>Normal</strong> Form
           </div>
-          <b-form>
+          <b-form novalidate>
             <b-form-group validated
               label="Email"
               label-for="normalEmail"
@@ -1022,29 +1022,202 @@
                 </b-form-group>
                 <div class="form-actions">
                   <b-button type="submit" variant="primary">Save changes</b-button>
-                  <b-button type="button" variant="secondary">Cancel</b-button>
+                  <b-button type="button" variant="secondary"   @click="testt">Cancel</b-button>
                 </div>
               </b-card-body>
             </b-collapse>
           </b-card>
         </transition>
+        <b-card>
+        <CForm :id="id">
+          <input type="text" :value="cInput"/>
+          <CFormInput type="email"
+                      label="CFormInput"
+                      placeholder="Email input"
+                      description="input description"
+                      size="lg"
+                      :readonly="false"
+                      :plaintext="false"
+                      :horizontal="{input: 'col-sm-8', label: 'col-sm-4'}"
+                      :disabled="false"
+                      validFeedback="valid feedback"
+                      invalidFeedback="invalid feedback"
+                      append=".00"
+                      prepend="$"
+                      required
+                      :tooltipFeedbacks="true"
+                      :isValid="validator"
+                      :was-validateds="true"
+                      addInputClasses="hehe"
+                      addLabelClasses="heh2"
+                      addWrapperClasses="heh2"
+                      v-model="cInput"
+                      lazys
+          />
+          <CFormTextarea label="Input label"
+                         placeholder="Placeholder for textarea"
+                         descriptiond="input description"
+                         size="lg"
+                         :readonly="false"
+                         :plaintext="false"
+                         :horizontal="{input: 'col-sm-8', label: 'col-sm-4'}"
+                         :disabled="false"
+                         validFeedback="valid feedback"
+                         invalidFeedback="invalid feedback"
+                         append=".00"
+                         prepends="$"
+                         required
+                         value="wsewrwed"
+                         :tooltipFeedbacks="true"
+                         :isValids="true"
+                         :was-validated="true"
+                         addInputClasses="fsad"
+                         addLabelClassesa="heh2"
+                         :rows="20"
+                         :cols="12"
+                         v-model="cInput"
+          >
+            <b-button slot="prepend" class="btn btn-success">asd</b-button>
+          </CFormTextarea>
+          <br>
+          <CFormSelect label="Input label"
+                      :options="['first', true,3,{value:'fourth', text:'Another text', disabled:'disabled'},
+                                {value:null, text:'boolean value'}]"
+                      placeholder="Placeholder test"
+                      description="input description"
+                      size="lg"
+                      customs
+                      plaintexts
+                      :horizontal="{input: 'col-sm-8', label: 'col-sm-4'}"
+                      disableds="disabled"
+                      validFeedback="valid feedback"
+                      invalidFeedback="invalid feedback"
+                      appenda=".00"
+                      prepends="$"
+                      required
+                      :tooltipFeedback="true"
+                      :isValidf="true"
+                      :was-validated="true"
+                      addInputClassess="form-control-plaintext"
+                      addLabelClasses="heh2"
+                      addWrapperClasses="hehe22"
+                      v-model="selected"
+          >
+            <b-button slot="prepends" class="btn btn-success">dssdf</b-button>
+          </CFormSelect>
+          {{String(selected)}}
+          <CFormFile label="Input label"
+                     description="input description"
+                     size="lg"
+                     :horizontals="{input: 'col-sm-8', label: 'col-sm-4'}"
+                     :disabled="false"
+                     validFeedback="valid feedback"
+                     invalidFeedback="invalid feedback"
+                     required
+                     :tooltipFeedback="true"
+                     :isValid="true"
+                     :was-validateds="true"
+                     addInputClassesa="hehe"
+                     addLabelClassesa="heh2"
+                     custom
+                     multiple
+                     accept="image/*"
+          />
+          <div class="my-radio-group row">
+            <div class="col-sm-4">
+              My radio group
+            </div>
+            <div class="col-sm-8" >
+              <CFormCheckbox type="radio"
+                             :label="String(value)"
+                             descriptions="input description"
+                             :disabled="false"
+                             validFeedback="valid feedback"
+                             invalidFeedback="invalid feedback"
+                             required
+                             :tooltipFeedbacks="true"
+                             :was-validateds="true"
+                             addLabelClassesa="heh2"
+                             custom
+                             name="someName"
+                             :value="value"
+                             v-model="checks[1]"
+                             :key="key"
+                             inline
+                             v-for="(value, key) in ['first', null, 3, false]"
+              />
+              <CFormCheckbox label="Input label"
+                             descriptions="input description"
+                             sizes="lg"
+                             :disabled="false"
+                             validFeedback="valid feedback"
+                             invalidFeedback="invalid feedback"
+                             required
+                             :tooltipFeedback="true"
+                             :was-validated="true"
+                             addInputClassesa="hehe"
+                             addLabelClassesa="heh2"
+                             :isValidss="true"
+                             value="hehes"
+                             custom="radio"
+                             v-model="checks[0]"
+
+              />
+            </div>
+        </div>
+
+        </CForm>
+        <CSpinner variant="success"/>
+        <CSpinner grow/>
+        <CSpinner small />
+        <CSpinner small grow/>
+        <CSpinner grow tag="span"/>
+
+        </b-card>
       </b-col>
     </b-row>
   </div>
 </template>
 
 <script>
+// import CForm from './CForm'
+// import CFormInput from './CFormInput'
+// import CFormFile from './CFormFile'
+// import CFormSelect from './CFormSelect'
+// import CFormCheckbox from './CFormCheckbox'
+// import CFormTextarea from './CFormTextarea'
+// import CSpinner from './CSpinner'
+
 export default {
   name: 'forms',
+  // components: { CForm, CFormInput, CFormFile, CFormSelect,
+  //    CFormCheckbox, CFormTextarea, CSpinner},
   data () {
     return {
       selected: [], // Must be an array reference!
-      show: true
+      show: true,
+      id: 'sdfjosdf22',
+      cInput: false,
+      smh: 'shnsad',
+      trueValue:'someTrueValue',
+      falseValue:'someFalseValue',
+      checks: ['someTrueValue','hehehe2','',1,1,1,1,1,1,1,1,1,1,1,1],
+      selected: 'first',
+      isValid: '',
+      testkkk: 2,
     }
   },
+  updated () {
+    console.log('parent updated')
+  },
   methods: {
-    click () {
-      // do nothing
+    testt (e) {
+      // console.log(e)
+      //   this.selected = 3
+      this.cInput += 100
+    },
+    validator (val) {
+      return val ? val.length > 4 : null
     }
   }
 }

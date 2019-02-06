@@ -15,10 +15,10 @@
               </div>
             </div>
             <div>
-              <b-jumbotron header="Bootstrap 4" lead="Bootstrap 4 Components for Vue.js 2">
+              <c-jumbotron header="Bootstrap 4" lead="Bootstrap 4 Components for Vue.js 2">
                 <p>For more information visit website</p>
                 <b-btn variant="primary" href="#">More Info</b-btn>
-              </b-jumbotron>
+              </c-jumbotron>
             </div>
           </b-card>
         </b-col>
@@ -31,14 +31,12 @@
               <small>with slots</small>
             </div>
             <div>
-              <b-jumbotron>
-                <template slot="header">
-                  Bootstrap 4
-                </template>
-                <template slot="lead">
+              <c-jumbotron header="Bootstrap 4" lead="">
+
+                <p slot="lead" class="lead">
                   This is a simple hero unit, a simple jumbotron-style component for
                   calling extra attention to featured content or information.
-                </template>
+                </p>
                 <hr class="my-4">
                 <p>
                   It uses utility classes for typography and spacing to space content
@@ -46,7 +44,7 @@
                 </p>
                 <b-btn variant="primary" href="#">Do Something</b-btn>
                 <b-btn variant="success" href="#">Do Something Else</b-btn>
-              </b-jumbotron>
+              </c-jumbotron>
             </div>
           </b-card>
         </b-col>
@@ -61,20 +59,21 @@
               <small>variants</small>
             </div>
             <div>
-              <b-jumbotron bg-variant="info" text-variant="white" border-variant="dark">
-                <template slot="header">
-                  Bootstrap 4
-                </template>
-                <template slot="lead">
+              <c-jumbotron variant="info"
+                           text-variant="white"
+                           border-variant="dark"
+                           header="Bootstrap 4">
+
+                <p slot="lead" class="lead">
                   This is a simple hero unit, a simple jumbotron-style component for
                   calling extra attention to featured content or information.
-                </template>
+                </p>
                 <hr class="my-4">
                 <p>
                   It uses utility classes for typography and spacing to space content
                   out within the larger container.
                 </p>
-              </b-jumbotron>
+              </c-jumbotron>
             </div>
           </b-card>
         </b-col>
@@ -88,4 +87,3 @@ export default {
   name: 'jumbotrons'
 }
 </script>
-

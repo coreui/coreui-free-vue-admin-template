@@ -7,7 +7,7 @@
     <CSwitch v-model="myFlag2" checked @change="test" /> -->
     <b-row>
       <b-col xs="12" md="6">
-        <b-card>
+        <b-card v-if="true">
           <div slot="header">
             <h5>
                Radio switches
@@ -15,7 +15,7 @@
               <b-badge variant="danger" class="float-right">NEW</b-badge>
             </h5>
           </div>
-          <CSwitch class="mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" v-model="radio" trueValue="primary"/>
+          <!-- <CSwitch class="mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" v-model="radio" trueValue="primary"/> -->
           <CSwitch class="mx-1"
                    :key="key"
                    :variant="variant"
@@ -25,8 +25,8 @@
                    type="radio"
                    name="radio"
                    v-model="radio"
-                   :trueValue="variant"
-                   v-for="(variant, key) in ['secondary','warning','success','info','danger','light','dark']"
+                   :value="variant"
+                   v-for="(variant, key) in ['primary','secondary','warning','success','info','danger','light','dark']"
           />
         </b-card>
       </b-col>
@@ -46,6 +46,14 @@
             value="someValue"
             trueValue="yes"
             falseValue="no"
+          />
+          <CSwitch class="mx-1"
+            ref="totest"
+            variant="primary"
+            checked
+            name="switch1"
+            :checked="true"
+            value="someValue"
           />
           <CSwitch class="mx-1"
                    :variant="variant"
@@ -474,6 +482,7 @@ export default {
       ],
       checker: 'yes',
       radio: 'primary',
+      radio2: 'warning',
       myFlag1: true,
       myFlag2: false,
       picker: '',
@@ -492,6 +501,10 @@ export default {
       console.log(a)
       console.log(typeof a)
       console.log(event)
+    },
+    test2 () {
+      console.log(this.$refs.totest)
+      this.$refs.totest.$forceUpdate()
     }
   }
 }

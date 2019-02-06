@@ -13,6 +13,19 @@
           </div>
         </div>
         <div>
+          <h6>CPagination</h6>
+            <CPagination v-model="currentPage2"
+                         :itemsNumber="1111"
+                         @change="hehe"
+                         size="lg"
+                         align="center"
+                         :limit="6"
+                         :noDots="false"
+                         :noDoubleArrows="false"
+                         :noArrows="false"
+            />
+          <br>
+
           <h6>Default</h6>
           <b-pagination size="md" :total-rows="100" v-model="currentPage" :per-page="10">
           </b-pagination>
@@ -82,18 +95,27 @@
 </template>
 
 <script>
+// import CPagination from './CPagination'
+
 export default {
   name: 'paginations',
+  // components: {
+  //   CPagination
+  // },
   data () {
     return {
-      currentPage: 3
+      currentPage: 3,
+      currentPage2: 3
     }
   },
   methods: {
     linkGen (pageNum) {
       return '#page/' + pageNum + '/foobar'
+    },
+    hehe (val) {
+      // console.log(this.currentPage)
     }
+
   }
 }
 </script>
-

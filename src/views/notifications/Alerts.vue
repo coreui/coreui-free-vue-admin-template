@@ -115,7 +115,8 @@
                      dismissible
                      fade
                      :show="showDismissibleAlert"
-                     @dismissed="showDismissibleAlert=false">
+                     @dismissed="showDismissibleAlert=false"
+            >
               Dismissible Alert!
             </CAlert>
             <b-btn @click="showDismissibleAlert=true" variant="info" class="m-1">
