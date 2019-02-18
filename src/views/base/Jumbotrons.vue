@@ -1,38 +1,33 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-row>
-        <b-col>
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+      <CRow>
+        <CCol>
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i> <strong> Bootstrap Jumbotron </strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/jumbotron" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
               </div>
-            </div>
+            </CCardHeader>
             <div>
-              <c-jumbotron header="Bootstrap 4" lead="Bootstrap 4 Components for Vue.js 2">
+              <CJumbotron header="Bootstrap 4" lead="Bootstrap 4 Components for Vue.js 2">
                 <p>For more information visit website</p>
-                <b-btn variant="primary" href="#">More Info</b-btn>
-              </c-jumbotron>
+                <CButton variant="primary" href="#">More Info</CButton>
+              </CJumbotron>
             </div>
-          </b-card>
-        </b-col>
-        <b-col>
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+        <CCol>
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i> <strong> Jumbotron </strong>
               <small>with slots</small>
-            </div>
+            </CCardHeader>
             <div>
-              <c-jumbotron header="Bootstrap 4" lead="">
-
+              <CJumbotron header="Bootstrap 4" lead="">
                 <p slot="lead" class="lead">
                   This is a simple hero unit, a simple jumbotron-style component for
                   calling extra attention to featured content or information.
@@ -42,24 +37,22 @@
                   It uses utility classes for typography and spacing to space content
                   out within the larger container.
                 </p>
-                <b-btn variant="primary" href="#">Do Something</b-btn>
-                <b-btn variant="success" href="#">Do Something Else</b-btn>
-              </c-jumbotron>
+                <CButton variant="primary" href="#">Do Something</CButton>
+                <CButton variant="success" href="#">Do Something Else</CButton>
+              </CJumbotron>
             </div>
-          </b-card>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+      </CRow>
+      <CRow>
+        <CCol>
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i> <strong> Jumbotron </strong>
               <small>variants</small>
-            </div>
+            </CCardHeader>
             <div>
-              <c-jumbotron variant="info"
+              <CJumbotron variant="info"
                            text-variant="white"
                            border-variant="dark"
                            header="Bootstrap 4">
@@ -73,11 +66,11 @@
                   It uses utility classes for typography and spacing to space content
                   out within the larger container.
                 </p>
-              </c-jumbotron>
+              </CJumbotron>
             </div>
-          </b-card>
-        </b-col>
-      </b-row>
+          </CCard>
+        </CCol>
+      </CRow>
     </div>
   </div>
 </template>

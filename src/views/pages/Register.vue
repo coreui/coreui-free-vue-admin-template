@@ -1,57 +1,56 @@
 <template>
   <div class="app flex-row align-items-center">
     <div class="container">
-      <b-row class="justify-content-center">
-        <b-col md="6" sm="8">
-          <b-card no-body class="mx-4">
-            <b-card-body class="p-4">
-              <b-form>
-                <h1>Register</h1>
-                <p class="text-muted">Create your account</p>
-                <b-input-group class="mb-3">
-                  <b-input-group-prepend>
-                    <b-input-group-text><i class="icon-user"></i></b-input-group-text>
-                  </b-input-group-prepend>
-                  <b-form-input type="text" class="form-control" placeholder="Username" autocomplete="username" />
-                </b-input-group>
-
-                <b-input-group class="mb-3">
-                  <b-input-group-prepend>
-                    <b-input-group-text>@</b-input-group-text>
-                  </b-input-group-prepend>
-                  <b-form-input type="text" class="form-control" placeholder="Email" autocomplete="email" />
-                </b-input-group>
-
-                <b-input-group class="mb-3">
-                  <b-input-group-prepend>
-                    <b-input-group-text><i class="icon-lock"></i></b-input-group-text>
-                  </b-input-group-prepend>
-                  <b-form-input type="password" class="form-control" placeholder="Password" autocomplete="new-password" />
-                </b-input-group>
-
-                <b-input-group class="mb-4">
-                  <b-input-group-prepend>
-                    <b-input-group-text><i class="icon-lock"></i></b-input-group-text>
-                  </b-input-group-prepend>
-                  <b-form-input type="password" class="form-control" placeholder="Repeat password" autocomplete="new-password" />
-                </b-input-group>
-
-                <b-button variant="success" block>Create Account</b-button>
-              </b-form>
-            </b-card-body>
-            <b-card-footer class="p-4">
-              <b-row>
-                <b-col cols="6">
-                  <b-button block class="btn btn-facebook"><span>facebook</span></b-button>
-                </b-col>
-                <b-col cols="6">
-                  <b-button block class="btn btn-twitter" type="button"><span>twitter</span></b-button>
-                </b-col>
-              </b-row>
-            </b-card-footer>
-          </b-card>
-        </b-col>
-      </b-row>
+      <CRow class="justify-content-center">
+        <CCol md="6" sm="8">
+          <CCard class="mx-4">
+            <template #body>
+              <CCardBody class="p-4">
+                <CForm>
+                  <h1>Register</h1>
+                  <p class="text-muted">Create your account</p>
+                  <CFormInput
+                    placeholder="Username"
+                    prepend="<i class='icon-user'></i>"
+                    autocomplete="username"
+                  />
+                  <CFormInput
+                    placeholder="Email"
+                    prepend="@"
+                    autocomplete="email"
+                  />
+                  <CFormInput
+                    placeholder="Password"
+                    type="password"
+                    prepend="<i class='icon-lock'></i>"
+                    autocomplete="new-password"
+                  />
+                  <CFormInput
+                    placeholder="Repeat password"
+                    type="password"
+                    prepend="<i class='icon-lock'></i>"
+                    autocomplete="new-password"
+                    class="mb-4"
+                  />
+                  <CButton variant="success" block>Create Account</CButton>
+                </CForm>
+              </CCardBody>
+            </template>
+            <template #footer>
+              <CCardFooter class="p-4">
+                <CRow>
+                  <CCol cols="6">
+                    <CButton block class="btn btn-facebook"><span>facebook</span></CButton>
+                  </CCol>
+                  <CCol cols="6">
+                    <CButton block class="btn btn-twitter" type="button"><span>twitter</span></CButton>
+                  </CCol>
+                </CRow>
+              </CCardFooter>
+            </template>
+          </CCard>
+        </CCol>
+      </CRow>
     </div>
   </div>
 </template>

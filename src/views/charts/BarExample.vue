@@ -3,7 +3,7 @@ import { Bar } from '@coreui/vue/src/extends/BaseCharts'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 
 export default {
-  // name: 'BarExample',
+  name: 'BarExample',
   extends: Bar,
   mounted () {
     // Overwriting base render method with actual data.

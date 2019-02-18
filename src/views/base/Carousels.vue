@@ -1,26 +1,26 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-row>
-        <b-col md="12" lg="9" >
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+      <CRow>
+        <CCol md="12" lg="9" >
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Bootstrap Carousel</strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/carousel" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
               </div>
-            </div>
+            </CCardHeader>
             <div>
+              <CCarousel/>
+              <br>
               <b-carousel id="carousel1"
                           style="text-shadow: 1px 1px 2px #333;"
                           controls
                           indicators
                           background="#ababab"
-                          :interval="4000"
+                          :interval="400000"
                           img-width="1024"
                           img-height="480"
                           v-model="slide"
@@ -67,9 +67,9 @@
               </p>
 
             </div>
-          </b-card>
-        </b-col>
-      </b-row>
+          </CCard>
+        </CCol>
+      </CRow>
     </div>
   </div>
 </template>

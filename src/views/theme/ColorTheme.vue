@@ -1,9 +1,9 @@
 <template>
-  <b-col xl="2" md="4" sm="6" xs="12" class="mb-4">
+  <CCol xl="2" md="4" sm="6" xs="12" class="mb-4">
     <div :class="[classObj, color]" :style="{ paddingTop: '75%' }"></div>
     <slot></slot>
-    <color-view/>
-  </b-col>
+    <ColorView/>
+  </CCol>
 </template>
 
 <script>
@@ -23,4 +23,3 @@ export default {
   }
 }
 </script>
-
