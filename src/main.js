@@ -10,10 +10,9 @@ import BootstrapVue from 'bootstrap-vue'
 import App from './App'
 import router from './router'
 //Import built package
-import CoreuiVue from '@coreui/vue'
+import CoreuiVue from '@coreui/vue/src'
 
 Vue.config.performance = true
-
 // todo
 // cssVars()
 Vue.use(BootstrapVue)

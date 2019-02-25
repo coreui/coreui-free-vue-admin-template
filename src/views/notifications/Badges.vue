@@ -1,82 +1,72 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-row>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+      <CRow>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Bootstrap Badge</strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/badge" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
               </div>
-            </div>
+            </CCardHeader>
             <div>
-              <h2>Example heading <b-badge>New</b-badge></h2>
-              <h3>Example heading <b-badge>New</b-badge></h3>
-              <h4>Example heading <b-badge>New</b-badge></h4>
-              <h5>Example heading <b-badge>New</b-badge></h5>
-              <h6>Example heading <b-badge>New</b-badge></h6>
+              <h2>Example heading <CBadge>New</CBadge></h2>
+              <h3>Example heading <CBadge>New</CBadge></h3>
+              <h4>Example heading <CBadge>New</CBadge></h4>
+              <h5>Example heading <CBadge>New</CBadge></h5>
+              <h6>Example heading <CBadge>New</CBadge></h6>
             </div>
-            <div slot="footer">
-              <b-button variant="primary">
-                Notifications <b-badge variant="light" :style="{position: 'static'}">4</b-badge>
-              </b-button>
-            </div>
-          </b-card>
-        </b-col>
-        <b-col cols="12" md="6">
-          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>contextual variations</small>"
-            header-tag="header"
-            footer-tag="footer">
+            <CCardFooter slot="footer">
+              <CButton variant="primary">
+                Notifications <CBadge variant="light" :style="{position: 'static'}">4</CBadge>
+              </CButton>
+            </CCardFooter>
+          </CCard>
+        </CCol>
+        <CCol cols="12" md="6">
+          <CCard header="<i class='fa fa-align-justify'></i> Badge <small>contextual variations</small>">
             <div>
-              <b-badge variant="primary">Primary</b-badge>
-              <b-badge variant="secondary">Secondary</b-badge>
-              <b-badge variant="success">Success</b-badge>
-              <b-badge variant="danger">Danger</b-badge>
-              <b-badge variant="warning">Warning</b-badge>
-              <b-badge variant="info">Info</b-badge>
-              <b-badge variant="light">Light</b-badge>
-              <b-badge variant="dark">Dark</b-badge>
+              <CBadge variant="primary">Primary</CBadge>
+              <CBadge variant="secondary">Secondary</CBadge>
+              <CBadge variant="success">Success</CBadge>
+              <CBadge variant="danger">Danger</CBadge>
+              <CBadge variant="warning">Warning</CBadge>
+              <CBadge variant="info">Info</CBadge>
+              <CBadge variant="light">Light</CBadge>
+              <CBadge variant="dark">Dark</CBadge>
             </div>
-          </b-card>
-          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>pills</small>"
-            header-tag="header"
-            footer-tag="footer">
+          </CCard>
+          <CCard header="<i class='fa fa-align-justify'></i> Badge <small>pills</small>">
             <div>
-              <b-badge pill variant="primary">Primary</b-badge>
-              <b-badge pill variant="secondary">Secondary</b-badge>
-              <b-badge pill variant="success">Success</b-badge>
-              <b-badge pill variant="danger">Danger</b-badge>
-              <b-badge pill variant="warning">Warning</b-badge>
-              <b-badge pill variant="info">Info</b-badge>
-              <b-badge pill variant="light">Light</b-badge>
-              <b-badge pill variant="dark">Dark</b-badge>
+              <CBadge pill variant="primary">Primary</CBadge>
+              <CBadge pill variant="secondary">Secondary</CBadge>
+              <CBadge pill variant="success">Success</CBadge>
+              <CBadge pill variant="danger">Danger</CBadge>
+              <CBadge pill variant="warning">Warning</CBadge>
+              <CBadge pill variant="info">Info</CBadge>
+              <CBadge pill variant="light">Light</CBadge>
+              <CBadge pill variant="dark">Dark</CBadge>
             </div>
-          </b-card>
-          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>actionable</small>"
-            header-tag="header"
-            footer-tag="footer">
+          </CCard>
+          <CCard header="<i class='fa fa-align-justify'></i> Badge <small>actionable</small>">
             <div>
-              <b-badge href="#" variant="primary">Primary</b-badge>
-              <b-badge href="#" variant="secondary">Secondary</b-badge>
-              <b-badge href="#" variant="success">Success</b-badge>
-              <b-badge href="#" variant="danger">Danger</b-badge>
-              <b-badge href="#" variant="warning">Warning</b-badge>
-              <b-badge href="#" variant="info">Info</b-badge>
-              <b-badge href="#" variant="light">Light</b-badge>
-              <b-badge href="#" variant="dark">Dark</b-badge>
+              <CBadge href="#" variant="primary">Primary</CBadge>
+              <CBadge href="#" variant="secondary">Secondary</CBadge>
+              <CBadge href="#" variant="success">Success</CBadge>
+              <CBadge href="#" variant="danger">Danger</CBadge>
+              <CBadge href="#" variant="warning">Warning</CBadge>
+              <CBadge href="#" variant="info">Info</CBadge>
+              <CBadge href="#" variant="light">Light</CBadge>
+              <CBadge href="#" variant="dark">Dark</CBadge>
             </div>
-          </b-card>
-        </b-col>
-      </b-row>
+          </CCard>
+        </CCol>
+      </CRow>
     </div>
-
   </div>
-
 </template>
 
 <script>

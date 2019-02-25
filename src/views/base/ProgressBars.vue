@@ -1,155 +1,139 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Progress</strong>
           <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/progress" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
           </div>
-        </div>
+        </CCardHeader>
         <div>
-          <c-progress :value="counter" :max="max" show-progress animated></c-progress>
+          <CProgress :value="counter" :max="max" show-progress animated></CProgress>
           <CProgress class="mt-1" :max="max" show-value>
-            <CProgressBar :value="counter*(6/10)" color="success"/>
-            <CProgressBar :value="counter*(2.5/10)" color="warning"/>
-            <CProgressBar :value="counter*(1.5/10)" color="danger"/>
+            <CProgressBar :value="counter*(6/10)" variant="success"/>
+            <CProgressBar :value="counter*(2.5/10)" variant="warning"/>
+            <CProgressBar :value="counter*(1.5/10)" variant="danger"/>
           </CProgress>
-          <b-btn class="mt-4" @click="clicked">Click me</b-btn>
+          <CButton class="mt-4" @click="clicked">Click me</CButton>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i> <strong> Progress </strong><small>labels</small>
-        </div>
+        </CCardHeader>
         <div>
           <h6>No label</h6>
-          <b-progress :value="value" :max="max2" class="mb-3"></b-progress>
+          <CProgress :value="value" :max="max2" class="mb-3"></CProgress>
           <h6>Value label</h6>
-          <b-progress :value="value" :max="max2" show-value class="mb-3"></b-progress>
+          <CProgress :value="value" :max="max2" show-value class="mb-3"></CProgress>
           <h6>Progress label</h6>
-          <b-progress :value="value" :max="max2" show-progress class="mb-3"></b-progress>
+          <CProgress :value="value" :max="max2" show-progress class="mb-3"></CProgress>
           <h6>Value label with precision</h6>
-          <b-progress :value="value" :max="max2" :precision="2" show-value class="mb-3"></b-progress>
+          <CProgress :value="value" :max="max2" :precision="2" show-value class="mb-3"></CProgress>
           <h6>Progress label with precision</h6>
-          <b-progress :value="value" :max="max2" :precision="2" show-progress class="mb-3"></b-progress>
+          <CProgress :value="value" :max="max2" :precision="2" show-progress class="mb-3"></CProgress>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Progress </strong><small>width</small>
-        </div>
+        </CCardHeader>
         <div>
           <h6>Default width</h6>
-          <b-progress :value="value3" class="mb-3"></b-progress>
+          <CProgress :value="value3" class="mb-3"></CProgress>
           <h6>Custom widths</h6>
-          <b-progress :value="value3" class="w-75 mb-2"></b-progress>
-          <b-progress :value="value3" class="w-50 mb-2"></b-progress>
-          <b-progress :value="value3" class="w-25"></b-progress>
+          <CProgress :value="value3" class="w-75 mb-2"></CProgress>
+          <CProgress :value="value3" class="w-50 mb-2"></CProgress>
+          <CProgress :value="value3" class="w-25"></CProgress>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Progress </strong><small>height</small>
-        </div>
+        </CCardHeader>
         <div>
           <h6>Default height</h6>
-          <b-progress :value="value3" show-progress class="mb-3"></b-progress>
+          <CProgress :value="value3" show-progress class="mb-3"></CProgress>
           <h6>Custom heights</h6>
-          <b-progress height="2rem" :value="value3" show-progress class="mb-2"></b-progress>
-          <b-progress height="20px" :value="value3" show-progress class="mb-2"></b-progress>
-          <b-progress height="2px" :value="value3"></b-progress>
+          <CProgress height="2rem" :value="value3" show-progress class="mb-2"></CProgress>
+          <CProgress height="20px" :value="value3" show-progress class="mb-2"></CProgress>
+          <CProgress height="2px" :value="value3"></CProgress>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Progress </strong><small>variants</small>
-        </div>
+        </CCardHeader>
         <div>
           <div :key="index" v-for="(bar, index) in bars" class="row mb-1">
             <div class="col-sm-2">{{ bar.variant }}:</div>
             <div class="col-sm-10 pt-1">
-              <b-progress :value="bar.value"
+              <CProgress :value="bar.value"
                           :variant="bar.variant"
                           :key="bar.variant"
-              ></b-progress>
+              ></CProgress>
             </div>
           </div>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Progress </strong><small>striped</small>
-        </div>
+        </CCardHeader>
         <div>
-          <b-progress :value="25" variant="success" :striped="striped" class="mb-2"></b-progress>
-          <b-progress :value="50" variant="info" :striped="striped" class="mb-2"></b-progress>
-          <b-progress :value="75" variant="warning" :striped="striped" class="mb-2"></b-progress>
-          <b-progress :value="100" variant="danger" :striped="striped" class="mb-2"></b-progress>
-          <b-button variant="secondary" @click="striped = !striped">
+          <CProgress :value="25" variant="success" :striped="striped" class="mb-2"></CProgress>
+          <CProgress :value="50" variant="info" :striped="striped" class="mb-2"></CProgress>
+          <CProgress :value="75" variant="warning" :striped="striped" class="mb-2"></CProgress>
+          <CProgress :value="100" variant="danger" :striped="striped" class="mb-2"></CProgress>
+          <CButton variant="secondary" @click="striped = !striped">
             {{ striped ? 'Remove' : 'Add'}} Striped
-          </b-button>
+          </CButton>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Progress </strong><small>animated</small>
-        </div>
+        </CCardHeader>
         <div>
-          <b-progress :value="25" variant="success" striped :animated="animate" class="mb-2"></b-progress>
-          <b-progress :value="50" variant="info" striped :animated="animate" class="mb-2"></b-progress>
-          <b-progress :value="75" variant="warning" striped :animated="animate" class="mb-2"></b-progress>
-          <b-progress :value="100" variant="danger" :animated="animate" class="mb-3"></b-progress>
-          <b-button variant="secondary" @click="animate = !animate">
+          <CProgress :value="25" variant="success" striped :animated="animate" class="mb-2"></CProgress>
+          <CProgress :value="50" variant="info" striped :animated="animate" class="mb-2"></CProgress>
+          <CProgress :value="75" variant="warning" striped :animated="animate" class="mb-2"></CProgress>
+          <CProgress :value="100" variant="danger" :animated="animate" class="mb-3"></CProgress>
+          <CButton variant="secondary" @click="animate = !animate">
             {{ animate ? 'Stop' : 'Start'}} Animation
-          </b-button>
+          </CButton>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Progress </strong><small>multiple bars</small>
-        </div>
+        </CCardHeader>
         <div>
-          <b-progress :max="max3" class="mb-3">
-            <b-progress-bar variant="primary" :value="values[0]"></b-progress-bar>
-            <b-progress-bar variant="success" :value="values[1]"></b-progress-bar>
-            <b-progress-bar variant="info" :value="values[2]"></b-progress-bar>
-          </b-progress>
-          <b-progress show-progress :max="max3" class="mb-3">
-            <b-progress-bar variant="primary" :value="values[0]"></b-progress-bar>
-            <b-progress-bar variant="success" :value="values[1]"></b-progress-bar>
-            <b-progress-bar variant="info" :value="values[2]"></b-progress-bar>
-          </b-progress>
-          <b-progress show-value striped :max="max3" class="mb-3">
-            <b-progress-bar variant="primary" :value="values[0]"></b-progress-bar>
-            <b-progress-bar variant="success" :value="values[1]"></b-progress-bar>
-            <b-progress-bar variant="info" :value="values[2]"></b-progress-bar>
-          </b-progress>
-          <b-progress :max="max3" class="mb-3">
-            <b-progress-bar variant="primary" :value="values[0]" show-progress></b-progress-bar>
-            <b-progress-bar variant="success" :value="values[1]" animated show-progress></b-progress-bar>
-            <b-progress-bar variant="info" :value="values[2]" striped show-progress></b-progress-bar>
-          </b-progress>
+          <CProgress :max="max3" class="mb-3">
+            <CProgressBar variant="primary" :value="values[0]"></CProgressBar>
+            <CProgressBar variant="success" :value="values[1]"></CProgressBar>
+            <CProgressBar variant="info" :value="values[2]"></CProgressBar>
+          </CProgress>
+          <CProgress show-progress :max="max3" class="mb-3">
+            <CProgressBar variant="primary" :value="values[0]"></CProgressBar>
+            <CProgressBar variant="success" :value="values[1]"></CProgressBar>
+            <CProgressBar variant="info" :value="values[2]"></CProgressBar>
+          </CProgress>
+          <CProgress show-value striped :max="max3" class="mb-3">
+            <CProgressBar variant="primary" :value="values[0]"></CProgressBar>
+            <CProgressBar variant="success" :value="values[1]"></CProgressBar>
+            <CProgressBar variant="info" :value="values[2]"></CProgressBar>
+          </CProgress>
+          <CProgress :max="max3" class="mb-3">
+            <CProgressBar variant="primary" :value="values[0]" show-progress></CProgressBar>
+            <CProgressBar variant="success" :value="values[1]" animated show-progress></CProgressBar>
+            <CProgressBar variant="info" :value="values[2]" striped show-progress></CProgressBar>
+          </CProgress>
         </div>
-      </b-card>
+      </CCard>
     </div>
   </div>
 </template>

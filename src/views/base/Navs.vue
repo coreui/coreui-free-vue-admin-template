@@ -1,164 +1,153 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs</strong>
           <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/nav" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
           </div>
-        </div>
+        </CCardHeader>
         <div>
-          <c-nav>
-            <c-nav-item active>Active</c-nav-item>
-            <c-nav-item>Link</c-nav-item>
-            <c-nav-item>Another Link</c-nav-item>
-            <c-nav-item disabled>Disabled</c-nav-item>
-          </c-nav>
+          <CNav>
+            <CNavItem active>Active</CNavItem>
+            <CNavItem title="Link"/>
+            <CNavItem>Another Link</CNavItem>
+            <CNavItem disabled>Disabled</CNavItem>
+          </CNav>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>icons</small>
+        </CCardHeader>
+        <div>
+          <CNav>
+            <CNavItem active>
+              <i class="icon-basket-loaded"></i>
+            </CNavItem>
+            <CNavItem>
+              Link
+            </CNavItem>
+            <CNavItem>
+              Another Link
+            </CNavItem>
+            <CNavItem disabled>Disabled</CNavItem>
+          </CNav>
+        </div>
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>tab style</small>
-        </div>
+        </CCardHeader>
         <div>
-            <c-nav tabs v-model="item" tab-content>
-              <!-- <c-nav-item index="hehe2">Active</c-nav-item> -->
-              <c-nav-item id="hehe">
-                <i class="icon-basket-loaded"></i> Active
-                <div slot="tab">hehe</div>
-              </c-nav-item>
-              <c-nav-item>
-                Link
-
-              </c-nav-item>
-              <c-nav-item>
-                Another Link
-                <div slot="tab">hehe3</div>
-              </c-nav-item>
-              <c-nav-item disabled>Disabled</c-nav-item>
-
-            </c-nav>
-          <!-- <CTab fade :activeItem="item">
-            <CTabItem id="hehe2">text1</CTabItem>
-            <CTabItem>text1</CTabItem>
-            <CTabItem>text2</CTabItem>
-            <CTabItem @click="smh = 1">text3</CTabItem>
-            <CTabItem>text4</CTabItem>
-          </CTab> -->
+          <CNav tabs>
+            <CNavItem active>
+              Active
+            </CNavItem>
+            <CNavItem>
+              Link
+            </CNavItem>
+            <CNavItem>
+              Another Link
+            </CNavItem>
+            <CNavItem disabled>Disabled</CNavItem>
+          </CNav>
         </div>
-
-
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header" @click="item++">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header" @click="item++">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>pill style</small>
+        </CCardHeader>
+        <div>
+          <CNav pills>
+            <CNavItem active>Active</CNavItem>
+            <CNavItem>Link</CNavItem>
+            <CNavItem>Another Link</CNavItem>
+            <CNavItem disabled>Disabled</CNavItem>
+          </CNav>
         </div>
-        <div @click="item--">
-          <c-nav pills>
-            <c-nav-item active>Active</c-nav-item>
-            <c-nav-item>Link</c-nav-item>
-            <c-nav-item>Another Link</c-nav-item>
-            <c-nav-item disabled>Disabled</c-nav-item>
-          </c-nav>
-        </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>fill tabs</small>
-        </div>
+        </CCardHeader>
         <div>
-          <c-nav fill tabs>
-            <c-nav-item active>Active</c-nav-item>
-            <c-nav-item>Link</c-nav-item>
-            <c-nav-item>Link with a long name </c-nav-item>
-            <c-nav-item disabled>Disabled</c-nav-item>
-          </c-nav>
+          <CNav fill tabs>
+            <CNavItem active>Active</CNavItem>
+            <CNavItem>Link</CNavItem>
+            <CNavItem>Link with a long name </CNavItem>
+            <CNavItem disabled>Disabled</CNavItem>
+          </CNav>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>justified tabs</small>
-        </div>
+        </CCardHeader>
         <div>
-          <c-nav justified tabs>
-            <c-nav-item active>Active</c-nav-item>
-            <c-nav-item>Link</c-nav-item>
-            <c-nav-item>Link with a long name </c-nav-item>
-            <c-nav-item disabled>Disabled</c-nav-item>
-          </c-nav>
+          <CNav justified tabs>
+            <CNavItem active>Active</CNavItem>
+            <CNavItem>Link</CNavItem>
+            <CNavItem>Link with a long name </CNavItem>
+            <CNavItem disabled>Disabled</CNavItem>
+          </CNav>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
-          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>dropdown support</small>
-        </div>
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
+          <i class="fa fa-align-justify"></i>
+          <strong> Bootstrap Navs </strong>
+          <small>dropdown support</small>
+        </CCardHeader>
         <div>
-          <c-nav pills>
-            <c-nav-item active>Active</c-nav-item>
-            <c-nav-item>Link</c-nav-item>
-            <c-dropdown id="nav7_ddown" text="Dropdown" right>
-              <a class="nav-link dropdown-toggle" slot="button">Dropdown</a>
-              <c-dropdown-item>one</c-dropdown-item>
-              <c-dropdown-item>two</c-dropdown-item>
-              <c-dropdown-divider></c-dropdown-divider>
-              <c-dropdown-item>three</c-dropdown-item>
-            </c-dropdown>
-          </c-nav>
+          <CNav pills>
+            <CNavItem active>Active</CNavItem>
+            <CNavItem>Link</CNavItem>
+            <CDropdown id="nav7_ddown"
+                       nav
+                       placement="bottom-end"
+                       button-content="Dropdown"
+            >
+              <!-- <a class="nav-link dropdown-toggle" slot="button">Dropdown</a> -->
+              <CDropdownItem>one</CDropdownItem>
+              <CDropdownItem>two</CDropdownItem>
+              <CDropdownDivider/>
+              <CDropdownItem>three</CDropdownItem>
+            </CDropdown>
+          </CNav>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
-          <i class="fa fa-align-justify"></i><strong> Bootstrap Navs </strong><small>vertical variation</small>
-        </div>
-        <div>
-          <c-nav vertical class="w-25">
-            <c-nav-item active>Active</c-nav-item>
-            <c-nav-item>Link</c-nav-item>
-            <c-nav-item>Another Link</c-nav-item>
-            <c-nav-item disabled>Disabled</c-nav-item>
-          </c-nav>
-        </div>
-      </b-card>
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
+          <i class="fa fa-align-justify"></i>
+          <strong> Bootstrap Navs </strong>
+          <small>vertical variation</small>
+        </CCardHeader>
+        <CRow>
+          <CCol cols="3" class="m-0">
+            <CNav vertical pills >
+              <CNavItem active>Active</CNavItem>
+              <CNavItem>Link</CNavItem>
+              <CNavItem>Another Link</CNavItem>
+              <CNavItem disabled>Disabled</CNavItem>
+            </CNav>
+          </CCol>
+        </CRow>
+      </CCard>
     </div>
   </div>
 </template>
 
 <script>
-// import CNav from './CNav'
-// import CNavItem from './CNavItem'
-// import CTab from './CTab'
-// import CTabItem from './CTabItem'
-
-
 export default {
   name: 'navs',
   data () {
     return {
       item: 2
     }
-  },
-  // components: {
-  //   CNav,
-  //   CNavItem,
-  //   CTab,
-  //   CTabItem
-  // }
+  }
 }
 </script>

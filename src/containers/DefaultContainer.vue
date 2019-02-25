@@ -1,53 +1,53 @@
 <template>
   <div class="app">
-    <AppHeader fixed>
-      <SidebarToggler class="d-lg-none" display="md" mobile />
-      <b-link class="navbar-brand" to="#">
+    <CHeader fixed>
+      <CSidebarToggler class="d-lg-none" display="md" mobile />
+      <CLink class="navbar-brand" to="#">
         <img class="navbar-brand-full" src="img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
         <img class="navbar-brand-minimized" src="img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
-      </b-link>
-      <SidebarToggler class="d-md-down-none" display="lg" />
-      <b-navbar-nav class="d-md-down-none">
-        <b-nav-item class="px-3" to="/dashboard">Dashboard</b-nav-item>
-        <b-nav-item class="px-3" to="/users" exact>Users</b-nav-item>
-        <b-nav-item class="px-3">Settings</b-nav-item>
-      </b-navbar-nav>
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item class="d-md-down-none">
+      </CLink>
+      <CSidebarToggler class="d-md-down-none" display="lg" />
+      <CNavbarNav class="d-md-down-none">
+        <CNavItem class="px-3" to="/dashboard">Dashboard</CNavItem>
+        <CNavItem class="px-3" to="/users" exact>Users</CNavItem>
+        <CNavItem class="px-3">Settings</CNavItem>
+      </CNavbarNav>
+      <CNavbarNav class="ml-auto">
+        <CNavItem class="d-md-down-none">
           <i class="icon-bell"></i>
-          <b-badge pill variant="danger">5</b-badge>
-        </b-nav-item>
-        <b-nav-item class="d-md-down-none">
+          <CBadge pill variant="danger">5</CBadge>
+        </CNavItem>
+        <CNavItem class="d-md-down-none">
           <i class="icon-list"></i>
-        </b-nav-item>
-        <b-nav-item class="d-md-down-none">
+        </CNavItem>
+        <CNavItem class="d-md-down-none">
           <i class="icon-location-pin"></i>
-        </b-nav-item>
+        </CNavItem>
         <DefaultHeaderDropdownAccnt/>
-      </b-navbar-nav>
-      <AsideToggler class="d-none d-lg-block" />
+      </CNavbarNav>
+      <CAsideToggler class="d-none d-lg-block" />
       <!--<AsideToggler class="d-lg-none" mobile />-->
-    </AppHeader>
+    </CHeader>
     <div class="app-body">
-      <AppSidebar fixed>
-        <SidebarHeader/>
-        <SidebarForm/>
-        <SidebarNav :navItems="computedNav"></SidebarNav>
-        <SidebarFooter/>
-        <SidebarMinimizer/>
-      </AppSidebar>
+      <CSidebar fixed>
+        <CSidebarHeader/>
+        <CSidebarForm/>
+        <CSidebarNav :navItems="computedNav"></CSidebarNav>
+        <CSidebarFooter/>
+        <CSidebarMinimizer/>
+      </CSidebar>
       <main class="main">
         <CBreadcrumbRouter/>
         <div class="container-fluid">
           <router-view></router-view>
         </div>
       </main>
-      <AppAside fixed>
+      <CAside fixed>
         <!--aside-->
         <DefaultAside/>
-      </AppAside>
+      </CAside>
     </div>
-    <TheFooter>
+    <CFooter>
       <!--footer-->
       <div>
         <a href="https://coreui.io">CoreUI</a>
@@ -57,32 +57,20 @@
         <span class="mr-1">Powered by</span>
         <a href="https://coreui.io">CoreUI for Vue</a>
       </div>
-    </TheFooter>
+    </CFooter>
   </div>
 </template>
 
 <script>
 import nav from '@/_nav'
-import { Header as AppHeader, SidebarToggler, Sidebar as AppSidebar, SidebarFooter,SidebarNav, SidebarForm, SidebarHeader, SidebarMinimizer, Aside as AppAside, AsideToggler, Footer as TheFooter } from '@coreui/vue'
 import DefaultAside from './DefaultAside'
 import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
 
 export default {
   name: 'full',
   components: {
-    AsideToggler,
-    AppHeader,
-    AppSidebar,
-    AppAside,
-    TheFooter,
     DefaultAside,
     DefaultHeaderDropdownAccnt,
-    SidebarForm,
-    SidebarFooter,
-    SidebarToggler,
-    SidebarHeader,
-    SidebarNav,
-    SidebarMinimizer
   },
   data () {
     return {

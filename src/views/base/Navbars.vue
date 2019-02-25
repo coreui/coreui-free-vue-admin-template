@@ -1,176 +1,197 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      <!-- <CCard>
+        <CNavbar toggleable="md" light variant="light">
+          <CNavbarToggle class="hehe" @click="test2 = !test2"/>
+          <CLink class="navbar-brand">NavBar</CLink>
+          <CCollapse :duration="500" :show="test2" navbar @finish="test2 = test2" >
+            <CNavbarNav pills class="navbar-nav">
+              <CNavItem>
+                hehehe1
+              </CNavItem>
+              <CNavItem class="nav-item">
+                hehehe1
+              </CNavItem>
+              <CNavItem class="nav-item">
+                hehehe2
+              </CNavItem>
+              <DefaultHeaderDropdownAccnt/>
+            </CNavbarNav>
+            <CNavbarNav class="ml-auto">
+              <CDropdown right class="nav-item b-nav-dropdown" toggleClasses="nav-link">
+                <CDropdownItem><i class="fa fa-file" /> Projects
+                  <CBadge variant="primary">32</CBadge>
+                </CDropdownItem>
+                <CDropdownItem><i class="fa fa-shield" /> Lock Account</CDropdownItem>
+                <CDropdownItem><i class="fa fa-lock" /> Logout</CDropdownItem>
+              </CDropdown>
+            </CNavbarNav>
+          </CCollapse>
+        </CNavbar>
+      </CCard> -->
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navbar </strong>
           <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
           </div>
-        </div>
-        <b-navbar toggleable="md" type="dark" variant="info">
-
-          <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-
-          <b-navbar-brand href="#">NavBar</b-navbar-brand>
-
-          <b-collapse is-nav id="nav_collapse">
-
-            <b-navbar-nav>
-              <b-nav-item href="#">Link</b-nav-item>
-              <b-nav-item href="#" disabled>Disabled</b-nav-item>
-            </b-navbar-nav>
+        </CCardHeader>
+        <CNavbar toggleable="md" type="dark" variant="info">
+          <CNavbarToggle @click="show=!show"/>
+          <CNavbarBrand href="#">NavBar</CNavbarBrand>
+          <CCollapse :show="show"
+                     navbar
+          >
+            <CNavbarNav>
+              <CNavItem href="#">Link</CNavItem>
+              <CNavItem href="#" disabled>Disabled</CNavItem>
+            </CNavbarNav>
 
             <!-- Right aligned nav items -->
-            <b-navbar-nav class="ml-auto">
+            <CNavbarNav class="ml-auto">
+              <CForm inline>
+                <CFormInput
+                  class="mr-sm-2"
+                  placeholder="Search"
+                  size="sm"
+                />
+                <CButton size="sm" class="my-2 my-sm-0" type="submit">Search</CButton>
+              </CForm>
 
-              <b-nav-form>
-                <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="Search"/>
-                <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-              </b-nav-form>
+              <CDropdown button-content="Lang"
+                         nav
+                         placement="bottom-end"
+              >
+                  <CDropdownItem>EN</CDropdownItem>
+                  <CDropdownItem>ES</CDropdownItem>
+                  <CDropdownItem>RU</CDropdownItem>
+                  <CDropdownItem>FA</CDropdownItem>
+              </CDropdown>
 
-              <!-- <c-nav-item-dropdown text="Lang">
-                <template slot="button-content">
-                  <img
-                    src="img/avatars/6.jpg"
-                    class="img-avatar"
-                    alt="admin@bootstrapmaster.com" />
-                </template>
-                <template slot="dropdown">
-                  <a href="#" class='dropdown-item'>EN</a>
-                  <a href="#" class='dropdown-item'>ES</a>
-                  <a href="#" class='dropdown-item'>RU</a>
-                  <a href="#" class='dropdown-item'>FA</a>
-                </template>
-              </c-nav-item-dropdown> -->
-
-              <b-nav-item-dropdown right>
-                <!-- Using button-content slot -->
-                <template slot="button-content">
-                  <em>User</em>
-                </template>
-                <b-dropdown-item href="#">Profile</b-dropdown-item>
-                <b-dropdown-item href="#">Signout</b-dropdown-item>
-              </b-nav-item-dropdown>
-            </b-navbar-nav>
-
-          </b-collapse>
-        </b-navbar>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+              <CDropdown nav
+                         button-content="<em>User</em>"
+                         placement="bottom-end"
+              >
+                <CDropdownItem>Profile</CDropdownItem>
+                <CDropdownItem>Signout</CDropdownItem>
+              </CDropdown>
+            </CNavbarNav>
+          </CCollapse>
+        </CNavbar>
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>brand</small>
-        </div>
+        </CCardHeader>
         <div>
           <!-- Image and text -->
-          <b-navbar variant="faded" type="light">
-            <b-navbar-brand tag="h1" href="#">
+          <CNavbar variant="faded" light>
+            <CNavbarBrand href="#">
               <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV">
               BootstrapVue
-            </b-navbar-brand>
-          </b-navbar>
+            </CNavbarBrand>
+          </CNavbar>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>text</small>
-        </div>
+        </CCardHeader>
         <div>
-          <b-navbar toggleable type="light" variant="light">
-            <b-navbar-toggle target="nav_text_collapse"></b-navbar-toggle>
-            <b-navbar-brand>BootstrapVue</b-navbar-brand>
-            <b-collapse is-nav id="nav_text_collapse">
-              <b-navbar-nav>
-                <b-nav-text>Navbar text</b-nav-text>
-              </b-navbar-nav>
-            </b-collapse>
-          </b-navbar>
+          <CNavbar toggleable="sm" light variant="light">
+            <CNavbarToggle @click="navbarText=!navbarText"></CNavbarToggle>
+            <CNavbarBrand>BootstrapVue</CNavbarBrand>
+            <CCollapse :show="navbarText" navbar>
+              <CNavbarNav>
+                <span class="navbar-text">Navbar text</span>
+              </CNavbarNav>
+            </CCollapse>
+          </CNavbar>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>dropdown</small>
-        </div>
+        </CCardHeader>
         <div>
-          <b-navbar type="dark" variant="primary" toggleable>
-            <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
-            <b-collapse is-nav id="nav_dropdown_collapse">
-              <b-navbar-nav>
-                <b-nav-item href="#">Home</b-nav-item>
-                <b-nav-item href="#">Link</b-nav-item>
+          <CNavbar type="dark" variant="primary">
+            <!-- <CNavbarToggle @click="navbarDropdown = !navbarDropdown"></CNavbarToggle>
+            <CCollapse :show="navbarDropdown" navbar> -->
+              <CNavbarNav>
+                <CNavItem href="#">Home</CNavItem>
+                <CNavItem href="#">Link</CNavItem>
                 <!-- Navbar dropdowns -->
-                <b-nav-item-dropdown text="Lang" right>
-                  <b-dropdown-item href="#">EN</b-dropdown-item>
-                  <b-dropdown-item href="#">ES</b-dropdown-item>
-                  <b-dropdown-item href="#">RU</b-dropdown-item>
-                  <b-dropdown-item href="#">FA</b-dropdown-item>
-                </b-nav-item-dropdown>
-                <b-nav-item-dropdown text="User" right>
-                  <b-dropdown-item href="#">Account</b-dropdown-item>
-                  <b-dropdown-item href="#">Settings</b-dropdown-item>
-                </b-nav-item-dropdown>
-              </b-navbar-nav>
-            </b-collapse>
-          </b-navbar>
+                <CDropdown button-content="Lang" right nav>
+                  <CDropdownItem>EN</CDropdownItem>
+                  <CDropdownItem>ES</CDropdownItem>
+                  <CDropdownItem>RU</CDropdownItem>
+                  <CDropdownItem>FA</CDropdownItem>
+                </CDropdown>
+                <CDropdown button-content="User" right nav>
+                  <CDropdownItem>Account</CDropdownItem>
+                  <CDropdownItem>Settings</CDropdownItem>
+                </CDropdown>
+              </CNavbarNav>
+            <!-- </CCollapse> -->
+          </CNavbar>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>form</small>
-        </div>
+        </CCardHeader>
         <div>
-          <b-navbar type="light" variant="light">
-            <b-nav-form>
-              <b-form-input class="mr-sm-2" type="text" placeholder="Search"></b-form-input>
-              <b-button variant="outline-success" class="my-2 my-sm-0" type="submit">Search</b-button>
-            </b-nav-form>
-          </b-navbar>
+          <CNavbar type="light" variant="light">
+            <CForm inline>
+              <CFormInput
+                class="mr-sm-2"
+                placeholder="Search"
+                size="sm"
+              />
+              <CButton variant="outline-success" class="my-2 my-sm-0" type="submit">Search</CButton>
+            </CForm>
+          </CNavbar>
         </div>
-      </b-card>
-      <b-card
-        header-tag="header"
-        footer-tag="footer">
-        <div slot="header">
+      </CCard>
+      <CCard>
+        <CCardHeader slot="header">
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>input group</small>
-        </div>
+        </CCardHeader>
         <div>
-          <b-navbar type="light" variant="light">
-            <b-nav-form>
-              <b-input-group left="@">
-                <b-form-input class="mr-sm-2" type="text" placeholder="Username"></b-form-input>
-              </b-input-group>
-            </b-nav-form>
-          </b-navbar>
+          <CNavbar type="light" variant="light">
+            <CForm inline>
+              <CFormInput
+                class="mr-sm-2"
+                placeholder="Username"
+              />
+            </CForm>
+          </CNavbar>
         </div>
-      </b-card>
+      </CCard>
     </div>
   </div>
 </template>
-
 <script>
-// import CNavItemDropdown from './CNavItemDropdown'
-
+import DefaultHeaderDropdownAccnt from '../../containers/DefaultHeaderDropdownAccnt'
 export default {
   name: 'navbars',
-  // components:{
-  //   CNavItemDropdown
-  // }
+  components: {
+    DefaultHeaderDropdownAccnt
+  },
+  data () {
+    return {
+      show: false,
+      navbarText: false,
+      navbarDropdown: false,
+    }
+  }
 }
 </script>

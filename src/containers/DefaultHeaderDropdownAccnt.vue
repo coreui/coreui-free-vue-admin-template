@@ -1,58 +1,50 @@
 <template>
-  <CDropdown right class="nav-item" toggleClasses="nav-link" menuClasses="hehe">
-    <img slot="button"
-      src="img/avatars/6.jpg"
-      class="img-avatar"
-      alt="admin@bootstrapmaster.com"
+  <CDropdown right
+             nav
+             no-caret
+             no-popper
+             addMenuClasses="dropdown-menu-right"
+  >
+    <img slot="buttonContent"
+         src="img/avatars/6.jpg"
+         class="img-avatar"
+         alt="admin@bootstrapmaster.com"
     />
-
-    <c-dropdown-header tag="div"  class="text-center"><strong>Account</strong></c-dropdown-header>
-    <c-dropdown-item><i class="fa fa-bell-o" /> Updates
-      <c-badge variant="info" additionalClasses="hehe">{{ itemsCount }}</c-badge>
-    </c-dropdown-item>
-    <c-dropdown-item><i class="fa fa-envelope-o" /> Messages
-      <c-badge variant="success">{{ itemsCount }}</c-badge>
-    </c-dropdown-item>
-    <c-dropdown-item><i class="fa fa-tasks" /> Tasks
-      <c-badge variant="danger">{{ itemsCount }}</c-badge>
-    </c-dropdown-item>
-    <c-dropdown-item><i class="fa fa-comments" /> Comments
-      <c-badge variant="warning">{{ itemsCount }}</c-badge>
-    </c-dropdown-item>
-    <c-dropdown-header
+    <CDropdownHeader tag="div"  class="text-center"><strong>Account</strong></CDropdownHeader>
+    <CDropdownItem><i class="fa fa-bell-o" /> Updates
+      <CBadge variant="info" additionalClasses="hehe">{{ itemsCount }}</CBadge>
+    </CDropdownItem>
+    <CDropdownItem><i class="fa fa-envelope-o" /> Messages
+      <CBadge variant="success">{{ itemsCount }}</CBadge>
+    </CDropdownItem>
+    <CDropdownItem><i class="fa fa-tasks" /> Tasks
+      <CBadge variant="danger">{{ itemsCount }}</CBadge>
+    </CDropdownItem>
+    <CDropdownItem><i class="fa fa-comments" /> Comments
+      <CBadge variant="warning">{{ itemsCount }}</CBadge>
+    </CDropdownItem>
+    <CDropdownHeader
       tag="div"
       class="text-center">
       <strong>Settings</strong>
-    </c-dropdown-header>
-    <c-dropdown-item><i class="fa fa-user" /> Profile</c-dropdown-item>
-    <c-dropdown-item><i class="fa fa-wrench" /> Settings</c-dropdown-item>
-    <c-dropdown-item><i class="fa fa-usd" /> Payments
-      <c-badge variant="secondary">{{ itemsCount }}</c-badge>
-    </c-dropdown-item>
-    <c-dropdown-item><i class="fa fa-file" /> Projects
-      <c-badge variant="primary">{{ itemsCount }}</c-badge>
-    </c-dropdown-item>
+    </CDropdownHeader>
+    <CDropdownItem><i class="fa fa-user" /> Profile</CDropdownItem>
+    <CDropdownItem><i class="fa fa-wrench" /> Settings</CDropdownItem>
+    <CDropdownItem><i class="fa fa-usd" /> Payments
+      <CBadge variant="secondary">{{ itemsCount }}</CBadge>
+    </CDropdownItem>
+    <CDropdownItem><i class="fa fa-file" /> Projects
+      <CBadge variant="primary">{{ itemsCount }}</CBadge>
+    </CDropdownItem>
     <CDropdownDivider/>
-    <c-dropdown-item><i class="fa fa-shield" /> Lock Account</c-dropdown-item>
-    <c-dropdown-item><i class="fa fa-lock" /> Logout</c-dropdown-item>
+    <CDropdownItem><i class="fa fa-shield" /> Lock Account</CDropdownItem>
+    <CDropdownItem><i class="fa fa-lock" /> Logout</CDropdownItem>
   </CDropdown>
 </template>
 
 <script>
-// import CDropdown from './CDropdown'
-// import CDropdownHeader from './CDropdownHeader'
-// import CDropdownDivider from './CDropdownDivider'
-// import CDropdownItem from './CDropdownItem'
-
-
 export default {
   name: 'DefaultHeaderDropdownAccnt',
-  // components: {
-  //   CDropdown,
-  //   CDropdownHeader,
-  //   CDropdownDivider,
-  //   CDropdownItem
-  // },
   data: () => {
     return { itemsCount: 42 }
   },

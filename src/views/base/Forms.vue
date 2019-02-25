@@ -1,1035 +1,763 @@
 <template>
   <div class="animated fadeIn">
-    <b-row>
-      <b-col sm="6">
-        <b-card>
-          <div slot="header">
+    <CRow>
+      <CCol sm="6">
+        <CCard>
+          <CCardHeader slot="header">
             <strong>Credit Card </strong> <small>Form</small>
-          </div>
-          <b-row>
-            <b-col sm="12">
-              <b-form-group>
-                <label for="name">Name</label>
-                <b-form-input type="text" id="name" placeholder="Enter your name"></b-form-input>
-              </b-form-group>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col sm="12">
-              <b-form-group>
-                <label for="ccnumber">Credit Card Number</label>
-                <b-form-input type="text" id="ccnumber" placeholder="0000 0000 0000 0000"></b-form-input>
-              </b-form-group>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col sm="4">
-              <b-form-group>
-                <label for="month1">Month</label>
-                <b-form-select id="month1"
-                  :plain="true"
-                  :options="[1,2,3,4,5,6,7,8,9,10,11,12]">
-                </b-form-select>
-              </b-form-group>
-            </b-col>
-            <b-col sm="4">
-              <b-form-group>
-                <label for="year1">Year</label>
-                <b-form-select id="year1"
-                  :plain="true"
-                  :options="[2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025]">
-                </b-form-select>
-              </b-form-group>
-            </b-col>
-            <b-col sm="4">
-              <b-form-group>
-                <label for="cvv">CVV/CVC</label>
-                <b-form-input type="text" id="cvv" placeholder="123"></b-form-input>
-              </b-form-group>
-            </b-col>
-          </b-row>
-        </b-card>
-      </b-col>
-      <b-col sm="6">
-        <b-card>
-          <div slot="header">
+          </CCardHeader>
+          <CRow>
+            <CCol sm="12">
+              <CFormInput
+                label="Name"
+                placeholder="Enter your name"
+              />
+            </CCol>
+          </CRow>
+          <CRow>
+            <CCol sm="12">
+              <CFormInput
+                label="Credit Card Number"
+                placeholder="0000 0000 0000 0000"
+              />
+            </CCol>
+          </CRow>
+          <CRow>
+            <CCol sm="4">
+              <CFormSelect
+                label="Month"
+                :options="[1,2,3,4,5,6,7,8,9,10,11,12]"
+              />
+            </CCol>
+            <CCol sm="4">
+              <CFormSelect
+                label="Year"
+                :options="[2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025]"
+              />
+            </CCol>
+            <CCol sm="4">
+              <CFormInput
+                label="CVV/CVC"
+                placeholder="123"
+              />
+            </CCol>
+          </CRow>
+        </CCard>
+      </CCol>
+      <CCol sm="6">
+        <CCard>
+          <CCardHeader slot="header">
             <strong>Company </strong><small>Form</small>
-          </div>
-          <b-form-group>
-            <label for="company">Company</label>
-            <b-form-input type="text" id="company" placeholder="Enter your company name"></b-form-input>
-          </b-form-group>
-          <b-form-group>
-            <label for="vat">VAT</label>
-            <b-form-input type="text" id="vat" placeholder="PL1234567890"></b-form-input>
-          </b-form-group>
-          <b-form-group>
-            <label for="street">Street</label>
-            <b-form-input type="text" id="street" placeholder="Enter street name"></b-form-input>
-          </b-form-group>
-          <b-row>
-            <b-col sm="8">
-              <b-form-group>
-                <label for="city">City</label>
-                <b-form-input type="text" id="city" placeholder="Enter your city"></b-form-input>
-              </b-form-group>
-            </b-col>
-            <b-col sm="4">
-              <b-form-group>
-                <label for="postal-code">Postal Code</label>
-                <b-form-input type="text" id="postal-code" placeholder="Postal Code"></b-form-input>
-              </b-form-group>
-            </b-col>
-          </b-row>
-          <b-form-group>
-            <label for="country">Country</label>
-            <b-form-input type="text" id="country" placeholder="Country name"></b-form-input>
-          </b-form-group>
-        </b-card>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col md="6">
-        <b-card>
-          <div slot="header">
+          </CCardHeader>
+          <CFormInput
+            label="Company"
+            placeholder="Enter your company name"
+          />
+          <CFormInput
+            label="VAT"
+            placeholder="PL1234567890"
+          />
+          <CFormInput
+            label="Street"
+            placeholder="Enter street name"
+          />
+          <CRow>
+            <CCol sm="8">
+              <CFormInput
+                label="City"
+                placeholder="Enter your city"
+              />
+            </CCol>
+            <CCol sm="4">
+              <CFormInput
+                label="Postal code"
+                placeholder="Postal code"
+              />
+            </CCol>
+          </CRow>
+          <CFormInput
+            label="Country"
+            placeholder="Country name"
+          />
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol md="6">
+        <CCard>
+          <CCardHeader slot="header">
             <strong>Basic Form</strong> Elements
-          </div>
-          <b-form>
-          <b-form-group
-            description="Let us know your full name."
-            label="Enter your name"
-            label-for="basicName"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="basicName" type="text" autocomplete="name"></b-form-input>
-          </b-form-group>
-          <b-form-group
-            label="Static"
-            label-for="basicStatic"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input plaintext id="basicStatic" type="text" value="Username"></b-form-input>
-          </b-form-group>
-          <b-form-group
-            description="This is a help text"
-            label="Text Input"
-            label-for="basicText"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="basicText" type="text" placeholder="Text"></b-form-input>
-          </b-form-group>
-          <b-form-group
-            label="Date" label-for="date"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input type="date" id="date"></b-form-input>
-          </b-form-group>
-          <b-form-group
-            description="Please enter your email"
-            label="Email Input"
-            label-for="basicEmail"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="basicEmail" type="email" placeholder="Enter your email" autocomplete="email"></b-form-input>
-          </b-form-group>
-          <b-form-group
-            description="Please enter a complex password"
-            label="Password Input"
-            label-for="basicPassword"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="basicPassword" type="password" placeholder="Enter your password" autocomplete="current-password"></b-form-input>
-          </b-form-group>
-          <b-form-group
-            label="Disabled Input"
-            label-for="basicInputDisabled"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="basicInputDisabled" type="text" :disabled="true" placeholder="Disabled"></b-form-input>
-          </b-form-group>
-          <b-form-group
-            label="Textarea"
-            label-for="basicTextarea"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-input id="basicTextarea" :textarea="true" :rows="9" placeholder="Content.."></b-form-input>
-          </b-form-group>
-          <b-form-group
-            label="Select"
-            label-for="basicSelect"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-select id="basicSelect"
-              :plain="true"
-              :options="['Please select','Option 1', 'Option 2', 'Option 3']"
-              value="Please select">
-            </b-form-select>
-          </b-form-group>
-          <b-form-group
-            label="Select large"
-            label-for="basicSelectLg"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-select id="basicSelectLg"
+          </CCardHeader>
+          <CForm>
+            <CFormInput
+              description="Let us know your full name."
+              label="Enter your name"
+              horizontal
+              autocomplete="name"
+            />
+            <CFormInput
+              label="Static"
+              value="Username"
+              horizontal
+              plaintext
+            />
+            <CFormInput
+              label="Text input"
+              description="This is a help text"
+              placeholder="Text"
+              horizontal
+            />
+            <CFormInput
+              label="Date"
+              type="date"
+              horizontal
+            />
+            <CFormInput
+              label="Email input"
+              description="Please enter your email"
+              placeholder="Enter your email"
+              type="email"
+              horizontal
+              autocomplete="email"
+            />
+            <CFormInput
+              label="Password Input"
+              description="Please enter a complex password"
+              placeholder="Enter your password"
+              type="password"
+              horizontal
+              autocomplete="current-password"
+            />
+            <CFormInput
+              label="Disabled Input"
+              placeholder="Disabled"
+              horizontal
+              disabled
+            />
+            <CFormInput
+              label="Textarea"
+              placeholder="Content..."
+              horizontal
+              textarea="true"
+              rows="9"
+            />
+            <CFormSelect
+              label="Select"
+              horizontal
+              :options="options"
+              placeholder="Please select"
+            />
+            <CFormSelect
+              label="Select"
               size="lg"
-              :plain="true"
-              :options="['Please select','Option 1', 'Option 2', 'Option 3']"
-              value="Please select">
-            </b-form-select>
-          </b-form-group>
-          <b-form-group
-            label="Select small"
-            label-for="basicSelectSm"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-select id="basicSelectSm"
+              horizontal
+              :options="options"
+              placeholder="Please select"
+            />
+            <CFormSelect
+              label="Select"
               size="sm"
-              :plain="true"
-              :options="['Please select','Option 1', 'Option 2', 'Option 3']"
-              value="Please select">
-            </b-form-select>
-          </b-form-group>
-          <b-form-group
-            label="Disabled select"
-            label-for="basicSelectDisabled"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-select id="basicSelectDisabled"
-              :plain="true"
-              :options="['Please select','Option 1', 'Option 2', 'Option 3']"
-              :disabled="true"
-              value="Please select">
-            </b-form-select>
-          </b-form-group>
-          <b-form-group
-            label="Select"
-            label-for="basicMultiSelect"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-select id="basicMultiSelect"
-              :plain="true"
-              :multiple="true"
-              :options="[
-                {
-                  text: 'Please select some item',
-                  value: null
-                },
-                {
-                  text: 'This is First option',
-                  value: 'a'
-                }, {
-                  text: 'Default Selected Option',
-                  value: 'b'
-                }, {
-                  text: 'This is another option',
-                  value: 'c'
-                }, {
-                  text: 'This one is disabled',
-                  value: 'd',
-                  disabled: true
-                }]"
-              :value="[null,'c']">
-            </b-form-select>
-          </b-form-group>
-          <b-form-group
-            label="Radios"
-            label-for="basicRadios"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-radio-group id="basicRadios"
-              :plain="true"
-              :options="[
-                {text: 'Option 1 ',value: '1'},
-                {text: 'Option 2 ',value: '2'},
-                {text: 'Option 3 ',value: '3'}
-              ]"
-              checked="2"
-              stacked>
-            </b-form-radio-group>
-          </b-form-group>
-          <b-form-group
-            label="Inline radios"
-            label-for="basicInlineRadios"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-radio-group id="basicInlineRadios"
-              :plain="true"
-              :options="[
-                {text: 'Option 1 ',value: '1'},
-                {text: 'Option 2 ',value: '2'},
-                {text: 'Option 3 ',value: '3'}
-              ]"
-              :checked="3">
-            </b-form-radio-group>
-          </b-form-group>
-
-          <b-form-group
-            label="Checkboxes"
-            label-for="basicCheckboxes"
-            :label-cols="3"
-            horizontal>
-            <b-form-checkbox-group stacked id="basicCheckboxes" name="Checkboxes" :plain="true" :checked="[2,3]">
-              <b-form-checkbox value="1">Option 1</b-form-checkbox>
-              <b-form-checkbox value="2">Option 2</b-form-checkbox>
-              <b-form-checkbox value="3">Option 3</b-form-checkbox>
-            </b-form-checkbox-group>
-          </b-form-group>
-          <b-form-group
-            label="Inline checkboxes"
-            label-for="basicInlineCheckboxes"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-checkbox-group id="basicInlineCheckboxes" name="InlineCheckboxes" :plain="true" :checked="[1,3]">
-              <b-form-checkbox :plain="true" value="1">Option 1</b-form-checkbox>
-              <b-form-checkbox :plain="true" value="2">Option 2</b-form-checkbox>
-              <b-form-checkbox :plain="true" value="3">Option 3</b-form-checkbox>
-            </b-form-checkbox-group>
-          </b-form-group>
-          <!--custom controls - radios/checkboxes - temporary fix-->
-          <b-form-group
-            label="Radios - custom"
-            label-for="basicRadiosCustom"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-radio-group
-              id="basicRadiosCustom"
-              value="1"
-              stacked>
-              <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" value="1">
-                <label class="custom-control-label" for="customRadio1">Option 1</label>
+              horizontal
+              :options="options"
+              placeholder="Please select"
+            />
+            <CFormSelect
+              label="Select"
+              horizontal
+              :options="options"
+              placeholder="Please select"
+              disabled
+            />
+            <template v-for="(name, key) in checkboxNames">
+              <div class="form-row form-group" :key="name">
+                <CCol sm="3">
+                  {{name}}
+                </CCol>
+                <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
+                  <CFormCheckbox
+                    v-for="option in options"
+                    :key="option"
+                    :label="option"
+                    :type="[0,1,4,5].includes(key) ? 'radio' : 'checkbox'"
+                    :value="option"
+                    :custom="key > 3"
+                    :name="`Option 1${key}`"
+                    :checked="[0,1,4,5].includes(key) ?
+                      `Option 1` : Math.random() > 0.6"
+                    :class="key % 2 === 1 ? 'form-check-inline' : ''"
+                  />
+                </CCol>
               </div>
-              <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" value="2" checked>
-                <label class="custom-control-label" for="customRadio2">Option 2</label>
-              </div>
-              <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" value="3">
-                <label class="custom-control-label" for="customRadio3">Option 3</label>
-              </div>
-            </b-form-radio-group>
-          </b-form-group>
-          <b-form-group
-            label="Inline radios - custom"
-            label-for="basicCustomRadios1"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-radio-group
-              id="basicCustomRadios1"
-              name="customRadioInline1">
-              <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" value="1">
-                <label class="custom-control-label" for="customRadioInline1">Option 1</label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" value="2" checked>
-                <label class="custom-control-label" for="customRadioInline2">Option 2</label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input" value="3">
-                <label class="custom-control-label" for="customRadioInline3">Option 3</label>
-              </div>
-            </b-form-radio-group>
-          </b-form-group>
-          <b-form-group
-            label="Checkboxes - custom"
-            label-for="basicCustomCheckboxes"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-checkbox-group stacked id="basicCustomCheckboxes">
-              <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="customChk1" value="1" checked>
-                <label class="custom-control-label" for="customChk1">Option 1</label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="customChk2" value="2">
-                <label class="custom-control-label" for="customChk2">Option 2</label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="customChk3" value="3">
-                <label class="custom-control-label" for="customChk3">Option 3</label>
-              </div>
-            </b-form-checkbox-group>
-          </b-form-group>
-          <b-form-group
-            label="Inline checkboxes - custom"
-            label-for="basicInlineCustomCheckboxes"
-            :label-cols="3"
-            :horizontal="true">
-            <b-form-checkbox-group id="basicInlineCustomCheckboxes">
-              <div class="custom-control custom-checkbox custom-control-inline">
-                <input type="checkbox" class="custom-control-input" id="customInChk1" value="1">
-                <label class="custom-control-label" for="customInChk1">Option 1</label>
-              </div>
-              <div class="custom-control custom-checkbox custom-control-inline">
-                <input type="checkbox" class="custom-control-input" id="customInChk2" value="2" checked>
-                <label class="custom-control-label" for="customInChk2">Option 2</label>
-              </div>
-              <div class="custom-control custom-checkbox custom-control-inline">
-                <input type="checkbox" class="custom-control-input" id="customInChk3" value="3">
-                <label class="custom-control-label" for="customInChk3">Option 3</label>
-              </div>
-            </b-form-checkbox-group>
-          </b-form-group>
-          <b-form-group
-            label="File input"
-            label-for="fileInput"
-            :label-cols="3"
-            :horizontal="true">
-              <b-form-file id="fileInput" :plain="true"></b-form-file>
-          </b-form-group>
-          <b-form-group
-            label="Multiple file input"
-            label-for="fileInputMulti"
-            :label-cols="3"
-            :horizontal="true">
-              <b-form-file id="fileInputMulti" :plain="true" :multiple="true"></b-form-file>
-          </b-form-group>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
-          </b-form>
-        </b-card>
-        <b-card>
-          <div slot="header">
+            </template>
+            <CFormFile
+              label="File input"
+              horizontal
+            />
+            <CFormFile
+              label="Multiple file input"
+              horizontal
+              multiple
+            />
+          </CForm>
+          <CCardFooter slot="footer">
+            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+        <CCard>
+          <CCardHeader slot="header">
             <strong>Inline</strong> Form
-          </div>
+          </CCardHeader>
+
           <!-- Bootstrap Vue has some problems with Inline forms that's why we use some standard bootstrap classes -->
-          <b-form inline>
-            <label class="mr-sm-2" for="inlineInput1">Name: </label>
-            <b-input id="inlineInput1" type="text" placeholder="Jane Doe"></b-input>
-            <label class="mx-sm-2" for="inlineInput2">Email: </label>
-            <b-input id="inlineInput2" type="email" placeholder="jane.doe@example.com" autocomplete="email"></b-input>
-          </b-form>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col md="6">
-        <b-card>
-          <div slot="header">
+          <CForm inline>
+            <CFormInput
+              class="mr-2"
+              label="<small>Name:&nbsp;</small>"
+              placeholder="Jane Doe"
+            />
+            <CFormInput
+              label="<small>Email:&nbsp;</small>"
+              placeholder="jane.doe@example.com"
+              autocomplete="email"
+            />
+          </CForm>
+          <CCardFooter slot="footer">
+            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+      <CCol md="6">
+        <CCard>
+          <CCardHeader slot="header">
             <strong>Horizontal</strong> Form
-          </div>
-          <b-form>
-            <b-form-group
-              label="Email"
-              label-for="horizEmail"
+          </CCardHeader>
+          <CForm>
+            <CFormInput
+              type="email"
               description="Please enter your email."
-              :label-cols="3"
-              :horizontal="true">
-              <b-form-input id="horizEmail" type="email" placeholder="Enter Email.." autocomplete="username email"></b-form-input>
-            </b-form-group>
-            <b-form-group
-              label="Password"
-              label-for="horizPass"
-              description="Please enter your password."
-              :label-cols="3"
-              :horizontal="true">
-              <b-form-input id="horizPass" type="password" placeholder="Enter Password.." autocomplete="current-password"></b-form-input>
-            </b-form-group>
-            <div slot="footer">
-              <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-              <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-            </div>
-          </b-form>
-        </b-card>
-        <b-card>
-          <div slot="header">
-            <strong>Normal</strong> Form
-          </div>
-          <b-form novalidate>
-            <b-form-group validated
+              autocomplete="email"
               label="Email"
-              label-for="normalEmail"
-              description="Please enter your email.">
-              <b-form-input id="normalEmail" type="email" placeholder="Enter Email.." required autocomplete="email"></b-form-input>
-            </b-form-group>
-            <b-form-group validated
+              horizontal
+              placeholder="Enter Email..."
+            />
+            <CFormInput
+              type="password"
+              description="Please enter your password."
+              autocomplete="current-password"
               label="Password"
-              label-for="normalPass"
-              description="Please enter your password.">
-              <b-form-input id="normalPass" type="password" placeholder="Enter Password.." required autocomplete="current-password"></b-form-input>
-            </b-form-group>
-            <div slot="footer">
-              <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-              <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-            </div>
-          </b-form>
-        </b-card>
-        <b-card no-body :no-block="true">
-          <div slot="header">
+              horizontal
+              placeholder="Enter Password..."
+            />
+            <CCardFooter slot="footer">
+              <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+              <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            </CCardFooter>
+          </CForm>
+        </CCard>
+        <CCard>
+          <CCardHeader slot="header">
+            <strong>Normal</strong> Form
+          </CCardHeader>
+          <CForm novalidate>
+            <CFormInput
+              type="email"
+              description="Please enter your email."
+              autocomplete="email"
+              label="Email"
+              placeholder="Enter Email..."
+              required
+              was-validated
+            />
+            <CFormInput
+              type="password"
+              description="Please enter your password."
+              autocomplete="current-password"
+              label="Password"
+              placeholder="Enter Password..."
+              required
+              was-validated
+            />
+            <CCardFooter slot="footer">
+              <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+              <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            </CCardFooter>
+          </CForm>
+        </CCard>
+        <CCard :no-block="true">
+          <CCardHeader slot="header">
             Input <strong>Grid</strong>
-          </div>
-          <b-card-body>
-            <b-row class="form-group">
-              <b-col sm="3">
-                <b-form-input type="text" placeholder=".col-sm-3"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="4">
-                <b-form-input type="text" placeholder=".col-sm-4"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="5">
-                <b-form-input type="text" placeholder=".col-sm-5"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="6">
-                <b-form-input type="text" placeholder=".col-sm-6"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="7">
-                <b-form-input type="text" placeholder=".col-sm-7"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="8">
-                <b-form-input type="text" placeholder=".col-sm-8"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="9">
-                <b-form-input type="text" placeholder=".col-sm-9"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="10">
-                <b-form-input type="text" placeholder=".col-sm-10"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="11">
-                <b-form-input type="text" placeholder=".col-sm-11"></b-form-input>
-              </b-col>
-            </b-row>
-            <b-row class="form-group">
-              <b-col sm="12">
-                <b-form-input type="text" placeholder=".col-sm-12"></b-form-input>
-              </b-col>
-            </b-row>
-          </b-card-body>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary"><i class="fa fa-user"></i> Login</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
-        </b-card>
-        <b-card>
-          <div slot="header">
+          </CCardHeader>
+          <CRow class="form-group">
+            <CCol sm="3">
+              <CFormInput class="mb-0" placeholder=".col-sm-3"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="4">
+              <CFormInput class="mb-0" placeholder=".col-sm-4"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="5">
+              <CFormInput class="mb-0" placeholder=".col-sm-5"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="6">
+              <CFormInput class="mb-0" placeholder=".col-sm-6"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="7">
+              <CFormInput class="mb-0" placeholder=".col-sm-7"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="8">
+              <CFormInput class="mb-0" placeholder=".col-sm-8"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="9">
+              <CFormInput class="mb-0" placeholder=".col-sm-9"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="10">
+              <CFormInput class="mb-0" placeholder=".col-sm-10"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="11">
+              <CFormInput class="mb-0" placeholder=".col-sm-11"/>
+            </CCol>
+          </CRow>
+          <CRow class="form-group">
+            <CCol sm="12">
+              <CFormInput class="mb-0" placeholder=".col-sm-12"/>
+            </CCol>
+          </CRow>
+          <CCardFooter slot="footer">
+            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-user"></i> Login</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+        <CCard>
+          <CCardHeader slot="header">
             Input <strong>Sizes</strong>
-          </div>
-          <b-form-group
+          </CCardHeader>
+          <CFormInput
             label="Small input"
-            label-for="smInput"
-            label-size="sm"
-            :label-cols="5"
-            :horizontal="true">
-            <b-form-input id="smInput" type="text" size="sm" placeholder="size='sm'"></b-form-input>
-          </b-form-group>
-          <b-form-group
+            size="sm"
+            horizontal
+            placeholder="size='sm'"
+          />
+          <CFormInput
             label="Default input"
-            label-for="defaultInput"
-            :label-cols="5"
-            :horizontal="true">
-            <b-form-input  id="defaultInput" type="text" placeholder="normal"></b-form-input>
-          </b-form-group>
-          <b-form-group
+            horizontal
+            placeholder="normal"
+          />
+          <CFormInput
             label="Large input"
-            label-for="lgInput"
-            label-size="lg"
-            :label-cols="5"
-            :horizontal="true">
-            <b-form-input id="lgInput" type="text" size="lg" placeholder="size='lg'"></b-form-input>
-          </b-form-group>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
-        </b-card>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col sm="12" md="6">
-        <b-card no-body :no-block="true">
-          <div slot="header">
-            <strong>Validation feedback</strong> Form
-          </div>
-          <b-card-body>
-            <b-form>
-              <b-form-group validated>
-                <label class="col-form-label" for="inputIsValid">Input is valid</label>
-                <input type="text" class="form-control is-valid" id="inputIsValid">
-                <b-form-valid-feedback>
-                  Input is valid.
-                </b-form-valid-feedback>
-              </b-form-group>
-              <b-form-group>
-                <label class="col-form-label" for="inputIsInvalid">Input is invalid</label>
-                <input type="text" class="form-control is-invalid" id="inputIsInvalid">
-                <b-form-invalid-feedback>
-                  Please provide a valid information.
-                </b-form-invalid-feedback>
-              </b-form-group>
-            </b-form>
-          </b-card-body>
-        </b-card>
-      </b-col>
-      <b-col sm="12" md="6">
-        <b-card no-body :no-block="true">
-          <div slot="header">
-            <strong>Validation feedback</strong> Form
-          </div>
-          <b-card-body>
-            <b-form validated novalidate>
-              <b-form-group label-for="inputSuccess2" label="Non-required input">
-                <b-form-input type="text" class="form-control-success" id="inputSuccess2"></b-form-input>
-                <b-form-valid-feedback>
-                  Input is not required.
-                </b-form-valid-feedback>
-              </b-form-group>
-              <b-form-group label-for="inputError2" label="Required input">
-                <b-form-input type="text" class="form-control-warning" id="inputError2" required></b-form-input>
-                <b-form-valid-feedback>
-                  Input provided.
-                </b-form-valid-feedback>
-                <b-form-invalid-feedback>
-                  Please provide a required input.
-                </b-form-invalid-feedback>
-              </b-form-group>
-            </b-form>
-          </b-card-body>
-        </b-card>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col sm="4">
-        <b-card>
-          <div slot="header">
+            size="lg"
+            horizontal
+            placeholder="size='lg'"
+          />
+          <CCardFooter slot="footer">
+            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+
+      <CCol sm="12" md="6">
+        <CCard noWrapper :no-block="true">
+          <CCardHeader slot="header">
+            <strong>Basic Validation</strong> Form
+          </CCardHeader>
+          <CCardBody slot="body">
+            <CForm validated novalidate>
+              <CFormInput
+                label="Input is valid"
+                valid-feedback="Input is not required."
+              />
+              <CFormInput
+                label="Input is invalid"
+                required
+                valid-feedback="Thank you :)"
+                invalid-feedback="Please provide a required input."
+              />
+            </CForm>
+          </CCardBody>
+        </CCard>
+      </CCol>
+      <CCol sm="12" md="6">
+        <CCard header="<strong>Custom Validation</strong> Form">
+          <CForm>
+            <CFormInput
+              label="Input is valid"
+              valid-feedback="Input is valid."
+              invalid-feedback="Please provide at least 4 characters."
+              value="Valid value"
+              :isValid="validator"
+            />
+            <CFormInput
+              label="Input is invalid"
+              valid-feedback="Thank you :)"
+              invalid-feedback="Please provide at least 4 characters."
+              :isValid="validator"
+            />
+          </CForm>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol sm="4">
+        <CCard>
+          <CCardHeader slot="header">
             <strong>Icon/Text</strong> Groups
-          </div>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend>
-                <b-input-group-text><i class="fa fa-user"></i></b-input-group-text>
-              </b-input-group-prepend>
-              <b-form-input type="text" placeholder="Username"></b-form-input>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
-              <b-input-group-append><b-input-group-text><i class="fa fa-envelope-o"></i></b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-input-group-prepend>
-                <b-input-group-text><i class="fa fa-euro"></i></b-input-group-text>
-              </b-input-group-prepend>
-              <b-form-input type="text" placeholder="ex. $1.000.000"></b-form-input>
-              <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col sm="4">
-        <b-card>
-          <div slot="header">
-            <strong>Buttons</strong> Groups
-          </div>
-          <b-form-group>
-            <b-input-group>
-              <!-- Attach Left button -->
-              <b-input-group-prepend>
-                <b-button variant="primary">
-                  <i class="fa fa-search"></i> Search
-                </b-button>
-              </b-input-group-prepend>
-              <b-form-input type="text" placeholder="Username"></b-form-input>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
-              <!-- Attach Right button -->
-              <b-input-group-append>
-                <b-button variant="primary">Submit</b-button>
-              </b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <b-form-group>
-            <b-input-group>
-              <!-- Attach Left button -->
-              <b-input-group-prepend>
-                <b-button variant="primary"><i class="fa fa-facebook"></i></b-button>
-              </b-input-group-prepend>
-              <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
-              <!-- Attach Left button -->
-              <b-input-group-append>
-                <b-button variant="primary"><i class="fa fa-twitter"></i></b-button>
-              </b-input-group-append>
-            </b-input-group>
-          </b-form-group>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col sm="4">
-        <b-card>
-          <div slot="header">
-            <strong>Dropdowns</strong> Groups
-          </div>
-          <b-form-group>
-              <b-input-group>
-                <!-- Attach Left button -->
-                <b-input-group-prepend>
-                  <b-dropdown text="Action" variant="primary">
-                    <b-dropdown-item>Action</b-dropdown-item>
-                    <b-dropdown-item>Another action</b-dropdown-item>
-                    <b-dropdown-item>Something else here...</b-dropdown-item>
-                    <b-dropdown-item disabled>Disabled action</b-dropdown-item>
-                  </b-dropdown>
-                </b-input-group-prepend>
-                <b-form-input placeholder="Username"></b-form-input>
-              </b-input-group>
-          </b-form-group>
-          <b-form-group>
-              <b-input-group>
-                <b-form-input placeholder="Email"></b-form-input>
-                <!-- Attach Right button -->
-                <b-input-group-append>
-                  <b-dropdown text="Action" variant="primary" right>
-                    <b-dropdown-item>Action</b-dropdown-item>
-                    <b-dropdown-item>Another action</b-dropdown-item>
-                    <b-dropdown-item>Something else here...</b-dropdown-item>
-                    <b-dropdown-item disabled>Disabled action</b-dropdown-item>
-                  </b-dropdown>
-                </b-input-group-append>
-              </b-input-group>
-          </b-form-group>
-          <b-form-group>
-              <b-input-group>
-                <!-- Attach Left button -->
-                <b-input-group-prepend>
-                  <b-dropdown text="Split" variant="primary" split>
-                    <b-dropdown-item href="#">Action</b-dropdown-item>
-                    <b-dropdown-item href="#">Another action</b-dropdown-item>
-                    <b-dropdown-item href="#">Something else here...</b-dropdown-item>
-                    <b-dropdown-item disabled>Disabled action</b-dropdown-item>
-                  </b-dropdown>
-                </b-input-group-prepend>
-                <b-form-input placeholder="..."></b-form-input>
-                <!-- Attach Right button -->
-                <b-input-group-append>
-                  <b-dropdown text="Action" variant="primary" right>
-                    <b-dropdown-item>Action</b-dropdown-item>
-                    <b-dropdown-item>Another action</b-dropdown-item>
-                    <b-dropdown-item>Something else here...</b-dropdown-item>
-                    <b-dropdown-item disabled>Disabled action</b-dropdown-item>
-                  </b-dropdown>
-                </b-input-group-append>
-              </b-input-group>
-          </b-form-group>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</b-button>
-            <b-button type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</b-button>
-          </div>
-        </b-card>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col md="6">
-        <b-card>
-          <div slot="header">
+          </CCardHeader>
+          <CFormInput
+            placeholder="Username"
+            prepend="<i class='fa fa-user'></i>"
+          />
+          <CFormInput
+            type="email"
+            placeholder="Email"
+            autocomplete="email"
+            append="<i class='fa fa-envelope-o'></i>"
+          />
+          <CFormInput
+            prepend="<i class='fa fa-euro'></i>"
+            placeholder="ex. $1.000.000"
+            append=".00"
+          />
+          <CCardFooter slot="footer">
+            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+      <CCol sm="4" >
+        <CCard header="<strong>Buttons</strong> Groups">
+          <CFormInput placeholder="Username">
+            <template #prepend>
+              <CButton variant="primary"><i class="fa fa-search"></i> Search</CButton>
+            </template>
+          </CFormInput>
+          <CFormInput
+            type="email"
+            placeholder="Email"
+            autocomplete="email"
+          >
+            <template #append>
+              <CButton type="submit" variant="primary">Submit</CButton>
+            </template>
+          </CFormInput>
+          <CFormInput
+            type="email"
+            placeholder="Email"
+            autocomplete="email"
+          >
+            <template #prepend>
+              <CButton variant="primary"><i class="fa fa-facebook"></i></CButton>
+            </template>
+            <template #append>
+              <CButton variant="primary"><i class="fa fa-twitter"></i></CButton>
+            </template>
+          </CFormInput>
+          <CCardFooter slot="footer">
+            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+      <CCol sm="4">
+        <CCard header="<strong>Dropdowns</strong> Groups">
+          <CFormInput placeholder="Username">
+            <template #prepend>
+              <CDropdown
+                button-content="Action"
+                variant="primary"
+              >
+                <CDropdownItem>Action</CDropdownItem>
+                <CDropdownItem>Another action</CDropdownItem>
+                <CDropdownItem>Something else here...</CDropdownItem>
+                <CDropdownItem disabled>Disabled action</CDropdownItem>
+              </CDropdown>
+            </template>
+          </CFormInput>
+          <CFormInput
+            type="email"
+            placeholder="Email"
+            autocomplete="email"
+          >
+            <template #append>
+              <CDropdown
+                button-content="Action"
+                variant="primary"
+                right
+              >
+                <CDropdownItem>Action</CDropdownItem>
+                <CDropdownItem>Another action</CDropdownItem>
+                <CDropdownItem>Something else here...</CDropdownItem>
+                <CDropdownItem disabled>Disabled action</CDropdownItem>
+              </CDropdown>
+            </template>
+          </CFormInput>
+          <CFormInput placeholder="...">
+
+            <template #prepend>
+              <CDropdown
+                button-content="Split"
+                variant="primary"
+                split
+              >
+                <CDropdownItem href="#">Action</CDropdownItem>
+                <CDropdownItem href="#">Another action</CDropdownItem>
+                <CDropdownItem href="#">Something else here...</CDropdownItem>
+                <CDropdownItem disabled>Disabled action</CDropdownItem>
+              </CDropdown>
+            </template>
+
+            <template #append>
+              <CDropdown
+                button-content="Action"
+                variant="primary"
+                right
+              >
+                <CDropdownItem>Action</CDropdownItem>
+                <CDropdownItem>Another action</CDropdownItem>
+                <CDropdownItem>Something else here...</CDropdownItem>
+                <CDropdownItem disabled>Disabled action</CDropdownItem>
+              </CDropdown>
+            </template>
+
+          </CFormInput>
+
+
+          <CCardFooter slot="footer">
+            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol md="6">
+        <CCard>
+          <CCardHeader slot="header">
             Use the grid for big devices! <small><code>.col-lg-*</code> <code>.col-md-*</code> <code>.col-sm-*</code></small>
-          </div>
-          <b-row class="form-group">
-            <b-col md="8">
-              <b-form-input type="text" placeholder=".col-md-8"></b-form-input>
-            </b-col>
-            <b-col md="4">
-              <b-form-input type="text" placeholder=".col-md-4"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col md="7">
-              <b-form-input type="text" placeholder=".col-md-7"></b-form-input>
-            </b-col>
-            <b-col md="5">
-              <b-form-input type="text" placeholder=".col-md-5"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col md="6">
-              <b-form-input type="text" placeholder=".col-md-6"></b-form-input>
-            </b-col>
-            <b-col md="6">
-              <b-form-input type="text" placeholder=".col-md-6"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col md="5">
-              <b-form-input type="text" placeholder=".col-md-5"></b-form-input>
-            </b-col>
-            <b-col md="7">
-              <b-form-input type="text" placeholder=".col-md-7"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col md="4">
-              <b-form-input type="text" placeholder=".col-md-4"></b-form-input>
-            </b-col>
-            <b-col md="8">
-              <b-form-input type="text" placeholder=".col-md-8"></b-form-input>
-            </b-col>
-          </b-row>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary">Action</b-button>
-            <b-button type="button" size="sm" variant="danger">Action</b-button>
-            <b-button type="button" class="btn btn-sm btn-warning">Action</b-button>
-            <b-button type="button" class="btn btn-sm btn-info">Action</b-button>
-            <b-button type="button" size="sm" variant="success">Action</b-button>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col md="6">
-        <b-card>
-          <div slot="header">
+          </CCardHeader>
+          <CRow
+            class="form-group"
+            v-for="(number, key) in [4,5,6,7,8]"
+            :key="key"
+          >
+            <CCol :cols="12 - number">
+              <CFormInput class="mb-0" :placeholder="`.col-md-${12 - number}`"/>
+            </CCol>
+            <CCol :cols="number">
+              <CFormInput class="mb-0" :placeholder="`.col-md-${number}`"/>
+            </CCol>
+          </CRow>
+          <CCardFooter slot="footer">
+            <CButton size="sm" variant="primary">Action</CButton>
+            <CButton size="sm" variant="danger">Action</CButton>
+            <CButton size="sm" variant="warning">Action</CButton>
+            <CButton size="sm" variant="info">Action</CButton>
+            <CButton size="sm" variant="success">Action</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+      <CCol md="6">
+        <CCard>
+          <CCardHeader slot="header">
             Input Grid for small devices! <small> <code>.col-*</code></small>
-          </div>
-          <b-row class="form-group">
-            <b-col cols="4">
-              <b-form-input type="text" placeholder=".col-4"></b-form-input>
-            </b-col>
-            <b-col cols="8">
-              <b-form-input type="text" placeholder=".col-8"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col cols="5">
-              <b-form-input type="text" placeholder=".col-5"></b-form-input>
-            </b-col>
-            <b-col cols="7">
-              <b-form-input type="text" placeholder=".col-7"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col cols="6">
-              <b-form-input type="text" placeholder=".col-6"></b-form-input>
-            </b-col>
-            <b-col cols="6">
-              <b-form-input type="text" placeholder=".col-6"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col cols="7">
-              <b-form-input type="text" placeholder=".col-5"></b-form-input>
-            </b-col>
-            <b-col cols="5">
-              <b-form-input type="text" placeholder=".col-5"></b-form-input>
-            </b-col>
-          </b-row>
-          <b-row class="form-group">
-            <b-col cols="8">
-              <b-form-input type="text" placeholder=".col-8"></b-form-input>
-            </b-col>
-            <b-col cols="4">
-              <b-form-input type="text" placeholder=".col-4"></b-form-input>
-            </b-col>
-          </b-row>
-          <div slot="footer">
-            <b-button type="submit" size="sm" variant="primary">Action</b-button>
-            <b-button type="button" size="sm" variant="danger">Action</b-button>
-            <b-button type="button" class="btn btn-sm btn-warning">Action</b-button>
-            <b-button type="button" class="btn btn-sm btn-info">Action</b-button>
-            <b-button type="button" size="sm" variant="success">Action</b-button>
-          </div>
-        </b-card>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col sm="4">
-        <b-card>
-          <div slot="header">
+          </CCardHeader>
+          <CRow
+            class="form-group"
+            v-for="(number, key) in [4,5,6,7,8]"
+            :key="key"
+          >
+            <CCol :cols="number">
+              <CFormInput class="mb-0" :placeholder="`.col-${number}`"/>
+            </CCol>
+            <CCol :cols="12 - number">
+              <CFormInput class="mb-0" :placeholder="`.col-${12 - number}`"/>
+            </CCol>
+          </CRow>
+          <CCardFooter slot="footer">
+            <CButton size="sm" variant="primary">Action</CButton>
+            <CButton size="sm" variant="danger">Action</CButton>
+            <CButton size="sm" variant="warning">Action</CButton>
+            <CButton size="sm" variant="info">Action</CButton>
+            <CButton size="sm" variant="success">Action</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol sm="4">
+        <CCard>
+          <CCardHeader slot="header">
             Example Form
-          </div>
-          <b-form>
-            <b-form-group>
-              <b-input-group>
-                <b-input-group-prepend><b-input-group-text>Username</b-input-group-text></b-input-group-prepend>
-                <b-form-input type="text"></b-form-input>
-                <b-input-group-append><b-input-group-text><i class="fa fa-user"></i></b-input-group-text></b-input-group-append>
-              </b-input-group>
-            </b-form-group>
-            <b-form-group>
-              <b-input-group>
-                <b-input-group-prepend><b-input-group-text>Email</b-input-group-text></b-input-group-prepend>
-                <b-form-input type="email" autocomplete="email"></b-form-input>
-                <b-input-group-append><b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text></b-input-group-append>
-              </b-input-group>
-            </b-form-group>
-            <b-form-group>
-              <b-input-group>
-                <b-input-group-prepend><b-input-group-text>Password</b-input-group-text></b-input-group-prepend>
-                <b-form-input type="password" autocomplete="current-password"></b-form-input>
-                <b-input-group-append><b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text></b-input-group-append>
-              </b-input-group>
-            </b-form-group>
+          </CCardHeader>
+          <CForm>
+            <CFormInput
+              prepend="Username"
+              append="<i class='fa fa-user'></i>"
+            />
+            <CFormInput
+              prepend="Email"
+              type="email"
+              autocomplete="email"
+              append="<i class='fa fa-envelope'></i>"
+            />
+            <CFormInput
+              prepend="Password"
+              type="password"
+              autocomplete="current-password"
+              append="<i class='fa fa-asterisk'></i>"
+            />
             <div class="form-group form-actions">
-              <b-button type="submit" size="sm" variant="primary">Submit</b-button>
+              <CButton type="submit" size="sm" variant="primary">Submit</CButton>
             </div>
-          </b-form>
-        </b-card>
-      </b-col>
-      <b-col sm="4">
-        <b-card>
-          <div slot="header">
+          </CForm>
+        </CCard>
+      </CCol>
+      <CCol sm="4">
+        <CCard>
+          <CCardHeader slot="header">
             Example Form
-          </div>
-          <b-form>
-            <b-form-group>
-              <b-input-group>
-                <b-form-input type="text" placeholder="Username"></b-form-input>
-                <b-input-group-append><b-input-group-text><i class="fa fa-user"></i></b-input-group-text></b-input-group-append>
-              </b-input-group>
-            </b-form-group>
-            <b-form-group>
-              <b-input-group>
-                <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
-                <b-input-group-append><b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text></b-input-group-append>
-              </b-input-group>
-            </b-form-group>
-            <b-form-group>
-              <b-input-group>
-                <b-form-input type="password" placeholder="Password" autocomplete="current-password"></b-form-input>
-                <b-input-group-append><b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text></b-input-group-append>
-              </b-input-group>
-            </b-form-group>
+          </CCardHeader>
+          <CForm>
+            <CFormInput
+              placeholder="Username"
+              append="<i class='fa fa-user'></i>"
+            />
+            <CFormInput
+              placeholder="Email"
+              type="email"
+              autocomplete="email"
+              append="<i class='fa fa-envelope'></i>"
+            />
+            <CFormInput
+              placeholder="Password"
+              type="password"
+              autocomplete="current-password"
+              append="<i class='fa fa-asterisk'></i>"
+            />
             <div class="form-group form-actions">
-              <b-button type="submit" class="btn btn-sm btn-secondary">Submit</b-button>
+              <CButton type="submit" class="btn btn-sm btn-secondary">Submit</CButton>
             </div>
-          </b-form>
-        </b-card>
-      </b-col>
-      <b-col sm="4">
-        <b-card>
-          <div slot="header">
+          </CForm>
+        </CCard>
+      </CCol>
+      <CCol sm="4">
+        <CCard>
+          <CCardHeader slot="header">
             Example Form
-          </div>
-          <b-form>
-            <b-form-group>
-              <b-input-group>
-                <b-input-group-prepend>
-                  <b-input-group-text><i class="fa fa-user"></i></b-input-group-text>
-                </b-input-group-prepend>
-                <b-form-input type="text" placeholder="Username"></b-form-input>
-              </b-input-group>
-            </b-form-group>
-            <b-form-group>
-              <b-input-group>
-                <b-input-group-prepend>
-                  <b-input-group-text><i class="fa fa-envelope"></i></b-input-group-text>
-                </b-input-group-prepend>
-                <b-form-input type="email" placeholder="Email" autocomplete="email"></b-form-input>
-              </b-input-group>
-            </b-form-group>
-            <b-form-group>
-              <b-input-group>
-                <b-input-group-prepend>
-                  <b-input-group-text><i class="fa fa-asterisk"></i></b-input-group-text>
-                </b-input-group-prepend>
-                <b-form-input type="password" placeholder="Password" autocomplete="current-password"></b-form-input>
-              </b-input-group>
-            </b-form-group>
+          </CCardHeader>
+          <CForm>
+            <CFormInput
+              placeholder="Username"
+              prepend="<i class='fa fa-user'></i>"
+            />
+            <CFormInput
+              placeholder="Email"
+              type="email"
+              autocomplete="email"
+              prepend="<i class='fa fa-envelope'></i>"
+            />
+            <CFormInput
+              placeholder="Password"
+              type="password"
+              autocomplete="current-password"
+              prepend="<i class='fa fa-asterisk'></i>"
+            />
             <div class="form-group form-actions">
-              <b-button type="submit" size="sm" variant="success">Submit</b-button>
+              <CButton type="submit" size="sm" variant="success">Submit</CButton>
             </div>
-          </b-form>
-        </b-card>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col lg="12">
+          </CForm>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol lg="12">
         <transition name="fade">
-          <b-card no-body v-if="show">
-            <div slot="header">
+          <CCard
+            v-if="show"
+            no-wrapper
+          >
+            <CCardHeader slot="header">
               <i class="fa fa-edit"></i> Form Elements
               <div class="card-header-actions">
-                <b-link href="#" class="card-header-action btn-setting">
+                <CLink href="#" class="card-header-action btn-setting">
                   <i class="icon-settings"></i>
-                </b-link>
-                <b-link class="card-header-action btn-minimize" v-b-toggle.collapse1>
-                  <i class="icon-arrow-up"></i>
-                </b-link>
-                <b-link href="#" class="card-header-action btn-close" v-on:click="show = !show">
+                </CLink>
+                <CLink
+                  class="card-header-action btn-minimize"
+                  @click="formElements=!formElements"
+                >
+                  <i :class="`icon-arrow-${formElements ? 'down' : 'up'}`"></i>
+                </CLink>
+                <CLink href="#" class="card-header-action btn-close" v-on:click="show = !show">
                   <i class="icon-close"></i>
-                </b-link>
+                </CLink>
               </div>
-            </div>
-            <b-collapse id="collapse1" visible>
-              <b-card-body>
-                <b-form-group label="Prepended text" label-for="elementsEmail" description="Here's some help text">
-                  <b-input-group>
-                    <b-input-group-prepend>
-                      <b-input-group-text>@</b-input-group-text>
-                    </b-input-group-prepend>
-                    <b-form-input id="elementsEmail" type="email" autocomplete="email"></b-form-input>
-                  </b-input-group>
-                </b-form-group>
-                <b-form-group label="Appended text" label-for="elementsAppend" description="Here's some help text">
-                  <b-input-group>
-                    <b-form-input id="elementsAppend" type="text"></b-form-input>
-                    <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
-                  </b-input-group>
-                </b-form-group>
-                <b-form-group label="Append and prepend" label-for="elementsPrependAppend" description="Here's some help text">
-                  <b-input-group>
-                    <b-input-group-prepend>
-                      <b-input-group-text>$</b-input-group-text>
-                    </b-input-group-prepend>
-                    <b-form-input id="elementsPrependAppend" type="text"></b-form-input>
-                    <b-input-group-append><b-input-group-text>.00</b-input-group-text></b-input-group-append>
-                  </b-input-group>
-                </b-form-group>
-                <b-form-group label="Append with button" label-for="elementsAppendButton" description="Here's some help text">
-                  <b-input-group>
-                    <b-form-input id="elementsAppendButton" type="text"></b-form-input>
-                    <b-input-group-append>
-                      <b-button variant="primary">Go!</b-button>
-                    </b-input-group-append>
-                  </b-input-group>
-                </b-form-group>
-                <b-form-group label="Two-buttons append" label-for="elementsTwoButtons">
-                  <b-input-group>
-                    <b-form-input id="elementsTwoButtons" type="text"></b-form-input>
-                    <b-input-group-append>
-                      <b-button variant="primary">Search</b-button>
-                      <b-button variant="danger">Options</b-button>
-                    </b-input-group-append>
-                  </b-input-group>
-                </b-form-group>
+            </CCardHeader>
+            <CCollapse
+              slot="body"
+              :show="formElements"
+            >
+              <CCardBody>
+                <CFormInput
+                  label="Prepended text"
+                  prepend="@"
+                  description="Here's some help text"
+                  type="email"
+                  autocomplete="email"
+                />
+                <CFormInput
+                  label="Appended text"
+                  append=".00"
+                  description="Here's some help text"
+                />
+                <CFormInput
+                  label="Appended text"
+                  prepend="$"
+                  append=".00"
+                  description="Here's some help text"
+                />
+                <CFormInput
+                  label="Append with button"
+                  description="Here's some help text"
+                >
+                  <template v-slot:append>
+                    <CButton variant="primary">Go!</CButton>
+                  </template>
+                </CFormInput>
+                <CFormInput label="Two-buttons append">
+                  <template v-slot:append>
+                    <CButton variant="primary">Search</CButton>
+                    <CButton variant="danger">Options</CButton>
+                  </template>
+                </CFormInput>
                 <div class="form-actions">
-                  <b-button type="submit" variant="primary">Save changes</b-button>
-                  <b-button type="button" variant="secondary"   @click="testt">Cancel</b-button>
+                  <CButton type="submit" variant="primary">Save changes</CButton>
+                  <CButton variant="secondary">Cancel</CButton>
                 </div>
-              </b-card-body>
-            </b-collapse>
-          </b-card>
+              </CCardBody>
+            </CCollapse>
+          </CCard>
         </transition>
-        <b-card>
-        <CForm :id="id">
+        <CCard>
+        <!-- <CForm :id="id">
           <input type="text" :value="cInput"/>
           <CFormInput type="email"
                       label="CFormInput"
@@ -1077,7 +805,7 @@
                          :cols="12"
                          v-model="cInput"
           >
-            <b-button slot="prepend" class="btn btn-success">asd</b-button>
+            <CButton slot="prepend" class="btn btn-success">asd</CButton>
           </CFormTextarea>
           <br>
           <CFormSelect label="Input label"
@@ -1103,7 +831,7 @@
                       addWrapperClasses="hehe22"
                       v-model="selected"
           >
-            <b-button slot="prepends" class="btn btn-success">dssdf</b-button>
+            <CButton slot="prepends" class="btn btn-success">dssdf</CButton>
           </CFormSelect>
           {{String(selected)}}
           <CFormFile label="Input label"
@@ -1171,33 +899,23 @@
         <CSpinner grow/>
         <CSpinner small />
         <CSpinner small grow/>
-        <CSpinner grow tag="span"/>
+        <CSpinner grow tag="span"/> -->
 
-        </b-card>
-      </b-col>
-    </b-row>
+        </CCard>
+      </CCol>
+    </CRow>
   </div>
 </template>
 
 <script>
-// import CForm from './CForm'
-// import CFormInput from './CFormInput'
-// import CFormFile from './CFormFile'
-// import CFormSelect from './CFormSelect'
-// import CFormCheckbox from './CFormCheckbox'
-// import CFormTextarea from './CFormTextarea'
-// import CSpinner from './CSpinner'
-
 export default {
   name: 'forms',
-  // components: { CForm, CFormInput, CFormFile, CFormSelect,
-  //    CFormCheckbox, CFormTextarea, CSpinner},
   data () {
     return {
       selected: [], // Must be an array reference!
       show: true,
       id: 'sdfjosdf22',
-      cInput: false,
+      cInput: '',
       smh: 'shnsad',
       trueValue:'someTrueValue',
       falseValue:'someFalseValue',
@@ -1205,6 +923,13 @@ export default {
       selected: 'first',
       isValid: '',
       testkkk: 2,
+      horizontal: { label:'col-3', input:'col-9' },
+      options: ['Option 1', 'Option 2', 'Option 3'],
+      formElements: true,
+      checkboxNames: ['Radios', 'Inline Radios',
+                      'Checkboxes', 'Inline Checkboxes',
+                      'Radios - custom', 'Inline Radios - custom',
+                      'Checkboxes - custom', 'Inline Checkboxes - custom']
     }
   },
   updated () {
@@ -1217,7 +942,7 @@ export default {
       this.cInput += 100
     },
     validator (val) {
-      return val ? val.length > 4 : null
+      return val ? val.length >= 4 : false
     }
   }
 }

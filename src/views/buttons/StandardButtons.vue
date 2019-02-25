@@ -1,687 +1,687 @@
 <template>
   <div class="animated fadeIn">
-    <b-card no-body>
-      <b-card-header>
+    <CCard noWrapper>
+      <CCardHeader slot="header">
         <strong>Standard buttons</strong>
-      </b-card-header>
-      <b-card-body>
-        <b-row class="align-items-center">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+      </CCardHeader>
+      <CCardBody slot="body">
+        <CRow class="align-items-center">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Normal
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="primary">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="secondary">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="success">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="warning">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="danger">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="info">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="light">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="dark">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="link">Link</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="primary">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="secondary">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="success">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="warning">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="danger">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="info">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="light">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="dark">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="link">Link</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Active State
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="primary" aria-pressed="true">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="secondary" aria-pressed="true">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="success" aria-pressed="true">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="warning" aria-pressed="true">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="danger" aria-pressed="true">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="info" aria-pressed="true">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="light" aria-pressed="true">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="dark" aria-pressed="true">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="link" aria-pressed="true">Link</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="primary" aria-pressed="true">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="secondary" aria-pressed="true">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="success" aria-pressed="true">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="warning" aria-pressed="true">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="danger" aria-pressed="true">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="info" aria-pressed="true">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="light" aria-pressed="true">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="dark" aria-pressed="true">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="link" aria-pressed="true">Link</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Disabled
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="primary" disabled>Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="secondary" disabled>Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="success" disabled>Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="warning" disabled>Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="danger" disabled>Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="info" disabled>Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="light" disabled>Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="dark" disabled>Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="link" disabled>Link</b-button>
-          </b-col>
-        </b-row>
-      </b-card-body>
-    </b-card>
-    <b-card no-body>
-      <b-card-header>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="primary" disabled>Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="secondary" disabled>Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="success" disabled>Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="warning" disabled>Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="danger" disabled>Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="info" disabled>Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="light" disabled>Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="dark" disabled>Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="link" disabled>Link</CButton>
+          </CCol>
+        </CRow>
+      </CCardBody>
+    </CCard>
+    <CCard noWrapper>
+      <CCardHeader slot="header">
         <strong>Outline Buttons</strong>
-      </b-card-header>
-      <b-card-body>
+      </CCardHeader>
+      <CCardBody slot="body">
         <p>
           Use <code>variant="outline-*"</code> prop
         </p>
-        <b-row class="align-items-center">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+        <CRow class="align-items-center">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Normal
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-primary">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-secondary">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-success">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-warning">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-danger">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-info">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-light">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-dark">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-primary">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-secondary">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-success">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-warning">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-danger">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-info">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-light">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-dark">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Active State
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-primary" aria-pressed="true">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-secondary" aria-pressed="true">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-success" aria-pressed="true">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-warning" aria-pressed="true">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-danger" aria-pressed="true">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-info" aria-pressed="true">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-light" aria-pressed="true">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="outline-dark" aria-pressed="true">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-primary" aria-pressed="true">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-secondary" aria-pressed="true">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-success" aria-pressed="true">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-warning" aria-pressed="true">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-danger" aria-pressed="true">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-info" aria-pressed="true">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-light" aria-pressed="true">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed variant="outline-dark" aria-pressed="true">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Disabled
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-primary" disabled>Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-secondary" disabled>Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-success" disabled>Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-warning" disabled>Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-danger" disabled>Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-info" disabled>Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-light" disabled>Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="outline-dark" disabled>Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></b-col>
-        </b-row>
-      </b-card-body>
-    </b-card>
-    <b-card no-body>
-      <b-card-header>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-primary" disabled>Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-secondary" disabled>Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-success" disabled>Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-warning" disabled>Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-danger" disabled>Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-info" disabled>Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-light" disabled>Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="outline-dark" disabled>Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
+        </CRow>
+      </CCardBody>
+    </CCard>
+    <CCard noWrapper>
+      <CCardHeader slot="header">
         <strong>Ghost Buttons</strong>
-      </b-card-header>
-      <b-card-body>
+      </CCardHeader>
+      <CCardBody slot="body">
         <p>
           Use
-          <code>.btn-ghost-*</code> class for ghost buttons.
+          <code>ghost</code> prop for ghost buttons.
         </p>
-        <b-row class="align-items-center">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+        <CRow class="align-items-center">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Normal
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-primary">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-secondary">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-success">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-warning">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-danger">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-info">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-light">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-dark">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0" >
+            <CButton block ghost variant="primary">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="secondary">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="success">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="warning">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="danger">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="info">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="light">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="dark">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Active State
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-primary" aria-pressed="true">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-secondary" aria-pressed="true">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-success" aria-pressed="true">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-warning" aria-pressed="true">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-danger" aria-pressed="true">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-info" aria-pressed="true">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-light" aria-pressed="true">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block pressed variant="ghost-dark" aria-pressed="true">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="primary" aria-pressed="true">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="secondary" aria-pressed="true">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="success" aria-pressed="true">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="warning" aria-pressed="true">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="danger" aria-pressed="true">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="info" aria-pressed="true">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="light" aria-pressed="true">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block pressed ghost variant="dark" aria-pressed="true">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Disabled
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-primary" disabled>Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-secondary" disabled>Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-success" disabled>Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-warning" disabled>Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-danger" disabled>Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-info" disabled>Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-light" disabled>Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="ghost-dark" disabled>Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></b-col>
-        </b-row>
-      </b-card-body>
-    </b-card>
-    <b-card no-body>
-      <b-card-header>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="primary" disabled>Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="secondary" disabled>Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="success" disabled>Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="warning" disabled>Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="danger" disabled>Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="info" disabled>Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="light" disabled>Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block ghost variant="dark" disabled>Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
+        </CRow>
+      </CCardBody>
+    </CCard>
+    <CCard noWrapper>
+      <CCardHeader slot="header">
         <strong>Square Buttons</strong>
-      </b-card-header>
-      <b-card-body>
+      </CCardHeader>
+      <CCardBody slot="body">
         <p>
           Use
-          <code>.btn-square</code> class for square buttons.
+          <code>square</code> prop for square buttons.
         </p>
-        <b-row class="align-items-center">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+        <CRow class="align-items-center">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Normal
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="primary" class="btn-square">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="secondary" class="btn-square">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="success" class="btn-square">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="warning" class="btn-square">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="danger" class="btn-square">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="info" class="btn-square">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="light" class="btn-square">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="dark" class="btn-square">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="link" class="btn-square">Link</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="primary" square>Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="secondary" square>Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="success" square>Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="warning" square>Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="danger" square>Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="info" square>Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="light" square>Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="dark" square>Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="link" square>Link</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Active State
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="primary" class="btn-square" aria-pressed="true">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="secondary" class="btn-square" aria-pressed="true">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="success" class="btn-square" aria-pressed="true">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="warning" class="btn-square" aria-pressed="true">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="danger" class="btn-square" aria-pressed="true">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="info" class="btn-square" aria-pressed="true">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="light" class="btn-square" aria-pressed="true">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="dark" class="btn-square" aria-pressed="true">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="link" class="btn-square" aria-pressed="true">Link</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="primary" square aria-pressed="true">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="secondary" square aria-pressed="true">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="success" square aria-pressed="true">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="warning" square aria-pressed="true">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="danger" square aria-pressed="true">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="info" square aria-pressed="true">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="light" square aria-pressed="true">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="dark" square aria-pressed="true">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="link" square aria-pressed="true">Link</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Disabled
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="primary" class="btn-square" disabled>Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="secondary" class="btn-square" disabled>Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="success" class="btn-square" disabled>Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="warning" class="btn-square" disabled>Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="danger" class="btn-square" disabled>Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="info" class="btn-square" disabled>Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="light" class="btn-square" disabled>Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="dark" class="btn-square" disabled>Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="link" class="btn-square" disabled>Link</b-button>
-          </b-col>
-        </b-row>
-      </b-card-body>
-    </b-card>
-    <b-card no-body>
-      <b-card-header>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="primary" square disabled>Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="secondary" square disabled>Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="success" square disabled>Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="warning" square disabled>Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="danger" square disabled>Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="info" square disabled>Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="light" square disabled>Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="dark" square disabled>Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="link" square disabled>Link</CButton>
+          </CCol>
+        </CRow>
+      </CCardBody>
+    </CCard>
+    <CCard noWrapper>
+      <CCardHeader slot="header">
         <strong>Pill Buttons</strong>
-      </b-card-header>
-      <b-card-body>
+      </CCardHeader>
+      <CCardBody slot="body">
         <p>
           Use
-          <code>.btn-pill</code> class for pill buttons.
+          <code>pill</code> prop for pill buttons.
         </p>
-        <b-row class="align-items-center">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+        <CRow class="align-items-center">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Normal
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="primary" class="btn-pill">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="secondary" class="btn-pill">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="success" class="btn-pill">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="warning" class="btn-pill">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="danger" class="btn-pill">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="info" class="btn-pill">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="light" class="btn-pill">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="dark" class="btn-pill">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="link" class="btn-pill">Link</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="primary" pill>Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="secondary" pill>Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="success" pill>Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="warning" pill>Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="danger" pill>Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="info" pill>Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="light" pill>Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="dark" pill>Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="link" pill>Link</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Active State
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="primary" class="btn-pill" aria-pressed="true">Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="secondary" class="btn-pill" aria-pressed="true">Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="success" class="btn-pill" aria-pressed="true">Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="warning" class="btn-pill" aria-pressed="true">Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="danger" class="btn-pill" aria-pressed="true">Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="info" class="btn-pill" aria-pressed="true">Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="light" class="btn-pill" aria-pressed="true">Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="dark" class="btn-pill" aria-pressed="true">Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button pressed block variant="link" class="btn-pill" aria-pressed="true">Link</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="12" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="primary" pill aria-pressed="true">Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="secondary" pill aria-pressed="true">Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="success" pill aria-pressed="true">Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="warning" pill aria-pressed="true">Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="danger" pill aria-pressed="true">Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="info" pill aria-pressed="true">Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="light" pill aria-pressed="true">Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="dark" pill aria-pressed="true">Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton pressed block variant="link" pill aria-pressed="true">Link</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="12" xl class="mb-3 mb-xl-0">
             Disabled
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="primary" class="btn-pill" disabled>Primary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="secondary" class="btn-pill" disabled>Secondary</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="success" class="btn-pill" disabled>Success</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="warning" class="btn-pill" disabled>Warning</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="danger" class="btn-pill" disabled>Danger</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="info" class="btn-pill" disabled>Info</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="light" class="btn-pill" disabled>Light</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="dark" class="btn-pill" disabled>Dark</b-button>
-          </b-col>
-          <b-col cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <b-button block variant="link" class="btn-pill" disabled>Link</b-button>
-          </b-col>
-        </b-row>
-      </b-card-body>
-    </b-card>
-    <b-card no-body>
-      <b-card-header>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="primary" pill disabled>Primary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="secondary" pill disabled>Secondary</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="success" pill disabled>Success</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="warning" pill disabled>Warning</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="danger" pill disabled>Danger</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="info" pill disabled>Info</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="light" pill disabled>Light</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="dark" pill disabled>Dark</CButton>
+          </CCol>
+          <CCol cols="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
+            <CButton block variant="link" pill disabled>Link</CButton>
+          </CCol>
+        </CRow>
+      </CCardBody>
+    </CCard>
+    <CCard noWrapper>
+      <CCardHeader slot="header">
         <strong>Sizes</strong>
-      </b-card-header>
-      <b-card-body>
+      </CCardHeader>
+      <CCardBody slot="body">
         <p>Fancy larger or smaller buttons? Add <code>size="lg"</code> or <code>size="sm"</code> for additional sizes.</p>
-        <b-row class="align-items-center">
-          <b-col cols="2" xl class="mb-3 mb-xl-0">
+        <CRow class="align-items-center">
+          <CCol cols="2" xl class="mb-3 mb-xl-0">
             Small
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="primary" size="sm">Standard Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="outline-secondary" size="sm">Outline Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button size="sm" variant="ghost-success">Ghost Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="warning" size="sm" class="btn-square">Square Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="danger" size="sm" class="btn-pill">Pill Button</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="2" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="primary" size="sm">Standard Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="outline-secondary" size="sm">Outline Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton size="sm" ghost variant="success">Ghost Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="warning" size="sm" square>Square Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="danger" size="sm" pill>Pill Button</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="2" xl class="mb-3 mb-xl-0">
             Normal
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="primary">Standard Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="outline-secondary" >Outline Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="ghost-success">Ghost Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="warning" class="btn-square">Square Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="danger" class="btn-pill">Pill Button</b-button>
-          </b-col>
-        </b-row>
-        <b-row class="align-items-center mt-3">
-          <b-col cols="2" xl class="mb-3 mb-xl-0">
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="primary">Standard Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="outline-secondary" >Outline Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton ghost variant="success">Ghost Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="warning" square>Square Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="danger" pill>Pill Button</CButton>
+          </CCol>
+        </CRow>
+        <CRow class="align-items-center mt-3">
+          <CCol cols="2" xl class="mb-3 mb-xl-0">
             Large
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="primary" size="lg">Standard Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="outline-secondary" size="lg">Outline Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="ghost-success" size="lg">Ghost Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="warning" size="lg" class="btn-square">Square Button</b-button>
-          </b-col>
-          <b-col cols="2" class="mb-3 mb-xl-0 text-center">
-            <b-button variant="danger" size="lg" class="btn-pill">Pill Button</b-button>
-          </b-col>
-        </b-row>
-      </b-card-body>
-    </b-card>
-    <b-card no-body>
-      <b-card-header>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="primary" size="lg">Standard Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="outline-secondary" size="lg">Outline Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton ghost variant="success" size="lg">Ghost Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="warning" size="lg" square>Square Button</CButton>
+          </CCol>
+          <CCol cols="2" class="mb-3 mb-xl-0 text-center">
+            <CButton variant="danger" size="lg" pill>Pill Button</CButton>
+          </CCol>
+        </CRow>
+      </CCardBody>
+    </CCard>
+    <CCard noWrapper>
+      <CCardHeader slot="header">
         <strong>With Icons</strong>
-      </b-card-header>
-      <b-card-body>
-        <b-row class="align-items-center mt-3">
-          <b-col sm xs="12" class="text-center mt-3">
-            <b-button variant="primary">
+      </CCardHeader>
+      <CCardBody slot="body">
+        <CRow class="align-items-center mt-3">
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="primary">
               <i class="fa fa-lightbulb-o"></i>&nbsp;Standard Button
-            </b-button>
-          </b-col>
-          <b-col sm xs="12" class="text-center mt-3">
-            <b-button variant="secondary" outline>
+            </CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="secondary" outline>
               <i class="fa fa-lightbulb-o"></i>&nbsp;Outline Button
-            </b-button>
-          </b-col>
-          <b-col sm xs="12" class="text-center mt-3">
-            <b-button variant="ghost-success">
+            </CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="success">
               <i class="fa fa-lightbulb-o"></i>&nbsp;Ghost Button
-            </b-button>
-          </b-col>
-          <b-col sm xs="12" class="text-center mt-3">
-            <b-button variant="warning" class="btn-square">
+            </CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="warning" square>
               <i class="fa fa-lightbulb-o"></i>&nbsp;Square Button
-            </b-button>
-          </b-col>
-          <b-col sm xs="12" class="text-center mt-3">
-            <b-button variant="danger" class="btn-pill">
+            </CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="danger" pill>
               <i class="fa fa-lightbulb-o"></i>&nbsp;Pill Button
-            </b-button>
-          </b-col>
-        </b-row>
-      </b-card-body>
-    </b-card>
-    <b-card>
-      <div slot="header">
+            </CButton>
+          </CCol>
+        </CRow>
+      </CCardBody>
+    </CCard>
+    <CCard>
+      <CCardHeader slot="header">
         <strong>Toggle pressed state</strong>
-      </div>
-      <b-row>
-        <b-col sm xs="12" class="text-center mt-3">
-          <b-button variant="outline-primary" :pressed.sync="togglePress">Primary {{togglePress ? 'On ' : 'Off'}}</b-button>
-        </b-col>
-        <b-col sm xs="12" class="text-center mt-3">
-          <b-button variant="outline-secondary" :pressed.sync="togglePress">Secondary {{togglePress ? 'On ' : 'Off'}}</b-button>
-        </b-col>
-        <b-col sm xs="12" class="text-center mt-3">
-          <b-button variant="outline-success" :pressed.sync="togglePress">Success {{togglePress ? 'On ' : 'Off'}}</b-button>
-        </b-col>
-        <b-col sm xs="12" class="text-center mt-3">
-          <b-button variant="outline-info" :pressed.sync="togglePress">Info {{togglePress ? 'On ' : 'Off'}}</b-button>
-        </b-col>
-        <b-col sm xs="12" class="text-center mt-3">
-          <b-button variant="outline-warning" :pressed.sync="togglePress">Warning {{togglePress ? 'On ' : 'Off'}}</b-button>
-        </b-col>
-        <b-col sm xs="12" class="text-center mt-3">
-          <b-button variant="outline-danger" :pressed.sync="togglePress">Danger {{togglePress ? 'On ' : 'Off'}}</b-button>
-        </b-col>
-      </b-row>
-    </b-card>
-    <b-row>
-      <b-col xs="12" md="6">
-        <b-card>
-          <div slot="header">
-            <strong>Block Level b-buttons</strong> <small>Add this <code>block</code></small>
-          </div>
-          <b-button size="lg" variant="secondary" block>Block level button</b-button>
-          <b-button size="lg" variant="primary" block>Block level button</b-button>
-          <b-button size="lg" variant="success" block>Block level button</b-button>
-          <b-button size="lg" variant="info" block>Block level button</b-button>
-          <b-button size="lg" variant="warning" block>Block level button</b-button>
-          <b-button size="lg" variant="danger" block>Block level button</b-button>
-          <b-button size="lg" variant="link" block>Block level button</b-button>
-        </b-card>
-      </b-col>
-      <b-col xs="12" md="6">
-      <b-card>
-          <div slot="header">
-            <strong>Block Level b-buttons</strong> <small>Add this <code>block</code></small>
-          </div>
-          <b-button size="lg" variant="outline-secondary" block>Block level button</b-button>
-          <b-button size="lg" variant="outline-primary" block>Block level button</b-button>
-          <b-button size="lg" variant="outline-success" block>Block level button</b-button>
-          <b-button size="lg" variant="outline-info" block>Block level button</b-button>
-          <b-button size="lg" variant="outline-warning" block>Block level button</b-button>
-          <b-button size="lg" variant="outline-danger" block>Block level button</b-button>
-          <b-button size="lg" variant="ghost-info" block>Block level button</b-button>
-        </b-card>
-      </b-col>
-    </b-row>
+      </CCardHeader>
+      <CRow>
+        <CCol sm xs="12" class="text-center mt-3">
+          <CButton variant="outline-primary" :pressed.sync="togglePress">Primary {{togglePress ? 'On ' : 'Off'}}</CButton>
+        </CCol>
+        <CCol sm xs="12" class="text-center mt-3">
+          <CButton variant="outline-secondary" :pressed.sync="togglePress">Secondary {{togglePress ? 'On ' : 'Off'}}</CButton>
+        </CCol>
+        <CCol sm xs="12" class="text-center mt-3">
+          <CButton variant="outline-success" :pressed.sync="togglePress">Success {{togglePress ? 'On ' : 'Off'}}</CButton>
+        </CCol>
+        <CCol sm xs="12" class="text-center mt-3">
+          <CButton variant="outline-info" :pressed.sync="togglePress">Info {{togglePress ? 'On ' : 'Off'}}</CButton>
+        </CCol>
+        <CCol sm xs="12" class="text-center mt-3">
+          <CButton variant="outline-warning" :pressed.sync="togglePress">Warning {{togglePress ? 'On ' : 'Off'}}</CButton>
+        </CCol>
+        <CCol sm xs="12" class="text-center mt-3">
+          <CButton variant="outline-danger" :pressed.sync="togglePress">Danger {{togglePress ? 'On ' : 'Off'}}</CButton>
+        </CCol>
+      </CRow>
+    </CCard>
+    <CRow>
+      <CCol xs="12" md="6">
+        <CCard>
+          <CCardHeader slot="header">
+            <strong>Block Level CButtons</strong> <small>Add this <code>block</code></small>
+          </CCardHeader>
+          <CButton size="lg" variant="secondary" block>Block level button</CButton>
+          <CButton size="lg" variant="primary" block>Block level button</CButton>
+          <CButton size="lg" variant="success" block>Block level button</CButton>
+          <CButton size="lg" variant="info" block>Block level button</CButton>
+          <CButton size="lg" variant="warning" block>Block level button</CButton>
+          <CButton size="lg" variant="danger" block>Block level button</CButton>
+          <CButton size="lg" variant="link" block>Block level button</CButton>
+        </CCard>
+      </CCol>
+      <CCol xs="12" md="6">
+      <CCard>
+          <CCardHeader slot="header">
+            <strong>Block Level CButtons</strong> <small>Add this <code>block</code></small>
+          </CCardHeader>
+          <CButton size="lg" variant="outline-secondary" block>Block level button</CButton>
+          <CButton size="lg" variant="outline-primary" block>Block level button</CButton>
+          <CButton size="lg" variant="outline-success" block>Block level button</CButton>
+          <CButton size="lg" variant="outline-info" block>Block level button</CButton>
+          <CButton size="lg" variant="outline-warning" block>Block level button</CButton>
+          <CButton size="lg" variant="outline-danger" block>Block level button</CButton>
+          <CButton size="lg" ghost variant="info" block>Block level button</CButton>
+        </CCard>
+      </CCol>
+    </CRow>
   </div>
 </template>
 
 <script>
 export default {
   name: 'standard-buttons',
-  data: () => {
+  data () {
     return { togglePress: false }
   }
 }

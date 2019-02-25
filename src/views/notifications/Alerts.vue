@@ -1,19 +1,17 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-row>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+      <CRow>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Bootstrap Alert</strong>
               <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/alert" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
               </div>
-            </div>
+            </CCardHeader>
             <div>
               <p></p>
               <CAlert show variant="primary">Primary Alert</CAlert>
@@ -25,16 +23,14 @@
               <CAlert show variant="light">Light Alert</CAlert>
               <CAlert show variant="dark">Dark Alert</CAlert>
             </div>
-          </b-card>
-        </b-col>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i> Alert
               <small> use <code>.alert-link</code> to provide links</small>
-            </div>
+            </CCardHeader>
             <div>
               <CAlert show variant="primary">
                 Primary Alert with <a href="#" class="alert-link">an example link</a>.
@@ -59,19 +55,17 @@
               </CAlert>
               <CAlert show variant="dark">
                 Dark Alert with
-                <b-link href="#" class="alert-link">an example link</b-link>
+                <CLink href="#" class="alert-link">an example link</CLink>
                 .
               </CAlert>
             </div>
-          </b-card>
-        </b-col>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i> Alerts <small>with additional content</small>
-            </div>
+            </CCardHeader>
             <CAlert show variant="success">
               <h4 class="alert-heading">Well done!</h4>
               <p>
@@ -84,15 +78,13 @@
                 Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
               </p>
             </CAlert>
-          </b-card>
-        </b-col>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i> Alerts <small>dismissible</small>
-            </div>
+            </CCardHeader>
             <div>
               <CAlert :show="true" dismissible disabled>
                 Dismissible Alert!
@@ -119,17 +111,15 @@
             >
               Dismissible Alert!
             </CAlert>
-            <b-btn @click="showDismissibleAlert=true" variant="info" class="m-1">
+            <CButton @click="showDismissibleAlert=true" variant="info" class="m-1">
               Show dismissible alert ({{showDismissibleAlert?'visible':'hidden'}})
-            </b-btn>
+            </CButton>
             </div>
-          </b-card>
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i> Alerts <small>auto dismissible</small>
-            </div>
+            </CCardHeader>
             <div>
               <CAlert :show="dismissCountDown"
                        dismissible
@@ -145,32 +135,26 @@
                        @dismissed="dismissCountdown=0"
                        @dismiss-count-down="countDownChanged">
                 Alert will dismiss after {{dismissCountDown}} seconds...
-                <b-progress variant="info"
+                <CProgress variant="info"
                             :max="dismissSecs"
                             :value="dismissCountDown"
                             height="4px">
-                </b-progress>
+                </CProgress>
               </CAlert>
-              <b-btn @click="showAlert" variant="info" class="m-1">
+              <CButton @click="showAlert" variant="info" class="m-1">
                 Show alert with timer
-              </b-btn>
+              </CButton>
             </div>
-          </b-card>
-        </b-col>
-      </b-row>
+          </CCard>
+        </CCol>
+      </CRow>
     </div>
   </div>
 </template>
 
 <script>
-// import CAlert from './CAlert'
-// import CButtonClose from './CButtonClose'
 export default {
   name: 'alerts',
-  // components: {
-  //   CAlert,
-  //   CButtonClose
-  // },
   data () {
     return {
       dismissSecs: 10,

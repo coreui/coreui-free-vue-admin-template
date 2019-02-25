@@ -1,58 +1,37 @@
 <template>
-  <b-row>
-    <b-col cols="12" xl="6">
+  <CRow>
+    <CCol cols="12" xl="6">
       <transition name="slide">
-      <b-card :header="caption">
-        <b-table :hover="hover" :striped="striped" :bordered="bordered" :small="small" :fixed="fixed" responsive="sm" :items="items" :fields="fields" :current-page="currentPage" :per-page="perPage" @row-clicked="rowClicked">
-          <template slot="id" slot-scope="data">
-            <strong>{{data.item.id}}</strong>
-          </template>
-          <template slot="name" slot-scope="data">
-            <strong>{{data.item.name}}</strong>
-          </template>
-          <template slot="status" slot-scope="data">
-            <b-badge :variant="getBadge(data.item.status)">{{data.item.status}}</b-badge>
-          </template>
-        </b-table>
-        <nav>
-          <b-pagination size="sm" :total-rows="getRowCount(items)" :per-page="perPage" v-model="currentPage" prev-text="Prev" next-text="Next" hide-goto-end-buttons/>
-        </nav>
-      </b-card>
+        <CCard header="users">
+          <CTable hover
+                  striped
+                  :items="items"
+                  :fields="fields"
+                  :current-page="currentPage"
+                  :per-page="perPage"
+                  @row-clicked="rowClicked"
+                  :paginationProps="$options.paginationProps"
+          >
+            <td slot="id" slot-scope="data">
+              <strong>{{data.item.id}}</strong>
+            </td>
+            <td slot="name" slot-scope="data">
+              <strong>{{data.item.name}}</strong>
+            </td>
+            <td slot="status" slot-scope="data">
+              <CBadge :variant="getBadge(data.item.status)">{{data.item.status}}</CBadge>
+            </td>
+          </CTable>
+        </CCard>
       </transition>
-    </b-col>
-  </b-row>
+    </CCol>
+  </CRow>
 </template>
 
 <script>
 import usersData from './UsersData'
 export default {
   name: 'Users',
-  props: {
-    caption: {
-      type: String,
-      default: 'Users'
-    },
-    hover: {
-      type: Boolean,
-      default: true
-    },
-    striped: {
-      type: Boolean,
-      default: true
-    },
-    bordered: {
-      type: Boolean,
-      default: false
-    },
-    small: {
-      type: Boolean,
-      default: false
-    },
-    fixed: {
-      type: Boolean,
-      default: false
-    }
-  },
   data: () => {
     return {
       items: usersData.filter((user) => user.id < 42),
@@ -68,7 +47,12 @@ export default {
       totalRows: 0
     }
   },
-  computed: {
+  paginationProps: {
+    // size: 'sm',
+    align: 'center',
+    hideDoubleArrows: true,
+    previousButtonText: 'prev',
+    nextButtonText: 'next'
   },
   methods: {
     getBadge (status) {
@@ -76,9 +60,6 @@ export default {
         : status === 'Inactive' ? 'secondary'
           : status === 'Pending' ? 'warning'
             : status === 'Banned' ? 'danger' : 'primary'
-    },
-    getRowCount (items) {
-      return items.length
     },
     userLink (id) {
       return `users/${id.toString()}`

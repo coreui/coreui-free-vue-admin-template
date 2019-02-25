@@ -1,176 +1,163 @@
 <template>
   <div class="wrapper">
     <div class="animated fadeIn">
-      <b-row>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+      <CRow>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Bootstrap Collapse </strong>
-              <div class="card-header-actions">
+              <div class="Fcard-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/collapse" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
               </div>
-            </div>
+            </CCardHeader>
             <div>
-              <b-btn v-b-toggle.collapse1 variant="primary">Toggle Collapse</b-btn>
-              <b-collapse id="collapse1" class="mt-2">
-                <b-card>
+              <CButton v-b-toggle.collapse1 variant="primary">Toggle Collapse</CButton>
+              <CCollapse id="collapse1" class="mt-2">
+                <CCard>
                   <p class="card-text">Collapse contents Here</p>
-                  <b-btn v-b-toggle.collapse1_inner size="sm">Toggle Inner Collapse</b-btn>
-                  <b-collapse id=collapse1_inner class="mt-2">
-                    <b-card>Hello!</b-card>
-                  </b-collapse>
-                </b-card>
-              </b-collapse>
+                  <CButton v-b-toggle.collapse1_inner size="sm">Toggle Inner Collapse</CButton>
+                  <CCollapse id=collapse1_inner class="mt-2">
+                    <CCard>Hello!</CCard>
+                  </CCollapse>
+                </CCard>
+              </CCollapse>
             </div>
-          </b-card>
-        </b-col>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>v-b-toggle</code> directive</small>
-            </div>
+            </CCardHeader>
             <div>
               <!-- Using modifiers -->
-              <b-btn v-b-toggle.collapse2 class="m-1">Toggle Collapse</b-btn>
+              <CButton v-b-toggle.collapse2 class="m-1">Toggle Collapse</CButton>
 
               <!-- Using value -->
-              <b-btn v-b-toggle="'collapse2'" class="m-1">Toggle Collapse</b-btn>
+              <CButton v-b-toggle="'collapse2'" class="m-1">Toggle Collapse</CButton>
 
               <!-- element to collapse -->
-              <b-collapse id="collapse2">
-                <b-card>
+              <CCollapse id="collapse2">
+                <CCard>
                   I am collapsible content!
-                </b-card>
-              </b-collapse>
+                </CCard>
+              </CCollapse>
             </div>
-          </b-card>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+      </CRow>
+      <CRow>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>visibility</code></small>
-            </div>
+            </CCardHeader>
             <div>
-              <b-btn v-b-toggle.collapse3 class="m-1">Toggle Collapse</b-btn>
-              <b-collapse visible id="collapse3">
-                <b-card>
+              <CButton v-b-toggle.collapse3 class="m-1">Toggle Collapse</CButton>
+              <CCollapse visible id="collapse3">
+                <CCard>
                   I should start open!
-                </b-card>
-              </b-collapse>
+                </CCard>
+              </CCollapse>
             </div>
-          </b-card>
-        </b-col>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>v-model</code></small>
-            </div>
+            </CCardHeader>
             <div>
-              <b-btn @click="showCollapse = !showCollapse"
+              <CButton @click="showCollapse = !showCollapse"
                      :class="showCollapse ? 'collapsed' : null"
                      aria-controls="collapse4"
                      :aria-expanded="showCollapse ? 'true' : 'false'">
                 Toggle Collapse
-              </b-btn>
-              <b-collapse class="mt-2" v-model="showCollapse" id="collapse4">
-                <b-card>
+              </CButton>
+              <CCollapse class="mt-2" v-model="showCollapse" id="collapse4">
+                <CCard>
                   I should start open!
-                </b-card>
-              </b-collapse>
+                </CCard>
+              </CCollapse>
             </div>
-          </b-card>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+      </CRow>
+      <CRow>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>multiple elements</small>
-            </div>
+            </CCardHeader>
             <div>
-              <!-- Single button triggers two b-collapse components -->
-              <b-btn v-b-toggle.collapseA.collapseB>Toggle Both Collapse A and B</b-btn>
+              <!-- Single button triggers two CCollapse components -->
+              <CButton v-b-toggle.collapseA.collapseB>Toggle Both Collapse A and B</CButton>
 
               <!-- elements to collapse -->
-              <b-collapse id="collapseA" class="mt-2">
-                <b-card>
+              <CCollapse id="collapseA" class="mt-2">
+                <CCard>
                   I am collapsable content A!
-                </b-card>
-              </b-collapse>
-              <b-collapse id="collapseB" class="mt-2">
-                <b-card>
+                </CCard>
+              </CCollapse>
+              <CCollapse id="collapseB" class="mt-2">
+                <CCard>
                   I am collapsable content B!
-                </b-card>
-              </b-collapse>
+                </CCard>
+              </CCollapse>
             </div>
-          </b-card>
-        </b-col>
-        <b-col cols="12" md="6">
-          <b-card
-            header-tag="header"
-            footer-tag="footer">
-            <div slot="header">
+          </CCard>
+        </CCol>
+        <CCol cols="12" md="6">
+          <CCard>
+            <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small><code>accordion</code> support</small>
-            </div>
+            </CCardHeader>
             <div role="tablist">
-              <b-card no-body class="mb-1">
-                <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-btn block href="#" v-b-toggle.accordion1 variant="info">Accordion 1</b-btn>
-                </b-card-header>
-                <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
-                  <b-card-body>
+              <CCard noWrapper class="mb-1">
+                <CCardHeader slot="header"  class="p-1" role="tab">
+                  <CButton block href="#" v-b-toggle.accordion1 variant="info">Accordion 1</CButton>
+                </CCardHeader>
+                <CCollapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
+                  <CCardBody slot="body">
                     <p class="card-text">
                       I start opened because <code>visible</code> is <code>true</code>
                     </p>
                     <p class="card-text">
                       {{ text }}
                     </p>
-                  </b-card-body>
-                </b-collapse>
-              </b-card>
-              <b-card no-body class="mb-1">
-                <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-btn block href="#" v-b-toggle.accordion2 variant="info">Accordion 2</b-btn>
-                </b-card-header>
-                <b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
-                  <b-card-body>
+                  </CCardBody>
+                </CCollapse>
+              </CCard>
+              <CCard noWrapper class="mb-1">
+                <CCardHeader slot="header"  class="p-1" role="tab">
+                  <CButton block href="#" v-b-toggle.accordion2 variant="info">Accordion 2</CButton>
+                </CCardHeader>
+                <CCollapse id="accordion2" accordion="my-accordion" role="tabpanel">
+                  <CCardBody slot="body">
                     <p class="card-text">
                       {{ text }}
                     </p>
-                  </b-card-body>
-                </b-collapse>
-              </b-card>
-              <b-card no-body class="mb-1">
-                <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-btn block href="#" v-b-toggle.accordion3 variant="info">Accordion 3</b-btn>
-                </b-card-header>
-                <b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
-                  <b-card-body>
+                  </CCardBody>
+                </CCollapse>
+              </CCard>
+              <CCard noWrapper class="mb-1">
+                <CCardHeader slot="header"  class="p-1" role="tab">
+                  <CButton block href="#" v-b-toggle.accordion3 variant="info">Accordion 3</CButton>
+                </CCardHeader>
+                <CCollapse id="accordion3" accordion="my-accordion" role="tabpanel">
+                  <CCardBody slot="body">
                     <p class="card-text">
                       {{ text }}
                     </p>
-                  </b-card-body>
-                </b-collapse>
-              </b-card>
+                  </CCardBody>
+                </CCollapse>
+              </CCard>
             </div>
-          </b-card>
-        </b-col>
-
-      </b-row>
+          </CCard>
+        </CCol>
+      </CRow>
     </div>
   </div>
 </template>
