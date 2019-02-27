@@ -1,6 +1,6 @@
 <template>
   <CRow>
-    <CCol cols="12" xl="6">
+    <CCol cols="12" xl="8">
       <transition name="slide">
         <CCard header="users">
           <CTable hover

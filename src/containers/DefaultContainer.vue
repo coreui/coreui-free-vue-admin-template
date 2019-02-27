@@ -32,7 +32,13 @@
       <CSidebar fixed>
         <CSidebarHeader/>
         <CSidebarForm/>
-        <CSidebarNav :navItems="computedNav"></CSidebarNav>
+        <!-- <CSidebarNav :navItems="computedNav"/> -->
+        <nav class="sidebar-nav">
+          <VuePerfectScrollbar class="scroll-area" :settings="psSettings"
+                               @ps-scroll-y="scrollHandle">
+              <CSidebarNavItems :items="computedNav"/>
+          </VuePerfectScrollbar>
+        </nav>
         <CSidebarFooter/>
         <CSidebarMinimizer/>
       </CSidebar>
@@ -65,12 +71,14 @@
 import nav from '@/_nav'
 import DefaultAside from './DefaultAside'
 import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
+import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 
 export default {
   name: 'full',
   components: {
     DefaultAside,
     DefaultHeaderDropdownAccnt,
+    VuePerfectScrollbar
   },
   data () {
     return {
@@ -80,7 +88,31 @@ export default {
   computed: {
     computedNav () {
       return this.nav.filter((item) => item.name !== 'Dashboard')
+    },
+    psSettings: () => {
+      // ToDo: find better rtl fix
+      return {
+        maxScrollbarLength: 200,
+        minScrollbarLength: 40,
+        suppressScrollX: getComputedStyle(document.querySelector('html')).direction !== 'rtl',
+        wheelPropagation: false,
+        interceptRailY: styles => ({ ...styles, height: 0 })
+      }
+    }
+  },
+  methods: {
+    /*eslint no-unused-vars: ["error", { "argsIgnorePattern": "evt" }]*/
+    scrollHandle (evt) {
+      // console.log(evt)
     }
   }
 }
 </script>
+
+<style scoped lang="css">
+  .scroll-area {
+    position: absolute;
+    height: 100%;
+    margin: auto;
+  }
+</style>
