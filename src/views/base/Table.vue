@@ -1,5 +1,7 @@
 <template>
-  <b-card :header="caption">
+  <b-card>
+    <span slot="header" v-html="caption"></span>
+    <b-card-text>
     <b-table :dark="dark" :hover="hover" :striped="striped" :bordered="bordered" :small="small" :fixed="fixed" responsive="sm" :items="items" :fields="captions" :current-page="currentPage" :per-page="perPage">
       <template slot="status" slot-scope="data">
         <b-badge :variant="getBadge(data.item.status)">{{data.item.status}}</b-badge>
@@ -8,6 +10,7 @@
     <nav>
       <b-pagination :total-rows="totalRows" :per-page="perPage" v-model="currentPage" prev-text="Prev" next-text="Next" hide-goto-end-buttons/>
     </nav>
+    </b-card-text>
   </b-card>
 </template>
 
