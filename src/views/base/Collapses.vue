@@ -13,12 +13,16 @@
               </div>
             </CCardHeader>
             <div>
-              <CButton v-b-toggle.collapse1 variant="primary">Toggle Collapse</CButton>
-              <CCollapse id="collapse1" class="mt-2">
+              <CButton id="collapse1" variant="primary">
+                Toggle Collapse
+              </CButton>
+              <CCollapse toggler="collapse1" class="mt-2">
                 <CCard>
                   <p class="card-text">Collapse contents Here</p>
-                  <CButton v-b-toggle.collapse1_inner size="sm">Toggle Inner Collapse</CButton>
-                  <CCollapse id=collapse1_inner class="mt-2">
+                  <CButton id="collapse2" size="sm">
+                    Toggle Inner Collapse
+                  </CButton>
+                  <CCollapse toggler="collapse2" class="mt-2">
                     <CCard>Hello!</CCard>
                   </CCollapse>
                 </CCard>
@@ -26,19 +30,16 @@
             </div>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <!-- <CCol cols="12" md="6">
           <CCard>
             <CCardHeader slot="header">
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>v-b-toggle</code> directive</small>
             </CCardHeader>
             <div>
-              <!-- Using modifiers -->
               <CButton v-b-toggle.collapse2 class="m-1">Toggle Collapse</CButton>
 
-              <!-- Using value -->
               <CButton v-b-toggle="'collapse2'" class="m-1">Toggle Collapse</CButton>
 
-              <!-- element to collapse -->
               <CCollapse id="collapse2">
                 <CCard>
                   I am collapsible content!
@@ -92,10 +93,8 @@
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>multiple elements</small>
             </CCardHeader>
             <div>
-              <!-- Single button triggers two CCollapse components -->
               <CButton v-b-toggle.collapseA.collapseB>Toggle Both Collapse A and B</CButton>
 
-              <!-- elements to collapse -->
               <CCollapse id="collapseA" class="mt-2">
                 <CCard>
                   I am collapsable content A!
@@ -115,7 +114,7 @@
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small><code>accordion</code> support</small>
             </CCardHeader>
             <div role="tablist">
-              <CCard noWrapper class="mb-1">
+              <CCard  class="mb-1">
                 <CCardHeader slot="header"  class="p-1" role="tab">
                   <CButton block href="#" v-b-toggle.accordion1 variant="info">Accordion 1</CButton>
                 </CCardHeader>
@@ -130,7 +129,7 @@
                   </CCardBody>
                 </CCollapse>
               </CCard>
-              <CCard noWrapper class="mb-1">
+              <CCard  class="mb-1">
                 <CCardHeader slot="header"  class="p-1" role="tab">
                   <CButton block href="#" v-b-toggle.accordion2 variant="info">Accordion 2</CButton>
                 </CCardHeader>
@@ -142,7 +141,7 @@
                   </CCardBody>
                 </CCollapse>
               </CCard>
-              <CCard noWrapper class="mb-1">
+              <CCard  class="mb-1">
                 <CCardHeader slot="header"  class="p-1" role="tab">
                   <CButton block href="#" v-b-toggle.accordion3 variant="info">Accordion 3</CButton>
                 </CCardHeader>
@@ -156,7 +155,7 @@
               </CCard>
             </div>
           </CCard>
-        </CCol>
+        </CCol> -->
       </CRow>
     </div>
   </div>

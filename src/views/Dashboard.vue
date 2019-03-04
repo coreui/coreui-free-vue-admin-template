@@ -186,23 +186,23 @@
             <CCol sm="12" lg="6">
               <CRow>
                 <CCol sm="6">
-                  <Callout variant="info">
+                  <CCallout variant="info">
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
                     <div :style="{ top: '-10px'}">
                       <!--<CalloutChartExample :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />-->
                       <CalloutChartExample :data="[35, 23, 56, 22, 97, 23, 64]" variant="info" width="80" height="30" />
                     </div>
-                  </Callout>
+                  </CCallout>
                 </CCol>
                 <CCol sm="6">
-                  <Callout variant="danger">
+                  <CCallout variant="danger">
                     <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
                     <div :style="{ top: '-10px'}">
                       <CalloutChartExample :data="[65, 59, 84, 84, 51, 55, 40]" variant="danger" width="80" height="30" />
                     </div>
-                  </Callout>
+                  </CCallout>
                 </CCol>
               </CRow>
               <hr class="mt-0">
@@ -296,22 +296,22 @@
             <CCol sm="12" lg="6">
               <CRow>
                 <CCol sm="6">
-                  <Callout variant="warning">
+                  <CCallout variant="warning">
                     <small class="text-muted">Pageviews</small><br>
                     <strong class="h4">78,623</strong>
                     <div :style="{ top: '-10px'}">
                       <CalloutChartExample :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30"/>
                     </div>
-                  </Callout>
+                  </CCallout>
                 </CCol>
                 <CCol sm="6">
-                  <Callout variant="success">
+                  <CCallout variant="success">
                     <small class="text-muted">Organic</small><br>
                     <strong class="h4">49,123</strong>
                     <div :style="{ top: '-10px'}">
                       <CalloutChartExample :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80" height="30" />
                     </div>
-                  </Callout>
+                  </CCallout>
                 </CCol>
               </CRow>
               <hr class="mt-0">

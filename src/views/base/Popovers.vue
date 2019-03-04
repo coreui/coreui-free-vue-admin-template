@@ -11,10 +11,11 @@
           </div>
         </CCardHeader>
         <CRow>
-          <CCol cols="6">
+          <CCol cols="4">
             <div class="my-3 text-center">
               <CButton
-                v-c-popover.hover="{
+                variant="primary"
+                v-c-popover="{
                   header: 'Popover header',
                   content: 'I am popover content!'
                 }"
@@ -23,16 +24,31 @@
               </CButton>
             </div>
           </CCol>
-          <CCol cols="6">
+          <CCol cols="4">
             <div class="my-3 text-center">
               <CButton
                 variant="primary"
-                v-c-popover.hover.active="{
+                v-c-popover="{
                   header: 'Popover!',
-                  content: 'I start <strong>open</strong>'
+                  content: 'I start <strong>open</strong>',
+                  active: true
+                }"
+                text="Hover me"
+              />
+            </div>
+          </CCol>
+          <CCol cols="4">
+            <div class="my-3 text-center">
+              <CButton
+                variant="primary"
+                v-c-popover.click="{
+                  header: 'Popover!',
+                  content: 'I am showing on click and hiding on click outside tooltip!',
+                  placement: 'bottom',
+                  active: true
                 }"
               >
-                Button
+                Click me
               </CButton>
             </div>
           </CCol>
@@ -53,7 +69,7 @@
             >
               <CButton
                 variant="primary"
-                v-c-popover.hover.focus="{
+                v-c-popover="{
                   header: 'Popover!',
                   content: `Placement ${placement}`,
                   placement

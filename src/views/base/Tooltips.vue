@@ -13,17 +13,26 @@
           </div>
         </CCardHeader>
         <CRow>
-          <CCol cols="6">
+          <CCol cols="4">
             <div class="text-center my-3">
-              <CButton v-c-tooltip.hover="'I am a tooltip!'">
+              <CButton v-c-tooltip.hover.click="'I am a tooltip!'">
                 Hover Me
               </CButton>
             </div>
           </CCol>
-          <CCol cols="6">
+          <CCol cols="4">
             <div class="text-center my-3">
-              <CButton v-c-tooltip.hover.active="'I start open!'">
-                Button
+              <CButton v-c-tooltip="{content: 'I start open!', active:true }">
+                Hover me
+              </CButton>
+            </div>
+          </CCol>
+          <CCol cols="4">
+            <div class="text-center my-3">
+              <CButton v-c-tooltip.click="
+                'I am showing on click and hiding on click outside tooltip!'
+              ">
+                Click me
               </CButton>
             </div>
           </CCol>
@@ -135,10 +144,6 @@ export default {
   name: 'tooltips',
   data () {
     return {
-      // show: true,
-      // disabled: false,
-      // smh: 0,
-      // placement: 'bottom-end',
       placements: [
         'top-start', 'top', 'top-end',
         'bottom-start', 'bottom', 'bottom-end',
