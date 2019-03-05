@@ -1,44 +1,64 @@
 <template>
-  <CDropdown right
-             nav
-             no-caret
-             no-popper
-             addMenuClasses="dropdown-menu-right"
+  <CDropdown
+    right
+    nav
+    noCaret
+    noPopper
+    addMenuClasses="dropdown-menu-right"
   >
-    <img slot="buttonContent"
-         src="img/avatars/6.jpg"
-         class="img-avatar"
-         alt="admin@bootstrapmaster.com"
-    />
-    <CDropdownHeader tag="div"  class="text-center"><strong>Account</strong></CDropdownHeader>
-    <CDropdownItem><i class="fa fa-bell-o" /> Updates
+    <template #buttonContent>
+      <img
+        src="img/avatars/6.jpg"
+        class="img-avatar"
+        alt="admin@bootstrapmaster.com"
+      />
+    </template>
+    <CDropdownHeader tag="div" class="text-center">
+      <strong>Account</strong>
+    </CDropdownHeader>
+    <CDropdownItem>
+      <i class="fa fa-bell-o" /> Updates
       <CBadge variant="info" additionalClasses="hehe">{{ itemsCount }}</CBadge>
     </CDropdownItem>
-    <CDropdownItem><i class="fa fa-envelope-o" /> Messages
+    <CDropdownItem>
+      <i class="fa fa-envelope-o" /> Messages
       <CBadge variant="success">{{ itemsCount }}</CBadge>
     </CDropdownItem>
-    <CDropdownItem><i class="fa fa-tasks" /> Tasks
+    <CDropdownItem>
+      <i class="fa fa-tasks" /> Tasks
       <CBadge variant="danger">{{ itemsCount }}</CBadge>
     </CDropdownItem>
-    <CDropdownItem><i class="fa fa-comments" /> Comments
+    <CDropdownItem>
+      <i class="fa fa-comments" /> Comments
       <CBadge variant="warning">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
       tag="div"
-      class="text-center">
+      class="text-center"
+    >
       <strong>Settings</strong>
     </CDropdownHeader>
-    <CDropdownItem><i class="fa fa-user" /> Profile</CDropdownItem>
-    <CDropdownItem><i class="fa fa-wrench" /> Settings</CDropdownItem>
-    <CDropdownItem><i class="fa fa-usd" /> Payments
+    <CDropdownItem>
+      <i class="fa fa-user" /> Profile
+    </CDropdownItem>
+    <CDropdownItem>
+      <i class="fa fa-wrench" /> Settings
+    </CDropdownItem>
+    <CDropdownItem>
+      <i class="fa fa-usd" /> Payments
       <CBadge variant="secondary">{{ itemsCount }}</CBadge>
     </CDropdownItem>
-    <CDropdownItem><i class="fa fa-file" /> Projects
+    <CDropdownItem>
+      <i class="fa fa-file" /> Projects
       <CBadge variant="primary">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
-    <CDropdownItem><i class="fa fa-shield" /> Lock Account</CDropdownItem>
-    <CDropdownItem><i class="fa fa-lock" /> Logout</CDropdownItem>
+    <CDropdownItem>
+      <i class="fa fa-shield" /> Lock Account
+    </CDropdownItem>
+    <CDropdownItem>
+      <i class="fa fa-lock" /> Logout
+    </CDropdownItem>
   </CDropdown>
 </template>
 

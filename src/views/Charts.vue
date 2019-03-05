@@ -1,34 +1,34 @@
 <template>
   <div class="animated fadeIn">
     <CCardGroup columns class="card-columns">
-      <CCard header="Line Chart">
+      <CCard header="Line Chart" bodyWrapper>
         <LineExample/>
       </CCard>
-      <CCard header="Bar Chart">
+      <CCard header="Bar Chart" bodyWrapper>
         <BarExample/>
       </CCard>
-      <CCard header="Doughnut Chart">
+      <CCard header="Doughnut Chart" bodyWrapper>
         <DoughnutExample/>
       </CCard>
-      <CCard header="Radar Chart">
+      <CCard header="Radar Chart" bodyWrapper>
         <RadarExample/>
       </CCard>
-      <CCard header="Pie Chart">
+      <CCard header="Pie Chart" bodyWrapper>
         <PieExample/>
       </CCard>
-      <CCard header="Polar Area Chart">
+      <CCard header="Polar Area Chart" bodyWrapper>
         <PolarAreaExample/>
       </CCard>
-      <CCard header="Simple line chart">
+      <CCard header="Simple line chart" bodyWrapper>
         <CSimpleLineChart style="height:80px" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
                      label='Sales' borderColor='success'/>
       </CCard>
-      <CCard header="Simple pointed chart">
+      <CCard header="Simple pointed chart" bodyWrapper>
         <CSimplePointedChart class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
                      :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
                      style='height:80px' label='Members' pointHoverColor='warning' borderColor='warning'/>
       </CCard>
-      <CCard header="Simple bar chart">
+      <CCard header="Simple bar chart" bodyWrapper>
         <CSimpleBarChart style="height:80px" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
                     label='Sales' color='danger'/>
       </CCard>

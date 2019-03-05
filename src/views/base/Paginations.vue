@@ -2,15 +2,15 @@
   <div class="wrapper">
     <div class="animated fadeIn">
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i><strong> Bootstrap Pagination</strong>
-          <div class="card-header-actions">
+          <!-- <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/pagination" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
-          </div>
+          </div> -->
         </CCardHeader>
-        <div>
+        <CCardBody>
           <h6>Default</h6>
           <CPagination v-model="currentPage" :pages="10"/>
           <br>
@@ -26,14 +26,14 @@
           </div>
 
           <div>currentPage: {{currentPage}}</div>
-        </div>
+        </CCardBody>
       </CCard>
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i><strong> Pagination </strong>
           <small>alignment</small>
         </CCardHeader>
-        <div>
+        <CCardBody>
           <h6>Left alignment (default)</h6>
           <CPagination v-model="currentPage" :pages="10"/>
           <br>
@@ -47,7 +47,7 @@
           <br>
 
           <div>currentPage: {{currentPage}}</div>
-        </div>
+        </CCardBody>
       </CCard>
     </div>
   </div>

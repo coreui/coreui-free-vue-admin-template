@@ -1,10 +1,10 @@
 <template>
   <div class="animated fadeIn">
-    <CCard noWrapper id="new47">
-      <CCardHeader slot="header">
+    <CCard  id="new47">
+      <CCardHeader>
         <i class="fa fa-font-awesome"></i> 50 New Icons in 4.7
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <CRow class="text-center">
           <CCol cols="6" sm="4" md="3" lg="2">
             <i class="fa fa-address-book fa-lg mt-4"></i><br/>address-book
@@ -174,9 +174,9 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard noWrapper id="new">
-      <CCardHeader slot="header">20 New Icons in 4.5</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="new">
+      <CCardHeader>20 New Icons in 4.5</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -245,9 +245,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="web-application">
-      <CCardHeader slot="header">Web Application Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="web-application">
+      <CCardHeader>Web Application Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1432,9 +1432,9 @@
 
     </CCard>
 
-    <CCard noWrapper id="hand">
-      <CCardHeader slot="header">Hand Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="hand">
+      <CCardHeader>Hand Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1494,9 +1494,9 @@
 
     </CCard>
 
-    <CCard noWrapper id="transportation">
-      <CCardHeader slot="header">Transportation Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="transportation">
+      <CCardHeader>Transportation Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1555,9 +1555,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="gender">
-      <CCardHeader slot="header">Gender Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="gender">
+      <CCardHeader>Gender Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1607,9 +1607,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="file-type">
-      <CCardHeader slot="header">File Type Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="file-type">
+      <CCardHeader>File Type Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1671,9 +1671,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="spinner">
-      <CCardHeader slot="header">Spinner Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="spinner">
+      <CCardHeader>Spinner Icons</CCardHeader>
+      <CCardBody>
         <div class="alert alert-success">
           <ul class="fa-ul">
             <li>
@@ -1704,9 +1704,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="form-control">
-      <CCardHeader slot="header">Form Control Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="form-control">
+      <CCardHeader>Form Control Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1747,9 +1747,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="payment">
-      <CCardHeader slot="header">Payment Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="payment">
+      <CCardHeader>Payment Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1793,9 +1793,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="chart">
-      <CCardHeader slot="header">Chart Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="chart">
+      <CCardHeader>Chart Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1818,9 +1818,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="currency">
-      <CCardHeader slot="header">Currency Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="currency">
+      <CCardHeader>Currency Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -1906,9 +1906,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="text-editor">
-      <CCardHeader slot="header">Text Editor Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="text-editor">
+      <CCardHeader>Text Editor Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -2063,9 +2063,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="directional">
-      <CCardHeader slot="header">Directional Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="directional">
+      <CCardHeader>Directional Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -2232,9 +2232,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="video-player">
-      <CCardHeader slot="header">Video Player Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="video-player">
+      <CCardHeader>Video Player Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">
@@ -2305,9 +2305,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="brand">
-      <CCardHeader slot="header">Brand Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="brand">
+      <CCardHeader>Brand Icons</CCardHeader>
+      <CCardBody>
         <div class="alert alert-warning">
           <h4><i class="fa fa-warning"></i> Warning!</h4>
           Apparently, Adblock Plus can remove Font Awesome brand icons with their "Remove Social
@@ -2796,9 +2796,9 @@
       </CCardBody>
     </CCard>
 
-    <CCard noWrapper id="medical">
-      <CCardHeader slot="header">Medical Icons</CCardHeader>
-      <CCardBody slot="body">
+    <CCard  id="medical">
+      <CCardHeader>Medical Icons</CCardHeader>
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3" lg="2">

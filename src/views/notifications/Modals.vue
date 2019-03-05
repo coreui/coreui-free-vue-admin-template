@@ -3,17 +3,40 @@
     <div class="animated fadeIn">
       <CRow>
         <CCol cols="12">
-          <CCard header="<i class='fa fa-align-justify'></i> Bootstrap Modals">
-            <CButton variant="secondary" @click="myModal = true" class="mr-1">Launch demo modal</CButton>
-            <CButton variant="secondary" @click="largeModal = true" class="mr-1">Launch large modal</CButton>
-            <CButton variant="secondary" @click="smallModal = true" class="mr-1">Launch small modal</CButton>
-            <hr>
-            <CButton variant="primary" @click="primaryModal = true" class="mr-1">Launch primary modal</CButton>
-            <CButton variant="success" @click="successModal = true" class="mr-1">Launch success modal</CButton>
-            <CButton variant="warning" @click="warningModal = true" class="mr-1">Launch warning modal</CButton>
-            <CButton variant="danger" @click="dangerModal = true" class="mr-1">Launch danger modal</CButton>
-            <CButton variant="info" @click="infoModal = true" class="mr-1">Launch info modal</CButton>
-            <CButton variant="dark" @click="darkModal = !darkModal" class="mr-1">Launch dark modal</CButton>
+          <CCard>
+            <CCardHeader>
+              <i class="fa fa-align-justify"></i> Bootstrap Modals
+            </CCardHeader>
+            <CCardBody>
+              <CButton variant="secondary" @click="myModal = true" class="mr-1">
+                Launch demo modal
+              </CButton>
+              <CButton variant="secondary" @click="largeModal = true" class="mr-1">
+                Launch large modal
+              </CButton>
+              <CButton variant="secondary" @click="smallModal = true" class="mr-1">
+                Launch small modal
+              </CButton>
+              <hr>
+              <CButton variant="primary" @click="primaryModal = true" class="mr-1">
+                Launch primary modal
+              </CButton>
+              <CButton variant="success" @click="successModal = true" class="mr-1">
+                Launch success modal
+              </CButton>
+              <CButton variant="warning" @click="warningModal = true" class="mr-1">
+                Launch warning modal
+              </CButton>
+              <CButton variant="danger" @click="dangerModal = true" class="mr-1">
+                Launch danger modal
+              </CButton>
+              <CButton variant="info" @click="infoModal = true" class="mr-1">
+                Launch info modal
+              </CButton>
+              <CButton variant="dark" @click="darkModal = true" class="mr-1">
+                Launch dark modal
+              </CButton>
+            </CCardBody>
           </CCard>
         </CCol><!--/.col-->
       </CRow><!--/.row-->

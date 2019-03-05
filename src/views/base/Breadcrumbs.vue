@@ -4,17 +4,19 @@
       <CRow>
         <CCol cols>
           <CCard>
-            <CCardHeader slot="header">
+            <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
-              <div class="card-header-actions">
+              <!-- <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/breadcrumb" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
-              </div>
+              </div> -->
             </CCardHeader>
-            <CBreadcrumb :items="items" addLinkClasses="sss" lastItemClasses="aaa"/>
-            <CBreadcrumb :items="items2"/>
-            <CBreadcrumb :items="items3"/>
+            <CCardBody>
+              <CBreadcrumb :items="items" addLinkClasses="sss" lastItemClasses="aaa"/>
+              <CBreadcrumb :items="items2"/>
+              <CBreadcrumb :items="items3"/>
+            </CCardBody>
           </CCard>
         </CCol>
       </CRow>

@@ -1,10 +1,10 @@
 <template>
   <div class="animated fadeIn">
     <CCard >
-      <CCardHeader slot="header">
+      <CCardHeader>
         <i class="icon-drop"></i> Theme colors
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <CRow>
           <ColorTheme color="bg-primary">
             <h6>Brand Primary Color</h6>
@@ -19,11 +19,11 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
-      <CCardHeader slot="header">
+    <CCard>
+      <CCardHeader>
         <i class="icon-drop"></i> Grays
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <CRow>
           <ColorTheme color="bg-gray-100"><h6>Brand 100 Color</h6></ColorTheme>
           <ColorTheme color="bg-gray-200"><h6>Brand 200 Color</h6></ColorTheme>
@@ -38,10 +38,10 @@
       </CCardBody>
     </CCard>
     <CCard >
-      <CCardHeader slot="header">
+      <CCardHeader>
         <i class="icon-drop"></i> Additional colors
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <CRow>
           <ColorTheme color="bg-blue"><h6>Brand Blue Color</h6></ColorTheme>
           <ColorTheme color="bg-indigo"><h6>Brand Indigo Color</h6></ColorTheme>

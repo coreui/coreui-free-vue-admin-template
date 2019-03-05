@@ -2,82 +2,61 @@
   <div class="animated fadeIn">
     <CRow>
       <CCol sm="12">
-        <CCard header="test1 ">
-
-          <!-- <CTable :items="items.slice(0)"
-                  noSorting
-                  striped
-          /> -->
-
+        <CCard header="CTable power presentation" bodyWrapper>
           <CTable :items="items.slice(0)"
-                   :fields="fields"
-                   :activePage="page"
-                   @pages-change="val => pages = val"
-                   :perPage="5"
-                   ref="table"
-                   indexCol="onlyFilter"
-                   filterRow
-                   smalls
-                   noPagination
-                   @row-clicked2="(item, index) => toggleDetails(index)"
-                   loadings
-                   hover
-                   striped
-                   optionsRow="onlyFilter2"
-                   :defaultSorter="{ name:'username', direction:'desc'}"
-                   defaultTableFilter="staff"
-                   :defaultColumnFilter="{username:'zby'}"
+                  :fields="fields"
+                  :perPage="6"
+                  indexColumn
+                  filterRow
+                  optionsRow
+                  loadings
+                  hover
+                  :defaultSorter="{ name:'username', direction:'desc'}"
+                  :defaultColumnFilter="{ role:'staff' }"
           >
-               <template slot="status-header" slot-scope="{item}">
-                Status scoped slot
-              </template>
-
-              <!-- <tempalate slot="sorting-icon" slot-scope={state}>
-                {{state}}
-              </tempalate> -->
-              <!-- <td slot="status-filter" slot-scope="{clear, colName}" @click="clear">
-                <i class="cui-ban icons text-danger d-block mt-2 ml-1"></i>
-              </td> -->
-              <!-- <div slot="underTable">hehe</div>
-              <caption slot="caption" style="caption-side: top;">
-                This is a table caption at the top.
-              </caption> -->
-              <td slot="status" slot-scope="{item}">
-                <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>
-              </td>
-              <td slot="show_details" slot-scope="{item, index}">
-                <button class="btn btn-primary" @click="toggleDetails(index)">
-                  {{details.includes(index) ? 'Hide' : 'Show'}}
-                </button>
-              </td>
-              <td slot="index-col"
-                  slot-scope="{index}"
+              <template #index-col="{index}">
+                <td
                   @click="toggleDetails(index)"
                   style="cursor:pointer"
                   class="text-center"
-              >
-                <i class="icons font-lg d-block cui-chevron-right"
-                  style="transition: transform 0.4s"
-                  :style="details.includes(index) ? 'transform:rotate(90deg)': ''"></i>
-              </td>
-              <CCollapse :show="details.includes(index)"
-                         slot="details"
-                         slot-scope="{item, index}">
-                <CCardBody>
-                  {{index + 1}} - {{item}}
-                </CCardBody>
-              </CCollapse>
+                >
+                  <i
+                    class="icons font-lg d-block cui-chevron-right"
+                    style="transition: transform 0.4s"
+                    :style="details.includes(index) ? 'transform:rotate(90deg)': ''"
+                  ></i>
+                </td>
+              </template>
+              <template #status="{item}">
+                <td>
+                  <CBadge :variant="getBadge(item.status)">
+                    {{item.status}}
+                  </CBadge>
+                </td>
+              </template>
+              <template #show_details="{item, index}">
+                <td class="py-2">
+                  <CButton
+                    variant="outline-primary"
+                    square
+                    size="sm"
+                    @click="toggleDetails(index)"
+                    :text="details.includes(index) ? 'Hide' : 'Show'"
+                  />
+                </td>
+              </template>
+              <template #details="{item, index}">
+                <CCollapse :show="details.includes(index)">
+                  <CCardBody>
+                    {{index + 1}} - {{item}}
+                  </CCardBody>
+                </CCollapse>
+              </template>
           </CTable>
-          <CPagination v-show="pages > 1"
-                       v-model="page"
-                       :pages="pages"
-                       align="center"
-                       size="lg"
-          />
         </CCard>
       </CCol>
     </CRow>
-    <CRow>
+    <!-- <CRow>
       <CCol sm="12">
         <CCard header="test2">
           <CTable
@@ -86,8 +65,8 @@
             :perPage="5"
             indexCol="onlyCleaner"
             filterRow
-            optionsRow="onlyFilter"
-            :paginationProps="{align:'center', size:'lg'}"
+            optionsRow="onlyFiltesr"
+            :paginationProps="{align:'center'}"
           >
               <td slot="status" slot-scope="{item}">
                 <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>
@@ -95,7 +74,7 @@
           </CTable>
         </CCard>
       </CCol>
-    </CRow>
+    </CRow> -->
 
 
     <CRow>
@@ -171,13 +150,12 @@
 <script>
 import CTableWrapper from './Table.vue'
 
-// const fields = ['username', 'registered', 'role']
 const fields = [
-  { key: 'username', label: 'UsErNaMe', _style:'width:40%'},
-  { key: 'registered' , style:'width:20%', noSorting: true, noFilter: true},
-  { key: 'role', _classes: 'table-danger2', _style:'width:20%; color:bluse'},
-  { key: 'status' },
-  // { key: 'show_details' , label:'',_style:'width:1%', noSorting: true, noFilter: true },
+  { key: 'username', _style:'width:40%' },
+  { key: 'registered' , style:'width:20%' },
+  { key: 'role', _style:'width:20%;' },
+  { key: 'status', _style:'width:20%;' },
+  { key: 'show_details' , label:'', _style:'width:1%', noSorting: true, noFilter: true },
 ]
 const items = [
   {number:11.1, username: '<b>Samppa Nori</b>', registered: '2012/01/01', role: 'Member', status: 'Active'},
@@ -215,8 +193,6 @@ export default {
       items: items,
       fields: fields,
       page: 1,
-      page2: 1,
-      itemsNumber: 0,
       pages: null,
       details: []
     }
@@ -224,15 +200,10 @@ export default {
   methods: {
     getBadge (status) {
       return status === 'Active' ? 'success'
-            : status === 'Inactive' ? 'secondary'
-            : status === 'Pending' ? 'warning'
-            : status === 'Banned' ? 'danger' : 'primary'
+             : status === 'Inactive' ? 'secondary'
+             : status === 'Pending' ? 'warning'
+             : status === 'Banned' ? 'danger' : 'primary'
     },
-    // test () {
-    //   this.$refs.table.changeSort('username')
-    //   this.$refs.table.filter = 't'
-    //   // console.log(this.items)
-    // },
     shuffleArray (array) {
       for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1))
@@ -242,9 +213,6 @@ export default {
       }
       return array
     },
-    log(val) {
-      console.log(val)
-    },
     toggleDetails (index) {
       const position = this.details.indexOf(index)
       position !== -1 ? this.details.splice(position, 1) : this.details.push(index)
@@ -253,10 +221,5 @@ export default {
       return this.shuffleArray(this.items.slice(0))
     }
   }
-  // computed: {
-  //   pages () {
-  //     return this.$refs.table.pages
-  //   }
-  // }
 }
 </script>

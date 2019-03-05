@@ -4,10 +4,10 @@
       <CRow>
         <CCol md="12" lg="9" >
           <CCard>
-            <CCardHeader slot="header">
+            <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Carousel</strong>
-              <div class="card-header-actions">
+              <!-- <div class="card-header-actions">
                 <a
                   href="https://bootstrap-vue.js.org/docs/components/carousel"
                   class="card-header-action"
@@ -16,22 +16,24 @@
                 >
                   <small class="text-muted">docs</small>
                 </a>
-              </div>
+              </div> -->
             </CCardHeader>
-            <CCarousel>
-              <CCarouselItem
-                caption="First Slide"
-                imgSrc="https://lorempixel.com/1024/480/technics/2/"
-                text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-              />
-              <CCarouselItem
-                active
-                imgSrc="https://lorempixel.com/1024/480/technics/4/"
-              />
-              <CCarouselItem
-                imgSrc="https://lorempixel.com/1024/480/technics/8/"
-              />
-            </CCarousel>
+            <CCardBody>
+              <CCarousel>
+                <CCarouselItem
+                  caption="First Slide"
+                  imgSrc="https://lorempixel.com/1024/480/technics/2/"
+                  text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+                />
+                <CCarouselItem
+                  active
+                  imgSrc="https://lorempixel.com/1024/480/technics/4/"
+                />
+                <CCarouselItem
+                  imgSrc="https://lorempixel.com/1024/480/technics/8/"
+                />
+              </CCarousel>
+            </CCardBody>
           </CCard>
         </CCol>
       </CRow>

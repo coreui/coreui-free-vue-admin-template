@@ -1,7 +1,7 @@
 <template>
   <div class="animated fadeIn">
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <i class="fa fa-picture-o"></i>CoreUI Icons <CBadge variant="info">New</CBadge>
         <div class="card-header-actions">
           <a href="https://github.com/coreui/coreui-icons" rel="noreferrer noopener" target="_blank" class="card-header-action">
@@ -9,7 +9,7 @@
           </a>
         </div>
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <CRow class="text-center">
           <CCol cols="6" sm="4" md="3" xl="2">
             <i class="cui-account-logout icons font-2xl d-block mt-4"></i>
