@@ -4,8 +4,8 @@
       <CRow class="justify-content-center">
         <CCol md="8">
           <CCardGroup>
-            <CCard noWrapper class="p-4">
-              <CCardBody slot="body">
+            <CCard class="p-4">
+              <CCardBody>
                 <CForm>
                   <h1>Login</h1>
                   <p class="text-muted">Sign In to your account</p>
@@ -34,6 +34,7 @@
             <CCard
               class="text-white text-center bg-primary py-5 d-md-down-none"
               style="width:44%"
+              bodyWrapper
             >
               <h2>Sign up</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

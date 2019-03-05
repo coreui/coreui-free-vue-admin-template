@@ -203,8 +203,8 @@
       <CCol sm="6" lg="3">
         <CWidget06 header="9.823" text="Members online">
           <template slot='dropdown'>
-            <CDropdownclass="float-right" variant="transparent p-0" right>
-              <template slot="button-content">
+            <CDropdown class="float-right" variant="transparent p-0" right>
+              <template slot="buttonContent">
                 <i class="icon-settings"></i>
               </template>
               <CDropdownItem>Action</CDropdownItem>
@@ -220,8 +220,8 @@
       </CCol>
       <CCol sm="6" lg="3">
         <CWidget06 variant="info" header="9.823" text="Members online">
-          <CDropdownslot="dropdown" class="float-right" variant="transparent p-0" right no-caret>
-            <i slot="button-content"
+          <CDropdown slot="dropdown" class="float-right" variant="transparent p-0" right no-caret>
+            <i slot="buttonContent"
                class="icon-location-pin"
             ></i>
             <CDropdownItem>Action</CDropdownItem>
@@ -242,8 +242,8 @@
       <CCol sm="6" lg="3">
         <CWidget06 variant="warning" header="9.823" text="Members online">
           <template slot='dropdown'>
-            <CDropdownclass="float-right" variant="transparent p-0" right>
-              <template slot="button-content">
+            <CDropdown class="float-right" variant="transparent p-0" right>
+              <template slot="buttonContent">
                 <i class="icon-settings"></i>
               </template>
               <CDropdownItem>Action</CDropdownItem>
@@ -261,8 +261,8 @@
       <CCol sm="6" lg="3">
         <CWidget06 variant="danger" header="9.823" text="Members online">
           <template slot="dropdown">
-            <CDropdownclass="float-right" variant="transparent p-0" right>
-              <template slot="button-content">
+            <CDropdown class="float-right" variant="transparent p-0" right>
+              <template slot="buttonContent">
                 <i class="icon-settings"></i>
               </template>
               <CDropdownItem>Action</CDropdownItem>

@@ -4,20 +4,21 @@
       <CRow>
         <CCol cols="12" md="6">
           <CCard>
-            <CCardHeader slot="header">
-              <i class="fa fa-align-justify"></i><strong> Bootstrap Collapse </strong>
-              <div class="Fcard-header-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/collapse" class="card-header-action" rel="noreferrer noopener" target="_blank">
+            <CCardHeader>
+              <i class="fa fa-align-justify"></i>
+              <strong> Bootstrap Collapse </strong>
+              <div class="card-header-actions">
+                <CLink class="card-header-action">
                   <small class="text-muted">docs</small>
-                </a>
+                </CLink>
               </div>
             </CCardHeader>
-            <div>
+            <CCardBody>
               <CButton id="collapse1" variant="primary">
                 Toggle Collapse
               </CButton>
               <CCollapse toggler="collapse1" class="mt-2">
-                <CCard>
+                <CCard bodyWrapper>
                   <p class="card-text">Collapse contents Here</p>
                   <CButton id="collapse2" size="sm">
                     Toggle Inner Collapse
@@ -27,12 +28,12 @@
                   </CCollapse>
                 </CCard>
               </CCollapse>
-            </div>
+            </CCardBody>
           </CCard>
         </CCol>
         <!-- <CCol cols="12" md="6">
           <CCard>
-            <CCardHeader slot="header">
+            <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>v-b-toggle</code> directive</small>
             </CCardHeader>
             <div>
@@ -52,7 +53,7 @@
       <CRow>
         <CCol cols="12" md="6">
           <CCard>
-            <CCardHeader slot="header">
+            <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>visibility</code></small>
             </CCardHeader>
             <div>
@@ -67,7 +68,7 @@
         </CCol>
         <CCol cols="12" md="6">
           <CCard>
-            <CCardHeader slot="header">
+            <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>v-model</code></small>
             </CCardHeader>
             <div>
@@ -89,7 +90,7 @@
       <CRow>
         <CCol cols="12" md="6">
           <CCard>
-            <CCardHeader slot="header">
+            <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>multiple elements</small>
             </CCardHeader>
             <div>
@@ -110,16 +111,16 @@
         </CCol>
         <CCol cols="12" md="6">
           <CCard>
-            <CCardHeader slot="header">
+            <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small><code>accordion</code> support</small>
             </CCardHeader>
             <div role="tablist">
               <CCard  class="mb-1">
-                <CCardHeader slot="header"  class="p-1" role="tab">
+                <CCardHeader  class="p-1" role="tab">
                   <CButton block href="#" v-b-toggle.accordion1 variant="info">Accordion 1</CButton>
                 </CCardHeader>
                 <CCollapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
-                  <CCardBody slot="body">
+                  <CCardBody>
                     <p class="card-text">
                       I start opened because <code>visible</code> is <code>true</code>
                     </p>
@@ -130,11 +131,11 @@
                 </CCollapse>
               </CCard>
               <CCard  class="mb-1">
-                <CCardHeader slot="header"  class="p-1" role="tab">
+                <CCardHeader  class="p-1" role="tab">
                   <CButton block href="#" v-b-toggle.accordion2 variant="info">Accordion 2</CButton>
                 </CCardHeader>
                 <CCollapse id="accordion2" accordion="my-accordion" role="tabpanel">
-                  <CCardBody slot="body">
+                  <CCardBody>
                     <p class="card-text">
                       {{ text }}
                     </p>
@@ -142,11 +143,11 @@
                 </CCollapse>
               </CCard>
               <CCard  class="mb-1">
-                <CCardHeader slot="header"  class="p-1" role="tab">
+                <CCardHeader  class="p-1" role="tab">
                   <CButton block href="#" v-b-toggle.accordion3 variant="info">Accordion 3</CButton>
                 </CCardHeader>
                 <CCollapse id="accordion3" accordion="my-accordion" role="tabpanel">
-                  <CCardBody slot="body">
+                  <CCardBody>
                     <p class="card-text">
                       {{ text }}
                     </p>

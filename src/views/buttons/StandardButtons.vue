@@ -1,10 +1,10 @@
 <template>
   <div class="animated fadeIn">
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <strong>Standard buttons</strong>
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <CRow class="align-items-center">
           <CCol cols="12" xl class="mb-3 mb-xl-0">
             Normal
@@ -103,11 +103,11 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <strong>Outline Buttons</strong>
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <p>
           Use <code>variant="outline-*"</code> prop
         </p>
@@ -203,11 +203,11 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <strong>Ghost Buttons</strong>
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <p>
           Use
           <code>ghost</code> prop for ghost buttons.
@@ -304,11 +304,11 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <strong>Square Buttons</strong>
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <p>
           Use
           <code>square</code> prop for square buttons.
@@ -411,11 +411,11 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <strong>Pill Buttons</strong>
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <p>
           Use
           <code>pill</code> prop for pill buttons.
@@ -518,11 +518,11 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <strong>Sizes</strong>
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <p>Fancy larger or smaller buttons? Add <code>size="lg"</code> or <code>size="sm"</code> for additional sizes.</p>
         <CRow class="align-items-center">
           <CCol cols="2" xl class="mb-3 mb-xl-0">
@@ -586,12 +586,12 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard noWrapper>
-      <CCardHeader slot="header">
+    <CCard >
+      <CCardHeader>
         <strong>With Icons</strong>
       </CCardHeader>
-      <CCardBody slot="body">
-        <CRow class="align-items-center mt-3">
+      <CCardBody>
+        <CRow class="align-items-center">
           <CCol sm xs="12" class="text-center mt-3">
             <CButton variant="primary">
               <i class="fa fa-lightbulb-o"></i>&nbsp;Standard Button
@@ -621,57 +621,63 @@
       </CCardBody>
     </CCard>
     <CCard>
-      <CCardHeader slot="header">
+      <CCardHeader>
         <strong>Toggle pressed state</strong>
       </CCardHeader>
-      <CRow>
-        <CCol sm xs="12" class="text-center mt-3">
-          <CButton variant="outline-primary" :pressed.sync="togglePress">Primary {{togglePress ? 'On ' : 'Off'}}</CButton>
-        </CCol>
-        <CCol sm xs="12" class="text-center mt-3">
-          <CButton variant="outline-secondary" :pressed.sync="togglePress">Secondary {{togglePress ? 'On ' : 'Off'}}</CButton>
-        </CCol>
-        <CCol sm xs="12" class="text-center mt-3">
-          <CButton variant="outline-success" :pressed.sync="togglePress">Success {{togglePress ? 'On ' : 'Off'}}</CButton>
-        </CCol>
-        <CCol sm xs="12" class="text-center mt-3">
-          <CButton variant="outline-info" :pressed.sync="togglePress">Info {{togglePress ? 'On ' : 'Off'}}</CButton>
-        </CCol>
-        <CCol sm xs="12" class="text-center mt-3">
-          <CButton variant="outline-warning" :pressed.sync="togglePress">Warning {{togglePress ? 'On ' : 'Off'}}</CButton>
-        </CCol>
-        <CCol sm xs="12" class="text-center mt-3">
-          <CButton variant="outline-danger" :pressed.sync="togglePress">Danger {{togglePress ? 'On ' : 'Off'}}</CButton>
-        </CCol>
-      </CRow>
+      <CCardBody>
+        <CRow>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="outline-primary" :pressed.sync="togglePress">Primary {{togglePress ? 'On ' : 'Off'}}</CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="outline-secondary" :pressed.sync="togglePress">Secondary {{togglePress ? 'On ' : 'Off'}}</CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="outline-success" :pressed.sync="togglePress">Success {{togglePress ? 'On ' : 'Off'}}</CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="outline-info" :pressed.sync="togglePress">Info {{togglePress ? 'On ' : 'Off'}}</CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="outline-warning" :pressed.sync="togglePress">Warning {{togglePress ? 'On ' : 'Off'}}</CButton>
+          </CCol>
+          <CCol sm xs="12" class="text-center mt-3">
+            <CButton variant="outline-danger" :pressed.sync="togglePress">Danger {{togglePress ? 'On ' : 'Off'}}</CButton>
+          </CCol>
+        </CRow>
+      </CCardBody>
     </CCard>
     <CRow>
       <CCol xs="12" md="6">
         <CCard>
-          <CCardHeader slot="header">
-            <strong>Block Level CButtons</strong> <small>Add this <code>block</code></small>
+          <CCardHeader>
+            <strong>Block Level CButtons </strong><small>Add this <code>block</code></small>
           </CCardHeader>
-          <CButton size="lg" variant="secondary" block>Block level button</CButton>
-          <CButton size="lg" variant="primary" block>Block level button</CButton>
-          <CButton size="lg" variant="success" block>Block level button</CButton>
-          <CButton size="lg" variant="info" block>Block level button</CButton>
-          <CButton size="lg" variant="warning" block>Block level button</CButton>
-          <CButton size="lg" variant="danger" block>Block level button</CButton>
-          <CButton size="lg" variant="link" block>Block level button</CButton>
+          <CCardBody>
+            <CButton size="lg" variant="secondary" block>Block level button</CButton>
+            <CButton size="lg" variant="primary" block>Block level button</CButton>
+            <CButton size="lg" variant="success" block>Block level button</CButton>
+            <CButton size="lg" variant="info" block>Block level button</CButton>
+            <CButton size="lg" variant="warning" block>Block level button</CButton>
+            <CButton size="lg" variant="danger" block>Block level button</CButton>
+            <CButton size="lg" variant="link" block>Block level button</CButton>
+          </CCardBody>
         </CCard>
       </CCol>
       <CCol xs="12" md="6">
       <CCard>
-          <CCardHeader slot="header">
-            <strong>Block Level CButtons</strong> <small>Add this <code>block</code></small>
+          <CCardHeader>
+            <strong>Block Level CButtons </strong><small>Add this <code>block</code></small>
           </CCardHeader>
-          <CButton size="lg" variant="outline-secondary" block>Block level button</CButton>
-          <CButton size="lg" variant="outline-primary" block>Block level button</CButton>
-          <CButton size="lg" variant="outline-success" block>Block level button</CButton>
-          <CButton size="lg" variant="outline-info" block>Block level button</CButton>
-          <CButton size="lg" variant="outline-warning" block>Block level button</CButton>
-          <CButton size="lg" variant="outline-danger" block>Block level button</CButton>
-          <CButton size="lg" ghost variant="info" block>Block level button</CButton>
+          <CCardBody>
+            <CButton size="lg" variant="outline-secondary" block>Block level button</CButton>
+            <CButton size="lg" variant="outline-primary" block>Block level button</CButton>
+            <CButton size="lg" variant="outline-success" block>Block level button</CButton>
+            <CButton size="lg" variant="outline-info" block>Block level button</CButton>
+            <CButton size="lg" variant="outline-warning" block>Block level button</CButton>
+            <CButton size="lg" variant="outline-danger" block>Block level button</CButton>
+            <CButton size="lg" ghost variant="info" block>Block level button</CButton>
+          </CCardBody>
         </CCard>
       </CCol>
     </CRow>

@@ -31,7 +31,7 @@
         </CNavbar>
       </CCard> -->
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navbar </strong>
           <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
@@ -39,55 +39,57 @@
             </a>
           </div>
         </CCardHeader>
-        <CNavbar toggleable="md" type="dark" variant="info">
-          <CNavbarToggle @click="show=!show"/>
-          <CNavbarBrand href="#">NavBar</CNavbarBrand>
-          <CCollapse :show="show"
-                     navbar
-          >
-            <CNavbarNav>
-              <CNavItem href="#">Link</CNavItem>
-              <CNavItem href="#" disabled>Disabled</CNavItem>
-            </CNavbarNav>
+        <CCardBody>
+          <CNavbar toggleable="md" type="dark" variant="info">
+            <CNavbarToggle @click="show=!show"/>
+            <CNavbarBrand href="#">NavBar</CNavbarBrand>
+            <CCollapse :show="show"
+                       navbar
+            >
+              <CNavbarNav>
+                <CNavItem href="#">Link</CNavItem>
+                <CNavItem href="#" disabled>Disabled</CNavItem>
+              </CNavbarNav>
 
-            <!-- Right aligned nav items -->
-            <CNavbarNav class="ml-auto">
-              <CForm inline>
-                <CFormInput
-                  class="mr-sm-2"
-                  placeholder="Search"
-                  size="sm"
-                />
-                <CButton size="sm" class="my-2 my-sm-0" type="submit">Search</CButton>
-              </CForm>
+              <!-- Right aligned nav items -->
+              <CNavbarNav class="ml-auto">
+                <CForm inline>
+                  <CFormInput
+                    class="mr-sm-2"
+                    placeholder="Search"
+                    size="sm"
+                  />
+                  <CButton size="sm" class="my-2 my-sm-0" type="submit">Search</CButton>
+                </CForm>
 
-              <CDropdown button-content="Lang"
-                         nav
-                         placement="bottom-end"
-              >
-                  <CDropdownItem>EN</CDropdownItem>
-                  <CDropdownItem>ES</CDropdownItem>
-                  <CDropdownItem>RU</CDropdownItem>
-                  <CDropdownItem>FA</CDropdownItem>
-              </CDropdown>
+                <CDropdown buttonContent="Lang"
+                           nav
+                           placement="bottom-end"
+                >
+                    <CDropdownItem>EN</CDropdownItem>
+                    <CDropdownItem>ES</CDropdownItem>
+                    <CDropdownItem>RU</CDropdownItem>
+                    <CDropdownItem>FA</CDropdownItem>
+                </CDropdown>
 
-              <CDropdown nav
-                         button-content="<em>User</em>"
-                         placement="bottom-end"
-              >
-                <CDropdownItem>Profile</CDropdownItem>
-                <CDropdownItem>Signout</CDropdownItem>
-              </CDropdown>
-            </CNavbarNav>
-          </CCollapse>
-        </CNavbar>
+                <CDropdown nav
+                           buttonContent="<em>User</em>"
+                           placement="bottom-end"
+                >
+                  <CDropdownItem>Profile</CDropdownItem>
+                  <CDropdownItem>Signout</CDropdownItem>
+                </CDropdown>
+              </CNavbarNav>
+            </CCollapse>
+          </CNavbar>
+        </CCardBody>
       </CCard>
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>brand</small>
         </CCardHeader>
-        <div>
+        <CCardBody>
           <!-- Image and text -->
           <CNavbar variant="faded" light>
             <CNavbarBrand href="#">
@@ -95,14 +97,14 @@
               BootstrapVue
             </CNavbarBrand>
           </CNavbar>
-        </div>
+        </CCardBody>
       </CCard>
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>text</small>
         </CCardHeader>
-        <div>
+        <CCardBody>
           <CNavbar toggleable="sm" light variant="light">
             <CNavbarToggle @click="navbarText=!navbarText"></CNavbarToggle>
             <CNavbarBrand>BootstrapVue</CNavbarBrand>
@@ -112,14 +114,14 @@
               </CNavbarNav>
             </CCollapse>
           </CNavbar>
-        </div>
+        </CCardBody>
       </CCard>
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>dropdown</small>
         </CCardHeader>
-        <div>
+        <CCardBody>
           <CNavbar type="dark" variant="primary">
             <!-- <CNavbarToggle @click="navbarDropdown = !navbarDropdown"></CNavbarToggle>
             <CCollapse :show="navbarDropdown" navbar> -->
@@ -127,27 +129,27 @@
                 <CNavItem href="#">Home</CNavItem>
                 <CNavItem href="#">Link</CNavItem>
                 <!-- Navbar dropdowns -->
-                <CDropdown button-content="Lang" right nav>
+                <CDropdown buttonContent="Lang" right nav>
                   <CDropdownItem>EN</CDropdownItem>
                   <CDropdownItem>ES</CDropdownItem>
                   <CDropdownItem>RU</CDropdownItem>
                   <CDropdownItem>FA</CDropdownItem>
                 </CDropdown>
-                <CDropdown button-content="User" right nav>
+                <CDropdown buttonContent="User" right nav>
                   <CDropdownItem>Account</CDropdownItem>
                   <CDropdownItem>Settings</CDropdownItem>
                 </CDropdown>
               </CNavbarNav>
             <!-- </CCollapse> -->
           </CNavbar>
-        </div>
+        </CCardBody>
       </CCard>
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>form</small>
         </CCardHeader>
-        <div>
+        <CCardBody>
           <CNavbar type="light" variant="light">
             <CForm inline>
               <CFormInput
@@ -158,14 +160,14 @@
               <CButton variant="outline-success" class="my-2 my-sm-0" type="submit">Search</CButton>
             </CForm>
           </CNavbar>
-        </div>
+        </CCardBody>
       </CCard>
       <CCard>
-        <CCardHeader slot="header">
+        <CCardHeader>
           <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
           <small>input group</small>
         </CCardHeader>
-        <div>
+        <CCardBody>
           <CNavbar type="light" variant="light">
             <CForm inline>
               <CFormInput
@@ -174,7 +176,7 @@
               />
             </CForm>
           </CNavbar>
-        </div>
+        </CCardBody>
       </CCard>
     </div>
   </div>

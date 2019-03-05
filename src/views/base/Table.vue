@@ -1,5 +1,5 @@
 <template>
-  <CCard :header="caption">
+  <CCard :header="caption" bodyWrapper>
     <CTable
       :hover="hover"
       :striped="striped"

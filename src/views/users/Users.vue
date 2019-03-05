@@ -2,7 +2,7 @@
   <CRow>
     <CCol cols="12" xl="8">
       <transition name="slide">
-        <CCard header="users">
+        <CCard header="users" bodyWrapper>
           <CTable hover
                   striped
                   :items="items"

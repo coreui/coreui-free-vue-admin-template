@@ -7,10 +7,10 @@
             <CDropdown class="float-right"
                        variant="transparent p-0"
                        right
-                       button-content="<i class='icon-settings'></i>"
+                       buttonContent="<i class='icon-settings'></i>"
                        tag="div"
             >
-              <!-- <template slot="button-content">
+              <!-- <template slot="buttonContent">
 
               </template> -->
               <CDropdownItem>Action</CDropdownItem>
@@ -31,10 +31,10 @@
                      variant="transparent p-0"
                      right
                      no-caret
-                     button-content="<i class='icon-location-pin'></i>"
+                     buttonContent="<i class='icon-location-pin'></i>"
                      tag="div"
           >
-            <!-- <i slot="button-content"
+            <!-- <i slot="buttonContent"
                class="icon-location-pin"
             ></i> -->
             <CDropdownItem>Action</CDropdownItem>
@@ -58,7 +58,7 @@
             <CDropdown class="float-right"
                        variant="transparent p-0"
                        right
-                       button-content="<i class='icon-settings'></i>"
+                       buttonContent="<i class='icon-settings'></i>"
                        tag="div"
              >
 
@@ -80,9 +80,9 @@
             <CDropdown class="float-right"
                        variant="transparent p-0"
                        right
-                       button-content="<i class='icon-settings'></i>"
+                       buttonContent="<i class='icon-settings'></i>"
             >
-              <!-- <template slot="button-content">
+              <!-- <template slot="buttonContent">
                 <i class="icon-settings"></i>
               </template> -->
               <CDropdownItem>Action</CDropdownItem>
@@ -98,28 +98,30 @@
     </CRow>
 
     <CCard>
-      <CRow>
-        <CCol sm="5">
-          <h4 id="traffic" class="card-title mb-0">Traffic</h4>
-          <div class="small text-muted">November 2017</div>
-        </CCol>
-        <CCol sm="7" class="d-none d-md-block">
-          <CButton variant="primary" class="float-right"><i class="icon-cloud-download"></i></CButton>
-          <CButtonGroup class="float-right mr-3">
-            <CButton variant="outline-secondary"
-                     v-for="(value, key) in ['Day', 'Month', 'Year']"
-                     :key="key"
-                     class="mx-0"
-                     :pressed="value === selected ? true : false"
-                     @click="selected = value"
-            >
-              {{value}}
-            </CButton>
-          </CButtonGroup>
-        </CCol>
-      </CRow>
-      <MainChartExample style="height:300px;margin-top:40px;" height="300"></MainChartExample>
-      <CCardFooter slot="footer">
+      <CCardBody>
+        <CRow>
+          <CCol sm="5">
+            <h4 id="traffic" class="card-title mb-0">Traffic</h4>
+            <div class="small text-muted">November 2017</div>
+          </CCol>
+          <CCol sm="7" class="d-none d-md-block">
+            <CButton variant="primary" class="float-right"><i class="icon-cloud-download"></i></CButton>
+            <CButtonGroup class="float-right mr-3">
+              <CButton variant="outline-secondary"
+                       v-for="(value, key) in ['Day', 'Month', 'Year']"
+                       :key="key"
+                       class="mx-0"
+                       :pressed="value === selected ? true : false"
+                       @click="selected = value"
+              >
+                {{value}}
+              </CButton>
+            </CButtonGroup>
+          </CCol>
+        </CRow>
+        <MainChartExample style="height:300px;margin-top:40px;" height="300"></MainChartExample>
+      </CCardBody>
+      <CCardFooter>
         <CRow class="text-center">
           <CCol md sm="12" class="mb-sm-2 mb-0">
             <div class="text-muted">Visits</div>
@@ -181,7 +183,7 @@
     </CRow><!--/.row-->
     <CRow>
       <CCol md="12">
-        <CCard header="Traffic &amp; Sales">
+        <CCard header="Traffic &amp; Sales" bodyWrapper>
           <CRow>
             <CCol sm="12" lg="6">
               <CRow>

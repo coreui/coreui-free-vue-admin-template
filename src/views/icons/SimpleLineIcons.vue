@@ -1,10 +1,10 @@
 <template>
   <div class="animated fadeIn">
-    <CCard noWrapper class="card-default">
-      <CCardHeader slot="header">
+    <CCard  class="card-default">
+      <CCardHeader>
         <i class="fa fa-picture-o"></i> Simple Line Icons
       </CCardHeader>
-      <CCardBody slot="body">
+      <CCardBody>
         <CRow class="text-center">
 
           <CCol cols="6" sm="4" md="3">

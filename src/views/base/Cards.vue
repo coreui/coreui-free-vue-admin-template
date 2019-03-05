@@ -2,80 +2,93 @@
   <div class="animated fadeIn">
     <CRow>
       <CCol sm="6" md="4">
-        <CCard header="Card title">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </CCard>
+        <CCard header="Card title" :body="loremIpsum"/>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard footer="Card Footer">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </CCard>
+        <CCard footer="Card Footer" :body="loremIpsum" />
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="<i class='fa fa-check'></i> Card with icon">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </CCard>
+        <CCard
+          header="<i class='fa fa-check'></i> Card with icon"
+          :body="loremIpsum"
+        />
       </CCol>
       <CCol sm="6" md="4">
         <CCard>
-          <CCardHeader slot="header">
+          <CCardHeader>
             Card with switch
-            <label class="switch switch-sm switch-text switch-info float-right mb-0">
-              <input type="checkbox" class="switch-input">
-              <span class="switch-label" data-on="On" data-off="Off"></span>
-              <span class="switch-handle"></span>
-            </label>
+            <CSwitch
+              class="float-right"
+              size="sm"
+              shape="pill"
+              variant="info"
+              dataOn="On"
+              dataOff="Off"
+              :checked="true"
+            />
           </CCardHeader>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          <CCardBody>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
         <CCard>
-          <CCardHeader slot="header">
+          <CCardHeader>
             Card with label
             <CBadge variant="success" class="float-right">Success</CBadge>
           </CCardHeader>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          <CCardBody>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
         <CCard>
-          <CCardHeader slot="header">
+          <CCardHeader>
             Card with label
             <CBadge pill variant="danger" class="float-right">42</CBadge>
           </CCardHeader>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          <CCardBody :body="loremIpsum"/>
         </CCard>
       </CCol>
     </CRow><!--/.row-->
     <CRow>
       <CCol sm="6" md="4">
-        <CCard header="Card outline primary" border-variant="primary">
+        <CCard
+          header="Card outline primary"
+          borderVariant="primary"
+          :body="loremIpsum"
+        />
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard
+          header="Card outline secondary"
+          borderVariant="secondary"
+          :body="loremIpsum"
+        />
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard
+          header="Card outline success"
+          borderVariant="success"
+          bodyWrapper
+        >
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card outline secondary" border-variant="secondary">
+        <CCard header="Card outline info" borderVariant="info" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card outline success" border-variant="success">
+        <CCard header="Card outline warning" borderVariant="warning" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card outline info" border-variant="info">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard header="Card outline warning" border-variant="warning">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard header="Card outline danger" border-variant="danger">
+        <CCard header="Card outline danger" borderVariant="danger" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
@@ -83,22 +96,22 @@
 
     <CRow>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-primary" header="Card with primary accent">
+        <CCard class="card-accent-primary" header="Card with primary accent" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-secondary" header="Card with secondary accent">
+        <CCard class="card-accent-secondary" header="Card with secondary accent" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-success" header="Card with success accent">
+        <CCard class="card-accent-success" header="Card with success accent" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-info" header="Card with info accent">
+        <CCard class="card-accent-info" header="Card with info accent" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
@@ -108,14 +121,14 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-danger" header="Card with danger accent">
+        <CCard class="card-accent-danger" header="Card with danger accent" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
     </CRow><!--/.row-->
     <CRow>
       <CCol sm="6" md="4">
-        <CCard class="bg-primary text-center">
+        <CCard class="bg-primary text-center" bodyWrapper>
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -125,7 +138,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="bg-success text-center">
+        <CCard class="bg-success text-center" bodyWrapper>
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -135,7 +148,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="bg-info text-center">
+        <CCard class="bg-info text-center" bodyWrapper>
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -145,7 +158,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="bg-warning text-center">
+        <CCard class="bg-warning text-center" bodyWrapper>
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -155,7 +168,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="bg-danger text-center">
+        <CCard class="bg-danger text-center" bodyWrapper>
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -165,7 +178,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="bg-secondary text-center">
+        <CCard class="bg-secondary text-center" bodyWrapper>
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -177,34 +190,34 @@
     </CRow><!--/.row-->
     <CRow>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-primary">
+        <CCard header="Card title" class="bg-primary" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-success">
+        <CCard header="Card title" class="bg-success" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-info">
+        <CCard header="Card title" class="bg-info" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-warning">
+        <CCard header="Card title" class="bg-warning" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-danger">
+        <CCard header="Card title" class="bg-danger" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
         <transition name="fade">
-          <CCard class="bg-secondary" no-body v-if="show" >
-            <CCardHeader slot="header">
+          <CCard class="bg-secondary" v-if="show" >
+            <CCardHeader>
               Card with header actions
               <div class="card-header-actions">
                 <CLink href="#" class="card-header-action btn-setting" >
@@ -218,7 +231,7 @@
                 </CLink>
               </div>
             </CCardHeader>
-            <CCollapse slot="body" :show="isCollapsed" :duration="400">
+            <CCollapse :show="isCollapsed" :duration="400">
               <CCardBody>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
               </CCardBody>
@@ -229,7 +242,7 @@
     </CRow>
     <!-- <CRow>
       <CCol sm="6" md="4">
-        <CCard noWrapper>
+        <CCard >
           <CCardImg imgSrc="https://picsum.photos/600/300/?image=25"/>
           <CCardHeader header="Card title"/>
           <CCardBody style="max-height:200px;overflow-y:auto">
@@ -253,7 +266,8 @@ export default {
   data: function () {
     return {
       show: true,
-      isCollapsed: true
+      isCollapsed: true,
+      loremIpsum: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.'
     }
   }
 }

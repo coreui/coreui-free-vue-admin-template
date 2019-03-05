@@ -1,21 +1,21 @@
 <template>
   <CRow>
-    <CCol cols="12"
-          lg="6"
-    >
-      <CCard no-header>
-        <template slot="header">
+    <CCol cols="12" lg="6">
+      <CCard>
+        <CCardHeader>
           User id:  {{ $route.params.id }}
-        </template>
-        <CTable striped
-                small
-                fixed
-                :items="items($route.params.id)"
-                :fields="$options.fields"
-        />
-        <template slot="footer">
+        </CCardHeader>
+        <CCardBody>
+          <CTable striped
+                  small
+                  fixed
+                  :items="items($route.params.id)"
+                  :fields="$options.fields"
+          />
+        </CCardBody>
+        <CCardFooter>
           <CButton @click="goBack">Back</CButton>
-        </template>
+        </CCardFooter>
       </CCard>
     </CCol>
   </CRow>
