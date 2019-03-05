@@ -32,12 +32,13 @@
       </CCard> -->
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i><strong> Bootstrap Navbar </strong>
-          <div class="card-header-actions">
+          <i class="fa fa-align-justify"></i>
+          <strong> Bootstrap Navbar </strong>
+          <!-- <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
-          </div>
+          </div> -->
         </CCardHeader>
         <CCardBody>
           <CNavbar toggleable="md" type="dark" variant="info">

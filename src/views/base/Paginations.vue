@@ -4,11 +4,11 @@
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i><strong> Bootstrap Pagination</strong>
-          <div class="card-header-actions">
+          <!-- <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/pagination" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
-          </div>
+          </div> -->
         </CCardHeader>
         <CCardBody>
           <h6>Default</h6>

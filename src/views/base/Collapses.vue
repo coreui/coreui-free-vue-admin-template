@@ -7,11 +7,11 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Collapse </strong>
-              <div class="card-header-actions">
+              <!-- <div class="card-header-actions">
                 <CLink class="card-header-action">
                   <small class="text-muted">docs</small>
                 </CLink>
-              </div>
+              </div> -->
             </CCardHeader>
             <CCardBody>
               <CButton id="collapse1" variant="primary">

@@ -6,11 +6,11 @@
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Bootstrap button group</strong>
-              <div class="card-header-actions">
+              <!-- <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/button-group" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
-              </div>
+              </div> -->
             </CCardHeader>
             <CCardBody>
               <div>
@@ -109,12 +109,14 @@
         <CCol cols="12">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i> <strong>Button toolbar</strong> <small>with button groups</small>
-              <div class="card-header-actions">
+              <i class="fa fa-align-justify"></i>
+              <strong> Button toolbar </strong>
+              <small>with button groups</small>
+              <!-- <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/button-toolbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
-              </div>
+              </div> -->
             </CCardHeader>
             <CCardBody>
               <div>

@@ -6,11 +6,11 @@
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
-              <div class="card-header-actions">
+              <!-- <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/breadcrumb" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
-              </div>
+              </div> -->
             </CCardHeader>
             <CCardBody>
               <CBreadcrumb :items="items" addLinkClasses="sss" lastItemClasses="aaa"/>

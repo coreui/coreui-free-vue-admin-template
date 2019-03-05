@@ -5,12 +5,13 @@
         <CCol md="6">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Bootstrap list group </strong>
-              <div class="card-header-actions">
+              <i class="fa fa-align-justify"></i>
+              <strong> Bootstrap list group </strong>
+              <!-- <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/list-group" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
-              </div>
+              </div> -->
             </CCardHeader>
             <CCardBody>
               <CListGroup>

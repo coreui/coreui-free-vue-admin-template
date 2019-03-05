@@ -5,12 +5,13 @@
         <CCol>
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i> <strong> Bootstrap Jumbotron </strong>
-              <div class="card-header-actions">
+              <i class="fa fa-align-justify"></i>
+              <strong> Bootstrap Jumbotron </strong>
+              <!-- <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/jumbotron" class="card-header-action" rel="noreferrer noopener" target="_blank">
                   <small class="text-muted">docs</small>
                 </a>
-              </div>
+              </div> -->
             </CCardHeader>
             <CCardBody>
               <CJumbotron header="Bootstrap 4" lead="Bootstrap 4 Components for Vue.js 2">

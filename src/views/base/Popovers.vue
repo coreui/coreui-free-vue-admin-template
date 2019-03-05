@@ -3,12 +3,13 @@
     <div class="animated fadeIn">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i><strong> Bootstrap Popovers</strong>
-          <div class="card-header-actions">
+          <i class="fa fa-align-justify"></i>
+          <strong> Bootstrap Popovers</strong>
+          <!-- <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/popovers" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
             </a>
-          </div>
+          </div> -->
         </CCardHeader>
         <CCardBody>
           <CRow>
