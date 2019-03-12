@@ -91,58 +91,8 @@
       </CCol>
 
     </CRow><!--/.row-->
-    <CRow>
-      <CCol md="3" sm="6">
-        <CWidget04 variant="facebook" rightHeader="89k" rightFooter="friends" leftHeader="459" leftFooter="feeds"/>
-       </CCol>
-       <CCol md="3" sm="6">
-        <CWidget04 variant="twitter" rightHeader="973k" rightFooter="followers" leftHeader="1.792" leftFooter="tweets"/>
-       </CCol>
-       <CCol md="3" sm="6">
-        <CWidget04 variant="linkedin" rightHeader="500+" rightFooter="contracts" leftHeader="292" leftFooter="feeds"/>
-       </CCol>
-       <CCol md="3" sm="6" class="codeContainer">
-        <CWidget04  variant='warning' rightHeader='0:57' rightFooter='time' leftHeader='17' leftFooter='percentage'>
-          <i slot="icon" class="fa fa-battery-1"></i>
-        </CWidget04>
-       </CCol>
-    </CRow><!--/.row-->
-    <CRow>
-      <CCol md="3" sm="6">
-        <CWidget04 variant="facebook" rightHeader="89k" rightFooter="friends" leftHeader="459" leftFooter="feeds">
-          <CSimpleLineChart chartId="facebook" :data='[65, 59, 84, 84, 51, 55, 40]' label='Friends'
-                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:100px' color='rgba(255,255,255,.1)'/>
-        </CWidget04>
-       </CCol>
-       <CCol md="3" sm="6">
-        <CWidget04 variant="twitter" rightHeader="973k" rightFooter="followers" leftHeader="1.792" leftFooter="tweets">
-          <CSimpleLineChart chartId="twitter" :data='[1, 13, 9, 17, 34, 41, 38]' label='Followers'
-                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:100px'  color='rgba(255,255,255,.1)'/>
-        </CWidget04>
-       </CCol>
-       <CCol md="3" sm="6">
-        <CWidget04 variant="linkedin" rightHeader="500+" rightFooter="contracts" leftHeader="292" leftFooter="feeds">
-          <CSimpleLineChart chartId="linkedIn" :data='[78, 81, 80, 45, 34, 12, 40]' label='Contracts'
-                       :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                       style='height:100px'  color='rgba(255,255,255,.1)'/>
-        </CWidget04>
-       </CCol>
-       <CCol md="3" sm="6">
-        <CWidget04 variant='google-plus'
-                    rightHeader='894'
-                    rightFooter='followers'
-                    leftHeader='92' leftFooter='circles'>
-          <CSimpleLineChart chartId="google-plus"
-                               :data='[35, 23, 56, 22, 97, 23, 64]'
-                               label='Followers'
-                               :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                               style='height:100px'
-                               color='rgba(255,255,255,.1)'/>
-        </CWidget04>
-       </CCol>
-    </CRow><!--/.row-->
+    <Widgets04 noCharts/>
+    <Widgets04/>
     <CCardGroup class="mb-4">
       <CWidget05 iconClasses="icon-people" header="87.500" text="Visitors" variant="info"/>
       <CWidget05 iconClasses="icon-user-follow" header="385" text="New Clients" variant="success"/>
@@ -202,9 +152,13 @@
     <CRow>
       <CCol sm="6" lg="3">
         <CWidget06 header="9.823" text="Members online">
-          <template slot='dropdown'>
-            <CDropdown class="float-right" variant="transparent p-0" right>
-              <template slot="buttonContent">
+          <template #dropdown>
+            <CDropdown
+              class="float-right"
+              variant="transparent p-0"
+              placement="bottom-end"
+            >
+              <template #buttonContent>
                 <i class="icon-settings"></i>
               </template>
               <CDropdownItem>Action</CDropdownItem>
@@ -219,16 +173,26 @@
         </CWidget06>
       </CCol>
       <CCol sm="6" lg="3">
-        <CWidget06 variant="info" header="9.823" text="Members online">
-          <CDropdown slot="dropdown" class="float-right" variant="transparent p-0" right no-caret>
-            <i slot="buttonContent"
-               class="icon-location-pin"
-            ></i>
-            <CDropdownItem>Action</CDropdownItem>
-            <CDropdownItem>Another action</CDropdownItem>
-            <CDropdownItem>Something else here...</CDropdownItem>
-            <CDropdownItem disabled>Disabled action</CDropdownItem>
-          </CDropdown>
+        <CWidget06
+          variant="info"
+          header="9.823"
+          text="Members online"
+        >
+          <template #dropdown>
+            <CDropdown
+              class="float-right"
+              variant="transparent p-0"
+             right no-caret>
+              <i slot="buttonContent"
+                 class="icon-location-pin"
+              ></i>
+              <CDropdownItem>Action</CDropdownItem>
+              <CDropdownItem>Another action</CDropdownItem>
+              <CDropdownItem>Something else here...</CDropdownItem>
+              <CDropdownItem disabled>Disabled action</CDropdownItem>
+            </CDropdown>
+          </template>
+
           <CSimplePointedChart class="px-3"
                                :data="[1, 18, 9, 17, 34, 22, 11]"
                                :labels="['January', 'February', 'March', 'April',  'May', 'June', 'July']"
@@ -350,7 +314,11 @@
 </template>
 
 <script>
+import Widgets04 from './Widgets04'
 export default {
   name: 'Widgets',
+  components: {
+    Widgets04
+  }
 }
 </script>

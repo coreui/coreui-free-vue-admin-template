@@ -11,7 +11,7 @@ const Colors = () => import('@/views/theme/Colors')
 const Typography = () => import('@/views/theme/Typography')
 
 const Charts = () => import('@/views/Charts')
-const Widgets = () => import('@/views/Widgets')
+const Widgets = () => import('@/views/widgets/Widgets')
 
 // Views - Components
 const Cards = () => import('@/views/base/Cards')

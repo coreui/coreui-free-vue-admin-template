@@ -19,8 +19,6 @@ export default {
   @import '~simple-line-icons/scss/simple-line-icons.scss';
   /* Import Flag Icons Set */
   @import '~flag-icon-css/css/flag-icon.min.css';
-  /* Import Bootstrap Vue Styles */
-  @import '~bootstrap-vue/dist/bootstrap-vue.css';
   // Import Main styles for this application
   @import 'assets/scss/style';
 </style>

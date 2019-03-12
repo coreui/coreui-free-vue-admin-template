@@ -90,39 +90,60 @@
         <CCol cols="12" md="6">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i> Alerts <small>dismissible</small>
+              <i class="fa fa-align-justify"></i> Alerts
+              <small>dismissible</small>
             </CCardHeader>
             <CCardBody>
-              <div>
-                <CAlert :show="true" dismissible disabled>
-                  Dismissible Alert!
-                </CAlert>
-                <!-- :dismissible="{attrs: {disabled:'disabled', 'aria-label':'close it'}, class:'hehe' } -->
-                <CAlert :show="true"
-                        dismissible>
-                  Dismissible Alert!
-                  <CButtonClose slot-scope="{ dismiss }"
-                                @click="dismiss"
-                                aria-label="close it"
-                                style="color:red">
-                    ok
-                  </CButtonClose>
-                </CAlert>
-                <CAlert show dismissible>
-                  Dismissible Alert!
-                </CAlert>
-              <CAlert variant="danger"
-                       dismissible
-                       fade
-                       :show="showDismissibleAlert"
-                       @dismissed="showDismissibleAlert=false"
+              <CAlert
+                dismissible
+                :show.sync="dismissibleAlerts[0]"
               >
                 Dismissible Alert!
               </CAlert>
-              <CButton @click="showDismissibleAlert=true" variant="info" class="m-1">
-                Show dismissible alert ({{showDismissibleAlert?'visible':'hidden'}})
+
+              <CAlert
+                dismissible
+                fade
+                :show.sync="dismissibleAlerts[1]"
+              >
+                Dismissible Alert with fade effect!
+              </CAlert>
+
+              <CAlert
+                :show.sync="dismissibleAlerts[2]"
+                dismissible
+                iconHtml="<i>Close</i>"
+              >
+                Dismissible Alert with custom icon!
+              </CAlert>
+
+              <CAlert
+                :show.sync="dismissibleAlerts[3]"
+                class="alert-dismissible"
+                v-slot="{dismiss}"
+              >
+                Dismissible Alert with custom button!
+                <CButton
+                  class="position-absolute bg-primary"
+                  style="right:10px;top: 50%;transform: translateY(-50%);"
+                  text="<i>Close</i>"
+                  @click="dismiss"
+                />
+              </CAlert>
+
+              <CAlert
+                :show.sync="dismissibleAlerts[4]"
+                dismissible="disabled"
+              >
+                Disabled dismissible Alert!
+              </CAlert>
+              <CButton
+                @click="showDismissibleAlerts"
+                variant="info"
+                class="m-1"
+              >
+                Show dismissible alerts
               </CButton>
-              </div>
             </CCardBody>
           </CCard>
           <CCard>
@@ -131,19 +152,20 @@
             </CCardHeader>
             <CCardBody>
               <div>
-                <CAlert :show="dismissCountDown"
-                         dismissible
-                         variant="warning"
-                         @dismissed="dismissCountdown=0"
-                         @dismiss-count-down="countDownChanged">
-                  Alert will dismiss after <strong>{{dismissCountDown}}</strong> seconds...
+                <CAlert
+                  :show.sync="dismissCountDown"
+                  dismissible
+                  variant="warning"
+                  fade
+                >
+                  Alert will dismiss after
+                  <strong>{{dismissCountDown}}</strong> seconds...
                 </CAlert>
 
-                <CAlert :show="dismissCountDown"
+                <CAlert :show.sync="dismissCountDown"
                          dismissible
                          variant="info"
-                         @dismissed="dismissCountdown=0"
-                         @dismiss-count-down="countDownChanged">
+                >
                   Alert will dismiss after {{dismissCountDown}} seconds...
                   <CProgress variant="info"
                               :max="dismissSecs"
@@ -169,8 +191,11 @@ export default {
   data () {
     return {
       dismissSecs: 10,
-      dismissCountDown: 0,
-      showDismissibleAlert: false
+      dismissCountDown: 10,
+      dismissibleAlerts: [true, true, true, true, true],
+      // dismissibleAlert: true,
+      // dismissibleAlert2: true,
+      // dismissibleAlert3: true
     }
   },
   methods: {
@@ -179,6 +204,14 @@ export default {
     },
     showAlert () {
       this.dismissCountDown = this.dismissSecs
+    },
+    showDismissibleAlerts () {
+      // this.dismissibleAlert = true
+      // this.dismissibleAlert2 = true
+      // this.dismissibleAlert3 = true
+      this.dismissibleAlerts = this.dismissibleAlerts.map(
+        alert => alert = true
+      )
     }
   }
 }
