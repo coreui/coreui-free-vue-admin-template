@@ -178,7 +178,7 @@
             </CCardHeader>
             <CCardBody>
               <CCardGroup deck>
-                <CCard header="<b>Card with list group</b>">
+                <CCard headerHtml="<b>Card with list group</b>">
                   <CListGroup>
                     <CListGroupItem href="#">Cras justo odio</CListGroupItem>
                     <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>

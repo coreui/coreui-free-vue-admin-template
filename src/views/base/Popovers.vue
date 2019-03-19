@@ -35,7 +35,7 @@
                     content: 'I start <strong>open</strong>',
                     active: true
                   }"
-                  text="Hover me"
+                  textHtml="Hover me"
                 />
               </div>
             </CCol>

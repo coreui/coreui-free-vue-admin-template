@@ -2,13 +2,12 @@
   <CRow>
     <CCol sm="6" lg="3">
       <CWidget06 header="9.823" text="Members online">
-
         <template #dropdown>
           <CDropdown
             class="float-right"
             variant="transparent p-0"
             placement="bottom-end"
-            buttonContent="<i class='icon-settings'></i>"
+            buttonHtml="<i class='icon-settings'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -16,7 +15,6 @@
             <CDropdownItem disabled>Disabled action</CDropdownItem>
           </CDropdown>
         </template>
-
         <CSimplePointedChart
           class="px-3"
           :data="[65, 59, 84, 84, 51, 55, 40]"
@@ -35,7 +33,7 @@
             variant="transparent p-0"
             placement="bottom-end"
             noCaret
-            buttonContent="<i class='icon-location-pin'></i>"
+            buttonHtml="<i class='icon-location-pin'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -66,7 +64,7 @@
             class="float-right"
             variant="transparent p-0"
             placement="bottom-end"
-            buttonContent="<i class='icon-settings'></i>"
+            buttonHtml="<i class='icon-settings'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -99,7 +97,7 @@
             class="float-right"
             variant="transparent p-0"
             placement="bottom-end"
-            buttonContent="<i class='icon-settings'></i>"
+            buttonHtml="<i class='icon-settings'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -123,8 +121,10 @@
 <script>
 export default {
   name: 'Widgets06',
-  props: {
-    months: ['January', 'February', 'March', 'April', 'May', 'June', 'July']
+  data () {
+    return {
+      months: ['January', 'February', 'March', 'April', 'May', 'June', 'July']
+    }
   }
 }
 </script>

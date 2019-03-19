@@ -2,7 +2,7 @@
   <div class="animated fadeIn">
     <CRow>
       <CCol sm="12">
-        <CCard header="CTable power presentation" bodyWrapper>
+        <CCard headerHtml="CTable power presentation" bodyWrapper>
           <CTable :items="items.slice(0)"
                   :fields="fields"
                   :perPage="6"
@@ -58,7 +58,7 @@
     </CRow>
     <!-- <CRow>
       <CCol sm="12">
-        <CCard header="test2">
+        <CCard headerHtml="test2">
           <CTable
             :items="items.slice(0)"
             :fields="fields"

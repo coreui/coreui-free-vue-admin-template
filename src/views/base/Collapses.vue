@@ -24,7 +24,7 @@
                     Toggle Inner Collapse
                   </CButton>
                   <CCollapse toggler="collapse2" class="mt-2">
-                    <CCard>Hello!</CCard>
+                    <CCard bodyWrapper>Hello!</CCard>
                   </CCollapse>
                 </CCard>
               </CCollapse>

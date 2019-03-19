@@ -30,41 +30,41 @@ export default {
   data () {
     return {
       items: [{
-        text: '<b>Admin</b>',
+        textHtml: '<b>Admin</b>',
         href: '#'
       }, {
-        text: 'Manage',
+        textHtml: 'Manage',
         href: '#'
       }, {
-        text: 'Library'
+        textHtml: 'Library'
       }],
 
 
       items2: [{
-        text: 'Go to dashboard',
+        textHtml: 'Go to dashboard',
         to: '/dashboard'
       }, {
-        text: 'Go to widgets',
+        textHtml: 'Go to widgets',
         to: '/Widgets'
       }, {
-        text: 'Go to Google',
+        textHtml: 'Go to Google',
         href: 'http://google.com'
       },{
-        text: 'Current page'
+        textHtml: 'Current page'
       }],
 
 
       items3: [{
-        text: 'Link',
+        textHtml: 'Link',
         to: '#2',
         activeClass: 'bg-info p-1'
       }, {
-        text: 'Active',
+        textHtml: 'Active',
         to: '#3',
         activeClass: 'bg-warning p-1',
         addLinkClasses: 'bg-info p-1'
       },{
-        text: 'Classes',
+        textHtml: 'Classes',
         to: '#4',
         activeClass: 'bg-danger p-1',
       }]

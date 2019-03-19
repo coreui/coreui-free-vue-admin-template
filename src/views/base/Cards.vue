@@ -2,15 +2,15 @@
   <div class="animated fadeIn">
     <CRow>
       <CCol sm="6" md="4">
-        <CCard header="Card title" :body="loremIpsum"/>
+        <CCard headerHtml="Card title" :bodyHtml="loremIpsum"/>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard footer="Card Footer" :body="loremIpsum" />
+        <CCard footerHtml="Card Footer" :bodyHtml="loremIpsum" />
       </CCol>
       <CCol sm="6" md="4">
         <CCard
           header="<i class='fa fa-check'></i> Card with icon"
-          :body="loremIpsum"
+          :bodyHtml="loremIpsum"
         />
       </CCol>
       <CCol sm="6" md="4">
@@ -49,7 +49,7 @@
             Card with label
             <CBadge pill variant="danger" class="float-right">42</CBadge>
           </CCardHeader>
-          <CCardBody :body="loremIpsum"/>
+          <CCardBody :bodyHtml="loremIpsum"/>
         </CCard>
       </CCol>
     </CRow><!--/.row-->
@@ -58,14 +58,14 @@
         <CCard
           header="Card outline primary"
           borderVariant="primary"
-          :body="loremIpsum"
+          :bodyHtml="loremIpsum"
         />
       </CCol>
       <CCol sm="6" md="4">
         <CCard
           header="Card outline secondary"
           borderVariant="secondary"
-          :body="loremIpsum"
+          :bodyHtml="loremIpsum"
         />
       </CCol>
       <CCol sm="6" md="4">
@@ -78,17 +78,17 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card outline info" borderVariant="info" bodyWrapper>
+        <CCard headerHtml="Card outline info" borderVariant="info" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card outline warning" borderVariant="warning" bodyWrapper>
+        <CCard headerHtml="Card outline warning" borderVariant="warning" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card outline danger" borderVariant="danger" bodyWrapper>
+        <CCard headerHtml="Card outline danger" borderVariant="danger" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
@@ -190,27 +190,27 @@
     </CRow><!--/.row-->
     <CRow>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-primary" bodyWrapper>
+        <CCard headerHtml="Card title" class="bg-primary" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-success" bodyWrapper>
+        <CCard headerHtml="Card title" class="bg-success" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-info" bodyWrapper>
+        <CCard headerHtml="Card title" class="bg-info" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-warning" bodyWrapper>
+        <CCard headerHtml="Card title" class="bg-warning" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header="Card title" class="bg-danger" bodyWrapper>
+        <CCard headerHtml="Card title" class="bg-danger" bodyWrapper>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
@@ -244,7 +244,7 @@
       <CCol sm="6" md="4">
         <CCard >
           <CCardImg imgSrc="https://picsum.photos/600/300/?image=25"/>
-          <CCardHeader header="Card title"/>
+          <CCardHeader headerHtml="Card title"/>
           <CCardBody style="max-height:200px;overflow-y:auto">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
