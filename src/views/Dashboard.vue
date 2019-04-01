@@ -1,6 +1,6 @@
 <template>
   <div class="animated fadeIn">
-    <Widgets06/>
+    <WidgetsDropdown/>
     <CCard>
       <CCardBody>
         <CRow>
@@ -334,8 +334,8 @@
 
 <script>
 import MainChartExample from './dashboard/MainChartExample'
-import Widgets06 from './widgets/Widgets06'
-import Widgets04 from './widgets/Widgets04'
+import WidgetsDropdown from './widgets/WidgetsDropdown'
+import WidgetsSocial from './widgets/WidgetsSocial'
 import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
 import CalloutChartExample from './dashboard/CalloutChartExample'
 
@@ -345,8 +345,8 @@ export default {
     MainChartExample,
     SocialBoxChartExample,
     CalloutChartExample,
-    Widgets06,
-    Widgets04
+    WidgetsDropdown,
+    WidgetsSocial
   },
   data: function () {
     return {

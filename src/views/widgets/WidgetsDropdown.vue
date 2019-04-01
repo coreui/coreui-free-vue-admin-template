@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol sm="6" lg="3">
-      <CWidget06 header="9.823" text="Members online">
+      <CWidgetDropdown header="9.823" text="Members online">
         <template #dropdown>
           <CDropdown
             class="float-right"
@@ -23,10 +23,10 @@
           label="Members"
           pointHoverColor="primary"
         />
-      </CWidget06>
+      </CWidgetDropdown>
     </CCol>
     <CCol sm="6" lg="3">
-      <CWidget06 variant="info" header="9.823" text="Members online">
+      <CWidgetDropdown variant="info" header="9.823" text="Members online">
         <template #dropdown>
           <CDropdown
             class="float-right"
@@ -50,10 +50,10 @@
           :options="{ elements: { line: { tension: 0.00001 }}}"
           pointHoverColor="info"
         />
-      </CWidget06>
+      </CWidgetDropdown>
     </CCol>
     <CCol sm="6" lg="3">
-      <CWidget06
+      <CWidgetDropdown
         variant="warning"
         header="9.823"
         text="Members online"
@@ -74,7 +74,7 @@
         </template>
 
         <CSimpleLineChart
-          chartId="CWidget06_3"
+          chartId="CWidgetDropdown_3"
           :data="[78, 81, 80, 45, 34, 12, 40]"
           :labels="months"
           style="height:70px"
@@ -83,10 +83,10 @@
           :options="{elements: {line: {borderWidth: 2.5}}}"
           pointHoverColor="warning"
         />
-      </CWidget06>
+      </CWidgetDropdown>
     </CCol>
     <CCol sm="6" lg="3">
-      <CWidget06
+      <CWidgetDropdown
         variant="danger"
         header="9.823"
         text="Members online"
@@ -107,20 +107,20 @@
         </template>
 
         <CSimpleBarChart
-          chartId="CWidget06_4"
+          chartId="CWidgetDropdown_4"
           :data="[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]"
           label="Members"
           color="rgb(250, 152, 152)"
           style="height:70px"
         />
-      </CWidget06>
+      </CWidgetDropdown>
     </CCol>
   </CRow>
 </template>
 
 <script>
 export default {
-  name: 'Widgets06',
+  name: 'WidgetsDropdown',
   data () {
     return {
       months: ['January', 'February', 'March', 'April', 'May', 'June', 'July']

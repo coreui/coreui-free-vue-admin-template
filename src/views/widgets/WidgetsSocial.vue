@@ -2,7 +2,7 @@
   <CRow>
     <template v-if="!props.noCharts">
       <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="facebook"
           rightHeader="89k"
           rightFooter="friends"
@@ -17,10 +17,10 @@
             style="height:100px"
             color="rgba(255,255,255,.1)"
           />
-        </CWidget04>
+        </CWidgetSocial>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="twitter"
           rightHeader="973k"
           rightFooter="followers"
@@ -35,10 +35,10 @@
             style="height:100px"
             color="rgba(255,255,255,.1)"
           />
-        </CWidget04>
+        </CWidgetSocial>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="linkedin"
           rightHeader="500+"
           rightFooter="contracts"
@@ -53,10 +53,10 @@
             style="height:100px"
             color="rgba(255,255,255,.1)"
           />
-        </CWidget04>
+        </CWidgetSocial>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="google-plus"
           rightHeader="894"
           rightFooter="followers"
@@ -71,12 +71,12 @@
             style="height:100px"
             color="rgba(255,255,255,.1)"
           />
-        </CWidget04>
+        </CWidgetSocial>
       </CCol>
     </template>
     <template v-else>
       <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="facebook"
           rightHeader="89k"
           rightFooter="friends"
@@ -85,7 +85,7 @@
         />
       </CCol>
       <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="twitter"
           rightHeader="973k"
           rightFooter="followers"
@@ -94,7 +94,7 @@
         />
       </CCol>
       <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="linkedin"
           rightHeader="500+"
           rightFooter="contracts"
@@ -103,7 +103,7 @@
         />
       </CCol>
       <CCol md="3" sm="6">
-        <CWidget04
+        <CWidgetSocial
           variant="warning"
           iconClasses="fa fa-battery-1"
           rightHeader="0:57"
@@ -118,7 +118,7 @@
 
 <script>
 export default {
-  name: 'Widgets04',
+  name: 'WidgetsSocial',
   props: {
     noCharts: Boolean
   }

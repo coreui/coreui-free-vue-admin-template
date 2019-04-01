@@ -41,12 +41,15 @@
           </div> -->
         </CCardHeader>
         <CCardBody>
-          <CNavbar toggleable="md" type="dark" variant="info">
+          <CNavbar
+            toggleable="md"
+            type="dark"
+            variant="info"
+            sticky
+          >
             <CNavbarToggle @click="show=!show"/>
             <CNavbarBrand href="#">NavBar</CNavbarBrand>
-            <CCollapse :show="show"
-                       navbar
-            >
+            <CCollapse :show="show" navbar>
               <CNavbarNav>
                 <CNavItem href="#">Link</CNavItem>
                 <CNavItem href="#" disabled>Disabled</CNavItem>
@@ -63,9 +66,10 @@
                   <CButton size="sm" class="my-2 my-sm-0" type="submit">Search</CButton>
                 </CForm>
 
-                <CDropdown buttonContent="Lang"
-                           nav
-                           placement="bottom-end"
+                <CDropdown
+                  buttonHtml="Lang"
+                  nav
+                  placement="bottom-end"
                 >
                     <CDropdownItem>EN</CDropdownItem>
                     <CDropdownItem>ES</CDropdownItem>
@@ -73,9 +77,10 @@
                     <CDropdownItem>FA</CDropdownItem>
                 </CDropdown>
 
-                <CDropdown nav
-                           buttonContent="<em>User</em>"
-                           placement="bottom-end"
+                <CDropdown
+                  nav
+                  buttonHtml="<em>User</em>"
+                  placement="bottom-end"
                 >
                   <CDropdownItem>Profile</CDropdownItem>
                   <CDropdownItem>Signout</CDropdownItem>
@@ -130,13 +135,21 @@
                 <CNavItem href="#">Home</CNavItem>
                 <CNavItem href="#">Link</CNavItem>
                 <!-- Navbar dropdowns -->
-                <CDropdown buttonContent="Lang" right nav>
+                <CDropdown
+                  buttonHtml="Lang"
+                  right
+                  nav
+                >
                   <CDropdownItem>EN</CDropdownItem>
                   <CDropdownItem>ES</CDropdownItem>
                   <CDropdownItem>RU</CDropdownItem>
                   <CDropdownItem>FA</CDropdownItem>
                 </CDropdown>
-                <CDropdown buttonContent="User" right nav>
+                <CDropdown
+                  buttonHtml="User"
+                  right
+                  nav
+                >
                   <CDropdownItem>Account</CDropdownItem>
                   <CDropdownItem>Settings</CDropdownItem>
                 </CDropdown>
