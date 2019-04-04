@@ -55,7 +55,7 @@
         </CRow>
       </CCardFooter>
     </CCard>
-    <Widgets04/>
+    <WidgetsSocial/>
     <CRow>
       <CCol md="12">
         <CCard headerHtml="Traffic &amp; Sales" bodyWrapper>

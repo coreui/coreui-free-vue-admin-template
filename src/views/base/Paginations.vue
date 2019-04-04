@@ -3,7 +3,8 @@
     <div class="animated fadeIn">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i><strong> Bootstrap Pagination</strong>
+          <i class="fa fa-align-justify"></i>
+          <strong> Bootstrap Pagination</strong>
           <!-- <div class="card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/pagination" class="card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="text-muted">docs</small>
@@ -12,16 +13,26 @@
         </CCardHeader>
         <CCardBody>
           <h6>Default</h6>
-          <CPagination v-model="currentPage" :pages="10"/>
+          <CPagination
+            :activePage.sync="currentPage"
+            :pages="10"
+          />
           <br>
 
           <h6>Small</h6>
-          <CPagination size="sm" v-model="currentPage" :pages="10"/>
+          <CPagination
+            size="sm"
+            :activePage.sync="currentPage"
+            :pages="10"/>
           <br>
 
           <div class="d-sm-down-none">
             <h6>Large</h6>
-            <CPagination size="lg" v-model="currentPage" :pages="10"/>
+            <CPagination
+              size="lg"
+              :activePage.sync="currentPage"
+              :pages="10"
+            />
             <br>
           </div>
 
@@ -30,20 +41,32 @@
       </CCard>
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i><strong> Pagination </strong>
+          <i class="fa fa-align-justify"></i>
+          <strong> Pagination </strong>
           <small>alignment</small>
         </CCardHeader>
         <CCardBody>
           <h6>Left alignment (default)</h6>
-          <CPagination v-model="currentPage" :pages="10"/>
+          <CPagination
+            :activePage.sync="currentPage"
+            :pages="10"
+          />
           <br>
 
           <h6>Center alignment</h6>
-          <CPagination align="center" :pages="10" v-model="currentPage"/>
+          <CPagination
+            align="center"
+            :pages="10"
+            :activePage.sync="currentPage"
+          />
           <br>
 
           <h6>Right (end) alignment</h6>
-          <CPagination align="end" v-model="currentPage" :pages="10"/>
+          <CPagination
+            align="end"
+            :activePage.sync="currentPage"
+            :pages="10"
+          />
           <br>
 
           <div>currentPage: {{currentPage}}</div>
@@ -60,11 +83,6 @@ export default {
     return {
       currentPage: 3,
     }
-  },
-  // methods: {
-  //   linkGen (pageNum) {
-  //     return '#page/' + pageNum + '/foobar'
-  //   },
-  // }
+  }
 }
 </script>

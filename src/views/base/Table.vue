@@ -12,7 +12,7 @@
       :dark="dark"
       noSorting
     >
-      <template v-slot:status="{item}">
+      <template #status="{item}">
         <td>
           <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>
         </td>

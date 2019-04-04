@@ -14,44 +14,44 @@
                   :defaultSorter="{ name:'username', direction:'desc'}"
                   :defaultColumnFilter="{ role:'staff' }"
           >
-              <template #index-col="{index}">
-                <td
+            <template #index-column="{index}">
+              <td
+                @click="toggleDetails(index)"
+                style="cursor:pointer"
+                class="text-center"
+              >
+                <i
+                  class="icons font-lg d-block cui-chevron-right"
+                  style="transition: transform 0.4s"
+                  :style="details.includes(index) ? 'transform:rotate(90deg)': ''"
+                ></i>
+              </td>
+            </template>
+            <template #status="{item}">
+              <td>
+                <CBadge :variant="getBadge(item.status)">
+                  {{item.status}}
+                </CBadge>
+              </td>
+            </template>
+            <template #show_details="{item, index}">
+              <td class="py-2">
+                <CButton
+                  variant="outline-primary"
+                  square
+                  size="sm"
                   @click="toggleDetails(index)"
-                  style="cursor:pointer"
-                  class="text-center"
-                >
-                  <i
-                    class="icons font-lg d-block cui-chevron-right"
-                    style="transition: transform 0.4s"
-                    :style="details.includes(index) ? 'transform:rotate(90deg)': ''"
-                  ></i>
-                </td>
-              </template>
-              <template #status="{item}">
-                <td>
-                  <CBadge :variant="getBadge(item.status)">
-                    {{item.status}}
-                  </CBadge>
-                </td>
-              </template>
-              <template #show_details="{item, index}">
-                <td class="py-2">
-                  <CButton
-                    variant="outline-primary"
-                    square
-                    size="sm"
-                    @click="toggleDetails(index)"
-                    :textHtml="details.includes(index) ? 'Hide' : 'Show'"
-                  />
-                </td>
-              </template>
-              <template #details="{item, index}">
-                <CCollapse :show="details.includes(index)">
-                  <CCardBody>
-                    {{index + 1}} - {{item}}
-                  </CCardBody>
-                </CCollapse>
-              </template>
+                  :textHtml="details.includes(index) ? 'Hide' : 'Show'"
+                />
+              </td>
+            </template>
+            <template #details="{item, index}">
+              <CCollapse :show="details.includes(index)">
+                <CCardBody>
+                  {{index + 1}} - {{item}}
+                </CCardBody>
+              </CCollapse>
+            </template>
           </CTable>
         </CCard>
       </CCol>

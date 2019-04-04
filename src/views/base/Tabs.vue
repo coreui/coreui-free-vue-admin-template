@@ -163,7 +163,6 @@
               card
               pills
               vertical="4"
-              v-model="tabIndex[1]"
             >
               <CTab active>
                 <template slot="title">
@@ -208,7 +207,6 @@ export default {
   name: 'tabs',
   data () {
     return {
-      tabIndex: [0, 0],
       tabs: [
         'Calculator',
         'Shopping cart',

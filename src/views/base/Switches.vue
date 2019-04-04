@@ -12,7 +12,7 @@
             </h5>
           </CCardHeader>
           <CCardBody>
-            <!-- <CSwitch class="mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" v-model="radio" trueValue="primary"/> -->
+            <!-- <CSwitch class="mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" checked.sync="radio" trueValue="primary"/> -->
             <CSwitch class="mx-1"
                      :key="key"
                      :variant="variant"
@@ -21,7 +21,7 @@
                      v-bind="labelIcon"
                      type="radio"
                      name="radio"
-                     v-model="radio"
+                     :checked.sync="radio"
                      :value="variant"
                      v-for="(variant, key) in ['primary','secondary','warning','success','info','danger','light','dark']"
             />
@@ -37,27 +37,19 @@
             <CBadge variant="primary">{{checker}}</CBadge>
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="mx-1"
+            <CSwitch
+              class="mx-1"
               variant="primary"
-              checked
               name="switch1"
-              v-model="checker"
-              value="someValue"
+              :checked.sync="checker"
               trueValue="yes"
               falseValue="no"
-            />
-            <CSwitch class="mx-1"
-              variant="primary"
-              checked
-              name="switch1"
-              :checked="true"
-              value="someValue"
             />
             <CSwitch class="mx-1"
                      :variant="variant"
                      checked
                      :key="key"
-                     v-for="(variant, key) in ['secondary', 'success','warning','info','danger','light','dark','primary']"
+                     v-for="(variant, key) in ['secondary', 'success','warning','info','danger','light','dark']"
             />
             <CSwitch class="mx-1" variant="primary" disabled />
           </CCardBody>

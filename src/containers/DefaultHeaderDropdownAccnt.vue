@@ -6,7 +6,7 @@
     noPopper
     addMenuClasses="dropdown-menu-right"
   >
-    <template #buttonContent>
+    <template #button-content>
       <img
         src="img/avatars/6.jpg"
         class="img-avatar"
