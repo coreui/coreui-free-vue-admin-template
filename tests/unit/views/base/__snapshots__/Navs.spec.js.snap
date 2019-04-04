@@ -434,7 +434,8 @@ exports[`Navs.vue renders correctly 1`] = `
             extramenuclasses=""
             extratoggleclasses=""
             id="nav7_ddown"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
             text="Dropdown"
           >

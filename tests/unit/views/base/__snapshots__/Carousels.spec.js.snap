@@ -233,7 +233,58 @@ exports[`Carousels.vue renders correctly 1`] = `
                   aria-owns="carousel1___BV_inner_"
                   class="carousel-indicators"
                   id="carousel1___BV_indicators_"
-                />
+                >
+                  <li
+                    aria-controls="carousel1___BV_inner_"
+                    aria-current="true"
+                    aria-describedby="__BVID__27"
+                    aria-label="Goto Slide 1"
+                    class="active"
+                    id="carousel1___BV_indicator_1_"
+                    role="button"
+                    tabindex="0"
+                  />
+                  <li
+                    aria-controls="carousel1___BV_inner_"
+                    aria-current="false"
+                    aria-describedby="__BVID__28"
+                    aria-label="Goto Slide 2"
+                    class=""
+                    id="carousel1___BV_indicator_2_"
+                    role="button"
+                    tabindex="0"
+                  />
+                  <li
+                    aria-controls="carousel1___BV_inner_"
+                    aria-current="false"
+                    aria-describedby="__BVID__29"
+                    aria-label="Goto Slide 3"
+                    class=""
+                    id="carousel1___BV_indicator_3_"
+                    role="button"
+                    tabindex="0"
+                  />
+                  <li
+                    aria-controls="carousel1___BV_inner_"
+                    aria-current="false"
+                    aria-describedby="__BVID__30"
+                    aria-label="Goto Slide 4"
+                    class=""
+                    id="carousel1___BV_indicator_4_"
+                    role="button"
+                    tabindex="0"
+                  />
+                  <li
+                    aria-controls="carousel1___BV_inner_"
+                    aria-current="false"
+                    aria-describedby="__BVID__31"
+                    aria-label="Goto Slide 5"
+                    class=""
+                    id="carousel1___BV_indicator_5_"
+                    role="button"
+                    tabindex="0"
+                  />
+                </ol>
               </div>
                
               <p

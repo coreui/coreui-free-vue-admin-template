@@ -127,7 +127,8 @@ exports[`Navbars.vue renders correctly 1`] = `
             <b-nav-item-dropdown-stub
               extramenuclasses=""
               extratoggleclasses=""
-              right=""
+              offset="0"
+              right="true"
               role="menu"
               text="Lang"
             >
@@ -179,8 +180,10 @@ exports[`Navbars.vue renders correctly 1`] = `
             <b-nav-item-dropdown-stub
               extramenuclasses=""
               extratoggleclasses=""
-              right=""
+              offset="0"
+              right="true"
               role="menu"
+              text=""
             >
               <template>
                 <em>
@@ -402,7 +405,8 @@ exports[`Navbars.vue renders correctly 1`] = `
               <b-nav-item-dropdown-stub
                 extramenuclasses=""
                 extratoggleclasses=""
-                right=""
+                offset="0"
+                right="true"
                 role="menu"
                 text="Lang"
               >
@@ -454,7 +458,8 @@ exports[`Navbars.vue renders correctly 1`] = `
               <b-nav-item-dropdown-stub
                 extramenuclasses=""
                 extratoggleclasses=""
-                right=""
+                offset="0"
+                right="true"
                 role="menu"
                 text="User"
               >

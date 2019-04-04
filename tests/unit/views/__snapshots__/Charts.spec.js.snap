@@ -23,6 +23,10 @@ exports[`Charts.vue renders correctly 1`] = `
       >
         <line-example-stub
           chartid="chart-line-01"
+          cssclasses=""
+          height="400"
+          plugins=""
+          width="400"
         />
       </div>
     </b-card-stub>
@@ -41,6 +45,10 @@ exports[`Charts.vue renders correctly 1`] = `
       >
         <bar-example-stub
           chartid="chart-bar-01"
+          cssclasses=""
+          height="400"
+          plugins=""
+          width="400"
         />
       </div>
     </b-card-stub>
@@ -59,6 +67,10 @@ exports[`Charts.vue renders correctly 1`] = `
       >
         <doughnut-example-stub
           chartid="chart-doughnut-01"
+          cssclasses=""
+          height="400"
+          plugins=""
+          width="400"
         />
       </div>
     </b-card-stub>
@@ -77,6 +89,10 @@ exports[`Charts.vue renders correctly 1`] = `
       >
         <radar-example-stub
           chartid="chart-radar-01"
+          cssclasses=""
+          height="400"
+          plugins=""
+          width="400"
         />
       </div>
     </b-card-stub>
@@ -95,6 +111,10 @@ exports[`Charts.vue renders correctly 1`] = `
       >
         <pie-example-stub
           chartid="chart-pie-01"
+          cssclasses=""
+          height="400"
+          plugins=""
+          width="400"
         />
       </div>
     </b-card-stub>
@@ -113,6 +133,10 @@ exports[`Charts.vue renders correctly 1`] = `
       >
         <polar-area-example-stub
           chartid="chart-polar-area-01"
+          cssclasses=""
+          height="400"
+          plugins=""
+          width="400"
         />
       </div>
     </b-card-stub>
