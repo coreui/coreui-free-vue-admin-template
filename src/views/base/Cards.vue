@@ -52,7 +52,7 @@
           <CCardBody :bodyHtml="loremIpsum"/>
         </CCard>
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
       <CCol sm="6" md="4">
         <CCard
@@ -92,7 +92,7 @@
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
 
     <CRow>
       <CCol sm="6" md="4">
@@ -125,7 +125,7 @@
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </CCard>
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
       <CCol sm="6" md="4">
         <CCard class="bg-primary text-center" bodyWrapper>
@@ -187,7 +187,7 @@
           </blockquote>
         </CCard>
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
       <CCol sm="6" md="4">
         <CCard headerHtml="Card title" class="bg-primary" bodyWrapper>

@@ -14,21 +14,21 @@
         </CCardHeader>
         <CCardBody>
           <CRow>
-            <CCol cols="4">
+            <CCol col="4">
               <div class="text-center my-3">
                 <CButton v-c-tooltip.hover.click="'I am a tooltip!'">
                   Hover Me
                 </CButton>
               </div>
             </CCol>
-            <CCol cols="4">
+            <CCol col="4">
               <div class="text-center my-3">
                 <CButton v-c-tooltip="{content: 'I start open!', active:true }">
                   Hover me
                 </CButton>
               </div>
             </CCol>
-            <CCol cols="4">
+            <CCol col="4">
               <div class="text-center my-3">
                 <CButton v-c-tooltip.click="
                   'I am showing on click and hiding on click outside tooltip!'

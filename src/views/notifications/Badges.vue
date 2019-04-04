@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="animated fadeIn">
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
@@ -27,7 +27,7 @@
             </CCardFooter>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Badge

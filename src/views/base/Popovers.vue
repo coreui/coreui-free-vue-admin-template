@@ -13,7 +13,7 @@
         </CCardHeader>
         <CCardBody>
           <CRow>
-            <CCol cols="4">
+            <CCol col="4">
               <div class="my-3 text-center">
                 <CButton
                   variant="primary"
@@ -26,7 +26,7 @@
                 </CButton>
               </div>
             </CCol>
-            <CCol cols="4">
+            <CCol col="4">
               <div class="my-3 text-center">
                 <CButton
                   variant="primary"
@@ -39,7 +39,7 @@
                 />
               </div>
             </CCol>
-            <CCol cols="4">
+            <CCol col="4">
               <div class="my-3 text-center">
                 <CButton
                   variant="primary"

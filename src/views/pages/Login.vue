@@ -21,10 +21,10 @@
                     autocomplete="curent-password"
                   />
                   <CRow>
-                    <CCol cols="6">
+                    <CCol col="6">
                       <CButton variant="primary" class="px-4">Login</CButton>
                     </CCol>
-                    <CCol cols="6" class="text-right">
+                    <CCol col="6" class="text-right">
                       <CButton variant="link" class="px-0">Forgot password?</CButton>
                     </CCol>
                   </CRow>

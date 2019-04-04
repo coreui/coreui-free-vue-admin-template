@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="animated fadeIn">
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
@@ -28,7 +28,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Alert
@@ -66,7 +66,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Alerts <small>with additional content</small>
@@ -87,7 +87,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Alerts

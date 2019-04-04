@@ -141,7 +141,7 @@
         </CCardHeader>
         <CCardBody>
           <CRow>
-            <CCol cols="3" class="m-0">
+            <CCol col="3" class="m-0">
               <CNav vertical pills >
                 <CNavItem active>Active</CNavItem>
                 <CNavItem>Link</CNavItem>

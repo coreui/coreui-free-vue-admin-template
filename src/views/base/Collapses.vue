@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="animated fadeIn">
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
@@ -31,7 +31,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <!-- <CCol cols="12" md="6">
+        <!-- <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>v-b-toggle</code> directive</small>
@@ -51,7 +51,7 @@
         </CCol>
       </CRow>
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>visibility</code></small>
@@ -66,7 +66,7 @@
             </div>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>with <code>v-model</code></small>
@@ -88,7 +88,7 @@
         </CCol>
       </CRow>
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small>multiple elements</small>
@@ -109,7 +109,7 @@
             </div>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Collapse </strong> <small><code>accordion</code> support</small>

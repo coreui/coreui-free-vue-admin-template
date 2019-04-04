@@ -36,10 +36,10 @@
             </CCardBody>
             <CCardFooter class="p-4">
               <CRow>
-                <CCol cols="6">
+                <CCol col="6">
                   <CButton block class="btn btn-facebook"><span>facebook</span></CButton>
                 </CCol>
-                <CCol cols="6">
+                <CCol col="6">
                   <CButton block class="btn btn-twitter" type="button"><span>twitter</span></CButton>
                 </CCol>
               </CRow>

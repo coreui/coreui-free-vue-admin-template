@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="animated fadeIn">
       <CRow>
-        <CCol cols="12" >
+        <CCol col="12" >
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Bootstrap button group</strong>
@@ -34,7 +34,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12">
+        <CCol col="12">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Button group </strong>sizing
@@ -62,7 +62,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12">
+        <CCol col="12">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Button group </strong>dropdown support
@@ -90,7 +90,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12">
+        <CCol col="12">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Button group </strong>vertical variation
@@ -106,7 +106,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12">
+        <CCol col="12">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>

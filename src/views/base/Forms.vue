@@ -590,10 +590,10 @@
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
-              <CCol :cols="12 - number">
+              <CCol :col="12 - number">
                 <CFormInput class="mb-0" :placeholder="`.col-md-${12 - number}`"/>
               </CCol>
-              <CCol :cols="number">
+              <CCol :col="number">
                 <CFormInput class="mb-0" :placeholder="`.col-md-${number}`"/>
               </CCol>
             </CRow>
@@ -618,10 +618,10 @@
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
-              <CCol :cols="number">
+              <CCol :col="number">
                 <CFormInput class="mb-0" :placeholder="`.col-${number}`"/>
               </CCol>
-              <CCol :cols="12 - number">
+              <CCol :col="12 - number">
                 <CFormInput class="mb-0" :placeholder="`.col-${12 - number}`"/>
               </CCol>
             </CRow>

@@ -169,7 +169,7 @@
         </CCol>
       </CRow>
       <CRow>
-        <CCol cols="12">
+        <CCol col="12">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>

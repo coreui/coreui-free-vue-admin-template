@@ -41,7 +41,7 @@
                     square
                     size="sm"
                     @click="toggleDetails(index)"
-                    :text="details.includes(index) ? 'Hide' : 'Show'"
+                    :textHtml="details.includes(index) ? 'Hide' : 'Show'"
                   />
                 </td>
               </template>
@@ -92,7 +92,7 @@
           caption="<i class='fa fa-align-justify'></i> Striped Table"
         />
       </CCol><!--/.col-->
-    </CRow><!--/.row-->
+    </CRow>
 
     <CRow>
       <CCol lg="6">
@@ -111,7 +111,7 @@
           caption="<i class='fa fa-align-justify'></i> Bordered Table"
         />
       </CCol><!--/.col-->
-    </CRow><!--/.row-->
+    </CRow>
 
     <CRow>
       <CCol sm="12">

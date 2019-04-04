@@ -31,7 +31,7 @@
           <CWidgetProgress header="2 TB" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
                     variant="danger" :value="25"/>
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
       <CCol sm="6" lg="3">
         <CWidgetProgress header="89.9%" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
@@ -49,39 +49,39 @@
         <CWidgetProgress header="2 TB" text="Lorem ipsum..." footer="Lorem ipsum dolor sit amet enim."
                   variant="danger" inverse :value="25"/>
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
           addIconClasses="fa fa-cogs bg-primary"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           addIconClasses="fa fa-laptop bg-info"
           text="Income"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           addIconClasses="fa fa-moon-o bg-warning"
           text="Income"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           addIconClasses="fa fa-bell bg-danger"
           text="Income"
         />
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           addIconClasses="fa fa-cogs bg-primary"
@@ -89,7 +89,7 @@
           link="#"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           addIconClasses="fa fa-laptop bg-info"
@@ -97,14 +97,14 @@
           link="#"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           addIconClasses="fa fa-moon-o bg-warning bg-primary"
           text="Income" link="#"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           addIconClasses="fa fa-bell bg-danger"
@@ -112,9 +112,9 @@
           link="#"
         />
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -122,7 +122,7 @@
           noPadding
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -130,7 +130,7 @@
           noPadding
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -138,7 +138,7 @@
           noPadding
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="3">
+      <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -146,9 +146,9 @@
           noPadding
         />
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
-      <CCol cols="12" sm="6" lg="4">
+      <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -156,7 +156,7 @@
           noPadding
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="4">
+      <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -164,7 +164,7 @@
           noPadding
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="4">
+      <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -172,9 +172,9 @@
           noPadding
         />
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <CRow>
-      <CCol cols="12" sm="6" lg="4">
+      <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -183,7 +183,7 @@
           link="#"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="4">
+      <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -192,7 +192,7 @@
           link="#"
         />
       </CCol>
-      <CCol cols="12" sm="6" lg="4">
+      <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
@@ -201,7 +201,7 @@
           link="#"
         />
       </CCol>
-    </CRow><!--/.row-->
+    </CRow>
     <WidgetsSocial noCharts/>
     <WidgetsSocial/>
     <CCardGroup class="mb-4">

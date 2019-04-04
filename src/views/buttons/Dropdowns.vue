@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="animated fadeIn">
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
@@ -50,7 +50,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>positioning</small>
@@ -108,7 +108,7 @@
         </CCol>
       </CRow>
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>hidden caret</small>
@@ -128,7 +128,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>sizing</small>
@@ -162,7 +162,7 @@
         </CCol>
       </CRow>
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>headers and accessibility</small>
@@ -187,7 +187,7 @@
             </CCardBody>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small><code>variant</code></small>

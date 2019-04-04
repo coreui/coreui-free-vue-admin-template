@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="animated fadeIn">
       <CRow>
-        <CCol cols>
+        <CCol col>
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>

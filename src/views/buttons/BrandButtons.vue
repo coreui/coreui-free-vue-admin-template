@@ -1,7 +1,7 @@
 <template>
   <div class="animated fadeIn">
     <CRow>
-      <CCol cols="12">
+      <CCol col="12">
         <CCard>
           <CCardHeader>
             <strong>Brand Button</strong>
@@ -96,7 +96,7 @@
           </CCardBody>
         </CCard>
       </CCol><!--/.col-->
-      <CCol cols="12">
+      <CCol col="12">
         <CCard>
           <CCardHeader>
             <strong>Brand Button </strong> <small>Icons only</small>
@@ -192,7 +192,7 @@
         </CCard>
       </CCol><!--/.col-->
 
-      <CCol cols="12">
+      <CCol col="12">
         <CCard>
           <CCardHeader>
             <strong>Brand Button </strong> <small>Text only</small>
@@ -287,7 +287,7 @@
           </CCardBody>
         </CCard>
       </CCol><!--/.col-->
-    </CRow><!--/.row-->
+    </CRow>
   </div>
 </template>
 
