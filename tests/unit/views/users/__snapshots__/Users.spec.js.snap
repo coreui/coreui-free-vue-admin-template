@@ -40,12 +40,24 @@ exports[`Users.vue renders correctly 1`] = `
        
       <nav>
         <b-pagination-stub
-          hide-goto-end-buttons=""
-          next-text="Next"
+          align="left"
+          arialabel="Pagination"
+          ellipsistext="&hellip;"
+          firsttext="&laquo;"
+          hidegotoendbuttons="true"
+          labelfirstpage="Goto first page"
+          labellastpage="Goto last page"
+          labelnextpage="Goto next page"
+          labelpage="Goto page"
+          labelprevpage="Goto previous page"
+          lasttext="&raquo;"
+          limit="5"
+          nexttext="Next"
           perpage="5"
-          prev-text="Prev"
+          prevtext="Prev"
           size="sm"
           totalrows="26"
+          value="1"
         />
       </nav>
     </b-card-stub>

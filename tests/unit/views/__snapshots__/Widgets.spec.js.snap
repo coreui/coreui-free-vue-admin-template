@@ -1082,8 +1082,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="65,59,84,84,51,55,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1141,8 +1145,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="1,13,9,17,34,41,38"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1200,8 +1208,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="78,81,80,45,34,12,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1259,8 +1271,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="35,23,56,22,97,23,64"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>

@@ -101,10 +101,13 @@ exports[`Forms.vue renders correctly 1`] = `
               </label>
                
               <b-form-select-stub
+                disabledfield="disabled"
                 id="month1"
                 options="1,2,3,4,5,6,7,8,9,10,11,12"
                 plain="true"
                 selectsize="0"
+                textfield="text"
+                valuefield="value"
               />
             </b-form-group-stub>
           </b-col-stub>
@@ -124,10 +127,13 @@ exports[`Forms.vue renders correctly 1`] = `
               </label>
                
               <b-form-select-stub
+                disabledfield="disabled"
                 id="year1"
                 options="2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025"
                 plain="true"
                 selectsize="0"
+                textfield="text"
+                valuefield="value"
               />
             </b-form-group-stub>
           </b-col-stub>
@@ -454,11 +460,14 @@ exports[`Forms.vue renders correctly 1`] = `
             labelfor="basicSelect"
           >
             <b-form-select-stub
+              disabledfield="disabled"
               id="basicSelect"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
           </b-form-group-stub>
            
@@ -470,12 +479,15 @@ exports[`Forms.vue renders correctly 1`] = `
             labelfor="basicSelectLg"
           >
             <b-form-select-stub
+              disabledfield="disabled"
               id="basicSelectLg"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
               size="lg"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
           </b-form-group-stub>
            
@@ -487,12 +499,15 @@ exports[`Forms.vue renders correctly 1`] = `
             labelfor="basicSelectSm"
           >
             <b-form-select-stub
+              disabledfield="disabled"
               id="basicSelectSm"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
               size="sm"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
           </b-form-group-stub>
            
@@ -505,11 +520,14 @@ exports[`Forms.vue renders correctly 1`] = `
           >
             <b-form-select-stub
               disabled="true"
+              disabledfield="disabled"
               id="basicSelectDisabled"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
           </b-form-group-stub>
            
@@ -521,12 +539,15 @@ exports[`Forms.vue renders correctly 1`] = `
             labelfor="basicMultiSelect"
           >
             <b-form-select-stub
+              disabledfield="disabled"
               id="basicMultiSelect"
               multiple="true"
               options="[object Object],[object Object],[object Object],[object Object],[object Object]"
               plain="true"
               selectsize="0"
+              textfield="text"
               value=",c"
+              valuefield="value"
             />
           </b-form-group-stub>
            
@@ -540,10 +561,13 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-radio-group-stub
               buttonvariant="secondary"
               checked="2"
+              disabledfield="disabled"
               id="basicRadios"
               options="[object Object],[object Object],[object Object]"
               plain="true"
               stacked="true"
+              textfield="text"
+              valuefield="value"
             />
           </b-form-group-stub>
            
@@ -557,9 +581,12 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-radio-group-stub
               buttonvariant="secondary"
               checked="3"
+              disabledfield="disabled"
               id="basicInlineRadios"
               options="[object Object],[object Object],[object Object]"
               plain="true"
+              textfield="text"
+              valuefield="value"
             />
           </b-form-group-stub>
            
@@ -573,10 +600,14 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-checkbox-group-stub
               buttonvariant="secondary"
               checked="2,3"
+              disabledfield="disabled"
               id="basicCheckboxes"
               name="Checkboxes"
+              options=""
               plain="true"
               stacked="true"
+              textfield="text"
+              valuefield="value"
             >
               <b-form-checkbox-stub
                 value="1"
@@ -608,9 +639,13 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-checkbox-group-stub
               buttonvariant="secondary"
               checked="1,3"
+              disabledfield="disabled"
               id="basicInlineCheckboxes"
               name="InlineCheckboxes"
+              options=""
               plain="true"
+              textfield="text"
+              valuefield="value"
             >
               <b-form-checkbox-stub
                 plain="true"
@@ -644,9 +679,13 @@ exports[`Forms.vue renders correctly 1`] = `
           >
             <b-form-radio-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
               id="basicRadiosCustom"
+              options=""
               stacked="true"
+              textfield="text"
               value="1"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-radio"
@@ -717,8 +756,12 @@ exports[`Forms.vue renders correctly 1`] = `
           >
             <b-form-radio-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
               id="basicCustomRadios1"
               name="customRadioInline1"
+              options=""
+              textfield="text"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-radio custom-control-inline"
@@ -789,8 +832,12 @@ exports[`Forms.vue renders correctly 1`] = `
           >
             <b-form-checkbox-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
               id="basicCustomCheckboxes"
+              options=""
               stacked="true"
+              textfield="text"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-checkbox"
@@ -858,7 +905,11 @@ exports[`Forms.vue renders correctly 1`] = `
           >
             <b-form-checkbox-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
               id="basicInlineCustomCheckboxes"
+              options=""
+              textfield="text"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-checkbox custom-control-inline"
@@ -1195,7 +1246,7 @@ exports[`Forms.vue renders correctly 1`] = `
               autocomplete="email"
               id="normalEmail"
               placeholder="Enter Email.."
-              required=""
+              required="true"
               type="email"
             />
           </b-form-group-stub>
@@ -1212,7 +1263,7 @@ exports[`Forms.vue renders correctly 1`] = `
               autocomplete="current-password"
               id="normalPass"
               placeholder="Enter Password.."
-              required=""
+              required="true"
               type="password"
             />
           </b-form-group-stub>
@@ -1726,7 +1777,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 class="form-control-warning"
                 id="inputError2"
-                required=""
+                required="true"
                 type="text"
               />
                
@@ -2118,6 +2169,7 @@ exports[`Forms.vue renders correctly 1`] = `
             >
               <b-dropdown-stub
                 boundary="scrollParent"
+                offset="0"
                 role="menu"
                 text="Action"
                 toggletext="Toggle Dropdown"
@@ -2191,7 +2243,8 @@ exports[`Forms.vue renders correctly 1`] = `
             >
               <b-dropdown-stub
                 boundary="scrollParent"
-                right=""
+                offset="0"
+                right="true"
                 role="menu"
                 text="Action"
                 toggletext="Toggle Dropdown"
@@ -2254,6 +2307,7 @@ exports[`Forms.vue renders correctly 1`] = `
             >
               <b-dropdown-stub
                 boundary="scrollParent"
+                offset="0"
                 role="menu"
                 split="true"
                 text="Split"
@@ -2317,7 +2371,8 @@ exports[`Forms.vue renders correctly 1`] = `
             >
               <b-dropdown-stub
                 boundary="scrollParent"
-                right=""
+                offset="0"
+                right="true"
                 role="menu"
                 text="Action"
                 toggletext="Toggle Dropdown"

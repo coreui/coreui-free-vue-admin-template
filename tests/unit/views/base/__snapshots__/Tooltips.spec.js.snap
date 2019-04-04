@@ -94,8 +94,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-tooltip-stub
+              boundary="scrollParent"
+              delay="0"
+              offset="0"
               placement="top"
-              show=""
+              show="true"
               target="tooltipButton-2"
               title=""
               triggers="hover focus"
@@ -177,6 +180,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
       </b-row-stub>
        
       <b-tooltip-stub
+        boundary="scrollParent"
+        delay="0"
+        offset="0"
         placement="top"
         target="exButton1"
         title="Online!"
@@ -184,6 +190,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
       />
        
       <b-tooltip-stub
+        boundary="scrollParent"
+        delay="0"
+        offset="0"
         placement="bottom"
         target="exButton2"
         title=""
@@ -253,6 +262,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
         </b-btn-stub>
          
         <b-tooltip-stub
+          boundary="scrollParent"
+          delay="0"
+          offset="0"
           placement="top"
           show="true"
           target="tooltipButton-1"
@@ -342,6 +354,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
         </div>
          
         <b-tooltip-stub
+          boundary="scrollParent"
+          delay="0"
+          offset="0"
           placement="top"
           target="tooltipButton-showEvent"
           title=""
@@ -432,6 +447,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
           </b-btn-stub>
            
           <b-tooltip-stub
+            boundary="scrollParent"
+            delay="0"
+            offset="0"
             placement="top"
             target="tooltipButton-disable"
             title=""

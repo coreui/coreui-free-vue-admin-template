@@ -31,8 +31,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <b-dropdown-stub
             boundary="scrollParent"
             class="float-right"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -98,7 +100,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
         <card-line1-chart-example-stub
           chartid="card-chart-01"
           class="chart-wrapper px-3"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
         />
       </b-card-stub>
@@ -129,8 +133,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
             boundary="scrollParent"
             class="float-right"
             nocaret="true"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -196,7 +202,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
         <card-line2-chart-example-stub
           chartid="card-chart-02"
           class="chart-wrapper px-3"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
         />
       </b-card-stub>
@@ -226,8 +234,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <b-dropdown-stub
             boundary="scrollParent"
             class="float-right"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -293,7 +303,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
         <card-line3-chart-example-stub
           chartid="card-chart-03"
           class="chart-wrapper"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
         />
       </b-card-stub>
@@ -323,8 +335,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <b-dropdown-stub
             boundary="scrollParent"
             class="float-right"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -390,8 +404,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
         <card-bar-chart-example-stub
           chartid="card-chart-04"
           class="chart-wrapper px-3"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
+          width="400"
         />
       </b-card-stub>
     </b-col-stub>
@@ -454,8 +471,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             buttons="true"
             buttonvariant="outline-secondary"
             class="mr-3"
+            disabledfield="disabled"
             id="radiosBtn"
             name="radiosBtn"
+            options=""
+            textfield="text"
+            value="Month"
+            valuefield="value"
           >
             <b-form-radio-stub
               class="mx-0"
@@ -485,8 +507,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
     <main-chart-example-stub
       chartid="main-chart-01"
       class="chart-wrapper"
+      cssclasses=""
       height="300"
+      plugins=""
       style="height: 300px; margin-top: 40px;"
+      width="400"
     />
      
     <div
@@ -641,8 +666,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
           >
             <social-box-chart-example-stub
               chartid="box-chart-01"
+              cssclasses=""
               data="65,59,84,84,51,55,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -701,8 +729,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
           >
             <social-box-chart-example-stub
               chartid="box-chart-02"
+              cssclasses=""
               data="1,13,9,17,34,41,38"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -761,8 +792,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
           >
             <social-box-chart-example-stub
               chartid="box-chart-03"
+              cssclasses=""
               data="78,81,80,45,34,12,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -821,8 +855,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
           >
             <social-box-chart-example-stub
               chartid="box-chart-04"
+              cssclasses=""
               data="35,23,56,22,97,23,64"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -915,8 +952,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   >
                     <callout-chart-example-stub
                       chartid="callout-chart-01"
+                      cssclasses=""
                       data="35,23,56,22,97,23,64"
                       height="30"
+                      plugins=""
                       variant="info"
                       width="80"
                     />
@@ -950,8 +989,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   >
                     <callout-chart-example-stub
                       chartid="callout-chart-02"
+                      cssclasses=""
                       data="65,59,84,84,51,55,40"
                       height="30"
+                      plugins=""
                       variant="danger"
                       width="80"
                     />
@@ -1307,8 +1348,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   >
                     <callout-chart-example-stub
                       chartid="callout-chart-03"
+                      cssclasses=""
                       data="35,23,56,22,97,23,64"
                       height="30"
+                      plugins=""
                       variant="#f8cb00"
                       width="80"
                     />
@@ -1342,8 +1385,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   >
                     <callout-chart-example-stub
                       chartid="callout-chart-04"
+                      cssclasses=""
                       data="65,59,84,84,51,55,40"
                       height="30"
+                      plugins=""
                       variant="#4dbd74"
                       width="80"
                     />
@@ -1644,6 +1689,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           sortdirection="asc"
           value=""
         >
+             
           <i
             class="flag-icon flag-icon-pw h1"
             id="pw"

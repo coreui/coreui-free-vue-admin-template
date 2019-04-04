@@ -90,9 +90,12 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content=""
+              delay="0"
+              offset="0"
               placement="right"
-              show=""
+              show="true"
               target="popoverButton-open"
               title="Popover"
               triggers="click"
@@ -158,7 +161,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement topright"
+              delay="0"
+              offset="0"
               placement="topright"
               target="exPopover1-topright"
               title="Popover!"
@@ -186,7 +192,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement top"
+              delay="0"
+              offset="0"
               placement="top"
               target="exPopover1-top"
               title="Popover!"
@@ -214,7 +223,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement topleft"
+              delay="0"
+              offset="0"
               placement="topleft"
               target="exPopover1-topleft"
               title="Popover!"
@@ -242,7 +254,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement bottomright"
+              delay="0"
+              offset="0"
               placement="bottomright"
               target="exPopover1-bottomright"
               title="Popover!"
@@ -270,7 +285,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement bottom"
+              delay="0"
+              offset="0"
               placement="bottom"
               target="exPopover1-bottom"
               title="Popover!"
@@ -298,7 +316,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement bottomleft"
+              delay="0"
+              offset="0"
               placement="bottomleft"
               target="exPopover1-bottomleft"
               title="Popover!"
@@ -326,7 +347,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement righttop"
+              delay="0"
+              offset="0"
               placement="righttop"
               target="exPopover1-righttop"
               title="Popover!"
@@ -354,7 +378,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement right"
+              delay="0"
+              offset="0"
               placement="right"
               target="exPopover1-right"
               title="Popover!"
@@ -382,7 +409,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement lefttop"
+              delay="0"
+              offset="0"
               placement="lefttop"
               target="exPopover1-lefttop"
               title="Popover!"
@@ -410,7 +440,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement rightbottom"
+              delay="0"
+              offset="0"
               placement="rightbottom"
               target="exPopover1-rightbottom"
               title="Popover!"
@@ -438,7 +471,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement left"
+              delay="0"
+              offset="0"
               placement="left"
               target="exPopover1-left"
               title="Popover!"
@@ -466,7 +502,10 @@ exports[`Popovers.vue renders correctly 1`] = `
             </b-btn-stub>
              
             <b-popover-stub
+              boundary="scrollParent"
               content="Placement leftbottom"
+              delay="0"
+              offset="0"
               placement="leftbottom"
               target="exPopover1-leftbottom"
               title="Popover!"
@@ -523,7 +562,10 @@ exports[`Popovers.vue renders correctly 1`] = `
           </b-btn-stub>
            
           <b-popover-stub
+            boundary="scrollParent"
             content="Embedding content using properties is easy"
+            delay="0"
+            offset="0"
             placement="right"
             target="exPopover2"
             title="Prop Examples"
@@ -550,7 +592,10 @@ exports[`Popovers.vue renders correctly 1`] = `
           </b-btn-stub>
            
           <b-popover-stub
+            boundary="scrollParent"
             content=""
+            delay="0"
+            offset="0"
             placement="right"
             target="exPopover3"
             title=""
@@ -641,7 +686,10 @@ exports[`Popovers.vue renders correctly 1`] = `
           </b-btn-stub>
            
           <b-popover-stub
+            boundary="scrollParent"
             content=""
+            delay="0"
+            offset="0"
             placement="right"
             target="popoverButton-sync"
             title="Popover"
@@ -729,7 +777,10 @@ exports[`Popovers.vue renders correctly 1`] = `
         </div>
          
         <b-popover-stub
+          boundary="scrollParent"
           content=""
+          delay="0"
+          offset="0"
           placement="right"
           target="popoverButton-event"
           title="Popover"
@@ -816,7 +867,10 @@ exports[`Popovers.vue renders correctly 1`] = `
         </div>
          
         <b-popover-stub
+          boundary="scrollParent"
           content=""
+          delay="0"
+          offset="0"
           placement="right"
           target="popoverButton-disableevent"
           title="Popover"
