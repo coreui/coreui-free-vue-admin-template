@@ -1,5 +1,10 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.1.3`
+- fix: change bootstrap-vue library to constant version (2.0.0-rc.11) to fix breaking changes from next versions and avoid future breaking changes
+- chore: update dependencies
+- chore: update test snapshots
+
 ##### `v2.1.2`
 - chore: update `@coreui/coreui` to `^2.1.6`
 - chore: update `@coreui/vue` to `^2.1.2`
@@ -24,8 +29,8 @@
 
 ##### `v2.1.0`
 - feat(SidebarNav): navLink `attributes` - optional JS object with valid JS API naming:
-  - attributes: `rel`, `target`, `hidden`, `disabled`, etc...  
-  - starting with `@coreui/coreui ^2.1.4`, `@coreui/vue ^2.1.0` 
+  - attributes: `rel`, `target`, `hidden`, `disabled`, etc...
+  - starting with `@coreui/coreui ^2.1.4`, `@coreui/vue ^2.1.0`
   - item example(`./src/_nav.js`):
 ```
 {
@@ -107,14 +112,14 @@
 - chore: update `@coreui/icons` to `0.3.0`
 - refactor(CoreUIIcons): move to `@coreui/icons v0.3.0`
 - fix(Dashboard): SocialBoxChartExample height
-- fix(Widgets): SocialBoxChartExample height 
+- fix(Widgets): SocialBoxChartExample height
 - fix(Widgets):  Income widgets cols
 - test(unit): add test for User.vue
 - test: add jest config for coverage
 
 ##### `v2.0.0-rc.0`
-- test(unit): add some views testing 
-- test(e2e): add testing for mobile `sidebar-show` 
+- test(unit): add some views testing
+- test(e2e): add testing for mobile `sidebar-show`
 - refactor: card headers margins
 - chore: update `vue` to `2.5.17`
 - chore: update `vue-template-compiler` to `2.5.17`
@@ -158,8 +163,8 @@
 - feat(router): `Users/User Details` Breadcrumb example with `/users/:id`
 - refactor(router): add dynamic imports for Webpack code splitting
 - refactor: remove empty `<style>` sections from `vue` files
-- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Login 
-- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Register 
+- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Login
+- refactor(Pages): add `b-form`, `b-form-input` and `autocomplete` to Register
 - chore: update `@coreui/coreui` to `2.0.3`
 - chore: update `@vue/cli-plugin-babel` to `3.0.0-rc.3`
 - chore: update `@vue/cli-plugin-e2e-nightwatch` to `3.0.0-rc.3`
@@ -167,7 +172,7 @@
 - chore: update `@vue/cli-plugin-unit-jest` to `3.0.0-rc.3`
 - chore: update `@vue/cli-service` to `3.0.0-rc.3`
 - chore: update `@vue/test-utils` to `^1.0.0-beta.20`
-- chore: update `babel-jest` to `23.2.0`     
+- chore: update `babel-jest` to `23.2.0`
 
 ##### `v2.0.0-beta.5`
 - chore: move tooling to `vue-cli v3.0.0-rc.2`
@@ -209,7 +214,7 @@
 - refactor(Forms): add `autocomplete` attrib
 - refactor(Forms): add missing `form` tags
 - refactor(Buttons): view rearrange
-- refactor(Jumbotrons): view rearrange  
+- refactor(Jumbotrons): view rearrange
 - feat(Icons): add `CoreUI Icons` set
 - feat(Tabs): add missing feat `tabs`
 - feat(Charts): add `CustomTooltips`, fix tooltip `chartId` issue
@@ -218,10 +223,10 @@
 - chore: dependencies update
 - chore: cleanups
 
-other:  
+other:
 
 - feat: app-footer fixed
-- refactor(dashboard): brand-card, progress-group-bars 
+- refactor(dashboard): brand-card, progress-group-bars
 - refactor(social-box-chart-example): props
 - feat(forms): new `<b-form-input type="date">` example added
 - refactor(cards): Card outline, Card accent - title variants added
@@ -230,7 +235,7 @@ other:
 - update: vuejs-templates/webpack to v1.3.1
 - fix: eslint `valid template root`
 - refactor: card header title spacing
-- refactor: btn-brand 
+- refactor: btn-brand
 - test(e2e): update
 - refactor: sidebar
-- refactor: chart examples 
+- refactor: chart examples
