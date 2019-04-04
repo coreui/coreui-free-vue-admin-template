@@ -183,12 +183,30 @@
                       v-for="option in options"
                       :key="option"
                       :label="option"
-                      :type="[0,1,4,5].includes(key) ? 'radio' : 'checkbox'"
                       :value="option"
-                      :custom="key > 3"
+                      :custom="key > 1"
                       :name="`Option 1${key}`"
-                      :checked="[0,1,4,5].includes(key) ?
-                        `Option 1` : Math.random() > 0.6"
+                      :checked="Math.random() > 0.6"
+                      :class="key % 2 === 1 ? 'form-check-inline' : ''"
+                    />
+                  </CCol>
+                </div>
+              </template>
+              <template v-for="(name, key) in radioNames">
+                <div class="form-row form-group" :key="name">
+                  <CCol sm="3">
+                    {{name}}
+                  </CCol>
+                  <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
+                    <CFormRadio
+                      v-for="(option, optKey) in options"
+                      :key="option"
+                      :label="option"
+                      type="radio"
+                      :value="option"
+                      :custom="key > 1"
+                      :name="`Option 1${key}`"
+                      checked="Option 1"
                       :class="key % 2 === 1 ? 'form-check-inline' : ''"
                     />
                   </CCol>
@@ -202,6 +220,17 @@
                 label="Multiple file input"
                 horizontal
                 multiple
+              />
+              <CFormFile
+                label="File custom input"
+                horizontal
+                custom
+              />
+              <CFormFile
+                label="Multiple file custom input"
+                horizontal
+                multiple
+                custom
               />
             </CForm>
           </CCardBody>
@@ -778,7 +807,7 @@
                   </template>
                 </CFormInput>
                 <CFormInput label="Two-buttons append">
-                  <template v-slot:append>
+                  <template #append>
                     <CButton variant="primary">Search</CButton>
                     <CButton variant="danger">Options</CButton>
                   </template>
@@ -815,10 +844,10 @@ export default {
       horizontal: { label:'col-3', input:'col-9' },
       options: ['Option 1', 'Option 2', 'Option 3'],
       formCollapsed: true,
-      checkboxNames: ['Radios', 'Inline Radios',
-                      'Checkboxes', 'Inline Checkboxes',
-                      'Radios - custom', 'Inline Radios - custom',
-                      'Checkboxes - custom', 'Inline Checkboxes - custom']
+      checkboxNames: ['Checkboxes', 'Inline Checkboxes',
+                      'Checkboxes - custom', 'Inline Checkboxes - custom'],
+      radioNames: ['Radios', 'Inline Radios',
+                    'Radios - custom', 'Inline Radios - custom']
     }
   },
   updated () {
