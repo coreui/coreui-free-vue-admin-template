@@ -1,6 +1,5 @@
 <template>
   <div class="animated fadeIn">
-
     <CRow>
       <CCol xs="12" md="6">
         <CCard v-if="true">
@@ -12,6 +11,14 @@
             </h5>
           </CCardHeader>
           <CCardBody>
+            <!-- <CSwitch
+              :checked.sync="test11"
+              trueValue="yes"
+              falseValue="no"
+              id="alt"
+              name="lg"
+              required
+            /> -->
             <!-- <CSwitch class="mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" checked.sync="radio" trueValue="primary"/> -->
             <CSwitch class="mx-1"
                      :key="key"
@@ -368,7 +375,7 @@
             Switch <small><code>label</code></small>
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="mx-1" variant="primary" checked dataOn="" dataOff=""/>
+            <CSwitch class="mx-1" variant="primary" checked v-bind="labelIcon"/>
             <CSwitch class="mx-1" variant="secondary" checked v-bind="labelIcon" />
             <CSwitch class="mx-1" variant="success" checked v-bind="labelIcon" />
             <CSwitch class="mx-1" variant="warning" checked v-bind="labelIcon" />
@@ -526,13 +533,14 @@ export default {
       checker: 'yes',
       radio: 'primary',
       labelIcon: {
-        dataOn: '\u2713',
-        dataOff: '\u2715'
+        labelOn: '\u2713',
+        labelOff: '\u2715'
       },
       labelTxt: {
-        dataOn: 'yes',
-        dataOff: 'no'
-      }
+        labelOn: 'yes',
+        labelOff: 'no'
+      },
+
     }
   }
 }

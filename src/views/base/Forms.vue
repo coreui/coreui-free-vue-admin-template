@@ -187,7 +187,7 @@
                       :custom="key > 1"
                       :name="`Option 1${key}`"
                       :checked="Math.random() > 0.6"
-                      :class="key % 2 === 1 ? 'form-check-inline' : ''"
+                      :inline="key % 2 === 1"
                     />
                   </CCol>
                 </div>
@@ -207,7 +207,7 @@
                       :custom="key > 1"
                       :name="`Option 1${key}`"
                       checked="Option 1"
-                      :class="key % 2 === 1 ? 'form-check-inline' : ''"
+                      :inline="key % 2 === 1"
                     />
                   </CCol>
                 </div>
@@ -474,18 +474,18 @@
           <CCardBody>
             <CFormInput
               placeholder="Username"
-              prepend="<i class='fa fa-user'></i>"
+              prependHtml="<i class='fa fa-user'></i>"
             />
             <CFormInput
               type="email"
               placeholder="Email"
               autocomplete="email"
-              append="<i class='fa fa-envelope-o'></i>"
+              appendHtml="<i class='fa fa-envelope-o'></i>"
             />
             <CFormInput
-              prepend="<i class='fa fa-euro'></i>"
+              prependHtml="<i class='fa fa-euro'></i>"
               placeholder="ex. $1.000.000"
-              append=".00"
+              appendHtml=".00"
             />
           </CCardBody>
           <CCardFooter>
@@ -542,7 +542,7 @@
             <CFormInput placeholder="Username">
               <template #prepend>
                 <CDropdown
-                  buttonContent="Action"
+                  buttonHtml="Action"
                   variant="primary"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -559,7 +559,7 @@
             >
               <template #append>
                 <CDropdown
-                  buttonContent="Action"
+                  buttonHtml="Action"
                   variant="primary"
                   right
                 >
@@ -574,7 +574,7 @@
 
               <template #prepend>
                 <CDropdown
-                  buttonContent="Split"
+                  buttonHtml="Split"
                   variant="primary"
                   split
                 >
@@ -587,7 +587,7 @@
 
               <template #append>
                 <CDropdown
-                  buttonContent="Action"
+                  buttonHtml="Action"
                   variant="primary"
                   right
                 >
@@ -674,20 +674,20 @@
           <CCardBody>
             <CForm>
               <CFormInput
-                prepend="Username"
-                append="<i class='fa fa-user'></i>"
+                prependHtml="Username"
+                appendHtml="<i class='fa fa-user'></i>"
               />
               <CFormInput
-                prepend="Email"
+                prependHtml="Email"
                 type="email"
                 autocomplete="email"
-                append="<i class='fa fa-envelope'></i>"
+                appendHtml="<i class='fa fa-envelope'></i>"
               />
               <CFormInput
-                prepend="Password"
+                prependHtml="Password"
                 type="password"
                 autocomplete="current-password"
-                append="<i class='fa fa-asterisk'></i>"
+                appendHtml="<i class='fa fa-asterisk'></i>"
               />
               <div class="form-group form-actions">
                 <CButton type="submit" size="sm" variant="primary">Submit</CButton>
@@ -705,19 +705,19 @@
             <CForm>
               <CFormInput
                 placeholder="Username"
-                append="<i class='fa fa-user'></i>"
+                appendHtml="<i class='fa fa-user'></i>"
               />
               <CFormInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                append="<i class='fa fa-envelope'></i>"
+                appendHtml="<i class='fa fa-envelope'></i>"
               />
               <CFormInput
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                append="<i class='fa fa-asterisk'></i>"
+                appendHtml="<i class='fa fa-asterisk'></i>"
               />
               <div class="form-group form-actions">
                 <CButton type="submit" class="btn btn-sm btn-secondary">Submit</CButton>
@@ -735,19 +735,19 @@
             <CForm>
               <CFormInput
                 placeholder="Username"
-                prepend="<i class='fa fa-user'></i>"
+                prependHtml="<i class='fa fa-user'></i>"
               />
               <CFormInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                prepend="<i class='fa fa-envelope'></i>"
+                prependHtml="<i class='fa fa-envelope'></i>"
               />
               <CFormInput
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                prepend="<i class='fa fa-asterisk'></i>"
+                prependHtml="<i class='fa fa-asterisk'></i>"
               />
               <div class="form-group form-actions">
                 <CButton type="submit" size="sm" variant="success">Submit</CButton>
@@ -782,20 +782,20 @@
               <CCardBody>
                 <CFormInput
                   label="Prepended text"
-                  prepend="@"
+                  prependHtml="@"
                   description="Here's some help text"
                   type="email"
                   autocomplete="email"
                 />
                 <CFormInput
                   label="Appended text"
-                  append=".00"
+                  appendHtml=".00"
                   description="Here's some help text"
                 />
                 <CFormInput
-                  label="Appended text"
-                  prepend="$"
-                  append=".00"
+                  label="Appended and prepended text"
+                  prependHtml="$"
+                  appendHtml=".00"
                   description="Here's some help text"
                 />
                 <CFormInput
