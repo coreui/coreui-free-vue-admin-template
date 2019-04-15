@@ -22,7 +22,6 @@ export default {
       type: String,
       default: 'transparent'
     },
-    pointHoverBackgroundColor: String,
     dataPoints: {
       type: Array,
       default: () => [10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]
@@ -40,16 +39,25 @@ export default {
           data: this.dataPoints,
           borderColor: getColor(this.borderColor),
           backgroundColor: getColor(this.backgroundColor),
-          pointHoverBackgroundColor: getColor(this.pointHoverBackgroundColor),
+          pointBackgroundColor: this.pointBackgroundColor,
+          pointHoverBackgroundColor: getColor(this.borderColor),
           label: this.label
         }
       ]
+    },
+    pointBackgroundColor () {
+      if (this.backgroundColor === 'transparent') {
+        return '#fff'
+      } else {
+        return getColor(this.backgroundColor)
+      }
     },
     pointedOptions () {
       return {
         scales: {
           xAxes: [
             {
+              offset: true,
               gridLines: {
                 color: 'transparent',
                 zeroLineColor: 'transparent'
