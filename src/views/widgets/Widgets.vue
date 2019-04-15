@@ -264,70 +264,58 @@
     <CRow>
       <CCol sm="6" lg="3">
         <CWidgetSmallText rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
-          <CSimpleLineChart style="height:40px" chartId="CWidgetSmallText_line1" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
-          <CSimpleBarChart style="height:40px"
-                           :data="[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]"
-                           label="Sales"
-          />
+          <CChartLineSimple style="height:40px"/>
+          <CChartBarSimple style="height:40px"/>
         </CWidgetSmallText>
       </CCol>
       <CCol sm="6" lg="3">
         <CWidgetSmallText variant='success' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
-          <CSimpleLineChart style="height:40px" chartId="CWidgetSmallText_line2" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
-          <CSimpleBarChart style="height:40px" chartId="CWidgetSmallText_bar2" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
+          <CChartLineSimple style="height:40px"/>
+          <CChartBarSimple style="height:40px"/>
         </CWidgetSmallText>
       </CCol>
       <CCol sm="6" lg="3">
         <CWidgetSmallText variant='danger' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
-          <CSimpleLineChart style="height:40px" chartId="CWidgetSmallText_line3" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
-          <CSimpleBarChart style="height:40px" chartId="CWidgetSmallText_bar3" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
+          <CChartLineSimple style="height:40px"/>
+          <CChartBarSimple style="height:40px"/>
         </CWidgetSmallText>
       </CCol>
       <CCol sm="6" lg="3">
         <CWidgetSmallText variant='warning' rightHeader='SALE' rightFooter='Today 6:43 AM' leftHeader='$1.890,65' leftFooter='+432,50 (15,78%)'>
-          <CSimpleLineChart style="height:40px" chartId="CWidgetSmallText_line4" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
-          <CSimpleBarChart style="height:40px" chartId="CWidgetSmallText_bar4" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]' label='Sales'/>
+          <CChartLineSimple style="height:40px"/>
+          <CChartBarSimple style="height:40px"/>
         </CWidgetSmallText>
       </CCol>
     </CRow>
     <CRow>
       <CCol sm="4" lg="2">
         <CWidgetSimple header='title' text='1,123'>
-          <CSimpleLineChart style="height:40px" chartId="CWidgetSimple_1" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                       label='Sales' borderColor='danger'/>
+          <CChartLineSimple style="height:40px" borderColor="danger"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
         <CWidgetSimple header='title' text='1,123'>
-          <CSimpleLineChart style="height:40px" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                       label='Sales' borderColor='primary'/>
+          <CChartLineSimple style="height:40px" borderColor="primary"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
         <CWidgetSimple header='title' text='1,123'>
-                       <CSimpleLineChart style="height:40px"
-                                        :data="[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]"
-                                        label="Sales"
-                                        borderColor="success"
-                       />
+          <CChartLineSimple style="height:40px" borderColor="success"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
         <CWidgetSimple  header='title' text='1,123'>
-          <CSimpleBarChart style="height:40px" chartId="CWidgetSimple_4" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                      label='Sales' color='danger'/>
+          <CChartBarSimple style="height:40px" backgroundColor="danger"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
         <CWidgetSimple  header='title' text='1,123'>
-          <CSimpleBarChart style="height:40px" chartId="CWidgetSimple_5" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                      label='Sales' color='primary'/>
+          <CChartBarSimple style="height:40px" backgroundColor="primary"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
         <CWidgetSimple  header='title' text='1,123'>
-          <CSimpleBarChart style="height:40px"  :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                      label='Sales' color='success'/>
+          <CChartBarSimple style="height:40px" backgroundColor="success"/>
         </CWidgetSimple>
       </CCol>
     </CRow>
@@ -337,10 +325,13 @@
 <script>
 import WidgetsSocial from './WidgetsSocial'
 import WidgetsDropdown from './WidgetsDropdown'
+import { CChartLineSimple, CChartBarSimple } from '../charts/index.js'
 
 export default {
   name: 'Widgets',
   components: {
+    CChartLineSimple,
+    CChartBarSimple,
     WidgetsSocial,
     WidgetsDropdown
   }

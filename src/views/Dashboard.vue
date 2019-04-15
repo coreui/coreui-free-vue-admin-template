@@ -23,7 +23,7 @@
             </CButtonGroup>
           </CCol>
         </CRow>
-        <MainChartExample style="height:300px;margin-top:40px;" height="300"></MainChartExample>
+        <MainChartExample style="height:300px;margin-top:40px;"/>
       </CCardBody>
       <CCardFooter>
         <CRow class="text-center">
@@ -66,19 +66,29 @@
                   <CCallout variant="info">
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
-                    <div :style="{ top: '-10px'}">
-                      <!--<CalloutChartExample :data="[35, 23, 56, 22, 97, 23, 64]" variant="#20a8d8" width="80" height="30" />-->
-                      <CalloutChartExample :data="[35, 23, 56, 22, 97, 23, 64]" variant="info" width="80" height="30" />
-                    </div>
                   </CCallout>
+                  <!-- <CCallout variant="info" class="d-inline">
+                    <div  class="d-inline">
+                      <small class="text-muted">New Clients</small><br>
+                      <strong class="h4">9,123</strong>
+                    </div>
+                    <div class="d-inline">
+                      <CChartLineSimple
+                        :data="[35, 23, 56, 22, 97, 23, 64]"
+                        borderColor="info"
+                        style="width:80px !important"
+                        :options="{ maintainAspectRatio: true, aspectRatio: 3 }"
+                      />
+                    </div>
+                  </CCallout> -->
                 </CCol>
                 <CCol sm="6">
                   <CCallout variant="danger">
                     <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
-                    <div :style="{ top: '-10px'}">
+                    <!-- <div :style="{ top: '-10px'}">
                       <CalloutChartExample :data="[65, 59, 84, 84, 51, 55, 40]" variant="danger" width="80" height="30" />
-                    </div>
+                    </div> -->
                   </CCallout>
                 </CCol>
               </CRow>
@@ -176,18 +186,18 @@
                   <CCallout variant="warning">
                     <small class="text-muted">Pageviews</small><br>
                     <strong class="h4">78,623</strong>
-                    <div :style="{ top: '-10px'}">
+                    <!-- <div :style="{ top: '-10px'}">
                       <CalloutChartExample :data="[35, 23, 56, 22, 97, 23, 64]" variant="#f8cb00" width="80" height="30"/>
-                    </div>
+                    </div> -->
                   </CCallout>
                 </CCol>
                 <CCol sm="6">
                   <CCallout variant="success">
                     <small class="text-muted">Organic</small><br>
                     <strong class="h4">49,123</strong>
-                    <div :style="{ top: '-10px'}">
+                    <!-- <div :style="{ top: '-10px'}">
                       <CalloutChartExample :data="[65, 59, 84, 84, 51, 55, 40]" variant="#4dbd74" width="80" height="30" />
-                    </div>
+                    </div> -->
                   </CCallout>
                 </CCol>
               </CRow>
@@ -333,20 +343,21 @@
 </template>
 
 <script>
-import MainChartExample from './dashboard/MainChartExample'
+import MainChartExample from './charts/MainChartExample'
 import WidgetsDropdown from './widgets/WidgetsDropdown'
 import WidgetsSocial from './widgets/WidgetsSocial'
-import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
-import CalloutChartExample from './dashboard/CalloutChartExample'
+import CalloutChartExample from './charts/CalloutChartExample'
+import CChartLineSimple from './charts/CChartLineSimple'
+
 
 export default {
   name: 'Dashboard',
   components: {
     MainChartExample,
-    SocialBoxChartExample,
     CalloutChartExample,
     WidgetsDropdown,
-    WidgetsSocial
+    WidgetsSocial,
+    CChartLineSimple
   },
   data: function () {
     return {

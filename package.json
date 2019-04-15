@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "@coreui/coreui": "^2.1.6",
-    "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
+    "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.3.0",
+    "@coreui/coreui-vue-chartjs": "file:../coreui-vue-chartjs",
     "@coreui/icons": "0.3.0",
     "@coreui/vue": "../coreui-vue",
     "babel-polyfill": "^6.26.0",

@@ -1,6 +1,6 @@
-<template functional>
+<template>
   <CRow>
-    <template v-if="!props.noCharts">
+    <template v-if="!noCharts">
       <CCol md="3" sm="6">
         <CWidgetSocial
           variant="facebook"
@@ -9,13 +9,12 @@
           leftHeader="459"
           leftFooter="feeds"
         >
-          <CSimpleLineChart
-            chartId="facebook"
-            :data="[65, 59, 84, 84, 51, 55, 40]"
-            label="Friends"
-            :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
+          <CChartLineSimple
             style="height:100px"
-            color="rgba(255,255,255,.1)"
+            backgroundColor="rgba(255,255,255,.1)"
+            :dataPoints="[65, 59, 84, 84, 51, 55, 40]"
+            label="Friends"
+            labels="months"
           />
         </CWidgetSocial>
        </CCol>
@@ -27,13 +26,12 @@
           leftHeader="1.792"
           leftFooter="tweets"
         >
-          <CSimpleLineChart
-            chartId="twitter"
-            :data="[1, 13, 9, 17, 34, 41, 38]"
-            label="Followers"
-            :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
+          <CChartLineSimple
             style="height:100px"
-            color="rgba(255,255,255,.1)"
+            backgroundColor="rgba(255,255,255,.1)"
+            :dataPoints="[1, 13, 9, 17, 34, 41, 38]"
+            label="Followers"
+            labels="months"
           />
         </CWidgetSocial>
        </CCol>
@@ -45,13 +43,12 @@
           leftHeader="292"
           leftFooter="feeds"
         >
-          <CSimpleLineChart
-            chartId="linkedIn"
-            :data="[78, 81, 80, 45, 34, 12, 40]"
-            label="Contracts"
-            :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
+          <CChartLineSimple
             style="height:100px"
-            color="rgba(255,255,255,.1)"
+            backgroundColor="rgba(255,255,255,.1)"
+            :dataPoints="[78, 81, 80, 45, 34, 12, 40]"
+            label="Contracts"
+            labels="months"
           />
         </CWidgetSocial>
        </CCol>
@@ -63,13 +60,12 @@
           leftHeader="92"
           leftFooter="circles"
         >
-          <CSimpleLineChart
-            chartId="google-plus"
-            :data="[35, 23, 56, 22, 97, 23, 64]"
-            label="Followers"
-            :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
+          <CChartLineSimple
             style="height:100px"
-            color="rgba(255,255,255,.1)"
+            backgroundColor="rgba(255,255,255,.1)"
+            :dataPoints="[35, 23, 56, 22, 97, 23, 64]"
+            label="Followers"
+            labels="months"
           />
         </CWidgetSocial>
       </CCol>
@@ -117,8 +113,12 @@
 </template>
 
 <script>
+import { CChartLineSimple } from '../charts/index.js'
 export default {
   name: 'WidgetsSocial',
+  components: {
+    CChartLineSimple
+  },
   props: {
     noCharts: Boolean
   }
