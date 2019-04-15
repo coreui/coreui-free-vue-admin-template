@@ -153,14 +153,15 @@
                 placeholder="Please select"
               />
               <CFormSelect
-                label="Select"
+                label="Large select"
                 size="lg"
                 horizontal
-                :options="options"
+                :value.sync="selectedOption"
+                :options="selectOptions"
                 placeholder="Please select"
               />
               <CFormSelect
-                label="Select"
+                label="Small select"
                 size="sm"
                 horizontal
                 :options="options"
@@ -843,6 +844,11 @@ export default {
       testkkk: 2,
       horizontal: { label:'col-3', input:'col-9' },
       options: ['Option 1', 'Option 2', 'Option 3'],
+      selectOptions: [
+        'Option 1', 'Option 2', 'Option 3',
+        { value: ['some value', 'another value'], label: 'Option 4' }],
+      selectedOption: ['some value', 'another value'],
+
       formCollapsed: true,
       checkboxNames: ['Checkboxes', 'Inline Checkboxes',
                       'Checkboxes - custom', 'Inline Checkboxes - custom'],
