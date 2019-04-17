@@ -95,7 +95,7 @@
             </p>
           </CCardBody>
         </CCard>
-      </CCol><!--/.col-->
+      </CCol>
       <CCol col="12">
         <CCard>
           <CCardHeader>
@@ -190,7 +190,7 @@
             </p>
           </CCardBody>
         </CCard>
-      </CCol><!--/.col-->
+      </CCol>
 
       <CCol col="12">
         <CCard>
@@ -286,7 +286,7 @@
             </p>
           </CCardBody>
         </CCard>
-      </CCol><!--/.col-->
+      </CCol>
     </CRow>
   </div>
 </template>

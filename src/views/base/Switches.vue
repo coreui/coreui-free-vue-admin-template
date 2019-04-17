@@ -20,17 +20,18 @@
               required
             /> -->
             <!-- <CSwitch class="mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" checked.sync="radio" trueValue="primary"/> -->
-            <CSwitch class="mx-1"
-                     :key="key"
-                     :variant="variant"
-                     shape="3d"
-                     outline="alt"
-                     v-bind="labelIcon"
-                     type="radio"
-                     name="radio"
-                     :checked.sync="radio"
-                     :value="variant"
-                     v-for="(variant, key) in ['primary','secondary','warning','success','info','danger','light','dark']"
+            <CSwitch
+              class="mx-1"
+              :key="key"
+              :variant="variant"
+              shape="3d"
+              outline="alt"
+              v-bind="labelIcon"
+              type="radio"
+              name="radio"
+              :checked.sync="radio"
+              :value="variant"
+              v-for="(variant, key) in variants"
             />
           </CCardBody>
         </CCard>
@@ -520,6 +521,9 @@ export default {
   name: 'switches',
   data () {
     return {
+      variants:[
+        'primary','secondary','warning','success','info','danger','light','dark'
+      ],
       fields: [
         {key: 'size'},
         {key: 'example'},

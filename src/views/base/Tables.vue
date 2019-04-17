@@ -3,16 +3,20 @@
     <CRow>
       <CCol sm="12">
         <CCard headerHtml="CTable power presentation" bodyWrapper>
-          <CTable :items="items.slice(0)"
-                  :fields="fields"
-                  :perPage="6"
-                  indexColumn
-                  filterRow
-                  optionsRow
-                  loadings
-                  hover
-                  :defaultSorter="{ name:'username', direction:'desc'}"
-                  :defaultColumnFilter="{ role:'staff' }"
+          <CTable
+            :items="getItems()"
+            :fields="fields"
+            :perPage="6"
+            :activePage="page"
+            indexColumn
+            filterRow
+            optionsRow="noFilter"
+            loadings
+            hover
+            :defaultColumnFilter="{ role:'staff' }"
+            darkHeader
+            footer
+            :pagination="{size: 'lg'}"
           >
             <template #index-column="{index}">
               <td
@@ -53,6 +57,11 @@
               </CCollapse>
             </template>
           </CTable>
+          <!-- <CPagination
+            v-show="pages > 1"
+            :activePage.sync="page"
+            :pages="pages"
+          /> -->
         </CCard>
       </CCol>
     </CRow>
@@ -83,7 +92,7 @@
           :items="getItems()"
           caption="<i class='fa fa-align-justify'></i> Simple Table"
         />
-      </CCol><!--/.col-->
+      </CCol>
 
       <CCol lg="6">
         <CTableWrapper
@@ -91,7 +100,7 @@
           striped
           caption="<i class='fa fa-align-justify'></i> Striped Table"
         />
-      </CCol><!--/.col-->
+      </CCol>
     </CRow>
 
     <CRow>
@@ -101,7 +110,7 @@
           small
           caption="<i class='fa fa-align-justify'></i> Condensed Table"
         />
-      </CCol><!--/.col-->
+      </CCol>
 
       <CCol lg="6">
         <CTableWrapper
@@ -110,7 +119,7 @@
           bordered
           caption="<i class='fa fa-align-justify'></i> Bordered Table"
         />
-      </CCol><!--/.col-->
+      </CCol>
     </CRow>
 
     <CRow>
@@ -194,7 +203,7 @@ export default {
       fields: fields,
       page: 1,
       pages: null,
-      details: []
+      details: [],
     }
   },
   methods: {

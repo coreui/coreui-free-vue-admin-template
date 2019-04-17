@@ -38,7 +38,7 @@
               </CButton>
             </CCardBody>
           </CCard>
-        </CCol><!--/.col-->
+        </CCol>
       </CRow>
     </div>
     <!-- Modal Component -->
