@@ -120,7 +120,7 @@
             </CCardHeader>
             <CCardBody>
               <div>
-                <CButtonToolbar key-nav aria-label="Toolbar with button groups">
+                <CButtonToolbar aria-label="Toolbar with button groups">
                   <CButtonGroup class="mx-1">
                     <CButton class="d-sm-down-none">&laquo;</CButton>
                     <CButton>&lsaquo;</CButton>

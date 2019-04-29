@@ -1,5 +1,5 @@
 <template>
-  <CSidebar fixed :display="md">
+  <CSidebar fixed>
     <CSidebarHeader/>
     <CSidebarForm/>
     <CSidebarNav :navItems="computedNav"/>
