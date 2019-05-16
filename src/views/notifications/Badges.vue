@@ -1,6 +1,6 @@
 <template functional>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol col="12" md="6">
           <CCard>
@@ -22,7 +22,8 @@
             </CCardBody>
             <CCardFooter>
               <CButton variant="primary">
-                Notifications <CBadge variant="light" :style="{position: 'static'}">4</CBadge>
+                Notifications
+                <CBadge variant="light" :style="{position: 'static'}">4</CBadge>
               </CButton>
             </CCardFooter>
           </CCard>

@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol col="12" md="6">
           <CCard>
@@ -15,7 +15,7 @@
             </CCardHeader>
             <CCardBody>
               <div>
-                <CDropdown id="ddown1" buttonHtml="Dropdown Button" class="m-2">
+                <CDropdown buttonHtml="Dropdown Button" class="c-m-2">
                   <CDropdownItem>First Action</CDropdownItem>
                   <CDropdownItem>Second Action</CDropdownItem>
                   <CDropdownItem>Third Action</CDropdownItem>
@@ -25,7 +25,7 @@
                 </CDropdown>
               </div>
               <!-- <div>
-                <CDropdown id="ddown-buttons" buttonHtml="Dropdown using buttons as menu items" class="m-2">
+                <CDropdown buttonHtml="Dropdown using buttons as menu items" class="c-m-2">
                   <CDropdownItem>I'm a button</CDropdownItem>
                   <CDropdownItem>I'm also a button</CDropdownItem>
                   <CDropdownItem disabled>I'm a button, but disabled!</CDropdownItem>
@@ -33,7 +33,7 @@
                 </CDropdown>
               </div> -->
               <div>
-                <CDropdown id="ddown-divider" buttonHtml="Dropdown with divider" class="m-2">
+                <CDropdown buttonHtml="Dropdown with divider" class="c-m-2">
                   <CDropdownItem>First item</CDropdownItem>
                   <CDropdownItem>Second item</CDropdownItem>
                   <CDropdownDivider></CDropdownDivider>
@@ -41,7 +41,7 @@
                 </CDropdown>
               </div>
               <div>
-                <CDropdown id="ddown-header" buttonHtml="Dropdown with header" class="m-2">
+                <CDropdown buttonHtml="Dropdown with header" class="c-m-2">
                   <CDropdownHeader>Dropdown header</CDropdownHeader>
                   <CDropdownItem>First item</CDropdownItem>
                   <CDropdownItem>Second Item</CDropdownItem>
@@ -53,20 +53,26 @@
         <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>positioning</small>
+              <i class="fa fa-align-justify"></i>
+              <strong> Dropdown </strong>
+              <small>positioning</small>
             </CCardHeader>
             <CCardBody>
               <div>
-                <CDropdown id="ddown-left" buttonHtml="Left align" variant="primary" class="m-2">
+                <CDropdown
+                  buttonHtml="Left align"
+                  variant="primary"
+                  class="c-m-2"
+                >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
                   <CDropdownItem>Something else here</CDropdownItem>
                 </CDropdown>
-                <CDropdown id="ddown-right"
-                           placement="bottom-end"
-                           buttonHtml="Right align"
-                           variant="primary"
-                           class="m-2"
+                <CDropdown
+                  placement="bottom-end"
+                  buttonHtml="Right align"
+                  variant="primary"
+                  class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
@@ -74,11 +80,11 @@
                 </CDropdown>
               </div>
               <div>
-                <CDropdown id="ddown-dropup"
-                           buttonHtml="Drop-Up"
-                           variant="info"
-                           class="m-2"
-                           dropup
+                <CDropdown
+                  buttonHtml="Drop-Up"
+                  variant="info"
+                  class="c-m-2"
+                  dropup
                 >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
@@ -86,10 +92,10 @@
                 </CDropdown>
               </div>
               <div>
-                <CDropdown id="ddown-offset"
-                           :offset="25"
-                           buttonHtml="Offset Dropdown"
-                           class="m-2"
+                <CDropdown
+                  :offset="25"
+                  buttonHtml="Offset Dropdown"
+                  class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
@@ -97,7 +103,11 @@
                 </CDropdown>
               </div>
               <div>
-                <CDropdown id="ddown-split" split buttonHtml="Split Dropdown" class="m-2">
+                <CDropdown
+                  split
+                  buttonHtml="Split Dropdown"
+                  class="c-m-2"
+                >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
                   <CDropdownItem>Something else here...</CDropdownItem>
@@ -111,14 +121,17 @@
         <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>hidden caret</small>
+              <i class="fa fa-align-justify"></i>
+              <strong> Dropdown </strong>
+              <small>hidden caret</small>
             </CCardHeader>
             <CCardBody>
               <div>
-                <CDropdown variant="link"
-                           size="lg"
-                           buttonHtml="&#x1f50d;<span class='sr-only'>Search</span>"
-                           no-caret
+                <CDropdown
+                  variant="link"
+                  size="lg"
+                  buttonHtml="&#x1f50d;<span class='sr-only'>Search</span>"
+                  no-caret
                 >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
@@ -131,27 +144,46 @@
         <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>sizing</small>
+              <i class="fa fa-align-justify"></i>
+              <strong> Dropdown </strong>
+              <small>sizing</small>
             </CCardHeader>
             <CCardBody>
               <div>
-                <CDropdown id="ddown-lg" size="lg" buttonHtml="Large" class="m-2">
+                <CDropdown
+                  size="lg"
+                  buttonHtml="Large"
+                  class="c-m-2"
+                >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
                   <CDropdownItem>Something else here</CDropdownItem>
                 </CDropdown>
-                <CDropdown id="ddown-lg-split" size="lg" split buttonHtml="Large Split" class="m-2">
+                <CDropdown
+                  size="lg"
+                  split
+                  buttonHtml="Large Split"
+                  class="c-m-2"
+                >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
                   <CDropdownItem>Something else here...</CDropdownItem>
                 </CDropdown>
                 <br>
-                <CDropdown id="ddown-sm" size="sm" buttonHtml="Small" class="m-2">
+                <CDropdown
+                  size="sm"
+                  buttonHtml="Small"
+                  class="c-m-2"
+                >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
                   <CDropdownItem>Something else here...</CDropdownItem>
                 </CDropdown>
-                <CDropdown id="ddown-sm-split" size="sm" split buttonHtml="Small Split" class="m-2">
+                <CDropdown
+                  size="sm"
+                  split buttonHtml="Small Split"
+                  class="c-m-2"
+                >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
                   <CDropdownItem>Something else here...</CDropdownItem>
@@ -162,78 +194,132 @@
         </CCol>
       </CRow>
       <CRow>
-        <CCol col="12" md="6">
+        <!-- <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small>headers and accessibility</small>
+              <i class="fa fa-align-justify"></i>
+              <strong> Dropdown </strong>
+              <small>headers and accessibility</small>
             </CCardHeader>
             <CCardBody>
               <div>
-                <CDropdown id="ddown-aria" buttonHtml="Dropdown ARIA" variant="primary" class="m-2">
-                  <div role="group" aria-lableledby="header1">
-                    <CDropdownHeader id="header1">Groups</CDropdownHeader>
-                    <CDropdownItem aria-describedby="header1">Add</CDropdownItem>
-                    <CDropdownItem aria-describedby="header1">Delete</CDropdownItem>
+                <CDropdown
+                  buttonHtml="Dropdown ARIA" variant="primary"
+                  class="c-m-2"
+                >
+                  <div role="group">
+                    <CDropdownHeader>Groups</CDropdownHeader>
+                    <CDropdownItem>Add</CDropdownItem>
+                    <CDropdownItem>Delete</CDropdownItem>
                   </div>
-                  <div role="group" aria-lableledby="header2">
-                    <CDropdownHeader id="header2">Users</CDropdownHeader>
-                    <CDropdownItem aria-describedby="header2">Add</CDropdownItem>
-                    <CDropdownItem aria-describedby="header2">Delete</CDropdownItem>
+                  <div role="group">
+                    <CDropdownHeader>Users</CDropdownHeader>
+                    <CDropdownItem>Add</CDropdownItem>
+                    <CDropdownItem>Delete</CDropdownItem>
                   </div>
                   <CDropdownDivider></CDropdownDivider>
-                  <CDropdownItem>Something <strong>not</strong> associated with user</CDropdownItem>
+                  <CDropdownItem>
+                    Something <strong>not</strong> associated with user
+                  </CDropdownItem>
                 </CDropdown>
               </div>
             </CCardBody>
           </CCard>
-        </CCol>
+        </CCol> -->
         <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small><code>variant</code></small>
+              <i class="fa fa-align-justify"></i>
+              <strong> Dropdown </strong>
+              <small><code>variant</code></small>
             </CCardHeader>
             <CCardBody>
-              <CDropdown size="sm" id="ddown_primary" buttonHtml="Primary" variant="primary" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Primary"
+                variant="primary"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_secondary" buttonHtml="Secondary" variant="secondary" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Secondary"
+                variant="secondary"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_success" buttonHtml="Success" variant="success" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Success"
+                variant="success"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_warning" buttonHtml="Warning" variant="warning" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Warning"
+                variant="warning"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_danger" buttonHtml="Danger" variant="danger" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Danger"
+                variant="danger"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_info" buttonHtml="Info" variant="info" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Info"
+                variant="info"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_light" buttonHtml="Light" variant="light" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Light"
+                variant="light"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_dark" buttonHtml="Dark" variant="dark" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Dark"
+                variant="dark"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
               </CDropdown>
-              <CDropdown size="sm" id="ddown_link" buttonHtml="Link" variant="link" class="m-0">
+              <CDropdown
+                size="sm"
+                buttonHtml="Link"
+                variant="link"
+                class="c-m-0"
+              >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>

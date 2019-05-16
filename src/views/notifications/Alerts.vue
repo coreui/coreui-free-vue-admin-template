@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol col="12" md="6">
           <CCard>
@@ -32,34 +32,34 @@
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Alert
-              <small> use <code>.alert-link</code> to provide links</small>
+              <small> use <code>.c-alert-link</code> to provide links</small>
             </CCardHeader>
             <CCardBody>
               <div>
                 <CAlert show variant="primary">
-                  Primary Alert with <a href="#" class="alert-link">an example link</a>.
+                  Primary Alert with <a href="#" class="c-alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="secondary">
-                  Secondary Alert with <a href="#" class="alert-link">an example link</a>.
+                  Secondary Alert with <a href="#" class="c-alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="success">
-                  Success Alert with <a href="#" class="alert-link">an example link</a>.
+                  Success Alert with <a href="#" class="c-alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="danger">
-                  Danger Alert with <a href="#" class="alert-link">an example link</a>.
+                  Danger Alert with <a href="#" class="c-alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="warning">
-                  Warning Alert with <a href="#" class="alert-link">an example link</a>.
+                  Warning Alert with <a href="#" class="c-alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="info">
-                  Info Alert with <a href="#" class="alert-link">an example link</a>.
+                  Info Alert with <a href="#" class="c-alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="light">
-                  Light Alert with <a href="#" class="alert-link">an example link</a>.
+                  Light Alert with <a href="#" class="c-alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="dark">
                   Dark Alert with
-                  <CLink href="#" class="alert-link">an example link</CLink>
+                  <CLink href="#" class="c-alert-link">an example link</CLink>
                   .
                 </CAlert>
               </div>
@@ -73,14 +73,14 @@
             </CCardHeader>
             <CCardBody>
               <CAlert show variant="success">
-                <h4 class="alert-heading">Well done!</h4>
+                <h4 class="c-alert-heading">Well done!</h4>
                 <p>
                   Aww yeah, you successfully read this important alert message.
                   This example text is going to run a bit longer so that you can see
                   how spacing within an alert works with this kind of content.
                 </p>
                 <hr>
-                <p class="mb-0">
+                <p class="c-mb-0">
                   Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
                 </p>
               </CAlert>
@@ -119,14 +119,14 @@
 
               <CAlert
                 :show.sync="dismissibleAlerts[3]"
-                class="alert-dismissible"
+                class="c-alert-dismissible"
                 v-slot="{dismiss}"
               >
                 Dismissible Alert with custom button!
                 <CButton
-                  class="position-absolute bg-primary"
+                  class="c-position-absolute c-bg-primary"
                   style="right:10px;top: 50%;transform: translateY(-50%);"
-                  text="<i>Close</i>"
+                  textHtml="<i>Close</i>"
                   @click="dismiss"
                 />
               </CAlert>
@@ -140,7 +140,7 @@
               <CButton
                 @click="showDismissibleAlerts"
                 variant="info"
-                class="m-1"
+                class="c-m-1"
               >
                 Show dismissible alerts
               </CButton>
@@ -148,7 +148,8 @@
           </CCard>
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i> Alerts <small>auto dismissible</small>
+              <i class="fa fa-align-justify"></i> Alerts
+              <small>auto dismissible</small>
             </CCardHeader>
             <CCardBody>
               <div>
@@ -162,18 +163,20 @@
                   <strong>{{dismissCountDown}}</strong> seconds...
                 </CAlert>
 
-                <CAlert :show.sync="dismissCountDown"
-                         dismissible
-                         variant="info"
+                <CAlert
+                  :show.sync="dismissCountDown"
+                  dismissible
+                  variant="info"
                 >
                   Alert will dismiss after {{dismissCountDown}} seconds...
-                  <CProgress variant="info"
-                              :max="dismissSecs"
-                              :value="dismissCountDown"
-                              height="4px">
-                  </CProgress>
+                  <CProgress
+                    variant="info"
+                    :max="dismissSecs"
+                    :value="dismissCountDown"
+                    height="4px"
+                  />
                 </CAlert>
-                <CButton @click="showAlert" variant="info" class="m-1">
+                <CButton @click="showAlert" variant="info" class="c-m-1">
                   Show alert with timer
                 </CButton>
               </div>

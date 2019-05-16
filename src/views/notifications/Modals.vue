@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol col="12">
           <CCard>
@@ -8,32 +8,32 @@
               <i class="fa fa-align-justify"></i> Bootstrap Modals
             </CCardHeader>
             <CCardBody>
-              <CButton variant="secondary" @click="myModal = true" class="mr-1">
+              <CButton variant="secondary" @click="myModal = true" class="c-mr-1">
                 Launch demo modal
               </CButton>
-              <CButton variant="secondary" @click="largeModal = true" class="mr-1">
+              <CButton variant="secondary" @click="largeModal = true" class="c-mr-1">
                 Launch large modal
               </CButton>
-              <CButton variant="secondary" @click="smallModal = true" class="mr-1">
+              <CButton variant="secondary" @click="smallModal = true" class="c-mr-1">
                 Launch small modal
               </CButton>
               <hr>
-              <CButton variant="primary" @click="primaryModal = true" class="mr-1">
+              <CButton variant="primary" @click="primaryModal = true" class="c-mr-1">
                 Launch primary modal
               </CButton>
-              <CButton variant="success" @click="successModal = true" class="mr-1">
+              <CButton variant="success" @click="successModal = true" class="c-mr-1">
                 Launch success modal
               </CButton>
-              <CButton variant="warning" @click="warningModal = true" class="mr-1">
+              <CButton variant="warning" @click="warningModal = true" class="c-mr-1">
                 Launch warning modal
               </CButton>
-              <CButton variant="danger" @click="dangerModal = true" class="mr-1">
+              <CButton variant="danger" @click="dangerModal = true" class="c-mr-1">
                 Launch danger modal
               </CButton>
-              <CButton variant="info" @click="infoModal = true" class="mr-1">
+              <CButton variant="info" @click="infoModal = true" class="c-mr-1">
                 Launch info modal
               </CButton>
-              <CButton variant="dark" @click="darkModal = true" class="mr-1">
+              <CButton variant="dark" @click="darkModal = true" class="c-mr-1">
                 Launch dark modal
               </CButton>
             </CCardBody>
@@ -65,9 +65,10 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </CModal>
-    <CModal title="Modal title"
-            size="sm"
-            :visible.sync="smallModal"
+    <CModal
+      title="Modal title"
+      size="sm"
+      :visible.sync="smallModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -79,7 +80,7 @@
 
     <CModal
       title="Modal title"
-      class="modal-primary"
+      class="c-modal-primary"
       :visible.sync="primaryModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -91,7 +92,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="modal-success"
+      class="c-modal-success"
       :visible.sync="successModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -103,7 +104,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="modal-warning"
+      class="c-modal-warning"
       :visible.sync="warningModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -115,7 +116,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="modal-danger"
+      class="c-modal-danger"
       :visible.sync="dangerModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -127,7 +128,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="modal-info"
+      class="c-modal-info"
       :visible.sync="infoModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -140,16 +141,16 @@
     <CModal
       :visible.sync="darkModal"
       :noBackdrop="false"
-      :noCloseOnBackdrop="false"
+      :noCloseOnBackdrop="fsalse"
       :noFade="false"
       :centered="true"
       title="Modal title 2"
       size="lg"
       variant="dark"
       borderVariant="danger2"
-      addModalClasses="hehe1"
-      addDialogClasses="hehe2"
-      addContentClasses="hehe3"
+      addModalClassess="hehe1"
+      addDialogClassess="hehe2"
+      addContentClassess="hehe3"
       :noHeader="false"
       :noBody="false"
       :noFooter="false"
@@ -161,8 +162,8 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       <template #header="{hide}">
-        <h5 class="modal-title">Custom modal title</h5>
-        <CButtonClose @click="hide()" class="text-white"/>
+        <h5 class="c-modal-title">Custom modal title</h5>
+        <CButtonClose @click="hide()" class="c-text-white"/>
       </template>
       <template #footer="{hide}">
         <CButton @click="hide()" variant="danger">Discard</CButton>
