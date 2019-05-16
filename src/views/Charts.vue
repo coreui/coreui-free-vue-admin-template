@@ -1,6 +1,6 @@
 <template>
-  <div class="animated fadeIn">
-    <CCardGroup columns class="card-columns cols-2">
+  <div class="c-animated c-fadeIn">
+    <CCardGroup columns class="c-card-columns c-cols-2">
       <CCard headerHtml="Line Chart" bodyWrapper>
         <CChartLineExample/>
       </CCard>

@@ -4,8 +4,8 @@
       <CWidgetDropdown header="9.823" text="Members online">
         <template #dropdown>
           <CDropdown
-            class="float-right"
-            variant="transparent p-0"
+            class="c-float-right"
+            variant="transparent c-p-0"
             placement="bottom-end"
             buttonHtml="<i class='icon-settings'></i>"
           >
@@ -17,7 +17,7 @@
         </template>
         <CChartLineSimple
           pointed
-          class="px-3"
+          class="c-px-3"
           style="height:70px"
           :dataPoints="[65, 59, 84, 84, 51, 55, 40]"
           backgroundColor="primary"
@@ -30,8 +30,8 @@
       <CWidgetDropdown variant="info" header="9.823" text="Members online">
         <template #dropdown>
           <CDropdown
-            class="float-right"
-            variant="transparent p-0"
+            class="c-float-right"
+            variant="transparent c-p-0"
             placement="bottom-end"
             noCaret
             buttonHtml="<i class='icon-location-pin'></i>"
@@ -44,7 +44,7 @@
         </template>
         <CChartLineSimple
           pointed
-          class="px-3"
+          class="c-px-3"
           style="height:70px"
           :dataPoints="[1, 18, 9, 17, 34, 22, 11]"
           backgroundColor="info"
@@ -63,8 +63,8 @@
 
         <template #dropdown>
           <CDropdown
-            class="float-right"
-            variant="transparent p-0"
+            class="c-float-right"
+            variant="transparent c-p-0"
             placement="bottom-end"
             buttonHtml="<i class='icon-settings'></i>"
           >
@@ -94,8 +94,8 @@
 
         <template #dropdown>
           <CDropdown
-            class="float-right"
-            variant="transparent p-0"
+            class="c-float-right"
+            variant="transparent c-p-0"
             placement="bottom-end"
             buttonHtml="<i class='icon-settings'></i>"
           >
