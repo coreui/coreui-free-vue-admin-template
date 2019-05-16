@@ -1,19 +1,18 @@
 <template>
   <CDropdown
-    right
     nav
     noCaret
     noPopper
-    addMenuClasses="dropdown-menu-right"
+    addMenuClasses="c-dropdown-menu-right"
   >
     <template #button-content>
       <img
         src="img/avatars/6.jpg"
-        class="img-avatar"
+        class="c-img-avatar"
         alt="admin@bootstrapmaster.com"
       />
     </template>
-    <CDropdownHeader tag="div" class="text-center">
+    <CDropdownHeader tag="div" class="c-text-center">
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
@@ -34,7 +33,7 @@
     </CDropdownItem>
     <CDropdownHeader
       tag="div"
-      class="text-center"
+      class="c-text-center"
     >
       <strong>Settings</strong>
     </CDropdownHeader>

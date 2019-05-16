@@ -1,9 +1,9 @@
 <template>
-  <div class="app">
+  <div class="c-app c-default-layout">
     <TheHeader/>
-    <div class="app-body">
+    <div class="c-body">
       <TheSidebar/>
-      <main class="main">
+      <main class="c-main">
         <CBreadcrumbRouter/>
         <CContainer fluid>
           <router-view></router-view>
