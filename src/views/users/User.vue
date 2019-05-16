@@ -6,11 +6,12 @@
           User id:  {{ $route.params.id }}
         </CCardHeader>
         <CCardBody>
-          <CTable striped
-                  small
-                  fixed
-                  :items="items($route.params.id)"
-                  :fields="$options.fields"
+          <CTable
+            striped
+            small
+            fixed
+            :items="items($route.params.id)"
+            :fields="$options.fields"
           />
         </CCardBody>
         <CCardFooter>

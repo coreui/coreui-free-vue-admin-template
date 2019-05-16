@@ -1,13 +1,13 @@
 <template>
-  <table class="w-100">
+  <table class="c-w-100">
     <tbody>
     <tr>
-      <td class="text-muted">HEX:</td>
-      <td class="font-weight-bold">{{this.hexColor}}</td>
+      <td class="c-text-muted">HEX:</td>
+      <td class="c-font-weight-bold">{{this.hexColor}}</td>
     </tr>
     <tr>
-      <td class="text-muted">RGB:</td>
-      <td class="font-weight-bold">{{this.bgColor}}</td>
+      <td class="c-text-muted">RGB:</td>
+      <td class="c-font-weight-bold">{{this.bgColor}}</td>
     </tr>
     </tbody>
   </table>
@@ -17,7 +17,7 @@
 import { rgbToHex } from '@coreui/coreui/dist/js/coreui-utilities'
 export default {
   name: 'ColorView',
-  data: function () {
+  data () {
     return {
       bgColor: 'rgb(255, 255, 255)'
     }
@@ -39,4 +39,3 @@ export default {
   }
 }
 </script>
-

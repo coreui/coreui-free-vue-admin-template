@@ -1,175 +1,175 @@
 <template>
-  <div class="animated fadeIn">
-    <CCard  id="new47">
+  <div class="c-animated c-fadeIn">
+    <CCard>
       <CCardHeader>
         <i class="fa fa-font-awesome"></i> 50 New Icons in 4.7
       </CCardHeader>
       <CCardBody>
-        <CRow class="text-center">
+        <CRow class="c-text-center">
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-address-book fa-lg mt-4"></i><br/>address-book
+            <i class="fa fa-address-book fa-lg c-mt-4"></i><br/>address-book
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-address-book-o fa-lg mt-4"></i><br/>address-book-o
+            <i class="fa fa-address-book-o fa-lg c-mt-4"></i><br/>address-book-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-address-card fa-lg mt-4"></i><br/>address-card
+            <i class="fa fa-address-card fa-lg c-mt-4"></i><br/>address-card
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-address-card-o fa-lg mt-4"></i><br/>address-card-o
+            <i class="fa fa-address-card-o fa-lg c-mt-4"></i><br/>address-card-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bandcamp fa-lg mt-4"></i><br/>bandcamp
+            <i class="fa fa-bandcamp fa-lg c-mt-4"></i><br/>bandcamp
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bath fa-lg mt-4"></i><br/>bath
+            <i class="fa fa-bath fa-lg c-mt-4"></i><br/>bath
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bathtub fa-lg mt-4"></i><br/>bathtub <span class="text-muted">(alias)</span>
+            <i class="fa fa-bathtub fa-lg c-mt-4"></i><br/>bathtub <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-drivers-license fa-lg mt-4"></i><br/>drivers-license <span class="text-muted">(alias)</span>
+            <i class="fa fa-drivers-license fa-lg c-mt-4"></i><br/>drivers-license <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-drivers-license-o fa-lg mt-4"></i><br/>drivers-license-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-drivers-license-o fa-lg c-mt-4"></i><br/>drivers-license-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eercast fa-lg mt-4"></i><br/>eercast
+            <i class="fa fa-eercast fa-lg c-mt-4"></i><br/>eercast
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-envelope-open fa-lg mt-4"></i><br/>envelope-open
+            <i class="fa fa-envelope-open fa-lg c-mt-4"></i><br/>envelope-open
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-envelope-open-o fa-lg mt-4"></i><br/>envelope-open-o
+            <i class="fa fa-envelope-open-o fa-lg c-mt-4"></i><br/>envelope-open-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-etsy fa-lg mt-4"></i><br/>etsy
+            <i class="fa fa-etsy fa-lg c-mt-4"></i><br/>etsy
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-free-code-camp fa-lg mt-4"></i><br/>free-code-camp
+            <i class="fa fa-free-code-camp fa-lg c-mt-4"></i><br/>free-code-camp
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-grav fa-lg mt-4"></i><br/>grav
+            <i class="fa fa-grav fa-lg c-mt-4"></i><br/>grav
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-handshake-o fa-lg mt-4"></i><br/>handshake-o
+            <i class="fa fa-handshake-o fa-lg c-mt-4"></i><br/>handshake-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-id-badge fa-lg mt-4"></i><br/>id-badge
+            <i class="fa fa-id-badge fa-lg c-mt-4"></i><br/>id-badge
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-id-card fa-lg mt-4"></i><br/>id-card
+            <i class="fa fa-id-card fa-lg c-mt-4"></i><br/>id-card
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-id-card-o fa-lg mt-4"></i><br/>id-card-o
+            <i class="fa fa-id-card-o fa-lg c-mt-4"></i><br/>id-card-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-imdb fa-lg mt-4"></i><br/>imdb
+            <i class="fa fa-imdb fa-lg c-mt-4"></i><br/>imdb
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-linode fa-lg mt-4"></i><br/>linode
+            <i class="fa fa-linode fa-lg c-mt-4"></i><br/>linode
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-meetup fa-lg mt-4"></i><br/>meetup
+            <i class="fa fa-meetup fa-lg c-mt-4"></i><br/>meetup
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-microchip fa-lg mt-4"></i><br/>microchip
+            <i class="fa fa-microchip fa-lg c-mt-4"></i><br/>microchip
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-podcast fa-lg mt-4"></i><br/>podcast
+            <i class="fa fa-podcast fa-lg c-mt-4"></i><br/>podcast
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-quora fa-lg mt-4"></i><br/>quora
+            <i class="fa fa-quora fa-lg c-mt-4"></i><br/>quora
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ravelry fa-lg mt-4"></i><br/>ravelry
+            <i class="fa fa-ravelry fa-lg c-mt-4"></i><br/>ravelry
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-s15 fa-lg mt-4"></i><br/>s15 <span class="text-muted">(alias)</span>
+            <i class="fa fa-s15 fa-lg c-mt-4"></i><br/>s15 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shower fa-lg mt-4"></i><br/>shower
+            <i class="fa fa-shower fa-lg c-mt-4"></i><br/>shower
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-snowflake-o fa-lg mt-4"></i><br/>snowflake-o
+            <i class="fa fa-snowflake-o fa-lg c-mt-4"></i><br/>snowflake-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-superpowers fa-lg mt-4"></i><br/>superpowers
+            <i class="fa fa-superpowers fa-lg c-mt-4"></i><br/>superpowers
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-telegram fa-lg mt-4"></i><br/>telegram
+            <i class="fa fa-telegram fa-lg c-mt-4"></i><br/>telegram
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer fa-lg mt-4"></i><br/>thermometer <span class="text-muted">(alias)</span>
+            <i class="fa fa-thermometer fa-lg c-mt-4"></i><br/>thermometer <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-0 fa-lg mt-4"></i><br/>thermometer-0 <span class="text-muted">(alias)</span>
+            <i class="fa fa-thermometer-0 fa-lg c-mt-4"></i><br/>thermometer-0 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-1 fa-lg mt-4"></i><br/>thermometer-1 <span class="text-muted">(alias)</span>
+            <i class="fa fa-thermometer-1 fa-lg c-mt-4"></i><br/>thermometer-1 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-2 fa-lg mt-4"></i><br/>thermometer-2 <span class="text-muted">(alias)</span>
+            <i class="fa fa-thermometer-2 fa-lg c-mt-4"></i><br/>thermometer-2 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-3 fa-lg mt-4"></i><br/>thermometer-3 <span class="text-muted">(alias)</span>
+            <i class="fa fa-thermometer-3 fa-lg c-mt-4"></i><br/>thermometer-3 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-4 fa-lg mt-4"></i><br/>thermometer-4 <span class="text-muted">(alias)</span>
+            <i class="fa fa-thermometer-4 fa-lg c-mt-4"></i><br/>thermometer-4 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-empty fa-lg mt-4"></i><br/>thermometer-empty
+            <i class="fa fa-thermometer-empty fa-lg c-mt-4"></i><br/>thermometer-empty
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-full fa-lg mt-4"></i><br/>thermometer-full
+            <i class="fa fa-thermometer-full fa-lg c-mt-4"></i><br/>thermometer-full
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-half fa-lg mt-4"></i><br/>thermometer-half
+            <i class="fa fa-thermometer-half fa-lg c-mt-4"></i><br/>thermometer-half
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-quarter fa-lg mt-4"></i><br/>thermometer-quarter
+            <i class="fa fa-thermometer-quarter fa-lg c-mt-4"></i><br/>thermometer-quarter
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thermometer-three-quarters fa-lg mt-4"></i><br/>thermometer-three-quarters
+            <i class="fa fa-thermometer-three-quarters fa-lg c-mt-4"></i><br/>thermometer-three-quarters
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-times-rectangle fa-lg mt-4"></i><br/>times-rectangle <span class="text-muted">(alias)</span>
+            <i class="fa fa-times-rectangle fa-lg c-mt-4"></i><br/>times-rectangle <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-times-rectangle-o fa-lg mt-4"></i><br/>times-rectangle-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-times-rectangle-o fa-lg c-mt-4"></i><br/>times-rectangle-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user-circle fa-lg mt-4"></i><br/>user-circle
+            <i class="fa fa-user-circle fa-lg c-mt-4"></i><br/>user-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user-circle-o fa-lg mt-4"></i><br/>user-circle-o
+            <i class="fa fa-user-circle-o fa-lg c-mt-4"></i><br/>user-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user-o fa-lg mt-4"></i><br/>user-o
+            <i class="fa fa-user-o fa-lg c-mt-4"></i><br/>user-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-vcard fa-lg mt-4"></i><br/>vcard <span class="text-muted">(alias)</span>
+            <i class="fa fa-vcard fa-lg c-mt-4"></i><br/>vcard <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-vcard-o fa-lg mt-4"></i><br/>vcard-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-vcard-o fa-lg c-mt-4"></i><br/>vcard-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-window-close fa-lg mt-4"></i><br/>window-close
+            <i class="fa fa-window-close fa-lg c-mt-4"></i><br/>window-close
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-window-close-o fa-lg mt-4"></i><br/>window-close-o
+            <i class="fa fa-window-close-o fa-lg c-mt-4"></i><br/>window-close-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-window-maximize fa-lg mt-4"></i><br/>window-maximize
+            <i class="fa fa-window-maximize fa-lg c-mt-4"></i><br/>window-maximize
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-window-minimize fa-lg mt-4"></i><br/>window-minimize
+            <i class="fa fa-window-minimize fa-lg c-mt-4"></i><br/>window-minimize
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-window-restore fa-lg mt-4"></i><br/>window-restore
+            <i class="fa fa-window-restore fa-lg c-mt-4"></i><br/>window-restore
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wpexplorer fa-lg mt-4"></i><br/>wpexplorer
+            <i class="fa fa-wpexplorer fa-lg c-mt-4"></i><br/>wpexplorer
           </CCol>
         </CRow>
       </CCardBody>
@@ -180,64 +180,64 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bluetooth fa-lg mt-4"></i><br>bluetooth
+            <i class="fa fa-bluetooth fa-lg c-mt-4"></i><br>bluetooth
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bluetooth-b fa-lg mt-4"></i><br>bluetooth-b
+            <i class="fa fa-bluetooth-b fa-lg c-mt-4"></i><br>bluetooth-b
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-codiepie fa-lg mt-4"></i><br>codiepie
+            <i class="fa fa-codiepie fa-lg c-mt-4"></i><br>codiepie
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-credit-card-alt fa-lg mt-4"></i><br>credit-card-alt
+            <i class="fa fa-credit-card-alt fa-lg c-mt-4"></i><br>credit-card-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-edge fa-lg mt-4"></i><br>edge
+            <i class="fa fa-edge fa-lg c-mt-4"></i><br>edge
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fort-awesome fa-lg mt-4"></i><br>fort-awesome
+            <i class="fa fa-fort-awesome fa-lg c-mt-4"></i><br>fort-awesome
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hashtag fa-lg mt-4"></i><br>hashtag
+            <i class="fa fa-hashtag fa-lg c-mt-4"></i><br>hashtag
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mixcloud fa-lg mt-4"></i><br>mixcloud
+            <i class="fa fa-mixcloud fa-lg c-mt-4"></i><br>mixcloud
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-modx fa-lg mt-4"></i><br>modx
+            <i class="fa fa-modx fa-lg c-mt-4"></i><br>modx
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pause-circle fa-lg mt-4"></i><br>pause-circle
+            <i class="fa fa-pause-circle fa-lg c-mt-4"></i><br>pause-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pause-circle-o fa-lg mt-4"></i><br>pause-circle-o
+            <i class="fa fa-pause-circle-o fa-lg c-mt-4"></i><br>pause-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-percent fa-lg mt-4"></i><br>percent
+            <i class="fa fa-percent fa-lg c-mt-4"></i><br>percent
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-product-hunt fa-lg mt-4"></i><br>product-hunt
+            <i class="fa fa-product-hunt fa-lg c-mt-4"></i><br>product-hunt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-reddit-alien fa-lg mt-4"></i><br>reddit-alien
+            <i class="fa fa-reddit-alien fa-lg c-mt-4"></i><br>reddit-alien
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-scribd fa-lg mt-4"></i><br>scribd
+            <i class="fa fa-scribd fa-lg c-mt-4"></i><br>scribd
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shopping-bag fa-lg mt-4"></i><br>shopping-bag
+            <i class="fa fa-shopping-bag fa-lg c-mt-4"></i><br>shopping-bag
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shopping-basket fa-lg mt-4"></i><br>shopping-basket
+            <i class="fa fa-shopping-basket fa-lg c-mt-4"></i><br>shopping-basket
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stop-circle fa-lg mt-4"></i><br>stop-circle
+            <i class="fa fa-stop-circle fa-lg c-mt-4"></i><br>stop-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stop-circle-o fa-lg mt-4"></i><br>stop-circle-o
+            <i class="fa fa-stop-circle-o fa-lg c-mt-4"></i><br>stop-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-usb fa-lg mt-4"></i><br>usb
+            <i class="fa fa-usb fa-lg c-mt-4"></i><br>usb
           </CCol>
 
         </CRow>
@@ -251,1180 +251,1180 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-adjust fa-lg mt-4"></i><br>adjust
+            <i class="fa fa-adjust fa-lg c-mt-4"></i><br>adjust
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-anchor fa-lg mt-4"></i><br>anchor
+            <i class="fa fa-anchor fa-lg c-mt-4"></i><br>anchor
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-archive fa-lg mt-4"></i><br>archive
+            <i class="fa fa-archive fa-lg c-mt-4"></i><br>archive
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-area-chart fa-lg mt-4"></i><br>area-chart
+            <i class="fa fa-area-chart fa-lg c-mt-4"></i><br>area-chart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows fa-lg mt-4"></i><br>arrows
+            <i class="fa fa-arrows fa-lg c-mt-4"></i><br>arrows
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows-h fa-lg mt-4"></i><br>arrows-h
+            <i class="fa fa-arrows-h fa-lg c-mt-4"></i><br>arrows-h
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows-v fa-lg mt-4"></i><br>arrows-v
+            <i class="fa fa-arrows-v fa-lg c-mt-4"></i><br>arrows-v
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-asterisk fa-lg mt-4"></i><br>asterisk
+            <i class="fa fa-asterisk fa-lg c-mt-4"></i><br>asterisk
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-at fa-lg mt-4"></i><br>at
+            <i class="fa fa-at fa-lg c-mt-4"></i><br>at
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-automobile fa-lg mt-4"></i><br>automobile <span class="text-muted">(alias)</span>
+            <i class="fa fa-automobile fa-lg c-mt-4"></i><br>automobile <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-balance-scale fa-lg mt-4"></i><br>balance-scale
+            <i class="fa fa-balance-scale fa-lg c-mt-4"></i><br>balance-scale
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ban fa-lg mt-4"></i><br>ban
+            <i class="fa fa-ban fa-lg c-mt-4"></i><br>ban
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bank fa-lg mt-4"></i><br>bank <span class="text-muted">(alias)</span>
+            <i class="fa fa-bank fa-lg c-mt-4"></i><br>bank <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bar-chart fa-lg mt-4"></i><br>bar-chart
+            <i class="fa fa-bar-chart fa-lg c-mt-4"></i><br>bar-chart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bar-chart-o fa-lg mt-4"></i><br>bar-chart-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-bar-chart-o fa-lg c-mt-4"></i><br>bar-chart-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-barcode fa-lg mt-4"></i><br>barcode
+            <i class="fa fa-barcode fa-lg c-mt-4"></i><br>barcode
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bars fa-lg mt-4"></i><br>bars
+            <i class="fa fa-bars fa-lg c-mt-4"></i><br>bars
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-0 fa-lg mt-4"></i><br>battery-0 <span class="text-muted">(alias)</span>
+            <i class="fa fa-battery-0 fa-lg c-mt-4"></i><br>battery-0 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-1 fa-lg mt-4"></i><br>battery-1 <span class="text-muted">(alias)</span>
+            <i class="fa fa-battery-1 fa-lg c-mt-4"></i><br>battery-1 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-2 fa-lg mt-4"></i><br>battery-2 <span class="text-muted">(alias)</span>
+            <i class="fa fa-battery-2 fa-lg c-mt-4"></i><br>battery-2 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-3 fa-lg mt-4"></i><br>battery-3 <span class="text-muted">(alias)</span>
+            <i class="fa fa-battery-3 fa-lg c-mt-4"></i><br>battery-3 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-4 fa-lg mt-4"></i><br>battery-4 <span class="text-muted">(alias)</span>
+            <i class="fa fa-battery-4 fa-lg c-mt-4"></i><br>battery-4 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-empty fa-lg mt-4"></i><br>battery-empty
+            <i class="fa fa-battery-empty fa-lg c-mt-4"></i><br>battery-empty
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-full fa-lg mt-4"></i><br>battery-full
+            <i class="fa fa-battery-full fa-lg c-mt-4"></i><br>battery-full
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-half fa-lg mt-4"></i><br>battery-half
+            <i class="fa fa-battery-half fa-lg c-mt-4"></i><br>battery-half
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-quarter fa-lg mt-4"></i><br>battery-quarter
+            <i class="fa fa-battery-quarter fa-lg c-mt-4"></i><br>battery-quarter
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-battery-three-quarters fa-lg mt-4"></i><br>battery-three-quarters
+            <i class="fa fa-battery-three-quarters fa-lg c-mt-4"></i><br>battery-three-quarters
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bed fa-lg mt-4"></i><br>bed
+            <i class="fa fa-bed fa-lg c-mt-4"></i><br>bed
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-beer fa-lg mt-4"></i><br>beer
+            <i class="fa fa-beer fa-lg c-mt-4"></i><br>beer
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bell fa-lg mt-4"></i><br>bell
+            <i class="fa fa-bell fa-lg c-mt-4"></i><br>bell
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bell-o fa-lg mt-4"></i><br>bell-o
+            <i class="fa fa-bell-o fa-lg c-mt-4"></i><br>bell-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bell-slash fa-lg mt-4"></i><br>bell-slash
+            <i class="fa fa-bell-slash fa-lg c-mt-4"></i><br>bell-slash
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bell-slash-o fa-lg mt-4"></i><br>bell-slash-o
+            <i class="fa fa-bell-slash-o fa-lg c-mt-4"></i><br>bell-slash-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bicycle fa-lg mt-4"></i><br>bicycle
+            <i class="fa fa-bicycle fa-lg c-mt-4"></i><br>bicycle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-binoculars fa-lg mt-4"></i><br>binoculars
+            <i class="fa fa-binoculars fa-lg c-mt-4"></i><br>binoculars
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-birthday-cake fa-lg mt-4"></i><br>birthday-cake
+            <i class="fa fa-birthday-cake fa-lg c-mt-4"></i><br>birthday-cake
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bluetooth fa-lg mt-4"></i><br>bluetooth
+            <i class="fa fa-bluetooth fa-lg c-mt-4"></i><br>bluetooth
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bluetooth-b fa-lg mt-4"></i><br>bluetooth-b
+            <i class="fa fa-bluetooth-b fa-lg c-mt-4"></i><br>bluetooth-b
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bolt fa-lg mt-4"></i><br>bolt
+            <i class="fa fa-bolt fa-lg c-mt-4"></i><br>bolt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bomb fa-lg mt-4"></i><br>bomb
+            <i class="fa fa-bomb fa-lg c-mt-4"></i><br>bomb
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-book fa-lg mt-4"></i><br>book
+            <i class="fa fa-book fa-lg c-mt-4"></i><br>book
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bookmark fa-lg mt-4"></i><br>bookmark
+            <i class="fa fa-bookmark fa-lg c-mt-4"></i><br>bookmark
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bookmark-o fa-lg mt-4"></i><br>bookmark-o
+            <i class="fa fa-bookmark-o fa-lg c-mt-4"></i><br>bookmark-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-briefcase fa-lg mt-4"></i><br>briefcase
+            <i class="fa fa-briefcase fa-lg c-mt-4"></i><br>briefcase
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bug fa-lg mt-4"></i><br>bug
+            <i class="fa fa-bug fa-lg c-mt-4"></i><br>bug
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-building fa-lg mt-4"></i><br>building
+            <i class="fa fa-building fa-lg c-mt-4"></i><br>building
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-building-o fa-lg mt-4"></i><br>building-o
+            <i class="fa fa-building-o fa-lg c-mt-4"></i><br>building-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bullhorn fa-lg mt-4"></i><br>bullhorn
+            <i class="fa fa-bullhorn fa-lg c-mt-4"></i><br>bullhorn
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bullseye fa-lg mt-4"></i><br>bullseye
+            <i class="fa fa-bullseye fa-lg c-mt-4"></i><br>bullseye
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bus fa-lg mt-4"></i><br>bus
+            <i class="fa fa-bus fa-lg c-mt-4"></i><br>bus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cab fa-lg mt-4"></i><br>cab <span class="text-muted">(alias)</span>
+            <i class="fa fa-cab fa-lg c-mt-4"></i><br>cab <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-calculator fa-lg mt-4"></i><br>calculator
+            <i class="fa fa-calculator fa-lg c-mt-4"></i><br>calculator
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-calendar fa-lg mt-4"></i><br>calendar
+            <i class="fa fa-calendar fa-lg c-mt-4"></i><br>calendar
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-calendar-check-o fa-lg mt-4"></i><br>calendar-check-o
+            <i class="fa fa-calendar-check-o fa-lg c-mt-4"></i><br>calendar-check-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-calendar-minus-o fa-lg mt-4"></i><br>calendar-minus-o
+            <i class="fa fa-calendar-minus-o fa-lg c-mt-4"></i><br>calendar-minus-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-calendar-o fa-lg mt-4"></i><br>calendar-o
+            <i class="fa fa-calendar-o fa-lg c-mt-4"></i><br>calendar-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-calendar-plus-o fa-lg mt-4"></i><br>calendar-plus-o
+            <i class="fa fa-calendar-plus-o fa-lg c-mt-4"></i><br>calendar-plus-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-calendar-times-o fa-lg mt-4"></i><br>calendar-times-o
+            <i class="fa fa-calendar-times-o fa-lg c-mt-4"></i><br>calendar-times-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-camera fa-lg mt-4"></i><br>camera
+            <i class="fa fa-camera fa-lg c-mt-4"></i><br>camera
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-camera-retro fa-lg mt-4"></i><br>camera-retro
+            <i class="fa fa-camera-retro fa-lg c-mt-4"></i><br>camera-retro
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-car fa-lg mt-4"></i><br>car
+            <i class="fa fa-car fa-lg c-mt-4"></i><br>car
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-down fa-lg mt-4"></i><br>caret-square-o-down
+            <i class="fa fa-caret-square-o-down fa-lg c-mt-4"></i><br>caret-square-o-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-left fa-lg mt-4"></i><br>caret-square-o-left
+            <i class="fa fa-caret-square-o-left fa-lg c-mt-4"></i><br>caret-square-o-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-right fa-lg mt-4"></i><br>caret-square-o-right
+            <i class="fa fa-caret-square-o-right fa-lg c-mt-4"></i><br>caret-square-o-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-up fa-lg mt-4"></i><br>caret-square-o-up
+            <i class="fa fa-caret-square-o-up fa-lg c-mt-4"></i><br>caret-square-o-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cart-arrow-down fa-lg mt-4"></i><br>cart-arrow-down
+            <i class="fa fa-cart-arrow-down fa-lg c-mt-4"></i><br>cart-arrow-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cart-plus fa-lg mt-4"></i><br>cart-plus
+            <i class="fa fa-cart-plus fa-lg c-mt-4"></i><br>cart-plus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc fa-lg mt-4"></i><br>cc
+            <i class="fa fa-cc fa-lg c-mt-4"></i><br>cc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-certificate fa-lg mt-4"></i><br>certificate
+            <i class="fa fa-certificate fa-lg c-mt-4"></i><br>certificate
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-check fa-lg mt-4"></i><br>check
+            <i class="fa fa-check fa-lg c-mt-4"></i><br>check
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-check-circle fa-lg mt-4"></i><br>check-circle
+            <i class="fa fa-check-circle fa-lg c-mt-4"></i><br>check-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-check-circle-o fa-lg mt-4"></i><br>check-circle-o
+            <i class="fa fa-check-circle-o fa-lg c-mt-4"></i><br>check-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-check-square fa-lg mt-4"></i><br>check-square
+            <i class="fa fa-check-square fa-lg c-mt-4"></i><br>check-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-check-square-o fa-lg mt-4"></i><br>check-square-o
+            <i class="fa fa-check-square-o fa-lg c-mt-4"></i><br>check-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-child fa-lg mt-4"></i><br>child
+            <i class="fa fa-child fa-lg c-mt-4"></i><br>child
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-circle fa-lg mt-4"></i><br>circle
+            <i class="fa fa-circle fa-lg c-mt-4"></i><br>circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-circle-o fa-lg mt-4"></i><br>circle-o
+            <i class="fa fa-circle-o fa-lg c-mt-4"></i><br>circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-circle-o-notch fa-lg mt-4"></i><br>circle-o-notch
+            <i class="fa fa-circle-o-notch fa-lg c-mt-4"></i><br>circle-o-notch
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-circle-thin fa-lg mt-4"></i><br>circle-thin
+            <i class="fa fa-circle-thin fa-lg c-mt-4"></i><br>circle-thin
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-clock-o fa-lg mt-4"></i><br>clock-o
+            <i class="fa fa-clock-o fa-lg c-mt-4"></i><br>clock-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-clone fa-lg mt-4"></i><br>clone
+            <i class="fa fa-clone fa-lg c-mt-4"></i><br>clone
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-close fa-lg mt-4"></i><br>close <span class="text-muted">(alias)</span>
+            <i class="fa fa-close fa-lg c-mt-4"></i><br>close <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cloud fa-lg mt-4"></i><br>cloud
+            <i class="fa fa-cloud fa-lg c-mt-4"></i><br>cloud
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cloud-download fa-lg mt-4"></i><br>cloud-download
+            <i class="fa fa-cloud-download fa-lg c-mt-4"></i><br>cloud-download
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cloud-upload fa-lg mt-4"></i><br>cloud-upload
+            <i class="fa fa-cloud-upload fa-lg c-mt-4"></i><br>cloud-upload
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-code fa-lg mt-4"></i><br>code
+            <i class="fa fa-code fa-lg c-mt-4"></i><br>code
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-code-fork fa-lg mt-4"></i><br>code-fork
+            <i class="fa fa-code-fork fa-lg c-mt-4"></i><br>code-fork
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-coffee fa-lg mt-4"></i><br>coffee
+            <i class="fa fa-coffee fa-lg c-mt-4"></i><br>coffee
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cog fa-lg mt-4"></i><br>cog
+            <i class="fa fa-cog fa-lg c-mt-4"></i><br>cog
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cogs fa-lg mt-4"></i><br>cogs
+            <i class="fa fa-cogs fa-lg c-mt-4"></i><br>cogs
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-comment fa-lg mt-4"></i><br>comment
+            <i class="fa fa-comment fa-lg c-mt-4"></i><br>comment
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-comment-o fa-lg mt-4"></i><br>comment-o
+            <i class="fa fa-comment-o fa-lg c-mt-4"></i><br>comment-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-commenting fa-lg mt-4"></i><br>commenting
+            <i class="fa fa-commenting fa-lg c-mt-4"></i><br>commenting
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-commenting-o fa-lg mt-4"></i><br>commenting-o
+            <i class="fa fa-commenting-o fa-lg c-mt-4"></i><br>commenting-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-comments fa-lg mt-4"></i><br>comments
+            <i class="fa fa-comments fa-lg c-mt-4"></i><br>comments
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-comments-o fa-lg mt-4"></i><br>comments-o
+            <i class="fa fa-comments-o fa-lg c-mt-4"></i><br>comments-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-compass fa-lg mt-4"></i><br>compass
+            <i class="fa fa-compass fa-lg c-mt-4"></i><br>compass
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-copyright fa-lg mt-4"></i><br>copyright
+            <i class="fa fa-copyright fa-lg c-mt-4"></i><br>copyright
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-creative-commons fa-lg mt-4"></i><br>creative-commons
+            <i class="fa fa-creative-commons fa-lg c-mt-4"></i><br>creative-commons
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-credit-card fa-lg mt-4"></i><br>credit-card
+            <i class="fa fa-credit-card fa-lg c-mt-4"></i><br>credit-card
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-credit-card-alt fa-lg mt-4"></i><br>credit-card-alt
+            <i class="fa fa-credit-card-alt fa-lg c-mt-4"></i><br>credit-card-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-crop fa-lg mt-4"></i><br>crop
+            <i class="fa fa-crop fa-lg c-mt-4"></i><br>crop
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-crosshairs fa-lg mt-4"></i><br>crosshairs
+            <i class="fa fa-crosshairs fa-lg c-mt-4"></i><br>crosshairs
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cube fa-lg mt-4"></i><br>cube
+            <i class="fa fa-cube fa-lg c-mt-4"></i><br>cube
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cubes fa-lg mt-4"></i><br>cubes
+            <i class="fa fa-cubes fa-lg c-mt-4"></i><br>cubes
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cutlery fa-lg mt-4"></i><br>cutlery
+            <i class="fa fa-cutlery fa-lg c-mt-4"></i><br>cutlery
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dashboard fa-lg mt-4"></i><br>dashboard <span class="text-muted">(alias)</span>
+            <i class="fa fa-dashboard fa-lg c-mt-4"></i><br>dashboard <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-database fa-lg mt-4"></i><br>database
+            <i class="fa fa-database fa-lg c-mt-4"></i><br>database
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-desktop fa-lg mt-4"></i><br>desktop
+            <i class="fa fa-desktop fa-lg c-mt-4"></i><br>desktop
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-diamond fa-lg mt-4"></i><br>diamond
+            <i class="fa fa-diamond fa-lg c-mt-4"></i><br>diamond
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dot-circle-o fa-lg mt-4"></i><br>dot-circle-o
+            <i class="fa fa-dot-circle-o fa-lg c-mt-4"></i><br>dot-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-download fa-lg mt-4"></i><br>download
+            <i class="fa fa-download fa-lg c-mt-4"></i><br>download
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-edit fa-lg mt-4"></i><br>edit <span class="text-muted">(alias)</span>
+            <i class="fa fa-edit fa-lg c-mt-4"></i><br>edit <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ellipsis-h fa-lg mt-4"></i><br>ellipsis-h
+            <i class="fa fa-ellipsis-h fa-lg c-mt-4"></i><br>ellipsis-h
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ellipsis-v fa-lg mt-4"></i><br>ellipsis-v
+            <i class="fa fa-ellipsis-v fa-lg c-mt-4"></i><br>ellipsis-v
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-envelope fa-lg mt-4"></i><br>envelope
+            <i class="fa fa-envelope fa-lg c-mt-4"></i><br>envelope
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-envelope-o fa-lg mt-4"></i><br>envelope-o
+            <i class="fa fa-envelope-o fa-lg c-mt-4"></i><br>envelope-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-envelope-square fa-lg mt-4"></i><br>envelope-square
+            <i class="fa fa-envelope-square fa-lg c-mt-4"></i><br>envelope-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eraser fa-lg mt-4"></i><br>eraser
+            <i class="fa fa-eraser fa-lg c-mt-4"></i><br>eraser
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-exchange fa-lg mt-4"></i><br>exchange
+            <i class="fa fa-exchange fa-lg c-mt-4"></i><br>exchange
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-exclamation fa-lg mt-4"></i><br>exclamation
+            <i class="fa fa-exclamation fa-lg c-mt-4"></i><br>exclamation
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-exclamation-circle fa-lg mt-4"></i><br>exclamation-circle
+            <i class="fa fa-exclamation-circle fa-lg c-mt-4"></i><br>exclamation-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-exclamation-triangle fa-lg mt-4"></i><br>exclamation-triangle
+            <i class="fa fa-exclamation-triangle fa-lg c-mt-4"></i><br>exclamation-triangle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-external-link fa-lg mt-4"></i><br>external-link
+            <i class="fa fa-external-link fa-lg c-mt-4"></i><br>external-link
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-external-link-square fa-lg mt-4"></i><br>external-link-square
+            <i class="fa fa-external-link-square fa-lg c-mt-4"></i><br>external-link-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eye fa-lg mt-4"></i><br>eye
+            <i class="fa fa-eye fa-lg c-mt-4"></i><br>eye
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eye-slash fa-lg mt-4"></i><br>eye-slash
+            <i class="fa fa-eye-slash fa-lg c-mt-4"></i><br>eye-slash
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eyedropper fa-lg mt-4"></i><br>eyedropper
+            <i class="fa fa-eyedropper fa-lg c-mt-4"></i><br>eyedropper
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fax fa-lg mt-4"></i><br>fax
+            <i class="fa fa-fax fa-lg c-mt-4"></i><br>fax
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-feed fa-lg mt-4"></i><br>feed <span class="text-muted">(alias)</span>
+            <i class="fa fa-feed fa-lg c-mt-4"></i><br>feed <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-female fa-lg mt-4"></i><br>female
+            <i class="fa fa-female fa-lg c-mt-4"></i><br>female
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fighter-jet fa-lg mt-4"></i><br>fighter-jet
+            <i class="fa fa-fighter-jet fa-lg c-mt-4"></i><br>fighter-jet
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-archive-o fa-lg mt-4"></i><br>file-archive-o
+            <i class="fa fa-file-archive-o fa-lg c-mt-4"></i><br>file-archive-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-audio-o fa-lg mt-4"></i><br>file-audio-o
+            <i class="fa fa-file-audio-o fa-lg c-mt-4"></i><br>file-audio-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-code-o fa-lg mt-4"></i><br>file-code-o
+            <i class="fa fa-file-code-o fa-lg c-mt-4"></i><br>file-code-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-excel-o fa-lg mt-4"></i><br>file-excel-o
+            <i class="fa fa-file-excel-o fa-lg c-mt-4"></i><br>file-excel-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-image-o fa-lg mt-4"></i><br>file-image-o
+            <i class="fa fa-file-image-o fa-lg c-mt-4"></i><br>file-image-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-movie-o fa-lg mt-4"></i><br>file-movie-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-movie-o fa-lg c-mt-4"></i><br>file-movie-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-pdf-o fa-lg mt-4"></i><br>file-pdf-o
+            <i class="fa fa-file-pdf-o fa-lg c-mt-4"></i><br>file-pdf-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-photo-o fa-lg mt-4"></i><br>file-photo-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-photo-o fa-lg c-mt-4"></i><br>file-photo-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-picture-o fa-lg mt-4"></i><br>file-picture-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-picture-o fa-lg c-mt-4"></i><br>file-picture-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-powerpoint-o fa-lg mt-4"></i><br>file-powerpoint-o
+            <i class="fa fa-file-powerpoint-o fa-lg c-mt-4"></i><br>file-powerpoint-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-sound-o fa-lg mt-4"></i><br>file-sound-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-sound-o fa-lg c-mt-4"></i><br>file-sound-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-video-o fa-lg mt-4"></i><br>file-video-o
+            <i class="fa fa-file-video-o fa-lg c-mt-4"></i><br>file-video-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-word-o fa-lg mt-4"></i><br>file-word-o
+            <i class="fa fa-file-word-o fa-lg c-mt-4"></i><br>file-word-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-zip-o fa-lg mt-4"></i><br>file-zip-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-zip-o fa-lg c-mt-4"></i><br>file-zip-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-film fa-lg mt-4"></i><br>film
+            <i class="fa fa-film fa-lg c-mt-4"></i><br>film
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-filter fa-lg mt-4"></i><br>filter
+            <i class="fa fa-filter fa-lg c-mt-4"></i><br>filter
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fire fa-lg mt-4"></i><br>fire
+            <i class="fa fa-fire fa-lg c-mt-4"></i><br>fire
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fire-extinguisher fa-lg mt-4"></i><br>fire-extinguisher
+            <i class="fa fa-fire-extinguisher fa-lg c-mt-4"></i><br>fire-extinguisher
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-flag fa-lg mt-4"></i><br>flag
+            <i class="fa fa-flag fa-lg c-mt-4"></i><br>flag
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-flag-checkered fa-lg mt-4"></i><br>flag-checkered
+            <i class="fa fa-flag-checkered fa-lg c-mt-4"></i><br>flag-checkered
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-flag-o fa-lg mt-4"></i><br>flag-o
+            <i class="fa fa-flag-o fa-lg c-mt-4"></i><br>flag-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-flash fa-lg mt-4"></i><br>flash <span class="text-muted">(alias)</span>
+            <i class="fa fa-flash fa-lg c-mt-4"></i><br>flash <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-flask fa-lg mt-4"></i><br>flask
+            <i class="fa fa-flask fa-lg c-mt-4"></i><br>flask
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-folder fa-lg mt-4"></i><br>folder
+            <i class="fa fa-folder fa-lg c-mt-4"></i><br>folder
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-folder-o fa-lg mt-4"></i><br>folder-o
+            <i class="fa fa-folder-o fa-lg c-mt-4"></i><br>folder-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-folder-open fa-lg mt-4"></i><br>folder-open
+            <i class="fa fa-folder-open fa-lg c-mt-4"></i><br>folder-open
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-folder-open-o fa-lg mt-4"></i><br>folder-open-o
+            <i class="fa fa-folder-open-o fa-lg c-mt-4"></i><br>folder-open-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-frown-o fa-lg mt-4"></i><br>frown-o
+            <i class="fa fa-frown-o fa-lg c-mt-4"></i><br>frown-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-futbol-o fa-lg mt-4"></i><br>futbol-o
+            <i class="fa fa-futbol-o fa-lg c-mt-4"></i><br>futbol-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gamepad fa-lg mt-4"></i><br>gamepad
+            <i class="fa fa-gamepad fa-lg c-mt-4"></i><br>gamepad
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gavel fa-lg mt-4"></i><br>gavel
+            <i class="fa fa-gavel fa-lg c-mt-4"></i><br>gavel
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gear fa-lg mt-4"></i><br>gear <span class="text-muted">(alias)</span>
+            <i class="fa fa-gear fa-lg c-mt-4"></i><br>gear <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gears fa-lg mt-4"></i><br>gears <span class="text-muted">(alias)</span>
+            <i class="fa fa-gears fa-lg c-mt-4"></i><br>gears <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gift fa-lg mt-4"></i><br>gift
+            <i class="fa fa-gift fa-lg c-mt-4"></i><br>gift
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-glass fa-lg mt-4"></i><br>glass
+            <i class="fa fa-glass fa-lg c-mt-4"></i><br>glass
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-globe fa-lg mt-4"></i><br>globe
+            <i class="fa fa-globe fa-lg c-mt-4"></i><br>globe
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-graduation-cap fa-lg mt-4"></i><br>graduation-cap
+            <i class="fa fa-graduation-cap fa-lg c-mt-4"></i><br>graduation-cap
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-group fa-lg mt-4"></i><br>group <span class="text-muted">(alias)</span>
+            <i class="fa fa-group fa-lg c-mt-4"></i><br>group <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-grab-o fa-lg mt-4"></i><br>hand-grab-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-hand-grab-o fa-lg c-mt-4"></i><br>hand-grab-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-lizard-o fa-lg mt-4"></i><br>hand-lizard-o
+            <i class="fa fa-hand-lizard-o fa-lg c-mt-4"></i><br>hand-lizard-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-paper-o fa-lg mt-4"></i><br>hand-paper-o
+            <i class="fa fa-hand-paper-o fa-lg c-mt-4"></i><br>hand-paper-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-peace-o fa-lg mt-4"></i><br>hand-peace-o
+            <i class="fa fa-hand-peace-o fa-lg c-mt-4"></i><br>hand-peace-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-pointer-o fa-lg mt-4"></i><br>hand-pointer-o
+            <i class="fa fa-hand-pointer-o fa-lg c-mt-4"></i><br>hand-pointer-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-rock-o fa-lg mt-4"></i><br>hand-rock-o
+            <i class="fa fa-hand-rock-o fa-lg c-mt-4"></i><br>hand-rock-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-scissors-o fa-lg mt-4"></i><br>hand-scissors-o
+            <i class="fa fa-hand-scissors-o fa-lg c-mt-4"></i><br>hand-scissors-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-spock-o fa-lg mt-4"></i><br>hand-spock-o
+            <i class="fa fa-hand-spock-o fa-lg c-mt-4"></i><br>hand-spock-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-stop-o fa-lg mt-4"></i><br>hand-stop-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-hand-stop-o fa-lg c-mt-4"></i><br>hand-stop-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hashtag fa-lg mt-4"></i><br>hashtag
+            <i class="fa fa-hashtag fa-lg c-mt-4"></i><br>hashtag
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hdd-o fa-lg mt-4"></i><br>hdd-o
+            <i class="fa fa-hdd-o fa-lg c-mt-4"></i><br>hdd-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-headphones fa-lg mt-4"></i><br>headphones
+            <i class="fa fa-headphones fa-lg c-mt-4"></i><br>headphones
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-heart fa-lg mt-4"></i><br>heart
+            <i class="fa fa-heart fa-lg c-mt-4"></i><br>heart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-heart-o fa-lg mt-4"></i><br>heart-o
+            <i class="fa fa-heart-o fa-lg c-mt-4"></i><br>heart-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-heartbeat fa-lg mt-4"></i><br>heartbeat
+            <i class="fa fa-heartbeat fa-lg c-mt-4"></i><br>heartbeat
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-history fa-lg mt-4"></i><br>history
+            <i class="fa fa-history fa-lg c-mt-4"></i><br>history
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-home fa-lg mt-4"></i><br>home
+            <i class="fa fa-home fa-lg c-mt-4"></i><br>home
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hotel fa-lg mt-4"></i><br>hotel <span class="text-muted">(alias)</span>
+            <i class="fa fa-hotel fa-lg c-mt-4"></i><br>hotel <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass fa-lg mt-4"></i><br>hourglass
+            <i class="fa fa-hourglass fa-lg c-mt-4"></i><br>hourglass
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass-1 fa-lg mt-4"></i><br>hourglass-1 <span class="text-muted">(alias)</span>
+            <i class="fa fa-hourglass-1 fa-lg c-mt-4"></i><br>hourglass-1 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass-2 fa-lg mt-4"></i><br>hourglass-2 <span class="text-muted">(alias)</span>
+            <i class="fa fa-hourglass-2 fa-lg c-mt-4"></i><br>hourglass-2 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass-3 fa-lg mt-4"></i><br>hourglass-3 <span class="text-muted">(alias)</span>
+            <i class="fa fa-hourglass-3 fa-lg c-mt-4"></i><br>hourglass-3 <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass-end fa-lg mt-4"></i><br>hourglass-end
+            <i class="fa fa-hourglass-end fa-lg c-mt-4"></i><br>hourglass-end
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass-half fa-lg mt-4"></i><br>hourglass-half
+            <i class="fa fa-hourglass-half fa-lg c-mt-4"></i><br>hourglass-half
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass-o fa-lg mt-4"></i><br>hourglass-o
+            <i class="fa fa-hourglass-o fa-lg c-mt-4"></i><br>hourglass-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hourglass-start fa-lg mt-4"></i><br>hourglass-start
+            <i class="fa fa-hourglass-start fa-lg c-mt-4"></i><br>hourglass-start
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-i-cursor fa-lg mt-4"></i><br>i-cursor
+            <i class="fa fa-i-cursor fa-lg c-mt-4"></i><br>i-cursor
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-image fa-lg mt-4"></i><br>image <span class="text-muted">(alias)</span>
+            <i class="fa fa-image fa-lg c-mt-4"></i><br>image <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-inbox fa-lg mt-4"></i><br>inbox
+            <i class="fa fa-inbox fa-lg c-mt-4"></i><br>inbox
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-industry fa-lg mt-4"></i><br>industry
+            <i class="fa fa-industry fa-lg c-mt-4"></i><br>industry
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-info fa-lg mt-4"></i><br>info
+            <i class="fa fa-info fa-lg c-mt-4"></i><br>info
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-info-circle fa-lg mt-4"></i><br>info-circle
+            <i class="fa fa-info-circle fa-lg c-mt-4"></i><br>info-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-institution fa-lg mt-4"></i><br>institution <span class="text-muted">(alias)</span>
+            <i class="fa fa-institution fa-lg c-mt-4"></i><br>institution <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-key fa-lg mt-4"></i><br>key
+            <i class="fa fa-key fa-lg c-mt-4"></i><br>key
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-keyboard-o fa-lg mt-4"></i><br>keyboard-o
+            <i class="fa fa-keyboard-o fa-lg c-mt-4"></i><br>keyboard-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-language fa-lg mt-4"></i><br>language
+            <i class="fa fa-language fa-lg c-mt-4"></i><br>language
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-laptop fa-lg mt-4"></i><br>laptop
+            <i class="fa fa-laptop fa-lg c-mt-4"></i><br>laptop
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-leaf fa-lg mt-4"></i><br>leaf
+            <i class="fa fa-leaf fa-lg c-mt-4"></i><br>leaf
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-legal fa-lg mt-4"></i><br>legal <span class="text-muted">(alias)</span>
+            <i class="fa fa-legal fa-lg c-mt-4"></i><br>legal <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-lemon-o fa-lg mt-4"></i><br>lemon-o
+            <i class="fa fa-lemon-o fa-lg c-mt-4"></i><br>lemon-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-level-down fa-lg mt-4"></i><br>level-down
+            <i class="fa fa-level-down fa-lg c-mt-4"></i><br>level-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-level-up fa-lg mt-4"></i><br>level-up
+            <i class="fa fa-level-up fa-lg c-mt-4"></i><br>level-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-life-bouy fa-lg mt-4"></i><br>life-bouy <span class="text-muted">(alias)</span>
+            <i class="fa fa-life-bouy fa-lg c-mt-4"></i><br>life-bouy <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-life-buoy fa-lg mt-4"></i><br>life-buoy <span class="text-muted">(alias)</span>
+            <i class="fa fa-life-buoy fa-lg c-mt-4"></i><br>life-buoy <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-life-ring fa-lg mt-4"></i><br>life-ring
+            <i class="fa fa-life-ring fa-lg c-mt-4"></i><br>life-ring
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-life-saver fa-lg mt-4"></i><br>life-saver <span class="text-muted">(alias)</span>
+            <i class="fa fa-life-saver fa-lg c-mt-4"></i><br>life-saver <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-lightbulb-o fa-lg mt-4"></i><br>lightbulb-o
+            <i class="fa fa-lightbulb-o fa-lg c-mt-4"></i><br>lightbulb-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-line-chart fa-lg mt-4"></i><br>line-chart
+            <i class="fa fa-line-chart fa-lg c-mt-4"></i><br>line-chart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-location-arrow fa-lg mt-4"></i><br>location-arrow
+            <i class="fa fa-location-arrow fa-lg c-mt-4"></i><br>location-arrow
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-lock fa-lg mt-4"></i><br>lock
+            <i class="fa fa-lock fa-lg c-mt-4"></i><br>lock
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-magic fa-lg mt-4"></i><br>magic
+            <i class="fa fa-magic fa-lg c-mt-4"></i><br>magic
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-magnet fa-lg mt-4"></i><br>magnet
+            <i class="fa fa-magnet fa-lg c-mt-4"></i><br>magnet
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mail-forward fa-lg mt-4"></i><br>mail-forward <span class="text-muted">(alias)</span>
+            <i class="fa fa-mail-forward fa-lg c-mt-4"></i><br>mail-forward <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mail-reply fa-lg mt-4"></i><br>mail-reply <span class="text-muted">(alias)</span>
+            <i class="fa fa-mail-reply fa-lg c-mt-4"></i><br>mail-reply <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mail-reply-all fa-lg mt-4"></i><br>mail-reply-all <span class="text-muted">(alias)</span>
+            <i class="fa fa-mail-reply-all fa-lg c-mt-4"></i><br>mail-reply-all <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-male fa-lg mt-4"></i><br>male
+            <i class="fa fa-male fa-lg c-mt-4"></i><br>male
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-map fa-lg mt-4"></i><br>map
+            <i class="fa fa-map fa-lg c-mt-4"></i><br>map
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-map-marker fa-lg mt-4"></i><br>map-marker
+            <i class="fa fa-map-marker fa-lg c-mt-4"></i><br>map-marker
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-map-o fa-lg mt-4"></i><br>map-o
+            <i class="fa fa-map-o fa-lg c-mt-4"></i><br>map-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-map-pin fa-lg mt-4"></i><br>map-pin
+            <i class="fa fa-map-pin fa-lg c-mt-4"></i><br>map-pin
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-map-signs fa-lg mt-4"></i><br>map-signs
+            <i class="fa fa-map-signs fa-lg c-mt-4"></i><br>map-signs
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-meh-o fa-lg mt-4"></i><br>meh-o
+            <i class="fa fa-meh-o fa-lg c-mt-4"></i><br>meh-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-microphone fa-lg mt-4"></i><br>microphone
+            <i class="fa fa-microphone fa-lg c-mt-4"></i><br>microphone
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-microphone-slash fa-lg mt-4"></i><br>microphone-slash
+            <i class="fa fa-microphone-slash fa-lg c-mt-4"></i><br>microphone-slash
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-minus fa-lg mt-4"></i><br>minus
+            <i class="fa fa-minus fa-lg c-mt-4"></i><br>minus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-minus-circle fa-lg mt-4"></i><br>minus-circle
+            <i class="fa fa-minus-circle fa-lg c-mt-4"></i><br>minus-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-minus-square fa-lg mt-4"></i><br>minus-square
+            <i class="fa fa-minus-square fa-lg c-mt-4"></i><br>minus-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-minus-square-o fa-lg mt-4"></i><br>minus-square-o
+            <i class="fa fa-minus-square-o fa-lg c-mt-4"></i><br>minus-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mobile fa-lg mt-4"></i><br>mobile
+            <i class="fa fa-mobile fa-lg c-mt-4"></i><br>mobile
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mobile-phone fa-lg mt-4"></i><br>mobile-phone <span class="text-muted">(alias)</span>
+            <i class="fa fa-mobile-phone fa-lg c-mt-4"></i><br>mobile-phone <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-money fa-lg mt-4"></i><br>money
+            <i class="fa fa-money fa-lg c-mt-4"></i><br>money
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-moon-o fa-lg mt-4"></i><br>moon-o
+            <i class="fa fa-moon-o fa-lg c-mt-4"></i><br>moon-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mortar-board fa-lg mt-4"></i><br>mortar-board <span class="text-muted">(alias)</span>
+            <i class="fa fa-mortar-board fa-lg c-mt-4"></i><br>mortar-board <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-motorcycle fa-lg mt-4"></i><br>motorcycle
+            <i class="fa fa-motorcycle fa-lg c-mt-4"></i><br>motorcycle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mouse-pointer fa-lg mt-4"></i><br>mouse-pointer
+            <i class="fa fa-mouse-pointer fa-lg c-mt-4"></i><br>mouse-pointer
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-music fa-lg mt-4"></i><br>music
+            <i class="fa fa-music fa-lg c-mt-4"></i><br>music
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-navicon fa-lg mt-4"></i><br>navicon <span class="text-muted">(alias)</span>
+            <i class="fa fa-navicon fa-lg c-mt-4"></i><br>navicon <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-newspaper-o fa-lg mt-4"></i><br>newspaper-o
+            <i class="fa fa-newspaper-o fa-lg c-mt-4"></i><br>newspaper-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-object-group fa-lg mt-4"></i><br>object-group
+            <i class="fa fa-object-group fa-lg c-mt-4"></i><br>object-group
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-object-ungroup fa-lg mt-4"></i><br>object-ungroup
+            <i class="fa fa-object-ungroup fa-lg c-mt-4"></i><br>object-ungroup
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paint-brush fa-lg mt-4"></i><br>paint-brush
+            <i class="fa fa-paint-brush fa-lg c-mt-4"></i><br>paint-brush
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paper-plane fa-lg mt-4"></i><br>paper-plane
+            <i class="fa fa-paper-plane fa-lg c-mt-4"></i><br>paper-plane
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paper-plane-o fa-lg mt-4"></i><br>paper-plane-o
+            <i class="fa fa-paper-plane-o fa-lg c-mt-4"></i><br>paper-plane-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paw fa-lg mt-4"></i><br>paw
+            <i class="fa fa-paw fa-lg c-mt-4"></i><br>paw
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pencil fa-lg mt-4"></i><br>pencil
+            <i class="fa fa-pencil fa-lg c-mt-4"></i><br>pencil
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pencil-square fa-lg mt-4"></i><br>pencil-square
+            <i class="fa fa-pencil-square fa-lg c-mt-4"></i><br>pencil-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pencil-square-o fa-lg mt-4"></i><br>pencil-square-o
+            <i class="fa fa-pencil-square-o fa-lg c-mt-4"></i><br>pencil-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-percent fa-lg mt-4"></i><br>percent
+            <i class="fa fa-percent fa-lg c-mt-4"></i><br>percent
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-phone fa-lg mt-4"></i><br>phone
+            <i class="fa fa-phone fa-lg c-mt-4"></i><br>phone
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-phone-square fa-lg mt-4"></i><br>phone-square
+            <i class="fa fa-phone-square fa-lg c-mt-4"></i><br>phone-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-photo fa-lg mt-4"></i><br>photo <span class="text-muted">(alias)</span>
+            <i class="fa fa-photo fa-lg c-mt-4"></i><br>photo <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-picture-o fa-lg mt-4"></i><br>picture-o
+            <i class="fa fa-picture-o fa-lg c-mt-4"></i><br>picture-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pie-chart fa-lg mt-4"></i><br>pie-chart
+            <i class="fa fa-pie-chart fa-lg c-mt-4"></i><br>pie-chart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plane fa-lg mt-4"></i><br>plane
+            <i class="fa fa-plane fa-lg c-mt-4"></i><br>plane
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plug fa-lg mt-4"></i><br>plug
+            <i class="fa fa-plug fa-lg c-mt-4"></i><br>plug
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plus fa-lg mt-4"></i><br>plus
+            <i class="fa fa-plus fa-lg c-mt-4"></i><br>plus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plus-circle fa-lg mt-4"></i><br>plus-circle
+            <i class="fa fa-plus-circle fa-lg c-mt-4"></i><br>plus-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plus-square fa-lg mt-4"></i><br>plus-square
+            <i class="fa fa-plus-square fa-lg c-mt-4"></i><br>plus-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plus-square-o fa-lg mt-4"></i><br>plus-square-o
+            <i class="fa fa-plus-square-o fa-lg c-mt-4"></i><br>plus-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-power-off fa-lg mt-4"></i><br>power-off
+            <i class="fa fa-power-off fa-lg c-mt-4"></i><br>power-off
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-print fa-lg mt-4"></i><br>print
+            <i class="fa fa-print fa-lg c-mt-4"></i><br>print
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-puzzle-piece fa-lg mt-4"></i><br>puzzle-piece
+            <i class="fa fa-puzzle-piece fa-lg c-mt-4"></i><br>puzzle-piece
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-qrcode fa-lg mt-4"></i><br>qrcode
+            <i class="fa fa-qrcode fa-lg c-mt-4"></i><br>qrcode
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-question fa-lg mt-4"></i><br>question
+            <i class="fa fa-question fa-lg c-mt-4"></i><br>question
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-question-circle fa-lg mt-4"></i><br>question-circle
+            <i class="fa fa-question-circle fa-lg c-mt-4"></i><br>question-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-quote-left fa-lg mt-4"></i><br>quote-left
+            <i class="fa fa-quote-left fa-lg c-mt-4"></i><br>quote-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-quote-right fa-lg mt-4"></i><br>quote-right
+            <i class="fa fa-quote-right fa-lg c-mt-4"></i><br>quote-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-random fa-lg mt-4"></i><br>random
+            <i class="fa fa-random fa-lg c-mt-4"></i><br>random
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-recycle fa-lg mt-4"></i><br>recycle
+            <i class="fa fa-recycle fa-lg c-mt-4"></i><br>recycle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-refresh fa-lg mt-4"></i><br>refresh
+            <i class="fa fa-refresh fa-lg c-mt-4"></i><br>refresh
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-registered fa-lg mt-4"></i><br>registered
+            <i class="fa fa-registered fa-lg c-mt-4"></i><br>registered
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-remove fa-lg mt-4"></i><br>remove <span class="text-muted">(alias)</span>
+            <i class="fa fa-remove fa-lg c-mt-4"></i><br>remove <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-reorder fa-lg mt-4"></i><br>reorder <span class="text-muted">(alias)</span>
+            <i class="fa fa-reorder fa-lg c-mt-4"></i><br>reorder <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-reply fa-lg mt-4"></i><br>reply
+            <i class="fa fa-reply fa-lg c-mt-4"></i><br>reply
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-reply-all fa-lg mt-4"></i><br>reply-all
+            <i class="fa fa-reply-all fa-lg c-mt-4"></i><br>reply-all
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-retweet fa-lg mt-4"></i><br>retweet
+            <i class="fa fa-retweet fa-lg c-mt-4"></i><br>retweet
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-road fa-lg mt-4"></i><br>road
+            <i class="fa fa-road fa-lg c-mt-4"></i><br>road
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rocket fa-lg mt-4"></i><br>rocket
+            <i class="fa fa-rocket fa-lg c-mt-4"></i><br>rocket
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rss fa-lg mt-4"></i><br>rss
+            <i class="fa fa-rss fa-lg c-mt-4"></i><br>rss
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rss-square fa-lg mt-4"></i><br>rss-square
+            <i class="fa fa-rss-square fa-lg c-mt-4"></i><br>rss-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-search fa-lg mt-4"></i><br>search
+            <i class="fa fa-search fa-lg c-mt-4"></i><br>search
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-search-minus fa-lg mt-4"></i><br>search-minus
+            <i class="fa fa-search-minus fa-lg c-mt-4"></i><br>search-minus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-search-plus fa-lg mt-4"></i><br>search-plus
+            <i class="fa fa-search-plus fa-lg c-mt-4"></i><br>search-plus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-send fa-lg mt-4"></i><br>send <span class="text-muted">(alias)</span>
+            <i class="fa fa-send fa-lg c-mt-4"></i><br>send <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-send-o fa-lg mt-4"></i><br>send-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-send-o fa-lg c-mt-4"></i><br>send-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-server fa-lg mt-4"></i><br>server
+            <i class="fa fa-server fa-lg c-mt-4"></i><br>server
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-share fa-lg mt-4"></i><br>share
+            <i class="fa fa-share fa-lg c-mt-4"></i><br>share
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-share-alt fa-lg mt-4"></i><br>share-alt
+            <i class="fa fa-share-alt fa-lg c-mt-4"></i><br>share-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-share-alt-square fa-lg mt-4"></i><br>share-alt-square
+            <i class="fa fa-share-alt-square fa-lg c-mt-4"></i><br>share-alt-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-share-square fa-lg mt-4"></i><br>share-square
+            <i class="fa fa-share-square fa-lg c-mt-4"></i><br>share-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-share-square-o fa-lg mt-4"></i><br>share-square-o
+            <i class="fa fa-share-square-o fa-lg c-mt-4"></i><br>share-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shield fa-lg mt-4"></i><br>shield
+            <i class="fa fa-shield fa-lg c-mt-4"></i><br>shield
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ship fa-lg mt-4"></i><br>ship
+            <i class="fa fa-ship fa-lg c-mt-4"></i><br>ship
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shopping-bag fa-lg mt-4"></i><br>shopping-bag
+            <i class="fa fa-shopping-bag fa-lg c-mt-4"></i><br>shopping-bag
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shopping-basket fa-lg mt-4"></i><br>shopping-basket
+            <i class="fa fa-shopping-basket fa-lg c-mt-4"></i><br>shopping-basket
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shopping-cart fa-lg mt-4"></i><br>shopping-cart
+            <i class="fa fa-shopping-cart fa-lg c-mt-4"></i><br>shopping-cart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sign-in fa-lg mt-4"></i><br>sign-in
+            <i class="fa fa-sign-in fa-lg c-mt-4"></i><br>sign-in
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sign-out fa-lg mt-4"></i><br>sign-out
+            <i class="fa fa-sign-out fa-lg c-mt-4"></i><br>sign-out
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-signal fa-lg mt-4"></i><br>signal
+            <i class="fa fa-signal fa-lg c-mt-4"></i><br>signal
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sitemap fa-lg mt-4"></i><br>sitemap
+            <i class="fa fa-sitemap fa-lg c-mt-4"></i><br>sitemap
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sliders fa-lg mt-4"></i><br>sliders
+            <i class="fa fa-sliders fa-lg c-mt-4"></i><br>sliders
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-smile-o fa-lg mt-4"></i><br>smile-o
+            <i class="fa fa-smile-o fa-lg c-mt-4"></i><br>smile-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-soccer-ball-o fa-lg mt-4"></i><br>soccer-ball-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-soccer-ball-o fa-lg c-mt-4"></i><br>soccer-ball-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort fa-lg mt-4"></i><br>sort
+            <i class="fa fa-sort fa-lg c-mt-4"></i><br>sort
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-alpha-asc fa-lg mt-4"></i><br>sort-alpha-asc
+            <i class="fa fa-sort-alpha-asc fa-lg c-mt-4"></i><br>sort-alpha-asc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-alpha-desc fa-lg mt-4"></i><br>sort-alpha-desc
+            <i class="fa fa-sort-alpha-desc fa-lg c-mt-4"></i><br>sort-alpha-desc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-amount-asc fa-lg mt-4"></i><br>sort-amount-asc
+            <i class="fa fa-sort-amount-asc fa-lg c-mt-4"></i><br>sort-amount-asc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-amount-desc fa-lg mt-4"></i><br>sort-amount-desc
+            <i class="fa fa-sort-amount-desc fa-lg c-mt-4"></i><br>sort-amount-desc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-asc fa-lg mt-4"></i><br>sort-asc
+            <i class="fa fa-sort-asc fa-lg c-mt-4"></i><br>sort-asc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-desc fa-lg mt-4"></i><br>sort-desc
+            <i class="fa fa-sort-desc fa-lg c-mt-4"></i><br>sort-desc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-down fa-lg mt-4"></i><br>sort-down <span class="text-muted">(alias)</span>
+            <i class="fa fa-sort-down fa-lg c-mt-4"></i><br>sort-down <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-numeric-asc fa-lg mt-4"></i><br>sort-numeric-asc
+            <i class="fa fa-sort-numeric-asc fa-lg c-mt-4"></i><br>sort-numeric-asc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-numeric-desc fa-lg mt-4"></i><br>sort-numeric-desc
+            <i class="fa fa-sort-numeric-desc fa-lg c-mt-4"></i><br>sort-numeric-desc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sort-up fa-lg mt-4"></i><br>sort-up <span class="text-muted">(alias)</span>
+            <i class="fa fa-sort-up fa-lg c-mt-4"></i><br>sort-up <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-space-shuttle fa-lg mt-4"></i><br>space-shuttle
+            <i class="fa fa-space-shuttle fa-lg c-mt-4"></i><br>space-shuttle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-spinner fa-lg mt-4"></i><br>spinner
+            <i class="fa fa-spinner fa-lg c-mt-4"></i><br>spinner
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-spoon fa-lg mt-4"></i><br>spoon
+            <i class="fa fa-spoon fa-lg c-mt-4"></i><br>spoon
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-square fa-lg mt-4"></i><br>square
+            <i class="fa fa-square fa-lg c-mt-4"></i><br>square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-square-o fa-lg mt-4"></i><br>square-o
+            <i class="fa fa-square-o fa-lg c-mt-4"></i><br>square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-star fa-lg mt-4"></i><br>star
+            <i class="fa fa-star fa-lg c-mt-4"></i><br>star
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-star-half fa-lg mt-4"></i><br>star-half
+            <i class="fa fa-star-half fa-lg c-mt-4"></i><br>star-half
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-star-half-empty fa-lg mt-4"></i><br>star-half-empty <span class="text-muted">(alias)</span>
+            <i class="fa fa-star-half-empty fa-lg c-mt-4"></i><br>star-half-empty <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-star-half-full fa-lg mt-4"></i><br>star-half-full <span class="text-muted">(alias)</span>
+            <i class="fa fa-star-half-full fa-lg c-mt-4"></i><br>star-half-full <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-star-half-o fa-lg mt-4"></i><br>star-half-o
+            <i class="fa fa-star-half-o fa-lg c-mt-4"></i><br>star-half-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-star-o fa-lg mt-4"></i><br>star-o
+            <i class="fa fa-star-o fa-lg c-mt-4"></i><br>star-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sticky-note fa-lg mt-4"></i><br>sticky-note
+            <i class="fa fa-sticky-note fa-lg c-mt-4"></i><br>sticky-note
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sticky-note-o fa-lg mt-4"></i><br>sticky-note-o
+            <i class="fa fa-sticky-note-o fa-lg c-mt-4"></i><br>sticky-note-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-street-view fa-lg mt-4"></i><br>street-view
+            <i class="fa fa-street-view fa-lg c-mt-4"></i><br>street-view
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-suitcase fa-lg mt-4"></i><br>suitcase
+            <i class="fa fa-suitcase fa-lg c-mt-4"></i><br>suitcase
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sun-o fa-lg mt-4"></i><br>sun-o
+            <i class="fa fa-sun-o fa-lg c-mt-4"></i><br>sun-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-support fa-lg mt-4"></i><br>support <span class="text-muted">(alias)</span>
+            <i class="fa fa-support fa-lg c-mt-4"></i><br>support <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tablet fa-lg mt-4"></i><br>tablet
+            <i class="fa fa-tablet fa-lg c-mt-4"></i><br>tablet
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tachometer fa-lg mt-4"></i><br>tachometer
+            <i class="fa fa-tachometer fa-lg c-mt-4"></i><br>tachometer
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tag fa-lg mt-4"></i><br>tag
+            <i class="fa fa-tag fa-lg c-mt-4"></i><br>tag
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tags fa-lg mt-4"></i><br>tags
+            <i class="fa fa-tags fa-lg c-mt-4"></i><br>tags
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tasks fa-lg mt-4"></i><br>tasks
+            <i class="fa fa-tasks fa-lg c-mt-4"></i><br>tasks
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-taxi fa-lg mt-4"></i><br>taxi
+            <i class="fa fa-taxi fa-lg c-mt-4"></i><br>taxi
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-television fa-lg mt-4"></i><br>television
+            <i class="fa fa-television fa-lg c-mt-4"></i><br>television
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-terminal fa-lg mt-4"></i><br>terminal
+            <i class="fa fa-terminal fa-lg c-mt-4"></i><br>terminal
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumb-tack fa-lg mt-4"></i><br>thumb-tack
+            <i class="fa fa-thumb-tack fa-lg c-mt-4"></i><br>thumb-tack
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-down fa-lg mt-4"></i><br>thumbs-down
+            <i class="fa fa-thumbs-down fa-lg c-mt-4"></i><br>thumbs-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-o-down fa-lg mt-4"></i><br>thumbs-o-down
+            <i class="fa fa-thumbs-o-down fa-lg c-mt-4"></i><br>thumbs-o-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-o-up fa-lg mt-4"></i><br>thumbs-o-up
+            <i class="fa fa-thumbs-o-up fa-lg c-mt-4"></i><br>thumbs-o-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-up fa-lg mt-4"></i><br>thumbs-up
+            <i class="fa fa-thumbs-up fa-lg c-mt-4"></i><br>thumbs-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ticket fa-lg mt-4"></i><br>ticket
+            <i class="fa fa-ticket fa-lg c-mt-4"></i><br>ticket
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-times fa-lg mt-4"></i><br>times
+            <i class="fa fa-times fa-lg c-mt-4"></i><br>times
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-times-circle fa-lg mt-4"></i><br>times-circle
+            <i class="fa fa-times-circle fa-lg c-mt-4"></i><br>times-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-times-circle-o fa-lg mt-4"></i><br>times-circle-o
+            <i class="fa fa-times-circle-o fa-lg c-mt-4"></i><br>times-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tint fa-lg mt-4"></i><br>tint
+            <i class="fa fa-tint fa-lg c-mt-4"></i><br>tint
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-down fa-lg mt-4"></i><br>toggle-down <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-down fa-lg c-mt-4"></i><br>toggle-down <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-left fa-lg mt-4"></i><br>toggle-left <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-left fa-lg c-mt-4"></i><br>toggle-left <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-off fa-lg mt-4"></i><br>toggle-off
+            <i class="fa fa-toggle-off fa-lg c-mt-4"></i><br>toggle-off
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-on fa-lg mt-4"></i><br>toggle-on
+            <i class="fa fa-toggle-on fa-lg c-mt-4"></i><br>toggle-on
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-right fa-lg mt-4"></i><br>toggle-right <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-right fa-lg c-mt-4"></i><br>toggle-right <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-up fa-lg mt-4"></i><br>toggle-up <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-up fa-lg c-mt-4"></i><br>toggle-up <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-trademark fa-lg mt-4"></i><br>trademark
+            <i class="fa fa-trademark fa-lg c-mt-4"></i><br>trademark
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-trash fa-lg mt-4"></i><br>trash
+            <i class="fa fa-trash fa-lg c-mt-4"></i><br>trash
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-trash-o fa-lg mt-4"></i><br>trash-o
+            <i class="fa fa-trash-o fa-lg c-mt-4"></i><br>trash-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tree fa-lg mt-4"></i><br>tree
+            <i class="fa fa-tree fa-lg c-mt-4"></i><br>tree
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-trophy fa-lg mt-4"></i><br>trophy
+            <i class="fa fa-trophy fa-lg c-mt-4"></i><br>trophy
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-truck fa-lg mt-4"></i><br>truck
+            <i class="fa fa-truck fa-lg c-mt-4"></i><br>truck
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tty fa-lg mt-4"></i><br>tty
+            <i class="fa fa-tty fa-lg c-mt-4"></i><br>tty
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tv fa-lg mt-4"></i><br>tv <span class="text-muted">(alias)</span>
+            <i class="fa fa-tv fa-lg c-mt-4"></i><br>tv <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-umbrella fa-lg mt-4"></i><br>umbrella
+            <i class="fa fa-umbrella fa-lg c-mt-4"></i><br>umbrella
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-university fa-lg mt-4"></i><br>university
+            <i class="fa fa-university fa-lg c-mt-4"></i><br>university
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-unlock fa-lg mt-4"></i><br>unlock
+            <i class="fa fa-unlock fa-lg c-mt-4"></i><br>unlock
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-unlock-alt fa-lg mt-4"></i><br>unlock-alt
+            <i class="fa fa-unlock-alt fa-lg c-mt-4"></i><br>unlock-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-unsorted fa-lg mt-4"></i><br>unsorted <span class="text-muted">(alias)</span>
+            <i class="fa fa-unsorted fa-lg c-mt-4"></i><br>unsorted <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-upload fa-lg mt-4"></i><br>upload
+            <i class="fa fa-upload fa-lg c-mt-4"></i><br>upload
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user fa-lg mt-4"></i><br>user
+            <i class="fa fa-user fa-lg c-mt-4"></i><br>user
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user-plus fa-lg mt-4"></i><br>user-plus
+            <i class="fa fa-user-plus fa-lg c-mt-4"></i><br>user-plus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user-secret fa-lg mt-4"></i><br>user-secret
+            <i class="fa fa-user-secret fa-lg c-mt-4"></i><br>user-secret
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user-times fa-lg mt-4"></i><br>user-times
+            <i class="fa fa-user-times fa-lg c-mt-4"></i><br>user-times
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-users fa-lg mt-4"></i><br>users
+            <i class="fa fa-users fa-lg c-mt-4"></i><br>users
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-video-camera fa-lg mt-4"></i><br>video-camera
+            <i class="fa fa-video-camera fa-lg c-mt-4"></i><br>video-camera
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-volume-down fa-lg mt-4"></i><br>volume-down
+            <i class="fa fa-volume-down fa-lg c-mt-4"></i><br>volume-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-volume-off fa-lg mt-4"></i><br>volume-off
+            <i class="fa fa-volume-off fa-lg c-mt-4"></i><br>volume-off
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-volume-up fa-lg mt-4"></i><br>volume-up
+            <i class="fa fa-volume-up fa-lg c-mt-4"></i><br>volume-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-warning fa-lg mt-4"></i><br>warning <span class="text-muted">(alias)</span>
+            <i class="fa fa-warning fa-lg c-mt-4"></i><br>warning <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wheelchair fa-lg mt-4"></i><br>wheelchair
+            <i class="fa fa-wheelchair fa-lg c-mt-4"></i><br>wheelchair
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wifi fa-lg mt-4"></i><br>wifi
+            <i class="fa fa-wifi fa-lg c-mt-4"></i><br>wifi
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wrench fa-lg mt-4"></i><br>wrench
+            <i class="fa fa-wrench fa-lg c-mt-4"></i><br>wrench
           </CCol>
 
         </CRow>
@@ -1438,55 +1438,55 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-grab-o fa-lg mt-4"></i><br>hand-grab-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-hand-grab-o fa-lg c-mt-4"></i><br>hand-grab-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-lizard-o fa-lg mt-4"></i><br>hand-lizard-o
+            <i class="fa fa-hand-lizard-o fa-lg c-mt-4"></i><br>hand-lizard-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-down fa-lg mt-4"></i><br>hand-o-down
+            <i class="fa fa-hand-o-down fa-lg c-mt-4"></i><br>hand-o-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-left fa-lg mt-4"></i><br>hand-o-left
+            <i class="fa fa-hand-o-left fa-lg c-mt-4"></i><br>hand-o-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-right fa-lg mt-4"></i><br>hand-o-right
+            <i class="fa fa-hand-o-right fa-lg c-mt-4"></i><br>hand-o-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-up fa-lg mt-4"></i><br>hand-o-up
+            <i class="fa fa-hand-o-up fa-lg c-mt-4"></i><br>hand-o-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-paper-o fa-lg mt-4"></i><br>hand-paper-o
+            <i class="fa fa-hand-paper-o fa-lg c-mt-4"></i><br>hand-paper-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-peace-o fa-lg mt-4"></i><br>hand-peace-o
+            <i class="fa fa-hand-peace-o fa-lg c-mt-4"></i><br>hand-peace-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-pointer-o fa-lg mt-4"></i><br>hand-pointer-o
+            <i class="fa fa-hand-pointer-o fa-lg c-mt-4"></i><br>hand-pointer-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-rock-o fa-lg mt-4"></i><br>hand-rock-o
+            <i class="fa fa-hand-rock-o fa-lg c-mt-4"></i><br>hand-rock-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-scissors-o fa-lg mt-4"></i><br>hand-scissors-o
+            <i class="fa fa-hand-scissors-o fa-lg c-mt-4"></i><br>hand-scissors-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-spock-o fa-lg mt-4"></i><br>hand-spock-o
+            <i class="fa fa-hand-spock-o fa-lg c-mt-4"></i><br>hand-spock-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-stop-o fa-lg mt-4"></i><br>hand-stop-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-hand-stop-o fa-lg c-mt-4"></i><br>hand-stop-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-down fa-lg mt-4"></i><br>thumbs-down
+            <i class="fa fa-thumbs-down fa-lg c-mt-4"></i><br>thumbs-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-o-down fa-lg mt-4"></i><br>thumbs-o-down
+            <i class="fa fa-thumbs-o-down fa-lg c-mt-4"></i><br>thumbs-o-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-o-up fa-lg mt-4"></i><br>thumbs-o-up
+            <i class="fa fa-thumbs-o-up fa-lg c-mt-4"></i><br>thumbs-o-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-thumbs-up fa-lg mt-4"></i><br>thumbs-up
+            <i class="fa fa-thumbs-up fa-lg c-mt-4"></i><br>thumbs-up
           </CCol>
 
         </CRow>
@@ -1500,55 +1500,55 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ambulance fa-lg mt-4"></i><br>ambulance
+            <i class="fa fa-ambulance fa-lg c-mt-4"></i><br>ambulance
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-automobile fa-lg mt-4"></i><br>automobile <span class="text-muted">(alias)</span>
+            <i class="fa fa-automobile fa-lg c-mt-4"></i><br>automobile <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bicycle fa-lg mt-4"></i><br>bicycle
+            <i class="fa fa-bicycle fa-lg c-mt-4"></i><br>bicycle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bus fa-lg mt-4"></i><br>bus
+            <i class="fa fa-bus fa-lg c-mt-4"></i><br>bus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cab fa-lg mt-4"></i><br>cab <span class="text-muted">(alias)</span>
+            <i class="fa fa-cab fa-lg c-mt-4"></i><br>cab <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-car fa-lg mt-4"></i><br>car
+            <i class="fa fa-car fa-lg c-mt-4"></i><br>car
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fighter-jet fa-lg mt-4"></i><br>fighter-jet
+            <i class="fa fa-fighter-jet fa-lg c-mt-4"></i><br>fighter-jet
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-motorcycle fa-lg mt-4"></i><br>motorcycle
+            <i class="fa fa-motorcycle fa-lg c-mt-4"></i><br>motorcycle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plane fa-lg mt-4"></i><br>plane
+            <i class="fa fa-plane fa-lg c-mt-4"></i><br>plane
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rocket fa-lg mt-4"></i><br>rocket
+            <i class="fa fa-rocket fa-lg c-mt-4"></i><br>rocket
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ship fa-lg mt-4"></i><br>ship
+            <i class="fa fa-ship fa-lg c-mt-4"></i><br>ship
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-space-shuttle fa-lg mt-4"></i><br>space-shuttle
+            <i class="fa fa-space-shuttle fa-lg c-mt-4"></i><br>space-shuttle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-subway fa-lg mt-4"></i><br>subway
+            <i class="fa fa-subway fa-lg c-mt-4"></i><br>subway
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-taxi fa-lg mt-4"></i><br>taxi
+            <i class="fa fa-taxi fa-lg c-mt-4"></i><br>taxi
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-train fa-lg mt-4"></i><br>train
+            <i class="fa fa-train fa-lg c-mt-4"></i><br>train
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-truck fa-lg mt-4"></i><br>truck
+            <i class="fa fa-truck fa-lg c-mt-4"></i><br>truck
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wheelchair fa-lg mt-4"></i><br>wheelchair
+            <i class="fa fa-wheelchair fa-lg c-mt-4"></i><br>wheelchair
           </CCol>
 
         </CRow>
@@ -1561,46 +1561,46 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-genderless fa-lg mt-4"></i><br>genderless
+            <i class="fa fa-genderless fa-lg c-mt-4"></i><br>genderless
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-intersex fa-lg mt-4"></i><br>intersex <span class="text-muted">(alias)</span>
+            <i class="fa fa-intersex fa-lg c-mt-4"></i><br>intersex <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mars fa-lg mt-4"></i><br>mars
+            <i class="fa fa-mars fa-lg c-mt-4"></i><br>mars
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mars-double fa-lg mt-4"></i><br>mars-double
+            <i class="fa fa-mars-double fa-lg c-mt-4"></i><br>mars-double
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mars-stroke fa-lg mt-4"></i><br>mars-stroke
+            <i class="fa fa-mars-stroke fa-lg c-mt-4"></i><br>mars-stroke
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mars-stroke-h fa-lg mt-4"></i><br>mars-stroke-h
+            <i class="fa fa-mars-stroke-h fa-lg c-mt-4"></i><br>mars-stroke-h
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mars-stroke-v fa-lg mt-4"></i><br>mars-stroke-v
+            <i class="fa fa-mars-stroke-v fa-lg c-mt-4"></i><br>mars-stroke-v
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mercury fa-lg mt-4"></i><br>mercury
+            <i class="fa fa-mercury fa-lg c-mt-4"></i><br>mercury
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-neuter fa-lg mt-4"></i><br>neuter
+            <i class="fa fa-neuter fa-lg c-mt-4"></i><br>neuter
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-transgender fa-lg mt-4"></i><br>transgender
+            <i class="fa fa-transgender fa-lg c-mt-4"></i><br>transgender
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-transgender-alt fa-lg mt-4"></i><br>transgender-alt
+            <i class="fa fa-transgender-alt fa-lg c-mt-4"></i><br>transgender-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-venus fa-lg mt-4"></i><br>venus
+            <i class="fa fa-venus fa-lg c-mt-4"></i><br>venus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-venus-double fa-lg mt-4"></i><br>venus-double
+            <i class="fa fa-venus-double fa-lg c-mt-4"></i><br>venus-double
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-venus-mars fa-lg mt-4"></i><br>venus-mars
+            <i class="fa fa-venus-mars fa-lg c-mt-4"></i><br>venus-mars
           </CCol>
 
         </CRow>
@@ -1613,58 +1613,58 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file fa-lg mt-4"></i><br>file
+            <i class="fa fa-file fa-lg c-mt-4"></i><br>file
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-archive-o fa-lg mt-4"></i><br>file-archive-o
+            <i class="fa fa-file-archive-o fa-lg c-mt-4"></i><br>file-archive-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-audio-o fa-lg mt-4"></i><br>file-audio-o
+            <i class="fa fa-file-audio-o fa-lg c-mt-4"></i><br>file-audio-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-code-o fa-lg mt-4"></i><br>file-code-o
+            <i class="fa fa-file-code-o fa-lg c-mt-4"></i><br>file-code-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-excel-o fa-lg mt-4"></i><br>file-excel-o
+            <i class="fa fa-file-excel-o fa-lg c-mt-4"></i><br>file-excel-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-image-o fa-lg mt-4"></i><br>file-image-o
+            <i class="fa fa-file-image-o fa-lg c-mt-4"></i><br>file-image-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-movie-o fa-lg mt-4"></i><br>file-movie-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-movie-o fa-lg c-mt-4"></i><br>file-movie-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-o fa-lg mt-4"></i><br>file-o
+            <i class="fa fa-file-o fa-lg c-mt-4"></i><br>file-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-pdf-o fa-lg mt-4"></i><br>file-pdf-o
+            <i class="fa fa-file-pdf-o fa-lg c-mt-4"></i><br>file-pdf-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-photo-o fa-lg mt-4"></i><br>file-photo-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-photo-o fa-lg c-mt-4"></i><br>file-photo-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-picture-o fa-lg mt-4"></i><br>file-picture-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-picture-o fa-lg c-mt-4"></i><br>file-picture-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-powerpoint-o fa-lg mt-4"></i><br>file-powerpoint-o
+            <i class="fa fa-file-powerpoint-o fa-lg c-mt-4"></i><br>file-powerpoint-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-sound-o fa-lg mt-4"></i><br>file-sound-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-sound-o fa-lg c-mt-4"></i><br>file-sound-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-text fa-lg mt-4"></i><br>file-text
+            <i class="fa fa-file-text fa-lg c-mt-4"></i><br>file-text
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-text-o fa-lg mt-4"></i><br>file-text-o
+            <i class="fa fa-file-text-o fa-lg c-mt-4"></i><br>file-text-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-video-o fa-lg mt-4"></i><br>file-video-o
+            <i class="fa fa-file-video-o fa-lg c-mt-4"></i><br>file-video-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-word-o fa-lg mt-4"></i><br>file-word-o
+            <i class="fa fa-file-word-o fa-lg c-mt-4"></i><br>file-word-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-zip-o fa-lg mt-4"></i><br>file-zip-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-file-zip-o fa-lg c-mt-4"></i><br>file-zip-o <span class="text-muted">(alias)</span>
           </CCol>
 
         </CRow>
@@ -1685,19 +1685,19 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-circle-o-notch fa-lg mt-4 fa-spin"></i><br>circle-o-notch
+            <i class="fa fa-circle-o-notch fa-lg c-mt-4 fa-spin"></i><br>circle-o-notch
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cog fa-lg mt-4"></i><br>cog
+            <i class="fa fa-cog fa-lg c-mt-4"></i><br>cog
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gear fa-lg mt-4"></i><br>gear <span class="text-muted">(alias)</span>
+            <i class="fa fa-gear fa-lg c-mt-4"></i><br>gear <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-refresh fa-lg mt-4"></i><br>refresh
+            <i class="fa fa-refresh fa-lg c-mt-4"></i><br>refresh
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-spinner fa-lg mt-4"></i><br>spinner
+            <i class="fa fa-spinner fa-lg c-mt-4"></i><br>spinner
           </CCol>
 
         </CRow>
@@ -1710,37 +1710,37 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-check-square fa-lg mt-4"></i><br>check-square
+            <i class="fa fa-check-square fa-lg c-mt-4"></i><br>check-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-check-square-o fa-lg mt-4"></i><br>check-square-o
+            <i class="fa fa-check-square-o fa-lg c-mt-4"></i><br>check-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-circle fa-lg mt-4"></i><br>circle
+            <i class="fa fa-circle fa-lg c-mt-4"></i><br>circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-circle-o fa-lg mt-4"></i><br>circle-o
+            <i class="fa fa-circle-o fa-lg c-mt-4"></i><br>circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dot-circle-o fa-lg mt-4"></i><br>dot-circle-o
+            <i class="fa fa-dot-circle-o fa-lg c-mt-4"></i><br>dot-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-minus-square fa-lg mt-4"></i><br>minus-square
+            <i class="fa fa-minus-square fa-lg c-mt-4"></i><br>minus-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-minus-square-o fa-lg mt-4"></i><br>minus-square-o
+            <i class="fa fa-minus-square-o fa-lg c-mt-4"></i><br>minus-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plus-square fa-lg mt-4"></i><br>plus-square
+            <i class="fa fa-plus-square fa-lg c-mt-4"></i><br>plus-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plus-square-o fa-lg mt-4"></i><br>plus-square-o
+            <i class="fa fa-plus-square-o fa-lg c-mt-4"></i><br>plus-square-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-square fa-lg mt-4"></i><br>square
+            <i class="fa fa-square fa-lg c-mt-4"></i><br>square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-square-o fa-lg mt-4"></i><br>square-o
+            <i class="fa fa-square-o fa-lg c-mt-4"></i><br>square-o
           </CCol>
 
         </CRow>
@@ -1753,40 +1753,40 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-amex fa-lg mt-4"></i><br>cc-amex
+            <i class="fa fa-cc-amex fa-lg c-mt-4"></i><br>cc-amex
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-diners-club fa-lg mt-4"></i><br>cc-diners-club
+            <i class="fa fa-cc-diners-club fa-lg c-mt-4"></i><br>cc-diners-club
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-discover fa-lg mt-4"></i><br>cc-discover
+            <i class="fa fa-cc-discover fa-lg c-mt-4"></i><br>cc-discover
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-jcb fa-lg mt-4"></i><br>cc-jcb
+            <i class="fa fa-cc-jcb fa-lg c-mt-4"></i><br>cc-jcb
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-mastercard fa-lg mt-4"></i><br>cc-mastercard
+            <i class="fa fa-cc-mastercard fa-lg c-mt-4"></i><br>cc-mastercard
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-paypal fa-lg mt-4"></i><br>cc-paypal
+            <i class="fa fa-cc-paypal fa-lg c-mt-4"></i><br>cc-paypal
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-stripe fa-lg mt-4"></i><br>cc-stripe
+            <i class="fa fa-cc-stripe fa-lg c-mt-4"></i><br>cc-stripe
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-visa fa-lg mt-4"></i><br>cc-visa
+            <i class="fa fa-cc-visa fa-lg c-mt-4"></i><br>cc-visa
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-credit-card fa-lg mt-4"></i><br>credit-card
+            <i class="fa fa-credit-card fa-lg c-mt-4"></i><br>credit-card
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-credit-card-alt fa-lg mt-4"></i><br>credit-card-alt
+            <i class="fa fa-credit-card-alt fa-lg c-mt-4"></i><br>credit-card-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-google-wallet fa-lg mt-4"></i><br>google-wallet
+            <i class="fa fa-google-wallet fa-lg c-mt-4"></i><br>google-wallet
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paypal fa-lg mt-4"></i><br>paypal
+            <i class="fa fa-paypal fa-lg c-mt-4"></i><br>paypal
           </CCol>
 
         </CRow>
@@ -1799,19 +1799,19 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-area-chart fa-lg mt-4"></i><br>area-chart
+            <i class="fa fa-area-chart fa-lg c-mt-4"></i><br>area-chart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bar-chart fa-lg mt-4"></i><br>bar-chart
+            <i class="fa fa-bar-chart fa-lg c-mt-4"></i><br>bar-chart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bar-chart-o fa-lg mt-4"></i><br>bar-chart-o <span class="text-muted">(alias)</span>
+            <i class="fa fa-bar-chart-o fa-lg c-mt-4"></i><br>bar-chart-o <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-line-chart fa-lg mt-4"></i><br>line-chart
+            <i class="fa fa-line-chart fa-lg c-mt-4"></i><br>line-chart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pie-chart fa-lg mt-4"></i><br>pie-chart
+            <i class="fa fa-pie-chart fa-lg c-mt-4"></i><br>pie-chart
           </CCol>
 
         </CRow>
@@ -1824,82 +1824,82 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bitcoin fa-lg mt-4"></i><br>bitcoin <span class="text-muted">(alias)</span>
+            <i class="fa fa-bitcoin fa-lg c-mt-4"></i><br>bitcoin <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-btc fa-lg mt-4"></i><br>btc
+            <i class="fa fa-btc fa-lg c-mt-4"></i><br>btc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cny fa-lg mt-4"></i><br>cny <span class="text-muted">(alias)</span>
+            <i class="fa fa-cny fa-lg c-mt-4"></i><br>cny <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dollar fa-lg mt-4"></i><br>dollar <span class="text-muted">(alias)</span>
+            <i class="fa fa-dollar fa-lg c-mt-4"></i><br>dollar <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eur fa-lg mt-4"></i><br>eur
+            <i class="fa fa-eur fa-lg c-mt-4"></i><br>eur
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-euro fa-lg mt-4"></i><br>euro <span class="text-muted">(alias)</span>
+            <i class="fa fa-euro fa-lg c-mt-4"></i><br>euro <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gbp fa-lg mt-4"></i><br>gbp
+            <i class="fa fa-gbp fa-lg c-mt-4"></i><br>gbp
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gg fa-lg mt-4"></i><br>gg
+            <i class="fa fa-gg fa-lg c-mt-4"></i><br>gg
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gg-circle fa-lg mt-4"></i><br>gg-circle
+            <i class="fa fa-gg-circle fa-lg c-mt-4"></i><br>gg-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ils fa-lg mt-4"></i><br>ils
+            <i class="fa fa-ils fa-lg c-mt-4"></i><br>ils
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-inr fa-lg mt-4"></i><br>inr
+            <i class="fa fa-inr fa-lg c-mt-4"></i><br>inr
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-jpy fa-lg mt-4"></i><br>jpy
+            <i class="fa fa-jpy fa-lg c-mt-4"></i><br>jpy
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-krw fa-lg mt-4"></i><br>krw
+            <i class="fa fa-krw fa-lg c-mt-4"></i><br>krw
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-money fa-lg mt-4"></i><br>money
+            <i class="fa fa-money fa-lg c-mt-4"></i><br>money
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rmb fa-lg mt-4"></i><br>rmb <span class="text-muted">(alias)</span>
+            <i class="fa fa-rmb fa-lg c-mt-4"></i><br>rmb <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rouble fa-lg mt-4"></i><br>rouble <span class="text-muted">(alias)</span>
+            <i class="fa fa-rouble fa-lg c-mt-4"></i><br>rouble <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rub fa-lg mt-4"></i><br>rub
+            <i class="fa fa-rub fa-lg c-mt-4"></i><br>rub
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ruble fa-lg mt-4"></i><br>ruble <span class="text-muted">(alias)</span>
+            <i class="fa fa-ruble fa-lg c-mt-4"></i><br>ruble <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rupee fa-lg mt-4"></i><br>rupee <span class="text-muted">(alias)</span>
+            <i class="fa fa-rupee fa-lg c-mt-4"></i><br>rupee <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shekel fa-lg mt-4"></i><br>shekel <span class="text-muted">(alias)</span>
+            <i class="fa fa-shekel fa-lg c-mt-4"></i><br>shekel <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sheqel fa-lg mt-4"></i><br>sheqel <span class="text-muted">(alias)</span>
+            <i class="fa fa-sheqel fa-lg c-mt-4"></i><br>sheqel <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-try fa-lg mt-4"></i><br>try
+            <i class="fa fa-try fa-lg c-mt-4"></i><br>try
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-turkish-lira fa-lg mt-4"></i><br>turkish-lira <span class="text-muted">(alias)</span>
+            <i class="fa fa-turkish-lira fa-lg c-mt-4"></i><br>turkish-lira <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-usd fa-lg mt-4"></i><br>usd
+            <i class="fa fa-usd fa-lg c-mt-4"></i><br>usd
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-won fa-lg mt-4"></i><br>won <span class="text-muted">(alias)</span>
+            <i class="fa fa-won fa-lg c-mt-4"></i><br>won <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-yen fa-lg mt-4"></i><br>yen <span class="text-muted">(alias)</span>
+            <i class="fa fa-yen fa-lg c-mt-4"></i><br>yen <span class="text-muted">(alias)</span>
           </CCol>
 
         </CRow>
@@ -1912,151 +1912,151 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-align-center fa-lg mt-4"></i><br>align-center
+            <i class="fa fa-align-center fa-lg c-mt-4"></i><br>align-center
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-align-justify fa-lg mt-4"></i><br>align-justify
+            <i class="fa fa-align-justify fa-lg c-mt-4"></i><br>align-justify
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-align-left fa-lg mt-4"></i><br>align-left
+            <i class="fa fa-align-left fa-lg c-mt-4"></i><br>align-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-align-right fa-lg mt-4"></i><br>align-right
+            <i class="fa fa-align-right fa-lg c-mt-4"></i><br>align-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bold fa-lg mt-4"></i><br>bold
+            <i class="fa fa-bold fa-lg c-mt-4"></i><br>bold
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chain fa-lg mt-4"></i><br>chain <span class="text-muted">(alias)</span>
+            <i class="fa fa-chain fa-lg c-mt-4"></i><br>chain <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chain-broken fa-lg mt-4"></i><br>chain-broken
+            <i class="fa fa-chain-broken fa-lg c-mt-4"></i><br>chain-broken
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-clipboard fa-lg mt-4"></i><br>clipboard
+            <i class="fa fa-clipboard fa-lg c-mt-4"></i><br>clipboard
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-columns fa-lg mt-4"></i><br>columns
+            <i class="fa fa-columns fa-lg c-mt-4"></i><br>columns
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-copy fa-lg mt-4"></i><br>copy <span class="text-muted">(alias)</span>
+            <i class="fa fa-copy fa-lg c-mt-4"></i><br>copy <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cut fa-lg mt-4"></i><br>cut <span class="text-muted">(alias)</span>
+            <i class="fa fa-cut fa-lg c-mt-4"></i><br>cut <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dedent fa-lg mt-4"></i><br>dedent <span class="text-muted">(alias)</span>
+            <i class="fa fa-dedent fa-lg c-mt-4"></i><br>dedent <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eraser fa-lg mt-4"></i><br>eraser
+            <i class="fa fa-eraser fa-lg c-mt-4"></i><br>eraser
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file fa-lg mt-4"></i><br>file
+            <i class="fa fa-file fa-lg c-mt-4"></i><br>file
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-o fa-lg mt-4"></i><br>file-o
+            <i class="fa fa-file-o fa-lg c-mt-4"></i><br>file-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-text fa-lg mt-4"></i><br>file-text
+            <i class="fa fa-file-text fa-lg c-mt-4"></i><br>file-text
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-file-text-o fa-lg mt-4"></i><br>file-text-o
+            <i class="fa fa-file-text-o fa-lg c-mt-4"></i><br>file-text-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-files-o fa-lg mt-4"></i><br>files-o
+            <i class="fa fa-files-o fa-lg c-mt-4"></i><br>files-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-floppy-o fa-lg mt-4"></i><br>floppy-o
+            <i class="fa fa-floppy-o fa-lg c-mt-4"></i><br>floppy-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-font fa-lg mt-4"></i><br>font
+            <i class="fa fa-font fa-lg c-mt-4"></i><br>font
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-header fa-lg mt-4"></i><br>header
+            <i class="fa fa-header fa-lg c-mt-4"></i><br>header
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-indent fa-lg mt-4"></i><br>indent
+            <i class="fa fa-indent fa-lg c-mt-4"></i><br>indent
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-italic fa-lg mt-4"></i><br>italic
+            <i class="fa fa-italic fa-lg c-mt-4"></i><br>italic
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-link fa-lg mt-4"></i><br>link
+            <i class="fa fa-link fa-lg c-mt-4"></i><br>link
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-list fa-lg mt-4"></i><br>list
+            <i class="fa fa-list fa-lg c-mt-4"></i><br>list
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-list-alt fa-lg mt-4"></i><br>list-alt
+            <i class="fa fa-list-alt fa-lg c-mt-4"></i><br>list-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-list-ol fa-lg mt-4"></i><br>list-ol
+            <i class="fa fa-list-ol fa-lg c-mt-4"></i><br>list-ol
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-list-ul fa-lg mt-4"></i><br>list-ul
+            <i class="fa fa-list-ul fa-lg c-mt-4"></i><br>list-ul
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-outdent fa-lg mt-4"></i><br>outdent
+            <i class="fa fa-outdent fa-lg c-mt-4"></i><br>outdent
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paperclip fa-lg mt-4"></i><br>paperclip
+            <i class="fa fa-paperclip fa-lg c-mt-4"></i><br>paperclip
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paragraph fa-lg mt-4"></i><br>paragraph
+            <i class="fa fa-paragraph fa-lg c-mt-4"></i><br>paragraph
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paste fa-lg mt-4"></i><br>paste <span class="text-muted">(alias)</span>
+            <i class="fa fa-paste fa-lg c-mt-4"></i><br>paste <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-repeat fa-lg mt-4"></i><br>repeat
+            <i class="fa fa-repeat fa-lg c-mt-4"></i><br>repeat
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rotate-left fa-lg mt-4"></i><br>rotate-left <span class="text-muted">(alias)</span>
+            <i class="fa fa-rotate-left fa-lg c-mt-4"></i><br>rotate-left <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rotate-right fa-lg mt-4"></i><br>rotate-right <span class="text-muted">(alias)</span>
+            <i class="fa fa-rotate-right fa-lg c-mt-4"></i><br>rotate-right <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-save fa-lg mt-4"></i><br>save <span class="text-muted">(alias)</span>
+            <i class="fa fa-save fa-lg c-mt-4"></i><br>save <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-scissors fa-lg mt-4"></i><br>scissors
+            <i class="fa fa-scissors fa-lg c-mt-4"></i><br>scissors
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-strikethrough fa-lg mt-4"></i><br>strikethrough
+            <i class="fa fa-strikethrough fa-lg c-mt-4"></i><br>strikethrough
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-subscript fa-lg mt-4"></i><br>subscript
+            <i class="fa fa-subscript fa-lg c-mt-4"></i><br>subscript
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-superscript fa-lg mt-4"></i><br>superscript
+            <i class="fa fa-superscript fa-lg c-mt-4"></i><br>superscript
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-table fa-lg mt-4"></i><br>table
+            <i class="fa fa-table fa-lg c-mt-4"></i><br>table
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-text-height fa-lg mt-4"></i><br>text-height
+            <i class="fa fa-text-height fa-lg c-mt-4"></i><br>text-height
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-text-width fa-lg mt-4"></i><br>text-width
+            <i class="fa fa-text-width fa-lg c-mt-4"></i><br>text-width
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-th fa-lg mt-4"></i><br>th
+            <i class="fa fa-th fa-lg c-mt-4"></i><br>th
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-th-large fa-lg mt-4"></i><br>th-large
+            <i class="fa fa-th-large fa-lg c-mt-4"></i><br>th-large
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-th-list fa-lg mt-4"></i><br>th-list
+            <i class="fa fa-th-list fa-lg c-mt-4"></i><br>th-list
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-underline fa-lg mt-4"></i><br>underline
+            <i class="fa fa-underline fa-lg c-mt-4"></i><br>underline
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-undo fa-lg mt-4"></i><br>undo
+            <i class="fa fa-undo fa-lg c-mt-4"></i><br>undo
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-unlink fa-lg mt-4"></i><br>unlink <span class="text-muted">(alias)</span>
+            <i class="fa fa-unlink fa-lg c-mt-4"></i><br>unlink <span class="text-muted">(alias)</span>
           </CCol>
 
         </CRow>
@@ -2069,163 +2069,163 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-double-down fa-lg mt-4"></i><br>angle-double-down
+            <i class="fa fa-angle-double-down fa-lg c-mt-4"></i><br>angle-double-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-double-left fa-lg mt-4"></i><br>angle-double-left
+            <i class="fa fa-angle-double-left fa-lg c-mt-4"></i><br>angle-double-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-double-right fa-lg mt-4"></i><br>angle-double-right
+            <i class="fa fa-angle-double-right fa-lg c-mt-4"></i><br>angle-double-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-double-up fa-lg mt-4"></i><br>angle-double-up
+            <i class="fa fa-angle-double-up fa-lg c-mt-4"></i><br>angle-double-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-down fa-lg mt-4"></i><br>angle-down
+            <i class="fa fa-angle-down fa-lg c-mt-4"></i><br>angle-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-left fa-lg mt-4"></i><br>angle-left
+            <i class="fa fa-angle-left fa-lg c-mt-4"></i><br>angle-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-right fa-lg mt-4"></i><br>angle-right
+            <i class="fa fa-angle-right fa-lg c-mt-4"></i><br>angle-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angle-up fa-lg mt-4"></i><br>angle-up
+            <i class="fa fa-angle-up fa-lg c-mt-4"></i><br>angle-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-down fa-lg mt-4"></i><br>arrow-circle-down
+            <i class="fa fa-arrow-circle-down fa-lg c-mt-4"></i><br>arrow-circle-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-left fa-lg mt-4"></i><br>arrow-circle-left
+            <i class="fa fa-arrow-circle-left fa-lg c-mt-4"></i><br>arrow-circle-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-o-down fa-lg mt-4"></i><br>arrow-circle-o-down
+            <i class="fa fa-arrow-circle-o-down fa-lg c-mt-4"></i><br>arrow-circle-o-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-o-left fa-lg mt-4"></i><br>arrow-circle-o-left
+            <i class="fa fa-arrow-circle-o-left fa-lg c-mt-4"></i><br>arrow-circle-o-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-o-right fa-lg mt-4"></i><br>arrow-circle-o-right
+            <i class="fa fa-arrow-circle-o-right fa-lg c-mt-4"></i><br>arrow-circle-o-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-o-up fa-lg mt-4"></i><br>arrow-circle-o-up
+            <i class="fa fa-arrow-circle-o-up fa-lg c-mt-4"></i><br>arrow-circle-o-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-right fa-lg mt-4"></i><br>arrow-circle-right
+            <i class="fa fa-arrow-circle-right fa-lg c-mt-4"></i><br>arrow-circle-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-circle-up fa-lg mt-4"></i><br>arrow-circle-up
+            <i class="fa fa-arrow-circle-up fa-lg c-mt-4"></i><br>arrow-circle-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-down fa-lg mt-4"></i><br>arrow-down
+            <i class="fa fa-arrow-down fa-lg c-mt-4"></i><br>arrow-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-left fa-lg mt-4"></i><br>arrow-left
+            <i class="fa fa-arrow-left fa-lg c-mt-4"></i><br>arrow-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-right fa-lg mt-4"></i><br>arrow-right
+            <i class="fa fa-arrow-right fa-lg c-mt-4"></i><br>arrow-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrow-up fa-lg mt-4"></i><br>arrow-up
+            <i class="fa fa-arrow-up fa-lg c-mt-4"></i><br>arrow-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows fa-lg mt-4"></i><br>arrows
+            <i class="fa fa-arrows fa-lg c-mt-4"></i><br>arrows
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows-alt fa-lg mt-4"></i><br>arrows-alt
+            <i class="fa fa-arrows-alt fa-lg c-mt-4"></i><br>arrows-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows-h fa-lg mt-4"></i><br>arrows-h
+            <i class="fa fa-arrows-h fa-lg c-mt-4"></i><br>arrows-h
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows-v fa-lg mt-4"></i><br>arrows-v
+            <i class="fa fa-arrows-v fa-lg c-mt-4"></i><br>arrows-v
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-down fa-lg mt-4"></i><br>caret-down
+            <i class="fa fa-caret-down fa-lg c-mt-4"></i><br>caret-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-left fa-lg mt-4"></i><br>caret-left
+            <i class="fa fa-caret-left fa-lg c-mt-4"></i><br>caret-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-right fa-lg mt-4"></i><br>caret-right
+            <i class="fa fa-caret-right fa-lg c-mt-4"></i><br>caret-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-down fa-lg mt-4"></i><br>caret-square-o-down
+            <i class="fa fa-caret-square-o-down fa-lg c-mt-4"></i><br>caret-square-o-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-left fa-lg mt-4"></i><br>caret-square-o-left
+            <i class="fa fa-caret-square-o-left fa-lg c-mt-4"></i><br>caret-square-o-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-right fa-lg mt-4"></i><br>caret-square-o-right
+            <i class="fa fa-caret-square-o-right fa-lg c-mt-4"></i><br>caret-square-o-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-square-o-up fa-lg mt-4"></i><br>caret-square-o-up
+            <i class="fa fa-caret-square-o-up fa-lg c-mt-4"></i><br>caret-square-o-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-caret-up fa-lg mt-4"></i><br>caret-up
+            <i class="fa fa-caret-up fa-lg c-mt-4"></i><br>caret-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-circle-down fa-lg mt-4"></i><br>chevron-circle-down
+            <i class="fa fa-chevron-circle-down fa-lg c-mt-4"></i><br>chevron-circle-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-circle-left fa-lg mt-4"></i><br>chevron-circle-left
+            <i class="fa fa-chevron-circle-left fa-lg c-mt-4"></i><br>chevron-circle-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-circle-right fa-lg mt-4"></i><br>chevron-circle-right
+            <i class="fa fa-chevron-circle-right fa-lg c-mt-4"></i><br>chevron-circle-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-circle-up fa-lg mt-4"></i><br>chevron-circle-up
+            <i class="fa fa-chevron-circle-up fa-lg c-mt-4"></i><br>chevron-circle-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-down fa-lg mt-4"></i><br>chevron-down
+            <i class="fa fa-chevron-down fa-lg c-mt-4"></i><br>chevron-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-left fa-lg mt-4"></i><br>chevron-left
+            <i class="fa fa-chevron-left fa-lg c-mt-4"></i><br>chevron-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-right fa-lg mt-4"></i><br>chevron-right
+            <i class="fa fa-chevron-right fa-lg c-mt-4"></i><br>chevron-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chevron-up fa-lg mt-4"></i><br>chevron-up
+            <i class="fa fa-chevron-up fa-lg c-mt-4"></i><br>chevron-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-exchange fa-lg mt-4"></i><br>exchange
+            <i class="fa fa-exchange fa-lg c-mt-4"></i><br>exchange
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-down fa-lg mt-4"></i><br>hand-o-down
+            <i class="fa fa-hand-o-down fa-lg c-mt-4"></i><br>hand-o-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-left fa-lg mt-4"></i><br>hand-o-left
+            <i class="fa fa-hand-o-left fa-lg c-mt-4"></i><br>hand-o-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-right fa-lg mt-4"></i><br>hand-o-right
+            <i class="fa fa-hand-o-right fa-lg c-mt-4"></i><br>hand-o-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hand-o-up fa-lg mt-4"></i><br>hand-o-up
+            <i class="fa fa-hand-o-up fa-lg c-mt-4"></i><br>hand-o-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-long-arrow-down fa-lg mt-4"></i><br>long-arrow-down
+            <i class="fa fa-long-arrow-down fa-lg c-mt-4"></i><br>long-arrow-down
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-long-arrow-left fa-lg mt-4"></i><br>long-arrow-left
+            <i class="fa fa-long-arrow-left fa-lg c-mt-4"></i><br>long-arrow-left
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-long-arrow-right fa-lg mt-4"></i><br>long-arrow-right
+            <i class="fa fa-long-arrow-right fa-lg c-mt-4"></i><br>long-arrow-right
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-long-arrow-up fa-lg mt-4"></i><br>long-arrow-up
+            <i class="fa fa-long-arrow-up fa-lg c-mt-4"></i><br>long-arrow-up
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-down fa-lg mt-4"></i><br>toggle-down <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-down fa-lg c-mt-4"></i><br>toggle-down <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-left fa-lg mt-4"></i><br>toggle-left <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-left fa-lg c-mt-4"></i><br>toggle-left <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-right fa-lg mt-4"></i><br>toggle-right <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-right fa-lg c-mt-4"></i><br>toggle-right <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-toggle-up fa-lg mt-4"></i><br>toggle-up <span class="text-muted">(alias)</span>
+            <i class="fa fa-toggle-up fa-lg c-mt-4"></i><br>toggle-up <span class="text-muted">(alias)</span>
           </CCol>
 
         </CRow>
@@ -2238,67 +2238,67 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-arrows-alt fa-lg mt-4"></i><br>arrows-alt
+            <i class="fa fa-arrows-alt fa-lg c-mt-4"></i><br>arrows-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-backward fa-lg mt-4"></i><br>backward
+            <i class="fa fa-backward fa-lg c-mt-4"></i><br>backward
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-compress fa-lg mt-4"></i><br>compress
+            <i class="fa fa-compress fa-lg c-mt-4"></i><br>compress
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-eject fa-lg mt-4"></i><br>eject
+            <i class="fa fa-eject fa-lg c-mt-4"></i><br>eject
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-expand fa-lg mt-4"></i><br>expand
+            <i class="fa fa-expand fa-lg c-mt-4"></i><br>expand
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fast-backward fa-lg mt-4"></i><br>fast-backward
+            <i class="fa fa-fast-backward fa-lg c-mt-4"></i><br>fast-backward
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fast-forward fa-lg mt-4"></i><br>fast-forward
+            <i class="fa fa-fast-forward fa-lg c-mt-4"></i><br>fast-forward
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-forward fa-lg mt-4"></i><br>forward
+            <i class="fa fa-forward fa-lg c-mt-4"></i><br>forward
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pause fa-lg mt-4"></i><br>pause
+            <i class="fa fa-pause fa-lg c-mt-4"></i><br>pause
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pause-circle fa-lg mt-4"></i><br>pause-circle
+            <i class="fa fa-pause-circle fa-lg c-mt-4"></i><br>pause-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pause-circle-o fa-lg mt-4"></i><br>pause-circle-o
+            <i class="fa fa-pause-circle-o fa-lg c-mt-4"></i><br>pause-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-play fa-lg mt-4"></i><br>play
+            <i class="fa fa-play fa-lg c-mt-4"></i><br>play
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-play-circle fa-lg mt-4"></i><br>play-circle
+            <i class="fa fa-play-circle fa-lg c-mt-4"></i><br>play-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-play-circle-o fa-lg mt-4"></i><br>play-circle-o
+            <i class="fa fa-play-circle-o fa-lg c-mt-4"></i><br>play-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-random fa-lg mt-4"></i><br>random
+            <i class="fa fa-random fa-lg c-mt-4"></i><br>random
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-step-backward fa-lg mt-4"></i><br>step-backward
+            <i class="fa fa-step-backward fa-lg c-mt-4"></i><br>step-backward
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-step-forward fa-lg mt-4"></i><br>step-forward
+            <i class="fa fa-step-forward fa-lg c-mt-4"></i><br>step-forward
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stop fa-lg mt-4"></i><br>stop
+            <i class="fa fa-stop fa-lg c-mt-4"></i><br>stop
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stop-circle fa-lg mt-4"></i><br>stop-circle
+            <i class="fa fa-stop-circle fa-lg c-mt-4"></i><br>stop-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stop-circle-o fa-lg mt-4"></i><br>stop-circle-o
+            <i class="fa fa-stop-circle-o fa-lg c-mt-4"></i><br>stop-circle-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-youtube-play fa-lg mt-4"></i><br>youtube-play
+            <i class="fa fa-youtube-play fa-lg c-mt-4"></i><br>youtube-play
           </CCol>
 
         </CRow>
@@ -2318,475 +2318,475 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-500px fa-lg mt-4"></i><br>500px
+            <i class="fa fa-500px fa-lg c-mt-4"></i><br>500px
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-adn fa-lg mt-4"></i><br>adn
+            <i class="fa fa-adn fa-lg c-mt-4"></i><br>adn
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-amazon fa-lg mt-4"></i><br>amazon
+            <i class="fa fa-amazon fa-lg c-mt-4"></i><br>amazon
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-android fa-lg mt-4"></i><br>android
+            <i class="fa fa-android fa-lg c-mt-4"></i><br>android
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-angellist fa-lg mt-4"></i><br>angellist
+            <i class="fa fa-angellist fa-lg c-mt-4"></i><br>angellist
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-apple fa-lg mt-4"></i><br>apple
+            <i class="fa fa-apple fa-lg c-mt-4"></i><br>apple
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-behance fa-lg mt-4"></i><br>behance
+            <i class="fa fa-behance fa-lg c-mt-4"></i><br>behance
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-behance-square fa-lg mt-4"></i><br>behance-square
+            <i class="fa fa-behance-square fa-lg c-mt-4"></i><br>behance-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bitbucket fa-lg mt-4"></i><br>bitbucket
+            <i class="fa fa-bitbucket fa-lg c-mt-4"></i><br>bitbucket
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bitbucket-square fa-lg mt-4"></i><br>bitbucket-square
+            <i class="fa fa-bitbucket-square fa-lg c-mt-4"></i><br>bitbucket-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bitcoin fa-lg mt-4"></i><br>bitcoin <span class="text-muted">(alias)</span>
+            <i class="fa fa-bitcoin fa-lg c-mt-4"></i><br>bitcoin <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-black-tie fa-lg mt-4"></i><br>black-tie
+            <i class="fa fa-black-tie fa-lg c-mt-4"></i><br>black-tie
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bluetooth fa-lg mt-4"></i><br>bluetooth
+            <i class="fa fa-bluetooth fa-lg c-mt-4"></i><br>bluetooth
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-bluetooth-b fa-lg mt-4"></i><br>bluetooth-b
+            <i class="fa fa-bluetooth-b fa-lg c-mt-4"></i><br>bluetooth-b
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-btc fa-lg mt-4"></i><br>btc
+            <i class="fa fa-btc fa-lg c-mt-4"></i><br>btc
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-buysellads fa-lg mt-4"></i><br>buysellads
+            <i class="fa fa-buysellads fa-lg c-mt-4"></i><br>buysellads
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-amex fa-lg mt-4"></i><br>cc-amex
+            <i class="fa fa-cc-amex fa-lg c-mt-4"></i><br>cc-amex
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-diners-club fa-lg mt-4"></i><br>cc-diners-club
+            <i class="fa fa-cc-diners-club fa-lg c-mt-4"></i><br>cc-diners-club
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-discover fa-lg mt-4"></i><br>cc-discover
+            <i class="fa fa-cc-discover fa-lg c-mt-4"></i><br>cc-discover
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-jcb fa-lg mt-4"></i><br>cc-jcb
+            <i class="fa fa-cc-jcb fa-lg c-mt-4"></i><br>cc-jcb
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-mastercard fa-lg mt-4"></i><br>cc-mastercard
+            <i class="fa fa-cc-mastercard fa-lg c-mt-4"></i><br>cc-mastercard
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-paypal fa-lg mt-4"></i><br>cc-paypal
+            <i class="fa fa-cc-paypal fa-lg c-mt-4"></i><br>cc-paypal
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-stripe fa-lg mt-4"></i><br>cc-stripe
+            <i class="fa fa-cc-stripe fa-lg c-mt-4"></i><br>cc-stripe
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-cc-visa fa-lg mt-4"></i><br>cc-visa
+            <i class="fa fa-cc-visa fa-lg c-mt-4"></i><br>cc-visa
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-chrome fa-lg mt-4"></i><br>chrome
+            <i class="fa fa-chrome fa-lg c-mt-4"></i><br>chrome
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-codepen fa-lg mt-4"></i><br>codepen
+            <i class="fa fa-codepen fa-lg c-mt-4"></i><br>codepen
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-codiepie fa-lg mt-4"></i><br>codiepie
+            <i class="fa fa-codiepie fa-lg c-mt-4"></i><br>codiepie
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-connectdevelop fa-lg mt-4"></i><br>connectdevelop
+            <i class="fa fa-connectdevelop fa-lg c-mt-4"></i><br>connectdevelop
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-contao fa-lg mt-4"></i><br>contao
+            <i class="fa fa-contao fa-lg c-mt-4"></i><br>contao
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-css3 fa-lg mt-4"></i><br>css3
+            <i class="fa fa-css3 fa-lg c-mt-4"></i><br>css3
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dashcube fa-lg mt-4"></i><br>dashcube
+            <i class="fa fa-dashcube fa-lg c-mt-4"></i><br>dashcube
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-delicious fa-lg mt-4"></i><br>delicious
+            <i class="fa fa-delicious fa-lg c-mt-4"></i><br>delicious
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-deviantart fa-lg mt-4"></i><br>deviantart
+            <i class="fa fa-deviantart fa-lg c-mt-4"></i><br>deviantart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-digg fa-lg mt-4"></i><br>digg
+            <i class="fa fa-digg fa-lg c-mt-4"></i><br>digg
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dribbble fa-lg mt-4"></i><br>dribbble
+            <i class="fa fa-dribbble fa-lg c-mt-4"></i><br>dribbble
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-dropbox fa-lg mt-4"></i><br>dropbox
+            <i class="fa fa-dropbox fa-lg c-mt-4"></i><br>dropbox
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-drupal fa-lg mt-4"></i><br>drupal
+            <i class="fa fa-drupal fa-lg c-mt-4"></i><br>drupal
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-edge fa-lg mt-4"></i><br>edge
+            <i class="fa fa-edge fa-lg c-mt-4"></i><br>edge
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-empire fa-lg mt-4"></i><br>empire
+            <i class="fa fa-empire fa-lg c-mt-4"></i><br>empire
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-expeditedssl fa-lg mt-4"></i><br>expeditedssl
+            <i class="fa fa-expeditedssl fa-lg c-mt-4"></i><br>expeditedssl
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-facebook fa-lg mt-4"></i><br>facebook
+            <i class="fa fa-facebook fa-lg c-mt-4"></i><br>facebook
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-facebook-f fa-lg mt-4"></i><br>facebook-f <span class="text-muted">(alias)</span>
+            <i class="fa fa-facebook-f fa-lg c-mt-4"></i><br>facebook-f <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-facebook-official fa-lg mt-4"></i><br>facebook-official
+            <i class="fa fa-facebook-official fa-lg c-mt-4"></i><br>facebook-official
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-facebook-square fa-lg mt-4"></i><br>facebook-square
+            <i class="fa fa-facebook-square fa-lg c-mt-4"></i><br>facebook-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-firefox fa-lg mt-4"></i><br>firefox
+            <i class="fa fa-firefox fa-lg c-mt-4"></i><br>firefox
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-flickr fa-lg mt-4"></i><br>flickr
+            <i class="fa fa-flickr fa-lg c-mt-4"></i><br>flickr
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fonticons fa-lg mt-4"></i><br>fonticons
+            <i class="fa fa-fonticons fa-lg c-mt-4"></i><br>fonticons
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-fort-awesome fa-lg mt-4"></i><br>fort-awesome
+            <i class="fa fa-fort-awesome fa-lg c-mt-4"></i><br>fort-awesome
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-forumbee fa-lg mt-4"></i><br>forumbee
+            <i class="fa fa-forumbee fa-lg c-mt-4"></i><br>forumbee
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-foursquare fa-lg mt-4"></i><br>foursquare
+            <i class="fa fa-foursquare fa-lg c-mt-4"></i><br>foursquare
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ge fa-lg mt-4"></i><br>ge <span class="text-muted">(alias)</span>
+            <i class="fa fa-ge fa-lg c-mt-4"></i><br>ge <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-get-pocket fa-lg mt-4"></i><br>get-pocket
+            <i class="fa fa-get-pocket fa-lg c-mt-4"></i><br>get-pocket
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gg fa-lg mt-4"></i><br>gg
+            <i class="fa fa-gg fa-lg c-mt-4"></i><br>gg
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gg-circle fa-lg mt-4"></i><br>gg-circle
+            <i class="fa fa-gg-circle fa-lg c-mt-4"></i><br>gg-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-git fa-lg mt-4"></i><br>git
+            <i class="fa fa-git fa-lg c-mt-4"></i><br>git
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-git-square fa-lg mt-4"></i><br>git-square
+            <i class="fa fa-git-square fa-lg c-mt-4"></i><br>git-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-github fa-lg mt-4"></i><br>github
+            <i class="fa fa-github fa-lg c-mt-4"></i><br>github
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-github-alt fa-lg mt-4"></i><br>github-alt
+            <i class="fa fa-github-alt fa-lg c-mt-4"></i><br>github-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-github-square fa-lg mt-4"></i><br>github-square
+            <i class="fa fa-github-square fa-lg c-mt-4"></i><br>github-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gittip fa-lg mt-4"></i><br>gittip <span class="text-muted">(alias)</span>
+            <i class="fa fa-gittip fa-lg c-mt-4"></i><br>gittip <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-google fa-lg mt-4"></i><br>google
+            <i class="fa fa-google fa-lg c-mt-4"></i><br>google
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-google-plus fa-lg mt-4"></i><br>google-plus
+            <i class="fa fa-google-plus fa-lg c-mt-4"></i><br>google-plus
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-google-plus-square fa-lg mt-4"></i><br>google-plus-square
+            <i class="fa fa-google-plus-square fa-lg c-mt-4"></i><br>google-plus-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-google-wallet fa-lg mt-4"></i><br>google-wallet
+            <i class="fa fa-google-wallet fa-lg c-mt-4"></i><br>google-wallet
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-gratipay fa-lg mt-4"></i><br>gratipay
+            <i class="fa fa-gratipay fa-lg c-mt-4"></i><br>gratipay
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hacker-news fa-lg mt-4"></i><br>hacker-news
+            <i class="fa fa-hacker-news fa-lg c-mt-4"></i><br>hacker-news
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-houzz fa-lg mt-4"></i><br>houzz
+            <i class="fa fa-houzz fa-lg c-mt-4"></i><br>houzz
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-html5 fa-lg mt-4"></i><br>html5
+            <i class="fa fa-html5 fa-lg c-mt-4"></i><br>html5
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-instagram fa-lg mt-4"></i><br>instagram
+            <i class="fa fa-instagram fa-lg c-mt-4"></i><br>instagram
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-internet-explorer fa-lg mt-4"></i><br>internet-explorer
+            <i class="fa fa-internet-explorer fa-lg c-mt-4"></i><br>internet-explorer
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ioxhost fa-lg mt-4"></i><br>ioxhost
+            <i class="fa fa-ioxhost fa-lg c-mt-4"></i><br>ioxhost
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-joomla fa-lg mt-4"></i><br>joomla
+            <i class="fa fa-joomla fa-lg c-mt-4"></i><br>joomla
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-jsfiddle fa-lg mt-4"></i><br>jsfiddle
+            <i class="fa fa-jsfiddle fa-lg c-mt-4"></i><br>jsfiddle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-lastfm fa-lg mt-4"></i><br>lastfm
+            <i class="fa fa-lastfm fa-lg c-mt-4"></i><br>lastfm
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-lastfm-square fa-lg mt-4"></i><br>lastfm-square
+            <i class="fa fa-lastfm-square fa-lg c-mt-4"></i><br>lastfm-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-leanpub fa-lg mt-4"></i><br>leanpub
+            <i class="fa fa-leanpub fa-lg c-mt-4"></i><br>leanpub
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-linkedin fa-lg mt-4"></i><br>linkedin
+            <i class="fa fa-linkedin fa-lg c-mt-4"></i><br>linkedin
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-linkedin-square fa-lg mt-4"></i><br>linkedin-square
+            <i class="fa fa-linkedin-square fa-lg c-mt-4"></i><br>linkedin-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-linux fa-lg mt-4"></i><br>linux
+            <i class="fa fa-linux fa-lg c-mt-4"></i><br>linux
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-maxcdn fa-lg mt-4"></i><br>maxcdn
+            <i class="fa fa-maxcdn fa-lg c-mt-4"></i><br>maxcdn
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-meanpath fa-lg mt-4"></i><br>meanpath
+            <i class="fa fa-meanpath fa-lg c-mt-4"></i><br>meanpath
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-medium fa-lg mt-4"></i><br>medium
+            <i class="fa fa-medium fa-lg c-mt-4"></i><br>medium
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-mixcloud fa-lg mt-4"></i><br>mixcloud
+            <i class="fa fa-mixcloud fa-lg c-mt-4"></i><br>mixcloud
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-modx fa-lg mt-4"></i><br>modx
+            <i class="fa fa-modx fa-lg c-mt-4"></i><br>modx
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-odnoklassniki fa-lg mt-4"></i><br>odnoklassniki
+            <i class="fa fa-odnoklassniki fa-lg c-mt-4"></i><br>odnoklassniki
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-odnoklassniki-square fa-lg mt-4"></i><br>odnoklassniki-square
+            <i class="fa fa-odnoklassniki-square fa-lg c-mt-4"></i><br>odnoklassniki-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-opencart fa-lg mt-4"></i><br>opencart
+            <i class="fa fa-opencart fa-lg c-mt-4"></i><br>opencart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-openid fa-lg mt-4"></i><br>openid
+            <i class="fa fa-openid fa-lg c-mt-4"></i><br>openid
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-opera fa-lg mt-4"></i><br>opera
+            <i class="fa fa-opera fa-lg c-mt-4"></i><br>opera
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-optin-monster fa-lg mt-4"></i><br>optin-monster
+            <i class="fa fa-optin-monster fa-lg c-mt-4"></i><br>optin-monster
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pagelines fa-lg mt-4"></i><br>pagelines
+            <i class="fa fa-pagelines fa-lg c-mt-4"></i><br>pagelines
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-paypal fa-lg mt-4"></i><br>paypal
+            <i class="fa fa-paypal fa-lg c-mt-4"></i><br>paypal
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pied-piper fa-lg mt-4"></i><br>pied-piper
+            <i class="fa fa-pied-piper fa-lg c-mt-4"></i><br>pied-piper
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pied-piper-alt fa-lg mt-4"></i><br>pied-piper-alt
+            <i class="fa fa-pied-piper-alt fa-lg c-mt-4"></i><br>pied-piper-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pinterest fa-lg mt-4"></i><br>pinterest
+            <i class="fa fa-pinterest fa-lg c-mt-4"></i><br>pinterest
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pinterest-p fa-lg mt-4"></i><br>pinterest-p
+            <i class="fa fa-pinterest-p fa-lg c-mt-4"></i><br>pinterest-p
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-pinterest-square fa-lg mt-4"></i><br>pinterest-square
+            <i class="fa fa-pinterest-square fa-lg c-mt-4"></i><br>pinterest-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-product-hunt fa-lg mt-4"></i><br>product-hunt
+            <i class="fa fa-product-hunt fa-lg c-mt-4"></i><br>product-hunt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-qq fa-lg mt-4"></i><br>qq
+            <i class="fa fa-qq fa-lg c-mt-4"></i><br>qq
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ra fa-lg mt-4"></i><br>ra <span class="text-muted">(alias)</span>
+            <i class="fa fa-ra fa-lg c-mt-4"></i><br>ra <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-rebel fa-lg mt-4"></i><br>rebel
+            <i class="fa fa-rebel fa-lg c-mt-4"></i><br>rebel
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-reddit fa-lg mt-4"></i><br>reddit
+            <i class="fa fa-reddit fa-lg c-mt-4"></i><br>reddit
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-reddit-alien fa-lg mt-4"></i><br>reddit-alien
+            <i class="fa fa-reddit-alien fa-lg c-mt-4"></i><br>reddit-alien
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-reddit-square fa-lg mt-4"></i><br>reddit-square
+            <i class="fa fa-reddit-square fa-lg c-mt-4"></i><br>reddit-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-renren fa-lg mt-4"></i><br>renren
+            <i class="fa fa-renren fa-lg c-mt-4"></i><br>renren
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-safari fa-lg mt-4"></i><br>safari
+            <i class="fa fa-safari fa-lg c-mt-4"></i><br>safari
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-scribd fa-lg mt-4"></i><br>scribd
+            <i class="fa fa-scribd fa-lg c-mt-4"></i><br>scribd
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-sellsy fa-lg mt-4"></i><br>sellsy
+            <i class="fa fa-sellsy fa-lg c-mt-4"></i><br>sellsy
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-share-alt fa-lg mt-4"></i><br>share-alt
+            <i class="fa fa-share-alt fa-lg c-mt-4"></i><br>share-alt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-share-alt-square fa-lg mt-4"></i><br>share-alt-square
+            <i class="fa fa-share-alt-square fa-lg c-mt-4"></i><br>share-alt-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-shirtsinbulk fa-lg mt-4"></i><br>shirtsinbulk
+            <i class="fa fa-shirtsinbulk fa-lg c-mt-4"></i><br>shirtsinbulk
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-simplybuilt fa-lg mt-4"></i><br>simplybuilt
+            <i class="fa fa-simplybuilt fa-lg c-mt-4"></i><br>simplybuilt
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-skyatlas fa-lg mt-4"></i><br>skyatlas
+            <i class="fa fa-skyatlas fa-lg c-mt-4"></i><br>skyatlas
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-skype fa-lg mt-4"></i><br>skype
+            <i class="fa fa-skype fa-lg c-mt-4"></i><br>skype
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-slack fa-lg mt-4"></i><br>slack
+            <i class="fa fa-slack fa-lg c-mt-4"></i><br>slack
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-slideshare fa-lg mt-4"></i><br>slideshare
+            <i class="fa fa-slideshare fa-lg c-mt-4"></i><br>slideshare
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-soundcloud fa-lg mt-4"></i><br>soundcloud
+            <i class="fa fa-soundcloud fa-lg c-mt-4"></i><br>soundcloud
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-spotify fa-lg mt-4"></i><br>spotify
+            <i class="fa fa-spotify fa-lg c-mt-4"></i><br>spotify
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stack-exchange fa-lg mt-4"></i><br>stack-exchange
+            <i class="fa fa-stack-exchange fa-lg c-mt-4"></i><br>stack-exchange
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stack-overflow fa-lg mt-4"></i><br>stack-overflow
+            <i class="fa fa-stack-overflow fa-lg c-mt-4"></i><br>stack-overflow
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-steam fa-lg mt-4"></i><br>steam
+            <i class="fa fa-steam fa-lg c-mt-4"></i><br>steam
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-steam-square fa-lg mt-4"></i><br>steam-square
+            <i class="fa fa-steam-square fa-lg c-mt-4"></i><br>steam-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stumbleupon fa-lg mt-4"></i><br>stumbleupon
+            <i class="fa fa-stumbleupon fa-lg c-mt-4"></i><br>stumbleupon
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stumbleupon-circle fa-lg mt-4"></i><br>stumbleupon-circle
+            <i class="fa fa-stumbleupon-circle fa-lg c-mt-4"></i><br>stumbleupon-circle
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tencent-weibo fa-lg mt-4"></i><br>tencent-weibo
+            <i class="fa fa-tencent-weibo fa-lg c-mt-4"></i><br>tencent-weibo
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-trello fa-lg mt-4"></i><br>trello
+            <i class="fa fa-trello fa-lg c-mt-4"></i><br>trello
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tripadvisor fa-lg mt-4"></i><br>tripadvisor
+            <i class="fa fa-tripadvisor fa-lg c-mt-4"></i><br>tripadvisor
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tumblr fa-lg mt-4"></i><br>tumblr
+            <i class="fa fa-tumblr fa-lg c-mt-4"></i><br>tumblr
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-tumblr-square fa-lg mt-4"></i><br>tumblr-square
+            <i class="fa fa-tumblr-square fa-lg c-mt-4"></i><br>tumblr-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-twitch fa-lg mt-4"></i><br>twitch
+            <i class="fa fa-twitch fa-lg c-mt-4"></i><br>twitch
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-twitter fa-lg mt-4"></i><br>twitter
+            <i class="fa fa-twitter fa-lg c-mt-4"></i><br>twitter
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-twitter-square fa-lg mt-4"></i><br>twitter-square
+            <i class="fa fa-twitter-square fa-lg c-mt-4"></i><br>twitter-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-usb fa-lg mt-4"></i><br>usb
+            <i class="fa fa-usb fa-lg c-mt-4"></i><br>usb
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-viacoin fa-lg mt-4"></i><br>viacoin
+            <i class="fa fa-viacoin fa-lg c-mt-4"></i><br>viacoin
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-vimeo fa-lg mt-4"></i><br>vimeo
+            <i class="fa fa-vimeo fa-lg c-mt-4"></i><br>vimeo
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-vimeo-square fa-lg mt-4"></i><br>vimeo-square
+            <i class="fa fa-vimeo-square fa-lg c-mt-4"></i><br>vimeo-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-vine fa-lg mt-4"></i><br>vine
+            <i class="fa fa-vine fa-lg c-mt-4"></i><br>vine
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-vk fa-lg mt-4"></i><br>vk
+            <i class="fa fa-vk fa-lg c-mt-4"></i><br>vk
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wechat fa-lg mt-4"></i><br>wechat <span class="text-muted">(alias)</span>
+            <i class="fa fa-wechat fa-lg c-mt-4"></i><br>wechat <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-weibo fa-lg mt-4"></i><br>weibo
+            <i class="fa fa-weibo fa-lg c-mt-4"></i><br>weibo
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-weixin fa-lg mt-4"></i><br>weixin
+            <i class="fa fa-weixin fa-lg c-mt-4"></i><br>weixin
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-whatsapp fa-lg mt-4"></i><br>whatsapp
+            <i class="fa fa-whatsapp fa-lg c-mt-4"></i><br>whatsapp
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wikipedia-w fa-lg mt-4"></i><br>wikipedia-w
+            <i class="fa fa-wikipedia-w fa-lg c-mt-4"></i><br>wikipedia-w
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-windows fa-lg mt-4"></i><br>windows
+            <i class="fa fa-windows fa-lg c-mt-4"></i><br>windows
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wordpress fa-lg mt-4"></i><br>wordpress
+            <i class="fa fa-wordpress fa-lg c-mt-4"></i><br>wordpress
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-xing fa-lg mt-4"></i><br>xing
+            <i class="fa fa-xing fa-lg c-mt-4"></i><br>xing
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-xing-square fa-lg mt-4"></i><br>xing-square
+            <i class="fa fa-xing-square fa-lg c-mt-4"></i><br>xing-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-y-combinator fa-lg mt-4"></i><br>y-combinator
+            <i class="fa fa-y-combinator fa-lg c-mt-4"></i><br>y-combinator
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-y-combinator-square fa-lg mt-4"></i><br>y-combinator-square <span class="text-muted">(alias)</span>
+            <i class="fa fa-y-combinator-square fa-lg c-mt-4"></i><br>y-combinator-square <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-yahoo fa-lg mt-4"></i><br>yahoo
+            <i class="fa fa-yahoo fa-lg c-mt-4"></i><br>yahoo
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-yc fa-lg mt-4"></i><br>yc <span class="text-muted">(alias)</span>
+            <i class="fa fa-yc fa-lg c-mt-4"></i><br>yc <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-yc-square fa-lg mt-4"></i><br>yc-square <span class="text-muted">(alias)</span>
+            <i class="fa fa-yc-square fa-lg c-mt-4"></i><br>yc-square <span class="text-muted">(alias)</span>
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-yelp fa-lg mt-4"></i><br>yelp
+            <i class="fa fa-yelp fa-lg c-mt-4"></i><br>yelp
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-youtube fa-lg mt-4"></i><br>youtube
+            <i class="fa fa-youtube fa-lg c-mt-4"></i><br>youtube
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-youtube-play fa-lg mt-4"></i><br>youtube-play
+            <i class="fa fa-youtube-play fa-lg c-mt-4"></i><br>youtube-play
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-youtube-square fa-lg mt-4"></i><br>youtube-square
+            <i class="fa fa-youtube-square fa-lg c-mt-4"></i><br>youtube-square
           </CCol>
         </CRow>
-        <div class="alert alert-success mt-4">
+        <div class="alert alert-success c-mt-4">
           <ul class="margin-bottom-none padding-left-lg">
             <li>All brand icons are trademarks of their respective owners.</li>
             <li>The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa.</li>
@@ -2802,37 +2802,37 @@
         <CRow class="text-center">
 
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-ambulance fa-lg mt-4"></i><br>ambulance
+            <i class="fa fa-ambulance fa-lg c-mt-4"></i><br>ambulance
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-h-square fa-lg mt-4"></i><br>h-square
+            <i class="fa fa-h-square fa-lg c-mt-4"></i><br>h-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-heart fa-lg mt-4"></i><br>heart
+            <i class="fa fa-heart fa-lg c-mt-4"></i><br>heart
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-heart-o fa-lg mt-4"></i><br>heart-o
+            <i class="fa fa-heart-o fa-lg c-mt-4"></i><br>heart-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-heartbeat fa-lg mt-4"></i><br>heartbeat
+            <i class="fa fa-heartbeat fa-lg c-mt-4"></i><br>heartbeat
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-hospital-o fa-lg mt-4"></i><br>hospital-o
+            <i class="fa fa-hospital-o fa-lg c-mt-4"></i><br>hospital-o
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-medkit fa-lg mt-4"></i><br>medkit
+            <i class="fa fa-medkit fa-lg c-mt-4"></i><br>medkit
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-plus-square fa-lg mt-4"></i><br>plus-square
+            <i class="fa fa-plus-square fa-lg c-mt-4"></i><br>plus-square
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-stethoscope fa-lg mt-4"></i><br>stethoscope
+            <i class="fa fa-stethoscope fa-lg c-mt-4"></i><br>stethoscope
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-user-md fa-lg mt-4"></i><br>user-md
+            <i class="fa fa-user-md fa-lg c-mt-4"></i><br>user-md
           </CCol>
           <CCol col="6" sm="4" md="3" lg="2">
-            <i class="fa fa-wheelchair fa-lg mt-4"></i><br>wheelchair
+            <i class="fa fa-wheelchair fa-lg c-mt-4"></i><br>wheelchair
           </CCol>
 
         </CRow>
