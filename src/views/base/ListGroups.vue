@@ -1,15 +1,15 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap list group </strong>
-              <!-- <div class="card-header-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/list-group" class="card-header-action" rel="noreferrer noopener" target="_blank">
-                  <small class="text-muted">docs</small>
+              <!-- <div class="c-card-header-actions">
+                <a href="https://bootstrap-vue.js.org/docs/components/list-group" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
+                  <small class="c-text-muted">docs</small>
                 </a>
               </div> -->
             </CCardHeader>
@@ -105,15 +105,21 @@
             </CCardHeader>
             <CCardBody>
               <CListGroup>
-                <CListGroupItem class="d-flex justify-content-between align-items-center">
+                <CListGroupItem
+                  class="c-d-flex c-justify-content-between c-align-items-center"
+                >
                   Cras justo odio
                   <CBadge variant="primary" pill>14</CBadge>
                 </CListGroupItem>
-                <CListGroupItem class="d-flex justify-content-between align-items-center">
+                <CListGroupItem
+                  class="c-d-flex c-justify-content-between c-align-items-center"
+                >
                   Dapibus ac facilisis in
                   <CBadge variant="primary" pill>2</CBadge>
                 </CListGroupItem>
-                <CListGroupItem class="d-flex justify-content-between align-items-center">
+                <CListGroupItem
+                  class="c-d-flex c-justify-content-between c-align-items-center"
+                >
                   Morbi leo risus
                   <CBadge variant="primary" pill>1</CBadge>
                 </CListGroupItem>
@@ -184,7 +190,7 @@
                     <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>
                     <CListGroupItem href="#">Vestibulum at eros</CListGroupItem>
                   </CListGroup>
-                  <p class="card-text mt-2">
+                  <p class="c-card-text c-mt-2">
                     Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
                     nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
                     consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
@@ -217,38 +223,42 @@
             </CCardHeader>
             <CCardBody>
               <CListGroup>
-                <CListGroupItem href="#" active class="flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
+                <CListGroupItem
+                  href="#"
+                  active
+                  class="c-flex-column c-align-items-start"
+                >
+                  <div class="c-d-flex c-w-100 c-justify-content-between">
+                    <h5 class="c-mb-1">List group item heading</h5>
                     <small>3 days ago</small>
                   </div>
-                  <p class="mb-1">
+                  <p class="c-mb-1">
                     Donec id elit non mi porta gravida at eget metus. Maecenas
                     sed diam eget risus varius blandit.
                   </p>
                   <small>Donec id elit non mi porta.</small>
                 </CListGroupItem>
-                <CListGroupItem href="#" class="flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
-                    <small class="text-muted">3 days ago</small>
+                <CListGroupItem href="#" class="c-flex-column c-align-items-start">
+                  <div class="c-d-flex c-w-100 c-justify-content-between">
+                    <h5 class="c-mb-1">List group item heading</h5>
+                    <small class="c-text-muted">3 days ago</small>
                   </div>
-                  <p class="mb-1">
+                  <p class="c-mb-1">
                     Donec id elit non mi porta gravida at eget metus. Maecenas
                     sed diam eget risus varius blandit.
                   </p>
-                  <small class="text-muted">Donec id elit non mi porta.</small>
+                  <small class="c-text-muted">Donec id elit non mi porta.</small>
                 </CListGroupItem>
-                <CListGroupItem href="#" disabled class="flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Disabled List group item</h5>
-                    <small class="text-muted">3 days ago</small>
+                <CListGroupItem href="#" disabled class="c-flex-column c-align-items-start">
+                  <div class="c-d-flex c-w-100 c-justify-content-between">
+                    <h5 class="c-mb-1">Disabled List group item</h5>
+                    <small class="c-text-muted">3 days ago</small>
                   </div>
-                  <p class="mb-1">
+                  <p class="c-mb-1">
                     Donec id elit non mi porta gravida at eget metus. Maecenas
                     sed diam eget risus varius blandit.
                   </p>
-                  <small class="text-muted">Donec id elit non mi porta.</small>
+                  <small class="c-text-muted">Donec id elit non mi porta.</small>
                 </CListGroupItem>
               </CListGroup>
             </CCardBody>

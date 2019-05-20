@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <!-- <CCard>
         <CNavbar toggleable="md" light variant="light">
           <CNavbarToggle class="hehe" @click="test2 = !test2"/>
@@ -34,9 +34,9 @@
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Navbar </strong>
-          <!-- <div class="card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="text-muted">docs</small>
+          <!-- <div class="c-card-header-actions">
+            <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
+              <small class="c-text-muted">docs</small>
             </a>
           </div> -->
         </CCardHeader>
@@ -56,14 +56,14 @@
               </CNavbarNav>
 
               <!-- Right aligned nav items -->
-              <CNavbarNav class="ml-auto">
+              <CNavbarNav class="c-ml-auto">
                 <CForm inline>
                   <CFormInput
-                    class="mr-sm-2"
+                    class="c-mr-sm-2"
                     placeholder="Search"
                     size="sm"
                   />
-                  <CButton size="sm" class="my-2 my-sm-0" type="submit">Search</CButton>
+                  <CButton size="sm" class="c-my-2 c-my-sm-0" type="submit">Search</CButton>
                 </CForm>
 
                 <CDropdown
@@ -99,7 +99,7 @@
           <!-- Image and text -->
           <CNavbar variant="faded" light>
             <CNavbarBrand href="#">
-              <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV">
+              <img src="https://placekitten.com/g/30/30" class="c-d-inline-block c-align-top" alt="BV">
               BootstrapVue
             </CNavbarBrand>
           </CNavbar>
@@ -116,7 +116,7 @@
             <CNavbarBrand>BootstrapVue</CNavbarBrand>
             <CCollapse :show="navbarText" navbar>
               <CNavbarNav>
-                <span class="navbar-text">Navbar text</span>
+                <span class="c-navbar-text">Navbar text</span>
               </CNavbarNav>
             </CCollapse>
           </CNavbar>
@@ -167,11 +167,11 @@
           <CNavbar type="light" variant="light">
             <CForm inline>
               <CFormInput
-                class="mr-sm-2"
+                class="c-mr-sm-2"
                 placeholder="Search"
                 size="sm"
               />
-              <CButton variant="outline-success" class="my-2 my-sm-0" type="submit">Search</CButton>
+              <CButton variant="outline-success" class="c-my-2 c-my-sm-0" type="submit">Search</CButton>
             </CForm>
           </CNavbar>
         </CCardBody>
@@ -185,7 +185,7 @@
           <CNavbar type="light" variant="light">
             <CForm inline>
               <CFormInput
-                class="mr-sm-2"
+                class="c-mr-sm-2"
                 placeholder="Username"
               />
             </CForm>

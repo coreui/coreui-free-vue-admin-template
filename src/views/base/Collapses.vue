@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol col="12" md="6">
           <CCard>
@@ -17,13 +17,13 @@
               <CButton id="collapse1" variant="primary">
                 Toggle Collapse
               </CButton>
-              <CCollapse toggler="collapse1" class="mt-2">
+              <CCollapse toggler="collapse1" class="c-mt-2">
                 <CCard bodyWrapper>
-                  <p class="card-text">Collapse contents Here</p>
+                  <p class="c-card-text">Collapse contents Here</p>
                   <CButton id="collapse2" size="sm">
                     Toggle Inner Collapse
                   </CButton>
-                  <CCollapse toggler="collapse2" class="mt-2">
+                  <CCollapse toggler="collapse2" class="c-mt-2">
                     <CCard bodyWrapper>Hello!</CCard>
                   </CCollapse>
                 </CCard>

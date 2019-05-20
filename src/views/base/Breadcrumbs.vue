@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol col>
           <CCard>
@@ -57,16 +57,16 @@ export default {
       items3: [{
         textHtml: 'Link',
         to: '#2',
-        activeClass: 'bg-info p-1'
+        activeClass: 'c-bg-info c-p-1'
       }, {
         textHtml: 'Active',
         to: '#3',
-        activeClass: 'bg-warning p-1',
-        addLinkClasses: 'bg-info p-1'
+        activeClass: 'c-bg-warning c-p-1',
+        addLinkClasses: 'c-bg-info c-p-1'
       },{
         textHtml: 'Classes',
         to: '#4',
-        activeClass: 'bg-danger p-1',
+        activeClass: 'c-bg-danger c-p-1',
       }]
     }
   }

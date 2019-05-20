@@ -1,5 +1,5 @@
 <template>
-  <div class="animated fadeIn">
+  <div class="c-animated c-fadeIn">
     <CRow>
       <CCol xs="12" lg="6">
         <CCard>
@@ -7,7 +7,7 @@
             Tabs
           </CCardHeader>
           <CCardBody>
-            <CTabs addTabClasses="mt-1">
+            <CTabs addTabClasses="c-mt-1">
               <CTab titleHtml="Home" active>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -41,7 +41,7 @@
           <CCardBody>
             <CTabs
               pills
-              addNavClasses="mb-3"
+              addNavClasses="c-mb-3"
             >
               <CTab titleHtml="Home" active>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -74,7 +74,7 @@
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs addTabClasses="mt-1">
+            <CTabs addTabClasses="c-mt-1">
               <CTab active>
                 <template slot="title">
                   <i class="icon-calculator"></i>
@@ -116,7 +116,7 @@
           </CCardHeader>
           <CCardBody>
             <CTabs
-              addTabClasses="mt-1"
+              addTabClasses="c-mt-1"
               card
             >
               <CTab active>

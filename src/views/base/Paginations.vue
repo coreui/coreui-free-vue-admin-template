@@ -1,13 +1,13 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Pagination</strong>
-          <!-- <div class="card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/pagination" class="card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="text-muted">docs</small>
+          <!-- <div class="c-card-header-actions">
+            <a href="https://bootstrap-vue.js.org/docs/components/pagination" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
+              <small class="c-text-muted">docs</small>
             </a>
           </div> -->
         </CCardHeader>
@@ -26,7 +26,7 @@
             :pages="10"/>
           <br>
 
-          <div class="d-sm-down-none">
+          <div class="c-d-sm-down-none">
             <h6>Large</h6>
             <CPagination
               size="lg"

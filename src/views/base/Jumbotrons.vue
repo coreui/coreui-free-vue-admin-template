@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol>
           <CCard>
@@ -9,7 +9,7 @@
               <strong> Bootstrap Jumbotron </strong>
               <!-- <div class="card-header-actions">
                 <a href="https://bootstrap-vue.js.org/docs/components/jumbotron" class="card-header-action" rel="noreferrer noopener" target="_blank">
-                  <small class="text-muted">docs</small>
+                  <small class="c-text-muted">docs</small>
                 </a>
               </div> -->
             </CCardHeader>
@@ -29,11 +29,11 @@
             </CCardHeader>
             <CCardBody>
               <CJumbotron header="Bootstrap 4" lead="">
-                <p slot="lead" class="lead">
+                <p slot="lead" class="c-lead">
                   This is a simple hero unit, a simple jumbotron-style component for
                   calling extra attention to featured content or information.
                 </p>
-                <hr class="my-4">
+                <hr class="c-my-4">
                 <p>
                   It uses utility classes for typography and spacing to space content
                   out within the larger container.
@@ -53,16 +53,17 @@
               <small>variants</small>
             </CCardHeader>
             <CCardBody>
-              <CJumbotron variant="info"
-                           textVariant="white"
-                           borderVariant="dark"
-                           header="Bootstrap 4">
-
-                <p slot="lead" class="lead">
+              <CJumbotron
+                variant="info"
+                textVariant="white"
+                borderVariant="dark"
+                header="Bootstrap 4"
+              >
+                <p slot="lead" class="c-lead">
                   This is a simple hero unit, a simple jumbotron-style component for
                   calling extra attention to featured content or information.
                 </p>
-                <hr class="my-4">
+                <hr class="c-my-4">
                 <p>
                   It uses utility classes for typography and spacing to space content
                   out within the larger container.

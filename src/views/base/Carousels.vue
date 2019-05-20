@@ -1,6 +1,6 @@
 <template functional>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div class="c-animated c-fadeIn">
       <CRow>
         <CCol md="12" lg="9" >
           <CCard>
@@ -19,7 +19,11 @@
               </div> -->
             </CCardHeader>
             <CCardBody>
-              <CCarousel>
+              <CCarousel
+                arrows
+                indicators
+                animate
+              >
                 <CCarouselItem
                   caption="First Slide"
                   imgSrc="https://lorempixel.com/1024/480/technics/2/"
