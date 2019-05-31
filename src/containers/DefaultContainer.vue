@@ -6,7 +6,9 @@
       <main class="c-main">
         <CBreadcrumbRouter/>
         <CContainer fluid>
-          <router-view></router-view>
+          <transition name="fade">
+            <router-view></router-view>
+          </transition>
         </CContainer>
       </main>
       <TheAside/>
@@ -31,3 +33,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
