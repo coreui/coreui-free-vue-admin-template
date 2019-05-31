@@ -88,62 +88,37 @@
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-cogs c-bg-primary"
-        />
+          variant="primary"
+        >
+          <CIcon name="settings" width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
-          addIconClasses="fa fa-laptop c-bg-info"
           text="Income"
-        />
+          variant="info"
+        >
+          <CIcon name="laptop" width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
-          addIconClasses="fa fa-moon-o c-bg-warning"
           text="Income"
-        />
+          variant="warning"
+        >
+          <CIcon name="moon" width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
-          addIconClasses="fa fa-bell c-bg-danger"
           text="Income"
-        />
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          addIconClasses="fa fa-cogs c-bg-primary"
-          text="Income"
-          link="#"
-        />
-      </CCol>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          addIconClasses="fa fa-laptop c-bg-info"
-          text="Income"
-          link="#"
-        />
-      </CCol>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          addIconClasses="fa fa-moon-o c-bg-warning c-bg-primary"
-          text="Income" link="#"
-        />
-      </CCol>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          addIconClasses="fa fa-bell c-bg-danger"
-          text="Income"
-          link="#"
-        />
+          variant="danger"
+        >
+          <CIcon name="bell" width="24"/>
+        </CWidgetIcon>
       </CCol>
     </CRow>
     <CRow>
@@ -151,33 +126,83 @@
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-cogs c-bg-primary"
-          noPadding
-        />
+          variant="primary"
+          link="#"
+        >
+          <CIcon name="settings" width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-laptop c-bg-info"
-          noPadding
-        />
+          variant="info"
+          link="#"
+        >
+          <CIcon name="laptop" width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-moon-o c-bg-warning c-bg-primary"
-          noPadding
-        />
+          variant="warning"
+          link="#"
+        >
+          <CIcon name="moon" width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="3">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-bell c-bg-danger"
+          variant="danger"
+          link="#"
+        >
+          <CIcon name="bell" width="24"/>
+        </CWidgetIcon>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol col="12" sm="6" lg="3">
+        <CWidgetIcon
+          header="$1.999,50"
+          text="Income"
+          variant="primary"
           noPadding
-        />
+        >
+          <CIcon name="settings" width="24"/>
+        </CWidgetIcon>
+      </CCol>
+      <CCol col="12" sm="6" lg="3">
+        <CWidgetIcon
+          header="$1.999,50"
+          text="Income"
+          variant="info"
+          noPadding
+        >
+          <CIcon name="laptop" width="24"/>
+        </CWidgetIcon>
+      </CCol>
+      <CCol col="12" sm="6" lg="3">
+        <CWidgetIcon
+          header="$1.999,50"
+          text="Income"
+          variant="warning"
+          noPadding
+        >
+          <CIcon name="moon" width="24"/>
+        </CWidgetIcon>
+      </CCol>
+      <CCol col="12" sm="6" lg="3">
+        <CWidgetIcon
+          header="$1.999,50"
+          text="Income"
+          variant="danger"
+          noPadding
+        >
+          <CIcon name="bell" width="24"/>
+        </CWidgetIcon>
       </CCol>
     </CRow>
     <CRow>
@@ -185,25 +210,31 @@
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-cogs c-bg-primary c-px-5"
+          variant="primary"
           noPadding
-        />
+        >
+          <CIcon name="settings" class="c-mx-5 " width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-laptop c-bg-info c-px-5"
+          variant="info"
           noPadding
-        />
+        >
+          <CIcon name="laptop" class="c-mx-5 " width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-moon-o c-bg-warning c-bg-primary c-px-5"
+          variant="warning"
           noPadding
-        />
+        >
+          <CIcon name="moon" class="c-mx-5 " width="24"/>
+        </CWidgetIcon>
       </CCol>
     </CRow>
     <CRow>
@@ -211,206 +242,232 @@
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-cogs c-bg-primary c-px-5"
+          variant="primary"
           noPadding
           link="#"
-        />
+        >
+          <CIcon name="settings" class="c-mx-5 " width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-laptop c-bg-info c-px-5"
+          variant="info"
           noPadding
           link="#"
-        />
+        >
+          <CIcon name="laptop" class="c-mx-5 " width="24"/>
+        </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
           text="Income"
-          addIconClasses="fa fa-moon-o c-bg-warning c-bg-primary c-px-5"
+          variant="warning"
           noPadding
           link="#"
-        />
+        >
+          <CIcon name="moon" class="c-mx-5" width="24"/>
+        </CWidgetIcon>
       </CCol>
     </CRow>
     <WidgetsSocial noCharts/>
     <WidgetsSocial/>
     <CCardGroup class="c-mb-4">
       <CWidgetProgressIcon
-        iconClasses="icon-people"
         header="87.500"
         text="Visitors"
         variant="info"
-      />
+      >
+        <CIcon name="people" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-user-follow"
         header="385"
         text="New Clients"
         variant="success"
-      />
+      >
+        <CIcon name="userFollow" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-basket-loaded"
         header="1238"
         text="Products sold"
         variant="warning"
-      />
+      >
+        <CIcon name="basketLoaded" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-pie-chart"
         header="28%"
         text="Returning Visitors"
-      />
+      >
+        <CIcon name="chart" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-speedometer"
         header="5:34:11"
         text="Avg. Time"
         variant="danger"
-      />
+      >
+        <CIcon name="speedometer" height="36"/>
+      </CWidgetProgressIcon>
     </CCardGroup>
     <CCardGroup class="c-mb-4">
       <CWidgetProgressIcon
-        iconClasses="icon-people"
         header="87.500"
         text="Visitors"
         variant="info"
         inverse
-      />
+      >
+        <CIcon name="people" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-user-follow"
         header="385"
         text="New Clients"
         variant="success"
         inverse
-      />
+      >
+        <CIcon name="userFollow" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-basket-loaded"
         header="1238"
         text="Products sold"
         variant="warning"
         inverse
-      />
+      >
+        <CIcon name="basketLoaded" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-pie-chart"
         header="28%"
-        variant="primary"
         text="Returning Visitors"
+        variant="primary"
         inverse
-      />
+      >
+        <CIcon name="chart" height="36"/>
+      </CWidgetProgressIcon>
       <CWidgetProgressIcon
-        iconClasses="icon-speedometer"
         header="5:34:11"
         text="Avg. Time"
         variant="danger"
         inverse
-      />
+      >
+        <CIcon name="speedometer" height="36"/>
+      </CWidgetProgressIcon>
     </CCardGroup>
     <CRow>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-people"
           header="87.500"
-          text="visitors"
+          text="Visitors"
           variant="info"
-        />
-      </CCol>
-      <CCol sm="6" md="2">
-        <CWidgetProgressIcon
-          iconClasses="icon-user-follow"
-          header="385"
-          text="New Clients"
-          variant="success"
-        />
-      </CCol>
-      <CCol sm="6" md="2">
-        <CWidgetProgressIcon
-          iconClasses="icon-basket-loaded"
-          header="1238"
-          text="Products sold"
-          variant="warning"
-        />
-      </CCol>
-      <CCol sm="6" md="2">
-        <CWidgetProgressIcon
-          iconClasses="icon-pie-chart"
-          header="28%"
-          text="Returning Visitors"
-        />
-      </CCol>
-      <CCol sm="6" md="2">
-        <CWidgetProgressIcon
-          iconClasses="icon-speedometer"
-          header="5:34:11"
-          text="Avg. Time"
         >
-          <CProgress
-            variant="danger"
-            :value="25"
-            class="c-progress-xs c-my-3 c-mb-0"
-          />
+          <CIcon name="people" height="36"/>
         </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-speech"
+          header="385"
+          text="New Clients"
+          variant="success"
+        >
+          <CIcon name="userFollow" height="36"/>
+        </CWidgetProgressIcon>
+      </CCol>
+      <CCol sm="6" md="2">
+        <CWidgetProgressIcon
+          header="1238"
+          text="Products sold"
+          variant="warning"
+        >
+          <CIcon name="basketLoaded" height="36"/>
+        </CWidgetProgressIcon>
+      </CCol>
+      <CCol sm="6" md="2">
+        <CWidgetProgressIcon
+          header="28%"
+          text="Returning Visitors"
+          variant="primary"
+        >
+          <CIcon name="chart" height="36"/>
+        </CWidgetProgressIcon>
+      </CCol>
+      <CCol sm="6" md="2">
+        <CWidgetProgressIcon
+          header="5:34:11"
+          text="Avg. Time"
+          variant="danger"
+        >
+          <CIcon name="speedometer" height="36"/>
+        </CWidgetProgressIcon>
+      </CCol>
+      <CCol sm="6" md="2">
+        <CWidgetProgressIcon
           header="972"
-          text="Comments"
+          text="comments"
           variant="info"
-        />
+        >
+          <CIcon name="speech" height="36"/>
+        </CWidgetProgressIcon>
       </CCol>
     </CRow>
     <CRow>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-people"
           header="87.500"
-          text="visitors"
+          text="Visitors"
           variant="info"
           inverse
-        />
+        >
+          <CIcon name="people" height="36"/>
+        </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-user-follow"
           header="385"
           text="New Clients"
           variant="success"
           inverse
-        />
+        >
+          <CIcon name="userFollow" height="36"/>
+        </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-basket-loaded"
-          header="1238" text="Products sold"
+          header="1238"
+          text="Products sold"
           variant="warning"
           inverse
-        />
+        >
+          <CIcon name="basketLoaded" height="36"/>
+        </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-pie-chart"
           header="28%"
           text="Returning Visitors"
           variant="primary"
           inverse
-        />
+        >
+          <CIcon name="chart" height="36"/>
+        </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-speedometer"
-          header="5:34:11" text="Avg. Time"
+          header="5:34:11"
+          text="Avg. Time"
           variant="danger"
           inverse
-        />
+        >
+          <CIcon name="speedometer" height="36"/>
+        </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
         <CWidgetProgressIcon
-          iconClasses="icon-speech"
           header="972"
-          text="Comments"
+          text="comments"
           variant="info"
           inverse
-        />
+        >
+          <CIcon name="speech" height="36"/>
+        </CWidgetProgressIcon>
       </CCol>
     </CRow>
     <WidgetsDropdown/>

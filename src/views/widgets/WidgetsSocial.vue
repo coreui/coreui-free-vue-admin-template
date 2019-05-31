@@ -9,6 +9,11 @@
           leftHeader="459"
           leftFooter="feeds"
         >
+          <CIcon
+            name="socialFacebook"
+            height="32"
+            class="c-position-absolute"
+          />
           <CChartLineSimple
             style="height:100px"
             backgroundColor="rgba(255,255,255,.1)"
@@ -26,6 +31,11 @@
           leftHeader="1.792"
           leftFooter="tweets"
         >
+          <CIcon
+            name="socialTwitter"
+            height="32"
+            class="c-position-absolute"
+          />
           <CChartLineSimple
             style="height:100px"
             backgroundColor="rgba(255,255,255,.1)"
@@ -43,6 +53,11 @@
           leftHeader="292"
           leftFooter="feeds"
         >
+          <CIcon
+            name="socialLinkedin"
+            height="32"
+            class="c-position-absolute"
+          />
           <CChartLineSimple
             style="height:100px"
             backgroundColor="rgba(255,255,255,.1)"
@@ -54,12 +69,17 @@
        </CCol>
        <CCol md="3" sm="6">
         <CWidgetSocial
-          variant="google-plus"
-          rightHeader="894"
-          rightFooter="followers"
-          leftHeader="92"
-          leftFooter="circles"
+          rightHeader="12"
+          rightFooter="events"
+          leftHeader="4"
+          leftFooter="meetings"
+          variant="warning"
         >
+          <CIcon
+            name="calendar"
+            height="32"
+            class="c-position-absolute"
+          />
           <CChartLineSimple
             style="height:100px"
             backgroundColor="rgba(255,255,255,.1)"
@@ -78,35 +98,58 @@
           rightFooter="friends"
           leftHeader="459"
           leftFooter="feeds"
-        />
-      </CCol>
-      <CCol md="3" sm="6">
+        >
+          <CIcon
+            name="socialFacebook"
+            height="32"
+            class="c-position-absolute"
+          />
+        </CWidgetSocial>
+       </CCol>
+       <CCol md="3" sm="6">
         <CWidgetSocial
           variant="twitter"
           rightHeader="973k"
           rightFooter="followers"
           leftHeader="1.792"
           leftFooter="tweets"
-        />
-      </CCol>
-      <CCol md="3" sm="6">
+        >
+          <CIcon
+            name="socialTwitter"
+            height="32"
+            class="c-position-absolute"
+          />
+        </CWidgetSocial>
+       </CCol>
+       <CCol md="3" sm="6">
         <CWidgetSocial
           variant="linkedin"
           rightHeader="500+"
           rightFooter="contracts"
           leftHeader="292"
           leftFooter="feeds"
-        />
-      </CCol>
+        >
+          <CIcon
+            name="socialLinkedin"
+            height="32"
+            class="c-position-absolute"
+          />
+        </CWidgetSocial>
+       </CCol>
       <CCol md="3" sm="6">
         <CWidgetSocial
+          rightHeader="12"
+          rightFooter="events"
+          leftHeader="4"
+          leftFooter="meetings"
           variant="warning"
-          iconClasses="fa fa-battery-1"
-          rightHeader="0:57"
-          rightFooter="time"
-          leftHeader="17"
-          leftFooter="percentage"
-        />
+        >
+          <CIcon
+            name="calendar"
+            height="32"
+            class="c-position-absolute"
+          />
+        </CWidgetSocial>
       </CCol>
     </template>
   </CRow>
@@ -114,6 +157,7 @@
 
 <script>
 import { CChartLineSimple } from '../charts/index.js'
+
 export default {
   name: 'WidgetsSocial',
   components: {
