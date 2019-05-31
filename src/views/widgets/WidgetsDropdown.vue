@@ -7,7 +7,7 @@
             class="c-float-right"
             variant="transparent c-p-0"
             placement="bottom-end"
-            buttonHtml="<i class='icon-settings'></i>"
+            buttonHtml="<i class='cui-settings'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -34,7 +34,7 @@
             variant="transparent c-p-0"
             placement="bottom-end"
             noCaret
-            buttonHtml="<i class='icon-location-pin'></i>"
+            buttonHtml="<i class='cui-location-pin'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -66,7 +66,7 @@
             class="c-float-right"
             variant="transparent c-p-0"
             placement="bottom-end"
-            buttonHtml="<i class='icon-settings'></i>"
+            buttonHtml="<i class='cui-settings'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -97,7 +97,7 @@
             class="c-float-right"
             variant="transparent c-p-0"
             placement="bottom-end"
-            buttonHtml="<i class='icon-settings'></i>"
+            buttonHtml="<i class='cui-settings'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>

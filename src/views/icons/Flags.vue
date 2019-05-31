@@ -2,7 +2,7 @@
   <div class="c-animated c-fadeIn">
     <CCard>
       <CCardHeader>
-        <i class="fa fa-font-awesome"></i> Flags
+        <i class="cui-globe"></i>Flags
       </CCardHeader>
       <CCardBody>
         <CRow class="c-text-center">

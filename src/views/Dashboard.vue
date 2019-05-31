@@ -1,5 +1,5 @@
 <template>
-  <div class="animated fadeIn">
+  <div class="c-animated c-fadeIn">
     <WidgetsDropdown/>
     <CCard>
       <CCardBody>
@@ -10,7 +10,7 @@
           </CCol>
           <CCol sm="7" class="c-d-none c-d-md-block">
             <CButton variant="primary" class="c-float-right">
-              <i class="icon-cloud-download"></i>
+              <i class="cui-cloud-download"></i>
             </CButton>
             <CButtonGroup class="c-float-right c-mr-3">
               <CButton
@@ -265,7 +265,7 @@
               <ul class="c-horizontal-bars c-type-2">
                 <div class="c-progress-group">
                   <div class="c-progress-group-header">
-                    <i class="icon-user c-progress-group-icon"></i>
+                    <i class="cui-user c-progress-group-icon"></i>
                     <span class="c-title">Male</span>
                     <span class="c-ml-auto c-font-weight-bold">43%</span>
                   </div>
@@ -279,7 +279,7 @@
                 </div>
                 <div class="c-progress-group c-mb-5">
                   <div class="c-progress-group-header">
-                    <i class="icon-user-female c-progress-group-icon"></i>
+                    <i class="cui-user-female c-progress-group-icon"></i>
                     <span class="c-title">Female</span>
                     <span class="c-ml-auto c-font-weight-bold">37%</span>
                   </div>
@@ -293,7 +293,7 @@
                 </div>
                 <div class="c-progress-group">
                   <div class="c-progress-group-header">
-                    <i class="icon-globe c-progress-group-icon"></i>
+                    <i class="cui-globe c-progress-group-icon"></i>
                     <span class="c-title">Organic Search</span>
                     <span class="c-ml-auto c-font-weight-bold">
                       191,235<span class="text-muted small">(56%)</span>
@@ -309,7 +309,11 @@
                 </div>
                 <div class="c-progress-group">
                   <div class="c-progress-group-header">
-                    <i class="icon-social-facebook c-progress-group-icon"></i>
+                    <CIcon
+                      name="socialFacebook"
+                      height="17"
+                      class="c-progress-group-icon"
+                    />
                     <span class="c-title">Facebook</span>
                     <span class="c-ml-auto c-font-weight-bold">
                       51,223 <span class="c-text-muted small">(15%)</span>
@@ -325,7 +329,11 @@
                 </div>
                 <div class="c-progress-group">
                   <div class="c-progress-group-header">
-                    <i class="icon-social-twitter c-progress-group-icon"></i>
+                    <CIcon
+                      name="socialTwitter"
+                      height="17"
+                      class="c-progress-group-icon"
+                    />
                     <span class="c-title">Twitter</span>
                     <span class="c-ml-auto c-font-weight-bold">
                       37,564 <span class="c-text-muted c-small">(11%)</span>
@@ -341,7 +349,11 @@
                 </div>
                 <div class="c-progress-group">
                   <div class="c-progress-group-header">
-                    <i class="icon-social-linkedin c-progress-group-icon"></i>
+                    <CIcon
+                      name="socialLinkedin" 
+                      height="17"
+                      class="c-progress-group-icon"
+                    />
                     <span class="c-title">LinkedIn</span>
                     <span class="c-ml-auto c-font-weight-bold">
                       27,319 <span class="c-text-muted small">&nbsp;(8%)</span>
@@ -357,7 +369,7 @@
                 </div>
                 <div class="c-divider c-text-center">
                   <CButton variant="link" size="sm" class="c-text-muted">
-                    <i class="icon-options"></i>
+                    <i class="cui-options"></i>
                   </CButton>
                 </div>
               </ul>
@@ -396,7 +408,7 @@
             <td
               slot="country"
               slot-scope="{item}"
-              class="text-center"
+              class="c-text-center"
             >
               <i
                 class="c-h4 c-mb-0"
@@ -509,11 +521,11 @@ export default {
         }
       ],
       tableFields: [
-        { key: 'avatar', label: '<i class="icon-people"></i>',},
+        { key: 'avatar', _classes: 'c-text-center' },
         { key: 'user' },
-        { key: 'country' },
+        { key: 'country', _classes: 'c-text-center' },
         { key: 'usage' },
-        { key: 'payment', label: 'Payment method' },
+        { key: 'payment', label: 'Payment method', _classes: 'c-text-center' },
         { key: 'activity' },
       ]
     }

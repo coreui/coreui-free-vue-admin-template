@@ -1,5 +1,5 @@
 <template>
-  <div class="animated fadeIn">
+  <div class="c-animated c-fadeIn">
     <CRow>
       <CCol sm="6">
         <CCard>
@@ -175,11 +175,11 @@
                 disabled
               />
               <template v-for="(name, key) in checkboxNames">
-                <div class="form-row form-group" :key="name">
-                  <CCol sm="3">
+                <div class="c-form-group c-form-row" :key="name">
+                  <CCol tag="label" sm="3" class="c-col-form-label">
                     {{name}}
                   </CCol>
-                  <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
+                  <CCol sm="9" :class="key % 2 === 1 ? 'c-form-inline' : ''">
                     <CFormCheckbox
                       v-for="option in options"
                       :key="option"
@@ -194,11 +194,11 @@
                 </div>
               </template>
               <template v-for="(name, key) in radioNames">
-                <div class="form-row form-group" :key="name">
+                <div class="c-form-row c-form-group" :key="name">
                   <CCol sm="3">
                     {{name}}
                   </CCol>
-                  <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
+                  <CCol sm="9" :class="key % 2 === 1 ? 'c-form-inline' : ''">
                     <CFormRadio
                       v-for="(option, optKey) in options"
                       :key="option"
@@ -236,8 +236,8 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -249,20 +249,26 @@
             <!-- Bootstrap Vue has some problems with Inline forms that's why we use some standard bootstrap classes -->
             <CForm inline>
               <CFormInput
-                class="mr-2"
-                label="<small>Name:&nbsp;</small>"
+                class="c-mr-2"
                 placeholder="Jane Doe"
-              />
+              >
+                <template #label>
+                  <small>Name:&nbsp;</small>
+                </template>
+              </CFormInput>
               <CFormInput
-                label="<small>Email:&nbsp;</small>"
                 placeholder="jane.doe@example.com"
                 autocomplete="email"
-              />
+              >
+                <template #label>
+                  <small>Email:&nbsp;</small>
+                </template>
+              </CFormInput>
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -289,12 +295,12 @@
                 horizontal
                 placeholder="Enter Password..."
               />
-              <CCardFooter>
-                <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-                <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
-              </CCardFooter>
             </CForm>
           </CCardBody>
+          <CCardFooter>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+          </CCardFooter>
         </CCard>
         <CCard>
           <CCardHeader>
@@ -322,8 +328,8 @@
               />
             </CCardBody>
             <CCardFooter>
-              <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-              <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+              <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+              <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
             </CCardFooter>
           </CForm>
         </CCard>
@@ -332,60 +338,60 @@
             Input <strong>Grid</strong>
           </CCardHeader>
           <CCardBody>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="3">
-                <CFormInput class="mb-0" placeholder=".col-sm-3"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-3"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="4">
-                <CFormInput class="mb-0" placeholder=".col-sm-4"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-4"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="5">
-                <CFormInput class="mb-0" placeholder=".col-sm-5"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-5"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="6">
-                <CFormInput class="mb-0" placeholder=".col-sm-6"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-6"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="7">
-                <CFormInput class="mb-0" placeholder=".col-sm-7"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-7"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="8">
-                <CFormInput class="mb-0" placeholder=".col-sm-8"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-8"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="9">
-                <CFormInput class="mb-0" placeholder=".col-sm-9"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-9"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="10">
-                <CFormInput class="mb-0" placeholder=".col-sm-10"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-10"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="11">
-                <CFormInput class="mb-0" placeholder=".col-sm-11"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-11"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="12">
-                <CFormInput class="mb-0" placeholder=".col-sm-12"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-12"/>
               </CCol>
             </CRow>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-user"></i> Login</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-user"></i> Login</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -412,8 +418,8 @@
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -475,23 +481,23 @@
           <CCardBody>
             <CFormInput
               placeholder="Username"
-              prependHtml="<i class='fa fa-user'></i>"
+              prependHtml="<i class='cui-user'></i>"
             />
             <CFormInput
               type="email"
               placeholder="Email"
               autocomplete="email"
-              appendHtml="<i class='fa fa-envelope-o'></i>"
+              appendHtml="<i class='cui-envelope-open'></i>"
             />
             <CFormInput
-              prependHtml="<i class='fa fa-euro'></i>"
+              prependHtml="<i class='cui-euro'></i>"
               placeholder="ex. $1.000.000"
               appendHtml=".00"
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -503,7 +509,9 @@
           <CCardBody>
             <CFormInput placeholder="Username">
               <template #prepend>
-                <CButton variant="primary"><i class="fa fa-search"></i> Search</CButton>
+                <CButton variant="primary">
+                  <i class="cui-magnifying-glass"></i> Search
+                </CButton>
               </template>
             </CFormInput>
             <CFormInput
@@ -529,8 +537,8 @@
             </CFormInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -602,8 +610,8 @@
             </CFormInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -616,15 +624,15 @@
           </CCardHeader>
           <CCardBody>
             <CRow
-              class="form-group"
+              class="c-form-group"
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
               <CCol :col="12 - number">
-                <CFormInput class="mb-0" :placeholder="`.col-md-${12 - number}`"/>
+                <CFormInput class="c-mb-0" :placeholder="`.col-md-${12 - number}`"/>
               </CCol>
               <CCol :col="number">
-                <CFormInput class="mb-0" :placeholder="`.col-md-${number}`"/>
+                <CFormInput class="c-mb-0" :placeholder="`.col-md-${number}`"/>
               </CCol>
             </CRow>
           </CCardBody>
@@ -644,15 +652,15 @@
           </CCardHeader>
           <CCardBody>
             <CRow
-              class="form-group"
+              class="c-form-group"
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
               <CCol :col="number">
-                <CFormInput class="mb-0" :placeholder="`.col-${number}`"/>
+                <CFormInput class="c-mb-0" :placeholder="`.col-${number}`"/>
               </CCol>
               <CCol :col="12 - number">
-                <CFormInput class="mb-0" :placeholder="`.col-${12 - number}`"/>
+                <CFormInput class="c-mb-0" :placeholder="`.col-${12 - number}`"/>
               </CCol>
             </CRow>
           </CCardBody>
@@ -676,13 +684,13 @@
             <CForm>
               <CFormInput
                 prependHtml="Username"
-                appendHtml="<i class='fa fa-user'></i>"
+                appendHtml="<i class='cui-user'></i>"
               />
               <CFormInput
                 prependHtml="Email"
                 type="email"
                 autocomplete="email"
-                appendHtml="<i class='fa fa-envelope'></i>"
+                appendHtml="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
                 prependHtml="Password"
@@ -690,8 +698,10 @@
                 autocomplete="current-password"
                 appendHtml="<i class='fa fa-asterisk'></i>"
               />
-              <div class="form-group form-actions">
-                <CButton type="submit" size="sm" variant="primary">Submit</CButton>
+              <div class="c-form-group c-form-actions">
+                <CButton type="submit" size="sm" variant="primary">
+                  Submit
+                </CButton>
               </div>
             </CForm>
           </CCardBody>
@@ -706,13 +716,13 @@
             <CForm>
               <CFormInput
                 placeholder="Username"
-                appendHtml="<i class='fa fa-user'></i>"
+                appendHtml="<i class='cui-user'></i>"
               />
               <CFormInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                appendHtml="<i class='fa fa-envelope'></i>"
+                appendHtml="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
                 placeholder="Password"
@@ -720,8 +730,10 @@
                 autocomplete="current-password"
                 appendHtml="<i class='fa fa-asterisk'></i>"
               />
-              <div class="form-group form-actions">
-                <CButton type="submit" class="btn btn-sm btn-secondary">Submit</CButton>
+              <div class="c-form-group c-form-actions">
+                <CButton type="submit" class="c-btn c-btn-sm c-btn-secondary">
+                  Submit
+                </CButton>
               </div>
             </CForm>
           </CCardBody>
@@ -736,13 +748,13 @@
             <CForm>
               <CFormInput
                 placeholder="Username"
-                prependHtml="<i class='fa fa-user'></i>"
+                prependHtml="<i class='cui-user'></i>"
               />
               <CFormInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                prependHtml="<i class='fa fa-envelope'></i>"
+                prependHtml="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
                 placeholder="Password"
@@ -750,8 +762,10 @@
                 autocomplete="current-password"
                 prependHtml="<i class='fa fa-asterisk'></i>"
               />
-              <div class="form-group form-actions">
-                <CButton type="submit" size="sm" variant="success">Submit</CButton>
+              <div class="c-form-group c-form-actions">
+                <CButton type="submit" size="sm" variant="success">
+                  Submit
+                </CButton>
               </div>
             </CForm>
           </CCardBody>
@@ -763,19 +777,19 @@
         <transition name="fade">
           <CCard v-if="show">
             <CCardHeader>
-              <i class="fa fa-edit"></i> Form Elements
-              <div class="card-header-actions">
-                <CLink href="#" class="card-header-action btn-setting">
-                  <i class="icon-settings"></i>
+              <i class="cui-pencil"></i> Form Elements
+              <div class="c-card-header-actions">
+                <CLink href="#" class="c-card-header-action c-btn-setting">
+                  <i class="cui-settings"></i>
                 </CLink>
                 <CLink
-                  class="card-header-action btn-minimize"
+                  class="c-card-header-action c-btn-minimize"
                   @click="formCollapsed=!formCollapsed"
                 >
-                  <i :class="`icon-arrow-${formCollapsed ? 'down' : 'up'}`"></i>
+                  <i :class="`cui-chevron-${formCollapsed ? 'bottom' : 'top'}`"></i>
                 </CLink>
-                <CLink href="#" class="card-header-action btn-close" v-on:click="show = !show">
-                  <i class="icon-close"></i>
+                <CLink href="#" class="c-card-header-action c-btn-close" v-on:click="show = !show">
+                  <i class="cui-circle-x"></i>
                 </CLink>
               </div>
             </CCardHeader>
@@ -813,7 +827,7 @@
                     <CButton variant="danger">Options</CButton>
                   </template>
                 </CFormInput>
-                <div class="form-actions">
+                <div class="c-form-actions">
                   <CButton type="submit" variant="primary">Save changes</CButton>
                   <CButton variant="secondary">Cancel</CButton>
                 </div>

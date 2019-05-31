@@ -594,27 +594,27 @@
         <CRow class="c-align-items-center">
           <CCol sm xs="12" class="c-text-center c-mt-3">
             <CButton variant="primary">
-              <i class="fa fa-lightbulb-o"></i>&nbsp;Standard Button
+              <i class="cui-lightbulb"></i>&nbsp;Standard Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="c-text-center c-mt-3">
             <CButton variant="secondary" outline>
-              <i class="fa fa-lightbulb-o"></i>&nbsp;Outline Button
+              <i class="cui-lightbulb"></i>&nbsp;Outline Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="c-text-center c-mt-3">
             <CButton variant="success">
-              <i class="fa fa-lightbulb-o"></i>&nbsp;Ghost Button
+              <i class="cui-lightbulb"></i>&nbsp;Ghost Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="c-text-center c-mt-3">
             <CButton variant="warning" square>
-              <i class="fa fa-lightbulb-o"></i>&nbsp;Square Button
+              <i class="cui-lightbulb"></i>&nbsp;Square Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="c-text-center c-mt-3">
             <CButton variant="danger" pill>
-              <i class="fa fa-lightbulb-o"></i>&nbsp;Pill Button
+              <i class="cui-lightbulb"></i>&nbsp;Pill Button
             </CButton>
           </CCol>
         </CRow>

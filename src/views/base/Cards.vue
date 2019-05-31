@@ -9,7 +9,7 @@
       </CCol>
       <CCol sm="6" md="4">
         <CCard
-          headerHtml="<i class='fa fa-check'></i> Card with icon"
+          headerHtml="<i class='cui-check'></i> Card with icon"
           :bodyHtml="loremIpsum"
         />
       </CCol>
@@ -221,13 +221,13 @@
               Card with header actions
               <div class="c-card-header-actions">
                 <CLink href="#" class="c-card-header-action btn-setting" >
-                  <i class="icon-settings"></i>
+                  <i class="cui-settings"></i>
                 </CLink>
                 <CLink class="c-card-header-action btn-minimize" @click="isCollapsed = !isCollapsed">
-                  <i :class="`icon-arrow-${ !isCollapsed ? 'up' : 'down'}`"></i>
+                  <i :class="`cui-chevron-${isCollapsed ? 'bottom' : 'top'}`"></i>
                 </CLink>
                 <CLink href="#" class="c-card-header-action c-btn-close" v-on:click="show = false">
-                  <i class="icon-close"></i>
+                  <i class="cui-circle-x"></i>
                 </CLink>
               </div>
             </CCardHeader>

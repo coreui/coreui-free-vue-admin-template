@@ -3,7 +3,7 @@ export default {
     {
       name: 'Dashboard',
       url: '/dashboard',
-      icon: 'icon-speedometer',
+      icon: 'cui-speedometer',
       badge: {
         variant: 'primary',
         text: 'NEW'
@@ -21,12 +21,12 @@ export default {
     {
       name: 'Colors',
       url: '/theme/colors',
-      icon: 'icon-drop'
+      icon: 'cui-drop'
     },
     {
       name: 'Typography',
       url: '/theme/typography',
-      icon: 'icon-pencil'
+      icon: 'cui-pencil'
     },
     {
       title: true,
@@ -40,131 +40,131 @@ export default {
     {
       name: 'Base',
       url: '/base',
-      icon: 'icon-puzzle',
+      icon: 'cui-puzzle',
       children: [
         {
           name: 'Breadcrumbs',
           url: '/base/breadcrumbs',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Cards',
           url: '/base/cards',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Carousels',
           url: '/base/carousels',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Collapses',
           url: '/base/collapses',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Forms',
           url: '/base/forms',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Jumbotrons',
           url: '/base/jumbotrons',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'List Groups',
           url: '/base/list-groups',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Navs',
           url: '/base/navs',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Navbars',
           url: '/base/navbars',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Paginations',
           url: '/base/paginations',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Popovers',
           url: '/base/popovers',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Progress Bars',
           url: '/base/progress-bars',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Switches',
           url: '/base/switches',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Tables',
           url: '/base/tables',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Tabs',
           url: '/base/tabs',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         },
         {
           name: 'Tooltips',
           url: '/base/tooltips',
-          icon: 'icon-puzzle'
+          icon: 'cui-puzzle'
         }
       ]
     },
     {
       name: 'Buttons',
       url: '/buttons',
-      icon: 'icon-cursor',
+      icon: 'cui-cursor',
       children: [
         {
           name: 'Buttons',
           url: '/buttons/standard-buttons',
-          icon: 'icon-cursor'
+          icon: 'cui-cursor'
         },
         {
           name: 'Button Dropdowns',
           url: '/buttons/dropdowns',
-          icon: 'icon-cursor'
+          icon: 'cui-cursor'
         },
         {
           name: 'Button Groups',
           url: '/buttons/button-groups',
-          icon: 'icon-cursor'
+          icon: 'cui-cursor'
         },
         {
           name: 'Brand Buttons',
           url: '/buttons/brand-buttons',
-          icon: 'icon-cursor'
+          icon: 'cui-cursor'
         }
       ]
     },
     {
       name: 'Charts',
       url: '/charts',
-      icon: 'icon-pie-chart'
+      icon: 'cui-pie-chart'
     },
     {
       name: 'Icons',
       url: '/icons',
-      icon: 'icon-star',
+      icon: 'cui-star',
       children: [
         {
           name: 'CoreUI Icons',
           url: '/icons/coreui-icons',
-          icon: 'icon-star',
+          icon: 'cui-star',
           badge: {
             variant: 'info',
             text: 'NEW'
@@ -173,12 +173,12 @@ export default {
         {
           name: 'Flags',
           url: '/icons/flags',
-          icon: 'icon-star'
+          icon: 'cui-star'
         },
         {
           name: 'Font Awesome',
           url: '/icons/font-awesome',
-          icon: 'icon-star',
+          icon: 'cui-star',
           badge: {
             variant: 'secondary',
             text: '4.7'
@@ -187,36 +187,36 @@ export default {
         {
           name: 'Simple Line Icons',
           url: '/icons/simple-line-icons',
-          icon: 'icon-star'
+          icon: 'cui-star'
         }
       ]
     },
     {
       name: 'Notifications',
       url: '/notifications',
-      icon: 'icon-bell',
+      icon: 'cui-bell',
       children: [
         {
           name: 'Alerts',
           url: '/notifications/alerts',
-          icon: 'icon-bell'
+          icon: 'cui-bell'
         },
         {
           name: 'Badges',
           url: '/notifications/badges',
-          icon: 'icon-bell'
+          icon: 'cui-bell'
         },
         {
           name: 'Modals',
           url: '/notifications/modals',
-          icon: 'icon-bell'
+          icon: 'cui-bell'
         }
       ]
     },
     {
       name: 'Widgets',
       url: '/widgets',
-      icon: 'icon-calculator',
+      icon: 'cui-calculator',
       badge: {
         variant: 'primary',
         text: 'NEW'
@@ -232,41 +232,41 @@ export default {
     {
       name: 'Pages',
       url: '/pages',
-      icon: 'icon-star',
+      icon: 'cui-star',
       children: [
         {
           name: 'Login',
           url: '/pages/login',
-          icon: 'icon-star'
+          icon: 'cui-star'
         },
         {
           name: 'Register',
           url: '/pages/register',
-          icon: 'icon-star'
+          icon: 'cui-star'
         },
         {
           name: 'Error 404',
           url: '/pages/404',
-          icon: 'icon-star'
+          icon: 'cui-star'
         },
         {
           name: 'Error 500',
           url: '/pages/500',
-          icon: 'icon-star'
+          icon: 'cui-star'
         }
       ]
     },
     {
       name: 'Download CoreUI',
       url: 'http://coreui.io/vue/',
-      icon: 'icon-cloud-download',
+      icon: 'cui-cloud-download',
       class: 'mt-auto',
       variant: 'success'
     },
     {
       name: 'Try CoreUI PRO',
       url: 'http://coreui.io/pro/vue/',
-      icon: 'icon-layers',
+      icon: 'cui-layers',
       variant: 'danger'
     }
   ]

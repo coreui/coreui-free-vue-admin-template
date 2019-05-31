@@ -152,14 +152,14 @@
                   <CFormInput
                     class="c-mb-0 c-w-25 c-mx-1"
                     size="sm"
-                    prepend="$"
-                    append=".00"
+                    prependHtml="$"
+                    appendHtml=".00"
                     value="100"
                   />
                   <CFormSelect
                     class="c-mb-0 c-w-25 c-mx-1"
                     size="sm"
-                    prepend="Size"
+                    prependHtml="Size"
                     value="Medium"
                     :options="['Large','Medium','Small']"
                     custom

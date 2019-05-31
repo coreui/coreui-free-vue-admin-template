@@ -31,7 +31,7 @@
         <CCardBody>
           <CNav>
             <CNavItem active>
-              <i class="icon-basket-loaded"></i>
+              <i class="cui-basket-loaded"></i>
             </CNavItem>
             <CNavItem>
               Link

@@ -20,11 +20,11 @@
             </CNavbarNav>
             <CNavbarNav class="ml-auto">
               <CDropdown right class="nav-item b-nav-dropdown" toggleClasses="nav-link">
-                <CDropdownItem><i class="fa fa-file" /> Projects
+                <CDropdownItem><i class="cui-file" /> Projects
                   <CBadge variant="primary">32</CBadge>
                 </CDropdownItem>
-                <CDropdownItem><i class="fa fa-shield" /> Lock Account</CDropdownItem>
-                <CDropdownItem><i class="fa fa-lock" /> Logout</CDropdownItem>
+                <CDropdownItem><i class="cui-shield" /> Lock Account</CDropdownItem>
+                <CDropdownItem><i class="cui-lock-locked" /> Logout</CDropdownItem>
               </CDropdown>
             </CNavbarNav>
           </CCollapse>

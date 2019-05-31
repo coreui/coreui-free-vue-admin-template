@@ -3,7 +3,7 @@
     <CTabs addTabClasses="c-p-0">
       <CTab active>
         <template slot="title">
-          <i class="icon-list"></i>
+          <i class="cui-list"></i>
         </template>
         <CListGroup class="c-list-group-accent">
           <CListGroupItem
@@ -18,10 +18,10 @@
               <strong>Lucas</strong>
             </div>
             <small class="c-text-muted c-mr-3">
-              <i class="icon-calendar"></i>&nbsp;&nbsp;1 - 3pm
+              <i class="cui-calendar"></i>&nbsp;&nbsp;1 - 3pm
             </small>
             <small class="c-text-muted">
-              <i class="icon-location-pin"></i>&nbsp;&nbsp;Palo Alto, CA
+              <i class="cui-location-pin"></i>&nbsp;&nbsp;Palo Alto, CA
             </small>
           </CListGroupItem>
           <CListGroupItem href="#" class="c-list-group-item-accent-info">
@@ -31,9 +31,11 @@
             <div>Skype with <strong>Megan</strong>
             </div>
             <small class="c-text-muted mr-3">
-              <i class="icon-calendar"></i>&nbsp;&nbsp;4 - 5pm
+              <i class="cui-calendar"></i>&nbsp;&nbsp;4 - 5pm
             </small>
-            <small class="c-text-muted"><i class="icon-social-skype"></i>&nbsp;&nbsp;On-line</small>
+            <small class="c-text-muted">
+              <CIcon name="socialSkype" height="11"/></i>&nbsp;&nbsp;On-line
+            </small>
           </CListGroupItem>
           <hr class="c-transparent c-mx-3 c-my-0">
           <CListGroupItem class="c-list-group-item-accent-secondary c-bg-light c-text-center c-font-weight-bold c-text-muted c-text-uppercase small">
@@ -42,8 +44,8 @@
           <CListGroupItem href="#" class="c-list-group-item-accent-danger c-list-group-item-divider">
             <div>New UI Project - <strong>deadline</strong>
             </div>
-            <small class="c-text-muted c-mr-3"><i class="icon-calendar"></i>&nbsp;&nbsp;10 - 11pm</small>
-            <small class="c-text-muted"><i class="icon-home"></i>&nbsp;&nbsp;creativeLabs HQ</small>
+            <small class="c-text-muted c-mr-3"><i class="cui-calendar"></i>&nbsp;&nbsp;10 - 11pm</small>
+            <small class="c-text-muted"><i class="cui-home"></i>&nbsp;&nbsp;creativeLabs HQ</small>
             <div class="c-avatars-stack c-mt-2">
               <div class="c-avatar c-avatar-xs">
                 <img class="c-img-avatar" src="img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
@@ -64,13 +66,13 @@
           </CListGroupItem>
           <CListGroupItem href="#" class="c-list-group-item-accent-success c-list-group-item-divider">
             <div><strong>#10 Startups.Garden</strong> Meetup</div>
-            <small class="c-text-muted c-mr-3"><i class="icon-calendar"></i>&nbsp; 1 - 3pm</small>
-            <small class="c-text-muted"><i class="icon-location-pin"></i>&nbsp; Palo Alto, CA</small>
+            <small class="c-text-muted c-mr-3"><i class="cui-calendar"></i>&nbsp; 1 - 3pm</small>
+            <small class="c-text-muted"><i class="cui-location-pin"></i>&nbsp; Palo Alto, CA</small>
           </CListGroupItem>
           <CListGroupItem href="#" class="c-list-group-item-accent-primary c-list-group-item-divider">
             <div><strong>Team meeting</strong></div>
-            <small class="c-text-muted c-mr-3"><i class="icon-calendar"></i>&nbsp; 4 - 6pm</small>
-            <small class="c-text-muted"><i class="icon-home"></i>&nbsp; creativeLabs HQ</small>
+            <small class="c-text-muted c-mr-3"><i class="cui-calendar"></i>&nbsp; 4 - 6pm</small>
+            <small class="c-text-muted"><i class="cui-home"></i>&nbsp; creativeLabs HQ</small>
             <div class="c-avatars-stack c-mt-2">
               <div class="c-avatar c-avatar-xs">
                 <img src="img/avatars/2.jpg" class="c-img-avatar" alt="admin@bootstrapmaster.com">
@@ -99,7 +101,7 @@
       </CTab>
       <CTab>
         <template slot="title">
-          <i class='icon-speech'></i>
+          <i class='cui-speech'></i>
         </template>
         <div class="c-p-3">
           <div class="c-message">
@@ -180,7 +182,7 @@
       </CTab>
       <CTab>
         <template slot="title">
-          <i class="icon-settings"></i>
+          <i class="cui-settings"></i>
         </template>
         <div class="c-p-3">
           <h6>Settings</h6>

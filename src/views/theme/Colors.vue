@@ -2,7 +2,7 @@
   <div class="c-animated c-fadeIn">
     <CCard >
       <CCardHeader>
-        <i class="icon-drop"></i> Theme colors
+        <i class="cui-drop"></i> Theme colors
       </CCardHeader>
       <CCardBody>
         <CRow>
@@ -21,7 +21,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="icon-drop"></i> Grays
+        <i class="cui-drop"></i> Grays
       </CCardHeader>
       <CCardBody>
         <CRow>
@@ -39,7 +39,7 @@
     </CCard>
     <CCard >
       <CCardHeader>
-        <i class="icon-drop"></i> Additional colors
+        <i class="cui-drop"></i> Additional colors
       </CCardHeader>
       <CCardBody>
         <CRow>

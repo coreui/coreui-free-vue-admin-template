@@ -2,7 +2,7 @@
   <div class="c-animated c-fadeIn">
     <CCard >
       <CCardHeader>
-        <i class="fa fa-picture-o"></i>CoreUI Icons
+        <i class="cui-pencil"></i>CoreUI Icons
         <CBadge variant="info">New</CBadge>
         <div class="c-card-header-actions">
           <a
@@ -16,7 +16,15 @@
         </div>
       </CCardHeader>
       <CCardBody>
-        <CRow class="c-text-center">
+        <CRow class="c-text-center c-mb-5">
+          <template v-for="(name, key) in $options.iconNames">
+            <CCol :key="key" col="6" sm="4" md="3" xl="2" >
+              <CIcon :name="name" width="24" class="c-mt-4"/>
+              <div>{{name}}</div>
+            </CCol>
+          </template>
+        </CRow>
+        <CRow class="c-text-center ">
           <CCol col="6" sm="4" md="3" xl="2">
             <i class="cui-account-logout c-icons c-font-2xl c-d-block c-mt-4"></i>
             <div>account-logout</div>
@@ -423,7 +431,14 @@
   </div>
 </template>
 <script>
+import icons from '@coreui/icons'
+const iconNames = Object.keys(icons)
+
 export default {
-  name: 'CoreUIIcons'
+  name: 'CoreUIIcons',
+  iconNames,
+  mounted () {
+    console.log(this.$options.iconNames)
+  }
 }
 </script>

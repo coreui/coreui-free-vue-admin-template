@@ -10,7 +10,7 @@
           </div>
           <CFormInput
             class="c-mb-0"
-            prepend="<i class='fa fa-search'></i>"
+            prependHtml="<i class='cui-magnifying-glass'></i>"
             placeholder="What are you looking for?"
           >
             <template #append>

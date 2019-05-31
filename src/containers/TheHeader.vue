@@ -13,14 +13,14 @@
     </CNavbarNav>
     <CNav class="c-header-nav c-ml-auto">
       <CNavItem class="c-d-md-down-none">
-        <i class="icon-bell"></i>
+        <i class="cui-bell"></i>
         <CBadge pill variant="danger">5</CBadge>
       </CNavItem>
       <CNavItem class="c-d-md-down-none">
-        <i class="icon-list"></i>
+        <i class="cui-list"></i>
       </CNavItem>
       <CNavItem class="d-md-down-none">
-        <i class="icon-location-pin"></i>
+        <i class="cui-location-pin"></i>
       </CNavItem>
       <DefaultHeaderDropdownAccnt/>
     </CNav>
