@@ -109,16 +109,13 @@
           </CCardBody>
         </CCard>
       </CCol>
-      <CCol xs="12" lg="6">
+      <!-- <CCol xs="12" lg="6">
         <CCard>
           <CCardHeader>
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs
-              addTabClasses="c-mt-1"
-              card
-            >
+            <CTabs addTabClasses="c-mt-1">
               <CTab active>
                 <template slot="title">
                   <i class="icon-calculator"></i> {{tabs[0]}}
@@ -152,18 +149,14 @@
             </CTabs>
           </CCardBody>
         </CCard>
-      </CCol>
+      </CCol> -->
       <CCol xs="12" lg="6">
         <CCard>
           <CCardHeader>
             Tabs vertical
           </CCardHeader>
           <CCardBody>
-            <CTabs
-              card
-              pills
-              vertical="4"
-            >
+            <CTabs pills vertical="4">
               <CTab active>
                 <template slot="title">
                   <i class="icon-calculator"></i> {{tabs[0]}}

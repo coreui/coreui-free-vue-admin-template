@@ -11,13 +11,17 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import CoreuiVue from '@coreui/vue/src'
+import { CIconPlugin } from '@coreui/icons/vue'
+
+// import CoreuiVue from '@coreui/vue'
+// import CoreuiVue from '@coreui/vue/dist/custom.common.js'
 
 Vue.config.performance = true
 
 // todo
 // cssVars()
 Vue.use(CoreuiVue)
-
+Vue.use(CIconPlugin)
 
 /* eslint-disable no-new */
 var vm = new Vue({

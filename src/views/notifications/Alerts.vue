@@ -119,7 +119,7 @@
 
               <CAlert
                 :show.sync="dismissibleAlerts[3]"
-                class="c-alert-dismissible"
+                dismissible="customButton"
                 v-slot="{dismiss}"
               >
                 Dismissible Alert with custom button!

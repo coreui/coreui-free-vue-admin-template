@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --modern",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e"
@@ -17,7 +17,7 @@
     "@coreui/coreui": "next",
     "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.3.0",
     "@coreui/coreui-vue-chartjs": "file:../coreui-vue-chartjs",
-    "@coreui/icons": "0.3.0",
+    "@coreui/icons": "../coreui-icons",
     "@coreui/vue": "file:../coreui-vue",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.1.3",
