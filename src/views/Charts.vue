@@ -1,32 +1,32 @@
 <template>
   <div class="c-animated c-fadeIn">
     <CCardGroup columns class="c-card-columns c-cols-2">
-      <CCard headerHtml="Line Chart" bodyWrapper>
+      <CCard header-html="Line Chart" body-wrapper>
         <CChartLineExample/>
       </CCard>
-      <CCard headerHtml="Bar Chart" bodyWrapper>
+      <CCard header-html="Bar Chart" body-wrapper>
         <CChartBarExample/>
       </CCard>
-      <CCard headerHtml="Doughnut Chart" bodyWrapper>
+      <CCard header-html="Doughnut Chart" body-wrapper>
         <CChartDoughnutExample/>
       </CCard>
-      <CCard headerHtml="Radar Chart" bodyWrapper>
+      <CCard header-html="Radar Chart" body-wrapper>
         <CChartRadarExample/>
       </CCard>
-      <CCard headerHtml="Pie Chart" bodyWrapper>
+      <CCard header-html="Pie Chart" body-wrapper>
         <CChartPieExample/>
       </CCard>
-      <CCard headerHtml="Polar Area Chart" bodyWrapper>
+      <CCard header-html="Polar Area Chart" body-wrapper>
         <CChartPolarAreaExample/>
       </CCard>
-      <CCard headerHtml="Simple line chart" bodyWrapper>
-        <CChartLineSimple borderColor="success" labels="months"/>
+      <CCard header-html="Simple line chart" body-wrapper>
+        <CChartLineSimple border-color="success" labels="months"/>
       </CCard>
-      <CCard headerHtml="Simple pointed chart" bodyWrapper>
-        <CChartLineSimple pointed borderColor="warning"/>
+      <CCard header-html="Simple pointed chart" body-wrapper>
+        <CChartLineSimple pointed border-color="warning"/>
       </CCard>
-      <CCard headerHtml="Simple bar chart" bodyWrapper>
-        <CChartBarSimple backgroundColor="danger"/>
+      <CCard header-html="Simple bar chart" body-wrapper>
+        <CChartBarSimple background-color="danger"/>
       </CCard>
     </CCardGroup>
   </div>

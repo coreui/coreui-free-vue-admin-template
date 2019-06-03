@@ -55,8 +55,8 @@
             <CCardBody>
               <CJumbotron
                 variant="info"
-                textVariant="white"
-                borderVariant="dark"
+                text-variant="white"
+                border-variant="dark"
                 header="Bootstrap 4"
               >
                 <p slot="lead" class="c-lead">

@@ -1,9 +1,9 @@
 <template>
   <CDropdown
     nav
-    noCaret
-    noPopper
-    addMenuClasses="c-dropdown-menu-right"
+    no-caret
+    no-popper
+    add-menu-classes="c-dropdown-menu-right"
   >
     <template #button-content>
       <img
@@ -17,7 +17,7 @@
     </CDropdownHeader>
     <CDropdownItem>
       <i class="cui-bell"/> Updates
-      <CBadge variant="info" additionalClasses="hehe">{{ itemsCount }}</CBadge>
+      <CBadge variant="info" additional-classes="hehe">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <i class="cui-envelope-open" /> Messages
@@ -32,7 +32,7 @@
       <CBadge variant="warning">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
-      tag="div"
+     tag="div"
       class="c-text-center"
     >
       <strong>Settings</strong>

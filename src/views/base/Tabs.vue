@@ -7,22 +7,22 @@
             Tabs
           </CCardHeader>
           <CCardBody>
-            <CTabs addTabClasses="c-mt-1">
-              <CTab titleHtml="Home" active>
+            <CTabs add-tab-classes="c-mt-1">
+              <CTab title-html="Home" active>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab titleHtml="Profile" >
+              <CTab title-html="Profile" >
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab titleHtml="Disabled" disabled>
+              <CTab title-html="Disabled" disabled>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -41,23 +41,23 @@
           <CCardBody>
             <CTabs
               pills
-              addNavClasses="c-mb-3"
+              add-nav-classes="c-mb-3"
             >
-              <CTab titleHtml="Home" active>
+              <CTab title-html="Home" active>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab titleHtml="Profile" >
+              <CTab title-html="Profile" >
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab titleHtml="Disabled" disabled>
+              <CTab title-html="Disabled" disabled>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -74,7 +74,7 @@
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs addTabClasses="c-mt-1">
+            <CTabs add-tab-classes="c-mt-1">
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i>
@@ -115,7 +115,7 @@
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs addTabClasses="c-mt-1">
+            <CTabs add-tab-classes="c-mt-1">
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i> {{tabs[0]}}

@@ -36,7 +36,7 @@
           <CCard
             class="c-text-white c-text-center c-bg-primary c-py-5 c-d-md-down-none"
             style="width:44%"
-            bodyWrapper
+            body-wrapper
           >
             <h2>Sign up</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

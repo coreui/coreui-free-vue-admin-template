@@ -13,13 +13,13 @@
           <CCardBody>
             <!-- <CSwitch
               :checked.sync="test11"
-              trueValue="yes"
-              falseValue="no"
+              true-value="yes"
+              false-value="no"
               id="alt"
               name="lg"
               required
             /> -->
-            <!-- <CSwitch class="c-mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" checked.sync="radio" trueValue="primary"/> -->
+            <!-- <CSwitch class="c-mx-1" variant="primary" shape="3d" outline="alt" v-bind="labelIcon" type="radio" name="radio" checked.sync="radio" true-value="primary"/> -->
             <CSwitch
               class="c-mx-1"
               :key="key"
@@ -50,8 +50,8 @@
               variant="primary"
               name="switch1"
               :checked.sync="checker"
-              trueValue="yes"
-              falseValue="no"
+              true-value="yes"
+              false-value="no"
             />
             <CSwitch
               class="c-mx-1"
@@ -70,15 +70,15 @@
             Switch pills
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="c-mx-1" variant="primary" checked  shape="pill"/>
-            <CSwitch class="c-mx-1" variant="secondary" checked  shape="pill" />
-            <CSwitch class="c-mx-1" variant="success" checked  shape="pill" />
-            <CSwitch class="c-mx-1" variant="warning" checked  shape="pill" />
-            <CSwitch class="c-mx-1" variant="info" checked  shape="pill" />
-            <CSwitch class="c-mx-1" variant="danger" checked  shape="pill" />
-            <CSwitch class="c-mx-1" variant="light" checked  shape="pill" />
-            <CSwitch class="c-mx-1" variant="dark" checked  shape="pill" />
-            <CSwitch class="c-mx-1" variant="primary" disabled  shape="pill" />
+            <CSwitch class="c-mx-1" variant="primary" checked shape="pill"/>
+            <CSwitch class="c-mx-1" variant="secondary" checked shape="pill" />
+            <CSwitch class="c-mx-1" variant="success" checked shape="pill" />
+            <CSwitch class="c-mx-1" variant="warning" checked shape="pill" />
+            <CSwitch class="c-mx-1" variant="info" checked shape="pill" />
+            <CSwitch class="c-mx-1" variant="danger" checked shape="pill" />
+            <CSwitch class="c-mx-1" variant="light" checked shape="pill" />
+            <CSwitch class="c-mx-1" variant="dark" checked shape="pill" />
+            <CSwitch class="c-mx-1" variant="primary" disabled shape="pill" />
           </CCardBody>
         </CCard>
       </CCol>
@@ -88,15 +88,15 @@
             3d Switch
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="c-mx-1" variant="primary" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="secondary" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="success" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="warning" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="info" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="danger" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="light" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="dark" checked   shape="3d" />
-            <CSwitch class="c-mx-1" variant="primary" disabled   shape="3d" />
+            <CSwitch class="c-mx-1" variant="primary" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="secondary" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="success" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="warning" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="info" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="danger" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="light" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="dark" checked  shape="3d" />
+            <CSwitch class="c-mx-1" variant="primary" disabled  shape="3d" />
           </CCardBody>
         </CCard>
       </CCol>
@@ -124,15 +124,15 @@
             3d Switch <small><code>outline="alt"</code></small>
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="c-mx-1" variant="primary" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="secondary" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="success" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="warning" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="info" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="danger" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="light" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="dark" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="primary" disabled   shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="primary" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="secondary" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="success" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="warning" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="info" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="danger" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="light" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="dark" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="primary" disabled  shape="3d" outline="alt" />
           </CCardBody>
         </CCard>
       </CCol>
@@ -160,15 +160,15 @@
             3d Switch <small><code>outline="alt"</code></small>
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="c-mx-1" variant="primary" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="secondary" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="success" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="warning" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="info" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="danger" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="light" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="dark" checked   shape="3d" outline="alt" v-bind="labelIcon" />
-            <CSwitch class="c-mx-1" variant="primary" disabled   shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="primary" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="secondary" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="success" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="warning" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="info" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="danger" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="light" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="dark" checked  shape="3d" outline="alt" v-bind="labelIcon" />
+            <CSwitch class="c-mx-1" variant="primary" disabled  shape="3d" outline="alt" v-bind="labelIcon" />
           </CCardBody>
         </CCard>
       </CCol>
@@ -178,15 +178,15 @@
             3d Switch <small><code>outline="alt"</code></small>
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="c-mx-1" variant="primary" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="secondary" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="success" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="warning" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="info" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="danger" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="light" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="dark" checked   shape="3d" outline="alt" />
-            <CSwitch class="c-mx-1" variant="primary" disabled   shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="primary" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="secondary" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="success" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="warning" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="info" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="danger" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="light" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="dark" checked  shape="3d" outline="alt" />
+            <CSwitch class="c-mx-1" variant="primary" disabled  shape="3d" outline="alt" />
           </CCardBody>
         </CCard>
       </CCol>
@@ -214,15 +214,15 @@
             Switch <small><code>outline  shape="pill"</code></small>
           </CCardHeader>
           <CCardBody>
-            <CSwitch class="c-mx-1" variant="primary" checked outline  shape="pill"/>
-            <CSwitch class="c-mx-1" variant="secondary" checked outline  shape="pill" />
-            <CSwitch class="c-mx-1" variant="success" checked outline  shape="pill" />
-            <CSwitch class="c-mx-1" variant="warning" checked outline  shape="pill" />
-            <CSwitch class="c-mx-1" variant="info" checked outline  shape="pill" />
-            <CSwitch class="c-mx-1" variant="danger" checked outline  shape="pill" />
-            <CSwitch class="c-mx-1" variant="light" checked outline  shape="pill" />
-            <CSwitch class="c-mx-1" variant="dark" checked outline  shape="pill" />
-            <CSwitch class="c-mx-1" variant="primary" outline  shape="pill" disabled />
+            <CSwitch class="c-mx-1" variant="primary" checked outline shape="pill"/>
+            <CSwitch class="c-mx-1" variant="secondary" checked outline shape="pill" />
+            <CSwitch class="c-mx-1" variant="success" checked outline shape="pill" />
+            <CSwitch class="c-mx-1" variant="warning" checked outline shape="pill" />
+            <CSwitch class="c-mx-1" variant="info" checked outline shape="pill" />
+            <CSwitch class="c-mx-1" variant="danger" checked outline shape="pill" />
+            <CSwitch class="c-mx-1" variant="light" checked outline shape="pill" />
+            <CSwitch class="c-mx-1" variant="dark" checked outline shape="pill" />
+            <CSwitch class="c-mx-1" variant="primary" outline shape="pill" disabled />
           </CCardBody>
         </CCard>
       </CCol>
@@ -492,7 +492,7 @@
               class="c-table-align-middle c-mb-0"
               :items="items"
               :fields="fields"
-              noSorting
+              no-sorting
             >
               <template #example="{item}">
                 <td>

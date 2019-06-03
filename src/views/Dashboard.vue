@@ -85,7 +85,7 @@
     <WidgetsSocial/>
     <CRow>
       <CCol md="12">
-        <CCard headerHtml="Traffic &amp; Sales" bodyWrapper>
+        <CCard header-html="Traffic &amp; Sales" body-wrapper>
           <CRow>
             <CCol sm="12" lg="6">
               <CRow>
@@ -350,7 +350,7 @@
                 <div class="c-progress-group">
                   <div class="c-progress-group-header">
                     <CIcon
-                      name="socialLinkedin" 
+                      name="socialLinkedin"
                       height="17"
                       class="c-progress-group-icon"
                     />
@@ -382,7 +382,7 @@
             :items="tableItems"
             :fields="tableFields"
             head-variant="light"
-            noSorting
+            no-sorting
           >
             <!-- <div slot="activity-header">
               A tu nic

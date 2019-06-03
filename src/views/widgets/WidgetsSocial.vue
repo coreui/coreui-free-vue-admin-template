@@ -4,10 +4,10 @@
       <CCol md="3" sm="6">
         <CWidgetSocial
           variant="facebook"
-          rightHeader="89k"
-          rightFooter="friends"
-          leftHeader="459"
-          leftFooter="feeds"
+          right-header="89k"
+          right-footer="friends"
+          left-header="459"
+          left-footer="feeds"
         >
           <CIcon
             name="socialFacebook"
@@ -16,8 +16,8 @@
           />
           <CChartLineSimple
             style="height:100px"
-            backgroundColor="rgba(255,255,255,.1)"
-            :dataPoints="[65, 59, 84, 84, 51, 55, 40]"
+            background-color="rgba(255,255,255,.1)"
+            :data-points="[65, 59, 84, 84, 51, 55, 40]"
             label="Friends"
             labels="months"
           />
@@ -26,10 +26,10 @@
        <CCol md="3" sm="6">
         <CWidgetSocial
           variant="twitter"
-          rightHeader="973k"
-          rightFooter="followers"
-          leftHeader="1.792"
-          leftFooter="tweets"
+          right-header="973k"
+          right-footer="followers"
+          left-header="1.792"
+          left-footer="tweets"
         >
           <CIcon
             name="socialTwitter"
@@ -38,8 +38,8 @@
           />
           <CChartLineSimple
             style="height:100px"
-            backgroundColor="rgba(255,255,255,.1)"
-            :dataPoints="[1, 13, 9, 17, 34, 41, 38]"
+            background-color="rgba(255,255,255,.1)"
+            :data-points="[1, 13, 9, 17, 34, 41, 38]"
             label="Followers"
             labels="months"
           />
@@ -48,10 +48,10 @@
        <CCol md="3" sm="6">
         <CWidgetSocial
           variant="linkedin"
-          rightHeader="500+"
-          rightFooter="contracts"
-          leftHeader="292"
-          leftFooter="feeds"
+          right-header="500+"
+          right-footer="contracts"
+          left-header="292"
+          left-footer="feeds"
         >
           <CIcon
             name="socialLinkedin"
@@ -60,8 +60,8 @@
           />
           <CChartLineSimple
             style="height:100px"
-            backgroundColor="rgba(255,255,255,.1)"
-            :dataPoints="[78, 81, 80, 45, 34, 12, 40]"
+            background-color="rgba(255,255,255,.1)"
+            :data-points="[78, 81, 80, 45, 34, 12, 40]"
             label="Contracts"
             labels="months"
           />
@@ -69,10 +69,10 @@
        </CCol>
        <CCol md="3" sm="6">
         <CWidgetSocial
-          rightHeader="12"
-          rightFooter="events"
-          leftHeader="4"
-          leftFooter="meetings"
+          right-header="12"
+          right-footer="events"
+          left-header="4"
+          left-footer="meetings"
           variant="warning"
         >
           <CIcon
@@ -82,8 +82,8 @@
           />
           <CChartLineSimple
             style="height:100px"
-            backgroundColor="rgba(255,255,255,.1)"
-            :dataPoints="[35, 23, 56, 22, 97, 23, 64]"
+            background-color="rgba(255,255,255,.1)"
+            :data-points="[35, 23, 56, 22, 97, 23, 64]"
             label="Followers"
             labels="months"
           />
@@ -94,10 +94,10 @@
       <CCol md="3" sm="6">
         <CWidgetSocial
           variant="facebook"
-          rightHeader="89k"
-          rightFooter="friends"
-          leftHeader="459"
-          leftFooter="feeds"
+          right-header="89k"
+          right-footer="friends"
+          left-header="459"
+          left-footer="feeds"
         >
           <CIcon
             name="socialFacebook"
@@ -109,10 +109,10 @@
        <CCol md="3" sm="6">
         <CWidgetSocial
           variant="twitter"
-          rightHeader="973k"
-          rightFooter="followers"
-          leftHeader="1.792"
-          leftFooter="tweets"
+          right-header="973k"
+          right-footer="followers"
+          left-header="1.792"
+          left-footer="tweets"
         >
           <CIcon
             name="socialTwitter"
@@ -124,10 +124,10 @@
        <CCol md="3" sm="6">
         <CWidgetSocial
           variant="linkedin"
-          rightHeader="500+"
-          rightFooter="contracts"
-          leftHeader="292"
-          leftFooter="feeds"
+          right-header="500+"
+          right-footer="contracts"
+          left-header="292"
+          left-footer="feeds"
         >
           <CIcon
             name="socialLinkedin"
@@ -138,10 +138,10 @@
        </CCol>
       <CCol md="3" sm="6">
         <CWidgetSocial
-          rightHeader="12"
-          rightFooter="events"
-          leftHeader="4"
-          leftFooter="meetings"
+          right-header="12"
+          right-footer="events"
+          left-header="4"
+          left-footer="meetings"
           variant="warning"
         >
           <CIcon

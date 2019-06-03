@@ -19,7 +19,7 @@
               <DefaultHeaderDropdownAccnt/>
             </CNavbarNav>
             <CNavbarNav class="ml-auto">
-              <CDropdown right class="nav-item b-nav-dropdown" toggleClasses="nav-link">
+              <CDropdown right class="nav-item b-nav-dropdown" toggle-classes="nav-link">
                 <CDropdownItem><i class="cui-file" /> Projects
                   <CBadge variant="primary">32</CBadge>
                 </CDropdownItem>
@@ -67,7 +67,7 @@
                 </CForm>
 
                 <CDropdown
-                  buttonHtml="Lang"
+                  button-html="Lang"
                   nav
                   placement="bottom-end"
                 >
@@ -136,7 +136,7 @@
                 <CNavItem href="#">Link</CNavItem>
                 <!-- Navbar dropdowns -->
                 <CDropdown
-                  buttonHtml="Lang"
+                  button-html="Lang"
                   right
                   nav
                 >
@@ -146,7 +146,7 @@
                   <CDropdownItem>FA</CDropdownItem>
                 </CDropdown>
                 <CDropdown
-                  buttonHtml="User"
+                  button-html="User"
                   right
                   nav
                 >

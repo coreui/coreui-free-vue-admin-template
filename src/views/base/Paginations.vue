@@ -14,7 +14,7 @@
         <CCardBody>
           <h6>Default</h6>
           <CPagination
-            :activePage.sync="currentPage"
+            :active-page.sync="currentPage"
             :pages="10"
           />
           <br>
@@ -22,7 +22,7 @@
           <h6>Small</h6>
           <CPagination
             size="sm"
-            :activePage.sync="currentPage"
+            :active-page.sync="currentPage"
             :pages="10"/>
           <br>
 
@@ -30,7 +30,7 @@
             <h6>Large</h6>
             <CPagination
               size="lg"
-              :activePage.sync="currentPage"
+              :active-page.sync="currentPage"
               :pages="10"
             />
             <br>
@@ -48,7 +48,7 @@
         <CCardBody>
           <h6>Left alignment (default)</h6>
           <CPagination
-            :activePage.sync="currentPage"
+            :active-page.sync="currentPage"
             :pages="10"
           />
           <br>
@@ -57,14 +57,14 @@
           <CPagination
             align="center"
             :pages="10"
-            :activePage.sync="currentPage"
+            :active-page.sync="currentPage"
           />
           <br>
 
           <h6>Right (end) alignment</h6>
           <CPagination
             align="end"
-            :activePage.sync="currentPage"
+            :active-page.sync="currentPage"
             :pages="10"
           />
           <br>

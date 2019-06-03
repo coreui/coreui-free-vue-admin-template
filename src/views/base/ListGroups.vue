@@ -197,7 +197,7 @@
                     ad sit ipsum anim Lorem.
                   </p>
                 </CCard>
-                <CCard  header="<b>Card with flush list group</b>">
+                <CCard header="<b>Card with flush list group</b>">
                   <CListGroup flush>
                     <CListGroupItem href="#">Cras justo odio</CListGroupItem>
                     <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>

@@ -315,7 +315,7 @@
                 label="Email"
                 placeholder="Enter Email..."
                 required
-                wasValidated
+                was-validated
               />
               <CFormInput
                 type="password"
@@ -324,7 +324,7 @@
                 label="Password"
                 placeholder="Enter Password..."
                 required
-                wasValidated
+                was-validated
               />
             </CCardBody>
             <CCardFooter>
@@ -459,13 +459,13 @@
                 valid-feedback="Input is valid."
                 invalid-feedback="Please provide at least 4 characters."
                 value="Valid value"
-                :isValid="validator"
+                :is-valid="validator"
               />
               <CFormInput
                 label="Input is invalid"
                 valid-feedback="Thank you :)"
                 invalid-feedback="Please provide at least 4 characters."
-                :isValid="validator"
+                :is-valid="validator"
               />
             </CForm>
           </CCardBody>
@@ -551,7 +551,7 @@
             <CFormInput placeholder="Username">
               <template #prepend>
                 <CDropdown
-                  buttonHtml="Action"
+                  button-html="Action"
                   variant="primary"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -568,7 +568,7 @@
             >
               <template #append>
                 <CDropdown
-                  buttonHtml="Action"
+                  button-html="Action"
                   variant="primary"
                   right
                 >
@@ -583,7 +583,7 @@
 
               <template #prepend>
                 <CDropdown
-                  buttonHtml="Split"
+                  button-html="Split"
                   variant="primary"
                   split
                 >
@@ -596,7 +596,7 @@
 
               <template #append>
                 <CDropdown
-                  buttonHtml="Action"
+                  button-html="Action"
                   variant="primary"
                   right
                 >
@@ -683,17 +683,17 @@
           <CCardBody>
             <CForm>
               <CFormInput
-                prependHtml="Username"
+                prepend-html="Username"
                 appendHtml="<i class='cui-user'></i>"
               />
               <CFormInput
-                prependHtml="Email"
+                prepend-html="Email"
                 type="email"
                 autocomplete="email"
                 appendHtml="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
-                prependHtml="Password"
+                prepend-html="Password"
                 type="password"
                 autocomplete="current-password"
                 appendHtml="<i class='fa fa-asterisk'></i>"
@@ -797,20 +797,20 @@
               <CCardBody>
                 <CFormInput
                   label="Prepended text"
-                  prependHtml="@"
+                  prepend-html="@"
                   description="Here's some help text"
                   type="email"
                   autocomplete="email"
                 />
                 <CFormInput
                   label="Appended text"
-                  appendHtml=".00"
+                  append-html=".00"
                   description="Here's some help text"
                 />
                 <CFormInput
                   label="Appended and prepended text"
-                  prependHtml="$"
-                  appendHtml=".00"
+                  prepend-html="$"
+                  append-html=".00"
                   description="Here's some help text"
                 />
                 <CFormInput

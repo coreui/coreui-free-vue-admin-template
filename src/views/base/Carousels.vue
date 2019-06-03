@@ -26,15 +26,15 @@
               >
                 <CCarouselItem
                   caption="First Slide"
-                  imgSrc="https://lorempixel.com/1024/480/technics/2/"
+                  img-src="https://lorempixel.com/1024/480/technics/2/"
                   text="Nulla vitae elit libero, a pharetra augue mollis interdum."
                 />
                 <CCarouselItem
                   active
-                  imgSrc="https://lorempixel.com/1024/480/technics/4/"
+                  img-src="https://lorempixel.com/1024/480/technics/4/"
                 />
                 <CCarouselItem
-                  imgSrc="https://lorempixel.com/1024/480/technics/8/"
+                 img-src="https://lorempixel.com/1024/480/technics/8/"
                 />
               </CCarousel>
             </CCardBody>

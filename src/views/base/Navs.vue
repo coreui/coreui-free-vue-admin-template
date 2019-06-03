@@ -119,10 +119,11 @@
           <CNav pills>
             <CNavItem active>Active</CNavItem>
             <CNavItem>Link</CNavItem>
-            <CDropdown id="nav7_ddown"
-                       nav
-                       placement="bottom-end"
-                       buttonContent="Dropdown"
+            <CDropdown
+              id="nav7_ddown"
+              nav
+              placement="bottom-end"
+              button-content="Dropdown"
             >
               <!-- <a class="c-nav-link c-dropdown-toggle" slot="button">Dropdown</a> -->
               <CDropdownItem>one</CDropdownItem>

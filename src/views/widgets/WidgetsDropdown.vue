@@ -19,8 +19,8 @@
           pointed
           class="c-px-3"
           style="height:70px"
-          :dataPoints="[65, 59, 84, 84, 51, 55, 40]"
-          backgroundColor="primary"
+          :data-points="[65, 59, 84, 84, 51, 55, 40]"
+          background-color="primary"
           label="Members"
           labels="months"
         />
@@ -33,7 +33,7 @@
             class="c-float-right"
             variant="transparent c-p-0"
             placement="bottom-end"
-            noCaret
+            no-caret
             buttonHtml="<i class='cui-location-pin'></i>"
           >
             <CDropdownItem>Action</CDropdownItem>
@@ -46,8 +46,8 @@
           pointed
           class="c-px-3"
           style="height:70px"
-          :dataPoints="[1, 18, 9, 17, 34, 22, 11]"
-          backgroundColor="info"
+          :data-points="[1, 18, 9, 17, 34, 22, 11]"
+          background-color="info"
           :options="{ elements: { line: { tension: 0.00001 }}}"
           label="Members"
           labels="months"
@@ -76,10 +76,10 @@
         </template>
           <CChartLineSimple
             style="height:70px"
-            backgroundColor="rgba(255,255,255,.2)"
-            :dataPoints="[78, 81, 80, 45, 34, 12, 40]"
+            background-color="rgba(255,255,255,.2)"
+            :data-points="[78, 81, 80, 45, 34, 12, 40]"
             :options="{ elements: { line: { borderWidth: 2.5 }}}"
-            pointHoverBackgroundColor="warning"
+            point-hover-background-color="warning"
             label="Members"
             labels="months"
           />
@@ -107,7 +107,7 @@
         </template>
         <CChartBarSimple
           style="height:70px"
-          backgroundColor="rgb(250, 152, 152)"
+          background-color="rgb(250, 152, 152)"
           label="Members"
           labels="months"
         />

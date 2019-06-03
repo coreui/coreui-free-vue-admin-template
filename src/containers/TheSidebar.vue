@@ -2,7 +2,7 @@
   <CSidebar fixed>
     <CSidebarHeader/>
     <CSidebarForm/>
-    <CSidebarNav :navItems="computedNav"/>
+    <CSidebarNav :nav-items="computedNav"/>
     <CSidebarFooter/>
     <CSidebarMinimizer/>
   </CSidebar>

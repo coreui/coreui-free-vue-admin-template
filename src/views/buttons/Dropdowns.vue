@@ -15,7 +15,7 @@
             </CCardHeader>
             <CCardBody>
               <div>
-                <CDropdown buttonHtml="Dropdown Button" class="c-m-2">
+                <CDropdown button-html="Dropdown Button" class="c-m-2">
                   <CDropdownItem>First Action</CDropdownItem>
                   <CDropdownItem>Second Action</CDropdownItem>
                   <CDropdownItem>Third Action</CDropdownItem>
@@ -25,7 +25,7 @@
                 </CDropdown>
               </div>
               <!-- <div>
-                <CDropdown buttonHtml="Dropdown using buttons as menu items" class="c-m-2">
+                <CDropdown button-html="Dropdown using buttons as menu items" class="c-m-2">
                   <CDropdownItem>I'm a button</CDropdownItem>
                   <CDropdownItem>I'm also a button</CDropdownItem>
                   <CDropdownItem disabled>I'm a button, but disabled!</CDropdownItem>
@@ -33,7 +33,7 @@
                 </CDropdown>
               </div> -->
               <div>
-                <CDropdown buttonHtml="Dropdown with divider" class="c-m-2">
+                <CDropdown button-html="Dropdown with divider" class="c-m-2">
                   <CDropdownItem>First item</CDropdownItem>
                   <CDropdownItem>Second item</CDropdownItem>
                   <CDropdownDivider></CDropdownDivider>
@@ -41,7 +41,7 @@
                 </CDropdown>
               </div>
               <div>
-                <CDropdown buttonHtml="Dropdown with header" class="c-m-2">
+                <CDropdown button-html="Dropdown with header" class="c-m-2">
                   <CDropdownHeader>Dropdown header</CDropdownHeader>
                   <CDropdownItem>First item</CDropdownItem>
                   <CDropdownItem>Second Item</CDropdownItem>
@@ -60,7 +60,7 @@
             <CCardBody>
               <div>
                 <CDropdown
-                  buttonHtml="Left align"
+                  button-html="Left align"
                   variant="primary"
                   class="c-m-2"
                 >
@@ -70,7 +70,7 @@
                 </CDropdown>
                 <CDropdown
                   placement="bottom-end"
-                  buttonHtml="Right align"
+                  button-html="Right align"
                   variant="primary"
                   class="c-m-2"
                 >
@@ -81,7 +81,7 @@
               </div>
               <div>
                 <CDropdown
-                  buttonHtml="Drop-Up"
+                  button-html="Drop-Up"
                   variant="info"
                   class="c-m-2"
                   dropup
@@ -94,7 +94,7 @@
               <div>
                 <CDropdown
                   :offset="25"
-                  buttonHtml="Offset Dropdown"
+                  button-html="Offset Dropdown"
                   class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -105,7 +105,7 @@
               <div>
                 <CDropdown
                   split
-                  buttonHtml="Split Dropdown"
+                  button-html="Split Dropdown"
                   class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -152,7 +152,7 @@
               <div>
                 <CDropdown
                   size="lg"
-                  buttonHtml="Large"
+                  button-html="Large"
                   class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -162,7 +162,7 @@
                 <CDropdown
                   size="lg"
                   split
-                  buttonHtml="Large Split"
+                  button-html="Large Split"
                   class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -172,7 +172,7 @@
                 <br>
                 <CDropdown
                   size="sm"
-                  buttonHtml="Small"
+                  button-html="Small"
                   class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -181,7 +181,7 @@
                 </CDropdown>
                 <CDropdown
                   size="sm"
-                  split buttonHtml="Small Split"
+                  split button-html="Small Split"
                   class="c-m-2"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -204,7 +204,7 @@
             <CCardBody>
               <div>
                 <CDropdown
-                  buttonHtml="Dropdown ARIA" variant="primary"
+                  button-html="Dropdown ARIA" variant="primary"
                   class="c-m-2"
                 >
                   <div role="group">
@@ -236,7 +236,7 @@
             <CCardBody>
               <CDropdown
                 size="sm"
-                buttonHtml="Primary"
+                button-html="Primary"
                 variant="primary"
                 class="c-m-0"
               >
@@ -246,7 +246,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Secondary"
+                button-html="Secondary"
                 variant="secondary"
                 class="c-m-0"
               >
@@ -256,7 +256,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Success"
+                button-html="Success"
                 variant="success"
                 class="c-m-0"
               >
@@ -266,7 +266,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Warning"
+                button-html="Warning"
                 variant="warning"
                 class="c-m-0"
               >
@@ -276,7 +276,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Danger"
+                button-html="Danger"
                 variant="danger"
                 class="c-m-0"
               >
@@ -286,7 +286,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Info"
+                button-html="Info"
                 variant="info"
                 class="c-m-0"
               >
@@ -296,7 +296,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Light"
+                button-html="Light"
                 variant="light"
                 class="c-m-0"
               >
@@ -306,7 +306,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Dark"
+                button-html="Dark"
                 variant="dark"
                 class="c-m-0"
               >
@@ -316,7 +316,7 @@
               </CDropdown>
               <CDropdown
                 size="sm"
-                buttonHtml="Link"
+                button-html="Link"
                 variant="link"
                 class="c-m-0"
               >

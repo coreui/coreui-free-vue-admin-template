@@ -13,7 +13,7 @@
               </div> -->
             </CCardHeader>
             <CCardBody>
-              <CBreadcrumb :items="items" addLinkClasses="sss" lastItemClasses="aaa"/>
+              <CBreadcrumb :items="items" add-link-classes="sss" last-item-classes="aaa"/>
               <CBreadcrumb :items="items2"/>
               <CBreadcrumb :items="items3"/>
             </CCardBody>

@@ -2,7 +2,7 @@
   <CRow>
     <CCol col="12" xl="8">
       <transition name="slide">
-        <CCard headerHtml="users" bodyWrapper>
+        <CCard header-html="users" body-wrapper>
           <CTable
             hover
             striped
@@ -11,7 +11,7 @@
             :current-page="currentPage"
             :per-page="perPage"
             @row-clicked="rowClicked"
-            :paginationProps="$options.paginationProps"
+            :pagination-props="$options.paginationProps"
           >
             <td slot="id" slot-scope="data">
               <strong>{{data.item.id}}</strong>

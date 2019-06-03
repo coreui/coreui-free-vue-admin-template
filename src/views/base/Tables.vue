@@ -2,19 +2,19 @@
   <div class="c-animated c-fadeIn">
     <CRow>
       <CCol sm="12">
-        <CCard headerHtml="CTable power presentation" bodyWrapper>
+        <CCard header-html="CTable power presentation" body-wrapper>
           <CTable
             :items="getItems()"
             :fields="fields"
-            :perPage="6"
-            :activePage="page"
-            indexColumn
-            filterRow
-            optionsRow="noFilter"
+            :per-page="6"
+            :active-page="page"
+            index-column
+            filter-row
+            options-row="noFilter"
             loadings
             hover
-            :defaultColumnFilter="{ role:'staff' }"
-            darkHeader
+            :default-column-filter="{ role:'staff' }"
+            dark-header
             footer
             :pagination="{size: 'lg'}"
           >
@@ -45,7 +45,7 @@
                   square
                   size="sm"
                   @click="toggleDetails(index)"
-                  :textHtml="details.includes(index) ? 'Hide' : 'Show'"
+                  :text-html="details.includes(index) ? 'Hide' : 'Show'"
                 />
               </td>
             </template>
@@ -67,15 +67,15 @@
     </CRow>
     <!-- <CRow>
       <CCol sm="12">
-        <CCard headerHtml="test2">
+        <CCard header-html="test2">
           <CTable
             :items="items.slice(0)"
             :fields="fields"
-            :perPage="5"
-            indexCol="onlyCleaner"
-            filterRow
-            optionsRow="onlyFiltesr"
-            :paginationProps="{align:'center'}"
+            :per-page="5"
+            index-col="onlyCleaner"
+            filter-row
+            options-row="onlyFiltesr"
+            :pagination-props="{align:'center'}"
           >
               <td slot="status" slot-scope="{item}">
                 <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>

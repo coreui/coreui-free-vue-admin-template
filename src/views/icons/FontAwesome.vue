@@ -174,7 +174,7 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard  id="new">
+    <CCard id="new">
       <CCardHeader>20 New Icons in 4.5</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -245,7 +245,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="web-application">
+    <CCard id="web-application">
       <CCardHeader>Web Application Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1432,7 +1432,7 @@
 
     </CCard>
 
-    <CCard  id="hand">
+    <CCard id="hand">
       <CCardHeader>Hand Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1494,7 +1494,7 @@
 
     </CCard>
 
-    <CCard  id="transportation">
+    <CCard id="transportation">
       <CCardHeader>Transportation Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1555,7 +1555,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="gender">
+    <CCard id="gender">
       <CCardHeader>Gender Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1607,7 +1607,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="file-type">
+    <CCard id="file-type">
       <CCardHeader>File Type Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1671,7 +1671,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="spinner">
+    <CCard id="spinner">
       <CCardHeader>Spinner Icons</CCardHeader>
       <CCardBody>
         <div class="alert alert-success">
@@ -1704,7 +1704,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="form-control">
+    <CCard id="form-control">
       <CCardHeader>Form Control Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1747,7 +1747,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="payment">
+    <CCard id="payment">
       <CCardHeader>Payment Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1793,7 +1793,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="chart">
+    <CCard id="chart">
       <CCardHeader>Chart Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1818,7 +1818,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="currency">
+    <CCard id="currency">
       <CCardHeader>Currency Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -1906,7 +1906,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="text-editor">
+    <CCard id="text-editor">
       <CCardHeader>Text Editor Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -2063,7 +2063,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="directional">
+    <CCard id="directional">
       <CCardHeader>Directional Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -2232,7 +2232,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="video-player">
+    <CCard id="video-player">
       <CCardHeader>Video Player Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -2305,7 +2305,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="brand">
+    <CCard id="brand">
       <CCardHeader>Brand Icons</CCardHeader>
       <CCardBody>
         <div class="alert alert-warning">
@@ -2796,7 +2796,7 @@
       </CCardBody>
     </CCard>
 
-    <CCard  id="medical">
+    <CCard id="medical">
       <CCardHeader>Medical Icons</CCardHeader>
       <CCardBody>
         <CRow class="text-center">

@@ -140,20 +140,20 @@
     </CModal>
     <CModal
       :visible.sync="darkModal"
-      :noBackdrop="false"
-      :noCloseOnBackdrop="fsalse"
-      :noFade="false"
+      :no-backdrop="false"
+      :no-close-on-backdrop="fsalse"
+      :no-fade="false"
       :centered="true"
       title="Modal title 2"
       size="lg"
       variant="dark"
-      borderVariant="danger2"
-      addModalClassess="hehe1"
-      addDialogClassess="hehe2"
-      addContentClassess="hehe3"
-      :noHeader="false"
-      :noBody="false"
-      :noFooter="false"
+      border-variant="danger2"
+      add-modal-classess="hehe1"
+      add-dialog-classess="hehe2"
+      add-content-classess="hehe3"
+      :no-header="false"
+      :no-body="false"
+      :no-footer="false"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

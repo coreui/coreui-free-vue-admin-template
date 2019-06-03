@@ -10,33 +10,96 @@
             <small>Usage </small>
             <code>&lt;CButton variant="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;</code>
             <hr/>
-            <h6>Size Small <small>Add <code>size="sm"</code></small></h6>
+            <h6>
+              Size Small
+              <small>Add <code>size="sm"</code></small>
+            </h6>
             <p>
-              <CButton size="sm" class="c-mr-1 c-btn-brand" variant="facebook"><i class="fa fa-facebook"></i><span>Facebook</span></CButton>
-              <CButton size="sm" class="c-mr-1 c-btn-brand" variant="twitter"><i class="fa fa-twitter"></i><span>Twitter</span></CButton>
-              <CButton size="sm" variant="linkedin" class="c-mr-1 c-btn-brand"><i class="fa fa-linkedin"></i><span>LinkedIn</span></CButton>
-              <CButton size="sm" variant="flickr" class="c-mr-1 c-btn-brand"><i class="fa fa-flickr"></i><span>Flickr</span></CButton>
-              <CButton size="sm" variant="tumblr" class="c-mr-1 c-btn-brand"><i class="fa fa-tumblr"></i><span>Tumblr</span></CButton>
-              <CButton size="sm" variant="xing" class="c-mr-1 c-btn-brand"><i class="fa fa-xing"></i><span>Xing</span></CButton>
-              <CButton size="sm" variant="github" class="c-mr-1 c-btn-brand"><i class="fa fa-github"></i><span>Github</span></CButton>
-              <CButton size="sm" variant="html5" class="c-mr-1 c-btn-brand"><i class="fa fa-html5"></i><span>HTML5</span></CButton>
-              <CButton size="sm" variant="openid" class="c-mr-1 c-btn-brand"><i class="fa fa-openid"></i><span>OpenID</span></CButton>
-              <CButton size="sm" variant="stack-overflow" class="c-mr-1 c-btn-brand"><i class="fa fa-stack-overflow"></i><span>StackOverflow</span></CButton>
-              <CButton size="sm" variant="css3" class="c-mr-1 c-btn-brand"><i class="fa fa-css3"></i><span>CSS3</span></CButton>
-              <CButton size="sm" variant="youtube" class="c-mr-1 c-btn-brand"><i class="fa fa-youtube"></i><span>YouTube</span></CButton>
-              <CButton size="sm" variant="dribbble" class="c-mr-1 c-btn-brand"><i class="fa fa-dribbble"></i><span>Dribbble</span></CButton>
-              <CButton size="sm" variant="google-plus" class="c-mr-1 c-btn-brand"><i class="fa fa-google-plus"></i><span>Google+</span></CButton>
-              <CButton size="sm" variant="instagram" class="c-mr-1 c-btn-brand"><i class="fa fa-instagram"></i><span>Instagram</span></CButton>
-              <CButton size="sm" variant="pinterest" class="c-mr-1 c-btn-brand"><i class="fa fa-pinterest"></i><span>Pinterest</span></CButton>
-              <CButton size="sm" variant="vk" class="c-mr-1 c-btn-brand"><i class="fa fa-vk"></i><span>VK</span></CButton>
-              <CButton size="sm" variant="yahoo" class="c-mr-1 c-btn-brand"><i class="fa fa-yahoo"></i><span>Yahoo</span></CButton>
-              <CButton size="sm" variant="behance" class="c-mr-1 c-btn-brand"><i class="fa fa-behance"></i><span>Behance</span></CButton>
-              <CButton size="sm" variant="dropbox" class="c-mr-1 c-btn-brand"><i class="fa fa-dropbox"></i><span>Dropbox</span></CButton>
-              <CButton size="sm" variant="reddit" class="c-mr-1 c-btn-brand"><i class="fa fa-reddit"></i><span>Reddit</span></CButton>
-              <CButton size="sm" variant="spotify" class="c-mr-1 c-btn-brand"><i class="fa fa-spotify"></i><span>Spotify</span></CButton>
-              <CButton size="sm" variant="vine" class="c-mr-1 c-btn-brand"><i class="fa fa-vine"></i><span>Vine</span></CButton>
-              <CButton size="sm" variant="foursquare" class="c-mr-1 c-btn-brand"><i class="fa fa-foursquare"></i><span>Forsquare</span></CButton>
-              <CButton size="sm" variant="vimeo" class="c-mr-1 c-btn-brand"><i class="fa fa-vimeo"></i><span>Vimeo</span></CButton>
+              <!-- <template v-for="(brand, key) in $options.brands">
+                <button
+                  type="button"
+                  :class="`c-btn-${brand}`"
+                  class="c-btn c-btn-sm c-btn-brand c-mr-1"
+                >
+                  <i :class="`fa fa-${brand}`"></i>
+                  <span>{{brand}}</span>
+                </button>
+              </template> -->
+              <CButton size="sm" class="c-mr-1 c-btn-brand" variant="facebook">
+                <i class="fa fa-facebook"></i><span>Facebook</span>
+              </CButton>
+              <CButton size="sm" class="c-mr-1 c-btn-brand" variant="twitter">
+                <i class="fa fa-twitter"></i><span>Twitter</span>
+              </CButton>
+              <CButton size="sm" variant="linkedin" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-linkedin"></i><span>LinkedIn</span>
+              </CButton>
+              <CButton size="sm" variant="flickr" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-flickr"></i><span>Flickr</span>
+              </CButton>
+              <CButton size="sm" variant="tumblr" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-tumblr"></i><span>Tumblr</span>
+              </CButton>
+              <CButton size="sm" variant="xing" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-xing"></i><span>Xing</span>
+              </CButton>
+              <CButton size="sm" variant="github" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-github"></i><span>Github</span>
+              </CButton>
+              <CButton size="sm" variant="html5" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-html5"></i><span>HTML5</span>
+              </CButton>
+              <CButton size="sm" variant="openid" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-openid"></i><span>OpenID</span>
+              </CButton>
+              <CButton size="sm" variant="stack-overflow" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-stack-overflow"></i><span>StackOverflow</span>
+              </CButton>
+              <CButton size="sm" variant="css3" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-css3"></i><span>CSS3</span>
+              </CButton>
+              <CButton size="sm" variant="youtube" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-youtube"></i><span>YouTube</span>
+              </CButton>
+              <CButton size="sm" variant="dribbble" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-dribbble"></i><span>Dribbble</span>
+              </CButton>
+              <CButton size="sm" variant="google-plus" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-google-plus"></i><span>Google+</span>
+              </CButton>
+              <CButton size="sm" variant="instagram" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-instagram"></i><span>Instagram</span>
+              </CButton>
+              <CButton size="sm" variant="pinterest" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-pinterest"></i><span>Pinterest</span>
+              </CButton>
+              <CButton size="sm" variant="vk" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-vk"></i><span>VK</span>
+              </CButton>
+              <CButton size="sm" variant="yahoo" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-yahoo"></i><span>Yahoo</span>
+              </CButton>
+              <CButton size="sm" variant="behance" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-behance"></i><span>Behance</span>
+              </CButton>
+              <CButton size="sm" variant="dropbox" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-dropbox"></i><span>Dropbox</span>
+              </CButton>
+              <CButton size="sm" variant="reddit" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-reddit"></i><span>Reddit</span>
+              </CButton>
+              <CButton size="sm" variant="spotify" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-spotify"></i><span>Spotify</span>
+              </CButton>
+              <CButton size="sm" variant="vine" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-vine"></i><span>Vine</span>
+              </CButton>
+              <CButton size="sm" variant="foursquare" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-foursquare"></i><span>Forsquare</span>
+              </CButton>
+              <CButton size="sm" variant="vimeo" class="c-mr-1 c-btn-brand">
+                <i class="fa fa-vimeo"></i><span>Vimeo</span>
+              </CButton>
             </p>
             <h6>Size Normal</h6>
             <p>
@@ -294,7 +357,8 @@
 
 <script>
 export default {
-  name: 'brand-buttons'
+  name: 'brand-buttons',
+  brands: ['facebook', 'twitter', 'linkedin']
 }
 </script>
 

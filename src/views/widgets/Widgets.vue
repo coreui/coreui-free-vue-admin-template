@@ -169,7 +169,7 @@
           header="$1.999,50"
           text="Income"
           variant="primary"
-          noPadding
+          no-padding
         >
           <CIcon name="settings" width="24"/>
         </CWidgetIcon>
@@ -179,7 +179,7 @@
           header="$1.999,50"
           text="Income"
           variant="info"
-          noPadding
+          no-padding
         >
           <CIcon name="laptop" width="24"/>
         </CWidgetIcon>
@@ -189,7 +189,7 @@
           header="$1.999,50"
           text="Income"
           variant="warning"
-          noPadding
+          no-padding
         >
           <CIcon name="moon" width="24"/>
         </CWidgetIcon>
@@ -199,7 +199,7 @@
           header="$1.999,50"
           text="Income"
           variant="danger"
-          noPadding
+          no-padding
         >
           <CIcon name="bell" width="24"/>
         </CWidgetIcon>
@@ -211,7 +211,7 @@
           header="$1.999,50"
           text="Income"
           variant="primary"
-          noPadding
+          no-padding
         >
           <CIcon name="settings" class="c-mx-5 " width="24"/>
         </CWidgetIcon>
@@ -221,7 +221,7 @@
           header="$1.999,50"
           text="Income"
           variant="info"
-          noPadding
+          no-padding
         >
           <CIcon name="laptop" class="c-mx-5 " width="24"/>
         </CWidgetIcon>
@@ -231,7 +231,7 @@
           header="$1.999,50"
           text="Income"
           variant="warning"
-          noPadding
+          no-padding
         >
           <CIcon name="moon" class="c-mx-5 " width="24"/>
         </CWidgetIcon>
@@ -243,7 +243,7 @@
           header="$1.999,50"
           text="Income"
           variant="primary"
-          noPadding
+          no-padding
           link="#"
         >
           <CIcon name="settings" class="c-mx-5 " width="24"/>
@@ -254,7 +254,7 @@
           header="$1.999,50"
           text="Income"
           variant="info"
-          noPadding
+          no-padding
           link="#"
         >
           <CIcon name="laptop" class="c-mx-5 " width="24"/>
@@ -265,7 +265,7 @@
           header="$1.999,50"
           text="Income"
           variant="warning"
-          noPadding
+          no-padding
           link="#"
         >
           <CIcon name="moon" class="c-mx-5" width="24"/>
@@ -474,10 +474,10 @@
     <CRow>
       <CCol sm="6" lg="3">
         <CWidgetSmallText
-          rightHeader="SALE"
-          rightFooter="Today 6:43 AM"
-          leftHeader="$1.890,65"
-          leftFooter="+432,50 (15,78%)"
+          right-header="SALE"
+          right-footer="Today 6:43 AM"
+          left-header="$1.890,65"
+          left-footer="+432,50 (15,78%)"
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
@@ -486,10 +486,10 @@
       <CCol sm="6" lg="3">
         <CWidgetSmallText
           variant="success"
-          rightHeader="SALE"
-          rightFooter="Today 6:43 AM"
-          leftHeader="$1.890,65"
-          leftFooter="+432,50 (15,78%)"
+          right-header="SALE"
+          right-footer="Today 6:43 AM"
+          left-header="$1.890,65"
+          left-footer="+432,50 (15,78%)"
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
@@ -498,10 +498,10 @@
       <CCol sm="6" lg="3">
         <CWidgetSmallText
           variant="danger"
-          rightHeader="SALE"
-          rightFooter="Today 6:43 AM"
-          leftHeader="$1.890,65"
-          leftFooter="+432,50 (15,78%)"
+          right-header="SALE"
+          right-footer="Today 6:43 AM"
+          left-header="$1.890,65"
+          left-footer="+432,50 (15,78%)"
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
@@ -510,10 +510,10 @@
       <CCol sm="6" lg="3">
         <CWidgetSmallText
           variant="warning"
-          rightHeader="SALE"
-          rightFooter="Today 6:43 AM"
-          leftHeader="$1.890,65"
-          leftFooter="+432,50 (15,78%)"
+          right-header="SALE"
+          right-footer="Today 6:43 AM"
+          left-header="$1.890,65"
+          left-footer="+432,50 (15,78%)"
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
@@ -523,32 +523,32 @@
     <CRow>
       <CCol sm="4" lg="2">
         <CWidgetSimple header="title" text="1,123">
-          <CChartLineSimple style="height:40px" borderColor="danger"/>
+          <CChartLineSimple style="height:40px" border-color="danger"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
         <CWidgetSimple header="title" text="1,123">
-          <CChartLineSimple style="height:40px" borderColor="primary"/>
+          <CChartLineSimple style="height:40px" border-color="primary"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
         <CWidgetSimple header="title" text="1,123">
-          <CChartLineSimple style="height:40px" borderColor="success"/>
+          <CChartLineSimple style="height:40px" border-color="success"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
-        <CWidgetSimple  header="title" text="1,123">
-          <CChartBarSimple style="height:40px" backgroundColor="danger"/>
+        <CWidgetSimple header="title" text="1,123">
+          <CChartBarSimple style="height:40px" background-color="danger"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
-        <CWidgetSimple  header="title" text="1,123">
-          <CChartBarSimple style="height:40px" backgroundColor="primary"/>
+        <CWidgetSimple header="title" text="1,123">
+          <CChartBarSimple style="height:40px" background-color="primary"/>
         </CWidgetSimple>
       </CCol>
       <CCol sm="4" lg="2">
-        <CWidgetSimple  header="title" text="1,123">
-          <CChartBarSimple style="height:40px" backgroundColor="success"/>
+        <CWidgetSimple header="title" text="1,123">
+          <CChartBarSimple style="height:40px" background-color="success"/>
         </CWidgetSimple>
       </CCol>
     </CRow>

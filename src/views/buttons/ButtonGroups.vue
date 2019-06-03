@@ -152,14 +152,14 @@
                   <CFormInput
                     class="c-mb-0 c-w-25 c-mx-1"
                     size="sm"
-                    prependHtml="$"
-                    appendHtml=".00"
+                    prepend-html="$"
+                    append-html=".00"
                     value="100"
                   />
                   <CFormSelect
                     class="c-mb-0 c-w-25 c-mx-1"
                     size="sm"
-                    prependHtml="Size"
+                    prepend-html="Size"
                     value="Medium"
                     :options="['Large','Medium','Small']"
                     custom
@@ -181,7 +181,7 @@
                   <CDropdown
                     class="c-mx-1"
                     placement="bottom-end"
-                    buttonContent="Menu"
+                    button-content="Menu"
                   >
                     <CDropdownItem>Item 1</CDropdownItem>
                     <CDropdownItem>Item 2</CDropdownItem>

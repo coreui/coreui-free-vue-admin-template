@@ -1,6 +1,6 @@
 <template>
   <div class="c-animated c-fadeIn">
-    <CCard  class="c-card-default">
+    <CCard class="c-card-default">
       <CCardHeader>
         <i class="fa fa-picture-o"></i> Simple Line Icons
       </CCardHeader>

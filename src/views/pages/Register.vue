@@ -15,7 +15,7 @@
                 />
                 <CFormInput
                   placeholder="Email"
-                  prependHtml="@"
+                  prepend-html="@"
                   autocomplete="email"
                 />
                 <CFormInput

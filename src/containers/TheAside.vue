@@ -1,13 +1,14 @@
 <template>
   <CSidebar aside fixed light :display="false">
-    <CTabs addTabClasses="c-p-0">
+    <CTabs add-tab-classes="c-p-0">
       <CTab active>
         <template slot="title">
           <i class="cui-list"></i>
         </template>
         <CListGroup class="c-list-group-accent">
           <CListGroupItem
-            class="c-list-group-item-accent-secondary c-bg-light c-text-center c-font-weight-bold c-text-muted c-text-uppercase c-small">
+            class="c-list-group-item-accent-secondary c-bg-light c-text-center c-font-weight-bold c-text-muted c-text-uppercase c-small"
+          >
             Today
           </CListGroupItem>
           <CListGroupItem href="#" class="c-list-group-item-accent-warning c-list-group-item-divider">
@@ -207,7 +208,7 @@
           <div class="c-aside-options">
             <div class="c-clearfix c-mt-3">
               <small><b>Option 3</b></small>
-              <CSwitch variant="success" label shape="pill" size="sm" class="c-float-right" disabled defaultChecked/>
+              <CSwitch variant="success" label shape="pill" size="sm" class="c-float-right" disabled default-checked/>
             </div>
             <div>
               <small class="c-text-muted">Disabled option.</small>
@@ -224,17 +225,17 @@
           <div class="c-text-uppercase c-mb-1 c-mt-4">
             <small><b>CPU Usage</b></small>
           </div>
-          <CProgress  class="c-progress-xs" variant="info" :value="25"></CProgress>
+          <CProgress class="c-progress-xs" variant="info" :value="25"></CProgress>
           <small class="c-text-muted">348 Processes. 1/4 Cores.</small>
           <div class="c-text-uppercase c-mb-1 c-mt-2">
             <small><b>Memory Usage</b></small>
           </div>
-          <CProgress  class="c-progress-xs" variant="warning" :value="70"></CProgress>
+          <CProgress class="c-progress-xs" variant="warning" :value="70"></CProgress>
           <small class="c-text-muted">11444GB/16384MB</small>
           <div class="c-text-uppercase c-mb-1 c-mt-2">
             <small><b>SSD 1 Usage</b></small>
           </div>
-          <CProgress  class="c-progress-xs" variant="danger" :value="95"></CProgress>
+          <CProgress class="c-progress-xs" variant="danger" :value="95"></CProgress>
           <small class="c-text-muted">243GB/256GB</small>
           <div class="c-text-uppercase c-mb-1 c-mt-2">
             <small><b>SSD 2 Usage</b></small>
