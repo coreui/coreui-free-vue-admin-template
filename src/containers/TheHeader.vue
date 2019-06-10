@@ -6,11 +6,11 @@
       <!-- <img class="c-navbar-brand-minimized" src="img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo"> -->
     </CLink>
     <CSidebarToggler class="c-header-toggler c-d-md-down-none"/>
-    <CNavbarNav class="c-header-nav c-d-md-down-none">
-      <CNavItem class="c-px-3 nav-link" to="/dashboard">Dashboard</CNavItem>
-      <CNavItem class="c-px-3 nav-link" to="/users" exact>Users</CNavItem>
-      <CNavItem class="c-px-3 nav-link">Settings</CNavItem>
-    </CNavbarNav>
+    <ul class="c-header-nav c-d-md-down-none">
+      <CNavItem class="c-px-3" to="/dashboard">Dashboard</CNavItem>
+      <CNavItem class="c-px-3" to="/users" exact>Users</CNavItem>
+      <CNavItem class="c-px-3">Settings</CNavItem>
+    </ul>
     <CNav class="c-header-nav c-ml-auto">
       <CNavItem class="c-d-md-down-none">
         <i class="cui-bell"></i>

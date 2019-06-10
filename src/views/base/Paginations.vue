@@ -26,7 +26,7 @@
             :pages="10"/>
           <br>
 
-          <div class="c-d-sm-down-none">
+          <div>
             <h6>Large</h6>
             <CPagination
               size="lg"

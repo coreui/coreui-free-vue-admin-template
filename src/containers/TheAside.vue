@@ -39,7 +39,7 @@
             </small>
           </CListGroupItem>
           <hr class="c-transparent c-mx-3 c-my-0">
-          <CListGroupItem class="c-list-group-item-accent-secondary c-bg-light c-text-center c-font-weight-bold c-text-muted c-text-uppercase small">
+          <CListGroupItem class="c-list-group-item-accent-secondary c-bg-light c-text-center c-font-weight-bold c-text-muted c-text-uppercase c-small">
             Tomorrow
           </CListGroupItem>
           <CListGroupItem href="#" class="c-list-group-item-accent-danger c-list-group-item-divider">
@@ -225,17 +225,17 @@
           <div class="c-text-uppercase c-mb-1 c-mt-4">
             <small><b>CPU Usage</b></small>
           </div>
-          <CProgress class="c-progress-xs" variant="info" :value="25"></CProgress>
+          <CProgress class="c-progress-xs" variant="info" :value="25"/>
           <small class="c-text-muted">348 Processes. 1/4 Cores.</small>
           <div class="c-text-uppercase c-mb-1 c-mt-2">
             <small><b>Memory Usage</b></small>
           </div>
-          <CProgress class="c-progress-xs" variant="warning" :value="70"></CProgress>
+          <CProgress class="c-progress-xs" variant="warning" :value="70"/>
           <small class="c-text-muted">11444GB/16384MB</small>
           <div class="c-text-uppercase c-mb-1 c-mt-2">
             <small><b>SSD 1 Usage</b></small>
           </div>
-          <CProgress class="c-progress-xs" variant="danger" :value="95"></CProgress>
+          <CProgress class="c-progress-xs" variant="danger" :value="95"/>
           <small class="c-text-muted">243GB/256GB</small>
           <div class="c-text-uppercase c-mb-1 c-mt-2">
             <small><b>SSD 2 Usage</b></small>

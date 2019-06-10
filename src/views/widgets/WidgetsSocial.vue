@@ -11,11 +11,12 @@
         >
           <CIcon
             name="socialFacebook"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
           <CChartLineSimple
             style="height:100px"
+            class="c-position-absolute"
             background-color="rgba(255,255,255,.1)"
             :data-points="[65, 59, 84, 84, 51, 55, 40]"
             label="Friends"
@@ -33,11 +34,12 @@
         >
           <CIcon
             name="socialTwitter"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
           <CChartLineSimple
             style="height:100px"
+            class="c-position-absolute"
             background-color="rgba(255,255,255,.1)"
             :data-points="[1, 13, 9, 17, 34, 41, 38]"
             label="Followers"
@@ -55,11 +57,12 @@
         >
           <CIcon
             name="socialLinkedin"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
           <CChartLineSimple
             style="height:100px"
+            class="c-position-absolute"
             background-color="rgba(255,255,255,.1)"
             :data-points="[78, 81, 80, 45, 34, 12, 40]"
             label="Contracts"
@@ -77,11 +80,12 @@
         >
           <CIcon
             name="calendar"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
           <CChartLineSimple
             style="height:100px"
+            class="c-position-absolute"
             background-color="rgba(255,255,255,.1)"
             :data-points="[35, 23, 56, 22, 97, 23, 64]"
             label="Followers"
@@ -101,8 +105,8 @@
         >
           <CIcon
             name="socialFacebook"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
         </CWidgetSocial>
        </CCol>
@@ -116,8 +120,8 @@
         >
           <CIcon
             name="socialTwitter"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
         </CWidgetSocial>
        </CCol>
@@ -131,8 +135,8 @@
         >
           <CIcon
             name="socialLinkedin"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
         </CWidgetSocial>
        </CCol>
@@ -146,8 +150,8 @@
         >
           <CIcon
             name="calendar"
-            height="32"
-            class="c-position-absolute"
+            height="56"
+            class="c-my-4"
           />
         </CWidgetSocial>
       </CCol>

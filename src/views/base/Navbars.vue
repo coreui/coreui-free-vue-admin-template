@@ -19,7 +19,7 @@
               <DefaultHeaderDropdownAccnt/>
             </CNavbarNav>
             <CNavbarNav class="ml-auto">
-              <CDropdown right class="nav-item b-nav-dropdown" toggle-classes="nav-link">
+              <CDropdown right class="c-nav-item " toggle-classes="c-nav-link">
                 <CDropdownItem><i class="cui-file" /> Projects
                   <CBadge variant="primary">32</CBadge>
                 </CDropdownItem>

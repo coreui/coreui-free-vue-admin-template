@@ -300,7 +300,7 @@
         header="28%"
         text="Returning Visitors"
       >
-        <CIcon name="chart" height="36"/>
+        <CIcon name="chartPie" height="36"/>
       </CWidgetProgressIcon>
       <CWidgetProgressIcon
         header="5:34:11"
@@ -341,7 +341,7 @@
         variant="primary"
         inverse
       >
-        <CIcon name="chart" height="36"/>
+        <CIcon name="chartPie" height="36"/>
       </CWidgetProgressIcon>
       <CWidgetProgressIcon
         header="5:34:11"
@@ -386,7 +386,7 @@
           text="Returning Visitors"
           variant="primary"
         >
-          <CIcon name="chart" height="36"/>
+          <CIcon name="chartPie" height="36"/>
         </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
@@ -446,7 +446,7 @@
           variant="primary"
           inverse
         >
-          <CIcon name="chart" height="36"/>
+          <CIcon name="chartPie" height="36"/>
         </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">

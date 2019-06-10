@@ -7,16 +7,16 @@
             :items="getItems()"
             :fields="fields"
             :per-page="6"
-            :active-page="page"
             index-column
             filter-row
-            options-row="noFilter"
-            loadings
+            options-row
             hover
             :default-column-filter="{ role:'staff' }"
+            :default-sorters="['username', 'asc']"
+            :default-filter="2012"
             dark-header
             footer
-            :pagination="{size: 'lg'}"
+            pagination
           >
             <template #index-column="{index}">
               <td
@@ -161,7 +161,7 @@ import CTableWrapper from './Table.vue'
 
 const fields = [
   { key: 'username', _style:'width:40%' },
-  { key: 'registered' , style:'width:20%' },
+  'registered',
   { key: 'role', _style:'width:20%;' },
   { key: 'status', _style:'width:20%;' },
   { key: 'show_details' , label:'', _style:'width:1%', noSorting: true, noFilter: true },
