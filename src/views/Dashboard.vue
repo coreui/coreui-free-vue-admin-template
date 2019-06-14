@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <WidgetsDropdown/>
     <CCard>
       <CCardBody>

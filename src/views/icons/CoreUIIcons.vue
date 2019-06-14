@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <CCard >
       <CCardHeader>
         <i class="cui-pencil"></i>CoreUI Icons
@@ -16,7 +16,7 @@
         </div>
       </CCardHeader>
       <CCardBody>
-        <CRow class="c-text-center c-mb-5">
+        <!-- <CRow class="c-text-center c-mb-5">
           <template v-for="(name, key) in $options.iconNames">
             <CCol :key="key" col="6" sm="4" md="3" xl="2" >
               <CIcon :name="name" width="24" class="c-mt-4"/>
@@ -24,6 +24,7 @@
             </CCol>
           </template>
         </CRow>
+         -->
         <CRow class="c-text-center ">
           <CCol col="6" sm="4" md="3" xl="2">
             <i class="cui-account-logout c-icons c-font-2xl c-d-block c-mt-4"></i>
@@ -431,15 +432,11 @@
   </div>
 </template>
 <script>
-import { iconSet } from '@coreui/icons'
-
-const iconNames = Object.keys(iconSet)
+// import { iconSet } from '@coreui/icons'
+// const iconNames = Object.keys(iconSet)
 
 export default {
   name: 'CoreUIIcons',
-  iconNames,
-  // mounted () {
-  //   console.log(this.$options.iconNames)
-  // }
+  // iconNames,
 }
 </script>

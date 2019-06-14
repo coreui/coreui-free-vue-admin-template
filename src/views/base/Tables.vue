@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <CRow>
       <CCol sm="12">
         <CCard header-html="CTable power presentation" body-wrapper>

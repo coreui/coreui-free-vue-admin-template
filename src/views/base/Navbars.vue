@@ -1,6 +1,6 @@
 <template>
   <div class="c-wrapper">
-    <div class="c-animated c-fadeIn">
+    <div>
       <!-- <CCard>
         <CNavbar toggleable="md" light variant="light">
           <CNavbarToggle class="hehe" @click="test2 = !test2"/>

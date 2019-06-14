@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <CRow>
       <CCol sm="6" md="4">
         <CCard header-html="Card title" :body-html="loremIpsum"/>

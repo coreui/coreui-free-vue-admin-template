@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <CRow>
       <CCol xs="12" md="6">
         <CCard v-if="true">

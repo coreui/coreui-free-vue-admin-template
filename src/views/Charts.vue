@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <CCardGroup columns class="c-card-columns c-cols-2">
       <CCard header-html="Line Chart" body-wrapper>
         <CChartLineExample/>

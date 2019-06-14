@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <CCard >
       <CCardHeader>
         <i class="cui-drop"></i> Theme colors

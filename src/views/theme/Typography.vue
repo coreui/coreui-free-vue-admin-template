@@ -1,5 +1,5 @@
 <template>
-  <div class="c-animated c-fadeIn">
+  <div>
     <div class="c-card">
       <div class="c-card-header">
         Headings

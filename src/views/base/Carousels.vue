@@ -1,6 +1,6 @@
 <template functional>
   <div class="c-wrapper">
-    <div class="c-animated c-fadeIn">
+    <div>
       <CRow>
         <CCol md="12" lg="9" >
           <CCard>

@@ -1,6 +1,6 @@
 <template>
   <div class="c-wrapper">
-    <div class="c-animated c-fadeIn">
+    <div>
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
