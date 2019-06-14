@@ -384,9 +384,6 @@
             head-variant="light"
             no-sorting
           >
-            <!-- <div slot="activity-header">
-              A tu nic
-            </div> -->
             <td slot="avatar" class="c-text-center" slot-scope="{item}">
               <div class="c-avatar">
                 <img :src="item.avatar.url" class="c-img-avatar" alt="">
@@ -410,15 +407,13 @@
               slot-scope="{item}"
               class="c-text-center"
             >
-              <i
-                class="c-h4 c-mb-0"
-                :class="flag(item.country.flag)"
-                :title="item.country.flag"
-                :id="item.country.flag"
-              ></i>
+              <CIcon
+                :name="item.country.flag"
+                height="25"
+              />
             </td>
             <td slot="usage" slot-scope="{item}">
-              <div class="clearfix">
+              <div class="c-clearfix">
                 <div class="c-float-left">
                   <strong>{{item.usage.value}}%</strong>
                 </div>
@@ -437,7 +432,10 @@
               slot-scope="{item}"
               class="c-text-center"
             >
-              <i :class="item.payment.icon" style="font-size:24px"></i>
+              <CIcon
+                :name="item.payment.icon"
+                height="25"
+              />
             </td>
             <td slot="activity" slot-scope="{item}">
               <div class="c-small c-text-muted">Last login</div>
@@ -457,7 +455,6 @@ import WidgetsSocial from './widgets/WidgetsSocial'
 import CalloutChartExample from './charts/CalloutChartExample'
 import CChartLineSimple from './charts/CChartLineSimple'
 
-
 export default {
   name: 'Dashboard',
   components: {
@@ -467,61 +464,61 @@ export default {
     WidgetsSocial,
     CChartLineSimple
   },
-  data: function () {
+  data () {
     return {
       selected: 'Month',
       tableItems: [
         {
           avatar: { url: 'img/avatars/1.jpg', status: 'success' },
           user: { name: 'Yiorgos Avraamu', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'USA', flag: 'us' },
+          country: { name: 'USA', flag: 'US' },
           usage: { value: 50, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Mastercard', icon: 'fa fa-cc-mastercard' },
+          payment: { name: 'Mastercard', icon: 'cc-mastercard' },
           activity: '10 sec ago'
         },
         {
           avatar: { url: 'img/avatars/2.jpg', status: 'danger' },
           user: { name: 'Avram Tarasios', new: false, registered: 'Jan 1, 2015' },
-          country: { name: 'Brazil', flag: 'br' },
+          country: { name: 'Brazil', flag: 'BR' },
           usage: { value: 22, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Visa', icon: 'fa fa-cc-visa' },
+          payment: { name: 'Visa', icon: 'cc-visa' },
           activity: '5 minutes ago'
         },
         {
           avatar: { url: 'img/avatars/3.jpg', status: 'warning' },
           user: { name: 'Quintin Ed', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'India', flag: 'in' },
+          country: { name: 'India', flag: 'IN' },
           usage: { value: 74, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Stripe', icon: 'fa fa-cc-stripe' },
+          payment: { name: 'Stripe', icon: 'stripe' },
           activity: '1 hour ago'
         },
         {
           avatar: { url: 'img/avatars/4.jpg', status: '' },
           user: { name: 'Enéas Kwadwo', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'France', flag: 'fr' },
+          country: { name: 'France', flag: 'FR' },
           usage: { value: 98, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'PayPal', icon: 'fa fa-paypal' },
+          payment: { name: 'PayPal', icon: 'paypal' },
           activity: 'Last month'
         },
         {
           avatar: { url: 'img/avatars/5.jpg', status: 'success' },
           user: { name: 'Agapetus Tadeáš', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'Spain', flag: 'es' },
+          country: { name: 'Spain', flag: 'ES' },
           usage: { value: 22, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Google Wallet', icon: 'fa fa-google-wallet' },
+          payment: { name: 'Google Wallet', icon: 'google-wallet' },
           activity: 'Last week'
         },
         {
           avatar: { url: 'img/avatars/6.jpg', status: 'danger' },
           user: { name: 'Friderik Dávid', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'Poland', flag: 'pl' },
+          country: { name: 'Poland', flag: 'PL' },
           usage: { value: 43, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Amex', icon: 'fa fa-cc-amex' },
+          payment: { name: 'Amex', icon: 'cc-amex' },
           activity: 'Last week'
         }
       ],
       tableFields: [
-        { key: 'avatar', _classes: 'c-text-center' },
+        { key: 'avatar', label: '', _classes: 'c-text-center' },
         { key: 'user' },
         { key: 'country', _classes: 'c-text-center' },
         { key: 'usage' },
@@ -543,9 +540,6 @@ export default {
         $variant = 'danger'
       }
       return $variant
-    },
-    flag (value) {
-      return 'flag-icon flag-icon-' + value
     }
   }
 }

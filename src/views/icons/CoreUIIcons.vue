@@ -431,14 +431,15 @@
   </div>
 </template>
 <script>
-import icons from '@coreui/icons'
-const iconNames = Object.keys(icons)
+import { iconSet } from '@coreui/icons'
+
+const iconNames = Object.keys(iconSet)
 
 export default {
   name: 'CoreUIIcons',
   iconNames,
-  mounted () {
-    console.log(this.$options.iconNames)
-  }
+  // mounted () {
+  //   console.log(this.$options.iconNames)
+  // }
 }
 </script>

@@ -157,12 +157,12 @@ export default {
       icon: 'cui-pie-chart'
     },
     {
-      name: 'Icons',
+      name: 'CoreUI Icons',
       url: '/icons',
       icon: 'cui-star',
       children: [
         {
-          name: 'CoreUI Icons',
+          name: 'Icons library',
           url: '/icons/coreui-icons',
           icon: 'cui-star',
           badge: {
@@ -173,20 +173,6 @@ export default {
         {
           name: 'Flags',
           url: '/icons/flags',
-          icon: 'cui-star'
-        },
-        {
-          name: 'Font Awesome',
-          url: '/icons/font-awesome',
-          icon: 'cui-star',
-          badge: {
-            variant: 'secondary',
-            text: '4.7'
-          }
-        },
-        {
-          name: 'Simple Line Icons',
-          url: '/icons/simple-line-icons',
           icon: 'cui-star'
         }
       ]

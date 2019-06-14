@@ -39,8 +39,6 @@ const BrandButtons = () => import('@/views/buttons/BrandButtons')
 
 // Views - Icons
 const Flags = () => import('@/views/icons/Flags')
-const FontAwesome = () => import('@/views/icons/FontAwesome')
-const SimpleLineIcons = () => import('@/views/icons/SimpleLineIcons')
 const CoreUIIcons = () => import('@/views/icons/CoreUIIcons')
 
 // Views - Notifications
@@ -62,7 +60,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'hash', // https://router.vuejs.org/api/#mode
-  linkActiveClass: 'active',
+  linkActiveClass: 'c-active',
   scrollBehavior: () => ({ y: 0 }),
   routes: [
     {
@@ -247,31 +245,21 @@ export default new Router({
         },
         {
           path: 'icons',
-          redirect: '/icons/font-awesome',
-          name: 'Icons',
+          redirect: '/icons/coreui-icons',
+          name: 'CoreUI Icons',
           component: {
             render (c) { return c('router-view') }
           },
           children: [
             {
               path: 'coreui-icons',
-              name: 'CoreUI Icons',
+              name: 'Icons library',
               component: CoreUIIcons
             },
             {
               path: 'flags',
               name: 'Flags',
               component: Flags
-            },
-            {
-              path: 'font-awesome',
-              name: 'Font Awesome',
-              component: FontAwesome
-            },
-            {
-              path: 'simple-line-icons',
-              name: 'Simple Line Icons',
-              component: SimpleLineIcons
             }
           ]
         },
