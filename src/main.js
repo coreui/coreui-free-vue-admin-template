@@ -12,7 +12,7 @@ import App from './App'
 import router from './router'
 import CoreuiVue from '@coreui/vue/src'
 import { CIconPlugin } from '@coreui/icons/vue'
-import { iconsSet } from './icons.js'
+import { iconsSet } from './assets/icons/icons.js'
 
 // import CoreuiVue from '@coreui/vue'
 // import CoreuiVue from '@coreui/vue/dist/custom.common.js'
