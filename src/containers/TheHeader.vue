@@ -24,10 +24,10 @@
       </CNavItem>
       <DefaultHeaderDropdownAccnt/>
     </CNav>
-    <CSidebarToggler
+    <!-- <CSidebarToggler
       class="c-header-toggler c-d-md-down-none"
       aside
-    />
+    /> -->
   </CHeader>
 </template>
 
