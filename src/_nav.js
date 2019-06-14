@@ -157,18 +157,23 @@ export default {
       icon: 'cui-pie-chart'
     },
     {
-      name: 'CoreUI Icons',
+      name: 'Icons',
       url: '/icons',
       icon: 'cui-star',
       children: [
         {
-          name: 'Icons library',
+          name: 'CoreUI Icons',
           url: '/icons/coreui-icons',
           icon: 'cui-star',
           badge: {
             variant: 'info',
             text: 'NEW'
           }
+        },
+        {
+          name: 'Brands',
+          url: '/icons/brands',
+          icon: 'cui-star'
         },
         {
           name: 'Flags',

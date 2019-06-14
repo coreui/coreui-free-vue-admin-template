@@ -38,8 +38,9 @@ const Dropdowns = () => import('@/views/buttons/Dropdowns')
 const BrandButtons = () => import('@/views/buttons/BrandButtons')
 
 // Views - Icons
-const Flags = () => import('@/views/icons/Flags')
 const CoreUIIcons = () => import('@/views/icons/CoreUIIcons')
+const Brands = () => import('@/views/icons/Brands')
+const Flags = () => import('@/views/icons/Flags')
 
 // Views - Notifications
 const Alerts = () => import('@/views/notifications/Alerts')
@@ -255,6 +256,11 @@ export default new Router({
               path: 'coreui-icons',
               name: 'Icons library',
               component: CoreUIIcons
+            },
+            {
+              path: 'brands',
+              name: 'Brands',
+              component: Brands
             },
             {
               path: 'flags',
