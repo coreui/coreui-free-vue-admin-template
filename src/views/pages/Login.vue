@@ -1,16 +1,13 @@
 <template>
-  <CContainer
-    class="c-d-flex c-align-items-center"
-    style="min-height:100vh;"
-  >
-    <CRow class="c-justify-content-center" >
+  <CContainer class="c-d-flex c-align-items-center c-min-vh-100">
+    <CRow class="c-justify-content-center">
       <CCol md="8">
         <CCardGroup>
           <CCard class="c-p-4">
             <CCardBody>
               <CForm>
                 <h1>Login</h1>
-                <p class="text-muted">Sign In to your account</p>
+                <p class="c-text-muted">Sign In to your account</p>
                 <CFormInput
                   prependHtml="<i class='cui-user'></i>"
                   placeholder="Username"
@@ -42,7 +39,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <CButton
               variant="primary"
-              class="active c-mt-3"
+              class="c-active c-mt-3"
             >
               Register Now!
             </CButton>
