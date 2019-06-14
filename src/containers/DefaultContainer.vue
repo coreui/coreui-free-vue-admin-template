@@ -1,8 +1,8 @@
 <template>
   <div class="c-app c-default-layout">
     <TheHeader/>
+    <TheSidebar/>
     <div class="c-body">
-      <TheSidebar/>
       <main class="c-main">
         <CBreadcrumbRouter/>
         <CContainer fluid>

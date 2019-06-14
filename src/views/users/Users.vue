@@ -11,7 +11,7 @@
             :current-page="currentPage"
             :per-page="perPage"
             @row-clicked="rowClicked"
-            :pagination-props="$options.paginationProps"
+            :pagination="$options.paginationProps"
           >
             <td slot="id" slot-scope="data">
               <strong>{{data.item.id}}</strong>
@@ -51,11 +51,10 @@ export default {
     }
   },
   paginationProps: {
-    // size: 'sm',
     align: 'center',
     hideDoubleArrows: true,
-    previousButtonText: 'prev',
-    nextButtonText: 'next'
+    previousButtonHtml: 'prev',
+    nextButtonHtml: 'next'
   },
   methods: {
     getBadge (status) {

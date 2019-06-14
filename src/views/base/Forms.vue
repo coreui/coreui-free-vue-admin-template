@@ -200,7 +200,7 @@
                   </CCol>
                   <CCol sm="9" :class="key % 2 === 1 ? 'c-form-inline' : ''">
                     <CFormRadio
-                      v-for="(option, optKey) in options"
+                      v-for="option in options"
                       :key="option"
                       :label="option"
                       type="radio"
@@ -853,7 +853,6 @@ export default {
       trueValue:'someTrueValue',
       falseValue:'someFalseValue',
       checks: ['someTrueValue','hehehe2','',1,1,1,1,1,1,1,1,1,1,1,1],
-      selected: 'first',
       isValid: '',
       testkkk: 2,
       horizontal: { label:'col-3', input:'col-9' },
@@ -874,11 +873,6 @@ export default {
     console.log('parent updated')
   },
   methods: {
-    testt (e) {
-      // console.log(e)
-      //   this.selected = 3
-      this.cInput += 100
-    },
     validator (val) {
       return val ? val.length >= 4 : false
     }

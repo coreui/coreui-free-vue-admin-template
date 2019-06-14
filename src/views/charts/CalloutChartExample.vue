@@ -64,12 +64,6 @@ export default {
         }
       }
     }
-  },
-
-  methods: {
-    getVariant (val, el) {
-      return val[0] === '#' ? val : getStyle(`--${val}`, el)
-    }
   }
 }
 </script>

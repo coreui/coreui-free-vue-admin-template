@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import items from '../users/UsersData'
 export default {
   name: 'TableWrapper',
   props: {

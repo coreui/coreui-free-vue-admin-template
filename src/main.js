@@ -10,23 +10,17 @@ import '@babel/polyfill'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import CoreuiVue from '@coreui/vue/src'
+// import CoreuiVue from '@coreui/vue/src'
 import { CIconPlugin } from '@coreui/icons/vue'
 import { iconsSet } from './assets/icons/icons.js'
 
-// import CoreuiVue from '@coreui/vue'
-// import CoreuiVue from '@coreui/vue/dist/custom.common.js'
+import CoreuiVue from '@coreui/vue'
 
 Vue.config.performance = true
-
-// todo
-// cssVars()
 Vue.use(CoreuiVue)
-// console.log(iconsSet)
 Vue.use(CIconPlugin, iconsSet)
 
-/* eslint-disable no-new */
-var vm = new Vue({
+new Vue({
   el: '#app',
   router,
   template: '<App/>',

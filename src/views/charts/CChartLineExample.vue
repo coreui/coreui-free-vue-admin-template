@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import { customTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips'
 import { CChartLine } from '@coreui/coreui-vue-chartjs'
 
 export default {

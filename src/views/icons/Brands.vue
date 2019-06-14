@@ -18,7 +18,7 @@
               class="c-mb-5"
               col="3"
               sm="2"
-              :key="key"
+              :key="brandName"
             >
               <CIcon :height="42" :content="$options.brands[brandName]"/>
               <div>{{brandName}}</div>

@@ -196,9 +196,6 @@ export default {
       dismissSecs: 10,
       dismissCountDown: 10,
       dismissibleAlerts: [true, true, true, true, true],
-      // dismissibleAlert: true,
-      // dismissibleAlert2: true,
-      // dismissibleAlert3: true
     }
   },
   methods: {
@@ -209,12 +206,7 @@ export default {
       this.dismissCountDown = this.dismissSecs
     },
     showDismissibleAlerts () {
-      // this.dismissibleAlert = true
-      // this.dismissibleAlert2 = true
-      // this.dismissibleAlert3 = true
-      this.dismissibleAlerts = this.dismissibleAlerts.map(
-        alert => alert = true
-      )
+      this.dismissibleAlerts = this.dismissibleAlerts.map(el => el = true)
     }
   }
 }

@@ -143,7 +143,7 @@
               <div>
                 <CButtonToolbar
                   aria-label="Toolbar with button groups and input groups"
-                  class="c-d-sm-down-none"c-
+                  class="c-d-sm-down-none"
                 >
                   <CButtonGroup size="sm" class="c-mx-1">
                     <CButton>New</CButton>
