@@ -61,14 +61,12 @@ exports[`Page404.vue renders correctly 1`] = `
           />
            
           <b-input-group-append-stub
-            append="true"
             tag="div"
           >
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
+              tag="button"
               target="_self"
               type="button"
               variant="info"

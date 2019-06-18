@@ -16,8 +16,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -56,8 +59,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -96,8 +102,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -136,8 +145,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -181,8 +193,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-primary"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -221,8 +236,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-warning"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -261,8 +279,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-danger"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -301,8 +322,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-info"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -346,14 +370,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -386,14 +416,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -426,14 +462,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -466,14 +508,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -507,14 +555,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -538,10 +592,8 @@ exports[`Widgets.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-link-stub
-            activeclass="active"
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -567,14 +619,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -598,10 +656,8 @@ exports[`Widgets.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-link-stub
-            activeclass="active"
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -627,14 +683,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -658,10 +720,8 @@ exports[`Widgets.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-link-stub
-            activeclass="active"
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -687,14 +747,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -718,10 +784,8 @@ exports[`Widgets.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-link-stub
-            activeclass="active"
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -750,14 +814,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -790,14 +860,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -830,14 +906,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -870,14 +952,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -910,14 +998,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -950,14 +1044,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -990,14 +1090,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -1030,14 +1136,20 @@ exports[`Widgets.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -1082,8 +1194,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="65,59,84,84,51,55,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1141,8 +1257,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="1,13,9,17,34,41,38"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1200,8 +1320,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="78,81,80,45,34,12,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1259,8 +1383,12 @@ exports[`Widgets.vue renders correctly 1`] = `
             class="chart-wrapper"
           >
             <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="35,23,56,22,97,23,64"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1308,8 +1436,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1346,8 +1477,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1384,8 +1518,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1422,8 +1559,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1459,8 +1599,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1506,8 +1649,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1550,8 +1696,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1594,8 +1743,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1638,8 +1790,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1681,8 +1836,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1725,8 +1883,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1774,8 +1935,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-info"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1818,8 +1982,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-success"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1862,8 +2029,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-warning"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1906,8 +2076,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-primary"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1950,8 +2123,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-danger"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1994,8 +2170,11 @@ exports[`Widgets.vue renders correctly 1`] = `
         class="text-white bg-info"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div

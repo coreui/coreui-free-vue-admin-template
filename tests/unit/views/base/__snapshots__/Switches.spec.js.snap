@@ -16,8 +16,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -27,9 +30,7 @@ exports[`Switches.vue renders correctly 1`] = `
           Switch default
           
           <b-badge-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             tag="span"
             target="_self"
@@ -45,7 +46,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-668"
+          id="switch-id-670"
           name="switch1"
           uncheckedvalue="no"
           value="yes"
@@ -57,7 +58,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-669"
+          id="switch-id-671"
           value="true"
         />
          
@@ -67,7 +68,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-670"
+          id="switch-id-672"
           value="true"
         />
          
@@ -77,7 +78,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-671"
+          id="switch-id-673"
           value="true"
         />
          
@@ -87,7 +88,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-672"
+          id="switch-id-674"
           value="true"
         />
          
@@ -97,7 +98,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-673"
+          id="switch-id-675"
           value="true"
         />
          
@@ -107,7 +108,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-674"
+          id="switch-id-676"
           value="true"
         />
          
@@ -117,7 +118,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-675"
+          id="switch-id-677"
           value="true"
         />
          
@@ -127,7 +128,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-676"
+          id="switch-id-678"
           value="true"
         />
       </b-card-stub>
@@ -142,8 +143,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -160,7 +164,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-677"
+          id="switch-id-679"
           value="true"
           variant="pill"
         />
@@ -171,7 +175,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-678"
+          id="switch-id-680"
           value="true"
           variant="pill"
         />
@@ -182,7 +186,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-679"
+          id="switch-id-681"
           value="true"
           variant="pill"
         />
@@ -193,7 +197,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-680"
+          id="switch-id-682"
           value="true"
           variant="pill"
         />
@@ -204,7 +208,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-681"
+          id="switch-id-683"
           value="true"
           variant="pill"
         />
@@ -215,7 +219,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-682"
+          id="switch-id-684"
           value="true"
           variant="pill"
         />
@@ -226,7 +230,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-683"
+          id="switch-id-685"
           value="true"
           variant="pill"
         />
@@ -237,7 +241,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-684"
+          id="switch-id-686"
           value="true"
           variant="pill"
         />
@@ -248,7 +252,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-685"
+          id="switch-id-687"
           value="true"
           variant="pill"
         />
@@ -264,8 +268,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -282,7 +289,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-686"
+          id="switch-id-688"
           value="true"
           variant="3d"
         />
@@ -293,7 +300,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-687"
+          id="switch-id-689"
           value="true"
           variant="3d"
         />
@@ -304,7 +311,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-688"
+          id="switch-id-690"
           value="true"
           variant="3d"
         />
@@ -315,7 +322,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-689"
+          id="switch-id-691"
           value="true"
           variant="3d"
         />
@@ -326,7 +333,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-690"
+          id="switch-id-692"
           value="true"
           variant="3d"
         />
@@ -337,7 +344,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-691"
+          id="switch-id-693"
           value="true"
           variant="3d"
         />
@@ -348,7 +355,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-692"
+          id="switch-id-694"
           value="true"
           variant="3d"
         />
@@ -359,7 +366,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-693"
+          id="switch-id-695"
           value="true"
           variant="3d"
         />
@@ -370,7 +377,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-694"
+          id="switch-id-696"
           value="true"
           variant="3d"
         />
@@ -386,8 +393,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -409,7 +419,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-695"
+          id="switch-id-697"
           value="true"
           variant="3d"
         />
@@ -421,7 +431,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-696"
+          id="switch-id-698"
           value="true"
           variant="3d"
         />
@@ -433,7 +443,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-697"
+          id="switch-id-699"
           value="true"
           variant="3d"
         />
@@ -445,7 +455,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-698"
+          id="switch-id-700"
           value="true"
           variant="3d"
         />
@@ -457,7 +467,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-699"
+          id="switch-id-701"
           value="true"
           variant="3d"
         />
@@ -469,7 +479,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-700"
+          id="switch-id-702"
           value="true"
           variant="3d"
         />
@@ -481,7 +491,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-701"
+          id="switch-id-703"
           value="true"
           variant="3d"
         />
@@ -493,7 +503,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-702"
+          id="switch-id-704"
           value="true"
           variant="3d"
         />
@@ -504,7 +514,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-703"
+          id="switch-id-705"
           value="true"
           variant="3d"
         />
@@ -520,8 +530,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -542,7 +555,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-704"
+          id="switch-id-706"
           outline="alt"
           value="true"
           variant="3d"
@@ -554,7 +567,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-705"
+          id="switch-id-707"
           outline="alt"
           value="true"
           variant="3d"
@@ -566,7 +579,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-706"
+          id="switch-id-708"
           outline="alt"
           value="true"
           variant="3d"
@@ -578,7 +591,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-707"
+          id="switch-id-709"
           outline="alt"
           value="true"
           variant="3d"
@@ -590,7 +603,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-708"
+          id="switch-id-710"
           outline="alt"
           value="true"
           variant="3d"
@@ -602,7 +615,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-709"
+          id="switch-id-711"
           outline="alt"
           value="true"
           variant="3d"
@@ -614,7 +627,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-710"
+          id="switch-id-712"
           outline="alt"
           value="true"
           variant="3d"
@@ -626,7 +639,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-711"
+          id="switch-id-713"
           outline="alt"
           value="true"
           variant="3d"
@@ -638,7 +651,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-712"
+          id="switch-id-714"
           outline="alt"
           value="true"
           variant="3d"
@@ -655,8 +668,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -677,7 +693,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-713"
+          id="switch-id-715"
           label="true"
           value="true"
           variant="3d"
@@ -689,7 +705,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-714"
+          id="switch-id-716"
           label="true"
           value="true"
           variant="3d"
@@ -701,7 +717,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-715"
+          id="switch-id-717"
           label="true"
           value="true"
           variant="3d"
@@ -713,7 +729,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-716"
+          id="switch-id-718"
           label="true"
           value="true"
           variant="3d"
@@ -725,7 +741,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-717"
+          id="switch-id-719"
           label="true"
           value="true"
           variant="3d"
@@ -737,7 +753,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-718"
+          id="switch-id-720"
           label="true"
           value="true"
           variant="3d"
@@ -749,7 +765,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-719"
+          id="switch-id-721"
           label="true"
           value="true"
           variant="3d"
@@ -761,7 +777,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
-          id="switch-id-720"
+          id="switch-id-722"
           label="true"
           value="true"
           variant="3d"
@@ -773,7 +789,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-721"
+          id="switch-id-723"
           label="true"
           value="true"
           variant="3d"
@@ -790,8 +806,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -809,32 +828,6 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          defaultchecked="true"
-          id="switch-id-722"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <c-switch-stub
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          defaultchecked="true"
-          id="switch-id-723"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <c-switch-stub
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -847,7 +840,7 @@ exports[`Switches.vue renders correctly 1`] = `
          
         <c-switch-stub
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -860,7 +853,7 @@ exports[`Switches.vue renders correctly 1`] = `
          
         <c-switch-stub
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -873,7 +866,7 @@ exports[`Switches.vue renders correctly 1`] = `
          
         <c-switch-stub
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -886,7 +879,7 @@ exports[`Switches.vue renders correctly 1`] = `
          
         <c-switch-stub
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -899,7 +892,7 @@ exports[`Switches.vue renders correctly 1`] = `
          
         <c-switch-stub
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -912,11 +905,37 @@ exports[`Switches.vue renders correctly 1`] = `
          
         <c-switch-stub
           class="mx-1"
+          color="light"
+          dataoff="✕"
+          dataon="✓"
+          defaultchecked="true"
+          id="switch-id-730"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          defaultchecked="true"
+          id="switch-id-731"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
           color="primary"
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-730"
+          id="switch-id-732"
           label="true"
           outline="alt"
           value="true"
@@ -934,8 +953,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -956,7 +978,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-731"
+          id="switch-id-733"
           label="true"
           outline="alt"
           value="true"
@@ -969,7 +991,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-732"
+          id="switch-id-734"
           label="true"
           outline="alt"
           value="true"
@@ -982,7 +1004,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-733"
+          id="switch-id-735"
           label="true"
           outline="alt"
           value="true"
@@ -995,7 +1017,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-734"
+          id="switch-id-736"
           label="true"
           outline="alt"
           value="true"
@@ -1008,7 +1030,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-735"
+          id="switch-id-737"
           label="true"
           outline="alt"
           value="true"
@@ -1021,7 +1043,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-736"
+          id="switch-id-738"
           label="true"
           outline="alt"
           value="true"
@@ -1034,7 +1056,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-737"
+          id="switch-id-739"
           label="true"
           outline="alt"
           value="true"
@@ -1047,7 +1069,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
-          id="switch-id-738"
+          id="switch-id-740"
           label="true"
           outline="alt"
           value="true"
@@ -1060,7 +1082,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-739"
+          id="switch-id-741"
           label="true"
           outline="alt"
           value="true"
@@ -1078,8 +1100,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1100,7 +1125,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-740"
+          id="switch-id-742"
           outline="true"
           value="true"
         />
@@ -1111,7 +1136,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-741"
+          id="switch-id-743"
           outline="true"
           value="true"
         />
@@ -1122,7 +1147,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-742"
+          id="switch-id-744"
           outline="true"
           value="true"
         />
@@ -1133,7 +1158,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-743"
+          id="switch-id-745"
           outline="true"
           value="true"
         />
@@ -1144,7 +1169,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-744"
+          id="switch-id-746"
           outline="true"
           value="true"
         />
@@ -1155,7 +1180,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-745"
+          id="switch-id-747"
           outline="true"
           value="true"
         />
@@ -1166,7 +1191,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-746"
+          id="switch-id-748"
           outline="true"
           value="true"
         />
@@ -1177,7 +1202,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-747"
+          id="switch-id-749"
           outline="true"
           value="true"
         />
@@ -1188,7 +1213,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-748"
+          id="switch-id-750"
           outline="true"
           value="true"
         />
@@ -1204,8 +1229,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1226,7 +1254,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-749"
+          id="switch-id-751"
           outline="true"
           value="true"
           variant="pill"
@@ -1238,7 +1266,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-750"
+          id="switch-id-752"
           outline="true"
           value="true"
           variant="pill"
@@ -1250,7 +1278,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-751"
+          id="switch-id-753"
           outline="true"
           value="true"
           variant="pill"
@@ -1262,7 +1290,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-752"
+          id="switch-id-754"
           outline="true"
           value="true"
           variant="pill"
@@ -1274,7 +1302,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-753"
+          id="switch-id-755"
           outline="true"
           value="true"
           variant="pill"
@@ -1286,7 +1314,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-754"
+          id="switch-id-756"
           outline="true"
           value="true"
           variant="pill"
@@ -1298,7 +1326,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-755"
+          id="switch-id-757"
           outline="true"
           value="true"
           variant="pill"
@@ -1310,7 +1338,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-756"
+          id="switch-id-758"
           outline="true"
           value="true"
           variant="pill"
@@ -1322,7 +1350,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-757"
+          id="switch-id-759"
           outline="true"
           value="true"
           variant="pill"
@@ -1339,8 +1367,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1361,7 +1392,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-758"
+          id="switch-id-760"
           outline="alt"
           value="true"
         />
@@ -1372,7 +1403,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-759"
+          id="switch-id-761"
           outline="alt"
           value="true"
         />
@@ -1383,7 +1414,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-760"
+          id="switch-id-762"
           outline="alt"
           value="true"
         />
@@ -1394,7 +1425,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-761"
+          id="switch-id-763"
           outline="alt"
           value="true"
         />
@@ -1405,7 +1436,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-762"
+          id="switch-id-764"
           outline="alt"
           value="true"
         />
@@ -1416,7 +1447,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-763"
+          id="switch-id-765"
           outline="alt"
           value="true"
         />
@@ -1427,7 +1458,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-764"
+          id="switch-id-766"
           outline="alt"
           value="true"
         />
@@ -1438,7 +1469,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-765"
+          id="switch-id-767"
           outline="alt"
           value="true"
         />
@@ -1449,7 +1480,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-766"
+          id="switch-id-768"
           outline="alt"
           value="true"
         />
@@ -1465,8 +1496,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1487,7 +1521,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-767"
+          id="switch-id-769"
           outline="alt"
           value="true"
           variant="pill"
@@ -1499,7 +1533,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-768"
+          id="switch-id-770"
           outline="alt"
           value="true"
           variant="pill"
@@ -1511,7 +1545,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-769"
+          id="switch-id-771"
           outline="alt"
           value="true"
           variant="pill"
@@ -1523,7 +1557,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-770"
+          id="switch-id-772"
           outline="alt"
           value="true"
           variant="pill"
@@ -1535,7 +1569,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-771"
+          id="switch-id-773"
           outline="alt"
           value="true"
           variant="pill"
@@ -1547,7 +1581,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-772"
+          id="switch-id-774"
           outline="alt"
           value="true"
           variant="pill"
@@ -1559,7 +1593,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-773"
+          id="switch-id-775"
           outline="alt"
           value="true"
           variant="pill"
@@ -1571,7 +1605,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-774"
+          id="switch-id-776"
           outline="alt"
           value="true"
           variant="pill"
@@ -1583,7 +1617,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-775"
+          id="switch-id-777"
           outline="alt"
           value="true"
           variant="pill"
@@ -1600,8 +1634,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1622,7 +1659,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-776"
+          id="switch-id-778"
           label="true"
           value="true"
         />
@@ -1633,7 +1670,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-777"
+          id="switch-id-779"
           label="true"
           value="true"
         />
@@ -1644,7 +1681,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="Off"
           dataon="On"
-          id="switch-id-778"
+          id="switch-id-780"
           label="true"
           value="true"
         />
@@ -1655,7 +1692,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="Off"
           dataon="On"
-          id="switch-id-779"
+          id="switch-id-781"
           label="true"
           value="true"
         />
@@ -1666,7 +1703,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="Off"
           dataon="On"
-          id="switch-id-780"
+          id="switch-id-782"
           label="true"
           value="true"
         />
@@ -1677,7 +1714,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="Off"
           dataon="On"
-          id="switch-id-781"
+          id="switch-id-783"
           label="true"
           value="true"
         />
@@ -1688,7 +1725,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="Off"
           dataon="On"
-          id="switch-id-782"
+          id="switch-id-784"
           label="true"
           value="true"
         />
@@ -1699,7 +1736,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="Off"
           dataon="On"
-          id="switch-id-783"
+          id="switch-id-785"
           label="true"
           value="true"
         />
@@ -1710,7 +1747,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-784"
+          id="switch-id-786"
           label="true"
           value="true"
         />
@@ -1726,8 +1763,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1748,30 +1788,6 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-785"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-786"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
-          dataoff="Off"
-          dataon="On"
           id="switch-id-787"
           label="true"
           value="true"
@@ -1781,7 +1797,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-788"
@@ -1793,7 +1809,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-789"
@@ -1805,7 +1821,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-790"
@@ -1817,7 +1833,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-791"
@@ -1829,10 +1845,34 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-792"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-793"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-794"
           label="true"
           value="true"
           variant="pill"
@@ -1844,7 +1884,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-793"
+          id="switch-id-795"
           label="true"
           value="true"
           variant="pill"
@@ -1861,8 +1901,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1881,30 +1924,6 @@ exports[`Switches.vue renders correctly 1`] = `
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-794"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-795"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-796"
@@ -1916,7 +1935,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-797"
@@ -1928,7 +1947,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-798"
@@ -1940,7 +1959,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-799"
@@ -1952,7 +1971,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-800"
@@ -1964,10 +1983,34 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-801"
+          label="true"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-802"
+          label="true"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-803"
           label="true"
           outline="true"
           value="true"
@@ -1979,7 +2022,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-802"
+          id="switch-id-804"
           label="true"
           outline="true"
           value="true"
@@ -1996,8 +2039,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2016,32 +2062,6 @@ exports[`Switches.vue renders correctly 1`] = `
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-803"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-804"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-805"
@@ -2054,7 +2074,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-806"
@@ -2067,7 +2087,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-807"
@@ -2080,7 +2100,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-808"
@@ -2093,7 +2113,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-809"
@@ -2106,10 +2126,36 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-810"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-811"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-812"
           label="true"
           outline="true"
           value="true"
@@ -2122,7 +2168,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-811"
+          id="switch-id-813"
           label="true"
           outline="true"
           value="true"
@@ -2140,8 +2186,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2160,30 +2209,6 @@ exports[`Switches.vue renders correctly 1`] = `
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-812"
-          label="true"
-          outline="alt"
-          value="true"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-813"
-          label="true"
-          outline="alt"
-          value="true"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-814"
@@ -2195,7 +2220,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-815"
@@ -2207,7 +2232,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-816"
@@ -2219,7 +2244,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-817"
@@ -2231,7 +2256,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-818"
@@ -2243,10 +2268,34 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-819"
+          label="true"
+          outline="alt"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-820"
+          label="true"
+          outline="alt"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-821"
           label="true"
           outline="alt"
           value="true"
@@ -2258,7 +2307,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-820"
+          id="switch-id-822"
           label="true"
           outline="alt"
           value="true"
@@ -2275,8 +2324,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2295,32 +2347,6 @@ exports[`Switches.vue renders correctly 1`] = `
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-821"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-822"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-823"
@@ -2333,7 +2359,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-824"
@@ -2346,7 +2372,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-825"
@@ -2359,7 +2385,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-826"
@@ -2372,7 +2398,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-827"
@@ -2385,10 +2411,36 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-828"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-829"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-830"
           label="true"
           outline="alt"
           value="true"
@@ -2401,7 +2453,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-829"
+          id="switch-id-831"
           label="true"
           outline="alt"
           value="true"
@@ -2419,8 +2471,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2441,7 +2496,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="no"
           dataon="yes"
-          id="switch-id-830"
+          id="switch-id-832"
           label="true"
           value="true"
         />
@@ -2452,7 +2507,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-831"
+          id="switch-id-833"
           label="true"
           value="true"
         />
@@ -2463,7 +2518,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-832"
+          id="switch-id-834"
           label="true"
           value="true"
         />
@@ -2474,7 +2529,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-833"
+          id="switch-id-835"
           label="true"
           value="true"
         />
@@ -2485,7 +2540,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-834"
+          id="switch-id-836"
           label="true"
           value="true"
         />
@@ -2496,7 +2551,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-835"
+          id="switch-id-837"
           label="true"
           value="true"
         />
@@ -2507,7 +2562,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-836"
+          id="switch-id-838"
           label="true"
           value="true"
         />
@@ -2518,7 +2573,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-837"
+          id="switch-id-839"
           label="true"
           value="true"
         />
@@ -2529,7 +2584,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-838"
+          id="switch-id-840"
           label="true"
           value="true"
         />
@@ -2545,8 +2600,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2567,30 +2625,6 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-839"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-840"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
-          dataoff="✕"
-          dataon="✓"
           id="switch-id-841"
           label="true"
           value="true"
@@ -2600,7 +2634,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-842"
@@ -2612,7 +2646,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-843"
@@ -2624,7 +2658,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-844"
@@ -2636,7 +2670,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-845"
@@ -2648,10 +2682,34 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-846"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-847"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-848"
           label="true"
           value="true"
           variant="pill"
@@ -2663,7 +2721,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-847"
+          id="switch-id-849"
           label="true"
           value="true"
           variant="pill"
@@ -2680,8 +2738,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2700,30 +2761,6 @@ exports[`Switches.vue renders correctly 1`] = `
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-848"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-849"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-850"
@@ -2735,7 +2772,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-851"
@@ -2747,7 +2784,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-852"
@@ -2759,7 +2796,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-853"
@@ -2771,7 +2808,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-854"
@@ -2783,10 +2820,34 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-855"
+          label="true"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-856"
+          label="true"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-857"
           label="true"
           outline="true"
           value="true"
@@ -2798,7 +2859,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-856"
+          id="switch-id-858"
           label="true"
           outline="true"
           value="true"
@@ -2815,8 +2876,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2835,32 +2899,6 @@ exports[`Switches.vue renders correctly 1`] = `
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-857"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-858"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <c-switch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-859"
@@ -2873,7 +2911,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-860"
@@ -2886,7 +2924,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-861"
@@ -2899,7 +2937,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-862"
@@ -2912,7 +2950,7 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-863"
@@ -2925,10 +2963,36 @@ exports[`Switches.vue renders correctly 1`] = `
         <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-864"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-865"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-866"
           label="true"
           outline="true"
           value="true"
@@ -2941,7 +3005,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-865"
+          id="switch-id-867"
           label="true"
           outline="true"
           value="true"
@@ -2959,8 +3023,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2981,7 +3048,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-866"
+          id="switch-id-868"
           label="true"
           outline="alt"
           value="true"
@@ -2993,7 +3060,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-867"
+          id="switch-id-869"
           label="true"
           outline="alt"
           value="true"
@@ -3005,7 +3072,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-868"
+          id="switch-id-870"
           label="true"
           outline="alt"
           value="true"
@@ -3017,7 +3084,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-869"
+          id="switch-id-871"
           label="true"
           outline="alt"
           value="true"
@@ -3029,7 +3096,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-870"
+          id="switch-id-872"
           label="true"
           outline="alt"
           value="true"
@@ -3041,7 +3108,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-871"
+          id="switch-id-873"
           label="true"
           outline="alt"
           value="true"
@@ -3053,7 +3120,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-872"
+          id="switch-id-874"
           label="true"
           outline="alt"
           value="true"
@@ -3065,7 +3132,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-873"
+          id="switch-id-875"
           label="true"
           outline="alt"
           value="true"
@@ -3077,7 +3144,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-874"
+          id="switch-id-876"
           label="true"
           outline="alt"
           value="true"
@@ -3094,8 +3161,11 @@ exports[`Switches.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3116,7 +3186,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="primary"
           dataoff="no"
           dataon="yes"
-          id="switch-id-875"
+          id="switch-id-877"
           label="true"
           outline="alt"
           value="true"
@@ -3129,7 +3199,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="secondary"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-876"
+          id="switch-id-878"
           label="true"
           outline="alt"
           value="true"
@@ -3142,7 +3212,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="success"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-877"
+          id="switch-id-879"
           label="true"
           outline="alt"
           value="true"
@@ -3155,7 +3225,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="warning"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-878"
+          id="switch-id-880"
           label="true"
           outline="alt"
           value="true"
@@ -3168,7 +3238,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="info"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-879"
+          id="switch-id-881"
           label="true"
           outline="alt"
           value="true"
@@ -3181,7 +3251,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="danger"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-880"
+          id="switch-id-882"
           label="true"
           outline="alt"
           value="true"
@@ -3194,7 +3264,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="light"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-881"
+          id="switch-id-883"
           label="true"
           outline="alt"
           value="true"
@@ -3207,7 +3277,7 @@ exports[`Switches.vue renders correctly 1`] = `
           color="dark"
           dataoff="✕"
           dataon="✓"
-          id="switch-id-882"
+          id="switch-id-884"
           label="true"
           outline="alt"
           value="true"
@@ -3220,7 +3290,7 @@ exports[`Switches.vue renders correctly 1`] = `
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-883"
+          id="switch-id-885"
           label="true"
           outline="alt"
           value="true"
@@ -3238,8 +3308,11 @@ exports[`Switches.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3253,7 +3326,10 @@ exports[`Switches.vue renders correctly 1`] = `
         <b-card-body-stub
           bodytag="div"
           class="p-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-table-stub
@@ -3263,14 +3339,16 @@ exports[`Switches.vue renders correctly 1`] = `
             emptyfilteredtext="There are no records matching your request"
             emptytext="There are no records to show"
             fields="[object Object],[object Object],[object Object]"
-            footvariant=""
-            headvariant=""
             hover="true"
             items="[object Object],[object Object],[object Object]"
             labelsortasc="Click to sort Ascending"
+            labelsortclear="Click to clear sorting"
             labelsortdesc="Click to sort Descending"
             perpage="0"
             responsive="sm"
+            selectedvariant="primary"
+            selectmode="multi"
+            sortby=""
             sortdirection="asc"
             striped="true"
             value=""

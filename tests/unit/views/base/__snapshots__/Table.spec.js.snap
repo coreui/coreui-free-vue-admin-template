@@ -6,8 +6,11 @@ exports[`Table.vue renders correctly 1`] = `
   footertag="div"
   header="Table"
   headertag="div"
+  subtitle=""
   subtitletag="h6"
+  subtitletextvariant="muted"
   tag="div"
+  title=""
   titletag="h4"
 >
   <b-table-stub
@@ -16,24 +19,39 @@ exports[`Table.vue renders correctly 1`] = `
     emptyfilteredtext="There are no records matching your request"
     emptytext="There are no records to show"
     fields=""
-    footvariant=""
-    headvariant=""
     items=""
     labelsortasc="Click to sort Ascending"
+    labelsortclear="Click to clear sorting"
     labelsortdesc="Click to sort Descending"
     perpage="5"
     responsive="sm"
+    selectedvariant="primary"
+    selectmode="multi"
+    sortby=""
     sortdirection="asc"
     value=""
   />
    
   <nav>
     <b-pagination-stub
-      hide-goto-end-buttons=""
-      next-text="Next"
+      align="left"
+      arialabel="Pagination"
+      ellipsistext="…"
+      firsttext="«"
+      hidegotoendbuttons="true"
+      labelfirstpage="Go to first page"
+      labellastpage="Go to last page"
+      labelnextpage="Go to next page"
+      labelpage="Go to page"
+      labelprevpage="Go to previous page"
+      lasttext="»"
+      limit="5"
+      nexttext="Next"
       perpage="5"
-      prev-text="Prev"
+      prevtext="Prev"
+      size="md"
       totalrows="0"
+      value="1"
     />
   </nav>
 </b-card-stub>

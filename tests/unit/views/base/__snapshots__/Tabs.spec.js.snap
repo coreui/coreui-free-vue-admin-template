@@ -16,8 +16,11 @@ exports[`Tabs.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -90,8 +93,11 @@ exports[`Tabs.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -181,8 +187,11 @@ exports[`Tabs.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -279,8 +288,11 @@ exports[`Tabs.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -296,8 +308,11 @@ exports[`Tabs.vue renders correctly 1`] = `
           footertag="div"
           headertag="div"
           nobody="true"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <b-tabs-stub

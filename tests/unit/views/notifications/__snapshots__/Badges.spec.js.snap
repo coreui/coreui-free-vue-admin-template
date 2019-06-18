@@ -16,6 +16,7 @@ exports[`Badges.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -48,6 +49,8 @@ exports[`Badges.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <h2>
@@ -116,6 +119,7 @@ exports[`Badges.vue renders correctly 1`] = `
               </button>
             </div>
           </footer>
+          <!---->
         </div>
       </div>
        
@@ -125,22 +129,19 @@ exports[`Badges.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
             <div>
-              <i
-                class="fa fa-align-justify"
-              />
-               Badge 
-              <small>
-                contextual variations
-              </small>
+              &lt;i class='fa fa-align-justify'&gt;&lt;/i&gt; Badge &lt;small&gt;contextual variations&lt;/small&gt;
             </div>
           </header>
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
             <div>
               <span
                 class="badge badge-primary"
@@ -191,27 +192,26 @@ exports[`Badges.vue renders correctly 1`] = `
               </span>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
          
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
             <div>
-              <i
-                class="fa fa-align-justify"
-              />
-               Badge 
-              <small>
-                pills
-              </small>
+              &lt;i class='fa fa-align-justify'&gt;&lt;/i&gt; Badge &lt;small&gt;pills&lt;/small&gt;
             </div>
           </header>
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
             <div>
               <span
                 class="badge badge-primary badge-pill"
@@ -262,27 +262,26 @@ exports[`Badges.vue renders correctly 1`] = `
               </span>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
          
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
             <div>
-              <i
-                class="fa fa-align-justify"
-              />
-               Badge 
-              <small>
-                actionable
-              </small>
+              &lt;i class='fa fa-align-justify'&gt;&lt;/i&gt; Badge &lt;small&gt;actionable&lt;/small&gt;
             </div>
           </header>
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
             <div>
               <a
                 class="badge badge-primary"
@@ -349,6 +348,8 @@ exports[`Badges.vue renders correctly 1`] = `
               </a>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
     </div>

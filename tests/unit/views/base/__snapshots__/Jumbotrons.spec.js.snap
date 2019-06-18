@@ -17,8 +17,11 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -64,11 +67,10 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
               </p>
                
               <b-btn-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -87,8 +89,11 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -139,11 +144,10 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
               </p>
                
               <b-btn-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -152,11 +156,10 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
               </b-btn-stub>
                
               <b-btn-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="success"
@@ -179,8 +182,11 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div

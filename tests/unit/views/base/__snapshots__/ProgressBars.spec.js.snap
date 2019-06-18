@@ -11,8 +11,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -76,13 +79,13 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         </b-progress-stub>
          
         <b-btn-stub
-          activeclass="active"
           class="mt-4"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
+          variant="secondary"
         >
           Click me
         </b-btn-stub>
@@ -93,8 +96,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -178,8 +184,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -239,8 +248,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -305,8 +317,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -471,8 +486,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -527,10 +545,9 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         />
          
         <b-button-stub
-          activeclass="active"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="secondary"
@@ -546,8 +563,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -605,10 +625,9 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         />
          
         <b-button-stub
-          activeclass="active"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="secondary"
@@ -624,8 +643,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div

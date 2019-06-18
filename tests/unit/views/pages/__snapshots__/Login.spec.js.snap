@@ -24,13 +24,19 @@ exports[`Login.vue renders correctly 1`] = `
             footertag="div"
             headertag="div"
             nobody="true"
+            subtitle=""
             subtitletag="h6"
+            subtitletextvariant="muted"
             tag="div"
+            title=""
             titletag="h4"
           >
             <b-card-body-stub
               bodytag="div"
+              subtitle=""
               subtitletag="h6"
+              subtitletextvariant="muted"
+              title=""
               titletag="h4"
             >
               <b-form-stub>
@@ -65,6 +71,7 @@ exports[`Login.vue renders correctly 1`] = `
                     class="form-control"
                     placeholder="Username"
                     type="text"
+                    value=""
                   />
                 </b-input-group-stub>
                  
@@ -89,6 +96,7 @@ exports[`Login.vue renders correctly 1`] = `
                     class="form-control"
                     placeholder="Password"
                     type="password"
+                    value=""
                   />
                 </b-input-group-stub>
                  
@@ -100,11 +108,10 @@ exports[`Login.vue renders correctly 1`] = `
                     tag="div"
                   >
                     <b-button-stub
-                      activeclass="active"
                       class="px-4"
                       event="click"
-                      exactactiveclass="active"
                       routertag="a"
+                      tag="button"
                       target="_self"
                       type="button"
                       variant="primary"
@@ -119,11 +126,10 @@ exports[`Login.vue renders correctly 1`] = `
                     tag="div"
                   >
                     <b-button-stub
-                      activeclass="active"
                       class="px-0"
                       event="click"
-                      exactactiveclass="active"
                       routertag="a"
+                      tag="button"
                       target="_self"
                       type="button"
                       variant="link"
@@ -142,14 +148,20 @@ exports[`Login.vue renders correctly 1`] = `
             footertag="div"
             headertag="div"
             nobody="true"
+            subtitle=""
             subtitletag="h6"
+            subtitletextvariant="muted"
             tag="div"
+            title=""
             titletag="h4"
           >
             <b-card-body-stub
               bodytag="div"
               class="text-center"
+              subtitle=""
               subtitletag="h6"
+              subtitletextvariant="muted"
+              title=""
               titletag="h4"
             >
               <div>
@@ -162,11 +174,10 @@ exports[`Login.vue renders correctly 1`] = `
                 </p>
                  
                 <b-button-stub
-                  activeclass="active"
                   class="active mt-3"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
+                  tag="button"
                   target="_self"
                   type="button"
                   variant="primary"

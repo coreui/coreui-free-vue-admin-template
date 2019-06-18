@@ -18,8 +18,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -54,9 +57,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -65,9 +66,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -76,9 +75,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -87,9 +84,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -98,9 +93,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -119,8 +112,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -141,9 +137,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -153,9 +147,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
              
             <b-list-group-item-stub
               active="true"
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -164,9 +156,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -175,9 +165,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -186,9 +174,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -211,8 +197,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -233,10 +222,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -245,9 +232,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -256,9 +241,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -267,10 +250,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -279,9 +260,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -300,8 +279,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -322,9 +304,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#some-link"
               routertag="a"
               tag="div"
@@ -335,9 +315,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
              
             <b-list-group-item-stub
               active="true"
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -347,9 +325,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -359,10 +335,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#foobar"
               routertag="a"
               tag="div"
@@ -386,8 +360,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -408,10 +385,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -420,10 +395,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -432,11 +405,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               button="true"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -445,10 +416,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -467,8 +436,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -489,10 +461,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -501,9 +471,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               Cras justo odio
               
               <b-badge-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
@@ -515,10 +483,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -527,9 +493,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               Dapibus ac facilisis in
               
               <b-badge-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
@@ -541,10 +505,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -553,9 +515,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               Morbi leo risus
               
               <b-badge-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
@@ -581,8 +541,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -603,9 +566,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -614,9 +575,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -626,9 +585,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -638,9 +595,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -650,9 +605,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -662,9 +615,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -674,9 +625,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -686,9 +635,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -698,9 +645,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -720,8 +665,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -742,9 +690,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             tag="div"
           >
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -754,9 +700,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -767,9 +711,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -780,9 +722,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -793,9 +733,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -806,9 +744,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -819,9 +755,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -832,9 +766,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -845,9 +777,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -872,8 +802,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -899,17 +832,18 @@ exports[`ListGroups.vue renders correctly 1`] = `
               footertag="div"
               header=<b>Card with list group</b>
               headertag="div"
+              subtitle=""
               subtitletag="h6"
+              subtitletextvariant="muted"
               tag="div"
+              title=""
               titletag="h4"
             >
               <b-list-group-stub
                 tag="div"
               >
                 <b-list-group-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
@@ -919,9 +853,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 </b-list-group-item-stub>
                  
                 <b-list-group-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
@@ -931,9 +863,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 </b-list-group-item-stub>
                  
                 <b-list-group-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
@@ -961,8 +891,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
               header=<b>Card with flush list group</b>
               headertag="div"
               nobody="true"
+              subtitle=""
               subtitletag="h6"
+              subtitletextvariant="muted"
               tag="div"
+              title=""
               titletag="h4"
             >
               <b-list-group-stub
@@ -970,9 +903,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 tag="div"
               >
                 <b-list-group-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
@@ -982,9 +913,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 </b-list-group-item-stub>
                  
                 <b-list-group-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
@@ -994,9 +923,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 </b-list-group-item-stub>
                  
                 <b-list-group-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
@@ -1008,7 +935,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
                
               <b-card-body-stub
                 bodytag="div"
+                subtitle=""
                 subtitletag="h6"
+                subtitletextvariant="muted"
+                title=""
                 titletag="h4"
               >
                 
@@ -1035,8 +965,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -1058,10 +991,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
           >
             <b-list-group-item-stub
               active="true"
-              activeclass="active"
               class="flex-column align-items-start"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -1096,10 +1027,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               class="flex-column align-items-start"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -1138,11 +1067,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </b-list-group-item-stub>
              
             <b-list-group-item-stub
-              activeclass="active"
               class="flex-column align-items-start"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"

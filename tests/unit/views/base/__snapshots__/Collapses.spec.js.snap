@@ -16,6 +16,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -48,12 +49,14 @@ exports[`Collapses.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <button
                 aria-controls="collapse1"
                 aria-expanded="false"
-                class="btn btn-primary collapsed"
+                class="btn btn-primary"
                 type="button"
               >
                 Toggle Collapse
@@ -67,9 +70,13 @@ exports[`Collapses.vue renders correctly 1`] = `
                 <div
                   class="card"
                 >
+                  <!---->
+                  <!---->
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     <p
                       class="card-text"
                     >
@@ -79,7 +86,7 @@ exports[`Collapses.vue renders correctly 1`] = `
                     <button
                       aria-controls="collapse1_inner"
                       aria-expanded="false"
-                      class="btn btn-secondary btn-sm collapsed"
+                      class="btn btn-secondary btn-sm"
                       type="button"
                     >
                       Toggle Inner Collapse
@@ -93,18 +100,28 @@ exports[`Collapses.vue renders correctly 1`] = `
                       <div
                         class="card"
                       >
+                        <!---->
+                        <!---->
                         <div
                           class="card-body"
                         >
+                          <!---->
+                          <!---->
                           Hello!
                         </div>
+                        <!---->
+                        <!---->
                       </div>
                     </div>
                   </div>
+                  <!---->
+                  <!---->
                 </div>
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -114,6 +131,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -137,12 +155,14 @@ exports[`Collapses.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <button
                 aria-controls="collapse2"
                 aria-expanded="false"
-                class="btn m-1 btn-secondary collapsed"
+                class="btn m-1 btn-secondary"
                 type="button"
               >
                 Toggle Collapse
@@ -151,7 +171,7 @@ exports[`Collapses.vue renders correctly 1`] = `
               <button
                 aria-controls="collapse2"
                 aria-expanded="false"
-                class="btn m-1 btn-secondary collapsed"
+                class="btn m-1 btn-secondary"
                 type="button"
               >
                 Toggle Collapse
@@ -165,17 +185,25 @@ exports[`Collapses.vue renders correctly 1`] = `
                 <div
                   class="card"
                 >
+                  <!---->
+                  <!---->
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     
                 I am collapsible content!
               
                   </div>
+                  <!---->
+                  <!---->
                 </div>
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
     </div>
@@ -189,6 +217,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -211,11 +240,13 @@ exports[`Collapses.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <button
                 aria-controls="collapse3"
-                aria-expanded="true"
+                aria-expanded="false"
                 class="btn m-1 btn-secondary"
                 type="button"
               >
@@ -229,17 +260,25 @@ exports[`Collapses.vue renders correctly 1`] = `
                 <div
                   class="card"
                 >
+                  <!---->
+                  <!---->
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     
                 I should start open!
               
                   </div>
+                  <!---->
+                  <!---->
                 </div>
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -249,6 +288,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -271,6 +311,8 @@ exports[`Collapses.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <button
@@ -291,17 +333,25 @@ exports[`Collapses.vue renders correctly 1`] = `
                 <div
                   class="card"
                 >
+                  <!---->
+                  <!---->
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     
                 I should start open!
               
                   </div>
+                  <!---->
+                  <!---->
                 </div>
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
     </div>
@@ -315,6 +365,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -334,12 +385,14 @@ exports[`Collapses.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <button
                 aria-controls="collapseA collapseB"
                 aria-expanded="false"
-                class="btn btn-secondary collapsed"
+                class="btn btn-secondary"
                 type="button"
               >
                 Toggle Both Collapse A and B
@@ -353,13 +406,19 @@ exports[`Collapses.vue renders correctly 1`] = `
                 <div
                   class="card"
                 >
+                  <!---->
+                  <!---->
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     
                 I am collapsable content A!
               
                   </div>
+                  <!---->
+                  <!---->
                 </div>
               </div>
                
@@ -371,17 +430,25 @@ exports[`Collapses.vue renders correctly 1`] = `
                 <div
                   class="card"
                 >
+                  <!---->
+                  <!---->
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     
                 I am collapsable content B!
               
                   </div>
+                  <!---->
+                  <!---->
                 </div>
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -391,6 +458,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -413,6 +481,8 @@ exports[`Collapses.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div
               role="tablist"
@@ -420,13 +490,15 @@ exports[`Collapses.vue renders correctly 1`] = `
               <div
                 class="card mb-1"
               >
+                <!---->
+                <!---->
                 <header
                   class="card-header p-1"
                   role="tab"
                 >
                   <a
                     aria-controls="accordion1"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     class="btn btn-info btn-block"
                     href="#"
                     role="button"
@@ -444,6 +516,8 @@ exports[`Collapses.vue renders correctly 1`] = `
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     <p
                       class="card-text"
                     >
@@ -476,11 +550,15 @@ exports[`Collapses.vue renders correctly 1`] = `
                     </p>
                   </div>
                 </div>
+                <!---->
+                <!---->
               </div>
                
               <div
                 class="card mb-1"
               >
+                <!---->
+                <!---->
                 <header
                   class="card-header p-1"
                   role="tab"
@@ -488,7 +566,7 @@ exports[`Collapses.vue renders correctly 1`] = `
                   <a
                     aria-controls="accordion2"
                     aria-expanded="false"
-                    class="btn btn-info btn-block collapsed"
+                    class="btn btn-info btn-block"
                     href="#"
                     role="button"
                     target="_self"
@@ -506,6 +584,8 @@ exports[`Collapses.vue renders correctly 1`] = `
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     <p
                       class="card-text"
                     >
@@ -524,11 +604,15 @@ exports[`Collapses.vue renders correctly 1`] = `
                     </p>
                   </div>
                 </div>
+                <!---->
+                <!---->
               </div>
                
               <div
                 class="card mb-1"
               >
+                <!---->
+                <!---->
                 <header
                   class="card-header p-1"
                   role="tab"
@@ -536,7 +620,7 @@ exports[`Collapses.vue renders correctly 1`] = `
                   <a
                     aria-controls="accordion3"
                     aria-expanded="false"
-                    class="btn btn-info btn-block collapsed"
+                    class="btn btn-info btn-block"
                     href="#"
                     role="button"
                     target="_self"
@@ -554,6 +638,8 @@ exports[`Collapses.vue renders correctly 1`] = `
                   <div
                     class="card-body"
                   >
+                    <!---->
+                    <!---->
                     <p
                       class="card-text"
                     >
@@ -572,9 +658,13 @@ exports[`Collapses.vue renders correctly 1`] = `
                     </p>
                   </div>
                 </div>
+                <!---->
+                <!---->
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
     </div>

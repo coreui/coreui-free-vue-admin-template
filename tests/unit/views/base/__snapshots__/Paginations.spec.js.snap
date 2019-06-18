@@ -11,8 +11,11 @@ exports[`Paginations.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -49,9 +52,23 @@ exports[`Paginations.vue renders correctly 1`] = `
         </h6>
          
         <b-pagination-stub
+          align="left"
+          arialabel="Pagination"
+          ellipsistext="…"
+          firsttext="«"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
+          nexttext="›"
           perpage="10"
+          prevtext="‹"
           size="md"
           totalrows="100"
+          value="3"
         />
          
         <br />
@@ -61,9 +78,23 @@ exports[`Paginations.vue renders correctly 1`] = `
         </h6>
          
         <b-pagination-stub
+          align="left"
+          arialabel="Pagination"
+          ellipsistext="…"
+          firsttext="«"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
+          nexttext="›"
           perpage="10"
+          prevtext="‹"
           size="sm"
           totalrows="100"
+          value="3"
         />
          
         <br />
@@ -76,9 +107,23 @@ exports[`Paginations.vue renders correctly 1`] = `
           </h6>
            
           <b-pagination-stub
+            align="left"
+            arialabel="Pagination"
+            ellipsistext="…"
+            firsttext="«"
+            labelfirstpage="Go to first page"
+            labellastpage="Go to last page"
+            labelnextpage="Go to next page"
+            labelpage="Go to page"
+            labelprevpage="Go to previous page"
+            lasttext="»"
+            limit="5"
+            nexttext="›"
             perpage="10"
+            prevtext="‹"
             size="lg"
             totalrows="100"
+            value="3"
           />
            
           <br />
@@ -94,8 +139,11 @@ exports[`Paginations.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -119,8 +167,23 @@ exports[`Paginations.vue renders correctly 1`] = `
         </h6>
          
         <b-pagination-stub
+          align="left"
+          arialabel="Pagination"
+          ellipsistext="…"
+          firsttext="«"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
+          nexttext="›"
           perpage="10"
+          prevtext="‹"
+          size="md"
           totalrows="100"
+          value="3"
         />
          
         <br />
@@ -131,8 +194,22 @@ exports[`Paginations.vue renders correctly 1`] = `
          
         <b-pagination-stub
           align="center"
+          arialabel="Pagination"
+          ellipsistext="…"
+          firsttext="«"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
+          nexttext="›"
           perpage="10"
+          prevtext="‹"
+          size="md"
           totalrows="100"
+          value="3"
         />
          
         <br />
@@ -143,8 +220,22 @@ exports[`Paginations.vue renders correctly 1`] = `
          
         <b-pagination-stub
           align="right"
+          arialabel="Pagination"
+          ellipsistext="…"
+          firsttext="«"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
+          nexttext="›"
           perpage="10"
+          prevtext="‹"
+          size="md"
           totalrows="100"
+          value="3"
         />
          
         <br />
@@ -159,8 +250,11 @@ exports[`Paginations.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -184,9 +278,23 @@ exports[`Paginations.vue renders correctly 1`] = `
         </h6>
          
         <b-pagination-nav-stub
-          activeclass="active"
+          align="left"
+          arialabel="Pagination"
           baseurl="#"
+          ellipsistext="…"
+          firsttext="«"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
+          nexttext="›"
           numberofpages="10"
+          prevtext="‹"
+          size="md"
+          value="3"
         />
          
         <h6
@@ -196,10 +304,24 @@ exports[`Paginations.vue renders correctly 1`] = `
         </h6>
          
         <b-pagination-nav-stub
-          activeclass="active"
+          align="left"
+          arialabel="Pagination"
           baseurl="/"
+          ellipsistext="…"
+          firsttext="«"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
           linkgen="function () { [native code] }"
+          nexttext="›"
           numberofpages="10"
+          prevtext="‹"
+          size="md"
+          value="3"
         />
          
         <br />

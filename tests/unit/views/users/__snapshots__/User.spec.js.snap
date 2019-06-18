@@ -14,8 +14,11 @@ exports[`User.vue renders correctly 1`] = `
       footertag="div"
       headertag="div"
       no-header=""
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <template>
@@ -31,14 +34,16 @@ exports[`User.vue renders correctly 1`] = `
         emptytext="There are no records to show"
         fields="[object Object],[object Object]"
         fixed="true"
-        footvariant=""
-        headvariant=""
         items="[object Object]"
         labelsortasc="Click to sort Ascending"
+        labelsortclear="Click to clear sorting"
         labelsortdesc="Click to sort Descending"
         perpage="0"
         responsive="sm"
+        selectedvariant="primary"
+        selectmode="multi"
         small="true"
+        sortby=""
         sortdirection="asc"
         striped="true"
         value=""
@@ -46,12 +51,12 @@ exports[`User.vue renders correctly 1`] = `
        
       <template>
         <b-button-stub
-          activeclass="active"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
+          variant="secondary"
         >
           Back
         </b-button-stub>

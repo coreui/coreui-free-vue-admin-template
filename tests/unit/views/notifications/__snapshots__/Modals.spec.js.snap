@@ -19,16 +19,18 @@ exports[`Modals.vue renders correctly 1`] = `
           footertag="div"
           header=<i class='fa fa-align-justify'></i> Bootstrap Modals
           headertag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="secondary"
@@ -37,11 +39,10 @@ exports[`Modals.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="secondary"
@@ -50,11 +51,10 @@ exports[`Modals.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="secondary"
@@ -65,11 +65,10 @@ exports[`Modals.vue renders correctly 1`] = `
           <hr />
            
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="primary"
@@ -78,11 +77,10 @@ exports[`Modals.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="success"
@@ -91,11 +89,10 @@ exports[`Modals.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="warning"
@@ -104,11 +101,10 @@ exports[`Modals.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="danger"
@@ -117,11 +113,10 @@ exports[`Modals.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="info"
