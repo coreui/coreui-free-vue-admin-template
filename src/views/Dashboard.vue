@@ -452,14 +452,12 @@
 import MainChartExample from './charts/MainChartExample'
 import WidgetsDropdown from './widgets/WidgetsDropdown'
 import WidgetsSocial from './widgets/WidgetsSocial'
-import CalloutChartExample from './charts/CalloutChartExample'
 import CChartLineSimple from './charts/CChartLineSimple'
 
 export default {
   name: 'Dashboard',
   components: {
     MainChartExample,
-    CalloutChartExample,
     WidgetsDropdown,
     WidgetsSocial,
     CChartLineSimple
