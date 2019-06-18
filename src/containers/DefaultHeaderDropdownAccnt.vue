@@ -1,63 +1,62 @@
 <template>
   <CDropdown
-    right
     nav
-    noCaret
-    noPopper
-    addMenuClasses="dropdown-menu-right"
+    no-caret
+    no-popper
+    add-menu-classes="c-dropdown-menu-right"
   >
-    <template #buttonContent>
+    <template #button-content>
       <img
         src="img/avatars/6.jpg"
-        class="img-avatar"
+        class="c-img-avatar"
         alt="admin@bootstrapmaster.com"
       />
     </template>
-    <CDropdownHeader tag="div" class="text-center">
+    <CDropdownHeader tag="div" class="c-text-center">
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <i class="fa fa-bell-o" /> Updates
-      <CBadge variant="info" additionalClasses="hehe">{{ itemsCount }}</CBadge>
+      <i class="cui-bell"/> Updates
+      <CBadge variant="info" additional-classes="hehe">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="fa fa-envelope-o" /> Messages
+      <i class="cui-envelope-open" /> Messages
       <CBadge variant="success">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="fa fa-tasks" /> Tasks
+      <i class="cui-task" /> Tasks
       <CBadge variant="danger">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="fa fa-comments" /> Comments
+      <i class="cui-comment-square" /> Comments
       <CBadge variant="warning">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
-      tag="div"
-      class="text-center"
+     tag="div"
+      class="c-text-center"
     >
       <strong>Settings</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <i class="fa fa-user" /> Profile
+      <i class="cui-user" /> Profile
     </CDropdownItem>
     <CDropdownItem>
-      <i class="fa fa-wrench" /> Settings
+      <i class="cui-wrench" /> Settings
     </CDropdownItem>
     <CDropdownItem>
-      <i class="fa fa-usd" /> Payments
+      <i class="cui-dollar" /> Payments
       <CBadge variant="secondary">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="fa fa-file" /> Projects
+      <i class="cui-file" /> Projects
       <CBadge variant="primary">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
     <CDropdownItem>
-      <i class="fa fa-shield" /> Lock Account
+      <i class="cui-shield" /> Lock Account
     </CDropdownItem>
     <CDropdownItem>
-      <i class="fa fa-lock" /> Logout
+      <i class="cui-lock-locked" /> Logout
     </CDropdownItem>
   </CDropdown>
 </template>

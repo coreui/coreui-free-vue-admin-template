@@ -1,8 +1,8 @@
 <template functional>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div>
       <CRow>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
@@ -22,12 +22,13 @@
             </CCardBody>
             <CCardFooter>
               <CButton variant="primary">
-                Notifications <CBadge variant="light" :style="{position: 'static'}">4</CBadge>
+                Notifications
+                <CBadge variant="light" :style="{position: 'static'}">4</CBadge>
               </CButton>
             </CCardFooter>
           </CCard>
         </CCol>
-        <CCol cols="12" md="6">
+        <CCol col="12" md="6">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Badge

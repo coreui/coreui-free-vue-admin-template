@@ -1,57 +1,43 @@
 <template>
-  <div class="animated fadeIn">
-    <CCardGroup columns class="card-columns">
-      <CCard header="Line Chart" bodyWrapper>
-        <LineExample/>
+  <div>
+    <CCardGroup columns class="c-card-columns c-cols-2">
+      <CCard header-html="Line Chart" body-wrapper>
+        <CChartLineExample/>
       </CCard>
-      <CCard header="Bar Chart" bodyWrapper>
-        <BarExample/>
+      <CCard header-html="Bar Chart" body-wrapper>
+        <CChartBarExample/>
       </CCard>
-      <CCard header="Doughnut Chart" bodyWrapper>
-        <DoughnutExample/>
+      <CCard header-html="Doughnut Chart" body-wrapper>
+        <CChartDoughnutExample/>
       </CCard>
-      <CCard header="Radar Chart" bodyWrapper>
-        <RadarExample/>
+      <CCard header-html="Radar Chart" body-wrapper>
+        <CChartRadarExample/>
       </CCard>
-      <CCard header="Pie Chart" bodyWrapper>
-        <PieExample/>
+      <CCard header-html="Pie Chart" body-wrapper>
+        <CChartPieExample/>
       </CCard>
-      <CCard header="Polar Area Chart" bodyWrapper>
-        <PolarAreaExample/>
+      <CCard header-html="Polar Area Chart" body-wrapper>
+        <CChartPolarAreaExample/>
       </CCard>
-      <CCard header="Simple line chart" bodyWrapper>
-        <CSimpleLineChart style="height:80px" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                     label='Sales' borderColor='success'/>
+      <CCard header-html="Simple line chart" body-wrapper>
+        <CChartLineSimple border-color="success" labels="months"/>
       </CCard>
-      <CCard header="Simple pointed chart" bodyWrapper>
-        <CSimplePointedChart class='px-3' :data='[65, 59, 84, 84, 51, 55, 40]'
-                     :labels="['January', 'February', 'March', 'April', 'May', 'June', 'July']"
-                     style='height:80px' label='Members' pointHoverColor='warning' borderColor='warning'/>
+      <CCard header-html="Simple pointed chart" body-wrapper>
+        <CChartLineSimple pointed border-color="warning"/>
       </CCard>
-      <CCard header="Simple bar chart" bodyWrapper>
-        <CSimpleBarChart style="height:80px" :data='[10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]'
-                    label='Sales' color='danger'/>
+      <CCard header-html="Simple bar chart" body-wrapper>
+        <CChartBarSimple background-color="danger"/>
       </CCard>
     </CCardGroup>
   </div>
 </template>
 <script>
-import BarExample from './charts/BarExample'
-import LineExample from './charts/LineExample'
-import DoughnutExample from './charts/DoughnutExample'
-import RadarExample from './charts/RadarExample'
-import PieExample from './charts/PieExample'
-import PolarAreaExample from './charts/PolarAreaExample'
+import * as Charts from './charts/index.js'
 
 export default {
   name: 'Charts',
   components: {
-    BarExample,
-    LineExample,
-    DoughnutExample,
-    RadarExample,
-    PieExample,
-    PolarAreaExample
+    ...Charts
   }
 }
 </script>

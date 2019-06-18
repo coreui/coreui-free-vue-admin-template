@@ -1,20 +1,20 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div>
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Popovers</strong>
-          <!-- <div class="card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/popovers" class="card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="text-muted">docs</small>
+          <!-- <div class="c-card-header-actions">
+            <a href="https://bootstrap-vue.js.org/docs/components/popovers" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
+              <small class="c-text-muted">docs</small>
             </a>
           </div> -->
         </CCardHeader>
         <CCardBody>
           <CRow>
-            <CCol cols="4">
-              <div class="my-3 text-center">
+            <CCol col="4">
+              <div class="c-my-3 c-text-center">
                 <CButton
                   variant="primary"
                   v-c-popover="{
@@ -26,8 +26,8 @@
                 </CButton>
               </div>
             </CCol>
-            <CCol cols="4">
-              <div class="my-3 text-center">
+            <CCol col="4">
+              <div class="c-my-3 c-text-center">
                 <CButton
                   variant="primary"
                   v-c-popover="{
@@ -35,12 +35,12 @@
                     content: 'I start <strong>open</strong>',
                     active: true
                   }"
-                  text="Hover me"
+                  textHtml="Hover me"
                 />
               </div>
             </CCol>
-            <CCol cols="4">
-              <div class="my-3 text-center">
+            <CCol col="4">
+              <div class="c-my-3 c-text-center">
                 <CButton
                   variant="primary"
                   v-c-popover.click="{
@@ -62,11 +62,11 @@
           <strong> Popovers </strong>
           <small>placement</small>
         </CCardHeader>
-        <CCardBody class="my-3">
+        <CCardBody class="c-my-3">
           <CRow>
             <CCol
               md="4"
-              class="py-4 text-center"
+              class="c-py-4 c-text-center"
               v-for="placement in placements"
               :key="placement"
             >

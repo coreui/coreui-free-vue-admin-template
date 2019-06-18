@@ -1,15 +1,15 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div>
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs</strong>
-          <!-- <div class="card-header-actions">
+          <!-- <div class="c-card-header-actions">
             <CLink
               href="#"
-              class="card-header-action"
+              class="c-card-header-action"
             >
-              <small class="text-muted">docs</small>
+              <small class="c-text-muted">docs</small>
             </CLink>
           </div> -->
         </CCardHeader>
@@ -31,7 +31,7 @@
         <CCardBody>
           <CNav>
             <CNavItem active>
-              <i class="icon-basket-loaded"></i>
+              <i class="cui-basket-loaded"></i>
             </CNavItem>
             <CNavItem>
               Link
@@ -119,12 +119,13 @@
           <CNav pills>
             <CNavItem active>Active</CNavItem>
             <CNavItem>Link</CNavItem>
-            <CDropdown id="nav7_ddown"
-                       nav
-                       placement="bottom-end"
-                       buttonContent="Dropdown"
+            <CDropdown
+              id="nav7_ddown"
+              nav
+              placement="bottom-end"
+              button-content="Dropdown"
             >
-              <!-- <a class="nav-link dropdown-toggle" slot="button">Dropdown</a> -->
+              <!-- <a class="c-nav-link c-dropdown-toggle" slot="button">Dropdown</a> -->
               <CDropdownItem>one</CDropdownItem>
               <CDropdownItem>two</CDropdownItem>
               <CDropdownDivider/>
@@ -141,7 +142,7 @@
         </CCardHeader>
         <CCardBody>
           <CRow>
-            <CCol cols="3" class="m-0">
+            <CCol col="3" class="c-m-0">
               <CNav vertical pills >
                 <CNavItem active>Active</CNavItem>
                 <CNavItem>Link</CNavItem>

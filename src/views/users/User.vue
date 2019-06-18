@@ -1,16 +1,17 @@
 <template>
   <CRow>
-    <CCol cols="12" lg="6">
+    <CCol col="12" lg="6">
       <CCard>
         <CCardHeader>
           User id:  {{ $route.params.id }}
         </CCardHeader>
         <CCardBody>
-          <CTable striped
-                  small
-                  fixed
-                  :items="items($route.params.id)"
-                  :fields="$options.fields"
+          <CTable
+            striped
+            small
+            fixed
+            :items="items($route.params.id)"
+            :fields="$options.fields"
           />
         </CCardBody>
         <CCardFooter>

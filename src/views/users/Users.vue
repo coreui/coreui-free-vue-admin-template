@@ -1,16 +1,17 @@
 <template>
   <CRow>
-    <CCol cols="12" xl="8">
+    <CCol col="12" xl="8">
       <transition name="slide">
-        <CCard header="users" bodyWrapper>
-          <CTable hover
-                  striped
-                  :items="items"
-                  :fields="fields"
-                  :current-page="currentPage"
-                  :per-page="perPage"
-                  @row-clicked="rowClicked"
-                  :paginationProps="$options.paginationProps"
+        <CCard header-html="users" body-wrapper>
+          <CTable
+            hover
+            striped
+            :items="items"
+            :fields="fields"
+            :current-page="currentPage"
+            :per-page="perPage"
+            @row-clicked="rowClicked"
+            :pagination="$options.paginationProps"
           >
             <td slot="id" slot-scope="data">
               <strong>{{data.item.id}}</strong>
@@ -19,7 +20,9 @@
               <strong>{{data.item.name}}</strong>
             </td>
             <td slot="status" slot-scope="data">
-              <CBadge :variant="getBadge(data.item.status)">{{data.item.status}}</CBadge>
+              <CBadge :variant="getBadge(data.item.status)">
+                {{data.item.status}}
+              </CBadge>
             </td>
           </CTable>
         </CCard>
@@ -48,11 +51,10 @@ export default {
     }
   },
   paginationProps: {
-    // size: 'sm',
     align: 'center',
     hideDoubleArrows: true,
-    previousButtonText: 'prev',
-    nextButtonText: 'next'
+    previousButtonHtml: 'prev',
+    nextButtonHtml: 'next'
   },
   methods: {
     getBadge (status) {
@@ -74,7 +76,7 @@ export default {
 </script>
 
 <style scoped>
-.card-body >>> table > tbody > tr > td {
+.c-card-body >>> table > tbody > tr > td {
   cursor: pointer;
 }
 </style>

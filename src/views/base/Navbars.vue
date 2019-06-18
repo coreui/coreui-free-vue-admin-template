@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="animated fadeIn">
+  <div class="c-wrapper">
+    <div>
       <!-- <CCard>
         <CNavbar toggleable="md" light variant="light">
           <CNavbarToggle class="hehe" @click="test2 = !test2"/>
@@ -19,12 +19,12 @@
               <DefaultHeaderDropdownAccnt/>
             </CNavbarNav>
             <CNavbarNav class="ml-auto">
-              <CDropdown right class="nav-item b-nav-dropdown" toggleClasses="nav-link">
-                <CDropdownItem><i class="fa fa-file" /> Projects
+              <CDropdown right class="c-nav-item " toggle-classes="c-nav-link">
+                <CDropdownItem><i class="cui-file" /> Projects
                   <CBadge variant="primary">32</CBadge>
                 </CDropdownItem>
-                <CDropdownItem><i class="fa fa-shield" /> Lock Account</CDropdownItem>
-                <CDropdownItem><i class="fa fa-lock" /> Logout</CDropdownItem>
+                <CDropdownItem><i class="cui-shield" /> Lock Account</CDropdownItem>
+                <CDropdownItem><i class="cui-lock-locked" /> Logout</CDropdownItem>
               </CDropdown>
             </CNavbarNav>
           </CCollapse>
@@ -34,38 +34,42 @@
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Navbar </strong>
-          <!-- <div class="card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="text-muted">docs</small>
+          <!-- <div class="c-card-header-actions">
+            <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
+              <small class="c-text-muted">docs</small>
             </a>
           </div> -->
         </CCardHeader>
         <CCardBody>
-          <CNavbar toggleable="md" type="dark" variant="info">
+          <CNavbar
+            toggleable="md"
+            type="dark"
+            variant="info"
+            sticky
+          >
             <CNavbarToggle @click="show=!show"/>
             <CNavbarBrand href="#">NavBar</CNavbarBrand>
-            <CCollapse :show="show"
-                       navbar
-            >
+            <CCollapse :show="show" navbar>
               <CNavbarNav>
                 <CNavItem href="#">Link</CNavItem>
                 <CNavItem href="#" disabled>Disabled</CNavItem>
               </CNavbarNav>
 
               <!-- Right aligned nav items -->
-              <CNavbarNav class="ml-auto">
+              <CNavbarNav class="c-ml-auto">
                 <CForm inline>
                   <CFormInput
-                    class="mr-sm-2"
+                    class="c-mr-sm-2"
                     placeholder="Search"
                     size="sm"
                   />
-                  <CButton size="sm" class="my-2 my-sm-0" type="submit">Search</CButton>
+                  <CButton size="sm" class="c-my-2 c-my-sm-0" type="submit">Search</CButton>
                 </CForm>
 
-                <CDropdown buttonContent="Lang"
-                           nav
-                           placement="bottom-end"
+                <CDropdown
+                  button-html="Lang"
+                  nav
+                  placement="bottom-end"
                 >
                     <CDropdownItem>EN</CDropdownItem>
                     <CDropdownItem>ES</CDropdownItem>
@@ -73,9 +77,10 @@
                     <CDropdownItem>FA</CDropdownItem>
                 </CDropdown>
 
-                <CDropdown nav
-                           buttonContent="<em>User</em>"
-                           placement="bottom-end"
+                <CDropdown
+                  nav
+                  buttonHtml="<em>User</em>"
+                  placement="bottom-end"
                 >
                   <CDropdownItem>Profile</CDropdownItem>
                   <CDropdownItem>Signout</CDropdownItem>
@@ -94,7 +99,7 @@
           <!-- Image and text -->
           <CNavbar variant="faded" light>
             <CNavbarBrand href="#">
-              <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="BV">
+              <img src="https://placekitten.com/g/30/30" class="c-d-inline-block c-align-top" alt="BV">
               BootstrapVue
             </CNavbarBrand>
           </CNavbar>
@@ -111,7 +116,7 @@
             <CNavbarBrand>BootstrapVue</CNavbarBrand>
             <CCollapse :show="navbarText" navbar>
               <CNavbarNav>
-                <span class="navbar-text">Navbar text</span>
+                <span class="c-navbar-text">Navbar text</span>
               </CNavbarNav>
             </CCollapse>
           </CNavbar>
@@ -130,13 +135,21 @@
                 <CNavItem href="#">Home</CNavItem>
                 <CNavItem href="#">Link</CNavItem>
                 <!-- Navbar dropdowns -->
-                <CDropdown buttonContent="Lang" right nav>
+                <CDropdown
+                  button-html="Lang"
+                  right
+                  nav
+                >
                   <CDropdownItem>EN</CDropdownItem>
                   <CDropdownItem>ES</CDropdownItem>
                   <CDropdownItem>RU</CDropdownItem>
                   <CDropdownItem>FA</CDropdownItem>
                 </CDropdown>
-                <CDropdown buttonContent="User" right nav>
+                <CDropdown
+                  button-html="User"
+                  right
+                  nav
+                >
                   <CDropdownItem>Account</CDropdownItem>
                   <CDropdownItem>Settings</CDropdownItem>
                 </CDropdown>
@@ -154,11 +167,11 @@
           <CNavbar type="light" variant="light">
             <CForm inline>
               <CFormInput
-                class="mr-sm-2"
+                class="c-mr-sm-2"
                 placeholder="Search"
                 size="sm"
               />
-              <CButton variant="outline-success" class="my-2 my-sm-0" type="submit">Search</CButton>
+              <CButton variant="outline-success" class="c-my-2 c-my-sm-0" type="submit">Search</CButton>
             </CForm>
           </CNavbar>
         </CCardBody>
@@ -172,7 +185,7 @@
           <CNavbar type="light" variant="light">
             <CForm inline>
               <CFormInput
-                class="mr-sm-2"
+                class="c-mr-sm-2"
                 placeholder="Username"
               />
             </CForm>

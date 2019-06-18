@@ -1,5 +1,5 @@
 <template>
-  <div class="animated fadeIn">
+  <div>
     <CRow>
       <CCol sm="6">
         <CCard>
@@ -153,14 +153,15 @@
                 placeholder="Please select"
               />
               <CFormSelect
-                label="Select"
+                label="Large select"
                 size="lg"
                 horizontal
-                :options="options"
+                :value.sync="selectedOption"
+                :options="selectOptions"
                 placeholder="Please select"
               />
               <CFormSelect
-                label="Select"
+                label="Small select"
                 size="sm"
                 horizontal
                 :options="options"
@@ -174,22 +175,40 @@
                 disabled
               />
               <template v-for="(name, key) in checkboxNames">
-                <div class="form-row form-group" :key="name">
-                  <CCol sm="3">
+                <div class="c-form-group c-form-row" :key="name">
+                  <CCol tag="label" sm="3" class="c-col-form-label">
                     {{name}}
                   </CCol>
-                  <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
+                  <CCol sm="9" :class="key % 2 === 1 ? 'c-form-inline' : ''">
                     <CFormCheckbox
                       v-for="option in options"
                       :key="option"
                       :label="option"
-                      :type="[0,1,4,5].includes(key) ? 'radio' : 'checkbox'"
                       :value="option"
-                      :custom="key > 3"
+                      :custom="key > 1"
                       :name="`Option 1${key}`"
-                      :checked="[0,1,4,5].includes(key) ?
-                        `Option 1` : Math.random() > 0.6"
-                      :class="key % 2 === 1 ? 'form-check-inline' : ''"
+                      :checked="Math.random() > 0.6"
+                      :inline="key % 2 === 1"
+                    />
+                  </CCol>
+                </div>
+              </template>
+              <template v-for="(name, key) in radioNames">
+                <div class="c-form-row c-form-group" :key="name">
+                  <CCol sm="3">
+                    {{name}}
+                  </CCol>
+                  <CCol sm="9" :class="key % 2 === 1 ? 'c-form-inline' : ''">
+                    <CFormRadio
+                      v-for="option in options"
+                      :key="option"
+                      :label="option"
+                      type="radio"
+                      :value="option"
+                      :custom="key > 1"
+                      :name="`Option 1${key}`"
+                      checked="Option 1"
+                      :inline="key % 2 === 1"
                     />
                   </CCol>
                 </div>
@@ -203,11 +222,22 @@
                 horizontal
                 multiple
               />
+              <CFormFile
+                label="File custom input"
+                horizontal
+                custom
+              />
+              <CFormFile
+                label="Multiple file custom input"
+                horizontal
+                multiple
+                custom
+              />
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -219,20 +249,26 @@
             <!-- Bootstrap Vue has some problems with Inline forms that's why we use some standard bootstrap classes -->
             <CForm inline>
               <CFormInput
-                class="mr-2"
-                label="<small>Name:&nbsp;</small>"
+                class="c-mr-2"
                 placeholder="Jane Doe"
-              />
+              >
+                <template #label>
+                  <small>Name:&nbsp;</small>
+                </template>
+              </CFormInput>
               <CFormInput
-                label="<small>Email:&nbsp;</small>"
                 placeholder="jane.doe@example.com"
                 autocomplete="email"
-              />
+              >
+                <template #label>
+                  <small>Email:&nbsp;</small>
+                </template>
+              </CFormInput>
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -259,12 +295,12 @@
                 horizontal
                 placeholder="Enter Password..."
               />
-              <CCardFooter>
-                <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-                <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
-              </CCardFooter>
             </CForm>
           </CCardBody>
+          <CCardFooter>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+          </CCardFooter>
         </CCard>
         <CCard>
           <CCardHeader>
@@ -279,7 +315,7 @@
                 label="Email"
                 placeholder="Enter Email..."
                 required
-                wasValidated
+                was-validated
               />
               <CFormInput
                 type="password"
@@ -288,12 +324,12 @@
                 label="Password"
                 placeholder="Enter Password..."
                 required
-                wasValidated
+                was-validated
               />
             </CCardBody>
             <CCardFooter>
-              <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-              <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+              <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+              <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
             </CCardFooter>
           </CForm>
         </CCard>
@@ -302,60 +338,60 @@
             Input <strong>Grid</strong>
           </CCardHeader>
           <CCardBody>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="3">
-                <CFormInput class="mb-0" placeholder=".col-sm-3"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-3"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="4">
-                <CFormInput class="mb-0" placeholder=".col-sm-4"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-4"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="5">
-                <CFormInput class="mb-0" placeholder=".col-sm-5"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-5"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="6">
-                <CFormInput class="mb-0" placeholder=".col-sm-6"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-6"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="7">
-                <CFormInput class="mb-0" placeholder=".col-sm-7"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-7"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="8">
-                <CFormInput class="mb-0" placeholder=".col-sm-8"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-8"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="9">
-                <CFormInput class="mb-0" placeholder=".col-sm-9"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-9"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="10">
-                <CFormInput class="mb-0" placeholder=".col-sm-10"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-10"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="11">
-                <CFormInput class="mb-0" placeholder=".col-sm-11"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-11"/>
               </CCol>
             </CRow>
-            <CRow class="form-group">
+            <CRow class="c-form-group">
               <CCol sm="12">
-                <CFormInput class="mb-0" placeholder=".col-sm-12"/>
+                <CFormInput class="c-mb-0" placeholder=".col-sm-12"/>
               </CCol>
             </CRow>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-user"></i> Login</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-user"></i> Login</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -382,8 +418,8 @@
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -423,13 +459,13 @@
                 valid-feedback="Input is valid."
                 invalid-feedback="Please provide at least 4 characters."
                 value="Valid value"
-                :isValid="validator"
+                :is-valid="validator"
               />
               <CFormInput
                 label="Input is invalid"
                 valid-feedback="Thank you :)"
                 invalid-feedback="Please provide at least 4 characters."
-                :isValid="validator"
+                :is-valid="validator"
               />
             </CForm>
           </CCardBody>
@@ -445,23 +481,23 @@
           <CCardBody>
             <CFormInput
               placeholder="Username"
-              prepend="<i class='fa fa-user'></i>"
+              prependHtml="<i class='cui-user'></i>"
             />
             <CFormInput
               type="email"
               placeholder="Email"
               autocomplete="email"
-              append="<i class='fa fa-envelope-o'></i>"
+              appendHtml="<i class='cui-envelope-open'></i>"
             />
             <CFormInput
-              prepend="<i class='fa fa-euro'></i>"
+              prependHtml="<i class='cui-euro'></i>"
               placeholder="ex. $1.000.000"
-              append=".00"
+              appendHtml=".00"
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -473,7 +509,9 @@
           <CCardBody>
             <CFormInput placeholder="Username">
               <template #prepend>
-                <CButton variant="primary"><i class="fa fa-search"></i> Search</CButton>
+                <CButton variant="primary">
+                  <i class="cui-magnifying-glass"></i> Search
+                </CButton>
               </template>
             </CFormInput>
             <CFormInput
@@ -499,8 +537,8 @@
             </CFormInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -513,7 +551,7 @@
             <CFormInput placeholder="Username">
               <template #prepend>
                 <CDropdown
-                  buttonContent="Action"
+                  button-html="Action"
                   variant="primary"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -530,7 +568,7 @@
             >
               <template #append>
                 <CDropdown
-                  buttonContent="Action"
+                  button-html="Action"
                   variant="primary"
                   right
                 >
@@ -545,7 +583,7 @@
 
               <template #prepend>
                 <CDropdown
-                  buttonContent="Split"
+                  button-html="Split"
                   variant="primary"
                   split
                 >
@@ -558,7 +596,7 @@
 
               <template #append>
                 <CDropdown
-                  buttonContent="Action"
+                  button-html="Action"
                   variant="primary"
                   right
                 >
@@ -572,8 +610,8 @@
             </CFormInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="fa fa-dot-circle-o"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="fa fa-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -586,15 +624,15 @@
           </CCardHeader>
           <CCardBody>
             <CRow
-              class="form-group"
+              class="c-form-group"
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
-              <CCol :cols="12 - number">
-                <CFormInput class="mb-0" :placeholder="`.col-md-${12 - number}`"/>
+              <CCol :col="12 - number">
+                <CFormInput class="c-mb-0" :placeholder="`.col-md-${12 - number}`"/>
               </CCol>
-              <CCol :cols="number">
-                <CFormInput class="mb-0" :placeholder="`.col-md-${number}`"/>
+              <CCol :col="number">
+                <CFormInput class="c-mb-0" :placeholder="`.col-md-${number}`"/>
               </CCol>
             </CRow>
           </CCardBody>
@@ -614,15 +652,15 @@
           </CCardHeader>
           <CCardBody>
             <CRow
-              class="form-group"
+              class="c-form-group"
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
-              <CCol :cols="number">
-                <CFormInput class="mb-0" :placeholder="`.col-${number}`"/>
+              <CCol :col="number">
+                <CFormInput class="c-mb-0" :placeholder="`.col-${number}`"/>
               </CCol>
-              <CCol :cols="12 - number">
-                <CFormInput class="mb-0" :placeholder="`.col-${12 - number}`"/>
+              <CCol :col="12 - number">
+                <CFormInput class="c-mb-0" :placeholder="`.col-${12 - number}`"/>
               </CCol>
             </CRow>
           </CCardBody>
@@ -645,23 +683,25 @@
           <CCardBody>
             <CForm>
               <CFormInput
-                prepend="Username"
-                append="<i class='fa fa-user'></i>"
+                prepend-html="Username"
+                appendHtml="<i class='cui-user'></i>"
               />
               <CFormInput
-                prepend="Email"
+                prepend-html="Email"
                 type="email"
                 autocomplete="email"
-                append="<i class='fa fa-envelope'></i>"
+                appendHtml="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
-                prepend="Password"
+                prepend-html="Password"
                 type="password"
                 autocomplete="current-password"
-                append="<i class='fa fa-asterisk'></i>"
+                appendHtml="<i class='fa fa-asterisk'></i>"
               />
-              <div class="form-group form-actions">
-                <CButton type="submit" size="sm" variant="primary">Submit</CButton>
+              <div class="c-form-group c-form-actions">
+                <CButton type="submit" size="sm" variant="primary">
+                  Submit
+                </CButton>
               </div>
             </CForm>
           </CCardBody>
@@ -676,22 +716,24 @@
             <CForm>
               <CFormInput
                 placeholder="Username"
-                append="<i class='fa fa-user'></i>"
+                appendHtml="<i class='cui-user'></i>"
               />
               <CFormInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                append="<i class='fa fa-envelope'></i>"
+                appendHtml="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                append="<i class='fa fa-asterisk'></i>"
+                appendHtml="<i class='fa fa-asterisk'></i>"
               />
-              <div class="form-group form-actions">
-                <CButton type="submit" class="btn btn-sm btn-secondary">Submit</CButton>
+              <div class="c-form-group c-form-actions">
+                <CButton type="submit" class="c-btn c-btn-sm c-btn-secondary">
+                  Submit
+                </CButton>
               </div>
             </CForm>
           </CCardBody>
@@ -706,22 +748,24 @@
             <CForm>
               <CFormInput
                 placeholder="Username"
-                prepend="<i class='fa fa-user'></i>"
+                prependHtml="<i class='cui-user'></i>"
               />
               <CFormInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                prepend="<i class='fa fa-envelope'></i>"
+                prependHtml="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                prepend="<i class='fa fa-asterisk'></i>"
+                prependHtml="<i class='fa fa-asterisk'></i>"
               />
-              <div class="form-group form-actions">
-                <CButton type="submit" size="sm" variant="success">Submit</CButton>
+              <div class="c-form-group c-form-actions">
+                <CButton type="submit" size="sm" variant="success">
+                  Submit
+                </CButton>
               </div>
             </CForm>
           </CCardBody>
@@ -733,19 +777,19 @@
         <transition name="fade">
           <CCard v-if="show">
             <CCardHeader>
-              <i class="fa fa-edit"></i> Form Elements
-              <div class="card-header-actions">
-                <CLink href="#" class="card-header-action btn-setting">
-                  <i class="icon-settings"></i>
+              <i class="cui-pencil"></i> Form Elements
+              <div class="c-card-header-actions">
+                <CLink href="#" class="c-card-header-action c-btn-setting">
+                  <i class="cui-settings"></i>
                 </CLink>
                 <CLink
-                  class="card-header-action btn-minimize"
+                  class="c-card-header-action c-btn-minimize"
                   @click="formCollapsed=!formCollapsed"
                 >
-                  <i :class="`icon-arrow-${formCollapsed ? 'down' : 'up'}`"></i>
+                  <i :class="`cui-chevron-${formCollapsed ? 'bottom' : 'top'}`"></i>
                 </CLink>
-                <CLink href="#" class="card-header-action btn-close" v-on:click="show = !show">
-                  <i class="icon-close"></i>
+                <CLink href="#" class="c-card-header-action c-btn-close" v-on:click="show = !show">
+                  <i class="cui-circle-x"></i>
                 </CLink>
               </div>
             </CCardHeader>
@@ -753,20 +797,20 @@
               <CCardBody>
                 <CFormInput
                   label="Prepended text"
-                  prepend="@"
+                  prepend-html="@"
                   description="Here's some help text"
                   type="email"
                   autocomplete="email"
                 />
                 <CFormInput
                   label="Appended text"
-                  append=".00"
+                  append-html=".00"
                   description="Here's some help text"
                 />
                 <CFormInput
-                  label="Appended text"
-                  prepend="$"
-                  append=".00"
+                  label="Appended and prepended text"
+                  prepend-html="$"
+                  append-html=".00"
                   description="Here's some help text"
                 />
                 <CFormInput
@@ -778,12 +822,12 @@
                   </template>
                 </CFormInput>
                 <CFormInput label="Two-buttons append">
-                  <template v-slot:append>
+                  <template #append>
                     <CButton variant="primary">Search</CButton>
                     <CButton variant="danger">Options</CButton>
                   </template>
                 </CFormInput>
-                <div class="form-actions">
+                <div class="c-form-actions">
                   <CButton type="submit" variant="primary">Save changes</CButton>
                   <CButton variant="secondary">Cancel</CButton>
                 </div>
@@ -809,27 +853,26 @@ export default {
       trueValue:'someTrueValue',
       falseValue:'someFalseValue',
       checks: ['someTrueValue','hehehe2','',1,1,1,1,1,1,1,1,1,1,1,1],
-      selected: 'first',
       isValid: '',
       testkkk: 2,
       horizontal: { label:'col-3', input:'col-9' },
       options: ['Option 1', 'Option 2', 'Option 3'],
+      selectOptions: [
+        'Option 1', 'Option 2', 'Option 3',
+        { value: ['some value', 'another value'], label: 'Option 4' }],
+      selectedOption: ['some value', 'another value'],
+
       formCollapsed: true,
-      checkboxNames: ['Radios', 'Inline Radios',
-                      'Checkboxes', 'Inline Checkboxes',
-                      'Radios - custom', 'Inline Radios - custom',
-                      'Checkboxes - custom', 'Inline Checkboxes - custom']
+      checkboxNames: ['Checkboxes', 'Inline Checkboxes',
+                      'Checkboxes - custom', 'Inline Checkboxes - custom'],
+      radioNames: ['Radios', 'Inline Radios',
+                    'Radios - custom', 'Inline Radios - custom']
     }
   },
   updated () {
     console.log('parent updated')
   },
   methods: {
-    testt (e) {
-      // console.log(e)
-      //   this.selected = 3
-      this.cInput += 100
-    },
     validator (val) {
       return val ? val.length >= 4 : false
     }

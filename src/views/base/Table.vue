@@ -1,5 +1,5 @@
 <template>
-  <CCard :header="caption" bodyWrapper>
+  <CCard :header="caption" body-wrapper>
     <CTable
       :hover="hover"
       :striped="striped"
@@ -10,9 +10,9 @@
       :fields="fields"
       :per-page="small ? 10 : 5"
       :dark="dark"
-      noSorting
+      no-sorting
     >
-      <template v-slot:status="{item}">
+      <template #status="{item}">
         <td>
           <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>
         </td>
@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import items from '../users/UsersData'
 export default {
   name: 'TableWrapper',
   props: {

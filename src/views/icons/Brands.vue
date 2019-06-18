@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="cui-globe"></i> Flags
+        <i class="cui-globe"></i>Font Awesome brand icons
       </CCardHeader>
       <CCardBody>
         <CRow class="c-text-center">
@@ -13,15 +13,15 @@
             span. If you want to have a squared version flag then add the class
             flag-icon-squared as well. -->
           </CCol>
-          <template v-for="(flag, key) in displayedFlags">
+          <template v-for="(brand, brandName) in $options.brands">
             <CCol
               class="c-mb-5"
               col="3"
               sm="2"
-              :key="key"
+              :key="brandName"
             >
-              <CIcon :height="42" :content="$options.iconSet[flag]"/>
-              <div>{{flag}}</div>
+              <CIcon :height="42" :content="$options.brands[brandName]"/>
+              <div>{{brandName}}</div>
             </CCol>
           </template>
         </CRow>
@@ -31,14 +31,9 @@
 </template>
 
 <script>
-import { iconSet } from '@coreui/icons/flags'
+import { iconSet as brands } from '@coreui/icons/brands'
 export default {
-  name: 'flags',
-  iconSet,
-  computed: {
-    displayedFlags () {
-      return Object.keys(this.$options.iconSet).filter(icon => !icon.includes('Q'))
-    }
-  }
+  name: 'Brands',
+  brands
 }
 </script>
