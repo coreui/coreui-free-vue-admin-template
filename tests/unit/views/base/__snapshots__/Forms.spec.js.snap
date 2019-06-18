@@ -15,8 +15,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -39,8 +42,7 @@ exports[`Forms.vue renders correctly 1`] = `
             tag="div"
           >
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 for="name"
@@ -52,6 +54,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 id="name"
                 placeholder="Enter your name"
                 type="text"
+                value=""
               />
             </b-form-group-stub>
           </b-col-stub>
@@ -65,8 +68,7 @@ exports[`Forms.vue renders correctly 1`] = `
             tag="div"
           >
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 for="ccnumber"
@@ -78,6 +80,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 id="ccnumber"
                 placeholder="0000 0000 0000 0000"
                 type="text"
+                value=""
               />
             </b-form-group-stub>
           </b-col-stub>
@@ -91,8 +94,7 @@ exports[`Forms.vue renders correctly 1`] = `
             tag="div"
           >
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 for="month1"
@@ -102,6 +104,7 @@ exports[`Forms.vue renders correctly 1`] = `
                
               <b-form-select-stub
                 disabledfield="disabled"
+                htmlfield="html"
                 id="month1"
                 options="1,2,3,4,5,6,7,8,9,10,11,12"
                 plain="true"
@@ -117,8 +120,7 @@ exports[`Forms.vue renders correctly 1`] = `
             tag="div"
           >
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 for="year1"
@@ -128,6 +130,7 @@ exports[`Forms.vue renders correctly 1`] = `
                
               <b-form-select-stub
                 disabledfield="disabled"
+                htmlfield="html"
                 id="year1"
                 options="2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025"
                 plain="true"
@@ -143,8 +146,7 @@ exports[`Forms.vue renders correctly 1`] = `
             tag="div"
           >
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 for="cvv"
@@ -156,6 +158,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 id="cvv"
                 placeholder="123"
                 type="text"
+                value=""
               />
             </b-form-group-stub>
           </b-col-stub>
@@ -171,8 +174,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -187,8 +193,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </div>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <label
             for="company"
@@ -200,12 +205,12 @@ exports[`Forms.vue renders correctly 1`] = `
             id="company"
             placeholder="Enter your company name"
             type="text"
+            value=""
           />
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <label
             for="vat"
@@ -217,12 +222,12 @@ exports[`Forms.vue renders correctly 1`] = `
             id="vat"
             placeholder="PL1234567890"
             type="text"
+            value=""
           />
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <label
             for="street"
@@ -234,6 +239,7 @@ exports[`Forms.vue renders correctly 1`] = `
             id="street"
             placeholder="Enter street name"
             type="text"
+            value=""
           />
         </b-form-group-stub>
          
@@ -245,8 +251,7 @@ exports[`Forms.vue renders correctly 1`] = `
             tag="div"
           >
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 for="city"
@@ -258,6 +263,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 id="city"
                 placeholder="Enter your city"
                 type="text"
+                value=""
               />
             </b-form-group-stub>
           </b-col-stub>
@@ -267,8 +273,7 @@ exports[`Forms.vue renders correctly 1`] = `
             tag="div"
           >
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 for="postal-code"
@@ -280,14 +285,14 @@ exports[`Forms.vue renders correctly 1`] = `
                 id="postal-code"
                 placeholder="Postal Code"
                 type="text"
+                value=""
               />
             </b-form-group-stub>
           </b-col-stub>
         </b-row-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <label
             for="country"
@@ -299,6 +304,7 @@ exports[`Forms.vue renders correctly 1`] = `
             id="country"
             placeholder="Country name"
             type="text"
+            value=""
           />
         </b-form-group-stub>
       </b-card-stub>
@@ -316,8 +322,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -332,9 +341,8 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-stub>
           <b-form-group-stub
-            breakpoint="sm"
             description="Let us know your full name."
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Enter your name"
             labelcols="3"
             labelfor="basicName"
@@ -343,12 +351,12 @@ exports[`Forms.vue renders correctly 1`] = `
               autocomplete="name"
               id="basicName"
               type="text"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Static"
             labelcols="3"
             labelfor="basicStatic"
@@ -362,9 +370,8 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
             description="This is a help text"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Text Input"
             labelcols="3"
             labelfor="basicText"
@@ -373,12 +380,12 @@ exports[`Forms.vue renders correctly 1`] = `
               id="basicText"
               placeholder="Text"
               type="text"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Date"
             labelcols="3"
             labelfor="date"
@@ -386,13 +393,13 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               id="date"
               type="date"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
             description="Please enter your email"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Email Input"
             labelcols="3"
             labelfor="basicEmail"
@@ -402,13 +409,13 @@ exports[`Forms.vue renders correctly 1`] = `
               id="basicEmail"
               placeholder="Enter your email"
               type="email"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
             description="Please enter a complex password"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Password Input"
             labelcols="3"
             labelfor="basicPassword"
@@ -418,12 +425,12 @@ exports[`Forms.vue renders correctly 1`] = `
               id="basicPassword"
               placeholder="Enter your password"
               type="password"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Disabled Input"
             labelcols="3"
             labelfor="basicInputDisabled"
@@ -433,12 +440,12 @@ exports[`Forms.vue renders correctly 1`] = `
               id="basicInputDisabled"
               placeholder="Disabled"
               type="text"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Textarea"
             labelcols="3"
             labelfor="basicTextarea"
@@ -449,18 +456,19 @@ exports[`Forms.vue renders correctly 1`] = `
               rows="9"
               textarea="true"
               type="text"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Select"
             labelcols="3"
             labelfor="basicSelect"
           >
             <b-form-select-stub
               disabledfield="disabled"
+              htmlfield="html"
               id="basicSelect"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
@@ -472,14 +480,14 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Select large"
             labelcols="3"
             labelfor="basicSelectLg"
           >
             <b-form-select-stub
               disabledfield="disabled"
+              htmlfield="html"
               id="basicSelectLg"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
@@ -492,14 +500,14 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Select small"
             labelcols="3"
             labelfor="basicSelectSm"
           >
             <b-form-select-stub
               disabledfield="disabled"
+              htmlfield="html"
               id="basicSelectSm"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
@@ -512,8 +520,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Disabled select"
             labelcols="3"
             labelfor="basicSelectDisabled"
@@ -521,6 +528,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-select-stub
               disabled="true"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicSelectDisabled"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
@@ -532,14 +540,14 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Select"
             labelcols="3"
             labelfor="basicMultiSelect"
           >
             <b-form-select-stub
               disabledfield="disabled"
+              htmlfield="html"
               id="basicMultiSelect"
               multiple="true"
               options="[object Object],[object Object],[object Object],[object Object],[object Object]"
@@ -552,8 +560,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Radios"
             labelcols="3"
             labelfor="basicRadios"
@@ -562,6 +569,7 @@ exports[`Forms.vue renders correctly 1`] = `
               buttonvariant="secondary"
               checked="2"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicRadios"
               options="[object Object],[object Object],[object Object]"
               plain="true"
@@ -572,8 +580,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Inline radios"
             labelcols="3"
             labelfor="basicInlineRadios"
@@ -582,6 +589,7 @@ exports[`Forms.vue renders correctly 1`] = `
               buttonvariant="secondary"
               checked="3"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicInlineRadios"
               options="[object Object],[object Object],[object Object]"
               plain="true"
@@ -591,8 +599,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Checkboxes"
             labelcols="3"
             labelfor="basicCheckboxes"
@@ -601,6 +608,7 @@ exports[`Forms.vue renders correctly 1`] = `
               buttonvariant="secondary"
               checked="2,3"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicCheckboxes"
               name="Checkboxes"
               options=""
@@ -630,8 +638,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Inline checkboxes"
             labelcols="3"
             labelfor="basicInlineCheckboxes"
@@ -640,6 +647,7 @@ exports[`Forms.vue renders correctly 1`] = `
               buttonvariant="secondary"
               checked="1,3"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicInlineCheckboxes"
               name="InlineCheckboxes"
               options=""
@@ -671,8 +679,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Radios - custom"
             labelcols="3"
             labelfor="basicRadiosCustom"
@@ -680,6 +687,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-radio-group-stub
               buttonvariant="secondary"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicRadiosCustom"
               options=""
               stacked="true"
@@ -748,8 +756,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Inline radios - custom"
             labelcols="3"
             labelfor="basicCustomRadios1"
@@ -757,6 +764,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-radio-group-stub
               buttonvariant="secondary"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicCustomRadios1"
               name="customRadioInline1"
               options=""
@@ -824,8 +832,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Checkboxes - custom"
             labelcols="3"
             labelfor="basicCustomCheckboxes"
@@ -833,6 +840,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-checkbox-group-stub
               buttonvariant="secondary"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicCustomCheckboxes"
               options=""
               stacked="true"
@@ -897,8 +905,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Inline checkboxes - custom"
             labelcols="3"
             labelfor="basicInlineCustomCheckboxes"
@@ -906,6 +913,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-checkbox-group-stub
               buttonvariant="secondary"
               disabledfield="disabled"
+              htmlfield="html"
               id="basicInlineCustomCheckboxes"
               options=""
               textfield="text"
@@ -969,30 +977,34 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="File input"
             labelcols="3"
             labelfor="fileInput"
           >
             <b-form-file-stub
               accept=""
+              browsetext="Browse"
+              dropplaceholder="Drop files here"
               id="fileInput"
+              placeholder="No file chosen"
               plain="true"
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Multiple file input"
             labelcols="3"
             labelfor="fileInputMulti"
           >
             <b-form-file-stub
               accept=""
+              browsetext="Browse"
+              dropplaceholder="Drop files here"
               id="fileInputMulti"
               multiple="true"
+              placeholder="No file chosen"
               plain="true"
             />
           </b-form-group-stub>
@@ -1001,11 +1013,10 @@ exports[`Forms.vue renders correctly 1`] = `
             slot="footer"
           >
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
@@ -1017,11 +1028,10 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-button-stub>
              
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="reset"
               variant="danger"
@@ -1039,8 +1049,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1067,6 +1080,7 @@ exports[`Forms.vue renders correctly 1`] = `
             id="inlineInput1"
             placeholder="Jane Doe"
             type="text"
+            value=""
           />
            
           <label
@@ -1081,6 +1095,7 @@ exports[`Forms.vue renders correctly 1`] = `
             id="inlineInput2"
             placeholder="jane.doe@example.com"
             type="email"
+            value=""
           />
         </b-form-stub>
          
@@ -1088,11 +1103,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -1104,11 +1118,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1130,8 +1143,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1146,9 +1162,8 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-stub>
           <b-form-group-stub
-            breakpoint="sm"
             description="Please enter your email."
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Email"
             labelcols="3"
             labelfor="horizEmail"
@@ -1158,13 +1173,13 @@ exports[`Forms.vue renders correctly 1`] = `
               id="horizEmail"
               placeholder="Enter Email.."
               type="email"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
             description="Please enter your password."
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Password"
             labelcols="3"
             labelfor="horizPass"
@@ -1174,6 +1189,7 @@ exports[`Forms.vue renders correctly 1`] = `
               id="horizPass"
               placeholder="Enter Password.."
               type="password"
+              value=""
             />
           </b-form-group-stub>
            
@@ -1181,11 +1197,10 @@ exports[`Forms.vue renders correctly 1`] = `
             slot="footer"
           >
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
@@ -1197,11 +1212,10 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-button-stub>
              
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="reset"
               variant="danger"
@@ -1219,8 +1233,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1235,10 +1252,9 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-stub>
           <b-form-group-stub
-            breakpoint="sm"
             description="Please enter your email."
+            feedbackarialive="assertive"
             label="Email"
-            labelcols="3"
             labelfor="normalEmail"
             validated="true"
           >
@@ -1248,14 +1264,14 @@ exports[`Forms.vue renders correctly 1`] = `
               placeholder="Enter Email.."
               required="true"
               type="email"
+              value=""
             />
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
             description="Please enter your password."
+            feedbackarialive="assertive"
             label="Password"
-            labelcols="3"
             labelfor="normalPass"
             validated="true"
           >
@@ -1265,6 +1281,7 @@ exports[`Forms.vue renders correctly 1`] = `
               placeholder="Enter Password.."
               required="true"
               type="password"
+              value=""
             />
           </b-form-group-stub>
            
@@ -1272,11 +1289,10 @@ exports[`Forms.vue renders correctly 1`] = `
             slot="footer"
           >
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
@@ -1288,11 +1304,10 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-button-stub>
              
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="reset"
               variant="danger"
@@ -1312,8 +1327,11 @@ exports[`Forms.vue renders correctly 1`] = `
         headertag="div"
         no-block="true"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1328,7 +1346,10 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-card-body-stub
           bodytag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-row-stub
@@ -1342,6 +1363,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-3"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1357,6 +1379,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-4"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1372,6 +1395,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-5"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1387,6 +1411,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-6"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1402,6 +1427,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-7"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1417,6 +1443,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-8"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1432,6 +1459,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-9"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1447,6 +1475,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-10"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1462,6 +1491,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-11"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1477,6 +1507,7 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder=".col-sm-12"
                 type="text"
+                value=""
               />
             </b-col-stub>
           </b-row-stub>
@@ -1486,11 +1517,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -1502,11 +1532,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1523,8 +1552,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1538,8 +1570,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </div>
          
         <b-form-group-stub
-          breakpoint="sm"
-          horizontal="true"
+          feedbackarialive="assertive"
           label="Small input"
           labelcols="5"
           labelfor="smInput"
@@ -1550,12 +1581,12 @@ exports[`Forms.vue renders correctly 1`] = `
             placeholder="size='sm'"
             size="sm"
             type="text"
+            value=""
           />
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          horizontal="true"
+          feedbackarialive="assertive"
           label="Default input"
           labelcols="5"
           labelfor="defaultInput"
@@ -1564,12 +1595,12 @@ exports[`Forms.vue renders correctly 1`] = `
             id="defaultInput"
             placeholder="normal"
             type="text"
+            value=""
           />
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          horizontal="true"
+          feedbackarialive="assertive"
           label="Large input"
           labelcols="5"
           labelfor="lgInput"
@@ -1580,6 +1611,7 @@ exports[`Forms.vue renders correctly 1`] = `
             placeholder="size='lg'"
             size="lg"
             type="text"
+            value=""
           />
         </b-form-group-stub>
          
@@ -1587,11 +1619,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -1603,11 +1634,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1636,8 +1666,11 @@ exports[`Forms.vue renders correctly 1`] = `
         headertag="div"
         no-block="true"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1652,13 +1685,15 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-card-body-stub
           bodytag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-form-stub>
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
               validated="true"
             >
               <label
@@ -1684,8 +1719,7 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-form-group-stub>
              
             <b-form-group-stub
-              breakpoint="sm"
-              labelcols="3"
+              feedbackarialive="assertive"
             >
               <label
                 class="col-form-label"
@@ -1724,8 +1758,11 @@ exports[`Forms.vue renders correctly 1`] = `
         headertag="div"
         no-block="true"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1740,7 +1777,10 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-card-body-stub
           bodytag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-form-stub
@@ -1748,15 +1788,15 @@ exports[`Forms.vue renders correctly 1`] = `
             validated="true"
           >
             <b-form-group-stub
-              breakpoint="sm"
+              feedbackarialive="assertive"
               label="Non-required input"
-              labelcols="3"
               labelfor="inputSuccess2"
             >
               <b-form-input-stub
                 class="form-control-success"
                 id="inputSuccess2"
                 type="text"
+                value=""
               />
                
               <b-form-valid-feedback-stub
@@ -1769,9 +1809,8 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-form-group-stub>
              
             <b-form-group-stub
-              breakpoint="sm"
+              feedbackarialive="assertive"
               label="Required input"
-              labelcols="3"
               labelfor="inputError2"
             >
               <b-form-input-stub
@@ -1779,6 +1818,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 id="inputError2"
                 required="true"
                 type="text"
+                value=""
               />
                
               <b-form-valid-feedback-stub
@@ -1807,15 +1847,18 @@ exports[`Forms.vue renders correctly 1`] = `
     tag="div"
   >
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1829,8 +1872,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </div>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -1850,13 +1892,13 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder="Username"
               type="text"
+              value=""
             />
           </b-input-group-stub>
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -1865,10 +1907,10 @@ exports[`Forms.vue renders correctly 1`] = `
               autocomplete="email"
               placeholder="Email"
               type="email"
+              value=""
             />
              
             <b-input-group-append-stub
-              append="true"
               tag="div"
             >
               <b-input-group-text-stub
@@ -1883,8 +1925,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -1904,10 +1945,10 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder="ex. $1.000.000"
               type="text"
+              value=""
             />
              
             <b-input-group-append-stub
-              append="true"
               tag="div"
             >
               <b-input-group-text-stub
@@ -1923,11 +1964,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="success"
@@ -1939,11 +1979,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1958,15 +1997,18 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1980,8 +2022,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </div>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -1990,10 +2031,9 @@ exports[`Forms.vue renders correctly 1`] = `
               tag="div"
             >
               <b-button-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -2009,13 +2049,13 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder="Username"
               type="text"
+              value=""
             />
           </b-input-group-stub>
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -2024,17 +2064,16 @@ exports[`Forms.vue renders correctly 1`] = `
               autocomplete="email"
               placeholder="Email"
               type="email"
+              value=""
             />
              
             <b-input-group-append-stub
-              append="true"
               tag="div"
             >
               <b-button-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -2046,8 +2085,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -2056,10 +2094,9 @@ exports[`Forms.vue renders correctly 1`] = `
               tag="div"
             >
               <b-button-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -2074,17 +2111,16 @@ exports[`Forms.vue renders correctly 1`] = `
               autocomplete="email"
               placeholder="Email"
               type="email"
+              value=""
             />
              
             <b-input-group-append-stub
-              append="true"
               tag="div"
             >
               <b-button-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -2101,11 +2137,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="success"
@@ -2117,11 +2152,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -2136,15 +2170,18 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2158,8 +2195,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </div>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -2172,13 +2208,12 @@ exports[`Forms.vue renders correctly 1`] = `
                 offset="0"
                 role="menu"
                 text="Action"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2186,9 +2221,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2196,9 +2229,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2206,10 +2237,8 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2221,13 +2250,13 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder="Username"
               type="text"
+              value=""
             />
           </b-input-group-stub>
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -2235,10 +2264,10 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder="Email"
               type="text"
+              value=""
             />
              
             <b-input-group-append-stub
-              append="true"
               tag="div"
             >
               <b-dropdown-stub
@@ -2247,13 +2276,12 @@ exports[`Forms.vue renders correctly 1`] = `
                 right="true"
                 role="menu"
                 text="Action"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2261,9 +2289,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2271,9 +2297,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2281,10 +2305,8 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2296,8 +2318,7 @@ exports[`Forms.vue renders correctly 1`] = `
         </b-form-group-stub>
          
         <b-form-group-stub
-          breakpoint="sm"
-          labelcols="3"
+          feedbackarialive="assertive"
         >
           <b-input-group-stub
             tag="div"
@@ -2311,13 +2332,12 @@ exports[`Forms.vue renders correctly 1`] = `
                 role="menu"
                 split="true"
                 text="Split"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -2326,9 +2346,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -2337,9 +2355,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -2348,10 +2364,8 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2363,10 +2377,10 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder="..."
               type="text"
+              value=""
             />
              
             <b-input-group-append-stub
-              append="true"
               tag="div"
             >
               <b-dropdown-stub
@@ -2375,13 +2389,12 @@ exports[`Forms.vue renders correctly 1`] = `
                 right="true"
                 role="menu"
                 text="Action"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2389,9 +2402,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2399,9 +2410,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2409,10 +2418,8 @@ exports[`Forms.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
@@ -2427,11 +2434,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="success"
@@ -2443,11 +2449,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -2473,8 +2478,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2508,6 +2516,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-8"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2518,6 +2527,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-4"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2533,6 +2543,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-7"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2543,6 +2554,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-5"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2558,6 +2570,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-6"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2568,6 +2581,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-6"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2583,6 +2597,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-5"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2593,6 +2608,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-7"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2608,6 +2624,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-4"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2618,6 +2635,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-md-8"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2626,11 +2644,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -2639,11 +2656,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="danger"
@@ -2652,35 +2668,34 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="btn btn-sm btn-warning"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="btn btn-sm btn-info"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="success"
@@ -2699,8 +2714,11 @@ exports[`Forms.vue renders correctly 1`] = `
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2726,6 +2744,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-4"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2736,6 +2755,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-8"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2751,6 +2771,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-5"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2761,6 +2782,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-7"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2776,6 +2798,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-6"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2786,6 +2809,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-6"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2801,6 +2825,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-5"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2811,6 +2836,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-5"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2826,6 +2852,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-8"
               type="text"
+              value=""
             />
           </b-col-stub>
            
@@ -2836,6 +2863,7 @@ exports[`Forms.vue renders correctly 1`] = `
             <b-form-input-stub
               placeholder=".col-4"
               type="text"
+              value=""
             />
           </b-col-stub>
         </b-row-stub>
@@ -2844,11 +2872,10 @@ exports[`Forms.vue renders correctly 1`] = `
           slot="footer"
         >
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -2857,11 +2884,10 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="danger"
@@ -2870,35 +2896,34 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="btn btn-sm btn-warning"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             class="btn btn-sm btn-info"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
           </b-button-stub>
            
           <b-button-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="success"
@@ -2914,15 +2939,18 @@ exports[`Forms.vue renders correctly 1`] = `
     tag="div"
   >
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2935,8 +2963,7 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-stub>
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -2953,10 +2980,10 @@ exports[`Forms.vue renders correctly 1`] = `
                
               <b-form-input-stub
                 type="text"
+                value=""
               />
                
               <b-input-group-append-stub
-                append="true"
                 tag="div"
               >
                 <b-input-group-text-stub
@@ -2971,8 +2998,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -2990,10 +3016,10 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 autocomplete="email"
                 type="email"
+                value=""
               />
                
               <b-input-group-append-stub
-                append="true"
                 tag="div"
               >
                 <b-input-group-text-stub
@@ -3008,8 +3034,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -3027,10 +3052,10 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 autocomplete="current-password"
                 type="password"
+                value=""
               />
                
               <b-input-group-append-stub
-                append="true"
                 tag="div"
               >
                 <b-input-group-text-stub
@@ -3048,11 +3073,10 @@ exports[`Forms.vue renders correctly 1`] = `
             class="form-group form-actions"
           >
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
@@ -3065,15 +3089,18 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3086,8 +3113,7 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-stub>
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -3095,10 +3121,10 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder="Username"
                 type="text"
+                value=""
               />
                
               <b-input-group-append-stub
-                append="true"
                 tag="div"
               >
                 <b-input-group-text-stub
@@ -3113,8 +3139,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -3123,10 +3148,10 @@ exports[`Forms.vue renders correctly 1`] = `
                 autocomplete="email"
                 placeholder="Email"
                 type="email"
+                value=""
               />
                
               <b-input-group-append-stub
-                append="true"
                 tag="div"
               >
                 <b-input-group-text-stub
@@ -3141,8 +3166,7 @@ exports[`Forms.vue renders correctly 1`] = `
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -3151,10 +3175,10 @@ exports[`Forms.vue renders correctly 1`] = `
                 autocomplete="current-password"
                 placeholder="Password"
                 type="password"
+                value=""
               />
                
               <b-input-group-append-stub
-                append="true"
                 tag="div"
               >
                 <b-input-group-text-stub
@@ -3172,13 +3196,13 @@ exports[`Forms.vue renders correctly 1`] = `
             class="form-group form-actions"
           >
             <b-button-stub
-              activeclass="active"
               class="btn btn-sm btn-secondary"
               event="click"
-              exactactiveclass="active"
               routertag="a"
+              tag="button"
               target="_self"
               type="submit"
+              variant="secondary"
             >
               Submit
             </b-button-stub>
@@ -3188,15 +3212,18 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3209,8 +3236,7 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-stub>
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -3230,13 +3256,13 @@ exports[`Forms.vue renders correctly 1`] = `
               <b-form-input-stub
                 placeholder="Username"
                 type="text"
+                value=""
               />
             </b-input-group-stub>
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -3257,13 +3283,13 @@ exports[`Forms.vue renders correctly 1`] = `
                 autocomplete="email"
                 placeholder="Email"
                 type="email"
+                value=""
               />
             </b-input-group-stub>
           </b-form-group-stub>
            
           <b-form-group-stub
-            breakpoint="sm"
-            labelcols="3"
+            feedbackarialive="assertive"
           >
             <b-input-group-stub
               tag="div"
@@ -3284,6 +3310,7 @@ exports[`Forms.vue renders correctly 1`] = `
                 autocomplete="current-password"
                 placeholder="Password"
                 type="password"
+                value=""
               />
             </b-input-group-stub>
           </b-form-group-stub>
@@ -3292,11 +3319,10 @@ exports[`Forms.vue renders correctly 1`] = `
             class="form-group form-actions"
           >
             <b-button-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="success"
@@ -3322,8 +3348,11 @@ exports[`Forms.vue renders correctly 1`] = `
         headertag="div"
         name="fade"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3338,10 +3367,8 @@ exports[`Forms.vue renders correctly 1`] = `
             class="card-header-actions"
           >
             <b-link-stub
-              activeclass="active"
               class="card-header-action btn-setting"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               target="_self"
@@ -3352,10 +3379,8 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-link-stub>
              
             <b-link-stub
-              activeclass="active"
               class="card-header-action btn-minimize"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -3365,10 +3390,8 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-link-stub>
              
             <b-link-stub
-              activeclass="active"
               class="card-header-action btn-close"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               target="_self"
@@ -3387,14 +3410,16 @@ exports[`Forms.vue renders correctly 1`] = `
         >
           <b-card-body-stub
             bodytag="div"
+            subtitle=""
             subtitletag="h6"
+            subtitletextvariant="muted"
+            title=""
             titletag="h4"
           >
             <b-form-group-stub
-              breakpoint="sm"
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Prepended text"
-              labelcols="3"
               labelfor="elementsEmail"
             >
               <b-input-group-stub
@@ -3414,15 +3439,15 @@ exports[`Forms.vue renders correctly 1`] = `
                   autocomplete="email"
                   id="elementsEmail"
                   type="email"
+                  value=""
                 />
               </b-input-group-stub>
             </b-form-group-stub>
              
             <b-form-group-stub
-              breakpoint="sm"
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Appended text"
-              labelcols="3"
               labelfor="elementsAppend"
             >
               <b-input-group-stub
@@ -3431,10 +3456,10 @@ exports[`Forms.vue renders correctly 1`] = `
                 <b-form-input-stub
                   id="elementsAppend"
                   type="text"
+                  value=""
                 />
                  
                 <b-input-group-append-stub
-                  append="true"
                   tag="div"
                 >
                   <b-input-group-text-stub
@@ -3447,10 +3472,9 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-form-group-stub>
              
             <b-form-group-stub
-              breakpoint="sm"
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Append and prepend"
-              labelcols="3"
               labelfor="elementsPrependAppend"
             >
               <b-input-group-stub
@@ -3469,10 +3493,10 @@ exports[`Forms.vue renders correctly 1`] = `
                 <b-form-input-stub
                   id="elementsPrependAppend"
                   type="text"
+                  value=""
                 />
                  
                 <b-input-group-append-stub
-                  append="true"
                   tag="div"
                 >
                   <b-input-group-text-stub
@@ -3485,10 +3509,9 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-form-group-stub>
              
             <b-form-group-stub
-              breakpoint="sm"
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Append with button"
-              labelcols="3"
               labelfor="elementsAppendButton"
             >
               <b-input-group-stub
@@ -3497,17 +3520,16 @@ exports[`Forms.vue renders correctly 1`] = `
                 <b-form-input-stub
                   id="elementsAppendButton"
                   type="text"
+                  value=""
                 />
                  
                 <b-input-group-append-stub
-                  append="true"
                   tag="div"
                 >
                   <b-button-stub
-                    activeclass="active"
                     event="click"
-                    exactactiveclass="active"
                     routertag="a"
+                    tag="button"
                     target="_self"
                     type="button"
                     variant="primary"
@@ -3519,9 +3541,8 @@ exports[`Forms.vue renders correctly 1`] = `
             </b-form-group-stub>
              
             <b-form-group-stub
-              breakpoint="sm"
+              feedbackarialive="assertive"
               label="Two-buttons append"
-              labelcols="3"
               labelfor="elementsTwoButtons"
             >
               <b-input-group-stub
@@ -3530,17 +3551,16 @@ exports[`Forms.vue renders correctly 1`] = `
                 <b-form-input-stub
                   id="elementsTwoButtons"
                   type="text"
+                  value=""
                 />
                  
                 <b-input-group-append-stub
-                  append="true"
                   tag="div"
                 >
                   <b-button-stub
-                    activeclass="active"
                     event="click"
-                    exactactiveclass="active"
                     routertag="a"
+                    tag="button"
                     target="_self"
                     type="button"
                     variant="primary"
@@ -3549,10 +3569,9 @@ exports[`Forms.vue renders correctly 1`] = `
                   </b-button-stub>
                    
                   <b-button-stub
-                    activeclass="active"
                     event="click"
-                    exactactiveclass="active"
                     routertag="a"
+                    tag="button"
                     target="_self"
                     type="button"
                     variant="danger"
@@ -3567,10 +3586,9 @@ exports[`Forms.vue renders correctly 1`] = `
               class="form-actions"
             >
               <b-button-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="submit"
                 variant="primary"
@@ -3579,10 +3597,9 @@ exports[`Forms.vue renders correctly 1`] = `
               </b-button-stub>
                
               <b-button-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="secondary"

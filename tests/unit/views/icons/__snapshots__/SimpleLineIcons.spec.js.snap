@@ -10,8 +10,11 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
     footertag="div"
     headertag="div"
     nobody="true"
+    subtitle=""
     subtitletag="h6"
+    subtitletextvariant="muted"
     tag="div"
+    title=""
     titletag="h4"
   >
     <div
@@ -26,7 +29,10 @@ exports[`SimpleLineIcons.vue renders correctly 1`] = `
      
     <b-card-body-stub
       bodytag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
+      title=""
       titletag="h4"
     >
       <b-row-stub

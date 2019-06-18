@@ -16,6 +16,7 @@ exports[`Carousels.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -48,6 +49,8 @@ exports[`Carousels.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -67,9 +70,8 @@ exports[`Carousels.vue renders correctly 1`] = `
                     aria-posinset="1"
                     aria-setsize="5"
                     class="carousel-item active"
-                    id="__BVID__27"
                     role="listitem"
-                    tabindex="-1"
+                    style="background: rgb(171, 171, 171);"
                   >
                     <img
                       class="img-fluid w-100 d-block"
@@ -94,9 +96,8 @@ exports[`Carousels.vue renders correctly 1`] = `
                     aria-posinset="2"
                     aria-setsize="5"
                     class="carousel-item"
-                    id="__BVID__28"
                     role="listitem"
-                    tabindex="-1"
+                    style="background: rgb(171, 171, 171);"
                   >
                     <img
                       class="img-fluid w-100 d-block"
@@ -120,9 +121,8 @@ exports[`Carousels.vue renders correctly 1`] = `
                     aria-posinset="3"
                     aria-setsize="5"
                     class="carousel-item"
-                    id="__BVID__29"
                     role="listitem"
-                    tabindex="-1"
+                    style="background: rgb(171, 171, 171);"
                   >
                     <img
                       class="img-fluid w-100 d-block"
@@ -143,9 +143,8 @@ exports[`Carousels.vue renders correctly 1`] = `
                     aria-posinset="4"
                     aria-setsize="5"
                     class="carousel-item"
-                    id="__BVID__30"
                     role="listitem"
-                    tabindex="-1"
+                    style="background: rgb(171, 171, 171);"
                   >
                     <img
                       alt="image slot"
@@ -167,9 +166,8 @@ exports[`Carousels.vue renders correctly 1`] = `
                     aria-posinset="5"
                     aria-setsize="5"
                     class="carousel-item"
-                    id="__BVID__31"
                     role="listitem"
-                    tabindex="-1"
+                    style="background: rgb(171, 171, 171);"
                   >
                     <img
                       alt="Blank image"
@@ -237,7 +235,6 @@ exports[`Carousels.vue renders correctly 1`] = `
                   <li
                     aria-controls="carousel1___BV_inner_"
                     aria-current="true"
-                    aria-describedby="__BVID__27"
                     aria-label="Goto Slide 1"
                     class="active"
                     id="carousel1___BV_indicator_1_"
@@ -247,7 +244,6 @@ exports[`Carousels.vue renders correctly 1`] = `
                   <li
                     aria-controls="carousel1___BV_inner_"
                     aria-current="false"
-                    aria-describedby="__BVID__28"
                     aria-label="Goto Slide 2"
                     class=""
                     id="carousel1___BV_indicator_2_"
@@ -257,7 +253,6 @@ exports[`Carousels.vue renders correctly 1`] = `
                   <li
                     aria-controls="carousel1___BV_inner_"
                     aria-current="false"
-                    aria-describedby="__BVID__29"
                     aria-label="Goto Slide 3"
                     class=""
                     id="carousel1___BV_indicator_3_"
@@ -267,7 +262,6 @@ exports[`Carousels.vue renders correctly 1`] = `
                   <li
                     aria-controls="carousel1___BV_inner_"
                     aria-current="false"
-                    aria-describedby="__BVID__30"
                     aria-label="Goto Slide 4"
                     class=""
                     id="carousel1___BV_indicator_4_"
@@ -277,7 +271,6 @@ exports[`Carousels.vue renders correctly 1`] = `
                   <li
                     aria-controls="carousel1___BV_inner_"
                     aria-current="false"
-                    aria-describedby="__BVID__31"
                     aria-label="Goto Slide 5"
                     class=""
                     id="carousel1___BV_indicator_5_"
@@ -299,6 +292,8 @@ exports[`Carousels.vue renders correctly 1`] = `
               </p>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
     </div>

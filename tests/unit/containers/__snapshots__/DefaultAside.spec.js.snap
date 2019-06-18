@@ -21,10 +21,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       tag="div"
     >
       <b-list-group-item-stub
-        activeclass="active"
         class="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small"
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="div"
         target="_self"
@@ -35,10 +33,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       </b-list-group-item-stub>
        
       <b-list-group-item-stub
-        activeclass="active"
         class="list-group-item-accent-warning list-group-item-divider"
         event="click"
-        exactactiveclass="active"
         href="#"
         routertag="a"
         tag="div"
@@ -84,10 +80,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       </b-list-group-item-stub>
        
       <b-list-group-item-stub
-        activeclass="active"
         class="list-group-item-accent-info"
         event="click"
-        exactactiveclass="active"
         href="#"
         routertag="a"
         tag="div"
@@ -134,10 +128,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       />
        
       <b-list-group-item-stub
-        activeclass="active"
         class="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small"
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="div"
         target="_self"
@@ -148,10 +140,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       </b-list-group-item-stub>
        
       <b-list-group-item-stub
-        activeclass="active"
         class="list-group-item-accent-danger list-group-item-divider"
         event="click"
-        exactactiveclass="active"
         href="#"
         routertag="a"
         tag="div"
@@ -238,10 +228,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       </b-list-group-item-stub>
        
       <b-list-group-item-stub
-        activeclass="active"
         class="list-group-item-accent-success list-group-item-divider"
         event="click"
-        exactactiveclass="active"
         href="#"
         routertag="a"
         tag="div"
@@ -274,10 +262,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
       </b-list-group-item-stub>
        
       <b-list-group-item-stub
-        activeclass="active"
         class="list-group-item-accent-primary list-group-item-divider"
         event="click"
-        exactactiveclass="active"
         href="#"
         routertag="a"
         tag="div"
@@ -415,10 +401,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             />
              
             <b-badge-stub
-              activeclass="active"
               class="avatar-status"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="span"
               target="_self"
@@ -472,10 +456,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             />
              
             <b-badge-stub
-              activeclass="active"
               class="avatar-status"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="span"
               target="_self"
@@ -529,10 +511,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             />
              
             <b-badge-stub
-              activeclass="active"
               class="avatar-status"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="span"
               target="_self"
@@ -586,10 +566,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             />
              
             <b-badge-stub
-              activeclass="active"
               class="avatar-status"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="span"
               target="_self"
@@ -643,10 +621,8 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             />
              
             <b-badge-stub
-              activeclass="active"
               class="avatar-status"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="span"
               target="_self"
@@ -721,7 +697,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             color="success"
             dataoff="Off"
             dataon="On"
-            id="switch-id-6"
+            id="switch-id-8"
             label="true"
             size="sm"
             value="true"
@@ -755,7 +731,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             color="success"
             dataoff="Off"
             dataon="On"
-            id="switch-id-7"
+            id="switch-id-9"
             label="true"
             size="sm"
             value="true"
@@ -791,7 +767,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             dataon="On"
             defaultchecked="true"
             disabled="true"
-            id="switch-id-8"
+            id="switch-id-10"
             label="true"
             size="sm"
             value="true"
@@ -826,7 +802,7 @@ exports[`DefaultAside.vue renders correctly 1`] = `
             color="success"
             dataoff="Off"
             dataon="On"
-            id="switch-id-9"
+            id="switch-id-11"
             label="true"
             size="sm"
             value="true"

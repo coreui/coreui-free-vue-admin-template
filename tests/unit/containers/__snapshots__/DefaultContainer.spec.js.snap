@@ -15,10 +15,8 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
     />
      
     <b-link-stub
-      activeclass="active"
       class="navbar-brand"
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
       to="#"
@@ -51,10 +49,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       tag="ul"
     >
       <b-nav-item-stub
-        activeclass="active"
         class="px-3"
         event="click"
-        exactactiveclass="active"
+        linkattrs="[object Object]"
         routertag="a"
         target="_self"
         to="/dashboard"
@@ -63,11 +60,10 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       </b-nav-item-stub>
        
       <b-nav-item-stub
-        activeclass="active"
         class="px-3"
         event="click"
         exact="true"
-        exactactiveclass="active"
+        linkattrs="[object Object]"
         routertag="a"
         target="_self"
         to="/users"
@@ -76,10 +72,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       </b-nav-item-stub>
        
       <b-nav-item-stub
-        activeclass="active"
         class="px-3"
         event="click"
-        exactactiveclass="active"
+        linkattrs="[object Object]"
         routertag="a"
         target="_self"
       >
@@ -92,10 +87,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       tag="ul"
     >
       <b-nav-item-stub
-        activeclass="active"
         class="d-md-down-none"
         event="click"
-        exactactiveclass="active"
+        linkattrs="[object Object]"
         routertag="a"
         target="_self"
       >
@@ -104,9 +98,7 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
         />
          
         <b-badge-stub
-          activeclass="active"
           event="click"
-          exactactiveclass="active"
           pill="true"
           routertag="a"
           tag="span"
@@ -118,10 +110,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       </b-nav-item-stub>
        
       <b-nav-item-stub
-        activeclass="active"
         class="d-md-down-none"
         event="click"
-        exactactiveclass="active"
+        linkattrs="[object Object]"
         routertag="a"
         target="_self"
       >
@@ -131,10 +122,9 @@ exports[`DefaultContainer.vue renders correctly 1`] = `
       </b-nav-item-stub>
        
       <b-nav-item-stub
-        activeclass="active"
         class="d-md-down-none"
         event="click"
-        exactactiveclass="active"
+        linkattrs="[object Object]"
         routertag="a"
         target="_self"
       >

@@ -18,14 +18,20 @@ exports[`Dashboard.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-dropdown-stub
@@ -35,6 +41,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             right="true"
             role="menu"
             text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -45,9 +52,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </template>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -55,9 +60,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -65,9 +68,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -75,10 +76,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -119,14 +118,20 @@ exports[`Dashboard.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-dropdown-stub
@@ -137,6 +142,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             right="true"
             role="menu"
             text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -147,9 +153,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </template>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -157,9 +161,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -167,9 +169,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -177,10 +177,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -221,14 +219,20 @@ exports[`Dashboard.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-dropdown-stub
@@ -238,6 +242,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             right="true"
             role="menu"
             text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -248,9 +253,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </template>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -258,9 +261,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -268,9 +269,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -278,10 +277,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -322,14 +319,20 @@ exports[`Dashboard.vue renders correctly 1`] = `
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <b-dropdown-stub
@@ -339,6 +342,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             right="true"
             role="menu"
             text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -349,9 +353,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </template>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -359,9 +361,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -369,9 +369,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -379,10 +377,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -418,8 +414,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
     bodytag="div"
     footertag="div"
     headertag="div"
+    subtitle=""
     subtitletag="h6"
+    subtitletextvariant="muted"
     tag="div"
+    title=""
     titletag="h4"
   >
     <b-row-stub
@@ -449,11 +448,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
         tag="div"
       >
         <b-button-stub
-          activeclass="active"
           class="float-right"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="primary"
@@ -472,6 +470,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             buttonvariant="outline-secondary"
             class="mr-3"
             disabledfield="disabled"
+            htmlfield="html"
             id="radiosBtn"
             name="radiosBtn"
             options=""
@@ -911,8 +910,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
         footertag="div"
         header="Traffic & Sales"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <b-row-stub
@@ -1277,9 +1279,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <small>
                 <sup>
                   <b-badge-stub
-                    activeclass="active"
                     event="click"
-                    exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
@@ -1295,9 +1295,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 
                 <sup>
                   <b-badge-stub
-                    activeclass="active"
                     event="click"
-                    exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
@@ -1650,12 +1648,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 class="divider text-center"
               >
                 <b-button-stub
-                  activeclass="active"
                   class="text-muted"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   size="sm"
+                  tag="button"
                   target="_self"
                   type="button"
                   variant="link"
@@ -1678,14 +1675,17 @@ exports[`Dashboard.vue renders correctly 1`] = `
           emptyfilteredtext="There are no records matching your request"
           emptytext="There are no records to show"
           fields="[object Object]"
-          footvariant=""
           headvariant="light"
           hover="true"
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
           labelsortasc="Click to sort Ascending"
+          labelsortclear="Click to clear sorting"
           labelsortdesc="Click to sort Descending"
           perpage="0"
           responsive="sm"
+          selectedvariant="primary"
+          selectmode="multi"
+          sortby=""
           sortdirection="asc"
           value=""
         >

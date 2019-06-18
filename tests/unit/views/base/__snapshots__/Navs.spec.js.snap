@@ -11,8 +11,11 @@ exports[`Navs.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -49,9 +52,8 @@ exports[`Navs.vue renders correctly 1`] = `
         >
           <b-nav-item-stub
             active="true"
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -59,9 +61,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -69,9 +70,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -79,10 +79,9 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -96,8 +95,11 @@ exports[`Navs.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -121,9 +123,8 @@ exports[`Navs.vue renders correctly 1`] = `
         >
           <b-nav-item-stub
             active="true"
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -131,9 +132,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -141,9 +141,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -151,10 +150,9 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -168,8 +166,11 @@ exports[`Navs.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -193,9 +194,8 @@ exports[`Navs.vue renders correctly 1`] = `
         >
           <b-nav-item-stub
             active="true"
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -203,9 +203,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -213,9 +212,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -223,10 +221,9 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -240,8 +237,11 @@ exports[`Navs.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -266,9 +266,8 @@ exports[`Navs.vue renders correctly 1`] = `
         >
           <b-nav-item-stub
             active="true"
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -276,9 +275,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -286,9 +284,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -296,10 +293,9 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -313,8 +309,11 @@ exports[`Navs.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -339,9 +338,8 @@ exports[`Navs.vue renders correctly 1`] = `
         >
           <b-nav-item-stub
             active="true"
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -349,9 +347,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -359,9 +356,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -369,10 +365,9 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -386,8 +381,11 @@ exports[`Navs.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -411,9 +409,8 @@ exports[`Navs.vue renders correctly 1`] = `
         >
           <b-nav-item-stub
             active="true"
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -421,9 +418,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -440,9 +436,7 @@ exports[`Navs.vue renders correctly 1`] = `
             text="Dropdown"
           >
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -450,9 +444,7 @@ exports[`Navs.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -460,13 +452,11 @@ exports[`Navs.vue renders correctly 1`] = `
             </b-dropdown-item-stub>
              
             <b-dropdown-divider-stub
-              tag="div"
+              tag="hr"
             />
              
             <b-dropdown-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
@@ -481,8 +471,11 @@ exports[`Navs.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -507,9 +500,8 @@ exports[`Navs.vue renders correctly 1`] = `
         >
           <b-nav-item-stub
             active="true"
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -517,9 +509,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -527,9 +518,8 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >
@@ -537,10 +527,9 @@ exports[`Navs.vue renders correctly 1`] = `
           </b-nav-item-stub>
            
           <b-nav-item-stub
-            activeclass="active"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            linkattrs="[object Object]"
             routertag="a"
             target="_self"
           >

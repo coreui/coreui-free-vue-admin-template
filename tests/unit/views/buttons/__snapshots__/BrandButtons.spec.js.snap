@@ -13,6 +13,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
       <div
         class="card"
       >
+        <!---->
         <div
           class="card-header"
         >
@@ -25,6 +26,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
+          <!---->
+          <!---->
            
           <small>
             Usage 
@@ -967,6 +970,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </button>
           </p>
         </div>
+        <!---->
+        <!---->
       </div>
     </div>
      
@@ -976,6 +981,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
       <div
         class="card"
       >
+        <!---->
         <div
           class="card-header"
         >
@@ -992,6 +998,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
+          <!---->
+          <!---->
            
           <small>
             Usage 
@@ -1710,6 +1718,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </button>
           </p>
         </div>
+        <!---->
+        <!---->
       </div>
     </div>
      
@@ -1719,6 +1729,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
       <div
         class="card"
       >
+        <!---->
         <div
           class="card-header"
         >
@@ -1735,6 +1746,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
+          <!---->
+          <!---->
            
           <small>
             Usage 
@@ -2453,6 +2466,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </button>
           </p>
         </div>
+        <!---->
+        <!---->
       </div>
     </div>
   </div>

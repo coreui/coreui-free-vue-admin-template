@@ -4,25 +4,35 @@ exports[`Table.vue renders correctly 1`] = `
 <b-card-stub
   bodytag="div"
   footertag="div"
-  header="Table"
   headertag="div"
+  subtitle=""
   subtitletag="h6"
+  subtitletextvariant="muted"
   tag="div"
+  title=""
   titletag="h4"
 >
+  <div
+    slot="header"
+  >
+    Table
+  </div>
+   
   <b-table-stub
     apiurl=""
     currentpage="1"
     emptyfilteredtext="There are no records matching your request"
     emptytext="There are no records to show"
     fields=""
-    footvariant=""
-    headvariant=""
     items=""
     labelsortasc="Click to sort Ascending"
+    labelsortclear="Click to clear sorting"
     labelsortdesc="Click to sort Descending"
     perpage="5"
     responsive="sm"
+    selectedvariant="primary"
+    selectmode="multi"
+    sortby=""
     sortdirection="asc"
     value=""
   />
@@ -31,15 +41,15 @@ exports[`Table.vue renders correctly 1`] = `
     <b-pagination-stub
       align="left"
       arialabel="Pagination"
-      ellipsistext="&hellip;"
-      firsttext="&laquo;"
+      ellipsistext="…"
+      firsttext="«"
       hidegotoendbuttons="true"
-      labelfirstpage="Goto first page"
-      labellastpage="Goto last page"
-      labelnextpage="Goto next page"
-      labelpage="Goto page"
-      labelprevpage="Goto previous page"
-      lasttext="&raquo;"
+      labelfirstpage="Go to first page"
+      labellastpage="Go to last page"
+      labelnextpage="Go to next page"
+      labelpage="Go to page"
+      labelprevpage="Go to previous page"
+      lasttext="»"
       limit="5"
       nexttext="Next"
       perpage="5"

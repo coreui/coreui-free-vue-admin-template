@@ -7,6 +7,7 @@ exports[`Colors.vue renders correctly 1`] = `
   <div
     class="card"
   >
+    <!---->
     <header
       class="card-header"
     >
@@ -21,10 +22,14 @@ exports[`Colors.vue renders correctly 1`] = `
     <div
       class="card-body"
     >
+      <!---->
+      <!---->
        
       <div
         class="card-body"
       >
+        <!---->
+        <!---->
         <div
           class="row"
         >
@@ -414,11 +419,14 @@ exports[`Colors.vue renders correctly 1`] = `
         </div>
       </div>
     </div>
+    <!---->
+    <!---->
   </div>
    
   <div
     class="card"
   >
+    <!---->
     <header
       class="card-header"
     >
@@ -433,10 +441,14 @@ exports[`Colors.vue renders correctly 1`] = `
     <div
       class="card-body"
     >
+      <!---->
+      <!---->
        
       <div
         class="card-body"
       >
+        <!---->
+        <!---->
         <div
           class="row"
         >
@@ -874,11 +886,14 @@ exports[`Colors.vue renders correctly 1`] = `
         </div>
       </div>
     </div>
+    <!---->
+    <!---->
   </div>
    
   <div
     class="card"
   >
+    <!---->
     <header
       class="card-header"
     >
@@ -893,10 +908,14 @@ exports[`Colors.vue renders correctly 1`] = `
     <div
       class="card-body"
     >
+      <!---->
+      <!---->
        
       <div
         class="card-body"
       >
+        <!---->
+        <!---->
         <div
           class="row"
         >
@@ -1382,6 +1401,8 @@ exports[`Colors.vue renders correctly 1`] = `
         </div>
       </div>
     </div>
+    <!---->
+    <!---->
   </div>
 </div>
 `;

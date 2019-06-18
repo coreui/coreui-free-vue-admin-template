@@ -16,6 +16,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -48,6 +49,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -141,6 +144,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -150,6 +155,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -167,6 +173,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -254,6 +262,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -263,6 +273,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -280,6 +291,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -301,56 +314,63 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                 </button>
                  
                 <div
-                  class="btn-group b-dropdown dropdown"
-                  id="__BVID__32"
+                  class="dropdown btn-group b-dropdown"
                 >
                   <!---->
                   <button
                     aria-expanded="false"
                     aria-haspopup="true"
-                    class="btn btn-success dropdown-toggle"
-                    id="__BVID__32__BV_toggle_"
+                    class="btn dropdown-toggle btn-success"
                     type="button"
                   >
                     Menu
                   </button>
-                  <div
-                    aria-labelledby="__BVID__32__BV_toggle_"
+                  <ul
                     class="dropdown-menu dropdown-menu-right"
                     role="menu"
+                    tabindex="-1"
                   >
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 1
-                    </a>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 1
+                      </a>
+                    </li>
                      
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 2
-                    </a>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 2
+                      </a>
+                    </li>
                      
-                    <div
-                      class="dropdown-divider"
-                      role="separator"
-                    />
+                    <li>
+                      <hr
+                        aria-orientation="horizontal"
+                        class="dropdown-divider"
+                        role="separator"
+                      />
+                    </li>
                      
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 3
-                    </a>
-                  </div>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 3
+                      </a>
+                    </li>
+                  </ul>
                 </div>
                  
                 <button
@@ -361,12 +381,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                 </button>
                  
                 <div
-                  class="btn-group b-dropdown dropdown"
-                  id="__BVID__33"
+                  class="dropdown btn-group b-dropdown"
                 >
                   <button
                     class="btn btn-info"
-                    id="__BVID__33__BV_button_"
                     type="button"
                   >
                     Split Menu
@@ -374,8 +392,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                   <button
                     aria-expanded="false"
                     aria-haspopup="true"
-                    class="btn btn-info dropdown-toggle dropdown-toggle-split"
-                    id="__BVID__33__BV_toggle_"
+                    class="btn dropdown-toggle btn-info dropdown-toggle-split"
                     type="button"
                   >
                     <span
@@ -384,47 +401,58 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                       Toggle Dropdown
                     </span>
                   </button>
-                  <div
-                    aria-labelledby="__BVID__33__BV_button_"
+                  <ul
                     class="dropdown-menu dropdown-menu-right"
                     role="menu"
+                    tabindex="-1"
                   >
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 1
-                    </a>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 1
+                      </a>
+                    </li>
                      
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 2
-                    </a>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 2
+                      </a>
+                    </li>
                      
-                    <div
-                      class="dropdown-divider"
-                      role="separator"
-                    />
+                    <li>
+                      <hr
+                        aria-orientation="horizontal"
+                        class="dropdown-divider"
+                        role="separator"
+                      />
+                    </li>
                      
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 3
-                    </a>
-                  </div>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 3
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -434,6 +462,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -451,6 +480,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -480,6 +511,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -489,6 +522,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -526,6 +560,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -614,7 +650,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             <div>
               <div
                 aria-label="Toolbar with button groups and input groups"
-                class="d-sm-down-none btn-toolbar"
+                class="btn-toolbar d-sm-down-none"
                 role="toolbar"
               >
                 <div
@@ -640,6 +676,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                   class="input-group w-25 mx-1 input-group-sm"
                   role="group"
                 >
+                  <!---->
                   <div
                     class="input-group-prepend"
                   >
@@ -652,9 +689,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                    
                   <input
                     class="text-right form-control"
-                    id="__BVID__36"
                     type="text"
-                    value="100"
                   />
                    
                   <div
@@ -666,12 +701,14 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                       .00
                     </div>
                   </div>
+                  <!---->
                 </div>
                  
                 <div
                   class="input-group w-25 mx-1 input-group-sm"
                   role="group"
                 >
+                  <!---->
                   <div
                     class="input-group-prepend"
                   >
@@ -683,8 +720,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                   </div>
                    
                   <select
-                    class="form-control custom-select"
-                    id="__BVID__37"
+                    class="custom-select"
                   >
                     <option
                       value="Large"
@@ -702,6 +738,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                       Small
                     </option>
                   </select>
+                  <!---->
                 </div>
                  
                 <div
@@ -760,51 +797,55 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                 </div>
                  
                 <div
-                  class="mx-1 btn-group b-dropdown dropdown"
-                  id="__BVID__39"
+                  class="dropdown btn-group b-dropdown mx-1"
                 >
                   <!---->
                   <button
                     aria-expanded="false"
                     aria-haspopup="true"
-                    class="btn btn-secondary dropdown-toggle"
-                    id="__BVID__39__BV_toggle_"
+                    class="btn dropdown-toggle btn-secondary"
                     type="button"
                   >
                     menu
                   </button>
-                  <div
-                    aria-labelledby="__BVID__39__BV_toggle_"
+                  <ul
                     class="dropdown-menu dropdown-menu-right"
                     role="menu"
+                    tabindex="-1"
                   >
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 1
-                    </a>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 1
+                      </a>
+                    </li>
                      
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 2
-                    </a>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 2
+                      </a>
+                    </li>
                      
-                    <a
-                      class="dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Item 3
-                    </a>
-                  </div>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        role="menuitem"
+                        target="_self"
+                      >
+                        Item 3
+                      </a>
+                    </li>
+                  </ul>
                 </div>
                  
                 <div
@@ -828,6 +869,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
     </div>

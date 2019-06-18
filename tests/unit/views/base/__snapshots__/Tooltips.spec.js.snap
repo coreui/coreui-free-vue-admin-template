@@ -11,8 +11,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -60,13 +63,13 @@ exports[`Tooltips.vue renders correctly 1`] = `
             class="text-center my-3"
           >
             <b-btn-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
+              tag="button"
               target="_self"
               title="I am a tooltip!"
               type="button"
+              variant="secondary"
             >
               Hover Me
             </b-btn-stub>
@@ -81,11 +84,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             class="text-center my-3"
           >
             <b-btn-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               id="tooltipButton-2"
               routertag="a"
+              tag="button"
               target="_self"
               type="button"
               variant="primary"
@@ -95,7 +97,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
              
             <b-tooltip-stub
               boundary="scrollParent"
+              boundarypadding="5"
               delay="0"
+              fallbackplacement="flip"
               offset="0"
               placement="top"
               show="true"
@@ -116,8 +120,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -146,11 +153,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
           tag="div"
         >
           <b-btn-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             id="exButton1"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="outline-success"
@@ -165,11 +171,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
           tag="div"
         >
           <b-btn-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             id="exButton2"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="outline-success"
@@ -181,7 +186,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
        
       <b-tooltip-stub
         boundary="scrollParent"
+        boundarypadding="5"
         delay="0"
+        fallbackplacement="flip"
         offset="0"
         placement="top"
         target="exButton1"
@@ -191,7 +198,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
        
       <b-tooltip-stub
         boundary="scrollParent"
+        boundarypadding="5"
         delay="0"
+        fallbackplacement="flip"
         offset="0"
         placement="bottom"
         target="exButton2"
@@ -210,8 +219,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -235,11 +247,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
         class="text-center"
       >
         <b-btn-stub
-          activeclass="active"
           event="click"
-          exactactiveclass="active"
           id="tooltipButton-1"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="primary"
@@ -251,19 +262,21 @@ exports[`Tooltips.vue renders correctly 1`] = `
         <br />
          
         <b-btn-stub
-          activeclass="active"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
+          variant="secondary"
         >
           Toggle Tooltip
         </b-btn-stub>
          
         <b-tooltip-stub
           boundary="scrollParent"
+          boundarypadding="5"
           delay="0"
+          fallbackplacement="flip"
           offset="0"
           placement="top"
           show="true"
@@ -284,8 +297,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -312,11 +328,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
           class="p-2"
         >
           <b-btn-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             id="tooltipButton-showEvent"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="primary"
@@ -329,25 +344,25 @@ exports[`Tooltips.vue renders correctly 1`] = `
           class="p-2"
         >
           <b-btn-stub
-            activeclass="active"
             class="px-1 mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Open
           </b-btn-stub>
            
           <b-btn-stub
-            activeclass="active"
             class="px-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Close
           </b-btn-stub>
@@ -355,7 +370,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
          
         <b-tooltip-stub
           boundary="scrollParent"
+          boundarypadding="5"
           delay="0"
+          fallbackplacement="flip"
           offset="0"
           placement="top"
           target="tooltipButton-showEvent"
@@ -375,8 +392,11 @@ exports[`Tooltips.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -403,11 +423,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
           class="p-2"
         >
           <b-btn-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             id="tooltipButton-disable"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="primary"
@@ -420,13 +439,13 @@ exports[`Tooltips.vue renders correctly 1`] = `
           class="p-2"
         >
           <b-btn-stub
-            activeclass="active"
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             
             Disable Tooltip by prop
@@ -434,12 +453,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           </b-btn-stub>
            
           <b-btn-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             
             Disable Tooltip by $ref event
@@ -448,7 +467,9 @@ exports[`Tooltips.vue renders correctly 1`] = `
            
           <b-tooltip-stub
             boundary="scrollParent"
+            boundarypadding="5"
             delay="0"
+            fallbackplacement="flip"
             offset="0"
             placement="top"
             target="tooltipButton-disable"

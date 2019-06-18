@@ -179,47 +179,47 @@
             <div slot="header">
               <i class="fa fa-align-justify"></i><strong> Dropdown </strong><small><code>variant</code></small>
             </div>
-            <b-dropdown size="sm" id="ddown_primary" text="Primary" variant="primary" class="m-0">
+            <b-dropdown size="sm" id="ddown_primary" text="Primary" variant="primary" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_secondary" text="Secondary" variant="secondary" class="m-0">
+            <b-dropdown size="sm" id="ddown_secondary" text="Secondary" variant="secondary" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_success" text="Success" variant="success" class="m-0">
+            <b-dropdown size="sm" id="ddown_success" text="Success" variant="success" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_warning" text="Warning" variant="warning" class="m-0">
+            <b-dropdown size="sm" id="ddown_warning" text="Warning" variant="warning" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_danger" text="Danger" variant="danger" class="m-0">
+            <b-dropdown size="sm" id="ddown_danger" text="Danger" variant="danger" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_info" text="Info" variant="info" class="m-0">
+            <b-dropdown size="sm" id="ddown_info" text="Info" variant="info" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_light" text="Light" variant="light" class="m-0">
+            <b-dropdown size="sm" id="ddown_light" text="Light" variant="light" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_dark" text="Dark" variant="dark" class="m-0">
+            <b-dropdown size="sm" id="ddown_dark" text="Dark" variant="dark" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>
             </b-dropdown>
-            <b-dropdown size="sm" id="ddown_link" text="Link" variant="link" class="m-0">
+            <b-dropdown size="sm" id="ddown_link" text="Link" variant="link" class="m-1">
               <b-dropdown-item>First Action</b-dropdown-item>
               <b-dropdown-item>Second Action</b-dropdown-item>
               <b-dropdown-item>Third Action</b-dropdown-item>

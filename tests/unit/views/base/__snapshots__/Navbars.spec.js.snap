@@ -11,8 +11,11 @@ exports[`Navbars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -55,9 +58,7 @@ exports[`Navbars.vue renders correctly 1`] = `
         />
          
         <b-navbar-brand-stub
-          activeclass="active"
           event="click"
-          exactactiveclass="active"
           href="#"
           routertag="a"
           tag="div"
@@ -75,10 +76,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             tag="ul"
           >
             <b-nav-item-stub
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
+              linkattrs="[object Object]"
               routertag="a"
               target="_self"
             >
@@ -86,11 +86,10 @@ exports[`Navbars.vue renders correctly 1`] = `
             </b-nav-item-stub>
              
             <b-nav-item-stub
-              activeclass="active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#"
+              linkattrs="[object Object]"
               routertag="a"
               target="_self"
             >
@@ -108,17 +107,18 @@ exports[`Navbars.vue renders correctly 1`] = `
                 placeholder="Search"
                 size="sm"
                 type="text"
+                value=""
               />
                
               <b-button-stub
-                activeclass="active"
                 class="my-2 my-sm-0"
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
                 size="sm"
+                tag="button"
                 target="_self"
                 type="submit"
+                variant="secondary"
               >
                 Search
               </b-button-stub>
@@ -133,9 +133,7 @@ exports[`Navbars.vue renders correctly 1`] = `
               text="Lang"
             >
               <b-dropdown-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
                 target="_self"
@@ -144,9 +142,7 @@ exports[`Navbars.vue renders correctly 1`] = `
               </b-dropdown-item-stub>
                
               <b-dropdown-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
                 target="_self"
@@ -155,9 +151,7 @@ exports[`Navbars.vue renders correctly 1`] = `
               </b-dropdown-item-stub>
                
               <b-dropdown-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
                 target="_self"
@@ -166,9 +160,7 @@ exports[`Navbars.vue renders correctly 1`] = `
               </b-dropdown-item-stub>
                
               <b-dropdown-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
                 target="_self"
@@ -192,9 +184,7 @@ exports[`Navbars.vue renders correctly 1`] = `
               </template>
                
               <b-dropdown-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
                 target="_self"
@@ -203,9 +193,7 @@ exports[`Navbars.vue renders correctly 1`] = `
               </b-dropdown-item-stub>
                
               <b-dropdown-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
                 routertag="a"
                 target="_self"
@@ -222,8 +210,11 @@ exports[`Navbars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -249,9 +240,7 @@ exports[`Navbars.vue renders correctly 1`] = `
           variant="faded"
         >
           <b-navbar-brand-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             tag="h1"
@@ -274,8 +263,11 @@ exports[`Navbars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -307,9 +299,7 @@ exports[`Navbars.vue renders correctly 1`] = `
           />
            
           <b-navbar-brand-stub
-            activeclass="active"
             event="click"
-            exactactiveclass="active"
             routertag="a"
             tag="div"
             target="_self"
@@ -340,8 +330,11 @@ exports[`Navbars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -381,10 +374,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               tag="ul"
             >
               <b-nav-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
+                linkattrs="[object Object]"
                 routertag="a"
                 target="_self"
               >
@@ -392,10 +384,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </b-nav-item-stub>
                
               <b-nav-item-stub
-                activeclass="active"
                 event="click"
-                exactactiveclass="active"
                 href="#"
+                linkattrs="[object Object]"
                 routertag="a"
                 target="_self"
               >
@@ -411,9 +402,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 text="Lang"
               >
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -422,9 +411,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -433,9 +420,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -444,9 +429,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -464,9 +447,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 text="User"
               >
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -475,9 +456,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 </b-dropdown-item-stub>
                  
                 <b-dropdown-item-stub
-                  activeclass="active"
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
@@ -495,8 +474,11 @@ exports[`Navbars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -526,14 +508,14 @@ exports[`Navbars.vue renders correctly 1`] = `
               class="mr-sm-2"
               placeholder="Search"
               type="text"
+              value=""
             />
              
             <b-button-stub
-              activeclass="active"
               class="my-2 my-sm-0"
               event="click"
-              exactactiveclass="active"
               routertag="a"
+              tag="button"
               target="_self"
               type="submit"
               variant="outline-success"
@@ -549,8 +531,11 @@ exports[`Navbars.vue renders correctly 1`] = `
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -584,6 +569,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 class="mr-sm-2"
                 placeholder="Username"
                 type="text"
+                value=""
               />
             </b-input-group-stub>
           </b-nav-form-stub>
