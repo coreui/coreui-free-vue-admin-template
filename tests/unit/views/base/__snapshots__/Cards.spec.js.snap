@@ -75,7 +75,10 @@ exports[`Cards.vue renders correctly 1`] = `
           class="card-header"
         >
           <div>
-            &lt;i class='fa fa-check'&gt;&lt;/i&gt; Card with icon
+            <i
+              class="fa fa-check"
+            />
+             Card with icon
           </div>
         </div>
         <div
@@ -106,24 +109,29 @@ exports[`Cards.vue renders correctly 1`] = `
             
           Card with switch
           
-            <label
-              class="switch switch-sm switch-text switch-info float-right mb-0"
+            <div
+              class="card-header-actions"
+              style="height: 21px;"
             >
-              <input
-                class="switch-input"
-                type="checkbox"
-              />
-               
-              <span
-                class="switch-label"
-                data-off="Off"
-                data-on="On"
-              />
-               
-              <span
-                class="switch-handle"
-              />
-            </label>
+              <label
+                class="switch switch-label switch-sm switch-info form-check-label"
+              >
+                <input
+                  class="switch-input form-check-input"
+                  false-value="uncheckedValue"
+                  id="switch-id-20"
+                  true-value="value"
+                  type="checkbox"
+                  value="true"
+                />
+                 
+                <span
+                  class="switch-slider"
+                  data-checked="On"
+                  data-unchecked="Off"
+                />
+              </label>
+            </div>
           </div>
         </div>
         <div
@@ -154,11 +162,15 @@ exports[`Cards.vue renders correctly 1`] = `
             
           Card with label
           
-            <span
-              class="badge float-right badge-success"
+            <div
+              class="card-header-actions"
             >
-              Success
-            </span>
+              <span
+                class="badge badge-success"
+              >
+                Success
+              </span>
+            </div>
           </div>
         </div>
         <div
@@ -189,11 +201,15 @@ exports[`Cards.vue renders correctly 1`] = `
             
           Card with label
           
-            <span
-              class="badge float-right badge-danger badge-pill"
+            <div
+              class="card-header-actions"
             >
-              42
-            </span>
+              <span
+                class="badge badge-danger badge-pill"
+              >
+                42
+              </span>
+            </div>
           </div>
         </div>
         <div

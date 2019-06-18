@@ -830,7 +830,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
             <b-card-stub
               bodytag="div"
               footertag="div"
-              header=<b>Card with list group</b>
               headertag="div"
               subtitle=""
               subtitletag="h6"
@@ -839,6 +838,14 @@ exports[`ListGroups.vue renders correctly 1`] = `
               title=""
               titletag="h4"
             >
+              <div
+                slot="header"
+              >
+                <b>
+                  Card with list group
+                </b>
+              </div>
+               
               <b-list-group-stub
                 tag="div"
               >
@@ -888,7 +895,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
             <b-card-stub
               bodytag="div"
               footertag="div"
-              header=<b>Card with flush list group</b>
               headertag="div"
               nobody="true"
               subtitle=""
@@ -898,6 +904,14 @@ exports[`ListGroups.vue renders correctly 1`] = `
               title=""
               titletag="h4"
             >
+              <div
+                slot="header"
+              >
+                <b>
+                  Card with flush list group
+                </b>
+              </div>
+               
               <b-list-group-stub
                 flush="true"
                 tag="div"

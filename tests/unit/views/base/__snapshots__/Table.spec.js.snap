@@ -4,7 +4,6 @@ exports[`Table.vue renders correctly 1`] = `
 <b-card-stub
   bodytag="div"
   footertag="div"
-  header="Table"
   headertag="div"
   subtitle=""
   subtitletag="h6"
@@ -13,6 +12,12 @@ exports[`Table.vue renders correctly 1`] = `
   title=""
   titletag="h4"
 >
+  <div
+    slot="header"
+  >
+    Table
+  </div>
+   
   <b-table-stub
     apiurl=""
     currentpage="1"

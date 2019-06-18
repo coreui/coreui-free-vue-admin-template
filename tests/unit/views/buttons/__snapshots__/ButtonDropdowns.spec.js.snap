@@ -1203,7 +1203,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <!---->
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_primary"
             >
               <!---->
@@ -1258,7 +1258,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_secondary"
             >
               <!---->
@@ -1313,7 +1313,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_success"
             >
               <!---->
@@ -1368,7 +1368,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_warning"
             >
               <!---->
@@ -1423,7 +1423,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_danger"
             >
               <!---->
@@ -1478,7 +1478,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_info"
             >
               <!---->
@@ -1533,7 +1533,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_light"
             >
               <!---->
@@ -1588,7 +1588,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_dark"
             >
               <!---->
@@ -1643,7 +1643,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="dropdown btn-group b-dropdown m-0"
+              class="dropdown btn-group b-dropdown m-1"
               id="ddown_link"
             >
               <!---->

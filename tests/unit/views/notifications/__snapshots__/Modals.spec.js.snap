@@ -17,7 +17,6 @@ exports[`Modals.vue renders correctly 1`] = `
         <b-card-stub
           bodytag="div"
           footertag="div"
-          header=<i class='fa fa-align-justify'></i> Bootstrap Modals
           headertag="div"
           subtitle=""
           subtitletag="h6"
@@ -26,6 +25,15 @@ exports[`Modals.vue renders correctly 1`] = `
           title=""
           titletag="h4"
         >
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             Bootstrap Modals
+          </div>
+           
           <b-button-stub
             class="mr-1"
             event="click"

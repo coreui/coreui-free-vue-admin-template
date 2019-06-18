@@ -343,7 +343,6 @@ exports[`Forms.vue renders correctly 1`] = `
           <b-form-group-stub
             description="Let us know your full name."
             feedbackarialive="assertive"
-            horizontal="true"
             label="Enter your name"
             labelcols="3"
             labelfor="basicName"
@@ -358,7 +357,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Static"
             labelcols="3"
             labelfor="basicStatic"
@@ -374,7 +372,6 @@ exports[`Forms.vue renders correctly 1`] = `
           <b-form-group-stub
             description="This is a help text"
             feedbackarialive="assertive"
-            horizontal="true"
             label="Text Input"
             labelcols="3"
             labelfor="basicText"
@@ -389,7 +386,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Date"
             labelcols="3"
             labelfor="date"
@@ -404,7 +400,6 @@ exports[`Forms.vue renders correctly 1`] = `
           <b-form-group-stub
             description="Please enter your email"
             feedbackarialive="assertive"
-            horizontal="true"
             label="Email Input"
             labelcols="3"
             labelfor="basicEmail"
@@ -421,7 +416,6 @@ exports[`Forms.vue renders correctly 1`] = `
           <b-form-group-stub
             description="Please enter a complex password"
             feedbackarialive="assertive"
-            horizontal="true"
             label="Password Input"
             labelcols="3"
             labelfor="basicPassword"
@@ -437,7 +431,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Disabled Input"
             labelcols="3"
             labelfor="basicInputDisabled"
@@ -453,7 +446,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Textarea"
             labelcols="3"
             labelfor="basicTextarea"
@@ -470,7 +462,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Select"
             labelcols="3"
             labelfor="basicSelect"
@@ -490,7 +481,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Select large"
             labelcols="3"
             labelfor="basicSelectLg"
@@ -511,7 +501,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Select small"
             labelcols="3"
             labelfor="basicSelectSm"
@@ -532,7 +521,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Disabled select"
             labelcols="3"
             labelfor="basicSelectDisabled"
@@ -553,7 +541,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Select"
             labelcols="3"
             labelfor="basicMultiSelect"
@@ -574,7 +561,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Radios"
             labelcols="3"
             labelfor="basicRadios"
@@ -595,7 +581,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Inline radios"
             labelcols="3"
             labelfor="basicInlineRadios"
@@ -615,7 +600,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Checkboxes"
             labelcols="3"
             labelfor="basicCheckboxes"
@@ -655,7 +639,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Inline checkboxes"
             labelcols="3"
             labelfor="basicInlineCheckboxes"
@@ -697,7 +680,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Radios - custom"
             labelcols="3"
             labelfor="basicRadiosCustom"
@@ -775,7 +757,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Inline radios - custom"
             labelcols="3"
             labelfor="basicCustomRadios1"
@@ -852,7 +833,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Checkboxes - custom"
             labelcols="3"
             labelfor="basicCustomCheckboxes"
@@ -926,7 +906,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Inline checkboxes - custom"
             labelcols="3"
             labelfor="basicInlineCustomCheckboxes"
@@ -999,7 +978,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="File input"
             labelcols="3"
             labelfor="fileInput"
@@ -1016,7 +994,6 @@ exports[`Forms.vue renders correctly 1`] = `
            
           <b-form-group-stub
             feedbackarialive="assertive"
-            horizontal="true"
             label="Multiple file input"
             labelcols="3"
             labelfor="fileInputMulti"
@@ -1187,7 +1164,6 @@ exports[`Forms.vue renders correctly 1`] = `
           <b-form-group-stub
             description="Please enter your email."
             feedbackarialive="assertive"
-            horizontal="true"
             label="Email"
             labelcols="3"
             labelfor="horizEmail"
@@ -1204,7 +1180,6 @@ exports[`Forms.vue renders correctly 1`] = `
           <b-form-group-stub
             description="Please enter your password."
             feedbackarialive="assertive"
-            horizontal="true"
             label="Password"
             labelcols="3"
             labelfor="horizPass"
@@ -1596,7 +1571,6 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-group-stub
           feedbackarialive="assertive"
-          horizontal="true"
           label="Small input"
           labelcols="5"
           labelfor="smInput"
@@ -1613,7 +1587,6 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-group-stub
           feedbackarialive="assertive"
-          horizontal="true"
           label="Default input"
           labelcols="5"
           labelfor="defaultInput"
@@ -1628,7 +1601,6 @@ exports[`Forms.vue renders correctly 1`] = `
          
         <b-form-group-stub
           feedbackarialive="assertive"
-          horizontal="true"
           label="Large input"
           labelcols="5"
           labelfor="lgInput"
@@ -1875,7 +1847,7 @@ exports[`Forms.vue renders correctly 1`] = `
     tag="div"
   >
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
@@ -2025,7 +1997,7 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
@@ -2198,7 +2170,7 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
@@ -2967,7 +2939,7 @@ exports[`Forms.vue renders correctly 1`] = `
     tag="div"
   >
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
@@ -3117,7 +3089,7 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub
@@ -3240,7 +3212,7 @@ exports[`Forms.vue renders correctly 1`] = `
     </b-col-stub>
      
     <b-col-stub
-      sm="4"
+      md="4"
       tag="div"
     >
       <b-card-stub

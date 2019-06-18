@@ -12,7 +12,6 @@ exports[`Users.vue renders correctly 1`] = `
     <b-card-stub
       bodytag="div"
       footertag="div"
-      header="Users"
       headertag="div"
       name="slide"
       subtitle=""
@@ -22,6 +21,12 @@ exports[`Users.vue renders correctly 1`] = `
       title=""
       titletag="h4"
     >
+      <div
+        slot="header"
+      >
+        Users
+      </div>
+       
       <b-table-stub
         apiurl=""
         currentpage="1"
