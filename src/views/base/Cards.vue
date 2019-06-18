@@ -13,7 +13,8 @@
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
-        <b-card header="<i class='fa fa-check'></i> Card with icon">
+        <b-card>
+          <div slot="header"><i class='fa fa-check'></i> Card with icon</div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
       </b-col>
@@ -21,11 +22,9 @@
         <b-card>
           <div slot="header">
             Card with switch
-            <label class="switch switch-sm switch-text switch-info float-right mb-0">
-              <input type="checkbox" class="switch-input">
-              <span class="switch-label" data-on="On" data-off="Off"></span>
-              <span class="switch-handle"></span>
-            </label>
+            <div class="card-header-actions" style="height: 21px;">
+              <c-switch size="sm" color="info" checked label />
+            </div>
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
@@ -34,7 +33,9 @@
         <b-card>
           <div slot="header">
             Card with label
-            <b-badge variant="success" class="float-right">Success</b-badge>
+            <div class="card-header-actions">
+              <b-badge variant="success">Success</b-badge>
+            </div>
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
@@ -43,7 +44,9 @@
         <b-card>
           <div slot="header">
             Card with label
-            <b-badge pill variant="danger" class="float-right">42</b-badge>
+            <div class="card-header-actions">
+              <b-badge pill variant="danger">42</b-badge>
+            </div>
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </b-card>
@@ -232,8 +235,13 @@
 </template>
 
 <script>
+import { Switch as cSwitch } from '@coreui/vue'
+
 export default {
   name: 'cards',
+  components: {
+    cSwitch
+  },
   data: function () {
     return {
       show: true

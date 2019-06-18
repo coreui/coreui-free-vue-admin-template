@@ -164,7 +164,8 @@
               <i class="fa fa-align-justify"></i><strong> List group </strong><small>inside cards</small>
             </div>
             <b-card-group deck>
-              <b-card header="<b>Card with list group</b>">
+              <b-card>
+                <div slot="header"><b>Card with list group</b></div>
                 <b-list-group>
                   <b-list-group-item href="#">Cras justo odio</b-list-group-item>
                   <b-list-group-item href="#">Dapibus ac facilisis in</b-list-group-item>
@@ -177,7 +178,8 @@
                   ad sit ipsum anim Lorem.
                 </p>
               </b-card>
-              <b-card no-body header="<b>Card with flush list group</b>">
+              <b-card no-body>
+                <div slot="header"><b>Card with flush list group</b></div>
                 <b-list-group flush>
                   <b-list-group-item href="#">Cras justo odio</b-list-group-item>
                   <b-list-group-item href="#">Dapibus ac facilisis in</b-list-group-item>
