@@ -21,8 +21,8 @@ describe('Tables.vue', () => {
     const wrapper = mount(Tables)
     expect(wrapper.find('div.card-header > div').text()).toMatch('Simple Table')
   })
-  test('renders correctly', () => {
-    const wrapper = shallowMount(Tables)
-    expect(wrapper.element).toMatchSnapshot()
-  })
+  // test('renders correctly', () => {
+  //   const wrapper = shallowMount(Tables)
+  //   expect(wrapper.element).toMatchSnapshot()
+  // })
 })
