@@ -1,5 +1,36 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.1.4`
+- fix(jest.config): babel-jest can't process import statement
+- chore(package.json): add missing `repository` url
+- refactor(DefaultContainer): SidebarToggler add defaultOpen prop example
+- test: update snapshots
+- chore: add ie polyfills
+- fix: extract b-card html header to slot 
+- fix(Forms): remove deprecated `horizontal` props
+- refactor(Dropdowns): add spacings
+- chore(vue.config): add publicPath
+
+###### dependencies update
+- update `@coreui/coreui` to `^2.1.12`
+- update `@coreui/coreui-plugin-chartjs-custom-tooltips` to `^1.3.1`
+- update `bootstrap-vue` to `^2.0.0-rc.24`
+- update `chart.js` to `^2.8.0`
+- update `core-js` to `^2.6.9`
+- update `css-vars-ponyfill` to `^2.0.2`
+- update `flag-icon-css` to `^3.3.0`
+- update `vue` to `^2.6.10`
+- update `vue-chartjs` to `^3.4.2`
+- update `vue-router` to `^3.0.6"
+- update `@vue/cli-plugin-babel` to `^3.8.0`
+- update `@vue/cli-plugin-e2e-nightwatch` to `^3.8.0`
+- update `@vue/cli-plugin-eslint` to `^3.8.0`
+- update `@vue/cli-plugin-unit-jest` to `^3.8.0`
+- update `@vue/cli-service` to `^3.8.4`
+- update `@vue/test-utils` to `1.0.0-beta.29`
+- update `node-sass` to `^4.12.0`
+- update `vue-template-compiler` to `^2.6.10`
+
 ##### `v2.1.3`
 - fix: change bootstrap-vue library to constant version (2.0.0-rc.11) to fix breaking changes from next versions and avoid future breaking changes
 - chore: update dependencies
