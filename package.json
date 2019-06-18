@@ -6,6 +6,10 @@
   "homepage": "http://coreui.io",
   "copyright": "Copyright 2018 creativeLabs Łukasz Holeczek",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:coreui/coreui-free-vue-admin-template.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
