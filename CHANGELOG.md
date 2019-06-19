@@ -1,5 +1,9 @@
 ## [CoreUI for Vue.js](./README.md) version `changelog`
 
+##### `v2.1.5`
+- fix(Forms): textarea is not textarea #161 - thanks @l2aelba
+- chore: lock `bootstrap-vue` to `2.0.0-rc.24`
+
 ##### `v2.1.4`
 - fix(jest.config): babel-jest can't process import statement
 - chore(package.json): add missing `repository` url
