@@ -450,13 +450,12 @@ exports[`Forms.vue renders correctly 1`] = `
             labelcols="3"
             labelfor="basicTextarea"
           >
-            <b-form-input-stub
+            <b-form-textarea-stub
               id="basicTextarea"
               placeholder="Content.."
               rows="9"
-              textarea="true"
-              type="text"
               value=""
+              wrap="soft"
             />
           </b-form-group-stub>
            
