@@ -2,7 +2,7 @@
   <CRow>
     <template v-if="!noCharts">
       <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           variant="facebook"
           right-header="89k"
           right-footer="friends"
@@ -22,10 +22,10 @@
             label="Friends"
             labels="months"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           variant="twitter"
           right-header="973k"
           right-footer="followers"
@@ -45,10 +45,10 @@
             label="Followers"
             labels="months"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           variant="linkedin"
           right-header="500+"
           right-footer="contracts"
@@ -68,10 +68,10 @@
             label="Contracts"
             labels="months"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           right-header="12"
           right-footer="events"
           left-header="4"
@@ -91,12 +91,12 @@
             label="Followers"
             labels="months"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
       </CCol>
     </template>
     <template v-else>
       <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           variant="facebook"
           right-header="89k"
           right-footer="friends"
@@ -108,10 +108,10 @@
             height="56"
             class="c-my-4"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           variant="twitter"
           right-header="973k"
           right-footer="followers"
@@ -123,10 +123,10 @@
             height="56"
             class="c-my-4"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
        </CCol>
        <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           variant="linkedin"
           right-header="500+"
           right-footer="contracts"
@@ -138,10 +138,10 @@
             height="56"
             class="c-my-4"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
        </CCol>
       <CCol md="3" sm="6">
-        <CWidgetSocial
+        <CWidgetBrand
           right-header="12"
           right-footer="events"
           left-header="4"
@@ -153,7 +153,7 @@
             height="56"
             class="c-my-4"
           />
-        </CWidgetSocial>
+        </CWidgetBrand>
       </CCol>
     </template>
   </CRow>

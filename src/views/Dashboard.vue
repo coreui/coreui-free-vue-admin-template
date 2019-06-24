@@ -82,7 +82,7 @@
         </CRow>
       </CCardFooter>
     </CCard>
-    <WidgetsSocial/>
+    <WidgetsBrand/>
     <CRow>
       <CCol md="12">
         <CCard header-html="Traffic &amp; Sales" body-wrapper>
@@ -451,7 +451,7 @@
 <script>
 import MainChartExample from './charts/MainChartExample'
 import WidgetsDropdown from './widgets/WidgetsDropdown'
-import WidgetsSocial from './widgets/WidgetsSocial'
+import WidgetsBrand from './widgets/WidgetsBrand'
 import CChartLineSimple from './charts/CChartLineSimple'
 
 export default {
@@ -459,7 +459,7 @@ export default {
   components: {
     MainChartExample,
     WidgetsDropdown,
-    WidgetsSocial,
+    WidgetsBrand,
     CChartLineSimple
   },
   data () {

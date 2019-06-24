@@ -127,48 +127,6 @@
           header="$1.999,50"
           text="Income"
           variant="primary"
-          link="#"
-        >
-          <CIcon name="settings" width="24"/>
-        </CWidgetIcon>
-      </CCol>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          text="Income"
-          variant="info"
-          link="#"
-        >
-          <CIcon name="laptop" width="24"/>
-        </CWidgetIcon>
-      </CCol>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          text="Income"
-          variant="warning"
-          link="#"
-        >
-          <CIcon name="moon" width="24"/>
-        </CWidgetIcon>
-      </CCol>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          text="Income"
-          variant="danger"
-          link="#"
-        >
-          <CIcon name="bell" width="24"/>
-        </CWidgetIcon>
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol col="12" sm="6" lg="3">
-        <CWidgetIcon
-          header="$1.999,50"
-          text="Income"
-          variant="primary"
           no-padding
         >
           <CIcon name="settings" width="24"/>
@@ -234,10 +192,21 @@
           no-padding
         >
           <CIcon name="moon" class="c-mx-5 " width="24"/>
+          <template #footer>
+            <CCardFooter class="c-card-footer c-px-3 c-py-2">
+              <CLink
+                class="c-font-weight-bold c-font-xs c-btn-block c-text-muted"
+                href="https://coreui.io/"
+              >
+                View more
+                <CIcon name="arrowRight" class="c-float-right" width="16"/>
+              </CLink>
+            </CCardFooter>
+          </template>
         </CWidgetIcon>
       </CCol>
     </CRow>
-    <CRow>
+    <!-- <CRow>
       <CCol col="12" sm="6" lg="4">
         <CWidgetIcon
           header="$1.999,50"
@@ -271,9 +240,9 @@
           <CIcon name="moon" class="c-mx-5" width="24"/>
         </CWidgetIcon>
       </CCol>
-    </CRow>
-    <WidgetsSocial noCharts/>
-    <WidgetsSocial/>
+    </CRow> -->
+    <WidgetsBrand noCharts/>
+    <WidgetsBrand/>
     <CCardGroup class="c-mb-4">
       <CWidgetProgressIcon
         header="87.500"
@@ -473,7 +442,7 @@
     <WidgetsDropdown/>
     <CRow>
       <CCol sm="6" lg="3">
-        <CWidgetSmallText
+        <CWidgetHeaderDetails
           right-header="SALE"
           right-footer="Today 6:43 AM"
           left-header="$1.890,65"
@@ -481,10 +450,10 @@
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
-        </CWidgetSmallText>
+        </CWidgetHeaderDetails>
       </CCol>
       <CCol sm="6" lg="3">
-        <CWidgetSmallText
+        <CWidgetHeaderDetails
           variant="success"
           right-header="SALE"
           right-footer="Today 6:43 AM"
@@ -493,10 +462,10 @@
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
-        </CWidgetSmallText>
+        </CWidgetHeaderDetails>
       </CCol>
       <CCol sm="6" lg="3">
-        <CWidgetSmallText
+        <CWidgetHeaderDetails
           variant="danger"
           right-header="SALE"
           right-footer="Today 6:43 AM"
@@ -505,10 +474,10 @@
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
-        </CWidgetSmallText>
+        </CWidgetHeaderDetails>
       </CCol>
       <CCol sm="6" lg="3">
-        <CWidgetSmallText
+        <CWidgetHeaderDetails
           variant="warning"
           right-header="SALE"
           right-footer="Today 6:43 AM"
@@ -517,7 +486,7 @@
         >
           <CChartLineSimple style="height:40px"/>
           <CChartBarSimple style="height:40px"/>
-        </CWidgetSmallText>
+        </CWidgetHeaderDetails>
       </CCol>
     </CRow>
     <CRow>
@@ -556,7 +525,7 @@
 </template>
 
 <script>
-import WidgetsSocial from './WidgetsSocial'
+import WidgetsBrand from './WidgetsBrand'
 import WidgetsDropdown from './WidgetsDropdown'
 import { CChartLineSimple, CChartBarSimple } from '../charts/index.js'
 
@@ -565,7 +534,7 @@ export default {
   components: {
     CChartLineSimple,
     CChartBarSimple,
-    WidgetsSocial,
+    WidgetsBrand,
     WidgetsDropdown
   }
 }
