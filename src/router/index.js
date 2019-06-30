@@ -60,11 +60,8 @@ const User = () => import('@/views/users/User')
 
 Vue.use(Router)
 
-export default new Router({
-  mode: 'hash', // https://router.vuejs.org/api/#mode
-  linkActiveClass: 'open active',
-  scrollBehavior: () => ({ y: 0 }),
-  routes: [
+function configRoutes() {
+  return [
     {
       path: '/',
       redirect: '/dashboard',
@@ -333,4 +330,11 @@ export default new Router({
       ]
     }
   ]
+}
+
+export default new Router({
+  mode: 'hash', // https://router.vuejs.org/api/#mode
+  linkActiveClass: 'open active',
+  scrollBehavior: () => ({ y: 0 }),
+  routes: configRoutes()
 })
