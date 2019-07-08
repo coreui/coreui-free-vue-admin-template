@@ -487,12 +487,12 @@
               type="email"
               placeholder="Email"
               autocomplete="email"
-              appendHtml="<i class='cui-envelope-open'></i>"
+              append-html="<i class='cui-envelope-open'></i>"
             />
             <CFormInput
               prependHtml="<i class='cui-euro'></i>"
               placeholder="ex. $1.000.000"
-              appendHtml=".00"
+              append-html=".00"
             />
           </CCardBody>
           <CCardFooter>
@@ -529,10 +529,10 @@
               autocomplete="email"
             >
               <template #prepend>
-                <CButton variant="primary"><i class="fa fa-facebook"></i></CButton>
+                <CButton variant="primary"><CIcon name="facebook" height="14"/></CButton>
               </template>
               <template #append>
-                <CButton variant="primary"><i class="fa fa-twitter"></i></CButton>
+                <CButton variant="primary"><CIcon name="twitter" height="14"/></CButton>
               </template>
             </CFormInput>
           </CCardBody>
@@ -684,19 +684,19 @@
             <CForm>
               <CFormInput
                 prepend-html="Username"
-                appendHtml="<i class='cui-user'></i>"
+                append-html="<i class='cui-user'></i>"
               />
               <CFormInput
                 prepend-html="Email"
                 type="email"
                 autocomplete="email"
-                appendHtml="<i class='cui-envelope-closed'></i>"
+                append-html="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
                 prepend-html="Password"
                 type="password"
                 autocomplete="current-password"
-                appendHtml="<i class='fa fa-asterisk'></i>"
+                append-html="<i class='cui-shield'></i>"
               />
               <div class="c-form-group c-form-actions">
                 <CButton type="submit" size="sm" variant="primary">
@@ -716,19 +716,19 @@
             <CForm>
               <CFormInput
                 placeholder="Username"
-                appendHtml="<i class='cui-user'></i>"
+                append-html="<i class='cui-user'></i>"
               />
               <CFormInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                appendHtml="<i class='cui-envelope-closed'></i>"
+                append-html="<i class='cui-envelope-closed'></i>"
               />
               <CFormInput
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                appendHtml="<i class='fa fa-asterisk'></i>"
+                append-html="<i class='cui-shield'></i>"
               />
               <div class="c-form-group c-form-actions">
                 <CButton type="submit" class="c-btn c-btn-sm c-btn-secondary">
@@ -760,7 +760,7 @@
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                prependHtml="<i class='fa fa-asterisk'></i>"
+                prependHtml="<i class='cui-shield'></i>"
               />
               <div class="c-form-group c-form-actions">
                 <CButton type="submit" size="sm" variant="success">
@@ -847,14 +847,6 @@ export default {
     return {
       selected: [], // Must be an array reference!
       show: true,
-      id: 'sdfjosdf22',
-      cInput: '',
-      smh: 'shnsad',
-      trueValue:'someTrueValue',
-      falseValue:'someFalseValue',
-      checks: ['someTrueValue','hehehe2','',1,1,1,1,1,1,1,1,1,1,1,1],
-      isValid: '',
-      testkkk: 2,
       horizontal: { label:'col-3', input:'col-9' },
       options: ['Option 1', 'Option 2', 'Option 3'],
       selectOptions: [
@@ -868,9 +860,6 @@ export default {
       radioNames: ['Radios', 'Inline Radios',
                     'Radios - custom', 'Inline Radios - custom']
     }
-  },
-  updated () {
-    console.log('parent updated')
   },
   methods: {
     validator (val) {

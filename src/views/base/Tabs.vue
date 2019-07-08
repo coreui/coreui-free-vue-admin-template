@@ -7,7 +7,7 @@
             Tabs
           </CCardHeader>
           <CCardBody>
-            <CTabs add-tab-classes="c-mt-1">
+            <CTabs>
               <CTab title-html="Home" active>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -39,10 +39,7 @@
             Tabs
           </CCardHeader>
           <CCardBody>
-            <CTabs
-              pills
-              add-nav-classes="c-mb-3"
-            >
+            <CTabs pills>
               <CTab title-html="Home" active>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -74,7 +71,7 @@
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs add-tab-classes="c-mt-1">
+            <CTabs>
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i>
@@ -156,7 +153,7 @@
             Tabs vertical
           </CCardHeader>
           <CCardBody>
-            <CTabs pills vertical="4">
+            <CTabs pills vertical add-tabs-wrapper-classes="c-pl-3">
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i> {{tabs[0]}}

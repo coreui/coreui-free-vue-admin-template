@@ -111,31 +111,17 @@
 
               <CAlert
                 :show.sync="dismissibleAlerts[2]"
-                dismissible
-                iconHtml="<i>Close</i>"
-              >
-                Dismissible Alert with custom icon!
-              </CAlert>
-
-              <CAlert
-                :show.sync="dismissibleAlerts[3]"
-                dismissible="customButton"
                 v-slot="{dismiss}"
+                class="c-alert-dismissible"
               >
                 Dismissible Alert with custom button!
                 <CButton
-                  class="c-position-absolute c-bg-primary"
+                  class="c-position-absolute"
+                  variant="primary"
                   style="right:10px;top: 50%;transform: translateY(-50%);"
                   textHtml="<i>Close</i>"
                   @click="dismiss"
                 />
-              </CAlert>
-
-              <CAlert
-                :show.sync="dismissibleAlerts[4]"
-                dismissible="disabled"
-              >
-                Disabled dismissible Alert!
               </CAlert>
               <CButton
                 @click="showDismissibleAlerts"
@@ -195,7 +181,7 @@ export default {
     return {
       dismissSecs: 10,
       dismissCountDown: 10,
-      dismissibleAlerts: [true, true, true, true, true],
+      dismissibleAlerts: [true, true, true],
     }
   },
   methods: {
