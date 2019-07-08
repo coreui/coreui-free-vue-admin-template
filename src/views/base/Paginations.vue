@@ -4,7 +4,7 @@
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
-          <strong> Bootstrap Pagination</strong>
+          <strong> Responsive bootstrap Pagination</strong>
           <!-- <div class="c-card-header-actions">
             <a href="https://bootstrap-vue.js.org/docs/components/pagination" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
               <small class="c-text-muted">docs</small>
@@ -16,6 +16,7 @@
           <CPagination
             :active-page.sync="currentPage"
             :pages="10"
+            responsive
           />
           <br>
 
@@ -32,6 +33,7 @@
               size="lg"
               :active-page.sync="currentPage"
               :pages="10"
+              responsive
             />
             <br>
           </div>

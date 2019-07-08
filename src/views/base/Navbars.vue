@@ -43,7 +43,6 @@
         <CCardBody>
           <CNavbar
             toggleable="md"
-            type="dark"
             variant="info"
             sticky
           >
@@ -63,7 +62,9 @@
                     placeholder="Search"
                     size="sm"
                   />
-                  <CButton size="sm" class="c-my-2 c-my-sm-0" type="submit">Search</CButton>
+                  <CButton variant="light" size="sm" class="c-my-2 c-my-sm-0">
+                    Search
+                  </CButton>
                 </CForm>
 
                 <CDropdown
@@ -128,7 +129,7 @@
           <small>dropdown</small>
         </CCardHeader>
         <CCardBody>
-          <CNavbar type="dark" variant="primary">
+          <CNavbar>
             <!-- <CNavbarToggle @click="navbarDropdown = !navbarDropdown"></CNavbarToggle>
             <CCollapse :show="navbarDropdown" navbar> -->
               <CNavbarNav>
@@ -164,7 +165,7 @@
           <small>form</small>
         </CCardHeader>
         <CCardBody>
-          <CNavbar type="light" variant="light">
+          <CNavbar light variant="light">
             <CForm inline>
               <CFormInput
                 class="c-mr-sm-2"
@@ -182,7 +183,7 @@
           <small>input group</small>
         </CCardHeader>
         <CCardBody>
-          <CNavbar type="light" variant="light">
+          <CNavbar light variant="light">
             <CForm inline>
               <CFormInput
                 class="c-mr-sm-2"

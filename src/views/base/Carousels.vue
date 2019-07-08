@@ -23,18 +23,20 @@
                 arrows
                 indicators
                 animate
+                height="400px"
               >
                 <CCarouselItem
                   caption="First Slide"
-                  img-src="https://lorempixel.com/1024/480/technics/2/"
+                  image="https://lorempixel.com/1024/480/technics/2/"
                   text="Nulla vitae elit libero, a pharetra augue mollis interdum."
                 />
                 <CCarouselItem
-                  active
-                  img-src="https://lorempixel.com/1024/480/technics/4/"
+                  caption="Blank page"
+                  :image="{ blankColor: 'grey' }"
+                  text="Nulla vitae elit libero, a pharetra augue mollis interdum."
                 />
                 <CCarouselItem
-                 img-src="https://lorempixel.com/1024/480/technics/8/"
+                 image="https://lorempixel.com/1024/480/technics/8/"
                 />
               </CCarousel>
             </CCardBody>

@@ -80,7 +80,6 @@
 
     <CModal
       title="Modal title"
-      class="c-modal-primary"
       :visible.sync="primaryModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -92,7 +91,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="c-modal-success"
+      variant="success"
       :visible.sync="successModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -104,7 +103,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="c-modal-warning"
+      variant="warning"
       :visible.sync="warningModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -116,7 +115,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="c-modal-danger"
+      variant="danger"
       :visible.sync="dangerModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -128,7 +127,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      class="c-modal-info"
+      variant="info"
       :visible.sync="infoModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -140,20 +139,11 @@
     </CModal>
     <CModal
       :visible.sync="darkModal"
-      :no-backdrop="false"
-      :no-close-on-backdrop="fsalse"
-      :no-fade="false"
+      :no-close-on-backdrop="true"
       :centered="true"
       title="Modal title 2"
       size="lg"
       variant="dark"
-      border-variant="danger2"
-      add-modal-classess="hehe1"
-      add-dialog-classess="hehe2"
-      add-content-classess="hehe3"
-      :no-header="false"
-      :no-body="false"
-      :no-footer="false"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -162,12 +152,12 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       <template #header="{hide}">
-        <h5 class="c-modal-title">Custom modal title</h5>
+        <h6 class="c-modal-title">Custom smaller modal title</h6>
         <CButtonClose @click="hide()" class="c-text-white"/>
       </template>
       <template #footer="{hide}">
         <CButton @click="hide()" variant="danger">Discard</CButton>
-        <CButton @click="hide()" variant="success">Accept</CButton>
+        <CButton @click="hide(true)" variant="success">Accept</CButton>
       </template>
     </CModal>
   </div>

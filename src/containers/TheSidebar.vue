@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import nav from '@/_nav'
+import nav from './_nav'
 export default {
   name: 'TheSidebar',
   computed: {
