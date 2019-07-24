@@ -95,6 +95,7 @@
             </CCardHeader>
             <CCardBody>
               <CAlert
+                variant="secondary"
                 dismissible
                 :show.sync="dismissibleAlerts[0]"
               >
@@ -102,6 +103,7 @@
               </CAlert>
 
               <CAlert
+                variant="secondary"
                 dismissible
                 fade
                 :show.sync="dismissibleAlerts[1]"
@@ -110,6 +112,7 @@
               </CAlert>
 
               <CAlert
+                variant="secondary"
                 :show.sync="dismissibleAlerts[2]"
                 v-slot="{dismiss}"
                 class="c-alert-dismissible"
@@ -117,7 +120,7 @@
                 Dismissible Alert with custom button!
                 <CButton
                   class="c-position-absolute"
-                  variant="primary"
+                  variant="secondary"
                   style="right:10px;top: 50%;transform: translateY(-50%);"
                   textHtml="<i>Close</i>"
                   @click="dismiss"

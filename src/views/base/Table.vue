@@ -10,7 +10,7 @@
       :fields="fields"
       :per-page="small ? 10 : 5"
       :dark="dark"
-      no-sorting
+      pagination      
     >
       <template #status="{item}">
         <td>

@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol sm="6" lg="3">
-      <CWidgetDropdown header="9.823" text="Members online">
+      <CWidgetDropdown variant="primary" header="9.823" text="Members online">
         <template #default>
           <CDropdown
             class="c-float-right"

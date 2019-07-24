@@ -20,7 +20,7 @@
               <CCollapse toggler="collapse1" class="c-mt-2">
                 <CCard body-wrapper>
                   <p class="c-card-text">Collapse contents Here</p>
-                  <CButton id="collapse2" size="sm">
+                  <CButton id="collapse2" size="sm" variant="secondary">
                     Toggle Inner Collapse
                   </CButton>
                   <CCollapse toggler="collapse2" class="c-mt-2">

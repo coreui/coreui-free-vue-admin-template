@@ -44,7 +44,6 @@
           <CNavbar
             toggleable="md"
             variant="info"
-            sticky
           >
             <CNavbarToggle @click="show=!show"/>
             <CNavbarBrand href="#">NavBar</CNavbarBrand>
@@ -100,8 +99,8 @@
           <!-- Image and text -->
           <CNavbar variant="faded" light>
             <CNavbarBrand href="#">
-              <img src="https://placekitten.com/g/30/30" class="c-d-inline-block c-align-top" alt="BV">
-              BootstrapVue
+              <img src="https://placekitten.com/g/30/30" class="c-d-inline-block c-align-top" alt="CoreuiVue">
+              CoreuiVue
             </CNavbarBrand>
           </CNavbar>
         </CCardBody>
@@ -114,7 +113,7 @@
         <CCardBody>
           <CNavbar toggleable="sm" light variant="light">
             <CNavbarToggle @click="navbarText=!navbarText"></CNavbarToggle>
-            <CNavbarBrand>BootstrapVue</CNavbarBrand>
+            <CNavbarBrand>CoreuiVue</CNavbarBrand>
             <CCollapse :show="navbarText" navbar>
               <CNavbarNav>
                 <span class="c-navbar-text">Navbar text</span>
@@ -129,9 +128,9 @@
           <small>dropdown</small>
         </CCardHeader>
         <CCardBody>
-          <CNavbar>
-            <!-- <CNavbarToggle @click="navbarDropdown = !navbarDropdown"></CNavbarToggle>
-            <CCollapse :show="navbarDropdown" navbar> -->
+          <CNavbar toggleable="sm" variant="primary">
+            <CNavbarToggle @click="navbarDropdown = !navbarDropdown"></CNavbarToggle>
+            <CCollapse :show="navbarDropdown" navbar>
               <CNavbarNav>
                 <CNavItem href="#">Home</CNavItem>
                 <CNavItem href="#">Link</CNavItem>
@@ -155,7 +154,7 @@
                   <CDropdownItem>Settings</CDropdownItem>
                 </CDropdown>
               </CNavbarNav>
-            <!-- </CCollapse> -->
+            </CCollapse>
           </CNavbar>
         </CCardBody>
       </CCard>

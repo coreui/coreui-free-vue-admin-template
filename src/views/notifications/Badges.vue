@@ -14,11 +14,11 @@
               </div> -->
             </CCardHeader>
             <CCardBody>
-              <h2>Example heading <CBadge>New</CBadge></h2>
-              <h3>Example heading <CBadge>New</CBadge></h3>
-              <h4>Example heading <CBadge>New</CBadge></h4>
-              <h5>Example heading <CBadge>New</CBadge></h5>
-              <h6>Example heading <CBadge>New</CBadge></h6>
+              <h2>Example heading <CBadge variant="primary">New</CBadge></h2>
+              <h3>Example heading <CBadge variant="primary">New</CBadge></h3>
+              <h4>Example heading <CBadge variant="primary">New</CBadge></h4>
+              <h5>Example heading <CBadge variant="primary">New</CBadge></h5>
+              <h6>Example heading <CBadge variant="primary">New</CBadge></h6>
             </CCardBody>
             <CCardFooter>
               <CButton variant="primary">

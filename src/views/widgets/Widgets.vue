@@ -443,6 +443,7 @@
     <CRow>
       <CCol sm="6" lg="3">
         <CWidgetHeaderDetails
+          variant="primary"
           right-header="SALE"
           right-footer="Today 6:43 AM"
           left-header="$1.890,65"

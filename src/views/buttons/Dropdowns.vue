@@ -15,7 +15,11 @@
             </CCardHeader>
             <CCardBody>
               <div>
-                <CDropdown button-html="Dropdown Button" class="c-m-2">
+                <CDropdown 
+                  button-html="Dropdown Button" 
+                  class="c-m-2"
+                  variant="secondary"
+                >
                   <CDropdownItem>First Action</CDropdownItem>
                   <CDropdownItem>Second Action</CDropdownItem>
                   <CDropdownItem>Third Action</CDropdownItem>
@@ -33,7 +37,11 @@
                 </CDropdown>
               </div> -->
               <div>
-                <CDropdown button-html="Dropdown with divider" class="c-m-2">
+                <CDropdown 
+                  button-html="Dropdown with divider" 
+                  class="c-m-2"
+                  variant="secondary"
+                >
                   <CDropdownItem>First item</CDropdownItem>
                   <CDropdownItem>Second item</CDropdownItem>
                   <CDropdownDivider></CDropdownDivider>
@@ -41,7 +49,11 @@
                 </CDropdown>
               </div>
               <div>
-                <CDropdown button-html="Dropdown with header" class="c-m-2">
+                <CDropdown 
+                  button-html="Dropdown with header" 
+                  class="c-m-2"
+                  variant="secondary"
+                >
                   <CDropdownHeader>Dropdown header</CDropdownHeader>
                   <CDropdownItem>First item</CDropdownItem>
                   <CDropdownItem>Second Item</CDropdownItem>
@@ -93,6 +105,7 @@
               </div>
               <div>
                 <CDropdown
+                  variant="secondary"
                   :offset="25"
                   button-html="Offset Dropdown"
                   class="c-m-2"
@@ -104,6 +117,7 @@
               </div>
               <div>
                 <CDropdown
+                  variant="secondary"
                   split
                   button-html="Split Dropdown"
                   class="c-m-2"
@@ -151,6 +165,7 @@
             <CCardBody>
               <div>
                 <CDropdown
+                  variant="secondary"
                   size="lg"
                   button-html="Large"
                   class="c-m-2"
@@ -160,6 +175,7 @@
                   <CDropdownItem>Something else here</CDropdownItem>
                 </CDropdown>
                 <CDropdown
+                  variant="secondary"
                   size="lg"
                   split
                   button-html="Large Split"
@@ -171,6 +187,7 @@
                 </CDropdown>
                 <br>
                 <CDropdown
+                  variant="secondary"
                   size="sm"
                   button-html="Small"
                   class="c-m-2"
@@ -180,6 +197,7 @@
                   <CDropdownItem>Something else here...</CDropdownItem>
                 </CDropdown>
                 <CDropdown
+                  variant="secondary"
                   size="sm"
                   split button-html="Small Split"
                   class="c-m-2"

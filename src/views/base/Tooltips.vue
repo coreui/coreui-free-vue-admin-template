@@ -16,23 +16,32 @@
           <CRow>
             <CCol col="4">
               <div class="c-text-center c-my-3">
-                <CButton v-c-tooltip.hover.click="'I am a tooltip!'">
+                <CButton 
+                  variant="secondary"
+                  v-c-tooltip.hover.click="'I am a tooltip!'"
+                >
                   Hover Me
                 </CButton>
               </div>
             </CCol>
             <CCol col="4">
               <div class="c-text-center c-my-3">
-                <CButton v-c-tooltip="{content: 'I start open!', active:true }">
+                <CButton 
+                  v-c-tooltip="{content: 'I start open!', active:true }"
+                  variant="secondary"
+                >
                   Hover me
                 </CButton>
               </div>
             </CCol>
             <CCol col="4">
               <div class="c-text-center c-my-3">
-                <CButton v-c-tooltip.click="
-                  'I am showing on click and hiding on click outside tooltip!'
-                ">
+                <CButton
+                  variant="secondary"
+                  v-c-tooltip.click="
+                    'I am showing on click and hiding on click outside tooltip!'
+                  "
+                >
                   Click me
                 </CButton>
               </div>

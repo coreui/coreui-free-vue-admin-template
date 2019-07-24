@@ -16,11 +16,11 @@
             <CCardBody>
               <div>
                 <CButtonGroup>
-                  <CButton>One</CButton>
-                  <CButton>Two</CButton>
-                  <CButton>Three</CButton>
-                  <CButton>Four</CButton>
-                  <CButton class="c-d-sm-down-none">Five</CButton>
+                  <CButton variant="secondary">One</CButton>
+                  <CButton variant="secondary">Two</CButton>
+                  <CButton variant="secondary">Three</CButton>
+                  <CButton variant="secondary">Four</CButton>
+                  <CButton variant="secondary" class="c-d-sm-down-none">Five</CButton>
                 </CButtonGroup>
                 <br><br>
                 <CButtonGroup>
@@ -44,21 +44,21 @@
             <CCardBody>
               <div>
                 <CButtonGroup>
-                  <CButton>Left</CButton>
-                  <CButton>Middle</CButton>
-                  <CButton>Right</CButton>
+                  <CButton variant="secondary">Left</CButton>
+                  <CButton variant="secondary">Middle</CButton>
+                  <CButton variant="secondary">Right</CButton>
                 </CButtonGroup>
                 <br><br>
                 <CButtonGroup size="sm">
-                  <CButton>Left</CButton>
-                  <CButton>Middle</CButton>
-                  <CButton>Right</CButton>
+                  <CButton variant="secondary">Left</CButton>
+                  <CButton variant="secondary">Middle</CButton>
+                  <CButton variant="secondary">Right</CButton>
                 </CButtonGroup>
                 <br><br>
                 <CButtonGroup size="lg">
-                  <CButton>Left</CButton>
-                  <CButton>Middle</CButton>
-                  <CButton>Right</CButton>
+                  <CButton variant="secondary">Left</CButton>
+                  <CButton variant="secondary">Middle</CButton>
+                  <CButton variant="secondary">Right</CButton>
                 </CButtonGroup>
               </div>
             </CCardBody>
@@ -72,15 +72,15 @@
             <CCardBody>
               <div>
                 <CButtonGroup>
-                  <CButton class="c-d-sm-down-none">Button 1</CButton>
-                  <CButton class="c-d-sm-down-none">Button 2</CButton>
+                  <CButton variant="secondary" class="c-d-sm-down-none">Button 1</CButton>
+                  <CButton variant="secondary" class="c-d-sm-down-none">Button 2</CButton>
                   <CDropdown right text="Menu" variant="success">
                     <CDropdownItem>Item 1</CDropdownItem>
                     <CDropdownItem>Item 2</CDropdownItem>
                     <CDropdownDivider></CDropdownDivider>
                     <CDropdownItem>Item 3</CDropdownItem>
                   </CDropdown>
-                  <CButton class="c-d-sm-down-none">Button 3</CButton>
+                  <CButton variant="secondary" class="c-d-sm-down-none">Button 3</CButton>
                   <CDropdown right split text="Split Menu" variant="info">
                     <CDropdownItem>Item 1</CDropdownItem>
                     <CDropdownItem>Item 2</CDropdownItem>
@@ -101,9 +101,9 @@
             <CCardBody>
               <div>
                 <CButtonGroup vertical>
-                  <CButton>Top</CButton>
-                  <CButton>Middle</CButton>
-                  <CButton>Bottom</CButton>
+                  <CButton variant="secondary">Top</CButton>
+                  <CButton variant="secondary">Middle</CButton>
+                  <CButton variant="secondary">Bottom</CButton>
                 </CButtonGroup>
               </div>
             </CCardBody>
@@ -125,17 +125,17 @@
               <div>
                 <CButtonToolbar aria-label="Toolbar with button groups">
                   <CButtonGroup class="c-mx-1">
-                    <CButton class="c-d-sm-down-none">&laquo;</CButton>
-                    <CButton>&lsaquo;</CButton>
+                    <CButton variant="secondary" class="c-d-sm-down-none">&laquo;</CButton>
+                    <CButton variant="secondary">&lsaquo;</CButton>
                   </CButtonGroup>
                   <CButtonGroup class="c-mx-1">
-                    <CButton class="c-d-sm-down-none">Edit</CButton>
-                    <CButton>Undo</CButton>
-                    <CButton>Redo</CButton>
+                    <CButton variant="secondary" class="c-d-sm-down-none">Edit</CButton>
+                    <CButton variant="secondary">Undo</CButton>
+                    <CButton variant="secondary">Redo</CButton>
                   </CButtonGroup>
                   <CButtonGroup class="c-mx-1">
-                    <CButton>&rsaquo;</CButton>
-                    <CButton class="c-d-sm-down-none">&raquo;</CButton>
+                    <CButton variant="secondary">&rsaquo;</CButton>
+                    <CButton variant="secondary" class="c-d-sm-down-none">&raquo;</CButton>
                   </CButtonGroup>
                 </CButtonToolbar>
               </div>
@@ -146,8 +146,8 @@
                   class="c-d-sm-down-none"
                 >
                   <CButtonGroup size="sm" class="c-mx-1">
-                    <CButton>New</CButton>
-                    <CButton>Edit</CButton>
+                    <CButton variant="secondary">New</CButton>
+                    <CButton variant="secondary">Edit</CButton>
                   </CButtonGroup>
                   <CFormInput
                     class="c-mb-0 c-w-25 c-mx-1"
@@ -165,8 +165,8 @@
                     custom
                   />
                   <CButtonGroup size="sm" class="c-mx-1">
-                    <CButton>Save</CButton>
-                    <CButton>Cancel</CButton>
+                    <CButton variant="secondary">Save</CButton>
+                    <CButton variant="secondary">Cancel</CButton>
                   </CButtonGroup>
                 </CButtonToolbar>
               </div>
@@ -174,11 +174,12 @@
               <div>
                 <CButtonToolbar aria-label="Toolbar with button groups and dropdown menu">
                   <CButtonGroup class="c-mx-1 c-d-sm-down-none">
-                    <CButton>New</CButton>
-                    <CButton>Edit</CButton>
-                    <CButton>Undo</CButton>
+                    <CButton variant="secondary">New</CButton>
+                    <CButton variant="secondary">Edit</CButton>
+                    <CButton variant="secondary">Undo</CButton>
                   </CButtonGroup>
                   <CDropdown
+                    variant="secondary"
                     class="c-mx-1"
                     placement="bottom-end"
                     button-content="Menu"
@@ -188,8 +189,8 @@
                     <CDropdownItem>Item 3</CDropdownItem>
                   </CDropdown>
                   <CButtonGroup class="c-mx-1">
-                    <CButton>Save</CButton>
-                    <CButton>Cancel</CButton>
+                    <CButton variant="secondary">Save</CButton>
+                    <CButton variant="secondary">Cancel</CButton>
                   </CButtonGroup>
                 </CButtonToolbar>
               </div>
