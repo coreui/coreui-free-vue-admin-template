@@ -7,11 +7,16 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Dropdown</strong>
-              <!-- <div class="card-header-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/dropdown" class="card-header-action" rel="noreferrer noopener" target="_blank">
+              <div class="c-card-header-actions">
+                <a 
+                  href="https://coreui.io/vue/docs/3.0/components/Dropdown" 
+                  class="card-header-action" 
+                  rel="noreferrer noopener" 
+                  target="_blank"
+                >
                   <small class="text-muted">docs</small>
                 </a>
-              </div> -->
+              </div>
             </CCardHeader>
             <CCardBody>
               <div>

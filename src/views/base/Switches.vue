@@ -4,11 +4,18 @@
       <CCol xs="12" md="6">
         <CCard v-if="true">
           <CCardHeader>
-            <h5>
-               Radio switches
-              <CBadge :variant="radio" class="c-mr-auto">{{radio}}</CBadge>
-              <CBadge variant="danger" class="c-float-right">NEW</CBadge>
-            </h5>
+            Radio switches
+            <CBadge :variant="radio" class="c-mr-auto">{{radio}}</CBadge>
+            <div class="c-card-header-actions">
+              <a 
+                href="https://coreui.io/vue/docs/3.0/components/Switch" 
+                class="card-header-action" 
+                rel="noreferrer noopener" 
+                target="_blank"
+              >
+                <small class="text-muted">docs</small>
+              </a>
+            </div>
           </CCardHeader>
           <CCardBody>
             <!-- <CSwitch

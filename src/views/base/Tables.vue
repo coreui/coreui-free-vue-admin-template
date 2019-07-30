@@ -2,66 +2,76 @@
   <div>
     <CRow>
       <CCol sm="12">
-        <CCard header-html="CTable component functionality presentation" body-wrapper>
-          <CTable
-            :items="getItems()"
-            :fields="fields"
-            :per-page="6"
-            index-column
-            filter-row
-            options-row
-            hover
-            :default-column-filter="{ role:'staff' }"
-            :default-sorters="['username', 'asc']"
-            :default-filter="2012"
-            dark-header
-            footer
-            pagination
-          >
-            <template #index-column="{index}">
-              <td
-                @click="toggleDetails(index)"
-                style="cursor:pointer"
-                class="c-text-center"
+        <CCard>
+          <CCardHeader>
+            CTable component functionality presentation
+            <div class="c-card-header-actions">
+              <a 
+                href="https://coreui.io/vue/docs/3.0/components/Table" 
+                class="card-header-action" 
+                rel="noreferrer noopener" 
+                target="_blank"
               >
-                <i
-                  class="c-icons c-font-lg c-d-block cui-chevron-right"
-                  style="transition: transform 0.4s"
-                  :style="details.includes(index) ? 'transform:rotate(90deg)': ''"
-                ></i>
-              </td>
-            </template>
-            <template #status="{item}">
-              <td>
-                <CBadge :variant="getBadge(item.status)">
-                  {{item.status}}
-                </CBadge>
-              </td>
-            </template>
-            <template #show_details="{item, index}">
-              <td class="c-py-2">
-                <CButton
-                  variant="outline-primary"
-                  square
-                  size="sm"
+                <small class="text-muted">docs</small>
+              </a>
+            </div>
+          </CCardHeader>
+          <CCardBody>
+            <CTable
+              :items="getItems()"
+              :fields="fields"
+              :per-page="6"
+              index-column
+              filter-row
+              options-row
+              hover
+              :default-column-filter="{ role:'staff' }"
+              :default-sorters="['username', 'asc']"
+              :default-filter="2012"
+              dark-header
+              footer
+              pagination
+            >
+              <template #index-column="{index}">
+                <td
                   @click="toggleDetails(index)"
-                  :text-html="details.includes(index) ? 'Hide' : 'Show'"
-                />
-              </td>
-            </template>
-            <template #details="{item, index}">
-              <CCollapse :show="details.includes(index)">
-                <CCardBody>
-                  {{index + 1}} - {{item}}
-                </CCardBody>
-              </CCollapse>
-            </template>
-          </CTable>
-          <!-- <CPagination
-            v-show="pages > 1"
-            :activePage.sync="page"
-            :pages="pages"
-          /> -->
+                  style="cursor:pointer"
+                  class="c-text-center"
+                >
+                  <i
+                    class="c-icons c-font-lg c-d-block cui-chevron-right"
+                    style="transition: transform 0.4s"
+                    :style="details.includes(index) ? 'transform:rotate(90deg)': ''"
+                  ></i>
+                </td>
+              </template>
+              <template #status="{item}">
+                <td>
+                  <CBadge :variant="getBadge(item.status)">
+                    {{item.status}}
+                  </CBadge>
+                </td>
+              </template>
+              <template #show_details="{item, index}">
+                <td class="c-py-2">
+                  <CButton
+                    variant="outline-primary"
+                    square
+                    size="sm"
+                    @click="toggleDetails(index)"
+                    :text-html="details.includes(index) ? 'Hide' : 'Show'"
+                  />
+                </td>
+              </template>
+              <template #details="{item, index}">
+                <CCollapse :show="details.includes(index)">
+                  <CCardBody>
+                    {{index + 1}} - {{item}}
+                  </CCardBody>
+                </CCollapse>
+              </template>
+            </CTable>
+          </CCardBody>
         </CCard>
       </CCol>
     </CRow>

@@ -5,11 +5,16 @@
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Progress</strong>
-          <!-- <div class="c-card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/progress" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="c-text-muted">docs</small>
+          <div class="c-card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/3.0/components/Progress" 
+              class="card-header-action" 
+              rel="noreferrer noopener" 
+              target="_blank"
+            >
+              <small class="text-muted">docs</small>
             </a>
-          </div> -->
+          </div>
         </CCardHeader>
         <CCardBody>
           <CProgress :value="counter" :max="max" show-progress animated></CProgress>
@@ -206,7 +211,7 @@ export default {
   name: 'progress-bars',
   data () {
     return {
-      counter: 45,
+      counter: 73,
       max: 100,
       max2: 50,
       value: 33.333333333,

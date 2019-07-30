@@ -6,11 +6,16 @@
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Tooltips </strong>
           <small><code>v-c-tooltip</code> directive</small>
-          <!-- <div class="c-card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/tooltip" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="c-text-muted">docs</small>
+          <div class="c-card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/3.0/components/Tooltip" 
+              class="card-header-action" 
+              rel="noreferrer noopener" 
+              target="_blank"
+            >
+              <small class="text-muted">docs</small>
             </a>
-          </div> -->
+          </div>
         </CCardHeader>
         <CCardBody>
           <CRow>

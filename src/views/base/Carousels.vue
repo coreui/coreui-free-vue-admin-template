@@ -7,16 +7,16 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Carousel</strong>
-              <!-- <div class="card-header-actions">
-                <a
-                  href="https://bootstrap-vue.js.org/docs/components/carousel"
-                  class="card-header-action"
-                  rel="noreferrer noopener"
+              <div class="c-card-header-actions">
+                <a 
+                  href="https://coreui.io/vue/docs/3.0/components/Carousel" 
+                  class="card-header-action" 
+                  rel="noreferrer noopener" 
                   target="_blank"
                 >
                   <small class="text-muted">docs</small>
                 </a>
-              </div> -->
+              </div>
             </CCardHeader>
             <CCardBody>
               <CCarousel

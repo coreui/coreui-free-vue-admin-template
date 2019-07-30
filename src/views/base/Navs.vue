@@ -4,14 +4,16 @@
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs</strong>
-          <!-- <div class="c-card-header-actions">
-            <CLink
-              href="#"
-              class="c-card-header-action"
+          <div class="c-card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/3.0/components/Nav" 
+              class="card-header-action" 
+              rel="noreferrer noopener" 
+              target="_blank"
             >
-              <small class="c-text-muted">docs</small>
-            </CLink>
-          </div> -->
+              <small class="text-muted">docs</small>
+            </a>
+          </div>
         </CCardHeader>
         <CCardBody>
           <CNav>

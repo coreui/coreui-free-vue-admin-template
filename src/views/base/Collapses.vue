@@ -7,11 +7,16 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Collapse </strong>
-              <!-- <div class="card-header-actions">
-                <CLink class="card-header-action">
+              <div class="c-card-header-actions">
+                <a 
+                  href="https://coreui.io/vue/docs/3.0/components/Collapse" 
+                  class="card-header-action" 
+                  rel="noreferrer noopener" 
+                  target="_blank"
+                >
                   <small class="text-muted">docs</small>
-                </CLink>
-              </div> -->
+                </a>
+              </div>
             </CCardHeader>
             <CCardBody>
               <CButton id="collapse1" variant="primary">

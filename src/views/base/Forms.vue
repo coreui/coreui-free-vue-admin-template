@@ -5,6 +5,16 @@
         <CCard>
           <CCardHeader>
             <strong>Credit Card </strong> <small>Form</small>
+            <div class="c-card-header-actions">
+              <a 
+                href="https://coreui.io/vue/docs/3.0/components/FormComponents" 
+                class="card-header-action" 
+                rel="noreferrer noopener" 
+                target="_blank"
+              >
+                <small class="text-muted">docs</small>
+              </a>
+            </div>
           </CCardHeader>
           <CCardBody>
             <CRow>

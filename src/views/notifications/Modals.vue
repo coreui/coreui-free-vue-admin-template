@@ -6,6 +6,16 @@
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Bootstrap Modals
+              <div class="c-card-header-actions">
+                <a 
+                  href="https://coreui.io/vue/docs/3.0/components/Modal" 
+                  class="card-header-action" 
+                  rel="noreferrer noopener" 
+                  target="_blank"
+                >
+                  <small class="text-muted">docs</small>
+                </a>
+              </div>
             </CCardHeader>
             <CCardBody>
               <CButton variant="secondary" @click="myModal = true" class="c-mr-1">

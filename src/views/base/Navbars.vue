@@ -34,11 +34,16 @@
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Navbar </strong>
-          <!-- <div class="c-card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/navbar" class="c-card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="c-text-muted">docs</small>
+          <div class="c-card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/3.0/components/Navbar" 
+              class="card-header-action" 
+              rel="noreferrer noopener" 
+              target="_blank"
+            >
+              <small class="text-muted">docs</small>
             </a>
-          </div> -->
+          </div>
         </CCardHeader>
         <CCardBody>
           <CNavbar

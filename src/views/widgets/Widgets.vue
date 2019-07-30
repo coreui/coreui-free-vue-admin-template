@@ -12,6 +12,19 @@
             :value="25"
             class="c-progress-xs c-my-3 c-mb-0"
           />
+          <template #header>
+            <div class="c-card-header-actions">
+              <a 
+                href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
+                class="card-header-action c-position-absolute"
+                style="right:10px; top:10px"
+                rel="noreferrer noopener" 
+                target="_blank"
+              >
+                <small class="text-muted">docs</small>
+              </a>
+            </div>
+          </template>
         </CWidgetProgress>
       </CCol>
       <CCol sm="6" lg="3">
