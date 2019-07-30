@@ -96,7 +96,7 @@
             <CCardBody>
               <CAlert
                 variant="secondary"
-                dismissible
+                closeButton
                 :show.sync="dismissibleAlerts[0]"
               >
                 Dismissible Alert!
@@ -104,7 +104,7 @@
 
               <CAlert
                 variant="secondary"
-                dismissible
+                closeButton
                 fade
                 :show.sync="dismissibleAlerts[1]"
               >
@@ -144,7 +144,7 @@
               <div>
                 <CAlert
                   :show.sync="dismissCountDown"
-                  dismissible
+                  closeButton
                   variant="warning"
                   fade
                 >
@@ -154,7 +154,7 @@
 
                 <CAlert
                   :show.sync="dismissCountDown"
-                  dismissible
+                  closeButton
                   variant="info"
                 >
                   Alert will dismiss after {{dismissCountDown}} seconds...

@@ -18,7 +18,13 @@
             <CProgressBar :value="counter*(2.5/10)" variant="warning"/>
             <CProgressBar :value="counter*(1.5/10)" variant="danger"/>
           </CProgress>
-          <CButton class="c-mt-4" @click="clicked">Click me</CButton>
+          <CButton 
+            @click="clicked"
+            variant="secondary"
+            class="c-mt-4" 
+          >
+            Click me to animate progress bars
+          </CButton>
         </CCardBody>
       </CCard>
       <CCard>

@@ -1,11 +1,17 @@
 <template>
   <CHeader fixed>
-    <CSidebarToggler class="c-header-toggler c-d-lg-none"/>
+    <CSidebarToggler 
+      class="c-header-toggler c-d-lg-none"
+      v-c-emit-root-event:c-sidebar-toggle
+    />
     <CLink class="c-header-brand" to="#">
       <img class="c-navbar-brand-full" src="img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
       <!-- <img class="c-navbar-brand-minimized" src="img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo"> -->
     </CLink>
-    <CSidebarToggler class="c-header-toggler c-d-md-down-none"/>
+    <CSidebarToggler 
+      class="c-header-toggler c-d-md-down-none" 
+      v-c-emit-root-event:c-sidebar-toggle  
+    />
     <ul class="c-header-nav c-d-md-down-none">
       <CNavItem class="c-px-3" to="/dashboard">Dashboard</CNavItem>
       <CNavItem class="c-px-3" to="/users" exact>Users</CNavItem>

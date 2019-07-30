@@ -153,7 +153,7 @@
             Tabs vertical
           </CCardHeader>
           <CCardBody>
-            <CTabs pills vertical add-tabs-wrapper-classes="c-pl-3">
+            <CTabs pills vertical>
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i> {{tabs[0]}}

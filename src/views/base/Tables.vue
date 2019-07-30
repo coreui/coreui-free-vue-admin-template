@@ -2,7 +2,7 @@
   <div>
     <CRow>
       <CCol sm="12">
-        <CCard header-html="CTable power presentation" body-wrapper>
+        <CCard header-html="CTable component functionality presentation" body-wrapper>
           <CTable
             :items="getItems()"
             :fields="fields"
@@ -65,25 +65,6 @@
         </CCard>
       </CCol>
     </CRow>
-    <!-- <CRow>
-      <CCol sm="12">
-        <CCard header-html="test2">
-          <CTable
-            :items="items.slice(0)"
-            :fields="fields"
-            :per-page="5"
-            index-col="onlyCleaner"
-            filter-row
-            options-row="onlyFiltesr"
-            :pagination-props="{align:'center'}"
-          >
-              <td slot="status" slot-scope="{item}">
-                <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>
-              </td>
-          </CTable>
-        </CCard>
-      </CCol>
-    </CRow> -->
 
 
     <CRow>
