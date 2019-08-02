@@ -30,9 +30,18 @@ export default {
       type: String,
       default: 'Sales'
     },
-    pointed: Boolean
+    pointed: Boolean,
+    pointHoverBackgroundColor: String
   },
   computed: {
+    pointHoverColor () {
+      if (this.pointHoverBackgroundColor) {
+        return this.pointHoverBackgroundColor
+      } else if (this.backgroundColor !== 'transparent') {
+        return this.backgroundColor
+      }
+      return this.borderColor
+    },
     defaultDatasets () {
       return [
         {
@@ -40,7 +49,7 @@ export default {
           borderColor: getColor(this.borderColor),
           backgroundColor: getColor(this.backgroundColor),
           pointBackgroundColor: this.pointBackgroundColor,
-          pointHoverBackgroundColor: getColor(this.borderColor),
+          pointHoverBackgroundColor: getColor(this.pointHoverColor),
           label: this.label
         }
       ]
