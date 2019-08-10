@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheFooter.vue renders correctly 1`] = `
+<cfooter-stub>
+  <div>
+    <a
+      href="https://coreui.io"
+    >
+      CoreUI
+    </a>
+     
+    <span
+      class="c-ml-1"
+    >
+      © 2018 creativeLabs.
+    </span>
+  </div>
+   
+  <div
+    class="c-ml-auto"
+  >
+    <span
+      class="c-mr-1"
+    >
+      Powered by
+    </span>
+     
+    <a
+      href="https://coreui.io"
+    >
+      CoreUI for Vue
+    </a>
+  </div>
+</cfooter-stub>
+`;

@@ -1,0 +1,1344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdowns.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <div
+      class="c-row"
+    >
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Bootstrap Dropdown
+            </strong>
+             
+            <div
+              class="c-card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://coreui.io/vue/docs/3.0/components/Dropdown"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <div>
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Dropdown Button"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    First Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Second Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Third Action
+                  </a>
+                   
+                  <div
+                    class="c-dropdown-divider"
+                    role="separator"
+                  />
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                   
+                  <a
+                    aria-disabled="true"
+                    class="c-dropdown-item c-disabled"
+                    href="#"
+                    role="menuitem"
+                    tabindex="-1"
+                    target="_self"
+                  >
+                    Disabled action
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Dropdown with divider"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    First item
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Second item
+                  </a>
+                   
+                  <div
+                    class="c-dropdown-divider"
+                    role="separator"
+                  />
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Separated Item
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Dropdown with header"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <h6
+                    class="c-dropdown-header"
+                  >
+                    Dropdown header
+                  </h6>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    First item
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Second Item
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+       
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Dropdown 
+            </strong>
+             
+            <small>
+              positioning
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <div>
+              <div
+                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
+                toggler-text="Left align"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-primary c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+               
+              <div
+                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
+                toggler-text="Right align"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-primary c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Drop-Up"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-info c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Offset Dropdown"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Split Dropdown"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <button
+                  class="c-btn c-btn-secondary c-dropdown-toggle c-dropdown-toggle-split"
+                />
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="c-row"
+    >
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Dropdown 
+            </strong>
+             
+            <small>
+              hidden caret
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <div>
+              <div
+                class="c-dropdown c-btn-group"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-link c-btn-lg"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+       
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Dropdown 
+            </strong>
+             
+            <small>
+              sizing
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <div>
+              <div
+                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
+                toggler-text="Large"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-dropdown-toggle c-btn-lg"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+               
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Large Split"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-btn-lg"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <button
+                  class="c-btn c-btn-secondary c-btn-lg c-dropdown-toggle c-dropdown-toggle-split"
+                />
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                </div>
+              </div>
+               
+              <br />
+               
+              <div
+                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
+                toggler-text="Small"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-dropdown-toggle c-btn-sm"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                </div>
+              </div>
+               
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Small Split"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-secondary c-btn-sm"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <button
+                  class="c-btn c-btn-secondary c-btn-sm c-dropdown-toggle c-dropdown-toggle-split"
+                />
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="c-row"
+    >
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Dropdown 
+            </strong>
+             
+            <small>
+              headers and accessibility
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <div>
+              <div
+                class="c-m-2 c-dropdown c-btn-group"
+                toggler-text="Dropdown ARIA"
+              >
+                <button
+                  aria-haspopup="true"
+                  class="c-btn c-btn-primary c-dropdown-toggle"
+                  style="cursor: pointer;"
+                >
+                  Dropdown
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <div
+                    role="group"
+                  >
+                    <h6
+                      class="c-dropdown-header"
+                    >
+                      Groups
+                    </h6>
+                     
+                    <a
+                      class="c-dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Add
+                    </a>
+                     
+                    <a
+                      class="c-dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                   
+                  <div
+                    role="group"
+                  >
+                    <h6
+                      class="c-dropdown-header"
+                    >
+                      Users
+                    </h6>
+                     
+                    <a
+                      class="c-dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Add
+                    </a>
+                     
+                    <a
+                      class="c-dropdown-item"
+                      href="#"
+                      role="menuitem"
+                      target="_self"
+                    >
+                      Delete
+                    </a>
+                  </div>
+                   
+                  <div
+                    class="c-dropdown-divider"
+                    role="separator"
+                  />
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    
+                  Something 
+                    <strong>
+                      not
+                    </strong>
+                     associated with user
+                
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+       
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Dropdown 
+            </strong>
+             
+            <small>
+              <code>
+                variant
+              </code>
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Primary"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-primary c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Secondary"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-secondary c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Success"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-success c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Warning"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-warning c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Danger"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-danger c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Info"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-info c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Light"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-light c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Dark"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-dark c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
+              toggler-text="Link"
+            >
+              <button
+                aria-haspopup="true"
+                class="c-btn c-btn-link c-dropdown-toggle c-btn-sm"
+                style="cursor: pointer;"
+              >
+                Dropdown
+              </button>
+              <!---->
+              <div
+                class="c-dropdown-menu"
+              >
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="c-dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

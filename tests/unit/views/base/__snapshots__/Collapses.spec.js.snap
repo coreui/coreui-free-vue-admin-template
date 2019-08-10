@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapses.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <div
+      class="c-row"
+    >
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Bootstrap Collapse 
+            </strong>
+             
+            <div
+              class="c-card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://coreui.io/vue/docs/3.0/components/Collapse"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <button
+              class="c-btn c-btn-primary"
+              id="collapse1"
+              type="button"
+            >
+              
+              Toggle Collapse
+            
+            </button>
+             
+            <div
+              class="c-mt-2"
+              data-v-98918eb0=""
+              style="display: none;"
+            >
+              <div
+                class="c-card"
+                data-v-98918eb0=""
+              >
+                <!---->
+                <div
+                  class="c-card-body"
+                  data-v-98918eb0=""
+                >
+                  <!---->
+                  <!---->
+                  <p
+                    class="c-card-text"
+                    data-v-98918eb0=""
+                  >
+                    Collapse contents Here
+                  </p>
+                   
+                  <button
+                    class="c-btn c-btn-secondary c-btn-sm"
+                    data-v-98918eb0=""
+                    id="collapse2"
+                    type="button"
+                  >
+                    
+                  Toggle Inner Collapse
+                
+                  </button>
+                   
+                  <div
+                    class="c-mt-2"
+                    data-v-98918eb0=""
+                    style="display: none;"
+                  >
+                    <div
+                      class="c-card"
+                      data-v-98918eb0=""
+                    >
+                      <!---->
+                      <div
+                        class="c-card-body"
+                        data-v-98918eb0=""
+                      >
+                        <!---->
+                        <!---->
+                        Hello!
+                      </div>
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

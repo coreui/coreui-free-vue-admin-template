@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousels.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <div
+      class="c-row"
+    >
+      <div
+        class="c-col-md-12 c-col-lg-9"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Bootstrap Carousel
+            </strong>
+             
+            <div
+              class="c-card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://coreui.io/vue/docs/3.0/components/Carousel"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <div
+              class="c-carousel c-slide"
+              style="height: 400px;"
+            >
+              <ol
+                class="c-carousel-indicators"
+              >
+                <li
+                  class="c-active"
+                />
+                <li
+                  class=""
+                />
+                <li
+                  class=""
+                />
+              </ol>
+              <div
+                class="c-carousel-inner"
+              >
+                <div
+                  class="c-carousel-item c-active"
+                >
+                  <img
+                    class="c-d-block c-w-100 c-h-100 c-img-fluid c-mx-auto"
+                    src="https://lorempixel.com/1024/480/technics/2/"
+                  />
+                  <div
+                    class="c-carousel-caption"
+                  >
+                    <h3>
+                      First Slide
+                    </h3>
+                    <p>
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    </p>
+                  </div>
+                </div>
+                 
+                <div
+                  class="c-carousel-item"
+                >
+                  <svg
+                    class="c-d-block c-w-100 c-h-100 c-img-fluid c-mx-auto"
+                    style="background-color: grey;"
+                  />
+                  <div
+                    class="c-carousel-caption"
+                  >
+                    <h3>
+                      Blank page
+                    </h3>
+                    <p>
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    </p>
+                  </div>
+                </div>
+                 
+                <div
+                  class="c-carousel-item"
+                >
+                  <img
+                    class="c-d-block c-w-100 c-h-100 c-img-fluid c-mx-auto"
+                    src="https://lorempixel.com/1024/480/technics/8/"
+                  />
+                  <div
+                    class="c-carousel-caption"
+                  >
+                    <h3>
+                      
+                    </h3>
+                    <p>
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="c-carousel-control-prev"
+              >
+                <span
+                  class="c-carousel-control-prev-icon"
+                />
+                <span
+                  class="sr-only"
+                >
+                  Previous
+                </span>
+              </a>
+              <a
+                class="c-carousel-control-next"
+              >
+                <span
+                  class="c-carousel-control-next-icon"
+                />
+                <span
+                  class="sr-only"
+                >
+                  Next
+                </span>
+              </a>
+            </div>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

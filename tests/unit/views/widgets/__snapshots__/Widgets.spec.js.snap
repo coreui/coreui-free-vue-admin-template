@@ -1,0 +1,945 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Widgets.vue renders correctly 1`] = `
+<div>
+  <crow-stub>
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="89.9%"
+        text="Lorem ipsum..."
+        value="25"
+        variant="primary"
+      >
+        <cprogress-stub
+          class="c-progress-xs c-my-3 c-mb-0"
+          max="100"
+          precision="0"
+          value="25"
+          variant="success"
+        />
+      </cwidgetprogress-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="12.124"
+        text="Lorem ipsum..."
+        value="25"
+        variant="info"
+      />
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="$98.111,00"
+        text="Lorem ipsum..."
+        value="25"
+        variant="warning"
+      />
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="2 TB"
+        text="Lorem ipsum..."
+        value="25"
+        variant="danger"
+      />
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="89.9%"
+        inverse="true"
+        text="Lorem ipsum..."
+        value="25"
+        variant="success"
+      />
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="12.124"
+        inverse="true"
+        text="Lorem ipsum..."
+        value="25"
+        variant="info"
+      />
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="$98.111,00"
+        inverse="true"
+        text="Lorem ipsum..."
+        value="25"
+        variant="warning"
+      />
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogress-stub
+        footer="Lorem ipsum dolor sit amet enim."
+        header="2 TB"
+        inverse="true"
+        text="Lorem ipsum..."
+        value="25"
+        variant="danger"
+      />
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        text="Income"
+        variant="primary"
+      >
+        <cicon-stub
+          name="settings"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        text="Income"
+        variant="info"
+      >
+        <cicon-stub
+          name="laptop"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        text="Income"
+        variant="warning"
+      >
+        <cicon-stub
+          name="moon"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        text="Income"
+        variant="danger"
+      >
+        <cicon-stub
+          name="bell"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        no-icon-padding=""
+        text="Income"
+        variant="primary"
+      >
+        <cicon-stub
+          name="settings"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        no-icon-padding=""
+        text="Income"
+        variant="info"
+      >
+        <cicon-stub
+          name="laptop"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        no-icon-padding=""
+        text="Income"
+        variant="warning"
+      >
+        <cicon-stub
+          name="moon"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        no-icon-padding=""
+        text="Income"
+        variant="danger"
+      >
+        <cicon-stub
+          name="bell"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      col="12"
+      lg="4"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        no-icon-padding=""
+        text="Income"
+        variant="primary"
+      >
+        <cicon-stub
+          class="c-mx-5 "
+          name="settings"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="4"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        no-icon-padding=""
+        text="Income"
+        variant="info"
+      >
+        <cicon-stub
+          class="c-mx-5 "
+          name="laptop"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="4"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        header="$1.999,50"
+        no-icon-padding=""
+        text="Income"
+        variant="warning"
+      >
+        <cicon-stub
+          class="c-mx-5 "
+          name="moon"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <widgetsbrand-stub
+    nocharts="true"
+  />
+   
+  <widgetsbrand-stub />
+   
+  <ccardgroup-stub
+    class="c-mb-4"
+  >
+    <cwidgetprogressicon-stub
+      header="87.500"
+      text="Visitors"
+      value="25"
+      variant="info"
+    >
+      <cicon-stub
+        height="36"
+        name="people"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="385"
+      text="New Clients"
+      value="25"
+      variant="success"
+    >
+      <cicon-stub
+        height="36"
+        name="userFollow"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="1238"
+      text="Products sold"
+      value="25"
+      variant="warning"
+    >
+      <cicon-stub
+        height="36"
+        name="basketLoaded"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="28%"
+      text="Returning Visitors"
+      value="25"
+      variant="primary"
+    >
+      <cicon-stub
+        height="36"
+        name="chartPie"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="5:34:11"
+      text="Avg. Time"
+      value="25"
+      variant="danger"
+    >
+      <cicon-stub
+        height="36"
+        name="speedometer"
+      />
+    </cwidgetprogressicon-stub>
+  </ccardgroup-stub>
+   
+  <ccardgroup-stub
+    class="c-mb-4"
+  >
+    <cwidgetprogressicon-stub
+      header="87.500"
+      inverse="true"
+      text="Visitors"
+      value="25"
+      variant="info"
+    >
+      <cicon-stub
+        height="36"
+        name="people"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="385"
+      inverse="true"
+      text="New Clients"
+      value="25"
+      variant="success"
+    >
+      <cicon-stub
+        height="36"
+        name="userFollow"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="1238"
+      inverse="true"
+      text="Products sold"
+      value="25"
+      variant="warning"
+    >
+      <cicon-stub
+        height="36"
+        name="basketLoaded"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="28%"
+      inverse="true"
+      text="Returning Visitors"
+      value="25"
+      variant="primary"
+    >
+      <cicon-stub
+        height="36"
+        name="chartPie"
+      />
+    </cwidgetprogressicon-stub>
+     
+    <cwidgetprogressicon-stub
+      header="5:34:11"
+      inverse="true"
+      text="Avg. Time"
+      value="25"
+      variant="danger"
+    >
+      <cicon-stub
+        height="36"
+        name="speedometer"
+      />
+    </cwidgetprogressicon-stub>
+  </ccardgroup-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="87.500"
+        text="Visitors"
+        value="25"
+        variant="info"
+      >
+        <cicon-stub
+          height="36"
+          name="people"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="385"
+        text="New Clients"
+        value="25"
+        variant="success"
+      >
+        <cicon-stub
+          height="36"
+          name="userFollow"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="1238"
+        text="Products sold"
+        value="25"
+        variant="warning"
+      >
+        <cicon-stub
+          height="36"
+          name="basketLoaded"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="28%"
+        text="Returning Visitors"
+        value="25"
+        variant="primary"
+      >
+        <cicon-stub
+          height="36"
+          name="chartPie"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="5:34:11"
+        text="Avg. Time"
+        value="25"
+        variant="danger"
+      >
+        <cicon-stub
+          height="36"
+          name="speedometer"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="972"
+        text="comments"
+        value="25"
+        variant="info"
+      >
+        <cicon-stub
+          height="36"
+          name="speech"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="87.500"
+        inverse="true"
+        text="Visitors"
+        value="25"
+        variant="info"
+      >
+        <cicon-stub
+          height="36"
+          name="people"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="385"
+        inverse="true"
+        text="New Clients"
+        value="25"
+        variant="success"
+      >
+        <cicon-stub
+          height="36"
+          name="userFollow"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="1238"
+        inverse="true"
+        text="Products sold"
+        value="25"
+        variant="warning"
+      >
+        <cicon-stub
+          height="36"
+          name="basketLoaded"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="28%"
+        inverse="true"
+        text="Returning Visitors"
+        value="25"
+        variant="primary"
+      >
+        <cicon-stub
+          height="36"
+          name="chartPie"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="5:34:11"
+        inverse="true"
+        text="Avg. Time"
+        value="25"
+        variant="danger"
+      >
+        <cicon-stub
+          height="36"
+          name="speedometer"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="2"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetprogressicon-stub
+        header="972"
+        inverse="true"
+        text="comments"
+        value="25"
+        variant="info"
+      >
+        <cicon-stub
+          height="36"
+          name="speech"
+        />
+      </cwidgetprogressicon-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <widgetsdropdown-stub />
+   
+  <crow-stub>
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetheaderdetails-stub
+        leftfooter="+432,50 (15,78%)"
+        leftheader="$1.890,65"
+        rightfooter="Today 6:43 AM"
+        rightheader="SALE"
+        variant="primary"
+      >
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="rgba(255,255,255,.55)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+         
+        <cchartbarsimple-stub
+          backgroundcolor="rgba(0,0,0,.2)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetheaderdetails-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetheaderdetails-stub
+        leftfooter="+432,50 (15,78%)"
+        leftheader="$1.890,65"
+        rightfooter="Today 6:43 AM"
+        rightheader="SALE"
+        variant="success"
+      >
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="rgba(255,255,255,.55)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+         
+        <cchartbarsimple-stub
+          backgroundcolor="rgba(0,0,0,.2)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetheaderdetails-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetheaderdetails-stub
+        leftfooter="+432,50 (15,78%)"
+        leftheader="$1.890,65"
+        rightfooter="Today 6:43 AM"
+        rightheader="SALE"
+        variant="danger"
+      >
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="rgba(255,255,255,.55)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+         
+        <cchartbarsimple-stub
+          backgroundcolor="rgba(0,0,0,.2)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetheaderdetails-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgetheaderdetails-stub
+        leftfooter="+432,50 (15,78%)"
+        leftheader="$1.890,65"
+        rightfooter="Today 6:43 AM"
+        rightheader="SALE"
+        variant="warning"
+      >
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="rgba(255,255,255,.55)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+         
+        <cchartbarsimple-stub
+          backgroundcolor="rgba(0,0,0,.2)"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetheaderdetails-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      lg="2"
+      sm="4"
+      tag="div"
+    >
+      <cwidgetsimple-stub
+        header="title"
+        text="1,123"
+      >
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="danger"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetsimple-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="2"
+      sm="4"
+      tag="div"
+    >
+      <cwidgetsimple-stub
+        header="title"
+        text="1,123"
+      >
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="primary"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetsimple-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="2"
+      sm="4"
+      tag="div"
+    >
+      <cwidgetsimple-stub
+        header="title"
+        text="1,123"
+      >
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="success"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetsimple-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="2"
+      sm="4"
+      tag="div"
+    >
+      <cwidgetsimple-stub
+        header="title"
+        text="1,123"
+      >
+        <cchartbarsimple-stub
+          backgroundcolor="danger"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetsimple-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="2"
+      sm="4"
+      tag="div"
+    >
+      <cwidgetsimple-stub
+        header="title"
+        text="1,123"
+      >
+        <cchartbarsimple-stub
+          backgroundcolor="primary"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetsimple-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="2"
+      sm="4"
+      tag="div"
+    >
+      <cwidgetsimple-stub
+        header="title"
+        text="1,123"
+      >
+        <cchartbarsimple-stub
+          backgroundcolor="success"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          style="height: 40px;"
+        />
+      </cwidgetsimple-stub>
+    </ccol-stub>
+  </crow-stub>
+</div>
+`;

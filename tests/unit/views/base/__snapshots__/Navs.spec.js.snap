@@ -1,0 +1,705 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navs.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Navs
+        </strong>
+         
+        <div
+          class="c-card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://coreui.io/vue/docs/3.0/components/Nav"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <cnav-stub>
+          <cnavitem-stub
+            active="true"
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Active
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            title="Link"
+            variant="primary"
+          />
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Another Link
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            disabled="true"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Disabled
+          </cnavitem-stub>
+        </cnav-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Navs 
+        </strong>
+         
+        <small>
+          icons
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <cnav-stub>
+          <cnavitem-stub
+            active="true"
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            <i
+              class="cui-basket-loaded"
+            />
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            
+            Link
+          
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            
+            Another Link
+          
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            disabled="true"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Disabled
+          </cnavitem-stub>
+        </cnav-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Navs 
+        </strong>
+         
+        <small>
+          tab style
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <cnav-stub
+          tabs="true"
+        >
+          <cnavitem-stub
+            active="true"
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            
+            Active
+          
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            
+            Link
+          
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            
+            Another Link
+          
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            disabled="true"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Disabled
+          </cnavitem-stub>
+        </cnav-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Navs 
+        </strong>
+         
+        <small>
+          pill style
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <cnav-stub
+          pills="true"
+        >
+          <cnavitem-stub
+            active="true"
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Active
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Link
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Another Link
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            disabled="true"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Disabled
+          </cnavitem-stub>
+        </cnav-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Navs 
+        </strong>
+         
+        <small>
+          fill tabs
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <cnav-stub
+          fill="true"
+          tabs="true"
+        >
+          <cnavitem-stub
+            active="true"
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Active
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Link
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Link with a long name 
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            disabled="true"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Disabled
+          </cnavitem-stub>
+        </cnav-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Navs 
+        </strong>
+         
+        <small>
+          justified tabs
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <cnav-stub
+          justified="true"
+          tabs="true"
+        >
+          <cnavitem-stub
+            active="true"
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Active
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Link
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Link with a long name 
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            disabled="true"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Disabled
+          </cnavitem-stub>
+        </cnav-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Navs 
+        </strong>
+         
+        <small>
+          dropdown support
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <cnav-stub
+          pills="true"
+        >
+          <cnavitem-stub
+            active="true"
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Active
+          </cnavitem-stub>
+           
+          <cnavitem-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            Link
+          </cnavitem-stub>
+           
+          <cdropdown-stub
+            button-content="Dropdown"
+            buttonhtml="Dropdown"
+            id="nav7_ddown"
+            nav="true"
+            placement="bottom-end"
+            variant="primary"
+          >
+            <cdropdownitem-stub
+              activeclass="c-active"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+            >
+              one
+            </cdropdownitem-stub>
+             
+            <cdropdownitem-stub
+              activeclass="c-active"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+            >
+              two
+            </cdropdownitem-stub>
+             
+            <cdropdowndivider-stub
+              tag="div"
+            />
+             
+            <cdropdownitem-stub
+              activeclass="c-active"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+            >
+              three
+            </cdropdownitem-stub>
+          </cdropdown-stub>
+        </cnav-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Navs 
+        </strong>
+         
+        <small>
+          vertical variation
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <crow-stub>
+          <ccol-stub
+            class="c-m-0"
+            col="3"
+            tag="div"
+          >
+            <cnav-stub
+              pills="true"
+              vertical="true"
+            >
+              <cnavitem-stub
+                active="true"
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                tag="span"
+                target="_self"
+                variant="primary"
+              >
+                Active
+              </cnavitem-stub>
+               
+              <cnavitem-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                tag="span"
+                target="_self"
+                variant="primary"
+              >
+                Link
+              </cnavitem-stub>
+               
+              <cnavitem-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                tag="span"
+                target="_self"
+                variant="primary"
+              >
+                Another Link
+              </cnavitem-stub>
+               
+              <cnavitem-stub
+                activeclass="c-active"
+                disabled="true"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                tag="span"
+                target="_self"
+                variant="primary"
+              >
+                Disabled
+              </cnavitem-stub>
+            </cnav-stub>
+          </ccol-stub>
+        </crow-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+  </div>
+</div>
+`;

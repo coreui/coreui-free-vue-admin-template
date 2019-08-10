@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheHeader.vue renders correctly 1`] = `
+<cheader-stub
+  fixed="true"
+>
+  <csidebartoggler-stub
+    class="c-header-toggler c-d-lg-none"
+  />
+   
+  <clink-stub
+    activeclass="c-active"
+    class="c-header-brand"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    tag="span"
+    target="_self"
+    to="/"
+    variant="primary"
+  >
+    <img
+      alt="CoreUI Logo"
+      class="c-navbar-brand-full"
+      height="25"
+      src="img/brand/logo.svg"
+      width="89"
+    />
+  </clink-stub>
+   
+  <csidebartoggler-stub
+    class="c-header-toggler c-d-md-down-none"
+  />
+   
+  <ul
+    class="c-header-nav c-d-md-down-none"
+  >
+    <cnavitem-stub
+      activeclass="c-active"
+      class="c-px-3"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      to="/dashboard"
+      variant="primary"
+    >
+      Dashboard
+    </cnavitem-stub>
+     
+    <cnavitem-stub
+      activeclass="c-active"
+      class="c-px-3"
+      event="click"
+      exact="true"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      to="/users"
+      variant="primary"
+    >
+      Users
+    </cnavitem-stub>
+     
+    <cnavitem-stub
+      activeclass="c-active"
+      class="c-px-3"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="primary"
+    >
+      Settings
+    </cnavitem-stub>
+  </ul>
+   
+  <cnav-stub
+    class="c-header-nav c-ml-auto"
+  >
+    <cnavitem-stub
+      activeclass="c-active"
+      class="c-d-md-down-none"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="primary"
+    >
+      <i
+        class="cui-bell"
+      />
+       
+      <cbadge-stub
+        activeclass="c-active"
+        event="click"
+        exactactiveclass="c-active"
+        pill="true"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="danger"
+      >
+        5
+      </cbadge-stub>
+    </cnavitem-stub>
+     
+    <cnavitem-stub
+      activeclass="c-active"
+      class="c-d-md-down-none"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="primary"
+    >
+      <i
+        class="cui-list"
+      />
+    </cnavitem-stub>
+     
+    <cnavitem-stub
+      activeclass="c-active"
+      class="d-md-down-none"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="primary"
+    >
+      <i
+        class="cui-location-pin"
+      />
+    </cnavitem-stub>
+     
+    <defaultheaderdropdownaccnt-stub />
+  </cnav-stub>
+</cheader-stub>
+`;

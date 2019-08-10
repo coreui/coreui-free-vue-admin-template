@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheSidebar.vue renders correctly 1`] = `
+<csidebar-stub
+  breakpoint="lg"
+  dropdownbehaviors="closeOnInactiveRoute"
+  fixed="true"
+  show="true"
+>
+  <csidebarheader-stub />
+   
+  <csidebarform-stub />
+   
+  <csidebarnav-stub
+    navitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+  />
+   
+  <csidebarfooter-stub />
+   
+  <csidebarminimizer-stub />
+</csidebar-stub>
+`;

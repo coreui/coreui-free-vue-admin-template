@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table.vue renders correctly 1`] = `
+<ccard-stub
+  bodywrapper="true"
+  header="Table"
+  subtitletag="h6"
+  titletag="h4"
+>
+  <ctable-stub
+    defaultsorter="[object Object]"
+    fields="username,registered,role,status"
+    pagination="true"
+    perpage="5"
+  />
+</ccard-stub>
+`;

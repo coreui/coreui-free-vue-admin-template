@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badges.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <div
+      class="c-row"
+    >
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Bootstrap Badge
+            </strong>
+             
+            <div
+              class="c-card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://coreui.io/vue/docs/3.0/components/Badge"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <h2>
+              Example heading 
+              <span
+                class="c-badge c-badge-primary"
+              >
+                New
+              </span>
+            </h2>
+             
+            <h3>
+              Example heading 
+              <span
+                class="c-badge c-badge-primary"
+              >
+                New
+              </span>
+            </h3>
+             
+            <h4>
+              Example heading 
+              <span
+                class="c-badge c-badge-primary"
+              >
+                New
+              </span>
+            </h4>
+             
+            <h5>
+              Example heading 
+              <span
+                class="c-badge c-badge-primary"
+              >
+                New
+              </span>
+            </h5>
+             
+            <h6>
+              Example heading 
+              <span
+                class="c-badge c-badge-primary"
+              >
+                New
+              </span>
+            </h6>
+          </div>
+           
+          <footer
+            class="c-card-footer"
+          >
+            <button
+              class="c-btn c-btn-primary"
+              type="button"
+            >
+              
+              Notifications
+              
+              <span
+                class="c-badge c-badge-light"
+                style="position: static;"
+              >
+                4
+              </span>
+            </button>
+          </footer>
+          <!---->
+        </div>
+      </div>
+       
+      <div
+        class="c-col-12 c-col-md-6"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             Badge
+            
+            <small>
+              contextual variations
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <span
+              class="c-badge c-badge-primary"
+            >
+              Primary
+            </span>
+             
+            <span
+              class="c-badge c-badge-secondary"
+            >
+              Secondary
+            </span>
+             
+            <span
+              class="c-badge c-badge-success"
+            >
+              Success
+            </span>
+             
+            <span
+              class="c-badge c-badge-danger"
+            >
+              Danger
+            </span>
+             
+            <span
+              class="c-badge c-badge-warning"
+            >
+              Warning
+            </span>
+             
+            <span
+              class="c-badge c-badge-info"
+            >
+              Info
+            </span>
+             
+            <span
+              class="c-badge c-badge-light"
+            >
+              Light
+            </span>
+             
+            <span
+              class="c-badge c-badge-dark"
+            >
+              Dark
+            </span>
+          </div>
+          <!---->
+        </div>
+         
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             Badge
+            
+            <small>
+              pills
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <span
+              class="c-badge c-badge-primary c-badge-pill"
+            >
+              Primary
+            </span>
+             
+            <span
+              class="c-badge c-badge-secondary c-badge-pill"
+            >
+              Secondary
+            </span>
+             
+            <span
+              class="c-badge c-badge-success c-badge-pill"
+            >
+              Success
+            </span>
+             
+            <span
+              class="c-badge c-badge-danger c-badge-pill"
+            >
+              Danger
+            </span>
+             
+            <span
+              class="c-badge c-badge-warning c-badge-pill"
+            >
+              Warning
+            </span>
+             
+            <span
+              class="c-badge c-badge-info c-badge-pill"
+            >
+              Info
+            </span>
+             
+            <span
+              class="c-badge c-badge-light c-badge-pill"
+            >
+              Light
+            </span>
+             
+            <span
+              class="c-badge c-badge-dark c-badge-pill"
+            >
+              Dark
+            </span>
+          </div>
+          <!---->
+        </div>
+         
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             Badge
+            
+            <small>
+              actionable
+            </small>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <a
+              class="c-badge c-badge-primary"
+              href="#"
+              target="_self"
+            >
+              Primary
+            </a>
+             
+            <a
+              class="c-badge c-badge-secondary"
+              href="#"
+              target="_self"
+            >
+              Secondary
+            </a>
+             
+            <a
+              class="c-badge c-badge-success"
+              href="#"
+              target="_self"
+            >
+              Success
+            </a>
+             
+            <a
+              class="c-badge c-badge-danger"
+              href="#"
+              target="_self"
+            >
+              Danger
+            </a>
+             
+            <a
+              class="c-badge c-badge-warning"
+              href="#"
+              target="_self"
+            >
+              Warning
+            </a>
+             
+            <a
+              class="c-badge c-badge-info"
+              href="#"
+              target="_self"
+            >
+              Info
+            </a>
+             
+            <a
+              class="c-badge c-badge-light"
+              href="#"
+              target="_self"
+            >
+              Light
+            </a>
+             
+            <a
+              class="c-badge c-badge-dark"
+              href="#"
+              target="_self"
+            >
+              Dark
+            </a>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

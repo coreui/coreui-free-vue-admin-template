@@ -1,0 +1,922 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroups.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <crow-stub>
+      <ccol-stub
+        col="12"
+        tag="div"
+      >
+        <ccard-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ccardheader-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Bootstrap button group
+            </strong>
+             
+            <div
+              class="c-card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://coreui.io/vue/docs/3.0/components/ButtonComponents"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </ccardheader-stub>
+           
+          <ccardbody-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <div>
+              <cbuttongroup-stub>
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  One
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Two
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Three
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Four
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  class="c-d-sm-down-none"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Five
+                </cbutton-stub>
+              </cbuttongroup-stub>
+               
+              <br />
+              <br />
+               
+              <cbuttongroup-stub>
+                <cbutton-stub
+                  activeclass="c-active"
+                  class="c-d-sm-down-none"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="success"
+                >
+                  Success
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="info"
+                >
+                  Info
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="warning"
+                >
+                  Warn
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  class="c-d-sm-down-none"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="primary"
+                >
+                  Primary
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="danger"
+                >
+                  Danger
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="link"
+                >
+                  Link
+                </cbutton-stub>
+              </cbuttongroup-stub>
+            </div>
+          </ccardbody-stub>
+        </ccard-stub>
+      </ccol-stub>
+       
+      <ccol-stub
+        col="12"
+        tag="div"
+      >
+        <ccard-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ccardheader-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Button group 
+            </strong>
+            sizing
+          
+          </ccardheader-stub>
+           
+          <ccardbody-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <div>
+              <cbuttongroup-stub>
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Left
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Middle
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Right
+                </cbutton-stub>
+              </cbuttongroup-stub>
+               
+              <br />
+              <br />
+               
+              <cbuttongroup-stub
+                size="sm"
+              >
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Left
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Middle
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Right
+                </cbutton-stub>
+              </cbuttongroup-stub>
+               
+              <br />
+              <br />
+               
+              <cbuttongroup-stub
+                size="lg"
+              >
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Left
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Middle
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Right
+                </cbutton-stub>
+              </cbuttongroup-stub>
+            </div>
+          </ccardbody-stub>
+        </ccard-stub>
+      </ccol-stub>
+       
+      <ccol-stub
+        col="12"
+        tag="div"
+      >
+        <ccard-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ccardheader-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               Button group 
+            </strong>
+            dropdown support
+          
+          </ccardheader-stub>
+           
+          <ccardbody-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <div>
+              <cbuttongroup-stub>
+                <cbutton-stub
+                  activeclass="c-active"
+                  class="c-d-sm-down-none"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Button 1
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  class="c-d-sm-down-none"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Button 2
+                </cbutton-stub>
+                 
+                <cdropdown-stub
+                  buttonhtml="Dropdown"
+                  right=""
+                  text="Menu"
+                  variant="success"
+                >
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 1
+                  </cdropdownitem-stub>
+                   
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 2
+                  </cdropdownitem-stub>
+                   
+                  <cdropdowndivider-stub
+                    tag="div"
+                  />
+                   
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 3
+                  </cdropdownitem-stub>
+                </cdropdown-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  class="c-d-sm-down-none"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Button 3
+                </cbutton-stub>
+                 
+                <cdropdown-stub
+                  buttonhtml="Dropdown"
+                  right=""
+                  split="true"
+                  text="Split Menu"
+                  variant="info"
+                >
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 1
+                  </cdropdownitem-stub>
+                   
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 2
+                  </cdropdownitem-stub>
+                   
+                  <cdropdowndivider-stub
+                    tag="div"
+                  />
+                   
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 3
+                  </cdropdownitem-stub>
+                </cdropdown-stub>
+              </cbuttongroup-stub>
+            </div>
+          </ccardbody-stub>
+        </ccard-stub>
+      </ccol-stub>
+       
+      <ccol-stub
+        col="12"
+        tag="div"
+      >
+        <ccard-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ccardheader-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Button group 
+            </strong>
+            vertical variation
+          
+          </ccardheader-stub>
+           
+          <ccardbody-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <div>
+              <cbuttongroup-stub
+                vertical="true"
+              >
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Top
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Middle
+                </cbutton-stub>
+                 
+                <cbutton-stub
+                  activeclass="c-active"
+                  event="click"
+                  exactactiveclass="c-active"
+                  routertag="a"
+                  target="_self"
+                  type="button"
+                  variant="secondary"
+                >
+                  Bottom
+                </cbutton-stub>
+              </cbuttongroup-stub>
+            </div>
+          </ccardbody-stub>
+        </ccard-stub>
+      </ccol-stub>
+       
+      <ccol-stub
+        col="12"
+        tag="div"
+      >
+        <ccard-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ccardheader-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             
+            <strong>
+               Button toolbar 
+            </strong>
+             
+            <small>
+              with button groups
+            </small>
+          </ccardheader-stub>
+           
+          <ccardbody-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <div>
+              <cbuttontoolbar-stub
+                aria-label="Toolbar with button groups"
+              >
+                <cbuttongroup-stub
+                  class="c-mx-1"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    class="c-d-sm-down-none"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    «
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    ‹
+                  </cbutton-stub>
+                </cbuttongroup-stub>
+                 
+                <cbuttongroup-stub
+                  class="c-mx-1"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    class="c-d-sm-down-none"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Edit
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Undo
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Redo
+                  </cbutton-stub>
+                </cbuttongroup-stub>
+                 
+                <cbuttongroup-stub
+                  class="c-mx-1"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    ›
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    class="c-d-sm-down-none"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    »
+                  </cbutton-stub>
+                </cbuttongroup-stub>
+              </cbuttontoolbar-stub>
+            </div>
+             
+            <hr
+              class="c-d-sm-down-none"
+            />
+             
+            <div>
+              <cbuttontoolbar-stub
+                aria-label="Toolbar with button groups and input groups"
+                class="c-d-sm-down-none"
+              >
+                <cbuttongroup-stub
+                  class="c-mx-1"
+                  size="sm"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    New
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Edit
+                  </cbutton-stub>
+                </cbuttongroup-stub>
+                 
+                <cforminput-stub
+                  appendhtml=".00"
+                  class="c-mb-0 c-w-25 c-mx-1"
+                  lazy="400"
+                  prependhtml="$"
+                  size="sm"
+                  type="text"
+                  value="100"
+                />
+                 
+                <cformselect-stub
+                  class="c-mb-0 c-w-25 c-mx-1"
+                  custom="true"
+                  options="Large,Medium,Small"
+                  prependhtml="Size"
+                  size="sm"
+                  value="Medium"
+                />
+                 
+                <cbuttongroup-stub
+                  class="c-mx-1"
+                  size="sm"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Save
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Cancel
+                  </cbutton-stub>
+                </cbuttongroup-stub>
+              </cbuttontoolbar-stub>
+            </div>
+             
+            <hr />
+             
+            <div>
+              <cbuttontoolbar-stub
+                aria-label="Toolbar with button groups and dropdown menu"
+              >
+                <cbuttongroup-stub
+                  class="c-mx-1 c-d-sm-down-none"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    New
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Edit
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Undo
+                  </cbutton-stub>
+                </cbuttongroup-stub>
+                 
+                <cdropdown-stub
+                  button-content="Menu"
+                  buttonhtml="Dropdown"
+                  class="c-mx-1"
+                  placement="bottom-end"
+                  variant="secondary"
+                >
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 1
+                  </cdropdownitem-stub>
+                   
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 2
+                  </cdropdownitem-stub>
+                   
+                  <cdropdownitem-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                  >
+                    Item 3
+                  </cdropdownitem-stub>
+                </cdropdown-stub>
+                 
+                <cbuttongroup-stub
+                  class="c-mx-1"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Save
+                  </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="c-active"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="secondary"
+                  >
+                    Cancel
+                  </cbutton-stub>
+                </cbuttongroup-stub>
+              </cbuttontoolbar-stub>
+            </div>
+          </ccardbody-stub>
+        </ccard-stub>
+      </ccol-stub>
+    </crow-stub>
+  </div>
+</div>
+`;

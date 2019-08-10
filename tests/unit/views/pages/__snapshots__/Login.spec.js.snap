@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login.vue renders correctly 1`] = `
+<ccontainer-stub
+  class="c-d-flex c-align-items-center c-min-vh-100"
+>
+  <crow-stub
+    class="c-justify-content-center"
+  >
+    <ccol-stub
+      md="8"
+      tag="div"
+    >
+      <ccardgroup-stub>
+        <ccard-stub
+          class="c-p-4"
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ccardbody-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <cform-stub>
+              <h1>
+                Login
+              </h1>
+               
+              <p
+                class="c-text-muted"
+              >
+                Sign In to your account
+              </p>
+               
+              <cforminput-stub
+                autocomplete="username email"
+                lazy="400"
+                placeholder="Username"
+                prependhtml=<i class='cui-user'></i>
+                type="text"
+              />
+               
+              <cforminput-stub
+                autocomplete="curent-password"
+                lazy="400"
+                placeholder="Password"
+                prependhtml=<i class='cui-lock-locked'></i>
+                type="password"
+              />
+               
+              <crow-stub>
+                <ccol-stub
+                  col="6"
+                  tag="div"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    class="c-px-4"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="primary"
+                  >
+                    Login
+                  </cbutton-stub>
+                </ccol-stub>
+                 
+                <ccol-stub
+                  class="c-text-right"
+                  col="6"
+                  tag="div"
+                >
+                  <cbutton-stub
+                    activeclass="c-active"
+                    class="c-px-0"
+                    event="click"
+                    exactactiveclass="c-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                    variant="link"
+                  >
+                    Forgot password?
+                  </cbutton-stub>
+                </ccol-stub>
+              </crow-stub>
+            </cform-stub>
+          </ccardbody-stub>
+        </ccard-stub>
+         
+        <ccard-stub
+          bodywrapper="true"
+          class="c-text-white c-text-center c-bg-primary c-py-5 c-d-md-down-none"
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <h2>
+            Sign up
+          </h2>
+           
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+           
+          <cbutton-stub
+            activeclass="c-active"
+            class="c-active c-mt-3"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="primary"
+          >
+            
+            Register Now!
+          
+          </cbutton-stub>
+        </ccard-stub>
+      </ccardgroup-stub>
+    </ccol-stub>
+  </crow-stub>
+</ccontainer-stub>
+`;

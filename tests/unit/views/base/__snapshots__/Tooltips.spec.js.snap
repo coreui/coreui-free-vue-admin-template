@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltips.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Tooltips 
+        </strong>
+         
+        <small>
+          <code>
+            v-c-tooltip
+          </code>
+           directive
+        </small>
+         
+        <div
+          class="c-card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://coreui.io/vue/docs/3.0/components/Tooltip"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <crow-stub>
+          <ccol-stub
+            col="4"
+            tag="div"
+          >
+            <div
+              class="c-text-center c-my-3"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="secondary"
+              >
+                
+                Hover Me
+              
+              </cbutton-stub>
+            </div>
+          </ccol-stub>
+           
+          <ccol-stub
+            col="4"
+            tag="div"
+          >
+            <div
+              class="c-text-center c-my-3"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="secondary"
+              >
+                
+                Hover me
+              
+              </cbutton-stub>
+            </div>
+          </ccol-stub>
+           
+          <ccol-stub
+            col="4"
+            tag="div"
+          >
+            <div
+              class="c-text-center c-my-3"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="secondary"
+              >
+                
+                Click me
+              
+              </cbutton-stub>
+            </div>
+          </ccol-stub>
+        </crow-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Tooltips 
+        </strong>
+         
+        <small>
+          placement
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <div
+          class="c-my-3"
+        >
+          <crow-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                top-start
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                top
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                top-end
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                bottom-start
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                bottom
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                bottom-end
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                right-start
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                right
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                right-end
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                left-start
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                left
+              
+              </cbutton-stub>
+            </ccol-stub>
+            <ccol-stub
+              class="c-py-4 c-text-center"
+              md="4"
+              tag="div"
+            >
+              <cbutton-stub
+                activeclass="c-active"
+                event="click"
+                exactactiveclass="c-active"
+                routertag="a"
+                target="_self"
+                type="button"
+                variant="primary"
+              >
+                
+                left-end
+              
+              </cbutton-stub>
+            </ccol-stub>
+          </crow-stub>
+        </div>
+      </ccardbody-stub>
+    </ccard-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
+<cdropdown-stub
+  addmenuclasses="c-dropdown-menu-right"
+  buttonhtml="Dropdown"
+  nav="true"
+  nocaret="true"
+  nopopper="true"
+  variant="primary"
+>
+   
+  <cdropdownheader-stub
+    class="c-text-center"
+    tag="div"
+  >
+    <strong>
+      Account
+    </strong>
+  </cdropdownheader-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-bell"
+    />
+     Updates
+    
+    <cbadge-stub
+      activeclass="c-active"
+      additional-classes="hehe"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="info"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-envelope-open"
+    />
+     Messages
+    
+    <cbadge-stub
+      activeclass="c-active"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="success"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-task"
+    />
+     Tasks
+    
+    <cbadge-stub
+      activeclass="c-active"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="danger"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-comment-square"
+    />
+     Comments
+    
+    <cbadge-stub
+      activeclass="c-active"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="warning"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownheader-stub
+    class="c-text-center"
+    tag="div"
+  >
+    <strong>
+      Settings
+    </strong>
+  </cdropdownheader-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-user"
+    />
+     Profile
+  
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-wrench"
+    />
+     Settings
+  
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-dollar"
+    />
+     Payments
+    
+    <cbadge-stub
+      activeclass="c-active"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="secondary"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-file"
+    />
+     Projects
+    
+    <cbadge-stub
+      activeclass="c-active"
+      event="click"
+      exactactiveclass="c-active"
+      routertag="a"
+      tag="span"
+      target="_self"
+      variant="primary"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdowndivider-stub
+    tag="div"
+  />
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-shield"
+    />
+     Lock Account
+  
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="c-active"
+    event="click"
+    exactactiveclass="c-active"
+    routertag="a"
+    target="_self"
+  >
+    <i
+      class="cui-lock-locked"
+    />
+     Logout
+  
+  </cdropdownitem-stub>
+</cdropdown-stub>
+`;

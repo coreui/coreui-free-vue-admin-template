@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <div
+      class="c-row"
+    >
+      <div
+        class="c-col"
+      >
+        <div
+          class="c-card"
+        >
+          <!---->
+          <header
+            class="c-card-header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+            <strong>
+               Bootstrap Breadcrumb
+            </strong>
+             
+            <div
+              class="c-card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://coreui.io/vue/docs/3.0/components/Breadcrumb"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </header>
+           
+          <div
+            class="c-card-body"
+          >
+            <!---->
+            <!---->
+            <ol
+              class="c-breadcrumb"
+            >
+              <li
+                class="c-breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class=""
+                  href="#"
+                  target="_self"
+                >
+                  <b>
+                    Admin
+                  </b>
+                </a>
+              </li>
+              <li
+                class="c-breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class=""
+                  href="#"
+                  target="_self"
+                >
+                  Manage
+                </a>
+              </li>
+              <li
+                class="c-breadcrumb-item c-active"
+                role="presentation"
+              >
+                <span
+                  class=""
+                >
+                  Library
+                </span>
+              </li>
+            </ol>
+             
+            <ol
+              class="c-breadcrumb"
+            >
+              <li
+                class="c-breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class=""
+                  href="#"
+                  target="_self"
+                >
+                  Go to dashboard
+                </a>
+              </li>
+              <li
+                class="c-breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class=""
+                  href="#"
+                  target="_self"
+                >
+                  Go to widgets
+                </a>
+              </li>
+              <li
+                class="c-breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class=""
+                  href="http://google.com"
+                  target="_self"
+                >
+                  Go to Google
+                </a>
+              </li>
+              <li
+                class="c-breadcrumb-item c-active"
+                role="presentation"
+              >
+                <span
+                  class=""
+                >
+                  Current page
+                </span>
+              </li>
+            </ol>
+             
+            <ol
+              class="c-breadcrumb"
+            >
+              <li
+                class="c-breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class="c-font-xl"
+                  href="#"
+                  target="_self"
+                >
+                  Added
+                </a>
+              </li>
+              <li
+                class="c-breadcrumb-item"
+                role="presentation"
+              >
+                <a
+                  class="c-font-xl"
+                  href="#"
+                  target="_self"
+                >
+                  Custom
+                </a>
+              </li>
+              <li
+                class="c-breadcrumb-item c-active"
+                role="presentation"
+              >
+                <span
+                  class="c-font-xl c-text-danger"
+                >
+                  Classes
+                </span>
+              </li>
+            </ol>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

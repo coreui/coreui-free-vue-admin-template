@@ -1,0 +1,1352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Colors.vue renders correctly 1`] = `
+<div>
+  <div
+    class="c-card"
+  >
+    <!---->
+    <header
+      class="c-card-header"
+    >
+      <i
+        class="cui-drop"
+      />
+       Theme colors
+    
+    </header>
+     
+    <div
+      class="c-card-body"
+    >
+      <!---->
+      <!---->
+      <div
+        class="c-row"
+      >
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-primary"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Primary Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #321fdb
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(50, 31, 219)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-secondary"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Secondary Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #9da5b1
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(157, 165, 177)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-success"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Success Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #2eb85c
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(46, 184, 92)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-danger"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Danger Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #e55353
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(229, 83, 83)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-warning"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Warning Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #f9b115
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(249, 177, 21)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-info"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Info Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #3399ff
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(51, 153, 255)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-light"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Light Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #e9e9eb
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(233, 233, 235)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-dark"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Dark Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #4d4e5c
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(77, 78, 92)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!---->
+  </div>
+   
+  <div
+    class="c-card"
+  >
+    <!---->
+    <header
+      class="c-card-header"
+    >
+      <i
+        class="cui-drop"
+      />
+       Grays
+    
+    </header>
+     
+    <div
+      class="c-card-body"
+    >
+      <!---->
+      <!---->
+      <div
+        class="c-row"
+      >
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-100"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 100 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #e9e9eb
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(233, 233, 235)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-200"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 200 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #d3d3d6
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(211, 211, 214)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-300"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 300 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #bcbdc2
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(188, 189, 194)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-400"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 400 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #a6a7ad
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(166, 167, 173)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-500"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 500 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #909099
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(144, 144, 153)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-600"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 600 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #7a7a85
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(122, 122, 133)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-700"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 700 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #646470
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(100, 100, 112)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-800"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 800 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #4d4e5c
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(77, 78, 92)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-gray-900"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand 900 Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #373847
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(55, 56, 71)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!---->
+  </div>
+   
+  <div
+    class="c-card"
+  >
+    <!---->
+    <header
+      class="c-card-header"
+    >
+      <i
+        class="cui-drop"
+      />
+       Additional colors
+    
+    </header>
+     
+    <div
+      class="c-card-body"
+    >
+      <!---->
+      <!---->
+      <div
+        class="c-row"
+      >
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-blue"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Blue Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #20a8d8
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(32, 168, 216)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-indigo"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Indigo Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #6610f2
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(102, 16, 242)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-purple"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Purple Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #6f42c1
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(111, 66, 193)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-pink"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Pink Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #e83e8c
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(232, 62, 140)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-red"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Red Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #f86c6b
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(248, 108, 107)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-orange"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Orange Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #f8cb00
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(248, 203, 0)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-yellow"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Yellow Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #ffc107
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(255, 193, 7)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-green"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Green Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #4dbd74
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(77, 189, 116)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-teal"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Teal Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #20c997
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(32, 201, 151)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="c-mb-4 c-col-xs-12 c-col-sm-6 c-col-md-4 c-col-xl-2"
+        >
+          <div
+            class="c-theme-color c-w-75 c-rounded c-mb-3 c-bg-cyan"
+            style="padding-top: 75%;"
+          />
+           
+          <h6>
+            Brand Cyan Color
+          </h6>
+           
+          <table
+            class="c-w-100"
+          >
+            <tbody>
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  HEX:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  #17a2b8
+                </td>
+              </tr>
+               
+              <tr>
+                <td
+                  class="c-text-muted"
+                >
+                  RGB:
+                </td>
+                 
+                <td
+                  class="c-font-weight-bold"
+                >
+                  rgb(23, 162, 184)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+`;

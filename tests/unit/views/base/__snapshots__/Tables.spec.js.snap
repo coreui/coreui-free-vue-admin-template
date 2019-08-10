@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tables.vue renders correctly 1`] = `
+<div>
+  <crow-stub>
+    <ccol-stub
+      sm="12"
+      tag="div"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          CTable component functionality presentation
+          
+          <div
+            class="c-card-header-actions"
+          >
+            <a
+              class="card-header-action"
+              href="https://coreui.io/vue/docs/3.0/components/Table"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <small
+                class="text-muted"
+              >
+                docs
+              </small>
+            </a>
+          </div>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ctable-stub
+            dark-header=""
+            default-filter="2012"
+            default-sorters="username,asc"
+            defaultcolumnfilter="[object Object]"
+            defaultsorter="[object Object]"
+            fields="[object Object],registered,[object Object],[object Object],[object Object]"
+            filterrow="true"
+            footer="true"
+            hover="true"
+            indexcolumn="true"
+            items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+            optionsrow="true"
+            pagination="true"
+            perpage="6"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctablewrapper-stub
+        caption=<i class='fa fa-align-justify'></i> Simple Table
+        fields="username,registered,role,status"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      />
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctablewrapper-stub
+        caption=<i class='fa fa-align-justify'></i> Striped Table
+        fields="username,registered,role,status"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        striped="true"
+      />
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctablewrapper-stub
+        caption=<i class='fa fa-align-justify'></i> Condensed Table
+        fields="username,registered,role,status"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        small="true"
+      />
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="6"
+      tag="div"
+    >
+      <ctablewrapper-stub
+        bordered="true"
+        caption=<i class='fa fa-align-justify'></i> Bordered Table
+        fields="username,registered,role,status"
+        fixed="true"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      />
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      sm="12"
+      tag="div"
+    >
+      <ctablewrapper-stub
+        bordered="true"
+        caption=<i class='fa fa-align-justify'></i> Combined All Table
+        fields="username,registered,role,status"
+        fixed="true"
+        hover="true"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        small="true"
+        striped="true"
+      />
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      sm="12"
+      tag="div"
+    >
+      <ctablewrapper-stub
+        bordered="true"
+        caption=<i class='fa fa-align-justify'></i> Combined All Table
+        dark="true"
+        fields="username,registered,role,status"
+        fixed="true"
+        hover="true"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        small="true"
+        striped="true"
+      />
+    </ccol-stub>
+  </crow-stub>
+</div>
+`;

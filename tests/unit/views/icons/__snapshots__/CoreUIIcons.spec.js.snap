@@ -1,0 +1,1658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreUIIcons.vue renders correctly 1`] = `
+<div>
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <i
+        class="cui-pencil"
+      />
+      CoreUI Icons
+      
+      <cbadge-stub
+        activeclass="c-active"
+        event="click"
+        exactactiveclass="c-active"
+        routertag="a"
+        tag="span"
+        target="_self"
+        variant="info"
+      >
+        New
+      </cbadge-stub>
+       
+      <div
+        class="c-card-header-actions"
+      >
+        <a
+          class="c-card-header-action"
+          href="https://github.com/coreui/coreui-icons"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <small
+            class="c-text-muted"
+          >
+            Github
+          </small>
+        </a>
+      </div>
+    </ccardheader-stub>
+     
+    <ccardbody-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <crow-stub
+        class="c-text-center "
+      >
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-account-logout c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            account-logout
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-action-redo c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            action-redo
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-action-undo c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            action-undo
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-align-center c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            align-center
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-align-left c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            align-left
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-align-right c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            align-right
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-arrow-bottom c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            arrow-bottom
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-arrow-left c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            arrow-left
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-arrow-right c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            arrow-right
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-arrow-top c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            arrow-top
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-ban c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            ban
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-basket-loaded c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            basket-loaded
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-bell c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            bell
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-bold c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            bold
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-bookmark c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            bookmark
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-briefcase c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            briefcase
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-british-pound c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            british-pound
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-brush c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            brush
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-calculator c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            calculator
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-calendar c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            calendar
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-cart c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            cart
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-chart c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            chart
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-check c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            check
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-chevron-bottom c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            chevron-bottom
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-chevron-left c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            chevron-left
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-chevron-right c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            chevron-right
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-chevron-top c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            chevron-top
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-circle-check c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            circle-check
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-circle-x c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            circle-x
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-cloud c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            cloud
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-cloud-download c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            cloud-download
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-cloud-upload c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            cloud-upload
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-code c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            code
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-cog c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            cog
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-comment-square c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            comment-square
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-credit-card c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            credit-card
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-cursor c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            cursor
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-dashboard c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            dashboard
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-delete c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            delete
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-dollar c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            dollar
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-drop c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            drop
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-envelope-closed c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            envelope-closed
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-envelope-letter c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            envelope-letter
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-envelope-open c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            envelope-open
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-euro c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            euro
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-file c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            file
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-globe c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            globe
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-graph c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            graph
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-home c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            home
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-inbox c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            inbox
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-info c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            info
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-italic c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            italic
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-justify-center c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            justify-center
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-justify-left c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            justify-left
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-justify-right c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            justify-right
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-laptop c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            laptop
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-layers c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            layers
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-lightbulb c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            lightbulb
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-list c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            list
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-location-pin c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            location-pin
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-lock-locked c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            lock-locked
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-lock-unlocked c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            lock-unlocked
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-magnifying-glass c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            magnifying-glass
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-map c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            map
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-monitor c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            monitor
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-moon c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            moon
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-note c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            note
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-options c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            options
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-paperclip c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            paperclip
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-pencil c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            pencil
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-people c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            people
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-phone c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            phone
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-pie-chart c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            pie-chart
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-print c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            print
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-puzzle c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            puzzle
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-rss c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            rss
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-screen-desktop c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            screen-desktop
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-screen-smartphone c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            screen-smartphone
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-settings c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            settings
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-share c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            share
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-shield c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            shield
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-sort-ascending c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            sort-ascending
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-sort-descending c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            sort-descending
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-speech c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            speech
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-speedometer c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            speedometer
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-star c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            star
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-sun c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            sun
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-tablet c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            tablet
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-tags c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            tags
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-task c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            task
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-thumb-down c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            thumb-down
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-thumb-up c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            thumb-up
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-trash c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            trash
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-underline c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            underline
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-user c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            user
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-user-female c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            user-female
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-user-follow c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            user-follow
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-user-unfollow c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            user-unfollow
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-wrench c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            wrench
+          </div>
+        </ccol-stub>
+         
+        <ccol-stub
+          col="6"
+          md="3"
+          sm="4"
+          tag="div"
+          xl="2"
+        >
+          <i
+            class="cui-yen c-icons c-font-2xl c-d-block c-mt-4"
+          />
+           
+          <div>
+            yen
+          </div>
+        </ccol-stub>
+      </crow-stub>
+    </ccardbody-stub>
+  </ccard-stub>
+</div>
+`;

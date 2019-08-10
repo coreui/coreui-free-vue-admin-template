@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modals.vue renders correctly 1`] = `
+<div
+  class="c-wrapper"
+>
+  <div>
+    <crow-stub>
+      <ccol-stub
+        col="12"
+        tag="div"
+      >
+        <ccard-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ccardheader-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             Bootstrap Modals
+            
+            <div
+              class="c-card-header-actions"
+            >
+              <a
+                class="card-header-action"
+                href="https://coreui.io/vue/docs/3.0/components/Modal"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <small
+                  class="text-muted"
+                >
+                  docs
+                </small>
+              </a>
+            </div>
+          </ccardheader-stub>
+           
+          <ccardbody-stub
+            subtitletag="h6"
+            titletag="h4"
+          >
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="secondary"
+            >
+              
+              Launch demo modal
+            
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="secondary"
+            >
+              
+              Launch large modal
+            
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="secondary"
+            >
+              
+              Launch small modal
+            
+            </cbutton-stub>
+             
+            <hr />
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
+            >
+              
+              Launch primary modal
+            
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="success"
+            >
+              
+              Launch success modal
+            
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="warning"
+            >
+              
+              Launch warning modal
+            
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="danger"
+            >
+              
+              Launch danger modal
+            
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="info"
+            >
+              
+              Launch info modal
+            
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="c-active"
+              class="c-mr-1"
+              event="click"
+              exactactiveclass="c-active"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="dark"
+            >
+              
+              Launch dark modal
+            
+            </cbutton-stub>
+          </ccardbody-stub>
+        </ccard-stub>
+      </ccol-stub>
+    </crow-stub>
+  </div>
+   
+  <cmodal-stub
+    title="Modal title"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    size="lg"
+    title="Modal title"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    size="sm"
+    title="Modal title"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    title="Modal title"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    title="Modal title"
+    variant="success"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    title="Modal title"
+    variant="warning"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    title="Modal title"
+    variant="danger"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    title="Modal title"
+    variant="info"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  </cmodal-stub>
+   
+  <cmodal-stub
+    centered="true"
+    nocloseonbackdrop="true"
+    size="lg"
+    title="Modal title 2"
+    variant="dark"
+  >
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+  </cmodal-stub>
+</div>
+`;

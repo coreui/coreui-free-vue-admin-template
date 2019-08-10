@@ -1,0 +1,2824 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switches.vue renders correctly 1`] = `
+<div>
+  <crow-stub>
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Radio switches
+          
+          <cbadge-stub
+            activeclass="c-active"
+            class="c-mr-auto"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            primary
+          </cbadge-stub>
+           
+          <div
+            class="c-card-header-actions"
+          >
+            <a
+              class="card-header-action"
+              href="https://coreui.io/vue/docs/3.0/components/Switch"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <small
+                class="text-muted"
+              >
+                docs
+              </small>
+            </a>
+          </div>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="primary"
+            variant="primary"
+          />
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="secondary"
+            variant="secondary"
+          />
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="warning"
+            variant="warning"
+          />
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="success"
+            variant="success"
+          />
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="info"
+            variant="info"
+          />
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="danger"
+            variant="danger"
+          />
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="light"
+            variant="light"
+          />
+          <cswitch-stub
+            checked="primary"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            name="radio"
+            outline="alt"
+            shape="3d"
+            type="radio"
+            value="dark"
+            variant="dark"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch default
+          
+          <cbadge-stub
+            activeclass="c-active"
+            event="click"
+            exactactiveclass="c-active"
+            routertag="a"
+            tag="span"
+            target="_self"
+            variant="primary"
+          >
+            yes
+          </cbadge-stub>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="yes"
+            class="c-mx-1"
+            falsevalue="no"
+            name="switch1"
+            truevalue="yes"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="secondary"
+          />
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="success"
+          />
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="warning"
+          />
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="info"
+          />
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="danger"
+          />
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="light"
+          />
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch pills
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          3d Switch
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="3d"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          3d Switch 
+          <small>
+            <code>
+              disabled
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          3d Switch 
+          <small>
+            <code>
+              outline="alt"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          3d Switch 
+          <small>
+            <code>
+              label
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          3d Switch 
+          <small>
+            <code>
+              outline="alt"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          3d Switch 
+          <small>
+            <code>
+              outline="alt"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="alt"
+            shape="3d"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="true"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              outline  shape="pill"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              outline="alt"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="alt"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              outline="alt"  shape="pill"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label  shape="pill"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="true"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="alt"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+      shape
+    
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label  shape="pill"
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            outline="true"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Switch 
+          <small>
+            <code>
+              label outline
+            </code>
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="no"
+            labelon="yes"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="secondary"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="success"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="warning"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="info"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="danger"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="light"
+          />
+           
+          <cswitch-stub
+            checked="true"
+            class="c-mx-1"
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="dark"
+          />
+           
+          <cswitch-stub
+            class="c-mx-1"
+            disabled=""
+            labeloff="✕"
+            labelon="✓"
+            outline="alt"
+            shape="pill"
+            type="checkbox"
+            variant="primary"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      md="12"
+      tag="div"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Sizes
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          class="c-p-0"
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ctable-stub
+            class="c-table-align-middle c-mb-0"
+            defaultsorter="[object Object]"
+            fields="[object Object],[object Object],[object Object]"
+            hover="true"
+            items="[object Object],[object Object],[object Object]"
+            nosorting="true"
+            perpage="10"
+            striped="true"
+          />
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+  </crow-stub>
+</div>
+`;
