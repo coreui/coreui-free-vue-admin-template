@@ -11,7 +11,7 @@
         >
           <CIcon
             name="socialFacebook"
-            height="56"
+            height="52"
             class="c-my-4"
           />
           <CChartLineSimple
@@ -34,7 +34,7 @@
         >
           <CIcon
             name="socialTwitter"
-            height="56"
+            height="52"
             class="c-my-4"
           />
           <CChartLineSimple
@@ -57,7 +57,7 @@
         >
           <CIcon
             name="socialLinkedin"
-            height="56"
+            height="52"
             class="c-my-4"
           />
           <CChartLineSimple
@@ -80,7 +80,7 @@
         >
           <CIcon
             name="calendar"
-            height="56"
+            height="52"
             class="c-my-4"
           />
           <CChartLineSimple
@@ -163,7 +163,7 @@
 import { CChartLineSimple } from '../charts/index.js'
 
 export default {
-  name: 'WidgetsSocial',
+  name: 'WidgetsBrand',
   components: {
     CChartLineSimple
   },

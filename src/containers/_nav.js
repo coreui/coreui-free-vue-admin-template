@@ -39,7 +39,7 @@ export default {
     },
     {
       name: 'Base',
-      url: '/base',
+      route: '/base',
       icon: 'cui-puzzle',
       children: [
         {
@@ -126,7 +126,7 @@ export default {
     },
     {
       name: 'Buttons',
-      url: '/buttons',
+      route: '/buttons',
       icon: 'cui-cursor',
       children: [
         {
@@ -158,7 +158,7 @@ export default {
     },
     {
       name: 'Icons',
-      url: '/icons',
+      route: '/icons',
       icon: 'cui-star',
       children: [
         {
@@ -184,7 +184,7 @@ export default {
     },
     {
       name: 'Notifications',
-      url: '/notifications',
+      route: '/notifications',
       icon: 'cui-bell',
       children: [
         {
@@ -222,7 +222,7 @@ export default {
     },
     {
       name: 'Pages',
-      url: '/pages',
+      route: '/pages',
       icon: 'cui-star',
       children: [
         {

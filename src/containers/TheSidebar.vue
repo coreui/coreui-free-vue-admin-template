@@ -1,10 +1,14 @@
 <template>
-  <CSidebar fixed :minimize="minimize">
+  <CSidebar 
+    fixed 
+    :minimize="minimize"
+    dropdownBehaviors="closeOnInactiveRoute"
+  >
     <CSidebarHeader/>
     <CSidebarForm/>
     <CSidebarNav :nav-items="computedNav"/>
     <CSidebarFooter/>
-    <CSidebarMinimizer @click="minimize = !minimize"/>
+    <CSidebarMinimizer @click.native="minimize = !minimize"/>
   </CSidebar>
 </template>
 

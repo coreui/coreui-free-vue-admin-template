@@ -452,15 +452,13 @@
 import MainChartExample from './charts/MainChartExample'
 import WidgetsDropdown from './widgets/WidgetsDropdown'
 import WidgetsBrand from './widgets/WidgetsBrand'
-import CChartLineSimple from './charts/CChartLineSimple'
 
 export default {
   name: 'Dashboard',
   components: {
     MainChartExample,
     WidgetsDropdown,
-    WidgetsBrand,
-    CChartLineSimple
+    WidgetsBrand
   },
   data () {
     return {

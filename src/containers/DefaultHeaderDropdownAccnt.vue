@@ -5,7 +5,7 @@
     no-popper
     add-menu-classes="c-dropdown-menu-right"
   >
-    <template #button-content>
+    <template #toggler-content>
       <img
         src="img/avatars/6.jpg"
         class="c-img-avatar"

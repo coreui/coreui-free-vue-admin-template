@@ -7,8 +7,10 @@
             class="c-float-right"
             variant="transparent c-p-0"
             placement="bottom-end"
-            buttonHtml="<i class='cui-settings'></i>"
           >
+            <template #toggler-content>
+              <i class="cui-settings"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>
@@ -38,6 +40,9 @@
             no-caret
             buttonHtml="<i class='cui-location-pin'></i>"
           >
+            <template #toggler-content>
+              <i class="cui-location-pin"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>
@@ -69,8 +74,10 @@
             class="c-float-right"
             variant="transparent c-p-0"
             placement="bottom-end"
-            buttonHtml="<i class='cui-settings'></i>"
           >
+            <template #toggler-content>
+              <i class="cui-settings"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>
@@ -101,8 +108,10 @@
             class="c-float-right"
             variant="transparent c-p-0"
             placement="bottom-end"
-            buttonHtml="<i class='cui-settings'></i>"
           >
+            <template #toggler-content>
+             <i class="cui-settings"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>
