@@ -1,24 +1,33 @@
 <template>
   <CHeader fixed>
     <CSidebarToggler 
-      class="c-header-toggler c-d-lg-none"
+      class="c-header-toggler c-d-lg-none c-mr-auto"
       v-c-emit-root-event:c-sidebar-toggle
     />
-    <CLink class="c-header-brand" to="/">
-      <img 
-        class="c-navbar-brand-full" 
+    <CLink :class="logoClasses" to="/">
+      <img
+        v-show="sidebarIsMinimized"
+        class="c-navbar-brand-minimized c-d-md-down-none" 
+        src="img/brand/sygnet.svg" 
+        width="30" 
+        height="30" 
+        alt="CoreUI Logo"
+      >
+      <img
+        v-show="!sidebarIsMinimized"
+        class="c-navbar-brand-full c-d-md-down-none" 
         src="img/brand/logo.svg" 
         width="89" 
         height="25" 
         alt="CoreUI Logo"
       >
-      <!-- <img 
-        class="c-navbar-brand-minimized" 
-        src="img/brand/sygnet.svg" 
-        width="30" 
-        height="30" 
+      <img
+        class="c-navbar-brand-full c-d-lg-none" 
+        src="img/brand/logo.svg" 
+        width="89" 
+        height="25" 
         alt="CoreUI Logo"
-      > -->
+      >
     </CLink>
     <CSidebarToggler 
       class="c-header-toggler c-d-md-down-none" 
@@ -56,6 +65,24 @@ export default {
   name: 'TheHeader',
   components: {
     DefaultHeaderDropdownAccnt
+  },
+  data () {
+    return {
+      sidebarIsMinimized: false,
+    }
+  },
+  computed: {
+    logoClasses () {
+      return [
+        'c-header-brand',
+        { 'c-header-brand-minimized': this.sidebarIsMinimized }
+      ]
+    }
+  },
+  mounted () {
+    this.$root.$on('c-sidebar-minimize-state', (state) => {
+      this.sidebarIsMinimized = state
+    })
   }
 }
 </script>
