@@ -20,8 +20,9 @@ exports[`Users.vue renders correctly 1`] = `
         fields="[object Object],[object Object],[object Object],[object Object],[object Object]"
         hover="true"
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        itemsperpage="10"
         pagination="[object Object]"
-        perpage="5"
+        per-page="5"
         striped="true"
       />
     </ccard-stub>

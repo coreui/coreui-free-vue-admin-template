@@ -272,7 +272,6 @@ exports[`Alerts.vue renders correctly 1`] = `
                   routertag="a"
                   tag="span"
                   target="_self"
-                  variant="primary"
                 >
                   an example link
                 </clink-stub>
@@ -371,7 +370,7 @@ exports[`Alerts.vue renders correctly 1`] = `
             titletag="h4"
           >
             <calert-stub
-              closebutton=""
+              closebutton="true"
               show="true"
               variant="secondary"
             >
@@ -381,7 +380,7 @@ exports[`Alerts.vue renders correctly 1`] = `
             </calert-stub>
              
             <calert-stub
-              closebutton=""
+              closebutton="true"
               fade="true"
               show="true"
               variant="secondary"
@@ -438,7 +437,7 @@ exports[`Alerts.vue renders correctly 1`] = `
           >
             <div>
               <calert-stub
-                closebutton=""
+                closebutton="true"
                 fade="true"
                 show="10"
                 variant="warning"
@@ -454,7 +453,7 @@ exports[`Alerts.vue renders correctly 1`] = `
               </calert-stub>
                
               <calert-stub
-                closebutton=""
+                closebutton="true"
                 show="10"
                 variant="info"
               >

@@ -51,7 +51,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Active
           </cnavitem-stub>
@@ -64,7 +63,6 @@ exports[`Navs.vue renders correctly 1`] = `
             tag="span"
             target="_self"
             title="Link"
-            variant="primary"
           />
            
           <cnavitem-stub
@@ -74,7 +72,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Another Link
           </cnavitem-stub>
@@ -87,7 +84,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Disabled
           </cnavitem-stub>
@@ -129,7 +125,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             <i
               class="cui-basket-loaded"
@@ -143,7 +138,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             
             Link
@@ -157,7 +151,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             
             Another Link
@@ -172,7 +165,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Disabled
           </cnavitem-stub>
@@ -216,7 +208,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             
             Active
@@ -230,7 +221,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             
             Link
@@ -244,7 +234,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             
             Another Link
@@ -259,7 +248,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Disabled
           </cnavitem-stub>
@@ -303,7 +291,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Active
           </cnavitem-stub>
@@ -315,7 +302,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Link
           </cnavitem-stub>
@@ -327,7 +313,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Another Link
           </cnavitem-stub>
@@ -340,7 +325,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Disabled
           </cnavitem-stub>
@@ -385,7 +369,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Active
           </cnavitem-stub>
@@ -397,7 +380,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Link
           </cnavitem-stub>
@@ -409,7 +391,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Link with a long name 
           </cnavitem-stub>
@@ -422,7 +403,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Disabled
           </cnavitem-stub>
@@ -467,7 +447,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Active
           </cnavitem-stub>
@@ -479,7 +458,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Link
           </cnavitem-stub>
@@ -491,7 +469,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Link with a long name 
           </cnavitem-stub>
@@ -504,7 +481,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Disabled
           </cnavitem-stub>
@@ -548,7 +524,6 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Active
           </cnavitem-stub>
@@ -560,18 +535,16 @@ exports[`Navs.vue renders correctly 1`] = `
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
             Link
           </cnavitem-stub>
            
           <cdropdown-stub
             button-content="Dropdown"
-            buttonhtml="Dropdown"
             id="nav7_ddown"
             nav="true"
             placement="bottom-end"
-            variant="primary"
+            togglertext="Dropdown"
           >
             <cdropdownitem-stub
               activeclass="c-active"
@@ -654,7 +627,6 @@ exports[`Navs.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Active
               </cnavitem-stub>
@@ -666,7 +638,6 @@ exports[`Navs.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Link
               </cnavitem-stub>
@@ -678,7 +649,6 @@ exports[`Navs.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Another Link
               </cnavitem-stub>
@@ -691,7 +661,6 @@ exports[`Navs.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Disabled
               </cnavitem-stub>

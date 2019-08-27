@@ -49,7 +49,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="0"
           showprogress="true"
           value="73"
-          variant="primary"
         />
          
         <cprogress-stub
@@ -57,7 +56,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="100"
           precision="0"
           showvalue="true"
-          variant="primary"
         >
           <cprogressbar-stub
             max="100"
@@ -131,7 +129,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="50"
           precision="0"
           value="33.333333333"
-          variant="primary"
         />
          
         <h6>
@@ -144,7 +141,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="0"
           showvalue="true"
           value="33.333333333"
-          variant="primary"
         />
          
         <h6>
@@ -157,7 +153,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="0"
           showprogress="true"
           value="33.333333333"
-          variant="primary"
         />
          
         <h6>
@@ -170,7 +165,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="2"
           showvalue="true"
           value="33.333333333"
-          variant="primary"
         />
          
         <h6>
@@ -183,7 +177,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="2"
           showprogress="true"
           value="33.333333333"
-          variant="primary"
         />
       </ccardbody-stub>
     </ccard-stub>
@@ -222,7 +215,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="100"
           precision="0"
           value="75"
-          variant="primary"
         />
          
         <h6>
@@ -234,7 +226,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="100"
           precision="0"
           value="75"
-          variant="primary"
         />
          
         <cprogress-stub
@@ -242,7 +233,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="100"
           precision="0"
           value="75"
-          variant="primary"
         />
          
         <cprogress-stub
@@ -250,7 +240,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="100"
           precision="0"
           value="75"
-          variant="primary"
         />
       </ccardbody-stub>
     </ccard-stub>
@@ -290,7 +279,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="0"
           showprogress="true"
           value="75"
-          variant="primary"
         />
          
         <h6>
@@ -304,7 +292,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="0"
           showprogress="true"
           value="75"
-          variant="primary"
         />
          
         <cprogress-stub
@@ -314,7 +301,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="0"
           showprogress="true"
           value="75"
-          variant="primary"
         />
          
         <cprogress-stub
@@ -322,7 +308,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="100"
           precision="0"
           value="75"
-          variant="primary"
         />
       </ccardbody-stub>
     </ccard-stub>
@@ -681,7 +666,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="c-mb-3"
           max="100"
           precision="0"
-          variant="primary"
         >
           <cprogressbar-stub
             max="100"
@@ -710,7 +694,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           max="100"
           precision="0"
           showprogress="true"
-          variant="primary"
         >
           <cprogressbar-stub
             max="100"
@@ -740,7 +723,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           precision="0"
           showvalue="true"
           striped="true"
-          variant="primary"
         >
           <cprogressbar-stub
             max="100"
@@ -768,7 +750,6 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="c-mb-3"
           max="100"
           precision="0"
-          variant="primary"
         >
           <cprogressbar-stub
             max="100"

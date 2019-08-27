@@ -52,9 +52,10 @@ exports[`Tables.vue renders correctly 1`] = `
             hover="true"
             indexcolumn="true"
             items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+            itemsperpage="10"
             optionsrow="true"
             pagination="true"
-            perpage="6"
+            per-page="6"
           />
         </ccardbody-stub>
       </ccard-stub>

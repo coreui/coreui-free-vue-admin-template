@@ -11,12 +11,17 @@ exports[`TheSidebar.vue renders correctly 1`] = `
    
   <csidebarform-stub />
    
-  <csidebarnav-stub
-    navitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-  />
+  <csidebarnav-stub>
+    <ctreegenerator-stub
+      components="[object Object]"
+      items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+    />
+  </csidebarnav-stub>
    
   <csidebarfooter-stub />
    
-  <csidebarminimizer-stub />
+  <csidebarminimizer-stub
+    class="c-d-md-down-none"
+  />
 </csidebar-stub>
 `;

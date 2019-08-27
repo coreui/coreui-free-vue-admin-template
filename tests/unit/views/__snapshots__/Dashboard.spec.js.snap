@@ -234,7 +234,6 @@ exports[`Dashboard.vue renders correctly 1`] = `
             max="100"
             precision="1"
             value="40"
-            variant="primary"
           />
         </ccol-stub>
       </crow-stub>
@@ -941,8 +940,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
           head-variant="light"
           hover="true"
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-          nosorting="true"
-          perpage="10"
+          itemsperpage="10"
+          no-sorting=""
         />
       </ccard-stub>
     </ccol-stub>

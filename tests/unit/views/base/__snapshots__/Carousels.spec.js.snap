@@ -9,7 +9,7 @@ exports[`Carousels.vue renders correctly 1`] = `
       class="c-row"
     >
       <div
-        class="c-col-md-12 c-col-lg-9"
+        class="c-col-md-12 c-col-lg-7"
       >
         <div
           class="c-card"
@@ -73,7 +73,7 @@ exports[`Carousels.vue renders correctly 1`] = `
                   class="c-carousel-item c-active"
                 >
                   <img
-                    class="c-d-block c-w-100 c-h-100 c-img-fluid c-mx-auto"
+                    class="c-d-block c-w-100 c-h-100 c-img-fluid"
                     src="https://lorempixel.com/1024/480/technics/2/"
                   />
                   <div
@@ -92,7 +92,7 @@ exports[`Carousels.vue renders correctly 1`] = `
                   class="c-carousel-item"
                 >
                   <svg
-                    class="c-d-block c-w-100 c-h-100 c-img-fluid c-mx-auto"
+                    class="c-d-block c-w-100 c-h-100 c-img-fluid"
                     style="background-color: grey;"
                   />
                   <div
@@ -111,19 +111,10 @@ exports[`Carousels.vue renders correctly 1`] = `
                   class="c-carousel-item"
                 >
                   <img
-                    class="c-d-block c-w-100 c-h-100 c-img-fluid c-mx-auto"
+                    class="c-d-block c-w-100 c-h-100 c-img-fluid"
                     src="https://lorempixel.com/1024/480/technics/8/"
                   />
-                  <div
-                    class="c-carousel-caption"
-                  >
-                    <h3>
-                      
-                    </h3>
-                    <p>
-                      
-                    </p>
-                  </div>
+                  <!---->
                 </div>
               </div>
               <a

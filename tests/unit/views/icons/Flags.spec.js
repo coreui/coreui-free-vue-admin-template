@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { shallowMount, mount } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
 import { CIconPlugin } from '@coreui/icons/vue'
 import Flags from '@/views/icons/Flags'

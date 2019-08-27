@@ -77,7 +77,6 @@ exports[`Navbars.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Link
               </cnavitem-stub>
@@ -91,7 +90,6 @@ exports[`Navbars.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Disabled
               </cnavitem-stub>
@@ -130,10 +128,10 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cform-stub>
                
               <cdropdown-stub
-                buttonhtml="Lang"
+                button-html="Lang"
                 nav="true"
                 placement="bottom-end"
-                variant="primary"
+                togglertext="Dropdown"
               >
                 <cdropdownitem-stub
                   activeclass="c-active"
@@ -180,7 +178,7 @@ exports[`Navbars.vue renders correctly 1`] = `
                 buttonhtml=<em>User</em>
                 nav="true"
                 placement="bottom-end"
-                variant="primary"
+                togglertext="Dropdown"
               >
                 <cdropdownitem-stub
                   activeclass="c-active"
@@ -369,7 +367,6 @@ exports[`Navbars.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Home
               </cnavitem-stub>
@@ -382,16 +379,16 @@ exports[`Navbars.vue renders correctly 1`] = `
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 Link
               </cnavitem-stub>
                
               <cdropdown-stub
-                buttonhtml="Lang"
+                button-html="Lang"
                 nav="true"
+                placement="bottom-start"
                 right=""
-                variant="primary"
+                togglertext="Dropdown"
               >
                 <cdropdownitem-stub
                   activeclass="c-active"
@@ -435,10 +432,11 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdown-stub>
                
               <cdropdown-stub
-                buttonhtml="User"
+                button-html="User"
                 nav="true"
+                placement="bottom-start"
                 right=""
-                variant="primary"
+                togglertext="Dropdown"
               >
                 <cdropdownitem-stub
                   activeclass="c-active"

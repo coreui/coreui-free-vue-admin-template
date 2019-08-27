@@ -5,23 +5,39 @@ exports[`TheHeader.vue renders correctly 1`] = `
   fixed="true"
 >
   <csidebartoggler-stub
-    class="c-header-toggler c-d-lg-none"
+    class="c-header-toggler c-d-lg-none c-mr-auto"
   />
    
   <clink-stub
     activeclass="c-active"
-    class="c-header-brand"
+    class="c-header-brand,[object Object]"
     event="click"
     exactactiveclass="c-active"
     routertag="a"
     tag="span"
     target="_self"
     to="/"
-    variant="primary"
   >
     <img
       alt="CoreUI Logo"
-      class="c-navbar-brand-full"
+      class="c-navbar-brand-minimized c-d-md-down-none"
+      height="30"
+      src="img/brand/sygnet.svg"
+      style="display: none;"
+      width="30"
+    />
+     
+    <img
+      alt="CoreUI Logo"
+      class="c-navbar-brand-full c-d-md-down-none"
+      height="25"
+      src="img/brand/logo.svg"
+      width="89"
+    />
+     
+    <img
+      alt="CoreUI Logo"
+      class="c-navbar-brand-full c-d-lg-none"
       height="25"
       src="img/brand/logo.svg"
       width="89"
@@ -44,7 +60,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
       tag="span"
       target="_self"
       to="/dashboard"
-      variant="primary"
     >
       Dashboard
     </cnavitem-stub>
@@ -59,7 +74,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
       tag="span"
       target="_self"
       to="/users"
-      variant="primary"
     >
       Users
     </cnavitem-stub>
@@ -72,7 +86,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
       routertag="a"
       tag="span"
       target="_self"
-      variant="primary"
     >
       Settings
     </cnavitem-stub>
@@ -89,7 +102,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
       routertag="a"
       tag="span"
       target="_self"
-      variant="primary"
     >
       <i
         class="cui-bell"
@@ -117,7 +129,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
       routertag="a"
       tag="span"
       target="_self"
-      variant="primary"
     >
       <i
         class="cui-list"
@@ -132,7 +143,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
       routertag="a"
       tag="span"
       target="_self"
-      variant="primary"
     >
       <i
         class="cui-location-pin"

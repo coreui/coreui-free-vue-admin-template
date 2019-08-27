@@ -78,12 +78,10 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
                 </a>
               </li>
               <li
-                class="c-breadcrumb-item c-active"
+                class="c-active c-breadcrumb-item"
                 role="presentation"
               >
-                <span
-                  class=""
-                >
+                <span>
                   Library
                 </span>
               </li>
@@ -129,12 +127,10 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
                 </a>
               </li>
               <li
-                class="c-breadcrumb-item c-active"
+                class="c-active c-breadcrumb-item"
                 role="presentation"
               >
-                <span
-                  class=""
-                >
+                <span>
                   Current page
                 </span>
               </li>
@@ -144,11 +140,11 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class="c-breadcrumb"
             >
               <li
-                class="c-breadcrumb-item"
+                class="c-font-xl c-breadcrumb-item"
                 role="presentation"
               >
                 <a
-                  class="c-font-xl"
+                  class=""
                   href="#"
                   target="_self"
                 >
@@ -156,11 +152,11 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
                 </a>
               </li>
               <li
-                class="c-breadcrumb-item"
+                class="c-font-xl c-breadcrumb-item"
                 role="presentation"
               >
                 <a
-                  class="c-font-xl"
+                  class=""
                   href="#"
                   target="_self"
                 >
@@ -168,12 +164,10 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
                 </a>
               </li>
               <li
-                class="c-breadcrumb-item c-active"
+                class="c-active c-font-xl c-text-danger c-breadcrumb-item"
                 role="presentation"
               >
-                <span
-                  class="c-font-xl c-text-danger"
-                >
+                <span>
                   Classes
                 </span>
               </li>

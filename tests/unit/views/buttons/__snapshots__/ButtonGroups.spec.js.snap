@@ -406,9 +406,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                 </cbutton-stub>
                  
                 <cdropdown-stub
-                  buttonhtml="Dropdown"
+                  placement="bottom-start"
                   right=""
                   text="Menu"
+                  togglertext="Dropdown"
                   variant="success"
                 >
                   <cdropdownitem-stub
@@ -460,10 +461,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                 </cbutton-stub>
                  
                 <cdropdown-stub
-                  buttonhtml="Dropdown"
+                  placement="bottom-start"
                   right=""
                   split="true"
                   text="Split Menu"
+                  togglertext="Dropdown"
                   variant="info"
                 >
                   <cdropdownitem-stub
@@ -848,9 +850,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
                  
                 <cdropdown-stub
                   button-content="Menu"
-                  buttonhtml="Dropdown"
                   class="c-mx-1"
                   placement="bottom-end"
+                  togglertext="Dropdown"
                   variant="secondary"
                 >
                   <cdropdownitem-stub

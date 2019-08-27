@@ -29,7 +29,7 @@ exports[`User.vue renders correctly 1`] = `
           fields="[object Object],[object Object]"
           fixed="true"
           items="[object Object]"
-          perpage="10"
+          itemsperpage="10"
           small="true"
           striped="true"
         />
@@ -46,7 +46,6 @@ exports[`User.vue renders correctly 1`] = `
           routertag="a"
           target="_self"
           type="button"
-          variant="primary"
         >
           Back
         </cbutton-stub>

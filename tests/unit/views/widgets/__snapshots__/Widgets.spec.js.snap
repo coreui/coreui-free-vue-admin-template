@@ -13,7 +13,6 @@ exports[`Widgets.vue renders correctly 1`] = `
         header="89.9%"
         text="Lorem ipsum..."
         value="25"
-        variant="primary"
       >
         <cprogress-stub
           class="c-progress-xs c-my-3 c-mb-0"
@@ -213,7 +212,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgeticon-stub
         header="$1.999,50"
-        no-icon-padding=""
+        noiconpadding="true"
         text="Income"
         variant="primary"
       >
@@ -232,7 +231,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgeticon-stub
         header="$1.999,50"
-        no-icon-padding=""
+        noiconpadding="true"
         text="Income"
         variant="info"
       >
@@ -251,7 +250,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgeticon-stub
         header="$1.999,50"
-        no-icon-padding=""
+        noiconpadding="true"
         text="Income"
         variant="warning"
       >
@@ -270,7 +269,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgeticon-stub
         header="$1.999,50"
-        no-icon-padding=""
+        noiconpadding="true"
         text="Income"
         variant="danger"
       >
@@ -291,7 +290,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgeticon-stub
         header="$1.999,50"
-        no-icon-padding=""
+        noiconpadding="true"
         text="Income"
         variant="primary"
       >
@@ -311,7 +310,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgeticon-stub
         header="$1.999,50"
-        no-icon-padding=""
+        noiconpadding="true"
         text="Income"
         variant="info"
       >
@@ -331,7 +330,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgeticon-stub
         header="$1.999,50"
-        no-icon-padding=""
+        noiconpadding="true"
         text="Income"
         variant="warning"
       >
@@ -393,7 +392,6 @@ exports[`Widgets.vue renders correctly 1`] = `
       header="28%"
       text="Returning Visitors"
       value="25"
-      variant="primary"
     >
       <cicon-stub
         height="36"

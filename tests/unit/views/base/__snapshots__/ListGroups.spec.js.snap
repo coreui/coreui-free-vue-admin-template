@@ -58,7 +58,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Cras justo odio
               </clistgroupitem-stub>
@@ -70,7 +69,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Dapibus ac facilisis in
               </clistgroupitem-stub>
@@ -82,7 +80,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Morbi leo risus
               </clistgroupitem-stub>
@@ -94,7 +91,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Porta ac consectetur ac
               </clistgroupitem-stub>
@@ -106,7 +102,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Vestibulum at eros
               </clistgroupitem-stub>
@@ -152,7 +147,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Cras justo odio
               </clistgroupitem-stub>
@@ -165,7 +159,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Dapibus ac facilisis in
               </clistgroupitem-stub>
@@ -177,7 +170,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Morbi leo risus
               </clistgroupitem-stub>
@@ -189,7 +181,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Porta ac consectetur ac
               </clistgroupitem-stub>
@@ -201,7 +192,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Vestibulum at eros
               </clistgroupitem-stub>
@@ -252,7 +242,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Cras justo odio
               </clistgroupitem-stub>
@@ -264,7 +253,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Dapibus ac facilisis in
               </clistgroupitem-stub>
@@ -276,7 +264,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Morbi leo risus
               </clistgroupitem-stub>
@@ -289,7 +276,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Porta ac consectetur ac
               </clistgroupitem-stub>
@@ -301,7 +287,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Vestibulum at eros
               </clistgroupitem-stub>
@@ -350,7 +335,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Awesome link
               </clistgroupitem-stub>
@@ -364,7 +348,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Link with active state
               </clistgroupitem-stub>
@@ -377,7 +360,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Action links are easy
               </clistgroupitem-stub>
@@ -391,7 +373,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 Disabled link
               </clistgroupitem-stub>
@@ -441,7 +422,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="button"
                 target="_self"
-                variant="primary"
               >
                 Button item
               </clistgroupitem-stub>
@@ -453,7 +433,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="button"
                 target="_self"
-                variant="primary"
               >
                 I am a button
               </clistgroupitem-stub>
@@ -466,7 +445,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="button"
                 target="_self"
-                variant="primary"
               >
                 Disabled button
               </clistgroupitem-stub>
@@ -478,7 +456,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="button"
                 target="_self"
-                variant="primary"
               >
                 This is a button too
               </clistgroupitem-stub>
@@ -527,7 +504,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 
                 Cras justo odio
@@ -554,7 +530,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 
                 Dapibus ac facilisis in
@@ -581,7 +556,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 
                 Morbi leo risus
@@ -645,7 +619,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 This is a default list group item
               </clistgroupitem-stub>
@@ -790,7 +763,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 This is a default list group item
               </clistgroupitem-stub>
@@ -953,7 +925,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                     routertag="a"
                     tag="div"
                     target="_self"
-                    variant="primary"
                   >
                     Cras justo odio
                   </clistgroupitem-stub>
@@ -966,7 +937,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                     routertag="a"
                     tag="div"
                     target="_self"
-                    variant="primary"
                   >
                     Dapibus ac facilisis in
                   </clistgroupitem-stub>
@@ -979,7 +949,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                     routertag="a"
                     tag="div"
                     target="_self"
-                    variant="primary"
                   >
                     Vestibulum at eros
                   </clistgroupitem-stub>
@@ -1014,7 +983,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                     routertag="a"
                     tag="div"
                     target="_self"
-                    variant="primary"
                   >
                     Cras justo odio
                   </clistgroupitem-stub>
@@ -1027,7 +995,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                     routertag="a"
                     tag="div"
                     target="_self"
-                    variant="primary"
                   >
                     Dapibus ac facilisis in
                   </clistgroupitem-stub>
@@ -1040,7 +1007,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                     routertag="a"
                     tag="div"
                     target="_self"
-                    variant="primary"
                   >
                     Vestibulum at eros
                   </clistgroupitem-stub>
@@ -1105,7 +1071,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 <div
                   class="c-d-flex c-w-100 c-justify-content-between"
@@ -1144,7 +1109,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 <div
                   class="c-d-flex c-w-100 c-justify-content-between"
@@ -1188,7 +1152,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 routertag="a"
                 tag="div"
                 target="_self"
-                variant="primary"
               >
                 <div
                   class="c-d-flex c-w-100 c-justify-content-between"

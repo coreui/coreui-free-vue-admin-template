@@ -2812,8 +2812,8 @@ exports[`Switches.vue renders correctly 1`] = `
             fields="[object Object],[object Object],[object Object]"
             hover="true"
             items="[object Object],[object Object],[object Object]"
-            nosorting="true"
-            perpage="10"
+            itemsperpage="10"
+            no-sorting=""
             striped="true"
           />
         </ccardbody-stub>

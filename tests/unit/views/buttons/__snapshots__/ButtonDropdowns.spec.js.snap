@@ -51,15 +51,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <!---->
             <div>
               <div
-                class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Dropdown Button"
+                class="c-m-2 c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-dropdown-toggle"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-secondary"
                 >
-                  Dropdown
+                  Dropdown Button
                 </button>
                 <!---->
                 <div
@@ -122,15 +121,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
              
             <div>
               <div
-                class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Dropdown with divider"
+                class="c-m-2 c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-dropdown-toggle"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-secondary"
                 >
-                  Dropdown
+                  Dropdown with divider
                 </button>
                 <!---->
                 <div
@@ -173,15 +171,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
              
             <div>
               <div
-                class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Dropdown with header"
+                class="c-m-2 c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-dropdown-toggle"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-secondary"
                 >
-                  Dropdown
+                  Dropdown with header
                 </button>
                 <!---->
                 <div
@@ -248,15 +245,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <!---->
             <div>
               <div
-                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
-                toggler-text="Left align"
+                class="c-m-2 c-d-inline-block c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-primary c-dropdown-toggle"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-primary"
                 >
-                  Dropdown
+                  Left align
                 </button>
                 <!---->
                 <div
@@ -292,15 +288,104 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
-                toggler-text="Right align"
+                class="c-m-2 c-d-inline-block c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-primary c-dropdown-toggle"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-primary"
                 >
-                  Dropdown
+                  Right align
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="c-m-2 c-dropup"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c-btn c-dropdown-toggle c-btn-info"
+                >
+                  Drop-Up
+                </button>
+                <!---->
+                <div
+                  class="c-dropdown-menu"
+                >
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Another action
+                  </a>
+                   
+                  <a
+                    class="c-dropdown-item"
+                    href="#"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    Something else here
+                  </a>
+                </div>
+              </div>
+            </div>
+             
+            <div>
+              <div
+                class="c-m-2 c-dropdown"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c-btn c-dropdown-toggle c-btn-secondary"
+                >
+                  Offset Dropdown
                 </button>
                 <!---->
                 <div
@@ -339,109 +424,16 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <div>
               <div
                 class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Drop-Up"
               >
                 <button
-                  aria-haspopup="true"
-                  class="c-btn c-btn-info c-dropdown-toggle"
-                  style="cursor: pointer;"
-                >
-                  Dropdown
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here
-                  </a>
-                </div>
-              </div>
-            </div>
-             
-            <div>
-              <div
-                class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Offset Dropdown"
-              >
-                <button
-                  aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-dropdown-toggle"
-                  style="cursor: pointer;"
-                >
-                  Dropdown
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here
-                  </a>
-                </div>
-              </div>
-            </div>
-             
-            <div>
-              <div
-                class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Split Dropdown"
-              >
-                <button
-                  aria-haspopup="true"
                   class="c-btn c-btn-secondary"
-                  style="cursor: pointer;"
                 >
-                  Dropdown
+                  Split Dropdown
                 </button>
                 <button
-                  class="c-btn c-btn-secondary c-dropdown-toggle c-dropdown-toggle-split"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c-dropdown-toggle c-dropdown-toggle-split c-btn c-btn-secondary"
                 />
                 <div
                   class="c-dropdown-menu"
@@ -514,14 +506,20 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <!---->
             <div>
               <div
-                class="c-dropdown c-btn-group"
+                class="c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-link c-btn-lg"
-                  style="cursor: pointer;"
+                  class="c-btn c-btn-lg c-btn-link"
                 >
-                  Dropdown
+                  
+                  🔍
+                  <span
+                    class="sr-only"
+                  >
+                    Search
+                  </span>
                 </button>
                 <!---->
                 <div
@@ -592,15 +590,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <!---->
             <div>
               <div
-                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
-                toggler-text="Large"
+                class="c-m-2 c-d-inline-block c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-dropdown-toggle c-btn-lg"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-lg c-btn-secondary"
                 >
-                  Dropdown
+                  Large
                 </button>
                 <!---->
                 <div
@@ -637,17 +634,16 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                
               <div
                 class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Large Split"
               >
                 <button
-                  aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-btn-lg"
-                  style="cursor: pointer;"
+                  class="c-btn c-btn-lg c-btn-secondary"
                 >
-                  Dropdown
+                  Large Split
                 </button>
                 <button
-                  class="c-btn c-btn-secondary c-btn-lg c-dropdown-toggle c-dropdown-toggle-split"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c-dropdown-toggle c-dropdown-toggle-split c-btn c-btn-lg c-btn-secondary"
                 />
                 <div
                   class="c-dropdown-menu"
@@ -684,15 +680,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               <br />
                
               <div
-                class="c-m-2 c-d-inline-block c-dropdown c-btn-group"
-                toggler-text="Small"
+                class="c-m-2 c-d-inline-block c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-dropdown-toggle c-btn-sm"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-sm c-btn-secondary"
                 >
-                  Dropdown
+                  Small
                 </button>
                 <!---->
                 <div
@@ -729,17 +724,16 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                
               <div
                 class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Small Split"
               >
                 <button
-                  aria-haspopup="true"
-                  class="c-btn c-btn-secondary c-btn-sm"
-                  style="cursor: pointer;"
+                  class="c-btn c-btn-sm c-btn-secondary"
                 >
-                  Dropdown
+                  Small Split
                 </button>
                 <button
-                  class="c-btn c-btn-secondary c-btn-sm c-dropdown-toggle c-dropdown-toggle-split"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c-dropdown-toggle c-dropdown-toggle-split c-btn c-btn-sm c-btn-secondary"
                 />
                 <div
                   class="c-dropdown-menu"
@@ -812,15 +806,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <!---->
             <div>
               <div
-                class="c-m-2 c-dropdown c-btn-group"
-                toggler-text="Dropdown ARIA"
+                class="c-m-2 c-dropdown"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="true"
-                  class="c-btn c-btn-primary c-dropdown-toggle"
-                  style="cursor: pointer;"
+                  class="c-btn c-dropdown-toggle c-btn-primary"
                 >
-                  Dropdown
+                  Dropdown ARIA
                 </button>
                 <!---->
                 <div
@@ -940,15 +933,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             <!---->
             <!---->
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Primary"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-primary c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-primary"
               >
-                Dropdown
+                Primary
               </button>
               <!---->
               <div
@@ -984,15 +976,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Secondary"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-secondary c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-secondary"
               >
-                Dropdown
+                Secondary
               </button>
               <!---->
               <div
@@ -1028,15 +1019,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Success"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-success c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-success"
               >
-                Dropdown
+                Success
               </button>
               <!---->
               <div
@@ -1072,15 +1062,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Warning"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-warning c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-warning"
               >
-                Dropdown
+                Warning
               </button>
               <!---->
               <div
@@ -1116,15 +1105,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Danger"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-danger c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-danger"
               >
-                Dropdown
+                Danger
               </button>
               <!---->
               <div
@@ -1160,15 +1148,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Info"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-info c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-info"
               >
-                Dropdown
+                Info
               </button>
               <!---->
               <div
@@ -1204,15 +1191,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Light"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-light c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-light"
               >
-                Dropdown
+                Light
               </button>
               <!---->
               <div
@@ -1248,15 +1234,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Dark"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-dark c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-dark"
               >
-                Dropdown
+                Dark
               </button>
               <!---->
               <div
@@ -1292,15 +1277,14 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-m-0 c-d-inline-block c-dropdown c-btn-group"
-              toggler-text="Link"
+              class="c-m-0 c-d-inline-block c-dropdown"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="true"
-                class="c-btn c-btn-link c-dropdown-toggle c-btn-sm"
-                style="cursor: pointer;"
+                class="c-btn c-dropdown-toggle c-btn-sm c-btn-link"
               >
-                Dropdown
+                Link
               </button>
               <!---->
               <div
