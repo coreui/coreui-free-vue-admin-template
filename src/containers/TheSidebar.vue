@@ -2,13 +2,15 @@
   <CSidebar 
     fixed 
     :minimize="minimize"
-    dropdownBehaviors="closeOnInactiveRoute"
   >
     <CSidebarHeader/>
     <CSidebarForm/>
-    <CSidebarNav :nav-items="computedNav"/>
+    <CRenderFunction :contentToRender="navItems"/>
     <CSidebarFooter/>
-    <CSidebarMinimizer @click.native="minimize = !minimize"/>
+    <CSidebarMinimizer 
+      class="c-d-md-down-none" 
+      @click.native="minimize = !minimize"
+    />
   </CSidebar>
 </template>
 
@@ -18,12 +20,21 @@ export default {
   name: 'TheSidebar',
   data () {
     return {
-      minimize: false
+      minimize: false,
+      icon: 'cui-speedometer',
+      counter: 0
     }
   },
   computed: {
-    computedNav () {
-      return nav.items.filter(item => item.name !== 'Dashboard')
+    navItems () {
+      return nav.map(parentElement => {
+        if (Array.isArray(parentElement)) {
+          return parentElement.filter(item => {
+            return !JSON.stringify(item).includes('Dashboard')
+          })
+        }
+        return parentElement  
+      })
     }
   }
 }
