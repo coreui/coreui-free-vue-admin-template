@@ -64,8 +64,8 @@
 <script>
 export default {
   name: 'DefaultHeaderDropdownAccnt',
-  data: () => {
+  data () {
     return { itemsCount: 42 }
-  },
+  }
 }
 </script>

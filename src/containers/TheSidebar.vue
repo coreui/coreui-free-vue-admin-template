@@ -3,10 +3,10 @@
     fixed 
     :minimize="minimize"
   >
-    <CSidebarHeader/>
-    <CSidebarForm/>
-    <CRenderFunction :contentToRender="navItems"/>
-    <CSidebarFooter/>
+    <!-- <CSidebarHeader/> -->
+    <!-- <CSidebarForm/> -->
+    <CRenderFunction :contentToRender="nav"/>
+    <!-- <CSidebarFooter/> -->
     <CSidebarMinimizer 
       class="c-d-md-down-none" 
       @click.native="minimize = !minimize"
@@ -21,20 +21,7 @@ export default {
   data () {
     return {
       minimize: false,
-      icon: 'cui-speedometer',
-      counter: 0
-    }
-  },
-  computed: {
-    navItems () {
-      return nav.map(parentElement => {
-        if (Array.isArray(parentElement)) {
-          return parentElement.filter(item => {
-            return !JSON.stringify(item).includes('Dashboard')
-          })
-        }
-        return parentElement  
-      })
+      nav
     }
   }
 }

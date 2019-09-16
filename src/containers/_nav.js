@@ -17,16 +17,7 @@ export default [
     ],
     [
       'CSidebarNavTitle',
-      {
-        props: {
-          name: 'Theme',
-          class: '',
-          wrapper: {
-            element: '',
-            attributes: {}
-          }
-        }
-      }
+      ['Theme']
     ],
     [
       'CSidebarNavLink',
@@ -50,15 +41,7 @@ export default [
     ],
     [
       'CSidebarNavTitle',
-      {
-        props: {
-          name: 'Components',
-          wrapper: {
-            element: '',
-            attributes: {}
-          }
-        }
-      }
+      ['Components']
     ],
     [
       'CSidebarNavDropdown',
@@ -402,11 +385,7 @@ export default [
     ],
     [
       'CSidebarNavTitle',
-      {
-        props: {
-         name: 'Extras'
-        }
-      }
+      ['Extras']
     ],
     [
       'CSidebarNavDropdown',

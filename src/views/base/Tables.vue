@@ -26,7 +26,6 @@
               options-row
               hover
               :default-column-filter="{ role:'staff' }"
-              :default-sorters="['username', 'asc']"
               :default-filter="2012"
               dark-header
               footer
