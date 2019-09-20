@@ -1,7 +1,7 @@
 <template>
   <CHeader fixed with-subheader light>
     <CSidebarToggler 
-      class="c-header-toggler"
+      class="c-header-toggler ml-3"
       v-c-emit-root-event:c-sidebar-toggle
     />
     <img
@@ -16,7 +16,7 @@
       <CHeaderNavItem class="px-3" to="/users" exact>Users</CHeaderNavItem>
       <CHeaderNavItem class="px-3">Settings</CHeaderNavItem>
     </ul>
-    <ul class="c-header-nav">
+    <ul class="c-header-nav mr-4">
       <CHeaderNavItem class="d-md-down-none mx-2">
         <i class="cui-bell"></i>
       </CHeaderNavItem>
@@ -28,7 +28,9 @@
       </CHeaderNavItem>
       <DefaultHeaderDropdownAccnt/>
     </ul>
-    <CBreadcrumbRouter class="c-subheader px-3"/>
+    <div class="c-subheader px-3">
+      <CBreadcrumbRouter class="border-0"/>
+    </div>
   </CHeader>
 </template>
 
