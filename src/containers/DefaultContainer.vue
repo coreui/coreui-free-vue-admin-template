@@ -1,18 +1,19 @@
 <template>
-  <div class="c-app c-default-layout">
-    <TheHeader/>
+  <div class="c-app">
     <TheSidebar/>
-    <div class="c-body">
-      <main class="c-main">
-        <CBreadcrumbRouter/>
-        <CContainer fluid>
-          <transition name="fade">
-            <router-view></router-view>
-          </transition>
-        </CContainer>
-      </main>
+    <div class="c-wrapper">
+      <TheHeader/>
+      <div class="c-body">
+        <main class="c-main">
+          <CContainer fluid>
+            <transition name="fade">
+              <router-view></router-view>
+            </transition>
+          </CContainer>
+        </main>
+      </div>
+      <TheFooter/>
     </div>
-    <TheFooter/>
   </div>
 </template>
 

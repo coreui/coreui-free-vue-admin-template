@@ -446,8 +446,10 @@ export default [
           name: 'Download CoreUI',
           href: 'http://coreui.io/vue/',
           icon: 'cui-cloud-download',
+          addLinkClasses: 'c-nav-link-success',
+        },
+        attrs: {
           class: 'mt-auto',
-          variant: 'success'
         }
       }
     ],
@@ -458,7 +460,7 @@ export default [
           name: 'Try CoreUI PRO',
           href: 'http://coreui.io/pro/vue/',
           icon: 'cui-layers',
-          variant: 'danger'
+          addLinkClasses: 'c-nav-link-danger',
         }
       }
     ]

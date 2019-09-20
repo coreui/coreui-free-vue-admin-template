@@ -1,56 +1,34 @@
 <template>
-  <CHeader fixed>
+  <CHeader fixed with-subheader light>
     <CSidebarToggler 
-      class="c-header-toggler d-lg-none mr-auto"
+      class="c-header-toggler"
       v-c-emit-root-event:c-sidebar-toggle
     />
-    <CLink :class="logoClasses" to="/">
-      <img
-        v-show="sidebarIsMinimized"
-        class="navbar-brand-minimized d-md-down-none" 
-        src="img/brand/sygnet.svg" 
-        width="30" 
-        height="30" 
-        alt="CoreUI Logo"
-      >
-      <img
-        v-show="!sidebarIsMinimized"
-        class="navbar-brand-full d-md-down-none" 
-        src="img/brand/logo.svg" 
-        width="89" 
-        height="25" 
-        alt="CoreUI Logo"
-      >
-      <img
-        class="navbar-brand-full d-lg-none" 
-        src="img/brand/logo.svg" 
-        width="89" 
-        height="25" 
-        alt="CoreUI Logo"
-      >
-    </CLink>
-    <CSidebarToggler 
-      class="c-header-toggler d-md-down-none" 
-      v-c-emit-root-event:c-sidebar-toggle
+    <img
+      class="c-header-brand mx-auto d-lg-none" 
+      src="img/brand/coreui-base.svg" 
+      width="97" 
+      height="46" 
+      alt="CoreUI Logo"
     />
-    <ul class="c-header-nav d-md-down-none">
-      <CNavItem class="px-3" to="/dashboard">Dashboard</CNavItem>
-      <CNavItem class="px-3" to="/users" exact>Users</CNavItem>
-      <CNavItem class="px-3">Settings</CNavItem>
+    <ul class="c-header-nav d-md-down-none mr-auto">
+      <CHeaderNavItem class="px-3" to="/dashboard">Dashboard</CHeaderNavItem>
+      <CHeaderNavItem class="px-3" to="/users" exact>Users</CHeaderNavItem>
+      <CHeaderNavItem class="px-3">Settings</CHeaderNavItem>
     </ul>
-    <CNav class="c-header-nav ml-auto">
-      <CNavItem class="d-md-down-none">
+    <ul class="c-header-nav">
+      <CHeaderNavItem class="d-md-down-none mx-2">
         <i class="cui-bell"></i>
-        <CBadge pill variant="danger">5</CBadge>
-      </CNavItem>
-      <CNavItem class="d-md-down-none">
+      </CHeaderNavItem>
+      <CHeaderNavItem class="d-md-down-none mx-2">
         <i class="cui-list"></i>
-      </CNavItem>
-      <CNavItem class="d-md-down-none">
-        <i class="cui-location-pin"></i>
-      </CNavItem>
+      </CHeaderNavItem>
+      <CHeaderNavItem class="d-md-down-none mx-2">
+        <i class="cui-envelope-open"></i>
+      </CHeaderNavItem>
       <DefaultHeaderDropdownAccnt/>
-    </CNav>
+    </ul>
+    <CBreadcrumbRouter class="c-subheader px-3"/>
   </CHeader>
 </template>
 

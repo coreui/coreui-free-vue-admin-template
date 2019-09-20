@@ -2,17 +2,21 @@
   <CDropdown
     nav
     no-caret
-    no-popper
-    add-menu-classes="dropdown-menu-right"
+    class="c-header-nav-items"
+    placement="bottom-end"
+    add-menu-classes="pt-0"
   >
-    <template #toggler-content>
-      <img
-        src="img/avatars/6.jpg"
-        class="img-avatar"
-        alt="admin@bootstrapmaster.com"
-      />
+    <template #toggler="{click}">
+      <CLink class="c-header-nav-link" @click="click">
+        <div class="c-avatar">
+          <img
+            src="img/avatars/6.jpg"
+            class="c-avatar-img "
+          />
+        </div>
+      </CLink>
     </template>
-    <CDropdownHeader tag="div" class="text-center">
+    <CDropdownHeader tag="div" class="text-center bg-light">
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
@@ -32,8 +36,8 @@
       <CBadge variant="warning">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
-     tag="div"
-      class="text-center"
+      tag="div"
+      class="text-center bg-light"
     >
       <strong>Settings</strong>
     </CDropdownHeader>
