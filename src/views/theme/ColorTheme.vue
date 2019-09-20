@@ -1,7 +1,7 @@
 <template>
-  <CCol xl="2" md="4" sm="6" xs="12" class="c-mb-4">
+  <CCol xl="2" md="4" sm="6" xs="12" class="mb-4">
     <div
-      :class="['c-theme-color c-w-75 c-rounded c-mb-3', color]"
+      :class="['theme-color w-75 rounded mb-3', color]"
       :style="{ paddingTop: '75%' }"
     ></div>
     <slot></slot>
@@ -17,7 +17,7 @@ export default {
   props: {
     color: {
       type: String,
-      default: 'c-bg-secondary'
+      default: 'bg-secondary'
     }
   }
 }

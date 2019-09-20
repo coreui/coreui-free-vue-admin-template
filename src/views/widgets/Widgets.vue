@@ -10,13 +10,13 @@
           <CProgress
             variant="success"
             :value="25"
-            class="c-progress-xs c-my-3 c-mb-0"
+            class="progress-xs my-3 mb-0"
           />
           <template #header>
-            <div class="c-card-header-actions">
+            <div class="card-header-actions">
               <a 
                 href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
-                class="card-header-action c-position-absolute"
+                class="card-header-action position-absolute"
                 style="right:10px; top:10px"
                 rel="noreferrer noopener" 
                 target="_blank"
@@ -184,7 +184,7 @@
           variant="primary"
           no-icon-padding
         >
-          <CIcon name="settings" class="c-mx-5 " width="24"/>
+          <CIcon name="settings" class="mx-5 " width="24"/>
         </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
@@ -194,7 +194,7 @@
           variant="info"
           no-icon-padding
         >
-          <CIcon name="laptop" class="c-mx-5 " width="24"/>
+          <CIcon name="laptop" class="mx-5 " width="24"/>
         </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
@@ -204,15 +204,15 @@
           variant="warning"
           no-icon-padding
         >
-          <CIcon name="moon" class="c-mx-5 " width="24"/>
+          <CIcon name="moon" class="mx-5 " width="24"/>
           <template #footer>
-            <CCardFooter class="c-card-footer c-px-3 c-py-2">
+            <CCardFooter class="card-footer px-3 py-2">
               <CLink
-                class="c-font-weight-bold c-font-xs c-btn-block c-text-muted"
+                class="font-weight-bold font-xs btn-block text-muted"
                 href="https://coreui.io/"
               >
                 View more
-                <CIcon name="arrowRight" class="c-float-right" width="16"/>
+                <CIcon name="arrowRight" class="float-right" width="16"/>
               </CLink>
             </CCardFooter>
           </template>
@@ -228,7 +228,7 @@
           no-icon-padding
           link="#"
         >
-          <CIcon name="settings" class="c-mx-5 " width="24"/>
+          <CIcon name="settings" class="mx-5 " width="24"/>
         </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
@@ -239,7 +239,7 @@
           no-icon-padding
           link="#"
         >
-          <CIcon name="laptop" class="c-mx-5 " width="24"/>
+          <CIcon name="laptop" class="mx-5 " width="24"/>
         </CWidgetIcon>
       </CCol>
       <CCol col="12" sm="6" lg="4">
@@ -250,13 +250,13 @@
           no-icon-padding
           link="#"
         >
-          <CIcon name="moon" class="c-mx-5" width="24"/>
+          <CIcon name="moon" class="mx-5" width="24"/>
         </CWidgetIcon>
       </CCol>
     </CRow> -->
     <WidgetsBrand noCharts/>
     <WidgetsBrand/>
-    <CCardGroup class="c-mb-4">
+    <CCardGroup class="mb-4">
       <CWidgetProgressIcon
         header="87.500"
         text="Visitors"
@@ -292,7 +292,7 @@
         <CIcon name="speedometer" height="36"/>
       </CWidgetProgressIcon>
     </CCardGroup>
-    <CCardGroup class="c-mb-4">
+    <CCardGroup class="mb-4">
       <CWidgetProgressIcon
         header="87.500"
         text="Visitors"

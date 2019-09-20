@@ -1,12 +1,12 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Tooltips </strong>
           <small><code>v-c-tooltip</code> directive</small>
-          <div class="c-card-header-actions">
+          <div class="card-header-actions">
             <a 
               href="https://coreui.io/vue/docs/3.0/components/Tooltip" 
               class="card-header-action" 
@@ -20,7 +20,7 @@
         <CCardBody>
           <CRow>
             <CCol col="4">
-              <div class="c-text-center c-my-3">
+              <div class="text-center my-3">
                 <CButton 
                   variant="secondary"
                   v-c-tooltip.hover.click="'I am a tooltip!'"
@@ -30,7 +30,7 @@
               </div>
             </CCol>
             <CCol col="4">
-              <div class="c-text-center c-my-3">
+              <div class="text-center my-3">
                 <CButton 
                   v-c-tooltip="{content: 'I start open!', active:true }"
                   variant="secondary"
@@ -40,7 +40,7 @@
               </div>
             </CCol>
             <CCol col="4">
-              <div class="c-text-center c-my-3">
+              <div class="text-center my-3">
                 <CButton
                   variant="secondary"
                   v-c-tooltip.click="
@@ -61,11 +61,11 @@
           <small>placement</small>
         </CCardHeader>
         <CCardBody>
-          <div class="c-my-3">
+          <div class="my-3">
             <CRow>
               <CCol
                 md="4"
-                class="c-py-4 c-text-center"
+                class="py-4 text-center"
                 v-for="placement in placements"
                 :key="placement"
               >

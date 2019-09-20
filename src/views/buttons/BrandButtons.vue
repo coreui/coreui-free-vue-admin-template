@@ -5,7 +5,7 @@
         <CCard>
           <CCardHeader>
             <strong>Brand Button</strong>
-            <div class="c-card-header-actions">
+            <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
                   class="card-header-action" 
@@ -219,12 +219,12 @@ export default {
 }
 </script>
 
-<style scoped lang="css">
-.c-btn {
+<style scoped>
+.btn {
   margin-bottom: 4px;
   margin-right: 6px;
 }
-.c-btn svg + span {
+.btn svg + span {
   margin-left: 8px;
 }
 </style>

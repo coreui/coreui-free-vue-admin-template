@@ -1,5 +1,5 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CRow>
         <CCol col="12" >
@@ -7,7 +7,7 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap button group</strong>
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
                   class="card-header-action" 
@@ -25,14 +25,14 @@
                   <CButton variant="secondary">Two</CButton>
                   <CButton variant="secondary">Three</CButton>
                   <CButton variant="secondary">Four</CButton>
-                  <CButton variant="secondary" class="c-d-sm-down-none">Five</CButton>
+                  <CButton variant="secondary" class="d-sm-down-none">Five</CButton>
                 </CButtonGroup>
                 <br><br>
                 <CButtonGroup>
-                  <CButton class="c-d-sm-down-none" variant="success">Success</CButton>
+                  <CButton class="d-sm-down-none" variant="success">Success</CButton>
                   <CButton variant="info">Info</CButton>
                   <CButton variant="warning">Warn</CButton>
-                  <CButton class="c-d-sm-down-none" variant="primary">Primary</CButton>
+                  <CButton class="d-sm-down-none" variant="primary">Primary</CButton>
                   <CButton variant="danger">Danger</CButton>
                   <CButton variant="link">Link</CButton>
                 </CButtonGroup>
@@ -77,15 +77,15 @@
             <CCardBody>
               <div>
                 <CButtonGroup>
-                  <CButton variant="secondary" class="c-d-sm-down-none">Button 1</CButton>
-                  <CButton variant="secondary" class="c-d-sm-down-none">Button 2</CButton>
+                  <CButton variant="secondary" class="d-sm-down-none">Button 1</CButton>
+                  <CButton variant="secondary" class="d-sm-down-none">Button 2</CButton>
                   <CDropdown right text="Menu" variant="success">
                     <CDropdownItem>Item 1</CDropdownItem>
                     <CDropdownItem>Item 2</CDropdownItem>
                     <CDropdownDivider></CDropdownDivider>
                     <CDropdownItem>Item 3</CDropdownItem>
                   </CDropdown>
-                  <CButton variant="secondary" class="c-d-sm-down-none">Button 3</CButton>
+                  <CButton variant="secondary" class="d-sm-down-none">Button 3</CButton>
                   <CDropdown right split text="Split Menu" variant="info">
                     <CDropdownItem>Item 1</CDropdownItem>
                     <CDropdownItem>Item 2</CDropdownItem>
@@ -129,47 +129,47 @@
             <CCardBody>
               <div>
                 <CButtonToolbar aria-label="Toolbar with button groups">
-                  <CButtonGroup class="c-mx-1">
-                    <CButton variant="secondary" class="c-d-sm-down-none">&laquo;</CButton>
+                  <CButtonGroup class="mx-1">
+                    <CButton variant="secondary" class="d-sm-down-none">&laquo;</CButton>
                     <CButton variant="secondary">&lsaquo;</CButton>
                   </CButtonGroup>
-                  <CButtonGroup class="c-mx-1">
-                    <CButton variant="secondary" class="c-d-sm-down-none">Edit</CButton>
+                  <CButtonGroup class="mx-1">
+                    <CButton variant="secondary" class="d-sm-down-none">Edit</CButton>
                     <CButton variant="secondary">Undo</CButton>
                     <CButton variant="secondary">Redo</CButton>
                   </CButtonGroup>
-                  <CButtonGroup class="c-mx-1">
+                  <CButtonGroup class="mx-1">
                     <CButton variant="secondary">&rsaquo;</CButton>
-                    <CButton variant="secondary" class="c-d-sm-down-none">&raquo;</CButton>
+                    <CButton variant="secondary" class="d-sm-down-none">&raquo;</CButton>
                   </CButtonGroup>
                 </CButtonToolbar>
               </div>
-              <hr class="c-d-sm-down-none"/>
+              <hr class="d-sm-down-none"/>
               <div>
                 <CButtonToolbar
                   aria-label="Toolbar with button groups and input groups"
-                  class="c-d-sm-down-none"
+                  class="d-sm-down-none"
                 >
-                  <CButtonGroup size="sm" class="c-mx-1">
+                  <CButtonGroup size="sm" class="mx-1">
                     <CButton variant="secondary">New</CButton>
                     <CButton variant="secondary">Edit</CButton>
                   </CButtonGroup>
                   <CFormInput
-                    class="c-mb-0 c-w-25 c-mx-1"
+                    class="mb-0 w-25 mx-1"
                     size="sm"
                     prepend-html="$"
                     append-html=".00"
                     value="100"
                   />
                   <CFormSelect
-                    class="c-mb-0 c-w-25 c-mx-1"
+                    class="mb-0 w-25 mx-1"
                     size="sm"
                     prepend-html="Size"
                     value="Medium"
                     :options="['Large','Medium','Small']"
                     custom
                   />
-                  <CButtonGroup size="sm" class="c-mx-1">
+                  <CButtonGroup size="sm" class="mx-1">
                     <CButton variant="secondary">Save</CButton>
                     <CButton variant="secondary">Cancel</CButton>
                   </CButtonGroup>
@@ -178,14 +178,14 @@
               <hr/>
               <div>
                 <CButtonToolbar aria-label="Toolbar with button groups and dropdown menu">
-                  <CButtonGroup class="c-mx-1 c-d-sm-down-none">
+                  <CButtonGroup class="mx-1 d-sm-down-none">
                     <CButton variant="secondary">New</CButton>
                     <CButton variant="secondary">Edit</CButton>
                     <CButton variant="secondary">Undo</CButton>
                   </CButtonGroup>
                   <CDropdown
                     variant="secondary"
-                    class="c-mx-1"
+                    class="mx-1"
                     placement="bottom-end"
                     button-content="Menu"
                   >
@@ -193,7 +193,7 @@
                     <CDropdownItem>Item 2</CDropdownItem>
                     <CDropdownItem>Item 3</CDropdownItem>
                   </CDropdown>
-                  <CButtonGroup class="c-mx-1">
+                  <CButtonGroup class="mx-1">
                     <CButton variant="secondary">Save</CButton>
                     <CButton variant="secondary">Cancel</CButton>
                   </CButtonGroup>

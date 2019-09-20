@@ -1,5 +1,5 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <!-- <CCard>
         <CNavbar toggleable="md" light variant="light">
@@ -19,7 +19,7 @@
               <DefaultHeaderDropdownAccnt/>
             </CNavbarNav>
             <CNavbarNav class="ml-auto">
-              <CDropdown right class="c-nav-item " toggle-classes="c-nav-link">
+              <CDropdown right class="nav-item " toggle-classes="nav-link">
                 <CDropdownItem><i class="cui-file" /> Projects
                   <CBadge variant="primary">32</CBadge>
                 </CDropdownItem>
@@ -34,7 +34,7 @@
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Navbar </strong>
-          <div class="c-card-header-actions">
+          <div class="card-header-actions">
             <a 
               href="https://coreui.io/vue/docs/3.0/components/Navbar" 
               class="card-header-action" 
@@ -59,14 +59,14 @@
               </CNavbarNav>
 
               <!-- Right aligned nav items -->
-              <CNavbarNav class="c-ml-auto">
+              <CNavbarNav class="ml-auto">
                 <CForm inline>
                   <CFormInput
-                    class="c-mr-sm-2"
+                    class="mr-sm-2"
                     placeholder="Search"
                     size="sm"
                   />
-                  <CButton variant="light" size="sm" class="c-my-2 c-my-sm-0">
+                  <CButton variant="light" size="sm" class="my-2 my-sm-0">
                     Search
                   </CButton>
                 </CForm>
@@ -104,7 +104,7 @@
           <!-- Image and text -->
           <CNavbar variant="faded" light>
             <CNavbarBrand href="#">
-              <img src="https://placekitten.com/g/30/30" class="c-d-inline-block c-align-top" alt="CoreuiVue">
+              <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="CoreuiVue">
               CoreuiVue
             </CNavbarBrand>
           </CNavbar>
@@ -121,7 +121,7 @@
             <CNavbarBrand>CoreuiVue</CNavbarBrand>
             <CCollapse :show="navbarText" navbar>
               <CNavbarNav>
-                <span class="c-navbar-text">Navbar text</span>
+                <span class="navbar-text">Navbar text</span>
               </CNavbarNav>
             </CCollapse>
           </CNavbar>
@@ -172,11 +172,11 @@
           <CNavbar light variant="light">
             <CForm inline>
               <CFormInput
-                class="c-mr-sm-2"
+                class="mr-sm-2"
                 placeholder="Search"
                 size="sm"
               />
-              <CButton variant="outline-success" class="c-my-2 c-my-sm-0" type="submit">Search</CButton>
+              <CButton variant="outline-success" class="my-2 my-sm-0" type="submit">Search</CButton>
             </CForm>
           </CNavbar>
         </CCardBody>
@@ -190,7 +190,7 @@
           <CNavbar light variant="light">
             <CForm inline>
               <CFormInput
-                class="c-mr-sm-2"
+                class="mr-sm-2"
                 placeholder="Username"
               />
             </CForm>

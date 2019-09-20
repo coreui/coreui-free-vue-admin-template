@@ -1,11 +1,11 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Bootstrap Popovers</strong>
-          <div class="c-card-header-actions">
+          <div class="card-header-actions">
             <a 
               href="https://coreui.io/vue/docs/3.0/components/Popover" 
               class="card-header-action" 
@@ -19,7 +19,7 @@
         <CCardBody>
           <CRow>
             <CCol col="4">
-              <div class="c-my-3 c-text-center">
+              <div class="my-3 text-center">
                 <CButton
                   variant="primary"
                   v-c-popover="{
@@ -32,7 +32,7 @@
               </div>
             </CCol>
             <CCol col="4">
-              <div class="c-my-3 c-text-center">
+              <div class="my-3 text-center">
                 <CButton
                   variant="primary"
                   v-c-popover="{
@@ -45,7 +45,7 @@
               </div>
             </CCol>
             <CCol col="4">
-              <div class="c-my-3 c-text-center">
+              <div class="my-3 text-center">
                 <CButton
                   variant="primary"
                   v-c-popover.click="{
@@ -67,11 +67,11 @@
           <strong> Popovers </strong>
           <small>placement</small>
         </CCardHeader>
-        <CCardBody class="c-my-3">
+        <CCardBody class="my-3">
           <CRow>
             <CCol
               md="4"
-              class="c-py-4 c-text-center"
+              class="py-4 text-center"
               v-for="placement in placements"
               :key="placement"
             >

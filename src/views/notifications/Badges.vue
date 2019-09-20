@@ -1,5 +1,5 @@
 <template functional>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CRow>
         <CCol col="12" md="6">
@@ -7,7 +7,7 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Badge</strong>
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Badge" 
                   class="card-header-action" 

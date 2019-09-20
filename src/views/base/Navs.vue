@@ -1,10 +1,10 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i><strong> Bootstrap Navs</strong>
-          <div class="c-card-header-actions">
+          <div class="card-header-actions">
             <a 
               href="https://coreui.io/vue/docs/3.0/components/Nav" 
               class="card-header-action" 
@@ -127,7 +127,7 @@
               placement="bottom-end"
               button-content="Dropdown"
             >
-              <!-- <a class="c-nav-link c-dropdown-toggle" slot="button">Dropdown</a> -->
+              <!-- <a class="nav-link dropdown-toggle" slot="button">Dropdown</a> -->
               <CDropdownItem>one</CDropdownItem>
               <CDropdownItem>two</CDropdownItem>
               <CDropdownDivider/>
@@ -144,7 +144,7 @@
         </CCardHeader>
         <CCardBody>
           <CRow>
-            <CCol col="3" class="c-m-0">
+            <CCol col="3" class="m-0">
               <CNav vertical pills >
                 <CNavItem active>Active</CNavItem>
                 <CNavItem>Link</CNavItem>

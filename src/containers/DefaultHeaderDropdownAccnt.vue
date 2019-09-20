@@ -3,16 +3,16 @@
     nav
     no-caret
     no-popper
-    add-menu-classes="c-dropdown-menu-right"
+    add-menu-classes="dropdown-menu-right"
   >
     <template #toggler-content>
       <img
         src="img/avatars/6.jpg"
-        class="c-img-avatar"
+        class="img-avatar"
         alt="admin@bootstrapmaster.com"
       />
     </template>
-    <CDropdownHeader tag="div" class="c-text-center">
+    <CDropdownHeader tag="div" class="text-center">
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
@@ -33,7 +33,7 @@
     </CDropdownItem>
     <CDropdownHeader
      tag="div"
-      class="c-text-center"
+      class="text-center"
     >
       <strong>Settings</strong>
     </CDropdownHeader>

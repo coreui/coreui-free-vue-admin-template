@@ -8,7 +8,7 @@
     <CRenderFunction :contentToRender="nav"/>
     <!-- <CSidebarFooter/> -->
     <CSidebarMinimizer 
-      class="c-d-md-down-none" 
+      class="d-md-down-none" 
       @click.native="minimize = !minimize"
     />
   </CSidebar>

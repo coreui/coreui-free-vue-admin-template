@@ -5,10 +5,10 @@
         <i class="cui-globe"></i>Font Awesome brand icons
       </CCardHeader>
       <CCardBody>
-        <CRow class="c-text-center">
+        <CRow class="text-center">
           <template v-for="(brand, brandName) in $options.brands">
             <CCol
-              class="c-mb-5"
+              class="mb-5"
               col="3"
               sm="2"
               :key="brandName"

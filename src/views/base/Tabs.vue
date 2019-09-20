@@ -5,7 +5,7 @@
         <CCard>
           <CCardHeader>
             Tabs
-            <div class="c-card-header-actions">
+            <div class="card-header-actions">
               <a 
                 href="https://coreui.io/vue/docs/3.0/components/Tabs" 
                 class="card-header-action" 
@@ -122,7 +122,7 @@
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs add-tab-classes="c-mt-1">
+            <CTabs add-tab-classes="mt-1">
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i> {{tabs[0]}}

@@ -1,12 +1,12 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CRow>
         <CCol col="12">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Bootstrap Modals
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Modal" 
                   class="card-header-action" 
@@ -18,32 +18,32 @@
               </div>
             </CCardHeader>
             <CCardBody>
-              <CButton variant="secondary" @click="myModal = true" class="c-mr-1">
+              <CButton variant="secondary" @click="myModal = true" class="mr-1">
                 Launch demo modal
               </CButton>
-              <CButton variant="secondary" @click="largeModal = true" class="c-mr-1">
+              <CButton variant="secondary" @click="largeModal = true" class="mr-1">
                 Launch large modal
               </CButton>
-              <CButton variant="secondary" @click="smallModal = true" class="c-mr-1">
+              <CButton variant="secondary" @click="smallModal = true" class="mr-1">
                 Launch small modal
               </CButton>
               <hr>
-              <CButton variant="primary" @click="primaryModal = true" class="c-mr-1">
+              <CButton variant="primary" @click="primaryModal = true" class="mr-1">
                 Launch primary modal
               </CButton>
-              <CButton variant="success" @click="successModal = true" class="c-mr-1">
+              <CButton variant="success" @click="successModal = true" class="mr-1">
                 Launch success modal
               </CButton>
-              <CButton variant="warning" @click="warningModal = true" class="c-mr-1">
+              <CButton variant="warning" @click="warningModal = true" class="mr-1">
                 Launch warning modal
               </CButton>
-              <CButton variant="danger" @click="dangerModal = true" class="c-mr-1">
+              <CButton variant="danger" @click="dangerModal = true" class="mr-1">
                 Launch danger modal
               </CButton>
-              <CButton variant="info" @click="infoModal = true" class="c-mr-1">
+              <CButton variant="info" @click="infoModal = true" class="mr-1">
                 Launch info modal
               </CButton>
-              <CButton variant="dark" @click="darkModal = true" class="c-mr-1">
+              <CButton variant="dark" @click="darkModal = true" class="mr-1">
                 Launch dark modal
               </CButton>
             </CCardBody>
@@ -162,8 +162,8 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       <template #header="{hide}">
-        <h6 class="c-modal-title">Custom smaller modal title</h6>
-        <CButtonClose @click="hide()" class="c-text-white"/>
+        <h6 class="modal-title">Custom smaller modal title</h6>
+        <CButtonClose @click="hide()" class="text-white"/>
       </template>
       <template #footer="{hide}">
         <CButton @click="hide()" variant="danger">Discard</CButton>

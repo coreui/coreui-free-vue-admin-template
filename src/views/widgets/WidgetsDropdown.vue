@@ -4,8 +4,8 @@
       <CWidgetDropdown variant="primary" header="9.823" text="Members online">
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            variant="transparent p-0"
             placement="bottom-end"
           >
             <template #toggler-content>
@@ -20,7 +20,7 @@
         <template #footer>
           <CChartLineSimple
             pointed
-            class="c-px-3"
+            class="px-3"
             style="height:70px"
             :data-points="[65, 59, 84, 84, 51, 55, 40]"
             background-color="primary"
@@ -34,8 +34,8 @@
       <CWidgetDropdown variant="info" header="9.823" text="Members online">
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            variant="transparent p-0"
             placement="bottom-end"
             no-caret
             buttonHtml="<i class='cui-location-pin'></i>"
@@ -52,7 +52,7 @@
         <template #footer>
           <CChartLineSimple
             pointed
-            class="c-px-3"
+            class="px-3"
             style="height:70px"
             :data-points="[1, 18, 9, 17, 34, 22, 11]"
             background-color="info"
@@ -71,8 +71,8 @@
       >
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            variant="transparent p-0"
             placement="bottom-end"
           >
             <template #toggler-content>
@@ -105,8 +105,8 @@
       >
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            variant="transparent p-0"
             placement="bottom-end"
           >
             <template #toggler-content>

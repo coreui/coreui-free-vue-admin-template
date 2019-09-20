@@ -5,7 +5,7 @@
         <CCard>
           <CCardHeader>
             <strong>Credit Card </strong> <small>Form</small>
-            <div class="c-card-header-actions">
+            <div class="card-header-actions">
               <a 
                 href="https://coreui.io/vue/docs/3.0/components/FormComponents" 
                 class="card-header-action" 
@@ -185,11 +185,11 @@
                 disabled
               />
               <template v-for="(name, key) in checkboxNames">
-                <div class="c-form-group c-form-row" :key="name">
-                  <CCol tag="label" sm="3" class="c-col-form-label">
+                <div class="form-group form-row" :key="name">
+                  <CCol tag="label" sm="3" class="col-form-label">
                     {{name}}
                   </CCol>
-                  <CCol sm="9" :class="key % 2 === 1 ? 'c-form-inline' : ''">
+                  <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
                     <CFormCheckbox
                       v-for="option in options"
                       :key="option"
@@ -204,11 +204,11 @@
                 </div>
               </template>
               <template v-for="(name, key) in radioNames">
-                <div class="c-form-row c-form-group" :key="name">
+                <div class="form-row form-group" :key="name">
                   <CCol sm="3">
                     {{name}}
                   </CCol>
-                  <CCol sm="9" :class="key % 2 === 1 ? 'c-form-inline' : ''">
+                  <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
                     <CFormRadio
                       v-for="option in options"
                       :key="option"
@@ -259,7 +259,7 @@
             <!-- Bootstrap Vue has some problems with Inline forms that's why we use some standard bootstrap classes -->
             <CForm inline>
               <CFormInput
-                class="c-mr-2"
+                class="mr-2"
                 placeholder="Jane Doe"
               >
                 <template #label>
@@ -348,54 +348,54 @@
             Input <strong>Grid</strong>
           </CCardHeader>
           <CCardBody>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="3">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-3"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-3"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="4">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-4"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-4"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="5">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-5"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-5"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="6">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-6"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-6"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="7">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-7"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-7"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="8">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-8"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-8"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="9">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-9"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-9"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="10">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-10"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-10"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="11">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-11"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-11"/>
               </CCol>
             </CRow>
-            <CRow class="c-form-group">
+            <CRow class="form-group">
               <CCol sm="12">
-                <CFormInput class="c-mb-0" placeholder=".col-sm-12"/>
+                <CFormInput class="mb-0" placeholder=".col-sm-12"/>
               </CCol>
             </CRow>
           </CCardBody>
@@ -634,15 +634,15 @@
           </CCardHeader>
           <CCardBody>
             <CRow
-              class="c-form-group"
+              class="form-group"
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
               <CCol :col="12 - number">
-                <CFormInput class="c-mb-0" :placeholder="`.col-md-${12 - number}`"/>
+                <CFormInput class="mb-0" :placeholder="`.col-md-${12 - number}`"/>
               </CCol>
               <CCol :col="number">
-                <CFormInput class="c-mb-0" :placeholder="`.col-md-${number}`"/>
+                <CFormInput class="mb-0" :placeholder="`.col-md-${number}`"/>
               </CCol>
             </CRow>
           </CCardBody>
@@ -662,15 +662,15 @@
           </CCardHeader>
           <CCardBody>
             <CRow
-              class="c-form-group"
+              class="form-group"
               v-for="(number, key) in [4,5,6,7,8]"
               :key="key"
             >
               <CCol :col="number">
-                <CFormInput class="c-mb-0" :placeholder="`.col-${number}`"/>
+                <CFormInput class="mb-0" :placeholder="`.col-${number}`"/>
               </CCol>
               <CCol :col="12 - number">
-                <CFormInput class="c-mb-0" :placeholder="`.col-${12 - number}`"/>
+                <CFormInput class="mb-0" :placeholder="`.col-${12 - number}`"/>
               </CCol>
             </CRow>
           </CCardBody>
@@ -708,7 +708,7 @@
                 autocomplete="current-password"
                 append-html="<i class='cui-shield'></i>"
               />
-              <div class="c-form-group c-form-actions">
+              <div class="form-group form-actions">
                 <CButton type="submit" size="sm" variant="primary">
                   Submit
                 </CButton>
@@ -740,8 +740,8 @@
                 autocomplete="current-password"
                 append-html="<i class='cui-shield'></i>"
               />
-              <div class="c-form-group c-form-actions">
-                <CButton type="submit" class="c-btn c-btn-sm c-btn-secondary">
+              <div class="form-group form-actions">
+                <CButton type="submit" class="btn btn-sm btn-secondary">
                   Submit
                 </CButton>
               </div>
@@ -772,7 +772,7 @@
                 autocomplete="current-password"
                 prependHtml="<i class='cui-shield'></i>"
               />
-              <div class="c-form-group c-form-actions">
+              <div class="form-group form-actions">
                 <CButton type="submit" size="sm" variant="success">
                   Submit
                 </CButton>
@@ -788,17 +788,17 @@
           <CCard v-if="show">
             <CCardHeader>
               <i class="cui-pencil"></i> Form Elements
-              <div class="c-card-header-actions">
-                <CLink href="#" class="c-card-header-action c-btn-setting">
+              <div class="card-header-actions">
+                <CLink href="#" class="card-header-action btn-setting">
                   <i class="cui-settings"></i>
                 </CLink>
                 <CLink
-                  class="c-card-header-action c-btn-minimize"
+                  class="card-header-action btn-minimize"
                   @click="formCollapsed=!formCollapsed"
                 >
                   <i :class="`cui-chevron-${formCollapsed ? 'bottom' : 'top'}`"></i>
                 </CLink>
-                <CLink href="#" class="c-card-header-action c-btn-close" v-on:click="show = !show">
+                <CLink href="#" class="card-header-action btn-close" v-on:click="show = !show">
                   <i class="cui-circle-x"></i>
                 </CLink>
               </div>
@@ -837,7 +837,7 @@
                     <CButton variant="danger">Options</CButton>
                   </template>
                 </CFormInput>
-                <div class="c-form-actions">
+                <div class="form-actions">
                   <CButton type="submit" variant="primary">Save changes</CButton>
                   <CButton variant="secondary">Cancel</CButton>
                 </div>

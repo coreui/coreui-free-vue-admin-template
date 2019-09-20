@@ -1,12 +1,12 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CRow>
         <CCol col>
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Breadcrumb" 
                   class="card-header-action" 
@@ -72,17 +72,17 @@ export default {
         {
           textHtml: 'Added',
           to: '#2',
-          addClasses: 'c-font-xl'
+          addClasses: 'font-xl'
         }, 
         {
           textHtml: 'Custom',
           to: '#3',
-          addClasses: 'c-font-xl'
+          addClasses: 'font-xl'
         },
         {
           textHtml: 'Classes',
           to: '#4',
-          addClasses: 'c-font-xl c-text-danger'
+          addClasses: 'font-xl text-danger'
         }
       ]
     }
@@ -91,7 +91,7 @@ export default {
 </script>
 
 <style>
-  .c-breadcrumb-item + .c-font-xl.c-breadcrumb-item::before {
+  .breadcrumb-item + .font-xl.breadcrumb-item::before {
     color: rgb(140, 195, 38);
     content: '>>';
     padding: 0px 10px;

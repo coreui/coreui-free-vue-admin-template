@@ -1,5 +1,5 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CRow>
         <CCol col="12" md="6">
@@ -7,7 +7,7 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Alert</strong>
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Alert" 
                   class="card-header-action" 
@@ -37,34 +37,34 @@
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i> Alert
-              <small> use <code>.c-alert-link</code> to provide links</small>
+              <small> use <code>.alert-link</code> to provide links</small>
             </CCardHeader>
             <CCardBody>
               <div>
                 <CAlert show variant="primary">
-                  Primary Alert with <a href="#" class="c-alert-link">an example link</a>.
+                  Primary Alert with <a href="#" class="alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="secondary">
-                  Secondary Alert with <a href="#" class="c-alert-link">an example link</a>.
+                  Secondary Alert with <a href="#" class="alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="success">
-                  Success Alert with <a href="#" class="c-alert-link">an example link</a>.
+                  Success Alert with <a href="#" class="alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="danger">
-                  Danger Alert with <a href="#" class="c-alert-link">an example link</a>.
+                  Danger Alert with <a href="#" class="alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="warning">
-                  Warning Alert with <a href="#" class="c-alert-link">an example link</a>.
+                  Warning Alert with <a href="#" class="alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="info">
-                  Info Alert with <a href="#" class="c-alert-link">an example link</a>.
+                  Info Alert with <a href="#" class="alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="light">
-                  Light Alert with <a href="#" class="c-alert-link">an example link</a>.
+                  Light Alert with <a href="#" class="alert-link">an example link</a>.
                 </CAlert>
                 <CAlert show variant="dark">
                   Dark Alert with
-                  <CLink href="#" class="c-alert-link">an example link</CLink>
+                  <CLink href="#" class="alert-link">an example link</CLink>
                   .
                 </CAlert>
               </div>
@@ -78,14 +78,14 @@
             </CCardHeader>
             <CCardBody>
               <CAlert show variant="success">
-                <h4 class="c-alert-heading">Well done!</h4>
+                <h4 class="alert-heading">Well done!</h4>
                 <p>
                   Aww yeah, you successfully read this important alert message.
                   This example text is going to run a bit longer so that you can see
                   how spacing within an alert works with this kind of content.
                 </p>
                 <hr>
-                <p class="c-mb-0">
+                <p class="mb-0">
                   Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
                 </p>
               </CAlert>
@@ -120,11 +120,11 @@
                 variant="secondary"
                 :show.sync="dismissibleAlerts[2]"
                 v-slot="{dismiss}"
-                class="c-alert-dismissible"
+                class="alert-dismissible"
               >
                 Dismissible Alert with custom button!
                 <CButton
-                  class="c-position-absolute"
+                  class="position-absolute"
                   variant="secondary"
                   style="right:10px;top: 50%;transform: translateY(-50%);"
                   textHtml="<i>Close</i>"
@@ -134,7 +134,7 @@
               <CButton
                 @click="showDismissibleAlerts"
                 variant="info"
-                class="c-m-1"
+                class="m-1"
               >
                 Show dismissible alerts
               </CButton>
@@ -170,7 +170,7 @@
                     height="4px"
                   />
                 </CAlert>
-                <CButton @click="showAlert" variant="info" class="c-m-1">
+                <CButton @click="showAlert" variant="info" class="m-1">
                   Show alert with timer
                 </CButton>
               </div>

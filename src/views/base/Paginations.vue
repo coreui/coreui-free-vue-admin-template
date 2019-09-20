@@ -1,11 +1,11 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i>
           <strong> Responsive bootstrap Pagination</strong>
-          <div class="c-card-header-actions">
+          <div class="card-header-actions">
             <a 
               href="https://coreui.io/vue/docs/3.0/components/Pagination" 
               class="card-header-action" 

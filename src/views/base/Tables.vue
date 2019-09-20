@@ -5,7 +5,7 @@
         <CCard>
           <CCardHeader>
             CTable component functionality presentation
-            <div class="c-card-header-actions">
+            <div class="card-header-actions">
               <a 
                 href="https://coreui.io/vue/docs/3.0/components/Table" 
                 class="card-header-action" 
@@ -20,14 +20,11 @@
             <CTable
               :items="getItems()"
               :fields="fields"
-              :per-page="6"
               index-column
               filter-row
               options-row
               hover
-              :default-column-filter="{ role:'staff' }"
-              :default-filter="2012"
-              dark-header
+              sorting
               footer
               pagination
             >
@@ -35,10 +32,10 @@
                 <td
                   @click="toggleDetails(index)"
                   style="cursor:pointer"
-                  class="c-text-center"
+                  class="text-center"
                 >
                   <i
-                    class="c-icons c-font-lg c-d-block cui-chevron-right"
+                    class="icons font-lg d-block cui-chevron-right"
                     style="transition: transform 0.4s"
                     :style="details.includes(index) ? 'transform:rotate(90deg)': ''"
                   ></i>
@@ -52,7 +49,7 @@
                 </td>
               </template>
               <template #show_details="{item, index}">
-                <td class="c-py-2">
+                <td class="py-2">
                   <CButton
                     variant="outline-primary"
                     square
@@ -157,17 +154,17 @@ const fields = [
   { key: 'show_details' , label:'', _style:'width:1%', noSorting: true, noFilter: true },
 ]
 const items = [
-  {number:11.1, username: '<b>Samppa Nori</b>', registered: '2012/01/01', role: 'Member', status: 'Active'},
+  {number:11.1, username: 'Samppa Nori', registered: '2012/01/01', role: 'Member', status: 'Active'},
   {number:1.3, username: 'Estavan Lykos', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
   {number:1.3, username: 'Chetan Mohamed', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
   {number:1.3, username: 'Derick Maximinus', registered: '2012/03/01', role: 'Member', status: 'Pending'},
   {number:1.3, username: 'Friderik Dávid', registered: '2012/01/21', role: 'Staff', status: 'Active'},
   {number:1.3, username: 'Yiorgos Avraamu', registered: '2012/01/01', role: 'Member', status: 'Active'},
-  {number:1.3, username: 'Avram Tarasios', registered: '2012/02/01', role: 'Staff', status: 'Banned', _classes: 'c-table-success'},
+  {number:1.3, username: 'Avram Tarasios', registered: '2012/02/01', role: 'Staff', status: 'Banned', _classes: 'table-success'},
   {number:1.3, username: 'Quintin Ed', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
   {number:1.3, username: 'Enéas Kwadwo', registered: '2012/03/01', role: 'Member', status: 'Pending'},
   {number:1.3, username: 'Agapetus Tadeáš', registered: '2012/01/21', role: 'Staff', status: 'Active'},
-  {number:1.3, username: 'Carwyn Fachtna', registered: '2012/01/01', role: 'Member', status: 'Active', _classes: 'c-table-info'},
+  {number:1.3, username: 'Carwyn Fachtna', registered: '2012/01/01', role: 'Member', status: 'Active', _classes: 'table-info'},
   {number:1.3, username: 'Nehemiah Tatius', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
   {number:1.3, username: 'Ebbe Gemariah', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
   {number:1.3, username: 'Eustorgios Amulius', registered: '2012/03/01', role: 'Member', status: 'Pending'},
@@ -179,7 +176,7 @@ const items = [
   {number:1.3, username: 'Hiroto Šimun', registered: '2012/01/21', role: 'Staff', status: 'Active'},
   {number:1.3, username: 'Vishnu Serghei', registered: '2012/01/01', role: 'Member', status: 'Active'},
   {number: 0.9, username: 'Zbyněk Phoibos', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
-  {number: 1.3, username: 'Einar Randall', registered: '2012/02/01', role: 'Admin', status: 'Inactive', _classes: 'c-table-danger'},
+  {number: 1.3, username: 'Einar Randall', registered: '2012/02/01', role: 'Admin', status: 'Inactive', _classes: 'table-danger'},
   {number: 1.2, username: 'Félix Troels', registered: '2012/03/21', role: 'Staff', status: 'Active'},
   {number: 11.1, username: 'Aulus Agmundr', registered: '2012/01/01', role: 'Member', status: 'Pending'}
 ]

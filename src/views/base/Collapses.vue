@@ -1,5 +1,5 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CRow>
         <CCol col="12" md="6">
@@ -7,7 +7,7 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Collapse </strong>
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Collapse" 
                   class="card-header-action" 
@@ -22,13 +22,13 @@
               <CButton id="collapse1" variant="primary">
                 Toggle Collapse
               </CButton>
-              <CCollapse toggler="collapse1" class="c-mt-2">
+              <CCollapse toggler="collapse1" class="mt-2">
                 <CCard body-wrapper>
-                  <p class="c-card-text">Collapse contents Here</p>
+                  <p class="card-text">Collapse contents Here</p>
                   <CButton id="collapse2" size="sm" variant="secondary">
                     Toggle Inner Collapse
                   </CButton>
-                  <CCollapse toggler="collapse2" class="c-mt-2">
+                  <CCollapse toggler="collapse2" class="mt-2">
                     <CCard body-wrapper>Hello!</CCard>
                   </CCollapse>
                 </CCard>

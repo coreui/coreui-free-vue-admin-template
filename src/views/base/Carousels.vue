@@ -1,12 +1,12 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
       <CRow>
       <CCol md="12" lg="7">
           <CCard>
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Carousel</strong>
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Carousel" 
                   class="card-header-action" 

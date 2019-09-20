@@ -5,7 +5,7 @@
         <CCard>
           <CCardHeader>
             Card title
-            <div class="c-card-header-actions">
+            <div class="card-header-actions">
               <a 
                 href="https://coreui.io/vue/docs/3.0/components/CardComponents" 
                 class="card-header-action" 
@@ -35,7 +35,7 @@
           <CCardHeader>
             Card with switch
             <CSwitch
-              class="c-float-right"
+              class="float-right"
               size="sm"
               shape="pill"
               variant="info"
@@ -53,7 +53,7 @@
         <CCard>
           <CCardHeader>
             Card with label
-            <CBadge variant="success" class="c-float-right">Success</CBadge>
+            <CBadge variant="success" class="float-right">Success</CBadge>
           </CCardHeader>
           <CCardBody>
             {{loremIpsum}}
@@ -64,7 +64,7 @@
         <CCard>
           <CCardHeader>
             Card with label
-            <CBadge pill variant="danger" class="c-float-right">42</CBadge>
+            <CBadge pill variant="danger" class="float-right">42</CBadge>
           </CCardHeader>
           <CCardBody :body-html="loremIpsum"/>
         </CCard>
@@ -113,40 +113,40 @@
 
     <CRow>
       <CCol sm="6" md="4">
-        <CCard class="c-card-accent-primary" header="Card with primary accent" body-wrapper>
+        <CCard class="card-accent-primary" header="Card with primary accent" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-card-accent-secondary" header="Card with secondary accent" body-wrapper>
+        <CCard class="card-accent-secondary" header="Card with secondary accent" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-card-accent-success" header="Card with success accent" body-wrapper>
+        <CCard class="card-accent-success" header="Card with success accent" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-card-accent-info" header="Card with info accent" body-wrapper>
+        <CCard class="card-accent-info" header="Card with info accent" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-card-accent-warning" header="Card with warning accent" body-wrapper>
+        <CCard class="card-accent-warning" header="Card with warning accent" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-card-accent-danger" header="Card with danger accent" body-wrapper>
+        <CCard class="card-accent-danger" header="Card with danger accent" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
     </CRow>
     <CRow>
       <CCol sm="6" md="4">
-        <CCard class="c-bg-primary c-text-center" body-wrapper>
-          <blockquote class="c-card-blockquote">
+        <CCard class="bg-primary text-center" body-wrapper>
+          <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
@@ -155,8 +155,8 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-bg-success c-text-center" body-wrapper>
-          <blockquote class="c-card-blockquote">
+        <CCard class="bg-success text-center" body-wrapper>
+          <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
@@ -165,8 +165,8 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-bg-info c-text-center" body-wrapper>
-          <blockquote class="c-card-blockquote">
+        <CCard class="bg-info text-center" body-wrapper>
+          <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
@@ -175,8 +175,8 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-bg-warning c-text-center" body-wrapper>
-          <blockquote class="c-card-blockquote">
+        <CCard class="bg-warning text-center" body-wrapper>
+          <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
@@ -185,8 +185,8 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-bg-danger c-text-center" body-wrapper>
-          <blockquote class="c-card-blockquote">
+        <CCard class="bg-danger text-center" body-wrapper>
+          <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
@@ -195,8 +195,8 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="c-bg-secondary c-text-center" body-wrapper>
-          <blockquote class="c-card-blockquote">
+        <CCard class="bg-secondary text-center" body-wrapper>
+          <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
               <cite title="Source Title">Source Title</cite>
@@ -207,43 +207,43 @@
     </CRow>
     <CRow>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="c-bg-primary" body-wrapper>
+        <CCard header-html="Card title" class="bg-primary" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="c-bg-success" body-wrapper>
+        <CCard header-html="Card title" class="bg-success" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="c-bg-info" body-wrapper>
+        <CCard header-html="Card title" class="bg-info" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="c-bg-warning" body-wrapper>
+        <CCard header-html="Card title" class="bg-warning" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="c-bg-danger" body-wrapper>
+        <CCard header-html="Card title" class="bg-danger" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
         <transition name="fade">
-          <CCard class="c-bg-secondary" v-if="show" >
+          <CCard class="bg-secondary" v-if="show" >
             <CCardHeader>
               Card with header actions
-              <div class="c-card-header-actions">
-                <CLink href="#" class="c-card-header-action btn-setting" >
+              <div class="card-header-actions">
+                <CLink href="#" class="card-header-action btn-setting" >
                   <i class="cui-settings"></i>
                 </CLink>
-                <CLink class="c-card-header-action btn-minimize" @click="isCollapsed = !isCollapsed">
+                <CLink class="card-header-action btn-minimize" @click="isCollapsed = !isCollapsed">
                   <i :class="`cui-chevron-${isCollapsed ? 'bottom' : 'top'}`"></i>
                 </CLink>
-                <CLink href="#" class="c-card-header-action c-btn-close" v-on:click="show = false">
+                <CLink href="#" class="card-header-action btn-close" v-on:click="show = false">
                   <i class="cui-circle-x"></i>
                 </CLink>
               </div>

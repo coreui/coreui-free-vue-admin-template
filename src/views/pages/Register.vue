@@ -1,12 +1,12 @@
 <template>
-  <CContainer class="c-min-vh-100 c-d-flex c-align-items-center">
-    <CRow class="c-w-100 c-justify-content-center">
+  <CContainer class="min-vh-100 d-flex align-items-center">
+    <CRow class="w-100 justify-content-center">
       <CCol md="6" sm="8">
-        <CCard class="c-mx-4">
-          <CCardBody class="c-p-4">
+        <CCard class="mx-4">
+          <CCardBody class="p-4">
             <CForm>
               <h1>Register</h1>
-              <p class="c-text-muted">Create your account</p>
+              <p class="text-muted">Create your account</p>
               <CFormInput
                 placeholder="Username"
                 prependHtml="<i class='cui-user'></i>"
@@ -28,12 +28,12 @@
                 type="password"
                 prependHtml="<i class='cui-lock-locked'></i>"
                 autocomplete="new-password"
-                class="c-mb-4"
+                class="mb-4"
               />
               <CButton variant="success" block>Create Account</CButton>
             </CForm>
           </CCardBody>
-          <CCardFooter class="c-p-4">
+          <CCardFooter class="p-4">
             <CRow>
               <CCol col="6">
                 <CButton block variant="facebook" textHtml="Facebook"/>

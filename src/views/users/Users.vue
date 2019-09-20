@@ -76,7 +76,7 @@ export default {
 </script>
 
 <style scoped>
-.c-card-body >>> table > tbody > tr > td {
+.card-body >>> table > tbody > tr > td {
   cursor: pointer;
 }
 </style>

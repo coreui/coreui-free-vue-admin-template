@@ -1,10 +1,10 @@
 <template>
   <div>
-    <CCardGroup columns class="c-card-columns c-cols-2">
+    <CCardGroup columns class="card-columns cols-2">
       <CCard>
         <CCardHeader>
           Line Chart
-          <div class="c-card-header-actions">
+          <div class="card-header-actions">
             <a 
               href="https://coreui.io/vue/docs/3.0/components/Charts" 
               class="card-header-action" 

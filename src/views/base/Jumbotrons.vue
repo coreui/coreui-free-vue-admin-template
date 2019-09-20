@@ -1,5 +1,5 @@
 <template>
-  <div class="c-wrapper">
+  <div class="wrapper">
     <div>
       <CRow>
         <CCol>
@@ -7,7 +7,7 @@
             <CCardHeader>
               <i class="fa fa-align-justify"></i>
               <strong> Bootstrap Jumbotron </strong>
-              <div class="c-card-header-actions">
+              <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Jumbotron" 
                   class="card-header-action" 
@@ -34,11 +34,11 @@
             </CCardHeader>
             <CCardBody>
               <CJumbotron header="Bootstrap 4" lead="">
-                <p slot="lead" class="c-lead">
+                <p slot="lead" class="lead">
                   This is a simple hero unit, a simple jumbotron-style component for
                   calling extra attention to featured content or information.
                 </p>
-                <hr class="c-my-4">
+                <hr class="my-4">
                 <p>
                   It uses utility classes for typography and spacing to space content
                   out within the larger container.
@@ -64,11 +64,11 @@
                 border-variant="dark"
                 header="Bootstrap 4"
               >
-                <p slot="lead" class="c-lead">
+                <p slot="lead" class="lead">
                   This is a simple hero unit, a simple jumbotron-style component for
                   calling extra attention to featured content or information.
                 </p>
-                <hr class="c-my-4">
+                <hr class="my-4">
                 <p>
                   It uses utility classes for typography and spacing to space content
                   out within the larger container.
