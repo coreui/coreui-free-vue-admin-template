@@ -39,24 +39,6 @@ export default {
   name: 'TheHeader',
   components: {
     DefaultHeaderDropdownAccnt
-  },
-  data () {
-    return {
-      sidebarIsMinimized: false,
-    }
-  },
-  computed: {
-    logoClasses () {
-      return [
-        'c-header-brand',
-        { 'c-header-brand-minimized': this.sidebarIsMinimized }
-      ]
-    }
-  },
-  mounted () {
-    this.$root.$on('c-sidebar-minimize-state', (state) => {
-      this.sidebarIsMinimized = state
-    })
   }
 }
 </script>
