@@ -26,7 +26,7 @@
       <CHeaderNavItem class="d-md-down-none mx-2">
         <i class="cui-envelope-open"></i>
       </CHeaderNavItem>
-      <DefaultHeaderDropdownAccnt/>
+      <TheHeaderDropdownAccnt/>
     </ul>
     <div class="c-subheader px-3">
       <CBreadcrumbRouter class="border-0"/>
@@ -35,12 +35,12 @@
 </template>
 
 <script>
-import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
+import TheHeaderDropdownAccnt from './TheHeaderDropdownAccnt'
 
 export default {
   name: 'TheHeader',
   components: {
-    DefaultHeaderDropdownAccnt
+    TheHeaderDropdownAccnt
   }
 }
 </script>

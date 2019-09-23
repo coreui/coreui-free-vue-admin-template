@@ -67,7 +67,7 @@
 
 <script>
 export default {
-  name: 'DefaultHeaderDropdownAccnt',
+  name: 'TheHeaderDropdownAccnt',
   data () {
     return { itemsCount: 42 }
   }
