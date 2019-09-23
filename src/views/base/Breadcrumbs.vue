@@ -1,37 +1,33 @@
 <template>
-  <div class="wrapper">
-    <div>
-      <CRow>
-        <CCol col>
-          <CCard>
-            <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
-              <div class="card-header-actions">
-                <a 
-                  href="https://coreui.io/vue/docs/3.0/components/Breadcrumb" 
-                  class="card-header-action" 
-                  rel="noreferrer noopener" 
-                  target="_blank"
-                >
-                  <small class="text-muted">docs</small>
-                </a>
-              </div>
-            </CCardHeader>
-            <CCardBody>
-              <CBreadcrumb :items="items"/>
-              <CBreadcrumb :items="items2"/>
-              <CBreadcrumb :items="items3"/>
-            </CCardBody>
-          </CCard>
-        </CCol>
-      </CRow>
-    </div>
-  </div>
+  <CRow>
+    <CCol col>
+      <CCard>
+        <CCardHeader>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
+          <div class="card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/3.0/components/Breadcrumb" 
+              class="card-header-action" 
+              rel="noreferrer noopener" 
+              target="_blank"
+            >
+              <small class="text-muted">docs</small>
+            </a>
+          </div>
+        </CCardHeader>
+        <CCardBody>
+          <CBreadcrumb :items="items"/>
+          <CBreadcrumb :items="items2"/>
+          <CBreadcrumb :items="items3"/>
+        </CCardBody>
+      </CCard>
+    </CCol>
+  </CRow>
 </template>
 
 <script>
 export default {
-  name: 'breadcrumbs',
+  name: 'Breadcrumbs',
   data () {
     return {
       items: [

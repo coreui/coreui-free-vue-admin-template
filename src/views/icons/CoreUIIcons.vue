@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <i class="cui-pencil"></i>CoreUI Icons
         <CBadge variant="info">New</CBadge>
@@ -18,7 +18,7 @@
       <CCardBody>
         <!-- <CRow class="text-center mb-5">
           <template v-for="(name, key) in $options.iconNames">
-            <CCol :key="key" col="6" sm="4" md="3" xl="2" >
+            <CCol :key="key" col="6" sm="4" md="3" xl="2">
               <CIcon :name="name" width="24" class="mt-4"/>
               <div>{{name}}</div>
             </CCol>

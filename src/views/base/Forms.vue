@@ -852,7 +852,7 @@
 
 <script>
 export default {
-  name: 'forms',
+  name: 'Forms',
   data () {
     return {
       selected: [], // Must be an array reference!

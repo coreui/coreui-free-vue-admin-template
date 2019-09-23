@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <strong>Standard buttons</strong>
         <div class="card-header-actions">
@@ -113,7 +113,7 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <strong>Outline Buttons</strong>
       </CCardHeader>
@@ -213,7 +213,7 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <strong>Ghost Buttons</strong>
       </CCardHeader>
@@ -226,7 +226,7 @@
           <CCol col="12" xl class="mb-3 mb-xl-0">
             Normal
           </CCol>
-          <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0" >
+          <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
             <CButton block ghost variant="primary">Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
@@ -314,7 +314,7 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <strong>Square Buttons</strong>
       </CCardHeader>
@@ -421,7 +421,7 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <strong>Pill Buttons</strong>
       </CCardHeader>
@@ -528,7 +528,7 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <strong>Sizes</strong>
       </CCardHeader>
@@ -562,7 +562,7 @@
             <CButton variant="primary">Standard Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton outline variant="secondary" >Outline Button</CButton>
+            <CButton outline variant="secondary">Outline Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
             <CButton ghost variant="success">Ghost Button</CButton>
@@ -596,7 +596,7 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <strong>With Icons</strong>
       </CCardHeader>
@@ -696,15 +696,9 @@
 
 <script>
 export default {
-  name: 'standard-buttons',
+  name: 'StandardButtons',
   data () {
     return { togglePress: false }
   }
 }
 </script>
-
-<style scoped>
-  .btn.disabled {
-    cursor: auto;
-  }
-</style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CCard >
+    <CCard>
       <CCardHeader>
         <i class="cui-drop"></i> Theme colors
       </CCardHeader>
@@ -37,32 +37,13 @@
         </CRow>
       </CCardBody>
     </CCard>
-    <CCard >
-      <CCardHeader>
-        <i class="cui-drop"></i> Additional colors
-      </CCardHeader>
-      <CCardBody>
-        <CRow>
-          <ColorTheme color="bg-blue"><h6>Brand Blue Color</h6></ColorTheme>
-          <ColorTheme color="bg-indigo"><h6>Brand Indigo Color</h6></ColorTheme>
-          <ColorTheme color="bg-purple"><h6>Brand Purple Color</h6></ColorTheme>
-          <ColorTheme color="bg-pink"><h6>Brand Pink Color</h6></ColorTheme>
-          <ColorTheme color="bg-red"><h6>Brand Red Color</h6></ColorTheme>
-          <ColorTheme color="bg-orange"><h6>Brand Orange Color</h6></ColorTheme>
-          <ColorTheme color="bg-yellow"><h6>Brand Yellow Color</h6></ColorTheme>
-          <ColorTheme color="bg-green"><h6>Brand Green Color</h6></ColorTheme>
-          <ColorTheme color="bg-teal"><h6>Brand Teal Color</h6></ColorTheme>
-          <ColorTheme color="bg-cyan"><h6>Brand Cyan Color</h6></ColorTheme>
-        </CRow>
-      </CCardBody>
-    </CCard>
   </div>
 </template>
 
 <script>
 import ColorTheme from './ColorTheme'
 export default {
-  name: 'colors',
+  name: 'Colors',
   components: { ColorTheme }
 }
 </script>

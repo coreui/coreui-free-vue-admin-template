@@ -10,7 +10,7 @@
       :fields="fields"
       :per-page="small ? 10 : 5"
       :dark="dark"
-      pagination      
+      pagination
     >
       <template #status="{item}">
         <td>
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'TableWrapper',
+  name: 'Table',
   props: {
     items: Array,
     fields: {
@@ -49,7 +49,7 @@ export default {
         : status === 'Inactive' ? 'secondary'
           : status === 'Pending' ? 'warning'
             : status === 'Banned' ? 'danger' : 'primary'
-    },
+    }
   }
 }
 </script>

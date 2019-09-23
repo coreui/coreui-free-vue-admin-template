@@ -15,10 +15,7 @@ export default {
   name: 'ColorTheme',
   components: { ColorView },
   props: {
-    color: {
-      type: String,
-      default: 'bg-secondary'
-    }
+    color: String,
   }
 }
 </script>

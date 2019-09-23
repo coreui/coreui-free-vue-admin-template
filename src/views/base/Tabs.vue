@@ -25,7 +25,7 @@
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab title-html="Profile" >
+              <CTab title-html="Profile">
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -57,7 +57,7 @@
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab title-html="Profile" >
+              <CTab title-html="Profile">
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -116,7 +116,7 @@
           </CCardBody>
         </CCard>
       </CCol>
-      <!-- <CCol xs="12" lg="6">
+      <CCol xs="12" lg="6">
         <CCard>
           <CCardHeader>
             Tabs with icons
@@ -156,7 +156,7 @@
             </CTabs>
           </CCardBody>
         </CCard>
-      </CCol> -->
+      </CCol>
       <CCol xs="12" lg="6">
         <CCard>
           <CCardHeader>
@@ -204,7 +204,7 @@
 
 <script>
 export default {
-  name: 'tabs',
+  name: 'Tabs',
   data () {
     return {
       tabs: [

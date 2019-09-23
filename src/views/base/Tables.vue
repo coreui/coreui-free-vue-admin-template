@@ -137,10 +137,7 @@
         />
       </CCol>
     </CRow>
-
-
   </div>
-
 </template>
 
 <script>
@@ -154,42 +151,40 @@ const fields = [
   { key: 'show_details' , label:'', _style:'width:1%', noSorting: true, noFilter: true },
 ]
 const items = [
-  {number:11.1, username: 'Samppa Nori', registered: '2012/01/01', role: 'Member', status: 'Active'},
-  {number:1.3, username: 'Estavan Lykos', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
-  {number:1.3, username: 'Chetan Mohamed', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
-  {number:1.3, username: 'Derick Maximinus', registered: '2012/03/01', role: 'Member', status: 'Pending'},
-  {number:1.3, username: 'Friderik Dávid', registered: '2012/01/21', role: 'Staff', status: 'Active'},
-  {number:1.3, username: 'Yiorgos Avraamu', registered: '2012/01/01', role: 'Member', status: 'Active'},
-  {number:1.3, username: 'Avram Tarasios', registered: '2012/02/01', role: 'Staff', status: 'Banned', _classes: 'table-success'},
-  {number:1.3, username: 'Quintin Ed', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
-  {number:1.3, username: 'Enéas Kwadwo', registered: '2012/03/01', role: 'Member', status: 'Pending'},
-  {number:1.3, username: 'Agapetus Tadeáš', registered: '2012/01/21', role: 'Staff', status: 'Active'},
-  {number:1.3, username: 'Carwyn Fachtna', registered: '2012/01/01', role: 'Member', status: 'Active', _classes: 'table-info'},
-  {number:1.3, username: 'Nehemiah Tatius', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
-  {number:1.3, username: 'Ebbe Gemariah', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
-  {number:1.3, username: 'Eustorgios Amulius', registered: '2012/03/01', role: 'Member', status: 'Pending'},
-  {number:1.3, username: 'Leopold Gáspár', registered: '2012/01/21', role: 'Staff', status: 'Active'},
-  {number:1.3, username: 'Pompeius René', registered: '2012/01/01', role: 'Member', status: 'Active'},
-  {number:1.3, username: 'Paĉjo Jadon', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
-  {number:1.3, username: 'Micheal Mercurius', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
-  {number:2.3, username: 'Ganesha Dubhghall', registered: '2012/03/01', role: 'Member', status: 'Pending'},
-  {number:1.3, username: 'Hiroto Šimun', registered: '2012/01/21', role: 'Staff', status: 'Active'},
-  {number:1.3, username: 'Vishnu Serghei', registered: '2012/01/01', role: 'Member', status: 'Active'},
-  {number: 0.9, username: 'Zbyněk Phoibos', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
-  {number: 1.3, username: 'Einar Randall', registered: '2012/02/01', role: 'Admin', status: 'Inactive', _classes: 'table-danger'},
-  {number: 1.2, username: 'Félix Troels', registered: '2012/03/21', role: 'Staff', status: 'Active'},
-  {number: 11.1, username: 'Aulus Agmundr', registered: '2012/01/01', role: 'Member', status: 'Pending'}
+  { username: 'Samppa Nori', registered: '2012/01/01', role: 'Member', status: 'Active'},
+  { username: 'Estavan Lykos', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
+  { username: 'Chetan Mohamed', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
+  { username: 'Derick Maximinus', registered: '2012/03/01', role: 'Member', status: 'Pending'},
+  { username: 'Friderik Dávid', registered: '2012/01/21', role: 'Staff', status: 'Active'},
+  { username: 'Yiorgos Avraamu', registered: '2012/01/01', role: 'Member', status: 'Active'},
+  { username: 'Avram Tarasios', registered: '2012/02/01', role: 'Staff', status: 'Banned', _classes: 'table-success'},
+  { username: 'Quintin Ed', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
+  { username: 'Enéas Kwadwo', registered: '2012/03/01', role: 'Member', status: 'Pending'},
+  { username: 'Agapetus Tadeáš', registered: '2012/01/21', role: 'Staff', status: 'Active'},
+  { username: 'Carwyn Fachtna', registered: '2012/01/01', role: 'Member', status: 'Active', _classes: 'table-info'},
+  { username: 'Nehemiah Tatius', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
+  { username: 'Ebbe Gemariah', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
+  { username: 'Eustorgios Amulius', registered: '2012/03/01', role: 'Member', status: 'Pending'},
+  { username: 'Leopold Gáspár', registered: '2012/01/21', role: 'Staff', status: 'Active'},
+  { username: 'Pompeius René', registered: '2012/01/01', role: 'Member', status: 'Active'},
+  { username: 'Paĉjo Jadon', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
+  { username: 'Micheal Mercurius', registered: '2012/02/01', role: 'Admin', status: 'Inactive'},
+  { username: 'Ganesha Dubhghall', registered: '2012/03/01', role: 'Member', status: 'Pending'},
+  { username: 'Hiroto Šimun', registered: '2012/01/21', role: 'Staff', status: 'Active'},
+  { username: 'Vishnu Serghei', registered: '2012/01/01', role: 'Member', status: 'Active'},
+  { username: 'Zbyněk Phoibos', registered: '2012/02/01', role: 'Staff', status: 'Banned'},
+  { username: 'Einar Randall', registered: '2012/02/01', role: 'Admin', status: 'Inactive', _classes: 'table-danger'},
+  { username: 'Félix Troels', registered: '2012/03/21', role: 'Staff', status: 'Active'},
+  { username: 'Aulus Agmundr', registered: '2012/01/01', role: 'Member', status: 'Pending'}
 ]
 
 export default {
-  name: 'tables',
+  name: 'Tables',
   components: { CTableWrapper },
   data () {
     return {
-      items: items,
-      fields: fields,
-      page: 1,
-      pages: null,
+      items,
+      fields,
       details: [],
     }
   },

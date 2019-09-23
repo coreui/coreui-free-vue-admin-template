@@ -47,7 +47,7 @@
   </div>
 </template>
 <script>
-import * as Charts from './charts/index.js'
+import * as Charts from './index.js'
 
 export default {
   name: 'Charts',

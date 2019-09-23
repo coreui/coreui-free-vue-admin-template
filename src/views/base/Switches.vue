@@ -526,21 +526,33 @@
 
 <script>
 export default {
-  name: 'switches',
+  name: 'Switches',
   data () {
     return {
-      variants:[
+      variants: [
         'primary','secondary','warning','success','info','danger','light','dark'
       ],
       fields: [
-        {key: 'size'},
-        {key: 'example'},
-        {key: 'size_prop', label: 'Size prop'}
+        { key: 'size' },
+        { key: 'example' },
+        { key: 'size_prop', label: 'Size prop' }
       ],
       items: [
-        {size: 'Large', example: {shape: '3d', variant: 'primary', size: 'lg', checked: true}, size_prop: 'Add following prop <code>size="lg"</code>'},
-        {size: 'Normal', example: {shape: '3d', variant: 'primary', size: '', checked: true}, size_prop: '-'},
-        {size: 'Small', example: {shape: '3d', variant: 'primary', size: 'sm', checked: true}, size_prop: 'Add following prop <code>size="sm"</code>'}
+        {
+          size: 'Large', 
+          example: { shape: '3d', variant: 'primary', size: 'lg', checked: true }, 
+          size_prop: 'Add following prop <code>size="lg"</code>'
+        },
+        {
+          size: 'Normal', 
+          example: { shape: '3d', variant: 'primary', size: '', checked: true }, 
+          size_prop: '-'
+        },
+        {
+          size: 'Small', 
+          example: {shape: '3d', variant: 'primary', size: 'sm', checked: true}, 
+          size_prop: 'Add following prop <code>size="sm"</code>'
+        }
       ],
       checker: 'yes',
       radio: 'primary',
@@ -551,8 +563,7 @@ export default {
       labelTxt: {
         labelOn: 'yes',
         labelOff: 'no'
-      },
-
+      }
     }
   }
 }

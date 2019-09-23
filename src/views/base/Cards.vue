@@ -233,11 +233,11 @@
       </CCol>
       <CCol sm="6" md="4">
         <transition name="fade">
-          <CCard class="bg-secondary" v-if="show" >
+          <CCard class="bg-secondary" v-if="show">
             <CCardHeader>
               Card with header actions
               <div class="card-header-actions">
-                <CLink href="#" class="card-header-action btn-setting" >
+                <CLink href="#" class="card-header-action btn-setting">
                   <i class="cui-settings"></i>
                 </CLink>
                 <CLink class="card-header-action btn-minimize" @click="isCollapsed = !isCollapsed">
@@ -263,7 +263,7 @@
 <script>
 
 export default {
-  name: 'cards',
+  name: 'Cards',
   data: function () {
     return {
       show: true,

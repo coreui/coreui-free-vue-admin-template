@@ -176,7 +176,7 @@
 
 <script>
 export default {
-  name: 'modals',
+  name: 'Modals',
   data () {
     return {
       myModal: false,

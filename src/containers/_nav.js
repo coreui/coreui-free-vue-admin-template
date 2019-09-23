@@ -447,6 +447,7 @@ export default [
           href: 'http://coreui.io/vue/',
           icon: 'cui-cloud-download',
           addLinkClasses: 'c-nav-link-success',
+          target: '_blank'
         },
         attrs: {
           class: 'mt-auto',
@@ -461,6 +462,7 @@ export default [
           href: 'http://coreui.io/pro/vue/',
           icon: 'cui-layers',
           addLinkClasses: 'c-nav-link-danger',
+          target: '_blank'
         }
       }
     ]

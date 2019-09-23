@@ -33,9 +33,11 @@
 <script>
 import { iconSet } from '@coreui/icons/flags'
 export default {
-  name: 'flags',
+  name: 'Flags',
   iconSet,
   computed: {
+    // Avoid duplication caused by displaying 1x1 and 4x3 formats
+    // (adding Q to name makes icon quadratic)
     displayedFlags () {
       return Object.keys(this.$options.iconSet).filter(icon => !icon.includes('Q'))
     }
