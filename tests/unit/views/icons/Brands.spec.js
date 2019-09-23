@@ -9,7 +9,7 @@ Vue.use(CoreuiVue)
 
 describe('Brands.vue', () => {
   it('has a name', () => {
-    expect(Brands.name).toMatch('Brands')
+    expect(Brands.name).toBe('Brands')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Brands)

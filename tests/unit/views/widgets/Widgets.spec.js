@@ -9,7 +9,7 @@ Vue.use(CoreuiVue)
 
 describe('Widgets.vue', () => {
   it('has a name', () => {
-    expect(Widgets.name).toMatch('Widgets')
+    expect(Widgets.name).toBe('Widgets')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Widgets)

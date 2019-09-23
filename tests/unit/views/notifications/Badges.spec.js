@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Badges.vue', () => {
   it('has a name', () => {
-    expect(Badges.name).toMatch('badges')
+    expect(Badges.name).toBe('Badges')
   })
   it('is Badges', () => {
     const wrapper = shallowMount(Badges)

@@ -3,11 +3,11 @@
 exports[`Brands.vue renders correctly 1`] = `
 <div>
   <div
-    class="c-card"
+    class="card"
   >
     <!---->
     <header
-      class="c-card-header"
+      class="card-header"
     >
       <i
         class="cui-globe"
@@ -17,15 +17,15 @@ exports[`Brands.vue renders correctly 1`] = `
     </header>
      
     <div
-      class="c-card-body"
+      class="card-body"
     >
       <!---->
       <!---->
       <div
-        class="c-row c-text-center"
+        class="row text-center"
       >
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -43,7 +43,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -61,7 +61,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -79,7 +79,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -97,7 +97,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -115,7 +115,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -133,7 +133,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -151,7 +151,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -169,7 +169,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -187,7 +187,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -205,7 +205,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -223,7 +223,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -241,7 +241,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -259,7 +259,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -277,7 +277,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -295,7 +295,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -313,7 +313,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -331,7 +331,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -349,7 +349,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -367,7 +367,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -385,7 +385,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -403,7 +403,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -421,7 +421,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -439,7 +439,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -457,7 +457,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -475,7 +475,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -493,7 +493,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -511,7 +511,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -529,7 +529,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -547,7 +547,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -565,7 +565,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -583,7 +583,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -601,7 +601,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -619,7 +619,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -637,7 +637,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -655,7 +655,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -673,7 +673,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -691,7 +691,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -709,7 +709,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -727,7 +727,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -745,7 +745,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -763,7 +763,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -781,7 +781,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -799,7 +799,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -817,7 +817,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -835,7 +835,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -853,7 +853,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -872,7 +872,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -890,7 +890,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -908,7 +908,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -926,7 +926,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -944,7 +944,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -962,7 +962,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -980,7 +980,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -998,7 +998,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1016,7 +1016,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1034,7 +1034,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1052,7 +1052,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1070,7 +1070,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1088,7 +1088,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1106,7 +1106,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1124,7 +1124,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1142,7 +1142,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1160,7 +1160,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1178,7 +1178,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1196,7 +1196,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1214,7 +1214,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1232,7 +1232,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1250,7 +1250,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1268,7 +1268,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1286,7 +1286,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1304,7 +1304,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1322,7 +1322,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1340,7 +1340,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1358,7 +1358,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1376,7 +1376,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1394,7 +1394,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1412,7 +1412,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1430,7 +1430,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1448,7 +1448,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1466,7 +1466,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1484,7 +1484,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1502,7 +1502,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1520,7 +1520,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1538,7 +1538,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1556,7 +1556,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1574,7 +1574,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1592,7 +1592,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1610,7 +1610,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1628,7 +1628,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1646,7 +1646,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1664,7 +1664,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1682,7 +1682,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1700,7 +1700,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1718,7 +1718,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1736,7 +1736,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1754,7 +1754,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1772,7 +1772,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1790,7 +1790,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1808,7 +1808,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1826,7 +1826,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1844,7 +1844,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1862,7 +1862,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1880,7 +1880,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1898,7 +1898,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1916,7 +1916,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1934,7 +1934,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1952,7 +1952,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1970,7 +1970,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -1988,7 +1988,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2006,7 +2006,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2024,7 +2024,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2042,7 +2042,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2060,7 +2060,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2078,7 +2078,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2096,7 +2096,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2114,7 +2114,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2132,7 +2132,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2150,7 +2150,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2168,7 +2168,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2186,7 +2186,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2204,7 +2204,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2222,7 +2222,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2240,7 +2240,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2258,7 +2258,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2276,7 +2276,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2294,7 +2294,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2312,7 +2312,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2330,7 +2330,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2348,7 +2348,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2366,7 +2366,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2384,7 +2384,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2402,7 +2402,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2420,7 +2420,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2438,7 +2438,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2456,7 +2456,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2474,7 +2474,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2492,7 +2492,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2510,7 +2510,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2528,7 +2528,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2546,7 +2546,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2564,7 +2564,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2582,7 +2582,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2600,7 +2600,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2618,7 +2618,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2636,7 +2636,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2654,7 +2654,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2672,7 +2672,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2690,7 +2690,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2708,7 +2708,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2726,7 +2726,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2744,7 +2744,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2762,7 +2762,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2780,7 +2780,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2798,7 +2798,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2816,7 +2816,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2834,7 +2834,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2852,7 +2852,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2870,7 +2870,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2888,7 +2888,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2906,7 +2906,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2924,7 +2924,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2942,7 +2942,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2960,7 +2960,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2978,7 +2978,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -2996,7 +2996,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3014,7 +3014,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3032,7 +3032,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3050,7 +3050,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3068,7 +3068,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3086,7 +3086,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3104,7 +3104,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3122,7 +3122,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3140,7 +3140,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3158,7 +3158,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3176,7 +3176,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3194,7 +3194,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3212,7 +3212,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3230,7 +3230,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3248,7 +3248,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3266,7 +3266,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3284,7 +3284,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3302,7 +3302,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3320,7 +3320,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3338,7 +3338,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3356,7 +3356,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3374,7 +3374,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3392,7 +3392,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3410,7 +3410,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3428,7 +3428,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3446,7 +3446,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3464,7 +3464,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3482,7 +3482,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3500,7 +3500,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3518,7 +3518,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3536,7 +3536,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3554,7 +3554,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3572,7 +3572,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3590,7 +3590,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3608,7 +3608,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3626,7 +3626,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3644,7 +3644,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3662,7 +3662,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3680,7 +3680,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3698,7 +3698,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3716,7 +3716,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3734,7 +3734,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3752,7 +3752,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3770,7 +3770,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3788,7 +3788,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3806,7 +3806,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3824,7 +3824,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3842,7 +3842,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3860,7 +3860,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3878,7 +3878,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3896,7 +3896,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3914,7 +3914,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3932,7 +3932,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3950,7 +3950,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3968,7 +3968,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -3986,7 +3986,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4004,7 +4004,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4022,7 +4022,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4040,7 +4040,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4058,7 +4058,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4076,7 +4076,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4094,7 +4094,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4112,7 +4112,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4130,7 +4130,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4148,7 +4148,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4166,7 +4166,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4184,7 +4184,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4202,7 +4202,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4220,7 +4220,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4238,7 +4238,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4256,7 +4256,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4274,7 +4274,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4292,7 +4292,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4310,7 +4310,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4328,7 +4328,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4346,7 +4346,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4364,7 +4364,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4382,7 +4382,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4400,7 +4400,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4418,7 +4418,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4436,7 +4436,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4454,7 +4454,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4472,7 +4472,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4490,7 +4490,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4508,7 +4508,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4526,7 +4526,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4544,7 +4544,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4562,7 +4562,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4580,7 +4580,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4598,7 +4598,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4616,7 +4616,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4634,7 +4634,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4652,7 +4652,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4670,7 +4670,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4688,7 +4688,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4706,7 +4706,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4724,7 +4724,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4742,7 +4742,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4760,7 +4760,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4778,7 +4778,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4796,7 +4796,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4814,7 +4814,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4832,7 +4832,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4850,7 +4850,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4868,7 +4868,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4886,7 +4886,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4904,7 +4904,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4922,7 +4922,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4940,7 +4940,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4958,7 +4958,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4976,7 +4976,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -4994,7 +4994,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5012,7 +5012,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5030,7 +5030,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5048,7 +5048,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5066,7 +5066,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5084,7 +5084,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5102,7 +5102,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5120,7 +5120,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5138,7 +5138,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5156,7 +5156,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5174,7 +5174,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5192,7 +5192,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5210,7 +5210,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5228,7 +5228,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5246,7 +5246,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5264,7 +5264,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5282,7 +5282,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5300,7 +5300,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5318,7 +5318,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5336,7 +5336,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5354,7 +5354,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5372,7 +5372,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5390,7 +5390,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5408,7 +5408,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5426,7 +5426,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5444,7 +5444,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5462,7 +5462,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5480,7 +5480,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5498,7 +5498,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5516,7 +5516,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5534,7 +5534,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5552,7 +5552,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5570,7 +5570,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5588,7 +5588,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5606,7 +5606,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5624,7 +5624,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5642,7 +5642,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5660,7 +5660,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5678,7 +5678,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5696,7 +5696,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5714,7 +5714,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5732,7 +5732,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5750,7 +5750,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5768,7 +5768,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5786,7 +5786,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5804,7 +5804,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5822,7 +5822,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5840,7 +5840,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5858,7 +5858,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5876,7 +5876,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5894,7 +5894,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5912,7 +5912,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5930,7 +5930,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5948,7 +5948,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5966,7 +5966,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -5984,7 +5984,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6002,7 +6002,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6020,7 +6020,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6038,7 +6038,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6056,7 +6056,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6074,7 +6074,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6092,7 +6092,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6110,7 +6110,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6128,7 +6128,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6146,7 +6146,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6164,7 +6164,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6182,7 +6182,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6200,7 +6200,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6218,7 +6218,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6236,7 +6236,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6254,7 +6254,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6272,7 +6272,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6290,7 +6290,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6308,7 +6308,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6326,7 +6326,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6344,7 +6344,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6362,7 +6362,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6380,7 +6380,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6398,7 +6398,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6416,7 +6416,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6434,7 +6434,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6452,7 +6452,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6470,7 +6470,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6488,7 +6488,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6506,7 +6506,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6524,7 +6524,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6542,7 +6542,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6560,7 +6560,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6578,7 +6578,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6596,7 +6596,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6614,7 +6614,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6632,7 +6632,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6650,7 +6650,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6668,7 +6668,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6686,7 +6686,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6704,7 +6704,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6722,7 +6722,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6740,7 +6740,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6758,7 +6758,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6776,7 +6776,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6794,7 +6794,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6812,7 +6812,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6830,7 +6830,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6848,7 +6848,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6866,7 +6866,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6884,7 +6884,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6902,7 +6902,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6920,7 +6920,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6938,7 +6938,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6956,7 +6956,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6974,7 +6974,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -6992,7 +6992,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7010,7 +7010,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7028,7 +7028,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7046,7 +7046,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7064,7 +7064,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7082,7 +7082,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7100,7 +7100,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7118,7 +7118,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7136,7 +7136,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7154,7 +7154,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7172,7 +7172,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7190,7 +7190,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7208,7 +7208,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7226,7 +7226,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7244,7 +7244,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7262,7 +7262,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7280,7 +7280,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7298,7 +7298,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7316,7 +7316,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7334,7 +7334,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7352,7 +7352,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7370,7 +7370,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7388,7 +7388,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7406,7 +7406,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7424,7 +7424,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7442,7 +7442,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7460,7 +7460,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7478,7 +7478,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7496,7 +7496,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7514,7 +7514,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7532,7 +7532,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7550,7 +7550,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7568,7 +7568,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7586,7 +7586,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7604,7 +7604,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7622,7 +7622,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7640,7 +7640,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7658,7 +7658,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7676,7 +7676,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7694,7 +7694,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"
@@ -7712,7 +7712,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </div>
         </div>
         <div
-          class="c-mb-5 c-col-3 c-col-sm-2"
+          class="mb-5 col-3 col-sm-2"
         >
           <svg
             height="42"

@@ -16,9 +16,9 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
       CoreUI Icons
       
       <cbadge-stub
-        activeclass="c-active"
+        activeclass="active"
         event="click"
-        exactactiveclass="c-active"
+        exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
@@ -28,16 +28,16 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
       </cbadge-stub>
        
       <div
-        class="c-card-header-actions"
+        class="card-header-actions"
       >
         <a
-          class="c-card-header-action"
+          class="card-header-action"
           href="https://github.com/coreui/coreui-icons"
           rel="noreferrer noopener"
           target="_blank"
         >
           <small
-            class="c-text-muted"
+            class="text-muted"
           >
             Github
           </small>
@@ -50,7 +50,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
       titletag="h4"
     >
       <crow-stub
-        class="c-text-center "
+        class="text-center "
       >
         <ccol-stub
           col="6"
@@ -60,7 +60,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-account-logout c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-account-logout icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -76,7 +76,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-action-redo c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-action-redo icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -92,7 +92,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-action-undo c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-action-undo icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -108,7 +108,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-align-center c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-align-center icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -124,7 +124,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-align-left c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-align-left icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -140,7 +140,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-align-right c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-align-right icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -156,7 +156,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-arrow-bottom c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-arrow-bottom icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -172,7 +172,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-arrow-left c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-arrow-left icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -188,7 +188,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-arrow-right c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-arrow-right icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -204,7 +204,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-arrow-top c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-arrow-top icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -220,7 +220,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-ban c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-ban icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -236,7 +236,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-basket-loaded c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-basket-loaded icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -252,7 +252,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-bell c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-bell icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -268,7 +268,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-bold c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-bold icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -284,7 +284,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-bookmark c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-bookmark icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -300,7 +300,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-briefcase c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-briefcase icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -316,7 +316,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-british-pound c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-british-pound icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -332,7 +332,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-brush c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-brush icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -348,7 +348,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-calculator c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-calculator icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -364,7 +364,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-calendar c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-calendar icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -380,7 +380,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-cart c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-cart icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -396,7 +396,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-chart c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-chart icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -412,7 +412,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-check c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-check icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -428,7 +428,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-chevron-bottom c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-chevron-bottom icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -444,7 +444,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-chevron-left c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-chevron-left icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -460,7 +460,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-chevron-right c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-chevron-right icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -476,7 +476,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-chevron-top c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-chevron-top icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -492,7 +492,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-circle-check c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-circle-check icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -508,7 +508,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-circle-x c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-circle-x icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -524,7 +524,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-cloud c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-cloud icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -540,7 +540,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-cloud-download c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-cloud-download icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -556,7 +556,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-cloud-upload c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-cloud-upload icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -572,7 +572,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-code c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-code icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -588,7 +588,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-cog c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-cog icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -604,7 +604,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-comment-square c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-comment-square icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -620,7 +620,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-credit-card c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-credit-card icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -636,7 +636,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-cursor c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-cursor icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -652,7 +652,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-dashboard c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-dashboard icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -668,7 +668,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-delete c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-delete icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -684,7 +684,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-dollar c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-dollar icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -700,7 +700,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-drop c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-drop icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -716,7 +716,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-envelope-closed c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-envelope-closed icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -732,7 +732,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-envelope-letter c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-envelope-letter icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -748,7 +748,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-envelope-open c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-envelope-open icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -764,7 +764,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-euro c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-euro icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -780,7 +780,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-file c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-file icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -796,7 +796,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-globe c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-globe icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -812,7 +812,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-graph c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-graph icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -828,7 +828,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-home c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-home icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -844,7 +844,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-inbox c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-inbox icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -860,7 +860,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-info c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-info icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -876,7 +876,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-italic c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-italic icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -892,7 +892,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-justify-center c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-justify-center icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -908,7 +908,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-justify-left c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-justify-left icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -924,7 +924,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-justify-right c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-justify-right icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -940,7 +940,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-laptop c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-laptop icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -956,7 +956,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-layers c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-layers icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -972,7 +972,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-lightbulb c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-lightbulb icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -988,7 +988,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-list c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-list icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1004,7 +1004,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-location-pin c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-location-pin icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1020,7 +1020,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-lock-locked c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-lock-locked icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1036,7 +1036,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-lock-unlocked c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-lock-unlocked icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1052,7 +1052,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-magnifying-glass c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-magnifying-glass icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1068,7 +1068,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-map c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-map icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1084,7 +1084,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-monitor c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-monitor icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1100,7 +1100,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-moon c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-moon icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1116,7 +1116,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-note c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-note icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1132,7 +1132,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-options c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-options icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1148,7 +1148,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-paperclip c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-paperclip icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1164,7 +1164,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-pencil c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-pencil icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1180,7 +1180,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-people c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-people icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1196,7 +1196,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-phone c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-phone icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1212,7 +1212,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-pie-chart c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-pie-chart icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1228,7 +1228,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-print c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-print icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1244,7 +1244,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-puzzle c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-puzzle icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1260,7 +1260,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-rss c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-rss icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1276,7 +1276,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-screen-desktop c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-screen-desktop icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1292,7 +1292,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-screen-smartphone c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-screen-smartphone icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1308,7 +1308,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-settings c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-settings icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1324,7 +1324,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-share c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-share icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1340,7 +1340,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-shield c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-shield icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1356,7 +1356,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-sort-ascending c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-sort-ascending icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1372,7 +1372,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-sort-descending c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-sort-descending icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1388,7 +1388,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-speech c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-speech icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1404,7 +1404,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-speedometer c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-speedometer icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1420,7 +1420,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-star c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-star icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1436,7 +1436,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-sun c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-sun icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1452,7 +1452,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-tablet c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-tablet icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1468,7 +1468,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-tags c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-tags icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1484,7 +1484,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-task c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-task icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1500,7 +1500,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-thumb-down c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-thumb-down icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1516,7 +1516,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-thumb-up c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-thumb-up icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1532,7 +1532,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-trash c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-trash icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1548,7 +1548,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-underline c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-underline icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1564,7 +1564,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-user c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-user icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1580,7 +1580,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-user-female c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-user-female icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1596,7 +1596,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-user-follow c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-user-follow icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1612,7 +1612,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-user-unfollow c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-user-unfollow icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1628,7 +1628,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-wrench c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-wrench icons font-2xl d-block mt-4"
           />
            
           <div>
@@ -1644,7 +1644,7 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
           xl="2"
         >
           <i
-            class="cui-yen c-icons c-font-2xl c-d-block c-mt-4"
+            class="cui-yen icons font-2xl d-block mt-4"
           />
            
           <div>

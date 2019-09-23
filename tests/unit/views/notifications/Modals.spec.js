@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Modals.vue', () => {
   it('has a name', () => {
-    expect(Modals.name).toMatch('modals')
+    expect(Modals.name).toBe('Modals')
   })
   it('has a created hook', () => {
     expect(typeof Modals.data).toMatch('function')

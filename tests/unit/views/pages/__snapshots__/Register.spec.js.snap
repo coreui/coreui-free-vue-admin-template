@@ -2,10 +2,10 @@
 
 exports[`Register.vue renders correctly 1`] = `
 <ccontainer-stub
-  class="c-min-vh-100 c-d-flex c-align-items-center"
+  class="min-vh-100 d-flex align-items-center"
 >
   <crow-stub
-    class="c-w-100 c-justify-content-center"
+    class="w-100 justify-content-center"
   >
     <ccol-stub
       md="6"
@@ -13,12 +13,12 @@ exports[`Register.vue renders correctly 1`] = `
       tag="div"
     >
       <ccard-stub
-        class="c-mx-4"
+        class="mx-4"
         subtitletag="h6"
         titletag="h4"
       >
         <ccardbody-stub
-          class="c-p-4"
+          class="p-4"
           subtitletag="h6"
           titletag="h4"
         >
@@ -28,7 +28,7 @@ exports[`Register.vue renders correctly 1`] = `
             </h1>
              
             <p
-              class="c-text-muted"
+              class="text-muted"
             >
               Create your account
             </p>
@@ -59,7 +59,7 @@ exports[`Register.vue renders correctly 1`] = `
              
             <cforminput-stub
               autocomplete="new-password"
-              class="c-mb-4"
+              class="mb-4"
               lazy="400"
               placeholder="Repeat password"
               prependhtml=<i class='cui-lock-locked'></i>
@@ -67,10 +67,10 @@ exports[`Register.vue renders correctly 1`] = `
             />
              
             <cbutton-stub
-              activeclass="c-active"
+              activeclass="active"
               block="true"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -82,7 +82,7 @@ exports[`Register.vue renders correctly 1`] = `
         </ccardbody-stub>
          
         <ccardfooter-stub
-          class="c-p-4"
+          class="p-4"
           subtitletag="h6"
           titletag="h4"
         >
@@ -92,10 +92,10 @@ exports[`Register.vue renders correctly 1`] = `
               tag="div"
             >
               <cbutton-stub
-                activeclass="c-active"
+                activeclass="active"
                 block="true"
                 event="click"
-                exactactiveclass="c-active"
+                exactactiveclass="active"
                 routertag="a"
                 target="_self"
                 texthtml="Facebook"
@@ -109,10 +109,10 @@ exports[`Register.vue renders correctly 1`] = `
               tag="div"
             >
               <cbutton-stub
-                activeclass="c-active"
+                activeclass="active"
                 block="true"
                 event="click"
-                exactactiveclass="c-active"
+                exactactiveclass="active"
                 routertag="a"
                 target="_self"
                 texthtml="Twitter"

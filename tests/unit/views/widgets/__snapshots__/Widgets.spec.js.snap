@@ -15,7 +15,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cprogress-stub
-          class="c-progress-xs c-my-3 c-mb-0"
+          class="progress-xs my-3 mb-0"
           max="100"
           precision="0"
           value="25"
@@ -295,7 +295,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         variant="primary"
       >
         <cicon-stub
-          class="c-mx-5 "
+          class="mx-5 "
           name="settings"
           width="24"
         />
@@ -315,7 +315,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         variant="info"
       >
         <cicon-stub
-          class="c-mx-5 "
+          class="mx-5 "
           name="laptop"
           width="24"
         />
@@ -335,7 +335,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         variant="warning"
       >
         <cicon-stub
-          class="c-mx-5 "
+          class="mx-5 "
           name="moon"
           width="24"
         />
@@ -350,7 +350,7 @@ exports[`Widgets.vue renders correctly 1`] = `
   <widgetsbrand-stub />
    
   <ccardgroup-stub
-    class="c-mb-4"
+    class="mb-4"
   >
     <cwidgetprogressicon-stub
       header="87.500"
@@ -413,7 +413,7 @@ exports[`Widgets.vue renders correctly 1`] = `
   </ccardgroup-stub>
    
   <ccardgroup-stub
-    class="c-mb-4"
+    class="mb-4"
   >
     <cwidgetprogressicon-stub
       header="87.500"

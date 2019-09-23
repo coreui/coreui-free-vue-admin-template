@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Switches.vue', () => {
   it('has a name', () => {
-    expect(Switches.name).toMatch('switches')
+    expect(Switches.name).toBe('Switches')
   })
   it('has a created hook', () => {
     expect(typeof Switches.data).toMatch('function')

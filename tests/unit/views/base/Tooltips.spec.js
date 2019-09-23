@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Tooltips.vue', () => {
   it('has a name', () => {
-    expect(Tooltips.name).toMatch('tooltips')
+    expect(Tooltips.name).toBe('Tooltips')
   })
   it('has a created hook', () => {
     expect(typeof Tooltips.data).toMatch('function')

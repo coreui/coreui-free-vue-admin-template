@@ -3,153 +3,82 @@
 exports[`TheHeader.vue renders correctly 1`] = `
 <cheader-stub
   fixed="true"
+  light=""
+  with-subheader=""
 >
   <csidebartoggler-stub
-    class="c-header-toggler c-d-lg-none c-mr-auto"
+    class="c-header-toggler ml-3"
   />
    
-  <clink-stub
-    activeclass="c-active"
-    class="c-header-brand,[object Object]"
-    event="click"
-    exactactiveclass="c-active"
-    routertag="a"
-    tag="span"
-    target="_self"
-    to="/"
-  >
-    <img
-      alt="CoreUI Logo"
-      class="c-navbar-brand-minimized c-d-md-down-none"
-      height="30"
-      src="img/brand/sygnet.svg"
-      style="display: none;"
-      width="30"
-    />
-     
-    <img
-      alt="CoreUI Logo"
-      class="c-navbar-brand-full c-d-md-down-none"
-      height="25"
-      src="img/brand/logo.svg"
-      width="89"
-    />
-     
-    <img
-      alt="CoreUI Logo"
-      class="c-navbar-brand-full c-d-lg-none"
-      height="25"
-      src="img/brand/logo.svg"
-      width="89"
-    />
-  </clink-stub>
-   
-  <csidebartoggler-stub
-    class="c-header-toggler c-d-md-down-none"
+  <img
+    alt="CoreUI Logo"
+    class="c-header-brand mx-auto d-lg-none"
+    height="46"
+    src="img/brand/coreui-base.svg"
+    width="97"
   />
    
   <ul
-    class="c-header-nav c-d-md-down-none"
+    class="c-header-nav d-md-down-none mr-auto"
   >
-    <cnavitem-stub
-      activeclass="c-active"
-      class="c-px-3"
-      event="click"
-      exactactiveclass="c-active"
-      routertag="a"
-      tag="span"
-      target="_self"
+    <cheadernavitem
+      class="px-3"
       to="/dashboard"
     >
       Dashboard
-    </cnavitem-stub>
+    </cheadernavitem>
      
-    <cnavitem-stub
-      activeclass="c-active"
-      class="c-px-3"
-      event="click"
-      exact="true"
-      exactactiveclass="c-active"
-      routertag="a"
-      tag="span"
-      target="_self"
+    <cheadernavitem
+      class="px-3"
+      exact=""
       to="/users"
     >
       Users
-    </cnavitem-stub>
+    </cheadernavitem>
      
-    <cnavitem-stub
-      activeclass="c-active"
-      class="c-px-3"
-      event="click"
-      exactactiveclass="c-active"
-      routertag="a"
-      tag="span"
-      target="_self"
+    <cheadernavitem
+      class="px-3"
     >
       Settings
-    </cnavitem-stub>
+    </cheadernavitem>
   </ul>
    
-  <cnav-stub
-    class="c-header-nav c-ml-auto"
+  <ul
+    class="c-header-nav mr-4"
   >
-    <cnavitem-stub
-      activeclass="c-active"
-      class="c-d-md-down-none"
-      event="click"
-      exactactiveclass="c-active"
-      routertag="a"
-      tag="span"
-      target="_self"
+    <cheadernavitem
+      class="d-md-down-none mx-2"
     >
       <i
         class="cui-bell"
       />
-       
-      <cbadge-stub
-        activeclass="c-active"
-        event="click"
-        exactactiveclass="c-active"
-        pill="true"
-        routertag="a"
-        tag="span"
-        target="_self"
-        variant="danger"
-      >
-        5
-      </cbadge-stub>
-    </cnavitem-stub>
+    </cheadernavitem>
      
-    <cnavitem-stub
-      activeclass="c-active"
-      class="c-d-md-down-none"
-      event="click"
-      exactactiveclass="c-active"
-      routertag="a"
-      tag="span"
-      target="_self"
+    <cheadernavitem
+      class="d-md-down-none mx-2"
     >
       <i
         class="cui-list"
       />
-    </cnavitem-stub>
+    </cheadernavitem>
      
-    <cnavitem-stub
-      activeclass="c-active"
-      class="d-md-down-none"
-      event="click"
-      exactactiveclass="c-active"
-      routertag="a"
-      tag="span"
-      target="_self"
+    <cheadernavitem
+      class="d-md-down-none mx-2"
     >
       <i
-        class="cui-location-pin"
+        class="cui-envelope-open"
       />
-    </cnavitem-stub>
+    </cheadernavitem>
      
-    <defaultheaderdropdownaccnt-stub />
-  </cnav-stub>
+    <theheaderdropdownaccnt-stub />
+  </ul>
+   
+  <div
+    class="c-subheader px-3"
+  >
+    <cbreadcrumbrouter-stub
+      class="border-0"
+    />
+  </div>
 </cheader-stub>
 `;

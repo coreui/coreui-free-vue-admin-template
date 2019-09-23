@@ -3,10 +3,10 @@
 exports[`Typography.vue renders correctly 1`] = `
 <div>
   <div
-    class="c-card"
+    class="card"
   >
     <div
-      class="c-card-header"
+      class="card-header"
     >
       
       Headings
@@ -14,7 +14,7 @@ exports[`Typography.vue renders correctly 1`] = `
     </div>
      
     <div
-      class="c-card-body"
+      class="card-body"
     >
       <p>
         Documentation and examples for Bootstrap typography,
@@ -22,7 +22,7 @@ exports[`Typography.vue renders correctly 1`] = `
       </p>
        
       <table
-        class="c-table"
+        class="table"
       >
         <thead>
           <tr>
@@ -41,7 +41,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <td>
               <p>
                 <code
-                  class="c-highlighter-rouge"
+                  class="highlighter-rouge"
                 >
                   
                   &lt;h1&gt;&lt;/h1&gt;
@@ -52,7 +52,7 @@ exports[`Typography.vue renders correctly 1`] = `
              
             <td>
               <span
-                class="c-h1"
+                class="h1"
               >
                 h1. Bootstrap heading
               </span>
@@ -63,7 +63,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <td>
               <p>
                 <code
-                  class="c-highlighter-rouge"
+                  class="highlighter-rouge"
                 >
                   
                   &lt;h2&gt;&lt;/h2&gt;
@@ -74,7 +74,7 @@ exports[`Typography.vue renders correctly 1`] = `
              
             <td>
               <span
-                class="c-h2"
+                class="h2"
               >
                 h2. Bootstrap heading
               </span>
@@ -85,7 +85,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <td>
               <p>
                 <code
-                  class="c-highlighter-rouge"
+                  class="highlighter-rouge"
                 >
                   
                   &lt;h3&gt;&lt;/h3&gt;
@@ -96,7 +96,7 @@ exports[`Typography.vue renders correctly 1`] = `
              
             <td>
               <span
-                class="c-h3"
+                class="h3"
               >
                 h3. Bootstrap heading
               </span>
@@ -107,7 +107,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <td>
               <p>
                 <code
-                  class="c-highlighter-rouge"
+                  class="highlighter-rouge"
                 >
                   
                   &lt;h4&gt;&lt;/h4&gt;
@@ -118,7 +118,7 @@ exports[`Typography.vue renders correctly 1`] = `
              
             <td>
               <span
-                class="c-h4"
+                class="h4"
               >
                 h4. Bootstrap heading
               </span>
@@ -129,7 +129,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <td>
               <p>
                 <code
-                  class="c-highlighter-rouge"
+                  class="highlighter-rouge"
                 >
                   
                   &lt;h5&gt;&lt;/h5&gt;
@@ -140,7 +140,7 @@ exports[`Typography.vue renders correctly 1`] = `
              
             <td>
               <span
-                class="c-h5"
+                class="h5"
               >
                 h5. Bootstrap heading
               </span>
@@ -151,7 +151,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <td>
               <p>
                 <code
-                  class="c-highlighter-rouge"
+                  class="highlighter-rouge"
                 >
                   
                   &lt;h6&gt;&lt;/h6&gt;
@@ -162,7 +162,7 @@ exports[`Typography.vue renders correctly 1`] = `
              
             <td>
               <span
-                class="c-h6"
+                class="h6"
               >
                 h6. Bootstrap heading
               </span>
@@ -174,10 +174,10 @@ exports[`Typography.vue renders correctly 1`] = `
   </div>
    
   <div
-    class="c-card"
+    class="card"
   >
     <div
-      class="c-card-header"
+      class="card-header"
     >
       
       Headings
@@ -185,18 +185,18 @@ exports[`Typography.vue renders correctly 1`] = `
     </div>
      
     <div
-      class="c-card-body"
+      class="card-body"
     >
       <p>
         <code
-          class="c-highlighter-rouge"
+          class="highlighter-rouge"
         >
           .h1
         </code>
          through
         
         <code
-          class="c-highlighter-rouge"
+          class="highlighter-rouge"
         >
           .h6
         </code>
@@ -207,40 +207,40 @@ exports[`Typography.vue renders correctly 1`] = `
       </p>
        
       <div
-        class="c-bd-example"
+        class="bd-example"
       >
         <p
-          class="c-h1"
+          class="h1"
         >
           h1. Bootstrap heading
         </p>
          
         <p
-          class="c-h2"
+          class="h2"
         >
           h2. Bootstrap heading
         </p>
          
         <p
-          class="c-h3"
+          class="h3"
         >
           h3. Bootstrap heading
         </p>
          
         <p
-          class="c-h4"
+          class="h4"
         >
           h4. Bootstrap heading
         </p>
          
         <p
-          class="c-h5"
+          class="h5"
         >
           h5. Bootstrap heading
         </p>
          
         <p
-          class="c-h6"
+          class="h6"
         >
           h6. Bootstrap heading
         </p>
@@ -249,10 +249,10 @@ exports[`Typography.vue renders correctly 1`] = `
   </div>
    
   <div
-    class="c-card"
+    class="card"
   >
     <div
-      class="c-card-header"
+      class="card-header"
     >
       
       Display headings
@@ -260,7 +260,7 @@ exports[`Typography.vue renders correctly 1`] = `
     </div>
      
     <div
-      class="c-card-body"
+      class="card-body"
     >
       <p>
         
@@ -276,16 +276,16 @@ exports[`Typography.vue renders correctly 1`] = `
       </p>
        
       <div
-        class="c-bd-example c-bd-example-type"
+        class="bd-example bd-example-type"
       >
         <table
-          class="c-table"
+          class="table"
         >
           <tbody>
             <tr>
               <td>
                 <span
-                  class="c-display-1"
+                  class="display-1"
                 >
                   Display 1
                 </span>
@@ -295,7 +295,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <tr>
               <td>
                 <span
-                  class="c-display-2"
+                  class="display-2"
                 >
                   Display 2
                 </span>
@@ -305,7 +305,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <tr>
               <td>
                 <span
-                  class="c-display-3"
+                  class="display-3"
                 >
                   Display 3
                 </span>
@@ -315,7 +315,7 @@ exports[`Typography.vue renders correctly 1`] = `
             <tr>
               <td>
                 <span
-                  class="c-display-4"
+                  class="display-4"
                 >
                   Display 4
                 </span>
@@ -328,10 +328,10 @@ exports[`Typography.vue renders correctly 1`] = `
   </div>
    
   <div
-    class="c-card"
+    class="card"
   >
     <div
-      class="c-card-header"
+      class="card-header"
     >
       
       Inline text elements
@@ -339,7 +339,7 @@ exports[`Typography.vue renders correctly 1`] = `
     </div>
      
     <div
-      class="c-card-body"
+      class="card-body"
     >
       <p>
         
@@ -355,7 +355,7 @@ exports[`Typography.vue renders correctly 1`] = `
       </p>
        
       <div
-        class="c-bd-example"
+        class="bd-example"
       >
         <p>
           You can use the mark tag to 
@@ -419,10 +419,10 @@ exports[`Typography.vue renders correctly 1`] = `
   </div>
    
   <div
-    class="c-card"
+    class="card"
   >
     <div
-      class="c-card-header"
+      class="card-header"
     >
       
       Description list alignment
@@ -430,7 +430,7 @@ exports[`Typography.vue renders correctly 1`] = `
     </div>
      
     <div
-      class="c-card-body"
+      class="card-body"
     >
       <p>
         
@@ -448,19 +448,19 @@ exports[`Typography.vue renders correctly 1`] = `
       </p>
        
       <div
-        class="c-bd-example"
+        class="bd-example"
       >
         <dl
-          class="c-row"
+          class="row"
         >
           <dt
-            class="c-col-sm-3"
+            class="col-sm-3"
           >
             Description lists
           </dt>
            
           <dd
-            class="c-col-sm-9"
+            class="col-sm-9"
           >
             
             A description list is perfect for defining terms.
@@ -468,13 +468,13 @@ exports[`Typography.vue renders correctly 1`] = `
           </dd>
            
           <dt
-            class="c-col-sm-3"
+            class="col-sm-3"
           >
             Euismod
           </dt>
            
           <dd
-            class="c-col-sm-9"
+            class="col-sm-9"
           >
             <p>
               Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
@@ -486,13 +486,13 @@ exports[`Typography.vue renders correctly 1`] = `
           </dd>
            
           <dt
-            class="c-col-sm-3"
+            class="col-sm-3"
           >
             Malesuada porta
           </dt>
            
           <dd
-            class="c-col-sm-9"
+            class="col-sm-9"
           >
             
             Etiam porta sem malesuada magna mollis euismod.
@@ -500,13 +500,13 @@ exports[`Typography.vue renders correctly 1`] = `
           </dd>
            
           <dt
-            class="c-col-sm-3 text-truncate"
+            class="col-sm-3 text-truncate"
           >
             Truncated term is truncated
           </dt>
            
           <dd
-            class="c-col-sm-9"
+            class="col-sm-9"
           >
             
             Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -515,25 +515,25 @@ exports[`Typography.vue renders correctly 1`] = `
           </dd>
            
           <dt
-            class="c-col-sm-3"
+            class="col-sm-3"
           >
             Nesting
           </dt>
            
           <dd
-            class="c-col-sm-9"
+            class="col-sm-9"
           >
             <dl
-              class="c-row"
+              class="row"
             >
               <dt
-                class="c-col-sm-4"
+                class="col-sm-4"
               >
                 Nested definition list
               </dt>
                
               <dd
-                class="c-col-sm-8"
+                class="col-sm-8"
               >
                 
                 Aenean posuere, tortor sed cursus feugiat, nunc augue nunc.

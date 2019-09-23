@@ -22,16 +22,16 @@ exports[`Flags.vue renders correctly 1`] = `
       titletag="h4"
     >
       <crow-stub
-        class="c-text-center"
+        class="text-center"
       >
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="12"
           tag="div"
         />
          
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -196,7 +196,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -217,7 +217,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -313,7 +313,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -342,7 +342,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1124,7 +1124,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1144,7 +1144,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1164,7 +1164,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1192,7 +1192,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1238,7 +1238,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1286,7 +1286,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1307,7 +1307,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1331,7 +1331,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1532,7 +1532,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1565,7 +1565,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1588,7 +1588,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1615,7 +1615,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1636,7 +1636,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1655,7 +1655,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1677,7 +1677,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1699,7 +1699,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1721,7 +1721,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1747,7 +1747,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1777,7 +1777,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1806,7 +1806,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1828,7 +1828,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1941,7 +1941,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -1992,7 +1992,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -2683,7 +2683,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -2743,7 +2743,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -2771,7 +2771,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -2875,7 +2875,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -2903,7 +2903,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -2925,7 +2925,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -2960,7 +2960,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3120,7 +3120,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3139,7 +3139,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3159,7 +3159,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3189,7 +3189,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3216,7 +3216,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3240,7 +3240,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3262,7 +3262,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3286,7 +3286,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3314,7 +3314,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3344,7 +3344,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3370,7 +3370,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3392,7 +3392,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3414,7 +3414,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3442,7 +3442,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3470,7 +3470,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3499,7 +3499,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3529,7 +3529,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3550,7 +3550,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3577,7 +3577,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3597,7 +3597,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3625,7 +3625,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3645,7 +3645,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3812,7 +3812,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3846,7 +3846,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -3866,7 +3866,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -10626,7 +10626,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -10779,7 +10779,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -10801,7 +10801,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -10854,7 +10854,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -10884,7 +10884,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -10907,7 +10907,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -10926,7 +10926,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11485,7 +11485,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11514,7 +11514,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11557,7 +11557,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11577,7 +11577,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11712,7 +11712,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11816,7 +11816,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11842,7 +11842,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11869,7 +11869,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11891,7 +11891,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11913,7 +11913,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -11933,7 +11933,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12080,7 +12080,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12099,7 +12099,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12123,7 +12123,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12153,7 +12153,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12195,7 +12195,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12216,7 +12216,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12236,7 +12236,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12260,7 +12260,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12281,7 +12281,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12328,7 +12328,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12347,7 +12347,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12376,7 +12376,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12398,7 +12398,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12420,7 +12420,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12457,7 +12457,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12673,7 +12673,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12892,7 +12892,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12946,7 +12946,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12974,7 +12974,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -12998,7 +12998,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13043,7 +13043,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13067,7 +13067,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13100,7 +13100,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13173,7 +13173,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13304,7 +13304,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13326,7 +13326,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13347,7 +13347,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13369,7 +13369,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13398,7 +13398,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13449,7 +13449,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13489,7 +13489,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13642,7 +13642,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13876,7 +13876,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13903,7 +13903,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13925,7 +13925,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13969,7 +13969,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -13992,7 +13992,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14023,7 +14023,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14049,7 +14049,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14087,7 +14087,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14117,7 +14117,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14193,7 +14193,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14244,7 +14244,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14275,7 +14275,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14304,7 +14304,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14334,7 +14334,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14373,7 +14373,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14401,7 +14401,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14479,7 +14479,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14517,7 +14517,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14544,7 +14544,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14574,7 +14574,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14597,7 +14597,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14655,7 +14655,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14692,7 +14692,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14721,7 +14721,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14744,7 +14744,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14766,7 +14766,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14786,7 +14786,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14807,7 +14807,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14835,7 +14835,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14854,7 +14854,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14875,7 +14875,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -14960,7 +14960,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15091,7 +15091,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15113,7 +15113,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15135,7 +15135,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15157,7 +15157,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15177,7 +15177,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15199,7 +15199,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15230,7 +15230,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15258,7 +15258,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15282,7 +15282,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15383,7 +15383,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15404,7 +15404,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15458,7 +15458,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15522,7 +15522,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15545,7 +15545,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15566,7 +15566,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15591,7 +15591,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -15988,7 +15988,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16018,7 +16018,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16054,7 +16054,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16085,7 +16085,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16107,7 +16107,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16128,7 +16128,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16152,7 +16152,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16173,7 +16173,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16317,7 +16317,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16339,7 +16339,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16361,7 +16361,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16390,7 +16390,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16417,7 +16417,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16458,7 +16458,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16514,7 +16514,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16644,7 +16644,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16673,7 +16673,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16932,7 +16932,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16966,7 +16966,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -16990,7 +16990,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17014,7 +17014,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17044,7 +17044,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17065,7 +17065,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17087,7 +17087,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17164,7 +17164,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17192,7 +17192,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17222,7 +17222,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17294,7 +17294,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17320,7 +17320,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17492,7 +17492,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17514,7 +17514,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17536,7 +17536,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17843,7 +17843,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17865,7 +17865,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17893,7 +17893,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17934,7 +17934,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17962,7 +17962,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -17991,7 +17991,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18019,7 +18019,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18050,7 +18050,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18078,7 +18078,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18167,7 +18167,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18200,7 +18200,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18222,7 +18222,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18246,7 +18246,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18268,7 +18268,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18374,7 +18374,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18397,7 +18397,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18423,7 +18423,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18444,7 +18444,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18467,7 +18467,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -18498,7 +18498,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19114,7 +19114,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19185,7 +19185,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19206,7 +19206,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19266,7 +19266,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19348,7 +19348,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19370,7 +19370,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19400,7 +19400,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19429,7 +19429,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19451,7 +19451,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19488,7 +19488,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19508,7 +19508,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19536,7 +19536,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19757,7 +19757,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19785,7 +19785,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19810,7 +19810,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19833,7 +19833,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19853,7 +19853,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19895,7 +19895,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19924,7 +19924,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19952,7 +19952,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -19973,7 +19973,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20018,7 +20018,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20048,7 +20048,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20079,7 +20079,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20104,7 +20104,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20147,7 +20147,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20192,7 +20192,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20686,7 +20686,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20709,7 +20709,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20750,7 +20750,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20793,7 +20793,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20935,7 +20935,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20961,7 +20961,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -20994,7 +20994,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -21016,7 +21016,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -21038,7 +21038,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -21069,7 +21069,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -21091,7 +21091,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -21113,7 +21113,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -21145,7 +21145,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"
@@ -21187,7 +21187,7 @@ exports[`Flags.vue renders correctly 1`] = `
           </div>
         </ccol-stub>
         <ccol-stub
-          class="c-mb-5"
+          class="mb-5"
           col="3"
           sm="2"
           tag="div"

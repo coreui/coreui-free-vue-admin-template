@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Page404.vue', () => {
   it('has a name', () => {
-    expect(Page404.name).toMatch('Page404')
+    expect(Page404.name).toBe('Page404')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Page404)

@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Breadcrumbs.vue', () => {
   it('has a name', () => {
-    expect(Breadcrumbs.name).toMatch('breadcrumbs')
+    expect(Breadcrumbs.name).toBe('Breadcrumbs')
   })
   it('has a created hook', () => {
     expect(typeof Breadcrumbs.data).toMatch('function')

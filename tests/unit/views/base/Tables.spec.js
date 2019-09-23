@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Tables.vue', () => {
   it('has a name', () => {
-    expect(Tables.name).toMatch('tables')
+    expect(Tables.name).toBe('Tables')
   })
   it('is Vue instance', () => {
     const wrapper = mount(Tables)

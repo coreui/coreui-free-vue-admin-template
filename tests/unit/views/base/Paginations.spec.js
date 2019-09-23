@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Paginations.vue', () => {
   it('has a name', () => {
-    expect(Paginations.name).toMatch('paginations')
+    expect(Paginations.name).toBe('Paginations')
   })
   it('has a created hook', () => {
     expect(typeof Paginations.data).toMatch('function')

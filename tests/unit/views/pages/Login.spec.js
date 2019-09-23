@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Login.vue', () => {
   it('has a name', () => {
-    expect(Login.name).toMatch('Login')
+    expect(Login.name).toBe('Login')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Login)

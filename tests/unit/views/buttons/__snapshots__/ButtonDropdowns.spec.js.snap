@@ -1,1326 +1,1322 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dropdowns.vue renders correctly 1`] = `
-<div
-  class="c-wrapper"
->
-  <div>
+<div>
+  <div
+    class="row"
+  >
     <div
-      class="c-row"
+      class="col-12 col-md-6"
     >
       <div
-        class="c-col-12 c-col-md-6"
+        class="card"
       >
-        <div
-          class="c-card"
+        <!---->
+        <header
+          class="card-header"
         >
-          <!---->
-          <header
-            class="c-card-header"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Bootstrap Dropdown
-            </strong>
-             
-            <div
-              class="c-card-header-actions"
-            >
-              <a
-                class="card-header-action"
-                href="https://coreui.io/vue/docs/3.0/components/Dropdown"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                <small
-                  class="text-muted"
-                >
-                  docs
-                </small>
-              </a>
-            </div>
-          </header>
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Bootstrap Dropdown
+          </strong>
            
           <div
-            class="c-card-body"
+            class="card-header-actions"
           >
-            <!---->
-            <!---->
-            <div>
-              <div
-                class="c-m-2 c-dropdown"
+            <a
+              class="card-header-action"
+              href="https://coreui.io/vue/docs/3.0/components/Dropdown"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <small
+                class="text-muted"
               >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-secondary"
+                docs
+              </small>
+            </a>
+          </div>
+        </header>
+         
+        <div
+          class="card-body"
+        >
+          <!---->
+          <!---->
+          <div>
+            <div
+              class="m-2 dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-secondary"
+              >
+                Dropdown Button
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
                 >
-                  Dropdown Button
-                </button>
-                <!---->
+                  First Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Third Action
+                </a>
+                 
                 <div
-                  class="c-dropdown-menu"
+                  class="dropdown-divider"
+                  role="separator"
+                />
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
                 >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    First Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Second Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Third Action
-                  </a>
-                   
-                  <div
-                    class="c-dropdown-divider"
-                    role="separator"
-                  />
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here...
-                  </a>
-                   
-                  <a
-                    aria-disabled="true"
-                    class="c-dropdown-item c-disabled"
-                    href="#"
-                    role="menuitem"
-                    tabindex="-1"
-                    target="_self"
-                  >
-                    Disabled action
-                  </a>
-                </div>
+                  Something else here...
+                </a>
+                 
+                <a
+                  aria-disabled="true"
+                  class="dropdown-item disabled"
+                  href="#"
+                  role="menuitem"
+                  tabindex="-1"
+                  target="_self"
+                >
+                  Disabled action
+                </a>
+              </div>
+            </div>
+          </div>
+           
+          <div>
+            <div
+              class="m-2 dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-secondary"
+              >
+                Dropdown with divider
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First item
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second item
+                </a>
+                 
+                <div
+                  class="dropdown-divider"
+                  role="separator"
+                />
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Separated Item
+                </a>
+              </div>
+            </div>
+          </div>
+           
+          <div>
+            <div
+              class="m-2 dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-secondary"
+              >
+                Dropdown with header
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <h6
+                  class="dropdown-header"
+                >
+                  Dropdown header
+                </h6>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  First item
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Second Item
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="col-12 col-md-6"
+    >
+      <div
+        class="card"
+      >
+        <!---->
+        <header
+          class="card-header"
+        >
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Dropdown 
+          </strong>
+           
+          <small>
+            positioning
+          </small>
+        </header>
+         
+        <div
+          class="card-body"
+        >
+          <!---->
+          <!---->
+          <div>
+            <div
+              class="m-2 d-inline-block dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-primary"
+              >
+                Left align
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here
+                </a>
               </div>
             </div>
              
-            <div>
-              <div
-                class="c-m-2 c-dropdown"
+            <div
+              class="m-2 d-inline-block dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-primary"
               >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-secondary"
+                Right align
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
                 >
-                  Dropdown with divider
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
                 >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    First item
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Second item
-                  </a>
-                   
-                  <div
-                    class="c-dropdown-divider"
-                    role="separator"
-                  />
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Separated Item
-                  </a>
-                </div>
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here
+                </a>
+              </div>
+            </div>
+          </div>
+           
+          <div>
+            <div
+              class="m-2 dropup"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-info"
+              >
+                Drop-Up
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here
+                </a>
+              </div>
+            </div>
+          </div>
+           
+          <div>
+            <div
+              class="m-2 dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-secondary"
+              >
+                Offset Dropdown
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here
+                </a>
+              </div>
+            </div>
+          </div>
+           
+          <div>
+            <div
+              class="m-2 dropdown btn-group"
+            >
+              <button
+                class="btn btn-secondary"
+              >
+                Split Dropdown
+              </button>
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="dropdown-toggle dropdown-toggle-split btn btn-secondary"
+              />
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="col-12 col-md-6"
+    >
+      <div
+        class="card"
+      >
+        <!---->
+        <header
+          class="card-header"
+        >
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Dropdown 
+          </strong>
+           
+          <small>
+            hidden caret
+          </small>
+        </header>
+         
+        <div
+          class="card-body"
+        >
+          <!---->
+          <!---->
+          <div>
+            <div
+              class="dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn btn-lg btn-link"
+              >
+                
+                🔍
+                <span
+                  class="sr-only"
+                >
+                  Search
+                </span>
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="col-12 col-md-6"
+    >
+      <div
+        class="card"
+      >
+        <!---->
+        <header
+          class="card-header"
+        >
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Dropdown 
+          </strong>
+           
+          <small>
+            sizing
+          </small>
+        </header>
+         
+        <div
+          class="card-body"
+        >
+          <!---->
+          <!---->
+          <div>
+            <div
+              class="m-2 d-inline-block dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-lg btn-secondary"
+              >
+                Large
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here
+                </a>
               </div>
             </div>
              
-            <div>
-              <div
-                class="c-m-2 c-dropdown"
+            <div
+              class="m-2 dropdown btn-group"
+            >
+              <button
+                class="btn btn-lg btn-secondary"
               >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-secondary"
+                Large Split
+              </button>
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="dropdown-toggle dropdown-toggle-split btn btn-lg btn-secondary"
+              />
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
                 >
-                  Dropdown with header
-                </button>
-                <!---->
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here...
+                </a>
+              </div>
+            </div>
+             
+            <br />
+             
+            <div
+              class="m-2 d-inline-block dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-sm btn-secondary"
+              >
+                Small
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here...
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="m-2 dropdown btn-group"
+            >
+              <button
+                class="btn btn-sm btn-secondary"
+              >
+                Small Split
+              </button>
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="dropdown-toggle dropdown-toggle-split btn btn-sm btn-secondary"
+              />
+              <div
+                class="dropdown-menu"
+              >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Another action
+                </a>
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
+                >
+                  Something else here...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="row"
+  >
+    <div
+      class="col-12 col-md-6"
+    >
+      <div
+        class="card"
+      >
+        <!---->
+        <header
+          class="card-header"
+        >
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Dropdown 
+          </strong>
+           
+          <small>
+            headers and accessibility
+          </small>
+        </header>
+         
+        <div
+          class="card-body"
+        >
+          <!---->
+          <!---->
+          <div>
+            <div
+              class="m-2 dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                class="btn dropdown-toggle btn-primary"
+              >
+                Dropdown ARIA
+              </button>
+              <!---->
+              <div
+                class="dropdown-menu"
+              >
                 <div
-                  class="c-dropdown-menu"
+                  role="group"
                 >
                   <h6
-                    class="c-dropdown-header"
+                    class="dropdown-header"
                   >
-                    Dropdown header
+                    Groups
                   </h6>
                    
                   <a
-                    class="c-dropdown-item"
+                    class="dropdown-item"
                     href="#"
                     role="menuitem"
                     target="_self"
                   >
-                    First item
+                    Add
                   </a>
                    
                   <a
-                    class="c-dropdown-item"
+                    class="dropdown-item"
                     href="#"
                     role="menuitem"
                     target="_self"
                   >
-                    Second Item
+                    Delete
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!---->
-        </div>
-      </div>
-       
-      <div
-        class="c-col-12 c-col-md-6"
-      >
-        <div
-          class="c-card"
-        >
-          <!---->
-          <header
-            class="c-card-header"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Dropdown 
-            </strong>
-             
-            <small>
-              positioning
-            </small>
-          </header>
-           
-          <div
-            class="c-card-body"
-          >
-            <!---->
-            <!---->
-            <div>
-              <div
-                class="c-m-2 c-d-inline-block c-dropdown"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-primary"
-                >
-                  Left align
-                </button>
-                <!---->
+                 
                 <div
-                  class="c-dropdown-menu"
+                  role="group"
                 >
+                  <h6
+                    class="dropdown-header"
+                  >
+                    Users
+                  </h6>
+                   
                   <a
-                    class="c-dropdown-item"
+                    class="dropdown-item"
                     href="#"
                     role="menuitem"
                     target="_self"
                   >
-                    Action
+                    Add
                   </a>
                    
                   <a
-                    class="c-dropdown-item"
+                    class="dropdown-item"
                     href="#"
                     role="menuitem"
                     target="_self"
                   >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here
+                    Delete
                   </a>
                 </div>
-              </div>
-               
-              <div
-                class="c-m-2 c-d-inline-block c-dropdown"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-primary"
-                >
-                  Right align
-                </button>
-                <!---->
+                 
                 <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here
-                  </a>
-                </div>
-              </div>
-            </div>
-             
-            <div>
-              <div
-                class="c-m-2 c-dropup"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-info"
-                >
-                  Drop-Up
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here
-                  </a>
-                </div>
-              </div>
-            </div>
-             
-            <div>
-              <div
-                class="c-m-2 c-dropdown"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-secondary"
-                >
-                  Offset Dropdown
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here
-                  </a>
-                </div>
-              </div>
-            </div>
-             
-            <div>
-              <div
-                class="c-m-2 c-dropdown c-btn-group"
-              >
-                <button
-                  class="c-btn c-btn-secondary"
-                >
-                  Split Dropdown
-                </button>
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-dropdown-toggle c-dropdown-toggle-split c-btn c-btn-secondary"
+                  class="dropdown-divider"
+                  role="separator"
                 />
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here...
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!---->
-        </div>
-      </div>
-    </div>
-     
-    <div
-      class="c-row"
-    >
-      <div
-        class="c-col-12 c-col-md-6"
-      >
-        <div
-          class="c-card"
-        >
-          <!---->
-          <header
-            class="c-card-header"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Dropdown 
-            </strong>
-             
-            <small>
-              hidden caret
-            </small>
-          </header>
-           
-          <div
-            class="c-card-body"
-          >
-            <!---->
-            <!---->
-            <div>
-              <div
-                class="c-dropdown"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-btn-lg c-btn-link"
+                 
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  role="menuitem"
+                  target="_self"
                 >
                   
-                  🔍
-                  <span
-                    class="sr-only"
-                  >
-                    Search
-                  </span>
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here...
-                  </a>
-                </div>
+                Something 
+                  <strong>
+                    not
+                  </strong>
+                   associated with user
+              
+                </a>
               </div>
             </div>
           </div>
-          <!---->
         </div>
-      </div>
-       
-      <div
-        class="c-col-12 c-col-md-6"
-      >
-        <div
-          class="c-card"
-        >
-          <!---->
-          <header
-            class="c-card-header"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Dropdown 
-            </strong>
-             
-            <small>
-              sizing
-            </small>
-          </header>
-           
-          <div
-            class="c-card-body"
-          >
-            <!---->
-            <!---->
-            <div>
-              <div
-                class="c-m-2 c-d-inline-block c-dropdown"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-lg c-btn-secondary"
-                >
-                  Large
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here
-                  </a>
-                </div>
-              </div>
-               
-              <div
-                class="c-m-2 c-dropdown c-btn-group"
-              >
-                <button
-                  class="c-btn c-btn-lg c-btn-secondary"
-                >
-                  Large Split
-                </button>
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-dropdown-toggle c-dropdown-toggle-split c-btn c-btn-lg c-btn-secondary"
-                />
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here...
-                  </a>
-                </div>
-              </div>
-               
-              <br />
-               
-              <div
-                class="c-m-2 c-d-inline-block c-dropdown"
-              >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-sm c-btn-secondary"
-                >
-                  Small
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here...
-                  </a>
-                </div>
-              </div>
-               
-              <div
-                class="c-m-2 c-dropdown c-btn-group"
-              >
-                <button
-                  class="c-btn c-btn-sm c-btn-secondary"
-                >
-                  Small Split
-                </button>
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-dropdown-toggle c-dropdown-toggle-split c-btn c-btn-sm c-btn-secondary"
-                />
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Another action
-                  </a>
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    Something else here...
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!---->
-        </div>
+        <!---->
       </div>
     </div>
      
     <div
-      class="c-row"
+      class="col-12 col-md-6"
     >
       <div
-        class="c-col-12 c-col-md-6"
+        class="card"
       >
+        <!---->
+        <header
+          class="card-header"
+        >
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Dropdown 
+          </strong>
+           
+          <small>
+            <code>
+              variant
+            </code>
+          </small>
+        </header>
+         
         <div
-          class="c-card"
+          class="card-body"
         >
           <!---->
-          <header
-            class="c-card-header"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Dropdown 
-            </strong>
-             
-            <small>
-              headers and accessibility
-            </small>
-          </header>
-           
+          <!---->
           <div
-            class="c-card-body"
+            class="m-0 d-inline-block dropdown"
           >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-primary"
+            >
+              Primary
+            </button>
             <!---->
-            <!---->
-            <div>
-              <div
-                class="c-m-2 c-dropdown"
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
               >
-                <button
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c-btn c-dropdown-toggle c-btn-primary"
-                >
-                  Dropdown ARIA
-                </button>
-                <!---->
-                <div
-                  class="c-dropdown-menu"
-                >
-                  <div
-                    role="group"
-                  >
-                    <h6
-                      class="c-dropdown-header"
-                    >
-                      Groups
-                    </h6>
-                     
-                    <a
-                      class="c-dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Add
-                    </a>
-                     
-                    <a
-                      class="c-dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Delete
-                    </a>
-                  </div>
-                   
-                  <div
-                    role="group"
-                  >
-                    <h6
-                      class="c-dropdown-header"
-                    >
-                      Users
-                    </h6>
-                     
-                    <a
-                      class="c-dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Add
-                    </a>
-                     
-                    <a
-                      class="c-dropdown-item"
-                      href="#"
-                      role="menuitem"
-                      target="_self"
-                    >
-                      Delete
-                    </a>
-                  </div>
-                   
-                  <div
-                    class="c-dropdown-divider"
-                    role="separator"
-                  />
-                   
-                  <a
-                    class="c-dropdown-item"
-                    href="#"
-                    role="menuitem"
-                    target="_self"
-                  >
-                    
-                  Something 
-                    <strong>
-                      not
-                    </strong>
-                     associated with user
-                
-                  </a>
-                </div>
-              </div>
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
             </div>
           </div>
-          <!---->
-        </div>
-      </div>
-       
-      <div
-        class="c-col-12 c-col-md-6"
-      >
-        <div
-          class="c-card"
-        >
-          <!---->
-          <header
-            class="c-card-header"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Dropdown 
-            </strong>
-             
-            <small>
-              <code>
-                variant
-              </code>
-            </small>
-          </header>
            
           <div
-            class="c-card-body"
+            class="m-0 d-inline-block dropdown"
           >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-secondary"
+            >
+              Secondary
+            </button>
             <!---->
-            <!---->
             <div
-              class="c-m-0 c-d-inline-block c-dropdown"
+              class="dropdown-menu"
             >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-primary"
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
               >
-                Primary
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
               >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-secondary"
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
               >
-                Secondary
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-success"
-              >
-                Success
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-warning"
-              >
-                Warning
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-danger"
-              >
-                Danger
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-info"
-              >
-                Info
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-light"
-              >
-                Light
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-dark"
-              >
-                Dark
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
-            </div>
-             
-            <div
-              class="c-m-0 c-d-inline-block c-dropdown"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="true"
-                class="c-btn c-dropdown-toggle c-btn-sm c-btn-link"
-              >
-                Link
-              </button>
-              <!---->
-              <div
-                class="c-dropdown-menu"
-              >
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  First Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Second Action
-                </a>
-                 
-                <a
-                  class="c-dropdown-item"
-                  href="#"
-                  role="menuitem"
-                  target="_self"
-                >
-                  Third Action
-                </a>
-              </div>
+                Third Action
+              </a>
             </div>
           </div>
-          <!---->
+           
+          <div
+            class="m-0 d-inline-block dropdown"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-success"
+            >
+              Success
+            </button>
+            <!---->
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
+            </div>
+          </div>
+           
+          <div
+            class="m-0 d-inline-block dropdown"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-warning"
+            >
+              Warning
+            </button>
+            <!---->
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
+            </div>
+          </div>
+           
+          <div
+            class="m-0 d-inline-block dropdown"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-danger"
+            >
+              Danger
+            </button>
+            <!---->
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
+            </div>
+          </div>
+           
+          <div
+            class="m-0 d-inline-block dropdown"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-info"
+            >
+              Info
+            </button>
+            <!---->
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
+            </div>
+          </div>
+           
+          <div
+            class="m-0 d-inline-block dropdown"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-light"
+            >
+              Light
+            </button>
+            <!---->
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
+            </div>
+          </div>
+           
+          <div
+            class="m-0 d-inline-block dropdown"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-dark"
+            >
+              Dark
+            </button>
+            <!---->
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
+            </div>
+          </div>
+           
+          <div
+            class="m-0 d-inline-block dropdown"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="btn dropdown-toggle btn-sm btn-link"
+            >
+              Link
+            </button>
+            <!---->
+            <div
+              class="dropdown-menu"
+            >
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                First Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Second Action
+              </a>
+               
+              <a
+                class="dropdown-item"
+                href="#"
+                role="menuitem"
+                target="_self"
+              >
+                Third Action
+              </a>
+            </div>
+          </div>
         </div>
+        <!---->
       </div>
     </div>
   </div>

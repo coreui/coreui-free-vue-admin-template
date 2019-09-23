@@ -9,7 +9,7 @@ jest.useFakeTimers()
 
 describe('ProgressBars.vue', () => {
   it('has a name', () => {
-    expect(ProgressBars.name).toMatch('progress-bars')
+    expect(ProgressBars.name).toBe('ProgressBars')
   })
   it('has a created hook', () => {
     expect(typeof ProgressBars.data).toMatch('function')

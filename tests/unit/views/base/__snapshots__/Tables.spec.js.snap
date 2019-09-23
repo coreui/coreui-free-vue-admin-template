@@ -19,7 +19,7 @@ exports[`Tables.vue renders correctly 1`] = `
           CTable component functionality presentation
           
           <div
-            class="c-card-header-actions"
+            class="card-header-actions"
           >
             <a
               class="card-header-action"
@@ -41,10 +41,6 @@ exports[`Tables.vue renders correctly 1`] = `
           titletag="h4"
         >
           <ctable-stub
-            dark-header=""
-            default-filter="2012"
-            default-sorters="username,asc"
-            defaultcolumnfilter="[object Object]"
             defaultsorter="[object Object]"
             fields="[object Object],registered,[object Object],[object Object],[object Object]"
             filterrow="true"
@@ -55,7 +51,7 @@ exports[`Tables.vue renders correctly 1`] = `
             itemsperpage="10"
             optionsrow="true"
             pagination="true"
-            per-page="6"
+            sorting="true"
           />
         </ccardbody-stub>
       </ccard-stub>

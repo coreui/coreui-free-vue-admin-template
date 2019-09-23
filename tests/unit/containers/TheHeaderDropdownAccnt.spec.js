@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('TheHeaderDropdownAccnt.vue', () => {
   it('has a name', () => {
-    expect(TheHeaderDropdownAccnt.name).toMatch('TheHeaderDropdownAccnt')
+    expect(TheHeaderDropdownAccnt.name).toBe('TheHeaderDropdownAccnt')
   })
   it('has a created hook', () => {
     expect(typeof TheHeaderDropdownAccnt.data).toMatch('function')

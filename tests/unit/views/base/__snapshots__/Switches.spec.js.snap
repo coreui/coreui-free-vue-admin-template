@@ -20,10 +20,10 @@ exports[`Switches.vue renders correctly 1`] = `
           Radio switches
           
           <cbadge-stub
-            activeclass="c-active"
-            class="c-mr-auto"
+            activeclass="active"
+            class="mr-auto"
             event="click"
-            exactactiveclass="c-active"
+            exactactiveclass="active"
             routertag="a"
             tag="span"
             target="_self"
@@ -33,7 +33,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </cbadge-stub>
            
           <div
-            class="c-card-header-actions"
+            class="card-header-actions"
           >
             <a
               class="card-header-action"
@@ -56,7 +56,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -68,7 +68,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -80,7 +80,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -92,7 +92,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -104,7 +104,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -116,7 +116,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -128,7 +128,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -140,7 +140,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
           <cswitch-stub
             checked="primary"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -173,9 +173,9 @@ exports[`Switches.vue renders correctly 1`] = `
           Switch default
           
           <cbadge-stub
-            activeclass="c-active"
+            activeclass="active"
             event="click"
-            exactactiveclass="c-active"
+            exactactiveclass="active"
             routertag="a"
             tag="span"
             target="_self"
@@ -191,7 +191,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="yes"
-            class="c-mx-1"
+            class="mx-1"
             falsevalue="no"
             name="switch1"
             truevalue="yes"
@@ -201,49 +201,49 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="secondary"
           />
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="success"
           />
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="warning"
           />
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="info"
           />
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="danger"
           />
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="light"
           />
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             type="checkbox"
             variant="primary"
@@ -276,7 +276,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="primary"
@@ -284,7 +284,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="secondary"
@@ -292,7 +292,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="success"
@@ -300,7 +300,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="warning"
@@ -308,7 +308,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="info"
@@ -316,7 +316,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="danger"
@@ -324,7 +324,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="light"
@@ -332,14 +332,14 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="pill"
             type="checkbox"
@@ -373,7 +373,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="primary"
@@ -381,7 +381,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="secondary"
@@ -389,7 +389,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="success"
@@ -397,7 +397,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="warning"
@@ -405,7 +405,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="info"
@@ -413,7 +413,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="danger"
@@ -421,7 +421,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="light"
@@ -429,14 +429,14 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="3d"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -474,7 +474,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -483,7 +483,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -492,7 +492,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -501,7 +501,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -510,7 +510,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -519,7 +519,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -528,7 +528,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -537,7 +537,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -545,7 +545,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="3d"
             type="checkbox"
@@ -583,7 +583,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -592,7 +592,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -601,7 +601,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -610,7 +610,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -619,7 +619,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -628,7 +628,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -637,7 +637,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -646,7 +646,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -654,7 +654,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="alt"
             shape="3d"
@@ -693,7 +693,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -703,7 +703,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -713,7 +713,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -723,7 +723,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -733,7 +733,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -743,7 +743,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -753,7 +753,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -763,7 +763,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="3d"
@@ -772,7 +772,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -812,7 +812,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -823,7 +823,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -834,7 +834,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -845,7 +845,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -856,7 +856,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -867,7 +867,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -878,7 +878,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -889,7 +889,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -899,7 +899,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -940,7 +940,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -949,7 +949,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -958,7 +958,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -967,7 +967,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -976,7 +976,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -985,7 +985,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -994,7 +994,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -1003,7 +1003,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="3d"
             type="checkbox"
@@ -1011,7 +1011,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="alt"
             shape="3d"
@@ -1050,7 +1050,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="primary"
@@ -1058,7 +1058,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="secondary"
@@ -1066,7 +1066,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="success"
@@ -1074,7 +1074,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="warning"
@@ -1082,7 +1082,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="info"
@@ -1090,7 +1090,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="danger"
@@ -1098,7 +1098,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="light"
@@ -1106,14 +1106,14 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="true"
             type="checkbox"
@@ -1151,7 +1151,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1160,7 +1160,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1169,7 +1169,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1178,7 +1178,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1187,7 +1187,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1196,7 +1196,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1205,7 +1205,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1214,7 +1214,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1222,7 +1222,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="true"
             shape="pill"
@@ -1261,7 +1261,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="primary"
@@ -1269,7 +1269,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="secondary"
@@ -1277,7 +1277,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="success"
@@ -1285,7 +1285,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="warning"
@@ -1293,7 +1293,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="info"
@@ -1301,7 +1301,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="danger"
@@ -1309,7 +1309,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="light"
@@ -1317,14 +1317,14 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="alt"
             type="checkbox"
@@ -1362,7 +1362,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1371,7 +1371,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1380,7 +1380,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1389,7 +1389,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1398,7 +1398,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1407,7 +1407,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1416,7 +1416,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1425,7 +1425,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1433,7 +1433,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="alt"
             shape="pill"
@@ -1472,62 +1472,62 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="primary"
           />
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="success"
           />
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="warning"
           />
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="info"
           />
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="danger"
           />
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="light"
           />
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             type="checkbox"
             variant="primary"
@@ -1564,7 +1564,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="primary"
@@ -1572,7 +1572,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="secondary"
@@ -1580,7 +1580,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="success"
@@ -1588,7 +1588,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="warning"
@@ -1596,7 +1596,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="info"
@@ -1604,7 +1604,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="danger"
@@ -1612,7 +1612,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="light"
@@ -1620,14 +1620,14 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             shape="pill"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             shape="pill"
             type="checkbox"
@@ -1665,7 +1665,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="primary"
@@ -1673,7 +1673,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="secondary"
@@ -1681,7 +1681,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="success"
@@ -1689,7 +1689,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="warning"
@@ -1697,7 +1697,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="info"
@@ -1705,7 +1705,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="danger"
@@ -1713,7 +1713,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="light"
@@ -1721,14 +1721,14 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="true"
             type="checkbox"
@@ -1766,7 +1766,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1775,7 +1775,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1784,7 +1784,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1793,7 +1793,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1802,7 +1802,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1811,7 +1811,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1820,7 +1820,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1829,7 +1829,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="true"
             shape="pill"
             type="checkbox"
@@ -1837,7 +1837,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="true"
             shape="pill"
@@ -1876,7 +1876,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="primary"
@@ -1884,7 +1884,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="secondary"
@@ -1892,7 +1892,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="success"
@@ -1900,7 +1900,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="warning"
@@ -1908,7 +1908,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="info"
@@ -1916,7 +1916,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="danger"
@@ -1924,7 +1924,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="light"
@@ -1932,14 +1932,14 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             type="checkbox"
             variant="dark"
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="alt"
             type="checkbox"
@@ -1977,7 +1977,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1986,7 +1986,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -1995,7 +1995,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -2004,7 +2004,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -2013,7 +2013,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -2022,7 +2022,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -2031,7 +2031,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -2040,7 +2040,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             outline="alt"
             shape="pill"
             type="checkbox"
@@ -2048,7 +2048,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             outline="alt"
             shape="pill"
@@ -2087,7 +2087,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2096,7 +2096,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2105,7 +2105,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2114,7 +2114,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2123,7 +2123,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2132,7 +2132,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2141,7 +2141,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2150,7 +2150,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
@@ -2158,7 +2158,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -2199,7 +2199,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2209,7 +2209,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2219,7 +2219,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2229,7 +2229,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2239,7 +2239,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2249,7 +2249,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2259,7 +2259,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2269,7 +2269,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             shape="pill"
@@ -2278,7 +2278,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -2318,7 +2318,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2328,7 +2328,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2338,7 +2338,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2348,7 +2348,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2358,7 +2358,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2368,7 +2368,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2378,7 +2378,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2388,7 +2388,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2397,7 +2397,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -2437,7 +2437,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2448,7 +2448,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2459,7 +2459,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2470,7 +2470,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2481,7 +2481,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2492,7 +2492,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2503,7 +2503,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2514,7 +2514,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="true"
@@ -2524,7 +2524,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -2565,7 +2565,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2575,7 +2575,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2585,7 +2585,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2595,7 +2595,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2605,7 +2605,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2615,7 +2615,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2625,7 +2625,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2635,7 +2635,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2644,7 +2644,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -2684,7 +2684,7 @@ exports[`Switches.vue renders correctly 1`] = `
         >
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="no"
             labelon="yes"
             outline="alt"
@@ -2695,7 +2695,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2706,7 +2706,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2717,7 +2717,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2728,7 +2728,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2739,7 +2739,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2750,7 +2750,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2761,7 +2761,7 @@ exports[`Switches.vue renders correctly 1`] = `
            
           <cswitch-stub
             checked="true"
-            class="c-mx-1"
+            class="mx-1"
             labeloff="✕"
             labelon="✓"
             outline="alt"
@@ -2771,7 +2771,7 @@ exports[`Switches.vue renders correctly 1`] = `
           />
            
           <cswitch-stub
-            class="c-mx-1"
+            class="mx-1"
             disabled=""
             labeloff="✕"
             labelon="✓"
@@ -2802,12 +2802,12 @@ exports[`Switches.vue renders correctly 1`] = `
         </ccardheader-stub>
          
         <ccardbody-stub
-          class="c-p-0"
+          class="p-0"
           subtitletag="h6"
           titletag="h4"
         >
           <ctable-stub
-            class="c-table-align-middle c-mb-0"
+            class="table-align-middle mb-0"
             defaultsorter="[object Object]"
             fields="[object Object],[object Object],[object Object]"
             hover="true"

@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('ListGroups.vue', () => {
   it('has a name', () => {
-    expect(ListGroups.name).toMatch('list-groups')
+    expect(ListGroups.name).toBe('ListGroups')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(ListGroups)

@@ -10,17 +10,17 @@ exports[`TheFooter.vue renders correctly 1`] = `
     </a>
      
     <span
-      class="c-ml-1"
+      class="ml-1"
     >
-      © 2018 creativeLabs.
+      © 2019 creativeLabs.
     </span>
   </div>
    
   <div
-    class="c-ml-auto"
+    class="ml-auto"
   >
     <span
-      class="c-mr-1"
+      class="mr-1"
     >
       Powered by
     </span>

@@ -1,493 +1,487 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Alerts.vue renders correctly 1`] = `
-<div
-  class="c-wrapper"
->
-  <div>
-    <crow-stub>
-      <ccol-stub
-        col="12"
-        md="6"
-        tag="div"
+<crow-stub>
+  <ccol-stub
+    col="12"
+    md="6"
+    tag="div"
+  >
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
       >
-        <ccard-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Bootstrap Alert
-            </strong>
-             
-            <div
-              class="c-card-header-actions"
-            >
-              <a
-                class="card-header-action"
-                href="https://coreui.io/vue/docs/3.0/components/Alert"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                <small
-                  class="text-muted"
-                >
-                  docs
-                </small>
-              </a>
-            </div>
-          </ccardheader-stub>
-           
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <div>
-              <p />
-               
-              <calert-stub
-                show="true"
-                variant="primary"
-              >
-                Primary Alert
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="secondary"
-              >
-                Secondary Alert
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="success"
-              >
-                Success Alert
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="danger"
-              >
-                Danger Alert
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="warning"
-              >
-                Warning Alert
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="info"
-              >
-                Info Alert
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="light"
-              >
-                Light Alert
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="dark"
-              >
-                Dark Alert
-              </calert-stub>
-            </div>
-          </ccardbody-stub>
-        </ccard-stub>
-      </ccol-stub>
-       
-      <ccol-stub
-        col="12"
-        md="6"
-        tag="div"
-      >
-        <ccard-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             Alert
-            
-            <small>
-               use 
-              <code>
-                .c-alert-link
-              </code>
-               to provide links
-            </small>
-          </ccardheader-stub>
-           
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <div>
-              <calert-stub
-                show="true"
-                variant="primary"
-              >
-                
-                Primary Alert with 
-                <a
-                  class="c-alert-link"
-                  href="#"
-                >
-                  an example link
-                </a>
-                .
-              
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="secondary"
-              >
-                
-                Secondary Alert with 
-                <a
-                  class="c-alert-link"
-                  href="#"
-                >
-                  an example link
-                </a>
-                .
-              
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="success"
-              >
-                
-                Success Alert with 
-                <a
-                  class="c-alert-link"
-                  href="#"
-                >
-                  an example link
-                </a>
-                .
-              
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="danger"
-              >
-                
-                Danger Alert with 
-                <a
-                  class="c-alert-link"
-                  href="#"
-                >
-                  an example link
-                </a>
-                .
-              
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="warning"
-              >
-                
-                Warning Alert with 
-                <a
-                  class="c-alert-link"
-                  href="#"
-                >
-                  an example link
-                </a>
-                .
-              
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="info"
-              >
-                
-                Info Alert with 
-                <a
-                  class="c-alert-link"
-                  href="#"
-                >
-                  an example link
-                </a>
-                .
-              
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="light"
-              >
-                
-                Light Alert with 
-                <a
-                  class="c-alert-link"
-                  href="#"
-                >
-                  an example link
-                </a>
-                .
-              
-              </calert-stub>
-               
-              <calert-stub
-                show="true"
-                variant="dark"
-              >
-                
-                Dark Alert with
-                
-                <clink-stub
-                  activeclass="c-active"
-                  class="c-alert-link"
-                  event="click"
-                  exactactiveclass="c-active"
-                  href="#"
-                  routertag="a"
-                  tag="span"
-                  target="_self"
-                >
-                  an example link
-                </clink-stub>
-                
-                .
-              
-              </calert-stub>
-            </div>
-          </ccardbody-stub>
-        </ccard-stub>
-      </ccol-stub>
-       
-      <ccol-stub
-        col="12"
-        md="6"
-        tag="div"
-      >
-        <ccard-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             Alerts 
-            <small>
-              with additional content
-            </small>
-          </ccardheader-stub>
-           
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <calert-stub
-              show="true"
-              variant="success"
-            >
-              <h4
-                class="c-alert-heading"
-              >
-                Well done!
-              </h4>
-               
-              <p>
-                
-                Aww yeah, you successfully read this important alert message.
-                This example text is going to run a bit longer so that you can see
-                how spacing within an alert works with this kind of content.
-              
-              </p>
-               
-              <hr />
-               
-              <p
-                class="c-mb-0"
-              >
-                
-                Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
-              
-              </p>
-            </calert-stub>
-          </ccardbody-stub>
-        </ccard-stub>
-      </ccol-stub>
-       
-      <ccol-stub
-        col="12"
-        md="6"
-        tag="div"
-      >
-        <ccard-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             Alerts
-            
-            <small>
-              dismissible
-            </small>
-          </ccardheader-stub>
-           
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <calert-stub
-              closebutton="true"
-              show="true"
-              variant="secondary"
-            >
-              
-              Dismissible Alert!
-            
-            </calert-stub>
-             
-            <calert-stub
-              closebutton="true"
-              fade="true"
-              show="true"
-              variant="secondary"
-            >
-              
-              Dismissible Alert with fade effect!
-            
-            </calert-stub>
-             
-            <calert-stub
-              class="c-alert-dismissible"
-              show="true"
-              variant="secondary"
-            />
-             
-            <cbutton-stub
-              activeclass="c-active"
-              class="c-m-1"
-              event="click"
-              exactactiveclass="c-active"
-              routertag="a"
-              target="_self"
-              type="button"
-              variant="info"
-            >
-              
-              Show dismissible alerts
-            
-            </cbutton-stub>
-          </ccardbody-stub>
-        </ccard-stub>
+        <i
+          class="fa fa-align-justify"
+        />
          
-        <ccard-stub
-          subtitletag="h6"
-          titletag="h4"
+        <strong>
+           Bootstrap Alert
+        </strong>
+         
+        <div
+          class="card-header-actions"
         >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
+          <a
+            class="card-header-action"
+            href="https://coreui.io/vue/docs/3.0/components/Alert"
+            rel="noreferrer noopener"
+            target="_blank"
           >
-            <i
-              class="fa fa-align-justify"
-            />
-             Alerts
-            
-            <small>
-              auto dismissible
+            <small
+              class="text-muted"
+            >
+              docs
             </small>
-          </ccardheader-stub>
+          </a>
+        </div>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <div>
+          <p />
            
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
+          <calert-stub
+            show="true"
+            variant="primary"
           >
-            <div>
-              <calert-stub
-                closebutton="true"
-                fade="true"
-                show="10"
-                variant="warning"
-              >
-                
-                Alert will dismiss after
-                
-                <strong>
-                  10
-                </strong>
-                 seconds...
-              
-              </calert-stub>
-               
-              <calert-stub
-                closebutton="true"
-                show="10"
-                variant="info"
-              >
-                
-                Alert will dismiss after 10 seconds...
-                
-                <cprogress-stub
-                  height="4px"
-                  max="10"
-                  precision="0"
-                  value="10"
-                  variant="info"
-                />
-              </calert-stub>
-               
-              <cbutton-stub
-                activeclass="c-active"
-                class="c-m-1"
-                event="click"
-                exactactiveclass="c-active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="info"
-              >
-                
-                Show alert with timer
-              
-              </cbutton-stub>
-            </div>
-          </ccardbody-stub>
-        </ccard-stub>
-      </ccol-stub>
-    </crow-stub>
-  </div>
-</div>
+            Primary Alert
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="secondary"
+          >
+            Secondary Alert
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="success"
+          >
+            Success Alert
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="danger"
+          >
+            Danger Alert
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="warning"
+          >
+            Warning Alert
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="info"
+          >
+            Info Alert
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="light"
+          >
+            Light Alert
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="dark"
+          >
+            Dark Alert
+          </calert-stub>
+        </div>
+      </ccardbody-stub>
+    </ccard-stub>
+  </ccol-stub>
+   
+  <ccol-stub
+    col="12"
+    md="6"
+    tag="div"
+  >
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         Alert
+        
+        <small>
+           use 
+          <code>
+            .alert-link
+          </code>
+           to provide links
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <div>
+          <calert-stub
+            show="true"
+            variant="primary"
+          >
+            
+            Primary Alert with 
+            <a
+              class="alert-link"
+              href="#"
+            >
+              an example link
+            </a>
+            .
+          
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="secondary"
+          >
+            
+            Secondary Alert with 
+            <a
+              class="alert-link"
+              href="#"
+            >
+              an example link
+            </a>
+            .
+          
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="success"
+          >
+            
+            Success Alert with 
+            <a
+              class="alert-link"
+              href="#"
+            >
+              an example link
+            </a>
+            .
+          
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="danger"
+          >
+            
+            Danger Alert with 
+            <a
+              class="alert-link"
+              href="#"
+            >
+              an example link
+            </a>
+            .
+          
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="warning"
+          >
+            
+            Warning Alert with 
+            <a
+              class="alert-link"
+              href="#"
+            >
+              an example link
+            </a>
+            .
+          
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="info"
+          >
+            
+            Info Alert with 
+            <a
+              class="alert-link"
+              href="#"
+            >
+              an example link
+            </a>
+            .
+          
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="light"
+          >
+            
+            Light Alert with 
+            <a
+              class="alert-link"
+              href="#"
+            >
+              an example link
+            </a>
+            .
+          
+          </calert-stub>
+           
+          <calert-stub
+            show="true"
+            variant="dark"
+          >
+            
+            Dark Alert with
+            
+            <clink-stub
+              activeclass="active"
+              class="alert-link"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              tag="span"
+              target="_self"
+            >
+              an example link
+            </clink-stub>
+            
+            .
+          
+          </calert-stub>
+        </div>
+      </ccardbody-stub>
+    </ccard-stub>
+  </ccol-stub>
+   
+  <ccol-stub
+    col="12"
+    md="6"
+    tag="div"
+  >
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         Alerts 
+        <small>
+          with additional content
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <calert-stub
+          show="true"
+          variant="success"
+        >
+          <h4
+            class="alert-heading"
+          >
+            Well done!
+          </h4>
+           
+          <p>
+            
+            Aww yeah, you successfully read this important alert message.
+            This example text is going to run a bit longer so that you can see
+            how spacing within an alert works with this kind of content.
+          
+          </p>
+           
+          <hr />
+           
+          <p
+            class="mb-0"
+          >
+            
+            Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
+          
+          </p>
+        </calert-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+  </ccol-stub>
+   
+  <ccol-stub
+    col="12"
+    md="6"
+    tag="div"
+  >
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         Alerts
+        
+        <small>
+          dismissible
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <calert-stub
+          closebutton="true"
+          show="true"
+          variant="secondary"
+        >
+          
+          Dismissible Alert!
+        
+        </calert-stub>
+         
+        <calert-stub
+          closebutton="true"
+          fade="true"
+          show="true"
+          variant="secondary"
+        >
+          
+          Dismissible Alert with fade effect!
+        
+        </calert-stub>
+         
+        <calert-stub
+          class="alert-dismissible"
+          show="true"
+          variant="secondary"
+        />
+         
+        <cbutton-stub
+          activeclass="active"
+          class="m-1"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          target="_self"
+          type="button"
+          variant="info"
+        >
+          
+          Show dismissible alerts
+        
+        </cbutton-stub>
+      </ccardbody-stub>
+    </ccard-stub>
+     
+    <ccard-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <ccardheader-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         Alerts
+        
+        <small>
+          auto dismissible
+        </small>
+      </ccardheader-stub>
+       
+      <ccardbody-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <div>
+          <calert-stub
+            closebutton="true"
+            fade="true"
+            show="10"
+            variant="warning"
+          >
+            
+            Alert will dismiss after
+            
+            <strong>
+              10
+            </strong>
+             seconds...
+          
+          </calert-stub>
+           
+          <calert-stub
+            closebutton="true"
+            show="10"
+            variant="info"
+          >
+            
+            Alert will dismiss after 10 seconds...
+            
+            <cprogress-stub
+              height="4px"
+              max="10"
+              precision="0"
+              value="10"
+              variant="info"
+            />
+          </calert-stub>
+           
+          <cbutton-stub
+            activeclass="active"
+            class="m-1"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+            variant="info"
+          >
+            
+            Show alert with timer
+          
+          </cbutton-stub>
+        </div>
+      </ccardbody-stub>
+    </ccard-stub>
+  </ccol-stub>
+</crow-stub>
 `;

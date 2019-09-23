@@ -11,7 +11,7 @@ localVue.use(CoreuiVue)
 
 describe('TheContainer.vue', () => {
   it('has a name', () => {
-    expect(TheContainer.name).toMatch('full')
+    expect(TheContainer.name).toBe('TheContainer')
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(TheContainer, {

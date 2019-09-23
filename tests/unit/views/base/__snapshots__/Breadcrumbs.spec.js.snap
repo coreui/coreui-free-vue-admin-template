@@ -2,180 +2,174 @@
 
 exports[`Breadcrumbs.vue renders correctly 1`] = `
 <div
-  class="c-wrapper"
+  class="row"
 >
-  <div>
+  <div
+    class="col"
+  >
     <div
-      class="c-row"
+      class="card"
     >
-      <div
-        class="c-col"
+      <!---->
+      <header
+        class="card-header"
       >
+        <i
+          class="fa fa-align-justify"
+        />
+        <strong>
+           Bootstrap Breadcrumb
+        </strong>
+         
         <div
-          class="c-card"
+          class="card-header-actions"
         >
-          <!---->
-          <header
-            class="c-card-header"
+          <a
+            class="card-header-action"
+            href="https://coreui.io/vue/docs/3.0/components/Breadcrumb"
+            rel="noreferrer noopener"
+            target="_blank"
           >
-            <i
-              class="fa fa-align-justify"
-            />
-            <strong>
-               Bootstrap Breadcrumb
-            </strong>
-             
-            <div
-              class="c-card-header-actions"
+            <small
+              class="text-muted"
             >
-              <a
-                class="card-header-action"
-                href="https://coreui.io/vue/docs/3.0/components/Breadcrumb"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                <small
-                  class="text-muted"
-                >
-                  docs
-                </small>
-              </a>
-            </div>
-          </header>
-           
-          <div
-            class="c-card-body"
-          >
-            <!---->
-            <!---->
-            <ol
-              class="c-breadcrumb"
-            >
-              <li
-                class="c-breadcrumb-item"
-                role="presentation"
-              >
-                <a
-                  class=""
-                  href="#"
-                  target="_self"
-                >
-                  <b>
-                    Admin
-                  </b>
-                </a>
-              </li>
-              <li
-                class="c-breadcrumb-item"
-                role="presentation"
-              >
-                <a
-                  class=""
-                  href="#"
-                  target="_self"
-                >
-                  Manage
-                </a>
-              </li>
-              <li
-                class="c-active c-breadcrumb-item"
-                role="presentation"
-              >
-                <span>
-                  Library
-                </span>
-              </li>
-            </ol>
-             
-            <ol
-              class="c-breadcrumb"
-            >
-              <li
-                class="c-breadcrumb-item"
-                role="presentation"
-              >
-                <a
-                  class=""
-                  href="#"
-                  target="_self"
-                >
-                  Go to dashboard
-                </a>
-              </li>
-              <li
-                class="c-breadcrumb-item"
-                role="presentation"
-              >
-                <a
-                  class=""
-                  href="#"
-                  target="_self"
-                >
-                  Go to widgets
-                </a>
-              </li>
-              <li
-                class="c-breadcrumb-item"
-                role="presentation"
-              >
-                <a
-                  class=""
-                  href="http://google.com"
-                  target="_self"
-                >
-                  Go to Google
-                </a>
-              </li>
-              <li
-                class="c-active c-breadcrumb-item"
-                role="presentation"
-              >
-                <span>
-                  Current page
-                </span>
-              </li>
-            </ol>
-             
-            <ol
-              class="c-breadcrumb"
-            >
-              <li
-                class="c-font-xl c-breadcrumb-item"
-                role="presentation"
-              >
-                <a
-                  class=""
-                  href="#"
-                  target="_self"
-                >
-                  Added
-                </a>
-              </li>
-              <li
-                class="c-font-xl c-breadcrumb-item"
-                role="presentation"
-              >
-                <a
-                  class=""
-                  href="#"
-                  target="_self"
-                >
-                  Custom
-                </a>
-              </li>
-              <li
-                class="c-active c-font-xl c-text-danger c-breadcrumb-item"
-                role="presentation"
-              >
-                <span>
-                  Classes
-                </span>
-              </li>
-            </ol>
-          </div>
-          <!---->
+              docs
+            </small>
+          </a>
         </div>
+      </header>
+       
+      <div
+        class="card-body"
+      >
+        <!---->
+        <!---->
+        <ol
+          class="breadcrumb"
+        >
+          <li
+            class="breadcrumb-item"
+            role="presentation"
+          >
+            <a
+              class=""
+              href="#"
+              target="_self"
+            >
+              <b>
+                Admin
+              </b>
+            </a>
+          </li>
+          <li
+            class="breadcrumb-item"
+            role="presentation"
+          >
+            <a
+              class=""
+              href="#"
+              target="_self"
+            >
+              Manage
+            </a>
+          </li>
+          <li
+            class="active breadcrumb-item"
+            role="presentation"
+          >
+            <span>
+              Library
+            </span>
+          </li>
+        </ol>
+         
+        <ol
+          class="breadcrumb"
+        >
+          <li
+            class="breadcrumb-item"
+            role="presentation"
+          >
+            <a
+              class=""
+              href="#"
+              target="_self"
+            >
+              Go to dashboard
+            </a>
+          </li>
+          <li
+            class="breadcrumb-item"
+            role="presentation"
+          >
+            <a
+              class=""
+              href="#"
+              target="_self"
+            >
+              Go to widgets
+            </a>
+          </li>
+          <li
+            class="breadcrumb-item"
+            role="presentation"
+          >
+            <a
+              class=""
+              href="http://google.com"
+              target="_self"
+            >
+              Go to Google
+            </a>
+          </li>
+          <li
+            class="active breadcrumb-item"
+            role="presentation"
+          >
+            <span>
+              Current page
+            </span>
+          </li>
+        </ol>
+         
+        <ol
+          class="breadcrumb"
+        >
+          <li
+            class="font-xl breadcrumb-item"
+            role="presentation"
+          >
+            <a
+              class=""
+              href="#"
+              target="_self"
+            >
+              Added
+            </a>
+          </li>
+          <li
+            class="font-xl breadcrumb-item"
+            role="presentation"
+          >
+            <a
+              class=""
+              href="#"
+              target="_self"
+            >
+              Custom
+            </a>
+          </li>
+          <li
+            class="active font-xl text-danger breadcrumb-item"
+            role="presentation"
+          >
+            <span>
+              Classes
+            </span>
+          </li>
+        </ol>
       </div>
+      <!---->
     </div>
   </div>
 </div>

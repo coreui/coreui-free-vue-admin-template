@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Navs.vue', () => {
   it('has a name', () => {
-    expect(Navs.name).toMatch('navs')
+    expect(Navs.name).toBe('Navs')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Navs)

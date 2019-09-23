@@ -1,17 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
+exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
 <cdropdown-stub
-  addmenuclasses="c-dropdown-menu-right"
+  addmenuclasses="pt-0"
+  class="c-header-nav-items"
   nav="true"
   nocaret="true"
-  nopopper="true"
-  placement="bottom-start"
+  placement="bottom-end"
   togglertext="Dropdown"
 >
    
   <cdropdownheader-stub
-    class="c-text-center"
+    class="text-center bg-light"
     tag="div"
   >
     <strong>
@@ -20,22 +20,22 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownheader-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-bell"
+      class="cui-bell mr-2"
     />
      Updates
     
     <cbadge-stub
-      activeclass="c-active"
-      additional-classes="hehe"
+      activeclass="active"
+      class="ml-auto"
       event="click"
-      exactactiveclass="c-active"
+      exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
@@ -46,21 +46,22 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-envelope-open"
+      class="cui-envelope-open mr-2"
     />
      Messages
     
     <cbadge-stub
-      activeclass="c-active"
+      activeclass="active"
+      class="ml-auto"
       event="click"
-      exactactiveclass="c-active"
+      exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
@@ -71,21 +72,22 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-task"
+      class="cui-task mr-2"
     />
      Tasks
     
     <cbadge-stub
-      activeclass="c-active"
+      activeclass="active"
+      class="ml-auto"
       event="click"
-      exactactiveclass="c-active"
+      exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
@@ -96,21 +98,22 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-comment-square"
+      class="cui-comment-square mr-2"
     />
      Comments
     
     <cbadge-stub
-      activeclass="c-active"
+      activeclass="active"
+      class="ml-auto"
       event="click"
-      exactactiveclass="c-active"
+      exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
@@ -121,7 +124,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownheader-stub
-    class="c-text-center"
+    class="text-center bg-light"
     tag="div"
   >
     <strong>
@@ -130,49 +133,50 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownheader-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-user"
+      class="cui-user mr-2"
     />
      Profile
   
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-wrench"
+      class="cui-wrench mr-2"
     />
      Settings
   
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-dollar"
+      class="cui-dollar mr-2"
     />
      Payments
     
     <cbadge-stub
-      activeclass="c-active"
+      activeclass="active"
+      class="ml-auto"
       event="click"
-      exactactiveclass="c-active"
+      exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
@@ -183,21 +187,22 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-file"
+      class="cui-file mr-2"
     />
      Projects
     
     <cbadge-stub
-      activeclass="c-active"
+      activeclass="active"
+      class="ml-auto"
       event="click"
-      exactactiveclass="c-active"
+      exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
@@ -212,28 +217,28 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   />
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-shield"
+      class="cui-shield mr-2"
     />
      Lock Account
   
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="c-active"
+    activeclass="active"
     event="click"
-    exactactiveclass="c-active"
+    exactactiveclass="active"
     routertag="a"
     target="_self"
   >
     <i
-      class="cui-lock-locked"
+      class="cui-lock-locked mr-2"
     />
      Logout
   

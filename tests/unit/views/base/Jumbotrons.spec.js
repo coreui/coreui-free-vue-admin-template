@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Jumbotrons.vue', () => {
   it('has a name', () => {
-    expect(Jumbotrons.name).toMatch('jumbotrons')
+    expect(Jumbotrons.name).toBe('Jumbotrons')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Jumbotrons)

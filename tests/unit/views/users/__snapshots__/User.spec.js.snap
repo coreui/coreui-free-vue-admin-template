@@ -40,9 +40,9 @@ exports[`User.vue renders correctly 1`] = `
         titletag="h4"
       >
         <cbutton-stub
-          activeclass="c-active"
+          activeclass="active"
           event="click"
-          exactactiveclass="c-active"
+          exactactiveclass="active"
           routertag="a"
           target="_self"
           type="button"

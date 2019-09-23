@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Collapses.vue', () => {
   it('has a name', () => {
-    expect(Collapses.name).toMatch('collapses')
+    expect(Collapses.name).toBe('Collapses')
   })
   it('has a created hook', () => {
     expect(typeof Collapses.data).toMatch('function')

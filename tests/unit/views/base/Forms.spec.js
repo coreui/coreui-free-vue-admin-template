@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Forms.vue', () => {
   it('has a name', () => {
-    expect(Forms.name).toMatch('forms')
+    expect(Forms.name).toBe('Forms')
   })
   it('is Forms', () => {
     const wrapper = shallowMount(Forms)

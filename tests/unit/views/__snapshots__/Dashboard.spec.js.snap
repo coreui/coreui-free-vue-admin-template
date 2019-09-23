@@ -18,29 +18,29 @@ exports[`Dashboard.vue renders correctly 1`] = `
           tag="div"
         >
           <h4
-            class="c-card-title c-mb-0"
+            class="card-title mb-0"
             id="traffic"
           >
             Traffic
           </h4>
            
           <div
-            class="c-small c-text-muted"
+            class="small text-muted"
           >
             November 2017
           </div>
         </ccol-stub>
          
         <ccol-stub
-          class="c-d-none c-d-md-block"
+          class="d-none d-md-block"
           sm="7"
           tag="div"
         >
           <cbutton-stub
-            activeclass="c-active"
-            class="c-float-right"
+            activeclass="active"
+            class="float-right"
             event="click"
-            exactactiveclass="c-active"
+            exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
@@ -52,13 +52,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbuttongroup-stub
-            class="c-float-right c-mr-3"
+            class="float-right mr-3"
           >
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mx-0"
+              activeclass="active"
+              class="mx-0"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -69,10 +69,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
             
             </cbutton-stub>
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mx-0"
+              activeclass="active"
+              class="mx-0"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               pressed="true"
               routertag="a"
               target="_self"
@@ -84,10 +84,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
             
             </cbutton-stub>
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mx-0"
+              activeclass="active"
+              class="mx-0"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -111,16 +111,16 @@ exports[`Dashboard.vue renders correctly 1`] = `
       titletag="h4"
     >
       <crow-stub
-        class="c-text-center"
+        class="text-center"
       >
         <ccol-stub
-          class="c-mb-sm-2 c-mb-0"
+          class="mb-sm-2 mb-0"
           md="true"
           sm="12"
           tag="div"
         >
           <div
-            class="c-text-muted"
+            class="text-muted"
           >
             Visits
           </div>
@@ -130,7 +130,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </strong>
            
           <cprogress-stub
-            class="c-progress-xs c-mt-2"
+            class="progress-xs mt-2"
             max="100"
             precision="1"
             value="40"
@@ -139,13 +139,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
         </ccol-stub>
          
         <ccol-stub
-          class="c-mb-sm-2 c-mb-0 c-d-md-down-none"
+          class="mb-sm-2 mb-0 d-md-down-none"
           md="true"
           sm="12"
           tag="div"
         >
           <div
-            class="c-text-muted"
+            class="text-muted"
           >
             Unique
           </div>
@@ -155,7 +155,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </strong>
            
           <cprogress-stub
-            class="c-progress-xs c-mt-2"
+            class="progress-xs mt-2"
             max="100"
             precision="1"
             value="20"
@@ -164,13 +164,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
         </ccol-stub>
          
         <ccol-stub
-          class="c-mb-sm-2 c-mb-0"
+          class="mb-sm-2 mb-0"
           md="true"
           sm="12"
           tag="div"
         >
           <div
-            class="c-text-muted"
+            class="text-muted"
           >
             Pageviews
           </div>
@@ -180,7 +180,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </strong>
            
           <cprogress-stub
-            class="c-progress-xs c-mt-2"
+            class="progress-xs mt-2"
             max="100"
             precision="1"
             value="60"
@@ -189,13 +189,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
         </ccol-stub>
          
         <ccol-stub
-          class="c-mb-sm-2 c-mb-0"
+          class="mb-sm-2 mb-0"
           md="true"
           sm="12"
           tag="div"
         >
           <div
-            class="c-text-muted"
+            class="text-muted"
           >
             New Users
           </div>
@@ -205,7 +205,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </strong>
            
           <cprogress-stub
-            class="c-progress-xs c-mt-2"
+            class="progress-xs mt-2"
             max="100"
             precision="1"
             value="80"
@@ -214,13 +214,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
         </ccol-stub>
          
         <ccol-stub
-          class="c-mb-sm-2 c-mb-0 c-d-md-down-none"
+          class="mb-sm-2 mb-0 d-md-down-none"
           md="true"
           sm="12"
           tag="div"
         >
           <div
-            class="c-text-muted"
+            class="text-muted"
           >
             Bounce Rate
           </div>
@@ -230,7 +230,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </strong>
            
           <cprogress-stub
-            class="c-progress-xs c-mt-2"
+            class="progress-xs mt-2"
             max="100"
             precision="1"
             value="40"
@@ -268,14 +268,14 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 >
                   <small
-                    class="c-text-muted"
+                    class="text-muted"
                   >
                     New Clients
                   </small>
                   <br />
                    
                   <strong
-                    class="c-h4"
+                    class="h4"
                   >
                     9,123
                   </strong>
@@ -290,14 +290,14 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="danger"
                 >
                   <small
-                    class="c-text-muted"
+                    class="text-muted"
                   >
                     Recurring Clients
                   </small>
                   <br />
                    
                   <strong
-                    class="c-h4"
+                    class="h4"
                   >
                     22,643
                   </strong>
@@ -306,17 +306,17 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </crow-stub>
              
             <hr
-              class="c-mt-0"
+              class="mt-0"
             />
              
             <div
-              class="c-progress-group c-mb-4"
+              class="progress-group mb-4"
             >
               <div
-                class="c-progress-group-prepend"
+                class="progress-group-prepend"
               >
                 <span
-                  class="c-progress-group-text"
+                  class="progress-group-text"
                 >
                   
                   Monday
@@ -325,10 +325,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group-bars"
+                class="progress-group-bars"
               >
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="34"
@@ -336,7 +336,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 />
                  
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="78"
@@ -346,13 +346,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-progress-group c-mb-4"
+              class="progress-group mb-4"
             >
               <div
-                class="c-progress-group-prepend"
+                class="progress-group-prepend"
               >
                 <span
-                  class="c-progress-group-text"
+                  class="progress-group-text"
                 >
                   
                   Tuesday
@@ -361,10 +361,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group-bars"
+                class="progress-group-bars"
               >
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="56"
@@ -372,7 +372,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 />
                  
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="94"
@@ -382,13 +382,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-progress-group c-mb-4"
+              class="progress-group mb-4"
             >
               <div
-                class="c-progress-group-prepend"
+                class="progress-group-prepend"
               >
                 <span
-                  class="c-progress-group-text"
+                  class="progress-group-text"
                 >
                   
                   Wednesday
@@ -397,10 +397,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group-bars"
+                class="progress-group-bars"
               >
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="12"
@@ -408,7 +408,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 />
                  
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="67"
@@ -418,13 +418,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-progress-group c-mb-4"
+              class="progress-group mb-4"
             >
               <div
-                class="c-progress-group-prepend"
+                class="progress-group-prepend"
               >
                 <span
-                  class="c-progress-group-text"
+                  class="progress-group-text"
                 >
                   
                   Thursday
@@ -433,10 +433,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group-bars"
+                class="progress-group-bars"
               >
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="43"
@@ -444,7 +444,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 />
                  
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="91"
@@ -454,13 +454,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-progress-group mb-4"
+              class="progress-group mb-4"
             >
               <div
-                class="c-progress-group-prepend"
+                class="progress-group-prepend"
               >
                 <span
-                  class="c-progress-group-text"
+                  class="progress-group-text"
                 >
                   
                   Friday
@@ -469,10 +469,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group-bars"
+                class="progress-group-bars"
               >
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="22"
@@ -480,7 +480,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 />
                  
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="73"
@@ -490,13 +490,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-progress-group c-mb-4"
+              class="progress-group mb-4"
             >
               <div
-                class="c-progress-group-prepend"
+                class="progress-group-prepend"
               >
                 <span
-                  class="c-progress-group-text"
+                  class="progress-group-text"
                 >
                   
                   Saturday
@@ -505,10 +505,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group-bars"
+                class="progress-group-bars"
               >
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="53"
@@ -516,7 +516,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 />
                  
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="82"
@@ -526,13 +526,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-progress-group c-mb-4"
+              class="progress-group mb-4"
             >
               <div
-                class="c-progress-group-prepend"
+                class="progress-group-prepend"
               >
                 <span
-                  class="c-progress-group-text"
+                  class="progress-group-text"
                 >
                   
                   Sunday
@@ -541,10 +541,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group-bars"
+                class="progress-group-bars"
               >
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="9"
@@ -552,7 +552,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 />
                  
                 <cprogress-stub
-                  class="c-progress-xs"
+                  class="progress-xs"
                   max="100"
                   precision="0"
                   value="69"
@@ -562,14 +562,14 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </div>
              
             <div
-              class="c-legend c-text-center"
+              class="legend text-center"
             >
               <small>
                 <sup>
                   <cbadge-stub
-                    activeclass="c-active"
+                    activeclass="active"
                     event="click"
-                    exactactiveclass="c-active"
+                    exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
@@ -585,9 +585,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 
                 <sup>
                   <cbadge-stub
-                    activeclass="c-active"
+                    activeclass="active"
                     event="click"
-                    exactactiveclass="c-active"
+                    exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
@@ -618,14 +618,14 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="warning"
                 >
                   <small
-                    class="c-text-muted"
+                    class="text-muted"
                   >
                     Pageviews
                   </small>
                   <br />
                    
                   <strong
-                    class="c-h4"
+                    class="h4"
                   >
                     78,623
                   </strong>
@@ -640,14 +640,14 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="success"
                 >
                   <small
-                    class="c-text-muted"
+                    class="text-muted"
                   >
                     Organic
                   </small>
                   <br />
                    
                   <strong
-                    class="c-h4"
+                    class="h4"
                   >
                     49,123
                   </strong>
@@ -656,40 +656,40 @@ exports[`Dashboard.vue renders correctly 1`] = `
             </crow-stub>
              
             <hr
-              class="c-mt-0"
+              class="mt-0"
             />
              
             <ul
-              class="c-horizontal-bars c-type-2"
+              class="horizontal-bars type-2"
             >
               <div
-                class="c-progress-group"
+                class="progress-group"
               >
                 <div
-                  class="c-progress-group-header"
+                  class="progress-group-header"
                 >
                   <i
-                    class="cui-user c-progress-group-icon"
+                    class="cui-user progress-group-icon"
                   />
                    
                   <span
-                    class="c-title"
+                    class="title"
                   >
                     Male
                   </span>
                    
                   <span
-                    class="c-ml-auto c-font-weight-bold"
+                    class="ml-auto font-weight-bold"
                   >
                     43%
                   </span>
                 </div>
                  
                 <div
-                  class="c-progress-group-bars"
+                  class="progress-group-bars"
                 >
                   <cprogress-stub
-                    class="c-progress-xs"
+                    class="progress-xs"
                     max="100"
                     precision="0"
                     value="43"
@@ -699,33 +699,33 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group c-mb-5"
+                class="progress-group mb-5"
               >
                 <div
-                  class="c-progress-group-header"
+                  class="progress-group-header"
                 >
                   <i
-                    class="cui-user-female c-progress-group-icon"
+                    class="cui-user-female progress-group-icon"
                   />
                    
                   <span
-                    class="c-title"
+                    class="title"
                   >
                     Female
                   </span>
                    
                   <span
-                    class="c-ml-auto c-font-weight-bold"
+                    class="ml-auto font-weight-bold"
                   >
                     37%
                   </span>
                 </div>
                  
                 <div
-                  class="c-progress-group-bars"
+                  class="progress-group-bars"
                 >
                   <cprogress-stub
-                    class="c-progress-xs"
+                    class="progress-xs"
                     max="100"
                     precision="0"
                     value="37"
@@ -735,23 +735,23 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group"
+                class="progress-group"
               >
                 <div
-                  class="c-progress-group-header"
+                  class="progress-group-header"
                 >
                   <i
-                    class="cui-globe c-progress-group-icon"
+                    class="cui-globe progress-group-icon"
                   />
                    
                   <span
-                    class="c-title"
+                    class="title"
                   >
                     Organic Search
                   </span>
                    
                   <span
-                    class="c-ml-auto c-font-weight-bold"
+                    class="ml-auto font-weight-bold"
                   >
                     
                     191,235
@@ -764,10 +764,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 </div>
                  
                 <div
-                  class="c-progress-group-bars"
+                  class="progress-group-bars"
                 >
                   <cprogress-stub
-                    class="c-progress-xs"
+                    class="progress-xs"
                     max="100"
                     precision="0"
                     value="56"
@@ -777,30 +777,30 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group"
+                class="progress-group"
               >
                 <div
-                  class="c-progress-group-header"
+                  class="progress-group-header"
                 >
                   <cicon-stub
-                    class="c-progress-group-icon"
+                    class="progress-group-icon"
                     height="17"
                     name="socialFacebook"
                   />
                    
                   <span
-                    class="c-title"
+                    class="title"
                   >
                     Facebook
                   </span>
                    
                   <span
-                    class="c-ml-auto c-font-weight-bold"
+                    class="ml-auto font-weight-bold"
                   >
                     
                     51,223 
                     <span
-                      class="c-text-muted small"
+                      class="text-muted small"
                     >
                       (15%)
                     </span>
@@ -808,10 +808,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 </div>
                  
                 <div
-                  class="c-progress-group-bars"
+                  class="progress-group-bars"
                 >
                   <cprogress-stub
-                    class="c-progress-xs"
+                    class="progress-xs"
                     max="100"
                     precision="0"
                     value="15"
@@ -821,30 +821,30 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group"
+                class="progress-group"
               >
                 <div
-                  class="c-progress-group-header"
+                  class="progress-group-header"
                 >
                   <cicon-stub
-                    class="c-progress-group-icon"
+                    class="progress-group-icon"
                     height="17"
                     name="socialTwitter"
                   />
                    
                   <span
-                    class="c-title"
+                    class="title"
                   >
                     Twitter
                   </span>
                    
                   <span
-                    class="c-ml-auto c-font-weight-bold"
+                    class="ml-auto font-weight-bold"
                   >
                     
                     37,564 
                     <span
-                      class="c-text-muted c-small"
+                      class="text-muted small"
                     >
                       (11%)
                     </span>
@@ -852,10 +852,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 </div>
                  
                 <div
-                  class="c-progress-group-bars"
+                  class="progress-group-bars"
                 >
                   <cprogress-stub
-                    class="c-progress-xs"
+                    class="progress-xs"
                     max="100"
                     precision="0"
                     value="11"
@@ -865,30 +865,30 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-progress-group"
+                class="progress-group"
               >
                 <div
-                  class="c-progress-group-header"
+                  class="progress-group-header"
                 >
                   <cicon-stub
-                    class="c-progress-group-icon"
+                    class="progress-group-icon"
                     height="17"
                     name="socialLinkedin"
                   />
                    
                   <span
-                    class="c-title"
+                    class="title"
                   >
                     LinkedIn
                   </span>
                    
                   <span
-                    class="c-ml-auto c-font-weight-bold"
+                    class="ml-auto font-weight-bold"
                   >
                     
                     27,319 
                     <span
-                      class="c-text-muted small"
+                      class="text-muted small"
                     >
                        (8%)
                     </span>
@@ -896,10 +896,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 </div>
                  
                 <div
-                  class="c-progress-group-bars"
+                  class="progress-group-bars"
                 >
                   <cprogress-stub
-                    class="c-progress-xs"
+                    class="progress-xs"
                     max="100"
                     precision="0"
                     value="8"
@@ -909,13 +909,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
               </div>
                
               <div
-                class="c-divider c-text-center"
+                class="divider text-center"
               >
                 <cbutton-stub
-                  activeclass="c-active"
-                  class="c-text-muted"
+                  activeclass="active"
+                  class="text-muted"
                   event="click"
-                  exactactiveclass="c-active"
+                  exactactiveclass="active"
                   routertag="a"
                   size="sm"
                   target="_self"
@@ -934,7 +934,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
         <br />
          
         <ctable-stub
-          class="c-mb-0 c-table-outline"
+          class="mb-0 table-outline"
           defaultsorter="[object Object]"
           fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
           head-variant="light"

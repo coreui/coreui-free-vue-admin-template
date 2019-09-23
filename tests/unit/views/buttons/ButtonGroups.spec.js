@@ -8,7 +8,7 @@ Vue.use(CoreuiVue)
 describe('ButtonGroups.vue', () => {
   const wrapper = shallowMount(ButtonGroups)
   it('has a name', () => {
-    expect(ButtonGroups.name).toMatch('button-groups')
+    expect(ButtonGroups.name).toBe('ButtonGroups')
   })
   it('is Vue instance', () => {
     expect(wrapper.isVueInstance()).toBe(true)

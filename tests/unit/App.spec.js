@@ -12,7 +12,7 @@ localVue.use(CoreuiVue)
 
 describe('App.vue', () => {
   it('has a name', () => {
-    expect(App.name).toMatch('app')
+    expect(App.name).toBe('App')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(App, {

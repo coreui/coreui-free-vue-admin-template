@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Dropdowns.vue', () => {
   it('has a name', () => {
-    expect(Dropdowns.name).toMatch('Dropdowns')
+    expect(Dropdowns.name).toBe('Dropdowns')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Dropdowns)

@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Alerts.vue', () => {
   it('has a name', () => {
-    expect(Alerts.name).toMatch('alerts')
+    expect(Alerts.name).toBe('Alerts')
   })
   it('has a created hook', () => {
     expect(typeof Alerts.data).toMatch('function')

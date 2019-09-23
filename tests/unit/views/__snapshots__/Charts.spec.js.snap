@@ -3,7 +3,7 @@
 exports[`Charts.vue renders correctly 1`] = `
 <div>
   <ccardgroup-stub
-    class="c-card-columns c-cols-2"
+    class="card-columns cols-2"
     columns="true"
   >
     <ccard-stub
@@ -18,7 +18,7 @@ exports[`Charts.vue renders correctly 1`] = `
         Line Chart
         
         <div
-          class="c-card-header-actions"
+          class="card-header-actions"
         >
           <a
             class="card-header-action"

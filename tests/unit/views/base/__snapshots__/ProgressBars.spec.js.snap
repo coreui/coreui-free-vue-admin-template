@@ -1,784 +1,785 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProgressBars.vue renders correctly 1`] = `
-<div
-  class="c-wrapper"
->
-  <div>
-    <ccard-stub
+<div>
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
       subtitletag="h6"
       titletag="h4"
     >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
+      <i
+        class="fa fa-align-justify"
+      />
+       
+      <strong>
+         Bootstrap Progress
+      </strong>
+       
+      <div
+        class="card-header-actions"
       >
-        <i
-          class="fa fa-align-justify"
+        <a
+          class="card-header-action"
+          href="https://coreui.io/vue/docs/3.0/components/Progress"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <small
+            class="text-muted"
+          >
+            docs
+          </small>
+        </a>
+      </div>
+    </ccardheader-stub>
+     
+    <ccardbody-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <cprogress-stub
+        animated="true"
+        max="100"
+        precision="0"
+        showprogress="true"
+        value="73"
+      />
+       
+      <cprogress-stub
+        class="mt-1"
+        max="100"
+        precision="0"
+        showvalue="true"
+        value="0"
+      >
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          value="43.8"
+          variant="success"
         />
          
-        <strong>
-           Bootstrap Progress
-        </strong>
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          value="18.25"
+          variant="warning"
+        />
+         
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          value="10.95"
+          variant="danger"
+        />
+      </cprogress-stub>
+       
+      <cbutton-stub
+        activeclass="active"
+        class="mt-4"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+        type="button"
+        variant="secondary"
+      >
+        
+        Click me to animate progress bars
+      
+      </cbutton-stub>
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <i
+        class="fa fa-align-justify"
+      />
+       
+      <strong>
+         Progress 
+      </strong>
+      <small>
+        labels
+      </small>
+    </ccardheader-stub>
+     
+    <ccardbody-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <h6>
+        No label
+      </h6>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="50"
+        precision="0"
+        value="33.333333333"
+      />
+       
+      <h6>
+        Value label
+      </h6>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="50"
+        precision="0"
+        showvalue="true"
+        value="33.333333333"
+      />
+       
+      <h6>
+        Progress label
+      </h6>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="50"
+        precision="0"
+        showprogress="true"
+        value="33.333333333"
+      />
+       
+      <h6>
+        Value label with precision
+      </h6>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="50"
+        precision="2"
+        showvalue="true"
+        value="33.333333333"
+      />
+       
+      <h6>
+        Progress label with precision
+      </h6>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="50"
+        precision="2"
+        showprogress="true"
+        value="33.333333333"
+      />
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <i
+        class="fa fa-align-justify"
+      />
+       
+      <strong>
+         Progress 
+      </strong>
+       
+      <small>
+        width
+      </small>
+    </ccardheader-stub>
+     
+    <ccardbody-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <h6>
+        Default width
+      </h6>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="100"
+        precision="0"
+        value="75"
+      />
+       
+      <h6>
+        Custom widths
+      </h6>
+       
+      <cprogress-stub
+        class="w-75 mb-2"
+        max="100"
+        precision="0"
+        value="75"
+      />
+       
+      <cprogress-stub
+        class="w-50 mb-2"
+        max="100"
+        precision="0"
+        value="75"
+      />
+       
+      <cprogress-stub
+        class="w-25"
+        max="100"
+        precision="0"
+        value="75"
+      />
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <i
+        class="fa fa-align-justify"
+      />
+       
+      <strong>
+         Progress 
+      </strong>
+       
+      <small>
+        height
+      </small>
+    </ccardheader-stub>
+     
+    <ccardbody-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <h6>
+        Default height
+      </h6>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="100"
+        precision="0"
+        showprogress="true"
+        value="75"
+      />
+       
+      <h6>
+        Custom heights
+      </h6>
+       
+      <cprogress-stub
+        class="mb-2"
+        height="2rem"
+        max="100"
+        precision="0"
+        showprogress="true"
+        value="75"
+      />
+       
+      <cprogress-stub
+        class="mb-2"
+        height="20px"
+        max="100"
+        precision="0"
+        showprogress="true"
+        value="75"
+      />
+       
+      <cprogress-stub
+        height="2px"
+        max="100"
+        precision="0"
+        value="75"
+      />
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <i
+        class="fa fa-align-justify"
+      />
+       
+      <strong>
+         Progress 
+      </strong>
+       
+      <small>
+        variants
+      </small>
+    </ccardheader-stub>
+     
+    <ccardbody-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <div
+        class="row mb-1"
+      >
+        <div
+          class="col-sm-2"
+        >
+          success:
+        </div>
          
         <div
-          class="c-card-header-actions"
+          class="col-sm-10 pt-1"
         >
-          <a
-            class="card-header-action"
-            href="https://coreui.io/vue/docs/3.0/components/Progress"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <small
-              class="text-muted"
-            >
-              docs
-            </small>
-          </a>
-        </div>
-      </ccardheader-stub>
-       
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <cprogress-stub
-          animated="true"
-          max="100"
-          precision="0"
-          showprogress="true"
-          value="73"
-        />
-         
-        <cprogress-stub
-          class="c-mt-1"
-          max="100"
-          precision="0"
-          showvalue="true"
-        >
-          <cprogressbar-stub
+          <cprogress-stub
             max="100"
             precision="0"
-            value="43.8"
+            value="75"
             variant="success"
           />
-           
-          <cprogressbar-stub
+        </div>
+      </div>
+      <div
+        class="row mb-1"
+      >
+        <div
+          class="col-sm-2"
+        >
+          info:
+        </div>
+         
+        <div
+          class="col-sm-10 pt-1"
+        >
+          <cprogress-stub
             max="100"
             precision="0"
-            value="18.25"
+            value="75"
+            variant="info"
+          />
+        </div>
+      </div>
+      <div
+        class="row mb-1"
+      >
+        <div
+          class="col-sm-2"
+        >
+          warning:
+        </div>
+         
+        <div
+          class="col-sm-10 pt-1"
+        >
+          <cprogress-stub
+            max="100"
+            precision="0"
+            value="75"
             variant="warning"
           />
-           
-          <cprogressbar-stub
+        </div>
+      </div>
+      <div
+        class="row mb-1"
+      >
+        <div
+          class="col-sm-2"
+        >
+          danger:
+        </div>
+         
+        <div
+          class="col-sm-10 pt-1"
+        >
+          <cprogress-stub
             max="100"
             precision="0"
-            value="10.95"
+            value="75"
             variant="danger"
           />
-        </cprogress-stub>
-         
-        <cbutton-stub
-          activeclass="c-active"
-          class="c-mt-4"
-          event="click"
-          exactactiveclass="c-active"
-          routertag="a"
-          target="_self"
-          type="button"
-          variant="secondary"
+        </div>
+      </div>
+      <div
+        class="row mb-1"
+      >
+        <div
+          class="col-sm-2"
         >
-          
-          Click me to animate progress bars
+          primary:
+        </div>
+         
+        <div
+          class="col-sm-10 pt-1"
+        >
+          <cprogress-stub
+            max="100"
+            precision="0"
+            value="75"
+            variant="primary"
+          />
+        </div>
+      </div>
+      <div
+        class="row mb-1"
+      >
+        <div
+          class="col-sm-2"
+        >
+          secondary:
+        </div>
+         
+        <div
+          class="col-sm-10 pt-1"
+        >
+          <cprogress-stub
+            max="100"
+            precision="0"
+            value="75"
+            variant="secondary"
+          />
+        </div>
+      </div>
+      <div
+        class="row mb-1"
+      >
+        <div
+          class="col-sm-2"
+        >
+          dark:
+        </div>
+         
+        <div
+          class="col-sm-10 pt-1"
+        >
+          <cprogress-stub
+            max="100"
+            precision="0"
+            value="75"
+            variant="dark"
+          />
+        </div>
+      </div>
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <i
+        class="fa fa-align-justify"
+      />
+       
+      <strong>
+         Progress 
+      </strong>
+       
+      <small>
+        striped
+      </small>
+    </ccardheader-stub>
+     
+    <ccardbody-stub
+      subtitletag="h6"
+      titletag="h4"
+    >
+      <cprogress-stub
+        class="mb-2"
+        max="100"
+        precision="0"
+        striped="true"
+        value="25"
+        variant="success"
+      />
+       
+      <cprogress-stub
+        class="mb-2"
+        max="100"
+        precision="0"
+        striped="true"
+        value="50"
+        variant="info"
+      />
+       
+      <cprogress-stub
+        class="mb-2"
+        max="100"
+        precision="0"
+        striped="true"
+        value="75"
+        variant="warning"
+      />
+       
+      <cprogress-stub
+        class="mb-2"
+        max="100"
+        precision="0"
+        striped="true"
+        value="100"
+        variant="danger"
+      />
+       
+      <cbutton-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+        type="button"
+        variant="secondary"
+      >
         
-        </cbutton-stub>
-      </ccardbody-stub>
-    </ccard-stub>
-     
-    <ccard-stub
+        Remove Striped
+      
+      </cbutton-stub>
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
       subtitletag="h6"
       titletag="h4"
     >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <i
-          class="fa fa-align-justify"
-        />
-         
-        <strong>
-           Progress 
-        </strong>
-        <small>
-          labels
-        </small>
-      </ccardheader-stub>
+      <i
+        class="fa fa-align-justify"
+      />
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <h6>
-          No label
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="50"
-          precision="0"
-          value="33.333333333"
-        />
-         
-        <h6>
-          Value label
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="50"
-          precision="0"
-          showvalue="true"
-          value="33.333333333"
-        />
-         
-        <h6>
-          Progress label
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="50"
-          precision="0"
-          showprogress="true"
-          value="33.333333333"
-        />
-         
-        <h6>
-          Value label with precision
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="50"
-          precision="2"
-          showvalue="true"
-          value="33.333333333"
-        />
-         
-        <h6>
-          Progress label with precision
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="50"
-          precision="2"
-          showprogress="true"
-          value="33.333333333"
-        />
-      </ccardbody-stub>
-    </ccard-stub>
+      <strong>
+         Progress 
+      </strong>
+       
+      <small>
+        animated
+      </small>
+    </ccardheader-stub>
      
-    <ccard-stub
+    <ccardbody-stub
       subtitletag="h6"
       titletag="h4"
     >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <i
-          class="fa fa-align-justify"
-        />
-         
-        <strong>
-           Progress 
-        </strong>
-         
-        <small>
-          width
-        </small>
-      </ccardheader-stub>
+      <cprogress-stub
+        animated="true"
+        class="mb-2"
+        max="100"
+        precision="0"
+        striped="true"
+        value="25"
+        variant="success"
+      />
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
+      <cprogress-stub
+        animated="true"
+        class="mb-2"
+        max="100"
+        precision="0"
+        striped="true"
+        value="50"
+        variant="info"
+      />
+       
+      <cprogress-stub
+        animated="true"
+        class="mb-2"
+        max="100"
+        precision="0"
+        striped="true"
+        value="75"
+        variant="warning"
+      />
+       
+      <cprogress-stub
+        animated="true"
+        class="mb-3"
+        max="100"
+        precision="0"
+        value="100"
+        variant="danger"
+      />
+       
+      <cbutton-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+        type="button"
+        variant="secondary"
       >
-        <h6>
-          Default width
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="100"
-          precision="0"
-          value="75"
-        />
-         
-        <h6>
-          Custom widths
-        </h6>
-         
-        <cprogress-stub
-          class="c-w-75 c-mb-2"
-          max="100"
-          precision="0"
-          value="75"
-        />
-         
-        <cprogress-stub
-          class="c-w-50 c-mb-2"
-          max="100"
-          precision="0"
-          value="75"
-        />
-         
-        <cprogress-stub
-          class="c-w-25"
-          max="100"
-          precision="0"
-          value="75"
-        />
-      </ccardbody-stub>
-    </ccard-stub>
-     
-    <ccard-stub
+        
+        Stop Animation
+      
+      </cbutton-stub>
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub
+    subtitletag="h6"
+    titletag="h4"
+  >
+    <ccardheader-stub
       subtitletag="h6"
       titletag="h4"
     >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <i
-          class="fa fa-align-justify"
-        />
-         
-        <strong>
-           Progress 
-        </strong>
-         
-        <small>
-          height
-        </small>
-      </ccardheader-stub>
+      <i
+        class="fa fa-align-justify"
+      />
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <h6>
-          Default height
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="100"
-          precision="0"
-          showprogress="true"
-          value="75"
-        />
-         
-        <h6>
-          Custom heights
-        </h6>
-         
-        <cprogress-stub
-          class="c-mb-2"
-          height="2rem"
-          max="100"
-          precision="0"
-          showprogress="true"
-          value="75"
-        />
-         
-        <cprogress-stub
-          class="c-mb-2"
-          height="20px"
-          max="100"
-          precision="0"
-          showprogress="true"
-          value="75"
-        />
-         
-        <cprogress-stub
-          height="2px"
-          max="100"
-          precision="0"
-          value="75"
-        />
-      </ccardbody-stub>
-    </ccard-stub>
+      <strong>
+         Progress 
+      </strong>
+       
+      <small>
+        multiple bars
+      </small>
+    </ccardheader-stub>
      
-    <ccard-stub
+    <ccardbody-stub
       subtitletag="h6"
       titletag="h4"
     >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
+      <cprogress-stub
+        class="mb-3"
+        max="100"
+        precision="0"
+        value="0"
       >
-        <i
-          class="fa fa-align-justify"
-        />
-         
-        <strong>
-           Progress 
-        </strong>
-         
-        <small>
-          variants
-        </small>
-      </ccardheader-stub>
-       
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <div
-          class="c-row c-mb-1"
-        >
-          <div
-            class="c-col-sm-2"
-          >
-            success:
-          </div>
-           
-          <div
-            class="c-col-sm-10 c-pt-1"
-          >
-            <cprogress-stub
-              max="100"
-              precision="0"
-              value="75"
-              variant="success"
-            />
-          </div>
-        </div>
-        <div
-          class="c-row c-mb-1"
-        >
-          <div
-            class="c-col-sm-2"
-          >
-            info:
-          </div>
-           
-          <div
-            class="c-col-sm-10 c-pt-1"
-          >
-            <cprogress-stub
-              max="100"
-              precision="0"
-              value="75"
-              variant="info"
-            />
-          </div>
-        </div>
-        <div
-          class="c-row c-mb-1"
-        >
-          <div
-            class="c-col-sm-2"
-          >
-            warning:
-          </div>
-           
-          <div
-            class="c-col-sm-10 c-pt-1"
-          >
-            <cprogress-stub
-              max="100"
-              precision="0"
-              value="75"
-              variant="warning"
-            />
-          </div>
-        </div>
-        <div
-          class="c-row c-mb-1"
-        >
-          <div
-            class="c-col-sm-2"
-          >
-            danger:
-          </div>
-           
-          <div
-            class="c-col-sm-10 c-pt-1"
-          >
-            <cprogress-stub
-              max="100"
-              precision="0"
-              value="75"
-              variant="danger"
-            />
-          </div>
-        </div>
-        <div
-          class="c-row c-mb-1"
-        >
-          <div
-            class="c-col-sm-2"
-          >
-            primary:
-          </div>
-           
-          <div
-            class="c-col-sm-10 c-pt-1"
-          >
-            <cprogress-stub
-              max="100"
-              precision="0"
-              value="75"
-              variant="primary"
-            />
-          </div>
-        </div>
-        <div
-          class="c-row c-mb-1"
-        >
-          <div
-            class="c-col-sm-2"
-          >
-            secondary:
-          </div>
-           
-          <div
-            class="c-col-sm-10 c-pt-1"
-          >
-            <cprogress-stub
-              max="100"
-              precision="0"
-              value="75"
-              variant="secondary"
-            />
-          </div>
-        </div>
-        <div
-          class="c-row c-mb-1"
-        >
-          <div
-            class="c-col-sm-2"
-          >
-            dark:
-          </div>
-           
-          <div
-            class="c-col-sm-10 c-pt-1"
-          >
-            <cprogress-stub
-              max="100"
-              precision="0"
-              value="75"
-              variant="dark"
-            />
-          </div>
-        </div>
-      </ccardbody-stub>
-    </ccard-stub>
-     
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <i
-          class="fa fa-align-justify"
-        />
-         
-        <strong>
-           Progress 
-        </strong>
-         
-        <small>
-          striped
-        </small>
-      </ccardheader-stub>
-       
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <cprogress-stub
-          class="c-mb-2"
+        <cprogressbar-stub
           max="100"
           precision="0"
-          striped="true"
-          value="25"
+          value="15"
+          variant="primary"
+        />
+         
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          value="30"
           variant="success"
         />
          
-        <cprogress-stub
-          class="c-mb-2"
+        <cprogressbar-stub
           max="100"
           precision="0"
-          striped="true"
-          value="50"
+          value="20"
           variant="info"
         />
-         
-        <cprogress-stub
-          class="c-mb-2"
-          max="100"
-          precision="0"
-          striped="true"
-          value="75"
-          variant="warning"
-        />
-         
-        <cprogress-stub
-          class="c-mb-2"
-          max="100"
-          precision="0"
-          striped="true"
-          value="100"
-          variant="danger"
-        />
-         
-        <cbutton-stub
-          activeclass="c-active"
-          event="click"
-          exactactiveclass="c-active"
-          routertag="a"
-          target="_self"
-          type="button"
-          variant="secondary"
-        >
-          
-          Remove Striped
-        
-        </cbutton-stub>
-      </ccardbody-stub>
-    </ccard-stub>
-     
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <i
-          class="fa fa-align-justify"
-        />
-         
-        <strong>
-           Progress 
-        </strong>
-         
-        <small>
-          animated
-        </small>
-      </ccardheader-stub>
+      </cprogress-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
+      <cprogress-stub
+        class="mb-3"
+        max="100"
+        precision="0"
+        showprogress="true"
+        value="0"
       >
-        <cprogress-stub
-          animated="true"
-          class="c-mb-2"
+        <cprogressbar-stub
           max="100"
           precision="0"
-          striped="true"
-          value="25"
+          value="15"
+          variant="primary"
+        />
+         
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          value="30"
           variant="success"
         />
          
-        <cprogress-stub
-          animated="true"
-          class="c-mb-2"
+        <cprogressbar-stub
           max="100"
           precision="0"
-          striped="true"
-          value="50"
+          value="20"
           variant="info"
         />
-         
-        <cprogress-stub
-          animated="true"
-          class="c-mb-2"
-          max="100"
-          precision="0"
-          striped="true"
-          value="75"
-          variant="warning"
-        />
-         
-        <cprogress-stub
-          animated="true"
-          class="c-mb-3"
-          max="100"
-          precision="0"
-          value="100"
-          variant="danger"
-        />
-         
-        <cbutton-stub
-          activeclass="c-active"
-          event="click"
-          exactactiveclass="c-active"
-          routertag="a"
-          target="_self"
-          type="button"
-          variant="secondary"
-        >
-          
-          Stop Animation
-        
-        </cbutton-stub>
-      </ccardbody-stub>
-    </ccard-stub>
-     
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <i
-          class="fa fa-align-justify"
-        />
-         
-        <strong>
-           Progress 
-        </strong>
-         
-        <small>
-          multiple bars
-        </small>
-      </ccardheader-stub>
+      </cprogress-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
+      <cprogress-stub
+        class="mb-3"
+        max="100"
+        precision="0"
+        showvalue="true"
+        striped="true"
+        value="0"
       >
-        <cprogress-stub
-          class="c-mb-3"
+        <cprogressbar-stub
           max="100"
           precision="0"
-        >
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="15"
-            variant="primary"
-          />
-           
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="30"
-            variant="success"
-          />
-           
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="20"
-            variant="info"
-          />
-        </cprogress-stub>
+          value="15"
+          variant="primary"
+        />
          
-        <cprogress-stub
-          class="c-mb-3"
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          value="30"
+          variant="success"
+        />
+         
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          value="20"
+          variant="info"
+        />
+      </cprogress-stub>
+       
+      <cprogress-stub
+        class="mb-3"
+        max="100"
+        precision="0"
+        value="0"
+      >
+        <cprogressbar-stub
           max="100"
           precision="0"
           showprogress="true"
-        >
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="15"
-            variant="primary"
-          />
-           
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="30"
-            variant="success"
-          />
-           
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="20"
-            variant="info"
-          />
-        </cprogress-stub>
+          value="15"
+          variant="primary"
+        />
          
-        <cprogress-stub
-          class="c-mb-3"
+        <cprogressbar-stub
+          animated="true"
           max="100"
           precision="0"
-          showvalue="true"
+          showprogress="true"
+          value="30"
+          variant="success"
+        />
+         
+        <cprogressbar-stub
+          max="100"
+          precision="0"
+          showprogress="true"
           striped="true"
-        >
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="15"
-            variant="primary"
-          />
-           
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="30"
-            variant="success"
-          />
-           
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            value="20"
-            variant="info"
-          />
-        </cprogress-stub>
-         
-        <cprogress-stub
-          class="c-mb-3"
-          max="100"
-          precision="0"
-        >
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            showprogress="true"
-            value="15"
-            variant="primary"
-          />
-           
-          <cprogressbar-stub
-            animated="true"
-            max="100"
-            precision="0"
-            showprogress="true"
-            value="30"
-            variant="success"
-          />
-           
-          <cprogressbar-stub
-            max="100"
-            precision="0"
-            showprogress="true"
-            striped="true"
-            value="20"
-            variant="info"
-          />
-        </cprogress-stub>
-      </ccardbody-stub>
-    </ccard-stub>
-  </div>
+          value="20"
+          variant="info"
+        />
+      </cprogress-stub>
+    </ccardbody-stub>
+  </ccard-stub>
 </div>
 `;

@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('TheSidebar.vue', () => {
   it('has a name', () => {
-    expect(TheSidebar.name).toMatch('TheSidebar')
+    expect(TheSidebar.name).toBe('TheSidebar')
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(TheSidebar)

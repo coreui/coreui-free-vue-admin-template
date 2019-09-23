@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Colors.vue', () => {
   it('has a name', () => {
-    expect(Colors.name).toMatch('colors')
+    expect(Colors.name).toBe('Colors')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Colors)

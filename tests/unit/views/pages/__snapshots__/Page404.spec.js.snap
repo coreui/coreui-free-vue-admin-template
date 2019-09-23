@@ -2,42 +2,42 @@
 
 exports[`Page404.vue renders correctly 1`] = `
 <ccontainer-stub
-  class="c-d-flex c-align-items-center c-min-vh-100"
+  class="d-flex align-items-center min-vh-100"
 >
   <crow-stub
-    class="c-w-100 c-justify-content-center"
+    class="w-100 justify-content-center"
   >
     <ccol-stub
       md="6"
       tag="div"
     >
       <div
-        class="c-w-100"
+        class="w-100"
       >
         <div
-          class="c-clearfix"
+          class="clearfix"
         >
           <h1
-            class="c-float-left c-display-3 c-mr-4"
+            class="float-left display-3 mr-4"
           >
             404
           </h1>
            
           <h4
-            class="c-pt-3"
+            class="pt-3"
           >
             Oops! You're lost.
           </h4>
            
           <p
-            class="c-text-muted"
+            class="text-muted"
           >
             The page you are looking for was not found.
           </p>
         </div>
          
         <cforminput-stub
-          class="c-mb-0"
+          class="mb-0"
           lazy="400"
           placeholder="What are you looking for?"
           prependhtml=<i class='cui-magnifying-glass'></i>

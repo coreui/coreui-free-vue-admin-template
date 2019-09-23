@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Carousels.vue', () => {
   it('has a name', () => {
-    expect(Carousels.name).toMatch('carousels')
+    expect(Carousels.name).toBe('Carousels')
   })
   it('is Carousels', () => {
     const wrapper = shallowMount(Carousels)

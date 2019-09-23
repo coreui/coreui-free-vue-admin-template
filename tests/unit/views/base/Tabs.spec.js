@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Tabs.vue', () => {
   it('has a name', () => {
-    expect(Tabs.name).toMatch('tabs')
+    expect(Tabs.name).toBe('Tabs')
   })
   it('has a created hook', () => {
     expect(typeof Tabs.data).toMatch('function')

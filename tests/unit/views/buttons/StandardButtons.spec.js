@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('StandardButtons.vue', () => {
   it('has a name', () => {
-    expect(StandardButtons.name).toMatch('standard-buttons')
+    expect(StandardButtons.name).toBe('StandardButtons')
   })
   it('has a created hook', () => {
     expect(typeof StandardButtons.data).toMatch('function')

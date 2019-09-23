@@ -11,7 +11,7 @@ Vue.use(CIconPlugin, iconsSet)
 
 describe('Dashboard.vue', () => {
   it('has a name', () => {
-    expect(Dashboard.name).toMatch('Dashboard')
+    expect(Dashboard.name).toBe('Dashboard')
   })
   it('has a created hook', () => {
     expect(typeof Dashboard.data).toMatch('function')

@@ -2,7 +2,7 @@
 
 exports[`Modals.vue renders correctly 1`] = `
 <div
-  class="c-wrapper"
+  class="wrapper"
 >
   <div>
     <crow-stub>
@@ -24,7 +24,7 @@ exports[`Modals.vue renders correctly 1`] = `
              Bootstrap Modals
             
             <div
-              class="c-card-header-actions"
+              class="card-header-actions"
             >
               <a
                 class="card-header-action"
@@ -46,10 +46,10 @@ exports[`Modals.vue renders correctly 1`] = `
             titletag="h4"
           >
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -61,10 +61,10 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -76,10 +76,10 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -93,10 +93,10 @@ exports[`Modals.vue renders correctly 1`] = `
             <hr />
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -108,10 +108,10 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -123,10 +123,10 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -138,10 +138,10 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -153,10 +153,10 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
@@ -168,10 +168,10 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="c-active"
-              class="c-mr-1"
+              activeclass="active"
+              class="mr-1"
               event="click"
-              exactactiveclass="c-active"
+              exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"

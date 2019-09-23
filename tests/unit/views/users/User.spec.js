@@ -11,7 +11,7 @@ localVue.use(CoreuiVue)
 
 describe('User.vue', () => {
   it('has a name', () => {
-    expect(User.name).toMatch('User')
+    expect(User.name).toBe('User')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(User, {

@@ -1,224 +1,220 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Jumbotrons.vue renders correctly 1`] = `
-<div
-  class="c-wrapper"
->
-  <div>
-    <crow-stub>
-      <ccol-stub
-        tag="div"
+<div>
+  <crow-stub>
+    <ccol-stub
+      tag="div"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
       >
-        <ccard-stub
+        <ccardheader-stub
           subtitletag="h6"
           titletag="h4"
         >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <i
-              class="fa fa-align-justify"
-            />
-             
-            <strong>
-               Bootstrap Jumbotron 
-            </strong>
-             
-            <div
-              class="c-card-header-actions"
-            >
-              <a
-                class="card-header-action"
-                href="https://coreui.io/vue/docs/3.0/components/Jumbotron"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                <small
-                  class="text-muted"
-                >
-                  docs
-                </small>
-              </a>
-            </div>
-          </ccardheader-stub>
+          <i
+            class="fa fa-align-justify"
+          />
            
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
+          <strong>
+             Bootstrap Jumbotron 
+          </strong>
+           
+          <div
+            class="card-header-actions"
           >
-            <cjumbotron-stub
-              header="Bootstrap 4"
-              lead="Bootstrap 4 Components for Vue.js 2"
-              tag="div"
+            <a
+              class="card-header-action"
+              href="https://coreui.io/vue/docs/3.0/components/Jumbotron"
+              rel="noreferrer noopener"
+              target="_blank"
             >
-              <p>
-                For more information visit website
-              </p>
-               
-              <cbutton-stub
-                activeclass="c-active"
-                event="click"
-                exactactiveclass="c-active"
-                href="#"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="primary"
+              <small
+                class="text-muted"
               >
-                More Info
-              </cbutton-stub>
-            </cjumbotron-stub>
-          </ccardbody-stub>
-        </ccard-stub>
-      </ccol-stub>
-       
-      <ccol-stub
-        tag="div"
-      >
-        <ccard-stub
+                docs
+              </small>
+            </a>
+          </div>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
           subtitletag="h6"
           titletag="h4"
         >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
+          <cjumbotron-stub
+            header="Bootstrap 4"
+            lead="Bootstrap 4 Components for Vue.js 2"
+            tag="div"
           >
-            <i
-              class="fa fa-align-justify"
-            />
+            <p>
+              For more information visit website
+            </p>
              
-            <strong>
-               Jumbotron 
-            </strong>
-             
-            <small>
-              with slots
-            </small>
-          </ccardheader-stub>
-           
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <cjumbotron-stub
-              header="Bootstrap 4"
-              lead=""
-              tag="div"
+            <cbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
             >
-              <p
-                class="c-lead"
-                slot="lead"
-              >
-                
-                This is a simple hero unit, a simple jumbotron-style component for
-                calling extra attention to featured content or information.
-              
-              </p>
-               
-              <hr
-                class="c-my-4"
-              />
-               
-              <p>
-                
-                It uses utility classes for typography and spacing to space content
-                out within the larger container.
-              
-              </p>
-               
-              <cbutton-stub
-                activeclass="c-active"
-                event="click"
-                exactactiveclass="c-active"
-                href="#"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="primary"
-              >
-                Do Something
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="c-active"
-                event="click"
-                exactactiveclass="c-active"
-                href="#"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="success"
-              >
-                Do Something Else
-              </cbutton-stub>
-            </cjumbotron-stub>
-          </ccardbody-stub>
-        </ccard-stub>
-      </ccol-stub>
-    </crow-stub>
+              More Info
+            </cbutton-stub>
+          </cjumbotron-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
      
-    <crow-stub>
-      <ccol-stub
-        tag="div"
+    <ccol-stub
+      tag="div"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
       >
-        <ccard-stub
+        <ccardheader-stub
           subtitletag="h6"
           titletag="h4"
         >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Jumbotron 
+          </strong>
+           
+          <small>
+            with slots
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cjumbotron-stub
+            header="Bootstrap 4"
+            lead=""
+            tag="div"
           >
-            <i
-              class="fa fa-align-justify"
+            <p
+              class="lead"
+              slot="lead"
+            >
+              
+              This is a simple hero unit, a simple jumbotron-style component for
+              calling extra attention to featured content or information.
+            
+            </p>
+             
+            <hr
+              class="my-4"
             />
              
-            <strong>
-               Jumbotron 
-            </strong>
+            <p>
+              
+              It uses utility classes for typography and spacing to space content
+              out within the larger container.
+            
+            </p>
              
-            <small>
-              variants
-            </small>
-          </ccardheader-stub>
-           
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
-            <cjumbotron-stub
-              bordervariant="dark"
-              header="Bootstrap 4"
-              tag="div"
-              textvariant="white"
-              variant="info"
+            <cbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="primary"
             >
-              <p
-                class="c-lead"
-                slot="lead"
-              >
-                
-                This is a simple hero unit, a simple jumbotron-style component for
-                calling extra attention to featured content or information.
+              Do Something
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              href="#"
+              routertag="a"
+              target="_self"
+              type="button"
+              variant="success"
+            >
+              Do Something Else
+            </cbutton-stub>
+          </cjumbotron-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub>
+    <ccol-stub
+      tag="div"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <i
+            class="fa fa-align-justify"
+          />
+           
+          <strong>
+             Jumbotron 
+          </strong>
+           
+          <small>
+            variants
+          </small>
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <cjumbotron-stub
+            bordervariant="dark"
+            header="Bootstrap 4"
+            tag="div"
+            textvariant="white"
+            variant="info"
+          >
+            <p
+              class="lead"
+              slot="lead"
+            >
               
-              </p>
-               
-              <hr
-                class="c-my-4"
-              />
-               
-              <p>
-                
-                It uses utility classes for typography and spacing to space content
-                out within the larger container.
+              This is a simple hero unit, a simple jumbotron-style component for
+              calling extra attention to featured content or information.
+            
+            </p>
+             
+            <hr
+              class="my-4"
+            />
+             
+            <p>
               
-              </p>
-            </cjumbotron-stub>
-          </ccardbody-stub>
-        </ccard-stub>
-      </ccol-stub>
-    </crow-stub>
-  </div>
+              It uses utility classes for typography and spacing to space content
+              out within the larger container.
+            
+            </p>
+          </cjumbotron-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+  </crow-stub>
 </div>
 `;

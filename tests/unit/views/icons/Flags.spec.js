@@ -9,7 +9,7 @@ Vue.use(CIconPlugin)
 
 describe('Flags.vue', () => {
   it('has a name', () => {
-    expect(Flags.name).toMatch('flags')
+    expect(Flags.name).toBe('Flags')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Flags)

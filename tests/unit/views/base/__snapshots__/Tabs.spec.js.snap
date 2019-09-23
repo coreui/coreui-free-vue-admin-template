@@ -20,7 +20,7 @@ exports[`Tabs.vue renders correctly 1`] = `
           Tabs
           
           <div
-            class="c-card-header-actions"
+            class="card-header-actions"
           >
             <a
               class="card-header-action"
@@ -216,6 +216,89 @@ exports[`Tabs.vue renders correctly 1`] = `
                 <i
                   class="cui-pie-chart"
                 />
+              </template>
+              
+              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+          </ctabs-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub
+        subtitletag="h6"
+        titletag="h4"
+      >
+        <ccardheader-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          
+          Tabs with icons
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub
+          subtitletag="h6"
+          titletag="h4"
+        >
+          <ctabs-stub
+            addtabclasses="mt-1"
+            tabs="true"
+          >
+            <ctab-stub
+              active="true"
+            >
+              <template>
+                <i
+                  class="cui-calculator"
+                />
+                 Calculator
+              
+              </template>
+              
+              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <i
+                  class="cui-basket-loaded"
+                />
+                 Shopping cart
+              
+              </template>
+              
+              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <i
+                  class="cui-pie-chart"
+                />
+                 Charts
+              
               </template>
               
               3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore

@@ -11,7 +11,7 @@ Vue.use(CoreuiVue)
 
 describe('BrandButtons.vue', () => {
   it('has a name', () => {
-    expect(BrandButtons.name).toMatch('brand-buttons')
+    expect(BrandButtons.name).toBe('BrandButtons')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(BrandButtons)

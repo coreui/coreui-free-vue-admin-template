@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Popovers.vue', () => {
   it('has a name', () => {
-    expect(Popovers.name).toMatch('popovers')
+    expect(Popovers.name).toBe('Popovers')
   })
   it('has a created hook', () => {
     expect(typeof Popovers.data).toMatch('function')

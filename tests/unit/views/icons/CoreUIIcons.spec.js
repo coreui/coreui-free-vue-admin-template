@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('CoreUIIcons.vue', () => {
   it('has a name', () => {
-    expect(CoreUIIcons.name).toMatch('CoreUIIcons')
+    expect(CoreUIIcons.name).toBe('CoreUIIcons')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(CoreUIIcons)

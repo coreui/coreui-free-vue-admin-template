@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Register.vue', () => {
   it('has a name', () => {
-    expect(Register.name).toMatch('Register')
+    expect(Register.name).toBe('Register')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Register)

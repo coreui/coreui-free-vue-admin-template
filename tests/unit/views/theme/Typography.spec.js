@@ -7,7 +7,7 @@ Vue.use(CoreuiVue)
 
 describe('Typography.vue', () => {
   it('has a name', () => {
-    expect(Typography.name).toMatch('typography')
+    expect(Typography.name).toBe('Typography')
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Typography)

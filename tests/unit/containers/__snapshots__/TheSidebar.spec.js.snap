@@ -3,25 +3,22 @@
 exports[`TheSidebar.vue renders correctly 1`] = `
 <csidebar-stub
   breakpoint="lg"
-  dropdownbehaviors="closeOnInactiveRoute"
+  dropdownstateonroutechange="openActive"
   fixed="true"
   show="true"
 >
-  <csidebarheader-stub />
+  <csidebarbrand
+    fullsrc="img/brand/coreui-base-white.svg"
+    minimizedsrc="img/brand/coreui-signet-white.svg"
+    wrappedinlink="[object Object]"
+  />
    
-  <csidebarform-stub />
-   
-  <csidebarnav-stub>
-    <ctreegenerator-stub
-      components="[object Object]"
-      items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-    />
-  </csidebarnav-stub>
-   
-  <csidebarfooter-stub />
+  <crenderfunction-stub
+    contenttorender="CSidebarNav,CSidebarNavLink,[object Object],CSidebarNavTitle,Theme,CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavTitle,Components,CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDivider,CSidebarNavTitle,Extras,CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object]"
+  />
    
   <csidebarminimizer-stub
-    class="c-d-md-down-none"
+    class="d-md-down-none"
   />
 </csidebar-stub>
 `;

@@ -11,7 +11,7 @@ localVue.use(CoreuiVue)
 
 describe('Users.vue', () => {
   it('has a name', () => {
-    expect(Users.name).toMatch('Users')
+    expect(Users.name).toBe('Users')
   })
   it('has a created hook', () => {
     expect(typeof Users.data).toMatch('function')
