@@ -20,20 +20,20 @@
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <i class="cui-bell"/> Updates
-      <CBadge variant="info" additional-classes="hehe">{{ itemsCount }}</CBadge>
+      <i class="cui-bell mr-2"/> Updates
+      <CBadge variant="info" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-envelope-open" /> Messages
-      <CBadge variant="success">{{ itemsCount }}</CBadge>
+      <i class="cui-envelope-open mr-2" /> Messages
+      <CBadge variant="success" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-task" /> Tasks
-      <CBadge variant="danger">{{ itemsCount }}</CBadge>
+      <i class="cui-task mr-2" /> Tasks
+      <CBadge variant="danger" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-comment-square" /> Comments
-      <CBadge variant="warning">{{ itemsCount }}</CBadge>
+      <i class="cui-comment-square mr-2" /> Comments
+      <CBadge variant="warning" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
       tag="div"
@@ -42,25 +42,25 @@
       <strong>Settings</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <i class="cui-user" /> Profile
+      <i class="cui-user mr-2" /> Profile
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-wrench" /> Settings
+      <i class="cui-wrench mr-2" /> Settings
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-dollar" /> Payments
-      <CBadge variant="secondary">{{ itemsCount }}</CBadge>
+      <i class="cui-dollar mr-2" /> Payments
+      <CBadge variant="secondary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-file" /> Projects
-      <CBadge variant="primary">{{ itemsCount }}</CBadge>
+      <i class="cui-file mr-2" /> Projects
+      <CBadge variant="primary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
     <CDropdownItem>
-      <i class="cui-shield" /> Lock Account
+      <i class="cui-shield mr-2" /> Lock Account
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-lock-locked" /> Logout
+      <i class="cui-lock-locked mr-2" /> Logout
     </CDropdownItem>
   </CDropdown>
 </template>
