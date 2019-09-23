@@ -1,54 +1,76 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Users.vue renders correctly 1`] = `
-<brow-stub
+<b-row-stub
   tag="div"
 >
-  <bcol-stub
+  <b-col-stub
     cols="12"
     tag="div"
     xl="6"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
-      header="Users"
       headertag="div"
       name="slide"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
-      <btable-stub
+      <div
+        slot="header"
+      >
+        Users
+      </div>
+       
+      <b-table-stub
         apiurl=""
         currentpage="1"
         emptyfilteredtext="There are no records matching your request"
         emptytext="There are no records to show"
         fields="[object Object],[object Object],[object Object],[object Object],[object Object]"
-        footvariant=""
-        headvariant=""
         hover="true"
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
         labelsortasc="Click to sort Ascending"
+        labelsortclear="Click to clear sorting"
         labelsortdesc="Click to sort Descending"
         perpage="5"
         responsive="sm"
+        selectedvariant="primary"
+        selectmode="multi"
+        sortby=""
         sortdirection="asc"
         striped="true"
         value=""
       />
        
       <nav>
-        <bpagination-stub
-          hide-goto-end-buttons=""
-          next-text="Next"
+        <b-pagination-stub
+          align="left"
+          arialabel="Pagination"
+          ellipsistext="…"
+          firsttext="«"
+          hidegotoendbuttons="true"
+          labelfirstpage="Go to first page"
+          labellastpage="Go to last page"
+          labelnextpage="Go to next page"
+          labelpage="Go to page"
+          labelprevpage="Go to previous page"
+          lasttext="»"
+          limit="5"
+          nexttext="Next"
           perpage="5"
-          prev-text="Prev"
+          prevtext="Prev"
           size="sm"
           totalrows="26"
+          value="1"
         />
       </nav>
-    </bcard-stub>
-  </bcol-stub>
-</brow-stub>
+    </b-card-stub>
+  </b-col-stub>
+</b-row-stub>
 `;

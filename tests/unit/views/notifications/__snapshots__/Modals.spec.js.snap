@@ -7,133 +7,136 @@ exports[`Modals.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         cols="12"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="div"
-          header=<i class='fa fa-align-justify'></i> Bootstrap Modals
           headertag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
-          <bbutton-stub
-            activeclass="active"
+          <div
+            slot="header"
+          >
+            <i
+              class="fa fa-align-justify"
+            />
+             Bootstrap Modals
+          </div>
+           
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="secondary"
           >
             Launch demo modal
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="secondary"
           >
             Launch large modal
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="secondary"
           >
             Launch small modal
-          </bbutton-stub>
+          </b-button-stub>
            
           <hr />
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="primary"
           >
             Launch primary modal
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="success"
           >
             Launch success modal
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="warning"
           >
             Launch warning modal
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="danger"
           >
             Launch danger modal
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="info"
           >
             Launch info modal
-          </bbutton-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+          </b-button-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
   </div>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -152,9 +155,9 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -173,9 +176,9 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -194,9 +197,9 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -216,9 +219,9 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -238,9 +241,9 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -260,9 +263,9 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -282,9 +285,9 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
    
-  <bmodal-stub
+  <b-modal-stub
     buttonsize=""
     canceltitle="Cancel"
     cancelvariant="secondary"
@@ -304,6 +307,6 @@ exports[`Modals.vue renders correctly 1`] = `
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   
-  </bmodal-stub>
+  </b-modal-stub>
 </div>
 `;

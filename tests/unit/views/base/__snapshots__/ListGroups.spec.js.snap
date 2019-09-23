@@ -7,19 +7,22 @@ exports[`ListGroups.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -50,77 +53,70 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </div>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Cras justo odio
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Dapibus ac facilisis in
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Morbi leo risus
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Porta ac consectetur ac
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Vestibulum at eros
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -137,82 +133,75 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Cras justo odio
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
+            <b-list-group-item-stub
               active="true"
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Dapibus ac facilisis in
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Morbi leo risus
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Porta ac consectetur ac
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Vestibulum at eros
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -229,79 +218,72 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Cras justo odio
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Dapibus ac facilisis in
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Morbi leo risus
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Porta ac consectetur ac
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Vestibulum at eros
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -318,76 +300,71 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#some-link"
               routertag="a"
               tag="div"
               target="_self"
             >
               Awesome link
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
+            <b-list-group-item-stub
               active="true"
-              activeclass="active"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
             >
               Link with active state
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
             >
               Action links are easy
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#foobar"
               routertag="a"
               tag="div"
               target="_self"
             >
               Disabled link
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -404,71 +381,66 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Button item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               I am a button
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               button="true"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               Disabled button
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               button="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               This is a button too
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -485,14 +457,12 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -500,10 +470,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
               
               Cras justo odio
               
-              <bbadge-stub
-                activeclass="active"
+              <b-badge-stub
                 event="click"
-                exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
@@ -511,14 +479,12 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 variant="primary"
               >
                 14
-              </bbadge-stub>
-            </blistgroupitem-stub>
+              </b-badge-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -526,10 +492,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
               
               Dapibus ac facilisis in
               
-              <bbadge-stub
-                activeclass="active"
+              <b-badge-stub
                 event="click"
-                exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
@@ -537,14 +501,12 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 variant="primary"
               >
                 2
-              </bbadge-stub>
-            </blistgroupitem-stub>
+              </b-badge-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="d-flex justify-content-between align-items-center"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
@@ -552,10 +514,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
               
               Morbi leo risus
               
-              <bbadge-stub
-                activeclass="active"
+              <b-badge-stub
                 event="click"
-                exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
@@ -563,26 +523,29 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 variant="primary"
               >
                 1
-              </bbadge-stub>
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+              </b-badge-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -599,129 +562,114 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
             >
               This is a default list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="primary"
             >
               This is a primary list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="secondary"
             >
               This is a secondary list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="success"
             >
               This is a success list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="danger"
             >
               This is a danger list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="warning"
             >
               This is a warning list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="info"
             >
               This is a info list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="light"
             >
               This is a light list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
               variant="dark"
             >
               This is a dark list group item
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -738,25 +686,21 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
             >
               This is a default list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -764,12 +708,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="primary"
             >
               This is a primary list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -777,12 +719,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="secondary"
             >
               This is a secondary list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -790,12 +730,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="success"
             >
               This is a success list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -803,12 +741,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="danger"
             >
               This is a danger list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -816,12 +752,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="warning"
             >
               This is a warning list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -829,12 +763,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="info"
             >
               This is a info list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -842,12 +774,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="light"
             >
               This is a light list group item
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -855,25 +785,28 @@ exports[`ListGroups.vue renders correctly 1`] = `
               variant="dark"
             >
               This is a dark list group item
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         cols="12"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -890,58 +823,62 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <bcardgroup-stub
+          <b-card-group-stub
             deck="true"
             tag="div"
           >
-            <bcard-stub
+            <b-card-stub
               bodytag="div"
               footertag="div"
-              header=<b>Card with list group</b>
               headertag="div"
+              subtitle=""
               subtitletag="h6"
+              subtitletextvariant="muted"
               tag="div"
+              title=""
               titletag="h4"
             >
-              <blistgroup-stub
+              <div
+                slot="header"
+              >
+                <b>
+                  Card with list group
+                </b>
+              </div>
+               
+              <b-list-group-stub
                 tag="div"
               >
-                <blistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
                   target="_self"
                 >
                   Cras justo odio
-                </blistgroupitem-stub>
+                </b-list-group-item-stub>
                  
-                <blistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
                   target="_self"
                 >
                   Dapibus ac facilisis in
-                </blistgroupitem-stub>
+                </b-list-group-item-stub>
                  
-                <blistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
                   target="_self"
                 >
                   Vestibulum at eros
-                </blistgroupitem-stub>
-              </blistgroup-stub>
+                </b-list-group-item-stub>
+              </b-list-group-stub>
                
               <p
                 class="card-text mt-2"
@@ -953,62 +890,69 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 ad sit ipsum anim Lorem.
               
               </p>
-            </bcard-stub>
+            </b-card-stub>
              
-            <bcard-stub
+            <b-card-stub
               bodytag="div"
               footertag="div"
-              header=<b>Card with flush list group</b>
               headertag="div"
               nobody="true"
+              subtitle=""
               subtitletag="h6"
+              subtitletextvariant="muted"
               tag="div"
+              title=""
               titletag="h4"
             >
-              <blistgroup-stub
+              <div
+                slot="header"
+              >
+                <b>
+                  Card with flush list group
+                </b>
+              </div>
+               
+              <b-list-group-stub
                 flush="true"
                 tag="div"
               >
-                <blistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
                   target="_self"
                 >
                   Cras justo odio
-                </blistgroupitem-stub>
+                </b-list-group-item-stub>
                  
-                <blistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
                   target="_self"
                 >
                   Dapibus ac facilisis in
-                </blistgroupitem-stub>
+                </b-list-group-item-stub>
                  
-                <blistgroupitem-stub
-                  activeclass="active"
+                <b-list-group-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   tag="div"
                   target="_self"
                 >
                   Vestibulum at eros
-                </blistgroupitem-stub>
-              </blistgroup-stub>
+                </b-list-group-item-stub>
+              </b-list-group-stub>
                
-              <bcardbody-stub
+              <b-card-body-stub
                 bodytag="div"
+                subtitle=""
                 subtitletag="h6"
+                subtitletextvariant="muted"
+                title=""
                 titletag="h4"
               >
                 
@@ -1017,26 +961,29 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
                 ad sit ipsum anim Lorem.
               
-              </bcardbody-stub>
-            </bcard-stub>
-          </bcardgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+              </b-card-body-stub>
+            </b-card-stub>
+          </b-card-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         md="6"
         tag="div"
       >
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="footer"
           headertag="header"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
           <div
@@ -1053,15 +1000,13 @@ exports[`ListGroups.vue renders correctly 1`] = `
             </small>
           </div>
            
-          <blistgroup-stub
+          <b-list-group-stub
             tag="div"
           >
-            <blistgroupitem-stub
+            <b-list-group-item-stub
               active="true"
-              activeclass="active"
               class="flex-column align-items-start"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -1093,13 +1038,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
               <small>
                 Donec id elit non mi porta.
               </small>
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="flex-column align-items-start"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -1135,14 +1078,12 @@ exports[`ListGroups.vue renders correctly 1`] = `
               >
                 Donec id elit non mi porta.
               </small>
-            </blistgroupitem-stub>
+            </b-list-group-item-stub>
              
-            <blistgroupitem-stub
-              activeclass="active"
+            <b-list-group-item-stub
               class="flex-column align-items-start"
               disabled="true"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
@@ -1178,11 +1119,11 @@ exports[`ListGroups.vue renders correctly 1`] = `
               >
                 Donec id elit non mi porta.
               </small>
-            </blistgroupitem-stub>
-          </blistgroup-stub>
-        </bcard-stub>
-      </bcol-stub>
-    </brow-stub>
+            </b-list-group-item-stub>
+          </b-list-group-stub>
+        </b-card-stub>
+      </b-col-stub>
+    </b-row-stub>
   </div>
 </div>
 `;

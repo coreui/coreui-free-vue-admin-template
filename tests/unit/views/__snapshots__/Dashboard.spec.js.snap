@@ -4,35 +4,44 @@ exports[`Dashboard.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="bg-primary"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <bdropdown-stub
+          <b-dropdown-stub
             boundary="scrollParent"
             class="float-right"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -42,47 +51,39 @@ exports[`Dashboard.vue renders correctly 1`] = `
               />
             </template>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Another action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Something else here...
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Disabled action
-            </bdropdownitem-stub>
-          </bdropdown-stub>
+            </b-dropdown-item-stub>
+          </b-dropdown-stub>
            
           <h4
             class="mb-0"
@@ -93,44 +94,55 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <p>
             Members online
           </p>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
-        <cardline1chartexample-stub
+        <card-line1-chart-example-stub
           chartid="card-chart-01"
           class="chart-wrapper px-3"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="bg-info"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <bdropdown-stub
+          <b-dropdown-stub
             boundary="scrollParent"
             class="float-right"
             nocaret="true"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -140,47 +152,39 @@ exports[`Dashboard.vue renders correctly 1`] = `
               />
             </template>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Another action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Something else here...
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Disabled action
-            </bdropdownitem-stub>
-          </bdropdown-stub>
+            </b-dropdown-item-stub>
+          </b-dropdown-stub>
            
           <h4
             class="mb-0"
@@ -191,43 +195,54 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <p>
             Members online
           </p>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
-        <cardline2chartexample-stub
+        <card-line2-chart-example-stub
           chartid="card-chart-02"
           class="chart-wrapper px-3"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="bg-warning"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <bdropdown-stub
+          <b-dropdown-stub
             boundary="scrollParent"
             class="float-right"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -237,47 +252,39 @@ exports[`Dashboard.vue renders correctly 1`] = `
               />
             </template>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Another action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Something else here...
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Disabled action
-            </bdropdownitem-stub>
-          </bdropdown-stub>
+            </b-dropdown-item-stub>
+          </b-dropdown-stub>
            
           <h4
             class="mb-0"
@@ -288,43 +295,54 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <p>
             Members online
           </p>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
-        <cardline3chartexample-stub
+        <card-line3-chart-example-stub
           chartid="card-chart-03"
           class="chart-wrapper"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="bg-danger"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="pb-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <bdropdown-stub
+          <b-dropdown-stub
             boundary="scrollParent"
             class="float-right"
-            right=""
+            offset="0"
+            right="true"
             role="menu"
+            text=""
+            toggletag="button"
             toggletext="Toggle Dropdown"
             variant="transparent p-0"
           >
@@ -334,47 +352,39 @@ exports[`Dashboard.vue renders correctly 1`] = `
               />
             </template>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Another action
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Something else here...
-            </bdropdownitem-stub>
+            </b-dropdown-item-stub>
              
-            <bdropdownitem-stub
-              activeclass="active"
+            <b-dropdown-item-stub
               disabled="true"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               Disabled action
-            </bdropdownitem-stub>
-          </bdropdown-stub>
+            </b-dropdown-item-stub>
+          </b-dropdown-stub>
            
           <h4
             class="mb-0"
@@ -385,30 +395,36 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <p>
             Members online
           </p>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
-        <cardbarchartexample-stub
+        <card-bar-chart-example-stub
           chartid="card-chart-04"
           class="chart-wrapper px-3"
+          cssclasses=""
           height="70"
+          plugins=""
           style="height: 70px;"
+          width="400"
         />
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <bcard-stub
+  <b-card-stub
     bodytag="div"
     footertag="div"
     headertag="div"
+    subtitle=""
     subtitletag="h6"
+    subtitletextvariant="muted"
     tag="div"
+    title=""
     titletag="h4"
   >
-    <brow-stub
+    <b-row-stub
       tag="div"
     >
-      <bcol-stub
+      <b-col-stub
         sm="5"
         tag="div"
       >
@@ -424,19 +440,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
         >
           November 2017
         </div>
-      </bcol-stub>
+      </b-col-stub>
        
-      <bcol-stub
+      <b-col-stub
         class="d-none d-md-block"
         sm="7"
         tag="div"
       >
-        <bbutton-stub
-          activeclass="active"
+        <b-button-stub
           class="float-right"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="primary"
@@ -444,59 +459,68 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <i
             class="icon-cloud-download"
           />
-        </bbutton-stub>
+        </b-button-stub>
          
-        <bbuttontoolbar-stub
+        <b-button-toolbar-stub
           aria-label="Toolbar with buttons group"
           class="float-right"
         >
-          <bformradiogroup-stub
+          <b-form-radio-group-stub
             buttons="true"
             buttonvariant="outline-secondary"
             class="mr-3"
+            disabledfield="disabled"
+            htmlfield="html"
             id="radiosBtn"
             name="radiosBtn"
+            options=""
+            textfield="text"
+            value="Month"
+            valuefield="value"
           >
-            <bformradio-stub
+            <b-form-radio-stub
               class="mx-0"
               value="Day"
             >
               Day
-            </bformradio-stub>
+            </b-form-radio-stub>
              
-            <bformradio-stub
+            <b-form-radio-stub
               class="mx-0"
               value="Month"
             >
               Month
-            </bformradio-stub>
+            </b-form-radio-stub>
              
-            <bformradio-stub
+            <b-form-radio-stub
               class="mx-0"
               value="Year"
             >
               Year
-            </bformradio-stub>
-          </bformradiogroup-stub>
-        </bbuttontoolbar-stub>
-      </bcol-stub>
-    </brow-stub>
+            </b-form-radio-stub>
+          </b-form-radio-group-stub>
+        </b-button-toolbar-stub>
+      </b-col-stub>
+    </b-row-stub>
      
-    <mainchartexample-stub
+    <main-chart-example-stub
       chartid="main-chart-01"
       class="chart-wrapper"
+      cssclasses=""
       height="300"
+      plugins=""
       style="height: 300px; margin-top: 40px;"
+      width="400"
     />
      
     <div
       slot="footer"
     >
-      <brow-stub
+      <b-row-stub
         class="text-center"
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="mb-sm-2 mb-0"
           tag="div"
         >
@@ -510,7 +534,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             29.703 Users (40%)
           </strong>
            
-          <bprogress-stub
+          <b-progress-stub
             class="progress-xs mt-2"
             height="{}"
             max="100"
@@ -518,9 +542,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
             value="40"
             variant="success"
           />
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-sm-2 mb-0 d-md-down-none"
           tag="div"
         >
@@ -534,7 +558,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             24.093 Users (20%)
           </strong>
            
-          <bprogress-stub
+          <b-progress-stub
             class="progress-xs mt-2"
             height="{}"
             max="100"
@@ -542,9 +566,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
             value="20"
             variant="info"
           />
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-sm-2 mb-0"
           tag="div"
         >
@@ -558,7 +582,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             78.706 Views (60%)
           </strong>
            
-          <bprogress-stub
+          <b-progress-stub
             class="progress-xs mt-2"
             height="{}"
             max="100"
@@ -566,9 +590,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
             value="60"
             variant="warning"
           />
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-sm-2 mb-0"
           tag="div"
         >
@@ -582,7 +606,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             22.123 Users (80%)
           </strong>
            
-          <bprogress-stub
+          <b-progress-stub
             class="progress-xs mt-2"
             height="{}"
             max="100"
@@ -590,9 +614,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
             value="80"
             variant="danger"
           />
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="mb-sm-2 mb-0 d-md-down-none"
           tag="div"
         >
@@ -606,22 +630,22 @@ exports[`Dashboard.vue renders correctly 1`] = `
             Average Rate (40.15%)
           </strong>
            
-          <bprogress-stub
+          <b-progress-stub
             class="progress-xs mt-2"
             height="{}"
             max="100"
             precision="1"
             value="40"
           />
-        </bcol-stub>
-      </brow-stub>
+        </b-col-stub>
+      </b-row-stub>
     </div>
-  </bcard-stub>
+  </b-card-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
@@ -639,10 +663,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
               chartid="box-chart-01"
+              cssclasses=""
               data="65,59,84,84,51,55,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -679,9 +706,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
@@ -699,10 +726,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
               chartid="box-chart-02"
+              cssclasses=""
               data="1,13,9,17,34,41,38"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -739,9 +769,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
@@ -759,10 +789,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
               chartid="box-chart-03"
+              cssclasses=""
               data="78,81,80,45,34,12,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -799,9 +832,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
@@ -819,10 +852,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
               chartid="box-chart-04"
+              cssclasses=""
               data="35,23,56,22,97,23,64"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -859,37 +895,40 @@ exports[`Dashboard.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
-  </brow-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="12"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         header="Traffic & Sales"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <brow-stub
+        <b-row-stub
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             lg="6"
             sm="12"
             tag="div"
           >
-            <brow-stub
+            <b-row-stub
               tag="div"
             >
-              <bcol-stub
+              <b-col-stub
                 sm="6"
                 tag="div"
               >
@@ -913,18 +952,20 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     class="chart-wrapper"
                     style="top: -10px;"
                   >
-                    <calloutchartexample-stub
+                    <callout-chart-example-stub
                       chartid="callout-chart-01"
+                      cssclasses=""
                       data="35,23,56,22,97,23,64"
                       height="30"
+                      plugins=""
                       variant="info"
                       width="80"
                     />
                   </div>
                 </callout-stub>
-              </bcol-stub>
+              </b-col-stub>
                
-              <bcol-stub
+              <b-col-stub
                 sm="6"
                 tag="div"
               >
@@ -948,17 +989,19 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     class="chart-wrapper"
                     style="top: -10px;"
                   >
-                    <calloutchartexample-stub
+                    <callout-chart-example-stub
                       chartid="callout-chart-02"
+                      cssclasses=""
                       data="65,59,84,84,51,55,40"
                       height="30"
+                      plugins=""
                       variant="danger"
                       width="80"
                     />
                   </div>
                 </callout-stub>
-              </bcol-stub>
-            </brow-stub>
+              </b-col-stub>
+            </b-row-stub>
              
             <hr
               class="mt-0"
@@ -982,7 +1025,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="progress-group-bars"
               >
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -991,7 +1034,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 />
                  
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1020,7 +1063,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="progress-group-bars"
               >
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1029,7 +1072,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 />
                  
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1058,7 +1101,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="progress-group-bars"
               >
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1067,7 +1110,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 />
                  
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1096,7 +1139,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="progress-group-bars"
               >
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1105,7 +1148,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 />
                  
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1134,7 +1177,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="progress-group-bars"
               >
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1143,7 +1186,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 />
                  
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1172,7 +1215,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="progress-group-bars"
               >
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1181,7 +1224,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 />
                  
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1210,7 +1253,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="progress-group-bars"
               >
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1219,7 +1262,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   variant="info"
                 />
                  
-                <bprogress-stub
+                <b-progress-stub
                   class="progress-xs"
                   height="{}"
                   max="100"
@@ -1235,10 +1278,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
             >
               <small>
                 <sup>
-                  <bbadge-stub
-                    activeclass="active"
+                  <b-badge-stub
                     event="click"
-                    exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
@@ -1246,17 +1287,15 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     variant="info"
                   >
                      
-                  </bbadge-stub>
+                  </b-badge-stub>
                 </sup>
                 
                 New clients
                   
                 
                 <sup>
-                  <bbadge-stub
-                    activeclass="active"
+                  <b-badge-stub
                     event="click"
-                    exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
@@ -1264,24 +1303,24 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     variant="danger"
                   >
                      
-                  </bbadge-stub>
+                  </b-badge-stub>
                 </sup>
                 
                 Recurring clients
               
               </small>
             </div>
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             lg="6"
             sm="12"
             tag="div"
           >
-            <brow-stub
+            <b-row-stub
               tag="div"
             >
-              <bcol-stub
+              <b-col-stub
                 sm="6"
                 tag="div"
               >
@@ -1305,18 +1344,20 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     class="chart-wrapper"
                     style="top: -10px;"
                   >
-                    <calloutchartexample-stub
+                    <callout-chart-example-stub
                       chartid="callout-chart-03"
+                      cssclasses=""
                       data="35,23,56,22,97,23,64"
                       height="30"
+                      plugins=""
                       variant="#f8cb00"
                       width="80"
                     />
                   </div>
                 </callout-stub>
-              </bcol-stub>
+              </b-col-stub>
                
-              <bcol-stub
+              <b-col-stub
                 sm="6"
                 tag="div"
               >
@@ -1340,17 +1381,19 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     class="chart-wrapper"
                     style="top: -10px;"
                   >
-                    <calloutchartexample-stub
+                    <callout-chart-example-stub
                       chartid="callout-chart-04"
+                      cssclasses=""
                       data="65,59,84,84,51,55,40"
                       height="30"
+                      plugins=""
                       variant="#4dbd74"
                       width="80"
                     />
                   </div>
                 </callout-stub>
-              </bcol-stub>
-            </brow-stub>
+              </b-col-stub>
+            </b-row-stub>
              
             <hr
               class="mt-0"
@@ -1385,7 +1428,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <div
                   class="progress-group-bars"
                 >
-                  <bprogress-stub
+                  <b-progress-stub
                     class="progress-xs"
                     height="{}"
                     max="100"
@@ -1422,7 +1465,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <div
                   class="progress-group-bars"
                 >
-                  <bprogress-stub
+                  <b-progress-stub
                     class="progress-xs"
                     height="{}"
                     max="100"
@@ -1464,7 +1507,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <div
                   class="progress-group-bars"
                 >
-                  <bprogress-stub
+                  <b-progress-stub
                     class="progress-xs"
                     height="{}"
                     max="100"
@@ -1506,7 +1549,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <div
                   class="progress-group-bars"
                 >
-                  <bprogress-stub
+                  <b-progress-stub
                     class="progress-xs"
                     height="{}"
                     max="100"
@@ -1548,7 +1591,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <div
                   class="progress-group-bars"
                 >
-                  <bprogress-stub
+                  <b-progress-stub
                     class="progress-xs"
                     height="{}"
                     max="100"
@@ -1590,7 +1633,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <div
                   class="progress-group-bars"
                 >
-                  <bprogress-stub
+                  <b-progress-stub
                     class="progress-xs"
                     height="{}"
                     max="100"
@@ -1604,13 +1647,12 @@ exports[`Dashboard.vue renders correctly 1`] = `
               <div
                 class="divider text-center"
               >
-                <bbutton-stub
-                  activeclass="active"
+                <b-button-stub
                   class="text-muted"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   size="sm"
+                  tag="button"
                   target="_self"
                   type="button"
                   variant="link"
@@ -1618,40 +1660,44 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   <i
                     class="icon-options"
                   />
-                </bbutton-stub>
+                </b-button-stub>
               </div>
             </ul>
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
         <br />
          
-        <btable-stub
+        <b-table-stub
           apiurl=""
           class="mb-0 table-outline"
           currentpage="1"
           emptyfilteredtext="There are no records matching your request"
           emptytext="There are no records to show"
           fields="[object Object]"
-          footvariant=""
           headvariant="light"
           hover="true"
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
           labelsortasc="Click to sort Ascending"
+          labelsortclear="Click to clear sorting"
           labelsortdesc="Click to sort Descending"
           perpage="0"
           responsive="sm"
+          selectedvariant="primary"
+          selectmode="multi"
+          sortby=""
           sortdirection="asc"
           value=""
         >
+             
           <i
             class="flag-icon flag-icon-pw h1"
             id="pw"
             title="pw"
           />
-        </btable-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+        </b-table-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

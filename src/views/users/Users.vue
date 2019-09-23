@@ -2,7 +2,8 @@
   <b-row>
     <b-col cols="12" xl="6">
       <transition name="slide">
-      <b-card :header="caption">
+      <b-card>
+        <div slot="header" v-html="caption"></div>
         <b-table :hover="hover" :striped="striped" :bordered="bordered" :small="small" :fixed="fixed" responsive="sm" :items="items" :fields="fields" :current-page="currentPage" :per-page="perPage" @row-clicked="rowClicked">
           <template slot="id" slot-scope="data">
             <strong>{{data.item.id}}</strong>

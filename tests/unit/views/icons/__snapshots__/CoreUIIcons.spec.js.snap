@@ -7,6 +7,8 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
   <div
     class="card"
   >
+    <!---->
+    <!---->
     <div
       class="card-header"
     >
@@ -41,6 +43,8 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
     <div
       class="card-body"
     >
+      <!---->
+      <!---->
       <div
         class="row text-center"
       >
@@ -1245,6 +1249,8 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
         </div>
       </div>
     </div>
+    <!---->
+    <!---->
   </div>
 </div>
 `;

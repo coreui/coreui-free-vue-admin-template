@@ -16,6 +16,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -48,6 +49,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -131,6 +134,8 @@ exports[`Alerts.vue renders correctly 1`] = `
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -140,6 +145,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -161,6 +167,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
@@ -319,6 +327,8 @@ exports[`Alerts.vue renders correctly 1`] = `
               </div>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -328,6 +338,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -344,6 +355,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div
               aria-atomic="true"
@@ -377,6 +390,8 @@ exports[`Alerts.vue renders correctly 1`] = `
               </p>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
        
@@ -386,6 +401,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -402,12 +418,14 @@ exports[`Alerts.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <div
                 aria-atomic="true"
                 aria-live="polite"
-                class="alert alert-info alert-dismissible"
+                class="alert alert-dismissible alert-info"
                 role="alert"
               >
                 <button
@@ -434,11 +452,14 @@ exports[`Alerts.vue renders correctly 1`] = `
               </button>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
          
         <div
           class="card"
         >
+          <!---->
           <header
             class="card-header"
           >
@@ -455,6 +476,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
+            <!---->
+            <!---->
              
             <div>
               <!---->
@@ -471,6 +494,8 @@ exports[`Alerts.vue renders correctly 1`] = `
               </button>
             </div>
           </div>
+          <!---->
+          <!---->
         </div>
       </div>
     </div>

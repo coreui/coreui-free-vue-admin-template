@@ -4,20 +4,23 @@ exports[`Tabs.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -28,10 +31,10 @@ exports[`Tabs.vue renders correctly 1`] = `
         
         </div>
          
-        <btabs-stub
+        <b-tabs-stub
           tag="div"
         >
-          <btab-stub
+          <b-tab-stub
             active="true"
             buttonid=""
             href="#"
@@ -45,9 +48,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
+          </b-tab-stub>
            
-          <btab-stub
+          <b-tab-stub
             buttonid=""
             href="#"
             tag="div"
@@ -60,9 +63,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
+          </b-tab-stub>
            
-          <btab-stub
+          <b-tab-stub
             buttonid=""
             disabled="true"
             href="#"
@@ -76,22 +79,25 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
-        </btabs-stub>
-      </bcard-stub>
-    </bcol-stub>
+          </b-tab-stub>
+        </b-tabs-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -102,10 +108,10 @@ exports[`Tabs.vue renders correctly 1`] = `
         
         </div>
          
-        <btabs-stub
+        <b-tabs-stub
           tag="div"
         >
-          <btab-stub
+          <b-tab-stub
             active="true"
             buttonid=""
             href="#"
@@ -125,9 +131,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
+          </b-tab-stub>
            
-          <btab-stub
+          <b-tab-stub
             buttonid=""
             href="#"
             tag="div"
@@ -146,9 +152,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
+          </b-tab-stub>
            
-          <btab-stub
+          <b-tab-stub
             buttonid=""
             href="#"
             tag="div"
@@ -167,22 +173,25 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
-        </btabs-stub>
-      </bcard-stub>
-    </bcol-stub>
+          </b-tab-stub>
+        </b-tabs-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -193,11 +202,11 @@ exports[`Tabs.vue renders correctly 1`] = `
         
         </div>
          
-        <btabs-stub
+        <b-tabs-stub
           tag="div"
           value="0"
         >
-          <btab-stub
+          <b-tab-stub
             active="true"
             buttonid=""
             href="#"
@@ -219,9 +228,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
+          </b-tab-stub>
            
-          <btab-stub
+          <b-tab-stub
             buttonid=""
             href="#"
             tag="div"
@@ -242,9 +251,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
+          </b-tab-stub>
            
-          <btab-stub
+          <b-tab-stub
             buttonid=""
             href="#"
             tag="div"
@@ -265,22 +274,25 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-          </btab-stub>
-        </btabs-stub>
-      </bcard-stub>
-    </bcol-stub>
+          </b-tab-stub>
+        </b-tabs-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -291,16 +303,19 @@ exports[`Tabs.vue renders correctly 1`] = `
         
         </div>
          
-        <bcard-stub
+        <b-card-stub
           bodytag="div"
           footertag="div"
           headertag="div"
           nobody="true"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
           tag="div"
+          title=""
           titletag="h4"
         >
-          <btabs-stub
+          <b-tabs-stub
             card="true"
             navwrapperclass="w-40"
             pills="true"
@@ -308,7 +323,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             value="0"
             vertical="true"
           >
-            <btab-stub
+            <b-tab-stub
               active="true"
               buttonid=""
               href="#"
@@ -329,9 +344,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-            </btab-stub>
+            </b-tab-stub>
              
-            <btab-stub
+            <b-tab-stub
               buttonid=""
               href="#"
               tag="div"
@@ -351,9 +366,9 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-            </btab-stub>
+            </b-tab-stub>
              
-            <btab-stub
+            <b-tab-stub
               buttonid=""
               href="#"
               tag="div"
@@ -373,11 +388,11 @@ exports[`Tabs.vue renders correctly 1`] = `
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           
-            </btab-stub>
-          </btabs-stub>
-        </bcard-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+            </b-tab-stub>
+          </b-tabs-stub>
+        </b-card-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

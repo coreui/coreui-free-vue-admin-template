@@ -4,19 +4,22 @@ exports[`Forms.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -31,16 +34,15 @@ exports[`Forms.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <brow-stub
+        <b-row-stub
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             sm="12"
             tag="div"
           >
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 for="name"
@@ -48,25 +50,25 @@ exports[`Forms.vue renders correctly 1`] = `
                 Name
               </label>
                
-              <bforminput-stub
+              <b-form-input-stub
                 id="name"
                 placeholder="Enter your name"
                 type="text"
+                value=""
               />
-            </bformgroup-stub>
-          </bcol-stub>
-        </brow-stub>
+            </b-form-group-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             sm="12"
             tag="div"
           >
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 for="ccnumber"
@@ -74,25 +76,25 @@ exports[`Forms.vue renders correctly 1`] = `
                 Credit Card Number
               </label>
                
-              <bforminput-stub
+              <b-form-input-stub
                 id="ccnumber"
                 placeholder="0000 0000 0000 0000"
                 type="text"
+                value=""
               />
-            </bformgroup-stub>
-          </bcol-stub>
-        </brow-stub>
+            </b-form-group-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             sm="4"
             tag="div"
           >
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 for="month1"
@@ -100,22 +102,25 @@ exports[`Forms.vue renders correctly 1`] = `
                 Month
               </label>
                
-              <bformselect-stub
+              <b-form-select-stub
+                disabledfield="disabled"
+                htmlfield="html"
                 id="month1"
                 options="1,2,3,4,5,6,7,8,9,10,11,12"
                 plain="true"
                 selectsize="0"
+                textfield="text"
+                valuefield="value"
               />
-            </bformgroup-stub>
-          </bcol-stub>
+            </b-form-group-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             sm="4"
             tag="div"
           >
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 for="year1"
@@ -123,22 +128,25 @@ exports[`Forms.vue renders correctly 1`] = `
                 Year
               </label>
                
-              <bformselect-stub
+              <b-form-select-stub
+                disabledfield="disabled"
+                htmlfield="html"
                 id="year1"
                 options="2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025"
                 plain="true"
                 selectsize="0"
+                textfield="text"
+                valuefield="value"
               />
-            </bformgroup-stub>
-          </bcol-stub>
+            </b-form-group-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             sm="4"
             tag="div"
           >
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 for="cvv"
@@ -146,27 +154,31 @@ exports[`Forms.vue renders correctly 1`] = `
                 CVV/CVC
               </label>
                
-              <bforminput-stub
+              <b-form-input-stub
                 id="cvv"
                 placeholder="123"
                 type="text"
+                value=""
               />
-            </bformgroup-stub>
-          </bcol-stub>
-        </brow-stub>
-      </bcard-stub>
-    </bcol-stub>
+            </b-form-group-stub>
+          </b-col-stub>
+        </b-row-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -180,9 +192,8 @@ exports[`Forms.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
           <label
             for="company"
@@ -190,16 +201,16 @@ exports[`Forms.vue renders correctly 1`] = `
             Company
           </label>
            
-          <bforminput-stub
+          <b-form-input-stub
             id="company"
             placeholder="Enter your company name"
             type="text"
+            value=""
           />
-        </bformgroup-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
           <label
             for="vat"
@@ -207,16 +218,16 @@ exports[`Forms.vue renders correctly 1`] = `
             VAT
           </label>
            
-          <bforminput-stub
+          <b-form-input-stub
             id="vat"
             placeholder="PL1234567890"
             type="text"
+            value=""
           />
-        </bformgroup-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
           <label
             for="street"
@@ -224,23 +235,23 @@ exports[`Forms.vue renders correctly 1`] = `
             Street
           </label>
            
-          <bforminput-stub
+          <b-form-input-stub
             id="street"
             placeholder="Enter street name"
             type="text"
+            value=""
           />
-        </bformgroup-stub>
+        </b-form-group-stub>
          
-        <brow-stub
+        <b-row-stub
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             sm="8"
             tag="div"
           >
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 for="city"
@@ -248,21 +259,21 @@ exports[`Forms.vue renders correctly 1`] = `
                 City
               </label>
                
-              <bforminput-stub
+              <b-form-input-stub
                 id="city"
                 placeholder="Enter your city"
                 type="text"
+                value=""
               />
-            </bformgroup-stub>
-          </bcol-stub>
+            </b-form-group-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             sm="4"
             tag="div"
           >
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 for="postal-code"
@@ -270,18 +281,18 @@ exports[`Forms.vue renders correctly 1`] = `
                 Postal Code
               </label>
                
-              <bforminput-stub
+              <b-form-input-stub
                 id="postal-code"
                 placeholder="Postal Code"
                 type="text"
+                value=""
               />
-            </bformgroup-stub>
-          </bcol-stub>
-        </brow-stub>
+            </b-form-group-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
           <label
             for="country"
@@ -289,29 +300,33 @@ exports[`Forms.vue renders correctly 1`] = `
             Country
           </label>
            
-          <bforminput-stub
+          <b-form-input-stub
             id="country"
             placeholder="Country name"
             type="text"
+            value=""
           />
-        </bformgroup-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+        </b-form-group-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -324,329 +339,360 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bform-stub>
-          <bformgroup-stub
-            breakpoint="sm"
+        <b-form-stub>
+          <b-form-group-stub
             description="Let us know your full name."
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Enter your name"
             labelcols="3"
             labelfor="basicName"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="name"
               id="basicName"
               type="text"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Static"
             labelcols="3"
             labelfor="basicStatic"
           >
-            <bforminput-stub
+            <b-form-input-stub
               id="basicStatic"
               plaintext="true"
               type="text"
               value="Username"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
+          <b-form-group-stub
             description="This is a help text"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Text Input"
             labelcols="3"
             labelfor="basicText"
           >
-            <bforminput-stub
+            <b-form-input-stub
               id="basicText"
               placeholder="Text"
               type="text"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Date"
             labelcols="3"
             labelfor="date"
           >
-            <bforminput-stub
+            <b-form-input-stub
               id="date"
               type="date"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
+          <b-form-group-stub
             description="Please enter your email"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Email Input"
             labelcols="3"
             labelfor="basicEmail"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="email"
               id="basicEmail"
               placeholder="Enter your email"
               type="email"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
+          <b-form-group-stub
             description="Please enter a complex password"
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Password Input"
             labelcols="3"
             labelfor="basicPassword"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="current-password"
               id="basicPassword"
               placeholder="Enter your password"
               type="password"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Disabled Input"
             labelcols="3"
             labelfor="basicInputDisabled"
           >
-            <bforminput-stub
+            <b-form-input-stub
               disabled="true"
               id="basicInputDisabled"
               placeholder="Disabled"
               type="text"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Textarea"
             labelcols="3"
             labelfor="basicTextarea"
           >
-            <bforminput-stub
+            <b-form-textarea-stub
               id="basicTextarea"
               placeholder="Content.."
               rows="9"
-              textarea="true"
-              type="text"
+              value=""
+              wrap="soft"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Select"
             labelcols="3"
             labelfor="basicSelect"
           >
-            <bformselect-stub
+            <b-form-select-stub
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicSelect"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Select large"
             labelcols="3"
             labelfor="basicSelectLg"
           >
-            <bformselect-stub
+            <b-form-select-stub
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicSelectLg"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
               size="lg"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Select small"
             labelcols="3"
             labelfor="basicSelectSm"
           >
-            <bformselect-stub
+            <b-form-select-stub
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicSelectSm"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
               size="sm"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Disabled select"
             labelcols="3"
             labelfor="basicSelectDisabled"
           >
-            <bformselect-stub
+            <b-form-select-stub
               disabled="true"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicSelectDisabled"
               options="Please select,Option 1,Option 2,Option 3"
               plain="true"
               selectsize="0"
+              textfield="text"
               value="Please select"
+              valuefield="value"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Select"
             labelcols="3"
             labelfor="basicMultiSelect"
           >
-            <bformselect-stub
+            <b-form-select-stub
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicMultiSelect"
               multiple="true"
               options="[object Object],[object Object],[object Object],[object Object],[object Object]"
               plain="true"
               selectsize="0"
+              textfield="text"
               value=",c"
+              valuefield="value"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Radios"
             labelcols="3"
             labelfor="basicRadios"
           >
-            <bformradiogroup-stub
+            <b-form-radio-group-stub
               buttonvariant="secondary"
               checked="2"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicRadios"
               options="[object Object],[object Object],[object Object]"
               plain="true"
               stacked="true"
+              textfield="text"
+              valuefield="value"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Inline radios"
             labelcols="3"
             labelfor="basicInlineRadios"
           >
-            <bformradiogroup-stub
+            <b-form-radio-group-stub
               buttonvariant="secondary"
               checked="3"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicInlineRadios"
               options="[object Object],[object Object],[object Object]"
               plain="true"
+              textfield="text"
+              valuefield="value"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Checkboxes"
             labelcols="3"
             labelfor="basicCheckboxes"
           >
-            <bformcheckboxgroup-stub
+            <b-form-checkbox-group-stub
               buttonvariant="secondary"
               checked="2,3"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicCheckboxes"
               name="Checkboxes"
+              options=""
               plain="true"
               stacked="true"
+              textfield="text"
+              valuefield="value"
             >
-              <bformcheckbox-stub
+              <b-form-checkbox-stub
                 value="1"
               >
                 Option 1
-              </bformcheckbox-stub>
+              </b-form-checkbox-stub>
                
-              <bformcheckbox-stub
+              <b-form-checkbox-stub
                 value="2"
               >
                 Option 2
-              </bformcheckbox-stub>
+              </b-form-checkbox-stub>
                
-              <bformcheckbox-stub
+              <b-form-checkbox-stub
                 value="3"
               >
                 Option 3
-              </bformcheckbox-stub>
-            </bformcheckboxgroup-stub>
-          </bformgroup-stub>
+              </b-form-checkbox-stub>
+            </b-form-checkbox-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Inline checkboxes"
             labelcols="3"
             labelfor="basicInlineCheckboxes"
           >
-            <bformcheckboxgroup-stub
+            <b-form-checkbox-group-stub
               buttonvariant="secondary"
               checked="1,3"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicInlineCheckboxes"
               name="InlineCheckboxes"
+              options=""
               plain="true"
+              textfield="text"
+              valuefield="value"
             >
-              <bformcheckbox-stub
+              <b-form-checkbox-stub
                 plain="true"
                 value="1"
               >
                 Option 1
-              </bformcheckbox-stub>
+              </b-form-checkbox-stub>
                
-              <bformcheckbox-stub
+              <b-form-checkbox-stub
                 plain="true"
                 value="2"
               >
                 Option 2
-              </bformcheckbox-stub>
+              </b-form-checkbox-stub>
                
-              <bformcheckbox-stub
+              <b-form-checkbox-stub
                 plain="true"
                 value="3"
               >
                 Option 3
-              </bformcheckbox-stub>
-            </bformcheckboxgroup-stub>
-          </bformgroup-stub>
+              </b-form-checkbox-stub>
+            </b-form-checkbox-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Radios - custom"
             labelcols="3"
             labelfor="basicRadiosCustom"
           >
-            <bformradiogroup-stub
+            <b-form-radio-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicRadiosCustom"
+              options=""
               stacked="true"
+              textfield="text"
               value="1"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-radio"
@@ -705,20 +751,24 @@ exports[`Forms.vue renders correctly 1`] = `
                   Option 3
                 </label>
               </div>
-            </bformradiogroup-stub>
-          </bformgroup-stub>
+            </b-form-radio-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Inline radios - custom"
             labelcols="3"
             labelfor="basicCustomRadios1"
           >
-            <bformradiogroup-stub
+            <b-form-radio-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicCustomRadios1"
               name="customRadioInline1"
+              options=""
+              textfield="text"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-radio custom-control-inline"
@@ -777,20 +827,24 @@ exports[`Forms.vue renders correctly 1`] = `
                   Option 3
                 </label>
               </div>
-            </bformradiogroup-stub>
-          </bformgroup-stub>
+            </b-form-radio-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Checkboxes - custom"
             labelcols="3"
             labelfor="basicCustomCheckboxes"
           >
-            <bformcheckboxgroup-stub
+            <b-form-checkbox-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicCustomCheckboxes"
+              options=""
               stacked="true"
+              textfield="text"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-checkbox"
@@ -846,19 +900,23 @@ exports[`Forms.vue renders correctly 1`] = `
                   Option 3
                 </label>
               </div>
-            </bformcheckboxgroup-stub>
-          </bformgroup-stub>
+            </b-form-checkbox-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Inline checkboxes - custom"
             labelcols="3"
             labelfor="basicInlineCustomCheckboxes"
           >
-            <bformcheckboxgroup-stub
+            <b-form-checkbox-group-stub
               buttonvariant="secondary"
+              disabledfield="disabled"
+              htmlfield="html"
               id="basicInlineCustomCheckboxes"
+              options=""
+              textfield="text"
+              valuefield="value"
             >
               <div
                 class="custom-control custom-checkbox custom-control-inline"
@@ -914,47 +972,50 @@ exports[`Forms.vue renders correctly 1`] = `
                   Option 3
                 </label>
               </div>
-            </bformcheckboxgroup-stub>
-          </bformgroup-stub>
+            </b-form-checkbox-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="File input"
             labelcols="3"
             labelfor="fileInput"
           >
-            <bformfile-stub
+            <b-form-file-stub
               accept=""
+              browsetext="Browse"
+              dropplaceholder="Drop files here"
               id="fileInput"
+              placeholder="No file chosen"
               plain="true"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            horizontal="true"
+          <b-form-group-stub
+            feedbackarialive="assertive"
             label="Multiple file input"
             labelcols="3"
             labelfor="fileInputMulti"
           >
-            <bformfile-stub
+            <b-form-file-stub
               accept=""
+              browsetext="Browse"
+              dropplaceholder="Drop files here"
               id="fileInputMulti"
               multiple="true"
+              placeholder="No file chosen"
               plain="true"
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
           <div
             slot="footer"
           >
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
@@ -963,14 +1024,13 @@ exports[`Forms.vue renders correctly 1`] = `
                 class="fa fa-dot-circle-o"
               />
                Submit
-            </bbutton-stub>
+            </b-button-stub>
              
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="reset"
               variant="danger"
@@ -979,17 +1039,20 @@ exports[`Forms.vue renders correctly 1`] = `
                 class="fa fa-ban"
               />
                Reset
-            </bbutton-stub>
+            </b-button-stub>
           </div>
-        </bform-stub>
-      </bcard-stub>
+        </b-form-stub>
+      </b-card-stub>
        
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1002,7 +1065,7 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bform-stub
+        <b-form-stub
           inline="true"
         >
           <label
@@ -1012,10 +1075,11 @@ exports[`Forms.vue renders correctly 1`] = `
             Name: 
           </label>
            
-          <binput-stub
+          <b-input-stub
             id="inlineInput1"
             placeholder="Jane Doe"
             type="text"
+            value=""
           />
            
           <label
@@ -1025,23 +1089,23 @@ exports[`Forms.vue renders correctly 1`] = `
             Email: 
           </label>
            
-          <binput-stub
+          <b-input-stub
             autocomplete="email"
             id="inlineInput2"
             placeholder="jane.doe@example.com"
             type="email"
+            value=""
           />
-        </bform-stub>
+        </b-form-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -1050,14 +1114,13 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-dot-circle-o"
             />
              Submit
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1066,21 +1129,24 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-ban"
             />
              Reset
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1093,48 +1159,47 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bform-stub>
-          <bformgroup-stub
-            breakpoint="sm"
+        <b-form-stub>
+          <b-form-group-stub
             description="Please enter your email."
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Email"
             labelcols="3"
             labelfor="horizEmail"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="username email"
               id="horizEmail"
               placeholder="Enter Email.."
               type="email"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
+          <b-form-group-stub
             description="Please enter your password."
-            horizontal="true"
+            feedbackarialive="assertive"
             label="Password"
             labelcols="3"
             labelfor="horizPass"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="current-password"
               id="horizPass"
               placeholder="Enter Password.."
               type="password"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
           <div
             slot="footer"
           >
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
@@ -1143,14 +1208,13 @@ exports[`Forms.vue renders correctly 1`] = `
                 class="fa fa-dot-circle-o"
               />
                Submit
-            </bbutton-stub>
+            </b-button-stub>
              
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="reset"
               variant="danger"
@@ -1159,17 +1223,20 @@ exports[`Forms.vue renders correctly 1`] = `
                 class="fa fa-ban"
               />
                Reset
-            </bbutton-stub>
+            </b-button-stub>
           </div>
-        </bform-stub>
-      </bcard-stub>
+        </b-form-stub>
+      </b-card-stub>
        
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1182,50 +1249,49 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bform-stub>
-          <bformgroup-stub
-            breakpoint="sm"
+        <b-form-stub>
+          <b-form-group-stub
             description="Please enter your email."
+            feedbackarialive="assertive"
             label="Email"
-            labelcols="3"
             labelfor="normalEmail"
             validated="true"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="email"
               id="normalEmail"
               placeholder="Enter Email.."
-              required=""
+              required="true"
               type="email"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
+          <b-form-group-stub
             description="Please enter your password."
+            feedbackarialive="assertive"
             label="Password"
-            labelcols="3"
             labelfor="normalPass"
             validated="true"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="current-password"
               id="normalPass"
               placeholder="Enter Password.."
-              required=""
+              required="true"
               type="password"
+              value=""
             />
-          </bformgroup-stub>
+          </b-form-group-stub>
            
           <div
             slot="footer"
           >
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
@@ -1234,14 +1300,13 @@ exports[`Forms.vue renders correctly 1`] = `
                 class="fa fa-dot-circle-o"
               />
                Submit
-            </bbutton-stub>
+            </b-button-stub>
              
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="reset"
               variant="danger"
@@ -1250,19 +1315,22 @@ exports[`Forms.vue renders correctly 1`] = `
                 class="fa fa-ban"
               />
                Reset
-            </bbutton-stub>
+            </b-button-stub>
           </div>
-        </bform-stub>
-      </bcard-stub>
+        </b-form-stub>
+      </b-card-stub>
        
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         no-block="true"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1275,171 +1343,183 @@ exports[`Forms.vue renders correctly 1`] = `
           </strong>
         </div>
          
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="3"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-3"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="4"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-4"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="5"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-5"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="6"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-6"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="7"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-7"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="8"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-8"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="9"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-9"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="10"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-10"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="11"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-11"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
+            </b-col-stub>
+          </b-row-stub>
            
-          <brow-stub
+          <b-row-stub
             class="form-group"
             tag="div"
           >
-            <bcol-stub
+            <b-col-stub
               sm="12"
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder=".col-sm-12"
                 type="text"
+                value=""
               />
-            </bcol-stub>
-          </brow-stub>
-        </bcardbody-stub>
+            </b-col-stub>
+          </b-row-stub>
+        </b-card-body-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -1448,14 +1528,13 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-user"
             />
              Login
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1464,16 +1543,19 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-ban"
             />
              Reset
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
+      </b-card-stub>
        
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1486,61 +1568,60 @@ exports[`Forms.vue renders correctly 1`] = `
           </strong>
         </div>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          horizontal="true"
+        <b-form-group-stub
+          feedbackarialive="assertive"
           label="Small input"
           labelcols="5"
           labelfor="smInput"
           labelsize="sm"
         >
-          <bforminput-stub
+          <b-form-input-stub
             id="smInput"
             placeholder="size='sm'"
             size="sm"
             type="text"
+            value=""
           />
-        </bformgroup-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          horizontal="true"
+        <b-form-group-stub
+          feedbackarialive="assertive"
           label="Default input"
           labelcols="5"
           labelfor="defaultInput"
         >
-          <bforminput-stub
+          <b-form-input-stub
             id="defaultInput"
             placeholder="normal"
             type="text"
+            value=""
           />
-        </bformgroup-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          horizontal="true"
+        <b-form-group-stub
+          feedbackarialive="assertive"
           label="Large input"
           labelcols="5"
           labelfor="lgInput"
           labelsize="lg"
         >
-          <bforminput-stub
+          <b-form-input-stub
             id="lgInput"
             placeholder="size='lg'"
             size="lg"
             type="text"
+            value=""
           />
-        </bformgroup-stub>
+        </b-form-group-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
@@ -1549,14 +1630,13 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-dot-circle-o"
             />
              Submit
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1565,28 +1645,31 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-ban"
             />
              Reset
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="6"
       sm="12"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         no-block="true"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1599,15 +1682,17 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <bform-stub>
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+          <b-form-stub>
+            <b-form-group-stub
+              feedbackarialive="assertive"
               validated="true"
             >
               <label
@@ -1623,18 +1708,17 @@ exports[`Forms.vue renders correctly 1`] = `
                 type="text"
               />
                
-              <bformvalidfeedback-stub
+              <b-form-valid-feedback-stub
                 tag="div"
               >
                 
                 Input is valid.
               
-              </bformvalidfeedback-stub>
-            </bformgroup-stub>
+              </b-form-valid-feedback-stub>
+            </b-form-group-stub>
              
-            <bformgroup-stub
-              breakpoint="sm"
-              labelcols="3"
+            <b-form-group-stub
+              feedbackarialive="assertive"
             >
               <label
                 class="col-form-label"
@@ -1649,32 +1733,35 @@ exports[`Forms.vue renders correctly 1`] = `
                 type="text"
               />
                
-              <bforminvalidfeedback-stub
+              <b-form-invalid-feedback-stub
                 tag="div"
               >
                 
                 Please provide a valid information.
               
-              </bforminvalidfeedback-stub>
-            </bformgroup-stub>
-          </bform-stub>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+              </b-form-invalid-feedback-stub>
+            </b-form-group-stub>
+          </b-form-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       sm="12"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         no-block="true"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1687,84 +1774,90 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <bform-stub
+          <b-form-stub
             novalidate="true"
             validated="true"
           >
-            <bformgroup-stub
-              breakpoint="sm"
+            <b-form-group-stub
+              feedbackarialive="assertive"
               label="Non-required input"
-              labelcols="3"
               labelfor="inputSuccess2"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 class="form-control-success"
                 id="inputSuccess2"
                 type="text"
+                value=""
               />
                
-              <bformvalidfeedback-stub
+              <b-form-valid-feedback-stub
                 tag="div"
               >
                 
                 Input is not required.
               
-              </bformvalidfeedback-stub>
-            </bformgroup-stub>
+              </b-form-valid-feedback-stub>
+            </b-form-group-stub>
              
-            <bformgroup-stub
-              breakpoint="sm"
+            <b-form-group-stub
+              feedbackarialive="assertive"
               label="Required input"
-              labelcols="3"
               labelfor="inputError2"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 class="form-control-warning"
                 id="inputError2"
-                required=""
+                required="true"
                 type="text"
+                value=""
               />
                
-              <bformvalidfeedback-stub
+              <b-form-valid-feedback-stub
                 tag="div"
               >
                 
                 Input provided.
               
-              </bformvalidfeedback-stub>
+              </b-form-valid-feedback-stub>
                
-              <bforminvalidfeedback-stub
+              <b-form-invalid-feedback-stub
                 tag="div"
               >
                 
                 Please provide a required input.
               
-              </bforminvalidfeedback-stub>
-            </bformgroup-stub>
-          </bform-stub>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+              </b-form-invalid-feedback-stub>
+            </b-form-group-stub>
+          </b-form-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
-      sm="4"
+    <b-col-stub
+      md="4"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1777,106 +1870,103 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <binputgroupprepend-stub
+            <b-input-group-prepend-stub
               tag="div"
             >
-              <binputgrouptext-stub
+              <b-input-group-text-stub
                 tag="div"
               >
                 <i
                   class="fa fa-user"
                 />
-              </binputgrouptext-stub>
-            </binputgroupprepend-stub>
+              </b-input-group-text-stub>
+            </b-input-group-prepend-stub>
              
-            <bforminput-stub
+            <b-form-input-stub
               placeholder="Username"
               type="text"
+              value=""
             />
-          </binputgroup-stub>
-        </bformgroup-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="email"
               placeholder="Email"
               type="email"
+              value=""
             />
              
-            <binputgroupappend-stub
-              append="true"
+            <b-input-group-append-stub
               tag="div"
             >
-              <binputgrouptext-stub
+              <b-input-group-text-stub
                 tag="div"
               >
                 <i
                   class="fa fa-envelope-o"
                 />
-              </binputgrouptext-stub>
-            </binputgroupappend-stub>
-          </binputgroup-stub>
-        </bformgroup-stub>
+              </b-input-group-text-stub>
+            </b-input-group-append-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <binputgroupprepend-stub
+            <b-input-group-prepend-stub
               tag="div"
             >
-              <binputgrouptext-stub
+              <b-input-group-text-stub
                 tag="div"
               >
                 <i
                   class="fa fa-euro"
                 />
-              </binputgrouptext-stub>
-            </binputgroupprepend-stub>
+              </b-input-group-text-stub>
+            </b-input-group-prepend-stub>
              
-            <bforminput-stub
+            <b-form-input-stub
               placeholder="ex. $1.000.000"
               type="text"
+              value=""
             />
              
-            <binputgroupappend-stub
-              append="true"
+            <b-input-group-append-stub
               tag="div"
             >
-              <binputgrouptext-stub
+              <b-input-group-text-stub
                 tag="div"
               >
                 .00
-              </binputgrouptext-stub>
-            </binputgroupappend-stub>
-          </binputgroup-stub>
-        </bformgroup-stub>
+              </b-input-group-text-stub>
+            </b-input-group-append-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="success"
@@ -1885,14 +1975,13 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-dot-circle-o"
             />
              Submit
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -1901,21 +1990,24 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-ban"
             />
              Reset
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
-      sm="4"
+    <b-col-stub
+      md="4"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1928,21 +2020,19 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <binputgroupprepend-stub
+            <b-input-group-prepend-stub
               tag="div"
             >
-              <bbutton-stub
-                activeclass="active"
+              <b-button-stub
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -1952,63 +2042,60 @@ exports[`Forms.vue renders correctly 1`] = `
                 />
                  Search
               
-              </bbutton-stub>
-            </binputgroupprepend-stub>
+              </b-button-stub>
+            </b-input-group-prepend-stub>
              
-            <bforminput-stub
+            <b-form-input-stub
               placeholder="Username"
               type="text"
+              value=""
             />
-          </binputgroup-stub>
-        </bformgroup-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="email"
               placeholder="Email"
               type="email"
+              value=""
             />
              
-            <binputgroupappend-stub
-              append="true"
+            <b-input-group-append-stub
               tag="div"
             >
-              <bbutton-stub
-                activeclass="active"
+              <b-button-stub
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
               >
                 Submit
-              </bbutton-stub>
-            </binputgroupappend-stub>
-          </binputgroup-stub>
-        </bformgroup-stub>
+              </b-button-stub>
+            </b-input-group-append-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <binputgroupprepend-stub
+            <b-input-group-prepend-stub
               tag="div"
             >
-              <bbutton-stub
-                activeclass="active"
+              <b-button-stub
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -2016,24 +2103,23 @@ exports[`Forms.vue renders correctly 1`] = `
                 <i
                   class="fa fa-facebook"
                 />
-              </bbutton-stub>
-            </binputgroupprepend-stub>
+              </b-button-stub>
+            </b-input-group-prepend-stub>
              
-            <bforminput-stub
+            <b-form-input-stub
               autocomplete="email"
               placeholder="Email"
               type="email"
+              value=""
             />
              
-            <binputgroupappend-stub
-              append="true"
+            <b-input-group-append-stub
               tag="div"
             >
-              <bbutton-stub
-                activeclass="active"
+              <b-button-stub
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="primary"
@@ -2041,20 +2127,19 @@ exports[`Forms.vue renders correctly 1`] = `
                 <i
                   class="fa fa-twitter"
                 />
-              </bbutton-stub>
-            </binputgroupappend-stub>
-          </binputgroup-stub>
-        </bformgroup-stub>
+              </b-button-stub>
+            </b-input-group-append-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="success"
@@ -2063,14 +2148,13 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-dot-circle-o"
             />
              Submit
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -2079,21 +2163,24 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-ban"
             />
              Reset
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
-      sm="4"
+    <b-col-stub
+      md="4"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2106,277 +2193,250 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <binputgroupprepend-stub
+            <b-input-group-prepend-stub
               tag="div"
             >
-              <bdropdown-stub
+              <b-dropdown-stub
                 boundary="scrollParent"
+                offset="0"
                 role="menu"
                 text="Action"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Another action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Something else here...
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Disabled action
-                </bdropdownitem-stub>
-              </bdropdown-stub>
-            </binputgroupprepend-stub>
+                </b-dropdown-item-stub>
+              </b-dropdown-stub>
+            </b-input-group-prepend-stub>
              
-            <bforminput-stub
+            <b-form-input-stub
               placeholder="Username"
               type="text"
+              value=""
             />
-          </binputgroup-stub>
-        </bformgroup-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder="Email"
               type="text"
+              value=""
             />
              
-            <binputgroupappend-stub
-              append="true"
+            <b-input-group-append-stub
               tag="div"
             >
-              <bdropdown-stub
+              <b-dropdown-stub
                 boundary="scrollParent"
-                right=""
+                offset="0"
+                right="true"
                 role="menu"
                 text="Action"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Another action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Something else here...
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Disabled action
-                </bdropdownitem-stub>
-              </bdropdown-stub>
-            </binputgroupappend-stub>
-          </binputgroup-stub>
-        </bformgroup-stub>
+                </b-dropdown-item-stub>
+              </b-dropdown-stub>
+            </b-input-group-append-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
-        <bformgroup-stub
-          breakpoint="sm"
-          labelcols="3"
+        <b-form-group-stub
+          feedbackarialive="assertive"
         >
-          <binputgroup-stub
+          <b-input-group-stub
             tag="div"
           >
-            <binputgroupprepend-stub
+            <b-input-group-prepend-stub
               tag="div"
             >
-              <bdropdown-stub
+              <b-dropdown-stub
                 boundary="scrollParent"
+                offset="0"
                 role="menu"
                 split="true"
                 text="Split"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
                 >
                   Action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
                 >
                   Another action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   href="#"
                   routertag="a"
                   target="_self"
                 >
                   Something else here...
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Disabled action
-                </bdropdownitem-stub>
-              </bdropdown-stub>
-            </binputgroupprepend-stub>
+                </b-dropdown-item-stub>
+              </b-dropdown-stub>
+            </b-input-group-prepend-stub>
              
-            <bforminput-stub
+            <b-form-input-stub
               placeholder="..."
               type="text"
+              value=""
             />
              
-            <binputgroupappend-stub
-              append="true"
+            <b-input-group-append-stub
               tag="div"
             >
-              <bdropdown-stub
+              <b-dropdown-stub
                 boundary="scrollParent"
-                right=""
+                offset="0"
+                right="true"
                 role="menu"
                 text="Action"
+                toggletag="button"
                 toggletext="Toggle Dropdown"
                 variant="primary"
               >
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Another action
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Something else here...
-                </bdropdownitem-stub>
+                </b-dropdown-item-stub>
                  
-                <bdropdownitem-stub
-                  activeclass="active"
+                <b-dropdown-item-stub
                   disabled="true"
                   event="click"
-                  exactactiveclass="active"
                   routertag="a"
                   target="_self"
                 >
                   Disabled action
-                </bdropdownitem-stub>
-              </bdropdown-stub>
-            </binputgroupappend-stub>
-          </binputgroup-stub>
-        </bformgroup-stub>
+                </b-dropdown-item-stub>
+              </b-dropdown-stub>
+            </b-input-group-append-stub>
+          </b-input-group-stub>
+        </b-form-group-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="success"
@@ -2385,14 +2445,13 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-dot-circle-o"
             />
              Submit
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="reset"
             variant="danger"
@@ -2401,25 +2460,28 @@ exports[`Forms.vue renders correctly 1`] = `
               class="fa fa-ban"
             />
              Reset
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2442,210 +2504,220 @@ exports[`Forms.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             md="8"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-8"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             md="4"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-4"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             md="7"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-7"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             md="5"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-5"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             md="6"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-6"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             md="6"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-6"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             md="5"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-5"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             md="7"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-7"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             md="4"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-4"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             md="8"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-md-8"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="danger"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="btn btn-sm btn-warning"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="btn btn-sm btn-info"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="success"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2660,214 +2732,224 @@ exports[`Forms.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             cols="4"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-4"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             cols="8"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-8"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             cols="5"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-5"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             cols="7"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-7"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             cols="6"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-6"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             cols="6"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-6"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             cols="7"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-5"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             cols="5"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-5"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
-        <brow-stub
+        <b-row-stub
           class="form-group"
           tag="div"
         >
-          <bcol-stub
+          <b-col-stub
             cols="8"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-8"
               type="text"
+              value=""
             />
-          </bcol-stub>
+          </b-col-stub>
            
-          <bcol-stub
+          <b-col-stub
             cols="4"
             tag="div"
           >
-            <bforminput-stub
+            <b-form-input-stub
               placeholder=".col-4"
               type="text"
+              value=""
             />
-          </bcol-stub>
-        </brow-stub>
+          </b-col-stub>
+        </b-row-stub>
          
         <div
           slot="footer"
         >
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="submit"
             variant="primary"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="danger"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="btn btn-sm btn-warning"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             class="btn btn-sm btn-info"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
            
-          <bbutton-stub
-            activeclass="active"
+          <b-button-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             size="sm"
+            tag="button"
             target="_self"
             type="button"
             variant="success"
           >
             Action
-          </bbutton-stub>
+          </b-button-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
-      sm="4"
+    <b-col-stub
+      md="4"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2878,147 +2960,146 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bform-stub>
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+        <b-form-stub>
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <binputgroupprepend-stub
+              <b-input-group-prepend-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   Username
-                </binputgrouptext-stub>
-              </binputgroupprepend-stub>
+                </b-input-group-text-stub>
+              </b-input-group-prepend-stub>
                
-              <bforminput-stub
+              <b-form-input-stub
                 type="text"
+                value=""
               />
                
-              <binputgroupappend-stub
-                append="true"
+              <b-input-group-append-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-user"
                   />
-                </binputgrouptext-stub>
-              </binputgroupappend-stub>
-            </binputgroup-stub>
-          </bformgroup-stub>
+                </b-input-group-text-stub>
+              </b-input-group-append-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <binputgroupprepend-stub
+              <b-input-group-prepend-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   Email
-                </binputgrouptext-stub>
-              </binputgroupprepend-stub>
+                </b-input-group-text-stub>
+              </b-input-group-prepend-stub>
                
-              <bforminput-stub
+              <b-form-input-stub
                 autocomplete="email"
                 type="email"
+                value=""
               />
                
-              <binputgroupappend-stub
-                append="true"
+              <b-input-group-append-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-envelope"
                   />
-                </binputgrouptext-stub>
-              </binputgroupappend-stub>
-            </binputgroup-stub>
-          </bformgroup-stub>
+                </b-input-group-text-stub>
+              </b-input-group-append-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <binputgroupprepend-stub
+              <b-input-group-prepend-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   Password
-                </binputgrouptext-stub>
-              </binputgroupprepend-stub>
+                </b-input-group-text-stub>
+              </b-input-group-prepend-stub>
                
-              <bforminput-stub
+              <b-form-input-stub
                 autocomplete="current-password"
                 type="password"
+                value=""
               />
                
-              <binputgroupappend-stub
-                append="true"
+              <b-input-group-append-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-asterisk"
                   />
-                </binputgrouptext-stub>
-              </binputgroupappend-stub>
-            </binputgroup-stub>
-          </bformgroup-stub>
+                </b-input-group-text-stub>
+              </b-input-group-append-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
           <div
             class="form-group form-actions"
           >
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="primary"
             >
               Submit
-            </bbutton-stub>
+            </b-button-stub>
           </div>
-        </bform-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-form-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
-      sm="4"
+    <b-col-stub
+      md="4"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3029,119 +3110,119 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bform-stub>
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+        <b-form-stub>
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder="Username"
                 type="text"
+                value=""
               />
                
-              <binputgroupappend-stub
-                append="true"
+              <b-input-group-append-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-user"
                   />
-                </binputgrouptext-stub>
-              </binputgroupappend-stub>
-            </binputgroup-stub>
-          </bformgroup-stub>
+                </b-input-group-text-stub>
+              </b-input-group-append-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 autocomplete="email"
                 placeholder="Email"
                 type="email"
+                value=""
               />
                
-              <binputgroupappend-stub
-                append="true"
+              <b-input-group-append-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-envelope"
                   />
-                </binputgrouptext-stub>
-              </binputgroupappend-stub>
-            </binputgroup-stub>
-          </bformgroup-stub>
+                </b-input-group-text-stub>
+              </b-input-group-append-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <bforminput-stub
+              <b-form-input-stub
                 autocomplete="current-password"
                 placeholder="Password"
                 type="password"
+                value=""
               />
                
-              <binputgroupappend-stub
-                append="true"
+              <b-input-group-append-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-asterisk"
                   />
-                </binputgrouptext-stub>
-              </binputgroupappend-stub>
-            </binputgroup-stub>
-          </bformgroup-stub>
+                </b-input-group-text-stub>
+              </b-input-group-append-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
           <div
             class="form-group form-actions"
           >
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               class="btn btn-sm btn-secondary"
               event="click"
-              exactactiveclass="active"
               routertag="a"
+              tag="button"
               target="_self"
               type="submit"
+              variant="secondary"
             >
               Submit
-            </bbutton-stub>
+            </b-button-stub>
           </div>
-        </bform-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-form-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
-      sm="4"
+    <b-col-stub
+      md="4"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3152,123 +3233,125 @@ exports[`Forms.vue renders correctly 1`] = `
         
         </div>
          
-        <bform-stub>
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+        <b-form-stub>
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <binputgroupprepend-stub
+              <b-input-group-prepend-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-user"
                   />
-                </binputgrouptext-stub>
-              </binputgroupprepend-stub>
+                </b-input-group-text-stub>
+              </b-input-group-prepend-stub>
                
-              <bforminput-stub
+              <b-form-input-stub
                 placeholder="Username"
                 type="text"
+                value=""
               />
-            </binputgroup-stub>
-          </bformgroup-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <binputgroupprepend-stub
+              <b-input-group-prepend-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-envelope"
                   />
-                </binputgrouptext-stub>
-              </binputgroupprepend-stub>
+                </b-input-group-text-stub>
+              </b-input-group-prepend-stub>
                
-              <bforminput-stub
+              <b-form-input-stub
                 autocomplete="email"
                 placeholder="Email"
                 type="email"
+                value=""
               />
-            </binputgroup-stub>
-          </bformgroup-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
-          <bformgroup-stub
-            breakpoint="sm"
-            labelcols="3"
+          <b-form-group-stub
+            feedbackarialive="assertive"
           >
-            <binputgroup-stub
+            <b-input-group-stub
               tag="div"
             >
-              <binputgroupprepend-stub
+              <b-input-group-prepend-stub
                 tag="div"
               >
-                <binputgrouptext-stub
+                <b-input-group-text-stub
                   tag="div"
                 >
                   <i
                     class="fa fa-asterisk"
                   />
-                </binputgrouptext-stub>
-              </binputgroupprepend-stub>
+                </b-input-group-text-stub>
+              </b-input-group-prepend-stub>
                
-              <bforminput-stub
+              <b-form-input-stub
                 autocomplete="current-password"
                 placeholder="Password"
                 type="password"
+                value=""
               />
-            </binputgroup-stub>
-          </bformgroup-stub>
+            </b-input-group-stub>
+          </b-form-group-stub>
            
           <div
             class="form-group form-actions"
           >
-            <bbutton-stub
-              activeclass="active"
+            <b-button-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
               size="sm"
+              tag="button"
               target="_self"
               type="submit"
               variant="success"
             >
               Submit
-            </bbutton-stub>
+            </b-button-stub>
           </div>
-        </bform-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+        </b-form-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="12"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         name="fade"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3282,11 +3365,9 @@ exports[`Forms.vue renders correctly 1`] = `
           <div
             class="card-header-actions"
           >
-            <blink-stub
-              activeclass="active"
+            <b-link-stub
               class="card-header-action btn-setting"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               target="_self"
@@ -3294,26 +3375,22 @@ exports[`Forms.vue renders correctly 1`] = `
               <i
                 class="icon-settings"
               />
-            </blink-stub>
+            </b-link-stub>
              
-            <blink-stub
-              activeclass="active"
+            <b-link-stub
               class="card-header-action btn-minimize"
               event="click"
-              exactactiveclass="active"
               routertag="a"
               target="_self"
             >
               <i
                 class="icon-arrow-up"
               />
-            </blink-stub>
+            </b-link-stub>
              
-            <blink-stub
-              activeclass="active"
+            <b-link-stub
               class="card-header-action btn-close"
               event="click"
-              exactactiveclass="active"
               href="#"
               routertag="a"
               target="_self"
@@ -3321,224 +3398,218 @@ exports[`Forms.vue renders correctly 1`] = `
               <i
                 class="icon-close"
               />
-            </blink-stub>
+            </b-link-stub>
           </div>
         </div>
          
-        <bcollapse-stub
+        <b-collapse-stub
           id="collapse1"
           tag="div"
           visible="true"
         >
-          <bcardbody-stub
+          <b-card-body-stub
             bodytag="div"
+            subtitle=""
             subtitletag="h6"
+            subtitletextvariant="muted"
+            title=""
             titletag="h4"
           >
-            <bformgroup-stub
-              breakpoint="sm"
+            <b-form-group-stub
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Prepended text"
-              labelcols="3"
               labelfor="elementsEmail"
             >
-              <binputgroup-stub
+              <b-input-group-stub
                 tag="div"
               >
-                <binputgroupprepend-stub
+                <b-input-group-prepend-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     @
-                  </binputgrouptext-stub>
-                </binputgroupprepend-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-prepend-stub>
                  
-                <bforminput-stub
+                <b-form-input-stub
                   autocomplete="email"
                   id="elementsEmail"
                   type="email"
+                  value=""
                 />
-              </binputgroup-stub>
-            </bformgroup-stub>
+              </b-input-group-stub>
+            </b-form-group-stub>
              
-            <bformgroup-stub
-              breakpoint="sm"
+            <b-form-group-stub
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Appended text"
-              labelcols="3"
               labelfor="elementsAppend"
             >
-              <binputgroup-stub
+              <b-input-group-stub
                 tag="div"
               >
-                <bforminput-stub
+                <b-form-input-stub
                   id="elementsAppend"
                   type="text"
+                  value=""
                 />
                  
-                <binputgroupappend-stub
-                  append="true"
+                <b-input-group-append-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     .00
-                  </binputgrouptext-stub>
-                </binputgroupappend-stub>
-              </binputgroup-stub>
-            </bformgroup-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-append-stub>
+              </b-input-group-stub>
+            </b-form-group-stub>
              
-            <bformgroup-stub
-              breakpoint="sm"
+            <b-form-group-stub
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Append and prepend"
-              labelcols="3"
               labelfor="elementsPrependAppend"
             >
-              <binputgroup-stub
+              <b-input-group-stub
                 tag="div"
               >
-                <binputgroupprepend-stub
+                <b-input-group-prepend-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     $
-                  </binputgrouptext-stub>
-                </binputgroupprepend-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-prepend-stub>
                  
-                <bforminput-stub
+                <b-form-input-stub
                   id="elementsPrependAppend"
                   type="text"
+                  value=""
                 />
                  
-                <binputgroupappend-stub
-                  append="true"
+                <b-input-group-append-stub
                   tag="div"
                 >
-                  <binputgrouptext-stub
+                  <b-input-group-text-stub
                     tag="div"
                   >
                     .00
-                  </binputgrouptext-stub>
-                </binputgroupappend-stub>
-              </binputgroup-stub>
-            </bformgroup-stub>
+                  </b-input-group-text-stub>
+                </b-input-group-append-stub>
+              </b-input-group-stub>
+            </b-form-group-stub>
              
-            <bformgroup-stub
-              breakpoint="sm"
+            <b-form-group-stub
               description="Here's some help text"
+              feedbackarialive="assertive"
               label="Append with button"
-              labelcols="3"
               labelfor="elementsAppendButton"
             >
-              <binputgroup-stub
+              <b-input-group-stub
                 tag="div"
               >
-                <bforminput-stub
+                <b-form-input-stub
                   id="elementsAppendButton"
                   type="text"
+                  value=""
                 />
                  
-                <binputgroupappend-stub
-                  append="true"
+                <b-input-group-append-stub
                   tag="div"
                 >
-                  <bbutton-stub
-                    activeclass="active"
+                  <b-button-stub
                     event="click"
-                    exactactiveclass="active"
                     routertag="a"
+                    tag="button"
                     target="_self"
                     type="button"
                     variant="primary"
                   >
                     Go!
-                  </bbutton-stub>
-                </binputgroupappend-stub>
-              </binputgroup-stub>
-            </bformgroup-stub>
+                  </b-button-stub>
+                </b-input-group-append-stub>
+              </b-input-group-stub>
+            </b-form-group-stub>
              
-            <bformgroup-stub
-              breakpoint="sm"
+            <b-form-group-stub
+              feedbackarialive="assertive"
               label="Two-buttons append"
-              labelcols="3"
               labelfor="elementsTwoButtons"
             >
-              <binputgroup-stub
+              <b-input-group-stub
                 tag="div"
               >
-                <bforminput-stub
+                <b-form-input-stub
                   id="elementsTwoButtons"
                   type="text"
+                  value=""
                 />
                  
-                <binputgroupappend-stub
-                  append="true"
+                <b-input-group-append-stub
                   tag="div"
                 >
-                  <bbutton-stub
-                    activeclass="active"
+                  <b-button-stub
                     event="click"
-                    exactactiveclass="active"
                     routertag="a"
+                    tag="button"
                     target="_self"
                     type="button"
                     variant="primary"
                   >
                     Search
-                  </bbutton-stub>
+                  </b-button-stub>
                    
-                  <bbutton-stub
-                    activeclass="active"
+                  <b-button-stub
                     event="click"
-                    exactactiveclass="active"
                     routertag="a"
+                    tag="button"
                     target="_self"
                     type="button"
                     variant="danger"
                   >
                     Options
-                  </bbutton-stub>
-                </binputgroupappend-stub>
-              </binputgroup-stub>
-            </bformgroup-stub>
+                  </b-button-stub>
+                </b-input-group-append-stub>
+              </b-input-group-stub>
+            </b-form-group-stub>
              
             <div
               class="form-actions"
             >
-              <bbutton-stub
-                activeclass="active"
+              <b-button-stub
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="submit"
                 variant="primary"
               >
                 Save changes
-              </bbutton-stub>
+              </b-button-stub>
                
-              <bbutton-stub
-                activeclass="active"
+              <b-button-stub
                 event="click"
-                exactactiveclass="active"
                 routertag="a"
+                tag="button"
                 target="_self"
                 type="button"
                 variant="secondary"
               >
                 Cancel
-              </bbutton-stub>
+              </b-button-stub>
             </div>
-          </bcardbody-stub>
-        </bcollapse-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+          </b-card-body-stub>
+        </b-collapse-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

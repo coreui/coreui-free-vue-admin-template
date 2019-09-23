@@ -4,20 +4,23 @@ exports[`Widgets.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -30,7 +33,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs my-3"
           height="{}"
           max="100"
@@ -44,20 +47,23 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -70,7 +76,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs my-3"
           height="{}"
           max="100"
@@ -84,20 +90,23 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -110,7 +119,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs my-3"
           height="{}"
           max="100"
@@ -124,20 +133,23 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -150,7 +162,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs my-3"
           height="{}"
           max="100"
@@ -164,25 +176,28 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-primary"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -195,7 +210,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs my-3"
           height="{}"
           max="100"
@@ -208,21 +223,24 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-warning"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -235,7 +253,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs my-3"
           height="{}"
           max="100"
@@ -248,21 +266,24 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-danger"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -275,7 +296,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs my-3"
           height="{}"
           max="100"
@@ -288,21 +309,24 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-info"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -315,7 +339,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Lorem ipsum...
         </div>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs my-3"
           height="{}"
           max="100"
@@ -328,32 +352,38 @@ exports[`Widgets.vue renders correctly 1`] = `
         >
           Lorem ipsum dolor sit amet enim.
         </small>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -371,29 +401,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -411,29 +447,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -451,29 +493,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -491,30 +539,36 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footerclass="px-3 py-2"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -532,16 +586,14 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
         <div
           slot="footer"
         >
-          <blink-stub
-            activeclass="active"
+          <b-link-stub
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -550,31 +602,37 @@ exports[`Widgets.vue renders correctly 1`] = `
             <i
               class="fa fa-angle-right float-right font-lg"
             />
-          </blink-stub>
+          </b-link-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footerclass="px-3 py-2"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -592,16 +650,14 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
         <div
           slot="footer"
         >
-          <blink-stub
-            activeclass="active"
+          <b-link-stub
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -610,31 +666,37 @@ exports[`Widgets.vue renders correctly 1`] = `
             <i
               class="fa fa-angle-right float-right font-lg"
             />
-          </blink-stub>
+          </b-link-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footerclass="px-3 py-2"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -652,16 +714,14 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
         <div
           slot="footer"
         >
-          <blink-stub
-            activeclass="active"
+          <b-link-stub
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -670,31 +730,37 @@ exports[`Widgets.vue renders correctly 1`] = `
             <i
               class="fa fa-angle-right float-right font-lg"
             />
-          </blink-stub>
+          </b-link-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footerclass="px-3 py-2"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-3 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -712,16 +778,14 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
+        </b-card-body-stub>
          
         <div
           slot="footer"
         >
-          <blink-stub
-            activeclass="active"
+          <b-link-stub
             class="font-weight-bold font-xs btn-block text-muted"
             event="click"
-            exactactiveclass="active"
             href="#"
             routertag="a"
             target="_self"
@@ -730,34 +794,40 @@ exports[`Widgets.vue renders correctly 1`] = `
             <i
               class="fa fa-angle-right float-right font-lg"
             />
-          </blink-stub>
+          </b-link-stub>
         </div>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -775,29 +845,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -815,29 +891,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -855,29 +937,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -895,29 +983,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -935,29 +1029,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -975,29 +1075,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -1015,29 +1121,35 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       cols="12"
       lg="3"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0 clearfix"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
           <i
@@ -1055,15 +1167,15 @@ exports[`Widgets.vue renders correctly 1`] = `
           >
             Income
           </div>
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="3"
       sm="6"
       tag="div"
@@ -1081,9 +1193,13 @@ exports[`Widgets.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="65,59,84,84,51,55,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1120,9 +1236,9 @@ exports[`Widgets.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="3"
       sm="6"
       tag="div"
@@ -1140,9 +1256,13 @@ exports[`Widgets.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="1,13,9,17,34,41,38"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1179,9 +1299,9 @@ exports[`Widgets.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="3"
       sm="6"
       tag="div"
@@ -1199,9 +1319,13 @@ exports[`Widgets.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="78,81,80,45,34,12,40"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1238,9 +1362,9 @@ exports[`Widgets.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="3"
       sm="6"
       tag="div"
@@ -1258,9 +1382,13 @@ exports[`Widgets.vue renders correctly 1`] = `
           <div
             class="chart-wrapper"
           >
-            <socialboxchartexample-stub
+            <social-box-chart-example-stub
+              chartid="line-chart"
+              cssclasses=""
               data="35,23,56,22,97,23,64"
               height="100"
+              plugins=""
+              width="400"
             />
           </div>
         </div>
@@ -1297,19 +1425,22 @@ exports[`Widgets.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcol-stub>
-  </brow-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <bcardgroup-stub
+  <b-card-group-stub
     class="mb-4"
     tag="div"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1332,7 +1463,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         Visitors
       </small>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs mt-3 mb-0"
         height="{}"
         max="100"
@@ -1340,14 +1471,17 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
         variant="info"
       />
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1370,7 +1504,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         New Clients
       </small>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs mt-3 mb-0"
         height="{}"
         max="100"
@@ -1378,14 +1512,17 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
         variant="success"
       />
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1408,7 +1545,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         Products sold
       </small>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs mt-3 mb-0"
         height="{}"
         max="100"
@@ -1416,14 +1553,17 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
         variant="warning"
       />
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1446,21 +1586,24 @@ exports[`Widgets.vue renders correctly 1`] = `
         Returning Visitors
       </small>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs mt-3 mb-0"
         height="{}"
         max="100"
         precision="0"
         value="25"
       />
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
       headertag="div"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -1483,7 +1626,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         Avg. Time
       </small>
        
-      <bprogress-stub
+      <b-progress-stub
         class="progress-xs mt-3 mb-0"
         height="{}"
         max="100"
@@ -1491,23 +1634,26 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
         variant="danger"
       />
-    </bcard-stub>
-  </bcardgroup-stub>
+    </b-card-stub>
+  </b-card-group-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1530,7 +1676,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Visitors
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs mt-3 mb-0"
           height="{}"
           max="100"
@@ -1538,20 +1684,23 @@ exports[`Widgets.vue renders correctly 1`] = `
           value="25"
           variant="info"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1574,7 +1723,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           New Clients
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs mt-3 mb-0"
           height="{}"
           max="100"
@@ -1582,20 +1731,23 @@ exports[`Widgets.vue renders correctly 1`] = `
           value="25"
           variant="success"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1618,7 +1770,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Products sold
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs mt-3 mb-0"
           height="{}"
           max="100"
@@ -1626,20 +1778,23 @@ exports[`Widgets.vue renders correctly 1`] = `
           value="25"
           variant="warning"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1662,27 +1817,30 @@ exports[`Widgets.vue renders correctly 1`] = `
           Returning Visitors
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs mt-3 mb-0"
           height="{}"
           max="100"
           precision="0"
           value="25"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1705,7 +1863,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Avg. Time
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs mt-3 mb-0"
           height="{}"
           max="100"
@@ -1713,20 +1871,23 @@ exports[`Widgets.vue renders correctly 1`] = `
           value="25"
           variant="danger"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1749,7 +1910,7 @@ exports[`Widgets.vue renders correctly 1`] = `
           Comments
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-xs mt-3 mb-0"
           height="{}"
           max="100"
@@ -1757,25 +1918,28 @@ exports[`Widgets.vue renders correctly 1`] = `
           value="25"
           variant="info"
         />
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
    
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-info"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1798,28 +1962,31 @@ exports[`Widgets.vue renders correctly 1`] = `
           Visitors
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs mt-3"
           height="{}"
           max="100"
           precision="0"
           value="25"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-success"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1842,28 +2009,31 @@ exports[`Widgets.vue renders correctly 1`] = `
           New Clients
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs mt-3"
           height="{}"
           max="100"
           precision="0"
           value="25"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-warning"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1886,28 +2056,31 @@ exports[`Widgets.vue renders correctly 1`] = `
           Products sold
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs mt-3"
           height="{}"
           max="100"
           precision="0"
           value="25"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-primary"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1930,28 +2103,31 @@ exports[`Widgets.vue renders correctly 1`] = `
           Returning Visitors
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs mt-3"
           height="{}"
           max="100"
           precision="0"
           value="25"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-danger"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1974,28 +2150,31 @@ exports[`Widgets.vue renders correctly 1`] = `
           Avg. Time
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs mt-3"
           height="{}"
           max="100"
           precision="0"
           value="25"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="2"
       sm="6"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         class="text-white bg-info"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2018,15 +2197,15 @@ exports[`Widgets.vue renders correctly 1`] = `
           Comments
         </small>
          
-        <bprogress-stub
+        <b-progress-stub
           class="progress-white progress-xs mt-3"
           height="{}"
           max="100"
           precision="0"
           value="25"
         />
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

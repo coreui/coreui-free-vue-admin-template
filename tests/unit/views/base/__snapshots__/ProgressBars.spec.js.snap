@@ -7,12 +7,15 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -44,7 +47,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bprogress-stub
+        <b-progress-stub
           animated="true"
           max="100"
           precision="0"
@@ -52,49 +55,52 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           value="45"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           class="mt-1"
           max="100"
           precision="0"
           showvalue="true"
           value="0"
         >
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="27"
             variant="success"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="11.25"
             variant="warning"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="6.75"
             variant="danger"
           />
-        </bprogress-stub>
+        </b-progress-stub>
          
-        <bbtn-stub
-          activeclass="active"
+        <b-btn-stub
           class="mt-4"
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
+          variant="secondary"
         >
           Click me
-        </bbtn-stub>
+        </b-btn-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -117,7 +123,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           No label
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="50"
           precision="0"
@@ -128,7 +134,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Value label
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="50"
           precision="0"
@@ -140,7 +146,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Progress label
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="50"
           precision="0"
@@ -152,7 +158,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Value label with precision
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="50"
           precision="2"
@@ -164,7 +170,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Progress label with precision
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="50"
           precision="2"
@@ -172,14 +178,17 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           value="33.333333333"
         />
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -201,7 +210,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Default width
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="100"
           precision="0"
@@ -212,35 +221,38 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Custom widths
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="w-75 mb-2"
           max="100"
           precision="0"
           value="75"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           class="w-50 mb-2"
           max="100"
           precision="0"
           value="75"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           class="w-25"
           max="100"
           precision="0"
           value="75"
         />
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -262,7 +274,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Default height
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="100"
           precision="0"
@@ -274,7 +286,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           Custom heights
         </h6>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-2"
           height="2rem"
           max="100"
@@ -283,7 +295,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           value="75"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-2"
           height="20px"
           max="100"
@@ -292,21 +304,24 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           value="75"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           height="2px"
           max="100"
           precision="0"
           value="75"
         />
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -336,7 +351,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           <div
             class="col-sm-10 pt-1"
           >
-            <bprogress-stub
+            <b-progress-stub
               max="100"
               precision="0"
               value="75"
@@ -356,7 +371,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           <div
             class="col-sm-10 pt-1"
           >
-            <bprogress-stub
+            <b-progress-stub
               max="100"
               precision="0"
               value="75"
@@ -376,7 +391,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           <div
             class="col-sm-10 pt-1"
           >
-            <bprogress-stub
+            <b-progress-stub
               max="100"
               precision="0"
               value="75"
@@ -396,7 +411,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           <div
             class="col-sm-10 pt-1"
           >
-            <bprogress-stub
+            <b-progress-stub
               max="100"
               precision="0"
               value="75"
@@ -416,7 +431,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           <div
             class="col-sm-10 pt-1"
           >
-            <bprogress-stub
+            <b-progress-stub
               max="100"
               precision="0"
               value="75"
@@ -436,7 +451,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           <div
             class="col-sm-10 pt-1"
           >
-            <bprogress-stub
+            <b-progress-stub
               max="100"
               precision="0"
               value="75"
@@ -456,7 +471,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           <div
             class="col-sm-10 pt-1"
           >
-            <bprogress-stub
+            <b-progress-stub
               max="100"
               precision="0"
               value="75"
@@ -465,14 +480,17 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           </div>
         </div>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -490,7 +508,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bprogress-stub
+        <b-progress-stub
           class="mb-2"
           max="100"
           precision="0"
@@ -499,7 +517,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="success"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-2"
           max="100"
           precision="0"
@@ -508,7 +526,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="info"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-2"
           max="100"
           precision="0"
@@ -517,7 +535,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="warning"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-2"
           max="100"
           precision="0"
@@ -526,11 +544,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="danger"
         />
          
-        <bbutton-stub
-          activeclass="active"
+        <b-button-stub
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="secondary"
@@ -538,16 +555,19 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           
           Remove Striped
         
-        </bbutton-stub>
+        </b-button-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -565,7 +585,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bprogress-stub
+        <b-progress-stub
           animated="true"
           class="mb-2"
           max="100"
@@ -575,7 +595,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="success"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           animated="true"
           class="mb-2"
           max="100"
@@ -585,7 +605,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="info"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           animated="true"
           class="mb-2"
           max="100"
@@ -595,7 +615,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="warning"
         />
          
-        <bprogress-stub
+        <b-progress-stub
           animated="true"
           class="mb-3"
           max="100"
@@ -604,11 +624,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           variant="danger"
         />
          
-        <bbutton-stub
-          activeclass="active"
+        <b-button-stub
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="secondary"
@@ -616,16 +635,19 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           
           Stop Animation
         
-        </bbutton-stub>
+        </b-button-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -643,52 +665,52 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </div>
        
       <div>
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="100"
           precision="0"
           value="0"
         >
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="15"
             variant="primary"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="30"
             variant="success"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="20"
             variant="info"
           />
-        </bprogress-stub>
+        </b-progress-stub>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="100"
           precision="0"
           showprogress="true"
           value="0"
         >
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="15"
             variant="primary"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="30"
             variant="success"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="20"
             variant="info"
           />
-        </bprogress-stub>
+        </b-progress-stub>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="100"
           precision="0"
@@ -696,50 +718,50 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           striped="true"
           value="0"
         >
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="15"
             variant="primary"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="30"
             variant="success"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             value="20"
             variant="info"
           />
-        </bprogress-stub>
+        </b-progress-stub>
          
-        <bprogress-stub
+        <b-progress-stub
           class="mb-3"
           max="100"
           precision="0"
           value="0"
         >
-          <bprogressbar-stub
+          <b-progress-bar-stub
             showprogress="true"
             value="15"
             variant="primary"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             animated="true"
             showprogress="true"
             value="30"
             variant="success"
           />
            
-          <bprogressbar-stub
+          <b-progress-bar-stub
             showprogress="true"
             striped="true"
             value="20"
             variant="info"
           />
-        </bprogress-stub>
+        </b-progress-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
   </div>
 </div>
 `;

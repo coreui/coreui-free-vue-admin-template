@@ -7,12 +7,15 @@ exports[`Tooltips.vue renders correctly 1`] = `
   <div
     class="animated fadeIn"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -49,53 +52,57 @@ exports[`Tooltips.vue renders correctly 1`] = `
         </div>
       </div>
        
-      <brow-stub
+      <b-row-stub
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           cols="6"
           tag="div"
         >
           <div
             class="text-center my-3"
           >
-            <bbtn-stub
-              activeclass="active"
+            <b-btn-stub
               event="click"
-              exactactiveclass="active"
               routertag="a"
+              tag="button"
               target="_self"
               title="I am a tooltip!"
               type="button"
+              variant="secondary"
             >
               Hover Me
-            </bbtn-stub>
+            </b-btn-stub>
           </div>
-        </bcol-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           cols="6"
           tag="div"
         >
           <div
             class="text-center my-3"
           >
-            <bbtn-stub
-              activeclass="active"
+            <b-btn-stub
               event="click"
-              exactactiveclass="active"
               id="tooltipButton-2"
               routertag="a"
+              tag="button"
               target="_self"
               type="button"
               variant="primary"
             >
               Button
-            </bbtn-stub>
+            </b-btn-stub>
              
-            <btooltip-stub
+            <b-tooltip-stub
+              boundary="scrollParent"
+              boundarypadding="5"
+              delay="0"
+              fallbackplacement="flip"
+              offset="0"
               placement="top"
-              show=""
+              show="true"
               target="tooltipButton-2"
               title=""
               triggers="hover focus"
@@ -103,18 +110,21 @@ exports[`Tooltips.vue renders correctly 1`] = `
               
               I start open
             
-            </btooltip-stub>
+            </b-tooltip-stub>
           </div>
-        </bcol-stub>
-      </brow-stub>
-    </bcard-stub>
+        </b-col-stub>
+      </b-row-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -134,56 +144,64 @@ exports[`Tooltips.vue renders correctly 1`] = `
         </small>
       </div>
        
-      <brow-stub
+      <b-row-stub
         tag="div"
       >
-        <bcol-stub
+        <b-col-stub
           class="py-4 text-center"
           md="6"
           tag="div"
         >
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             event="click"
-            exactactiveclass="active"
             id="exButton1"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="outline-success"
           >
             Live chat
-          </bbtn-stub>
-        </bcol-stub>
+          </b-btn-stub>
+        </b-col-stub>
          
-        <bcol-stub
+        <b-col-stub
           class="py-4 text-center"
           md="6"
           tag="div"
         >
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             event="click"
-            exactactiveclass="active"
             id="exButton2"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="outline-success"
           >
             Html chat
-          </bbtn-stub>
-        </bcol-stub>
-      </brow-stub>
+          </b-btn-stub>
+        </b-col-stub>
+      </b-row-stub>
        
-      <btooltip-stub
+      <b-tooltip-stub
+        boundary="scrollParent"
+        boundarypadding="5"
+        delay="0"
+        fallbackplacement="flip"
+        offset="0"
         placement="top"
         target="exButton1"
         title="Online!"
         triggers="hover focus"
       />
        
-      <btooltip-stub
+      <b-tooltip-stub
+        boundary="scrollParent"
+        boundarypadding="5"
+        delay="0"
+        fallbackplacement="flip"
+        offset="0"
         placement="bottom"
         target="exButton2"
         title=""
@@ -194,15 +212,18 @@ exports[`Tooltips.vue renders correctly 1`] = `
         <strong>
           World!
         </strong>
-      </btooltip-stub>
-    </bcard-stub>
+      </b-tooltip-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -225,34 +246,38 @@ exports[`Tooltips.vue renders correctly 1`] = `
       <div
         class="text-center"
       >
-        <bbtn-stub
-          activeclass="active"
+        <b-btn-stub
           event="click"
-          exactactiveclass="active"
           id="tooltipButton-1"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
           variant="primary"
         >
           I have a tooltip
-        </bbtn-stub>
+        </b-btn-stub>
          
         <br />
         <br />
          
-        <bbtn-stub
-          activeclass="active"
+        <b-btn-stub
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
+          variant="secondary"
         >
           Toggle Tooltip
-        </bbtn-stub>
+        </b-btn-stub>
          
-        <btooltip-stub
+        <b-tooltip-stub
+          boundary="scrollParent"
+          boundarypadding="5"
+          delay="0"
+          fallbackplacement="flip"
+          offset="0"
           placement="top"
           show="true"
           target="tooltipButton-1"
@@ -264,16 +289,19 @@ exports[`Tooltips.vue renders correctly 1`] = `
           <strong>
             World!
           </strong>
-        </btooltip-stub>
+        </b-tooltip-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -299,49 +327,53 @@ exports[`Tooltips.vue renders correctly 1`] = `
         <div
           class="p-2"
         >
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             event="click"
-            exactactiveclass="active"
             id="tooltipButton-showEvent"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="primary"
           >
             I have a tooltip
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
         <div
           class="p-2"
         >
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             class="px-1 mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Open
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             class="px-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             Close
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
-        <btooltip-stub
+        <b-tooltip-stub
+          boundary="scrollParent"
+          boundarypadding="5"
+          delay="0"
+          fallbackplacement="flip"
+          offset="0"
           placement="top"
           target="tooltipButton-showEvent"
           title=""
@@ -352,16 +384,19 @@ exports[`Tooltips.vue renders correctly 1`] = `
           <strong>
             World!
           </strong>
-        </btooltip-stub>
+        </b-tooltip-stub>
       </div>
-    </bcard-stub>
+    </b-card-stub>
      
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="footer"
       headertag="header"
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <div
@@ -387,51 +422,55 @@ exports[`Tooltips.vue renders correctly 1`] = `
         <div
           class="p-2"
         >
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             event="click"
-            exactactiveclass="active"
             id="tooltipButton-disable"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
             variant="primary"
           >
             I have a tooltip
-          </bbtn-stub>
+          </b-btn-stub>
         </div>
          
         <div
           class="p-2"
         >
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             class="mr-1"
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             
             Disable Tooltip by prop
           
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <bbtn-stub
-            activeclass="active"
+          <b-btn-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
+            tag="button"
             target="_self"
             type="button"
+            variant="secondary"
           >
             
             Disable Tooltip by $ref event
           
-          </bbtn-stub>
+          </b-btn-stub>
            
-          <btooltip-stub
+          <b-tooltip-stub
+            boundary="scrollParent"
+            boundarypadding="5"
+            delay="0"
+            fallbackplacement="flip"
+            offset="0"
             placement="top"
             target="tooltipButton-disable"
             title=""
@@ -442,10 +481,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             <strong>
               World!
             </strong>
-          </btooltip-stub>
+          </b-tooltip-stub>
         </div>
       </div>
-    </bcard-stub>
+    </b-card-stub>
   </div>
 </div>
 `;

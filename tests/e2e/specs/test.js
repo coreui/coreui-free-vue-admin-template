@@ -36,6 +36,8 @@ module.exports = {
       .assert.elementCount('button', 10)
       .resizeWindow(1024, 800)
       .pause(500)
+      .assert.cssClassNotPresent('body', 'aside-menu-show')
+      .assert.cssClassNotPresent('body', 'aside-menu-lg-show')
 
     browser.click('body > div > header > button.d-none.d-lg-block.navbar-toggler', function (response) {
       console.log('response', typeof response)
@@ -72,6 +74,7 @@ module.exports = {
         console.log('response', typeof response)
         this.assert.cssClassPresent('/html/body', 'sidebar-minimized')
         this.assert.cssClassPresent('/html/body', 'brand-minimized')
+        this.pause(500)
         this.assert.cssProperty("/html/body/div/div/main", "margin-left", "50px");
       })
       .pause(500)
@@ -90,12 +93,13 @@ module.exports = {
     .click('/html/body/div/header/button[1]', function (response) {
       console.log('response', typeof response)
       this.assert.cssClassPresent('/html/body', 'sidebar-show')
+      this.pause(500)
       this.assert.cssProperty("/html/body/div/div/main", "margin-left", "200px");
     })
 
     browser
     .pause(500)
-    .click('/html/body/div/div/div/nav/section/ul/li[1]/div/a', function (response) {
+    .click('/html/body/div/div/div/nav/section/ul/li[1]/a', function (response) {
       console.log('response', typeof response)
       this.assert.cssClassNotPresent('/html/body', 'sidebar-show')
     })
@@ -107,6 +111,12 @@ module.exports = {
     .click('/html/body/div/header/button[1]', function (response) {
       console.log('response', typeof response)
       this.assert.cssClassPresent('/html/body', 'sidebar-show')
+      this.assert.cssProperty("/html/body/div/div/main", "margin-left", "0px");
+    })
+    .pause(500)
+    .click('/html/body/div/div/main', function (response) {
+      console.log('response', typeof response)
+      this.assert.cssClassNotPresent('/html/body', 'sidebar-show')
       this.assert.cssProperty("/html/body/div/div/main", "margin-left", "0px");
     })
 

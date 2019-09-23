@@ -4,20 +4,23 @@ exports[`Switches.vue renders correctly 1`] = `
 <div
   class="animated fadeIn"
 >
-  <brow-stub
+  <b-row-stub
     tag="div"
   >
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -26,124 +29,125 @@ exports[`Switches.vue renders correctly 1`] = `
           
           Switch default
           
-          <bbadge-stub
-            activeclass="active"
+          <b-badge-stub
             event="click"
-            exactactiveclass="active"
             routertag="a"
             tag="span"
             target="_self"
             variant="primary"
           >
             yes
-          </bbadge-stub>
+          </b-badge-stub>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
           dataoff="Off"
           dataon="On"
-          id="switch-id-668"
+          id="switch-id-670"
           name="switch1"
           uncheckedvalue="no"
           value="yes"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-669"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-670"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-671"
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-672"
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-673"
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-674"
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-675"
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-676"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-677"
+          value="true"
+        />
+         
+        <c-switch-stub
           class="mx-1"
           color="primary"
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-676"
+          id="switch-id-678"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -154,32 +158,10 @@ exports[`Switches.vue renders correctly 1`] = `
         
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-677"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-678"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-679"
@@ -187,10 +169,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-680"
@@ -198,10 +180,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-681"
@@ -209,10 +191,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-682"
@@ -220,10 +202,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-683"
@@ -231,10 +213,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-684"
@@ -242,30 +224,55 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-685"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-686"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
           class="mx-1"
           color="primary"
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-685"
+          id="switch-id-687"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -276,32 +283,10 @@ exports[`Switches.vue renders correctly 1`] = `
         
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-686"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-687"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-688"
@@ -309,10 +294,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-689"
@@ -320,10 +305,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-690"
@@ -331,10 +316,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-691"
@@ -342,10 +327,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-692"
@@ -353,10 +338,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-693"
@@ -364,30 +349,55 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-694"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-695"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
           class="mx-1"
           color="primary"
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-694"
+          id="switch-id-696"
           value="true"
           variant="3d"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -402,34 +412,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          disabled="true"
-          id="switch-id-695"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          disabled="true"
-          id="switch-id-696"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           disabled="true"
@@ -438,10 +424,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           disabled="true"
@@ -450,10 +436,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           disabled="true"
@@ -462,10 +448,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           disabled="true"
@@ -474,10 +460,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           disabled="true"
@@ -486,10 +472,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           disabled="true"
@@ -498,9 +484,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
           disabled="true"
@@ -508,20 +495,46 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
           variant="3d"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-704"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-705"
+          value="true"
+          variant="3d"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -536,34 +549,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-704"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-705"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-706"
@@ -572,10 +561,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-707"
@@ -584,10 +573,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-708"
@@ -596,10 +585,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-709"
@@ -608,10 +597,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-710"
@@ -620,10 +609,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-711"
@@ -632,31 +621,58 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-712"
           outline="alt"
           value="true"
           variant="3d"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-713"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-714"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -671,33 +687,9 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          defaultchecked="true"
-          id="switch-id-713"
-          label="true"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          defaultchecked="true"
-          id="switch-id-714"
-          label="true"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -707,9 +699,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -719,9 +711,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -731,9 +723,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -743,9 +735,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -755,9 +747,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -767,31 +759,58 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="✕"
           dataon="✓"
-          disabled="true"
+          defaultchecked="true"
           id="switch-id-721"
           label="true"
           value="true"
           variant="3d"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          defaultchecked="true"
+          id="switch-id-722"
+          label="true"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="✕"
+          dataon="✓"
+          disabled="true"
+          id="switch-id-723"
+          label="true"
+          value="true"
+          variant="3d"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -806,35 +825,9 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          defaultchecked="true"
-          id="switch-id-722"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          defaultchecked="true"
-          id="switch-id-723"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -845,9 +838,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -858,9 +851,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -871,9 +864,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -884,9 +877,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -897,9 +890,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           defaultchecked="true"
@@ -910,32 +903,61 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="✕"
           dataon="✓"
-          disabled="true"
+          defaultchecked="true"
           id="switch-id-730"
           label="true"
           outline="alt"
           value="true"
           variant="3d"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          defaultchecked="true"
+          id="switch-id-731"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="✕"
+          dataon="✓"
+          disabled="true"
+          id="switch-id-732"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -950,35 +972,9 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          defaultchecked="true"
-          id="switch-id-731"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          defaultchecked="true"
-          id="switch-id-732"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="3d"
-        />
-         
-        <cswitch-stub
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
@@ -989,9 +985,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
@@ -1002,9 +998,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
@@ -1015,9 +1011,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
@@ -1028,9 +1024,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
@@ -1041,9 +1037,9 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           defaultchecked="true"
@@ -1054,32 +1050,61 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="3d"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
+          defaultchecked="true"
           id="switch-id-739"
           label="true"
           outline="alt"
           value="true"
           variant="3d"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          defaultchecked="true"
+          id="switch-id-740"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-741"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="3d"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1094,32 +1119,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-740"
-          outline="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-741"
-          outline="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-742"
@@ -1127,10 +1130,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-743"
@@ -1138,10 +1141,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-744"
@@ -1149,10 +1152,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-745"
@@ -1160,10 +1163,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-746"
@@ -1171,10 +1174,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-747"
@@ -1182,30 +1185,55 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-748"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-749"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
           class="mx-1"
           color="primary"
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-748"
+          id="switch-id-750"
           outline="true"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1220,34 +1248,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-749"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-750"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-751"
@@ -1256,10 +1260,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-752"
@@ -1268,10 +1272,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-753"
@@ -1280,10 +1284,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-754"
@@ -1292,10 +1296,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-755"
@@ -1304,10 +1308,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-756"
@@ -1316,31 +1320,58 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-757"
           outline="true"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-758"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-759"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1355,32 +1386,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-758"
-          outline="alt"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-759"
-          outline="alt"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-760"
@@ -1388,10 +1397,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-761"
@@ -1399,10 +1408,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-762"
@@ -1410,10 +1419,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-763"
@@ -1421,10 +1430,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-764"
@@ -1432,10 +1441,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-765"
@@ -1443,30 +1452,55 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-766"
+          outline="alt"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-767"
+          outline="alt"
+          value="true"
+        />
+         
+        <c-switch-stub
           class="mx-1"
           color="primary"
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-766"
+          id="switch-id-768"
           outline="alt"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1481,34 +1515,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-767"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-768"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-769"
@@ -1517,10 +1527,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-770"
@@ -1529,10 +1539,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-771"
@@ -1541,10 +1551,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-772"
@@ -1553,10 +1563,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-773"
@@ -1565,10 +1575,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-774"
@@ -1577,31 +1587,58 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-775"
           outline="alt"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-776"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-777"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1616,32 +1653,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-776"
-          label="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-777"
-          label="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-778"
@@ -1649,10 +1664,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-779"
@@ -1660,10 +1675,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-780"
@@ -1671,10 +1686,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-781"
@@ -1682,10 +1697,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-782"
@@ -1693,10 +1708,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-783"
@@ -1704,30 +1719,55 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-784"
+          label="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-785"
+          label="true"
+          value="true"
+        />
+         
+        <c-switch-stub
           class="mx-1"
           color="primary"
           dataoff="Off"
           dataon="On"
           disabled="true"
-          id="switch-id-784"
+          id="switch-id-786"
           label="true"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1742,34 +1782,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-785"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-786"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-787"
@@ -1778,10 +1794,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-788"
@@ -1790,10 +1806,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-789"
@@ -1802,10 +1818,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-790"
@@ -1814,10 +1830,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-791"
@@ -1826,10 +1842,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-792"
@@ -1838,31 +1854,58 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-793"
           label="true"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-794"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-795"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -1877,34 +1920,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-794"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-795"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-796"
@@ -1913,10 +1932,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-797"
@@ -1925,10 +1944,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-798"
@@ -1937,10 +1956,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-799"
@@ -1949,10 +1968,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-800"
@@ -1961,10 +1980,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-801"
@@ -1973,31 +1992,58 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-802"
           label="true"
           outline="true"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-803"
+          label="true"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-804"
+          label="true"
+          outline="true"
+          value="true"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2012,36 +2058,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-803"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-804"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-805"
@@ -2051,10 +2071,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-806"
@@ -2064,10 +2084,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-807"
@@ -2077,10 +2097,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-808"
@@ -2090,10 +2110,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-809"
@@ -2103,10 +2123,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-810"
@@ -2116,32 +2136,61 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-811"
           label="true"
           outline="true"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-812"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-813"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2156,34 +2205,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-812"
-          label="true"
-          outline="alt"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-813"
-          label="true"
-          outline="alt"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-814"
@@ -2192,10 +2217,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-815"
@@ -2204,10 +2229,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-816"
@@ -2216,10 +2241,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-817"
@@ -2228,10 +2253,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-818"
@@ -2240,10 +2265,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-819"
@@ -2252,31 +2277,58 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-820"
           label="true"
           outline="alt"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-821"
+          label="true"
+          outline="alt"
+          value="true"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-822"
+          label="true"
+          outline="alt"
+          value="true"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2291,36 +2343,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-821"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="Off"
-          dataon="On"
-          id="switch-id-822"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-823"
@@ -2330,10 +2356,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="Off"
           dataon="On"
           id="switch-id-824"
@@ -2343,10 +2369,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="Off"
           dataon="On"
           id="switch-id-825"
@@ -2356,10 +2382,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="Off"
           dataon="On"
           id="switch-id-826"
@@ -2369,10 +2395,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="Off"
           dataon="On"
           id="switch-id-827"
@@ -2382,10 +2408,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="Off"
           dataon="On"
           id="switch-id-828"
@@ -2395,32 +2421,61 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="Off"
           dataon="On"
-          disabled="true"
           id="switch-id-829"
           label="true"
           outline="alt"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="Off"
+          dataon="On"
+          id="switch-id-830"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="Off"
+          dataon="On"
+          disabled="true"
+          id="switch-id-831"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2435,43 +2490,21 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
           dataoff="no"
           dataon="yes"
-          id="switch-id-830"
-          label="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-831"
-          label="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
-          dataoff="✕"
-          dataon="✓"
           id="switch-id-832"
           label="true"
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-833"
@@ -2479,10 +2512,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-834"
@@ -2490,10 +2523,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-835"
@@ -2501,10 +2534,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-836"
@@ -2512,10 +2545,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-837"
@@ -2523,30 +2556,55 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="light"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-838"
+          label="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-839"
+          label="true"
+          value="true"
+        />
+         
+        <c-switch-stub
           class="mx-1"
           color="primary"
           dataoff="✕"
           dataon="✓"
           disabled="true"
-          id="switch-id-838"
+          id="switch-id-840"
           label="true"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2561,34 +2619,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-839"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-840"
-          label="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-841"
@@ -2597,10 +2631,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-842"
@@ -2609,10 +2643,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-843"
@@ -2621,10 +2655,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-844"
@@ -2633,10 +2667,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-845"
@@ -2645,10 +2679,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-846"
@@ -2657,31 +2691,58 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="✕"
           dataon="✓"
-          disabled="true"
           id="switch-id-847"
           label="true"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-848"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="✕"
+          dataon="✓"
+          disabled="true"
+          id="switch-id-849"
+          label="true"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2696,34 +2757,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-848"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-849"
-          label="true"
-          outline="true"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-850"
@@ -2732,10 +2769,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-851"
@@ -2744,10 +2781,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-852"
@@ -2756,10 +2793,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-853"
@@ -2768,10 +2805,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-854"
@@ -2780,10 +2817,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-855"
@@ -2792,31 +2829,58 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="✕"
           dataon="✓"
-          disabled="true"
           id="switch-id-856"
           label="true"
           outline="true"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-857"
+          label="true"
+          outline="true"
+          value="true"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="✕"
+          dataon="✓"
+          disabled="true"
+          id="switch-id-858"
+          label="true"
+          outline="true"
+          value="true"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2831,36 +2895,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-857"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-858"
-          label="true"
-          outline="true"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-859"
@@ -2870,10 +2908,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-860"
@@ -2883,10 +2921,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-861"
@@ -2896,10 +2934,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-862"
@@ -2909,10 +2947,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-863"
@@ -2922,10 +2960,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-864"
@@ -2935,32 +2973,61 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="✕"
           dataon="✓"
-          disabled="true"
           id="switch-id-865"
           label="true"
           outline="true"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-866"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="✕"
+          dataon="✓"
+          disabled="true"
+          id="switch-id-867"
+          label="true"
+          outline="true"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -2975,34 +3042,10 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-866"
-          label="true"
-          outline="alt"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-867"
-          label="true"
-          outline="alt"
-          value="true"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-868"
@@ -3011,10 +3054,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-869"
@@ -3023,10 +3066,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-870"
@@ -3035,10 +3078,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-871"
@@ -3047,10 +3090,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-872"
@@ -3059,10 +3102,10 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-873"
@@ -3071,31 +3114,58 @@ exports[`Switches.vue renders correctly 1`] = `
           value="true"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="✕"
           dataon="✓"
-          disabled="true"
           id="switch-id-874"
           label="true"
           outline="alt"
           value="true"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-875"
+          label="true"
+          outline="alt"
+          value="true"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="✕"
+          dataon="✓"
+          disabled="true"
+          id="switch-id-876"
+          label="true"
+          outline="alt"
+          value="true"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3110,38 +3180,12 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </div>
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
           color="primary"
           dataoff="no"
           dataon="yes"
-          id="switch-id-875"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="secondary"
-          dataoff="✕"
-          dataon="✓"
-          id="switch-id-876"
-          label="true"
-          outline="alt"
-          value="true"
-          variant="pill"
-        />
-         
-        <cswitch-stub
-          checked="true"
-          class="mx-1"
-          color="success"
-          dataoff="✕"
-          dataon="✓"
           id="switch-id-877"
           label="true"
           outline="alt"
@@ -3149,10 +3193,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="warning"
+          color="secondary"
           dataoff="✕"
           dataon="✓"
           id="switch-id-878"
@@ -3162,10 +3206,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="info"
+          color="success"
           dataoff="✕"
           dataon="✓"
           id="switch-id-879"
@@ -3175,10 +3219,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="danger"
+          color="warning"
           dataoff="✕"
           dataon="✓"
           id="switch-id-880"
@@ -3188,10 +3232,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="light"
+          color="info"
           dataoff="✕"
           dataon="✓"
           id="switch-id-881"
@@ -3201,10 +3245,10 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
           checked="true"
           class="mx-1"
-          color="dark"
+          color="danger"
           dataoff="✕"
           dataon="✓"
           id="switch-id-882"
@@ -3214,32 +3258,61 @@ exports[`Switches.vue renders correctly 1`] = `
           variant="pill"
         />
          
-        <cswitch-stub
+        <c-switch-stub
+          checked="true"
           class="mx-1"
-          color="primary"
+          color="light"
           dataoff="✕"
           dataon="✓"
-          disabled="true"
           id="switch-id-883"
           label="true"
           outline="alt"
           value="true"
           variant="pill"
         />
-      </bcard-stub>
-    </bcol-stub>
+         
+        <c-switch-stub
+          checked="true"
+          class="mx-1"
+          color="dark"
+          dataoff="✕"
+          dataon="✓"
+          id="switch-id-884"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+         
+        <c-switch-stub
+          class="mx-1"
+          color="primary"
+          dataoff="✕"
+          dataon="✓"
+          disabled="true"
+          id="switch-id-885"
+          label="true"
+          outline="alt"
+          value="true"
+          variant="pill"
+        />
+      </b-card-stub>
+    </b-col-stub>
      
-    <bcol-stub
+    <b-col-stub
       md="12"
       tag="div"
     >
-      <bcard-stub
+      <b-card-stub
         bodytag="div"
         footertag="div"
         headertag="div"
         nobody="true"
+        subtitle=""
         subtitletag="h6"
+        subtitletextvariant="muted"
         tag="div"
+        title=""
         titletag="h4"
       >
         <div
@@ -3250,34 +3323,39 @@ exports[`Switches.vue renders correctly 1`] = `
         
         </div>
          
-        <bcardbody-stub
+        <b-card-body-stub
           bodytag="div"
           class="p-0"
+          subtitle=""
           subtitletag="h6"
+          subtitletextvariant="muted"
+          title=""
           titletag="h4"
         >
-          <btable-stub
+          <b-table-stub
             apiurl=""
             class="table-align-middle mb-0"
             currentpage="1"
             emptyfilteredtext="There are no records matching your request"
             emptytext="There are no records to show"
             fields="[object Object],[object Object],[object Object]"
-            footvariant=""
-            headvariant=""
             hover="true"
             items="[object Object],[object Object],[object Object]"
             labelsortasc="Click to sort Ascending"
+            labelsortclear="Click to clear sorting"
             labelsortdesc="Click to sort Descending"
             perpage="0"
             responsive="sm"
+            selectedvariant="primary"
+            selectmode="multi"
+            sortby=""
             sortdirection="asc"
             striped="true"
             value=""
           />
-        </bcardbody-stub>
-      </bcard-stub>
-    </bcol-stub>
-  </brow-stub>
+        </b-card-body-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
 </div>
 `;

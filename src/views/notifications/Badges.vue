@@ -29,46 +29,49 @@
           </b-card>
         </b-col>
         <b-col cols="12" md="6">
-          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>contextual variations</small>"
+          <b-card
             header-tag="header"
             footer-tag="footer">
+            <div slot="header"><i class='fa fa-align-justify'></i> Badge <small>contextual variations</small></div>
             <div>
-              <b-badge variant="primary">Primary</b-badge>
-              <b-badge variant="secondary">Secondary</b-badge>
-              <b-badge variant="success">Success</b-badge>
-              <b-badge variant="danger">Danger</b-badge>
-              <b-badge variant="warning">Warning</b-badge>
-              <b-badge variant="info">Info</b-badge>
-              <b-badge variant="light">Light</b-badge>
-              <b-badge variant="dark">Dark</b-badge>
+              <b-badge class="m-1" variant="primary">Primary</b-badge>
+              <b-badge class="m-1" variant="secondary">Secondary</b-badge>
+              <b-badge class="m-1" variant="success">Success</b-badge>
+              <b-badge class="m-1" variant="danger">Danger</b-badge>
+              <b-badge class="m-1" variant="warning">Warning</b-badge>
+              <b-badge class="m-1" variant="info">Info</b-badge>
+              <b-badge class="m-1" variant="light">Light</b-badge>
+              <b-badge class="m-1" variant="dark">Dark</b-badge>
             </div>
           </b-card>
-          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>pills</small>"
+          <b-card
             header-tag="header"
             footer-tag="footer">
+            <div slot="header"><i class='fa fa-align-justify'></i> Badge <small>pills</small></div>
             <div>
-              <b-badge pill variant="primary">Primary</b-badge>
-              <b-badge pill variant="secondary">Secondary</b-badge>
-              <b-badge pill variant="success">Success</b-badge>
-              <b-badge pill variant="danger">Danger</b-badge>
-              <b-badge pill variant="warning">Warning</b-badge>
-              <b-badge pill variant="info">Info</b-badge>
-              <b-badge pill variant="light">Light</b-badge>
-              <b-badge pill variant="dark">Dark</b-badge>
+              <b-badge class="m-1" pill variant="primary">Primary</b-badge>
+              <b-badge class="m-1" pill variant="secondary">Secondary</b-badge>
+              <b-badge class="m-1" pill variant="success">Success</b-badge>
+              <b-badge class="m-1" pill variant="danger">Danger</b-badge>
+              <b-badge class="m-1" pill variant="warning">Warning</b-badge>
+              <b-badge class="m-1" pill variant="info">Info</b-badge>
+              <b-badge class="m-1" pill variant="light">Light</b-badge>
+              <b-badge class="m-1" pill variant="dark">Dark</b-badge>
             </div>
           </b-card>
-          <b-card header="<i class='fa fa-align-justify'></i> Badge <small>actionable</small>"
+          <b-card
             header-tag="header"
             footer-tag="footer">
+            <div slot="header"><i class='fa fa-align-justify'></i> Badge <small>actionable</small></div>
             <div>
-              <b-badge href="#" variant="primary">Primary</b-badge>
-              <b-badge href="#" variant="secondary">Secondary</b-badge>
-              <b-badge href="#" variant="success">Success</b-badge>
-              <b-badge href="#" variant="danger">Danger</b-badge>
-              <b-badge href="#" variant="warning">Warning</b-badge>
-              <b-badge href="#" variant="info">Info</b-badge>
-              <b-badge href="#" variant="light">Light</b-badge>
-              <b-badge href="#" variant="dark">Dark</b-badge>
+              <b-badge class="m-1" href="#" variant="primary">Primary</b-badge>
+              <b-badge class="m-1" href="#" variant="secondary">Secondary</b-badge>
+              <b-badge class="m-1" href="#" variant="success">Success</b-badge>
+              <b-badge class="m-1" href="#" variant="danger">Danger</b-badge>
+              <b-badge class="m-1" href="#" variant="warning">Warning</b-badge>
+              <b-badge class="m-1" href="#" variant="info">Info</b-badge>
+              <b-badge class="m-1" href="#" variant="light">Light</b-badge>
+              <b-badge class="m-1" href="#" variant="dark">Dark</b-badge>
             </div>
           </b-card>
         </b-col>

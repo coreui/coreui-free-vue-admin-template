@@ -15,19 +15,17 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
   \\
   
   <template>
-    <bdropdownheader-stub
+    <b-dropdown-header-stub
       class="text-center"
       tag="div"
     >
       <strong>
         Account
       </strong>
-    </bdropdownheader-stub>
+    </b-dropdown-header-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -36,23 +34,19 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Updates
       
-      <bbadge-stub
-        activeclass="active"
+      <b-badge-stub
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
         variant="info"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -61,23 +55,19 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Messages
       
-      <bbadge-stub
-        activeclass="active"
+      <b-badge-stub
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
         variant="success"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -86,23 +76,19 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Tasks
       
-      <bbadge-stub
-        activeclass="active"
+      <b-badge-stub
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
         variant="danger"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -111,32 +97,28 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Comments
       
-      <bbadge-stub
-        activeclass="active"
+      <b-badge-stub
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
         variant="warning"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownheader-stub
+    <b-dropdown-header-stub
       class="text-center"
       tag="div"
     >
       <strong>
         Settings
       </strong>
-    </bdropdownheader-stub>
+    </b-dropdown-header-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -144,12 +126,10 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-user"
       />
        Profile
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -157,12 +137,10 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-wrench"
       />
        Settings
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -171,23 +149,19 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Payments
       
-      <bbadge-stub
-        activeclass="active"
+      <b-badge-stub
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
         variant="secondary"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -196,27 +170,23 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
       />
        Projects
       
-      <bbadge-stub
-        activeclass="active"
+      <b-badge-stub
         event="click"
-        exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
         variant="primary"
       >
         42
-      </bbadge-stub>
-    </bdropdownitem-stub>
+      </b-badge-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdowndivider-stub
-      tag="div"
+    <b-dropdown-divider-stub
+      tag="hr"
     />
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -224,12 +194,10 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-shield"
       />
        Lock Account
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
      
-    <bdropdownitem-stub
-      activeclass="active"
+    <b-dropdown-item-stub
       event="click"
-      exactactiveclass="active"
       routertag="a"
       target="_self"
     >
@@ -237,7 +205,7 @@ exports[`DefaultHeaderDropdownAccnt.vue renders correctly 1`] = `
         class="fa fa-lock"
       />
        Logout
-    </bdropdownitem-stub>
+    </b-dropdown-item-stub>
   </template>
 </appheaderdropdown-stub>
 `;

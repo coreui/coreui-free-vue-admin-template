@@ -1,21 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`User.vue renders correctly 1`] = `
-<brow-stub
+<b-row-stub
   tag="div"
 >
-  <bcol-stub
+  <b-col-stub
     cols="12"
     lg="6"
     tag="div"
   >
-    <bcard-stub
+    <b-card-stub
       bodytag="div"
       footertag="div"
       headertag="div"
       no-header=""
+      subtitle=""
       subtitletag="h6"
+      subtitletextvariant="muted"
       tag="div"
+      title=""
       titletag="h4"
     >
       <template>
@@ -24,39 +27,41 @@ exports[`User.vue renders correctly 1`] = `
       
       </template>
        
-      <btable-stub
+      <b-table-stub
         apiurl=""
         currentpage="1"
         emptyfilteredtext="There are no records matching your request"
         emptytext="There are no records to show"
         fields="[object Object],[object Object]"
         fixed="true"
-        footvariant=""
-        headvariant=""
         items="[object Object]"
         labelsortasc="Click to sort Ascending"
+        labelsortclear="Click to clear sorting"
         labelsortdesc="Click to sort Descending"
         perpage="0"
         responsive="sm"
+        selectedvariant="primary"
+        selectmode="multi"
         small="true"
+        sortby=""
         sortdirection="asc"
         striped="true"
         value=""
       />
        
       <template>
-        <bbutton-stub
-          activeclass="active"
+        <b-button-stub
           event="click"
-          exactactiveclass="active"
           routertag="a"
+          tag="button"
           target="_self"
           type="button"
+          variant="secondary"
         >
           Back
-        </bbutton-stub>
+        </b-button-stub>
       </template>
-    </bcard-stub>
-  </bcol-stub>
-</brow-stub>
+    </b-card-stub>
+  </b-col-stub>
+</b-row-stub>
 `;
