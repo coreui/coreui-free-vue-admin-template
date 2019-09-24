@@ -224,7 +224,4 @@ export default {
   margin-bottom: 4px;
   margin-right: 6px;
 }
-.btn svg + span {
-  margin-left: 8px;
-}
 </style>

@@ -540,10 +540,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  /* IE fix */
-  #card-chart-01, #card-chart-02 {
-    width: 100% !important;
-  }
-</style>
