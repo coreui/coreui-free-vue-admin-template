@@ -12,7 +12,7 @@
   </b-navbar-nav>
 </template>
 <script>
-import json from '../configs/navBarItems.json'
+import json from '../configs/leftNavBarItems.json'
 
 export default {
   name: 'LeftNavBarItem',
