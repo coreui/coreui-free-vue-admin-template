@@ -1,10 +1,7 @@
 <template>
   <AppHeader fixed>
     <SidebarToggler class="d-lg-none" display="md" mobile />
-    <b-link class="navbar-brand" to="#">
-      <img class="navbar-brand-full" src="img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
-      <img class="navbar-brand-minimized" src="img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
-    </b-link>
+    <LogoNavBarItem />
     <SidebarToggler class="d-md-down-none" display="lg" :defaultOpen=true />
     <LeftNavBarItem />
     <RightNavBarItem />
@@ -14,6 +11,7 @@
 </template>
 <script>
 import { Header as AppHeader, SidebarToggler, AsideToggler } from '@coreui/vue'
+import LogoNavBarItem from '../components/LogoNavBarItem'
 import LeftNavBarItem from '../components/LeftNavBarItem'
 import RightNavBarItem from '../components/RightNavBarItem'
 
@@ -23,6 +21,7 @@ export default {
     AsideToggler,
     AppHeader,
     SidebarToggler,
+    LogoNavBarItem,
     LeftNavBarItem,
     RightNavBarItem,
   },
