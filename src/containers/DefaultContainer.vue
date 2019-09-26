@@ -20,7 +20,13 @@
         <DefaultAside/>
       </AppAside>
     </div>
-    <DefaultFooter/>
+    <DefaultFooter
+      title="CoreUI"
+      title_url="https://coreui.io"
+      copyrigth_text="© 2018 creativeLabs."
+      power_by_text="CoreUI for Vue"
+      power_by_url="https://coreui.io"
+    />
   </div>
 </template>
 
