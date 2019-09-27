@@ -21,10 +21,11 @@
               :items="getItems()"
               :fields="fields"
               index-column
-              filter-row
-              options-row
+              column-filter
+              table-filter
+              items-per-page-selects
               hover
-              sorting
+              sortable
               footer
               pagination
             >
@@ -148,7 +149,7 @@ const fields = [
   'registered',
   { key: 'role', _style:'width:20%;' },
   { key: 'status', _style:'width:20%;' },
-  { key: 'show_details' , label:'', _style:'width:1%', noSorting: true, noFilter: true },
+  { key: 'show_details' , label:'', _style:'width:1%', notSortable: true, noFilter: true },
 ]
 const items = [
   { username: 'Samppa Nori', registered: '2012/01/01', role: 'Member', status: 'Active'},
