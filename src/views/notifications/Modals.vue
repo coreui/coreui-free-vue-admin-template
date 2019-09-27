@@ -45,7 +45,16 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
 
-    <b-modal title="Modal title" class="modal-primary" v-model="primaryModal" @ok="primaryModal = false">
+
+
+    <b-modal 
+      title="Modal title" 
+      variant="primary"
+      header-bg-variant="primary"
+      content-class="border-primary"
+      v-model="primaryModal" 
+      @ok="primaryModal = false"
+    >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -53,7 +62,15 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-success" v-model="successModal" @ok="successModal = false" ok-variant="success">
+    <b-modal 
+      title="Modal title" 
+      variant="success"
+      header-bg-variant="success"
+      content-class="border-success"
+      v-model="successModal" 
+      @ok="successModal = false" 
+      ok-variant="success"
+    >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -61,7 +78,15 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-warning" v-model="warningModal" @ok="warningModal = false" ok-variant="warning">
+    <b-modal 
+      title="Modal title" 
+      variant="warning"
+      header-bg-variant="warning"
+      content-class="border-warning"
+      v-model="warningModal" 
+      @ok="warningModal = false" 
+      ok-variant="warning"
+    >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -69,7 +94,15 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-danger" v-model="dangerModal" @ok="dangerModal = false" ok-variant="danger">
+    <b-modal 
+      title="Modal title" 
+      variant="danger"
+      header-bg-variant="danger"
+      content-class="border-danger" 
+      v-model="dangerModal" 
+      @ok="dangerModal = false" 
+      ok-variant="danger"
+    >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -77,7 +110,15 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </b-modal>
-    <b-modal title="Modal title" class="modal-info" v-model="infoModal" @ok="infoModal = false" ok-variant="info">
+    <b-modal 
+      title="Modal title" 
+      variant="info"
+      header-bg-variant="info"
+      content-class="border-info" 
+      v-model="infoModal" 
+      @ok="infoModal = false" 
+      ok-variant="info"
+    >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
