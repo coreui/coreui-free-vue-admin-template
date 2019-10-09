@@ -1,0 +1,16 @@
+{
+  "0": {
+      "alt_title": "CoreUI Logo",
+      "img_src_url": "img/brand/logo.svg",
+      "class": "navbar-brand-full",
+      "width":"89",
+      "height":"25"
+  },
+  "1": {
+    "alt_title": "CoreUI Logo",
+    "img_src_url": "img/brand/sygnet.svg",
+    "class": "navbar-brand-minimized",
+    "width":"30",
+    "height":"30"
+  }
+}

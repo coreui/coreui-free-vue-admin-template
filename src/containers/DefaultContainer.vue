@@ -2,13 +2,7 @@
   <div class="app">
     <DefaultHeader/>
     <div class="app-body">
-      <AppSidebar fixed>
-        <SidebarHeader/>
-        <SidebarForm/>
-        <SidebarNav :navItems="nav"></SidebarNav>
-        <SidebarFooter/>
-        <SidebarMinimizer/>
-      </AppSidebar>
+      <DefaultLeftSidebar />
       <main class="main">
         <Breadcrumb :list="list"/>
         <div class="container-fluid">
@@ -20,38 +14,34 @@
         <DefaultAside/>
       </AppAside>
     </div>
-    <DefaultFooter/>
+    <DefaultFooter
+      title="CoreUI"
+      title_url="https://coreui.io"
+      copyrigth_text="© 2018 creativeLabs."
+      power_by_text="CoreUI for Vue"
+      power_by_url="https://coreui.io"
+    />
   </div>
 </template>
 
 <script>
-import nav from '@/_nav'
-import { Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Aside as AppAside, Breadcrumb } from '@coreui/vue'
+import { Aside as AppAside, Breadcrumb } from '@coreui/vue'
 import DefaultAside from './DefaultAside'
 import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
 import DefaultHeader from './DefaultHeader'
 import DefaultFooter from './DefaultFooter'
+import DefaultLeftSidebar from './DefaultLeftSidebar'
 
 export default {
   name: 'DefaultContainer',
   components: {
-    AppSidebar,
     AppAside,
     Breadcrumb,
     DefaultAside,
     DefaultHeaderDropdownAccnt,
-    SidebarForm,
-    SidebarFooter,
-    SidebarHeader,
-    SidebarNav,
-    SidebarMinimizer,
     DefaultFooter,
-    DefaultHeader
-  },
-  data () {
-    return {
-      nav: nav.items
-    }
+    DefaultHeader,
+    DefaultLeftSidebar
   },
   computed: {
     name () {
