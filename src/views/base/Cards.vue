@@ -120,62 +120,62 @@
     <b-row>
       <b-col sm="6" md="4">
         <b-card class="bg-primary text-center">
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
+          <Blockquote
+            v-bind:classes="'card-blockquote'"
+            v-bind:content="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'"
+            v-bind:footerContent="'Someone famous in'"
+            v-bind:citeContent="'Source Title'"
+          />
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
         <b-card class="bg-success text-center">
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
+          <Blockquote
+            v-bind:classes="'card-blockquote'"
+            v-bind:content="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'"
+            v-bind:footerContent="'Someone famous in'"
+            v-bind:citeContent="'Source Title'"
+          />
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
         <b-card class="bg-info text-center">
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
+          <Blockquote
+            v-bind:classes="'card-blockquote'"
+            v-bind:content="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'"
+            v-bind:footerContent="'Someone famous in'"
+            v-bind:citeContent="'Source Title'"
+          />
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
         <b-card class="bg-warning text-center">
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
+          <Blockquote
+            v-bind:classes="'card-blockquote'"
+            v-bind:content="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'"
+            v-bind:footerContent="'Someone famous in'"
+            v-bind:citeContent="'Source Title'"
+          />
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
         <b-card class="bg-danger text-center">
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
+          <Blockquote
+            v-bind:classes="'card-blockquote'"
+            v-bind:content="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'"
+            v-bind:footerContent="'Someone famous in'"
+            v-bind:citeContent="'Source Title'"
+          />
         </b-card>
       </b-col>
       <b-col sm="6" md="4">
         <b-card class="bg-secondary text-center">
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
+          <Blockquote
+            v-bind:classes="'card-blockquote'"
+            v-bind:content="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'"
+            v-bind:footerContent="'Someone famous in'"
+            v-bind:citeContent="'Source Title'"
+          />
         </b-card>
       </b-col>
     </b-row><!--/.row-->
@@ -236,11 +236,13 @@
 
 <script>
 import { Switch as cSwitch } from '@coreui/vue'
+import Blockquote from '../../components/Blockquote'
 
 export default {
   name: 'cards',
   components: {
-    cSwitch
+    cSwitch,
+    Blockquote
   },
   data: function () {
     return {
