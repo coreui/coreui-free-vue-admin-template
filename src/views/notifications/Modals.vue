@@ -54,7 +54,7 @@
     <!-- Modal Component -->
     <CModal
       title="Modal title"
-      :visible.sync="myModal"
+      :show.sync="myModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -66,7 +66,7 @@
     <CModal
       title="Modal title"
       size="lg"
-      :visible.sync="largeModal"
+      :show.sync="largeModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -78,7 +78,7 @@
     <CModal
       title="Modal title"
       size="sm"
-      :visible.sync="smallModal"
+      :show.sync="smallModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -90,7 +90,7 @@
 
     <CModal
       title="Modal title"
-      :visible.sync="primaryModal"
+      :show.sync="primaryModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -102,7 +102,7 @@
     <CModal
       title="Modal title"
       variant="success"
-      :visible.sync="successModal"
+      :show.sync="successModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -114,7 +114,7 @@
     <CModal
       title="Modal title"
       variant="warning"
-      :visible.sync="warningModal"
+      :show.sync="warningModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -126,7 +126,7 @@
     <CModal
       title="Modal title"
       variant="danger"
-      :visible.sync="dangerModal"
+      :show.sync="dangerModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -138,7 +138,7 @@
     <CModal
       title="Modal title"
       variant="info"
-      :visible.sync="infoModal"
+      :show.sync="infoModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -148,7 +148,7 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </CModal>
     <CModal
-      :visible.sync="darkModal"
+      :show.sync="darkModal"
       :no-close-on-backdrop="true"
       :centered="true"
       title="Modal title 2"
@@ -166,8 +166,8 @@
         <CButtonClose @click="hide()" class="text-white"/>
       </template>
       <template #footer="{hide}">
-        <CButton @click="hide()" variant="danger">Discard</CButton>
-        <CButton @click="hide(true)" variant="success">Accept</CButton>
+        <CButton @click="darkModal = false" variant="danger">Discard</CButton>
+        <CButton @click="darkModal = false" variant="success">Accept</CButton>
       </template>
     </CModal>
   </div>

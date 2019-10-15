@@ -125,78 +125,72 @@
           </div> -->
         </CCardHeader>
         <CCardBody>
-          <div>
-            <CButtonToolbar aria-label="Toolbar with button groups">
-              <CButtonGroup class="mx-1">
-                <CButton variant="secondary" class="d-sm-down-none">&laquo;</CButton>
-                <CButton variant="secondary">&lsaquo;</CButton>
-              </CButtonGroup>
-              <CButtonGroup class="mx-1">
-                <CButton variant="secondary" class="d-sm-down-none">Edit</CButton>
-                <CButton variant="secondary">Undo</CButton>
-                <CButton variant="secondary">Redo</CButton>
-              </CButtonGroup>
-              <CButtonGroup class="mx-1">
-                <CButton variant="secondary">&rsaquo;</CButton>
-                <CButton variant="secondary" class="d-sm-down-none">&raquo;</CButton>
-              </CButtonGroup>
-            </CButtonToolbar>
-          </div>
+          <CButtonToolbar aria-label="Toolbar with button groups" >
+            <CButtonGroup class="mx-1">
+              <CButton variant="secondary" class="d-sm-down-none">&laquo;</CButton>
+              <CButton variant="secondary">&lsaquo;</CButton>
+            </CButtonGroup>
+            <CButtonGroup class="mx-1">
+              <CButton variant="secondary" class="d-sm-down-none">Edit</CButton>
+              <CButton variant="secondary">Undo</CButton>
+              <CButton variant="secondary">Redo</CButton>
+            </CButtonGroup>
+            <CButtonGroup class="mx-1">
+              <CButton variant="secondary">&rsaquo;</CButton>
+              <CButton variant="secondary" class="d-sm-down-none">&raquo;</CButton>
+            </CButtonGroup>
+          </CButtonToolbar>
           <hr class="d-sm-down-none"/>
-          <div>
-            <CButtonToolbar
-              aria-label="Toolbar with button groups and input groups"
-              class="d-sm-down-none"
-            >
-              <CButtonGroup size="sm" class="mx-1">
-                <CButton variant="secondary">New</CButton>
-                <CButton variant="secondary">Edit</CButton>
-              </CButtonGroup>
-              <CFormInput
-                class="mb-0 w-25 mx-1"
-                size="sm"
-                prepend-html="$"
-                append-html=".00"
-                value="100"
-              />
-              <CFormSelect
-                class="mb-0 w-25 mx-1"
-                size="sm"
-                prepend-html="Size"
-                value="Medium"
-                :options="['Large','Medium','Small']"
-                custom
-              />
-              <CButtonGroup size="sm" class="mx-1">
-                <CButton variant="secondary">Save</CButton>
-                <CButton variant="secondary">Cancel</CButton>
-              </CButtonGroup>
-            </CButtonToolbar>
-          </div>
+          <CButtonToolbar
+            aria-label="Toolbar with button groups and input groups"
+            class="d-sm-down-none"
+          >
+            <CButtonGroup size="sm" class="mx-1">
+              <CButton variant="secondary">New</CButton>
+              <CButton variant="secondary">Edit</CButton>
+            </CButtonGroup>
+            <CFormInput
+              class="mb-0 w-25 mx-1"
+              size="sm"
+              prepend-html="$"
+              append-html=".00"
+              value="100"
+            />
+            <CFormSelect
+              class="mb-0 w-25 mx-1"
+              size="sm"
+              prepend-html="Size"
+              value="Medium"
+              :options="['Large','Medium','Small']"
+              custom
+            />
+            <CButtonGroup size="sm" class="mx-1">
+              <CButton variant="secondary">Save</CButton>
+              <CButton variant="secondary">Cancel</CButton>
+            </CButtonGroup>
+          </CButtonToolbar>
           <hr/>
-          <div>
-            <CButtonToolbar aria-label="Toolbar with button groups and dropdown menu">
-              <CButtonGroup class="mx-1 d-sm-down-none">
-                <CButton variant="secondary">New</CButton>
-                <CButton variant="secondary">Edit</CButton>
-                <CButton variant="secondary">Undo</CButton>
-              </CButtonGroup>
-              <CDropdown
-                variant="secondary"
-                class="mx-1"
-                placement="bottom-end"
-                button-content="Menu"
-              >
-                <CDropdownItem>Item 1</CDropdownItem>
-                <CDropdownItem>Item 2</CDropdownItem>
-                <CDropdownItem>Item 3</CDropdownItem>
-              </CDropdown>
-              <CButtonGroup class="mx-1">
-                <CButton variant="secondary">Save</CButton>
-                <CButton variant="secondary">Cancel</CButton>
-              </CButtonGroup>
-            </CButtonToolbar>
-          </div>
+          <CButtonToolbar aria-label="Toolbar with button groups and dropdown menu">
+            <CButtonGroup class="mx-1 d-sm-down-none">
+              <CButton variant="secondary">New</CButton>
+              <CButton variant="secondary">Edit</CButton>
+              <CButton variant="secondary">Undo</CButton>
+            </CButtonGroup>
+            <CDropdown
+              variant="secondary"
+              class="mx-1"
+              placement="bottom-end"
+              button-content="Menu"
+            >
+              <CDropdownItem>Item 1</CDropdownItem>
+              <CDropdownItem>Item 2</CDropdownItem>
+              <CDropdownItem>Item 3</CDropdownItem>
+            </CDropdown>
+            <CButtonGroup class="mx-1">
+              <CButton variant="secondary">Save</CButton>
+              <CButton variant="secondary">Cancel</CButton>
+            </CButtonGroup>
+          </CButtonToolbar>
         </CCardBody>
       </CCard>
     </CCol>

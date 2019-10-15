@@ -66,7 +66,9 @@
             Card with label
             <CBadge pill variant="danger" class="float-right">42</CBadge>
           </CCardHeader>
-          <CCardBody :body-html="loremIpsum"/>
+          <CCardBody>
+            {{loremIpsum}}
+          </CCardBody>
         </CCard>
       </CCol>
     </CRow>

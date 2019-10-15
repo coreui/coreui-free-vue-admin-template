@@ -8,7 +8,7 @@
       :fixed="fixed"
       :items="items"
       :fields="fields"
-      :per-page="small ? 10 : 5"
+      :items-per-page="small ? 10 : 5"
       :dark="dark"
       pagination
     >

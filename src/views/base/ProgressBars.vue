@@ -16,7 +16,7 @@
         </div>
       </CCardHeader>
       <CCardBody>
-        <CProgress :value="counter" :max="max" show-progress animated></CProgress>
+        <CProgress :value="counter" :max="max" show-percentage animated></CProgress>
         <CProgress class="mt-1" :max="max" show-value>
           <CProgressBar :value="counter*(6/10)" variant="success"/>
           <CProgressBar :value="counter*(2.5/10)" variant="warning"/>
@@ -41,11 +41,11 @@
         <h6>Value label</h6>
         <CProgress :value="value" :max="max2" show-value class="mb-3"/>
         <h6>Progress label</h6>
-        <CProgress :value="value" :max="max2" show-progress class="mb-3"/>
+        <CProgress :value="value" :max="max2" show-percentage class="mb-3"/>
         <h6>Value label with precision</h6>
         <CProgress :value="value" :max="max2" :precision="2" show-value class="mb-3"/>
         <h6>Progress label with precision</h6>
-        <CProgress :value="value" :max="max2" :precision="2" show-progress class="mb-3"/>
+        <CProgress :value="value" :max="max2" :precision="2" show-percentage class="mb-3"/>
       </CCardBody>
     </CCard>
     <CCard>
@@ -71,10 +71,10 @@
       </CCardHeader>
       <CCardBody>
         <h6>Default height</h6>
-        <CProgress :value="value3" show-progress class="mb-3"/>
+        <CProgress :value="value3" show-percentage class="mb-3"/>
         <h6>Custom heights</h6>
-        <CProgress height="2rem" :value="value3" show-progress class="mb-2"/>
-        <CProgress height="20px" :value="value3" show-progress class="mb-2"/>
+        <CProgress height="2rem" :value="value3" show-percentage class="mb-2"/>
+        <CProgress height="20px" :value="value3" show-percentage class="mb-2"/>
         <CProgress height="2px" :value="value3"/>
       </CCardBody>
     </CCard>
@@ -184,7 +184,7 @@
           <CProgressBar variant="success" :value="values[1]"/>
           <CProgressBar variant="info" :value="values[2]"/>
         </CProgress>
-        <CProgress show-progress :max="max3" class="mb-3">
+        <CProgress show-percentage :max="max3" class="mb-3">
           <CProgressBar variant="primary" :value="values[0]"/>
           <CProgressBar variant="success" :value="values[1]"/>
           <CProgressBar variant="info" :value="values[2]"/>
@@ -195,9 +195,9 @@
           <CProgressBar variant="info" :value="values[2]"/>
         </CProgress>
         <CProgress :max="max3" class="mb-3">
-          <CProgressBar variant="primary" :value="values[0]" show-progress/>
-          <CProgressBar variant="success" :value="values[1]" animated show-progress/>
-          <CProgressBar variant="info" :value="values[2]" striped show-progress/>
+          <CProgressBar variant="primary" :value="values[0]" show-percentage/>
+          <CProgressBar variant="success" :value="values[1]" animated show-percentage/>
+          <CProgressBar variant="info" :value="values[2]" striped show-percentage/>
         </CProgress>
       </CCardBody>
     </CCard>

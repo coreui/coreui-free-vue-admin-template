@@ -210,14 +210,14 @@
                   </CCol>
                   <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
                     <CFormRadio
-                      v-for="option in options"
+                      v-for="(option, optionIndex) in options"
                       :key="option"
                       :label="option"
                       type="radio"
                       :value="option"
                       :custom="key > 1"
                       :name="`Option 1${key}`"
-                      checked="Option 1"
+                      :checked="optionIndex === key"
                       :inline="key % 2 === 1"
                     />
                   </CCol>
@@ -561,7 +561,7 @@
             <CFormInput placeholder="Username">
               <template #prepend>
                 <CDropdown
-                  button-html="Action"
+                  togglerText="Action"
                   variant="primary"
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -578,7 +578,7 @@
             >
               <template #append>
                 <CDropdown
-                  button-html="Action"
+                  togglerText="Action"
                   variant="primary"
                   right
                 >
@@ -593,7 +593,7 @@
 
               <template #prepend>
                 <CDropdown
-                  button-html="Split"
+                  togglerText="Split"
                   variant="primary"
                   split
                 >
@@ -606,7 +606,7 @@
 
               <template #append>
                 <CDropdown
-                  button-html="Action"
+                  togglerText="Action"
                   variant="primary"
                   right
                 >
@@ -861,7 +861,11 @@ export default {
       options: ['Option 1', 'Option 2', 'Option 3'],
       selectOptions: [
         'Option 1', 'Option 2', 'Option 3',
-        { value: ['some value', 'another value'], label: 'Option 4' }],
+        { 
+          value: ['some value', 'another value'], 
+          label: 'Selected option'
+        }
+      ],
       selectedOption: ['some value', 'another value'],
 
       formCollapsed: true,

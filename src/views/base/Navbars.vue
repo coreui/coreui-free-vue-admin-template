@@ -20,7 +20,7 @@
           toggleable="md"
           variant="info"
         >
-          <CNavbarToggle @click="show=!show"/>
+          <CNavbarToggler @click="show=!show"/>
           <CNavbarBrand href="#">NavBar</CNavbarBrand>
           <CCollapse :show="show" navbar>
             <CNavbarNav>
@@ -42,7 +42,7 @@
               </CForm>
 
               <CDropdown
-                button-html="Lang"
+                toggler-text="Lang"
                 nav
                 placement="bottom-end"
               >
@@ -54,7 +54,7 @@
 
               <CDropdown
                 nav
-                buttonHtml="<em>User</em>"
+                toggler-text="User"
                 placement="bottom-end"
               >
                 <CDropdownItem>Profile</CDropdownItem>
@@ -111,7 +111,7 @@
               <CNavItem href="#">Link</CNavItem>
               <!-- Navbar dropdowns -->
               <CDropdown
-                button-html="Lang"
+                toggler-text="Lang"
                 right
                 nav
               >
@@ -121,7 +121,7 @@
                 <CDropdownItem>FA</CDropdownItem>
               </CDropdown>
               <CDropdown
-                button-html="User"
+                toggler-text="User"
                 right
                 nav
               >

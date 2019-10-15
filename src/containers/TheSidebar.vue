@@ -13,7 +13,7 @@
     <CRenderFunction :contentToRender="nav"/>
     <!-- <CSidebarFooter/> -->
     <CSidebarMinimizer 
-      class="d-md-down-none" 
+      class="d-md-down-none c-sidebar-minimized-unfoldable"
       @click.native="minimize = !minimize"
     />
   </CSidebar>
@@ -26,8 +26,12 @@ export default {
   data () {
     return {
       minimize: false,
-      nav
+      nav,
+      show: null
     }
+  },
+  mounted () {
+    this.$root.$on('toggle-sidebar', () => this.show = !this.show)
   }
 }
 </script>
