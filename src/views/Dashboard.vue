@@ -9,12 +9,12 @@
             <div class="small text-muted">November 2017</div>
           </CCol>
           <CCol sm="7" class="d-none d-md-block">
-            <CButton variant="primary" class="float-right">
+            <CButton color="primary" class="float-right">
               <i class="cui-cloud-download"></i>
             </CButton>
             <CButtonGroup class="float-right mr-3">
               <CButton
-                variant="outline-secondary"
+                color="outline-secondary"
                 v-for="(value, key) in ['Day', 'Month', 'Year']"
                 :key="key"
                 class="mx-0"
@@ -36,7 +36,7 @@
             <CProgress
               class="progress-xs mt-2"
               :precision="1"
-              variant="success"
+              color="success"
               :value="40"
             />
           </CCol>
@@ -46,7 +46,7 @@
             <CProgress
               class="progress-xs mt-2"
               :precision="1"
-              variant="info"
+              color="info"
               :value="20"
             />
           </CCol>
@@ -56,7 +56,7 @@
             <CProgress
               class="progress-xs mt-2"
               :precision="1"
-              variant="warning"
+              color="warning"
               :value="60"
             />
           </CCol>
@@ -66,7 +66,7 @@
             <CProgress
               class="progress-xs mt-2"
               :precision="1"
-              variant="danger"
+              color="danger"
               :value="80"
             />
           </CCol>
@@ -90,13 +90,13 @@
             <CCol sm="12" lg="6">
               <CRow>
                 <CCol sm="6">
-                  <CCallout variant="info">
+                  <CCallout color="info">
                     <small class="text-muted">New Clients</small><br>
                     <strong class="h4">9,123</strong>
                   </CCallout>
                 </CCol>
                 <CCol sm="6">
-                  <CCallout variant="danger">
+                  <CCallout color="danger">
                     <small class="text-muted">Recurring Clients</small><br>
                     <strong class="h4">22,643</strong>
                   </CCallout>
@@ -112,12 +112,12 @@
                 <div class="progress-group-bars">
                   <CProgress
                     class="progress-xs"
-                    variant="info"
+                    color="info"
                     :value="34"
                   />
                   <CProgress
                     class="progress-xs"
-                    variant="danger"
+                    color="danger"
                     :value="78"
                   />
                 </div>
@@ -132,12 +132,12 @@
                   <CProgress
                     class="progress-xs"
                     :value="56"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
                     class="progress-xs"
                     :value="94"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
@@ -151,12 +151,12 @@
                   <CProgress
                     class="progress-xs"
                     :value="12"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
                     class="progress-xs"
                     :value="67"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
@@ -170,12 +170,12 @@
                   <CProgress
                     class="progress-xs"
                     :value="43"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
                     class="progress-xs"
                     :value="91"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
@@ -189,12 +189,12 @@
                   <CProgress
                     class="progress-xs"
                     :value="22"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
                     class="progress-xs"
                     :value="73"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
@@ -208,12 +208,12 @@
                   <CProgress
                     class="progress-xs"
                     :value="53"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
                     class="progress-xs"
                     :value="82"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
@@ -227,21 +227,21 @@
                   <CProgress
                     class="progress-xs"
                     :value="9"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
                     class="progress-xs"
                     :value="69"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
               <div class="legend text-center">
                 <small>
-                  <sup><CBadge pill variant="info">&nbsp;</CBadge></sup>
+                  <sup><CBadge pill color="info">&nbsp;</CBadge></sup>
                   New clients
                   &nbsp;&nbsp;
-                  <sup><CBadge pill variant="danger">&nbsp;</CBadge></sup>
+                  <sup><CBadge pill color="danger">&nbsp;</CBadge></sup>
                   Recurring clients
                 </small>
               </div>
@@ -249,13 +249,13 @@
             <CCol sm="12" lg="6">
               <CRow>
                 <CCol sm="6">
-                  <CCallout variant="warning">
+                  <CCallout color="warning">
                     <small class="text-muted">Pageviews</small><br>
                     <strong class="h4">78,623</strong>
                   </CCallout>
                 </CCol>
                 <CCol sm="6">
-                  <CCallout variant="success">
+                  <CCallout color="success">
                     <small class="text-muted">Organic</small><br>
                     <strong class="h4">49,123</strong>
                   </CCallout>
@@ -273,7 +273,7 @@
                     <CProgress
                       class="progress-xs"
                       :value="43"
-                      variant="warning"
+                      color="warning"
                     />
                   </div>
                 </div>
@@ -287,7 +287,7 @@
                     <CProgress
                       class="progress-xs"
                       :value="37"
-                      variant="warning"
+                      color="warning"
                     />
                   </div>
                 </div>
@@ -303,7 +303,7 @@
                     <CProgress
                       class="progress-xs"
                       :value="56"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
@@ -323,7 +323,7 @@
                     <CProgress
                       class="progress-xs"
                       :value="15"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
@@ -343,7 +343,7 @@
                     <CProgress
                       class="progress-xs"
                       :value="11"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
@@ -363,12 +363,12 @@
                     <CProgress
                       class="progress-xs"
                       :value="8"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
                 <div class="divider text-center">
-                  <CButton variant="link" size="sm" class="text-muted">
+                  <CButton color="link" size="sm" class="text-muted">
                     <i class="cui-options"></i>
                   </CButton>
                 </div>
@@ -381,7 +381,7 @@
             hover
             :items="tableItems"
             :fields="tableFields"
-            head-variant="light"
+            head-color="light"
             no-sorting
           >
             <td slot="avatar" class="text-center" slot-scope="{item}">
@@ -424,7 +424,7 @@
               <CProgress
                 class="progress-xs"
                 v-model="item.usage.value"
-                :variant="variant(item.usage.value)"
+                :color="color(item.usage.value)"
               />
             </td>
             <td
@@ -524,18 +524,18 @@ export default {
     }
   },
   methods: {
-    variant (value) {
-      let $variant
+    color (value) {
+      let $color
       if (value <= 25) {
-        $variant = 'info'
+        $color = 'info'
       } else if (value > 25 && value <= 50) {
-        $variant = 'success'
+        $color = 'success'
       } else if (value > 50 && value <= 75) {
-        $variant = 'warning'
+        $color = 'warning'
       } else if (value > 75 && value <= 100) {
-        $variant = 'danger'
+        $color = 'danger'
       }
-      return $variant
+      return $color
     }
   }
 }

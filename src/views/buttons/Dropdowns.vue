@@ -22,7 +22,7 @@
               <CDropdown 
                 toggler-text="Dropdown Button" 
                 class="m-2"
-                variant="secondary"
+                color="secondary"
               >
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
@@ -44,7 +44,7 @@
               <CDropdown 
                 toggler-text="Dropdown with divider" 
                 class="m-2"
-                variant="secondary"
+                color="secondary"
               >
                 <CDropdownItem>First item</CDropdownItem>
                 <CDropdownItem>Second item</CDropdownItem>
@@ -56,7 +56,7 @@
               <CDropdown 
                 toggler-text="Dropdown with header" 
                 class="m-2"
-                variant="secondary"
+                color="secondary"
               >
                 <CDropdownHeader>Dropdown header</CDropdownHeader>
                 <CDropdownItem>First item</CDropdownItem>
@@ -77,7 +77,7 @@
             <div>
               <CDropdown
                 toggler-text="Left align"
-                variant="primary"
+                color="primary"
                 class="m-2 d-inline-block"
               >
                 <CDropdownItem>Action</CDropdownItem>
@@ -87,7 +87,7 @@
               <CDropdown
                 placement="bottom-end"
                 toggler-text="Right align"
-                variant="primary"
+                color="primary"
                 class="m-2 d-inline-block"
               >
                 <CDropdownItem>Action</CDropdownItem>
@@ -98,7 +98,7 @@
             <div>
               <CDropdown
                 toggler-text="Drop-Up"
-                variant="info"
+                color="info"
                 class="m-2"
                 placement="top-start"
 
@@ -110,7 +110,7 @@
             </div>
             <div>
               <CDropdown
-                variant="secondary"
+                color="secondary"
                 :offset="25"
                 toggler-text="Offset Dropdown"
                 class="m-2"
@@ -122,7 +122,7 @@
             </div>
             <div>
               <CDropdown
-                variant="secondary"
+                color="secondary"
                 split
                 toggler-text="Split Dropdown"
                 class="m-2"
@@ -147,7 +147,7 @@
           <CCardBody>
             <div>
               <CDropdown
-                variant="link"
+                color="link"
                 size="lg"
                 no-caret
               >
@@ -172,7 +172,7 @@
           <CCardBody>
             <div>
               <CDropdown
-                variant="secondary"
+                color="secondary"
                 size="lg"
                 toggler-text="Large"
                 class="m-2 d-inline-block"
@@ -182,7 +182,7 @@
                 <CDropdownItem>Something else here</CDropdownItem>
               </CDropdown>
               <CDropdown
-                variant="secondary"
+                color="secondary"
                 size="lg"
                 split
                 toggler-text="Large Split"
@@ -194,7 +194,7 @@
               </CDropdown>
               <br>
               <CDropdown
-                variant="secondary"
+                color="secondary"
                 size="sm"
                 toggler-text="Small"
                 class="m-2 d-inline-block"
@@ -204,7 +204,7 @@
                 <CDropdownItem>Something else here...</CDropdownItem>
               </CDropdown>
               <CDropdown
-                variant="secondary"
+                color="secondary"
                 size="sm"
                 split toggler-text="Small Split"
                 class="m-2"
@@ -229,7 +229,7 @@
           <CCardBody>
             <div>
               <CDropdown
-                toggler-text="Dropdown ARIA" variant="primary"
+                toggler-text="Dropdown ARIA" color="primary"
                 class="m-2"
               >
                 <div role="group">
@@ -256,13 +256,13 @@
           <CCardHeader>
             <i class="fa fa-align-justify"></i>
             <strong> Dropdown </strong>
-            <small><code>variant</code></small>
+            <small><code>color</code></small>
           </CCardHeader>
           <CCardBody>
             <CDropdown
               size="sm"
               toggler-text="Primary"
-              variant="primary"
+              color="primary"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -272,7 +272,7 @@
             <CDropdown
               size="sm"
               toggler-text="Secondary"
-              variant="secondary"
+              color="secondary"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -282,7 +282,7 @@
             <CDropdown
               size="sm"
               toggler-text="Success"
-              variant="success"
+              color="success"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -292,7 +292,7 @@
             <CDropdown
               size="sm"
               toggler-text="Warning"
-              variant="warning"
+              color="warning"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -302,7 +302,7 @@
             <CDropdown
               size="sm"
               toggler-text="Danger"
-              variant="danger"
+              color="danger"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -312,7 +312,7 @@
             <CDropdown
               size="sm"
               toggler-text="Info"
-              variant="info"
+              color="info"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -322,7 +322,7 @@
             <CDropdown
               size="sm"
               toggler-text="Light"
-              variant="light"
+              color="light"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -332,7 +332,7 @@
             <CDropdown
               size="sm"
               toggler-text="Dark"
-              variant="dark"
+              color="dark"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>
@@ -342,7 +342,7 @@
             <CDropdown
               size="sm"
               toggler-text="Link"
-              variant="link"
+              color="link"
               class="m-0 d-inline-block"
             >
               <CDropdownItem>First Action</CDropdownItem>

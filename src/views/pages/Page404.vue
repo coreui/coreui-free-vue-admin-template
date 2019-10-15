@@ -14,7 +14,7 @@
           placeholder="What are you looking for?"
         >
           <template #append>
-            <CButton variant="info">Search</CButton>
+            <CButton color="info">Search</CButton>
           </template>
         </CFormInput>
       </div>

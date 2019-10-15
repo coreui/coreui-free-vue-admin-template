@@ -38,7 +38,7 @@
               class="float-right"
               size="sm"
               shape="pill"
-              variant="info"
+              color="info"
               data-on="On"
               data-off="Off"
               :checked="true"
@@ -53,7 +53,7 @@
         <CCard>
           <CCardHeader>
             Card with label
-            <CBadge variant="success" class="float-right">Success</CBadge>
+            <CBadge color="success" class="float-right">Success</CBadge>
           </CCardHeader>
           <CCardBody>
             {{loremIpsum}}
@@ -64,7 +64,7 @@
         <CCard>
           <CCardHeader>
             Card with label
-            <CBadge pill variant="danger" class="float-right">42</CBadge>
+            <CBadge pill color="danger" class="float-right">42</CBadge>
           </CCardHeader>
           <CCardBody>
             {{loremIpsum}}
@@ -76,38 +76,38 @@
       <CCol sm="6" md="4">
         <CCard
           header="Card outline primary"
-          border-variant="primary"
+          border-color="primary"
           :body-html="loremIpsum"
         />
       </CCol>
       <CCol sm="6" md="4">
         <CCard
           header="Card outline secondary"
-          border-variant="secondary"
+          border-color="secondary"
           :body-html="loremIpsum"
         />
       </CCol>
       <CCol sm="6" md="4">
         <CCard
           header="Card outline success"
-          border-variant="success"
+          border-color="success"
           body-wrapper
         >
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card outline info" border-variant="info" body-wrapper>
+        <CCard header-html="Card outline info" border-color="info" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card outline warning" border-variant="warning" body-wrapper>
+        <CCard header-html="Card outline warning" border-color="warning" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card outline danger" border-variant="danger" body-wrapper>
+        <CCard header-html="Card outline danger" border-color="danger" body-wrapper>
             {{loremIpsum}}
         </CCard>
       </CCol>

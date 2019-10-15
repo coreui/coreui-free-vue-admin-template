@@ -18,7 +18,7 @@
       <CCardBody>
         <CNavbar
           toggleable="md"
-          variant="info"
+          color="info"
         >
           <CNavbarToggler @click="show=!show"/>
           <CNavbarBrand href="#">NavBar</CNavbarBrand>
@@ -36,7 +36,7 @@
                   placeholder="Search"
                   size="sm"
                 />
-                <CButton variant="light" size="sm" class="my-2 my-sm-0">
+                <CButton color="light" size="sm" class="my-2 my-sm-0">
                   Search
                 </CButton>
               </CForm>
@@ -72,7 +72,7 @@
       </CCardHeader>
       <CCardBody>
         <!-- Image and text -->
-        <CNavbar variant="faded" light>
+        <CNavbar color="faded" light>
           <CNavbarBrand href="#">
             <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="CoreuiVue">
             CoreuiVue
@@ -86,7 +86,7 @@
         <small>text</small>
       </CCardHeader>
       <CCardBody>
-        <CNavbar toggleable="sm" light variant="light">
+        <CNavbar toggleable="sm" light color="light">
           <CNavbarToggle @click="navbarText=!navbarText"></CNavbarToggle>
           <CNavbarBrand>CoreuiVue</CNavbarBrand>
           <CCollapse :show="navbarText" navbar>
@@ -103,7 +103,7 @@
         <small>dropdown</small>
       </CCardHeader>
       <CCardBody>
-        <CNavbar toggleable="sm" variant="primary">
+        <CNavbar toggleable="sm" color="primary">
           <CNavbarToggle @click="navbarDropdown = !navbarDropdown"></CNavbarToggle>
           <CCollapse :show="navbarDropdown" navbar>
             <CNavbarNav>
@@ -139,14 +139,14 @@
         <small>form</small>
       </CCardHeader>
       <CCardBody>
-        <CNavbar light variant="light">
+        <CNavbar light color="light">
           <CForm inline>
             <CFormInput
               class="mr-sm-2"
               placeholder="Search"
               size="sm"
             />
-            <CButton variant="outline-success" class="my-2 my-sm-0" type="submit">Search</CButton>
+            <CButton color="outline-success" class="my-2 my-sm-0" type="submit">Search</CButton>
           </CForm>
         </CNavbar>
       </CCardBody>
@@ -157,7 +157,7 @@
         <small>input group</small>
       </CCardHeader>
       <CCardBody>
-        <CNavbar light variant="light">
+        <CNavbar light color="light">
           <CForm inline>
             <CFormInput
               class="mr-sm-2"

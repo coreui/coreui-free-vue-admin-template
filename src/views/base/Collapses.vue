@@ -17,13 +17,13 @@
           </div>
         </CCardHeader>
         <CCardBody>
-          <CButton id="collapse1" variant="primary">
+          <CButton id="collapse1" color="primary">
             Toggle Collapse
           </CButton>
           <CCollapse toggler="collapse1" class="mt-2">
             <CCard body-wrapper>
               <p class="card-text">Collapse contents Here</p>
-              <CButton id="collapse2" size="sm" variant="secondary">
+              <CButton id="collapse2" size="sm" color="secondary">
                 Toggle Inner Collapse
               </CButton>
               <CCollapse toggler="collapse2" class="mt-2">

@@ -21,10 +21,10 @@
                 />
                 <CRow>
                   <CCol col="6">
-                    <CButton variant="primary" class="px-4">Login</CButton>
+                    <CButton color="primary" class="px-4">Login</CButton>
                   </CCol>
                   <CCol col="6" class="text-right">
-                    <CButton variant="link" class="px-0">Forgot password?</CButton>
+                    <CButton color="link" class="px-0">Forgot password?</CButton>
                   </CCol>
                 </CRow>
               </CForm>
@@ -38,7 +38,7 @@
             <h2>Sign up</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <CButton
-              variant="primary"
+              color="primary"
               class="active mt-3"
             >
               Register Now!

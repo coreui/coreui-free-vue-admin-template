@@ -30,16 +30,16 @@
                 autocomplete="new-password"
                 class="mb-4"
               />
-              <CButton variant="success" block>Create Account</CButton>
+              <CButton color="success" block>Create Account</CButton>
             </CForm>
           </CCardBody>
           <CCardFooter class="p-4">
             <CRow>
               <CCol col="6">
-                <CButton block variant="facebook" textHtml="Facebook"/>
+                <CButton block color="facebook" textHtml="Facebook"/>
               </CCol>
               <CCol col="6">
-                <CButton block variant="twitter" textHtml="Twitter"/>
+                <CButton block color="twitter" textHtml="Twitter"/>
               </CCol>
             </CRow>
           </CCardFooter>

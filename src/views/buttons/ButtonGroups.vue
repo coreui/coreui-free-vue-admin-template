@@ -19,20 +19,20 @@
         <CCardBody>
           <div>
             <CButtonGroup>
-              <CButton variant="secondary">One</CButton>
-              <CButton variant="secondary">Two</CButton>
-              <CButton variant="secondary">Three</CButton>
-              <CButton variant="secondary">Four</CButton>
-              <CButton variant="secondary" class="d-sm-down-none">Five</CButton>
+              <CButton color="secondary">One</CButton>
+              <CButton color="secondary">Two</CButton>
+              <CButton color="secondary">Three</CButton>
+              <CButton color="secondary">Four</CButton>
+              <CButton color="secondary" class="d-sm-down-none">Five</CButton>
             </CButtonGroup>
             <br><br>
             <CButtonGroup>
-              <CButton class="d-sm-down-none" variant="success">Success</CButton>
-              <CButton variant="info">Info</CButton>
-              <CButton variant="warning">Warn</CButton>
-              <CButton class="d-sm-down-none" variant="primary">Primary</CButton>
-              <CButton variant="danger">Danger</CButton>
-              <CButton variant="link">Link</CButton>
+              <CButton class="d-sm-down-none" color="success">Success</CButton>
+              <CButton color="info">Info</CButton>
+              <CButton color="warning">Warn</CButton>
+              <CButton class="d-sm-down-none" color="primary">Primary</CButton>
+              <CButton color="danger">Danger</CButton>
+              <CButton color="link">Link</CButton>
             </CButtonGroup>
           </div>
         </CCardBody>
@@ -47,21 +47,21 @@
         <CCardBody>
           <div>
             <CButtonGroup>
-              <CButton variant="secondary">Left</CButton>
-              <CButton variant="secondary">Middle</CButton>
-              <CButton variant="secondary">Right</CButton>
+              <CButton color="secondary">Left</CButton>
+              <CButton color="secondary">Middle</CButton>
+              <CButton color="secondary">Right</CButton>
             </CButtonGroup>
             <br><br>
             <CButtonGroup size="sm">
-              <CButton variant="secondary">Left</CButton>
-              <CButton variant="secondary">Middle</CButton>
-              <CButton variant="secondary">Right</CButton>
+              <CButton color="secondary">Left</CButton>
+              <CButton color="secondary">Middle</CButton>
+              <CButton color="secondary">Right</CButton>
             </CButtonGroup>
             <br><br>
             <CButtonGroup size="lg">
-              <CButton variant="secondary">Left</CButton>
-              <CButton variant="secondary">Middle</CButton>
-              <CButton variant="secondary">Right</CButton>
+              <CButton color="secondary">Left</CButton>
+              <CButton color="secondary">Middle</CButton>
+              <CButton color="secondary">Right</CButton>
             </CButtonGroup>
           </div>
         </CCardBody>
@@ -75,16 +75,16 @@
         <CCardBody>
           <div>
             <CButtonGroup>
-              <CButton variant="secondary" class="d-sm-down-none">Button 1</CButton>
-              <CButton variant="secondary" class="d-sm-down-none">Button 2</CButton>
-              <CDropdown right text="Menu" variant="success">
+              <CButton color="secondary" class="d-sm-down-none">Button 1</CButton>
+              <CButton color="secondary" class="d-sm-down-none">Button 2</CButton>
+              <CDropdown right text="Menu" color="success">
                 <CDropdownItem>Item 1</CDropdownItem>
                 <CDropdownItem>Item 2</CDropdownItem>
                 <CDropdownDivider></CDropdownDivider>
                 <CDropdownItem>Item 3</CDropdownItem>
               </CDropdown>
-              <CButton variant="secondary" class="d-sm-down-none">Button 3</CButton>
-              <CDropdown right split text="Split Menu" variant="info">
+              <CButton color="secondary" class="d-sm-down-none">Button 3</CButton>
+              <CDropdown right split text="Split Menu" color="info">
                 <CDropdownItem>Item 1</CDropdownItem>
                 <CDropdownItem>Item 2</CDropdownItem>
                 <CDropdownDivider></CDropdownDivider>
@@ -104,9 +104,9 @@
         <CCardBody>
           <div>
             <CButtonGroup vertical>
-              <CButton variant="secondary">Top</CButton>
-              <CButton variant="secondary">Middle</CButton>
-              <CButton variant="secondary">Bottom</CButton>
+              <CButton color="secondary">Top</CButton>
+              <CButton color="secondary">Middle</CButton>
+              <CButton color="secondary">Bottom</CButton>
             </CButtonGroup>
           </div>
         </CCardBody>
@@ -127,17 +127,17 @@
         <CCardBody>
           <CButtonToolbar aria-label="Toolbar with button groups" >
             <CButtonGroup class="mx-1">
-              <CButton variant="secondary" class="d-sm-down-none">&laquo;</CButton>
-              <CButton variant="secondary">&lsaquo;</CButton>
+              <CButton color="secondary" class="d-sm-down-none">&laquo;</CButton>
+              <CButton color="secondary">&lsaquo;</CButton>
             </CButtonGroup>
             <CButtonGroup class="mx-1">
-              <CButton variant="secondary" class="d-sm-down-none">Edit</CButton>
-              <CButton variant="secondary">Undo</CButton>
-              <CButton variant="secondary">Redo</CButton>
+              <CButton color="secondary" class="d-sm-down-none">Edit</CButton>
+              <CButton color="secondary">Undo</CButton>
+              <CButton color="secondary">Redo</CButton>
             </CButtonGroup>
             <CButtonGroup class="mx-1">
-              <CButton variant="secondary">&rsaquo;</CButton>
-              <CButton variant="secondary" class="d-sm-down-none">&raquo;</CButton>
+              <CButton color="secondary">&rsaquo;</CButton>
+              <CButton color="secondary" class="d-sm-down-none">&raquo;</CButton>
             </CButtonGroup>
           </CButtonToolbar>
           <hr class="d-sm-down-none"/>
@@ -146,8 +146,8 @@
             class="d-sm-down-none"
           >
             <CButtonGroup size="sm" class="mx-1">
-              <CButton variant="secondary">New</CButton>
-              <CButton variant="secondary">Edit</CButton>
+              <CButton color="secondary">New</CButton>
+              <CButton color="secondary">Edit</CButton>
             </CButtonGroup>
             <CFormInput
               class="mb-0 w-25 mx-1"
@@ -165,19 +165,19 @@
               custom
             />
             <CButtonGroup size="sm" class="mx-1">
-              <CButton variant="secondary">Save</CButton>
-              <CButton variant="secondary">Cancel</CButton>
+              <CButton color="secondary">Save</CButton>
+              <CButton color="secondary">Cancel</CButton>
             </CButtonGroup>
           </CButtonToolbar>
           <hr/>
           <CButtonToolbar aria-label="Toolbar with button groups and dropdown menu">
             <CButtonGroup class="mx-1 d-sm-down-none">
-              <CButton variant="secondary">New</CButton>
-              <CButton variant="secondary">Edit</CButton>
-              <CButton variant="secondary">Undo</CButton>
+              <CButton color="secondary">New</CButton>
+              <CButton color="secondary">Edit</CButton>
+              <CButton color="secondary">Undo</CButton>
             </CButtonGroup>
             <CDropdown
-              variant="secondary"
+              color="secondary"
               class="mx-1"
               placement="bottom-end"
               button-content="Menu"
@@ -187,8 +187,8 @@
               <CDropdownItem>Item 3</CDropdownItem>
             </CDropdown>
             <CButtonGroup class="mx-1">
-              <CButton variant="secondary">Save</CButton>
-              <CButton variant="secondary">Cancel</CButton>
+              <CButton color="secondary">Save</CButton>
+              <CButton color="secondary">Cancel</CButton>
             </CButtonGroup>
           </CButtonToolbar>
         </CCardBody>

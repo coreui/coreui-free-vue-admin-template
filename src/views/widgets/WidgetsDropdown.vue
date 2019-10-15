@@ -1,11 +1,11 @@
 <template>
   <CRow>
     <CCol sm="6" lg="3">
-      <CWidgetDropdown variant="primary" header="9.823" text="Members online">
+      <CWidgetDropdown color="primary" header="9.823" text="Members online">
         <template #default>
           <CDropdown
             class="float-right"
-            variant="transparent p-0"
+            color="transparent p-0"
             placement="bottom-end"
           >
             <template #toggler-content>
@@ -31,11 +31,11 @@
       </CWidgetDropdown>
     </CCol>
     <CCol sm="6" lg="3">
-      <CWidgetDropdown variant="info" header="9.823" text="Members online">
+      <CWidgetDropdown color="info" header="9.823" text="Members online">
         <template #default>
           <CDropdown
             class="float-right"
-            variant="transparent p-0"
+            color="transparent p-0"
             placement="bottom-end"
             no-caret
             buttonHtml="<i class='cui-location-pin'></i>"
@@ -65,14 +65,14 @@
     </CCol>
     <CCol sm="6" lg="3">
       <CWidgetDropdown
-        variant="warning"
+        color="warning"
         header="9.823"
         text="Members online"
       >
         <template #default>
           <CDropdown
             class="float-right"
-            variant="transparent p-0"
+            color="transparent p-0"
             placement="bottom-end"
           >
             <template #toggler-content>
@@ -99,14 +99,14 @@
     </CCol>
     <CCol sm="6" lg="3">
       <CWidgetDropdown
-        variant="danger"
+        color="danger"
         header="9.823"
         text="Members online"
       >
         <template #default>
           <CDropdown
             class="float-right"
-            variant="transparent p-0"
+            color="transparent p-0"
             placement="bottom-end"
           >
             <template #toggler-content>

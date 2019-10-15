@@ -18,32 +18,32 @@
               </div>
             </CCardHeader>
             <CCardBody>
-              <CButton variant="secondary" @click="myModal = true" class="mr-1">
+              <CButton color="secondary" @click="myModal = true" class="mr-1">
                 Launch demo modal
               </CButton>
-              <CButton variant="secondary" @click="largeModal = true" class="mr-1">
+              <CButton color="secondary" @click="largeModal = true" class="mr-1">
                 Launch large modal
               </CButton>
-              <CButton variant="secondary" @click="smallModal = true" class="mr-1">
+              <CButton color="secondary" @click="smallModal = true" class="mr-1">
                 Launch small modal
               </CButton>
               <hr>
-              <CButton variant="primary" @click="primaryModal = true" class="mr-1">
+              <CButton color="primary" @click="primaryModal = true" class="mr-1">
                 Launch primary modal
               </CButton>
-              <CButton variant="success" @click="successModal = true" class="mr-1">
+              <CButton color="success" @click="successModal = true" class="mr-1">
                 Launch success modal
               </CButton>
-              <CButton variant="warning" @click="warningModal = true" class="mr-1">
+              <CButton color="warning" @click="warningModal = true" class="mr-1">
                 Launch warning modal
               </CButton>
-              <CButton variant="danger" @click="dangerModal = true" class="mr-1">
+              <CButton color="danger" @click="dangerModal = true" class="mr-1">
                 Launch danger modal
               </CButton>
-              <CButton variant="info" @click="infoModal = true" class="mr-1">
+              <CButton color="info" @click="infoModal = true" class="mr-1">
                 Launch info modal
               </CButton>
-              <CButton variant="dark" @click="darkModal = true" class="mr-1">
+              <CButton color="dark" @click="darkModal = true" class="mr-1">
                 Launch dark modal
               </CButton>
             </CCardBody>
@@ -101,7 +101,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      variant="success"
+      color="success"
       :show.sync="successModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -113,7 +113,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      variant="warning"
+      color="warning"
       :show.sync="warningModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -125,7 +125,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      variant="danger"
+      color="danger"
       :show.sync="dangerModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -137,7 +137,7 @@
     </CModal>
     <CModal
       title="Modal title"
-      variant="info"
+      color="info"
       :show.sync="infoModal"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -153,7 +153,7 @@
       :centered="true"
       title="Modal title 2"
       size="lg"
-      variant="dark"
+      color="dark"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -166,8 +166,8 @@
         <CButtonClose @click="hide()" class="text-white"/>
       </template>
       <template #footer="{hide}">
-        <CButton @click="darkModal = false" variant="danger">Discard</CButton>
-        <CButton @click="darkModal = false" variant="success">Accept</CButton>
+        <CButton @click="darkModal = false" color="danger">Discard</CButton>
+        <CButton @click="darkModal = false" color="success">Accept</CButton>
       </template>
     </CModal>
   </div>

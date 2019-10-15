@@ -20,7 +20,7 @@
           <CCol col="4">
             <div class="my-3 text-center">
               <CButton
-                variant="primary"
+                color="primary"
                 v-c-popover="{
                   header: 'Popover header',
                   content: 'I am popover content!'
@@ -33,7 +33,7 @@
           <CCol col="4">
             <div class="my-3 text-center">
               <CButton
-                variant="primary"
+                color="primary"
                 v-c-popover="{
                   header: 'Popover!',
                   content: 'I start <strong>open</strong>',
@@ -46,7 +46,7 @@
           <CCol col="4">
             <div class="my-3 text-center">
               <CButton
-                variant="primary"
+                color="primary"
                 v-c-popover.click="{
                   header: 'Popover!',
                   content: 'I am showing on click and hiding on click outside tooltip!',
@@ -75,7 +75,7 @@
             :key="placement"
           >
             <CButton
-              variant="primary"
+              color="primary"
               v-c-popover="{
                 header: 'Popover!',
                 content: `Placement ${placement}`,

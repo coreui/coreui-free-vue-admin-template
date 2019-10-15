@@ -3,7 +3,7 @@
     <template v-if="!noCharts">
       <CCol md="3" sm="6">
         <CWidgetBrand
-          variant="facebook"
+          color="facebook"
           right-header="89k"
           right-footer="friends"
           left-header="459"
@@ -26,7 +26,7 @@
        </CCol>
        <CCol md="3" sm="6">
         <CWidgetBrand
-          variant="twitter"
+          color="twitter"
           right-header="973k"
           right-footer="followers"
           left-header="1.792"
@@ -49,7 +49,7 @@
        </CCol>
        <CCol md="3" sm="6">
         <CWidgetBrand
-          variant="linkedin"
+          color="linkedin"
           right-header="500+"
           right-footer="contracts"
           left-header="292"
@@ -76,7 +76,7 @@
           right-footer="events"
           left-header="4"
           left-footer="meetings"
-          variant="warning"
+          color="warning"
         >
           <CIcon
             name="calendar"
@@ -97,7 +97,7 @@
     <template v-else>
       <CCol md="3" sm="6">
         <CWidgetBrand
-          variant="facebook"
+          color="facebook"
           right-header="89k"
           right-footer="friends"
           left-header="459"
@@ -112,7 +112,7 @@
        </CCol>
        <CCol md="3" sm="6">
         <CWidgetBrand
-          variant="twitter"
+          color="twitter"
           right-header="973k"
           right-footer="followers"
           left-header="1.792"
@@ -127,7 +127,7 @@
        </CCol>
        <CCol md="3" sm="6">
         <CWidgetBrand
-          variant="linkedin"
+          color="linkedin"
           right-header="500+"
           right-footer="contracts"
           left-header="292"
@@ -146,7 +146,7 @@
           right-footer="events"
           left-header="4"
           left-footer="meetings"
-          variant="warning"
+          color="warning"
         >
           <CIcon
             name="calendar"

@@ -20,7 +20,7 @@
               <strong>{{data.item.name}}</strong>
             </td>
             <td slot="status" slot-scope="data">
-              <CBadge :variant="getBadge(data.item.status)">
+              <CBadge :color="getBadge(data.item.status)">
                 {{data.item.status}}
               </CBadge>
             </td>

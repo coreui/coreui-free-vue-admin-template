@@ -20,7 +20,7 @@
           <CCardBody>
             <CJumbotron header="Bootstrap 4" lead="Bootstrap 4 Components for Vue.js 2">
               <p>For more information visit website</p>
-              <CButton variant="primary" href="#">More Info</CButton>
+              <CButton color="primary" href="#">More Info</CButton>
             </CJumbotron>
           </CCardBody>
         </CCard>
@@ -42,8 +42,8 @@
                 It uses utility classes for typography and spacing to space content
                 out within the larger container.
               </p>
-              <CButton variant="primary" href="#">Do Something</CButton>
-              <CButton variant="success" href="#">Do Something Else</CButton>
+              <CButton color="primary" href="#">Do Something</CButton>
+              <CButton color="success" href="#">Do Something Else</CButton>
             </CJumbotron>
           </CCardBody>
         </CCard>
@@ -54,13 +54,13 @@
         <CCard>
           <CCardHeader>
             <i class="fa fa-align-justify"></i> <strong> Jumbotron </strong>
-            <small>variants</small>
+            <small>colors</small>
           </CCardHeader>
           <CCardBody>
             <CJumbotron
-              variant="info"
-              text-variant="white"
-              border-variant="dark"
+              color="info"
+              text-color="white"
+              border-color="dark"
               header="Bootstrap 4"
             >
               <p slot="lead" class="lead">

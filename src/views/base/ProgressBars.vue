@@ -18,13 +18,13 @@
       <CCardBody>
         <CProgress :value="counter" :max="max" show-percentage animated></CProgress>
         <CProgress class="mt-1" :max="max" show-value>
-          <CProgressBar :value="counter*(6/10)" variant="success"/>
-          <CProgressBar :value="counter*(2.5/10)" variant="warning"/>
-          <CProgressBar :value="counter*(1.5/10)" variant="danger"/>
+          <CProgressBar :value="counter*(6/10)" color="success"/>
+          <CProgressBar :value="counter*(2.5/10)" color="warning"/>
+          <CProgressBar :value="counter*(1.5/10)" color="danger"/>
         </CProgress>
         <CButton 
           @click="clicked"
-          variant="secondary"
+          color="secondary"
           class="mt-4" 
         >
           Click me to animate progress bars
@@ -82,16 +82,16 @@
       <CCardHeader>
         <i class="fa fa-align-justify"></i>
         <strong> Progress </strong>
-        <small>variants</small>
+        <small>colors</small>
       </CCardHeader>
       <CCardBody>
         <div :key="index" v-for="(bar, index) in bars" class="row mb-1">
-          <div class="col-sm-2">{{ bar.variant }}:</div>
+          <div class="col-sm-2">{{ bar.color }}:</div>
           <div class="col-sm-10 pt-1">
             <CProgress
               :value="bar.value"
-              :variant="bar.variant"
-              :key="bar.variant"
+              :color="bar.color"
+              :key="bar.color"
             />
           </div>
         </div>
@@ -106,29 +106,29 @@
       <CCardBody>
         <CProgress
           :value="25"
-          variant="success"
+          color="success"
           :striped="striped"
           class="mb-2"
         />
         <CProgress
           :value="50"
-          variant="info"
+          color="info"
           :striped="striped"
           class="mb-2"
         />
         <CProgress
           :value="75"
-          variant="warning"
+          color="warning"
           :striped="striped"
           class="mb-2"
         />
         <CProgress
           :value="100"
-          variant="danger"
+          color="danger"
           :striped="striped"
           class="mb-2"
         />
-        <CButton variant="secondary" @click="striped = !striped">
+        <CButton color="secondary" @click="striped = !striped">
           {{ striped ? 'Remove' : 'Add'}} Striped
         </CButton>
       </CCardBody>
@@ -142,32 +142,32 @@
       <CCardBody>
         <CProgress
           :value="25"
-          variant="success"
+          color="success"
           striped
           :animated="animate"
           class="mb-2"
         />
         <CProgress
           :value="50"
-          variant="info"
+          color="info"
           striped
           :animated="animate"
           class="mb-2"
         />
         <CProgress
           :value="75"
-          variant="warning"
+          color="warning"
           striped
           :animated="animate"
           class="mb-2"
         />
         <CProgress
           :value="100"
-          variant="danger"
+          color="danger"
           :animated="animate"
           class="mb-3"
         />
-        <CButton variant="secondary" @click="animate = !animate">
+        <CButton color="secondary" @click="animate = !animate">
           {{ animate ? 'Stop' : 'Start'}} Animation
         </CButton>
       </CCardBody>
@@ -180,24 +180,24 @@
       </CCardHeader>
       <CCardBody>
         <CProgress :max="max3" class="mb-3">
-          <CProgressBar variant="primary" :value="values[0]"/>
-          <CProgressBar variant="success" :value="values[1]"/>
-          <CProgressBar variant="info" :value="values[2]"/>
+          <CProgressBar color="primary" :value="values[0]"/>
+          <CProgressBar color="success" :value="values[1]"/>
+          <CProgressBar color="info" :value="values[2]"/>
         </CProgress>
         <CProgress show-percentage :max="max3" class="mb-3">
-          <CProgressBar variant="primary" :value="values[0]"/>
-          <CProgressBar variant="success" :value="values[1]"/>
-          <CProgressBar variant="info" :value="values[2]"/>
+          <CProgressBar color="primary" :value="values[0]"/>
+          <CProgressBar color="success" :value="values[1]"/>
+          <CProgressBar color="info" :value="values[2]"/>
         </CProgress>
         <CProgress show-value striped :max="max3" class="mb-3">
-          <CProgressBar variant="primary" :value="values[0]"/>
-          <CProgressBar variant="success" :value="values[1]"/>
-          <CProgressBar variant="info" :value="values[2]"/>
+          <CProgressBar color="primary" :value="values[0]"/>
+          <CProgressBar color="success" :value="values[1]"/>
+          <CProgressBar color="info" :value="values[2]"/>
         </CProgress>
         <CProgress :max="max3" class="mb-3">
-          <CProgressBar variant="primary" :value="values[0]" show-percentage/>
-          <CProgressBar variant="success" :value="values[1]" animated show-percentage/>
-          <CProgressBar variant="info" :value="values[2]" striped show-percentage/>
+          <CProgressBar color="primary" :value="values[0]" show-percentage/>
+          <CProgressBar color="success" :value="values[1]" animated show-percentage/>
+          <CProgressBar color="info" :value="values[2]" striped show-percentage/>
         </CProgress>
       </CCardBody>
     </CCard>
@@ -215,13 +215,13 @@ export default {
       value: 33.333333333,
       value3: 75,
       bars: [
-        {variant: 'success', value: 75},
-        {variant: 'info', value: 75},
-        {variant: 'warning', value: 75},
-        {variant: 'danger', value: 75},
-        {variant: 'primary', value: 75},
-        {variant: 'secondary', value: 75},
-        {variant: 'dark', value: 75}
+        {color: 'success', value: 75},
+        {color: 'info', value: 75},
+        {color: 'warning', value: 75},
+        {color: 'danger', value: 75},
+        {color: 'primary', value: 75},
+        {color: 'secondary', value: 75},
+        {color: 'dark', value: 75}
       ],
       timer: null,
       striped: true,

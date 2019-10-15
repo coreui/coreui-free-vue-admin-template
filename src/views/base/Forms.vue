@@ -246,8 +246,8 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -277,8 +277,8 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -308,8 +308,8 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -338,8 +338,8 @@
               />
             </CCardBody>
             <CCardFooter>
-              <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
-              <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+              <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
+              <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
             </CCardFooter>
           </CForm>
         </CCard>
@@ -400,8 +400,8 @@
             </CRow>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="cui-user"></i> Login</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><i class="cui-user"></i> Login</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -428,8 +428,8 @@
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -506,8 +506,8 @@
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -519,7 +519,7 @@
           <CCardBody>
             <CFormInput placeholder="Username">
               <template #prepend>
-                <CButton variant="primary">
+                <CButton color="primary">
                   <i class="cui-magnifying-glass"></i> Search
                 </CButton>
               </template>
@@ -530,7 +530,7 @@
               autocomplete="email"
             >
               <template #append>
-                <CButton type="submit" variant="primary">Submit</CButton>
+                <CButton type="submit" color="primary">Submit</CButton>
               </template>
             </CFormInput>
             <CFormInput
@@ -539,16 +539,16 @@
               autocomplete="email"
             >
               <template #prepend>
-                <CButton variant="primary"><CIcon name="facebook" height="14"/></CButton>
+                <CButton color="primary"><CIcon name="facebook" height="14"/></CButton>
               </template>
               <template #append>
-                <CButton variant="primary"><CIcon name="twitter" height="14"/></CButton>
+                <CButton color="primary"><CIcon name="twitter" height="14"/></CButton>
               </template>
             </CFormInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -562,7 +562,7 @@
               <template #prepend>
                 <CDropdown
                   togglerText="Action"
-                  variant="primary"
+                  color="primary"
                 >
                   <CDropdownItem>Action</CDropdownItem>
                   <CDropdownItem>Another action</CDropdownItem>
@@ -579,7 +579,7 @@
               <template #append>
                 <CDropdown
                   togglerText="Action"
-                  variant="primary"
+                  color="primary"
                   right
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -594,7 +594,7 @@
               <template #prepend>
                 <CDropdown
                   togglerText="Split"
-                  variant="primary"
+                  color="primary"
                   split
                 >
                   <CDropdownItem href="#">Action</CDropdownItem>
@@ -607,7 +607,7 @@
               <template #append>
                 <CDropdown
                   togglerText="Action"
-                  variant="primary"
+                  color="primary"
                   right
                 >
                   <CDropdownItem>Action</CDropdownItem>
@@ -620,8 +620,8 @@
             </CFormInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" variant="success"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" variant="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="success"><i class="cui-circle-check"></i> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -647,11 +647,11 @@
             </CRow>
           </CCardBody>
           <CCardFooter>
-            <CButton size="sm" variant="primary">Action</CButton>
-            <CButton size="sm" variant="danger">Action</CButton>
-            <CButton size="sm" variant="warning">Action</CButton>
-            <CButton size="sm" variant="info">Action</CButton>
-            <CButton size="sm" variant="success">Action</CButton>
+            <CButton size="sm" color="primary">Action</CButton>
+            <CButton size="sm" color="danger">Action</CButton>
+            <CButton size="sm" color="warning">Action</CButton>
+            <CButton size="sm" color="info">Action</CButton>
+            <CButton size="sm" color="success">Action</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -675,11 +675,11 @@
             </CRow>
           </CCardBody>
           <CCardFooter>
-            <CButton size="sm" variant="primary">Action</CButton>
-            <CButton size="sm" variant="danger">Action</CButton>
-            <CButton size="sm" variant="warning">Action</CButton>
-            <CButton size="sm" variant="info">Action</CButton>
-            <CButton size="sm" variant="success">Action</CButton>
+            <CButton size="sm" color="primary">Action</CButton>
+            <CButton size="sm" color="danger">Action</CButton>
+            <CButton size="sm" color="warning">Action</CButton>
+            <CButton size="sm" color="info">Action</CButton>
+            <CButton size="sm" color="success">Action</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -709,7 +709,7 @@
                 append-html="<i class='cui-shield'></i>"
               />
               <div class="form-group form-actions">
-                <CButton type="submit" size="sm" variant="primary">
+                <CButton type="submit" size="sm" color="primary">
                   Submit
                 </CButton>
               </div>
@@ -773,7 +773,7 @@
                 prependHtml="<i class='cui-shield'></i>"
               />
               <div class="form-group form-actions">
-                <CButton type="submit" size="sm" variant="success">
+                <CButton type="submit" size="sm" color="success">
                   Submit
                 </CButton>
               </div>
@@ -828,18 +828,18 @@
                   description="Here's some help text"
                 >
                   <template #append>
-                    <CButton variant="primary">Go!</CButton>
+                    <CButton color="primary">Go!</CButton>
                   </template>
                 </CFormInput>
                 <CFormInput label="Two-buttons append">
                   <template #append>
-                    <CButton variant="primary">Search</CButton>
-                    <CButton variant="danger">Options</CButton>
+                    <CButton color="primary">Search</CButton>
+                    <CButton color="danger">Options</CButton>
                   </template>
                 </CFormInput>
                 <div class="form-actions">
-                  <CButton type="submit" variant="primary">Save changes</CButton>
-                  <CButton variant="secondary">Cancel</CButton>
+                  <CButton type="submit" color="primary">Save changes</CButton>
+                  <CButton color="secondary">Cancel</CButton>
                 </div>
               </CCardBody>
             </CCollapse>

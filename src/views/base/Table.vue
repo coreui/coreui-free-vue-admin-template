@@ -14,7 +14,7 @@
     >
       <template #status="{item}">
         <td>
-          <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>
+          <CBadge :color="getBadge(item.status)">{{item.status}}</CBadge>
         </td>
       </template>
     </CTable>

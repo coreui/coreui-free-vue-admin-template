@@ -3,7 +3,7 @@
     <CCard>
       <CCardHeader>
         <i class="cui-pencil"></i>CoreUI Icons
-        <CBadge variant="info">New</CBadge>
+        <CBadge color="info">New</CBadge>
         <div class="card-header-actions">
           <a
             href="https://github.com/coreui/coreui-icons"

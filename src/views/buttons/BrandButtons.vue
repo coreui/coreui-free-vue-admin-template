@@ -29,7 +29,7 @@
                 :name="brandName"
                 size="sm"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <CIcon :name="brandName"/>
                 <span>{{brandName}}</span>
@@ -42,7 +42,7 @@
               <CButton
                 :name="brandName"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <CIcon :name="brandName"/>
                 <span>{{brandName}}</span>
@@ -56,7 +56,7 @@
                 :name="brandName"
                 size="lg"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <CIcon :name="brandName"/>
                 <span>{{brandName}}</span>
@@ -82,7 +82,7 @@
                 :name="brandName"
                 size="sm"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <CIcon :name="brandName"/>
               </CButton>
@@ -94,7 +94,7 @@
               <CButton
                 :name="brandName"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <CIcon :name="brandName"/>
               </CButton>
@@ -107,7 +107,7 @@
                 :name="brandName"
                 size="lg"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <CIcon :name="brandName"/>
               </CButton>
@@ -135,7 +135,7 @@
                 :name="brandName"
                 size="sm"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <span>{{brandName}}</span>
               </CButton>
@@ -147,7 +147,7 @@
               <CButton
                 :name="brandName"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <span>{{brandName}}</span>
               </CButton>
@@ -160,7 +160,7 @@
                 :name="brandName"
                 size="lg"
                 :key="key"
-                :variant="brandName"
+                :color="brandName"
               >
                 <span>{{brandName}}</span>
               </CButton>
@@ -175,9 +175,9 @@
 <script>
 export default {
   name: 'BrandButtons',
-  usage: '<CButton variant="facebook"><span>Facebook</span></CButton>',
-  iconsOnlyUsage: '<CButton variant="facebook"><CIcon name="facebook"/></CButton>',
-  textOnlyUsage: '<CButton variant="facebook"><CIcon name="facebook"/></CButton>',
+  usage: '<CButton color="facebook"><span>Facebook</span></CButton>',
+  iconsOnlyUsage: '<CButton color="facebook"><CIcon name="facebook"/></CButton>',
+  textOnlyUsage: '<CButton color="facebook"><CIcon name="facebook"/></CButton>',
   brands: [
     'facebook',
     'twitter',

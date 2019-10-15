@@ -21,7 +21,7 @@
           <CCol col="4">
             <div class="text-center my-3">
               <CButton 
-                variant="secondary"
+                color="secondary"
                 v-c-tooltip.hover.click="'I am a tooltip!'"
               >
                 Hover Me
@@ -32,7 +32,7 @@
             <div class="text-center my-3">
               <CButton 
                 v-c-tooltip="{content: 'I start open!', active:true }"
-                variant="secondary"
+                color="secondary"
               >
                 Hover me
               </CButton>
@@ -41,7 +41,7 @@
           <CCol col="4">
             <div class="text-center my-3">
               <CButton
-                variant="secondary"
+                color="secondary"
                 v-c-tooltip.click="
                   'I am showing on click and hiding on click outside tooltip!'
                 "
@@ -69,7 +69,7 @@
               :key="placement"
             >
               <CButton
-                variant="primary"
+                color="primary"
                 v-c-tooltip.hover="{
                   content: `Placement ${placement}`,
                   placement
