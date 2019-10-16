@@ -1,6 +1,7 @@
 <template>
   <CHeader fixed with-subheader light>
-    <CSidebarToggler 
+    <CToggler
+      in-header
       class="c-header-toggler ml-3"
       v-c-emit-root-event:toggle-sidebar
     />

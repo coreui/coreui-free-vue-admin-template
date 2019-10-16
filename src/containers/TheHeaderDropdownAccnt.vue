@@ -17,29 +17,29 @@
         </div>
       </CLink>
     </template>
-    <CDropdownHeader tag="div" class="text-center" variant="light">
+    <CDropdownHeader tag="div" class="text-center" color="light">
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
       <i class="cui-bell mr-2"/> Updates
-      <CBadge variant="info" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="info" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <i class="cui-envelope-open mr-2" /> Messages
-      <CBadge variant="success" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="success" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <i class="cui-task mr-2" /> Tasks
-      <CBadge variant="danger" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="danger" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <i class="cui-comment-square mr-2" /> Comments
-      <CBadge variant="warning" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="warning" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
       tag="div"
       class="text-center"
-      variant="light"
+      color="light"
     >
       <strong>Settings</strong>
     </CDropdownHeader>
@@ -51,11 +51,11 @@
     </CDropdownItem>
     <CDropdownItem>
       <i class="cui-dollar mr-2" /> Payments
-      <CBadge variant="secondary" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="secondary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <i class="cui-file mr-2" /> Projects
-      <CBadge variant="primary" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="primary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
     <CDropdownItem>

@@ -2,6 +2,7 @@
   <CSidebar 
     fixed 
     :minimize="minimize"
+    :show="show"
   >
     <CSidebarBrand 
       fullSrc="img/brand/coreui-base-white.svg" 
@@ -13,7 +14,7 @@
     <CRenderFunction :contentToRender="nav"/>
     <!-- <CSidebarFooter/> -->
     <CSidebarMinimizer 
-      class="d-md-down-none c-sidebar-minimized-unfoldable"
+      class="d-md-down-none"
       @click.native="minimize = !minimize"
     />
   </CSidebar>
@@ -27,7 +28,7 @@ export default {
     return {
       minimize: false,
       nav,
-      show: null
+      show: true
     }
   },
   mounted () {
