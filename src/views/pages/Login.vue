@@ -8,12 +8,12 @@
               <CForm>
                 <h1>Login</h1>
                 <p class="text-muted">Sign In to your account</p>
-                <CFormInput
+                <CInput
                   prependHtml="<i class='cui-user'></i>"
                   placeholder="Username"
                   autocomplete="username email"
                 />
-                <CFormInput
+                <CInput
                   prependHtml="<i class='cui-lock-locked'></i>"
                   placeholder="Password"
                   type="password"

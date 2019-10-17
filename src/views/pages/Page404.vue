@@ -8,7 +8,7 @@
           <h4 class="pt-3">Oops! You're lost.</h4>
           <p class="text-muted">The page you are looking for was not found.</p>
         </div>
-        <CFormInput
+        <CInput
           class="mb-0"
           prependHtml="<i class='cui-magnifying-glass'></i>"
           placeholder="What are you looking for?"
@@ -16,7 +16,7 @@
           <template #append>
             <CButton color="info">Search</CButton>
           </template>
-        </CFormInput>
+        </CInput>
       </div>
       </CCol>
     </CRow>

@@ -149,14 +149,14 @@
               <CButton color="secondary">New</CButton>
               <CButton color="secondary">Edit</CButton>
             </CButtonGroup>
-            <CFormInput
+            <CInput
               class="mb-0 w-25 mx-1"
               size="sm"
               prepend-html="$"
               append-html=".00"
               value="100"
             />
-            <CFormSelect
+            <CSelect
               class="mb-0 w-25 mx-1"
               size="sm"
               prepend-html="Size"

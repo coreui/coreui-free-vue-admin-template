@@ -31,7 +31,7 @@
             <!-- Right aligned nav items -->
             <CNavbarNav class="ml-auto">
               <CForm inline>
-                <CFormInput
+                <CInput
                   class="mr-sm-2"
                   placeholder="Search"
                   size="sm"
@@ -141,7 +141,7 @@
       <CCardBody>
         <CNavbar light color="light">
           <CForm inline>
-            <CFormInput
+            <CInput
               class="mr-sm-2"
               placeholder="Search"
               size="sm"
@@ -159,7 +159,7 @@
       <CCardBody>
         <CNavbar light color="light">
           <CForm inline>
-            <CFormInput
+            <CInput
               class="mr-sm-2"
               placeholder="Username"
             />

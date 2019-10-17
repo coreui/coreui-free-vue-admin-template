@@ -7,23 +7,23 @@
             <CForm>
               <h1>Register</h1>
               <p class="text-muted">Create your account</p>
-              <CFormInput
+              <CInput
                 placeholder="Username"
                 prependHtml="<i class='cui-user'></i>"
                 autocomplete="username"
               />
-              <CFormInput
+              <CInput
                 placeholder="Email"
                 prepend-html="@"
                 autocomplete="email"
               />
-              <CFormInput
+              <CInput
                 placeholder="Password"
                 type="password"
                 prependHtml="<i class='cui-lock-locked'></i>"
                 autocomplete="new-password"
               />
-              <CFormInput
+              <CInput
                 placeholder="Repeat password"
                 type="password"
                 prependHtml="<i class='cui-lock-locked'></i>"
