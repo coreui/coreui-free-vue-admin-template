@@ -31,7 +31,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon :name="brandName"/>
+                <CIcon size="sm" :name="brandName"/>
                 <span>{{brandName}}</span>
               </CButton>
             </template>
@@ -58,7 +58,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon :name="brandName"/>
+                <CIcon size="lg" :name="brandName"/>
                 <span>{{brandName}}</span>
               </CButton>
             </template>
@@ -84,7 +84,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon :name="brandName"/>
+                <CIcon size="sm" :name="brandName"/>
               </CButton>
             </template>
           </p>
@@ -109,7 +109,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon :name="brandName"/>
+                <CIcon size="lg" :name="brandName"/>
               </CButton>
             </template>
           </p>

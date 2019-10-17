@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { CChartLine } from '@coreui/coreui-vue-chartjs'
+import { CChartLine } from '@coreui/coreui-chartjs/vue'
 import { getColor, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
 
 function random (min, max) {
