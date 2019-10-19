@@ -26,7 +26,7 @@
         <CCardFooter>
           <CButton color="primary">
             Notifications
-            <CBadge color="light" :style="{position: 'static'}">4</CBadge>
+            <CBadge color="light" class="ml-2 position-static">4</CBadge>
           </CButton>
         </CCardFooter>
       </CCard>

@@ -10,7 +10,7 @@ export default [
           icon: 'cui-speedometer',
           badge: {
             color: 'primary',
-            textHtml: 'NEW'
+            text: 'NEW'
           }
         }
       }
@@ -296,7 +296,7 @@ export default [
               icon: 'cui-star',
               badge: {
                 color: 'info',
-                textHtml: 'NEW'
+                text: 'NEW'
               }
             }
           }
@@ -374,7 +374,7 @@ export default [
           icon: 'cui-calculator',
           badge: {
             color: 'primary',
-            textHtml: 'NEW',
+            text: 'NEW',
             pill: true
           }
         }

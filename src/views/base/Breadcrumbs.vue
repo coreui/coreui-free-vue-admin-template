@@ -32,51 +32,51 @@ export default {
     return {
       items: [
         {
-          textHtml: '<b>Admin</b>',
+          text: '<b>Admin</b>',
           href: '#'
         }, 
         {
-          textHtml: 'Manage',
+          text: 'Manage',
           href: '#'
         }, 
         {
-          textHtml: 'Library'
+          text: 'Library'
         }
       ],
 
 
       items2: [
         {
-          textHtml: 'Go to dashboard',
+          text: 'Go to dashboard',
           to: '/dashboard'
         }, 
         {
-          textHtml: 'Go to widgets',
+          text: 'Go to widgets',
           to: '/Widgets'
         }, 
         {
-          textHtml: 'Go to Google',
+          text: 'Go to Google',
           href: 'http://google.com'
         },
         {
-          textHtml: 'Current page'
+          text: 'Current page'
         }
       ],
 
 
       items3: [
         {
-          textHtml: 'Added',
+          text: 'Added',
           to: '#2',
           addClasses: 'font-xl'
         }, 
         {
-          textHtml: 'Custom',
+          text: 'Custom',
           to: '#3',
           addClasses: 'font-xl'
         },
         {
-          textHtml: 'Classes',
+          text: 'Classes',
           to: '#4',
           addClasses: 'font-xl text-danger'
         }

@@ -37,7 +37,7 @@
             class="float-right"
             color="transparent p-0"
             placement="bottom-end"
-            no-caret
+            :caret="false"
             buttonHtml="<i class='cui-location-pin'></i>"
           >
             <template #toggler-content>

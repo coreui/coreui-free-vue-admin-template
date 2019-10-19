@@ -125,9 +125,10 @@
               class="position-absolute"
               color="secondary"
               style="right:10px;top: 50%;transform: translateY(-50%);"
-              textHtml="<i>Close</i>"
               @click="dismiss"
-            />
+            >
+              <i>Close</i>
+            </CButton>
           </CAlert>
           <CButton
             @click="showDismissibleAlerts"

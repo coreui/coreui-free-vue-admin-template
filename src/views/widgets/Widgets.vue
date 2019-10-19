@@ -140,7 +140,7 @@
           header="$1.999,50"
           text="Income"
           color="primary"
-          no-icon-padding
+          :icon-padding="false"
         >
           <CIcon name="settings" width="24"/>
         </CWidgetIcon>
@@ -150,7 +150,7 @@
           header="$1.999,50"
           text="Income"
           color="info"
-          no-icon-padding
+          :icon-padding="false"
         >
           <CIcon name="laptop" width="24"/>
         </CWidgetIcon>
@@ -160,7 +160,7 @@
           header="$1.999,50"
           text="Income"
           color="warning"
-          no-icon-padding
+          :icon-padding="false"
         >
           <CIcon name="moon" width="24"/>
         </CWidgetIcon>
@@ -170,7 +170,7 @@
           header="$1.999,50"
           text="Income"
           color="danger"
-          no-icon-padding
+          :icon-padding="false"
         >
           <CIcon name="bell" width="24"/>
         </CWidgetIcon>
@@ -182,7 +182,7 @@
           header="$1.999,50"
           text="Income"
           color="primary"
-          no-icon-padding
+          :icon-padding="false"
         >
           <CIcon name="settings" class="mx-5 " width="24"/>
         </CWidgetIcon>
@@ -192,7 +192,7 @@
           header="$1.999,50"
           text="Income"
           color="info"
-          no-icon-padding
+          :icon-padding="false"
         >
           <CIcon name="laptop" class="mx-5 " width="24"/>
         </CWidgetIcon>
@@ -202,7 +202,7 @@
           header="$1.999,50"
           text="Income"
           color="warning"
-          no-icon-padding
+          :icon-padding="false"
         >
           <CIcon name="moon" class="mx-5 " width="24"/>
           <template #footer>
@@ -225,7 +225,7 @@
           header="$1.999,50"
           text="Income"
           color="primary"
-          no-icon-padding
+          :icon-padding="false"
           link="#"
         >
           <CIcon name="settings" class="mx-5 " width="24"/>
@@ -236,7 +236,7 @@
           header="$1.999,50"
           text="Income"
           color="info"
-          no-icon-padding
+          :icon-padding="false"
           link="#"
         >
           <CIcon name="laptop" class="mx-5 " width="24"/>
@@ -247,7 +247,7 @@
           header="$1.999,50"
           text="Income"
           color="warning"
-          no-icon-padding
+          :icon-padding="false"
           link="#"
         >
           <CIcon name="moon" class="mx-5" width="24"/>

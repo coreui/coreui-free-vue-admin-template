@@ -17,10 +17,10 @@
       </CCardHeader>
       <CCardBody>
         <CNavbar
-          toggleable="md"
+          expandable="md"
           color="info"
         >
-          <CNavbarToggler @click="show=!show"/>
+          <CToggler inNavbar @click="show=!show"/>
           <CNavbarBrand href="#">NavBar</CNavbarBrand>
           <CCollapse :show="show" navbar>
             <CNavbarNav>
@@ -87,7 +87,7 @@
       </CCardHeader>
       <CCardBody>
         <CNavbar toggleable="sm" light color="light">
-          <CNavbarToggle @click="navbarText=!navbarText"></CNavbarToggle>
+          <CToggler inNavbar @click="navbarText=!navbarText"/>
           <CNavbarBrand>CoreuiVue</CNavbarBrand>
           <CCollapse :show="navbarText" navbar>
             <CNavbarNav>
@@ -103,8 +103,8 @@
         <small>dropdown</small>
       </CCardHeader>
       <CCardBody>
-        <CNavbar toggleable="sm" color="primary">
-          <CNavbarToggle @click="navbarDropdown = !navbarDropdown"></CNavbarToggle>
+        <CNavbar expandable="sm" color="primary" >
+          <CToggler inNavbar @click="navbarDropdown = !navbarDropdown"/>
           <CCollapse :show="navbarDropdown" navbar>
             <CNavbarNav>
               <CNavItem href="#">Home</CNavItem>
@@ -112,7 +112,7 @@
               <!-- Navbar dropdowns -->
               <CDropdown
                 toggler-text="Lang"
-                right
+                placement="bottom-end"
                 nav
               >
                 <CDropdownItem>EN</CDropdownItem>
@@ -122,7 +122,7 @@
               </CDropdown>
               <CDropdown
                 toggler-text="User"
-                right
+                placement="bottom-end"
                 nav
               >
                 <CDropdownItem>Account</CDropdownItem>

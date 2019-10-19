@@ -161,11 +161,11 @@
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <template #header="{hide}">
+      <template #header>
         <h6 class="modal-title">Custom smaller modal title</h6>
-        <CButtonClose @click="hide()" class="text-white"/>
+        <CButtonClose @click="darkModal = false" class="text-white"/>
       </template>
-      <template #footer="{hide}">
+      <template #footer>
         <CButton @click="darkModal = false" color="danger">Discard</CButton>
         <CButton @click="darkModal = false" color="success">Accept</CButton>
       </template>
