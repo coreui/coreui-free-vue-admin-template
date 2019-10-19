@@ -10,13 +10,12 @@
           left-footer="feeds"
         >
           <CIcon
-            name="socialFacebook"
+            name="facebook"
             height="52"
             class="my-4"
           />
           <CChartLineSimple
-            style="height:100px"
-            class="position-absolute"
+            class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
             :data-points="[65, 59, 84, 84, 51, 55, 40]"
             label="Friends"
@@ -33,13 +32,12 @@
           left-footer="tweets"
         >
           <CIcon
-            name="socialTwitter"
+            name="twitter"
             height="52"
             class="my-4"
           />
           <CChartLineSimple
-            style="height:100px"
-            class="position-absolute"
+            class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
             :data-points="[1, 13, 9, 17, 34, 41, 38]"
             label="Followers"
@@ -56,13 +54,12 @@
           left-footer="feeds"
         >
           <CIcon
-            name="socialLinkedin"
+            name="linkedin"
             height="52"
             class="my-4"
           />
           <CChartLineSimple
-            style="height:100px"
-            class="position-absolute"
+            class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
             :data-points="[78, 81, 80, 45, 34, 12, 40]"
             label="Contracts"
@@ -84,8 +81,7 @@
             class="my-4"
           />
           <CChartLineSimple
-            style="height:100px"
-            class="position-absolute"
+            class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
             :data-points="[35, 23, 56, 22, 97, 23, 64]"
             label="Followers"
@@ -104,7 +100,7 @@
           left-footer="feeds"
         >
           <CIcon
-            name="socialFacebook"
+            name="facebook"
             height="56"
             class="my-4"
           />
@@ -119,7 +115,7 @@
           left-footer="tweets"
         >
           <CIcon
-            name="socialTwitter"
+            name="twitter"
             height="56"
             class="my-4"
           />
@@ -134,7 +130,7 @@
           left-footer="feeds"
         >
           <CIcon
-            name="socialLinkedin"
+            name="linkedin"
             height="56"
             class="my-4"
           />
@@ -172,3 +168,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.c-chart-brand {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+</style>

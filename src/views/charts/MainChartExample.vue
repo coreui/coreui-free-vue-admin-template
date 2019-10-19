@@ -15,6 +15,7 @@ function random (min, max) {
 }
 
 export default {
+  name: 'MainChartExample',
   components: {
     CChartLine
   },
@@ -39,7 +40,7 @@ export default {
           label: 'My First dataset',
           backgroundColor: hexToRgba(brandInfo, 10),
           borderColor: brandInfo,
-          pointHoverBackgroundColor: '#fff',
+          pointHoverBackgroundColor: brandInfo,
           borderWidth: 2,
           data: data1
         },
@@ -47,7 +48,7 @@ export default {
           label: 'My Second dataset',
           backgroundColor: 'transparent',
           borderColor: brandSuccess,
-          pointHoverBackgroundColor: '#fff',
+          pointHoverBackgroundColor: brandSuccess,
           borderWidth: 2,
           data: data2
         },
@@ -55,7 +56,7 @@ export default {
           label: 'My Third dataset',
           backgroundColor: 'transparent',
           borderColor: brandDanger,
-          pointHoverBackgroundColor: '#fff',
+          pointHoverBackgroundColor: brandDanger,
           borderWidth: 1,
           borderDash: [8, 5],
           data: data3
