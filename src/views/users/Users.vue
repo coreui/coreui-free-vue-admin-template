@@ -2,28 +2,31 @@
   <CRow>
     <CCol col="12" xl="8">
       <transition name="slide">
-        <CCard header-html="users" body-wrapper>
+        <CCard header-html="Users" body-wrapper>
           <CTable
             hover
             striped
             :items="items"
             :fields="fields"
-            :current-page="currentPage"
-            :per-page="perPage"
+            :items-per-page="perPage"
             @row-clicked="rowClicked"
             :pagination="$options.paginationProps"
+            index-column
+            clickable-rows
           >
-            <td slot="id" slot-scope="data">
-              <strong>{{data.item.id}}</strong>
-            </td>
-            <td slot="name" slot-scope="data">
-              <strong>{{data.item.name}}</strong>
-            </td>
-            <td slot="status" slot-scope="data">
-              <CBadge :color="getBadge(data.item.status)">
-                {{data.item.status}}
-              </CBadge>
-            </td>
+            <template #username="data">
+              <td>
+                <strong>{{data.item.username}}</strong>
+              </td>
+            </template>
+           
+            <template #status="data">
+              <td>
+                <CBadge :color="getBadge(data.item.status)">
+                  {{data.item.status}}
+                </CBadge>
+              </td>
+            </template>
           </CTable>
         </CCard>
       </transition>
@@ -37,22 +40,19 @@ export default {
   name: 'Users',
   data: () => {
     return {
-      items: usersData.filter((user) => user.id < 42),
+      items: usersData,
       fields: [
-        {key: 'id'},
-        {key: 'name'},
-        {key: 'registered'},
-        {key: 'role'},
-        {key: 'status'}
+        { key: 'username', label: 'Name' },
+        { key: 'registered' },
+        { key: 'role' },
+        { key: 'status' }
       ],
-      currentPage: 1,
       perPage: 5,
-      totalRows: 0
     }
   },
   paginationProps: {
     align: 'center',
-    hideDoubleArrows: true,
+    doubleArrows: false,
     previousButtonHtml: 'prev',
     nextButtonHtml: 'next'
   },
@@ -66,11 +66,10 @@ export default {
     userLink (id) {
       return `users/${id.toString()}`
     },
-    rowClicked (item) {
-      const userLink = this.userLink(item.id)
+    rowClicked (item, index) {
+      const userLink = this.userLink(index + 1)
       this.$router.push({path: userLink})
     }
-
   }
 }
 </script>
