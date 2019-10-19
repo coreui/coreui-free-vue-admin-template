@@ -8,7 +8,7 @@
           <p class="text-muted">The page you are looking for is temporarily unavailable.</p>
         </div>
         <CInput
-          class="mb-0"
+          class="mb-3"
           prependHtml="<i class='cui-magnifying-glass'></i>"
           placeholder="What are you looking for?"
         >

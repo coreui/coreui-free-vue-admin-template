@@ -2,7 +2,7 @@
   <CContainer class="min-vh-100 d-flex align-items-center">
     <CRow class="w-100 justify-content-center">
       <CCol md="6" sm="8">
-        <CCard class="mx-4">
+        <CCard class="mx-4 mb-0">
           <CCardBody class="p-4">
             <CForm>
               <h1>Register</h1>
@@ -36,10 +36,14 @@
           <CCardFooter class="p-4">
             <CRow>
               <CCol col="6">
-                <CButton block color="facebook" textHtml="Facebook"/>
+                <CButton block color="facebook">
+                  Facebook
+                </CButton>
               </CCol>
               <CCol col="6">
-                <CButton block color="twitter" textHtml="Twitter"/>
+                <CButton block color="twitter">
+                  Twitter
+                </CButton>
               </CCol>
             </CRow>
           </CCardFooter>
