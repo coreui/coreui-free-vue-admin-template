@@ -55,13 +55,13 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
              
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               More Info
             </cbutton-stub>
@@ -126,26 +126,26 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
              
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               Do Something
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="success"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               target="_self"
               type="button"
-              variant="success"
             >
               Do Something Else
             </cbutton-stub>
@@ -176,7 +176,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           </strong>
            
           <small>
-            variants
+            colors
           </small>
         </ccardheader-stub>
          
@@ -185,11 +185,11 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           titletag="h4"
         >
           <cjumbotron-stub
-            bordervariant="dark"
+            border-color="dark"
+            color="info"
             header="Bootstrap 4"
             tag="div"
-            textvariant="white"
-            variant="info"
+            text-color="white"
           >
             <p
               class="lead"

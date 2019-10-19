@@ -11,7 +11,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
 >
    
   <cdropdownheader-stub
-    class="text-center bg-light"
+    class="text-center"
+    color="light"
     tag="div"
   >
     <strong>
@@ -34,12 +35,12 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     <cbadge-stub
       activeclass="active"
       class="ml-auto"
+      color="info"
       event="click"
       exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
-      variant="info"
     >
       42
     </cbadge-stub>
@@ -60,12 +61,12 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     <cbadge-stub
       activeclass="active"
       class="ml-auto"
+      color="success"
       event="click"
       exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
-      variant="success"
     >
       42
     </cbadge-stub>
@@ -86,12 +87,12 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     <cbadge-stub
       activeclass="active"
       class="ml-auto"
+      color="danger"
       event="click"
       exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
-      variant="danger"
     >
       42
     </cbadge-stub>
@@ -112,19 +113,20 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     <cbadge-stub
       activeclass="active"
       class="ml-auto"
+      color="warning"
       event="click"
       exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
-      variant="warning"
     >
       42
     </cbadge-stub>
   </cdropdownitem-stub>
    
   <cdropdownheader-stub
-    class="text-center bg-light"
+    class="text-center"
+    color="light"
     tag="div"
   >
     <strong>
@@ -175,12 +177,12 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     <cbadge-stub
       activeclass="active"
       class="ml-auto"
+      color="secondary"
       event="click"
       exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
-      variant="secondary"
     >
       42
     </cbadge-stub>
@@ -201,12 +203,12 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     <cbadge-stub
       activeclass="active"
       class="ml-auto"
+      color="primary"
       event="click"
       exactactiveclass="active"
       routertag="a"
       tag="span"
       target="_self"
-      variant="primary"
     >
       42
     </cbadge-stub>

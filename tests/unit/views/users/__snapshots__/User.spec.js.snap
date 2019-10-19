@@ -41,6 +41,7 @@ exports[`User.vue renders correctly 1`] = `
       >
         <cbutton-stub
           activeclass="active"
+          color="primary"
           event="click"
           exactactiveclass="active"
           routertag="a"

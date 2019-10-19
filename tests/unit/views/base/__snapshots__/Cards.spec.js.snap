@@ -106,10 +106,11 @@ exports[`Cards.vue renders correctly 1`] = `
           Card with switch
           
           <label
-            class="float-right switch form-check-label switch-info switch-sm switch-pill"
+            class="float-right switch form-check-label switch-undefined switch-sm switch-pill"
           >
             <input
               class="switch-input form-check-input"
+              color="info"
               data-off="Off"
               data-on="On"
               type="checkbox"
@@ -148,7 +149,8 @@ exports[`Cards.vue renders correctly 1`] = `
           Card with label
           
           <span
-            class="badge float-right badge-success"
+            class="badge float-right"
+            color="success"
           >
             Success
           </span>
@@ -181,7 +183,8 @@ exports[`Cards.vue renders correctly 1`] = `
           Card with label
           
           <span
-            class="badge float-right badge-danger badge-pill"
+            class="badge float-right badge-pill"
+            color="danger"
           >
             42
           </span>
@@ -192,9 +195,9 @@ exports[`Cards.vue renders correctly 1`] = `
         >
           <!---->
           <!---->
-          <div>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-          </div>
+          
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        
         </div>
         <!---->
       </div>
@@ -208,7 +211,8 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card border-primary"
+        border-color="primary"
+        class="card"
         header="Card outline primary"
       >
         <!---->
@@ -225,7 +229,8 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card border-secondary"
+        border-color="secondary"
+        class="card"
         header="Card outline secondary"
       >
         <!---->
@@ -242,7 +247,8 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card border-success"
+        border-color="success"
+        class="card"
         header="Card outline success"
       >
         <!---->
@@ -263,7 +269,8 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card border-info"
+        border-color="info"
+        class="card"
       >
         <header
           class="card-header"
@@ -287,7 +294,8 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card border-warning"
+        border-color="warning"
+        class="card"
       >
         <header
           class="card-header"
@@ -311,7 +319,8 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card border-danger"
+        border-color="danger"
+        class="card"
       >
         <header
           class="card-header"
@@ -844,11 +853,9 @@ exports[`Cards.vue renders correctly 1`] = `
          
         <div
           class=""
-          data-v-1b076234=""
         >
           <div
             class="card-body"
-            data-v-1b076234=""
           >
             <!---->
             <!---->

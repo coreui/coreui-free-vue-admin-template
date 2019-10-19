@@ -16,11 +16,6 @@ describe('Users.vue', () => {
   it('has a created hook', () => {
     expect(typeof Users.data).toMatch('function')
   })
-  it('sets the correct default data', () => {
-    expect(typeof Users.data).toMatch('function')
-    const defaultData = Users.data()
-    expect(defaultData.currentPage).toBe(1)
-  })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Users,{
       localVue,

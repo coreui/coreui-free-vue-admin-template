@@ -16,10 +16,10 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cprogress-stub
           class="progress-xs my-3 mb-0"
+          color="success"
           max="100"
           precision="0"
           value="25"
-          variant="success"
         />
       </cwidgetprogress-stub>
     </ccol-stub>
@@ -30,11 +30,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
+        color="info"
         footer="Lorem ipsum dolor sit amet enim."
         header="12.124"
         text="Lorem ipsum..."
         value="25"
-        variant="info"
       />
     </ccol-stub>
      
@@ -44,11 +44,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
+        color="warning"
         footer="Lorem ipsum dolor sit amet enim."
         header="$98.111,00"
         text="Lorem ipsum..."
         value="25"
-        variant="warning"
       />
     </ccol-stub>
      
@@ -58,11 +58,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
+        color="danger"
         footer="Lorem ipsum dolor sit amet enim."
         header="2 TB"
         text="Lorem ipsum..."
         value="25"
-        variant="danger"
       />
     </ccol-stub>
   </crow-stub>
@@ -74,12 +74,12 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
+        color="success"
         footer="Lorem ipsum dolor sit amet enim."
         header="89.9%"
         inverse="true"
         text="Lorem ipsum..."
         value="25"
-        variant="success"
       />
     </ccol-stub>
      
@@ -89,12 +89,12 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
+        color="info"
         footer="Lorem ipsum dolor sit amet enim."
         header="12.124"
         inverse="true"
         text="Lorem ipsum..."
         value="25"
-        variant="info"
       />
     </ccol-stub>
      
@@ -104,12 +104,12 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
+        color="warning"
         footer="Lorem ipsum dolor sit amet enim."
         header="$98.111,00"
         inverse="true"
         text="Lorem ipsum..."
         value="25"
-        variant="warning"
       />
     </ccol-stub>
      
@@ -119,12 +119,12 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
+        color="danger"
         footer="Lorem ipsum dolor sit amet enim."
         header="2 TB"
         inverse="true"
         text="Lorem ipsum..."
         value="25"
-        variant="danger"
       />
     </ccol-stub>
   </crow-stub>
@@ -137,9 +137,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="primary"
         header="$1.999,50"
         text="Income"
-        variant="primary"
       >
         <cicon-stub
           name="settings"
@@ -155,9 +155,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="info"
         header="$1.999,50"
         text="Income"
-        variant="info"
       >
         <cicon-stub
           name="laptop"
@@ -173,9 +173,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="warning"
         header="$1.999,50"
         text="Income"
-        variant="warning"
       >
         <cicon-stub
           name="moon"
@@ -191,9 +191,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="danger"
         header="$1.999,50"
         text="Income"
-        variant="danger"
       >
         <cicon-stub
           name="bell"
@@ -211,10 +211,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="primary"
         header="$1.999,50"
-        noiconpadding="true"
         text="Income"
-        variant="primary"
       >
         <cicon-stub
           name="settings"
@@ -230,10 +229,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="info"
         header="$1.999,50"
-        noiconpadding="true"
         text="Income"
-        variant="info"
       >
         <cicon-stub
           name="laptop"
@@ -249,10 +247,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="warning"
         header="$1.999,50"
-        noiconpadding="true"
         text="Income"
-        variant="warning"
       >
         <cicon-stub
           name="moon"
@@ -268,10 +265,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="danger"
         header="$1.999,50"
-        noiconpadding="true"
         text="Income"
-        variant="danger"
       >
         <cicon-stub
           name="bell"
@@ -289,10 +285,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="primary"
         header="$1.999,50"
-        noiconpadding="true"
         text="Income"
-        variant="primary"
       >
         <cicon-stub
           class="mx-5 "
@@ -309,10 +304,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="info"
         header="$1.999,50"
-        noiconpadding="true"
         text="Income"
-        variant="info"
       >
         <cicon-stub
           class="mx-5 "
@@ -329,10 +323,9 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
+        color="warning"
         header="$1.999,50"
-        noiconpadding="true"
         text="Income"
-        variant="warning"
       >
         <cicon-stub
           class="mx-5 "
@@ -353,10 +346,10 @@ exports[`Widgets.vue renders correctly 1`] = `
     class="mb-4"
   >
     <cwidgetprogressicon-stub
+      color="info"
       header="87.500"
       text="Visitors"
       value="25"
-      variant="info"
     >
       <cicon-stub
         height="36"
@@ -365,10 +358,10 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
+      color="success"
       header="385"
       text="New Clients"
       value="25"
-      variant="success"
     >
       <cicon-stub
         height="36"
@@ -377,10 +370,10 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
+      color="warning"
       header="1238"
       text="Products sold"
       value="25"
-      variant="warning"
     >
       <cicon-stub
         height="36"
@@ -400,10 +393,10 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
+      color="danger"
       header="5:34:11"
       text="Avg. Time"
       value="25"
-      variant="danger"
     >
       <cicon-stub
         height="36"
@@ -416,11 +409,11 @@ exports[`Widgets.vue renders correctly 1`] = `
     class="mb-4"
   >
     <cwidgetprogressicon-stub
+      color="info"
       header="87.500"
       inverse="true"
       text="Visitors"
       value="25"
-      variant="info"
     >
       <cicon-stub
         height="36"
@@ -429,11 +422,11 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
+      color="success"
       header="385"
       inverse="true"
       text="New Clients"
       value="25"
-      variant="success"
     >
       <cicon-stub
         height="36"
@@ -442,11 +435,11 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
+      color="warning"
       header="1238"
       inverse="true"
       text="Products sold"
       value="25"
-      variant="warning"
     >
       <cicon-stub
         height="36"
@@ -455,11 +448,11 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
+      color="primary"
       header="28%"
       inverse="true"
       text="Returning Visitors"
       value="25"
-      variant="primary"
     >
       <cicon-stub
         height="36"
@@ -468,11 +461,11 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
+      color="danger"
       header="5:34:11"
       inverse="true"
       text="Avg. Time"
       value="25"
-      variant="danger"
     >
       <cicon-stub
         height="36"
@@ -488,10 +481,10 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="info"
         header="87.500"
         text="Visitors"
         value="25"
-        variant="info"
       >
         <cicon-stub
           height="36"
@@ -506,10 +499,10 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="success"
         header="385"
         text="New Clients"
         value="25"
-        variant="success"
       >
         <cicon-stub
           height="36"
@@ -524,10 +517,10 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="warning"
         header="1238"
         text="Products sold"
         value="25"
-        variant="warning"
       >
         <cicon-stub
           height="36"
@@ -542,10 +535,10 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="primary"
         header="28%"
         text="Returning Visitors"
         value="25"
-        variant="primary"
       >
         <cicon-stub
           height="36"
@@ -560,10 +553,10 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="danger"
         header="5:34:11"
         text="Avg. Time"
         value="25"
-        variant="danger"
       >
         <cicon-stub
           height="36"
@@ -578,10 +571,10 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="info"
         header="972"
         text="comments"
         value="25"
-        variant="info"
       >
         <cicon-stub
           height="36"
@@ -598,11 +591,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="info"
         header="87.500"
         inverse="true"
         text="Visitors"
         value="25"
-        variant="info"
       >
         <cicon-stub
           height="36"
@@ -617,11 +610,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="success"
         header="385"
         inverse="true"
         text="New Clients"
         value="25"
-        variant="success"
       >
         <cicon-stub
           height="36"
@@ -636,11 +629,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="warning"
         header="1238"
         inverse="true"
         text="Products sold"
         value="25"
-        variant="warning"
       >
         <cicon-stub
           height="36"
@@ -655,11 +648,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="primary"
         header="28%"
         inverse="true"
         text="Returning Visitors"
         value="25"
-        variant="primary"
       >
         <cicon-stub
           height="36"
@@ -674,11 +667,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="danger"
         header="5:34:11"
         inverse="true"
         text="Avg. Time"
         value="25"
-        variant="danger"
       >
         <cicon-stub
           height="36"
@@ -693,11 +686,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
+        color="info"
         header="972"
         inverse="true"
         text="comments"
         value="25"
-        variant="info"
       >
         <cicon-stub
           height="36"
@@ -716,11 +709,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetheaderdetails-stub
+        color="primary"
         leftfooter="+432,50 (15,78%)"
         leftheader="$1.890,65"
         rightfooter="Today 6:43 AM"
         rightheader="SALE"
-        variant="primary"
       >
         <cchartlinesimple-stub
           backgroundcolor="transparent"
@@ -745,11 +738,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetheaderdetails-stub
+        color="success"
         leftfooter="+432,50 (15,78%)"
         leftheader="$1.890,65"
         rightfooter="Today 6:43 AM"
         rightheader="SALE"
-        variant="success"
       >
         <cchartlinesimple-stub
           backgroundcolor="transparent"
@@ -774,11 +767,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetheaderdetails-stub
+        color="danger"
         leftfooter="+432,50 (15,78%)"
         leftheader="$1.890,65"
         rightfooter="Today 6:43 AM"
         rightheader="SALE"
-        variant="danger"
       >
         <cchartlinesimple-stub
           backgroundcolor="transparent"
@@ -803,11 +796,11 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetheaderdetails-stub
+        color="warning"
         leftfooter="+432,50 (15,78%)"
         leftheader="$1.890,65"
         rightfooter="Today 6:43 AM"
         rightheader="SALE"
-        variant="warning"
       >
         <cchartlinesimple-stub
           backgroundcolor="transparent"

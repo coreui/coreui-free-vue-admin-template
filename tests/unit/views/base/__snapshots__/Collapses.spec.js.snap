@@ -46,7 +46,8 @@ exports[`Collapses.vue renders correctly 1`] = `
         <!---->
         <!---->
         <button
-          class="btn btn-primary"
+          class="btn"
+          color="primary"
           id="collapse1"
           type="button"
         >
@@ -57,30 +58,26 @@ exports[`Collapses.vue renders correctly 1`] = `
          
         <div
           class="mt-2"
-          data-v-1b076234=""
           style="display: none;"
         >
           <div
             class="card"
-            data-v-1b076234=""
           >
             <!---->
             <div
               class="card-body"
-              data-v-1b076234=""
             >
               <!---->
               <!---->
               <p
                 class="card-text"
-                data-v-1b076234=""
               >
                 Collapse contents Here
               </p>
                
               <button
-                class="btn btn-secondary btn-sm"
-                data-v-1b076234=""
+                class="btn btn-sm"
+                color="secondary"
                 id="collapse2"
                 type="button"
               >
@@ -91,17 +88,14 @@ exports[`Collapses.vue renders correctly 1`] = `
                
               <div
                 class="mt-2"
-                data-v-1b076234=""
                 style="display: none;"
               >
                 <div
                   class="card"
-                  data-v-1b076234=""
                 >
                   <!---->
                   <div
                     class="card-body"
-                    data-v-1b076234=""
                   >
                     <!---->
                     <!---->

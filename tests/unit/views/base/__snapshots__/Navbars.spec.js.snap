@@ -41,11 +41,13 @@ exports[`Navbars.vue renders correctly 1`] = `
       titletag="h4"
     >
       <cnavbar-stub
+        color="info"
+        expandable="md"
         tag="nav"
-        toggleable="md"
-        variant="info"
       >
-        <cnavbartoggle-stub />
+        <ctoggler
+          innavbar=""
+        />
          
         <cnavbarbrand-stub
           activeclass="active"
@@ -99,24 +101,22 @@ exports[`Navbars.vue renders correctly 1`] = `
             <cform-stub
               inline="true"
             >
-              <cforminput-stub
+              <cinput
                 class="mr-sm-2"
-                lazy="400"
                 placeholder="Search"
                 size="sm"
-                type="text"
               />
                
               <cbutton-stub
                 activeclass="active"
                 class="my-2 my-sm-0"
+                color="light"
                 event="click"
                 exactactiveclass="active"
                 routertag="a"
                 size="sm"
                 target="_self"
                 type="button"
-                variant="light"
               >
                 
                 Search
@@ -125,10 +125,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cform-stub>
              
             <cdropdown-stub
-              button-html="Lang"
               nav="true"
               placement="bottom-end"
-              togglertext="Dropdown"
+              togglertext="Lang"
             >
               <cdropdownitem-stub
                 activeclass="active"
@@ -172,10 +171,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cdropdown-stub>
              
             <cdropdown-stub
-              buttonhtml=<em>User</em>
               nav="true"
               placement="bottom-end"
-              togglertext="Dropdown"
+              togglertext="User"
             >
               <cdropdownitem-stub
                 activeclass="active"
@@ -229,9 +227,9 @@ exports[`Navbars.vue renders correctly 1`] = `
       titletag="h4"
     >
       <cnavbar-stub
+        color="faded"
         light="true"
         tag="nav"
-        variant="faded"
       >
         <cnavbarbrand-stub
           activeclass="active"
@@ -280,12 +278,14 @@ exports[`Navbars.vue renders correctly 1`] = `
       titletag="h4"
     >
       <cnavbar-stub
+        color="light"
         light="true"
         tag="nav"
         toggleable="sm"
-        variant="light"
       >
-        <cnavbartoggle-stub />
+        <ctoggler
+          innavbar=""
+        />
          
         <cnavbarbrand-stub
           activeclass="active"
@@ -342,11 +342,13 @@ exports[`Navbars.vue renders correctly 1`] = `
       titletag="h4"
     >
       <cnavbar-stub
+        color="primary"
+        expandable="sm"
         tag="nav"
-        toggleable="sm"
-        variant="primary"
       >
-        <cnavbartoggle-stub />
+        <ctoggler
+          innavbar=""
+        />
          
         <ccollapse-stub
           duration="400"
@@ -381,11 +383,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cnavitem-stub>
              
             <cdropdown-stub
-              button-html="Lang"
               nav="true"
-              placement="bottom-start"
-              right=""
-              togglertext="Dropdown"
+              placement="bottom-end"
+              togglertext="Lang"
             >
               <cdropdownitem-stub
                 activeclass="active"
@@ -429,11 +429,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cdropdown-stub>
              
             <cdropdown-stub
-              button-html="User"
               nav="true"
-              placement="bottom-start"
-              right=""
-              togglertext="Dropdown"
+              placement="bottom-end"
+              togglertext="User"
             >
               <cdropdownitem-stub
                 activeclass="active"
@@ -487,30 +485,28 @@ exports[`Navbars.vue renders correctly 1`] = `
       titletag="h4"
     >
       <cnavbar-stub
+        color="light"
         light="true"
         tag="nav"
-        variant="light"
       >
         <cform-stub
           inline="true"
         >
-          <cforminput-stub
+          <cinput
             class="mr-sm-2"
-            lazy="400"
             placeholder="Search"
             size="sm"
-            type="text"
           />
            
           <cbutton-stub
             activeclass="active"
             class="my-2 my-sm-0"
+            color="outline-success"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="submit"
-            variant="outline-success"
           >
             Search
           </cbutton-stub>
@@ -545,18 +541,16 @@ exports[`Navbars.vue renders correctly 1`] = `
       titletag="h4"
     >
       <cnavbar-stub
+        color="light"
         light="true"
         tag="nav"
-        variant="light"
       >
         <cform-stub
           inline="true"
         >
-          <cforminput-stub
+          <cinput
             class="mr-sm-2"
-            lazy="400"
             placeholder="Username"
-            type="text"
           />
         </cform-stub>
       </cnavbar-stub>

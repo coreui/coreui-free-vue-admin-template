@@ -4,62 +4,6 @@ exports[`Tables.vue renders correctly 1`] = `
 <div>
   <crow-stub>
     <ccol-stub
-      sm="12"
-      tag="div"
-    >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
-          
-          CTable component functionality presentation
-          
-          <div
-            class="card-header-actions"
-          >
-            <a
-              class="card-header-action"
-              href="https://coreui.io/vue/docs/3.0/components/Table"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              <small
-                class="text-muted"
-              >
-                docs
-              </small>
-            </a>
-          </div>
-        </ccardheader-stub>
-         
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
-          <ctable-stub
-            defaultsorter="[object Object]"
-            fields="[object Object],registered,[object Object],[object Object],[object Object]"
-            filterrow="true"
-            footer="true"
-            hover="true"
-            indexcolumn="true"
-            items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-            itemsperpage="10"
-            optionsrow="true"
-            pagination="true"
-            sorting="true"
-          />
-        </ccardbody-stub>
-      </ccard-stub>
-    </ccol-stub>
-  </crow-stub>
-   
-  <crow-stub>
-    <ccol-stub
       lg="6"
       tag="div"
     >

@@ -12,12 +12,6 @@ describe('Switches.vue', () => {
   it('has a created hook', () => {
     expect(typeof Switches.data).toMatch('function')
   })
-  it('sets the correct default data', () => {
-    expect(typeof Switches.data).toMatch('function')
-    const defaultData = Switches.data()
-    expect(typeof defaultData.fields).toMatch('object')
-    expect(defaultData.checker).toMatch('yes')
-  })
   it('is Vue instance', () => {
     const wrapper = mount(Switches)
     expect(wrapper.isVueInstance()).toBe(true)

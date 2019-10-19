@@ -39,12 +39,12 @@ exports[`Dashboard.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             class="float-right"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             <i
               class="cui-cloud-download"
@@ -57,12 +57,12 @@ exports[`Dashboard.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="mx-0"
+              color="outline-secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="outline-secondary"
             >
               
               Day
@@ -71,13 +71,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="mx-0"
+              color="outline-secondary"
               event="click"
               exactactiveclass="active"
               pressed="true"
               routertag="a"
               target="_self"
               type="button"
-              variant="outline-secondary"
             >
               
               Month
@@ -86,12 +86,12 @@ exports[`Dashboard.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="mx-0"
+              color="outline-secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="outline-secondary"
             >
               
               Year
@@ -131,10 +131,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
            
           <cprogress-stub
             class="progress-xs mt-2"
+            color="success"
             max="100"
             precision="1"
             value="40"
-            variant="success"
           />
         </ccol-stub>
          
@@ -156,10 +156,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
            
           <cprogress-stub
             class="progress-xs mt-2"
+            color="info"
             max="100"
             precision="1"
             value="20"
-            variant="info"
           />
         </ccol-stub>
          
@@ -181,10 +181,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
            
           <cprogress-stub
             class="progress-xs mt-2"
+            color="warning"
             max="100"
             precision="1"
             value="60"
-            variant="warning"
           />
         </ccol-stub>
          
@@ -206,10 +206,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
            
           <cprogress-stub
             class="progress-xs mt-2"
+            color="danger"
             max="100"
             precision="1"
             value="80"
-            variant="danger"
           />
         </ccol-stub>
          
@@ -265,7 +265,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 tag="div"
               >
                 <ccallout-stub
-                  variant="info"
+                  color="info"
                 >
                   <small
                     class="text-muted"
@@ -287,7 +287,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 tag="div"
               >
                 <ccallout-stub
-                  variant="danger"
+                  color="danger"
                 >
                   <small
                     class="text-muted"
@@ -329,18 +329,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
               >
                 <cprogress-stub
                   class="progress-xs"
+                  color="info"
                   max="100"
                   precision="0"
                   value="34"
-                  variant="info"
                 />
                  
                 <cprogress-stub
                   class="progress-xs"
+                  color="danger"
                   max="100"
                   precision="0"
                   value="78"
-                  variant="danger"
                 />
               </div>
             </div>
@@ -365,18 +365,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
               >
                 <cprogress-stub
                   class="progress-xs"
+                  color="info"
                   max="100"
                   precision="0"
                   value="56"
-                  variant="info"
                 />
                  
                 <cprogress-stub
                   class="progress-xs"
+                  color="danger"
                   max="100"
                   precision="0"
                   value="94"
-                  variant="danger"
                 />
               </div>
             </div>
@@ -401,18 +401,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
               >
                 <cprogress-stub
                   class="progress-xs"
+                  color="info"
                   max="100"
                   precision="0"
                   value="12"
-                  variant="info"
                 />
                  
                 <cprogress-stub
                   class="progress-xs"
+                  color="danger"
                   max="100"
                   precision="0"
                   value="67"
-                  variant="danger"
                 />
               </div>
             </div>
@@ -437,18 +437,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
               >
                 <cprogress-stub
                   class="progress-xs"
+                  color="info"
                   max="100"
                   precision="0"
                   value="43"
-                  variant="info"
                 />
                  
                 <cprogress-stub
                   class="progress-xs"
+                  color="danger"
                   max="100"
                   precision="0"
                   value="91"
-                  variant="danger"
                 />
               </div>
             </div>
@@ -473,18 +473,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
               >
                 <cprogress-stub
                   class="progress-xs"
+                  color="info"
                   max="100"
                   precision="0"
                   value="22"
-                  variant="info"
                 />
                  
                 <cprogress-stub
                   class="progress-xs"
+                  color="danger"
                   max="100"
                   precision="0"
                   value="73"
-                  variant="danger"
                 />
               </div>
             </div>
@@ -509,18 +509,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
               >
                 <cprogress-stub
                   class="progress-xs"
+                  color="info"
                   max="100"
                   precision="0"
                   value="53"
-                  variant="info"
                 />
                  
                 <cprogress-stub
                   class="progress-xs"
+                  color="danger"
                   max="100"
                   precision="0"
                   value="82"
-                  variant="danger"
                 />
               </div>
             </div>
@@ -545,18 +545,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
               >
                 <cprogress-stub
                   class="progress-xs"
+                  color="info"
                   max="100"
                   precision="0"
                   value="9"
-                  variant="info"
                 />
                  
                 <cprogress-stub
                   class="progress-xs"
+                  color="danger"
                   max="100"
                   precision="0"
                   value="69"
-                  variant="danger"
                 />
               </div>
             </div>
@@ -568,13 +568,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <sup>
                   <cbadge-stub
                     activeclass="active"
+                    color="info"
                     event="click"
                     exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
                     target="_self"
-                    variant="info"
                   >
                      
                   </cbadge-stub>
@@ -586,13 +586,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <sup>
                   <cbadge-stub
                     activeclass="active"
+                    color="danger"
                     event="click"
                     exactactiveclass="active"
                     pill="true"
                     routertag="a"
                     tag="span"
                     target="_self"
-                    variant="danger"
                   >
                      
                   </cbadge-stub>
@@ -615,7 +615,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 tag="div"
               >
                 <ccallout-stub
-                  variant="warning"
+                  color="warning"
                 >
                   <small
                     class="text-muted"
@@ -637,7 +637,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 tag="div"
               >
                 <ccallout-stub
-                  variant="success"
+                  color="success"
                 >
                   <small
                     class="text-muted"
@@ -690,10 +690,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
+                    color="warning"
                     max="100"
                     precision="0"
                     value="43"
-                    variant="warning"
                   />
                 </div>
               </div>
@@ -726,10 +726,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
+                    color="warning"
                     max="100"
                     precision="0"
                     value="37"
-                    variant="warning"
                   />
                 </div>
               </div>
@@ -768,10 +768,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
+                    color="success"
                     max="100"
                     precision="0"
                     value="56"
-                    variant="success"
                   />
                 </div>
               </div>
@@ -812,10 +812,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
+                    color="success"
                     max="100"
                     precision="0"
                     value="15"
-                    variant="success"
                   />
                 </div>
               </div>
@@ -856,10 +856,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
+                    color="success"
                     max="100"
                     precision="0"
                     value="11"
-                    variant="success"
                   />
                 </div>
               </div>
@@ -900,10 +900,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
+                    color="success"
                     max="100"
                     precision="0"
                     value="8"
-                    variant="success"
                   />
                 </div>
               </div>
@@ -914,13 +914,13 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <cbutton-stub
                   activeclass="active"
                   class="text-muted"
+                  color="link"
                   event="click"
                   exactactiveclass="active"
                   routertag="a"
                   size="sm"
                   target="_self"
                   type="button"
-                  variant="link"
                 >
                   <i
                     class="cui-options"
@@ -937,7 +937,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           class="mb-0 table-outline"
           defaultsorter="[object Object]"
           fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-          head-variant="light"
+          head-color="light"
           hover="true"
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
           itemsperpage="10"

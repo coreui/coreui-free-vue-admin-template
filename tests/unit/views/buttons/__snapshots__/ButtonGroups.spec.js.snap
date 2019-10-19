@@ -48,48 +48,48 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           <cbuttongroup-stub>
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               One
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Two
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Three
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Four
             </cbutton-stub>
@@ -97,12 +97,12 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="d-sm-down-none"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Five
             </cbutton-stub>
@@ -115,36 +115,36 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="d-sm-down-none"
+              color="success"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="success"
             >
               Success
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="info"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="info"
             >
               Info
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="warning"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="warning"
             >
               Warn
             </cbutton-stub>
@@ -152,36 +152,36 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="d-sm-down-none"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               Primary
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="danger"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="danger"
             >
               Danger
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="link"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="link"
             >
               Link
             </cbutton-stub>
@@ -222,36 +222,36 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           <cbuttongroup-stub>
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Left
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Middle
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Right
             </cbutton-stub>
@@ -265,36 +265,36 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Left
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Middle
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Right
             </cbutton-stub>
@@ -308,36 +308,36 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Left
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Middle
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Right
             </cbutton-stub>
@@ -378,12 +378,12 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="d-sm-down-none"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Button 1
             </cbutton-stub>
@@ -391,22 +391,22 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="d-sm-down-none"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Button 2
             </cbutton-stub>
              
             <cdropdown-stub
+              color="success"
               placement="bottom-start"
               right=""
               text="Menu"
               togglertext="Dropdown"
-              variant="success"
             >
               <cdropdownitem-stub
                 activeclass="active"
@@ -446,23 +446,23 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             <cbutton-stub
               activeclass="active"
               class="d-sm-down-none"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Button 3
             </cbutton-stub>
              
             <cdropdown-stub
+              color="info"
               placement="bottom-start"
               right=""
               split="true"
               text="Split Menu"
               togglertext="Dropdown"
-              variant="info"
             >
               <cdropdownitem-stub
                 activeclass="active"
@@ -537,36 +537,36 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Top
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Middle
             </cbutton-stub>
              
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               Bottom
             </cbutton-stub>
@@ -605,312 +605,304 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         subtitletag="h6"
         titletag="h4"
       >
-        <div>
-          <cbuttontoolbar-stub
-            aria-label="Toolbar with button groups"
+        <cbuttontoolbar-stub
+          aria-label="Toolbar with button groups"
+        >
+          <cbuttongroup-stub
+            class="mx-1"
           >
-            <cbuttongroup-stub
-              class="mx-1"
+            <cbutton-stub
+              activeclass="active"
+              class="d-sm-down-none"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cbutton-stub
-                activeclass="active"
-                class="d-sm-down-none"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                «
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                ‹
-              </cbutton-stub>
-            </cbuttongroup-stub>
+              «
+            </cbutton-stub>
              
-            <cbuttongroup-stub
-              class="mx-1"
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cbutton-stub
-                activeclass="active"
-                class="d-sm-down-none"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Edit
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Undo
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Redo
-              </cbutton-stub>
-            </cbuttongroup-stub>
+              ‹
+            </cbutton-stub>
+          </cbuttongroup-stub>
+           
+          <cbuttongroup-stub
+            class="mx-1"
+          >
+            <cbutton-stub
+              activeclass="active"
+              class="d-sm-down-none"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              Edit
+            </cbutton-stub>
              
-            <cbuttongroup-stub
-              class="mx-1"
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                ›
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                class="d-sm-down-none"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                »
-              </cbutton-stub>
-            </cbuttongroup-stub>
-          </cbuttontoolbar-stub>
-        </div>
+              Undo
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              Redo
+            </cbutton-stub>
+          </cbuttongroup-stub>
+           
+          <cbuttongroup-stub
+            class="mx-1"
+          >
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              ›
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="active"
+              class="d-sm-down-none"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              »
+            </cbutton-stub>
+          </cbuttongroup-stub>
+        </cbuttontoolbar-stub>
          
         <hr
           class="d-sm-down-none"
         />
          
-        <div>
-          <cbuttontoolbar-stub
-            aria-label="Toolbar with button groups and input groups"
-            class="d-sm-down-none"
+        <cbuttontoolbar-stub
+          aria-label="Toolbar with button groups and input groups"
+          class="d-sm-down-none"
+        >
+          <cbuttongroup-stub
+            class="mx-1"
+            size="sm"
           >
-            <cbuttongroup-stub
-              class="mx-1"
-              size="sm"
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                New
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Edit
-              </cbutton-stub>
-            </cbuttongroup-stub>
+              New
+            </cbutton-stub>
              
-            <cforminput-stub
-              appendhtml=".00"
-              class="mb-0 w-25 mx-1"
-              lazy="400"
-              prependhtml="$"
-              size="sm"
-              type="text"
-              value="100"
-            />
-             
-            <cformselect-stub
-              class="mb-0 w-25 mx-1"
-              custom="true"
-              options="Large,Medium,Small"
-              prependhtml="Size"
-              size="sm"
-              value="Medium"
-            />
-             
-            <cbuttongroup-stub
-              class="mx-1"
-              size="sm"
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Save
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Cancel
-              </cbutton-stub>
-            </cbuttongroup-stub>
-          </cbuttontoolbar-stub>
-        </div>
+              Edit
+            </cbutton-stub>
+          </cbuttongroup-stub>
+           
+          <cinput
+            append-html=".00"
+            class="mb-0 w-25 mx-1"
+            prepend-html="$"
+            size="sm"
+            value="100"
+          />
+           
+          <cselect
+            class="mb-0 w-25 mx-1"
+            custom=""
+            options="Large,Medium,Small"
+            prepend-html="Size"
+            size="sm"
+            value="Medium"
+          />
+           
+          <cbuttongroup-stub
+            class="mx-1"
+            size="sm"
+          >
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              Save
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              Cancel
+            </cbutton-stub>
+          </cbuttongroup-stub>
+        </cbuttontoolbar-stub>
          
         <hr />
          
-        <div>
-          <cbuttontoolbar-stub
-            aria-label="Toolbar with button groups and dropdown menu"
+        <cbuttontoolbar-stub
+          aria-label="Toolbar with button groups and dropdown menu"
+        >
+          <cbuttongroup-stub
+            class="mx-1 d-sm-down-none"
           >
-            <cbuttongroup-stub
-              class="mx-1 d-sm-down-none"
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                New
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Edit
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Undo
-              </cbutton-stub>
-            </cbuttongroup-stub>
+              New
+            </cbutton-stub>
              
-            <cdropdown-stub
-              button-content="Menu"
-              class="mx-1"
-              placement="bottom-end"
-              togglertext="Dropdown"
-              variant="secondary"
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                Item 1
-              </cdropdownitem-stub>
-               
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                Item 2
-              </cdropdownitem-stub>
-               
-              <cdropdownitem-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-              >
-                Item 3
-              </cdropdownitem-stub>
-            </cdropdown-stub>
+              Edit
+            </cbutton-stub>
              
-            <cbuttongroup-stub
-              class="mx-1"
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
             >
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Save
-              </cbutton-stub>
-               
-              <cbutton-stub
-                activeclass="active"
-                event="click"
-                exactactiveclass="active"
-                routertag="a"
-                target="_self"
-                type="button"
-                variant="secondary"
-              >
-                Cancel
-              </cbutton-stub>
-            </cbuttongroup-stub>
-          </cbuttontoolbar-stub>
-        </div>
+              Undo
+            </cbutton-stub>
+          </cbuttongroup-stub>
+           
+          <cdropdown-stub
+            button-content="Menu"
+            class="mx-1"
+            color="secondary"
+            placement="bottom-end"
+            togglertext="Dropdown"
+          >
+            <cdropdownitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+            >
+              Item 1
+            </cdropdownitem-stub>
+             
+            <cdropdownitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+            >
+              Item 2
+            </cdropdownitem-stub>
+             
+            <cdropdownitem-stub
+              activeclass="active"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+            >
+              Item 3
+            </cdropdownitem-stub>
+          </cdropdown-stub>
+           
+          <cbuttongroup-stub
+            class="mx-1"
+          >
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              Save
+            </cbutton-stub>
+             
+            <cbutton-stub
+              activeclass="active"
+              color="secondary"
+              event="click"
+              exactactiveclass="active"
+              routertag="a"
+              target="_self"
+              type="button"
+            >
+              Cancel
+            </cbutton-stub>
+          </cbuttongroup-stub>
+        </cbuttontoolbar-stub>
       </ccardbody-stub>
     </ccard-stub>
   </ccol-stub>

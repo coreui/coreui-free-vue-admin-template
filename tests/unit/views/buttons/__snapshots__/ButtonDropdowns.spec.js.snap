@@ -49,11 +49,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 dropdown"
+              color="secondary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-secondary"
+                class="btn dropdown-toggle"
               >
                 Dropdown Button
               </button>
@@ -119,11 +120,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 dropdown"
+              color="secondary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-secondary"
+                class="btn dropdown-toggle"
               >
                 Dropdown with divider
               </button>
@@ -169,11 +171,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 dropdown"
+              color="secondary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-secondary"
+                class="btn dropdown-toggle"
               >
                 Dropdown with header
               </button>
@@ -181,11 +184,11 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               <div
                 class="dropdown-menu"
               >
-                <h6
+                <div
                   class="dropdown-header"
                 >
                   Dropdown header
-                </h6>
+                </div>
                  
                 <a
                   class="dropdown-item"
@@ -243,11 +246,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 d-inline-block dropdown"
+              color="primary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-primary"
+                class="btn dropdown-toggle"
               >
                 Left align
               </button>
@@ -286,11 +290,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
              
             <div
               class="m-2 d-inline-block dropdown"
+              color="primary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-primary"
+                class="btn dropdown-toggle"
               >
                 Right align
               </button>
@@ -331,11 +336,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 dropup"
+              color="info"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-info"
+                class="btn dropdown-toggle"
               >
                 Drop-Up
               </button>
@@ -376,11 +382,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 dropdown"
+              color="secondary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-secondary"
+                class="btn dropdown-toggle"
               >
                 Offset Dropdown
               </button>
@@ -421,16 +428,17 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 dropdown btn-group"
+              color="secondary"
             >
               <button
-                class="btn btn-secondary"
+                class="btn"
               >
                 Split Dropdown
               </button>
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="dropdown-toggle dropdown-toggle-split btn btn-secondary"
+                class="dropdown-toggle dropdown-toggle-split btn"
               />
               <div
                 class="dropdown-menu"
@@ -504,11 +512,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="dropdown"
+              color="link"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn btn-lg btn-link"
+                class="btn btn-lg"
               >
                 
                 🔍
@@ -588,11 +597,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 d-inline-block dropdown"
+              color="secondary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-lg btn-secondary"
+                class="btn dropdown-toggle btn-lg"
               >
                 Large
               </button>
@@ -631,16 +641,17 @@ exports[`Dropdowns.vue renders correctly 1`] = `
              
             <div
               class="m-2 dropdown btn-group"
+              color="secondary"
             >
               <button
-                class="btn btn-lg btn-secondary"
+                class="btn btn-lg"
               >
                 Large Split
               </button>
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="dropdown-toggle dropdown-toggle-split btn btn-lg btn-secondary"
+                class="dropdown-toggle dropdown-toggle-split btn btn-lg"
               />
               <div
                 class="dropdown-menu"
@@ -678,11 +689,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
              
             <div
               class="m-2 d-inline-block dropdown"
+              color="secondary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-sm btn-secondary"
+                class="btn dropdown-toggle btn-sm"
               >
                 Small
               </button>
@@ -721,16 +733,17 @@ exports[`Dropdowns.vue renders correctly 1`] = `
              
             <div
               class="m-2 dropdown btn-group"
+              color="secondary"
             >
               <button
-                class="btn btn-sm btn-secondary"
+                class="btn btn-sm"
               >
                 Small Split
               </button>
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="dropdown-toggle dropdown-toggle-split btn btn-sm btn-secondary"
+                class="dropdown-toggle dropdown-toggle-split btn btn-sm"
               />
               <div
                 class="dropdown-menu"
@@ -804,11 +817,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <div>
             <div
               class="m-2 dropdown"
+              color="primary"
             >
               <button
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="btn dropdown-toggle btn-primary"
+                class="btn dropdown-toggle"
               >
                 Dropdown ARIA
               </button>
@@ -819,11 +833,11 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 <div
                   role="group"
                 >
-                  <h6
+                  <div
                     class="dropdown-header"
                   >
                     Groups
-                  </h6>
+                  </div>
                    
                   <a
                     class="dropdown-item"
@@ -847,11 +861,11 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 <div
                   role="group"
                 >
-                  <h6
+                  <div
                     class="dropdown-header"
                   >
                     Users
-                  </h6>
+                  </div>
                    
                   <a
                     class="dropdown-item"
@@ -919,7 +933,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <small>
             <code>
-              variant
+              color
             </code>
           </small>
         </header>
@@ -931,11 +945,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
           <!---->
           <div
             class="m-0 d-inline-block dropdown"
+            color="primary"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-primary"
+              class="btn dropdown-toggle btn-sm"
             >
               Primary
             </button>
@@ -974,11 +989,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="secondary"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-secondary"
+              class="btn dropdown-toggle btn-sm"
             >
               Secondary
             </button>
@@ -1017,11 +1033,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="success"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-success"
+              class="btn dropdown-toggle btn-sm"
             >
               Success
             </button>
@@ -1060,11 +1077,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="warning"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-warning"
+              class="btn dropdown-toggle btn-sm"
             >
               Warning
             </button>
@@ -1103,11 +1121,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="danger"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-danger"
+              class="btn dropdown-toggle btn-sm"
             >
               Danger
             </button>
@@ -1146,11 +1165,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="info"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-info"
+              class="btn dropdown-toggle btn-sm"
             >
               Info
             </button>
@@ -1189,11 +1209,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="light"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-light"
+              class="btn dropdown-toggle btn-sm"
             >
               Light
             </button>
@@ -1232,11 +1253,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="dark"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-dark"
+              class="btn dropdown-toggle btn-sm"
             >
               Dark
             </button>
@@ -1275,11 +1297,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
            
           <div
             class="m-0 d-inline-block dropdown"
+            color="link"
           >
             <button
               aria-expanded="false"
               aria-haspopup="true"
-              class="btn dropdown-toggle btn-sm btn-link"
+              class="btn dropdown-toggle btn-sm"
             >
               Link
             </button>

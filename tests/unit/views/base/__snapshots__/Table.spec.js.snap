@@ -10,9 +10,8 @@ exports[`Table.vue renders correctly 1`] = `
   <ctable-stub
     defaultsorter="[object Object]"
     fields="username,registered,role,status"
-    itemsperpage="10"
+    itemsperpage="5"
     pagination="true"
-    per-page="5"
   />
 </ccard-stub>
 `;

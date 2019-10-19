@@ -61,12 +61,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -83,12 +83,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -105,12 +105,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -127,12 +127,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -149,12 +149,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -171,12 +171,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -193,12 +193,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -215,12 +215,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -237,12 +237,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="link"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -275,13 +275,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -299,13 +299,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -323,13 +323,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -347,13 +347,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -371,13 +371,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -395,13 +395,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -419,13 +419,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -443,13 +443,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -467,13 +467,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="link"
             event="click"
             exactactiveclass="active"
             pressed="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -505,13 +505,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -528,13 +528,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -551,13 +551,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -574,13 +574,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -597,13 +597,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -620,13 +620,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -643,13 +643,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -666,13 +666,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -689,13 +689,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="link"
             disabled="true"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -756,13 +756,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -779,13 +779,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -802,13 +802,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -825,13 +825,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -848,13 +848,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -871,13 +871,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -894,13 +894,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -917,13 +917,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -965,6 +965,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -972,7 +973,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -990,6 +990,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -997,7 +998,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -1015,6 +1015,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -1022,7 +1023,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -1040,6 +1040,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -1047,7 +1048,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -1065,6 +1065,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -1072,7 +1073,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -1090,6 +1090,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -1097,7 +1098,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -1115,6 +1115,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -1122,7 +1123,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -1140,6 +1140,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -1147,7 +1148,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -1188,6 +1188,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1195,7 +1196,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -1212,6 +1212,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1219,7 +1220,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -1236,6 +1236,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1243,7 +1244,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -1260,6 +1260,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1267,7 +1268,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -1284,6 +1284,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1291,7 +1292,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -1308,6 +1308,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1315,7 +1316,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -1332,6 +1332,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1339,7 +1340,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -1356,6 +1356,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1363,7 +1364,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -1434,13 +1434,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -1457,13 +1457,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -1480,13 +1480,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -1503,13 +1503,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -1526,13 +1526,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -1549,13 +1549,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -1572,13 +1572,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -1595,13 +1595,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -1643,6 +1643,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1650,7 +1651,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -1668,6 +1668,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1675,7 +1676,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -1693,6 +1693,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1700,7 +1701,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -1718,6 +1718,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1725,7 +1726,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -1743,6 +1743,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1750,7 +1751,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -1768,6 +1768,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1775,7 +1776,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -1793,6 +1793,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1800,7 +1801,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -1818,6 +1818,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -1825,7 +1826,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -1866,6 +1866,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1873,7 +1874,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -1890,6 +1890,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1897,7 +1898,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -1914,6 +1914,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1921,7 +1922,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -1938,6 +1938,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1945,7 +1946,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -1962,6 +1962,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1969,7 +1970,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -1986,6 +1986,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -1993,7 +1994,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -2010,6 +2010,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2017,7 +2018,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -2034,6 +2034,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2041,7 +2042,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -2112,13 +2112,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -2135,13 +2135,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -2158,13 +2158,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -2181,13 +2181,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -2204,13 +2204,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -2227,13 +2227,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -2250,13 +2250,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -2273,13 +2273,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -2296,13 +2296,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="link"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -2335,6 +2335,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2342,7 +2343,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -2360,6 +2360,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2367,7 +2368,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -2385,6 +2385,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2392,7 +2393,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -2410,6 +2410,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2417,7 +2418,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -2435,6 +2435,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2442,7 +2443,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -2460,6 +2460,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2467,7 +2468,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -2485,6 +2485,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2492,7 +2493,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -2510,6 +2510,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2517,7 +2518,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -2535,6 +2535,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="link"
             event="click"
             exactactiveclass="active"
             pressed="true"
@@ -2542,7 +2543,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -2574,6 +2574,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2581,7 +2582,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -2598,6 +2598,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2605,7 +2606,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -2622,6 +2622,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2629,7 +2630,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -2646,6 +2646,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2653,7 +2654,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -2670,6 +2670,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2677,7 +2678,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -2694,6 +2694,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2701,7 +2702,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -2718,6 +2718,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2725,7 +2726,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -2742,6 +2742,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2749,7 +2750,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -2766,6 +2766,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="link"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -2773,7 +2774,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -2835,13 +2835,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -2858,13 +2858,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -2881,13 +2881,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -2904,13 +2904,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -2927,13 +2927,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -2950,13 +2950,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -2973,13 +2973,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -2996,13 +2996,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -3019,13 +3019,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="link"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -3058,6 +3058,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3065,7 +3066,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -3083,6 +3083,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3090,7 +3091,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -3108,6 +3108,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3115,7 +3116,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -3133,6 +3133,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3140,7 +3141,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -3158,6 +3158,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3165,7 +3166,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -3183,6 +3183,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3190,7 +3191,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -3208,6 +3208,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="light"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3215,7 +3216,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -3233,6 +3233,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="dark"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3240,7 +3241,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -3258,6 +3258,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             activeclass="active"
             aria-pressed="true"
             block="true"
+            color="link"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3265,7 +3266,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -3297,6 +3297,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3304,7 +3305,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary
           </cbutton-stub>
@@ -3321,6 +3321,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3328,7 +3329,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary
           </cbutton-stub>
@@ -3345,6 +3345,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3352,7 +3353,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success
           </cbutton-stub>
@@ -3369,6 +3369,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3376,7 +3377,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning
           </cbutton-stub>
@@ -3393,6 +3393,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3400,7 +3401,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger
           </cbutton-stub>
@@ -3417,6 +3417,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3424,7 +3425,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info
           </cbutton-stub>
@@ -3441,6 +3441,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="light"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3448,7 +3449,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="light"
           >
             Light
           </cbutton-stub>
@@ -3465,6 +3465,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="dark"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3472,7 +3473,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="dark"
           >
             Dark
           </cbutton-stub>
@@ -3489,6 +3489,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="link"
             disabled="true"
             event="click"
             exactactiveclass="active"
@@ -3496,7 +3497,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             routertag="a"
             target="_self"
             type="button"
-            variant="link"
           >
             Link
           </cbutton-stub>
@@ -3555,13 +3555,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="sm"
             target="_self"
             type="button"
-            variant="primary"
           >
             Standard Button
           </cbutton-stub>
@@ -3574,6 +3574,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -3581,7 +3582,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="sm"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Outline Button
           </cbutton-stub>
@@ -3594,6 +3594,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="success"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -3601,7 +3602,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="sm"
             target="_self"
             type="button"
-            variant="success"
           >
             Ghost Button
           </cbutton-stub>
@@ -3614,6 +3614,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
@@ -3621,7 +3622,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="warning"
           >
             Square Button
           </cbutton-stub>
@@ -3634,6 +3634,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3641,7 +3642,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="sm"
             target="_self"
             type="button"
-            variant="danger"
           >
             Pill Button
           </cbutton-stub>
@@ -3669,12 +3669,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Standard Button
           </cbutton-stub>
@@ -3687,13 +3687,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Outline Button
           </cbutton-stub>
@@ -3706,13 +3706,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="success"
             event="click"
             exactactiveclass="active"
             ghost="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Ghost Button
           </cbutton-stub>
@@ -3725,13 +3725,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="warning"
           >
             Square Button
           </cbutton-stub>
@@ -3744,13 +3744,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Pill Button
           </cbutton-stub>
@@ -3778,13 +3778,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="primary"
           >
             Standard Button
           </cbutton-stub>
@@ -3797,6 +3797,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -3804,7 +3805,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Outline Button
           </cbutton-stub>
@@ -3817,6 +3817,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="success"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -3824,7 +3825,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="success"
           >
             Ghost Button
           </cbutton-stub>
@@ -3837,6 +3837,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
@@ -3844,7 +3845,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             square="true"
             target="_self"
             type="button"
-            variant="warning"
           >
             Square Button
           </cbutton-stub>
@@ -3857,6 +3857,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pill="true"
@@ -3864,7 +3865,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="danger"
           >
             Pill Button
           </cbutton-stub>
@@ -3901,12 +3901,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             <i
               class="cui-lightbulb"
@@ -3924,13 +3924,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             <i
               class="cui-lightbulb"
@@ -3948,12 +3948,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="success"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             <i
               class="cui-lightbulb"
@@ -3971,13 +3971,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
             square="true"
             target="_self"
             type="button"
-            variant="warning"
           >
             <i
               class="cui-lightbulb"
@@ -3995,13 +3995,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="danger"
             event="click"
             exactactiveclass="active"
             pill="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             <i
               class="cui-lightbulb"
@@ -4040,13 +4040,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="primary"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             Primary Off
           </cbutton-stub>
@@ -4060,13 +4060,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Secondary Off
           </cbutton-stub>
@@ -4080,13 +4080,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="success"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="success"
           >
             Success Off
           </cbutton-stub>
@@ -4100,13 +4100,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="info"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             Info Off
           </cbutton-stub>
@@ -4120,13 +4120,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="warning"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="warning"
           >
             Warning Off
           </cbutton-stub>
@@ -4140,13 +4140,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
         >
           <cbutton-stub
             activeclass="active"
+            color="danger"
             event="click"
             exactactiveclass="active"
             outline="true"
             routertag="a"
             target="_self"
             type="button"
-            variant="danger"
           >
             Danger Off
           </cbutton-stub>
@@ -4187,13 +4187,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Block level button
           </cbutton-stub>
@@ -4201,13 +4201,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="primary"
           >
             Block level button
           </cbutton-stub>
@@ -4215,13 +4215,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="success"
           >
             Block level button
           </cbutton-stub>
@@ -4229,13 +4229,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="info"
           >
             Block level button
           </cbutton-stub>
@@ -4243,13 +4243,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="warning"
           >
             Block level button
           </cbutton-stub>
@@ -4257,13 +4257,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="danger"
           >
             Block level button
           </cbutton-stub>
@@ -4271,13 +4271,13 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="link"
             event="click"
             exactactiveclass="active"
             routertag="a"
             size="lg"
             target="_self"
             type="button"
-            variant="link"
           >
             Block level button
           </cbutton-stub>
@@ -4316,6 +4316,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="secondary"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -4323,7 +4324,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="secondary"
           >
             Block level button
           </cbutton-stub>
@@ -4331,6 +4331,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="primary"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -4338,7 +4339,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="primary"
           >
             Block level button
           </cbutton-stub>
@@ -4346,6 +4346,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="success"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -4353,7 +4354,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="success"
           >
             Block level button
           </cbutton-stub>
@@ -4361,6 +4361,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -4368,7 +4369,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="info"
           >
             Block level button
           </cbutton-stub>
@@ -4376,6 +4376,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="warning"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -4383,7 +4384,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="warning"
           >
             Block level button
           </cbutton-stub>
@@ -4391,6 +4391,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="danger"
             event="click"
             exactactiveclass="active"
             outline="true"
@@ -4398,7 +4399,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="danger"
           >
             Block level button
           </cbutton-stub>
@@ -4406,6 +4406,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             block="true"
+            color="info"
             event="click"
             exactactiveclass="active"
             ghost="true"
@@ -4413,7 +4414,6 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             size="lg"
             target="_self"
             type="button"
-            variant="info"
           >
             Block level button
           </cbutton-stub>

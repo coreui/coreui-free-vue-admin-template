@@ -22,14 +22,14 @@ exports[`Switches.vue renders correctly 1`] = `
           <cbadge-stub
             activeclass="active"
             class="mr-auto"
+            color="warning"
             event="click"
             exactactiveclass="active"
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
-            primary
+            warning
           </cbadge-stub>
            
           <div
@@ -55,8 +55,8 @@ exports[`Switches.vue renders correctly 1`] = `
           titletag="h4"
         >
           <cswitch-stub
-            checked="primary"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -64,11 +64,10 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="primary"
-            variant="primary"
           />
           <cswitch-stub
-            checked="primary"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -76,11 +75,11 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="secondary"
-            variant="secondary"
           />
           <cswitch-stub
-            checked="primary"
+            checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -88,11 +87,10 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="warning"
-            variant="warning"
           />
           <cswitch-stub
-            checked="primary"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -100,11 +98,10 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="success"
-            variant="success"
           />
           <cswitch-stub
-            checked="primary"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -112,11 +109,10 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="info"
-            variant="info"
           />
           <cswitch-stub
-            checked="primary"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -124,11 +120,10 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="danger"
-            variant="danger"
           />
           <cswitch-stub
-            checked="primary"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -136,11 +131,10 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="light"
-            variant="light"
           />
           <cswitch-stub
-            checked="primary"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             name="radio"
@@ -148,7 +142,6 @@ exports[`Switches.vue renders correctly 1`] = `
             shape="3d"
             type="radio"
             value="dark"
-            variant="dark"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -174,14 +167,14 @@ exports[`Switches.vue renders correctly 1`] = `
           
           <cbadge-stub
             activeclass="active"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             tag="span"
             target="_self"
-            variant="primary"
           >
-            yes
+            true
           </cbadge-stub>
         </ccardheader-stub>
          
@@ -190,63 +183,61 @@ exports[`Switches.vue renders correctly 1`] = `
           titletag="h4"
         >
           <cswitch-stub
-            checked="yes"
+            checked="true"
             class="mx-1"
-            falsevalue="no"
+            color="primary"
             name="switch1"
-            truevalue="yes"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             type="checkbox"
-            variant="secondary"
           />
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             type="checkbox"
-            variant="success"
           />
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             type="checkbox"
-            variant="warning"
           />
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             type="checkbox"
-            variant="info"
           />
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             type="checkbox"
-            variant="danger"
           />
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             type="checkbox"
-            variant="light"
           />
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -277,73 +268,73 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -374,73 +365,73 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             shape="3d"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             shape="3d"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             shape="3d"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             shape="3d"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             shape="3d"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             shape="3d"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             shape="3d"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -475,81 +466,81 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -584,82 +575,82 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -694,91 +685,91 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -813,100 +804,100 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -941,82 +932,82 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="alt"
             shape="3d"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1051,73 +1042,73 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="true"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="true"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="true"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="true"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="true"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="true"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="true"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="true"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="true"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1152,82 +1143,82 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1262,73 +1253,73 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="alt"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="alt"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="alt"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="alt"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="alt"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="alt"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="alt"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="alt"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="alt"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1363,82 +1354,82 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1473,64 +1464,64 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1565,73 +1556,73 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1666,73 +1657,73 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="true"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="true"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="true"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="true"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="true"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="true"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="true"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="true"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="true"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1767,82 +1758,82 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1877,73 +1868,73 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="alt"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="alt"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="alt"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="alt"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="alt"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="alt"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="alt"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="alt"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="alt"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -1978,82 +1969,82 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -2088,82 +2079,82 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -2200,91 +2191,91 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -2319,91 +2310,91 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             outline="true"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -2438,100 +2429,100 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             outline="true"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -2566,91 +2557,91 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             outline="alt"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>
@@ -2685,100 +2676,100 @@ exports[`Switches.vue renders correctly 1`] = `
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="primary"
             labeloff="no"
             labelon="yes"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="secondary"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="secondary"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="success"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="success"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="warning"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="warning"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="info"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="info"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="danger"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="danger"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="light"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="light"
           />
            
           <cswitch-stub
             checked="true"
             class="mx-1"
+            color="dark"
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="dark"
           />
            
           <cswitch-stub
             class="mx-1"
+            color="primary"
             disabled=""
             labeloff="✕"
             labelon="✓"
             outline="alt"
             shape="pill"
             type="checkbox"
-            variant="primary"
           />
         </ccardbody-stub>
       </ccard-stub>

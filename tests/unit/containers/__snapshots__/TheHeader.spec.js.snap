@@ -3,11 +3,12 @@
 exports[`TheHeader.vue renders correctly 1`] = `
 <cheader-stub
   fixed="true"
-  light=""
-  with-subheader=""
+  light="true"
+  withsubheader="true"
 >
-  <csidebartoggler-stub
+  <ctoggler
     class="c-header-toggler ml-3"
+    in-header=""
   />
    
   <img
@@ -18,60 +19,96 @@ exports[`TheHeader.vue renders correctly 1`] = `
     width="97"
   />
    
-  <ul
-    class="c-header-nav d-md-down-none mr-auto"
+  <cheadernav
+    class="d-md-down-none mr-auto"
   >
-    <cheadernavitem
+    <cheadernavitem-stub
+      activeclass="active"
       class="px-3"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      tag="span"
+      target="_self"
       to="/dashboard"
     >
       Dashboard
-    </cheadernavitem>
+    </cheadernavitem-stub>
      
-    <cheadernavitem
+    <cheadernavitem-stub
+      activeclass="active"
       class="px-3"
-      exact=""
+      event="click"
+      exact="true"
+      exactactiveclass="active"
+      routertag="a"
+      tag="span"
+      target="_self"
       to="/users"
     >
       Users
-    </cheadernavitem>
+    </cheadernavitem-stub>
      
-    <cheadernavitem
+    <cheadernavitem-stub
+      activeclass="active"
       class="px-3"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      tag="span"
+      target="_self"
     >
       Settings
-    </cheadernavitem>
-  </ul>
+    </cheadernavitem-stub>
+  </cheadernav>
    
-  <ul
-    class="c-header-nav mr-4"
+  <cheadernav
+    class="mr-4"
   >
-    <cheadernavitem
+    <cheadernavitem-stub
+      activeclass="active"
       class="d-md-down-none mx-2"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      tag="span"
+      target="_self"
     >
       <i
         class="cui-bell"
       />
-    </cheadernavitem>
+    </cheadernavitem-stub>
      
-    <cheadernavitem
+    <cheadernavitem-stub
+      activeclass="active"
       class="d-md-down-none mx-2"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      tag="span"
+      target="_self"
     >
       <i
         class="cui-list"
       />
-    </cheadernavitem>
+    </cheadernavitem-stub>
      
-    <cheadernavitem
+    <cheadernavitem-stub
+      activeclass="active"
       class="d-md-down-none mx-2"
+      event="click"
+      exactactiveclass="active"
+      routertag="a"
+      tag="span"
+      target="_self"
     >
       <i
         class="cui-envelope-open"
       />
-    </cheadernavitem>
+    </cheadernavitem-stub>
      
     <theheaderdropdownaccnt-stub />
-  </ul>
+  </cheadernav>
    
   <div
     class="c-subheader px-3"

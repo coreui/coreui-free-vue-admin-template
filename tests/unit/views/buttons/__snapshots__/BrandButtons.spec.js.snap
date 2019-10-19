@@ -46,7 +46,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
         </small>
          
         <code>
-          &lt;CButton variant="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;
+          &lt;CButton color="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;
         </code>
          
         <hr />
@@ -65,12 +65,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-sm"
+            class="btn btn-sm"
+            color="facebook"
             name="facebook"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -84,12 +85,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter btn-sm"
+            class="btn btn-sm"
+            color="twitter"
             name="twitter"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -103,12 +105,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin btn-sm"
+            class="btn btn-sm"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -122,12 +125,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr btn-sm"
+            class="btn btn-sm"
+            color="flickr"
             name="flickr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -141,12 +145,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr btn-sm"
+            class="btn btn-sm"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 320 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -160,12 +165,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing btn-sm"
+            class="btn btn-sm"
+            color="xing"
             name="xing"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -179,12 +185,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github btn-sm"
+            class="btn btn-sm"
+            color="github"
             name="github"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -198,12 +205,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-sm"
+            class="btn btn-sm"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -217,12 +225,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube btn-sm"
+            class="btn btn-sm"
+            color="youtube"
             name="youtube"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -236,12 +245,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble btn-sm"
+            class="btn btn-sm"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -255,12 +265,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram btn-sm"
+            class="btn btn-sm"
+            color="instagram"
             name="instagram"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -274,12 +285,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest btn-sm"
+            class="btn btn-sm"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -293,12 +305,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk btn-sm"
+            class="btn btn-sm"
+            color="vk"
             name="vk"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -312,12 +325,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo btn-sm"
+            class="btn btn-sm"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -331,12 +345,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance btn-sm"
+            class="btn btn-sm"
+            color="behance"
             name="behance"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -350,12 +365,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit btn-sm"
+            class="btn btn-sm"
+            color="reddit"
             name="reddit"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -369,12 +385,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo btn-sm"
+            class="btn btn-sm"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -395,12 +412,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook"
+            class="btn"
+            color="facebook"
             name="facebook"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -414,12 +432,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter"
+            class="btn"
+            color="twitter"
             name="twitter"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -433,12 +452,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin"
+            class="btn"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -452,12 +472,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr"
+            class="btn"
+            color="flickr"
             name="flickr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -471,12 +492,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr"
+            class="btn"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 320 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -490,12 +512,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing"
+            class="btn"
+            color="xing"
             name="xing"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -509,12 +532,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github"
+            class="btn"
+            color="github"
             name="github"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -528,12 +552,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow"
+            class="btn"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -547,12 +572,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube"
+            class="btn"
+            color="youtube"
             name="youtube"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -566,12 +592,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble"
+            class="btn"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -585,12 +612,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram"
+            class="btn"
+            color="instagram"
             name="instagram"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -604,12 +632,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest"
+            class="btn"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -623,12 +652,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk"
+            class="btn"
+            color="vk"
             name="vk"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -642,12 +672,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo"
+            class="btn"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -661,12 +692,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance"
+            class="btn"
+            color="behance"
             name="behance"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -680,12 +712,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit"
+            class="btn"
+            color="reddit"
             name="reddit"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -699,12 +732,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo"
+            class="btn"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -731,12 +765,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-lg"
+            class="btn btn-lg"
+            color="facebook"
             name="facebook"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -750,12 +785,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter btn-lg"
+            class="btn btn-lg"
+            color="twitter"
             name="twitter"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -769,12 +805,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin btn-lg"
+            class="btn btn-lg"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -788,12 +825,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr btn-lg"
+            class="btn btn-lg"
+            color="flickr"
             name="flickr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -807,12 +845,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr btn-lg"
+            class="btn btn-lg"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 320 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -826,12 +865,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing btn-lg"
+            class="btn btn-lg"
+            color="xing"
             name="xing"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -845,12 +885,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github btn-lg"
+            class="btn btn-lg"
+            color="github"
             name="github"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -864,12 +905,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-lg"
+            class="btn btn-lg"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -883,12 +925,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube btn-lg"
+            class="btn btn-lg"
+            color="youtube"
             name="youtube"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -902,12 +945,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble btn-lg"
+            class="btn btn-lg"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -921,12 +965,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram btn-lg"
+            class="btn btn-lg"
+            color="instagram"
             name="instagram"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -940,12 +985,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest btn-lg"
+            class="btn btn-lg"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -959,12 +1005,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk btn-lg"
+            class="btn btn-lg"
+            color="vk"
             name="vk"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -978,12 +1025,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo btn-lg"
+            class="btn btn-lg"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -997,12 +1045,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance btn-lg"
+            class="btn btn-lg"
+            color="behance"
             name="behance"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1016,12 +1065,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit btn-lg"
+            class="btn btn-lg"
+            color="reddit"
             name="reddit"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1035,12 +1085,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo btn-lg"
+            class="btn btn-lg"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1088,7 +1139,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
         </small>
          
         <code>
-          &lt;CButton variant="facebook"&gt;&lt;CIcon name="facebook"/&gt;&lt;/CButton&gt;
+          &lt;CButton color="facebook"&gt;&lt;CIcon name="facebook"/&gt;&lt;/CButton&gt;
         </code>
          
         <hr />
@@ -1105,12 +1156,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-sm"
+            class="btn btn-sm"
+            color="facebook"
             name="facebook"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1120,12 +1172,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-twitter btn-sm"
+            class="btn btn-sm"
+            color="twitter"
             name="twitter"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1135,12 +1188,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-linkedin btn-sm"
+            class="btn btn-sm"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1150,12 +1204,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-flickr btn-sm"
+            class="btn btn-sm"
+            color="flickr"
             name="flickr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1165,12 +1220,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-tumblr btn-sm"
+            class="btn btn-sm"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 320 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1180,12 +1236,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-xing btn-sm"
+            class="btn btn-sm"
+            color="xing"
             name="xing"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1195,12 +1252,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-github btn-sm"
+            class="btn btn-sm"
+            color="github"
             name="github"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1210,12 +1268,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-stack-overflow btn-sm"
+            class="btn btn-sm"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1225,12 +1284,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-youtube btn-sm"
+            class="btn btn-sm"
+            color="youtube"
             name="youtube"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1240,12 +1300,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-dribbble btn-sm"
+            class="btn btn-sm"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1255,12 +1316,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-instagram btn-sm"
+            class="btn btn-sm"
+            color="instagram"
             name="instagram"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1270,12 +1332,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-pinterest btn-sm"
+            class="btn btn-sm"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1285,12 +1348,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-vk btn-sm"
+            class="btn btn-sm"
+            color="vk"
             name="vk"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1300,12 +1364,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-yahoo btn-sm"
+            class="btn btn-sm"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1315,12 +1380,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-behance btn-sm"
+            class="btn btn-sm"
+            color="behance"
             name="behance"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1330,12 +1396,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-reddit btn-sm"
+            class="btn btn-sm"
+            color="reddit"
             name="reddit"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1345,12 +1412,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-vimeo btn-sm"
+            class="btn btn-sm"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-sm"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1367,12 +1435,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook"
+            class="btn"
+            color="facebook"
             name="facebook"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1382,12 +1451,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-twitter"
+            class="btn"
+            color="twitter"
             name="twitter"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1397,12 +1467,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-linkedin"
+            class="btn"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1412,12 +1483,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-flickr"
+            class="btn"
+            color="flickr"
             name="flickr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1427,12 +1499,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-tumblr"
+            class="btn"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 320 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1442,12 +1515,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-xing"
+            class="btn"
+            color="xing"
             name="xing"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1457,12 +1531,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-github"
+            class="btn"
+            color="github"
             name="github"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1472,12 +1547,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-stack-overflow"
+            class="btn"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1487,12 +1563,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-youtube"
+            class="btn"
+            color="youtube"
             name="youtube"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1502,12 +1579,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-dribbble"
+            class="btn"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1517,12 +1595,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-instagram"
+            class="btn"
+            color="instagram"
             name="instagram"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1532,12 +1611,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-pinterest"
+            class="btn"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1547,12 +1627,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-vk"
+            class="btn"
+            color="vk"
             name="vk"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1562,12 +1643,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-yahoo"
+            class="btn"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1577,12 +1659,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-behance"
+            class="btn"
+            color="behance"
             name="behance"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1592,12 +1675,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-reddit"
+            class="btn"
+            color="reddit"
             name="reddit"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1607,12 +1691,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-vimeo"
+            class="btn"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-undefined"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1635,12 +1720,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-lg"
+            class="btn btn-lg"
+            color="facebook"
             name="facebook"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1650,12 +1736,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-twitter btn-lg"
+            class="btn btn-lg"
+            color="twitter"
             name="twitter"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1665,12 +1752,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-linkedin btn-lg"
+            class="btn btn-lg"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1680,12 +1768,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-flickr btn-lg"
+            class="btn btn-lg"
+            color="flickr"
             name="flickr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1695,12 +1784,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-tumblr btn-lg"
+            class="btn btn-lg"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 320 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1710,12 +1800,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-xing btn-lg"
+            class="btn btn-lg"
+            color="xing"
             name="xing"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1725,12 +1816,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-github btn-lg"
+            class="btn btn-lg"
+            color="github"
             name="github"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1740,12 +1832,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-stack-overflow btn-lg"
+            class="btn btn-lg"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 384 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1755,12 +1848,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-youtube btn-lg"
+            class="btn btn-lg"
+            color="youtube"
             name="youtube"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1770,12 +1864,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-dribbble btn-lg"
+            class="btn btn-lg"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1785,12 +1880,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-instagram btn-lg"
+            class="btn btn-lg"
+            color="instagram"
             name="instagram"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1800,12 +1896,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-pinterest btn-lg"
+            class="btn btn-lg"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 496 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1815,12 +1912,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-vk btn-lg"
+            class="btn btn-lg"
+            color="vk"
             name="vk"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1830,12 +1928,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-yahoo btn-lg"
+            class="btn btn-lg"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1845,12 +1944,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-behance btn-lg"
+            class="btn btn-lg"
+            color="behance"
             name="behance"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 576 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1860,12 +1960,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-reddit btn-lg"
+            class="btn btn-lg"
+            color="reddit"
             name="reddit"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1875,12 +1976,13 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-vimeo btn-lg"
+            class="btn btn-lg"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
             <svg
-              style="fill: currentColor;"
+              class="c-icon c-icon-lg"
               viewBox="0 0 448 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1925,7 +2027,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <code>
           
-          &lt;CButton variant="facebook"&gt;&lt;CIcon name="facebook"/&gt;&lt;/CButton&gt;
+          &lt;CButton color="facebook"&gt;&lt;CIcon name="facebook"/&gt;&lt;/CButton&gt;
         
         </code>
          
@@ -1943,7 +2045,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-sm"
+            class="btn btn-sm"
+            color="facebook"
             name="facebook"
             type="button"
           >
@@ -1952,7 +2055,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter btn-sm"
+            class="btn btn-sm"
+            color="twitter"
             name="twitter"
             type="button"
           >
@@ -1961,7 +2065,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin btn-sm"
+            class="btn btn-sm"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
@@ -1970,7 +2075,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr btn-sm"
+            class="btn btn-sm"
+            color="flickr"
             name="flickr"
             type="button"
           >
@@ -1979,7 +2085,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr btn-sm"
+            class="btn btn-sm"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
@@ -1988,7 +2095,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing btn-sm"
+            class="btn btn-sm"
+            color="xing"
             name="xing"
             type="button"
           >
@@ -1997,7 +2105,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github btn-sm"
+            class="btn btn-sm"
+            color="github"
             name="github"
             type="button"
           >
@@ -2006,7 +2115,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-sm"
+            class="btn btn-sm"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
@@ -2015,7 +2125,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube btn-sm"
+            class="btn btn-sm"
+            color="youtube"
             name="youtube"
             type="button"
           >
@@ -2024,7 +2135,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble btn-sm"
+            class="btn btn-sm"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
@@ -2033,7 +2145,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram btn-sm"
+            class="btn btn-sm"
+            color="instagram"
             name="instagram"
             type="button"
           >
@@ -2042,7 +2155,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest btn-sm"
+            class="btn btn-sm"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
@@ -2051,7 +2165,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk btn-sm"
+            class="btn btn-sm"
+            color="vk"
             name="vk"
             type="button"
           >
@@ -2060,7 +2175,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo btn-sm"
+            class="btn btn-sm"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
@@ -2069,7 +2185,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance btn-sm"
+            class="btn btn-sm"
+            color="behance"
             name="behance"
             type="button"
           >
@@ -2078,7 +2195,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit btn-sm"
+            class="btn btn-sm"
+            color="reddit"
             name="reddit"
             type="button"
           >
@@ -2087,7 +2205,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo btn-sm"
+            class="btn btn-sm"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
@@ -2103,7 +2222,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook"
+            class="btn"
+            color="facebook"
             name="facebook"
             type="button"
           >
@@ -2112,7 +2232,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter"
+            class="btn"
+            color="twitter"
             name="twitter"
             type="button"
           >
@@ -2121,7 +2242,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin"
+            class="btn"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
@@ -2130,7 +2252,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr"
+            class="btn"
+            color="flickr"
             name="flickr"
             type="button"
           >
@@ -2139,7 +2262,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr"
+            class="btn"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
@@ -2148,7 +2272,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing"
+            class="btn"
+            color="xing"
             name="xing"
             type="button"
           >
@@ -2157,7 +2282,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github"
+            class="btn"
+            color="github"
             name="github"
             type="button"
           >
@@ -2166,7 +2292,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow"
+            class="btn"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
@@ -2175,7 +2302,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube"
+            class="btn"
+            color="youtube"
             name="youtube"
             type="button"
           >
@@ -2184,7 +2312,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble"
+            class="btn"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
@@ -2193,7 +2322,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram"
+            class="btn"
+            color="instagram"
             name="instagram"
             type="button"
           >
@@ -2202,7 +2332,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest"
+            class="btn"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
@@ -2211,7 +2342,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk"
+            class="btn"
+            color="vk"
             name="vk"
             type="button"
           >
@@ -2220,7 +2352,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo"
+            class="btn"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
@@ -2229,7 +2362,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance"
+            class="btn"
+            color="behance"
             name="behance"
             type="button"
           >
@@ -2238,7 +2372,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit"
+            class="btn"
+            color="reddit"
             name="reddit"
             type="button"
           >
@@ -2247,7 +2382,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo"
+            class="btn"
+            color="vimeo"
             name="vimeo"
             type="button"
           >
@@ -2269,7 +2405,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-lg"
+            class="btn btn-lg"
+            color="facebook"
             name="facebook"
             type="button"
           >
@@ -2278,7 +2415,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter btn-lg"
+            class="btn btn-lg"
+            color="twitter"
             name="twitter"
             type="button"
           >
@@ -2287,7 +2425,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin btn-lg"
+            class="btn btn-lg"
+            color="linkedin"
             name="linkedin"
             type="button"
           >
@@ -2296,7 +2435,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr btn-lg"
+            class="btn btn-lg"
+            color="flickr"
             name="flickr"
             type="button"
           >
@@ -2305,7 +2445,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr btn-lg"
+            class="btn btn-lg"
+            color="tumblr"
             name="tumblr"
             type="button"
           >
@@ -2314,7 +2455,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing btn-lg"
+            class="btn btn-lg"
+            color="xing"
             name="xing"
             type="button"
           >
@@ -2323,7 +2465,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github btn-lg"
+            class="btn btn-lg"
+            color="github"
             name="github"
             type="button"
           >
@@ -2332,7 +2475,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-lg"
+            class="btn btn-lg"
+            color="stack-overflow"
             name="stack-overflow"
             type="button"
           >
@@ -2341,7 +2485,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube btn-lg"
+            class="btn btn-lg"
+            color="youtube"
             name="youtube"
             type="button"
           >
@@ -2350,7 +2495,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble btn-lg"
+            class="btn btn-lg"
+            color="dribbble"
             name="dribbble"
             type="button"
           >
@@ -2359,7 +2505,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram btn-lg"
+            class="btn btn-lg"
+            color="instagram"
             name="instagram"
             type="button"
           >
@@ -2368,7 +2515,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest btn-lg"
+            class="btn btn-lg"
+            color="pinterest"
             name="pinterest"
             type="button"
           >
@@ -2377,7 +2525,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk btn-lg"
+            class="btn btn-lg"
+            color="vk"
             name="vk"
             type="button"
           >
@@ -2386,7 +2535,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo btn-lg"
+            class="btn btn-lg"
+            color="yahoo"
             name="yahoo"
             type="button"
           >
@@ -2395,7 +2545,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance btn-lg"
+            class="btn btn-lg"
+            color="behance"
             name="behance"
             type="button"
           >
@@ -2404,7 +2555,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit btn-lg"
+            class="btn btn-lg"
+            color="reddit"
             name="reddit"
             type="button"
           >
@@ -2413,7 +2565,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo btn-lg"
+            class="btn btn-lg"
+            color="vimeo"
             name="vimeo"
             type="button"
           >

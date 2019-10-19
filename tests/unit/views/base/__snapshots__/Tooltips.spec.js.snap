@@ -57,12 +57,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               
               Hover Me
@@ -80,12 +80,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               
               Hover me
@@ -103,12 +103,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="secondary"
             >
               
               Click me
@@ -156,12 +156,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               top-start
@@ -175,12 +175,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               top
@@ -194,12 +194,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               top-end
@@ -213,12 +213,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               bottom-start
@@ -232,12 +232,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               bottom
@@ -251,12 +251,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               bottom-end
@@ -270,12 +270,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               right-start
@@ -289,12 +289,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               right
@@ -308,12 +308,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               right-end
@@ -327,12 +327,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               left-start
@@ -346,12 +346,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               left
@@ -365,12 +365,12 @@ exports[`Tooltips.vue renders correctly 1`] = `
           >
             <cbutton-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               target="_self"
               type="button"
-              variant="primary"
             >
               
               left-end

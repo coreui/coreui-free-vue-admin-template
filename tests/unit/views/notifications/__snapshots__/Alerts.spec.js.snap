@@ -49,57 +49,57 @@ exports[`Alerts.vue renders correctly 1`] = `
           <p />
            
           <calert-stub
+            color="primary"
             show="true"
-            variant="primary"
           >
             Primary Alert
           </calert-stub>
            
           <calert-stub
+            color="secondary"
             show="true"
-            variant="secondary"
           >
             Secondary Alert
           </calert-stub>
            
           <calert-stub
+            color="success"
             show="true"
-            variant="success"
           >
             Success Alert
           </calert-stub>
            
           <calert-stub
+            color="danger"
             show="true"
-            variant="danger"
           >
             Danger Alert
           </calert-stub>
            
           <calert-stub
+            color="warning"
             show="true"
-            variant="warning"
           >
             Warning Alert
           </calert-stub>
            
           <calert-stub
+            color="info"
             show="true"
-            variant="info"
           >
             Info Alert
           </calert-stub>
            
           <calert-stub
+            color="light"
             show="true"
-            variant="light"
           >
             Light Alert
           </calert-stub>
            
           <calert-stub
+            color="dark"
             show="true"
-            variant="dark"
           >
             Dark Alert
           </calert-stub>
@@ -141,8 +141,8 @@ exports[`Alerts.vue renders correctly 1`] = `
       >
         <div>
           <calert-stub
+            color="primary"
             show="true"
-            variant="primary"
           >
             
             Primary Alert with 
@@ -157,8 +157,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <calert-stub
+            color="secondary"
             show="true"
-            variant="secondary"
           >
             
             Secondary Alert with 
@@ -173,8 +173,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <calert-stub
+            color="success"
             show="true"
-            variant="success"
           >
             
             Success Alert with 
@@ -189,8 +189,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <calert-stub
+            color="danger"
             show="true"
-            variant="danger"
           >
             
             Danger Alert with 
@@ -205,8 +205,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <calert-stub
+            color="warning"
             show="true"
-            variant="warning"
           >
             
             Warning Alert with 
@@ -221,8 +221,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <calert-stub
+            color="info"
             show="true"
-            variant="info"
           >
             
             Info Alert with 
@@ -237,8 +237,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <calert-stub
+            color="light"
             show="true"
-            variant="light"
           >
             
             Light Alert with 
@@ -253,8 +253,8 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <calert-stub
+            color="dark"
             show="true"
-            variant="dark"
           >
             
             Dark Alert with
@@ -307,8 +307,8 @@ exports[`Alerts.vue renders correctly 1`] = `
         titletag="h4"
       >
         <calert-stub
+          color="success"
           show="true"
-          variant="success"
         >
           <h4
             class="alert-heading"
@@ -367,8 +367,8 @@ exports[`Alerts.vue renders correctly 1`] = `
       >
         <calert-stub
           closebutton="true"
+          color="secondary"
           show="true"
-          variant="secondary"
         >
           
           Dismissible Alert!
@@ -377,9 +377,9 @@ exports[`Alerts.vue renders correctly 1`] = `
          
         <calert-stub
           closebutton="true"
+          color="secondary"
           fade="true"
           show="true"
-          variant="secondary"
         >
           
           Dismissible Alert with fade effect!
@@ -388,19 +388,19 @@ exports[`Alerts.vue renders correctly 1`] = `
          
         <calert-stub
           class="alert-dismissible"
+          color="secondary"
           show="true"
-          variant="secondary"
         />
          
         <cbutton-stub
           activeclass="active"
           class="m-1"
+          color="info"
           event="click"
           exactactiveclass="active"
           routertag="a"
           target="_self"
           type="button"
-          variant="info"
         >
           
           Show dismissible alerts
@@ -434,9 +434,9 @@ exports[`Alerts.vue renders correctly 1`] = `
         <div>
           <calert-stub
             closebutton="true"
+            color="warning"
             fade="true"
             show="10"
-            variant="warning"
           >
             
             Alert will dismiss after
@@ -450,30 +450,30 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             closebutton="true"
+            color="info"
             show="10"
-            variant="info"
           >
             
             Alert will dismiss after 10 seconds...
             
             <cprogress-stub
+              color="info"
               height="4px"
               max="10"
               precision="0"
               value="10"
-              variant="info"
             />
           </calert-stub>
            
           <cbutton-stub
             activeclass="active"
             class="m-1"
+            color="info"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="info"
           >
             
             Show alert with timer

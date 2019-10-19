@@ -44,7 +44,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         animated="true"
         max="100"
         precision="0"
-        showprogress="true"
+        show-percentage=""
         value="73"
       />
        
@@ -56,36 +56,36 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         value="0"
       >
         <cprogressbar-stub
+          color="success"
           max="100"
           precision="0"
           value="43.8"
-          variant="success"
         />
          
         <cprogressbar-stub
+          color="warning"
           max="100"
           precision="0"
           value="18.25"
-          variant="warning"
         />
          
         <cprogressbar-stub
+          color="danger"
           max="100"
           precision="0"
           value="10.95"
-          variant="danger"
         />
       </cprogress-stub>
        
       <cbutton-stub
         activeclass="active"
         class="mt-4"
+        color="secondary"
         event="click"
         exactactiveclass="active"
         routertag="a"
         target="_self"
         type="button"
-        variant="secondary"
       >
         
         Click me to animate progress bars
@@ -149,7 +149,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="50"
         precision="0"
-        showprogress="true"
+        show-percentage=""
         value="33.333333333"
       />
        
@@ -173,7 +173,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="50"
         precision="2"
-        showprogress="true"
+        show-percentage=""
         value="33.333333333"
       />
     </ccardbody-stub>
@@ -275,7 +275,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="100"
         precision="0"
-        showprogress="true"
+        show-percentage=""
         value="75"
       />
        
@@ -288,7 +288,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         height="2rem"
         max="100"
         precision="0"
-        showprogress="true"
+        show-percentage=""
         value="75"
       />
        
@@ -297,7 +297,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         height="20px"
         max="100"
         precision="0"
-        showprogress="true"
+        show-percentage=""
         value="75"
       />
        
@@ -327,7 +327,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </strong>
        
       <small>
-        variants
+        colors
       </small>
     </ccardheader-stub>
      
@@ -348,10 +348,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="col-sm-10 pt-1"
         >
           <cprogress-stub
+            color="success"
             max="100"
             precision="0"
             value="75"
-            variant="success"
           />
         </div>
       </div>
@@ -368,10 +368,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="col-sm-10 pt-1"
         >
           <cprogress-stub
+            color="info"
             max="100"
             precision="0"
             value="75"
-            variant="info"
           />
         </div>
       </div>
@@ -388,10 +388,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="col-sm-10 pt-1"
         >
           <cprogress-stub
+            color="warning"
             max="100"
             precision="0"
             value="75"
-            variant="warning"
           />
         </div>
       </div>
@@ -408,10 +408,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="col-sm-10 pt-1"
         >
           <cprogress-stub
+            color="danger"
             max="100"
             precision="0"
             value="75"
-            variant="danger"
           />
         </div>
       </div>
@@ -428,10 +428,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="col-sm-10 pt-1"
         >
           <cprogress-stub
+            color="primary"
             max="100"
             precision="0"
             value="75"
-            variant="primary"
           />
         </div>
       </div>
@@ -448,10 +448,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="col-sm-10 pt-1"
         >
           <cprogress-stub
+            color="secondary"
             max="100"
             precision="0"
             value="75"
-            variant="secondary"
           />
         </div>
       </div>
@@ -468,10 +468,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           class="col-sm-10 pt-1"
         >
           <cprogress-stub
+            color="dark"
             max="100"
             precision="0"
             value="75"
-            variant="dark"
           />
         </div>
       </div>
@@ -505,48 +505,48 @@ exports[`ProgressBars.vue renders correctly 1`] = `
     >
       <cprogress-stub
         class="mb-2"
+        color="success"
         max="100"
         precision="0"
         striped="true"
         value="25"
-        variant="success"
       />
        
       <cprogress-stub
         class="mb-2"
+        color="info"
         max="100"
         precision="0"
         striped="true"
         value="50"
-        variant="info"
       />
        
       <cprogress-stub
         class="mb-2"
+        color="warning"
         max="100"
         precision="0"
         striped="true"
         value="75"
-        variant="warning"
       />
        
       <cprogress-stub
         class="mb-2"
+        color="danger"
         max="100"
         precision="0"
         striped="true"
         value="100"
-        variant="danger"
       />
        
       <cbutton-stub
         activeclass="active"
+        color="secondary"
         event="click"
         exactactiveclass="active"
         routertag="a"
         target="_self"
         type="button"
-        variant="secondary"
       >
         
         Remove Striped
@@ -583,50 +583,50 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       <cprogress-stub
         animated="true"
         class="mb-2"
+        color="success"
         max="100"
         precision="0"
         striped="true"
         value="25"
-        variant="success"
       />
        
       <cprogress-stub
         animated="true"
         class="mb-2"
+        color="info"
         max="100"
         precision="0"
         striped="true"
         value="50"
-        variant="info"
       />
        
       <cprogress-stub
         animated="true"
         class="mb-2"
+        color="warning"
         max="100"
         precision="0"
         striped="true"
         value="75"
-        variant="warning"
       />
        
       <cprogress-stub
         animated="true"
         class="mb-3"
+        color="danger"
         max="100"
         precision="0"
         value="100"
-        variant="danger"
       />
        
       <cbutton-stub
         activeclass="active"
+        color="secondary"
         event="click"
         exactactiveclass="active"
         routertag="a"
         target="_self"
         type="button"
-        variant="secondary"
       >
         
         Stop Animation
@@ -667,24 +667,24 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         value="0"
       >
         <cprogressbar-stub
+          color="primary"
           max="100"
           precision="0"
           value="15"
-          variant="primary"
         />
          
         <cprogressbar-stub
+          color="success"
           max="100"
           precision="0"
           value="30"
-          variant="success"
         />
          
         <cprogressbar-stub
+          color="info"
           max="100"
           precision="0"
           value="20"
-          variant="info"
         />
       </cprogress-stub>
        
@@ -692,28 +692,28 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="100"
         precision="0"
-        showprogress="true"
+        show-percentage=""
         value="0"
       >
         <cprogressbar-stub
+          color="primary"
           max="100"
           precision="0"
           value="15"
-          variant="primary"
         />
          
         <cprogressbar-stub
+          color="success"
           max="100"
           precision="0"
           value="30"
-          variant="success"
         />
          
         <cprogressbar-stub
+          color="info"
           max="100"
           precision="0"
           value="20"
-          variant="info"
         />
       </cprogress-stub>
        
@@ -726,24 +726,24 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         value="0"
       >
         <cprogressbar-stub
+          color="primary"
           max="100"
           precision="0"
           value="15"
-          variant="primary"
         />
          
         <cprogressbar-stub
+          color="success"
           max="100"
           precision="0"
           value="30"
-          variant="success"
         />
          
         <cprogressbar-stub
+          color="info"
           max="100"
           precision="0"
           value="20"
-          variant="info"
         />
       </cprogress-stub>
        
@@ -754,29 +754,29 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         value="0"
       >
         <cprogressbar-stub
+          color="primary"
           max="100"
           precision="0"
-          showprogress="true"
+          show-percentage=""
           value="15"
-          variant="primary"
         />
          
         <cprogressbar-stub
           animated="true"
+          color="success"
           max="100"
           precision="0"
-          showprogress="true"
+          show-percentage=""
           value="30"
-          variant="success"
         />
          
         <cprogressbar-stub
+          color="info"
           max="100"
           precision="0"
-          showprogress="true"
+          show-percentage=""
           striped="true"
           value="20"
-          variant="info"
         />
       </cprogress-stub>
     </ccardbody-stub>

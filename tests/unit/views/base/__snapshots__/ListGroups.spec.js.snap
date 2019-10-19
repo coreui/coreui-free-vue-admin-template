@@ -507,13 +507,13 @@ exports[`ListGroups.vue renders correctly 1`] = `
               
               <cbadge-stub
                 activeclass="active"
+                color="primary"
                 event="click"
                 exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 14
               </cbadge-stub>
@@ -533,13 +533,13 @@ exports[`ListGroups.vue renders correctly 1`] = `
               
               <cbadge-stub
                 activeclass="active"
+                color="primary"
                 event="click"
                 exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 2
               </cbadge-stub>
@@ -559,13 +559,13 @@ exports[`ListGroups.vue renders correctly 1`] = `
               
               <cbadge-stub
                 activeclass="active"
+                color="primary"
                 event="click"
                 exactactiveclass="active"
                 pill="true"
                 routertag="a"
                 tag="span"
                 target="_self"
-                variant="primary"
               >
                 1
               </cbadge-stub>
@@ -598,7 +598,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </strong>
            
           <small>
-            variants
+            colors
           </small>
         </ccardheader-stub>
          
@@ -622,96 +622,96 @@ exports[`ListGroups.vue renders correctly 1`] = `
              
             <clistgroupitem-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="primary"
             >
               This is a primary list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="secondary"
             >
               This is a secondary list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="success"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="success"
             >
               This is a success list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="danger"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="danger"
             >
               This is a danger list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="warning"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="warning"
             >
               This is a warning list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="info"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="info"
             >
               This is a info list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="light"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="light"
             >
               This is a light list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="dark"
               event="click"
               exactactiveclass="active"
               routertag="a"
               tag="div"
               target="_self"
-              variant="dark"
             >
               This is a dark list group item
             </clistgroupitem-stub>
@@ -741,7 +741,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </strong>
            
           <small>
-            variants active
+            colors active
           </small>
         </ccardheader-stub>
          
@@ -766,104 +766,104 @@ exports[`ListGroups.vue renders correctly 1`] = `
              
             <clistgroupitem-stub
               activeclass="active"
+              color="primary"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="primary"
             >
               This is a primary list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="secondary"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="secondary"
             >
               This is a secondary list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="success"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="success"
             >
               This is a success list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="danger"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="danger"
             >
               This is a danger list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="warning"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="warning"
             >
               This is a warning list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="info"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="info"
             >
               This is a info list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="light"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="light"
             >
               This is a light list group item
             </clistgroupitem-stub>
              
             <clistgroupitem-stub
               activeclass="active"
+              color="dark"
               event="click"
               exactactiveclass="active"
               href="#"
               routertag="a"
               tag="div"
               target="_self"
-              variant="dark"
             >
               This is a dark list group item
             </clistgroupitem-stub>

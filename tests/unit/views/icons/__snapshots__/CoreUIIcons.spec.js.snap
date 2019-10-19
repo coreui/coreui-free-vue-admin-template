@@ -17,12 +17,12 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
       
       <cbadge-stub
         activeclass="active"
+        color="info"
         event="click"
         exactactiveclass="active"
         routertag="a"
         tag="span"
         target="_self"
-        variant="info"
       >
         New
       </cbadge-stub>

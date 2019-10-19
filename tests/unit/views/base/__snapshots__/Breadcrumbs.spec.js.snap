@@ -55,11 +55,8 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class=""
               href="#"
               target="_self"
-            >
-              <b>
-                Admin
-              </b>
-            </a>
+              text=<b>Admin</b>
+            />
           </li>
           <li
             class="breadcrumb-item"
@@ -69,17 +66,14 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class=""
               href="#"
               target="_self"
-            >
-              Manage
-            </a>
+              text="Manage"
+            />
           </li>
           <li
             class="active breadcrumb-item"
             role="presentation"
           >
-            <span>
-              Library
-            </span>
+            <span />
           </li>
         </ol>
          
@@ -94,9 +88,8 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class=""
               href="#"
               target="_self"
-            >
-              Go to dashboard
-            </a>
+              text="Go to dashboard"
+            />
           </li>
           <li
             class="breadcrumb-item"
@@ -106,9 +99,8 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class=""
               href="#"
               target="_self"
-            >
-              Go to widgets
-            </a>
+              text="Go to widgets"
+            />
           </li>
           <li
             class="breadcrumb-item"
@@ -118,17 +110,14 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class=""
               href="http://google.com"
               target="_self"
-            >
-              Go to Google
-            </a>
+              text="Go to Google"
+            />
           </li>
           <li
             class="active breadcrumb-item"
             role="presentation"
           >
-            <span>
-              Current page
-            </span>
+            <span />
           </li>
         </ol>
          
@@ -143,9 +132,8 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class=""
               href="#"
               target="_self"
-            >
-              Added
-            </a>
+              text="Added"
+            />
           </li>
           <li
             class="font-xl breadcrumb-item"
@@ -155,17 +143,14 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               class=""
               href="#"
               target="_self"
-            >
-              Custom
-            </a>
+              text="Custom"
+            />
           </li>
           <li
             class="active font-xl text-danger breadcrumb-item"
             role="presentation"
           >
-            <span>
-              Classes
-            </span>
+            <span />
           </li>
         </ol>
       </div>

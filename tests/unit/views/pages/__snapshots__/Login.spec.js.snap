@@ -32,17 +32,14 @@ exports[`Login.vue renders correctly 1`] = `
                 Sign In to your account
               </p>
                
-              <cforminput-stub
+              <cinput
                 autocomplete="username email"
-                lazy="400"
                 placeholder="Username"
                 prependhtml=<i class='cui-user'></i>
-                type="text"
               />
                
-              <cforminput-stub
+              <cinput
                 autocomplete="curent-password"
-                lazy="400"
                 placeholder="Password"
                 prependhtml=<i class='cui-lock-locked'></i>
                 type="password"
@@ -56,12 +53,12 @@ exports[`Login.vue renders correctly 1`] = `
                   <cbutton-stub
                     activeclass="active"
                     class="px-4"
+                    color="primary"
                     event="click"
                     exactactiveclass="active"
                     routertag="a"
                     target="_self"
                     type="button"
-                    variant="primary"
                   >
                     Login
                   </cbutton-stub>
@@ -75,12 +72,12 @@ exports[`Login.vue renders correctly 1`] = `
                   <cbutton-stub
                     activeclass="active"
                     class="px-0"
+                    color="link"
                     event="click"
                     exactactiveclass="active"
                     routertag="a"
                     target="_self"
                     type="button"
-                    variant="link"
                   >
                     Forgot password?
                   </cbutton-stub>
@@ -107,12 +104,12 @@ exports[`Login.vue renders correctly 1`] = `
           <cbutton-stub
             activeclass="active"
             class="active mt-3"
+            color="primary"
             event="click"
             exactactiveclass="active"
             routertag="a"
             target="_self"
             type="button"
-            variant="primary"
           >
             
             Register Now!

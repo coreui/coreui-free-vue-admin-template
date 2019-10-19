@@ -9,20 +9,20 @@ exports[`Users.vue renders correctly 1`] = `
   >
     <ccard-stub
       bodywrapper="true"
-      headerhtml="users"
+      headerhtml="Users"
       name="slide"
       subtitletag="h6"
       titletag="h4"
     >
       <ctable-stub
-        current-page="1"
+        clickablerows="true"
         defaultsorter="[object Object]"
-        fields="[object Object],[object Object],[object Object],[object Object],[object Object]"
+        fields="[object Object],[object Object],[object Object],[object Object]"
         hover="true"
+        indexcolumn="true"
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-        itemsperpage="10"
+        itemsperpage="5"
         pagination="[object Object]"
-        per-page="5"
         striped="true"
       />
     </ccard-stub>

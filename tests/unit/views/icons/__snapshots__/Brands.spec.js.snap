@@ -28,8 +28,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -46,8 +46,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -64,8 +64,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -82,8 +82,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -100,8 +100,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -118,8 +118,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -136,8 +136,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -154,8 +154,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -172,8 +172,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -190,8 +190,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -208,8 +208,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -226,8 +226,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -244,8 +244,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -262,8 +262,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -280,8 +280,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -298,8 +298,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -316,8 +316,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -334,8 +334,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -352,8 +352,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -370,8 +370,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -388,8 +388,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -406,8 +406,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -424,8 +424,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -442,8 +442,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -460,8 +460,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -478,8 +478,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -496,8 +496,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -514,8 +514,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -532,8 +532,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -550,8 +550,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -568,8 +568,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -586,8 +586,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -604,8 +604,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -622,8 +622,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -640,8 +640,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -658,8 +658,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -676,8 +676,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -694,8 +694,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -712,8 +712,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -730,8 +730,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -748,8 +748,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -766,8 +766,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -784,8 +784,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -802,8 +802,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -820,8 +820,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -838,8 +838,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -856,8 +856,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -875,8 +875,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -893,8 +893,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -911,8 +911,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -929,8 +929,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -947,8 +947,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -965,8 +965,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -983,8 +983,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1001,8 +1001,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1019,8 +1019,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1037,8 +1037,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1055,8 +1055,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1073,8 +1073,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1091,8 +1091,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1109,8 +1109,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1127,8 +1127,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1145,8 +1145,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1163,8 +1163,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1181,8 +1181,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1199,8 +1199,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 332 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1217,8 +1217,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 616 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1235,8 +1235,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1253,8 +1253,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 472 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1271,8 +1271,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1289,8 +1289,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1307,8 +1307,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1325,8 +1325,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1343,8 +1343,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1361,8 +1361,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1379,8 +1379,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1397,8 +1397,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1415,8 +1415,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1433,8 +1433,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1451,8 +1451,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1469,8 +1469,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1487,8 +1487,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1505,8 +1505,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1523,8 +1523,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1541,8 +1541,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1559,8 +1559,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1577,8 +1577,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1595,8 +1595,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1613,8 +1613,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1631,8 +1631,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1649,8 +1649,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 440 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1667,8 +1667,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1685,8 +1685,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1703,8 +1703,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1721,8 +1721,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1739,8 +1739,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1757,8 +1757,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 480 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1775,8 +1775,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1793,8 +1793,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1811,8 +1811,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1829,8 +1829,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1847,8 +1847,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1865,8 +1865,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1883,8 +1883,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1901,8 +1901,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1919,8 +1919,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 416 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1937,8 +1937,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1955,8 +1955,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 480 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1973,8 +1973,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1991,8 +1991,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2009,8 +2009,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 528 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2027,8 +2027,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2045,8 +2045,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 416 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2063,8 +2063,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 480 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2081,8 +2081,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2099,8 +2099,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2117,8 +2117,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2135,8 +2135,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2153,8 +2153,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2171,8 +2171,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2189,8 +2189,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2207,8 +2207,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2225,8 +2225,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2243,8 +2243,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2261,8 +2261,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2279,8 +2279,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2297,8 +2297,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2315,8 +2315,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2333,8 +2333,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2351,8 +2351,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2369,8 +2369,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2387,8 +2387,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2405,8 +2405,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2423,8 +2423,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2441,8 +2441,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 480 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2459,8 +2459,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2477,8 +2477,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2495,8 +2495,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2513,8 +2513,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2531,8 +2531,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2549,8 +2549,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2567,8 +2567,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2585,8 +2585,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2603,8 +2603,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 3992 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2621,8 +2621,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2639,8 +2639,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2657,8 +2657,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2675,8 +2675,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2693,8 +2693,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2711,8 +2711,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2729,8 +2729,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 368 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2747,8 +2747,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2765,8 +2765,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2783,8 +2783,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2801,8 +2801,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2819,8 +2819,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2837,8 +2837,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2855,8 +2855,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2873,8 +2873,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2891,8 +2891,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2909,8 +2909,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2927,8 +2927,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2945,8 +2945,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 480 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2963,8 +2963,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2981,8 +2981,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2999,8 +2999,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 592 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3017,8 +3017,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3035,8 +3035,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3053,8 +3053,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3071,8 +3071,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3089,8 +3089,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 400 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3107,8 +3107,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3125,8 +3125,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3143,8 +3143,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3161,8 +3161,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3179,8 +3179,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3197,8 +3197,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3215,8 +3215,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3233,8 +3233,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3251,8 +3251,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 488 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3269,8 +3269,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3287,8 +3287,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3305,8 +3305,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3323,8 +3323,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3341,8 +3341,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 256 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3359,8 +3359,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3377,8 +3377,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3395,8 +3395,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3413,8 +3413,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3431,8 +3431,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3449,8 +3449,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3467,8 +3467,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3485,8 +3485,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3503,8 +3503,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3521,8 +3521,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3539,8 +3539,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3557,8 +3557,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3575,8 +3575,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3593,8 +3593,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3611,8 +3611,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3629,8 +3629,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3647,8 +3647,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3665,8 +3665,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3683,8 +3683,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3701,8 +3701,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3719,8 +3719,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3737,8 +3737,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3755,8 +3755,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3773,8 +3773,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3791,8 +3791,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3809,8 +3809,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3827,8 +3827,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3845,8 +3845,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3863,8 +3863,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3881,8 +3881,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3899,8 +3899,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3917,8 +3917,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3935,8 +3935,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3953,8 +3953,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3971,8 +3971,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 446 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -3989,8 +3989,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4007,8 +4007,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4025,8 +4025,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4043,8 +4043,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4061,8 +4061,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4079,8 +4079,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4097,8 +4097,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4115,8 +4115,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4133,8 +4133,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4151,8 +4151,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4169,8 +4169,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4187,8 +4187,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4205,8 +4205,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4223,8 +4223,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4241,8 +4241,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4259,8 +4259,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4277,8 +4277,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4295,8 +4295,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4313,8 +4313,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4331,8 +4331,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4349,8 +4349,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 544 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4367,8 +4367,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4385,8 +4385,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4403,8 +4403,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4421,8 +4421,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4439,8 +4439,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4457,8 +4457,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4475,8 +4475,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4493,8 +4493,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4511,8 +4511,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4529,8 +4529,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4547,8 +4547,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4565,8 +4565,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4583,8 +4583,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4601,8 +4601,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4619,8 +4619,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4637,8 +4637,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4655,8 +4655,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4673,8 +4673,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 400 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4691,8 +4691,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4709,8 +4709,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4727,8 +4727,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4745,8 +4745,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4763,8 +4763,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4781,8 +4781,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4799,8 +4799,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4817,8 +4817,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4835,8 +4835,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4853,8 +4853,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4871,8 +4871,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4889,8 +4889,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4907,8 +4907,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4925,8 +4925,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4943,8 +4943,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4961,8 +4961,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4979,8 +4979,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4997,8 +4997,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5015,8 +5015,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5033,8 +5033,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5051,8 +5051,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5069,8 +5069,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5087,8 +5087,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5105,8 +5105,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5123,8 +5123,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5141,8 +5141,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5159,8 +5159,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5177,8 +5177,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5195,8 +5195,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 432 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5213,8 +5213,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5231,8 +5231,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5249,8 +5249,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5267,8 +5267,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5285,8 +5285,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 581 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5303,8 +5303,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 407 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5321,8 +5321,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5339,8 +5339,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5357,8 +5357,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5375,8 +5375,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5393,8 +5393,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5411,8 +5411,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5429,8 +5429,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5447,8 +5447,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5465,8 +5465,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5483,8 +5483,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5501,8 +5501,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5519,8 +5519,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5537,8 +5537,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5555,8 +5555,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5573,8 +5573,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5591,8 +5591,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5609,8 +5609,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5627,8 +5627,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5645,8 +5645,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5663,8 +5663,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5681,8 +5681,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5699,8 +5699,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5717,8 +5717,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 460 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5735,8 +5735,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5753,8 +5753,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5771,8 +5771,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5789,8 +5789,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5807,8 +5807,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5825,8 +5825,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5843,8 +5843,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5861,8 +5861,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5879,8 +5879,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5897,8 +5897,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5915,8 +5915,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5933,8 +5933,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5951,8 +5951,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5969,8 +5969,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -5987,8 +5987,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6005,8 +6005,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6023,8 +6023,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6041,8 +6041,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6059,8 +6059,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6077,8 +6077,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6095,8 +6095,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6113,8 +6113,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6131,8 +6131,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6149,8 +6149,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6167,8 +6167,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6185,8 +6185,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6203,8 +6203,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 440 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6221,8 +6221,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6239,8 +6239,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6257,8 +6257,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6275,8 +6275,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6293,8 +6293,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6311,8 +6311,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6329,8 +6329,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6347,8 +6347,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6365,8 +6365,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6383,8 +6383,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6401,8 +6401,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6419,8 +6419,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6437,8 +6437,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6455,8 +6455,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6473,8 +6473,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6491,8 +6491,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6509,8 +6509,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6527,8 +6527,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6545,8 +6545,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6563,8 +6563,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6581,8 +6581,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6599,8 +6599,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6617,8 +6617,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6635,8 +6635,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6653,8 +6653,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6671,8 +6671,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6689,8 +6689,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6707,8 +6707,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6725,8 +6725,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6743,8 +6743,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6761,8 +6761,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6779,8 +6779,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6797,8 +6797,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6815,8 +6815,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6833,8 +6833,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6851,8 +6851,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6869,8 +6869,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6887,8 +6887,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6905,8 +6905,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6923,8 +6923,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6941,8 +6941,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6959,8 +6959,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6977,8 +6977,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -6995,8 +6995,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7013,8 +7013,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7031,8 +7031,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7049,8 +7049,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7067,8 +7067,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7085,8 +7085,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7103,8 +7103,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7121,8 +7121,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7139,8 +7139,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7157,8 +7157,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7175,8 +7175,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7193,8 +7193,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7211,8 +7211,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7229,8 +7229,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7247,8 +7247,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7265,8 +7265,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7283,8 +7283,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7301,8 +7301,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7319,8 +7319,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7337,8 +7337,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7355,8 +7355,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7373,8 +7373,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7391,8 +7391,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7409,8 +7409,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7427,8 +7427,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7445,8 +7445,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7463,8 +7463,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7481,8 +7481,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7499,8 +7499,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7517,8 +7517,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7535,8 +7535,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7553,8 +7553,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7571,8 +7571,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7589,8 +7589,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 320 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7607,8 +7607,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 256 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7625,8 +7625,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 496 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7643,8 +7643,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7661,8 +7661,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7679,8 +7679,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7697,8 +7697,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -7715,8 +7715,8 @@ exports[`Brands.vue renders correctly 1`] = `
           class="mb-5 col-3 col-sm-2"
         >
           <svg
+            class="c-icon c-icon-custom-size"
             height="42"
-            style="fill: currentColor;"
             viewBox="0 0 640 512"
             xmlns="http://www.w3.org/2000/svg"
           >
