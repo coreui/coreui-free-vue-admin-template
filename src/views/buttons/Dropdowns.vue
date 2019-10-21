@@ -149,7 +149,7 @@
               <CDropdown
                 color="link"
                 size="lg"
-                no-caret
+                :caret="false"
               >
                 <template #toggler-content>
                   &#x1f50d;<span class="sr-only">Search</span>

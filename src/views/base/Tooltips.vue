@@ -18,7 +18,7 @@
       </CCardHeader>
       <CCardBody>
         <CRow>
-          <CCol col="4">
+          <CCol col="6">
             <div class="text-center my-3">
               <CButton 
                 color="secondary"
@@ -28,25 +28,13 @@
               </CButton>
             </div>
           </CCol>
-          <CCol col="4">
+          <CCol col="6">
             <div class="text-center my-3">
               <CButton 
                 v-c-tooltip="{content: 'I start open!', active:true }"
                 color="secondary"
               >
                 Hover me
-              </CButton>
-            </div>
-          </CCol>
-          <CCol col="4">
-            <div class="text-center my-3">
-              <CButton
-                color="secondary"
-                v-c-tooltip.click="
-                  'I am showing on click and hiding on click outside tooltip!'
-                "
-              >
-                Click me
               </CButton>
             </div>
           </CCol>

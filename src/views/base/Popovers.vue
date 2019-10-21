@@ -17,7 +17,7 @@
       </CCardHeader>
       <CCardBody>
         <CRow>
-          <CCol col="4">
+          <CCol col="6">
             <div class="my-3 text-center">
               <CButton
                 color="primary"
@@ -26,11 +26,11 @@
                   content: 'I am popover content!'
                 }"
               >
-                Hover Me
+                Click Me
               </CButton>
             </div>
           </CCol>
-          <CCol col="4">
+          <CCol col="6">
             <div class="my-3 text-center">
               <CButton
                 color="primary"
@@ -38,19 +38,6 @@
                   header: 'Popover!',
                   content: 'I start <strong>open</strong>',
                   active: true
-                }"
-                textHtml="Hover me"
-              />
-            </div>
-          </CCol>
-          <CCol col="4">
-            <div class="my-3 text-center">
-              <CButton
-                color="primary"
-                v-c-popover.click="{
-                  header: 'Popover!',
-                  content: 'I am showing on click and hiding on click outside tooltip!',
-                  placement: 'bottom'
                 }"
               >
                 Click me

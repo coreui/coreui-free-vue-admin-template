@@ -43,7 +43,7 @@
 
               <CDropdown
                 toggler-text="Lang"
-                nav
+                in-nav
                 placement="bottom-end"
               >
                   <CDropdownItem>EN</CDropdownItem>
@@ -53,7 +53,7 @@
               </CDropdown>
 
               <CDropdown
-                nav
+                in-nav
                 toggler-text="User"
                 placement="bottom-end"
               >
@@ -113,7 +113,7 @@
               <CDropdown
                 toggler-text="Lang"
                 placement="bottom-end"
-                nav
+                in-nav
               >
                 <CDropdownItem>EN</CDropdownItem>
                 <CDropdownItem>ES</CDropdownItem>
@@ -123,7 +123,7 @@
               <CDropdown
                 toggler-text="User"
                 placement="bottom-end"
-                nav
+                in-nav
               >
                 <CDropdownItem>Account</CDropdownItem>
                 <CDropdownItem>Settings</CDropdownItem>
