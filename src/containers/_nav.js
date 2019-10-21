@@ -1,264 +1,471 @@
-export default {
-  items: [
-    {
-      name: 'Dashboard',
-      url: '/dashboard',
-      icon: 'cui-speedometer',
-      badge: {
-        variant: 'primary',
-        text: 'NEW'
-      }
-    },
-    {
-      title: true,
-      name: 'Theme',
-      class: '',
-      wrapper: {
-        element: '',
-        attributes: {}
-      }
-    },
-    {
-      name: 'Colors',
-      url: '/theme/colors',
-      icon: 'cui-drop'
-    },
-    {
-      name: 'Typography',
-      url: '/theme/typography',
-      icon: 'cui-pencil'
-    },
-    {
-      title: true,
-      name: 'Components',
-      class: '',
-      wrapper: {
-        element: '',
-        attributes: {}
-      }
-    },
-    {
-      name: 'Base',
-      url: '/base',
-      icon: 'cui-puzzle',
-      children: [
-        {
-          name: 'Breadcrumbs',
-          url: '/base/breadcrumbs',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Cards',
-          url: '/base/cards',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Carousels',
-          url: '/base/carousels',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Collapses',
-          url: '/base/collapses',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Forms',
-          url: '/base/forms',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Jumbotrons',
-          url: '/base/jumbotrons',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'List Groups',
-          url: '/base/list-groups',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Navs',
-          url: '/base/navs',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Navbars',
-          url: '/base/navbars',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Paginations',
-          url: '/base/paginations',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Popovers',
-          url: '/base/popovers',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Progress Bars',
-          url: '/base/progress-bars',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Switches',
-          url: '/base/switches',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Tables',
-          url: '/base/tables',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Tabs',
-          url: '/base/tabs',
-          icon: 'cui-puzzle'
-        },
-        {
-          name: 'Tooltips',
-          url: '/base/tooltips',
-          icon: 'cui-puzzle'
-        }
-      ]
-    },
-    {
-      name: 'Buttons',
-      url: '/buttons',
-      icon: 'cui-cursor',
-      children: [
-        {
-          name: 'Buttons',
-          url: '/buttons/standard-buttons',
-          icon: 'cui-cursor'
-        },
-        {
-          name: 'Button Dropdowns',
-          url: '/buttons/dropdowns',
-          icon: 'cui-cursor'
-        },
-        {
-          name: 'Button Groups',
-          url: '/buttons/button-groups',
-          icon: 'cui-cursor'
-        },
-        {
-          name: 'Brand Buttons',
-          url: '/buttons/brand-buttons',
-          icon: 'cui-cursor'
-        }
-      ]
-    },
-    {
-      name: 'Charts',
-      url: '/charts',
-      icon: 'cui-pie-chart'
-    },
-    {
-      name: 'Icons',
-      url: '/icons',
-      icon: 'cui-star',
-      children: [
-        {
-          name: 'CoreUI Icons',
-          url: '/icons/coreui-icons',
-          icon: 'cui-star',
+export default [
+  'CSidebarNav',
+  [
+    [
+      'CSidebarNavLink',
+      {
+        props: {
+          name: 'Dashboard',
+          to: '/dashboard',
+          icon: 'cui-speedometer',
           badge: {
-            variant: 'info',
+            color: 'primary',
             text: 'NEW'
           }
-        },
-        {
-          name: 'Brands',
-          url: '/icons/brands',
-          icon: 'cui-star'
-        },
-        {
-          name: 'Flags',
-          url: '/icons/flags',
-          icon: 'cui-star'
         }
-      ]
-    },
-    {
-      name: 'Notifications',
-      url: '/notifications',
-      icon: 'cui-bell',
-      children: [
-        {
-          name: 'Alerts',
-          url: '/notifications/alerts',
-          icon: 'cui-bell'
-        },
-        {
-          name: 'Badges',
-          url: '/notifications/badges',
-          icon: 'cui-bell'
-        },
-        {
-          name: 'Modals',
-          url: '/notifications/modals',
-          icon: 'cui-bell'
-        }
-      ]
-    },
-    {
-      name: 'Widgets',
-      url: '/widgets',
-      icon: 'cui-calculator',
-      badge: {
-        variant: 'primary',
-        text: 'NEW'
       }
-    },
-    {
-      divider: true
-    },
-    {
-      title: true,
-      name: 'Extras'
-    },
-    {
-      name: 'Pages',
-      url: '/pages',
-      icon: 'cui-star',
-      children: [
-        {
-          name: 'Login',
-          url: '/pages/login',
-          icon: 'cui-star'
-        },
-        {
-          name: 'Register',
-          url: '/pages/register',
-          icon: 'cui-star'
-        },
-        {
-          name: 'Error 404',
-          url: '/pages/404',
-          icon: 'cui-star'
-        },
-        {
-          name: 'Error 500',
-          url: '/pages/500',
-          icon: 'cui-star'
+    ],
+    [
+      'CSidebarNavTitle',
+      ['Theme']
+    ],
+    [
+      'CSidebarNavLink',
+      {
+        props: {
+          name: 'Colors',
+          to: '/theme/colors',
+          icon: 'cui-drop'
         }
+      }
+    ],
+    [
+      'CSidebarNavLink',
+      {
+        props: {
+          name: 'Typography',
+          to: '/theme/typography',
+          icon: 'cui-pencil'
+        }
+      }
+    ],
+    [
+      'CSidebarNavTitle',
+      ['Components']
+    ],
+    [
+      'CSidebarNavDropdown',
+      {
+        props: {
+          name: 'Base',
+          route: '/base',
+          icon: 'cui-puzzle',
+        }
+      },
+      [
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Breadcrumbs',
+              to: '/base/breadcrumbs',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Cards',
+              to: '/base/cards',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Carousels',
+              to: '/base/carousels',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Collapses',
+              to: '/base/collapses',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Forms',
+              to: '/base/forms',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Jumbotrons',
+              to: '/base/jumbotrons',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'List Groups',
+              to: '/base/list-groups',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Navs',
+              to: '/base/navs',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Navbars',
+              to: '/base/navbars',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Paginations',
+              to: '/base/paginations',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Popovers',
+              to: '/base/popovers',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Progress Bars',
+              to: '/base/progress-bars',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Switches',
+              to: '/base/switches',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Tables',
+              to: '/base/tables',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Tabs',
+              to: '/base/tabs',
+              icon: 'cui-puzzle'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Tooltips',
+              to: '/base/tooltips',
+              icon: 'cui-puzzle'
+            }
+          }
+        ]
       ]
-    },
-    {
-      name: 'Download CoreUI',
-      url: 'http://coreui.io/vue/',
-      icon: 'cui-cloud-download',
-      class: 'mt-auto',
-      variant: 'success'
-    },
-    {
-      name: 'Try CoreUI PRO',
-      url: 'http://coreui.io/pro/vue/',
-      icon: 'cui-layers',
-      variant: 'danger'
-    }
+    ],
+    [
+      'CSidebarNavDropdown',
+      {
+        props: {
+          name: 'Buttons',
+          route: '/buttons',
+          icon: 'cui-cursor',
+        }
+      },
+      [
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Buttons',
+              to: '/buttons/standard-buttons',
+              icon: 'cui-cursor'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Button Dropdowns',
+              to: '/buttons/dropdowns',
+              icon: 'cui-cursor'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Button Groups',
+              to: '/buttons/button-groups',
+              icon: 'cui-cursor'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Brand Buttons',
+              to: '/buttons/brand-buttons',
+              icon: 'cui-cursor'
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      'CSidebarNavLink',
+      {
+        props: {
+          name: 'Charts',
+          to: '/charts',
+          icon: 'cui-pie-chart'
+        }
+      }
+    ],
+    [
+      'CSidebarNavDropdown',
+      {
+        props: {
+          name: 'Icons',
+          route: '/icons',
+          icon: 'cui-star',
+        }
+      },
+      [
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'CoreUI Icons',
+              to: '/icons/coreui-icons',
+              icon: 'cui-star',
+              badge: {
+                color: 'info',
+                text: 'NEW'
+              }
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Brands',
+              to: '/icons/brands',
+              icon: 'cui-star'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Flags',
+              to: '/icons/flags',
+              icon: 'cui-star'
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      'CSidebarNavDropdown',
+      {
+        props: {
+          name: 'Notifications',
+          route: '/notifications',
+          icon: 'cui-bell',
+        }
+      },
+      [
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Alerts',
+              to: '/notifications/alerts',
+              icon: 'cui-bell'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Badges',
+              to: '/notifications/badges',
+              icon: 'cui-bell'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Modals',
+              to: '/notifications/modals',
+              icon: 'cui-bell'
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      'CSidebarNavLink',
+      {
+        props: {
+          name: 'Widgets',
+          to: '/widgets',
+          icon: 'cui-calculator',
+          badge: {
+            color: 'primary',
+            text: 'NEW',
+            pill: true
+          }
+        }
+      }
+    ],
+    [
+      'CSidebarNavDivider',
+    ],
+    [
+      'CSidebarNavTitle',
+      ['Extras']
+    ],
+    [
+      'CSidebarNavDropdown',
+      {
+        props: {
+          name: 'Pages',
+          route: '/pages',
+          icon: 'cui-star',
+        }
+      },
+      [
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Login',
+              to: '/pages/login',
+              icon: 'cui-star'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Register',
+              to: '/pages/register',
+              icon: 'cui-star'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Error 404',
+              to: '/pages/404',
+              icon: 'cui-star'
+            }
+          }
+        ],
+        [
+          'CSidebarNavLink',
+          {
+            props: {
+              name: 'Error 500',
+              to: '/pages/500',
+              icon: 'cui-star'
+            }
+          }
+        ]
+      ]
+    ],
+    [
+      'CSidebarNavLink',
+      {
+        props: {
+          name: 'Download CoreUI',
+          href: 'http://coreui.io/vue/',
+          icon: 'cui-cloud-download',
+          addLinkClasses: 'c-nav-link-success',
+          target: '_blank'
+        },
+        attrs: {
+          class: 'mt-auto',
+        }
+      }
+    ],
+    [
+      'CSidebarNavLink',
+      {          
+        props: {
+          name: 'Try CoreUI PRO',
+          href: 'http://coreui.io/pro/vue/',
+          icon: 'cui-layers',
+          addLinkClasses: 'c-nav-link-danger',
+          target: '_blank'
+        }
+      }
+    ]
   ]
-}
+]
+

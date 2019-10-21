@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheSidebar.vue renders correctly 1`] = `
+<csidebar-stub
+  breakpoint="lg"
+  colorscheme="dark"
+  dropdownmode="openActive"
+  fixed="true"
+  hideonmobileclick="true"
+  show="true"
+>
+  <csidebarbrand-stub
+    fullsrc="img/brand/coreui-base-white.svg"
+    minimizedsrc="img/brand/coreui-signet-white.svg"
+    wrappedinlink="[object Object]"
+  />
+   
+  <crenderfunction-stub
+    contenttorender="CSidebarNav,CSidebarNavLink,[object Object],CSidebarNavTitle,Theme,CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavTitle,Components,CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDivider,CSidebarNavTitle,Extras,CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object]"
+  />
+   
+  <csidebarminimizer-stub
+    class="d-md-down-none"
+  />
+</csidebar-stub>
+`;

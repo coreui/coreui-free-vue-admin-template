@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users.vue renders correctly 1`] = `
+<crow-stub
+  gutters="true"
+>
+  <ccol-stub
+    col="12"
+    tag="div"
+    xl="8"
+  >
+    <ccard-stub
+      bodywrapper="true"
+      headerhtml="Users"
+      name="slide"
+    >
+      <ctable-stub
+        clickablerows="true"
+        defaultsorter="[object Object]"
+        fields="[object Object],[object Object],[object Object],[object Object]"
+        hover="true"
+        indexcolumn="true"
+        items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        itemsperpage="5"
+        pagination="[object Object]"
+        responsive="true"
+        striped="true"
+      />
+    </ccard-stub>
+  </ccol-stub>
+</crow-stub>
+`;

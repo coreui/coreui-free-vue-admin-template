@@ -1,173 +1,183 @@
 <template>
-  <div>
-    <CRow>
-      <CCol col="12">
-        <CCard>
-          <CCardHeader>
-            <strong>Brand Button</strong>
-          </CCardHeader>
-          <CCardBody>
-            <small>Usage </small>
-            <code>
-              &lt;CButton variant="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;
-            </code>
-            <hr/>
-            <h6>
-              Size Small
-              <small>Add <code>size="sm"</code></small>
-            </h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  size="sm"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <CIcon :name="brandName"/>
-                  <span>{{brandName}}</span>
-                </CButton>
-              </template>
-            </p>
-            <h6>Size Normal</h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <CIcon :name="brandName"/>
-                  <span>{{brandName}}</span>
-                </CButton>
-              </template>
-            </p>
-            <h6>Size Large <small>Add <code>size="lg"</code></small></h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  size="lg"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <CIcon :name="brandName"/>
-                  <span>{{brandName}}</span>
-                </CButton>
-              </template>
-            </p>
-          </CCardBody>
-        </CCard>
-      </CCol>
-      <CCol col="12">
-        <CCard>
-          <CCardHeader>
-            <strong>Brand Button </strong> <small>Icons only</small>
-          </CCardHeader>
-          <CCardBody>
-            <small>Usage </small>
-              <code>
-                {{ `<CButton variant="facebook"><CIcon name="facebook"/></CButton>` }}
-              </code>
-            <hr/>
-            <h6>Size Small <small>Add <code>size="sm"</code></small></h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  size="sm"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <CIcon :name="brandName"/>
-                </CButton>
-              </template>
-            </p>
-            <h6>Size Normal</h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <CIcon :name="brandName"/>
-                </CButton>
-              </template>
-            </p>
-            <h6>Size Large <small>Add <code>size="lg"</code></small></h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  size="lg"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <CIcon :name="brandName"/>
-                </CButton>
-              </template>
-            </p>
-          </CCardBody>
-        </CCard>
-      </CCol>
+  <CRow>
+    <CCol col="12">
+      <CCard>
+        <CCardHeader>
+          <strong>Brand Button</strong>
+          <div class="card-header-actions">
+              <a 
+                href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
+                class="card-header-action" 
+                rel="noreferrer noopener" 
+                target="_blank"
+              >
+                <small class="text-muted">docs</small>
+              </a>
+            </div>
+        </CCardHeader>
+        <CCardBody>
+          <small>Usage </small>
+          <code>{{ $options.usage }}</code>
+          <hr/>
+          <h6>
+            Size Small
+            <small>Add <code>size="sm"</code></small>
+          </h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                size="sm"
+                :key="key"
+                :color="brandName"
+              >
+                <CIcon size="sm" :name="brandName"/>
+                <span>{{brandName}}</span>
+              </CButton>
+            </template>
+          </p>
+          <h6>Size Normal</h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                :key="key"
+                :color="brandName"
+              >
+                <CIcon :name="brandName"/>
+                <span>{{brandName}}</span>
+              </CButton>
+            </template>
+          </p>
+          <h6>Size Large <small>Add <code>size="lg"</code></small></h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                size="lg"
+                :key="key"
+                :color="brandName"
+              >
+                <CIcon size="lg" :name="brandName"/>
+                <span>{{brandName}}</span>
+              </CButton>
+            </template>
+          </p>
+        </CCardBody>
+      </CCard>
+    </CCol>
+    <CCol col="12">
+      <CCard>
+        <CCardHeader>
+          <strong>Brand Button </strong> <small>Icons only</small>
+        </CCardHeader>
+        <CCardBody>
+          <small>Usage </small>
+            <code>{{ $options.iconsOnlyUsage }}</code>
+          <hr/>
+          <h6>Size Small <small>Add <code>size="sm"</code></small></h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                size="sm"
+                :key="key"
+                :color="brandName"
+              >
+                <CIcon size="sm" :name="brandName"/>
+              </CButton>
+            </template>
+          </p>
+          <h6>Size Normal</h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                :key="key"
+                :color="brandName"
+              >
+                <CIcon :name="brandName"/>
+              </CButton>
+            </template>
+          </p>
+          <h6>Size Large <small>Add <code>size="lg"</code></small></h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                size="lg"
+                :key="key"
+                :color="brandName"
+              >
+                <CIcon size="lg" :name="brandName"/>
+              </CButton>
+            </template>
+          </p>
+        </CCardBody>
+      </CCard>
+    </CCol>
 
-      <CCol col="12">
-        <CCard>
-          <CCardHeader>
-            <strong>Brand Button </strong> <small>Text only</small>
-          </CCardHeader>
-          <CCardBody>
-            <small>Usage </small> <code>&lt;CButton variant="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;</code>
-            <hr/>
-            <h6>Size Small <small>Add <code>size="sm"</code></small></h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  size="sm"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <span>{{brandName}}</span>
-                </CButton>
-              </template>
-            </p>
-            <h6>Size Normal</h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <span>{{brandName}}</span>
-                </CButton>
-              </template>
-            </p>
-            <h6>Size Large <small>Add <code>size="lg"</code></small></h6>
-            <p>
-              <template v-for="(brandName, key) in $options.brands">
-                <CButton
-                  :name="brandName"
-                  size="lg"
-                  :key="key"
-                  :variant="brandName"
-                >
-                  <span>{{brandName}}</span>
-                </CButton>
-              </template>
-            </p>
-          </CCardBody>
-        </CCard>
-      </CCol>
-    </CRow>
-  </div>
+    <CCol col="12">
+      <CCard>
+        <CCardHeader>
+          <strong>Brand Button </strong> <small>Text only</small>
+        </CCardHeader>
+        <CCardBody>
+          <small>Usage </small> 
+          <code>
+            {{ $options.textOnlyUsage }}
+          </code>
+          <hr/>
+          <h6>Size Small <small>Add <code>size="sm"</code></small></h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                size="sm"
+                :key="key"
+                :color="brandName"
+              >
+                <span>{{brandName}}</span>
+              </CButton>
+            </template>
+          </p>
+          <h6>Size Normal</h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                :key="key"
+                :color="brandName"
+              >
+                <span>{{brandName}}</span>
+              </CButton>
+            </template>
+          </p>
+          <h6>Size Large <small>Add <code>size="lg"</code></small></h6>
+          <p>
+            <template v-for="(brandName, key) in $options.brands">
+              <CButton
+                :name="brandName"
+                size="lg"
+                :key="key"
+                :color="brandName"
+              >
+                <span>{{brandName}}</span>
+              </CButton>
+            </template>
+          </p>
+        </CCardBody>
+      </CCard>
+    </CCol>
+  </CRow>
 </template>
 
 <script>
 export default {
-  name: 'brand-buttons',
+  name: 'BrandButtons',
+  usage: '<CButton color="facebook"><span>Facebook</span></CButton>',
+  iconsOnlyUsage: '<CButton color="facebook"><CIcon name="facebook"/></CButton>',
+  textOnlyUsage: '<CButton color="facebook"><CIcon name="facebook"/></CButton>',
   brands: [
     'facebook',
     'twitter',
@@ -209,12 +219,9 @@ export default {
 }
 </script>
 
-<style scoped lang="css">
-.c-btn {
+<style scoped>
+.btn {
   margin-bottom: 4px;
   margin-right: 6px;
-}
-.c-btn svg + span {
-  margin-left: 8px;
 }
 </style>

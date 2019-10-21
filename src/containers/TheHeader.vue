@@ -1,43 +1,47 @@
 <template>
-  <CHeader fixed>
-    <CSidebarToggler class="c-header-toggler c-d-lg-none"/>
-    <CLink class="c-header-brand" to="#">
-      <img class="c-navbar-brand-full" src="img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
-      <!-- <img class="c-navbar-brand-minimized" src="img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo"> -->
-    </CLink>
-    <CSidebarToggler class="c-header-toggler c-d-md-down-none"/>
-    <ul class="c-header-nav c-d-md-down-none">
-      <CNavItem class="c-px-3" to="/dashboard">Dashboard</CNavItem>
-      <CNavItem class="c-px-3" to="/users" exact>Users</CNavItem>
-      <CNavItem class="c-px-3">Settings</CNavItem>
-    </ul>
-    <CNav class="c-header-nav c-ml-auto">
-      <CNavItem class="c-d-md-down-none">
+  <CHeader fixed with-subheader light>
+    <CToggler
+      in-header
+      class="c-header-toggler ml-3"
+      v-c-emit-root-event:toggle-sidebar
+    />
+    <img
+      class="c-header-brand mx-auto d-lg-none" 
+      src="img/brand/coreui-base.svg" 
+      width="97" 
+      height="46" 
+      alt="CoreUI Logo"
+    />
+    <CHeaderNav class="d-md-down-none mr-auto">
+      <CHeaderNavItem class="px-3" to="/dashboard">Dashboard</CHeaderNavItem>
+      <CHeaderNavItem class="px-3" to="/users" exact>Users</CHeaderNavItem>
+      <CHeaderNavItem class="px-3">Settings</CHeaderNavItem>
+    </CHeaderNav>
+    <CHeaderNav class="mr-4">
+      <CHeaderNavItem class="d-md-down-none mx-2">
         <i class="cui-bell"></i>
-        <CBadge pill variant="danger">5</CBadge>
-      </CNavItem>
-      <CNavItem class="c-d-md-down-none">
+      </CHeaderNavItem>
+      <CHeaderNavItem class="d-md-down-none mx-2">
         <i class="cui-list"></i>
-      </CNavItem>
-      <CNavItem class="d-md-down-none">
-        <i class="cui-location-pin"></i>
-      </CNavItem>
-      <DefaultHeaderDropdownAccnt/>
-    </CNav>
-    <!-- <CSidebarToggler
-      class="c-header-toggler c-d-md-down-none"
-      aside
-    /> -->
+      </CHeaderNavItem>
+      <CHeaderNavItem class="d-md-down-none mx-2">
+        <i class="cui-envelope-open"></i>
+      </CHeaderNavItem>
+      <TheHeaderDropdownAccnt/>
+    </CHeaderNav>
+    <div class="c-subheader px-3">
+      <CBreadcrumbRouter class="border-0"/>
+    </div>
   </CHeader>
 </template>
 
 <script>
-import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
+import TheHeaderDropdownAccnt from './TheHeaderDropdownAccnt'
 
 export default {
   name: 'TheHeader',
   components: {
-    DefaultHeaderDropdownAccnt
+    TheHeaderDropdownAccnt
   }
 }
 </script>

@@ -10,12 +10,12 @@
             striped
             small
             fixed
-            :items="items($route.params.id)"
+            :items="getUserData($route.params.id)"
             :fields="$options.fields"
           />
         </CCardBody>
         <CCardFooter>
-          <CButton @click="goBack">Back</CButton>
+          <CButton color="primary" @click="goBack">Back</CButton>
         </CCardFooter>
       </CCard>
     </CCol>
@@ -26,25 +26,18 @@
 import usersData from './UsersData'
 export default {
   name: 'User',
-  props: {
-    caption: {
-      type: String,
-      default: 'User id'
-    },
-  },
   fields: [
-    { key: 'key', _style:'width:150px'},
-    { key: 'value' , _style:'width:150px;', _classes:'font-weight-bold'}
+    { key: 'key', _style: 'width:150px' },
+    { key: 'value' , _style: 'width:150px;' }
   ],
   methods: {
-    items (id) {
-      const user = usersData.find( user => user.id.toString() === id)
+    getUserData (id) {
+      const user = usersData.find((user, index) => index + 1 == id)
       const userDetails = user ? Object.entries(user) : [['id', 'Not found']]
-      return userDetails.map(([key, value]) => {return {key: key, value: value}})
+      return userDetails.map(([key, value]) => { return { key, value } })
     },
     goBack() {
       this.$router.go(-1)
-      // this.$router.replace({path: '/users'})
     }
   }
 }

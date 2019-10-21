@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapses.vue renders correctly 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col-12 col-md-6"
+  >
+    <div
+      class="card"
+    >
+      <!---->
+      <header
+        class="card-header"
+      >
+        <i
+          class="fa fa-align-justify"
+        />
+         
+        <strong>
+           Bootstrap Collapse 
+        </strong>
+         
+        <div
+          class="card-header-actions"
+        >
+          <a
+            class="card-header-action"
+            href="https://coreui.io/vue/docs/3.0/components/Collapse"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+      </header>
+       
+      <div
+        class="card-body"
+      >
+        <button
+          class="btn btn-primary"
+          id="collapse1"
+          type="button"
+        >
+          
+          Toggle Collapse
+        
+        </button>
+         
+        <div
+          class="mt-2"
+          style="display: none;"
+          toggler="collapse1"
+        >
+          <div
+            class="card"
+          >
+            <!---->
+            <div
+              class="card-body"
+            >
+              <p
+                class="card-text"
+              >
+                Collapse contents Here
+              </p>
+               
+              <button
+                class="btn btn-secondary btn-sm"
+                id="collapse2"
+                type="button"
+              >
+                
+              Toggle Inner Collapse
+            
+              </button>
+               
+              <div
+                class="mt-2"
+                style="display: none;"
+                toggler="collapse2"
+              >
+                <div
+                  class="card"
+                >
+                  <!---->
+                  <div
+                    class="card-body"
+                  >
+                    Hello!
+                  </div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

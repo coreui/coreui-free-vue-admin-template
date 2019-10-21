@@ -1,14 +1,16 @@
 <template>
   <CRow>
     <CCol sm="6" lg="3">
-      <CWidgetDropdown header="9.823" text="Members online">
+      <CWidgetDropdown color="primary" header="9.823" text="Members online">
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            color="transparent p-0"
             placement="bottom-end"
-            buttonHtml="<i class='cui-settings'></i>"
           >
+            <template #toggler-content>
+              <i class="cui-settings"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>
@@ -18,7 +20,7 @@
         <template #footer>
           <CChartLineSimple
             pointed
-            class="c-px-3"
+            class="px-3"
             style="height:70px"
             :data-points="[65, 59, 84, 84, 51, 55, 40]"
             background-color="primary"
@@ -29,15 +31,18 @@
       </CWidgetDropdown>
     </CCol>
     <CCol sm="6" lg="3">
-      <CWidgetDropdown variant="info" header="9.823" text="Members online">
+      <CWidgetDropdown color="info" header="9.823" text="Members online">
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            color="transparent p-0"
             placement="bottom-end"
-            no-caret
+            :caret="false"
             buttonHtml="<i class='cui-location-pin'></i>"
           >
+            <template #toggler-content>
+              <i class="cui-location-pin"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>
@@ -47,7 +52,7 @@
         <template #footer>
           <CChartLineSimple
             pointed
-            class="c-px-3"
+            class="px-3"
             style="height:70px"
             :data-points="[1, 18, 9, 17, 34, 22, 11]"
             background-color="info"
@@ -60,17 +65,19 @@
     </CCol>
     <CCol sm="6" lg="3">
       <CWidgetDropdown
-        variant="warning"
+        color="warning"
         header="9.823"
         text="Members online"
       >
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            color="transparent p-0"
             placement="bottom-end"
-            buttonHtml="<i class='cui-settings'></i>"
           >
+            <template #toggler-content>
+              <i class="cui-settings"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>
@@ -92,17 +99,19 @@
     </CCol>
     <CCol sm="6" lg="3">
       <CWidgetDropdown
-        variant="danger"
+        color="danger"
         header="9.823"
         text="Members online"
       >
         <template #default>
           <CDropdown
-            class="c-float-right"
-            variant="transparent c-p-0"
+            class="float-right"
+            color="transparent p-0"
             placement="bottom-end"
-            buttonHtml="<i class='cui-settings'></i>"
           >
+            <template #toggler-content>
+             <i class="cui-settings"></i>
+            </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
             <CDropdownItem>Something else here...</CDropdownItem>

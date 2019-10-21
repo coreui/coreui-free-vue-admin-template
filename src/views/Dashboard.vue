@@ -5,19 +5,19 @@
       <CCardBody>
         <CRow>
           <CCol sm="5">
-            <h4 id="traffic" class="c-card-title c-mb-0">Traffic</h4>
-            <div class="c-small c-text-muted">November 2017</div>
+            <h4 id="traffic" class="card-title mb-0">Traffic</h4>
+            <div class="small text-muted">November 2017</div>
           </CCol>
-          <CCol sm="7" class="c-d-none c-d-md-block">
-            <CButton variant="primary" class="c-float-right">
+          <CCol sm="7" class="d-none d-md-block">
+            <CButton color="primary" class="float-right">
               <i class="cui-cloud-download"></i>
             </CButton>
-            <CButtonGroup class="c-float-right c-mr-3">
+            <CButtonGroup class="float-right mr-3">
               <CButton
-                variant="outline-secondary"
+                color="outline-secondary"
                 v-for="(value, key) in ['Day', 'Month', 'Year']"
                 :key="key"
-                class="c-mx-0"
+                class="mx-0"
                 :pressed="value === selected ? true : false"
                 @click="selected = value"
               >
@@ -29,52 +29,52 @@
         <MainChartExample style="height:300px;margin-top:40px;"/>
       </CCardBody>
       <CCardFooter>
-        <CRow class="c-text-center">
-          <CCol md sm="12" class="c-mb-sm-2 c-mb-0">
-            <div class="c-text-muted">Visits</div>
+        <CRow class="text-center">
+          <CCol md sm="12" class="mb-sm-2 mb-0">
+            <div class="text-muted">Visits</div>
             <strong>29.703 Users (40%)</strong>
             <CProgress
-              class="c-progress-xs c-mt-2"
+              class="progress-xs mt-2"
               :precision="1"
-              variant="success"
+              color="success"
               :value="40"
             />
           </CCol>
-          <CCol md sm="12" class="c-mb-sm-2 c-mb-0 c-d-md-down-none">
-            <div class="c-text-muted">Unique</div>
+          <CCol md sm="12" class="mb-sm-2 mb-0 d-md-down-none">
+            <div class="text-muted">Unique</div>
             <strong>24.093 Users (20%)</strong>
             <CProgress
-              class="c-progress-xs c-mt-2"
+              class="progress-xs mt-2"
               :precision="1"
-              variant="info"
+              color="info"
               :value="20"
             />
           </CCol>
-          <CCol md sm="12" class="c-mb-sm-2 c-mb-0">
-            <div class="c-text-muted">Pageviews</div>
+          <CCol md sm="12" class="mb-sm-2 mb-0">
+            <div class="text-muted">Pageviews</div>
             <strong>78.706 Views (60%)</strong>
             <CProgress
-              class="c-progress-xs c-mt-2"
+              class="progress-xs mt-2"
               :precision="1"
-              variant="warning"
+              color="warning"
               :value="60"
             />
           </CCol>
-          <CCol md sm="12" class="c-mb-sm-2 c-mb-0">
-            <div class="c-text-muted">New Users</div>
+          <CCol md sm="12" class="mb-sm-2 mb-0">
+            <div class="text-muted">New Users</div>
             <strong>22.123 Users (80%)</strong>
             <CProgress
-              class="c-progress-xs c-mt-2"
+              class="progress-xs mt-2"
               :precision="1"
-              variant="danger"
+              color="danger"
               :value="80"
             />
           </CCol>
-          <CCol md sm="12" class="c-mb-sm-2 c-mb-0 c-d-md-down-none">
-            <div class="c-text-muted">Bounce Rate</div>
+          <CCol md sm="12" class="mb-sm-2 mb-0 d-md-down-none">
+            <div class="text-muted">Bounce Rate</div>
             <strong>Average Rate (40.15%)</strong>
             <CProgress
-              class="c-progress-xs c-mt-2"
+              class="progress-xs mt-2"
               :precision="1"
               :value="40"
             />
@@ -90,158 +90,158 @@
             <CCol sm="12" lg="6">
               <CRow>
                 <CCol sm="6">
-                  <CCallout variant="info">
-                    <small class="c-text-muted">New Clients</small><br>
-                    <strong class="c-h4">9,123</strong>
+                  <CCallout color="info">
+                    <small class="text-muted">New Clients</small><br>
+                    <strong class="h4">9,123</strong>
                   </CCallout>
                 </CCol>
                 <CCol sm="6">
-                  <CCallout variant="danger">
-                    <small class="c-text-muted">Recurring Clients</small><br>
-                    <strong class="c-h4">22,643</strong>
+                  <CCallout color="danger">
+                    <small class="text-muted">Recurring Clients</small><br>
+                    <strong class="h4">22,643</strong>
                   </CCallout>
                 </CCol>
               </CRow>
-              <hr class="c-mt-0">
-              <div class="c-progress-group c-mb-4">
-                <div class="c-progress-group-prepend">
-                  <span class="c-progress-group-text">
+              <hr class="mt-0">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Monday
                   </span>
                 </div>
-                <div class="c-progress-group-bars">
+                <div class="progress-group-bars">
                   <CProgress
-                    class="c-progress-xs"
-                    variant="info"
+                    class="progress-xs"
+                    color="info"
                     :value="34"
                   />
                   <CProgress
-                    class="c-progress-xs"
-                    variant="danger"
+                    class="progress-xs"
+                    color="danger"
                     :value="78"
                   />
                 </div>
               </div>
-              <div class="c-progress-group c-mb-4">
-                <div class="c-progress-group-prepend">
-                  <span class="c-progress-group-text">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Tuesday
                   </span>
                 </div>
-                <div class="c-progress-group-bars">
+                <div class="progress-group-bars">
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="56"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="94"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
-              <div class="c-progress-group c-mb-4">
-                <div class="c-progress-group-prepend">
-                  <span class="c-progress-group-text">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Wednesday
                   </span>
                 </div>
-                <div class="c-progress-group-bars">
+                <div class="progress-group-bars">
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="12"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="67"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
-              <div class="c-progress-group c-mb-4">
-                <div class="c-progress-group-prepend">
-                  <span class="c-progress-group-text">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Thursday
                   </span>
                 </div>
-                <div class="c-progress-group-bars">
+                <div class="progress-group-bars">
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="43"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="91"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
-              <div class="c-progress-group mb-4">
-                <div class="c-progress-group-prepend">
-                  <span class="c-progress-group-text">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Friday
                   </span>
                 </div>
-                <div class="c-progress-group-bars">
+                <div class="progress-group-bars">
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="22"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="73"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
-              <div class="c-progress-group c-mb-4">
-                <div class="c-progress-group-prepend">
-                  <span class="c-progress-group-text">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Saturday
                   </span>
                 </div>
-                <div class="c-progress-group-bars">
+                <div class="progress-group-bars">
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="53"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="82"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
-              <div class="c-progress-group c-mb-4">
-                <div class="c-progress-group-prepend">
-                  <span class="c-progress-group-text">
+              <div class="progress-group mb-4">
+                <div class="progress-group-prepend">
+                  <span class="progress-group-text">
                     Sunday
                   </span>
                 </div>
-                <div class="c-progress-group-bars">
+                <div class="progress-group-bars">
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="9"
-                    variant="info"
+                    color="info"
                   />
                   <CProgress
-                    class="c-progress-xs"
+                    class="progress-xs"
                     :value="69"
-                    variant="danger"
+                    color="danger"
                   />
                 </div>
               </div>
-              <div class="c-legend c-text-center">
+              <div class="legend text-center">
                 <small>
-                  <sup><CBadge pill variant="info">&nbsp;</CBadge></sup>
+                  <sup><CBadge pill color="info">&nbsp;</CBadge></sup>
                   New clients
                   &nbsp;&nbsp;
-                  <sup><CBadge pill variant="danger">&nbsp;</CBadge></sup>
+                  <sup><CBadge pill color="danger">&nbsp;</CBadge></sup>
                   Recurring clients
                 </small>
               </div>
@@ -249,126 +249,126 @@
             <CCol sm="12" lg="6">
               <CRow>
                 <CCol sm="6">
-                  <CCallout variant="warning">
-                    <small class="c-text-muted">Pageviews</small><br>
-                    <strong class="c-h4">78,623</strong>
+                  <CCallout color="warning">
+                    <small class="text-muted">Pageviews</small><br>
+                    <strong class="h4">78,623</strong>
                   </CCallout>
                 </CCol>
                 <CCol sm="6">
-                  <CCallout variant="success">
-                    <small class="c-text-muted">Organic</small><br>
-                    <strong class="c-h4">49,123</strong>
+                  <CCallout color="success">
+                    <small class="text-muted">Organic</small><br>
+                    <strong class="h4">49,123</strong>
                   </CCallout>
                 </CCol>
               </CRow>
-              <hr class="c-mt-0">
-              <ul class="c-horizontal-bars c-type-2">
-                <div class="c-progress-group">
-                  <div class="c-progress-group-header">
-                    <i class="cui-user c-progress-group-icon"></i>
-                    <span class="c-title">Male</span>
-                    <span class="c-ml-auto c-font-weight-bold">43%</span>
+              <hr class="mt-0">
+              <ul class="horizontal-bars type-2">
+                <div class="progress-group">
+                  <div class="progress-group-header">
+                    <i class="cui-user progress-group-icon"></i>
+                    <span class="title">Male</span>
+                    <span class="ml-auto font-weight-bold">43%</span>
                   </div>
-                  <div class="c-progress-group-bars">
+                  <div class="progress-group-bars">
                     <CProgress
-                      class="c-progress-xs"
+                      class="progress-xs"
                       :value="43"
-                      variant="warning"
+                      color="warning"
                     />
                   </div>
                 </div>
-                <div class="c-progress-group c-mb-5">
-                  <div class="c-progress-group-header">
-                    <i class="cui-user-female c-progress-group-icon"></i>
-                    <span class="c-title">Female</span>
-                    <span class="c-ml-auto c-font-weight-bold">37%</span>
+                <div class="progress-group mb-5">
+                  <div class="progress-group-header">
+                    <i class="cui-user-female progress-group-icon"></i>
+                    <span class="title">Female</span>
+                    <span class="ml-auto font-weight-bold">37%</span>
                   </div>
-                  <div class="c-progress-group-bars">
+                  <div class="progress-group-bars">
                     <CProgress
-                      class="c-progress-xs"
+                      class="progress-xs"
                       :value="37"
-                      variant="warning"
+                      color="warning"
                     />
                   </div>
                 </div>
-                <div class="c-progress-group">
-                  <div class="c-progress-group-header">
-                    <i class="cui-globe c-progress-group-icon"></i>
-                    <span class="c-title">Organic Search</span>
-                    <span class="c-ml-auto c-font-weight-bold">
+                <div class="progress-group">
+                  <div class="progress-group-header">
+                    <i class="cui-globe progress-group-icon"></i>
+                    <span class="title">Organic Search</span>
+                    <span class="ml-auto font-weight-bold">
                       191,235<span class="text-muted small">(56%)</span>
                     </span>
                   </div>
-                  <div class="c-progress-group-bars">
+                  <div class="progress-group-bars">
                     <CProgress
-                      class="c-progress-xs"
+                      class="progress-xs"
                       :value="56"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
-                <div class="c-progress-group">
-                  <div class="c-progress-group-header">
+                <div class="progress-group">
+                  <div class="progress-group-header">
                     <CIcon
                       name="socialFacebook"
                       height="17"
-                      class="c-progress-group-icon"
+                      class="progress-group-icon"
                     />
-                    <span class="c-title">Facebook</span>
-                    <span class="c-ml-auto c-font-weight-bold">
-                      51,223 <span class="c-text-muted small">(15%)</span>
+                    <span class="title">Facebook</span>
+                    <span class="ml-auto font-weight-bold">
+                      51,223 <span class="text-muted small">(15%)</span>
                     </span>
                   </div>
-                  <div class="c-progress-group-bars">
+                  <div class="progress-group-bars">
                     <CProgress
-                      class="c-progress-xs"
+                      class="progress-xs"
                       :value="15"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
-                <div class="c-progress-group">
-                  <div class="c-progress-group-header">
+                <div class="progress-group">
+                  <div class="progress-group-header">
                     <CIcon
                       name="socialTwitter"
                       height="17"
-                      class="c-progress-group-icon"
+                      class="progress-group-icon"
                     />
-                    <span class="c-title">Twitter</span>
-                    <span class="c-ml-auto c-font-weight-bold">
-                      37,564 <span class="c-text-muted c-small">(11%)</span>
+                    <span class="title">Twitter</span>
+                    <span class="ml-auto font-weight-bold">
+                      37,564 <span class="text-muted small">(11%)</span>
                     </span>
                   </div>
-                  <div class="c-progress-group-bars">
+                  <div class="progress-group-bars">
                     <CProgress
-                      class="c-progress-xs"
+                      class="progress-xs"
                       :value="11"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
-                <div class="c-progress-group">
-                  <div class="c-progress-group-header">
+                <div class="progress-group">
+                  <div class="progress-group-header">
                     <CIcon
                       name="socialLinkedin"
                       height="17"
-                      class="c-progress-group-icon"
+                      class="progress-group-icon"
                     />
-                    <span class="c-title">LinkedIn</span>
-                    <span class="c-ml-auto c-font-weight-bold">
-                      27,319 <span class="c-text-muted small">&nbsp;(8%)</span>
+                    <span class="title">LinkedIn</span>
+                    <span class="ml-auto font-weight-bold">
+                      27,319 <span class="text-muted small">&nbsp;(8%)</span>
                     </span>
                   </div>
-                  <div class="c-progress-group-bars">
+                  <div class="progress-group-bars">
                     <CProgress
-                      class="c-progress-xs"
+                      class="progress-xs"
                       :value="8"
-                      variant="success"
+                      color="success"
                     />
                   </div>
                 </div>
-                <div class="c-divider c-text-center">
-                  <CButton variant="link" size="sm" class="c-text-muted">
+                <div class="divider text-center">
+                  <CButton color="link" size="sm" class="text-muted">
                     <i class="cui-options"></i>
                   </CButton>
                 </div>
@@ -377,25 +377,25 @@
           </CRow>
           <br/>
           <CTable
-            class="c-mb-0 c-table-outline"
+            class="mb-0 table-outline"
             hover
             :items="tableItems"
             :fields="tableFields"
-            head-variant="light"
+            head-color="light"
             no-sorting
           >
-            <td slot="avatar" class="c-text-center" slot-scope="{item}">
+            <td slot="avatar" class="text-center" slot-scope="{item}">
               <div class="c-avatar">
-                <img :src="item.avatar.url" class="c-img-avatar" alt="">
+                <img :src="item.avatar.url" class="c-avatar-img" alt="">
                 <span
                   class="c-avatar-status"
-                  :class="`c-bg-${item.avatar.status || 'secondary'}`"
+                  :class="`bg-${item.avatar.status || 'secondary'}`"
                 ></span>
               </div>
             </td>
             <td slot="user" slot-scope="{item}">
               <div>{{item.user.name}}</div>
-              <div class="c-small c-text-muted">
+              <div class="small text-muted">
                 <span>
                   <template v-if="item.user.new">New</template>
                   <template v-else>Recurring</template>
@@ -405,7 +405,7 @@
             <td
               slot="country"
               slot-scope="{item}"
-              class="c-text-center"
+              class="text-center"
             >
               <CIcon
                 :name="item.country.flag"
@@ -413,24 +413,24 @@
               />
             </td>
             <td slot="usage" slot-scope="{item}">
-              <div class="c-clearfix">
-                <div class="c-float-left">
+              <div class="clearfix">
+                <div class="float-left">
                   <strong>{{item.usage.value}}%</strong>
                 </div>
-                <div class="c-float-right">
-                  <small class="c-text-muted">{{item.usage.period}}</small>
+                <div class="float-right">
+                  <small class="text-muted">{{item.usage.period}}</small>
                 </div>
               </div>
               <CProgress
-                class="c-progress-xs"
+                class="progress-xs"
                 v-model="item.usage.value"
-                :variant="variant(item.usage.value)"
+                :color="color(item.usage.value)"
               />
             </td>
             <td
               slot="payment"
               slot-scope="{item}"
-              class="c-text-center"
+              class="text-center"
             >
               <CIcon
                 :name="item.payment.icon"
@@ -438,7 +438,7 @@
               />
             </td>
             <td slot="activity" slot-scope="{item}">
-              <div class="c-small c-text-muted">Last login</div>
+              <div class="small text-muted">Last login</div>
               <strong>{{item.activity}}</strong>
             </td>
           </CTable>
@@ -452,15 +452,13 @@
 import MainChartExample from './charts/MainChartExample'
 import WidgetsDropdown from './widgets/WidgetsDropdown'
 import WidgetsBrand from './widgets/WidgetsBrand'
-import CChartLineSimple from './charts/CChartLineSimple'
 
 export default {
   name: 'Dashboard',
   components: {
     MainChartExample,
     WidgetsDropdown,
-    WidgetsBrand,
-    CChartLineSimple
+    WidgetsBrand
   },
   data () {
     return {
@@ -516,36 +514,29 @@ export default {
         }
       ],
       tableFields: [
-        { key: 'avatar', label: '', _classes: 'c-text-center' },
+        { key: 'avatar', label: '', _classes: 'text-center' },
         { key: 'user' },
-        { key: 'country', _classes: 'c-text-center' },
+        { key: 'country', _classes: 'text-center' },
         { key: 'usage' },
-        { key: 'payment', label: 'Payment method', _classes: 'c-text-center' },
+        { key: 'payment', label: 'Payment method', _classes: 'text-center' },
         { key: 'activity' },
       ]
     }
   },
   methods: {
-    variant (value) {
-      let $variant
+    color (value) {
+      let $color
       if (value <= 25) {
-        $variant = 'info'
+        $color = 'info'
       } else if (value > 25 && value <= 50) {
-        $variant = 'success'
+        $color = 'success'
       } else if (value > 50 && value <= 75) {
-        $variant = 'warning'
+        $color = 'warning'
       } else if (value > 75 && value <= 100) {
-        $variant = 'danger'
+        $color = 'danger'
       }
-      return $variant
+      return $color
     }
   }
 }
 </script>
-
-<style>
-  /* IE fix */
-  #card-chart-01, #card-chart-02 {
-    width: 100% !important;
-  }
-</style>

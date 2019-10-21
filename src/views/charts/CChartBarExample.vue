@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { CChartBar } from '@coreui/coreui-vue-chartjs'
+import { CChartBar } from '@coreui/coreui-chartjs/vue'
 
 export default {
   name: 'CChartBarExample',

@@ -5,6 +5,16 @@
         <CCard>
           <CCardHeader>
             Tabs
+            <div class="card-header-actions">
+              <a 
+                href="https://coreui.io/vue/docs/3.0/components/Tabs" 
+                class="card-header-action" 
+                rel="noreferrer noopener" 
+                target="_blank"
+              >
+                <small class="text-muted">docs</small>
+              </a>
+            </div>
           </CCardHeader>
           <CCardBody>
             <CTabs>
@@ -15,7 +25,7 @@
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab title-html="Profile" >
+              <CTab title-html="Profile">
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -47,7 +57,7 @@
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab title-html="Profile" >
+              <CTab title-html="Profile">
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -106,13 +116,13 @@
           </CCardBody>
         </CCard>
       </CCol>
-      <!-- <CCol xs="12" lg="6">
+      <CCol xs="12" lg="6">
         <CCard>
           <CCardHeader>
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs add-tab-classes="c-mt-1">
+            <CTabs add-tab-classes="mt-1">
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i> {{tabs[0]}}
@@ -146,14 +156,14 @@
             </CTabs>
           </CCardBody>
         </CCard>
-      </CCol> -->
+      </CCol>
       <CCol xs="12" lg="6">
         <CCard>
           <CCardHeader>
             Tabs vertical
           </CCardHeader>
           <CCardBody>
-            <CTabs pills vertical add-tabs-wrapper-classes="c-pl-3">
+            <CTabs pills vertical>
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i> {{tabs[0]}}
@@ -194,7 +204,7 @@
 
 <script>
 export default {
-  name: 'tabs',
+  name: 'Tabs',
   data () {
     return {
       tabs: [

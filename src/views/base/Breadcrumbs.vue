@@ -1,74 +1,96 @@
 <template>
-  <div class="c-wrapper">
-    <div>
-      <CRow>
-        <CCol col>
-          <CCard>
-            <CCardHeader>
-              <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
-              <!-- <div class="card-header-actions">
-                <a href="https://bootstrap-vue.js.org/docs/components/breadcrumb" class="card-header-action" rel="noreferrer noopener" target="_blank">
-                  <small class="text-muted">docs</small>
-                </a>
-              </div> -->
-            </CCardHeader>
-            <CCardBody>
-              <CBreadcrumb :items="items" add-link-classes="sss" last-item-classes="aaa"/>
-              <CBreadcrumb :items="items2"/>
-              <CBreadcrumb :items="items3"/>
-            </CCardBody>
-          </CCard>
-        </CCol>
-      </CRow>
-    </div>
-  </div>
+  <CRow>
+    <CCol col>
+      <CCard>
+        <CCardHeader>
+          <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
+          <div class="card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/3.0/components/Breadcrumb" 
+              class="card-header-action" 
+              rel="noreferrer noopener" 
+              target="_blank"
+            >
+              <small class="text-muted">docs</small>
+            </a>
+          </div>
+        </CCardHeader>
+        <CCardBody>
+          <CBreadcrumb :items="items"/>
+          <CBreadcrumb :items="items2"/>
+          <CBreadcrumb :items="items3"/>
+        </CCardBody>
+      </CCard>
+    </CCol>
+  </CRow>
 </template>
 
 <script>
 export default {
-  name: 'breadcrumbs',
+  name: 'Breadcrumbs',
   data () {
     return {
-      items: [{
-        textHtml: '<b>Admin</b>',
-        href: '#'
-      }, {
-        textHtml: 'Manage',
-        href: '#'
-      }, {
-        textHtml: 'Library'
-      }],
+      items: [
+        {
+          text: '<b>Admin</b>',
+          href: '#'
+        }, 
+        {
+          text: 'Manage',
+          href: '#'
+        }, 
+        {
+          text: 'Library'
+        }
+      ],
 
 
-      items2: [{
-        textHtml: 'Go to dashboard',
-        to: '/dashboard'
-      }, {
-        textHtml: 'Go to widgets',
-        to: '/Widgets'
-      }, {
-        textHtml: 'Go to Google',
-        href: 'http://google.com'
-      },{
-        textHtml: 'Current page'
-      }],
+      items2: [
+        {
+          text: 'Go to dashboard',
+          to: '/dashboard'
+        }, 
+        {
+          text: 'Go to widgets',
+          to: '/Widgets'
+        }, 
+        {
+          text: 'Go to Google',
+          href: 'http://google.com'
+        },
+        {
+          text: 'Current page'
+        }
+      ],
 
 
-      items3: [{
-        textHtml: 'Link',
-        to: '#2',
-        activeClass: 'c-bg-info c-p-1'
-      }, {
-        textHtml: 'Active',
-        to: '#3',
-        activeClass: 'c-bg-warning c-p-1',
-        addLinkClasses: 'c-bg-info c-p-1'
-      },{
-        textHtml: 'Classes',
-        to: '#4',
-        activeClass: 'c-bg-danger c-p-1',
-      }]
+      items3: [
+        {
+          text: 'Added',
+          to: '#2',
+          addClasses: 'font-xl'
+        }, 
+        {
+          text: 'Custom',
+          to: '#3',
+          addClasses: 'font-xl'
+        },
+        {
+          text: 'Classes',
+          to: '#4',
+          addClasses: 'font-xl text-danger'
+        }
+      ]
     }
   }
 }
 </script>
+
+<style>
+  .breadcrumb-item + .font-xl.breadcrumb-item::before {
+    color: rgb(140, 195, 38);
+    content: '>>';
+    padding: 0px 10px;
+
+  }
+</style>

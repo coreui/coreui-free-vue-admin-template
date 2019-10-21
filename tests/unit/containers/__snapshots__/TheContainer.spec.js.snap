@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheContainer.vue renders correctly 1`] = `
+<div
+  class="c-app"
+>
+  <thesidebar-stub />
+   
+  <div
+    class="c-wrapper"
+  >
+    <theheader-stub />
+     
+    <div
+      class="c-body"
+    >
+      <main
+        class="c-main"
+      >
+        <ccontainer-stub
+          fluid="true"
+        >
+          <router-view-stub
+            name="fade"
+          />
+        </ccontainer-stub>
+      </main>
+    </div>
+     
+    <thefooter-stub />
+  </div>
+</div>
+`;

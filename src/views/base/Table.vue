@@ -8,13 +8,13 @@
       :fixed="fixed"
       :items="items"
       :fields="fields"
-      :per-page="small ? 10 : 5"
+      :items-per-page="small ? 10 : 5"
       :dark="dark"
-      no-sorting
+      pagination
     >
       <template #status="{item}">
         <td>
-          <CBadge :variant="getBadge(item.status)">{{item.status}}</CBadge>
+          <CBadge :color="getBadge(item.status)">{{item.status}}</CBadge>
         </td>
       </template>
     </CTable>
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'TableWrapper',
+  name: 'Table',
   props: {
     items: Array,
     fields: {
@@ -49,7 +49,7 @@ export default {
         : status === 'Inactive' ? 'secondary'
           : status === 'Pending' ? 'warning'
             : status === 'Banned' ? 'danger' : 'primary'
-    },
+    }
   }
 }
 </script>

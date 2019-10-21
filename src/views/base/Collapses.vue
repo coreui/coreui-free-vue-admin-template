@@ -1,44 +1,45 @@
 <template>
-  <div class="c-wrapper">
-    <div>
-      <CRow>
-        <CCol col="12" md="6">
-          <CCard>
-            <CCardHeader>
-              <i class="fa fa-align-justify"></i>
-              <strong> Bootstrap Collapse </strong>
-              <!-- <div class="card-header-actions">
-                <CLink class="card-header-action">
-                  <small class="text-muted">docs</small>
-                </CLink>
-              </div> -->
-            </CCardHeader>
-            <CCardBody>
-              <CButton id="collapse1" variant="primary">
-                Toggle Collapse
+  <CRow>
+    <CCol col="12" md="6">
+      <CCard>
+        <CCardHeader>
+          <i class="fa fa-align-justify"></i>
+          <strong> Bootstrap Collapse </strong>
+          <div class="card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/3.0/components/Collapse" 
+              class="card-header-action" 
+              rel="noreferrer noopener" 
+              target="_blank"
+            >
+              <small class="text-muted">docs</small>
+            </a>
+          </div>
+        </CCardHeader>
+        <CCardBody>
+          <CButton id="collapse1" color="primary">
+            Toggle Collapse
+          </CButton>
+          <CCollapse toggler="collapse1" class="mt-2">
+            <CCard body-wrapper>
+              <p class="card-text">Collapse contents Here</p>
+              <CButton id="collapse2" size="sm" color="secondary">
+                Toggle Inner Collapse
               </CButton>
-              <CCollapse toggler="collapse1" class="c-mt-2">
-                <CCard body-wrapper>
-                  <p class="c-card-text">Collapse contents Here</p>
-                  <CButton id="collapse2" size="sm">
-                    Toggle Inner Collapse
-                  </CButton>
-                  <CCollapse toggler="collapse2" class="c-mt-2">
-                    <CCard body-wrapper>Hello!</CCard>
-                  </CCollapse>
-                </CCard>
+              <CCollapse toggler="collapse2" class="mt-2">
+                <CCard body-wrapper>Hello!</CCard>
               </CCollapse>
-            </CCardBody>
-          </CCard>
-        </CCol>
-      </CRow>
-    </div>
-  </div>
+            </CCard>
+          </CCollapse>
+        </CCardBody>
+      </CCard>
+    </CCol>
+  </CRow>
 </template>
 
 <script>
 export default {
-  name: 'collapses',
+  name: 'Collapses',
   data () {
     return {
       showCollapse: true,

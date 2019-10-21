@@ -1,10 +1,22 @@
 <template>
-  <CSidebar fixed>
-    <CSidebarHeader/>
-    <CSidebarForm/>
-    <CSidebarNav :nav-items="computedNav"/>
-    <CSidebarFooter/>
-    <CSidebarMinimizer/>
+  <CSidebar 
+    fixed 
+    :minimize="minimize"
+    :show="show"
+  >
+    <CSidebarBrand 
+      fullSrc="img/brand/coreui-base-white.svg" 
+      minimizedSrc="img/brand/coreui-signet-white.svg"
+      :wrappedInLink="{ href: 'https://coreui.io/', target: '_blank'}"
+    />
+    <!-- <CSidebarHeader/> -->
+    <!-- <CSidebarForm/> -->
+    <CRenderFunction :contentToRender="nav"/>
+    <!-- <CSidebarFooter/> -->
+    <CSidebarMinimizer 
+      class="d-md-down-none"
+      @click.native="minimize = !minimize"
+    />
   </CSidebar>
 </template>
 
@@ -12,10 +24,15 @@
 import nav from './_nav'
 export default {
   name: 'TheSidebar',
-  computed: {
-    computedNav () {
-      return nav.items.filter(item => item.name !== 'Dashboard')
+  data () {
+    return {
+      minimize: false,
+      nav,
+      show: true
     }
+  },
+  mounted () {
+    this.$root.$on('toggle-sidebar', () => this.show = !this.show)
   }
 }
 </script>

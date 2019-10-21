@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // Containers
-const DefaultContainer = () => import('@/containers/DefaultContainer')
+const TheContainer = () => import('@/containers/TheContainer')
 
 // Views
 const Dashboard = () => import('@/views/Dashboard')
@@ -10,7 +10,7 @@ const Dashboard = () => import('@/views/Dashboard')
 const Colors = () => import('@/views/theme/Colors')
 const Typography = () => import('@/views/theme/Typography')
 
-const Charts = () => import('@/views/Charts')
+const Charts = () => import('@/views/charts/Charts')
 const Widgets = () => import('@/views/widgets/Widgets')
 
 // Views - Components
@@ -61,14 +61,18 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'hash', // https://router.vuejs.org/api/#mode
-  linkActiveClass: 'c-active',
+  linkActiveClass: 'active',
   scrollBehavior: () => ({ y: 0 }),
-  routes: [
+  routes: configRoutes()
+})
+
+function configRoutes () {
+  return [
     {
       path: '/',
       redirect: '/dashboard',
       name: 'Home',
-      component: DefaultContainer,
+      component: TheContainer,
       children: [
         {
           path: 'dashboard',
@@ -327,4 +331,5 @@ export default new Router({
       ]
     }
   ]
-})
+}
+

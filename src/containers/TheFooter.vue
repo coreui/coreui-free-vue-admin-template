@@ -2,10 +2,10 @@
   <CFooter>
     <div>
       <a href="https://coreui.io">CoreUI</a>
-      <span class="c-ml-1">&copy; 2018 creativeLabs.</span>
+      <span class="ml-1">&copy; 2019 creativeLabs.</span>
     </div>
-    <div class="c-ml-auto">
-      <span class="c-mr-1">Powered by</span>
+    <div class="ml-auto">
+      <span class="mr-1">Powered by</span>
       <a href="https://coreui.io">CoreUI for Vue</a>
     </div>
   </CFooter>

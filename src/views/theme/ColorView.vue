@@ -1,13 +1,13 @@
 <template>
-  <table class="c-w-100">
+  <table class="w-100">
     <tbody>
     <tr>
-      <td class="c-text-muted">HEX:</td>
-      <td class="c-font-weight-bold">{{this.hexColor}}</td>
+      <td class="text-muted">HEX:</td>
+      <td class="font-weight-bold">{{this.hexColor}}</td>
     </tr>
     <tr>
-      <td class="c-text-muted">RGB:</td>
-      <td class="c-font-weight-bold">{{this.bgColor}}</td>
+      <td class="text-muted">RGB:</td>
+      <td class="font-weight-bold">{{this.bgColor}}</td>
     </tr>
     </tbody>
   </table>
