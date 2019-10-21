@@ -3,8 +3,10 @@
 exports[`TheSidebar.vue renders correctly 1`] = `
 <csidebar-stub
   breakpoint="lg"
-  dropdownstateonroutechange="openActive"
+  colorscheme="dark"
+  dropdownmode="openActive"
   fixed="true"
+  hideonmobileclick="true"
   show="true"
 >
   <csidebarbrand-stub

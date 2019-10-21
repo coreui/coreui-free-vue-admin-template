@@ -2,14 +2,8 @@
 
 exports[`Navs.vue renders correctly 1`] = `
 <div>
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -35,10 +29,7 @@ exports[`Navs.vue renders correctly 1`] = `
       </div>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnav-stub>
         <cnavitem-stub
           active="true"
@@ -88,14 +79,8 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -109,10 +94,7 @@ exports[`Navs.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnav-stub>
         <cnavitem-stub
           active="true"
@@ -169,14 +151,8 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -190,10 +166,7 @@ exports[`Navs.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnav-stub
         tabs="true"
       >
@@ -252,14 +225,8 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -273,10 +240,7 @@ exports[`Navs.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnav-stub
         pills="true"
       >
@@ -329,14 +293,8 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -350,10 +308,7 @@ exports[`Navs.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnav-stub
         fill="true"
         tabs="true"
@@ -407,14 +362,8 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -428,10 +377,7 @@ exports[`Navs.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnav-stub
         justified="true"
         tabs="true"
@@ -485,14 +431,8 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -506,10 +446,7 @@ exports[`Navs.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnav-stub
         pills="true"
       >
@@ -538,8 +475,10 @@ exports[`Navs.vue renders correctly 1`] = `
          
         <cdropdown-stub
           button-content="Dropdown"
+          caret="true"
+          flip="true"
           id="nav7_ddown"
-          nav="true"
+          nav=""
           placement="bottom-end"
           togglertext="Dropdown"
         >
@@ -581,14 +520,8 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -602,11 +535,10 @@ exports[`Navs.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <crow-stub>
+    <ccardbody-stub>
+      <crow-stub
+        gutters="true"
+      >
         <ccol-stub
           class="m-0"
           col="3"

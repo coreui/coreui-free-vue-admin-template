@@ -2,19 +2,15 @@
 
 exports[`ListGroups.vue renders correctly 1`] = `
 <div>
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -41,19 +37,16 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </div>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Cras justo odio
@@ -64,7 +57,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Dapibus ac facilisis in
@@ -75,7 +68,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Morbi leo risus
@@ -86,7 +79,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Porta ac consectetur ac
@@ -97,7 +90,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Vestibulum at eros
@@ -111,14 +104,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -130,19 +117,16 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Cras justo odio
@@ -154,7 +138,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Dapibus ac facilisis in
@@ -165,7 +149,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Morbi leo risus
@@ -176,7 +160,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Porta ac consectetur ac
@@ -187,7 +171,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Vestibulum at eros
@@ -198,19 +182,15 @@ exports[`ListGroups.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -224,12 +204,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
@@ -237,7 +214,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Cras justo odio
@@ -248,7 +225,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Dapibus ac facilisis in
@@ -259,7 +236,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Morbi leo risus
@@ -271,7 +248,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Porta ac consectetur ac
@@ -282,7 +259,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Vestibulum at eros
@@ -296,14 +273,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -317,12 +288,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
@@ -330,7 +298,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#some-link"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Awesome link
@@ -343,7 +311,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Link with active state
@@ -355,7 +323,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Action links are easy
@@ -368,7 +336,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#foobar"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               Disabled link
@@ -379,19 +347,15 @@ exports[`ListGroups.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -405,12 +369,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
@@ -465,14 +426,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -486,12 +441,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
@@ -499,7 +451,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               
@@ -525,7 +477,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               
@@ -551,7 +503,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               
@@ -576,19 +528,15 @@ exports[`ListGroups.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -602,19 +550,16 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a default list group item
@@ -626,7 +571,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a primary list group item
@@ -638,7 +583,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a secondary list group item
@@ -650,7 +595,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a success list group item
@@ -662,7 +607,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a danger list group item
@@ -674,7 +619,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a warning list group item
@@ -686,7 +631,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a info list group item
@@ -698,7 +643,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a light list group item
@@ -710,7 +655,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a dark list group item
@@ -724,14 +669,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -745,12 +684,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               activeclass="active"
@@ -758,7 +694,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a default list group item
@@ -771,7 +707,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a primary list group item
@@ -784,7 +720,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a secondary list group item
@@ -797,7 +733,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a success list group item
@@ -810,7 +746,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a danger list group item
@@ -823,7 +759,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a warning list group item
@@ -836,7 +772,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a info list group item
@@ -849,7 +785,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a light list group item
@@ -862,7 +798,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               This is a dark list group item
@@ -873,19 +809,15 @@ exports[`ListGroups.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       col="12"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -899,20 +831,15 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <ccardgroup-stub
             deck="true"
           >
             <ccard-stub
               headerhtml=<b>Card with list group</b>
-              subtitletag="h6"
-              titletag="h4"
             >
               <clistgroup-stub
-                tag="div"
+                tag="ul"
               >
                 <clistgroupitem-stub
                   activeclass="active"
@@ -920,7 +847,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                   exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="div"
+                  tag="li"
                   target="_self"
                 >
                   Cras justo odio
@@ -932,7 +859,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                   exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="div"
+                  tag="li"
                   target="_self"
                 >
                   Dapibus ac facilisis in
@@ -944,7 +871,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                   exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="div"
+                  tag="li"
                   target="_self"
                 >
                   Vestibulum at eros
@@ -965,12 +892,10 @@ exports[`ListGroups.vue renders correctly 1`] = `
              
             <ccard-stub
               header=<b>Card with flush list group</b>
-              subtitletag="h6"
-              titletag="h4"
             >
               <clistgroup-stub
                 flush="true"
-                tag="div"
+                tag="ul"
               >
                 <clistgroupitem-stub
                   activeclass="active"
@@ -978,7 +903,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                   exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="div"
+                  tag="li"
                   target="_self"
                 >
                   Cras justo odio
@@ -990,7 +915,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                   exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="div"
+                  tag="li"
                   target="_self"
                 >
                   Dapibus ac facilisis in
@@ -1002,17 +927,14 @@ exports[`ListGroups.vue renders correctly 1`] = `
                   exactactiveclass="active"
                   href="#"
                   routertag="a"
-                  tag="div"
+                  tag="li"
                   target="_self"
                 >
                   Vestibulum at eros
                 </clistgroupitem-stub>
               </clistgroup-stub>
                
-              <ccardbody-stub
-                subtitletag="h6"
-                titletag="h4"
-              >
+              <ccardbody-stub>
                 
                 Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
                 nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
@@ -1027,19 +949,15 @@ exports[`ListGroups.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -1051,12 +969,9 @@ exports[`ListGroups.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <clistgroup-stub
-            tag="div"
+            tag="ul"
           >
             <clistgroupitem-stub
               active="true"
@@ -1066,7 +981,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               <div
@@ -1104,7 +1019,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               <div
@@ -1147,7 +1062,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="div"
+              tag="li"
               target="_self"
             >
               <div

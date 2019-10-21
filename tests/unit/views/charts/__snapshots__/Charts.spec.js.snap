@@ -6,14 +6,8 @@ exports[`Charts.vue renders correctly 1`] = `
     class="card-columns cols-2"
     columns="true"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         
         Line Chart
         
@@ -35,10 +29,7 @@ exports[`Charts.vue renders correctly 1`] = `
         </div>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <cchartlineexample-stub />
       </ccardbody-stub>
     </ccard-stub>
@@ -46,8 +37,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Bar Chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartbarexample-stub />
     </ccard-stub>
@@ -55,8 +44,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Doughnut Chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartdoughnutexample-stub />
     </ccard-stub>
@@ -64,8 +51,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Radar Chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartradarexample-stub />
     </ccard-stub>
@@ -73,8 +58,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Pie Chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartpieexample-stub />
     </ccard-stub>
@@ -82,8 +65,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Polar Area Chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartpolarareaexample-stub />
     </ccard-stub>
@@ -91,8 +72,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Simple line chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartlinesimple-stub
         backgroundcolor="transparent"
@@ -106,8 +85,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Simple pointed chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartlinesimple-stub
         backgroundcolor="transparent"
@@ -121,8 +98,6 @@ exports[`Charts.vue renders correctly 1`] = `
     <ccard-stub
       bodywrapper="true"
       headerhtml="Simple bar chart"
-      subtitletag="h6"
-      titletag="h4"
     >
       <cchartbarsimple-stub
         backgroundcolor="danger"

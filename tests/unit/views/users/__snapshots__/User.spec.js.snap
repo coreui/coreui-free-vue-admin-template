@@ -1,44 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`User.vue renders correctly 1`] = `
-<crow-stub>
+<crow-stub
+  gutters="true"
+>
   <ccol-stub
     col="12"
     lg="6"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         
         User id:  
       
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <ctable-stub
           defaultsorter="[object Object]"
           fields="[object Object],[object Object]"
           fixed="true"
           items="[object Object]"
           itemsperpage="10"
-          small="true"
+          responsive="true"
+          small=""
           striped="true"
         />
       </ccardbody-stub>
        
-      <ccardfooter-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardfooter-stub>
         <cbutton-stub
           activeclass="active"
           color="primary"

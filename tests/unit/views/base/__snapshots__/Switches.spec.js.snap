@@ -2,20 +2,16 @@
 
 exports[`Switches.vue renders correctly 1`] = `
 <div>
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Radio switches
           
@@ -50,10 +46,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </div>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             class="mx-1"
             color="primary"
@@ -148,20 +141,16 @@ exports[`Switches.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch default
           
@@ -178,10 +167,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </cbadge-stub>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -248,23 +234,14 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch pills
         
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -345,23 +322,14 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           3d Switch
         
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -442,14 +410,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           3d Switch 
           <small>
@@ -459,10 +421,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -551,14 +510,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           3d Switch 
           <small>
@@ -568,10 +521,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -661,14 +611,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           3d Switch 
           <small>
@@ -678,10 +622,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -780,14 +721,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           3d Switch 
           <small>
@@ -797,10 +732,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -908,14 +840,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           3d Switch 
           <small>
@@ -925,10 +851,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1018,14 +941,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1035,10 +952,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1119,14 +1033,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1136,10 +1044,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1229,14 +1134,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1246,10 +1145,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1330,14 +1226,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1347,10 +1237,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1440,14 +1327,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1457,10 +1338,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1532,14 +1410,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1549,10 +1421,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1633,14 +1502,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1650,10 +1513,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1734,14 +1594,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1751,10 +1605,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1844,14 +1695,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1861,10 +1706,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -1945,14 +1787,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -1962,10 +1798,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -2055,14 +1888,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -2072,10 +1899,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -2167,14 +1991,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -2184,10 +2002,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -2286,14 +2101,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -2303,10 +2112,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -2405,14 +2211,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -2422,10 +2222,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -2533,14 +2330,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -2550,10 +2341,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -2652,14 +2440,8 @@ exports[`Switches.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Switch 
           <small>
@@ -2669,10 +2451,7 @@ exports[`Switches.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cswitch-stub
             checked="true"
             class="mx-1"
@@ -2779,14 +2558,8 @@ exports[`Switches.vue renders correctly 1`] = `
       md="12"
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Sizes
         
@@ -2794,8 +2567,6 @@ exports[`Switches.vue renders correctly 1`] = `
          
         <ccardbody-stub
           class="p-0"
-          subtitletag="h6"
-          titletag="h4"
         >
           <ctable-stub
             class="table-align-middle mb-0"
@@ -2805,6 +2576,7 @@ exports[`Switches.vue renders correctly 1`] = `
             items="[object Object],[object Object],[object Object]"
             itemsperpage="10"
             no-sorting=""
+            responsive="true"
             striped="true"
           />
         </ccardbody-stub>

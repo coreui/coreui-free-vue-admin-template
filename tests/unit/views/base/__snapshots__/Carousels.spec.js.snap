@@ -43,8 +43,6 @@ exports[`Carousels.vue renders correctly 1`] = `
       <div
         class="card-body"
       >
-        <!---->
-        <!---->
         <div
           class="carousel slide"
           style="height: 400px;"
@@ -88,8 +86,9 @@ exports[`Carousels.vue renders correctly 1`] = `
               class="carousel-item"
             >
               <svg
+                blankColor="grey"
                 class="d-block w-100 h-100 img-fluid"
-                style="background-color: grey;"
+                style="background-color: transparent;"
               />
               <div
                 class="carousel-caption"

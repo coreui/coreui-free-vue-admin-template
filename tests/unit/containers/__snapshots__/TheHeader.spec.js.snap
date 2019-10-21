@@ -2,13 +2,16 @@
 
 exports[`TheHeader.vue renders correctly 1`] = `
 <cheader-stub
+  colorscheme="light"
   fixed="true"
-  light="true"
+  light=""
+  tag="header"
   withsubheader="true"
 >
-  <ctoggler
+  <ctoggler-stub
     class="c-header-toggler ml-3"
-    in-header=""
+    inheader="true"
+    tag="button"
   />
    
   <img
@@ -19,7 +22,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
     width="97"
   />
    
-  <cheadernav
+  <cheadernav-stub
     class="d-md-down-none mr-auto"
   >
     <cheadernavitem-stub
@@ -60,9 +63,9 @@ exports[`TheHeader.vue renders correctly 1`] = `
     >
       Settings
     </cheadernavitem-stub>
-  </cheadernav>
+  </cheadernav-stub>
    
-  <cheadernav
+  <cheadernav-stub
     class="mr-4"
   >
     <cheadernavitem-stub
@@ -108,7 +111,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
     </cheadernavitem-stub>
      
     <theheaderdropdownaccnt-stub />
-  </cheadernav>
+  </cheadernav-stub>
    
   <div
     class="c-subheader px-3"

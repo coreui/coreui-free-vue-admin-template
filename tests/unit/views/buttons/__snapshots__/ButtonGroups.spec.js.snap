@@ -1,19 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ButtonGroups.vue renders correctly 1`] = `
-<crow-stub>
+<crow-stub
+  gutters="true"
+>
   <ccol-stub
     col="12"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -40,10 +36,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         </div>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <div>
           <cbuttongroup-stub>
             <cbutton-stub
@@ -195,14 +188,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
     col="12"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -214,10 +201,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
       
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <div>
           <cbuttongroup-stub>
             <cbutton-stub
@@ -351,14 +335,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
     col="12"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -369,10 +347,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
       
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <div>
           <cbuttongroup-stub>
             <cbutton-stub
@@ -402,7 +377,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cdropdown-stub
+              caret="true"
               color="success"
+              flip="true"
               placement="bottom-start"
               right=""
               text="Menu"
@@ -457,7 +434,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cdropdown-stub
+              caret="true"
               color="info"
+              flip="true"
               placement="bottom-start"
               right=""
               split="true"
@@ -508,14 +487,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
     col="12"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -527,10 +500,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
       
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <div>
           <cbuttongroup-stub
             vertical="true"
@@ -580,14 +550,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
     col="12"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -601,10 +565,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         </small>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <cbuttontoolbar-stub
           aria-label="Toolbar with button groups"
         >
@@ -745,19 +706,21 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
           </cbuttongroup-stub>
            
-          <cinput
-            append-html=".00"
+          <cinput-stub
+            appendhtml=".00"
             class="mb-0 w-25 mx-1"
-            prepend-html="$"
+            lazy="400"
+            prependhtml="$"
             size="sm"
+            type="text"
             value="100"
           />
            
-          <cselect
+          <cselect-stub
             class="mb-0 w-25 mx-1"
-            custom=""
+            custom="true"
             options="Large,Medium,Small"
-            prepend-html="Size"
+            prependhtml="Size"
             size="sm"
             value="Medium"
           />
@@ -839,8 +802,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
            
           <cdropdown-stub
             button-content="Menu"
+            caret="true"
             class="mx-1"
             color="secondary"
+            flip="true"
             placement="bottom-end"
             togglertext="Dropdown"
           >

@@ -1,20 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Alerts.vue renders correctly 1`] = `
-<crow-stub>
+<crow-stub
+  gutters="true"
+>
   <ccol-stub
     col="12"
     md="6"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -41,10 +37,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         </div>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <div>
           <p />
            
@@ -113,14 +106,8 @@ exports[`Alerts.vue renders correctly 1`] = `
     md="6"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -135,10 +122,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         </small>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <div>
           <calert-stub
             color="primary"
@@ -285,14 +269,8 @@ exports[`Alerts.vue renders correctly 1`] = `
     md="6"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -302,10 +280,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         </small>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <calert-stub
           color="success"
           show="true"
@@ -343,14 +318,8 @@ exports[`Alerts.vue renders correctly 1`] = `
     md="6"
     tag="div"
   >
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -361,10 +330,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         </small>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <calert-stub
           closebutton="true"
           color="secondary"
@@ -409,14 +375,8 @@ exports[`Alerts.vue renders correctly 1`] = `
       </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <ccardheader-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+    <ccard-stub>
+      <ccardheader-stub>
         <i
           class="fa fa-align-justify"
         />
@@ -427,10 +387,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         </small>
       </ccardheader-stub>
        
-      <ccardbody-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
+      <ccardbody-stub>
         <div>
           <calert-stub
             closebutton="true"

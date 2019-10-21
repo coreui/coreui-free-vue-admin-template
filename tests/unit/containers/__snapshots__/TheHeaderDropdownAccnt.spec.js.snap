@@ -3,9 +3,11 @@
 exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
 <cdropdown-stub
   addmenuclasses="pt-0"
+  caret="true"
   class="c-header-nav-items"
-  nav="true"
-  nocaret="true"
+  flip="true"
+  nav=""
+  no-caret=""
   placement="bottom-end"
   togglertext="Dropdown"
 >

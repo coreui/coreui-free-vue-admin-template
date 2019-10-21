@@ -39,8 +39,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         
@@ -106,18 +104,17 @@ exports[`Cards.vue renders correctly 1`] = `
           Card with switch
           
           <label
-            class="float-right switch form-check-label switch-undefined switch-sm switch-pill"
+            class="float-right c-switch form-check-label c-switch-info c-switch-sm c-switch-pill"
           >
             <input
-              class="switch-input form-check-input"
-              color="info"
+              class="c-switch-input form-check-input"
               data-off="Off"
               data-on="On"
               type="checkbox"
               value=""
             />
             <span
-              class="switch-slider"
+              class="c-switch-slider"
             />
           </label>
         </header>
@@ -125,8 +122,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         
@@ -149,8 +144,7 @@ exports[`Cards.vue renders correctly 1`] = `
           Card with label
           
           <span
-            class="badge float-right"
-            color="success"
+            class="badge float-right badge-success"
           >
             Success
           </span>
@@ -159,8 +153,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         
@@ -183,8 +175,7 @@ exports[`Cards.vue renders correctly 1`] = `
           Card with label
           
           <span
-            class="badge float-right badge-pill"
-            color="danger"
+            class="badge float-right badge-danger badge-pill"
           >
             42
           </span>
@@ -193,8 +184,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         
@@ -211,8 +200,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        border-color="primary"
-        class="card"
+        class="card border-primary"
         header="Card outline primary"
       >
         <!---->
@@ -229,8 +217,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        border-color="secondary"
-        class="card"
+        class="card border-secondary"
         header="Card outline secondary"
       >
         <!---->
@@ -247,16 +234,13 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        border-color="success"
-        class="card"
+        class="card border-success"
         header="Card outline success"
       >
         <!---->
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -269,8 +253,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        border-color="info"
-        class="card"
+        class="card border-info"
       >
         <header
           class="card-header"
@@ -280,8 +263,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -294,8 +275,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        border-color="warning"
-        class="card"
+        class="card border-warning"
       >
         <header
           class="card-header"
@@ -305,8 +285,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -319,8 +297,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        border-color="danger"
-        class="card"
+        class="card border-danger"
       >
         <header
           class="card-header"
@@ -330,8 +307,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -355,8 +330,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -376,8 +349,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -397,8 +368,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -418,8 +387,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -439,8 +406,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -460,8 +425,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -484,8 +447,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           <blockquote
             class="card-blockquote"
           >
@@ -518,8 +479,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           <blockquote
             class="card-blockquote"
           >
@@ -552,8 +511,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           <blockquote
             class="card-blockquote"
           >
@@ -586,8 +543,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           <blockquote
             class="card-blockquote"
           >
@@ -620,8 +575,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           <blockquote
             class="card-blockquote"
           >
@@ -654,8 +607,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           <blockquote
             class="card-blockquote"
           >
@@ -696,8 +647,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -720,8 +669,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -744,8 +691,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -768,8 +713,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -792,8 +735,6 @@ exports[`Cards.vue renders correctly 1`] = `
         <div
           class="card-body"
         >
-          <!---->
-          <!---->
           
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
       
@@ -857,8 +798,6 @@ exports[`Cards.vue renders correctly 1`] = `
           <div
             class="card-body"
           >
-            <!---->
-            <!---->
             
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
             

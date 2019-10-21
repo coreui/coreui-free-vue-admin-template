@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TheFooter.vue renders correctly 1`] = `
-<cfooter-stub>
+<cfooter-stub
+  tag="footer"
+>
   <div>
     <a
       href="https://coreui.io"

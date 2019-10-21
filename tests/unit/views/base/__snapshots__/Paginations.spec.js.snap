@@ -2,14 +2,8 @@
 
 exports[`Paginations.vue renders correctly 1`] = `
 <div>
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -36,10 +30,7 @@ exports[`Paginations.vue renders correctly 1`] = `
       </div>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <h6>
         Default
       </h6>
@@ -47,13 +38,16 @@ exports[`Paginations.vue renders correctly 1`] = `
       <cpagination-stub
         activepage="3"
         align="start"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
         firstbuttonhtml="&laquo;"
         lastbuttonhtml="&raquo;"
         limit="5"
         nextbuttonhtml="&rsaquo;"
         pages="10"
         previousbuttonhtml="&lsaquo;"
-        responsive="true"
+        responsive=""
         size="md"
       />
        
@@ -66,6 +60,9 @@ exports[`Paginations.vue renders correctly 1`] = `
       <cpagination-stub
         activepage="3"
         align="start"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
         firstbuttonhtml="&laquo;"
         lastbuttonhtml="&raquo;"
         limit="5"
@@ -85,13 +82,16 @@ exports[`Paginations.vue renders correctly 1`] = `
         <cpagination-stub
           activepage="3"
           align="start"
+          arrows="true"
+          dots="true"
+          doublearrows="true"
           firstbuttonhtml="&laquo;"
           lastbuttonhtml="&raquo;"
           limit="5"
           nextbuttonhtml="&rsaquo;"
           pages="10"
           previousbuttonhtml="&lsaquo;"
-          responsive="true"
+          responsive=""
           size="lg"
         />
          
@@ -104,14 +104,8 @@ exports[`Paginations.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -125,10 +119,7 @@ exports[`Paginations.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <h6>
         Left alignment (default)
       </h6>
@@ -136,6 +127,9 @@ exports[`Paginations.vue renders correctly 1`] = `
       <cpagination-stub
         activepage="3"
         align="start"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
         firstbuttonhtml="&laquo;"
         lastbuttonhtml="&raquo;"
         limit="5"
@@ -154,6 +148,9 @@ exports[`Paginations.vue renders correctly 1`] = `
       <cpagination-stub
         activepage="3"
         align="center"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
         firstbuttonhtml="&laquo;"
         lastbuttonhtml="&raquo;"
         limit="5"
@@ -172,6 +169,9 @@ exports[`Paginations.vue renders correctly 1`] = `
       <cpagination-stub
         activepage="3"
         align="end"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
         firstbuttonhtml="&laquo;"
         lastbuttonhtml="&raquo;"
         limit="5"

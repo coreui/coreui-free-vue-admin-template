@@ -2,14 +2,8 @@
 
 exports[`StandardButtons.vue renders correctly 1`] = `
 <div>
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         Standard buttons
       </strong>
@@ -32,12 +26,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       </div>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <crow-stub
         class="align-items-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -251,6 +243,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -482,6 +475,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -704,23 +698,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         Outline Buttons
       </strong>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <p>
         
         Use 
@@ -733,6 +718,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -941,6 +927,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1165,6 +1152,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1381,23 +1369,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         Ghost Buttons
       </strong>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <p>
         
         Use
@@ -1411,6 +1390,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1619,6 +1599,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1843,6 +1824,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2059,23 +2041,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         Square Buttons
       </strong>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <p>
         
         Use
@@ -2089,6 +2062,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2311,6 +2285,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2551,6 +2526,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2782,23 +2758,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         Pill Buttons
       </strong>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <p>
         
         Use
@@ -2812,6 +2779,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3034,6 +3002,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3274,6 +3243,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3505,23 +3475,14 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         Sizes
       </strong>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <p>
         Fancy larger or smaller buttons? Add 
         <code>
@@ -3536,6 +3497,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3650,6 +3612,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3759,6 +3722,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
        
       <crow-stub
         class="align-items-center mt-3"
+        gutters="true"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3873,25 +3837,17 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         With Icons
       </strong>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <crow-stub
         class="align-items-center"
+        gutters="true"
       >
         <ccol-stub
           class="text-center mt-3"
@@ -4014,24 +3970,17 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <strong>
         Toggle pressed state
       </strong>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <crow-stub>
+    <ccardbody-stub>
+      <crow-stub
+        gutters="true"
+      >
         <ccol-stub
           class="text-center mt-3"
           sm="true"
@@ -4155,20 +4104,16 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="6"
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <strong>
             Block Level CButtons 
           </strong>
@@ -4180,10 +4125,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cbutton-stub
             activeclass="active"
             block="true"
@@ -4290,14 +4232,8 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <strong>
             Block Level CButtons 
           </strong>
@@ -4309,10 +4245,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cbutton-stub
             activeclass="active"
             block="true"

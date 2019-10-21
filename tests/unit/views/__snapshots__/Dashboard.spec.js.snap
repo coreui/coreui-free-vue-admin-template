@@ -4,15 +4,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
 <div>
   <widgetsdropdown-stub />
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
-      <crow-stub>
+  <ccard-stub>
+    <ccardbody-stub>
+      <crow-stub
+        gutters="true"
+      >
         <ccol-stub
           sm="5"
           tag="div"
@@ -106,12 +102,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
       />
     </ccardbody-stub>
      
-    <ccardfooter-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardfooter-stub>
       <crow-stub
         class="text-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-sm-2 mb-0"
@@ -242,7 +236,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
    
   <widgetsbrand-stub />
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="12"
       tag="div"
@@ -250,16 +246,18 @@ exports[`Dashboard.vue renders correctly 1`] = `
       <ccard-stub
         bodywrapper="true"
         headerhtml="Traffic & Sales"
-        subtitletag="h6"
-        titletag="h4"
       >
-        <crow-stub>
+        <crow-stub
+          gutters="true"
+        >
           <ccol-stub
             lg="6"
             sm="12"
             tag="div"
           >
-            <crow-stub>
+            <crow-stub
+              gutters="true"
+            >
               <ccol-stub
                 sm="6"
                 tag="div"
@@ -609,7 +607,9 @@ exports[`Dashboard.vue renders correctly 1`] = `
             sm="12"
             tag="div"
           >
-            <crow-stub>
+            <crow-stub
+              gutters="true"
+            >
               <ccol-stub
                 sm="6"
                 tag="div"
@@ -784,6 +784,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cicon-stub
                     class="progress-group-icon"
+                    fonticontag="i"
                     height="17"
                     name="socialFacebook"
                   />
@@ -828,6 +829,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cicon-stub
                     class="progress-group-icon"
+                    fonticontag="i"
                     height="17"
                     name="socialTwitter"
                   />
@@ -872,6 +874,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cicon-stub
                     class="progress-group-icon"
+                    fonticontag="i"
                     height="17"
                     name="socialLinkedin"
                   />
@@ -942,6 +945,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
           itemsperpage="10"
           no-sorting=""
+          responsive="true"
         />
       </ccard-stub>
     </ccol-stub>

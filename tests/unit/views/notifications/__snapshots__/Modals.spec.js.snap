@@ -5,19 +5,15 @@ exports[`Modals.vue renders correctly 1`] = `
   class="wrapper"
 >
   <div>
-    <crow-stub>
+    <crow-stub
+      gutters="true"
+    >
       <ccol-stub
         col="12"
         tag="div"
       >
-        <ccard-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
-          <ccardheader-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
+        <ccard-stub>
+          <ccardheader-stub>
             <i
               class="fa fa-align-justify"
             />
@@ -41,10 +37,7 @@ exports[`Modals.vue renders correctly 1`] = `
             </div>
           </ccardheader-stub>
            
-          <ccardbody-stub
-            subtitletag="h6"
-            titletag="h4"
-          >
+          <ccardbody-stub>
             <cbutton-stub
               activeclass="active"
               class="mr-1"
@@ -188,6 +181,9 @@ exports[`Modals.vue renders correctly 1`] = `
   </div>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
+    fade="true"
     title="Modal title"
   >
     
@@ -201,6 +197,9 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
+    fade="true"
     size="lg"
     title="Modal title"
   >
@@ -215,6 +214,9 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
+    fade="true"
     size="sm"
     title="Modal title"
   >
@@ -229,6 +231,9 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
+    fade="true"
     title="Modal title"
   >
     
@@ -242,7 +247,10 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
     color="success"
+    fade="true"
     title="Modal title"
   >
     
@@ -256,7 +264,10 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
     color="warning"
+    fade="true"
     title="Modal title"
   >
     
@@ -270,7 +281,10 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
     color="danger"
+    fade="true"
     title="Modal title"
   >
     
@@ -284,7 +298,10 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
+    closeonbackdrop="true"
     color="info"
+    fade="true"
     title="Modal title"
   >
     
@@ -298,9 +315,12 @@ exports[`Modals.vue renders correctly 1`] = `
   </cmodal-stub>
    
   <cmodal-stub
+    backdrop="true"
     centered="true"
+    closeonbackdrop="true"
     color="dark"
-    nocloseonbackdrop="true"
+    fade="true"
+    no-close-on-backdrop="true"
     size="lg"
     title="Modal title 2"
   >

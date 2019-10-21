@@ -43,13 +43,10 @@ exports[`Badges.vue renders correctly 1`] = `
       <div
         class="card-body"
       >
-        <!---->
-        <!---->
         <h2>
           Example heading 
           <span
-            class="badge"
-            color="primary"
+            class="badge badge-primary"
           >
             New
           </span>
@@ -58,8 +55,7 @@ exports[`Badges.vue renders correctly 1`] = `
         <h3>
           Example heading 
           <span
-            class="badge"
-            color="primary"
+            class="badge badge-primary"
           >
             New
           </span>
@@ -68,8 +64,7 @@ exports[`Badges.vue renders correctly 1`] = `
         <h4>
           Example heading 
           <span
-            class="badge"
-            color="primary"
+            class="badge badge-primary"
           >
             New
           </span>
@@ -78,8 +73,7 @@ exports[`Badges.vue renders correctly 1`] = `
         <h5>
           Example heading 
           <span
-            class="badge"
-            color="primary"
+            class="badge badge-primary"
           >
             New
           </span>
@@ -88,8 +82,7 @@ exports[`Badges.vue renders correctly 1`] = `
         <h6>
           Example heading 
           <span
-            class="badge"
-            color="primary"
+            class="badge badge-primary"
           >
             New
           </span>
@@ -100,16 +93,14 @@ exports[`Badges.vue renders correctly 1`] = `
         class="card-footer"
       >
         <button
-          class="btn"
-          color="primary"
+          class="btn btn-primary"
           type="button"
         >
           
           Notifications
           
           <span
-            class="badge ml-2 position-static"
-            color="light"
+            class="badge ml-2 position-static badge-light"
           >
             4
           </span>
@@ -142,60 +133,50 @@ exports[`Badges.vue renders correctly 1`] = `
       <div
         class="card-body"
       >
-        <!---->
-        <!---->
         <span
-          class="badge"
-          color="primary"
+          class="badge badge-primary"
         >
           Primary
         </span>
          
         <span
-          class="badge"
-          color="secondary"
+          class="badge badge-secondary"
         >
           Secondary
         </span>
          
         <span
-          class="badge"
-          color="success"
+          class="badge badge-success"
         >
           Success
         </span>
          
         <span
-          class="badge"
-          color="danger"
+          class="badge badge-danger"
         >
           Danger
         </span>
          
         <span
-          class="badge"
-          color="warning"
+          class="badge badge-warning"
         >
           Warning
         </span>
          
         <span
-          class="badge"
-          color="info"
+          class="badge badge-info"
         >
           Info
         </span>
          
         <span
-          class="badge"
-          color="light"
+          class="badge badge-light"
         >
           Light
         </span>
          
         <span
-          class="badge"
-          color="dark"
+          class="badge badge-dark"
         >
           Dark
         </span>
@@ -223,60 +204,50 @@ exports[`Badges.vue renders correctly 1`] = `
       <div
         class="card-body"
       >
-        <!---->
-        <!---->
         <span
-          class="badge badge-pill"
-          color="primary"
+          class="badge badge-primary badge-pill"
         >
           Primary
         </span>
          
         <span
-          class="badge badge-pill"
-          color="secondary"
+          class="badge badge-secondary badge-pill"
         >
           Secondary
         </span>
          
         <span
-          class="badge badge-pill"
-          color="success"
+          class="badge badge-success badge-pill"
         >
           Success
         </span>
          
         <span
-          class="badge badge-pill"
-          color="danger"
+          class="badge badge-danger badge-pill"
         >
           Danger
         </span>
          
         <span
-          class="badge badge-pill"
-          color="warning"
+          class="badge badge-warning badge-pill"
         >
           Warning
         </span>
          
         <span
-          class="badge badge-pill"
-          color="info"
+          class="badge badge-info badge-pill"
         >
           Info
         </span>
          
         <span
-          class="badge badge-pill"
-          color="light"
+          class="badge badge-light badge-pill"
         >
           Light
         </span>
          
         <span
-          class="badge badge-pill"
-          color="dark"
+          class="badge badge-dark badge-pill"
         >
           Dark
         </span>
@@ -304,11 +275,8 @@ exports[`Badges.vue renders correctly 1`] = `
       <div
         class="card-body"
       >
-        <!---->
-        <!---->
         <a
-          class="badge"
-          color="primary"
+          class="badge badge-primary"
           href="#"
           target="_self"
         >
@@ -316,8 +284,7 @@ exports[`Badges.vue renders correctly 1`] = `
         </a>
          
         <a
-          class="badge"
-          color="secondary"
+          class="badge badge-secondary"
           href="#"
           target="_self"
         >
@@ -325,8 +292,7 @@ exports[`Badges.vue renders correctly 1`] = `
         </a>
          
         <a
-          class="badge"
-          color="success"
+          class="badge badge-success"
           href="#"
           target="_self"
         >
@@ -334,8 +300,7 @@ exports[`Badges.vue renders correctly 1`] = `
         </a>
          
         <a
-          class="badge"
-          color="danger"
+          class="badge badge-danger"
           href="#"
           target="_self"
         >
@@ -343,8 +308,7 @@ exports[`Badges.vue renders correctly 1`] = `
         </a>
          
         <a
-          class="badge"
-          color="warning"
+          class="badge badge-warning"
           href="#"
           target="_self"
         >
@@ -352,8 +316,7 @@ exports[`Badges.vue renders correctly 1`] = `
         </a>
          
         <a
-          class="badge"
-          color="info"
+          class="badge badge-info"
           href="#"
           target="_self"
         >
@@ -361,8 +324,7 @@ exports[`Badges.vue renders correctly 1`] = `
         </a>
          
         <a
-          class="badge"
-          color="light"
+          class="badge badge-light"
           href="#"
           target="_self"
         >
@@ -370,8 +332,7 @@ exports[`Badges.vue renders correctly 1`] = `
         </a>
          
         <a
-          class="badge"
-          color="dark"
+          class="badge badge-dark"
           href="#"
           target="_self"
         >

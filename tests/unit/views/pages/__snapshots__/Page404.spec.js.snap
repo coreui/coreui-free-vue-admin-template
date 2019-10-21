@@ -6,6 +6,7 @@ exports[`Page404.vue renders correctly 1`] = `
 >
   <crow-stub
     class="w-100 justify-content-center"
+    gutters="true"
   >
     <ccol-stub
       md="6"
@@ -36,10 +37,12 @@ exports[`Page404.vue renders correctly 1`] = `
           </p>
         </div>
          
-        <cinput
+        <cinput-stub
           class="mb-3"
+          lazy="400"
           placeholder="What are you looking for?"
           prependhtml=<i class='cui-magnifying-glass'></i>
+          type="text"
         />
       </div>
     </ccol-stub>

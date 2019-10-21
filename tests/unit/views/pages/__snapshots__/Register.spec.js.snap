@@ -6,6 +6,7 @@ exports[`Register.vue renders correctly 1`] = `
 >
   <crow-stub
     class="w-100 justify-content-center"
+    gutters="true"
   >
     <ccol-stub
       md="6"
@@ -14,13 +15,9 @@ exports[`Register.vue renders correctly 1`] = `
     >
       <ccard-stub
         class="mx-4 mb-0"
-        subtitletag="h6"
-        titletag="h4"
       >
         <ccardbody-stub
           class="p-4"
-          subtitletag="h6"
-          titletag="h4"
         >
           <cform-stub>
             <h1>
@@ -33,28 +30,34 @@ exports[`Register.vue renders correctly 1`] = `
               Create your account
             </p>
              
-            <cinput
+            <cinput-stub
               autocomplete="username"
+              lazy="400"
               placeholder="Username"
               prependhtml=<i class='cui-user'></i>
+              type="text"
             />
              
-            <cinput
+            <cinput-stub
               autocomplete="email"
+              lazy="400"
               placeholder="Email"
-              prepend-html="@"
+              prependhtml="@"
+              type="text"
             />
              
-            <cinput
+            <cinput-stub
               autocomplete="new-password"
+              lazy="400"
               placeholder="Password"
               prependhtml=<i class='cui-lock-locked'></i>
               type="password"
             />
              
-            <cinput
+            <cinput-stub
               autocomplete="new-password"
               class="mb-4"
+              lazy="400"
               placeholder="Repeat password"
               prependhtml=<i class='cui-lock-locked'></i>
               type="password"
@@ -77,10 +80,10 @@ exports[`Register.vue renders correctly 1`] = `
          
         <ccardfooter-stub
           class="p-4"
-          subtitletag="h6"
-          titletag="h4"
         >
-          <crow-stub>
+          <crow-stub
+            gutters="true"
+          >
             <ccol-stub
               col="6"
               tag="div"

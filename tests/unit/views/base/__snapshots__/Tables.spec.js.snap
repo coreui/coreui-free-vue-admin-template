@@ -2,7 +2,9 @@
 
 exports[`Tables.vue renders correctly 1`] = `
 <div>
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       lg="6"
       tag="div"
@@ -27,7 +29,9 @@ exports[`Tables.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       lg="6"
       tag="div"
@@ -54,7 +58,9 @@ exports[`Tables.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       sm="12"
       tag="div"
@@ -72,7 +78,9 @@ exports[`Tables.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       sm="12"
       tag="div"

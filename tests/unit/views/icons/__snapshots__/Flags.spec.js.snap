@@ -2,14 +2,8 @@
 
 exports[`Flags.vue renders correctly 1`] = `
 <div>
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="cui-globe"
       />
@@ -17,12 +11,10 @@ exports[`Flags.vue renders correctly 1`] = `
     
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <crow-stub
         class="text-center"
+        gutters="true"
       >
         <ccol-stub
           class="mb-5"
@@ -188,6 +180,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#703d29' stroke-width='.5' d='M264.1 175.5h52.6V228h-52.6zm58.2 0h52.6V228h-52.6zm-58 98c.1 1 .5 2.6 1.4 4.3 1 1.5.6 1.4 2.7 3.8a15.3 15.3 0 0 0 4 2.9 32.7 32.7 0 0 0 15 2.6c2.7-.1 4.8-.4 6.6-.7a71 71 0 0 1 11-.6c1.5 0 3 .3 4.7.6 3.5.7 7 2 7 2v-54.7h-52.6V271l.2 2.4zm110.4 0a13 13 0 0 1-1.4 4.3c-1 1.5-.6 1.4-2.7 3.8a15.4 15.4 0 0 1-4 2.9c-1.3.7-2.3 1-4.4 1.6a32.6 32.6 0 0 1-10.6 1c-2.7-.1-4.8-.5-6.5-.7a71 71 0 0 0-7.2-.6 40.5 40.5 0 0 0-3.9 0c-1.5 0-3 .3-4.7.6-3.5.7-7 2-7 2v-54.8H375v37.5l-.2 2.4z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -209,6 +202,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='red' d='M0 0h220v480H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -305,6 +299,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#bf0000' d='M350.8 319.4c.4.4.6.8.7 1.2l.4 1.6-.8.1a7.8 7.8 0 0 0-1-1.5 18.8 18.8 0 0 0-1.1-1.2 46 46 0 0 0-1.7-1.5 34.4 34.4 0 0 0-2-1.7c-.4-.2-.6-.4-.6-.5a1.9 1.9 0 0 1-.3-.8 11.2 11.2 0 0 1-.2-1.6l2.7 2.2a44.3 44.3 0 0 1 2.5 2.2l1.4 1.5m-9.5-5.8l-.2 2H338l.3-2h3m8.4 8.9l-7.6 2.3-1.3-2 6.5-2-.7-.8a2.8 2.8 0 0 0-.9-.6 1.4 1.4 0 0 1-.4 1 2 2 0 0 1-1 .6 3.4 3.4 0 0 1-1.8 0 2 2 0 0 1-1.3-.7 4 4 0 0 1-.7-2.2c0-1 .3-1.6.9-1.8.7-.2 1.8 0 3 .7a8.1 8.1 0 0 1 3 2.4l2.3 3.1m-5.8-4a3.8 3.8 0 0 0-.8-.3 1.1 1.1 0 0 0-.6 0 .7.7 0 0 0-.5.3.5.5 0 0 0 0 .6l.5.2h.6l.4-.3.4-.5m-8-1.6l-.5 2-3.2-.3.5-2 3.1.3m7.5 7.7l-1.7.4a5.3 5.3 0 0 1-1.7 0 3.6 3.6 0 0 1-1.5-.4c-.3.5-.8 1-1.5 1.2a7.4 7.4 0 0 1-1.6.6l-1.2.3-1-2 1.1-.3a9.1 9.1 0 0 0 1.3-.4l.9-.5-1-.5h-.7a.4.4 0 0 0-.2 0 .6.6 0 0 0-.2.3h-.5c-.5-.8-.6-1.5-.3-2s.9-.8 2-1a6.8 6.8 0 0 1 2.6-.2c.8.1 1.3.4 1.5.9.2.2.2.5.2.7l-.4 1.2h.5a2 2 0 0 0 .6 0l1.7-.3 1 2m-8 1.8l-1.6.3a3 3 0 0 1-2.2-.4 5.5 5.5 0 0 1-1.7-2.6l-.8-2.2a2 2 0 0 0-.8-1 4.6 4.6 0 0 0-.9-.5l.6-2.1c.6.3 1 .6 1.4 1l1 1.7.5 1.5 1.1 2.2c.3.3.7.4 1 .3l1.7-.2.7 2m-7-7.5l-1 1.9-3-.7 1-1.9 3 .7m1.8 8.4l-7.5.7-.4-2 6.2-.7a2.3 2.3 0 0 0-.6-.8 8.3 8.3 0 0 0-1-.6l.5-2c.7.4 1.2.9 1.6 1.3.3.5.6 1.2.8 2.1l.4 2m-6 1a17 17 0 0 1-2.2-.2 10.5 10.5 0 0 1-1.7-.5 5.6 5.6 0 0 1-1.3.4 9.9 9.9 0 0 1-1.7 0h-2a2.5 2.5 0 0 1-1.2-.3c-.3-.2-.5-.5-.8-1a4.1 4.1 0 0 1-1.5 1l-1.7.1h-1.7l.2-2.1h1.7c.8 0 1.5 0 2.1-.4a2 2 0 0 0 1.3-1.8l.7.1a30.2 30.2 0 0 0-.1 1.3c0 .3 0 .5.3.7.3.2.6.3 1 .3h1.5c1 0 1.6 0 2-.2.6-.2.9-.5 1-1.1l.1-.4s.3 0 .5-.2l.5-.2v.4a8.9 8.9 0 0 1 0 .3l-.3 1.1a12.4 12.4 0 0 0 2 .5c.1-.2 0-.4-.1-.7l-.3-.6a.5.5 0 0 1 .1-.3l.3-.2 1-.9.5 1v1l-.2 2.9m-11.3-8.7l-2 1.3-1.3-.9-1.4 1-1.9-1 1.8-1.3 1.5.8 1.5-1 1.8 1m-3 8.2l-7.3-1.2.8-2 6.2 1c0-.4 0-.7-.2-1a5.2 5.2 0 0 0-.5-.8l1.6-1.7c.4.6.6 1 .7 1.6 0 .5-.2 1.2-.5 2.1l-.8 2m-6.1-1l-1.6-.3c-.9-.2-1.4-.6-1.5-1.2-.2-.6.1-1.5.8-2.8l1.2-2c.3-.5.4-.9.3-1.2a2.2 2.2 0 0 0-.3-.7l2.2-1.6c.3.5.3 1 .3 1.4 0 .5-.3 1.1-.7 1.8l-.8 1.4a5.8 5.8 0 0 0-.9 2.2c0 .4.2.6.5.7l1.6.4-1.1 2m-3.8-8l-2.5 1.1-1.8-1.7 2.6-1 1.7 1.7m-1 6.6a6.8 6.8 0 0 1-1.6 1.4 4.2 4.2 0 0 1-1.7.6l-2.4-.1a14.8 14.8 0 0 1-2.8-.7 7.7 7.7 0 0 1-3.4-2c-.6-.8-.6-1.5 0-2.2a7 7 0 0 1 2-1.6c.8-.5 2-1 3.8-1.6l.4.5-2.8 1.2c-.5.3-1 .6-1.3 1-.4.4-.3 1 .2 1.6a10.5 10.5 0 0 0 6.3 2.2c1.2 0 2-.3 2.3-.7.3-.3.4-.6.5-1l.2-1.6 2.5-1.5a8 8 0 0 1-.1 1.5 4.4 4.4 0 0 1-1 1.6l-1.2 1.4'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -334,6 +329,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1116,6 +1112,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1136,6 +1133,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' transform='matrix(-1 0 0 1 640 0)' xlink:href='#a'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1156,6 +1154,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='orange' d='M0 320h640v160H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1184,6 +1183,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#000' stroke-width='3' d='M331.5 348.8l-125-75.5m109.6 58.1L274 304.1m18.2 42.7L249.3 322'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1230,6 +1230,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path id='g' fill='#85340a' d='M305.9 237.5c3.5 2.7 7 2.5 9 1.3 2-1.3 2-1.7 1.6-1.7-.4 0-.8.4-2.4 1.3-1.7.8-4.1.8-8.2-.9z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1278,6 +1279,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1299,6 +1301,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1323,6 +1326,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1524,6 +1528,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#9cc' d='M139.7 234.7l3 3-3-3m5.9 0l3 3-3-3m-3 6l3 2.9-3-3z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1557,6 +1562,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1580,6 +1586,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' d='M384 200l7.7 21.5 20.6-9.8-9.8 20.7L424 240l-21.5 7.7 9.8 20.6-20.6-9.8L384 280l-7.7-21.5-20.6 9.8 9.8-20.6L344 240l21.5-7.7-9.8-20.6 20.6 9.8L384 200z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1607,6 +1614,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1628,6 +1636,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' transform='matrix(-1 0 0 1 639.5 0)' xlink:href='#a'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1647,6 +1656,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <circle cx='280' cy='240' r='160' fill='#f42a41'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1669,6 +1679,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1691,6 +1702,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1713,6 +1725,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1739,6 +1752,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1769,6 +1783,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1798,6 +1813,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1820,6 +1836,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1933,6 +1950,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#000' stroke-width='1.3' d='M554 148.3v135.5c0 36.2-72.3 48-72.3 48s-72.4-11.8-72.4-48V148.3h144.8z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -1984,6 +2002,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -2675,6 +2694,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#574f4c' d='M323.3 194l.7.5a.5.5 0 0 0-.1-.1 6.5 6.5 0 0 0-.7-.6.6.6 0 0 0 0 .1'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -2735,6 +2755,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -2763,6 +2784,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -2867,6 +2889,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -2895,6 +2918,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -2917,6 +2941,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -2952,6 +2977,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3112,6 +3138,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#000' d='M366 205.1v53c0 10.6-1.4 52.6-46.5 69-45.3-16.4-46.7-58.4-46.7-69v-53H366'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3131,6 +3158,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#f00' d='M-100 0H81.1v512H-100zm543.4 0h181.1v512h-181zm-308 247.4l-14.2 4.8 65.5 57.5c5 14.7-1.7 19-6 26.8l71-9L250 399l14.8-.4-3.3-71 71.2 8.5c-4.4-9.3-8.3-14.2-4.3-29l65.4-54.5-11.4-4.2c-9.4-7.2 4-34.7 6-52.1 0 0-38.1 13.1-40.6 6.2l-9.8-18.7-34.7 38.2c-3.8.9-5.4-.6-6.3-3.8l16-79.8-25.4 14.3c-2.1 1-4.2.2-5.6-2.3l-24.5-49-25.2 50.9c-1.9 1.8-3.8 2-5.4.8l-24.2-13.6 14.6 79.1c-1.2 3.2-4 4-7.2 2.3l-33.3-37.7c-4.3 7-7.2 18.3-13 20.9-5.7 2.4-25-4.8-37.9-7.6 4.4 15.9 18.2 42.3 9.5 51z' transform='translate(74.1) scale(.9375)'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3151,6 +3179,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#ce1021' d='M640 0L0 384v96L640 96V0'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3181,6 +3210,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3208,6 +3238,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3232,6 +3263,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3254,6 +3286,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3278,6 +3311,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' fill-rule='evenodd' d='M471.6 213l5.2-16.7-14-10.6 17.6-.2 6-16.5 5.6 16.5 17.7.5-14.1 10.5 5 16.7-14.5-10m27.1 13l10.4-13.9-9.7-14.8 16.7 5.8 11-13.5v17.6l16.4 6.4-16.8 5-.8 17.5-10.2-14.4m-98.4 15l-.7-17.5-16.8-5.2L431 198v-17.4l10.9 13.5 16.8-5.6-9.8 14.7 10.3 14-17-4.5m-39.6 40.9l-7.4-15.8-17.4 1.8 12.8-12.3L384 211l15.2 8.2 13.3-11.8-3.4 17.4 14.9 8.9-17.3 2.5M389 291.8l-13.3-11.1-15 9.2 6.4-16.7-12.9-11.6 17.3.7 7-16.4 4.3 17.2 17.2 1.5-14.6 9.8m3.2 60.4l-16.5-4.8-10.1 14.5-.7-17.9-16.4-5.5 16.1-6.2v-18l10.7 14.1 16.4-5.6-9.6 15m29.5 50.8l-17 2.4-3.5 17.4-7.8-16-17.1 1.6 12.2-12.3-7.1-16.4 15.3 8.5 12.8-11.8L393 362m45 38l-15.1 8.2 2.6 17.6-12.7-12.4-15.6 7.6 7.3-15.9-12.3-12.9 17.3 2.6 8-15.5 3.4 17.4m53.8 9l-8.3 15.3 11.7 13.2-17.4-3.3-8.9 15-2.4-17.3-17.2-4 15.8-7.4-1.7-17.5 12.2 12.8m57.4-13.1l-.5 17.4 16.3 6.4-17 5-1.2 17.5-10-14.3-17 4.4 10.8-13.9-9.4-14.7 16.6 5.7M559 209.8l12 12.6 15.9-7.4-8.3 15.8 11.5 13.1-17-2.8-9 15.5L562 239l-17-3.5 15.7-8m34.2 21l5.5 16.6 17.5.3-14.2 10.7 4.7 16.8-14.1-10-14.6 10.1 5.4-16.8-13.8-10.6 17.6-.4m19.5 33.2l-2 17.4 15.7 7.7-17.3 3.6-2.7 17.3-8.7-15.1-17.4 2.9 12-13-8.1-15.5 16 7.2m3 39.8l-7.8 15.6L603 379l-17.4-2.7-8.4 15.3-3-17.3-17.4-3.3 15.6-8-2.3-17.4 12.6 12.3m-9.8 39.1l-14.7 9.2 3.8 17.3-13.5-11.5-15 8.6 6.3-16.3-13.1-12.1 17.4 1.5 7-16 4.4 17.2'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3306,6 +3340,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3336,6 +3371,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3362,6 +3398,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='30' height='20' transform='matrix(14.9991 -18.73557 18.73533 14.99929 240 216)' xlink:href='#a'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3384,6 +3421,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3406,6 +3444,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3434,6 +3473,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3462,6 +3502,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3491,6 +3532,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3521,6 +3563,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3542,6 +3585,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#d47600' d='M519 76.4l-1.8.7-.8.3-2.2-.1-2.2 1-3.8 2.6-.1.1-1.5.4-1.3-.6-.7.4-.3 1.5-.7 1.1-.9.6-3 .3-2.5 1.4-3.4-1-1.5.7-3.3 3-1.7.7h-.5l-2.3-.1-.9.3-1.4 1.3-2.6.2-.9.6-1.3 2.6L476 96l-.8.1-.8-.3-.7.1-.3 1.7-.6.7-1.8.6-1.4 1.2-1.3.6h-2l-1.7 1-3.1.2-1.3 1.2-.3.3-.6.3-1 .6-.2.2-1.2-.2-1.4.5-.6-.8-1 .5-1.2.1-1.6-.7-1.3-.6-.9.2-.3 1.5v.2l-1 1.2-1.7 1.1-.2.3-2 2.6-3.8 4-3.2 1.6-3.3 1-2.3 1.9-6 3-9.7 4.8-2 .6-2.8.4-5 1.9-4.4 1.3-.3.1-.8.3-6.3 1.9-2.9-.4-1.7.7-4.5-.5h-3.1l-2 .4-3.7 1.8-6.3 3-2 2-3.2 1.6-3.8 1.2v-1.6l-1.3.4-1 .3-3 .4h-1.7l-1.1-.3h-.2l-6.2 2.1-7 .7-3.5 1.1H333l-1.6.5-3.2.4-1.2-.3-.2-.1-9.4.4-4.3-.5-2 .5-3.5-1.2-5-.6-1.2-.3-2.6-.8-1.2.7-1 .1-2-.8h-.8l-1.8.6-1-.2-1-.8-2.1-.3-1.4-1.1-7.5 1-2-.6-6.9-2h-1l-1.4 1-2 .8-1.9.4-2.4.1-2.8-.7-2.8-1.4-1.1-.3-2.4.3h-.7l-4.4-2.3-5.6-3.5-3.8-1.9-1.5-.2-.2.7.7 2.2.3 2.3v2l-.1 1.3.3 1.1 1.4 1.6.6 1.5.4 4.2v4.3l-.7 6.8-.2 1-.8 3.6-.7 3.3-2.9 8.7-.7 1-2 1.3-4.3 3-3.2 1.8-1 .4-2.6.2H219l-2-1.1-2-.5-2.6-1.9-2.8-.6-3.2-1.8-.8-1-1.7-.2-2.4-.7-.9-.3-.6-.1-3-.1-2.9-1.3-1.5-.4h-2l-2.1 1-1.1.4-1.4-.5h-1l-1 1.7-.2.3-.8.4h-1.7l-.8.3-1.1.5-1 .4-.5.2h-.3l-.5.2h-.6l-1.2-.6-.6-.3-1-.2-.5.3-.1 1.9-.5 1.1-1.6 1.4-1.6 1.4-1 1.6-3 6.7-1.9 2.7-.5.7-2 2.1-1.7 1.3-3.9 3-3.7 1.5-3.2.6h-1.6l-3-.4-2.6-.8-3-1.8-3.1-2.6-4.7-4.5-.6-.4-.2-.1-1.4-1h-1.1l-.4.8-.3 1-.2.9-.5 5v.3l.3 2.1 3.6 5 1 2.6.2.3.7 1.2.6 1 1.3 3.6-.9 2 .4 1.4-1 .8-.2 1.2 3.1 4 .7 1.7-.7 2.4-1.3 1.4-.3.3.2 1 1.4 1.4 2.5 2.2 1.3 3.2 1 1 1.2-.3.6.5h1l1 1 .6.2 1 .5.8 1 .1 3.2 1.5 3.8v2.5l1 1.5.2 1.2-.5 3.3 1.2 1 1.2-.2.8.1 1.3 1.1 1.6 2.4 1.6-.2 1 .4 4.7 4.3 1 .6.9.4 1 1 1.4-1h.2l1.6-.2.7.5 1.4.9h1.7l4 1.2 1.6.4 3.4 2.1 1.5.9.8.7 1.2 1 2.2 1 2 .4 1 .2.9.3 4.2 1.7 2.3.5 2 .8 1.6.5h1.2l1.6-1.3h1.5l1.3.2 1.3-.2 2-1.2.3-.6 1.4-.6 4.8-.6 1.4.4 3.6-1.5 2.4.6 2-.7 4.7 1 1.2.9 1.4 1.5h1.7l-.7 1.1 2 2.2 1.9 2.7.1.4 1.3 3.9 1 1.4.7 1.9v1.2l-1 .9-.2.4v.2l.2.5.4-.2.7-.4 1-.2 1.6.2 1.1.1 1.7-.8 1.2-.6 1.8.8h2l.9.3 2.4 1.1 1.2.1.4-.3.3-.6-.1-.8-1-1.1-2-2.4-.8-1.2-.6-1.7-.2-2.2-.2-1.5.3-2 .5-.7.4-1.6.1-.4 1.2-1.5 3-2 3.2-2.8 2.5-1.7 2.6-1.1v-.3l.4.1 6.6-2.3 3-.5 20 1.4.7-.2.7-1.9.3-.3.3-.2 2.2-1 1-.2 2.8.7 1.2.3 1.9-1h1.3l2.7-1.5h1.7l.7-.2 3.3-2.4 3.1-.9.8-.4.3-.2 3.3-1.7 2-1.6 1.8-1 2-.4 5-.4 1.1-1.7 2.2-.3 1.3-1.5 1.5-.6 1.1-1.6 1-1.3 1.2-.7 4.1-.3 4.8.6.7-.4 1-3.9 1.2-.7 3-4.5v-1.6l.1-1.4.5-2-.3-3.4.4-3.6 1.9-4.5 1.7-1.8 2.7-1.9 1.4-.6 2-.3h.2l.5-.2h9.2l2.3-.1 5.7 1h.4l1.9.7 2.2 1.7 2.4 2.3.4.4 1.5.7.5.2 1.2-.2 1.8-1 1.4-1 1.8-1v-.2l1.1-1.5.4-.7 3.6-1.4 4.2-.2.5-.3h.2l1.1-1.4h1l2.6 1 1.7-.4 1.4.5 1.1-.1 2-.3 2.3 1.6 1.3.2 4.5 2.6h.4l.2.1.5-.2.8-.2h.1l.1.1.6.7.7.1.8-1-.3-.6-.1-.2-1.7-.3-1.4-2.5 1.4-1.5-2.2-2.6-.4-.5v-.1l-.8-1.2-3.8-5.8-5-4-1.7-1.3-.6-.5-2.7-2.7-1.9-2.5-.2-.5-.4-.9-1.1-2.4-2-1.5-1.6-1.8-3.4-4.6-.5-.7-.8-.5h-1.7l-.1-.2h-.1v-.1l.8-.8 1-.2.3-.9-1.7-4.9v-.2l-.1-1.5 1.3-7.1.2-.9 2.4-4.7 1.4-1.2 1.6-3.1 1.4-2 1.3-1.3.2-.1 2.3-1.4 2-.3 1.9-.3 3.3 1h3l.7-.1 1.4-.2 2.3-.7 1.1-.7.6-.8 1.2-4 .4-1.3.7-1.4 4.3-4.9 3.2-3 7.2-5.2 3.5-2.1 1.8-1.1 16.1-7.2 4.2-4.2 2.2-2.2 3.8-2.6 4.5-1.9 4-3 .8-1.1 1-3.5 1-.2.7-1.7.3-.5 3.1-2.2.4-.2 12.3-6.2 1.8.3 1-1.5 3.5-.6h.7l.9-.5.7-1.3v-.3l.1-3.4.8-.9.4-2.2.4-.6.4-.5 1-.7-.2-.4z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3569,6 +3613,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3589,6 +3634,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#d00' d='M0 160h640v160H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3617,6 +3663,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3637,6 +3684,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' d='M0 205.7h640.1v68.6H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3804,6 +3852,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3838,6 +3887,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -3858,6 +3908,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#d21034' d='M424 180a120 120 0 1 0 0 120 96 96 0 1 1 0-120m4 60l-108-35.2 67.2 92V183.2l-67.2 92z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -10618,6 +10669,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -10771,6 +10823,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#812e00' fill-rule='evenodd' d='M307.6 125.5s-.4 5-3.6 8.3-9.8 7.1-9.8 7.1 8.9-4.2 9.8-3.3c1 1-5.7 8.3-5.7 8.3s8.7-7.7 9.8-7.7 3.6 7.5 4.6 7.3c.9-.2-2-9.5-1.6-11 .4-1.4 0-9.3 0-9.3l-3.4.3zm20.5-.6s-.4 5.3-3.6 8.8-9.8 7.6-9.8 7.6 8.9-4.5 9.8-3.5c1 1-5.7 8.8-5.7 8.8s8.7-8.2 9.8-8.2 3.6 8 4.6 7.8c.9-.2-2-10.2-1.6-11.7.4-1.6 0-10 0-10l-3.5.4zm-28.7-48c0 .9-1 1.7-2.1 1.7s-2.2-.8-2.2-1.8 1-1.8 2.2-1.8 2.1.8 2.1 1.8z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -10793,6 +10846,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -10846,6 +10900,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -10876,6 +10931,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -10899,6 +10955,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -10918,6 +10975,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path stroke='#da121a' stroke-width='60' d='M0 90h810m0 120H0m0 120h810m0 120H0' transform='scale(.79012 .88889)'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11477,6 +11535,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#000' stroke-width='0' d='M279.1 217v-1m-.6 1v-1m-.4 1.1V216'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11506,6 +11565,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11549,6 +11609,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11569,6 +11630,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#003580' d='M175.5 0h130.9v480h-131z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11704,6 +11766,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path style='line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal' fill='#ce1126' d='M161.1 0v96.1H0v48.1h161.1v96.1H197v-96.1h161v-48H197V0h-36z' color='#000' font-family='sans-serif' font-weight='400' overflow='visible'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11808,6 +11871,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11834,6 +11898,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11861,6 +11926,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11883,6 +11949,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11905,6 +11972,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -11925,6 +11993,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#ce1124' d='M0 201.6h640v76.8H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12072,6 +12141,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12091,6 +12161,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path stroke='#fff' stroke-width='.6' d='M0 0l5 3M0 3l5-3' transform='scale(128 160)'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12115,6 +12186,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12145,6 +12217,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12187,6 +12260,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' x='100' transform='translate(30.3 414.6)' xlink:href='#d'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12208,6 +12282,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='red' fill-rule='evenodd' d='M146.8 373.1c1-16.8 4-31.1 4-31.1s-9.8 1-14.8 1c-4.9 0-14.8-1-14.8-1s3 14.3 4 31.2c-16.9-1-31.2-4-31.2-4s1 7.4 1 14.8-1 14.8-1 14.8 14.3-3 31.2-4c-1 16.9-4 31.2-4 31.2s7.4-1 14.8-1 14.8 1 14.8 1-3-14.3-4-31.2c16.9 1 31.2 4 31.2 4s-1-9.8-1-14.8c0-4.9 1-14.8 1-14.8s-14.3 3-31.1 4zm368-288c1-16.8 4-31.1 4-31.1s-9.8 1-14.8 1c-4.9 0-14.8-1-14.8-1s3 14.3 4 31.1c-16.9-1-31.2-3.9-31.2-3.9s1 7.4 1 14.8-1 14.8-1 14.8 14.3-3 31.2-4c-1 16.9-4 31.2-4 31.2s7.4-1 14.8-1 14.8 1 14.8 1-3-14.3-4-31.1c16.9 1 31.2 4 31.2 4s-1-10-1-14.9 1-14.8 1-14.8-14.3 3-31.2 4zm-368 0c1-16.8 4-31.1 4-31.1s-9.8 1-14.8 1c-4.9 0-14.8-1-14.8-1s3 14.3 4 31.2c-16.9-1-31.2-4-31.2-4s1 7.4 1 14.8-1 14.8-1 14.8 14.3-3 31.2-4c-1 16.9-4 31.2-4 31.2s7.4-1 14.8-1 14.8 1 14.8 1-3-14.3-4-31.2c16.9 1 31.2 4 31.2 4s-1-9.8-1-14.8c0-4.9 1-14.8 1-14.8s-14.3 3-31.1 4zm368 288c1-16.8 4-31.1 4-31.1s-9.8 1-14.8 1c-4.9 0-14.8-1-14.8-1s3 14.3 4 31.2c-16.9-1-31.2-4-31.2-4s1 7.4 1 14.8-1 14.8-1 14.8 14.3-3 31.2-4c-1 16.9-4 31.2-4 31.2s7.4-1 14.8-1 14.8 1 14.8 1-3-14.3-4-31.2c16.9 1 31.2 4 31.2 4s-1-9.8-1-14.8c0-4.9 1-14.8 1-14.8s-14.3 3-31.2 4z' style='mix-blend-mode:multiply'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12228,6 +12303,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#da121a' d='M252.4 218h135.2l-109.4 79.5L320 169l41.8 128.6z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12252,6 +12328,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='36' height='24' transform='rotate(180 320 240)' xlink:href='#a'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12273,6 +12350,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path d='M320 160l52 160-136.1-98.9H404L268 320z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12320,6 +12398,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12339,6 +12418,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#d00c33' d='M0 240h640v240H0zm80 0a160 160 0 1 0 320 0 160 160 0 0 0-320 0'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12368,6 +12448,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12390,6 +12471,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12412,6 +12494,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12449,6 +12532,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12665,6 +12749,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#2b2b2b' stroke-width='1.1' d='M424.1 288.7s-2.5 7.7-9.3 13.5'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12884,6 +12969,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12938,6 +13024,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </text>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12966,6 +13053,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' transform='rotate(-72 110 240)' xlink:href='#b'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -12990,6 +13078,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13035,6 +13124,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13059,6 +13149,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13092,6 +13183,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' transform='translate(-133.3 37.3)' xlink:href='#c'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13165,6 +13257,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#f7db17' d='M400.6 103l3.5-3 4.4 1.4zm8.5-1.7l3.4-3 4.4 1.5zm7.8-1.3l-3.4 3-4.4-1.5zm-8.4 1.6l-3.5 3-4.3-1.5zm-5-6.4l4.3 1.4.8 4.6zm5.5 6.4l4.4 1.5.9 4.5zm5.1 6.1l-4.3-1.5-.9-4.5zm-5.6-6.4l-4.3-1.5-.9-4.5zm3-7.7l1 4.6-3.5 3zm-2.7 8.1l.8 4.6-3.4 3zm-2.8 7.5l-.9-4.5 3.5-3zm2.8-8l-.9-4.6 3.5-3z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13296,6 +13389,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13318,6 +13412,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13339,6 +13434,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13361,6 +13457,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13390,6 +13487,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13441,6 +13539,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13481,6 +13580,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13634,6 +13734,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13868,6 +13969,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13895,6 +13997,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13917,6 +14020,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13961,6 +14065,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -13984,6 +14089,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14015,6 +14121,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14041,6 +14148,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14079,6 +14187,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14109,6 +14218,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14185,6 +14295,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14236,6 +14347,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14267,6 +14379,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14296,6 +14409,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14326,6 +14440,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14365,6 +14480,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14393,6 +14509,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14471,6 +14588,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path d='M373.1 377.9l11-6.2 1 2.2-4.3 2.5 1.5 3.1 4.3-2.4 1 2.2-11 6.2-1-2.2 5-2.8-1.5-3.2-5 2.9-1-2.3m4.6 9.6L388 380l3.5 5.9-1.7 1.2-2.2-3.7-2.4 1.8 2 3.4-1.5 1.2-2.1-3.4-2.9 2 2.3 3.9-1.7 1.3-3.6-6m7.2 11l9-9.2 1.6 1.8-3.5 3.7 2.1 2.5 3.5-3.6 1.6 1.9-9 9.3-1.6-1.9 4-4.2-2-2.6-4.1 4.2-1.6-1.8m11.8 5.5l1.5 1.4 2.7-5-4.2 3.6m-5.7 1.7l10.2-8.3 2.3 2.3-6 12.4-1.9-1.9 1.6-3-2-2-2.5 2.2-1.7-1.7m9 8.3l6-9.2-2.1-1.8 1.2-1.8 6.1 5-1.2 1.8-2.1-1.7-6.1 9.2-1.9-1.5m5 4l6.5-11.7 1.9 1.3-2.5 4.6 2.7 1.8 2.5-4.6 2 1.4-6.5 11.7-2-1.3 3-5.4-2.7-1.8-3 5.3-1.9-1.3m12.1 7.7l5.2-12.5 5.9 3-.9 2-3.8-1.9-1.2 3 3.6 1.8-.9 2-3.5-1.9-2.3 5.5-2-1m11.4-2a15 15 0 0 0-1 4.2c0 .6.3 1 .9 1.3.6.3 1 .2 1.5-.3.4-.4 1-1.7 1.7-3.8s1-3.5 1-4.2a1.4 1.4 0 0 0-1-1.3c-.5-.3-1-.2-1.4.3-.4.4-1 1.7-1.7 3.9m-2.2-1a16 16 0 0 1 2.4-4.8 3 3 0 0 1 1.7-.7c.5 0 1.2 0 2 .4s1.2.7 1.6 1.1c.4.5.7 1 .8 1.8.1.5 0 1.2-.1 2a25.2 25.2 0 0 1-1 3.4l-1.2 3.2c-.4.7-.8 1.3-1.2 1.6-.5.4-1 .7-1.6.7-.6.1-1.2 0-2-.4s-1.3-.7-1.7-1.1a3.7 3.7 0 0 1-.8-1.8l.1-2 1-3.4m10.6-2.9l2.2.8-2.4 8.8a4.7 4.7 0 0 0-.2 2.2c.1.4.5.7 1 1 .6.1 1 0 1.4-.2.3-.3.6-1 .9-2l2.3-8.8 2.2.7-2.4 9a9.8 9.8 0 0 1-.7 2 2.9 2.9 0 0 1-.7.9 2.9 2.9 0 0 1-1.6.6 4.8 4.8 0 0 1-2-.3c-1.3-.4-2.1-1-2.5-1.9-.4-.8-.4-2 0-3.7l2.5-9m5.9 16.1l2.7-13.4 2.3.6 1.3 10.1 1.8-9.3 2 .5-2.6 13.4-2.3-.6-1.3-10.2-1.8 9.4-2.1-.5m12 .7l1 .2h1.2a1 1 0 0 0 .5-.3c.3-.3.5-.8.7-1.4a24.1 24.1 0 0 0 .8-5.8 3 3 0 0 0-.4-1.4 1 1 0 0 0-.4-.5l-1-.2-1-.2-1.3 9.6m-2.5 1.6l1.9-13.6 3.6.7c.8.1 1.3.3 1.8.5.4.2.7.5 1 .9.3.5.5 1.2.6 1.9 0 .7 0 1.8-.2 3.3a31 31 0 0 1-.7 4 6.4 6.4 0 0 1-1 2c-.3.5-.7.8-1.3 1-.5.1-1.4 0-2.6-.2l-3.1-.5m9.5 1.6l1.2-13.7 6.3.7-.2 2.3-4-.5-.3 3.2 3.8.4-.2 2.1-3.8-.4-.3 3.8 4.1.4-.2 2.3-6.4-.6m10.4-1.1h2.2a1 1 0 0 0 .5-.5c.2-.3.4-.8.5-1.4a23 23 0 0 0 .2-3v-3a3 3 0 0 0-.6-1.3 1 1 0 0 0-.5-.3l-1-.2h-1l-.3 9.7M470 441l.5-13.7 3.7.1a6 6 0 0 1 1.7.3c.5.2.8.4 1.1.8a4 4 0 0 1 .9 1.8l.2 3.3a31.6 31.6 0 0 1-.4 4.1 4 4 0 0 1-.7 2c-.3.6-.7 1-1.2 1.2-.5.2-1.4.3-2.6.2l-3.2-.1m13.8.2l-.5-13.7 2.3-.1.5 13.7h-2.3m6.1-.3l-.8-11.4-2.7.2-.1-2.2 7.5-.7.2 2.2-2.6.3.8 11.4-2.3.2M498 426l2.3-.4 1.4 9c.2 1.1.4 1.8.7 2.1.3.4.7.5 1.3.3.6 0 1-.3 1.1-.8.2-.4.2-1.1 0-2.2l-1.4-9 2.2-.5 1.5 9.4.2 2-.3 1.2a3.3 3.3 0 0 1-1.2 1.3 5 5 0 0 1-1.8.7c-1.4.3-2.4.1-3.1-.4-.7-.6-1.2-1.7-1.4-3.4L498 426m12.3 3.5l1-.3c.6-.2 1-.4 1.3-.8.2-.4.2-1 0-1.7 0-.7-.3-1.2-.7-1.4-.3-.2-.8-.3-1.5 0l-1 .2.9 4m-.5 8l-3-13.3 4-1c1.1-.3 2-.3 2.7.2.6.4 1.1 1.3 1.4 2.6.3 1.4.2 2.4-.2 3.2-.4.8-1.2 1.4-2.3 1.7l-1.7.4 1.3 5.7-2.2.6m8.8-9.7a15 15 0 0 0 1.5 4c.4.4.9.5 1.5.3s1-.6 1-1.2-.2-2-.9-4.2-1-3.5-1.5-4c-.3-.5-.8-.6-1.4-.4-.6.2-1 .7-1 1.3-.1.6.2 2 .8 4.2m-2.3.8c-.4-1.4-.6-2.5-.7-3.4a5.6 5.6 0 0 1 0-2c.2-.8.4-1.3.8-1.8a5 5 0 0 1 1.8-1 4.1 4.1 0 0 1 2-.3c.5.1 1 .4 1.6.9.4.3.7.9 1 1.6a24.7 24.7 0 0 1 1.9 6.6 6 6 0 0 1 0 2.1 3.7 3.7 0 0 1-.8 1.7 4 4 0 0 1-1.8 1.1c-.8.3-1.4.4-2 .3a3 3 0 0 1-1.5-.9 5 5 0 0 1-1.1-1.6c-.4-.8-.8-2-1.2-3.3m11.3 3.1l-4.6-12.7 2.2-1 6.2 7.6-3.2-8.9 2-.9 4.6 12.7-2.2 1-6.2-7.6 3.2 9-2 .8m14.3-7l-4.8-10.1-2.3 1.3-1-2 6.7-3.9 1 2-2.3 1.4 4.8 10.1-2 1.2m5.4-3.2l-6.6-11.6 2-1.4 2.5 4.6 2.7-2-2.6-4.5 2-1.3 6.5 11.6-2 1.3-3-5.2-2.6 1.8 3 5.3-2 1.4m8.3-6l-7.4-11 5-4.2 1.3 1.9-3.3 2.7 1.7 2.5 3-2.5 1.2 1.7-3 2.5 2 3 3.4-2.7 1.2 1.8-5 4.3M562 404l1.6-1.8.6.6c.5.6 1 1 1.2 1 .4 0 .7 0 1-.4.4-.4.6-.8.6-1.2a2 2 0 0 0-.5-1.2 2 2 0 0 0-.9-.5 4.2 4.2 0 0 0-1.5 0l-1.4.3a6.4 6.4 0 0 1-2.6.2 3.3 3.3 0 0 1-1.5-1 3.8 3.8 0 0 1-1.1-2.7 4.1 4.1 0 0 1 1.2-2.7c.8-1 1.7-1.3 2.5-1.3s1.7.5 2.6 1.4a3.8 3.8 0 0 1 .3.4l-1.6 1.7-.2-.3a3 3 0 0 0-1.3-.9c-.3 0-.7.1-1 .5-.3.3-.4.6-.4 1 0 .3.1.6.4 1 .3.3 1 .4 2.2.2l1.5-.3a5.3 5.3 0 0 1 2.5-.1c.6.1 1.2.6 1.8 1.2a4 4 0 0 1 1.1 2.8 4.5 4.5 0 0 1-1.3 2.9c-.9 1-1.8 1.4-2.6 1.4-1 0-1.8-.6-2.7-1.6l-.5-.6m9.5-3.9l-9.5-8.8 4.1-5.4 1.6 1.5-2.6 3.4 2.2 2 2.4-3.2 1.5 1.4-2.4 3.2 2.6 2.5 2.6-3.6 1.6 1.5-4 5.5m2.3-12.3l1.1-1.8-4.8-2.3 3.7 4.1m2.3 6.1l-8.7-10.2 1.7-2.8 11.8 5-1.4 2.3-2.9-1.3-1.5 2.4 2.3 2.5-1.3 2.1m1.4-11.1l1.1-2.3.7.4c.7.4 1.2.6 1.5.5.3 0 .6-.3.8-.7.2-.5.3-1 .2-1.3 0-.4-.4-.7-.8-1a1.5 1.5 0 0 0-1-.2c-.3 0-.8.3-1.4.6l-1.3.8a6.6 6.6 0 0 1-2.4 1 3 3 0 0 1-1.7-.5 3.5 3.5 0 0 1-1.8-2.1 4.3 4.3 0 0 1 .4-3c.5-1.1 1.2-1.8 2-2 .9-.4 1.8-.2 2.8.4a3.5 3.5 0 0 1 .4.2l-1 2.2-.3-.2c-.6-.3-1-.5-1.4-.4-.3 0-.6.3-.9.8-.1.4-.2.7 0 1 0 .4.2.6.6.8.4.3 1.2.1 2.2-.5l1.3-.8c1-.6 1.8-1 2.4-1 .6 0 1.3.2 2 .6 1 .5 1.6 1.3 1.9 2.2.2 1 0 2-.5 3.2-.5 1.3-1.2 2-2 2.3-1 .3-2 0-3.1-.6a11.5 11.5 0 0 1-.6-.4'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14509,6 +14627,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14536,6 +14655,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14566,6 +14686,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14589,6 +14710,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14647,6 +14769,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14684,6 +14807,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14713,6 +14837,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14736,6 +14861,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' d='M260.5 292.1c-.6.7-4.7 8.9-4.7 8.9l7-1.5-2.3-7.4zm4 10.5l-7.4 2.4 8.9 3.5-1.5-5.9zm3.3-10.3l3.7 10.9 9-2.6-2.3-5.2-10.4-3.1zm5.8 14.8l1.2 4.4 12 3-4.8-10.2-8.4 2.8zm13.2-9.3l4.3 10.2 9-3.5-3-4.5-10.3-2.2zm6 13.9l1.4 3.8 14 2-5.9-9.2-9.6 3.4zm13.4-11l5.2 9.1 13-4.8-1.4-3.5-16.8-.7zm7.6 12.4l2.7 4.8 16.2-.5-6-9-13 4.7zm17.1-12l4.4 7.6 10.4-5-2.8-4-12 1.4zm17 5.8l-10.3 5.1 2.7 4.5 13.8-2.2-6.2-7.4zm3.3-8l5.3 6.7 8.7-6.9-3-3-11 3.2zm15.9 3.5l-8.3 6.3 2.2 3.9 11.4-3-5.3-7.2zm11.4-13l2 2.9-5.7 8.5-5.9-7.6 9.6-3.8zm3.9 7.3l3.5 7-7 2.4-.6-3.3 4-6z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14758,6 +14884,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14778,6 +14905,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' d='M0 160h640v160H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14799,6 +14927,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14827,6 +14956,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14846,6 +14976,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#006233' stroke-width='11.7' d='M320 179.4L284.4 289l93.2-67.6H262.4l93.2 67.6z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14867,6 +14998,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -14952,6 +15084,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#ff1900' fill-rule='evenodd' stroke='#000' stroke-width='1.1' d='M209 776c0 7.8-10.2 14.2-23 14.2s-23-6.4-23-14.2 10.3-14.2 23-14.2 23 6.4 23 14.2z' transform='matrix(.57449 -.36357 .38048 .54895 -2.3 4.2)'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15083,6 +15216,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#d4af3a' d='M335.8 113c.7-.2 1.5.2 1.9.8.3.6 0 1.2-1 1.4-1.7.3-2.5-1.8-1-2.2z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15105,6 +15239,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15127,6 +15262,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15149,6 +15285,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15169,6 +15306,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <circle cx='320' cy='240' r='77.1' fill='#ffe600' stroke='#d20000' stroke-width='17.1'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15191,6 +15329,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15222,6 +15361,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='18' height='12' x='9' y='6.4' transform='matrix(40 0 0 40 -40 0)' xlink:href='#b'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15250,6 +15390,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <circle cx='107' cy='323.6' r='6.4' fill='#c4272f'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15274,6 +15415,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' transform='matrix(-1 0 0 1 640 0)' xlink:href='#a'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15375,6 +15517,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15396,6 +15539,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#ffc400' d='M320 93.8l-13.5 41.5H263l35.3 25.6-13.5 41.4 35.3-25.6 35.3 25.6-13.5-41.4 35.3-25.6h-43.6z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15450,6 +15594,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15514,6 +15659,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15537,6 +15683,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15558,6 +15705,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <circle cx='380' cy='240' r='80' fill='#007e3a'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15583,6 +15731,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -15980,6 +16129,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#977c2e' d='M301 239.1s.3 0 .5-.3-.1.4-.1.4l-.3.1-.2-.2z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16010,6 +16160,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16046,6 +16197,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16077,6 +16229,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16099,6 +16252,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16120,6 +16274,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <circle cx='320' cy='240' r='68' fill='#e05206'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16144,6 +16299,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16165,6 +16321,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16309,6 +16466,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#c8a400' d='M320 179.9l-25.7 44.5L268 270h104l-25.7-44.6L320 180zm0 2.4l25.2 43.7 24.7 42.8h-99.8l25.2-43.8z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16331,6 +16489,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16353,6 +16512,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#002664' d='M0 210h640v60H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16382,6 +16542,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16409,6 +16570,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16450,6 +16612,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16506,6 +16669,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path style='line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal' fill='#cc142b' d='M163.8 0v91.5H0v36.4h163.8v91.5h36.4V128h163.9V91.5H200.2V0z' color='#000' font-family='sans-serif' font-weight='400' overflow='visible'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16636,6 +16800,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16665,6 +16830,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16924,6 +17090,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16958,6 +17125,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -16982,6 +17150,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' fill-rule='evenodd' d='M175 399l-14.2-9-19 9.1 4.3-16.2-14.5-15.1 16.7-1 10-18.4 6.1 15.5 20.7 3.8-13 10.6zm36.2-79l-6.6-3-6.3 3.6 1-7.2-5.4-4.9 7.1-1.3 3-6.6 3.5 6.4 7.2.8-5 5.2zm32-45.2l-14.5-7-13.9 7.8 2.3-15.7-11.8-10.8 15.7-2.8 6.6-14.4 7.6 14 15.8 1.8-11 11.5zm-65.8-63l-17-8.5-16.5 9.1 2.8-18.6-13.8-13 18.7-3 8-17 8.7 16.7 18.8 2.3-13.3 13.4zm-60.8 65.4l-17-10-17 10.3 4.3-19.3-15.1-13 19.7-1.8 7.7-18.3 7.9 18.2 19.8 1.6-14.9 13z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17006,6 +17175,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17036,6 +17206,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17057,6 +17228,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17079,6 +17251,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17156,6 +17329,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17184,6 +17358,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17214,6 +17389,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17286,6 +17462,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17312,6 +17489,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17484,6 +17662,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fedf00' stroke='#000' stroke-width='.4' d='M327.6 249.5l-7.6-5.3-7.6 5.3 2.9-8.4-6.7-5.2h8.6l2.8-8.4 2.8 8.4h8.6l-6.7 5.2 2.9 8.4z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17506,6 +17685,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17528,6 +17708,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17835,6 +18016,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17857,6 +18039,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17885,6 +18068,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17926,6 +18110,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17954,6 +18139,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -17983,6 +18169,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18011,6 +18198,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18042,6 +18230,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18070,6 +18259,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18159,6 +18349,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#000' stroke-width='.3' d='M399.7 640.8c0 16.3-2.6 33.9-23.8 42.3-21.1-8.4-23.7-26-23.8-42.3h47.6zm0 0c0-6.2-.3-12.2-.2-17.4a63.6 63.6 0 0 0-23.6-4.3c-5.3 0-15.7.8-23.6 4.3.2 5.2-.2 11.2-.2 17.4h47.6z' transform='matrix(4.4862 0 0 4.4867 -1190.9 -2609)'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18192,6 +18383,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18214,6 +18406,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#002868' d='M0 210h640v60H0z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18238,6 +18431,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#0b4ea2' d='M233 263.3c-19.9 0-30.5 27.5-30.5 27.5s-6-13-22.2-13c-11 0-19 9.7-24.2 18.8 20 31.7 51.9 51.3 76.9 63.4 25-12 57-31.7 76.9-63.4-5.2-9-13.2-18.8-24.2-18.8-16.2 0-22.2 13-22.2 13S253 263.3 233 263.3z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18260,6 +18454,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18366,6 +18561,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='none' stroke='#00a400' stroke-linecap='round' stroke-width='2.2' d='M231.3 318.6c10.1 1.2 24.1.3 30.2 0M216 284.2c8.6 6.7 27.1 10.7 26.8 10.7m10.7 1.8c-2.8-14-5.8-17.4-8.3-26.2m-43.5-15.8c14.3 6.4 16.5 10.6 25.6 17m5.2-14c1.2-17.3 3.6-21.9 7.9-25.9m-38.7-2c5.2 5.7 22.2 23.7 22.2 23.7m-7-39.6c6.4 4.5 6.4 21 6.4 21'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18389,6 +18585,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#0b7226' d='M342 218.8h71.8l-56.6 43.6 20.7 69.3-56.6-43.6-56.6 41.6 20.7-67.3-56.6-43.6h69.8l22.7-71.3z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18415,6 +18612,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18436,6 +18634,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#ecc81d' d='M320 153.2l56.4 173.6-147.7-107.3h182.6L263.6 326.8z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18459,6 +18658,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fcdd09' d='M200.7 194.8L61.7 240l139 45.1L114.9 167v146z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -18490,6 +18690,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' x='700' transform='translate(-523.2)' xlink:href='#c'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19106,6 +19307,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19177,6 +19379,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19198,6 +19401,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#090' fill-rule='evenodd' d='M201.9 281l-28.8-20.9-28.7 21.1 10.7-34.2-28.7-21.2 35.4-.3 11-34.1 11.3 34h35.4L191 246.9l10.9 34.2zm307.6 0l-28.8-20.9-28.7 21.1 10.7-34.2-28.6-21.2 35.4-.3 11-34.1 11.2 34h35.4l-28.5 21.4 11 34.2z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19258,6 +19462,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19340,6 +19545,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19362,6 +19568,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19392,6 +19599,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' x='499' y='227' transform='scale(1.2)' xlink:href='#a'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19421,6 +19629,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19443,6 +19652,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19480,6 +19690,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='100%' height='100%' fill='#f8c300' transform='matrix(-1 0 0 1 640 0)' xlink:href='#d'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19500,6 +19711,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' d='M106.8 109.1l-4 12.2 10.4-7.5 10.3 7.5-3.9-12.2 10.3-7.5h-12.8l-3.9-12.2-4 12.2H96.4zm78.1 57.4l8.6-6.3h-10.7l-3.3-10.1-3.3 10.1h-10.6l8.6 6.3-3.3 10.1 8.6-6.3 8.7 6.3zm-145.2 13l-4-12.2-3.9 12.2H19l10.3 7.5-3.9 12.2 10.3-7.5 10.4 7.5-4-12.2 10.4-7.5zm78.1 122.3l-4.6-14.2-4.6 14.2h-15l12.1 8.7-4.6 14.3 12.1-8.8 12.1 8.8-4.7-14.3 12.1-8.7z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19528,6 +19740,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19749,6 +19962,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19777,6 +19991,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19802,6 +20017,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19825,6 +20041,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19845,6 +20062,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill-rule='evenodd' d='M27.7.2h118.6l468.2 479.3H492.2L27.7.2z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19887,6 +20105,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19916,6 +20135,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19944,6 +20164,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -19965,6 +20186,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20010,6 +20232,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20040,6 +20263,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20071,6 +20295,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#fff' d='M320 242c.1 0 .3.5.6.4.3 0 .5.6.1.6-.2 0-.2.3-.2.5 0 .1 0 .5-.3.8-.2.2-.4 0-.7-.1-.3-.2-.5-.2-.9-.2-.3 0 0 .6 0 .6s-1.6 0-1.3-.3c.3-.2.6-.3.4-.4-.2-.2 0-.3 0-.6s.7-.2.5-.4c-.2-.2 0-1.1.4-.6l.2-.5c-.2-.3 0-.3-.5-.5s-.1-1-.1-1v-.7c.2-.7 1.7-.8 1.8-.1v1.1l.5.2s-.1.4-.5.4 0 .2-.2.5l.2.4zm-5 .8c.3-.4.8-2.4 1.4-1.8.6.6 1 0 1 0s.3.3.1 1c-.1.5-.3 1.1-.6 1.2-.4 0-.7.3-1.2.4-.4 0-.6-.8-.6-.8z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20096,6 +20321,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20139,6 +20365,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20184,6 +20411,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20678,6 +20906,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20701,6 +20930,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20742,6 +20972,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <use width='180' height='120' transform='rotate(-80 320 336)' xlink:href='#f'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20785,6 +21016,7 @@ exports[`Flags.vue renders correctly 1`] = `
   <path fill='#162667' stroke='#010002' stroke-miterlimit='10' stroke-width='1.5' d='M399.1 145.8s-36.4 19-74.3-1.6c-37.9 20.6-74.3 1.6-74.3 1.6V201h148.6v-55.2z'/>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20927,6 +21159,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20953,6 +21186,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -20986,6 +21220,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21008,6 +21243,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21030,6 +21266,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21061,6 +21298,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21083,6 +21321,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21105,6 +21344,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21137,6 +21377,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21179,6 +21420,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            
@@ -21215,6 +21457,7 @@ exports[`Flags.vue renders correctly 1`] = `
   </g>
 
 "
+            fonticontag="i"
             height="42"
           />
            

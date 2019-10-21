@@ -2,14 +2,8 @@
 
 exports[`CoreUIIcons.vue renders correctly 1`] = `
 <div>
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="cui-pencil"
       />
@@ -45,12 +39,10 @@ exports[`CoreUIIcons.vue renders correctly 1`] = `
       </div>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <crow-stub
         class="text-center "
+        gutters="true"
       >
         <ccol-stub
           col="6"

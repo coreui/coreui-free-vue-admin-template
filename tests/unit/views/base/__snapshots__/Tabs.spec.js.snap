@@ -2,20 +2,16 @@
 
 exports[`Tabs.vue renders correctly 1`] = `
 <div>
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       lg="6"
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Tabs
           
@@ -37,11 +33,9 @@ exports[`Tabs.vue renders correctly 1`] = `
           </div>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <ctabs-stub
+            fade="true"
             tabs="true"
           >
             <ctab-stub
@@ -91,24 +85,16 @@ exports[`Tabs.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Tabs
         
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <ctabs-stub
+            fade="true"
             pills="true"
             tabs="true"
           >
@@ -159,24 +145,16 @@ exports[`Tabs.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Tabs with icons
         
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <ctabs-stub
+            fade="true"
             tabs="true"
           >
             <ctab-stub
@@ -235,25 +213,17 @@ exports[`Tabs.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Tabs with icons
         
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <ctabs-stub
             addtabclasses="mt-1"
+            fade="true"
             tabs="true"
           >
             <ctab-stub
@@ -318,24 +288,16 @@ exports[`Tabs.vue renders correctly 1`] = `
       tag="div"
       xs="12"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           
           Tabs vertical
         
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <ctabs-stub
+            fade="true"
             pills="true"
             tabs="true"
             vertical="true"

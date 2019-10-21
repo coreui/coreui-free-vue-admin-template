@@ -19,8 +19,6 @@ exports[`Brands.vue renders correctly 1`] = `
     <div
       class="card-body"
     >
-      <!---->
-      <!---->
       <div
         class="row text-center"
       >

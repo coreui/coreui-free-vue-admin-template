@@ -8,25 +8,22 @@ module.exports = {
   transform: {
     '^.+\\.vue$': 'vue-jest',
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
-    '^.+\\.jsx?$': '<rootDir>/node_modules/babel-jest'
+    '^.+\\.(js|jsx)?$': '<rootDir>/node_modules/babel-jest'
   },
-  transformIgnorePatterns: ["/node_modules/(?!@coreui/icons)"],
+  transformIgnorePatterns: ['/node_modules/(?!@coreui/icons/vue|coreui)'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
   snapshotSerializers: [
     'jest-serializer-vue'
   ],
-  testMatch: [
-    '<rootDir>/(tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx))',
-    '<rootDir>/tests/unit/Dashboard.spec.js'
-  ],
+  testMatch: ['<rootDir>/tests/unit/**/*.spec.js'],
   verbose: true,
-  testURL: "http://localhost/",
+  testURL: 'http://localhost/',
   collectCoverage: true,
   collectCoverageFrom: [
-      "src/**/*.{js,vue}",
-      "!**/node_modules/**"
+      'src/**/*.{js,vue}',
+      '!**/node_modules/**'
   ],
-  coverageReporters: ["html", "text-summary"]
+  coverageReporters: ['html', 'text-summary']
 }

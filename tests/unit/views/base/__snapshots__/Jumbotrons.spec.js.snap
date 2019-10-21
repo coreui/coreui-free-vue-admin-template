@@ -2,18 +2,14 @@
 
 exports[`Jumbotrons.vue renders correctly 1`] = `
 <div>
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -40,10 +36,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           </div>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cjumbotron-stub
             header="Bootstrap 4"
             lead="Bootstrap 4 Components for Vue.js 2"
@@ -73,14 +66,8 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
     <ccol-stub
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -94,10 +81,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cjumbotron-stub
             header="Bootstrap 4"
             lead=""
@@ -155,18 +139,14 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       tag="div"
     >
-      <ccard-stub
-        subtitletag="h6"
-        titletag="h4"
-      >
-        <ccardheader-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+      <ccard-stub>
+        <ccardheader-stub>
           <i
             class="fa fa-align-justify"
           />
@@ -180,16 +160,13 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           </small>
         </ccardheader-stub>
          
-        <ccardbody-stub
-          subtitletag="h6"
-          titletag="h4"
-        >
+        <ccardbody-stub>
           <cjumbotron-stub
-            border-color="dark"
+            bordercolor="dark"
             color="info"
             header="Bootstrap 4"
             tag="div"
-            text-color="white"
+            textcolor="white"
           >
             <p
               class="lead"

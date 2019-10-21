@@ -2,14 +2,8 @@
 
 exports[`ProgressBars.vue renders correctly 1`] = `
 <div>
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -36,15 +30,12 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </div>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cprogress-stub
         animated="true"
         max="100"
         precision="0"
-        show-percentage=""
+        showpercentage="true"
         value="73"
       />
        
@@ -94,14 +85,8 @@ exports[`ProgressBars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -114,10 +99,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <h6>
         No label
       </h6>
@@ -149,7 +131,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="50"
         precision="0"
-        show-percentage=""
+        showpercentage="true"
         value="33.333333333"
       />
        
@@ -173,20 +155,14 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="50"
         precision="2"
-        show-percentage=""
+        showpercentage="true"
         value="33.333333333"
       />
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -200,10 +176,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <h6>
         Default width
       </h6>
@@ -242,14 +215,8 @@ exports[`ProgressBars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -263,10 +230,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <h6>
         Default height
       </h6>
@@ -275,7 +239,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="100"
         precision="0"
-        show-percentage=""
+        showpercentage="true"
         value="75"
       />
        
@@ -288,7 +252,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         height="2rem"
         max="100"
         precision="0"
-        show-percentage=""
+        showpercentage="true"
         value="75"
       />
        
@@ -297,7 +261,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         height="20px"
         max="100"
         precision="0"
-        show-percentage=""
+        showpercentage="true"
         value="75"
       />
        
@@ -310,14 +274,8 @@ exports[`ProgressBars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -331,10 +289,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <div
         class="row mb-1"
       >
@@ -478,14 +433,8 @@ exports[`ProgressBars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -499,10 +448,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cprogress-stub
         class="mb-2"
         color="success"
@@ -555,14 +501,8 @@ exports[`ProgressBars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -576,10 +516,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cprogress-stub
         animated="true"
         class="mb-2"
@@ -635,14 +572,8 @@ exports[`ProgressBars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -656,10 +587,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cprogress-stub
         class="mb-3"
         max="100"
@@ -692,7 +620,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
         class="mb-3"
         max="100"
         precision="0"
-        show-percentage=""
+        showpercentage="true"
         value="0"
       >
         <cprogressbar-stub
@@ -757,7 +685,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           color="primary"
           max="100"
           precision="0"
-          show-percentage=""
+          showpercentage="true"
           value="15"
         />
          
@@ -766,7 +694,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           color="success"
           max="100"
           precision="0"
-          show-percentage=""
+          showpercentage="true"
           value="30"
         />
          
@@ -774,7 +702,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
           color="info"
           max="100"
           precision="0"
-          show-percentage=""
+          showpercentage="true"
           striped="true"
           value="20"
         />

@@ -2,14 +2,8 @@
 
 exports[`Navbars.vue renders correctly 1`] = `
 <div>
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -36,17 +30,15 @@ exports[`Navbars.vue renders correctly 1`] = `
       </div>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnavbar-stub
         color="info"
         expandable="md"
         tag="nav"
       >
-        <ctoggler
-          innavbar=""
+        <ctoggler-stub
+          innavbar="true"
+          tag="button"
         />
          
         <cnavbarbrand-stub
@@ -101,10 +93,12 @@ exports[`Navbars.vue renders correctly 1`] = `
             <cform-stub
               inline="true"
             >
-              <cinput
+              <cinput-stub
                 class="mr-sm-2"
+                lazy="400"
                 placeholder="Search"
                 size="sm"
+                type="text"
               />
                
               <cbutton-stub
@@ -125,7 +119,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cform-stub>
              
             <cdropdown-stub
-              nav="true"
+              caret="true"
+              flip="true"
+              innav="true"
               placement="bottom-end"
               togglertext="Lang"
             >
@@ -171,7 +167,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cdropdown-stub>
              
             <cdropdown-stub
-              nav="true"
+              caret="true"
+              flip="true"
+              innav="true"
               placement="bottom-end"
               togglertext="User"
             >
@@ -201,14 +199,8 @@ exports[`Navbars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -222,10 +214,7 @@ exports[`Navbars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnavbar-stub
         color="faded"
         light="true"
@@ -252,14 +241,8 @@ exports[`Navbars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -273,18 +256,16 @@ exports[`Navbars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnavbar-stub
         color="light"
         light="true"
         tag="nav"
         toggleable="sm"
       >
-        <ctoggler
-          innavbar=""
+        <ctoggler-stub
+          innavbar="true"
+          tag="button"
         />
          
         <cnavbarbrand-stub
@@ -316,14 +297,8 @@ exports[`Navbars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -337,17 +312,15 @@ exports[`Navbars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnavbar-stub
         color="primary"
         expandable="sm"
         tag="nav"
       >
-        <ctoggler
-          innavbar=""
+        <ctoggler-stub
+          innavbar="true"
+          tag="button"
         />
          
         <ccollapse-stub
@@ -383,7 +356,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cnavitem-stub>
              
             <cdropdown-stub
-              nav="true"
+              caret="true"
+              flip="true"
+              innav="true"
               placement="bottom-end"
               togglertext="Lang"
             >
@@ -429,7 +404,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cdropdown-stub>
              
             <cdropdown-stub
-              nav="true"
+              caret="true"
+              flip="true"
+              innav="true"
               placement="bottom-end"
               togglertext="User"
             >
@@ -459,14 +436,8 @@ exports[`Navbars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -480,10 +451,7 @@ exports[`Navbars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnavbar-stub
         color="light"
         light="true"
@@ -492,10 +460,12 @@ exports[`Navbars.vue renders correctly 1`] = `
         <cform-stub
           inline="true"
         >
-          <cinput
+          <cinput-stub
             class="mr-sm-2"
+            lazy="400"
             placeholder="Search"
             size="sm"
+            type="text"
           />
            
           <cbutton-stub
@@ -515,14 +485,8 @@ exports[`Navbars.vue renders correctly 1`] = `
     </ccardbody-stub>
   </ccard-stub>
    
-  <ccard-stub
-    subtitletag="h6"
-    titletag="h4"
-  >
-    <ccardheader-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+  <ccard-stub>
+    <ccardheader-stub>
       <i
         class="fa fa-align-justify"
       />
@@ -536,10 +500,7 @@ exports[`Navbars.vue renders correctly 1`] = `
       </small>
     </ccardheader-stub>
      
-    <ccardbody-stub
-      subtitletag="h6"
-      titletag="h4"
-    >
+    <ccardbody-stub>
       <cnavbar-stub
         color="light"
         light="true"
@@ -548,9 +509,11 @@ exports[`Navbars.vue renders correctly 1`] = `
         <cform-stub
           inline="true"
         >
-          <cinput
+          <cinput-stub
             class="mr-sm-2"
+            lazy="400"
             placeholder="Username"
+            type="text"
           />
         </cform-stub>
       </cnavbar-stub>

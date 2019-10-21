@@ -2,7 +2,9 @@
 
 exports[`Widgets.vue renders correctly 1`] = `
 <div>
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       lg="3"
       sm="6"
@@ -67,7 +69,9 @@ exports[`Widgets.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       lg="3"
       sm="6"
@@ -129,7 +133,93 @@ exports[`Widgets.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        color="primary"
+        header="$1.999,50"
+        iconpadding="true"
+        text="Income"
+      >
+        <cicon-stub
+          fonticontag="i"
+          name="settings"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        color="info"
+        header="$1.999,50"
+        iconpadding="true"
+        text="Income"
+      >
+        <cicon-stub
+          fonticontag="i"
+          name="laptop"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        color="warning"
+        header="$1.999,50"
+        iconpadding="true"
+        text="Income"
+      >
+        <cicon-stub
+          fonticontag="i"
+          name="moon"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      col="12"
+      lg="3"
+      sm="6"
+      tag="div"
+    >
+      <cwidgeticon-stub
+        color="danger"
+        header="$1.999,50"
+        iconpadding="true"
+        text="Income"
+      >
+        <cicon-stub
+          fonticontag="i"
+          name="bell"
+          width="24"
+        />
+      </cwidgeticon-stub>
+    </ccol-stub>
+  </crow-stub>
+   
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       col="12"
       lg="3"
@@ -142,6 +232,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
+          fonticontag="i"
           name="settings"
           width="24"
         />
@@ -160,6 +251,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
+          fonticontag="i"
           name="laptop"
           width="24"
         />
@@ -178,6 +270,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
+          fonticontag="i"
           name="moon"
           width="24"
         />
@@ -196,6 +289,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
+          fonticontag="i"
           name="bell"
           width="24"
         />
@@ -203,81 +297,9 @@ exports[`Widgets.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
-    <ccol-stub
-      col="12"
-      lg="3"
-      sm="6"
-      tag="div"
-    >
-      <cwidgeticon-stub
-        color="primary"
-        header="$1.999,50"
-        text="Income"
-      >
-        <cicon-stub
-          name="settings"
-          width="24"
-        />
-      </cwidgeticon-stub>
-    </ccol-stub>
-     
-    <ccol-stub
-      col="12"
-      lg="3"
-      sm="6"
-      tag="div"
-    >
-      <cwidgeticon-stub
-        color="info"
-        header="$1.999,50"
-        text="Income"
-      >
-        <cicon-stub
-          name="laptop"
-          width="24"
-        />
-      </cwidgeticon-stub>
-    </ccol-stub>
-     
-    <ccol-stub
-      col="12"
-      lg="3"
-      sm="6"
-      tag="div"
-    >
-      <cwidgeticon-stub
-        color="warning"
-        header="$1.999,50"
-        text="Income"
-      >
-        <cicon-stub
-          name="moon"
-          width="24"
-        />
-      </cwidgeticon-stub>
-    </ccol-stub>
-     
-    <ccol-stub
-      col="12"
-      lg="3"
-      sm="6"
-      tag="div"
-    >
-      <cwidgeticon-stub
-        color="danger"
-        header="$1.999,50"
-        text="Income"
-      >
-        <cicon-stub
-          name="bell"
-          width="24"
-        />
-      </cwidgeticon-stub>
-    </ccol-stub>
-  </crow-stub>
-   
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       col="12"
       lg="4"
@@ -291,6 +313,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           class="mx-5 "
+          fonticontag="i"
           name="settings"
           width="24"
         />
@@ -310,6 +333,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           class="mx-5 "
+          fonticontag="i"
           name="laptop"
           width="24"
         />
@@ -329,6 +353,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           class="mx-5 "
+          fonticontag="i"
           name="moon"
           width="24"
         />
@@ -352,6 +377,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="people"
       />
@@ -364,6 +390,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="userFollow"
       />
@@ -376,6 +403,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="basketLoaded"
       />
@@ -387,6 +415,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="chartPie"
       />
@@ -399,6 +428,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="speedometer"
       />
@@ -416,6 +446,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="people"
       />
@@ -429,6 +460,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="userFollow"
       />
@@ -442,6 +474,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="basketLoaded"
       />
@@ -455,6 +488,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="chartPie"
       />
@@ -468,13 +502,16 @@ exports[`Widgets.vue renders correctly 1`] = `
       value="25"
     >
       <cicon-stub
+        fonticontag="i"
         height="36"
         name="speedometer"
       />
     </cwidgetprogressicon-stub>
   </ccardgroup-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="2"
       sm="6"
@@ -487,6 +524,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="people"
         />
@@ -505,6 +543,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="userFollow"
         />
@@ -523,6 +562,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="basketLoaded"
         />
@@ -541,6 +581,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="chartPie"
         />
@@ -559,6 +600,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="speedometer"
         />
@@ -577,6 +619,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="speech"
         />
@@ -584,7 +627,9 @@ exports[`Widgets.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       md="2"
       sm="6"
@@ -598,6 +643,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="people"
         />
@@ -617,6 +663,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="userFollow"
         />
@@ -636,6 +683,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="basketLoaded"
         />
@@ -655,6 +703,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="chartPie"
         />
@@ -674,6 +723,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="speedometer"
         />
@@ -693,6 +743,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         value="25"
       >
         <cicon-stub
+          fonticontag="i"
           height="36"
           name="speech"
         />
@@ -702,7 +753,9 @@ exports[`Widgets.vue renders correctly 1`] = `
    
   <widgetsdropdown-stub />
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       lg="3"
       sm="6"
@@ -820,7 +873,9 @@ exports[`Widgets.vue renders correctly 1`] = `
     </ccol-stub>
   </crow-stub>
    
-  <crow-stub>
+  <crow-stub
+    gutters="true"
+  >
     <ccol-stub
       lg="2"
       sm="4"

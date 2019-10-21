@@ -4,14 +4,13 @@ exports[`Table.vue renders correctly 1`] = `
 <ccard-stub
   bodywrapper="true"
   header="Table"
-  subtitletag="h6"
-  titletag="h4"
 >
   <ctable-stub
     defaultsorter="[object Object]"
     fields="username,registered,role,status"
     itemsperpage="5"
     pagination="true"
+    responsive="true"
   />
 </ccard-stub>
 `;

@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Users.vue renders correctly 1`] = `
-<crow-stub>
+<crow-stub
+  gutters="true"
+>
   <ccol-stub
     col="12"
     tag="div"
@@ -11,8 +13,6 @@ exports[`Users.vue renders correctly 1`] = `
       bodywrapper="true"
       headerhtml="Users"
       name="slide"
-      subtitletag="h6"
-      titletag="h4"
     >
       <ctable-stub
         clickablerows="true"
@@ -23,6 +23,7 @@ exports[`Users.vue renders correctly 1`] = `
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
         itemsperpage="5"
         pagination="[object Object]"
+        responsive="true"
         striped="true"
       />
     </ccard-stub>
