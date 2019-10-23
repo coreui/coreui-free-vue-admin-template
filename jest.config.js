@@ -10,7 +10,7 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
     '^.+\\.(js|jsx)?$': '<rootDir>/node_modules/babel-jest'
   },
-  transformIgnorePatterns: ['/node_modules/(?!@coreui/icons/vue|coreui)'],
+  transformIgnorePatterns: ['/node_modules/(?!@coreui/icons)'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
