@@ -9,7 +9,13 @@ exports[`TheHeader.vue renders correctly 1`] = `
   withsubheader="true"
 >
   <ctoggler-stub
-    class="c-header-toggler ml-3"
+    class="c-header-toggler ml-3 d-lg-none"
+    inheader="true"
+    tag="button"
+  />
+   
+  <ctoggler-stub
+    class="c-header-toggler ml-3 d-md-down-none"
     inheader="true"
     tag="button"
   />

@@ -7,7 +7,7 @@ exports[`TheSidebar.vue renders correctly 1`] = `
   dropdownmode="openActive"
   fixed="true"
   hideonmobileclick="true"
-  show="true"
+  show="responsive"
 >
   <csidebarbrand-stub
     fullsrc="img/brand/coreui-base-white.svg"
