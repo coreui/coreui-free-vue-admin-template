@@ -5,17 +5,16 @@
     class="c-header-nav-items"
     placement="bottom-end"
     add-menu-classes="pt-0"
-    :show.sync="show"
   >
     <template #toggler>
-      <CLink class="c-header-nav-link" @click="show = !show">
+      <CHeaderNavItem only-link>
         <div class="c-avatar">
           <img
             src="img/avatars/6.jpg"
             class="c-avatar-img "
           />
         </div>
-      </CLink>
+      </CHeaderNavItem>
     </template>
     <CDropdownHeader tag="div" class="text-center" color="light">
       <strong>Account</strong>
@@ -72,8 +71,7 @@ export default {
   name: 'TheHeaderDropdownAccnt',
   data () {
     return { 
-      itemsCount: 42,
-      show: false
+      itemsCount: 42
     }
   }
 }

@@ -10,8 +10,8 @@ exports[`TheSidebar.vue renders correctly 1`] = `
   show="responsive"
 >
   <csidebarbrand-stub
-    fullsrc="img/brand/coreui-base-white.svg"
-    minimizedsrc="img/brand/coreui-signet-white.svg"
+    imgfull="[object Object]"
+    imgminimized="[object Object]"
     wrappedinlink="[object Object]"
   />
    

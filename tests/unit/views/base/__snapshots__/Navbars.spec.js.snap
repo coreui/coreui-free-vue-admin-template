@@ -286,11 +286,11 @@ exports[`Navbars.vue renders correctly 1`] = `
           <cnavbarnav-stub
             tag="ul"
           >
-            <span
-              class="navbar-text"
+            <cnavbartext-stub
+              tag="div"
             >
               Navbar text
-            </span>
+            </cnavbartext-stub>
           </cnavbarnav-stub>
         </ccollapse-stub>
       </cnavbar-stub>

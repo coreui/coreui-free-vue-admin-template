@@ -54,7 +54,7 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
               href="#"
               target="_self"
             >
-               &lt;b&gt;Admin&lt;/b&gt; 
+               Admin 
             </a>
           </li>
           <li

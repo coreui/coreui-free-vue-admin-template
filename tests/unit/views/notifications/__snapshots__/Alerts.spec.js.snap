@@ -356,7 +356,25 @@ exports[`Alerts.vue renders correctly 1`] = `
           class="alert-dismissible"
           color="secondary"
           show="true"
-        />
+        >
+          
+          Dismissible Alert with custom button!
+          
+          <cbutton-stub
+            activeclass="active"
+            class="position-absolute"
+            color="secondary"
+            event="click"
+            exactactiveclass="active"
+            routertag="a"
+            target="_self"
+            type="button"
+          >
+            
+            Close
+          
+          </cbutton-stub>
+        </calert-stub>
          
         <cbutton-stub
           activeclass="active"

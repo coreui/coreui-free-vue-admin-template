@@ -17,16 +17,20 @@
           </div>
         </CCardHeader>
         <CCardBody>
-          <CButton id="collapse1" color="primary">
+          <CButton @click="collapse = !collapse" color="primary">
             Toggle Collapse
           </CButton>
-          <CCollapse toggler="collapse1" class="mt-2">
+          <CCollapse :show="collapse" class="mt-2">
             <CCard body-wrapper>
               <p class="card-text">Collapse contents Here</p>
-              <CButton id="collapse2" size="sm" color="secondary">
+              <CButton  
+                @click="innerCollapse = !innerCollapse" 
+                size="sm" 
+                color="secondary"
+              >
                 Toggle Inner Collapse
               </CButton>
-              <CCollapse toggler="collapse2" class="mt-2">
+              <CCollapse :show="innerCollapse" class="mt-2">
                 <CCard body-wrapper>Hello!</CCard>
               </CCollapse>
             </CCard>
@@ -42,7 +46,8 @@ export default {
   name: 'Collapses',
   data () {
     return {
-      showCollapse: true,
+      collapse: false,
+      innerCollapse: false,
       text: `
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
         richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor

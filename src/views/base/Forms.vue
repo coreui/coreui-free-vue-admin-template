@@ -149,11 +149,10 @@
                 horizontal
                 disabled
               />
-              <CInput
+              <CTextarea
                 label="Textarea"
                 placeholder="Content..."
                 horizontal
-                textarea="true"
                 rows="9"
               />
               <CSelect
