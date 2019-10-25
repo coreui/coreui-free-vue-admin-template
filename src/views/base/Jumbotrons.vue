@@ -18,7 +18,9 @@
             </div>
           </CCardHeader>
           <CCardBody>
-            <CJumbotron header="Bootstrap 4" lead="Bootstrap 4 Components for Vue.js 2">
+            <CJumbotron>
+              <h1 class="display-3">Bootstrap 4</h1>
+              <p class="lead">Bootstrap 4 Components for Vue.js 2</p>
               <p>For more information visit website</p>
               <CButton color="primary" href="#">More Info</CButton>
             </CJumbotron>
@@ -33,7 +35,8 @@
           </CCardHeader>
           <CCardBody>
             <CJumbotron header="Bootstrap 4" lead="">
-              <p slot="lead" class="lead">
+              <h1 class="display-3">Bootstrap 4</h1>
+              <p class="lead">
                 This is a simple hero unit, a simple jumbotron-style component for
                 calling extra attention to featured content or information.
               </p>
@@ -61,9 +64,9 @@
               color="info"
               text-color="white"
               border-color="dark"
-              header="Bootstrap 4"
             >
-              <p slot="lead" class="lead">
+              <h1 class="display-3">Bootstrap 4</h1>
+              <p class="lead">
                 This is a simple hero unit, a simple jumbotron-style component for
                 calling extra attention to featured content or information.
               </p>

@@ -91,7 +91,7 @@
           <CNavbarBrand>CoreuiVue</CNavbarBrand>
           <CCollapse :show="navbarText" navbar>
             <CNavbarNav>
-              <span class="navbar-text">Navbar text</span>
+              <CNavbarText>Navbar text</CNavbarText>
             </CNavbarNav>
           </CCollapse>
         </CNavbar>

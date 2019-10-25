@@ -9,17 +9,24 @@ exports[`TheHeader.vue renders correctly 1`] = `
   withsubheader="true"
 >
   <ctoggler-stub
-    class="c-header-toggler ml-3"
+    class="ml-3 d-lg-none"
     inheader="true"
     tag="button"
   />
    
-  <img
+  <ctoggler-stub
+    class="ml-3 d-md-down-none"
+    inheader="true"
+    tag="button"
+  />
+   
+  <cheaderbrand-stub
     alt="CoreUI Logo"
-    class="c-header-brand mx-auto d-lg-none"
+    class="mx-auto d-lg-none"
     height="46"
     src="img/brand/coreui-base.svg"
     width="97"
+    wrappedinlink="[object Object]"
   />
    
   <cheadernav-stub
@@ -113,12 +120,13 @@ exports[`TheHeader.vue renders correctly 1`] = `
     <theheaderdropdownaccnt-stub />
   </cheadernav-stub>
    
-  <div
-    class="c-subheader px-3"
+  <csubheader-stub
+    class="px-3"
+    tag="div"
   >
     <cbreadcrumbrouter-stub
       class="border-0"
     />
-  </div>
+  </csubheader-stub>
 </cheader-stub>
 `;

@@ -45,7 +45,6 @@ exports[`Collapses.vue renders correctly 1`] = `
       >
         <button
           class="btn btn-primary"
-          id="collapse1"
           type="button"
         >
           
@@ -56,7 +55,6 @@ exports[`Collapses.vue renders correctly 1`] = `
         <div
           class="mt-2"
           style="display: none;"
-          toggler="collapse1"
         >
           <div
             class="card"
@@ -73,7 +71,6 @@ exports[`Collapses.vue renders correctly 1`] = `
                
               <button
                 class="btn btn-secondary btn-sm"
-                id="collapse2"
                 type="button"
               >
                 
@@ -84,7 +81,6 @@ exports[`Collapses.vue renders correctly 1`] = `
               <div
                 class="mt-2"
                 style="display: none;"
-                toggler="collapse2"
               >
                 <div
                   class="card"

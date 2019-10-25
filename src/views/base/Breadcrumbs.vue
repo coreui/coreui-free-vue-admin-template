@@ -32,7 +32,7 @@ export default {
     return {
       items: [
         {
-          text: '<b>Admin</b>',
+          text: 'Admin',
           href: '#'
         }, 
         {

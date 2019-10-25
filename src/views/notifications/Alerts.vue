@@ -100,7 +100,7 @@
           <CAlert
             color="secondary"
             closeButton
-            :show.sync="dismissibleAlerts[0]"
+            :show.sync="alert1"
           >
             Dismissible Alert!
           </CAlert>
@@ -109,15 +109,14 @@
             color="secondary"
             closeButton
             fade
-            :show.sync="dismissibleAlerts[1]"
+            :show.sync="alert2"
           >
             Dismissible Alert with fade effect!
           </CAlert>
 
           <CAlert
             color="secondary"
-            :show.sync="dismissibleAlerts[2]"
-            v-slot="{dismiss}"
+            :show.sync="alert3"
             class="alert-dismissible"
           >
             Dismissible Alert with custom button!
@@ -125,9 +124,9 @@
               class="position-absolute"
               color="secondary"
               style="right:10px;top: 50%;transform: translateY(-50%);"
-              @click="dismiss"
+              @click="alert3 = false"
             >
-              <i>Close</i>
+              Close
             </CButton>
           </CAlert>
           <CButton
@@ -186,7 +185,9 @@ export default {
     return {
       dismissSecs: 10,
       dismissCountDown: 10,
-      dismissibleAlerts: [true, true, true],
+      alert1: true,
+      alert2: true,
+      alert3: true
     }
   },
   methods: {
@@ -197,7 +198,7 @@ export default {
       this.dismissCountDown = this.dismissSecs
     },
     showDismissibleAlerts () {
-      this.dismissibleAlerts = this.dismissibleAlerts.map(el => el = true)
+      ['alert1', 'alert2', 'alert3'].forEach(alert => this[alert] = true)
     }
   }
 }

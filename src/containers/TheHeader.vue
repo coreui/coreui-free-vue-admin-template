@@ -2,15 +2,21 @@
   <CHeader fixed with-subheader light>
     <CToggler
       in-header
-      class="c-header-toggler ml-3"
+      class="ml-3 d-lg-none"
+      v-c-emit-root-event:toggle-sidebar-mobile
+    />
+    <CToggler
+      in-header
+      class="ml-3 d-md-down-none"
       v-c-emit-root-event:toggle-sidebar
     />
-    <img
-      class="c-header-brand mx-auto d-lg-none" 
-      src="img/brand/coreui-base.svg" 
-      width="97" 
-      height="46" 
+    <CHeaderBrand
+      class="mx-auto d-lg-none" 
+      src="img/brand/coreui-base.svg"
+      width="97"
+      height="46"
       alt="CoreUI Logo"
+      :wrappedInLink="{ href: 'https://coreui.io', target: '_blank'}"
     />
     <CHeaderNav class="d-md-down-none mr-auto">
       <CHeaderNavItem class="px-3" to="/dashboard">Dashboard</CHeaderNavItem>
@@ -29,9 +35,9 @@
       </CHeaderNavItem>
       <TheHeaderDropdownAccnt/>
     </CHeaderNav>
-    <div class="c-subheader px-3">
+    <CSubheader class="px-3">
       <CBreadcrumbRouter class="border-0"/>
-    </div>
+    </CSubheader>
   </CHeader>
 </template>
 

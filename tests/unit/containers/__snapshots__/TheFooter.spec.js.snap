@@ -2,11 +2,13 @@
 
 exports[`TheFooter.vue renders correctly 1`] = `
 <cfooter-stub
+  fixed="true"
   tag="footer"
 >
   <div>
     <a
       href="https://coreui.io"
+      target="_blank"
     >
       CoreUI
     </a>
@@ -28,7 +30,8 @@ exports[`TheFooter.vue renders correctly 1`] = `
     </span>
      
     <a
-      href="https://coreui.io"
+      href="https://coreui.io/vue"
+      target="_blank"
     >
       CoreUI for Vue
     </a>

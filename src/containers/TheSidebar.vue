@@ -2,11 +2,11 @@
   <CSidebar 
     fixed 
     :minimize="minimize"
-    :show="show"
+    :show.sync="show"
   >
     <CSidebarBrand 
-      fullSrc="img/brand/coreui-base-white.svg" 
-      minimizedSrc="img/brand/coreui-signet-white.svg"
+      :imgFull="{ width: 118, height: 46, alt: 'Logo', src: 'img/brand/coreui-base-white.svg'}"
+      :imgMinimized="{ width: 118, height: 46, alt: 'Logo', src: 'img/brand/coreui-signet-white.svg'}"
       :wrappedInLink="{ href: 'https://coreui.io/', target: '_blank'}"
     />
     <!-- <CSidebarHeader/> -->
@@ -28,11 +28,18 @@ export default {
     return {
       minimize: false,
       nav,
-      show: true
+      show: 'responsive'
     }
   },
   mounted () {
-    this.$root.$on('toggle-sidebar', () => this.show = !this.show)
+    this.$root.$on('toggle-sidebar', () => {
+      const sidebarOpened = this.show === true || this.show === 'responsive'
+      this.show = sidebarOpened ? false : 'responsive'
+    })
+    this.$root.$on('toggle-sidebar-mobile', () => {
+      const sidebarClosed = this.show === 'responsive' || this.show === false
+      this.show = sidebarClosed ? true : 'responsive'
+    })
   }
 }
 </script>

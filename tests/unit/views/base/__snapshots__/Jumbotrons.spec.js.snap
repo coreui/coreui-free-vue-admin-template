@@ -38,10 +38,20 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
          
         <ccardbody-stub>
           <cjumbotron-stub
-            header="Bootstrap 4"
-            lead="Bootstrap 4 Components for Vue.js 2"
             tag="div"
           >
+            <h1
+              class="display-3"
+            >
+              Bootstrap 4
+            </h1>
+             
+            <p
+              class="lead"
+            >
+              Bootstrap 4 Components for Vue.js 2
+            </p>
+             
             <p>
               For more information visit website
             </p>
@@ -87,9 +97,14 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
             lead=""
             tag="div"
           >
+            <h1
+              class="display-3"
+            >
+              Bootstrap 4
+            </h1>
+             
             <p
               class="lead"
-              slot="lead"
             >
               
               This is a simple hero unit, a simple jumbotron-style component for
@@ -164,13 +179,17 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
           <cjumbotron-stub
             bordercolor="dark"
             color="info"
-            header="Bootstrap 4"
             tag="div"
             textcolor="white"
           >
+            <h1
+              class="display-3"
+            >
+              Bootstrap 4
+            </h1>
+             
             <p
               class="lead"
-              slot="lead"
             >
               
               This is a simple hero unit, a simple jumbotron-style component for
