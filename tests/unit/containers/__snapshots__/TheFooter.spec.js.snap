@@ -2,6 +2,7 @@
 
 exports[`TheFooter.vue renders correctly 1`] = `
 <cfooter-stub
+  fixed="true"
   tag="footer"
 >
   <div>

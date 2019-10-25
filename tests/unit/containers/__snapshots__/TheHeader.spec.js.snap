@@ -20,7 +20,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
     tag="button"
   />
    
-  <cheaderbrand
+  <cheaderbrand-stub
     alt="CoreUI Logo"
     class="mx-auto d-lg-none"
     height="46"
@@ -120,12 +120,13 @@ exports[`TheHeader.vue renders correctly 1`] = `
     <theheaderdropdownaccnt-stub />
   </cheadernav-stub>
    
-  <csubheader
+  <csubheader-stub
     class="px-3"
+    tag="div"
   >
     <cbreadcrumbrouter-stub
       class="border-0"
     />
-  </csubheader>
+  </csubheader-stub>
 </cheader-stub>
 `;
