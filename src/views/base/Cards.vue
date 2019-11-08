@@ -25,10 +25,10 @@
         <CCard footer-html="Card Footer" :body-html="loremIpsum" />
       </CCol>
       <CCol sm="6" md="4">
-        <CCard
-          headerHtml="<i class='cui-check'></i> Card with icon"
-          :bodyHtml="loremIpsum"
-        />
+        <CCard>
+          <CCardHeader><CIcon name="check"/> Card with icon</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
+        </CCard>
       </CCol>
       <CCol sm="6" md="4">
         <CCard>
@@ -240,13 +240,13 @@
               Card with header actions
               <div class="card-header-actions">
                 <CLink href="#" class="card-header-action btn-setting">
-                  <i class="cui-settings"></i>
+                  <CIcon name="settings"/>
                 </CLink>
                 <CLink class="card-header-action btn-minimize" @click="isCollapsed = !isCollapsed">
-                  <i :class="`cui-chevron-${isCollapsed ? 'bottom' : 'top'}`"></i>
+                  <CIcon :name="`chevron-${isCollapsed ? 'bottom' : 'top'}`"/>
                 </CLink>
                 <CLink href="#" class="card-header-action btn-close" v-on:click="show = false">
-                  <i class="cui-circle-x"></i>
+                  <CIcon name="x-circle"/>
                 </CLink>
               </div>
             </CCardHeader>

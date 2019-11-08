@@ -604,27 +604,27 @@
         <CRow class="align-items-center">
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="primary">
-              <i class="cui-lightbulb"></i>&nbsp;Standard Button
+              <CIcon name="lightbulb"/>&nbsp;Standard Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="secondary" variant="outline">
-              <i class="cui-lightbulb"></i>&nbsp;Outline Button
+              <CIcon name="lightbulb"/>&nbsp;Outline Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="success">
-              <i class="cui-lightbulb"></i>&nbsp;Ghost Button
+              <CIcon name="lightbulb"/>&nbsp;Ghost Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="warning" square>
-              <i class="cui-lightbulb"></i>&nbsp;Square Button
+              <CIcon name="lightbulb"/>&nbsp;Square Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="danger" shape="pill">
-              <i class="cui-lightbulb"></i>&nbsp;Pill Button
+              <CIcon name="lightbulb"/>&nbsp;Pill Button
             </CButton>
           </CCol>
         </CRow>

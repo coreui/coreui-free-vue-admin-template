@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navbar </strong>
         <div class="card-header-actions">
           <a 
@@ -67,7 +67,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
+        <CIcon name="justify-center"/> <strong> Navbar </strong>
         <small>brand</small>
       </CCardHeader>
       <CCardBody>
@@ -82,7 +82,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
+        <CIcon name="justify-center"/> <strong> Navbar </strong>
         <small>text</small>
       </CCardHeader>
       <CCardBody>
@@ -99,7 +99,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
+        <CIcon name="justify-center"/> <strong> Navbar </strong>
         <small>dropdown</small>
       </CCardHeader>
       <CCardBody>
@@ -135,7 +135,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
+        <CIcon name="justify-center"/> <strong> Navbar </strong>
         <small>form</small>
       </CCardHeader>
       <CCardBody>
@@ -153,7 +153,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i> <strong> Navbar </strong>
+        <CIcon name="justify-center"/> <strong> Navbar </strong>
         <small>input group</small>
       </CCardHeader>
       <CCardBody>

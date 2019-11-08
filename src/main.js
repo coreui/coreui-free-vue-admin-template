@@ -2,16 +2,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import CoreuiVue from '@coreui/vue/src'
-import { CIconPlugin } from '@coreui/icons/vue'
-import { iconsSet } from './assets/icons/icons.js'
+import { iconsSet as icons } from './assets/icons/icons.js'
 
 Vue.config.performance = true
 Vue.use(CoreuiVue)
-Vue.use(CIconPlugin, iconsSet)
 
 new Vue({
   el: '#app',
   router,
+  icons,
   template: '<App/>',
   components: {
     App

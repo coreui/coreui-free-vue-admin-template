@@ -3,7 +3,7 @@
     <CCol col>
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i><strong> Bootstrap Breadcrumb</strong>
+          <CIcon name="justify-center"/><strong> Bootstrap Breadcrumb</strong>
           <div class="card-header-actions">
             <a 
               href="https://coreui.io/vue/docs/3.0/components/Breadcrumb" 

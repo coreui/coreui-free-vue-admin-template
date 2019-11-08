@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="cui-globe"></i>Font Awesome brand icons
+        <CIcon name="globe-alt"/>Font Awesome brand icons
       </CCardHeader>
       <CCardBody>
         <CRow class="text-center">

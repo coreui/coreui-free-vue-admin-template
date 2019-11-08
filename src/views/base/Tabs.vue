@@ -84,7 +84,7 @@
             <CTabs>
               <CTab active>
                 <template slot="title">
-                  <i class="cui-calculator"></i>
+                  <CIcon name="calculator"/>
                 </template>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -94,7 +94,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-basket-loaded"></i>
+                  <CIcon name="basket"/>
                 </template>
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -104,7 +104,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-chart-piechart"></i>
+                  <CIcon name="chart-pie"/>
                 </template>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -125,7 +125,7 @@
             <CTabs add-tab-classes="mt-1">
               <CTab active>
                 <template slot="title">
-                  <i class="cui-calculator"></i> {{tabs[0]}}
+                  <CIcon name="calculator"/> {{tabs[0]}}
                 </template>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -135,7 +135,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-basket-loaded"></i> {{tabs[1]}}
+                  <CIcon name="basket"/> {{tabs[1]}}
                 </template>
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -145,7 +145,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-chart-piechart"></i> {{tabs[2]}}
+                  <CIcon name="chart-pie"/> {{tabs[2]}}
                 </template>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -166,7 +166,7 @@
             <CTabs variant="pills" vertical>
               <CTab active>
                 <template slot="title">
-                  <i class="cui-calculator"></i> {{tabs[0]}}
+                  <CIcon name="calculator"/> {{tabs[0]}}
                 </template>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -176,7 +176,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-basket-loaded"></i> {{tabs[1]}}
+                  <CIcon name="basket"/> {{tabs[1]}}
                 </template>
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -186,7 +186,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-chart-piechart"></i> {{tabs[2]}}
+                  <CIcon name="chart-pie"/> {{tabs[2]}}
                 </template>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

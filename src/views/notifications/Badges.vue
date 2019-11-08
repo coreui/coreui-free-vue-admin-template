@@ -3,7 +3,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i>
+          <CIcon name="justify-center"/>
           <strong> Bootstrap Badge</strong>
           <div class="card-header-actions">
             <a 
@@ -34,7 +34,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i> Badge
+          <CIcon name="justify-center"/> Badge
           <small>contextual variations</small>
         </CCardHeader>
         <CCardBody>
@@ -50,7 +50,7 @@
       </CCard>
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i> Badge
+          <CIcon name="justify-center"/> Badge
           <small>shape="pill"</small>
         </CCardHeader>
         <CCardBody>
@@ -66,7 +66,7 @@
       </CCard>
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i> Badge
+          <CIcon name="justify-center"/> Badge
           <small>actionable</small>
         </CCardHeader>
         <CCardBody>

@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Progress</strong>
         <div class="card-header-actions">
           <a 
@@ -33,7 +33,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i> <strong> Progress </strong><small>labels</small>
+        <CIcon name="justify-center"/> <strong> Progress </strong><small>labels</small>
       </CCardHeader>
       <CCardBody>
         <h6>No label</h6>
@@ -50,7 +50,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Progress </strong>
         <small>width</small>
       </CCardHeader>
@@ -65,7 +65,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Progress </strong>
         <small>height</small>
       </CCardHeader>
@@ -80,7 +80,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Progress </strong>
         <small>colors</small>
       </CCardHeader>
@@ -99,7 +99,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Progress </strong>
         <small>striped</small>
       </CCardHeader>
@@ -135,7 +135,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Progress </strong>
         <small>animated</small>
       </CCardHeader>
@@ -174,7 +174,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Progress </strong>
         <small>multiple bars</small>
       </CCardHeader>

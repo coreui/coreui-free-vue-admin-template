@@ -9,16 +9,18 @@
                 <h1>Login</h1>
                 <p class="text-muted">Sign In to your account</p>
                 <CInput
-                  prependHtml="<i class='cui-user'></i>"
                   placeholder="Username"
                   autocomplete="username email"
-                />
+                >
+                  <template #prepend-content><CIcon name="user"/></template>
+                </CInput>
                 <CInput
-                  prependHtml="<i class='cui-lock-locked'></i>"
                   placeholder="Password"
                   type="password"
                   autocomplete="curent-password"
-                />
+                >
+                  <template #prepend-content><CIcon name="lock-locked"/></template>
+                </CInput>
                 <CRow>
                   <CCol col="6">
                     <CButton color="primary" class="px-4">Login</CButton>

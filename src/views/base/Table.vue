@@ -1,23 +1,28 @@
 <template>
-  <CCard :header="caption" body-wrapper>
-    <CDataTable
-      :hover="hover"
-      :striped="striped"
-      :bordered="bordered"
-      :small="small"
-      :fixed="fixed"
-      :items="items"
-      :fields="fields"
-      :items-per-page="small ? 10 : 5"
-      :dark="dark"
-      pagination
-    >
-      <template #status="{item}">
-        <td>
-          <CBadge :color="getBadge(item.status)">{{item.status}}</CBadge>
-        </td>
-      </template>
-    </CDataTable>
+  <CCard>
+    <CCardHeader>
+      <CIcon name="justify-center"/> {{caption}}
+    </CCardHeader>
+    <CCardBody>
+      <CDataTable
+        :hover="hover"
+        :striped="striped"
+        :bordered="bordered"
+        :small="small"
+        :fixed="fixed"
+        :items="items"
+        :fields="fields"
+        :items-per-page="small ? 10 : 5"
+        :dark="dark"
+        pagination
+      >
+        <template #status="{item}">
+          <td>
+            <CBadge :color="getBadge(item.status)">{{item.status}}</CBadge>
+          </td>
+        </template>
+      </CDataTable>
+    </CCardBody>
   </CCard>
 </template>
 

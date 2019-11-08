@@ -9,27 +9,30 @@
               <p class="text-muted">Create your account</p>
               <CInput
                 placeholder="Username"
-                prependHtml="<i class='cui-user'></i>"
                 autocomplete="username"
-              />
+              >
+                <template #prepend-content><CIcon name="user"/></template>
+              </CInput>
               <CInput
                 placeholder="Email"
-                prepend-html="@"
                 autocomplete="email"
+                prepend="@"
               />
               <CInput
                 placeholder="Password"
                 type="password"
-                prependHtml="<i class='cui-lock-locked'></i>"
                 autocomplete="new-password"
-              />
+              >
+                <template #prepend-content><CIcon name="lock-locked"/></template>
+              </CInput>
               <CInput
                 placeholder="Repeat password"
                 type="password"
-                prependHtml="<i class='cui-lock-locked'></i>"
                 autocomplete="new-password"
                 class="mb-4"
-              />
+              >
+                <template #prepend-content><CIcon name="lock-locked"/></template>
+              </CInput>
               <CButton color="success" block>Create Account</CButton>
             </CForm>
           </CCardBody>

@@ -4,7 +4,7 @@
       <CCol lg="6">
         <CTableWrapper
           :items="getShuffledUsersData()"
-          caption="<i class='fa fa-align-justify'></i> Simple Table"
+          caption="Simple Table"
         />
       </CCol>
 
@@ -12,7 +12,7 @@
         <CTableWrapper
           :items="getShuffledUsersData()"
           striped
-          caption="<i class='fa fa-align-justify'></i> Striped Table"
+          caption="Striped Table"
         />
       </CCol>
     </CRow>
@@ -22,7 +22,7 @@
         <CTableWrapper
           :items="getShuffledUsersData()"
           small
-          caption="<i class='fa fa-align-justify'></i> Condensed Table"
+          caption="Condensed Table"
         />
       </CCol>
 
@@ -31,7 +31,7 @@
           :items="getShuffledUsersData()"
           fixed
           bordered
-          caption="<i class='fa fa-align-justify'></i> Bordered Table"
+          caption="Bordered Table"
         />
       </CCol>
     </CRow>
@@ -45,7 +45,7 @@
           bordered
           small
           fixed
-          caption="<i class='fa fa-align-justify'></i> Combined All Table"
+          caption="Combined All Table"
         />
       </CCol>
     </CRow>
@@ -60,7 +60,7 @@
           small
           fixed
           dark
-          caption="<i class='fa fa-align-justify'></i> Combined All Table"
+          caption="Combined All Table"
         />
       </CCol>
     </CRow>

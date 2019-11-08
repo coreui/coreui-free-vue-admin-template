@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i><strong> Bootstrap Navs</strong>
+        <CIcon name="justify-center"/><strong> Bootstrap Navs</strong>
         <div class="card-header-actions">
           <a 
             href="https://coreui.io/vue/docs/3.0/components/Nav" 
@@ -25,14 +25,14 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>icons</small>
       </CCardHeader>
       <CCardBody>
         <CNav>
           <CNavItem active>
-            <i class="cui-basket-loaded"></i>
+            <CIcon name="basket"/>
           </CNavItem>
           <CNavItem>
             Link
@@ -46,7 +46,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>tab style</small>
       </CCardHeader>
@@ -67,7 +67,7 @@
     </CCard>
     <CCard>
       <CCardHeader @click="item++">
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>pill style</small>
       </CCardHeader>
@@ -82,7 +82,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>fill tabs</small>
       </CCardHeader>
@@ -97,7 +97,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>justified tabs</small>
       </CCardHeader>
@@ -112,7 +112,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>dropdown support</small>
       </CCardHeader>
@@ -137,7 +137,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>vertical variation</small>
       </CCardHeader>

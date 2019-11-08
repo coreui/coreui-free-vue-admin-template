@@ -3,7 +3,7 @@
     <CCol md="12" lg="7">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i>
+          <CIcon name="justify-center"/>
           <strong> Bootstrap Carousel</strong>
           <div class="card-header-actions">
             <a 

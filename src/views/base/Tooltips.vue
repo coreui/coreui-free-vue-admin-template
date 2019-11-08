@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Bootstrap Tooltips </strong>
         <small><code>v-c-tooltip</code> directive</small>
         <div class="card-header-actions">
@@ -43,7 +43,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Tooltips </strong>
         <small>placement</small>
       </CCardHeader>

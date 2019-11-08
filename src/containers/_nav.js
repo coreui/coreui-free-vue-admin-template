@@ -7,7 +7,7 @@ export default [
         props: {
           name: 'Dashboard',
           to: '/dashboard',
-          icon: 'cui-speedometer',
+          icon: 'speedometer',
           badge: {
             color: 'primary',
             text: 'NEW'
@@ -25,7 +25,7 @@ export default [
         props: {
           name: 'Colors',
           to: '/theme/colors',
-          icon: 'cui-drop'
+          icon: 'drop'
         }
       }
     ],
@@ -35,7 +35,7 @@ export default [
         props: {
           name: 'Typography',
           to: '/theme/typography',
-          icon: 'cui-pencil'
+          icon: 'pencil'
         }
       }
     ],
@@ -49,7 +49,7 @@ export default [
         props: {
           name: 'Base',
           route: '/base',
-          icon: 'cui-puzzle',
+          icon: 'puzzle',
         }
       },
       [
@@ -59,7 +59,7 @@ export default [
             props: {
               name: 'Breadcrumbs',
               to: '/base/breadcrumbs',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -69,7 +69,7 @@ export default [
             props: {
               name: 'Cards',
               to: '/base/cards',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -79,7 +79,7 @@ export default [
             props: {
               name: 'Carousels',
               to: '/base/carousels',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -89,7 +89,7 @@ export default [
             props: {
               name: 'Collapses',
               to: '/base/collapses',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -99,7 +99,7 @@ export default [
             props: {
               name: 'Forms',
               to: '/base/forms',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -109,7 +109,7 @@ export default [
             props: {
               name: 'Jumbotrons',
               to: '/base/jumbotrons',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -119,7 +119,7 @@ export default [
             props: {
               name: 'List Groups',
               to: '/base/list-groups',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -129,7 +129,7 @@ export default [
             props: {
               name: 'Navs',
               to: '/base/navs',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -139,7 +139,7 @@ export default [
             props: {
               name: 'Navbars',
               to: '/base/navbars',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -149,7 +149,7 @@ export default [
             props: {
               name: 'Paginations',
               to: '/base/paginations',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -159,7 +159,7 @@ export default [
             props: {
               name: 'Popovers',
               to: '/base/popovers',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -169,7 +169,7 @@ export default [
             props: {
               name: 'Progress Bars',
               to: '/base/progress-bars',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -179,7 +179,7 @@ export default [
             props: {
               name: 'Switches',
               to: '/base/switches',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -189,7 +189,7 @@ export default [
             props: {
               name: 'Tables',
               to: '/base/tables',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -199,7 +199,7 @@ export default [
             props: {
               name: 'Tabs',
               to: '/base/tabs',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ],
@@ -209,7 +209,7 @@ export default [
             props: {
               name: 'Tooltips',
               to: '/base/tooltips',
-              icon: 'cui-puzzle'
+              icon: 'puzzle'
             }
           }
         ]
@@ -221,7 +221,7 @@ export default [
         props: {
           name: 'Buttons',
           route: '/buttons',
-          icon: 'cui-cursor',
+          icon: 'cursor',
         }
       },
       [
@@ -231,7 +231,7 @@ export default [
             props: {
               name: 'Buttons',
               to: '/buttons/standard-buttons',
-              icon: 'cui-cursor'
+              icon: 'cursor'
             }
           }
         ],
@@ -241,7 +241,7 @@ export default [
             props: {
               name: 'Button Dropdowns',
               to: '/buttons/dropdowns',
-              icon: 'cui-cursor'
+              icon: 'cursor'
             }
           }
         ],
@@ -251,7 +251,7 @@ export default [
             props: {
               name: 'Button Groups',
               to: '/buttons/button-groups',
-              icon: 'cui-cursor'
+              icon: 'cursor'
             }
           }
         ],
@@ -261,7 +261,7 @@ export default [
             props: {
               name: 'Brand Buttons',
               to: '/buttons/brand-buttons',
-              icon: 'cui-cursor'
+              icon: 'cursor'
             }
           }
         ]
@@ -273,7 +273,7 @@ export default [
         props: {
           name: 'Charts',
           to: '/charts',
-          icon: 'cui-pie-chart'
+          icon: 'chart-pie'
         }
       }
     ],
@@ -283,7 +283,7 @@ export default [
         props: {
           name: 'Icons',
           route: '/icons',
-          icon: 'cui-star',
+          icon: 'star',
         }
       },
       [
@@ -293,7 +293,7 @@ export default [
             props: {
               name: 'CoreUI Icons',
               to: '/icons/coreui-icons',
-              icon: 'cui-star',
+              icon: 'star',
               badge: {
                 color: 'info',
                 text: 'NEW'
@@ -307,7 +307,7 @@ export default [
             props: {
               name: 'Brands',
               to: '/icons/brands',
-              icon: 'cui-star'
+              icon: 'star'
             }
           }
         ],
@@ -317,7 +317,7 @@ export default [
             props: {
               name: 'Flags',
               to: '/icons/flags',
-              icon: 'cui-star'
+              icon: 'star'
             }
           }
         ]
@@ -329,7 +329,7 @@ export default [
         props: {
           name: 'Notifications',
           route: '/notifications',
-          icon: 'cui-bell',
+          icon: 'bell',
         }
       },
       [
@@ -339,7 +339,7 @@ export default [
             props: {
               name: 'Alerts',
               to: '/notifications/alerts',
-              icon: 'cui-bell'
+              icon: 'bell'
             }
           }
         ],
@@ -349,7 +349,7 @@ export default [
             props: {
               name: 'Badges',
               to: '/notifications/badges',
-              icon: 'cui-bell'
+              icon: 'bell'
             }
           }
         ],
@@ -359,7 +359,7 @@ export default [
             props: {
               name: 'Modals',
               to: '/notifications/modals',
-              icon: 'cui-bell'
+              icon: 'bell'
             }
           }
         ]
@@ -371,11 +371,11 @@ export default [
         props: {
           name: 'Widgets',
           to: '/widgets',
-          icon: 'cui-calculator',
+          icon: 'calculator',
           badge: {
             color: 'primary',
             text: 'NEW',
-            pill: true
+            shape: 'pill'
           }
         }
       }
@@ -393,7 +393,7 @@ export default [
         props: {
           name: 'Pages',
           route: '/pages',
-          icon: 'cui-star',
+          icon: 'star',
         }
       },
       [
@@ -403,7 +403,7 @@ export default [
             props: {
               name: 'Login',
               to: '/pages/login',
-              icon: 'cui-star'
+              icon: 'star'
             }
           }
         ],
@@ -413,7 +413,7 @@ export default [
             props: {
               name: 'Register',
               to: '/pages/register',
-              icon: 'cui-star'
+              icon: 'star'
             }
           }
         ],
@@ -423,7 +423,7 @@ export default [
             props: {
               name: 'Error 404',
               to: '/pages/404',
-              icon: 'cui-star'
+              icon: 'star'
             }
           }
         ],
@@ -433,7 +433,7 @@ export default [
             props: {
               name: 'Error 500',
               to: '/pages/500',
-              icon: 'cui-star'
+              icon: 'star'
             }
           }
         ]
@@ -445,7 +445,7 @@ export default [
         props: {
           name: 'Download CoreUI',
           href: 'http://coreui.io/vue/',
-          icon: 'cui-cloud-download',
+          icon: 'cloud-download',
           addLinkClasses: 'c-nav-link-success',
           target: '_blank'
         },
@@ -460,7 +460,7 @@ export default [
         props: {
           name: 'Try CoreUI PRO',
           href: 'http://coreui.io/pro/vue/',
-          icon: 'cui-layers',
+          icon: 'layers',
           addLinkClasses: 'c-nav-link-danger',
           target: '_blank'
         }

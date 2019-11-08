@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Responsive bootstrap Pagination</strong>
         <div class="card-header-actions">
           <a 
@@ -47,7 +47,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="justify-center"/>
         <strong> Pagination </strong>
         <small>alignment</small>
       </CCardHeader>

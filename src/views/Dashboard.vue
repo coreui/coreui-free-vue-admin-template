@@ -10,7 +10,7 @@
           </CCol>
           <CCol sm="7" class="d-none d-md-block">
             <CButton color="primary" class="float-right">
-              <i class="cui-cloud-download"></i>
+              <CIcon name="cloud-download"/>
             </CButton>
             <CButtonGroup class="float-right mr-3">
               <CButton
@@ -265,7 +265,7 @@
               <ul class="horizontal-bars type-2">
                 <div class="progress-group">
                   <div class="progress-group-header">
-                    <i class="cui-user progress-group-icon"></i>
+                    <CIcon name="user" class="progress-group-icon"/>
                     <span class="title">Male</span>
                     <span class="ml-auto font-weight-bold">43%</span>
                   </div>
@@ -279,7 +279,7 @@
                 </div>
                 <div class="progress-group mb-5">
                   <div class="progress-group-header">
-                    <i class="cui-user-female progress-group-icon"></i>
+                    <CIcon name="user-female" class="progress-group-icon"/>
                     <span class="title">Female</span>
                     <span class="ml-auto font-weight-bold">37%</span>
                   </div>
@@ -293,7 +293,7 @@
                 </div>
                 <div class="progress-group">
                   <div class="progress-group-header">
-                    <i class="cui-globe progress-group-icon"></i>
+                    <CIcon name="globe-alt" class="progress-group-icon"/>
                     <span class="title">Organic Search</span>
                     <span class="ml-auto font-weight-bold">
                       191,235<span class="text-muted small">(56%)</span>
@@ -369,7 +369,7 @@
                 </div>
                 <div class="divider text-center">
                   <CButton color="link" size="sm" class="text-muted">
-                    <i class="cui-options"></i>
+                    <CIcon name="options"/>
                   </CButton>
                 </div>
               </ul>
