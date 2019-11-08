@@ -238,10 +238,10 @@
               </div>
               <div class="legend text-center">
                 <small>
-                  <sup><CBadge pill color="info">&nbsp;</CBadge></sup>
+                  <sup><CBadge shape="pill" color="info">&nbsp;</CBadge></sup>
                   New clients
                   &nbsp;&nbsp;
-                  <sup><CBadge pill color="danger">&nbsp;</CBadge></sup>
+                  <sup><CBadge shape="pill" color="danger">&nbsp;</CBadge></sup>
                   Recurring clients
                 </small>
               </div>
@@ -310,7 +310,7 @@
                 <div class="progress-group">
                   <div class="progress-group-header">
                     <CIcon
-                      name="socialFacebook"
+                      name="facebook"
                       height="17"
                       class="progress-group-icon"
                     />
@@ -330,7 +330,7 @@
                 <div class="progress-group">
                   <div class="progress-group-header">
                     <CIcon
-                      name="socialTwitter"
+                      name="twitter"
                       height="17"
                       class="progress-group-icon"
                     />
@@ -350,7 +350,7 @@
                 <div class="progress-group">
                   <div class="progress-group-header">
                     <CIcon
-                      name="socialLinkedin"
+                      name="linkedin"
                       height="17"
                       class="progress-group-icon"
                     />
@@ -376,7 +376,7 @@
             </CCol>
           </CRow>
           <br/>
-          <CTable
+          <CDataTable
             class="mb-0 table-outline"
             hover
             :items="tableItems"
@@ -441,7 +441,7 @@
               <div class="small text-muted">Last login</div>
               <strong>{{item.activity}}</strong>
             </td>
-          </CTable>
+          </CDataTable>
         </CCard>
       </CCol>
     </CRow>

@@ -276,7 +276,7 @@
         text="Products sold"
         color="warning"
       >
-        <CIcon name="basketLoaded" height="36"/>
+        <CIcon name="basket" height="36"/>
       </CWidgetProgressIcon>
       <CWidgetProgressIcon
         header="28%"
@@ -315,7 +315,7 @@
         color="warning"
         inverse
       >
-        <CIcon name="basketLoaded" height="36"/>
+        <CIcon name="basket" height="36"/>
       </CWidgetProgressIcon>
       <CWidgetProgressIcon
         header="28%"
@@ -359,7 +359,7 @@
           text="Products sold"
           color="warning"
         >
-          <CIcon name="basketLoaded" height="36"/>
+          <CIcon name="basket" height="36"/>
         </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">
@@ -418,7 +418,7 @@
           color="warning"
           inverse
         >
-          <CIcon name="basketLoaded" height="36"/>
+          <CIcon name="basket" height="36"/>
         </CWidgetProgressIcon>
       </CCol>
       <CCol sm="6" md="2">

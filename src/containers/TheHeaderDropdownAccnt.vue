@@ -1,20 +1,19 @@
 <template>
   <CDropdown
-    nav
-    no-caret
+    inNav
     class="c-header-nav-items"
     placement="bottom-end"
     add-menu-classes="pt-0"
   >
     <template #toggler>
-      <CHeaderNavItem only-link>
+      <CHeaderNavLink>
         <div class="c-avatar">
           <img
             src="img/avatars/6.jpg"
             class="c-avatar-img "
           />
         </div>
-      </CHeaderNavItem>
+      </CHeaderNavLink>
     </template>
     <CDropdownHeader tag="div" class="text-center" color="light">
       <strong>Account</strong>

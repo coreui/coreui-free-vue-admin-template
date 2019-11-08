@@ -190,13 +190,13 @@
                   </CCol>
                   <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
                     <CInputCheckbox
-                      v-for="option in options"
-                      :key="option"
+                      v-for="(option, optionIndex) in options"
+                      :key="key + option"
                       :label="option"
                       :value="option"
                       :custom="key > 1"
                       :name="`Option 1${key}`"
-                      :checked="Math.random() > 0.6"
+                      :checked="optionIndex === key"
                       :inline="key % 2 === 1"
                     />
                   </CCol>
@@ -210,7 +210,7 @@
                   <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
                     <CInputRadio
                       v-for="(option, optionIndex) in options"
-                      :key="option"
+                      :key="key + option"
                       :label="option"
                       type="radio"
                       :value="option"

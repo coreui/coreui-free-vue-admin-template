@@ -107,16 +107,7 @@
 
           <CAlert
             color="secondary"
-            closeButton
-            fade
             :show.sync="alert2"
-          >
-            Dismissible Alert with fade effect!
-          </CAlert>
-
-          <CAlert
-            color="secondary"
-            :show.sync="alert3"
             class="alert-dismissible"
           >
             Dismissible Alert with custom button!
@@ -124,7 +115,7 @@
               class="position-absolute"
               color="secondary"
               style="right:10px;top: 50%;transform: translateY(-50%);"
-              @click="alert3 = false"
+              @click="alert2 = false"
             >
               Close
             </CButton>
@@ -186,8 +177,7 @@ export default {
       dismissSecs: 10,
       dismissCountDown: 10,
       alert1: true,
-      alert2: true,
-      alert3: true
+      alert2: true
     }
   },
   methods: {

@@ -3,7 +3,7 @@
     <CCol col="12" xl="8">
       <transition name="slide">
         <CCard header-html="Users" body-wrapper>
-          <CTable
+          <CDataTable
             hover
             striped
             :items="items"
@@ -27,7 +27,7 @@
                 </CBadge>
               </td>
             </template>
-          </CTable>
+          </CDataTable>
         </CCard>
       </transition>
     </CCol>

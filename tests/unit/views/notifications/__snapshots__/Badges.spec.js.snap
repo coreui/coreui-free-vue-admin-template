@@ -197,7 +197,7 @@ exports[`Badges.vue renders correctly 1`] = `
          Badge
         
         <small>
-          pills
+          shape="pill"
         </small>
       </header>
        
@@ -205,49 +205,57 @@ exports[`Badges.vue renders correctly 1`] = `
         class="card-body"
       >
         <span
-          class="badge badge-primary badge-pill"
+          class="badge badge-primary"
+          shape="pill"
         >
           Primary
         </span>
          
         <span
-          class="badge badge-secondary badge-pill"
+          class="badge badge-secondary"
+          shape="pill"
         >
           Secondary
         </span>
          
         <span
-          class="badge badge-success badge-pill"
+          class="badge badge-success"
+          shape="pill"
         >
           Success
         </span>
          
         <span
-          class="badge badge-danger badge-pill"
+          class="badge badge-danger"
+          shape="pill"
         >
           Danger
         </span>
          
         <span
-          class="badge badge-warning badge-pill"
+          class="badge badge-warning"
+          shape="pill"
         >
           Warning
         </span>
          
         <span
-          class="badge badge-info badge-pill"
+          class="badge badge-info"
+          shape="pill"
         >
           Info
         </span>
          
         <span
-          class="badge badge-light badge-pill"
+          class="badge badge-light"
+          shape="pill"
         >
           Light
         </span>
          
         <span
-          class="badge badge-dark badge-pill"
+          class="badge badge-dark"
+          shape="pill"
         >
           Dark
         </span>

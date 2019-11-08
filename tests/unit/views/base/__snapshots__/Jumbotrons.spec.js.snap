@@ -49,7 +49,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
             <p
               class="lead"
             >
-              Bootstrap 4 Components for Vue.js 2
+              Bootstrap 4 Components for Vue.js 2.6+
             </p>
              
             <p>

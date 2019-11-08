@@ -13,7 +13,7 @@
               sm="2"
               :key="brandName"
             >
-              <CIcon :height="42" :content="$options.brands[brandName]"/>
+              <CIcon :height="42" :content="brand"/>
               <div>{{brandName}}</div>
             </CCol>
           </template>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { iconSet as brands } from '@coreui/icons/brands'
+import { brandSet as brands } from '@coreui/icons'
 export default {
   name: 'Brands',
   brands

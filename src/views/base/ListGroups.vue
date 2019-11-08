@@ -113,19 +113,19 @@
                 class="d-flex justify-content-between align-items-center"
               >
                 Cras justo odio
-                <CBadge color="primary" pill>14</CBadge>
+                <CBadge color="primary" shape="pill">14</CBadge>
               </CListGroupItem>
               <CListGroupItem
                 class="d-flex justify-content-between align-items-center"
               >
                 Dapibus ac facilisis in
-                <CBadge color="primary" pill>2</CBadge>
+                <CBadge color="primary" shape="pill">2</CBadge>
               </CListGroupItem>
               <CListGroupItem
                 class="d-flex justify-content-between align-items-center"
               >
                 Morbi leo risus
-                <CBadge color="primary" pill>1</CBadge>
+                <CBadge color="primary" shape="pill">1</CBadge>
               </CListGroupItem>
             </CListGroup>
           </CCardBody>

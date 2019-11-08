@@ -233,6 +233,7 @@ exports[`Modals.vue renders correctly 1`] = `
   <cmodal-stub
     backdrop="true"
     closeonbackdrop="true"
+    color="primary"
     fade="true"
     title="Modal title"
   >

@@ -14,12 +14,12 @@ exports[`Users.vue renders correctly 1`] = `
       headerhtml="Users"
       name="slide"
     >
-      <ctable-stub
+      <cdatatable-stub
         clickablerows="true"
         defaultsorter="[object Object]"
         fields="[object Object],[object Object],[object Object],[object Object]"
         hover="true"
-        indexcolumn="true"
+        index-column=""
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
         itemsperpage="5"
         pagination="[object Object]"

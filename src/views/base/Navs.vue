@@ -51,7 +51,7 @@
         <small>tab style</small>
       </CCardHeader>
       <CCardBody>
-        <CNav tabs>
+        <CNav variant="tabs">
           <CNavItem active>
             Active
           </CNavItem>
@@ -72,7 +72,7 @@
         <small>pill style</small>
       </CCardHeader>
       <CCardBody>
-        <CNav pills>
+        <CNav variant="pills">
           <CNavItem active>Active</CNavItem>
           <CNavItem>Link</CNavItem>
           <CNavItem>Another Link</CNavItem>
@@ -87,7 +87,7 @@
         <small>fill tabs</small>
       </CCardHeader>
       <CCardBody>
-        <CNav fill tabs>
+        <CNav fill variant="tabs">
           <CNavItem active>Active</CNavItem>
           <CNavItem>Link</CNavItem>
           <CNavItem>Link with a long name </CNavItem>
@@ -102,7 +102,7 @@
         <small>justified tabs</small>
       </CCardHeader>
       <CCardBody>
-        <CNav justified tabs>
+        <CNav justified variant="tabs">
           <CNavItem active>Active</CNavItem>
           <CNavItem>Link</CNavItem>
           <CNavItem>Link with a long name </CNavItem>

@@ -462,8 +462,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                pill="true"
                 routertag="a"
+                shape="pill"
                 tag="span"
                 target="_self"
               >
@@ -488,8 +488,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                pill="true"
                 routertag="a"
+                shape="pill"
                 tag="span"
                 target="_self"
               >
@@ -514,8 +514,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                pill="true"
                 routertag="a"
+                shape="pill"
                 tag="span"
                 target="_self"
               >

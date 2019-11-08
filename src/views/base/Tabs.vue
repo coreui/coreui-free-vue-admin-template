@@ -49,7 +49,7 @@
             Tabs
           </CCardHeader>
           <CCardBody>
-            <CTabs pills>
+            <CTabs variant="pills">
               <CTab title-html="Home" active>
                 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -104,7 +104,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-pie-chart"></i>
+                  <i class="cui-chart-piechart"></i>
                 </template>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -145,7 +145,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-pie-chart"></i> {{tabs[2]}}
+                  <i class="cui-chart-piechart"></i> {{tabs[2]}}
                 </template>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -163,7 +163,7 @@
             Tabs vertical
           </CCardHeader>
           <CCardBody>
-            <CTabs pills vertical>
+            <CTabs variant="pills" vertical>
               <CTab active>
                 <template slot="title">
                   <i class="cui-calculator"></i> {{tabs[0]}}
@@ -186,7 +186,7 @@
               </CTab>
               <CTab>
                 <template slot="title">
-                  <i class="cui-pie-chart"></i> {{tabs[2]}}
+                  <i class="cui-chart-piechart"></i> {{tabs[2]}}
                 </template>
                 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

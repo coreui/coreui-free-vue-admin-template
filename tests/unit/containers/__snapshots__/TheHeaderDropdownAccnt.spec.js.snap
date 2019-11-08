@@ -6,8 +6,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   caret="true"
   class="c-header-nav-items"
   flip="true"
-  nav=""
-  no-caret=""
+  innav="true"
   placement="bottom-end"
   togglertext="Dropdown"
 >

@@ -48,7 +48,6 @@ exports[`Paginations.vue renders correctly 1`] = `
         pages="10"
         previousbuttonhtml="&lsaquo;"
         responsive=""
-        size="md"
       />
        
       <br />
@@ -136,7 +135,6 @@ exports[`Paginations.vue renders correctly 1`] = `
         nextbuttonhtml="&rsaquo;"
         pages="10"
         previousbuttonhtml="&lsaquo;"
-        size="md"
       />
        
       <br />
@@ -157,7 +155,6 @@ exports[`Paginations.vue renders correctly 1`] = `
         nextbuttonhtml="&rsaquo;"
         pages="10"
         previousbuttonhtml="&lsaquo;"
-        size="md"
       />
        
       <br />
@@ -178,7 +175,6 @@ exports[`Paginations.vue renders correctly 1`] = `
         nextbuttonhtml="&rsaquo;"
         pages="10"
         previousbuttonhtml="&lsaquo;"
-        size="md"
       />
        
       <br />

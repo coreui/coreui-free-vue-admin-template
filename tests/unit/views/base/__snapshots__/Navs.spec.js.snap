@@ -168,7 +168,7 @@ exports[`Navs.vue renders correctly 1`] = `
      
     <ccardbody-stub>
       <cnav-stub
-        tabs="true"
+        variant="tabs"
       >
         <cnavitem-stub
           active="true"
@@ -242,7 +242,7 @@ exports[`Navs.vue renders correctly 1`] = `
      
     <ccardbody-stub>
       <cnav-stub
-        pills="true"
+        variant="pills"
       >
         <cnavitem-stub
           active="true"
@@ -311,7 +311,7 @@ exports[`Navs.vue renders correctly 1`] = `
     <ccardbody-stub>
       <cnav-stub
         fill="true"
-        tabs="true"
+        variant="tabs"
       >
         <cnavitem-stub
           active="true"
@@ -380,7 +380,7 @@ exports[`Navs.vue renders correctly 1`] = `
     <ccardbody-stub>
       <cnav-stub
         justified="true"
-        tabs="true"
+        variant="tabs"
       >
         <cnavitem-stub
           active="true"
@@ -448,7 +448,7 @@ exports[`Navs.vue renders correctly 1`] = `
      
     <ccardbody-stub>
       <cnav-stub
-        pills="true"
+        pills=""
       >
         <cnavitem-stub
           active="true"
@@ -545,7 +545,7 @@ exports[`Navs.vue renders correctly 1`] = `
           tag="div"
         >
           <cnav-stub
-            pills="true"
+            pills=""
             vertical="true"
           >
             <cnavitem-stub

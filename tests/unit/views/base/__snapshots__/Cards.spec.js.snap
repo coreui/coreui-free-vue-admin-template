@@ -175,7 +175,8 @@ exports[`Cards.vue renders correctly 1`] = `
           Card with label
           
           <span
-            class="badge float-right badge-danger badge-pill"
+            class="badge float-right badge-danger"
+            shape="pill"
           >
             42
           </span>

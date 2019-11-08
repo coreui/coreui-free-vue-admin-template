@@ -569,8 +569,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     color="info"
                     event="click"
                     exactactiveclass="active"
-                    pill="true"
                     routertag="a"
+                    shape="pill"
                     tag="span"
                     target="_self"
                   >
@@ -587,8 +587,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     color="danger"
                     event="click"
                     exactactiveclass="active"
-                    pill="true"
                     routertag="a"
+                    shape="pill"
                     tag="span"
                     target="_self"
                   >
@@ -936,7 +936,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
          
         <br />
          
-        <ctable-stub
+        <cdatatable-stub
           class="mb-0 table-outline"
           defaultsorter="[object Object]"
           fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"

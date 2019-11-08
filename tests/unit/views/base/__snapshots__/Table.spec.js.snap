@@ -5,7 +5,7 @@ exports[`Table.vue renders correctly 1`] = `
   bodywrapper="true"
   header="Table"
 >
-  <ctable-stub
+  <cdatatable-stub
     defaultsorter="[object Object]"
     fields="username,registered,role,status"
     itemsperpage="5"

@@ -24,17 +24,17 @@
             height="400px"
           >
             <CCarouselItem
-            captionHeader="First Slide"
-              image="https://lorempixel.com/1024/480/technics/2/"
-            captionText="Nulla vitae elit libero, a pharetra augue mollis interdum."
+              captionHeader="First Slide"
+              image="https://picsum.photos/1024/480/?image=52"
+              captionText="Nulla vitae elit libero, a pharetra augue mollis interdum."
             />
             <CCarouselItem
-            captionHeader="Blank page"
-              :image="{ blankColor: 'grey' }"
-            captionText="Nulla vitae elit libero, a pharetra augue mollis interdum."
+              captionHeader="Blank page"
+              :image="{ placeholderColor: 'grey' }"
+              captionText="Nulla vitae elit libero, a pharetra augue mollis interdum."
             />
             <CCarouselItem
-              image="https://lorempixel.com/1024/480/technics/8/"
+            image="https://picsum.photos/1024/480/?image=54"
             />
           </CCarousel>
         </CCardBody>

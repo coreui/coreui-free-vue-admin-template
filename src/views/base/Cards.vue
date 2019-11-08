@@ -64,7 +64,7 @@
         <CCard>
           <CCardHeader>
             Card with label
-            <CBadge pill color="danger" class="float-right">42</CBadge>
+            <CBadge shape="pill" color="danger" class="float-right">42</CBadge>
           </CCardHeader>
           <CCardBody>
             {{loremIpsum}}

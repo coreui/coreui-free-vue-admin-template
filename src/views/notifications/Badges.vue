@@ -51,17 +51,17 @@
       <CCard>
         <CCardHeader>
           <i class="fa fa-align-justify"></i> Badge
-          <small>pills</small>
+          <small>shape="pill"</small>
         </CCardHeader>
         <CCardBody>
-          <CBadge pill color="primary">Primary</CBadge>
-          <CBadge pill color="secondary">Secondary</CBadge>
-          <CBadge pill color="success">Success</CBadge>
-          <CBadge pill color="danger">Danger</CBadge>
-          <CBadge pill color="warning">Warning</CBadge>
-          <CBadge pill color="info">Info</CBadge>
-          <CBadge pill color="light">Light</CBadge>
-          <CBadge pill color="dark">Dark</CBadge>
+          <CBadge shape="pill" color="primary">Primary</CBadge>
+          <CBadge shape="pill" color="secondary">Secondary</CBadge>
+          <CBadge shape="pill" color="success">Success</CBadge>
+          <CBadge shape="pill" color="danger">Danger</CBadge>
+          <CBadge shape="pill" color="warning">Warning</CBadge>
+          <CBadge shape="pill" color="info">Info</CBadge>
+          <CBadge shape="pill" color="light">Light</CBadge>
+          <CBadge shape="pill" color="dark">Dark</CBadge>
         </CCardBody>
       </CCard>
       <CCard>

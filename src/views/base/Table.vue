@@ -1,6 +1,6 @@
 <template>
   <CCard :header="caption" body-wrapper>
-    <CTable
+    <CDataTable
       :hover="hover"
       :striped="striped"
       :bordered="bordered"
@@ -17,7 +17,7 @@
           <CBadge :color="getBadge(item.status)">{{item.status}}</CBadge>
         </td>
       </template>
-    </CTable>
+    </CDataTable>
   </CCard>
 </template>
 
