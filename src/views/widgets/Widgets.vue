@@ -454,56 +454,6 @@
     </CRow>
     <WidgetsDropdown/>
     <CRow>
-      <CCol sm="6" lg="3">
-        <CWidgetHeaderDetails
-          color="primary"
-          right-header="SALE"
-          right-footer="Today 6:43 AM"
-          left-header="$1.890,65"
-          left-footer="+432,50 (15,78%)"
-        >
-          <CChartLineSimple style="height:40px"/>
-          <CChartBarSimple style="height:40px"/>
-        </CWidgetHeaderDetails>
-      </CCol>
-      <CCol sm="6" lg="3">
-        <CWidgetHeaderDetails
-          color="success"
-          right-header="SALE"
-          right-footer="Today 6:43 AM"
-          left-header="$1.890,65"
-          left-footer="+432,50 (15,78%)"
-        >
-          <CChartLineSimple style="height:40px"/>
-          <CChartBarSimple style="height:40px"/>
-        </CWidgetHeaderDetails>
-      </CCol>
-      <CCol sm="6" lg="3">
-        <CWidgetHeaderDetails
-          color="danger"
-          right-header="SALE"
-          right-footer="Today 6:43 AM"
-          left-header="$1.890,65"
-          left-footer="+432,50 (15,78%)"
-        >
-          <CChartLineSimple style="height:40px"/>
-          <CChartBarSimple style="height:40px"/>
-        </CWidgetHeaderDetails>
-      </CCol>
-      <CCol sm="6" lg="3">
-        <CWidgetHeaderDetails
-          color="warning"
-          right-header="SALE"
-          right-footer="Today 6:43 AM"
-          left-header="$1.890,65"
-          left-footer="+432,50 (15,78%)"
-        >
-          <CChartLineSimple style="height:40px"/>
-          <CChartBarSimple style="height:40px"/>
-        </CWidgetHeaderDetails>
-      </CCol>
-    </CRow>
-    <CRow>
       <CCol sm="4" lg="2">
         <CWidgetSimple header="title" text="1,123">
           <CChartLineSimple style="height:40px" border-color="danger"/>

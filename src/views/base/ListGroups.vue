@@ -188,20 +188,26 @@
           </CCardHeader>
           <CCardBody>
             <CCardGroup deck>
-              <CCard headerHtml="<b>Card with list group</b>">
-                <CListGroup>
-                  <CListGroupItem href="#">Cras justo odio</CListGroupItem>
-                  <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>
-                  <CListGroupItem href="#">Vestibulum at eros</CListGroupItem>
-                </CListGroup>
-                <p class="card-text mt-2">
-                  Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
-                  nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
-                  consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
-                  ad sit ipsum anim Lorem.
-                </p>
+              <CCard>
+                <CCardHeader>
+                  <b>Card with list group</b>
+                </CCardHeader>
+                <CCardBody>
+                  <CListGroup>
+                    <CListGroupItem href="#">Cras justo odio</CListGroupItem>
+                    <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>
+                    <CListGroupItem href="#">Vestibulum at eros</CListGroupItem>
+                  </CListGroup>
+                  <CCardText class="mt-2">
+                    Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
+                    nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
+                    consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
+                    ad sit ipsum anim Lorem.
+                  </CCardText>
+                </CCardBody>
               </CCard>
-              <CCard header="<b>Card with flush list group</b>">
+              <CCard>
+                <CCardHeader><b>Card with flush list group</b></CCardHeader>
                 <CListGroup flush>
                   <CListGroupItem href="#">Cras justo odio</CListGroupItem>
                   <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>

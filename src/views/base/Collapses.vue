@@ -22,7 +22,7 @@
           </CButton>
           <CCollapse :show="collapse" class="mt-2">
             <CCard body-wrapper>
-              <p class="card-text">Collapse contents Here</p>
+              <CCardText>Collapse contents Here</CCardText>
               <CButton  
                 @click="innerCollapse = !innerCollapse" 
                 size="sm" 

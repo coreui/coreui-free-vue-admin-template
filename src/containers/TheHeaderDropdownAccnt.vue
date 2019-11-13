@@ -78,6 +78,6 @@ export default {
 
 <style scoped>
   .c-icon {
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
   }
 </style>

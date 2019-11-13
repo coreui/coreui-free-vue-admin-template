@@ -22,7 +22,10 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard footer-html="Card Footer" :body-html="loremIpsum" />
+        <CCard>
+          <CCardFooter>Card Footer</CCardFooter>
+          <CCardBody>{{loremIpsum}}</CCardBody>
+        </CCard>
       </CCol>
       <CCol sm="6" md="4">
         <CCard>
@@ -74,168 +77,172 @@
     </CRow>
     <CRow>
       <CCol sm="6" md="4">
-        <CCard
-          header="Card outline primary"
-          border-color="primary"
-          :body-html="loremIpsum"
-        />
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard
-          header="Card outline secondary"
-          border-color="secondary"
-          :body-html="loremIpsum"
-        />
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard
-          header="Card outline success"
-          border-color="success"
-          body-wrapper
-        >
-            {{loremIpsum}}
+        <CCard border-color="primary">
+          <CCardHeader>Card outline primary</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card outline info" border-color="info" body-wrapper>
-            {{loremIpsum}}
+        <CCard border-color="secondary">
+          <CCardHeader>Card outline secondary</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card outline warning" border-color="warning" body-wrapper>
-            {{loremIpsum}}
+        <CCard border-color="success">
+          <CCardHeader>Card outline success</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card outline danger" border-color="danger" body-wrapper>
-            {{loremIpsum}}
+        <CCard border-color="info">
+          <CCardHeader>Card outline info</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
+        </CCard>
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard border-color="warning">
+          <CCardHeader>Card outline warning</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
+        </CCard>
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard border-color="danger">
+          <CCardHeader>Card outline danger</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
     </CRow>
 
     <CRow>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-primary" header="Card with primary accent" body-wrapper>
-            {{loremIpsum}}
+        <CCard accent-color="primary">
+          <CCardHeader>Card with primary accent</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-secondary" header="Card with secondary accent" body-wrapper>
-            {{loremIpsum}}
+        <CCard accent-color="secondary">
+          <CCardHeader>Card with secondary accent</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-success" header="Card with success accent" body-wrapper>
-            {{loremIpsum}}
+        <CCard accent-color="success">
+          <CCardHeader>Card with success accent</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-info" header="Card with info accent" body-wrapper>
-            {{loremIpsum}}
+        <CCard accent-color="info">
+          <CCardHeader>Card with info accent</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-warning" header="Card with warning accent" body-wrapper>
-            {{loremIpsum}}
+        <CCard accent-color="info">
+          <CCardHeader>Card with info accent</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard class="card-accent-danger" header="Card with danger accent" body-wrapper>
-            {{loremIpsum}}
-        </CCard>
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol sm="6" md="4">
-        <CCard class="bg-primary text-center" body-wrapper>
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard class="bg-success text-center" body-wrapper>
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard class="bg-info text-center" body-wrapper>
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard class="bg-warning text-center" body-wrapper>
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard class="bg-danger text-center" body-wrapper>
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
-        </CCard>
-      </CCol>
-      <CCol sm="6" md="4">
-        <CCard class="bg-secondary text-center" body-wrapper>
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>Someone famous in
-              <cite title="Source Title">Source Title</cite>
-            </footer>
-          </blockquote>
+        <CCard accent-color="danger">
+          <CCardHeader>Card with danger accent</CCardHeader>
+          <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
     </CRow>
     <CRow>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="bg-primary" body-wrapper>
-            {{loremIpsum}}
+        <CCard color="primary" class="text-center" body-wrapper>
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="bg-success" body-wrapper>
-            {{loremIpsum}}
+        <CCard color="success" class="text-center" body-wrapper>
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="bg-info" body-wrapper>
-            {{loremIpsum}}
+        <CCard color="info" class="text-center" body-wrapper>
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="bg-warning" body-wrapper>
-            {{loremIpsum}}
+        <CCard color="warning" class="text-center" body-wrapper>
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard header-html="Card title" class="bg-danger" body-wrapper>
-            {{loremIpsum}}
+        <CCard color="danger" class="text-center" body-wrapper>
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
+        </CCard>
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard color="secondary" class="text-center" body-wrapper>
+          <blockquote class="card-blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in
+              <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol sm="6" md="4">
+        <CCard color="primary" body-wrapper>
+          {{loremIpsum}}
+        </CCard>
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard color="success" body-wrapper>
+          {{loremIpsum}}
+        </CCard>
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard color="info" body-wrapper>
+          {{loremIpsum}}
+        </CCard>
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard color="warning" body-wrapper>
+          {{loremIpsum}}
+        </CCard>
+      </CCol>
+      <CCol sm="6" md="4">
+        <CCard color="danger" body-wrapper>
+          {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
         <transition name="fade">
-          <CCard class="bg-secondary" v-if="show">
+          <CCard v-if="show" color="secondary">
             <CCardHeader>
               Card with header actions
               <div class="card-header-actions">

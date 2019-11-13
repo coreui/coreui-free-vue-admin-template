@@ -33,7 +33,9 @@
             </CCardBody>
           </CCard>
           <CCard
-            class="text-white text-center bg-primary py-5 d-md-down-none"
+            color="primary"
+            text-color="white"
+            class="text-center py-5 d-md-down-none"
             style="width:44%"
             body-wrapper
           >
