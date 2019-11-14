@@ -9,11 +9,8 @@
       :imgMinimized="{ width: 118, height: 46, alt: 'Logo', src: 'img/brand/coreui-signet-white.svg'}"
       :wrappedInLink="{ href: 'https://coreui.io/', target: '_blank'}"
     />
-    <!-- <CSidebarHeader/> -->
-    <!-- <CSidebarForm/> -->
-    <CRenderFunction :contentToRender="nav"/>
-    <!-- <CSidebarFooter/> -->
-    <CSidebarMinimizer 
+    <CRenderFunction flat :content-to-render="nav"/>
+    <CSidebarMinimizer
       class="d-md-down-none"
       @click.native="minimize = !minimize"
     />
@@ -22,6 +19,7 @@
 
 <script>
 import nav from './_nav'
+
 export default {
   name: 'TheSidebar',
   data () {
