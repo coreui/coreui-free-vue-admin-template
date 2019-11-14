@@ -2,9 +2,7 @@ import Vue from 'vue'
 import { shallowMount, mount } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
 import Brands from '@/views/icons/Brands'
-import { CIconPlugin } from '@coreui/icons/vue'
 
-Vue.use(CIconPlugin)
 Vue.use(CoreuiVue)
 
 describe('Brands.vue', () => {

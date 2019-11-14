@@ -16,7 +16,8 @@ exports[`TheSidebar.vue renders correctly 1`] = `
   />
    
   <crenderfunction-stub
-    contenttorender="CSidebarNav,CSidebarNavLink,[object Object],CSidebarNavTitle,Theme,CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavTitle,Components,CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavDivider,CSidebarNavTitle,Extras,CSidebarNavDropdown,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object],CSidebarNavLink,[object Object]"
+    contenttorender="[object Object]"
+    flat=""
   />
    
   <csidebarminimizer-stub

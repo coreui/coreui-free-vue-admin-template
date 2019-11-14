@@ -330,7 +330,7 @@
               <template #example="{item}">
                 <td>
                   <CSwitch
-                    :shape="item.example.shape"
+                    :variant="item.example.variant"
                     :color="item.example.color"
                     :size="item.example.size"
                     :checked="item.example.checked"
@@ -366,17 +366,17 @@ export default {
       items: [
         {
           size: 'Large', 
-          example: { shape: '3d', color: 'primary', size: 'lg', checked: true }, 
+          example: {  variant: '3d', color: 'primary', size: 'lg', checked: true }, 
           size_prop: 'Add following prop <code>size="lg"</code>'
         },
         {
           size: 'Normal', 
-          example: { shape: '3d', color: 'primary', size: '', checked: true }, 
+          example: {  variant: '3d', color: 'primary', size: '', checked: true }, 
           size_prop: '-'
         },
         {
           size: 'Small', 
-          example: {shape: '3d', color: 'primary', size: 'sm', checked: true}, 
+          example: { variant: '3d', color: 'primary', size: 'sm', checked: true}, 
           size_prop: 'Add following prop <code>size="sm"</code>'
         }
       ],

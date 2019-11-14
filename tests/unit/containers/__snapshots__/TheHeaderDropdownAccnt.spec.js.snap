@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
+<cdropdown-stub
+  addmenuclasses="pt-0"
+  caret="true"
+  class="c-header-nav-items"
+  flip="true"
+  innav="true"
+  placement="bottom-end"
+  togglertext="Dropdown"
+>
+   
+  <cdropdownheader-stub
+    class="text-center"
+    color="light"
+    tag="div"
+  >
+    <strong>
+      Account
+    </strong>
+  </cdropdownheader-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="bell"
+    />
+     Updates
+    
+    <cbadge-stub
+      activeclass="active"
+      class="ml-auto"
+      color="info"
+      event="click"
+      exactactiveclass="active"
+      innavitem="true"
+      routertag="a"
+      tag="span"
+      target="_self"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="envelope-open"
+    />
+     Messages
+    
+    <cbadge-stub
+      activeclass="active"
+      class="ml-auto"
+      color="success"
+      event="click"
+      exactactiveclass="active"
+      innavitem="true"
+      routertag="a"
+      tag="span"
+      target="_self"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="task"
+    />
+     Tasks
+    
+    <cbadge-stub
+      activeclass="active"
+      class="ml-auto"
+      color="danger"
+      event="click"
+      exactactiveclass="active"
+      innavitem="true"
+      routertag="a"
+      tag="span"
+      target="_self"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="comment-square"
+    />
+     Comments
+    
+    <cbadge-stub
+      activeclass="active"
+      class="ml-auto"
+      color="warning"
+      event="click"
+      exactactiveclass="active"
+      innavitem="true"
+      routertag="a"
+      tag="span"
+      target="_self"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownheader-stub
+    class="text-center"
+    color="light"
+    tag="div"
+  >
+    <strong>
+      Settings
+    </strong>
+  </cdropdownheader-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="user"
+    />
+     Profile
+  
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="settings"
+    />
+     Settings
+  
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="dollar"
+    />
+     Payments
+    
+    <cbadge-stub
+      activeclass="active"
+      class="ml-auto"
+      color="secondary"
+      event="click"
+      exactactiveclass="active"
+      innavitem="true"
+      routertag="a"
+      tag="span"
+      target="_self"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="file"
+    />
+     Projects
+    
+    <cbadge-stub
+      activeclass="active"
+      class="ml-auto"
+      color="primary"
+      event="click"
+      exactactiveclass="active"
+      innavitem="true"
+      routertag="a"
+      tag="span"
+      target="_self"
+    >
+      42
+    </cbadge-stub>
+  </cdropdownitem-stub>
+   
+  <cdropdowndivider-stub
+    tag="div"
+  />
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="shield-alt"
+    />
+     Lock Account
+  
+  </cdropdownitem-stub>
+   
+  <cdropdownitem-stub
+    activeclass="active"
+    event="click"
+    exactactiveclass="active"
+    routertag="a"
+    target="_self"
+  >
+    <cicon-stub
+      name="lock-locked"
+    />
+     Logout
+  
+  </cdropdownitem-stub>
+</cdropdown-stub>
+`;

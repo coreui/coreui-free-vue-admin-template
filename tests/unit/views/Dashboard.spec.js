@@ -1,13 +1,10 @@
 import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
-import { CIconPlugin } from '@coreui/icons/vue'
 import Dashboard from '@/views/Dashboard'
-import { iconsSet } from '@/assets/icons/icons.js'
 
 
 Vue.use(CoreuiVue)
-Vue.use(CIconPlugin, iconsSet)
 
 describe('Dashboard.vue', () => {
   it('has a name', () => {

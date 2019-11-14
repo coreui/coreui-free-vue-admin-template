@@ -23,8 +23,8 @@
       </CCol>
       <CCol sm="6" md="4">
         <CCard>
-          <CCardFooter>Card Footer</CCardFooter>
           <CCardBody>{{loremIpsum}}</CCardBody>
+          <CCardFooter>Card Footer</CCardFooter>
         </CCard>
       </CCol>
       <CCol sm="6" md="4">

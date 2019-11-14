@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs.vue renders correctly 1`] = `
+<div>
+  <crow-stub
+    gutters="true"
+  >
+    <ccol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub>
+        <ccardheader-stub>
+          
+          Tabs
+          
+          <div
+            class="card-header-actions"
+          >
+            <a
+              class="card-header-action"
+              href="https://coreui.io/vue/docs/3.0/components/Tabs"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <small
+                class="text-muted"
+              >
+                docs
+              </small>
+            </a>
+          </div>
+        </ccardheader-stub>
+         
+        <ccardbody-stub>
+          <ctabs-stub
+            fade="true"
+            variant="tabs"
+          >
+            <ctab-stub
+              active="true"
+              title="Home"
+            >
+              
+              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub
+              title="Profile"
+            >
+              
+              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub
+              disabled="true"
+              title="Disabled"
+            >
+              
+              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+          </ctabs-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub>
+        <ccardheader-stub>
+          
+          Tabs
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub>
+          <ctabs-stub
+            fade="true"
+            variant="pills"
+          >
+            <ctab-stub
+              active="true"
+              title="Home"
+            >
+              
+              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub
+              title="Profile"
+            >
+              
+              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub
+              disabled="true"
+              title="Disabled"
+            >
+              
+              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+          </ctabs-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub>
+        <ccardheader-stub>
+          
+          Tabs with icons
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub>
+          <ctabs-stub
+            fade="true"
+            variant="tabs"
+          >
+            <ctab-stub
+              active="true"
+            >
+              <template>
+                <cicon-stub
+                  name="calculator"
+                />
+              </template>
+              
+              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <cicon-stub
+                  name="basket"
+                />
+              </template>
+              
+              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <cicon-stub
+                  name="chart-pie"
+                />
+              </template>
+              
+              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+          </ctabs-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub>
+        <ccardheader-stub>
+          
+          Tabs with icons
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub>
+          <ctabs-stub
+            addtabclasses="mt-1"
+            fade="true"
+            variant="tabs"
+          >
+            <ctab-stub
+              active="true"
+            >
+              <template>
+                <cicon-stub
+                  name="calculator"
+                />
+                 Calculator
+              
+              </template>
+              
+              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <cicon-stub
+                  name="basket"
+                />
+                 Shopping cart
+              
+              </template>
+              
+              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <cicon-stub
+                  name="chart-pie"
+                />
+                 Charts
+              
+              </template>
+              
+              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+          </ctabs-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+     
+    <ccol-stub
+      lg="6"
+      tag="div"
+      xs="12"
+    >
+      <ccard-stub>
+        <ccardheader-stub>
+          
+          Tabs vertical
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub>
+          <ctabs-stub
+            fade="true"
+            variant="pills"
+            vertical="true"
+          >
+            <ctab-stub
+              active="true"
+            >
+              <template>
+                <cicon-stub
+                  name="calculator"
+                />
+                 Calculator
+              
+              </template>
+              
+              1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <cicon-stub
+                  name="basket"
+                />
+                 Shopping cart
+              
+              </template>
+              
+              2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+             
+            <ctab-stub>
+              <template>
+                <cicon-stub
+                  name="chart-pie"
+                />
+                 Charts
+              
+              </template>
+              
+              3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            
+            </ctab-stub>
+          </ctabs-stub>
+        </ccardbody-stub>
+      </ccard-stub>
+    </ccol-stub>
+  </crow-stub>
+</div>
+`;

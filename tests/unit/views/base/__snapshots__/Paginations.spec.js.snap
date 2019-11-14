@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paginations.vue renders correctly 1`] = `
+<div>
+  <ccard-stub>
+    <ccardheader-stub>
+      <cicon-stub
+        name="justify-center"
+      />
+       
+      <strong>
+         Responsive bootstrap Pagination
+      </strong>
+       
+      <div
+        class="card-header-actions"
+      >
+        <a
+          class="card-header-action"
+          href="https://coreui.io/vue/docs/3.0/components/Pagination"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <small
+            class="text-muted"
+          >
+            docs
+          </small>
+        </a>
+      </div>
+    </ccardheader-stub>
+     
+    <ccardbody-stub>
+      <h6>
+        Default
+      </h6>
+       
+      <cpagination-stub
+        activepage="3"
+        align="start"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
+        firstbuttonhtml="&laquo;"
+        lastbuttonhtml="&raquo;"
+        limit="5"
+        nextbuttonhtml="&rsaquo;"
+        pages="10"
+        previousbuttonhtml="&lsaquo;"
+        responsive=""
+      />
+       
+      <br />
+       
+      <h6>
+        Small
+      </h6>
+       
+      <cpagination-stub
+        activepage="3"
+        align="start"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
+        firstbuttonhtml="&laquo;"
+        lastbuttonhtml="&raquo;"
+        limit="5"
+        nextbuttonhtml="&rsaquo;"
+        pages="10"
+        previousbuttonhtml="&lsaquo;"
+        size="sm"
+      />
+       
+      <br />
+       
+      <div>
+        <h6>
+          Large
+        </h6>
+         
+        <cpagination-stub
+          activepage="3"
+          align="start"
+          arrows="true"
+          dots="true"
+          doublearrows="true"
+          firstbuttonhtml="&laquo;"
+          lastbuttonhtml="&raquo;"
+          limit="5"
+          nextbuttonhtml="&rsaquo;"
+          pages="10"
+          previousbuttonhtml="&lsaquo;"
+          responsive=""
+          size="lg"
+        />
+         
+        <br />
+      </div>
+       
+      <div>
+        currentPage: 3
+      </div>
+    </ccardbody-stub>
+  </ccard-stub>
+   
+  <ccard-stub>
+    <ccardheader-stub>
+      <cicon-stub
+        name="justify-center"
+      />
+       
+      <strong>
+         Pagination 
+      </strong>
+       
+      <small>
+        alignment
+      </small>
+    </ccardheader-stub>
+     
+    <ccardbody-stub>
+      <h6>
+        Left alignment (default)
+      </h6>
+       
+      <cpagination-stub
+        activepage="3"
+        align="start"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
+        firstbuttonhtml="&laquo;"
+        lastbuttonhtml="&raquo;"
+        limit="5"
+        nextbuttonhtml="&rsaquo;"
+        pages="10"
+        previousbuttonhtml="&lsaquo;"
+      />
+       
+      <br />
+       
+      <h6>
+        Center alignment
+      </h6>
+       
+      <cpagination-stub
+        activepage="3"
+        align="center"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
+        firstbuttonhtml="&laquo;"
+        lastbuttonhtml="&raquo;"
+        limit="5"
+        nextbuttonhtml="&rsaquo;"
+        pages="10"
+        previousbuttonhtml="&lsaquo;"
+      />
+       
+      <br />
+       
+      <h6>
+        Right (end) alignment
+      </h6>
+       
+      <cpagination-stub
+        activepage="3"
+        align="end"
+        arrows="true"
+        dots="true"
+        doublearrows="true"
+        firstbuttonhtml="&laquo;"
+        lastbuttonhtml="&raquo;"
+        limit="5"
+        nextbuttonhtml="&rsaquo;"
+        pages="10"
+        previousbuttonhtml="&lsaquo;"
+      />
+       
+      <br />
+       
+      <div>
+        currentPage: 3
+      </div>
+    </ccardbody-stub>
+  </ccard-stub>
+</div>
+`;

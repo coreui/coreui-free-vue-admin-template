@@ -772,7 +772,7 @@
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-              />
+              >
                 <template #prepend-content><CIcon name="shield-alt"/></template>
               </CInput>
               <div class="form-group form-actions">
