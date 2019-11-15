@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { CChartRadar } from '@coreui/coreui-chartjs/vue'
+import { CChartRadar } from '@coreui/coreui-vue-chartjs'
 
 export default {
   name: 'CChartRadarExample',

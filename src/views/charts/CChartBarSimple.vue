@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { CChartBar } from '@coreui/coreui-chartjs/vue'
+import { CChartBar } from '@coreui/coreui-vue-chartjs'
 import { getColor, deepObjectsMerge } from '@coreui/coreui/dist/js/coreui-utilities'
 export default {
   name: 'CChartBarSimple',

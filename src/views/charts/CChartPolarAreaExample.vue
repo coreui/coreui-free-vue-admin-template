@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { CChartPolarArea } from '@coreui/coreui-chartjs/vue'
+import { CChartPolarArea } from '@coreui/coreui-vue-chartjs'
 
 export default {
   name: 'CChartPolarAreaExample',

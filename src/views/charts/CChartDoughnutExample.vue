@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { CChartDoughnut } from '@coreui/coreui-chartjs/vue'
+import { CChartDoughnut } from '@coreui/coreui-vue-chartjs'
 
 export default {
   name: 'CChartDoughnutExample',
