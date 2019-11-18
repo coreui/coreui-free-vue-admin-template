@@ -40,9 +40,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
         activeclass="active"
         event="click"
         exactactiveclass="active"
-        innavitem="true"
         routertag="a"
-        tag="span"
         target="_self"
       >
         
@@ -60,9 +58,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
         activeclass="active"
         event="click"
         exactactiveclass="active"
-        innavitem="true"
         routertag="a"
-        tag="span"
         target="_self"
       >
         
@@ -78,9 +74,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
         activeclass="active"
         event="click"
         exactactiveclass="active"
-        innavitem="true"
         routertag="a"
-        tag="span"
         target="_self"
       >
         
@@ -100,13 +94,11 @@ exports[`TheHeader.vue renders correctly 1`] = `
         activeclass="active"
         event="click"
         exactactiveclass="active"
-        innavitem="true"
         routertag="a"
-        tag="span"
         target="_self"
       >
         <cicon-stub
-          name="bell"
+          name="cil-bell"
         />
       </cheadernavlink-stub>
     </cheadernavitem-stub>
@@ -118,13 +110,11 @@ exports[`TheHeader.vue renders correctly 1`] = `
         activeclass="active"
         event="click"
         exactactiveclass="active"
-        innavitem="true"
         routertag="a"
-        tag="span"
         target="_self"
       >
         <cicon-stub
-          name="list"
+          name="cil-list"
         />
       </cheadernavlink-stub>
     </cheadernavitem-stub>
@@ -136,13 +126,11 @@ exports[`TheHeader.vue renders correctly 1`] = `
         activeclass="active"
         event="click"
         exactactiveclass="active"
-        innavitem="true"
         routertag="a"
-        tag="span"
         target="_self"
       >
         <cicon-stub
-          name="envelope-open"
+          name="cil-envelope-open"
         />
       </cheadernavlink-stub>
     </cheadernavitem-stub>

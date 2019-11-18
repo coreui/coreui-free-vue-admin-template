@@ -29,7 +29,7 @@
       </CCol>
       <CCol sm="6" md="4">
         <CCard>
-          <CCardHeader><CIcon name="check"/> Card with icon</CCardHeader>
+          <CCardHeader><CIcon name="cil-check"/> Card with icon</CCardHeader>
           <CCardBody>{{loremIpsum}}</CCardBody>
         </CCard>
       </CCol>
@@ -247,13 +247,13 @@
               Card with header actions
               <div class="card-header-actions">
                 <CLink href="#" class="card-header-action btn-setting">
-                  <CIcon name="settings"/>
+                  <CIcon name="cil-settings"/>
                 </CLink>
                 <CLink class="card-header-action btn-minimize" @click="isCollapsed = !isCollapsed">
-                  <CIcon :name="`chevron-${isCollapsed ? 'bottom' : 'top'}`"/>
+                  <CIcon :name="`cil-chevron-${isCollapsed ? 'bottom' : 'top'}`"/>
                 </CLink>
                 <CLink href="#" class="card-header-action btn-close" v-on:click="show = false">
-                  <CIcon name="x-circle"/>
+                  <CIcon name="cil-x-circle"/>
                 </CLink>
               </div>
             </CCardHeader>

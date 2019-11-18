@@ -5,7 +5,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
       <strong>
          Bootstrap Navs
@@ -36,9 +36,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -48,9 +46,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
           title="Link"
         />
@@ -59,9 +55,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Another Link
@@ -72,9 +66,7 @@ exports[`Navs.vue renders correctly 1`] = `
           disabled="true"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -86,7 +78,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -105,13 +97,11 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           <cicon-stub
-            name="basket"
+            name="cil-basket"
           />
         </cnavitem-stub>
          
@@ -119,9 +109,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -133,9 +121,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -148,9 +134,7 @@ exports[`Navs.vue renders correctly 1`] = `
           disabled="true"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -162,7 +146,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -183,9 +167,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -197,9 +179,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -211,9 +191,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -226,9 +204,7 @@ exports[`Navs.vue renders correctly 1`] = `
           disabled="true"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -240,7 +216,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -261,9 +237,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -273,9 +247,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -285,9 +257,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Another Link
@@ -298,9 +268,7 @@ exports[`Navs.vue renders correctly 1`] = `
           disabled="true"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -312,7 +280,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -334,9 +302,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -346,9 +312,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -358,9 +322,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link with a long name 
@@ -371,9 +333,7 @@ exports[`Navs.vue renders correctly 1`] = `
           disabled="true"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -385,7 +345,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -407,9 +367,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -419,9 +377,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -431,9 +387,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link with a long name 
@@ -444,9 +398,7 @@ exports[`Navs.vue renders correctly 1`] = `
           disabled="true"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -458,7 +410,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -479,9 +431,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -491,9 +441,7 @@ exports[`Navs.vue renders correctly 1`] = `
           activeclass="active"
           event="click"
           exactactiveclass="active"
-          innavitem="true"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -549,7 +497,7 @@ exports[`Navs.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -579,9 +527,7 @@ exports[`Navs.vue renders correctly 1`] = `
               activeclass="active"
               event="click"
               exactactiveclass="active"
-              innavitem="true"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Active
@@ -591,9 +537,7 @@ exports[`Navs.vue renders correctly 1`] = `
               activeclass="active"
               event="click"
               exactactiveclass="active"
-              innavitem="true"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Link
@@ -603,9 +547,7 @@ exports[`Navs.vue renders correctly 1`] = `
               activeclass="active"
               event="click"
               exactactiveclass="active"
-              innavitem="true"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Another Link
@@ -616,9 +558,7 @@ exports[`Navs.vue renders correctly 1`] = `
               disabled="true"
               event="click"
               exactactiveclass="active"
-              innavitem="true"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Disabled

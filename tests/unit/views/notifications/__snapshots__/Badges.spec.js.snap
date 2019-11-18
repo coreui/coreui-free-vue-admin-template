@@ -10,7 +10,6 @@ exports[`Badges.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
@@ -108,7 +107,6 @@ exports[`Badges.vue renders correctly 1`] = `
           </span>
         </button>
       </footer>
-      <!---->
     </div>
   </div>
    
@@ -118,7 +116,6 @@ exports[`Badges.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
@@ -185,13 +182,11 @@ exports[`Badges.vue renders correctly 1`] = `
           Dark
         </span>
       </div>
-      <!---->
     </div>
      
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
@@ -258,13 +253,11 @@ exports[`Badges.vue renders correctly 1`] = `
           Dark
         </span>
       </div>
-      <!---->
     </div>
      
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
@@ -347,7 +340,6 @@ exports[`Badges.vue renders correctly 1`] = `
           Dark
         </a>
       </div>
-      <!---->
     </div>
   </div>
 </div>

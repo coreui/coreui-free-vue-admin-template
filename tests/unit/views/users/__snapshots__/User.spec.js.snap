@@ -18,13 +18,13 @@ exports[`User.vue renders correctly 1`] = `
        
       <ccardbody-stub>
         <cdatatable-stub
-          defaultsorter="[object Object]"
           fields="[object Object],[object Object]"
           fixed="true"
           items="[object Object]"
           itemsperpage="10"
           responsive="true"
           small=""
+          sortervalue="[object Object]"
           striped="true"
         />
       </ccardbody-stub>

@@ -43,7 +43,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             type="button"
           >
             <cicon-stub
-              name="cloud-download"
+              name="cil-cloud-download"
             />
           </cbutton-stub>
            
@@ -573,7 +573,6 @@ exports[`Dashboard.vue renders correctly 1`] = `
                       color="info"
                       event="click"
                       exactactiveclass="active"
-                      innavitem="true"
                       routertag="a"
                       shape="pill"
                       tag="span"
@@ -592,7 +591,6 @@ exports[`Dashboard.vue renders correctly 1`] = `
                       color="danger"
                       event="click"
                       exactactiveclass="active"
-                      innavitem="true"
                       routertag="a"
                       shape="pill"
                       tag="span"
@@ -676,7 +674,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   >
                     <cicon-stub
                       class="progress-group-icon"
-                      name="user"
+                      name="cil-user"
                     />
                      
                     <span
@@ -713,7 +711,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   >
                     <cicon-stub
                       class="progress-group-icon"
-                      name="user-female"
+                      name="cil-user-female"
                     />
                      
                     <span
@@ -750,7 +748,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   >
                     <cicon-stub
                       class="progress-group-icon"
-                      name="globe-alt"
+                      name="cil-globe-alt"
                     />
                      
                     <span
@@ -794,7 +792,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     <cicon-stub
                       class="progress-group-icon"
                       height="17"
-                      name="facebook"
+                      name="cib-facebook"
                     />
                      
                     <span
@@ -838,7 +836,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     <cicon-stub
                       class="progress-group-icon"
                       height="17"
-                      name="twitter"
+                      name="cib-twitter"
                     />
                      
                     <span
@@ -882,7 +880,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     <cicon-stub
                       class="progress-group-icon"
                       height="17"
-                      name="linkedin"
+                      name="cib-linkedin"
                     />
                      
                     <span
@@ -932,7 +930,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                     type="button"
                   >
                     <cicon-stub
-                      name="options"
+                      name="cil-options"
                     />
                   </cbutton-stub>
                 </div>

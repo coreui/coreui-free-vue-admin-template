@@ -10,7 +10,7 @@
           left-footer="feeds"
         >
           <CIcon
-            name="facebook"
+            name="cib-facebook"
             height="52"
             class="my-4"
           />
@@ -32,7 +32,7 @@
           left-footer="tweets"
         >
           <CIcon
-            name="twitter"
+            name="cib-twitter"
             height="52"
             class="my-4"
           />
@@ -54,7 +54,7 @@
           left-footer="feeds"
         >
           <CIcon
-            name="linkedin"
+            name="cib-linkedin"
             height="52"
             class="my-4"
           />
@@ -76,7 +76,7 @@
           color="warning"
         >
           <CIcon
-            name="calendar"
+            name="cil-calendar"
             height="52"
             class="my-4"
           />
@@ -100,7 +100,7 @@
           left-footer="feeds"
         >
           <CIcon
-            name="facebook"
+            name="cib-facebook"
             height="56"
             class="my-4"
           />
@@ -115,7 +115,7 @@
           left-footer="tweets"
         >
           <CIcon
-            name="twitter"
+            name="cib-twitter"
             height="56"
             class="my-4"
           />
@@ -130,7 +130,7 @@
           left-footer="feeds"
         >
           <CIcon
-            name="linkedin"
+            name="cib-linkedin"
             height="56"
             class="my-4"
           />
@@ -145,7 +145,7 @@
           color="warning"
         >
           <CIcon
-            name="calendar"
+            name="cil-calendar"
             height="56"
             class="my-4"
           />

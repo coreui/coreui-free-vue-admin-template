@@ -12,7 +12,7 @@ exports[`Alerts.vue renders correctly 1`] = `
     <ccard-stub>
       <ccardheader-stub>
         <cicon-stub
-          name="justify-center"
+          name="cil-justify-center"
         />
          
         <strong>
@@ -117,7 +117,7 @@ exports[`Alerts.vue renders correctly 1`] = `
     <ccard-stub>
       <ccardheader-stub>
         <cicon-stub
-          name="justify-center"
+          name="cil-justify-center"
         />
          Alert
         
@@ -265,9 +265,7 @@ exports[`Alerts.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               href="#"
-              innavitem="true"
               routertag="a"
-              tag="span"
               target="_self"
             >
               an example link
@@ -289,7 +287,7 @@ exports[`Alerts.vue renders correctly 1`] = `
     <ccard-stub>
       <ccardheader-stub>
         <cicon-stub
-          name="justify-center"
+          name="cil-justify-center"
         />
          Alerts 
         <small>
@@ -339,7 +337,7 @@ exports[`Alerts.vue renders correctly 1`] = `
     <ccard-stub>
       <ccardheader-stub>
         <cicon-stub
-          name="justify-center"
+          name="cil-justify-center"
         />
          Alerts
         
@@ -405,7 +403,7 @@ exports[`Alerts.vue renders correctly 1`] = `
     <ccard-stub>
       <ccardheader-stub>
         <cicon-stub
-          name="justify-center"
+          name="cil-justify-center"
         />
          Alerts
         

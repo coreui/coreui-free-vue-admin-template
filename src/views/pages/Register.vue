@@ -11,7 +11,7 @@
                 placeholder="Username"
                 autocomplete="username"
               >
-                <template #prepend-content><CIcon name="user"/></template>
+                <template #prepend-content><CIcon name="cil-user"/></template>
               </CInput>
               <CInput
                 placeholder="Email"
@@ -23,7 +23,7 @@
                 type="password"
                 autocomplete="new-password"
               >
-                <template #prepend-content><CIcon name="lock-locked"/></template>
+                <template #prepend-content><CIcon name="cil-lock-locked"/></template>
               </CInput>
               <CInput
                 placeholder="Repeat password"
@@ -31,7 +31,7 @@
                 autocomplete="new-password"
                 class="mb-4"
               >
-                <template #prepend-content><CIcon name="lock-locked"/></template>
+                <template #prepend-content><CIcon name="cil-lock-locked"/></template>
               </CInput>
               <CButton color="success" block>Create Account</CButton>
             </CForm>

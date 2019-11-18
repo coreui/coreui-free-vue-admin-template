@@ -12,14 +12,14 @@
                   placeholder="Username"
                   autocomplete="username email"
                 >
-                  <template #prepend-content><CIcon name="user"/></template>
+                  <template #prepend-content><CIcon name="cil-user"/></template>
                 </CInput>
                 <CInput
                   placeholder="Password"
                   type="password"
                   autocomplete="curent-password"
                 >
-                  <template #prepend-content><CIcon name="lock-locked"/></template>
+                  <template #prepend-content><CIcon name="cil-lock-locked"/></template>
                 </CInput>
                 <CRow>
                   <CCol col="6">

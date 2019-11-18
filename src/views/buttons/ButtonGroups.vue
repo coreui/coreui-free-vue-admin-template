@@ -3,7 +3,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/>
+          <CIcon name="cil-justify-center"/>
           <strong> Bootstrap button group</strong>
           <div class="card-header-actions">
             <a 
@@ -41,7 +41,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/>
+          <CIcon name="cil-justify-center"/>
           <strong> Button group </strong>sizing
         </CCardHeader>
         <CCardBody>
@@ -70,7 +70,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/><strong> Button group </strong>dropdown support
+          <CIcon name="cil-justify-center"/><strong> Button group </strong>dropdown support
         </CCardHeader>
         <CCardBody>
           <div>
@@ -98,7 +98,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/>
+          <CIcon name="cil-justify-center"/>
           <strong> Button group </strong>vertical variation
         </CCardHeader>
         <CCardBody>
@@ -115,7 +115,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/>
+          <CIcon name="cil-justify-center"/>
           <strong> Button toolbar </strong>
           <small>with button groups</small>
           <!-- <div class="card-header-actions">

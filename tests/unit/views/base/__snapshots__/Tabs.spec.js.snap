@@ -161,7 +161,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             >
               <template>
                 <cicon-stub
-                  name="calculator"
+                  name="cil-calculator"
                 />
               </template>
               
@@ -176,7 +176,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             <ctab-stub>
               <template>
                 <cicon-stub
-                  name="basket"
+                  name="cil-basket"
                 />
               </template>
               
@@ -191,7 +191,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             <ctab-stub>
               <template>
                 <cicon-stub
-                  name="chart-pie"
+                  name="cil-chart-pie"
                 />
               </template>
               
@@ -230,7 +230,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             >
               <template>
                 <cicon-stub
-                  name="calculator"
+                  name="cil-calculator"
                 />
                  Calculator
               
@@ -247,7 +247,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             <ctab-stub>
               <template>
                 <cicon-stub
-                  name="basket"
+                  name="cil-basket"
                 />
                  Shopping cart
               
@@ -264,7 +264,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             <ctab-stub>
               <template>
                 <cicon-stub
-                  name="chart-pie"
+                  name="cil-chart-pie"
                 />
                  Charts
               
@@ -305,7 +305,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             >
               <template>
                 <cicon-stub
-                  name="calculator"
+                  name="cil-calculator"
                 />
                  Calculator
               
@@ -322,7 +322,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             <ctab-stub>
               <template>
                 <cicon-stub
-                  name="basket"
+                  name="cil-basket"
                 />
                  Shopping cart
               
@@ -339,7 +339,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             <ctab-stub>
               <template>
                 <cicon-stub
-                  name="chart-pie"
+                  name="cil-chart-pie"
                 />
                  Charts
               

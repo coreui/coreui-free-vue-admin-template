@@ -10,7 +10,7 @@
           </CCol>
           <CCol sm="7" class="d-none d-md-block">
             <CButton color="primary" class="float-right">
-              <CIcon name="cloud-download"/>
+              <CIcon name="cil-cloud-download"/>
             </CButton>
             <CButtonGroup class="float-right mr-3">
               <CButton
@@ -269,7 +269,7 @@
                 <ul class="horizontal-bars type-2">
                   <div class="progress-group">
                     <div class="progress-group-header">
-                      <CIcon name="user" class="progress-group-icon"/>
+                      <CIcon name="cil-user" class="progress-group-icon"/>
                       <span class="title">Male</span>
                       <span class="ml-auto font-weight-bold">43%</span>
                     </div>
@@ -283,7 +283,7 @@
                   </div>
                   <div class="progress-group mb-5">
                     <div class="progress-group-header">
-                      <CIcon name="user-female" class="progress-group-icon"/>
+                      <CIcon name="cil-user-female" class="progress-group-icon"/>
                       <span class="title">Female</span>
                       <span class="ml-auto font-weight-bold">37%</span>
                     </div>
@@ -297,7 +297,7 @@
                   </div>
                   <div class="progress-group">
                     <div class="progress-group-header">
-                      <CIcon name="globe-alt" class="progress-group-icon"/>
+                      <CIcon name="cil-globe-alt" class="progress-group-icon"/>
                       <span class="title">Organic Search</span>
                       <span class="ml-auto font-weight-bold">
                         191,235<span class="text-muted small">(56%)</span>
@@ -314,7 +314,7 @@
                   <div class="progress-group">
                     <div class="progress-group-header">
                       <CIcon
-                        name="facebook"
+                        name="cib-facebook"
                         height="17"
                         class="progress-group-icon"
                       />
@@ -334,7 +334,7 @@
                   <div class="progress-group">
                     <div class="progress-group-header">
                       <CIcon
-                        name="twitter"
+                        name="cib-twitter"
                         height="17"
                         class="progress-group-icon"
                       />
@@ -354,7 +354,7 @@
                   <div class="progress-group">
                     <div class="progress-group-header">
                       <CIcon
-                        name="linkedin"
+                        name="cib-linkedin"
                         height="17"
                         class="progress-group-icon"
                       />
@@ -373,7 +373,7 @@
                   </div>
                   <div class="divider text-center">
                     <CButton color="link" size="sm" class="text-muted">
-                      <CIcon name="options"/>
+                      <CIcon name="cil-options"/>
                     </CButton>
                   </div>
                 </ul>
@@ -472,49 +472,49 @@ export default {
         {
           avatar: { url: 'img/avatars/1.jpg', status: 'success' },
           user: { name: 'Yiorgos Avraamu', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'USA', flag: 'US' },
+          country: { name: 'USA', flag: 'cif-us' },
           usage: { value: 50, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Mastercard', icon: 'cc-mastercard' },
+          payment: { name: 'Mastercard', icon: 'cib-cc-mastercard' },
           activity: '10 sec ago'
         },
         {
           avatar: { url: 'img/avatars/2.jpg', status: 'danger' },
           user: { name: 'Avram Tarasios', new: false, registered: 'Jan 1, 2015' },
-          country: { name: 'Brazil', flag: 'BR' },
+          country: { name: 'Brazil', flag: 'cif-br' },
           usage: { value: 22, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Visa', icon: 'cc-visa' },
+          payment: { name: 'Visa', icon: 'cib-cc-visa' },
           activity: '5 minutes ago'
         },
         {
           avatar: { url: 'img/avatars/3.jpg', status: 'warning' },
           user: { name: 'Quintin Ed', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'India', flag: 'IN' },
+          country: { name: 'India', flag: 'cif-in' },
           usage: { value: 74, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Stripe', icon: 'stripe' },
+          payment: { name: 'Stripe', icon: 'cib-stripe' },
           activity: '1 hour ago'
         },
         {
           avatar: { url: 'img/avatars/4.jpg', status: '' },
           user: { name: 'Enéas Kwadwo', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'France', flag: 'FR' },
+          country: { name: 'France', flag: 'cif-fr' },
           usage: { value: 98, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'PayPal', icon: 'paypal' },
+          payment: { name: 'PayPal', icon: 'cib-paypal' },
           activity: 'Last month'
         },
         {
           avatar: { url: 'img/avatars/5.jpg', status: 'success' },
           user: { name: 'Agapetus Tadeáš', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'Spain', flag: 'ES' },
+          country: { name: 'Spain', flag: 'cif-es' },
           usage: { value: 22, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Google Wallet', icon: 'google-wallet' },
+          payment: { name: 'Google Wallet', icon: 'cib-google-pay' },
           activity: 'Last week'
         },
         {
           avatar: { url: 'img/avatars/6.jpg', status: 'danger' },
           user: { name: 'Friderik Dávid', new: true, registered: 'Jan 1, 2015' },
-          country: { name: 'Poland', flag: 'PL' },
+          country: { name: 'Poland', flag: 'cif-pl' },
           usage: { value: 43, period: 'Jun 11, 2015 - Jul 10, 2015' },
-          payment: { name: 'Amex', icon: 'cc-amex' },
+          payment: { name: 'Amex', icon: 'cib-cc-amex' },
           activity: 'Last week'
         }
       ],

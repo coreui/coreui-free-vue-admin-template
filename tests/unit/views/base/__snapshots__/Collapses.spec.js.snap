@@ -10,7 +10,6 @@ exports[`Collapses.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
@@ -61,7 +60,6 @@ exports[`Collapses.vue renders correctly 1`] = `
           <div
             class="card"
           >
-            <!---->
             <div
               class="card-body"
             >
@@ -87,21 +85,17 @@ exports[`Collapses.vue renders correctly 1`] = `
                 <div
                   class="card"
                 >
-                  <!---->
                   <div
                     class="card-body"
                   >
                     Hello!
                   </div>
-                  <!---->
                 </div>
               </div>
             </div>
-            <!---->
           </div>
         </div>
       </div>
-      <!---->
     </div>
   </div>
 </div>

@@ -3,7 +3,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/>
+          <CIcon name="cil-justify-center"/>
           <strong> Bootstrap Alert</strong>
           <div class="card-header-actions">
             <a 
@@ -34,7 +34,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/> Alert
+          <CIcon name="cil-justify-center"/> Alert
           <small> use <code>.alert-link</code> to provide links</small>
         </CCardHeader>
         <CCardBody>
@@ -72,7 +72,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/> Alerts <small>with additional content</small>
+          <CIcon name="cil-justify-center"/> Alerts <small>with additional content</small>
         </CCardHeader>
         <CCardBody>
           <CAlert show color="success">
@@ -93,7 +93,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/> Alerts
+          <CIcon name="cil-justify-center"/> Alerts
           <small>dismissible</small>
         </CCardHeader>
         <CCardBody>
@@ -131,7 +131,7 @@
       </CCard>
       <CCard>
         <CCardHeader>
-          <CIcon name="justify-center"/> Alerts
+          <CIcon name="cil-justify-center"/> Alerts
           <small>auto dismissible</small>
         </CCardHeader>
         <CCardBody>

@@ -4,7 +4,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> Bootstrap list group </strong>
             <div class="card-header-actions">
               <a 
@@ -31,7 +31,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/><strong> List group </strong><small>active items</small>
+            <CIcon name="cil-justify-center"/><strong> List group </strong><small>active items</small>
           </CCardHeader>
           <CCardBody>
             <CListGroup>
@@ -49,7 +49,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>disabled items</small>
           </CCardHeader>
@@ -67,7 +67,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>actionable items</small>
           </CCardHeader>
@@ -86,7 +86,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>buttons</small>
           </CCardHeader>
@@ -103,7 +103,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>with badges</small>
           </CCardHeader>
@@ -136,7 +136,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>colors</small>
           </CCardHeader>
@@ -158,7 +158,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>colors active</small>
           </CCardHeader>
@@ -182,7 +182,7 @@
       <CCol col="12">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>inside cards</small>
           </CCardHeader>
@@ -229,7 +229,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/><strong> List group </strong><small>custom content</small>
+            <CIcon name="cil-justify-center"/><strong> List group </strong><small>custom content</small>
           </CCardHeader>
           <CCardBody>
             <CListGroup>

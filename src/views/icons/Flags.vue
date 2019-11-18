@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <CIcon name="globe-alt"/> Flags
+        <CIcon name="cil-globe-alt"/> Flags
       </CCardHeader>
       <CCardBody>
         <CRow class="text-center">

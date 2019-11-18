@@ -5,7 +5,7 @@ exports[`Paginations.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -41,12 +41,8 @@ exports[`Paginations.vue renders correctly 1`] = `
         arrows="true"
         dots="true"
         doublearrows="true"
-        firstbuttonhtml="&laquo;"
-        lastbuttonhtml="&raquo;"
         limit="5"
-        nextbuttonhtml="&rsaquo;"
         pages="10"
-        previousbuttonhtml="&lsaquo;"
         responsive=""
       />
        
@@ -62,12 +58,8 @@ exports[`Paginations.vue renders correctly 1`] = `
         arrows="true"
         dots="true"
         doublearrows="true"
-        firstbuttonhtml="&laquo;"
-        lastbuttonhtml="&raquo;"
         limit="5"
-        nextbuttonhtml="&rsaquo;"
         pages="10"
-        previousbuttonhtml="&lsaquo;"
         size="sm"
       />
        
@@ -84,12 +76,8 @@ exports[`Paginations.vue renders correctly 1`] = `
           arrows="true"
           dots="true"
           doublearrows="true"
-          firstbuttonhtml="&laquo;"
-          lastbuttonhtml="&raquo;"
           limit="5"
-          nextbuttonhtml="&rsaquo;"
           pages="10"
-          previousbuttonhtml="&lsaquo;"
           responsive=""
           size="lg"
         />
@@ -106,7 +94,7 @@ exports[`Paginations.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -129,12 +117,8 @@ exports[`Paginations.vue renders correctly 1`] = `
         arrows="true"
         dots="true"
         doublearrows="true"
-        firstbuttonhtml="&laquo;"
-        lastbuttonhtml="&raquo;"
         limit="5"
-        nextbuttonhtml="&rsaquo;"
         pages="10"
-        previousbuttonhtml="&lsaquo;"
       />
        
       <br />
@@ -149,12 +133,8 @@ exports[`Paginations.vue renders correctly 1`] = `
         arrows="true"
         dots="true"
         doublearrows="true"
-        firstbuttonhtml="&laquo;"
-        lastbuttonhtml="&raquo;"
         limit="5"
-        nextbuttonhtml="&rsaquo;"
         pages="10"
-        previousbuttonhtml="&lsaquo;"
       />
        
       <br />
@@ -169,12 +149,8 @@ exports[`Paginations.vue renders correctly 1`] = `
         arrows="true"
         dots="true"
         doublearrows="true"
-        firstbuttonhtml="&laquo;"
-        lastbuttonhtml="&raquo;"
         limit="5"
-        nextbuttonhtml="&rsaquo;"
         pages="10"
-        previousbuttonhtml="&lsaquo;"
       />
        
       <br />

@@ -9,7 +9,7 @@
             placement="bottom-end"
           >
             <template #toggler-content>
-              <CIcon name="settings"/>
+              <CIcon name="cil-settings"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -40,7 +40,7 @@
             :caret="false"
           >
             <template #toggler-content>
-              <CIcon name="location-pin"/>
+              <CIcon name="cil-location-pin"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -75,7 +75,7 @@
             placement="bottom-end"
           >
             <template #toggler-content>
-              <CIcon name="settings"/>
+              <CIcon name="cil-settings"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -109,7 +109,7 @@
             placement="bottom-end"
           >
             <template #toggler-content>
-             <CIcon name="settings"/>
+             <CIcon name="cil-settings"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>

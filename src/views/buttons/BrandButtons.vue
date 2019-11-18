@@ -31,7 +31,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon size="sm" :name="brandName"/>
+                <CIcon size="sm" :name="'cib-' + brandName"/>
                 <span>{{brandName}}</span>
               </CButton>
             </template>
@@ -44,7 +44,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon :name="brandName"/>
+                <CIcon :name="'cib-' + brandName"/>
                 <span>{{brandName}}</span>
               </CButton>
             </template>
@@ -58,7 +58,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon size="lg" :name="brandName"/>
+                <CIcon size="lg" :name="'cib-' + brandName"/>
                 <span>{{brandName}}</span>
               </CButton>
             </template>
@@ -84,7 +84,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon size="sm" :name="brandName"/>
+                <CIcon size="sm" :name="'cib-' + brandName"/>
               </CButton>
             </template>
           </p>
@@ -96,7 +96,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon :name="brandName"/>
+                <CIcon :name="'cib-' + brandName"/>
               </CButton>
             </template>
           </p>
@@ -109,7 +109,7 @@
                 :key="key"
                 :color="brandName"
               >
-                <CIcon size="lg" :name="brandName"/>
+                <CIcon size="lg" :name="'cib-' + brandName"/>
               </CButton>
             </template>
           </p>
@@ -132,7 +132,6 @@
           <p>
             <template v-for="(brandName, key) in $options.brands">
               <CButton
-                :name="brandName"
                 size="sm"
                 :key="key"
                 :color="brandName"
@@ -145,7 +144,6 @@
           <p>
             <template v-for="(brandName, key) in $options.brands">
               <CButton
-                :name="brandName"
                 :key="key"
                 :color="brandName"
               >
@@ -157,7 +155,6 @@
           <p>
             <template v-for="(brandName, key) in $options.brands">
               <CButton
-                :name="brandName"
                 size="lg"
                 :key="key"
                 :color="brandName"
@@ -176,8 +173,8 @@
 export default {
   name: 'BrandButtons',
   usage: '<CButton color="facebook"><span>Facebook</span></CButton>',
-  iconsOnlyUsage: '<CButton color="facebook"><CIcon name="facebook"/></CButton>',
-  textOnlyUsage: '<CButton color="facebook"><CIcon name="facebook"/></CButton>',
+  iconsOnlyUsage: '<CButton color="facebook"><CIcon name="cib-facebook"/></CButton>',
+  textOnlyUsage: '<CButton color="facebook"><CIcon name="cib-facebook"/></CButton>',
   brands: [
     'facebook',
     'twitter',

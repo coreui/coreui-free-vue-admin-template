@@ -3865,7 +3865,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             type="button"
           >
             <cicon-stub
-              name="lightbulb"
+              name="cil-lightbulb"
             />
              Standard Button
           
@@ -3889,7 +3889,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             variant="outline"
           >
             <cicon-stub
-              name="lightbulb"
+              name="cil-lightbulb"
             />
              Outline Button
           
@@ -3912,7 +3912,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             type="button"
           >
             <cicon-stub
-              name="lightbulb"
+              name="cil-lightbulb"
             />
              Ghost Button
           
@@ -3936,7 +3936,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             type="button"
           >
             <cicon-stub
-              name="lightbulb"
+              name="cil-lightbulb"
             />
              Square Button
           
@@ -3960,7 +3960,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
             type="button"
           >
             <cicon-stub
-              name="lightbulb"
+              name="cil-lightbulb"
             />
              Pill Button
           

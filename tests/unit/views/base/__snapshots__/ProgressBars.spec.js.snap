@@ -5,7 +5,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -88,7 +88,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -164,7 +164,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -218,7 +218,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -277,7 +277,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -436,7 +436,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -504,7 +504,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>
@@ -575,7 +575,7 @@ exports[`ProgressBars.vue renders correctly 1`] = `
   <ccard-stub>
     <ccardheader-stub>
       <cicon-stub
-        name="justify-center"
+        name="cil-justify-center"
       />
        
       <strong>

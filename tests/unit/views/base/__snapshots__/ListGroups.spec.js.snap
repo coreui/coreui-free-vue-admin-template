@@ -12,7 +12,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -107,7 +107,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
           <strong>
              List group 
@@ -192,7 +192,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -276,7 +276,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -357,7 +357,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -429,7 +429,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -462,7 +462,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                innavitem="true"
                 routertag="a"
                 shape="pill"
                 tag="span"
@@ -489,7 +488,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                innavitem="true"
                 routertag="a"
                 shape="pill"
                 tag="span"
@@ -516,7 +514,6 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                innavitem="true"
                 routertag="a"
                 shape="pill"
                 tag="span"
@@ -541,7 +538,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -675,7 +672,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -822,7 +819,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
            
           <strong>
@@ -972,7 +969,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
       <ccard-stub>
         <ccardheader-stub>
           <cicon-stub
-            name="justify-center"
+            name="cil-justify-center"
           />
           <strong>
              List group 

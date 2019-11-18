@@ -10,7 +10,6 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
@@ -167,7 +166,6 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
           </li>
         </ol>
       </div>
-      <!---->
     </div>
   </div>
 </div>

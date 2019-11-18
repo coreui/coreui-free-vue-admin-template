@@ -149,7 +149,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="settings"
+          name="cil-settings"
           width="24"
         />
       </cwidgeticon-stub>
@@ -168,7 +168,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="laptop"
+          name="cil-laptop"
           width="24"
         />
       </cwidgeticon-stub>
@@ -187,7 +187,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="moon"
+          name="cil-moon"
           width="24"
         />
       </cwidgeticon-stub>
@@ -206,7 +206,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="bell"
+          name="cil-bell"
           width="24"
         />
       </cwidgeticon-stub>
@@ -228,7 +228,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="settings"
+          name="cil-settings"
           width="24"
         />
       </cwidgeticon-stub>
@@ -246,7 +246,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="laptop"
+          name="cil-laptop"
           width="24"
         />
       </cwidgeticon-stub>
@@ -264,7 +264,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="moon"
+          name="cil-moon"
           width="24"
         />
       </cwidgeticon-stub>
@@ -282,7 +282,7 @@ exports[`Widgets.vue renders correctly 1`] = `
         text="Income"
       >
         <cicon-stub
-          name="bell"
+          name="cil-bell"
           width="24"
         />
       </cwidgeticon-stub>
@@ -305,7 +305,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           class="mx-5 "
-          name="settings"
+          name="cil-settings"
           width="24"
         />
       </cwidgeticon-stub>
@@ -324,7 +324,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           class="mx-5 "
-          name="laptop"
+          name="cil-laptop"
           width="24"
         />
       </cwidgeticon-stub>
@@ -343,7 +343,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           class="mx-5 "
-          name="moon"
+          name="cil-moon"
           width="24"
         />
       </cwidgeticon-stub>
@@ -367,7 +367,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="people"
+        name="cil-people"
       />
     </cwidgetprogressicon-stub>
      
@@ -379,7 +379,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="userFollow"
+        name="cil-userFollow"
       />
     </cwidgetprogressicon-stub>
      
@@ -391,7 +391,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="basket"
+        name="cil-basket"
       />
     </cwidgetprogressicon-stub>
      
@@ -402,7 +402,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="chartPie"
+        name="cil-chartPie"
       />
     </cwidgetprogressicon-stub>
      
@@ -414,7 +414,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="speedometer"
+        name="cil-speedometer"
       />
     </cwidgetprogressicon-stub>
   </ccardgroup-stub>
@@ -431,7 +431,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="people"
+        name="cil-people"
       />
     </cwidgetprogressicon-stub>
      
@@ -444,7 +444,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="userFollow"
+        name="cil-userFollow"
       />
     </cwidgetprogressicon-stub>
      
@@ -457,7 +457,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="basket"
+        name="cil-basket"
       />
     </cwidgetprogressicon-stub>
      
@@ -470,7 +470,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="chartPie"
+        name="cil-chartPie"
       />
     </cwidgetprogressicon-stub>
      
@@ -483,7 +483,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cicon-stub
         height="36"
-        name="speedometer"
+        name="cil-speedometer"
       />
     </cwidgetprogressicon-stub>
   </ccardgroup-stub>
@@ -504,7 +504,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="people"
+          name="cil-people"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -522,7 +522,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="userFollow"
+          name="cil-userFollow"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -540,7 +540,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="basket"
+          name="cil-basket"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -558,7 +558,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="chartPie"
+          name="cil-chartPie"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -576,7 +576,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="speedometer"
+          name="cil-speedometer"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -594,7 +594,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="speech"
+          name="cil-speech"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -617,7 +617,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="people"
+          name="cil-people"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -636,7 +636,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="userFollow"
+          name="cil-userFollow"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -655,7 +655,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="basket"
+          name="cil-basket"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -674,7 +674,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="chartPie"
+          name="cil-chartPie"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -693,7 +693,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="speedometer"
+          name="cil-speedometer"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>
@@ -712,7 +712,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       >
         <cicon-stub
           height="36"
-          name="speech"
+          name="cil-speech"
         />
       </cwidgetprogressicon-stub>
     </ccol-stub>

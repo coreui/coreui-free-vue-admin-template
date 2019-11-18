@@ -17,7 +17,7 @@ exports[`TheSidebar.vue renders correctly 1`] = `
    
   <crenderfunction-stub
     contenttorender="[object Object]"
-    flat=""
+    flat="true"
   />
    
   <csidebarminimizer-stub

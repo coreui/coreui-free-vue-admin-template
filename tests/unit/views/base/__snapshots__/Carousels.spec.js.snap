@@ -10,7 +10,6 @@ exports[`Carousels.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
@@ -131,7 +130,6 @@ exports[`Carousels.vue renders correctly 1`] = `
           </a>
         </div>
       </div>
-      <!---->
     </div>
   </div>
 </div>

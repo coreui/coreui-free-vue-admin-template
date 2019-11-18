@@ -19,19 +19,19 @@
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <CIcon name="bell"/> Updates
+      <CIcon name="cil-bell"/> Updates
       <CBadge color="info" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="envelope-open" /> Messages
+      <CIcon name="cil-envelope-open" /> Messages
       <CBadge color="success" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="task" /> Tasks
+      <CIcon name="cil-task" /> Tasks
       <CBadge color="danger" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="comment-square" /> Comments
+      <CIcon name="cil-comment-square" /> Comments
       <CBadge color="warning" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
@@ -42,25 +42,25 @@
       <strong>Settings</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <CIcon name="user" /> Profile
+      <CIcon name="cil-user" /> Profile
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="settings" /> Settings
+      <CIcon name="cil-settings" /> Settings
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="dollar" /> Payments
+      <CIcon name="cil-dollar" /> Payments
       <CBadge color="secondary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="file" /> Projects
+      <CIcon name="cil-file" /> Projects
       <CBadge color="primary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
     <CDropdownItem>
-      <CIcon name="shield-alt" /> Lock Account
+      <CIcon name="cil-shield-alt" /> Lock Account
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="lock-locked" /> Logout
+      <CIcon name="cil-lock-locked" /> Logout
     </CDropdownItem>
   </CDropdown>
 </template>

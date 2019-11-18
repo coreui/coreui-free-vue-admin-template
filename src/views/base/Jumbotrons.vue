@@ -4,7 +4,7 @@
       <CCol>
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/>
+            <CIcon name="cil-justify-center"/>
             <strong> Bootstrap Jumbotron </strong>
             <div class="card-header-actions">
               <a 
@@ -30,7 +30,7 @@
       <CCol>
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/> <strong> Jumbotron </strong>
+            <CIcon name="cil-justify-center"/> <strong> Jumbotron </strong>
             <small>with slots</small>
           </CCardHeader>
           <CCardBody>
@@ -56,7 +56,7 @@
       <CCol>
         <CCard>
           <CCardHeader>
-            <CIcon name="justify-center"/> <strong> Jumbotron </strong>
+            <CIcon name="cil-justify-center"/> <strong> Jumbotron </strong>
             <small>colors</small>
           </CCardHeader>
           <CCardBody>
