@@ -32,7 +32,6 @@ exports[`Login.vue renders correctly 1`] = `
                 autocomplete="username email"
                 lazy="400"
                 placeholder="Username"
-                prependhtml=<i class='cui-user'></i>
                 type="text"
               />
                
@@ -40,7 +39,6 @@ exports[`Login.vue renders correctly 1`] = `
                 autocomplete="curent-password"
                 lazy="400"
                 placeholder="Password"
-                prependhtml=<i class='cui-lock-locked'></i>
                 type="password"
               />
                
@@ -90,7 +88,9 @@ exports[`Login.vue renders correctly 1`] = `
          
         <ccard-stub
           bodywrapper="true"
-          class="text-white text-center bg-primary py-5 d-md-down-none"
+          class="text-center py-5 d-md-down-none"
+          color="primary"
+          textcolor="white"
         >
           <h2>
             Sign up

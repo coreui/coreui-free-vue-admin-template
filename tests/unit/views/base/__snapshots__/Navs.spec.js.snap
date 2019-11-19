@@ -4,8 +4,8 @@ exports[`Navs.vue renders correctly 1`] = `
 <div>
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
       <strong>
          Bootstrap Navs
@@ -37,7 +37,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -48,7 +47,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
           title="Link"
         />
@@ -58,7 +56,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Another Link
@@ -70,7 +67,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -81,8 +77,8 @@ exports[`Navs.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -102,11 +98,10 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
-          <i
-            class="cui-basket-loaded"
+          <cicon-stub
+            name="cil-basket"
           />
         </cnavitem-stub>
          
@@ -115,7 +110,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -128,7 +122,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -142,7 +135,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -153,8 +145,8 @@ exports[`Navs.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -168,7 +160,7 @@ exports[`Navs.vue renders correctly 1`] = `
      
     <ccardbody-stub>
       <cnav-stub
-        tabs="true"
+        variant="tabs"
       >
         <cnavitem-stub
           active="true"
@@ -176,7 +168,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -189,7 +180,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -202,7 +192,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           
@@ -216,7 +205,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -227,8 +215,8 @@ exports[`Navs.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -242,7 +230,7 @@ exports[`Navs.vue renders correctly 1`] = `
      
     <ccardbody-stub>
       <cnav-stub
-        pills="true"
+        variant="pills"
       >
         <cnavitem-stub
           active="true"
@@ -250,7 +238,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -261,7 +248,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -272,7 +258,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Another Link
@@ -284,7 +269,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -295,8 +279,8 @@ exports[`Navs.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -311,7 +295,7 @@ exports[`Navs.vue renders correctly 1`] = `
     <ccardbody-stub>
       <cnav-stub
         fill="true"
-        tabs="true"
+        variant="tabs"
       >
         <cnavitem-stub
           active="true"
@@ -319,7 +303,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -330,7 +313,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -341,7 +323,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link with a long name 
@@ -353,7 +334,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -364,8 +344,8 @@ exports[`Navs.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -380,7 +360,7 @@ exports[`Navs.vue renders correctly 1`] = `
     <ccardbody-stub>
       <cnav-stub
         justified="true"
-        tabs="true"
+        variant="tabs"
       >
         <cnavitem-stub
           active="true"
@@ -388,7 +368,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -399,7 +378,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -410,7 +388,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link with a long name 
@@ -422,7 +399,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Disabled
@@ -433,8 +409,8 @@ exports[`Navs.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -448,7 +424,7 @@ exports[`Navs.vue renders correctly 1`] = `
      
     <ccardbody-stub>
       <cnav-stub
-        pills="true"
+        pills=""
       >
         <cnavitem-stub
           active="true"
@@ -456,7 +432,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Active
@@ -467,7 +442,6 @@ exports[`Navs.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
-          tag="span"
           target="_self"
         >
           Link
@@ -522,8 +496,8 @@ exports[`Navs.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -545,7 +519,7 @@ exports[`Navs.vue renders correctly 1`] = `
           tag="div"
         >
           <cnav-stub
-            pills="true"
+            pills=""
             vertical="true"
           >
             <cnavitem-stub
@@ -554,7 +528,6 @@ exports[`Navs.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Active
@@ -565,7 +538,6 @@ exports[`Navs.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Link
@@ -576,7 +548,6 @@ exports[`Navs.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Another Link
@@ -588,7 +559,6 @@ exports[`Navs.vue renders correctly 1`] = `
               event="click"
               exactactiveclass="active"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Disabled

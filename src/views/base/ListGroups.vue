@@ -4,7 +4,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> Bootstrap list group </strong>
             <div class="card-header-actions">
               <a 
@@ -31,7 +31,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i><strong> List group </strong><small>active items</small>
+            <CIcon name="cil-justify-center"/><strong> List group </strong><small>active items</small>
           </CCardHeader>
           <CCardBody>
             <CListGroup>
@@ -49,7 +49,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>disabled items</small>
           </CCardHeader>
@@ -67,7 +67,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>actionable items</small>
           </CCardHeader>
@@ -86,7 +86,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>buttons</small>
           </CCardHeader>
@@ -103,7 +103,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>with badges</small>
           </CCardHeader>
@@ -113,19 +113,19 @@
                 class="d-flex justify-content-between align-items-center"
               >
                 Cras justo odio
-                <CBadge color="primary" pill>14</CBadge>
+                <CBadge color="primary" shape="pill">14</CBadge>
               </CListGroupItem>
               <CListGroupItem
                 class="d-flex justify-content-between align-items-center"
               >
                 Dapibus ac facilisis in
-                <CBadge color="primary" pill>2</CBadge>
+                <CBadge color="primary" shape="pill">2</CBadge>
               </CListGroupItem>
               <CListGroupItem
                 class="d-flex justify-content-between align-items-center"
               >
                 Morbi leo risus
-                <CBadge color="primary" pill>1</CBadge>
+                <CBadge color="primary" shape="pill">1</CBadge>
               </CListGroupItem>
             </CListGroup>
           </CCardBody>
@@ -136,7 +136,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>colors</small>
           </CCardHeader>
@@ -158,7 +158,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>colors active</small>
           </CCardHeader>
@@ -182,26 +182,32 @@
       <CCol col="12">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>inside cards</small>
           </CCardHeader>
           <CCardBody>
             <CCardGroup deck>
-              <CCard headerHtml="<b>Card with list group</b>">
-                <CListGroup>
-                  <CListGroupItem href="#">Cras justo odio</CListGroupItem>
-                  <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>
-                  <CListGroupItem href="#">Vestibulum at eros</CListGroupItem>
-                </CListGroup>
-                <p class="card-text mt-2">
-                  Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
-                  nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
-                  consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
-                  ad sit ipsum anim Lorem.
-                </p>
+              <CCard>
+                <CCardHeader>
+                  <b>Card with list group</b>
+                </CCardHeader>
+                <CCardBody>
+                  <CListGroup>
+                    <CListGroupItem href="#">Cras justo odio</CListGroupItem>
+                    <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>
+                    <CListGroupItem href="#">Vestibulum at eros</CListGroupItem>
+                  </CListGroup>
+                  <CCardText class="mt-2">
+                    Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
+                    nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
+                    consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
+                    ad sit ipsum anim Lorem.
+                  </CCardText>
+                </CCardBody>
               </CCard>
-              <CCard header="<b>Card with flush list group</b>">
+              <CCard>
+                <CCardHeader><b>Card with flush list group</b></CCardHeader>
                 <CListGroup flush>
                   <CListGroupItem href="#">Cras justo odio</CListGroupItem>
                   <CListGroupItem href="#">Dapibus ac facilisis in</CListGroupItem>
@@ -223,7 +229,7 @@
       <CCol md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i><strong> List group </strong><small>custom content</small>
+            <CIcon name="cil-justify-center"/><strong> List group </strong><small>custom content</small>
           </CCardHeader>
           <CCardBody>
             <CListGroup>

@@ -19,19 +19,37 @@
       :wrappedInLink="{ href: 'https://coreui.io', target: '_blank'}"
     />
     <CHeaderNav class="d-md-down-none mr-auto">
-      <CHeaderNavItem class="px-3" to="/dashboard">Dashboard</CHeaderNavItem>
-      <CHeaderNavItem class="px-3" to="/users" exact>Users</CHeaderNavItem>
-      <CHeaderNavItem class="px-3">Settings</CHeaderNavItem>
+      <CHeaderNavItem class="px-3" to="/dashboard">
+        <CHeaderNavLink>
+          Dashboard
+        </CHeaderNavLink>
+      </CHeaderNavItem>
+      <CHeaderNavItem class="px-3" to="/users" exact>
+        <CHeaderNavLink>
+          Users
+        </CHeaderNavLink>
+      </CHeaderNavItem>
+      <CHeaderNavItem class="px-3">
+        <CHeaderNavLink>
+          Settings
+        </CHeaderNavLink>
+      </CHeaderNavItem>
     </CHeaderNav>
     <CHeaderNav class="mr-4">
       <CHeaderNavItem class="d-md-down-none mx-2">
-        <i class="cui-bell"></i>
+        <CHeaderNavLink>
+          <CIcon name="cil-bell"/>
+        </CHeaderNavLink>
       </CHeaderNavItem>
       <CHeaderNavItem class="d-md-down-none mx-2">
-        <i class="cui-list"></i>
+        <CHeaderNavLink>
+          <CIcon name="cil-list"/>
+        </CHeaderNavLink>
       </CHeaderNavItem>
       <CHeaderNavItem class="d-md-down-none mx-2">
-        <i class="cui-envelope-open"></i>
+        <CHeaderNavLink>
+          <CIcon name="cil-envelope-open"/>
+        </CHeaderNavLink>
       </CHeaderNavItem>
       <TheHeaderDropdownAccnt/>
     </CHeaderNav>

@@ -36,11 +36,11 @@ exports[`Tabs.vue renders correctly 1`] = `
         <ccardbody-stub>
           <ctabs-stub
             fade="true"
-            tabs="true"
+            variant="tabs"
           >
             <ctab-stub
               active="true"
-              titlehtml="Home"
+              title="Home"
             >
               
               1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -52,7 +52,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
-              titlehtml="Profile"
+              title="Profile"
             >
               
               2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -65,7 +65,7 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub
               disabled="true"
-              titlehtml="Disabled"
+              title="Disabled"
             >
               
               3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -95,12 +95,11 @@ exports[`Tabs.vue renders correctly 1`] = `
         <ccardbody-stub>
           <ctabs-stub
             fade="true"
-            pills="true"
-            tabs="true"
+            variant="pills"
           >
             <ctab-stub
               active="true"
-              titlehtml="Home"
+              title="Home"
             >
               
               1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -112,7 +111,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
-              titlehtml="Profile"
+              title="Profile"
             >
               
               2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -125,7 +124,7 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub
               disabled="true"
-              titlehtml="Disabled"
+              title="Disabled"
             >
               
               3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -155,14 +154,14 @@ exports[`Tabs.vue renders correctly 1`] = `
         <ccardbody-stub>
           <ctabs-stub
             fade="true"
-            tabs="true"
+            variant="tabs"
           >
             <ctab-stub
               active="true"
             >
               <template>
-                <i
-                  class="cui-calculator"
+                <cicon-stub
+                  name="cil-calculator"
                 />
               </template>
               
@@ -176,8 +175,8 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub>
               <template>
-                <i
-                  class="cui-basket-loaded"
+                <cicon-stub
+                  name="cil-basket"
                 />
               </template>
               
@@ -191,8 +190,8 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub>
               <template>
-                <i
-                  class="cui-pie-chart"
+                <cicon-stub
+                  name="cil-chart-pie"
                 />
               </template>
               
@@ -224,14 +223,14 @@ exports[`Tabs.vue renders correctly 1`] = `
           <ctabs-stub
             addtabclasses="mt-1"
             fade="true"
-            tabs="true"
+            variant="tabs"
           >
             <ctab-stub
               active="true"
             >
               <template>
-                <i
-                  class="cui-calculator"
+                <cicon-stub
+                  name="cil-calculator"
                 />
                  Calculator
               
@@ -247,8 +246,8 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub>
               <template>
-                <i
-                  class="cui-basket-loaded"
+                <cicon-stub
+                  name="cil-basket"
                 />
                  Shopping cart
               
@@ -264,8 +263,8 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub>
               <template>
-                <i
-                  class="cui-pie-chart"
+                <cicon-stub
+                  name="cil-chart-pie"
                 />
                  Charts
               
@@ -298,16 +297,15 @@ exports[`Tabs.vue renders correctly 1`] = `
         <ccardbody-stub>
           <ctabs-stub
             fade="true"
-            pills="true"
-            tabs="true"
+            variant="pills"
             vertical="true"
           >
             <ctab-stub
               active="true"
             >
               <template>
-                <i
-                  class="cui-calculator"
+                <cicon-stub
+                  name="cil-calculator"
                 />
                  Calculator
               
@@ -323,8 +321,8 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub>
               <template>
-                <i
-                  class="cui-basket-loaded"
+                <cicon-stub
+                  name="cil-basket"
                 />
                  Shopping cart
               
@@ -340,8 +338,8 @@ exports[`Tabs.vue renders correctly 1`] = `
              
             <ctab-stub>
               <template>
-                <i
-                  class="cui-pie-chart"
+                <cicon-stub
+                  name="cil-chart-pie"
                 />
                  Charts
               

@@ -14,8 +14,8 @@ exports[`Modals.vue renders correctly 1`] = `
       >
         <ccard-stub>
           <ccardheader-stub>
-            <i
-              class="fa fa-align-justify"
+            <cicon-stub
+              name="cil-justify-center"
             />
              Bootstrap Modals
             
@@ -233,6 +233,7 @@ exports[`Modals.vue renders correctly 1`] = `
   <cmodal-stub
     backdrop="true"
     closeonbackdrop="true"
+    color="primary"
     fade="true"
     title="Modal title"
   >

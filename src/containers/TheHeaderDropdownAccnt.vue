@@ -1,38 +1,37 @@
 <template>
   <CDropdown
-    nav
-    no-caret
+    inNav
     class="c-header-nav-items"
     placement="bottom-end"
     add-menu-classes="pt-0"
   >
     <template #toggler>
-      <CHeaderNavItem only-link>
+      <CHeaderNavLink>
         <div class="c-avatar">
           <img
             src="img/avatars/6.jpg"
             class="c-avatar-img "
           />
         </div>
-      </CHeaderNavItem>
+      </CHeaderNavLink>
     </template>
     <CDropdownHeader tag="div" class="text-center" color="light">
       <strong>Account</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <i class="cui-bell mr-2"/> Updates
+      <CIcon name="cil-bell"/> Updates
       <CBadge color="info" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-envelope-open mr-2" /> Messages
+      <CIcon name="cil-envelope-open" /> Messages
       <CBadge color="success" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-task mr-2" /> Tasks
+      <CIcon name="cil-task" /> Tasks
       <CBadge color="danger" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-comment-square mr-2" /> Comments
+      <CIcon name="cil-comment-square" /> Comments
       <CBadge color="warning" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
@@ -43,25 +42,25 @@
       <strong>Settings</strong>
     </CDropdownHeader>
     <CDropdownItem>
-      <i class="cui-user mr-2" /> Profile
+      <CIcon name="cil-user" /> Profile
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-wrench mr-2" /> Settings
+      <CIcon name="cil-settings" /> Settings
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-dollar mr-2" /> Payments
+      <CIcon name="cil-dollar" /> Payments
       <CBadge color="secondary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-file mr-2" /> Projects
+      <CIcon name="cil-file" /> Projects
       <CBadge color="primary" class="ml-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
     <CDropdownItem>
-      <i class="cui-shield mr-2" /> Lock Account
+      <CIcon name="cil-shield-alt" /> Lock Account
     </CDropdownItem>
     <CDropdownItem>
-      <i class="cui-lock-locked mr-2" /> Logout
+      <CIcon name="cil-lock-locked" /> Logout
     </CDropdownItem>
   </CDropdown>
 </template>
@@ -76,3 +75,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .c-icon {
+    margin-right: 0.3rem;
+  }
+</style>

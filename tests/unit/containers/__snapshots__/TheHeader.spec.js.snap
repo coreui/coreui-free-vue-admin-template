@@ -33,42 +33,54 @@ exports[`TheHeader.vue renders correctly 1`] = `
     class="d-md-down-none mr-auto"
   >
     <cheadernavitem-stub
-      activeclass="active"
       class="px-3"
-      event="click"
-      exactactiveclass="active"
-      routertag="a"
-      tag="span"
-      target="_self"
       to="/dashboard"
     >
-      Dashboard
+      <cheadernavlink-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        
+        Dashboard
+      
+      </cheadernavlink-stub>
     </cheadernavitem-stub>
      
     <cheadernavitem-stub
-      activeclass="active"
       class="px-3"
-      event="click"
-      exact="true"
-      exactactiveclass="active"
-      routertag="a"
-      tag="span"
-      target="_self"
+      exact=""
       to="/users"
     >
-      Users
+      <cheadernavlink-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        
+        Users
+      
+      </cheadernavlink-stub>
     </cheadernavitem-stub>
      
     <cheadernavitem-stub
-      activeclass="active"
       class="px-3"
-      event="click"
-      exactactiveclass="active"
-      routertag="a"
-      tag="span"
-      target="_self"
     >
-      Settings
+      <cheadernavlink-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        
+        Settings
+      
+      </cheadernavlink-stub>
     </cheadernavitem-stub>
   </cheadernav-stub>
    
@@ -76,45 +88,51 @@ exports[`TheHeader.vue renders correctly 1`] = `
     class="mr-4"
   >
     <cheadernavitem-stub
-      activeclass="active"
       class="d-md-down-none mx-2"
-      event="click"
-      exactactiveclass="active"
-      routertag="a"
-      tag="span"
-      target="_self"
     >
-      <i
-        class="cui-bell"
-      />
+      <cheadernavlink-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        <cicon-stub
+          name="cil-bell"
+        />
+      </cheadernavlink-stub>
     </cheadernavitem-stub>
      
     <cheadernavitem-stub
-      activeclass="active"
       class="d-md-down-none mx-2"
-      event="click"
-      exactactiveclass="active"
-      routertag="a"
-      tag="span"
-      target="_self"
     >
-      <i
-        class="cui-list"
-      />
+      <cheadernavlink-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        <cicon-stub
+          name="cil-list"
+        />
+      </cheadernavlink-stub>
     </cheadernavitem-stub>
      
     <cheadernavitem-stub
-      activeclass="active"
       class="d-md-down-none mx-2"
-      event="click"
-      exactactiveclass="active"
-      routertag="a"
-      tag="span"
-      target="_self"
     >
-      <i
-        class="cui-envelope-open"
-      />
+      <cheadernavlink-stub
+        activeclass="active"
+        event="click"
+        exactactiveclass="active"
+        routertag="a"
+        target="_self"
+      >
+        <cicon-stub
+          name="cil-envelope-open"
+        />
+      </cheadernavlink-stub>
     </cheadernavitem-stub>
      
     <theheaderdropdownaccnt-stub />

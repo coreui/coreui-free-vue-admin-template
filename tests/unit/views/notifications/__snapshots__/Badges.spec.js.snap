@@ -10,12 +10,13 @@ exports[`Badges.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
-        <i
-          class="fa fa-align-justify"
+        <svg
+          class="c-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
         />
          
         <strong>
@@ -106,7 +107,6 @@ exports[`Badges.vue renders correctly 1`] = `
           </span>
         </button>
       </footer>
-      <!---->
     </div>
   </div>
    
@@ -116,12 +116,13 @@ exports[`Badges.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
-        <i
-          class="fa fa-align-justify"
+        <svg
+          class="c-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
         />
          Badge
         
@@ -181,23 +182,23 @@ exports[`Badges.vue renders correctly 1`] = `
           Dark
         </span>
       </div>
-      <!---->
     </div>
      
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
-        <i
-          class="fa fa-align-justify"
+        <svg
+          class="c-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
         />
          Badge
         
         <small>
-          pills
+          shape="pill"
         </small>
       </header>
        
@@ -252,18 +253,18 @@ exports[`Badges.vue renders correctly 1`] = `
           Dark
         </span>
       </div>
-      <!---->
     </div>
      
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
-        <i
-          class="fa fa-align-justify"
+        <svg
+          class="c-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
         />
          Badge
         
@@ -339,7 +340,6 @@ exports[`Badges.vue renders correctly 1`] = `
           Dark
         </a>
       </div>
-      <!---->
     </div>
   </div>
 </div>

@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i><strong> Bootstrap Navs</strong>
+        <CIcon name="cil-justify-center"/><strong> Bootstrap Navs</strong>
         <div class="card-header-actions">
           <a 
             href="https://coreui.io/vue/docs/3.0/components/Nav" 
@@ -25,14 +25,14 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>icons</small>
       </CCardHeader>
       <CCardBody>
         <CNav>
           <CNavItem active>
-            <i class="cui-basket-loaded"></i>
+            <CIcon name="cil-basket"/>
           </CNavItem>
           <CNavItem>
             Link
@@ -46,12 +46,12 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>tab style</small>
       </CCardHeader>
       <CCardBody>
-        <CNav tabs>
+        <CNav variant="tabs">
           <CNavItem active>
             Active
           </CNavItem>
@@ -67,12 +67,12 @@
     </CCard>
     <CCard>
       <CCardHeader @click="item++">
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>pill style</small>
       </CCardHeader>
       <CCardBody>
-        <CNav pills>
+        <CNav variant="pills">
           <CNavItem active>Active</CNavItem>
           <CNavItem>Link</CNavItem>
           <CNavItem>Another Link</CNavItem>
@@ -82,12 +82,12 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>fill tabs</small>
       </CCardHeader>
       <CCardBody>
-        <CNav fill tabs>
+        <CNav fill variant="tabs">
           <CNavItem active>Active</CNavItem>
           <CNavItem>Link</CNavItem>
           <CNavItem>Link with a long name </CNavItem>
@@ -97,12 +97,12 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>justified tabs</small>
       </CCardHeader>
       <CCardBody>
-        <CNav justified tabs>
+        <CNav justified variant="tabs">
           <CNavItem active>Active</CNavItem>
           <CNavItem>Link</CNavItem>
           <CNavItem>Link with a long name </CNavItem>
@@ -112,7 +112,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>dropdown support</small>
       </CCardHeader>
@@ -137,7 +137,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Navs </strong>
         <small>vertical variation</small>
       </CCardHeader>

@@ -9,7 +9,7 @@
             placement="bottom-end"
           >
             <template #toggler-content>
-              <i class="cui-settings"></i>
+              <CIcon name="cil-settings"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -38,10 +38,9 @@
             color="transparent p-0"
             placement="bottom-end"
             :caret="false"
-            buttonHtml="<i class='cui-location-pin'></i>"
           >
             <template #toggler-content>
-              <i class="cui-location-pin"></i>
+              <CIcon name="cil-location-pin"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -76,7 +75,7 @@
             placement="bottom-end"
           >
             <template #toggler-content>
-              <i class="cui-settings"></i>
+              <CIcon name="cil-settings"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>
@@ -110,7 +109,7 @@
             placement="bottom-end"
           >
             <template #toggler-content>
-             <i class="cui-settings"></i>
+             <CIcon name="cil-settings"/>
             </template>
             <CDropdownItem>Action</CDropdownItem>
             <CDropdownItem>Another action</CDropdownItem>

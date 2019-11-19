@@ -11,8 +11,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -106,8 +106,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
           <strong>
              List group 
@@ -191,8 +191,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -275,8 +275,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -356,8 +356,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -428,8 +428,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -462,8 +462,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                pill="true"
                 routertag="a"
+                shape="pill"
                 tag="span"
                 target="_self"
               >
@@ -488,8 +488,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                pill="true"
                 routertag="a"
+                shape="pill"
                 tag="span"
                 target="_self"
               >
@@ -514,8 +514,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
                 color="primary"
                 event="click"
                 exactactiveclass="active"
-                pill="true"
                 routertag="a"
+                shape="pill"
                 tag="span"
                 target="_self"
               >
@@ -537,8 +537,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -671,8 +671,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -818,8 +818,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
            
           <strong>
@@ -835,64 +835,74 @@ exports[`ListGroups.vue renders correctly 1`] = `
           <ccardgroup-stub
             deck="true"
           >
-            <ccard-stub
-              headerhtml=<b>Card with list group</b>
-            >
-              <clistgroup-stub
-                tag="ul"
-              >
-                <clistgroupitem-stub
-                  activeclass="active"
-                  event="click"
-                  exactactiveclass="active"
-                  href="#"
-                  routertag="a"
-                  tag="li"
-                  target="_self"
-                >
-                  Cras justo odio
-                </clistgroupitem-stub>
-                 
-                <clistgroupitem-stub
-                  activeclass="active"
-                  event="click"
-                  exactactiveclass="active"
-                  href="#"
-                  routertag="a"
-                  tag="li"
-                  target="_self"
-                >
-                  Dapibus ac facilisis in
-                </clistgroupitem-stub>
-                 
-                <clistgroupitem-stub
-                  activeclass="active"
-                  event="click"
-                  exactactiveclass="active"
-                  href="#"
-                  routertag="a"
-                  tag="li"
-                  target="_self"
-                >
-                  Vestibulum at eros
-                </clistgroupitem-stub>
-              </clistgroup-stub>
+            <ccard-stub>
+              <ccardheader-stub>
+                <b>
+                  Card with list group
+                </b>
+              </ccardheader-stub>
                
-              <p
-                class="card-text mt-2"
-              >
+              <ccardbody-stub>
+                <clistgroup-stub
+                  tag="ul"
+                >
+                  <clistgroupitem-stub
+                    activeclass="active"
+                    event="click"
+                    exactactiveclass="active"
+                    href="#"
+                    routertag="a"
+                    tag="li"
+                    target="_self"
+                  >
+                    Cras justo odio
+                  </clistgroupitem-stub>
+                   
+                  <clistgroupitem-stub
+                    activeclass="active"
+                    event="click"
+                    exactactiveclass="active"
+                    href="#"
+                    routertag="a"
+                    tag="li"
+                    target="_self"
+                  >
+                    Dapibus ac facilisis in
+                  </clistgroupitem-stub>
+                   
+                  <clistgroupitem-stub
+                    activeclass="active"
+                    event="click"
+                    exactactiveclass="active"
+                    href="#"
+                    routertag="a"
+                    tag="li"
+                    target="_self"
+                  >
+                    Vestibulum at eros
+                  </clistgroupitem-stub>
+                </clistgroup-stub>
+                 
+                <ccardtext-stub
+                  class="mt-2"
+                >
+                  
+                  Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
+                  nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
+                  consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
+                  ad sit ipsum anim Lorem.
                 
-                Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
-                nulla tempor. Laborum consequat non elit enim exercitation cillum aliqua
-                consequat id aliqua. Esse ex consectetur mollit voluptate est in duis laboris
-                ad sit ipsum anim Lorem.
-              
-              </p>
+                </ccardtext-stub>
+              </ccardbody-stub>
             </ccard-stub>
              
-            <ccard-stub
-              header=<b>Card with flush list group</b>
-            >
+            <ccard-stub>
+              <ccardheader-stub>
+                <b>
+                  Card with flush list group
+                </b>
+              </ccardheader-stub>
+               
               <clistgroup-stub
                 flush="true"
                 tag="ul"
@@ -958,8 +968,8 @@ exports[`ListGroups.vue renders correctly 1`] = `
     >
       <ccard-stub>
         <ccardheader-stub>
-          <i
-            class="fa fa-align-justify"
+          <cicon-stub
+            name="cil-justify-center"
           />
           <strong>
              List group 

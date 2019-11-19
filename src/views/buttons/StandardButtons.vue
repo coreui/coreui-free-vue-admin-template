@@ -119,35 +119,35 @@
       </CCardHeader>
       <CCardBody>
         <p>
-          Use <code>outline</code> prop
+          Use <code>variant="outline"</code> prop
         </p>
         <CRow class="align-items-center">
           <CCol col="12" xl class="mb-3 mb-xl-0">
             Normal
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="primary">Primary</CButton>
+            <CButton block variant="outline" color="primary">Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="secondary">Secondary</CButton>
+            <CButton block variant="outline" color="secondary">Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="success">Success</CButton>
+            <CButton block variant="outline" color="success">Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="warning">Warning</CButton>
+            <CButton block variant="outline" color="warning">Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="danger">Danger</CButton>
+            <CButton block variant="outline" color="danger">Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="info">Info</CButton>
+            <CButton block variant="outline" color="info">Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="light">Light</CButton>
+            <CButton block variant="outline" color="light">Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="dark">Dark</CButton>
+            <CButton block variant="outline" color="dark">Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
         </CRow>
@@ -156,28 +156,28 @@
             Active State
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="primary" aria-pressed="true">Primary</CButton>
+            <CButton block pressed variant="outline" color="primary" aria-pressed="true">Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="secondary" aria-pressed="true">Secondary</CButton>
+            <CButton block pressed variant="outline" color="secondary" aria-pressed="true">Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="success" aria-pressed="true">Success</CButton>
+            <CButton block pressed variant="outline" color="success" aria-pressed="true">Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="warning" aria-pressed="true">Warning</CButton>
+            <CButton block pressed variant="outline" color="warning" aria-pressed="true">Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="danger" aria-pressed="true">Danger</CButton>
+            <CButton block pressed variant="outline" color="danger" aria-pressed="true">Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="info" aria-pressed="true">Info</CButton>
+            <CButton block pressed variant="outline" color="info" aria-pressed="true">Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="light" aria-pressed="true">Light</CButton>
+            <CButton block pressed variant="outline" color="light" aria-pressed="true">Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed outline color="dark" aria-pressed="true">Dark</CButton>
+            <CButton block pressed variant="outline" color="dark" aria-pressed="true">Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
         </CRow>
@@ -186,28 +186,28 @@
             Disabled
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="primary" disabled>Primary</CButton>
+            <CButton block variant="outline" color="primary" disabled>Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="secondary" disabled>Secondary</CButton>
+            <CButton block variant="outline" color="secondary" disabled>Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="success" disabled>Success</CButton>
+            <CButton block variant="outline" color="success" disabled>Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="warning" disabled>Warning</CButton>
+            <CButton block variant="outline" color="warning" disabled>Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="danger" disabled>Danger</CButton>
+            <CButton block variant="outline" color="danger" disabled>Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="info" disabled>Info</CButton>
+            <CButton block variant="outline" color="info" disabled>Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="light" disabled>Light</CButton>
+            <CButton block variant="outline" color="light" disabled>Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block outline color="dark" disabled>Dark</CButton>
+            <CButton block variant="outline" color="dark" disabled>Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
         </CRow>
@@ -220,35 +220,35 @@
       <CCardBody>
         <p>
           Use
-          <code>ghost</code> prop for ghost buttons.
+          <code>variant="ghost"</code> prop for ghost buttons.
         </p>
         <CRow class="align-items-center">
           <CCol col="12" xl class="mb-3 mb-xl-0">
             Normal
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="primary">Primary</CButton>
+            <CButton block variant="ghost" color="primary">Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="secondary">Secondary</CButton>
+            <CButton block variant="ghost" color="secondary">Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="success">Success</CButton>
+            <CButton block variant="ghost" color="success">Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="warning">Warning</CButton>
+            <CButton block variant="ghost" color="warning">Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="danger">Danger</CButton>
+            <CButton block variant="ghost" color="danger">Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="info">Info</CButton>
+            <CButton block variant="ghost" color="info">Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="light">Light</CButton>
+            <CButton block variant="ghost" color="light">Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="dark">Dark</CButton>
+            <CButton block variant="ghost" color="dark">Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
         </CRow>
@@ -257,28 +257,28 @@
             Active State
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="primary" aria-pressed="true">Primary</CButton>
+            <CButton block pressed variant="ghost" color="primary" aria-pressed="true">Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="secondary" aria-pressed="true">Secondary</CButton>
+            <CButton block pressed variant="ghost" color="secondary" aria-pressed="true">Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="success" aria-pressed="true">Success</CButton>
+            <CButton block pressed variant="ghost" color="success" aria-pressed="true">Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="warning" aria-pressed="true">Warning</CButton>
+            <CButton block pressed variant="ghost" color="warning" aria-pressed="true">Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="danger" aria-pressed="true">Danger</CButton>
+            <CButton block pressed variant="ghost" color="danger" aria-pressed="true">Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="info" aria-pressed="true">Info</CButton>
+            <CButton block pressed variant="ghost" color="info" aria-pressed="true">Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="light" aria-pressed="true">Light</CButton>
+            <CButton block pressed variant="ghost" color="light" aria-pressed="true">Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block pressed ghost color="dark" aria-pressed="true">Dark</CButton>
+            <CButton block pressed variant="ghost" color="dark" aria-pressed="true">Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
         </CRow>
@@ -287,28 +287,28 @@
             Disabled
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="primary" disabled>Primary</CButton>
+            <CButton block variant="ghost" color="primary" disabled>Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="secondary" disabled>Secondary</CButton>
+            <CButton block variant="ghost" color="secondary" disabled>Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="success" disabled>Success</CButton>
+            <CButton block variant="ghost" color="success" disabled>Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="warning" disabled>Warning</CButton>
+            <CButton block variant="ghost" color="warning" disabled>Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="danger" disabled>Danger</CButton>
+            <CButton block variant="ghost" color="danger" disabled>Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="info" disabled>Info</CButton>
+            <CButton block variant="ghost" color="info" disabled>Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="light" disabled>Light</CButton>
+            <CButton block variant="ghost" color="light" disabled>Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block ghost color="dark" disabled>Dark</CButton>
+            <CButton block variant="ghost" color="dark" disabled>Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0"></CCol>
         </CRow>
@@ -435,31 +435,31 @@
             Normal
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="primary" pill>Primary</CButton>
+            <CButton block color="primary" shape="pill">Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="secondary" pill>Secondary</CButton>
+            <CButton block color="secondary" shape="pill">Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="success" pill>Success</CButton>
+            <CButton block color="success" shape="pill">Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="warning" pill>Warning</CButton>
+            <CButton block color="warning" shape="pill">Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="danger" pill>Danger</CButton>
+            <CButton block color="danger" shape="pill">Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="info" pill>Info</CButton>
+            <CButton block color="info" shape="pill">Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="light" pill>Light</CButton>
+            <CButton block color="light" shape="pill">Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="dark" pill>Dark</CButton>
+            <CButton block color="dark" shape="pill">Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="link" pill>Link</CButton>
+            <CButton block color="link" shape="pill">Link</CButton>
           </CCol>
         </CRow>
         <CRow class="align-items-center mt-3">
@@ -467,31 +467,31 @@
             Active State
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="primary" pill aria-pressed="true">Primary</CButton>
+            <CButton pressed block color="primary" shape="pill" aria-pressed="true">Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="secondary" pill aria-pressed="true">Secondary</CButton>
+            <CButton pressed block color="secondary" shape="pill" aria-pressed="true">Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="success" pill aria-pressed="true">Success</CButton>
+            <CButton pressed block color="success" shape="pill" aria-pressed="true">Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="warning" pill aria-pressed="true">Warning</CButton>
+            <CButton pressed block color="warning" shape="pill" aria-pressed="true">Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="danger" pill aria-pressed="true">Danger</CButton>
+            <CButton pressed block color="danger" shape="pill" aria-pressed="true">Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="info" pill aria-pressed="true">Info</CButton>
+            <CButton pressed block color="info" shape="pill" aria-pressed="true">Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="light" pill aria-pressed="true">Light</CButton>
+            <CButton pressed block color="light" shape="pill" aria-pressed="true">Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="dark" pill aria-pressed="true">Dark</CButton>
+            <CButton pressed block color="dark" shape="pill" aria-pressed="true">Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton pressed block color="link" pill aria-pressed="true">Link</CButton>
+            <CButton pressed block color="link" shape="pill" aria-pressed="true">Link</CButton>
           </CCol>
         </CRow>
         <CRow class="align-items-center mt-3">
@@ -499,31 +499,31 @@
             Disabled
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="primary" pill disabled>Primary</CButton>
+            <CButton block color="primary" shape="pill" disabled>Primary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="secondary" pill disabled>Secondary</CButton>
+            <CButton block color="secondary" shape="pill" disabled>Secondary</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="success" pill disabled>Success</CButton>
+            <CButton block color="success" shape="pill" disabled>Success</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="warning" pill disabled>Warning</CButton>
+            <CButton block color="warning" shape="pill" disabled>Warning</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="danger" pill disabled>Danger</CButton>
+            <CButton block color="danger" shape="pill" disabled>Danger</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="info" pill disabled>Info</CButton>
+            <CButton block color="info" shape="pill" disabled>Info</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="light" pill disabled>Light</CButton>
+            <CButton block color="light" shape="pill" disabled>Light</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="dark" pill disabled>Dark</CButton>
+            <CButton block color="dark" shape="pill" disabled>Dark</CButton>
           </CCol>
           <CCol col="6" sm="4" md="2" xl class="mb-3 mb-xl-0">
-            <CButton block color="link" pill disabled>Link</CButton>
+            <CButton block color="link" shape="pill" disabled>Link</CButton>
           </CCol>
         </CRow>
       </CCardBody>
@@ -542,16 +542,16 @@
             <CButton color="primary" size="sm">Standard Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton outline color="secondary" size="sm">Outline Button</CButton>
+            <CButton variant="outline" color="secondary" size="sm">Outline Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton size="sm" ghost color="success">Ghost Button</CButton>
+            <CButton size="sm" variant="ghost" color="success">Ghost Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
             <CButton color="warning" size="sm" square>Square Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton color="danger" size="sm" pill>Pill Button</CButton>
+            <CButton color="danger" size="sm" shape="pill">Pill Button</CButton>
           </CCol>
         </CRow>
         <CRow class="align-items-center mt-3">
@@ -562,16 +562,16 @@
             <CButton color="primary">Standard Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton outline color="secondary">Outline Button</CButton>
+            <CButton variant="outline" color="secondary">Outline Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton ghost color="success">Ghost Button</CButton>
+            <CButton variant="ghost" color="success">Ghost Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
             <CButton color="warning" square>Square Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton color="danger" pill>Pill Button</CButton>
+            <CButton color="danger" shape="pill">Pill Button</CButton>
           </CCol>
         </CRow>
         <CRow class="align-items-center mt-3">
@@ -582,16 +582,16 @@
             <CButton color="primary" size="lg">Standard Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton outline color="secondary" size="lg">Outline Button</CButton>
+            <CButton variant="outline" color="secondary" size="lg">Outline Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton ghost color="success" size="lg">Ghost Button</CButton>
+            <CButton variant="ghost" color="success" size="lg">Ghost Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
             <CButton color="warning" size="lg" square>Square Button</CButton>
           </CCol>
           <CCol col="2" class="mb-3 mb-xl-0 text-center">
-            <CButton color="danger" size="lg" pill>Pill Button</CButton>
+            <CButton color="danger" size="lg" shape="pill">Pill Button</CButton>
           </CCol>
         </CRow>
       </CCardBody>
@@ -604,27 +604,27 @@
         <CRow class="align-items-center">
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="primary">
-              <i class="cui-lightbulb"></i>&nbsp;Standard Button
+              <CIcon name="cil-lightbulb"/>&nbsp;Standard Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton color="secondary" outline>
-              <i class="cui-lightbulb"></i>&nbsp;Outline Button
+            <CButton color="secondary" variant="outline">
+              <CIcon name="cil-lightbulb"/>&nbsp;Outline Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="success">
-              <i class="cui-lightbulb"></i>&nbsp;Ghost Button
+              <CIcon name="cil-lightbulb"/>&nbsp;Ghost Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
             <CButton color="warning" square>
-              <i class="cui-lightbulb"></i>&nbsp;Square Button
+              <CIcon name="cil-lightbulb"/>&nbsp;Square Button
             </CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton color="danger" pill>
-              <i class="cui-lightbulb"></i>&nbsp;Pill Button
+            <CButton color="danger" shape="pill">
+              <CIcon name="cil-lightbulb"/>&nbsp;Pill Button
             </CButton>
           </CCol>
         </CRow>
@@ -637,22 +637,22 @@
       <CCardBody>
         <CRow>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton outline color="primary" :pressed.sync="togglePress">Primary {{togglePress ? 'On ' : 'Off'}}</CButton>
+            <CButton variant="outline" color="primary" :pressed.sync="togglePress">Primary {{togglePress ? 'On ' : 'Off'}}</CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton outline color="secondary" :pressed.sync="togglePress">Secondary {{togglePress ? 'On ' : 'Off'}}</CButton>
+            <CButton variant="outline" color="secondary" :pressed.sync="togglePress">Secondary {{togglePress ? 'On ' : 'Off'}}</CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton outline color="success" :pressed.sync="togglePress">Success {{togglePress ? 'On ' : 'Off'}}</CButton>
+            <CButton variant="outline" color="success" :pressed.sync="togglePress">Success {{togglePress ? 'On ' : 'Off'}}</CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton outline color="info" :pressed.sync="togglePress">Info {{togglePress ? 'On ' : 'Off'}}</CButton>
+            <CButton variant="outline" color="info" :pressed.sync="togglePress">Info {{togglePress ? 'On ' : 'Off'}}</CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton outline color="warning" :pressed.sync="togglePress">Warning {{togglePress ? 'On ' : 'Off'}}</CButton>
+            <CButton variant="outline" color="warning" :pressed.sync="togglePress">Warning {{togglePress ? 'On ' : 'Off'}}</CButton>
           </CCol>
           <CCol sm xs="12" class="text-center mt-3">
-            <CButton outline color="danger" :pressed.sync="togglePress">Danger {{togglePress ? 'On ' : 'Off'}}</CButton>
+            <CButton variant="outline" color="danger" :pressed.sync="togglePress">Danger {{togglePress ? 'On ' : 'Off'}}</CButton>
           </CCol>
         </CRow>
       </CCardBody>
@@ -680,13 +680,13 @@
             <strong>Block Level CButtons </strong><small>Add this <code>block</code></small>
           </CCardHeader>
           <CCardBody>
-            <CButton size="lg" outline color="secondary" block>Block level button</CButton>
-            <CButton size="lg" outline color="primary" block>Block level button</CButton>
-            <CButton size="lg" outline color="success" block>Block level button</CButton>
-            <CButton size="lg" outline color="info" block>Block level button</CButton>
-            <CButton size="lg" outline color="warning" block>Block level button</CButton>
-            <CButton size="lg" outline color="danger" block>Block level button</CButton>
-            <CButton size="lg" ghost color="info" block>Block level button</CButton>
+            <CButton size="lg" variant="outline" color="secondary" block>Block level button</CButton>
+            <CButton size="lg" variant="outline" color="primary" block>Block level button</CButton>
+            <CButton size="lg" variant="outline" color="success" block>Block level button</CButton>
+            <CButton size="lg" variant="outline" color="info" block>Block level button</CButton>
+            <CButton size="lg" variant="outline" color="warning" block>Block level button</CButton>
+            <CButton size="lg" variant="outline" color="danger" block>Block level button</CButton>
+            <CButton size="lg" variant="ghost" color="info" block>Block level button</CButton>
           </CCardBody>
         </CCard>
       </CCol>

@@ -10,8 +10,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          
         <strong>
@@ -190,8 +190,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          
         <strong>
@@ -337,8 +337,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
         <strong>
            Button group 
@@ -489,8 +489,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          
         <strong>
@@ -552,8 +552,8 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          
         <strong>
@@ -707,10 +707,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
           </cbuttongroup-stub>
            
           <cinput-stub
-            appendhtml=".00"
+            append=".00"
             class="mb-0 w-25 mx-1"
             lazy="400"
-            prependhtml="$"
+            prepend="$"
             size="sm"
             type="text"
             value="100"
@@ -720,7 +720,7 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             class="mb-0 w-25 mx-1"
             custom="true"
             options="Large,Medium,Small"
-            prependhtml="Size"
+            prepend="Size"
             size="sm"
             value="Medium"
           />

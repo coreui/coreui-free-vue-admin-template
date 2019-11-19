@@ -190,13 +190,13 @@
                   </CCol>
                   <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
                     <CInputCheckbox
-                      v-for="option in options"
-                      :key="option"
+                      v-for="(option, optionIndex) in options"
+                      :key="key + option"
                       :label="option"
                       :value="option"
                       :custom="key > 1"
                       :name="`Option 1${key}`"
-                      :checked="Math.random() > 0.6"
+                      :checked="optionIndex === key"
                       :inline="key % 2 === 1"
                     />
                   </CCol>
@@ -210,7 +210,7 @@
                   <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
                     <CInputRadio
                       v-for="(option, optionIndex) in options"
-                      :key="option"
+                      :key="key + option"
                       :label="option"
                       type="radio"
                       :value="option"
@@ -245,8 +245,8 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -276,8 +276,8 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -307,8 +307,8 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -337,8 +337,8 @@
               />
             </CCardBody>
             <CCardFooter>
-              <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
-              <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+              <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+              <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
             </CCardFooter>
           </CForm>
         </CCard>
@@ -399,8 +399,8 @@
             </CRow>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><i class="cui-user"></i> Login</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-user"/> Login</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
         <CCard>
@@ -427,8 +427,8 @@
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -488,25 +488,26 @@
             <strong>Icon/Text</strong> Groups
           </CCardHeader>
           <CCardBody>
-            <CInput
-              placeholder="Username"
-              prependHtml="<i class='cui-user'></i>"
-            />
+            <CInput placeholder="Username">
+              <template #prepend-content><CIcon name="cil-user"/></template>
+            </CInput>
             <CInput
               type="email"
               placeholder="Email"
               autocomplete="email"
-              append-html="<i class='cui-envelope-open'></i>"
-            />
+            >
+              <template #append-content><CIcon name="cil-envelope-open"/></template>
+            </CInput>
             <CInput
-              prependHtml="<i class='cui-euro'></i>"
               placeholder="ex. $1.000.000"
-              append-html=".00"
-            />
+              append=".00"
+            >
+              <template #prepend-content><CIcon name="cil-euro"/></template>
+            </CInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="success"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="success"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -519,7 +520,7 @@
             <CInput placeholder="Username">
               <template #prepend>
                 <CButton color="primary">
-                  <i class="cui-magnifying-glass"></i> Search
+                  <CIcon name="cil-magnifying-glass"/> Search
                 </CButton>
               </template>
             </CInput>
@@ -538,16 +539,16 @@
               autocomplete="email"
             >
               <template #prepend>
-                <CButton color="primary"><CIcon name="facebook" height="14"/></CButton>
+                <CButton color="primary"><CIcon name="cil-facebook" height="14"/></CButton>
               </template>
               <template #append>
-                <CButton color="primary"><CIcon name="twitter" height="14"/></CButton>
+                <CButton color="primary"><CIcon name="cil-twitter" height="14"/></CButton>
               </template>
             </CInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="success"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="success"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -619,8 +620,8 @@
             </CInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="success"><i class="cui-circle-check"></i> Submit</CButton>
-            <CButton type="reset" size="sm" color="danger"><i class="cui-ban"></i> Reset</CButton>
+            <CButton type="submit" size="sm" color="success"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
       </CCol>
@@ -691,22 +692,23 @@
           </CCardHeader>
           <CCardBody>
             <CForm>
+              <CInput prepend="Username">
+                <template #append-content><CIcon name="cil-user"/></template>
+              </CInput>
               <CInput
-                prepend-html="Username"
-                append-html="<i class='cui-user'></i>"
-              />
-              <CInput
-                prepend-html="Email"
                 type="email"
                 autocomplete="email"
-                append-html="<i class='cui-envelope-closed'></i>"
-              />
+                prepend="Email"
+              >
+                <template #append-content><CIcon name="cil-envelope-closed"/></template>
+              </CInput>
               <CInput
-                prepend-html="Password"
                 type="password"
                 autocomplete="current-password"
-                append-html="<i class='cui-shield'></i>"
-              />
+                prepend="Password"
+              >
+                <template #append-content><CIcon name="cil-shield-alt"/></template>
+              </CInput>
               <div class="form-group form-actions">
                 <CButton type="submit" size="sm" color="primary">
                   Submit
@@ -723,22 +725,23 @@
           </CCardHeader>
           <CCardBody>
             <CForm>
-              <CInput
-                placeholder="Username"
-                append-html="<i class='cui-user'></i>"
-              />
+              <CInput placeholder="Username">
+                <template #append-content><CIcon name="cil-user"/></template>
+              </CInput>
               <CInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                append-html="<i class='cui-envelope-closed'></i>"
-              />
+              >
+                <template #append-content><CIcon name="cil-envelope-closed"/></template>
+              </CInput>
               <CInput
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                append-html="<i class='cui-shield'></i>"
-              />
+              >
+                <template #append-content><CIcon name="cil-shield-alt"/></template>
+              </CInput>
               <div class="form-group form-actions">
                 <CButton type="submit" class="btn btn-sm btn-secondary">
                   Submit
@@ -755,22 +758,23 @@
           </CCardHeader>
           <CCardBody>
             <CForm>
-              <CInput
-                placeholder="Username"
-                prependHtml="<i class='cui-user'></i>"
-              />
+              <CInput placeholder="Username">
+                <template #prepend-content><CIcon name="cil-user"/></template>
+              </CInput>
               <CInput
                 placeholder="Email"
                 type="email"
                 autocomplete="email"
-                prependHtml="<i class='cui-envelope-closed'></i>"
-              />
+              >
+                <template #prepend-content><CIcon name="cil-envelope-closed"/></template>
+              </CInput>
               <CInput
                 placeholder="Password"
                 type="password"
                 autocomplete="current-password"
-                prependHtml="<i class='cui-shield'></i>"
-              />
+              >
+                <template #prepend-content><CIcon name="cil-shield-alt"/></template>
+              </CInput>
               <div class="form-group form-actions">
                 <CButton type="submit" size="sm" color="success">
                   Submit
@@ -786,19 +790,19 @@
         <transition name="fade">
           <CCard v-if="show">
             <CCardHeader>
-              <i class="cui-pencil"></i> Form Elements
+              <CIcon name="cil-pencil"/> Form Elements
               <div class="card-header-actions">
                 <CLink href="#" class="card-header-action btn-setting">
-                  <i class="cui-settings"></i>
+                  <CIcon name="cil-settings"/>
                 </CLink>
                 <CLink
                   class="card-header-action btn-minimize"
                   @click="formCollapsed=!formCollapsed"
                 >
-                  <i :class="`cui-chevron-${formCollapsed ? 'bottom' : 'top'}`"></i>
+                  <CIcon :name="`cil-chevron-${formCollapsed ? 'bottom' : 'top'}`"/>
                 </CLink>
                 <CLink href="#" class="card-header-action btn-close" v-on:click="show = !show">
-                  <i class="cui-circle-x"></i>
+                  <CIcon name="cil-x-circle"/>
                 </CLink>
               </div>
             </CCardHeader>
@@ -806,21 +810,21 @@
               <CCardBody>
                 <CInput
                   label="Prepended text"
-                  prepend-html="@"
                   description="Here's some help text"
                   type="email"
                   autocomplete="email"
+                  prepend="@"
                 />
                 <CInput
                   label="Appended text"
-                  append-html=".00"
+                  append=".00"
                   description="Here's some help text"
                 />
                 <CInput
                   label="Appended and prepended text"
-                  prepend-html="$"
-                  append-html=".00"
+                  append=".00"
                   description="Here's some help text"
+                  prepend="$"
                 />
                 <CInput
                   label="Append with button"

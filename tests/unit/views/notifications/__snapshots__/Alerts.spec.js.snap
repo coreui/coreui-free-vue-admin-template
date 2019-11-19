@@ -11,8 +11,8 @@ exports[`Alerts.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          
         <strong>
@@ -43,6 +43,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="primary"
+            fade="true"
             show="true"
           >
             Primary Alert
@@ -50,6 +51,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="secondary"
+            fade="true"
             show="true"
           >
             Secondary Alert
@@ -57,6 +59,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="success"
+            fade="true"
             show="true"
           >
             Success Alert
@@ -64,6 +67,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="danger"
+            fade="true"
             show="true"
           >
             Danger Alert
@@ -71,6 +75,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="warning"
+            fade="true"
             show="true"
           >
             Warning Alert
@@ -78,6 +83,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="info"
+            fade="true"
             show="true"
           >
             Info Alert
@@ -85,6 +91,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="light"
+            fade="true"
             show="true"
           >
             Light Alert
@@ -92,6 +99,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="dark"
+            fade="true"
             show="true"
           >
             Dark Alert
@@ -108,8 +116,8 @@ exports[`Alerts.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          Alert
         
@@ -126,6 +134,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         <div>
           <calert-stub
             color="primary"
+            fade="true"
             show="true"
           >
             
@@ -142,6 +151,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="secondary"
+            fade="true"
             show="true"
           >
             
@@ -158,6 +168,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="success"
+            fade="true"
             show="true"
           >
             
@@ -174,6 +185,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="danger"
+            fade="true"
             show="true"
           >
             
@@ -190,6 +202,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="warning"
+            fade="true"
             show="true"
           >
             
@@ -206,6 +219,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="info"
+            fade="true"
             show="true"
           >
             
@@ -222,6 +236,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="light"
+            fade="true"
             show="true"
           >
             
@@ -238,6 +253,7 @@ exports[`Alerts.vue renders correctly 1`] = `
            
           <calert-stub
             color="dark"
+            fade="true"
             show="true"
           >
             
@@ -250,7 +266,6 @@ exports[`Alerts.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="span"
               target="_self"
             >
               an example link
@@ -271,8 +286,8 @@ exports[`Alerts.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          Alerts 
         <small>
@@ -283,6 +298,7 @@ exports[`Alerts.vue renders correctly 1`] = `
       <ccardbody-stub>
         <calert-stub
           color="success"
+          fade="true"
           show="true"
         >
           <h4
@@ -320,8 +336,8 @@ exports[`Alerts.vue renders correctly 1`] = `
   >
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          Alerts
         
@@ -334,6 +350,7 @@ exports[`Alerts.vue renders correctly 1`] = `
         <calert-stub
           closebutton="true"
           color="secondary"
+          fade="true"
           show="true"
         >
           
@@ -342,19 +359,9 @@ exports[`Alerts.vue renders correctly 1`] = `
         </calert-stub>
          
         <calert-stub
-          closebutton="true"
-          color="secondary"
-          fade="true"
-          show="true"
-        >
-          
-          Dismissible Alert with fade effect!
-        
-        </calert-stub>
-         
-        <calert-stub
           class="alert-dismissible"
           color="secondary"
+          fade="true"
           show="true"
         >
           
@@ -395,8 +402,8 @@ exports[`Alerts.vue renders correctly 1`] = `
      
     <ccard-stub>
       <ccardheader-stub>
-        <i
-          class="fa fa-align-justify"
+        <cicon-stub
+          name="cil-justify-center"
         />
          Alerts
         
@@ -426,6 +433,7 @@ exports[`Alerts.vue renders correctly 1`] = `
           <calert-stub
             closebutton="true"
             color="info"
+            fade="true"
             show="10"
           >
             

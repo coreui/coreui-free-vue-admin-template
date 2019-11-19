@@ -10,7 +10,7 @@ exports[`Tables.vue renders correctly 1`] = `
       tag="div"
     >
       <ctablewrapper-stub
-        caption=<i class='fa fa-align-justify'></i> Simple Table
+        caption="Simple Table"
         fields="username,registered,role,status"
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       />
@@ -21,7 +21,7 @@ exports[`Tables.vue renders correctly 1`] = `
       tag="div"
     >
       <ctablewrapper-stub
-        caption=<i class='fa fa-align-justify'></i> Striped Table
+        caption="Striped Table"
         fields="username,registered,role,status"
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
         striped="true"
@@ -37,7 +37,7 @@ exports[`Tables.vue renders correctly 1`] = `
       tag="div"
     >
       <ctablewrapper-stub
-        caption=<i class='fa fa-align-justify'></i> Condensed Table
+        caption="Condensed Table"
         fields="username,registered,role,status"
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
         small="true"
@@ -50,7 +50,7 @@ exports[`Tables.vue renders correctly 1`] = `
     >
       <ctablewrapper-stub
         bordered="true"
-        caption=<i class='fa fa-align-justify'></i> Bordered Table
+        caption="Bordered Table"
         fields="username,registered,role,status"
         fixed="true"
         items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
@@ -67,7 +67,7 @@ exports[`Tables.vue renders correctly 1`] = `
     >
       <ctablewrapper-stub
         bordered="true"
-        caption=<i class='fa fa-align-justify'></i> Combined All Table
+        caption="Combined All Table"
         fields="username,registered,role,status"
         fixed="true"
         hover="true"
@@ -87,7 +87,7 @@ exports[`Tables.vue renders correctly 1`] = `
     >
       <ctablewrapper-stub
         bordered="true"
-        caption=<i class='fa fa-align-justify'></i> Combined All Table
+        caption="Combined All Table"
         dark="true"
         fields="username,registered,role,status"
         fixed="true"

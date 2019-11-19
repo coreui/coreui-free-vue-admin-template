@@ -19,29 +19,39 @@
           <CChartLineExample/>
         </CCardBody>
       </CCard>
-      <CCard header-html="Bar Chart" body-wrapper>
-        <CChartBarExample/>
+      <CCard>
+        <CCardHeader>Bar Chart</CCardHeader>
+        <CCardBody><CChartBarExample/></CCardBody>
       </CCard>
-      <CCard header-html="Doughnut Chart" body-wrapper>
-        <CChartDoughnutExample/>
+      <CCard>
+        <CCardHeader>Doughnut Chart</CCardHeader>
+        <CCardBody><CChartDoughnutExample/></CCardBody>
       </CCard>
-      <CCard header-html="Radar Chart" body-wrapper>
-        <CChartRadarExample/>
+      <CCard>
+        <CCardHeader>Radar Chart</CCardHeader>
+        <CCardBody><CChartRadarExample/></CCardBody>
       </CCard>
-      <CCard header-html="Pie Chart" body-wrapper>
-        <CChartPieExample/>
+      <CCard>
+         <CCardHeader>Pie Chart</CCardHeader>
+        <CCardBody><CChartPieExample/></CCardBody>
       </CCard>
-      <CCard header-html="Polar Area Chart" body-wrapper>
-        <CChartPolarAreaExample/>
+      <CCard>
+        <CCardHeader>Polar Area Chart</CCardHeader>
+        <CCardBody><CChartPolarAreaExample/></CCardBody>
       </CCard>
-      <CCard header-html="Simple line chart" body-wrapper>
-        <CChartLineSimple border-color="success" labels="months"/>
+      <CCard>
+        <CCardHeader>Simple line chart</CCardHeader>
+        <CCardBody>
+          <CChartLineSimple border-color="success" labels="months"/>
+        </CCardBody>        
       </CCard>
-      <CCard header-html="Simple pointed chart" body-wrapper>
-        <CChartLineSimple pointed border-color="warning"/>
+      <CCard>
+        <CCardHeader>Simple pointed chart</CCardHeader>
+        <CCardBody><CChartLineSimple pointed border-color="warning"/></CCardBody>
       </CCard>
-      <CCard header-html="Simple bar chart" body-wrapper>
-        <CChartBarSimple background-color="danger"/>
+      <CCard>
+        <CCardHeader>Simple bar chart</CCardHeader>
+        <CCardBody><CChartBarSimple background-color="danger"/></CCardBody>        
       </CCard>
     </CCardGroup>
   </div>

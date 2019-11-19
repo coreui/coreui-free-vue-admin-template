@@ -34,76 +34,100 @@ exports[`Charts.vue renders correctly 1`] = `
       </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Bar Chart"
-    >
-      <cchartbarexample-stub />
+    <ccard-stub>
+      <ccardheader-stub>
+        Bar Chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartbarexample-stub />
+      </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Doughnut Chart"
-    >
-      <cchartdoughnutexample-stub />
+    <ccard-stub>
+      <ccardheader-stub>
+        Doughnut Chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartdoughnutexample-stub />
+      </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Radar Chart"
-    >
-      <cchartradarexample-stub />
+    <ccard-stub>
+      <ccardheader-stub>
+        Radar Chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartradarexample-stub />
+      </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Pie Chart"
-    >
-      <cchartpieexample-stub />
+    <ccard-stub>
+      <ccardheader-stub>
+        Pie Chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartpieexample-stub />
+      </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Polar Area Chart"
-    >
-      <cchartpolarareaexample-stub />
+    <ccard-stub>
+      <ccardheader-stub>
+        Polar Area Chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartpolarareaexample-stub />
+      </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Simple line chart"
-    >
-      <cchartlinesimple-stub
-        backgroundcolor="transparent"
-        bordercolor="success"
-        datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
-        label="Sales"
-        labels="months"
-      />
+    <ccard-stub>
+      <ccardheader-stub>
+        Simple line chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="success"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          labels="months"
+        />
+      </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Simple pointed chart"
-    >
-      <cchartlinesimple-stub
-        backgroundcolor="transparent"
-        bordercolor="warning"
-        datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
-        label="Sales"
-        pointed="true"
-      />
+    <ccard-stub>
+      <ccardheader-stub>
+        Simple pointed chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartlinesimple-stub
+          backgroundcolor="transparent"
+          bordercolor="warning"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+          pointed="true"
+        />
+      </ccardbody-stub>
     </ccard-stub>
      
-    <ccard-stub
-      bodywrapper="true"
-      headerhtml="Simple bar chart"
-    >
-      <cchartbarsimple-stub
-        backgroundcolor="danger"
-        datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
-        label="Sales"
-      />
+    <ccard-stub>
+      <ccardheader-stub>
+        Simple bar chart
+      </ccardheader-stub>
+       
+      <ccardbody-stub>
+        <cchartbarsimple-stub
+          backgroundcolor="danger"
+          datapoints="10,22,34,46,58,70,46,23,45,78,34,12"
+          label="Sales"
+        />
+      </ccardbody-stub>
     </ccard-stub>
   </ccardgroup-stub>
 </div>

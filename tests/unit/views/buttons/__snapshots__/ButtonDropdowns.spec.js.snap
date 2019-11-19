@@ -11,12 +11,13 @@ exports[`Dropdowns.vue renders correctly 1`] = `
       <div
         class="card"
       >
-        <!---->
         <header
           class="card-header"
         >
-          <i
-            class="fa fa-align-justify"
+          <svg
+            class="c-icon"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
           />
            
           <strong>
@@ -52,6 +53,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-secondary"
+                type="button"
               >
                 Dropdown Button
               </button>
@@ -122,6 +124,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-secondary"
+                type="button"
               >
                 Dropdown with divider
               </button>
@@ -172,6 +175,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-secondary"
+                type="button"
               >
                 Dropdown with header
               </button>
@@ -206,7 +210,6 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
           </div>
         </div>
-        <!---->
       </div>
     </div>
      
@@ -216,12 +219,13 @@ exports[`Dropdowns.vue renders correctly 1`] = `
       <div
         class="card"
       >
-        <!---->
         <header
           class="card-header"
         >
-          <i
-            class="fa fa-align-justify"
+          <svg
+            class="c-icon"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
           />
            
           <strong>
@@ -244,6 +248,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-primary"
+                type="button"
               >
                 Left align
               </button>
@@ -287,6 +292,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-primary"
+                type="button"
               >
                 Right align
               </button>
@@ -332,6 +338,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-info"
+                type="button"
               >
                 Drop-Up
               </button>
@@ -377,6 +384,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-secondary"
+                type="button"
               >
                 Offset Dropdown
               </button>
@@ -427,6 +435,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="dropdown-toggle dropdown-toggle-split btn btn-secondary"
+                type="button"
               />
               <div
                 class="dropdown-menu"
@@ -461,7 +470,6 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
           </div>
         </div>
-        <!---->
       </div>
     </div>
   </div>
@@ -475,12 +483,13 @@ exports[`Dropdowns.vue renders correctly 1`] = `
       <div
         class="card"
       >
-        <!---->
         <header
           class="card-header"
         >
-          <i
-            class="fa fa-align-justify"
+          <svg
+            class="c-icon"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
           />
            
           <strong>
@@ -503,6 +512,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn btn-lg btn-link"
+                type="button"
               >
                 
                 🔍
@@ -547,7 +557,6 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
           </div>
         </div>
-        <!---->
       </div>
     </div>
      
@@ -557,12 +566,13 @@ exports[`Dropdowns.vue renders correctly 1`] = `
       <div
         class="card"
       >
-        <!---->
         <header
           class="card-header"
         >
-          <i
-            class="fa fa-align-justify"
+          <svg
+            class="c-icon"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
           />
            
           <strong>
@@ -585,6 +595,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-lg btn-secondary"
+                type="button"
               >
                 Large
               </button>
@@ -633,6 +644,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="dropdown-toggle dropdown-toggle-split btn btn-lg btn-secondary"
+                type="button"
               />
               <div
                 class="dropdown-menu"
@@ -675,6 +687,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-sm btn-secondary"
+                type="button"
               >
                 Small
               </button>
@@ -723,6 +736,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="dropdown-toggle dropdown-toggle-split btn btn-sm btn-secondary"
+                type="button"
               />
               <div
                 class="dropdown-menu"
@@ -757,7 +771,6 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
           </div>
         </div>
-        <!---->
       </div>
     </div>
   </div>
@@ -771,12 +784,13 @@ exports[`Dropdowns.vue renders correctly 1`] = `
       <div
         class="card"
       >
-        <!---->
         <header
           class="card-header"
         >
-          <i
-            class="fa fa-align-justify"
+          <svg
+            class="c-icon"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
           />
            
           <strong>
@@ -799,6 +813,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="btn dropdown-toggle btn-primary"
+                type="button"
               >
                 Dropdown ARIA
               </button>
@@ -885,7 +900,6 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
           </div>
         </div>
-        <!---->
       </div>
     </div>
      
@@ -895,12 +909,13 @@ exports[`Dropdowns.vue renders correctly 1`] = `
       <div
         class="card"
       >
-        <!---->
         <header
           class="card-header"
         >
-          <i
-            class="fa fa-align-justify"
+          <svg
+            class="c-icon"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
           />
            
           <strong>
@@ -924,6 +939,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-primary"
+              type="button"
             >
               Primary
             </button>
@@ -967,6 +983,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-secondary"
+              type="button"
             >
               Secondary
             </button>
@@ -1010,6 +1027,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-success"
+              type="button"
             >
               Success
             </button>
@@ -1053,6 +1071,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-warning"
+              type="button"
             >
               Warning
             </button>
@@ -1096,6 +1115,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-danger"
+              type="button"
             >
               Danger
             </button>
@@ -1139,6 +1159,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-info"
+              type="button"
             >
               Info
             </button>
@@ -1182,6 +1203,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-light"
+              type="button"
             >
               Light
             </button>
@@ -1225,6 +1247,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-dark"
+              type="button"
             >
               Dark
             </button>
@@ -1268,6 +1291,7 @@ exports[`Dropdowns.vue renders correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="btn dropdown-toggle btn-sm btn-link"
+              type="button"
             >
               Link
             </button>
@@ -1304,7 +1328,6 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             </div>
           </div>
         </div>
-        <!---->
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="cui-drop"></i> Theme colors
+        <CIcon name="cil-drop"/> Theme colors
       </CCardHeader>
       <CCardBody>
         <CRow>
@@ -21,7 +21,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="cui-drop"></i> Grays
+        <CIcon name="cil-drop"/> Grays
       </CCardHeader>
       <CCardBody>
         <CRow>

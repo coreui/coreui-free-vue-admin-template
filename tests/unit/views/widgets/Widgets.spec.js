@@ -2,9 +2,7 @@ import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
 import Widgets from '@/views/widgets/Widgets'
-import { CIconPlugin } from '@coreui/icons/vue'
 
-Vue.use(CIconPlugin)
 Vue.use(CoreuiVue)
 
 describe('Widgets.vue', () => {

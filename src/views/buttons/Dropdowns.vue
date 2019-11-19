@@ -4,7 +4,7 @@
       <CCol col="12" md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> Bootstrap Dropdown</strong>
             <div class="card-header-actions">
               <a 
@@ -69,7 +69,7 @@
       <CCol col="12" md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> Dropdown </strong>
             <small>positioning</small>
           </CCardHeader>
@@ -140,7 +140,7 @@
       <CCol col="12" md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> Dropdown </strong>
             <small>hidden caret</small>
           </CCardHeader>
@@ -165,7 +165,7 @@
       <CCol col="12" md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> Dropdown </strong>
             <small>sizing</small>
           </CCardHeader>
@@ -222,7 +222,7 @@
       <CCol col="12" md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> Dropdown </strong>
             <small>headers and accessibility</small>
           </CCardHeader>
@@ -254,7 +254,7 @@
       <CCol col="12" md="6">
         <CCard>
           <CCardHeader>
-            <i class="fa fa-align-justify"></i>
+            <CIcon name="cil-justify-center"/>
             <strong> Dropdown </strong>
             <small><code>color</code></small>
           </CCardHeader>

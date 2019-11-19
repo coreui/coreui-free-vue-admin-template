@@ -10,12 +10,13 @@ exports[`Carousels.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
-        <i
-          class="fa fa-align-justify"
+        <svg
+          class="c-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
         />
          
         <strong>
@@ -68,7 +69,7 @@ exports[`Carousels.vue renders correctly 1`] = `
             >
               <img
                 class="d-block w-100 h-100 img-fluid"
-                src="https://lorempixel.com/1024/480/technics/2/"
+                src="https://picsum.photos/1024/480/?image=52"
               />
               <div
                 class="carousel-caption"
@@ -86,9 +87,8 @@ exports[`Carousels.vue renders correctly 1`] = `
               class="carousel-item"
             >
               <svg
-                blankColor="grey"
                 class="d-block w-100 h-100 img-fluid"
-                style="background-color: transparent;"
+                style="background-color: grey;"
               />
               <div
                 class="carousel-caption"
@@ -107,7 +107,7 @@ exports[`Carousels.vue renders correctly 1`] = `
             >
               <img
                 class="d-block w-100 h-100 img-fluid"
-                src="https://lorempixel.com/1024/480/technics/8/"
+                src="https://picsum.photos/1024/480/?image=54"
               />
               <!---->
             </div>
@@ -130,7 +130,6 @@ exports[`Carousels.vue renders correctly 1`] = `
           </a>
         </div>
       </div>
-      <!---->
     </div>
   </div>
 </div>

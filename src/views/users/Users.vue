@@ -2,32 +2,37 @@
   <CRow>
     <CCol col="12" xl="8">
       <transition name="slide">
-        <CCard header-html="Users" body-wrapper>
-          <CTable
-            hover
-            striped
-            :items="items"
-            :fields="fields"
-            :items-per-page="perPage"
-            @row-clicked="rowClicked"
-            :pagination="$options.paginationProps"
-            index-column
-            clickable-rows
-          >
-            <template #username="data">
-              <td>
-                <strong>{{data.item.username}}</strong>
-              </td>
-            </template>
-           
-            <template #status="data">
-              <td>
-                <CBadge :color="getBadge(data.item.status)">
-                  {{data.item.status}}
-                </CBadge>
-              </td>
-            </template>
-          </CTable>
+        <CCard>
+          <CCardHeader>
+            Users
+          </CCardHeader>
+          <CCardBody>
+            <CDataTable
+              hover
+              striped
+              :items="items"
+              :fields="fields"
+              :items-per-page="perPage"
+              @row-clicked="rowClicked"
+              :pagination="$options.paginationProps"
+              index-column
+              clickable-rows
+            >
+              <template #username="data">
+                <td>
+                  <strong>{{data.item.username}}</strong>
+                </td>
+              </template>
+            
+              <template #status="data">
+                <td>
+                  <CBadge :color="getBadge(data.item.status)">
+                    {{data.item.status}}
+                  </CBadge>
+                </td>
+              </template>
+            </CDataTable>
+          </CCardBody>
         </CCard>
       </transition>
     </CCol>

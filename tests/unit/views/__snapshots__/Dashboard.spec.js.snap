@@ -42,8 +42,8 @@ exports[`Dashboard.vue renders correctly 1`] = `
             target="_self"
             type="button"
           >
-            <i
-              class="cui-cloud-download"
+            <cicon-stub
+              name="cil-cloud-download"
             />
           </cbutton-stub>
            
@@ -243,523 +243,86 @@ exports[`Dashboard.vue renders correctly 1`] = `
       md="12"
       tag="div"
     >
-      <ccard-stub
-        bodywrapper="true"
-        headerhtml="Traffic & Sales"
-      >
-        <crow-stub
-          gutters="true"
-        >
-          <ccol-stub
-            lg="6"
-            sm="12"
-            tag="div"
+      <ccard-stub>
+        <ccardheader-stub>
+          
+          Traffic & Sales
+        
+        </ccardheader-stub>
+         
+        <ccardbody-stub>
+          <crow-stub
+            gutters="true"
           >
-            <crow-stub
-              gutters="true"
+            <ccol-stub
+              lg="6"
+              sm="12"
+              tag="div"
             >
-              <ccol-stub
-                sm="6"
-                tag="div"
+              <crow-stub
+                gutters="true"
               >
-                <ccallout-stub
-                  color="info"
+                <ccol-stub
+                  sm="6"
+                  tag="div"
                 >
-                  <small
-                    class="text-muted"
-                  >
-                    New Clients
-                  </small>
-                  <br />
-                   
-                  <strong
-                    class="h4"
-                  >
-                    9,123
-                  </strong>
-                </ccallout-stub>
-              </ccol-stub>
-               
-              <ccol-stub
-                sm="6"
-                tag="div"
-              >
-                <ccallout-stub
-                  color="danger"
-                >
-                  <small
-                    class="text-muted"
-                  >
-                    Recurring Clients
-                  </small>
-                  <br />
-                   
-                  <strong
-                    class="h4"
-                  >
-                    22,643
-                  </strong>
-                </ccallout-stub>
-              </ccol-stub>
-            </crow-stub>
-             
-            <hr
-              class="mt-0"
-            />
-             
-            <div
-              class="progress-group mb-4"
-            >
-              <div
-                class="progress-group-prepend"
-              >
-                <span
-                  class="progress-group-text"
-                >
-                  
-                  Monday
-                
-                </span>
-              </div>
-               
-              <div
-                class="progress-group-bars"
-              >
-                <cprogress-stub
-                  class="progress-xs"
-                  color="info"
-                  max="100"
-                  precision="0"
-                  value="34"
-                />
-                 
-                <cprogress-stub
-                  class="progress-xs"
-                  color="danger"
-                  max="100"
-                  precision="0"
-                  value="78"
-                />
-              </div>
-            </div>
-             
-            <div
-              class="progress-group mb-4"
-            >
-              <div
-                class="progress-group-prepend"
-              >
-                <span
-                  class="progress-group-text"
-                >
-                  
-                  Tuesday
-                
-                </span>
-              </div>
-               
-              <div
-                class="progress-group-bars"
-              >
-                <cprogress-stub
-                  class="progress-xs"
-                  color="info"
-                  max="100"
-                  precision="0"
-                  value="56"
-                />
-                 
-                <cprogress-stub
-                  class="progress-xs"
-                  color="danger"
-                  max="100"
-                  precision="0"
-                  value="94"
-                />
-              </div>
-            </div>
-             
-            <div
-              class="progress-group mb-4"
-            >
-              <div
-                class="progress-group-prepend"
-              >
-                <span
-                  class="progress-group-text"
-                >
-                  
-                  Wednesday
-                
-                </span>
-              </div>
-               
-              <div
-                class="progress-group-bars"
-              >
-                <cprogress-stub
-                  class="progress-xs"
-                  color="info"
-                  max="100"
-                  precision="0"
-                  value="12"
-                />
-                 
-                <cprogress-stub
-                  class="progress-xs"
-                  color="danger"
-                  max="100"
-                  precision="0"
-                  value="67"
-                />
-              </div>
-            </div>
-             
-            <div
-              class="progress-group mb-4"
-            >
-              <div
-                class="progress-group-prepend"
-              >
-                <span
-                  class="progress-group-text"
-                >
-                  
-                  Thursday
-                
-                </span>
-              </div>
-               
-              <div
-                class="progress-group-bars"
-              >
-                <cprogress-stub
-                  class="progress-xs"
-                  color="info"
-                  max="100"
-                  precision="0"
-                  value="43"
-                />
-                 
-                <cprogress-stub
-                  class="progress-xs"
-                  color="danger"
-                  max="100"
-                  precision="0"
-                  value="91"
-                />
-              </div>
-            </div>
-             
-            <div
-              class="progress-group mb-4"
-            >
-              <div
-                class="progress-group-prepend"
-              >
-                <span
-                  class="progress-group-text"
-                >
-                  
-                  Friday
-                
-                </span>
-              </div>
-               
-              <div
-                class="progress-group-bars"
-              >
-                <cprogress-stub
-                  class="progress-xs"
-                  color="info"
-                  max="100"
-                  precision="0"
-                  value="22"
-                />
-                 
-                <cprogress-stub
-                  class="progress-xs"
-                  color="danger"
-                  max="100"
-                  precision="0"
-                  value="73"
-                />
-              </div>
-            </div>
-             
-            <div
-              class="progress-group mb-4"
-            >
-              <div
-                class="progress-group-prepend"
-              >
-                <span
-                  class="progress-group-text"
-                >
-                  
-                  Saturday
-                
-                </span>
-              </div>
-               
-              <div
-                class="progress-group-bars"
-              >
-                <cprogress-stub
-                  class="progress-xs"
-                  color="info"
-                  max="100"
-                  precision="0"
-                  value="53"
-                />
-                 
-                <cprogress-stub
-                  class="progress-xs"
-                  color="danger"
-                  max="100"
-                  precision="0"
-                  value="82"
-                />
-              </div>
-            </div>
-             
-            <div
-              class="progress-group mb-4"
-            >
-              <div
-                class="progress-group-prepend"
-              >
-                <span
-                  class="progress-group-text"
-                >
-                  
-                  Sunday
-                
-                </span>
-              </div>
-               
-              <div
-                class="progress-group-bars"
-              >
-                <cprogress-stub
-                  class="progress-xs"
-                  color="info"
-                  max="100"
-                  precision="0"
-                  value="9"
-                />
-                 
-                <cprogress-stub
-                  class="progress-xs"
-                  color="danger"
-                  max="100"
-                  precision="0"
-                  value="69"
-                />
-              </div>
-            </div>
-             
-            <div
-              class="legend text-center"
-            >
-              <small>
-                <sup>
-                  <cbadge-stub
-                    activeclass="active"
+                  <ccallout-stub
                     color="info"
-                    event="click"
-                    exactactiveclass="active"
-                    pill="true"
-                    routertag="a"
-                    tag="span"
-                    target="_self"
                   >
-                     
-                  </cbadge-stub>
-                </sup>
-                
-                New clients
-                  
-                
-                <sup>
-                  <cbadge-stub
-                    activeclass="active"
+                    <small
+                      class="text-muted"
+                    >
+                      New Clients
+                    </small>
+                    <br />
+                     
+                    <strong
+                      class="h4"
+                    >
+                      9,123
+                    </strong>
+                  </ccallout-stub>
+                </ccol-stub>
+                 
+                <ccol-stub
+                  sm="6"
+                  tag="div"
+                >
+                  <ccallout-stub
                     color="danger"
-                    event="click"
-                    exactactiveclass="active"
-                    pill="true"
-                    routertag="a"
-                    tag="span"
-                    target="_self"
                   >
-                     
-                  </cbadge-stub>
-                </sup>
-                
-                Recurring clients
-              
-              </small>
-            </div>
-          </ccol-stub>
-           
-          <ccol-stub
-            lg="6"
-            sm="12"
-            tag="div"
-          >
-            <crow-stub
-              gutters="true"
-            >
-              <ccol-stub
-                sm="6"
-                tag="div"
-              >
-                <ccallout-stub
-                  color="warning"
-                >
-                  <small
-                    class="text-muted"
-                  >
-                    Pageviews
-                  </small>
-                  <br />
-                   
-                  <strong
-                    class="h4"
-                  >
-                    78,623
-                  </strong>
-                </ccallout-stub>
-              </ccol-stub>
+                    <small
+                      class="text-muted"
+                    >
+                      Recurring Clients
+                    </small>
+                    <br />
+                     
+                    <strong
+                      class="h4"
+                    >
+                      22,643
+                    </strong>
+                  </ccallout-stub>
+                </ccol-stub>
+              </crow-stub>
                
-              <ccol-stub
-                sm="6"
-                tag="div"
-              >
-                <ccallout-stub
-                  color="success"
-                >
-                  <small
-                    class="text-muted"
-                  >
-                    Organic
-                  </small>
-                  <br />
-                   
-                  <strong
-                    class="h4"
-                  >
-                    49,123
-                  </strong>
-                </ccallout-stub>
-              </ccol-stub>
-            </crow-stub>
-             
-            <hr
-              class="mt-0"
-            />
-             
-            <ul
-              class="horizontal-bars type-2"
-            >
-              <div
-                class="progress-group"
-              >
-                <div
-                  class="progress-group-header"
-                >
-                  <i
-                    class="cui-user progress-group-icon"
-                  />
-                   
-                  <span
-                    class="title"
-                  >
-                    Male
-                  </span>
-                   
-                  <span
-                    class="ml-auto font-weight-bold"
-                  >
-                    43%
-                  </span>
-                </div>
-                 
-                <div
-                  class="progress-group-bars"
-                >
-                  <cprogress-stub
-                    class="progress-xs"
-                    color="warning"
-                    max="100"
-                    precision="0"
-                    value="43"
-                  />
-                </div>
-              </div>
+              <hr
+                class="mt-0"
+              />
                
               <div
-                class="progress-group mb-5"
+                class="progress-group mb-4"
               >
                 <div
-                  class="progress-group-header"
+                  class="progress-group-prepend"
                 >
-                  <i
-                    class="cui-user-female progress-group-icon"
-                  />
-                   
                   <span
-                    class="title"
-                  >
-                    Female
-                  </span>
-                   
-                  <span
-                    class="ml-auto font-weight-bold"
-                  >
-                    37%
-                  </span>
-                </div>
-                 
-                <div
-                  class="progress-group-bars"
-                >
-                  <cprogress-stub
-                    class="progress-xs"
-                    color="warning"
-                    max="100"
-                    precision="0"
-                    value="37"
-                  />
-                </div>
-              </div>
-               
-              <div
-                class="progress-group"
-              >
-                <div
-                  class="progress-group-header"
-                >
-                  <i
-                    class="cui-globe progress-group-icon"
-                  />
-                   
-                  <span
-                    class="title"
-                  >
-                    Organic Search
-                  </span>
-                   
-                  <span
-                    class="ml-auto font-weight-bold"
+                    class="progress-group-text"
                   >
                     
-                    191,235
-                    <span
-                      class="text-muted small"
-                    >
-                      (56%)
-                    </span>
+                    Monday
+                  
                   </span>
                 </div>
                  
@@ -768,43 +331,70 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
-                    color="success"
+                    color="info"
+                    max="100"
+                    precision="0"
+                    value="34"
+                  />
+                   
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="danger"
+                    max="100"
+                    precision="0"
+                    value="78"
+                  />
+                </div>
+              </div>
+               
+              <div
+                class="progress-group mb-4"
+              >
+                <div
+                  class="progress-group-prepend"
+                >
+                  <span
+                    class="progress-group-text"
+                  >
+                    
+                    Tuesday
+                  
+                  </span>
+                </div>
+                 
+                <div
+                  class="progress-group-bars"
+                >
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="info"
                     max="100"
                     precision="0"
                     value="56"
                   />
+                   
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="danger"
+                    max="100"
+                    precision="0"
+                    value="94"
+                  />
                 </div>
               </div>
                
               <div
-                class="progress-group"
+                class="progress-group mb-4"
               >
                 <div
-                  class="progress-group-header"
+                  class="progress-group-prepend"
                 >
-                  <cicon-stub
-                    class="progress-group-icon"
-                    fonticontag="i"
-                    height="17"
-                    name="socialFacebook"
-                  />
-                   
                   <span
-                    class="title"
-                  >
-                    Facebook
-                  </span>
-                   
-                  <span
-                    class="ml-auto font-weight-bold"
+                    class="progress-group-text"
                   >
                     
-                    51,223 
-                    <span
-                      class="text-muted small"
-                    >
-                      (15%)
-                    </span>
+                    Wednesday
+                  
                   </span>
                 </div>
                  
@@ -813,43 +403,34 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
-                    color="success"
+                    color="info"
                     max="100"
                     precision="0"
-                    value="15"
+                    value="12"
+                  />
+                   
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="danger"
+                    max="100"
+                    precision="0"
+                    value="67"
                   />
                 </div>
               </div>
                
               <div
-                class="progress-group"
+                class="progress-group mb-4"
               >
                 <div
-                  class="progress-group-header"
+                  class="progress-group-prepend"
                 >
-                  <cicon-stub
-                    class="progress-group-icon"
-                    fonticontag="i"
-                    height="17"
-                    name="socialTwitter"
-                  />
-                   
                   <span
-                    class="title"
-                  >
-                    Twitter
-                  </span>
-                   
-                  <span
-                    class="ml-auto font-weight-bold"
+                    class="progress-group-text"
                   >
                     
-                    37,564 
-                    <span
-                      class="text-muted small"
-                    >
-                      (11%)
-                    </span>
+                    Thursday
+                  
                   </span>
                 </div>
                  
@@ -858,43 +439,34 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
-                    color="success"
+                    color="info"
                     max="100"
                     precision="0"
-                    value="11"
+                    value="43"
+                  />
+                   
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="danger"
+                    max="100"
+                    precision="0"
+                    value="91"
                   />
                 </div>
               </div>
                
               <div
-                class="progress-group"
+                class="progress-group mb-4"
               >
                 <div
-                  class="progress-group-header"
+                  class="progress-group-prepend"
                 >
-                  <cicon-stub
-                    class="progress-group-icon"
-                    fonticontag="i"
-                    height="17"
-                    name="socialLinkedin"
-                  />
-                   
                   <span
-                    class="title"
-                  >
-                    LinkedIn
-                  </span>
-                   
-                  <span
-                    class="ml-auto font-weight-bold"
+                    class="progress-group-text"
                   >
                     
-                    27,319 
-                    <span
-                      class="text-muted small"
-                    >
-                       (8%)
-                    </span>
+                    Friday
+                  
                   </span>
                 </div>
                  
@@ -903,50 +475,483 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 >
                   <cprogress-stub
                     class="progress-xs"
-                    color="success"
+                    color="info"
                     max="100"
                     precision="0"
-                    value="8"
+                    value="22"
+                  />
+                   
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="danger"
+                    max="100"
+                    precision="0"
+                    value="73"
                   />
                 </div>
               </div>
                
               <div
-                class="divider text-center"
+                class="progress-group mb-4"
               >
-                <cbutton-stub
-                  activeclass="active"
-                  class="text-muted"
-                  color="link"
-                  event="click"
-                  exactactiveclass="active"
-                  routertag="a"
-                  size="sm"
-                  target="_self"
-                  type="button"
+                <div
+                  class="progress-group-prepend"
                 >
-                  <i
-                    class="cui-options"
+                  <span
+                    class="progress-group-text"
+                  >
+                    
+                    Saturday
+                  
+                  </span>
+                </div>
+                 
+                <div
+                  class="progress-group-bars"
+                >
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="info"
+                    max="100"
+                    precision="0"
+                    value="53"
                   />
-                </cbutton-stub>
+                   
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="danger"
+                    max="100"
+                    precision="0"
+                    value="82"
+                  />
+                </div>
               </div>
-            </ul>
-          </ccol-stub>
-        </crow-stub>
-         
-        <br />
-         
-        <ctable-stub
-          class="mb-0 table-outline"
-          defaultsorter="[object Object]"
-          fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-          head-color="light"
-          hover="true"
-          items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
-          itemsperpage="10"
-          no-sorting=""
-          responsive="true"
-        />
+               
+              <div
+                class="progress-group mb-4"
+              >
+                <div
+                  class="progress-group-prepend"
+                >
+                  <span
+                    class="progress-group-text"
+                  >
+                    
+                    Sunday
+                  
+                  </span>
+                </div>
+                 
+                <div
+                  class="progress-group-bars"
+                >
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="info"
+                    max="100"
+                    precision="0"
+                    value="9"
+                  />
+                   
+                  <cprogress-stub
+                    class="progress-xs"
+                    color="danger"
+                    max="100"
+                    precision="0"
+                    value="69"
+                  />
+                </div>
+              </div>
+               
+              <div
+                class="legend text-center"
+              >
+                <small>
+                  <sup>
+                    <cbadge-stub
+                      activeclass="active"
+                      color="info"
+                      event="click"
+                      exactactiveclass="active"
+                      routertag="a"
+                      shape="pill"
+                      tag="span"
+                      target="_self"
+                    >
+                       
+                    </cbadge-stub>
+                  </sup>
+                  
+                  New clients
+                    
+                  
+                  <sup>
+                    <cbadge-stub
+                      activeclass="active"
+                      color="danger"
+                      event="click"
+                      exactactiveclass="active"
+                      routertag="a"
+                      shape="pill"
+                      tag="span"
+                      target="_self"
+                    >
+                       
+                    </cbadge-stub>
+                  </sup>
+                  
+                  Recurring clients
+                
+                </small>
+              </div>
+            </ccol-stub>
+             
+            <ccol-stub
+              lg="6"
+              sm="12"
+              tag="div"
+            >
+              <crow-stub
+                gutters="true"
+              >
+                <ccol-stub
+                  sm="6"
+                  tag="div"
+                >
+                  <ccallout-stub
+                    color="warning"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      Pageviews
+                    </small>
+                    <br />
+                     
+                    <strong
+                      class="h4"
+                    >
+                      78,623
+                    </strong>
+                  </ccallout-stub>
+                </ccol-stub>
+                 
+                <ccol-stub
+                  sm="6"
+                  tag="div"
+                >
+                  <ccallout-stub
+                    color="success"
+                  >
+                    <small
+                      class="text-muted"
+                    >
+                      Organic
+                    </small>
+                    <br />
+                     
+                    <strong
+                      class="h4"
+                    >
+                      49,123
+                    </strong>
+                  </ccallout-stub>
+                </ccol-stub>
+              </crow-stub>
+               
+              <hr
+                class="mt-0"
+              />
+               
+              <ul
+                class="horizontal-bars type-2"
+              >
+                <div
+                  class="progress-group"
+                >
+                  <div
+                    class="progress-group-header"
+                  >
+                    <cicon-stub
+                      class="progress-group-icon"
+                      name="cil-user"
+                    />
+                     
+                    <span
+                      class="title"
+                    >
+                      Male
+                    </span>
+                     
+                    <span
+                      class="ml-auto font-weight-bold"
+                    >
+                      43%
+                    </span>
+                  </div>
+                   
+                  <div
+                    class="progress-group-bars"
+                  >
+                    <cprogress-stub
+                      class="progress-xs"
+                      color="warning"
+                      max="100"
+                      precision="0"
+                      value="43"
+                    />
+                  </div>
+                </div>
+                 
+                <div
+                  class="progress-group mb-5"
+                >
+                  <div
+                    class="progress-group-header"
+                  >
+                    <cicon-stub
+                      class="progress-group-icon"
+                      name="cil-user-female"
+                    />
+                     
+                    <span
+                      class="title"
+                    >
+                      Female
+                    </span>
+                     
+                    <span
+                      class="ml-auto font-weight-bold"
+                    >
+                      37%
+                    </span>
+                  </div>
+                   
+                  <div
+                    class="progress-group-bars"
+                  >
+                    <cprogress-stub
+                      class="progress-xs"
+                      color="warning"
+                      max="100"
+                      precision="0"
+                      value="37"
+                    />
+                  </div>
+                </div>
+                 
+                <div
+                  class="progress-group"
+                >
+                  <div
+                    class="progress-group-header"
+                  >
+                    <cicon-stub
+                      class="progress-group-icon"
+                      name="cil-globe-alt"
+                    />
+                     
+                    <span
+                      class="title"
+                    >
+                      Organic Search
+                    </span>
+                     
+                    <span
+                      class="ml-auto font-weight-bold"
+                    >
+                      
+                      191,235
+                      <span
+                        class="text-muted small"
+                      >
+                        (56%)
+                      </span>
+                    </span>
+                  </div>
+                   
+                  <div
+                    class="progress-group-bars"
+                  >
+                    <cprogress-stub
+                      class="progress-xs"
+                      color="success"
+                      max="100"
+                      precision="0"
+                      value="56"
+                    />
+                  </div>
+                </div>
+                 
+                <div
+                  class="progress-group"
+                >
+                  <div
+                    class="progress-group-header"
+                  >
+                    <cicon-stub
+                      class="progress-group-icon"
+                      height="17"
+                      name="cib-facebook"
+                    />
+                     
+                    <span
+                      class="title"
+                    >
+                      Facebook
+                    </span>
+                     
+                    <span
+                      class="ml-auto font-weight-bold"
+                    >
+                      
+                      51,223 
+                      <span
+                        class="text-muted small"
+                      >
+                        (15%)
+                      </span>
+                    </span>
+                  </div>
+                   
+                  <div
+                    class="progress-group-bars"
+                  >
+                    <cprogress-stub
+                      class="progress-xs"
+                      color="success"
+                      max="100"
+                      precision="0"
+                      value="15"
+                    />
+                  </div>
+                </div>
+                 
+                <div
+                  class="progress-group"
+                >
+                  <div
+                    class="progress-group-header"
+                  >
+                    <cicon-stub
+                      class="progress-group-icon"
+                      height="17"
+                      name="cib-twitter"
+                    />
+                     
+                    <span
+                      class="title"
+                    >
+                      Twitter
+                    </span>
+                     
+                    <span
+                      class="ml-auto font-weight-bold"
+                    >
+                      
+                      37,564 
+                      <span
+                        class="text-muted small"
+                      >
+                        (11%)
+                      </span>
+                    </span>
+                  </div>
+                   
+                  <div
+                    class="progress-group-bars"
+                  >
+                    <cprogress-stub
+                      class="progress-xs"
+                      color="success"
+                      max="100"
+                      precision="0"
+                      value="11"
+                    />
+                  </div>
+                </div>
+                 
+                <div
+                  class="progress-group"
+                >
+                  <div
+                    class="progress-group-header"
+                  >
+                    <cicon-stub
+                      class="progress-group-icon"
+                      height="17"
+                      name="cib-linkedin"
+                    />
+                     
+                    <span
+                      class="title"
+                    >
+                      LinkedIn
+                    </span>
+                     
+                    <span
+                      class="ml-auto font-weight-bold"
+                    >
+                      
+                      27,319 
+                      <span
+                        class="text-muted small"
+                      >
+                         (8%)
+                      </span>
+                    </span>
+                  </div>
+                   
+                  <div
+                    class="progress-group-bars"
+                  >
+                    <cprogress-stub
+                      class="progress-xs"
+                      color="success"
+                      max="100"
+                      precision="0"
+                      value="8"
+                    />
+                  </div>
+                </div>
+                 
+                <div
+                  class="divider text-center"
+                >
+                  <cbutton-stub
+                    activeclass="active"
+                    class="text-muted"
+                    color="link"
+                    event="click"
+                    exactactiveclass="active"
+                    routertag="a"
+                    size="sm"
+                    target="_self"
+                    type="button"
+                  >
+                    <cicon-stub
+                      name="cil-options"
+                    />
+                  </cbutton-stub>
+                </div>
+              </ul>
+            </ccol-stub>
+          </crow-stub>
+           
+          <br />
+           
+          <cdatatable-stub
+            class="mb-0 table-outline"
+            fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+            head-color="light"
+            hover="true"
+            items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+            itemsperpage="10"
+            no-sorting=""
+            responsive="true"
+            sortervalue="[object Object]"
+          />
+        </ccardbody-stub>
       </ccard-stub>
     </ccol-stub>
   </crow-stub>

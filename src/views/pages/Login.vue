@@ -9,16 +9,18 @@
                 <h1>Login</h1>
                 <p class="text-muted">Sign In to your account</p>
                 <CInput
-                  prependHtml="<i class='cui-user'></i>"
                   placeholder="Username"
                   autocomplete="username email"
-                />
+                >
+                  <template #prepend-content><CIcon name="cil-user"/></template>
+                </CInput>
                 <CInput
-                  prependHtml="<i class='cui-lock-locked'></i>"
                   placeholder="Password"
                   type="password"
                   autocomplete="curent-password"
-                />
+                >
+                  <template #prepend-content><CIcon name="cil-lock-locked"/></template>
+                </CInput>
                 <CRow>
                   <CCol col="6">
                     <CButton color="primary" class="px-4">Login</CButton>
@@ -31,7 +33,9 @@
             </CCardBody>
           </CCard>
           <CCard
-            class="text-white text-center bg-primary py-5 d-md-down-none"
+            color="primary"
+            text-color="white"
+            class="text-center py-5 d-md-down-none"
             style="width:44%"
             body-wrapper
           >

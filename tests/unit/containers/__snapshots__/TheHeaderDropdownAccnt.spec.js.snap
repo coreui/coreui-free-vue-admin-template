@@ -6,8 +6,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   caret="true"
   class="c-header-nav-items"
   flip="true"
-  nav=""
-  no-caret=""
+  innav="true"
   placement="bottom-end"
   togglertext="Dropdown"
 >
@@ -29,8 +28,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-bell mr-2"
+    <cicon-stub
+      name="cil-bell"
     />
      Updates
     
@@ -55,8 +54,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-envelope-open mr-2"
+    <cicon-stub
+      name="cil-envelope-open"
     />
      Messages
     
@@ -81,8 +80,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-task mr-2"
+    <cicon-stub
+      name="cil-task"
     />
      Tasks
     
@@ -107,8 +106,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-comment-square mr-2"
+    <cicon-stub
+      name="cil-comment-square"
     />
      Comments
     
@@ -143,8 +142,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-user mr-2"
+    <cicon-stub
+      name="cil-user"
     />
      Profile
   
@@ -157,8 +156,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-wrench mr-2"
+    <cicon-stub
+      name="cil-settings"
     />
      Settings
   
@@ -171,8 +170,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-dollar mr-2"
+    <cicon-stub
+      name="cil-dollar"
     />
      Payments
     
@@ -197,8 +196,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-file mr-2"
+    <cicon-stub
+      name="cil-file"
     />
      Projects
     
@@ -227,8 +226,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-shield mr-2"
+    <cicon-stub
+      name="cil-shield-alt"
     />
      Lock Account
   
@@ -241,8 +240,8 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     routertag="a"
     target="_self"
   >
-    <i
-      class="cui-lock-locked mr-2"
+    <cicon-stub
+      name="cil-lock-locked"
     />
      Logout
   

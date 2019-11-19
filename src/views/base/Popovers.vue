@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Bootstrap Popovers</strong>
         <div class="card-header-actions">
           <a 
@@ -49,7 +49,7 @@
     </CCard>
     <CCard>
       <CCardHeader>
-        <i class="fa fa-align-justify"></i>
+        <CIcon name="cil-justify-center"/>
         <strong> Popovers </strong>
         <small>placement</small>
       </CCardHeader>

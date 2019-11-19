@@ -10,12 +10,13 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
     <div
       class="card"
     >
-      <!---->
       <header
         class="card-header"
       >
-        <i
-          class="fa fa-align-justify"
+        <svg
+          class="c-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
         />
         <strong>
            Bootstrap Breadcrumb
@@ -165,7 +166,6 @@ exports[`Breadcrumbs.vue renders correctly 1`] = `
           </li>
         </ol>
       </div>
-      <!---->
     </div>
   </div>
 </div>

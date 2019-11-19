@@ -5,7 +5,7 @@
         <CCol col="12">
           <CCard>
             <CCardHeader>
-              <i class="fa fa-align-justify"></i> Bootstrap Modals
+              <CIcon name="cil-justify-center"/> Bootstrap Modals
               <div class="card-header-actions">
                 <a 
                   href="https://coreui.io/vue/docs/3.0/components/Modal" 
@@ -91,6 +91,7 @@
     <CModal
       title="Modal title"
       :show.sync="primaryModal"
+      color="primary"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

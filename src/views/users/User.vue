@@ -6,7 +6,7 @@
           User id:  {{ $route.params.id }}
         </CCardHeader>
         <CCardBody>
-          <CTable
+          <CDataTable
             striped
             small
             fixed

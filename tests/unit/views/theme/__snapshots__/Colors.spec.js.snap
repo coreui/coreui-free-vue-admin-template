@@ -5,12 +5,13 @@ exports[`Colors.vue renders correctly 1`] = `
   <div
     class="card"
   >
-    <!---->
     <header
       class="card-header"
     >
-      <i
-        class="cui-drop"
+      <svg
+        class="c-icon"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
       />
        Theme colors
     
@@ -399,18 +400,18 @@ exports[`Colors.vue renders correctly 1`] = `
         </div>
       </div>
     </div>
-    <!---->
   </div>
    
   <div
     class="card"
   >
-    <!---->
     <header
       class="card-header"
     >
-      <i
-        class="cui-drop"
+      <svg
+        class="c-icon"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
       />
        Grays
     
@@ -846,7 +847,6 @@ exports[`Colors.vue renders correctly 1`] = `
         </div>
       </div>
     </div>
-    <!---->
   </div>
 </div>
 `;

@@ -9,9 +9,9 @@
         </div>
         <CInput
           class="mb-3"
-          prependHtml="<i class='cui-magnifying-glass'></i>"
           placeholder="What are you looking for?"
         >
+          <template #prepend-content><CIcon name="cil-magnifying-glass"/></template>
           <template #append>
             <CButton color="info">Search</CButton>
           </template>

@@ -4,8 +4,8 @@ exports[`Navbars.vue renders correctly 1`] = `
 <div>
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -66,7 +66,6 @@ exports[`Navbars.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Link
@@ -79,7 +78,6 @@ exports[`Navbars.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Disabled
@@ -201,8 +199,8 @@ exports[`Navbars.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -243,8 +241,8 @@ exports[`Navbars.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -299,8 +297,8 @@ exports[`Navbars.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -337,7 +335,6 @@ exports[`Navbars.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Home
@@ -349,7 +346,6 @@ exports[`Navbars.vue renders correctly 1`] = `
               exactactiveclass="active"
               href="#"
               routertag="a"
-              tag="span"
               target="_self"
             >
               Link
@@ -438,8 +434,8 @@ exports[`Navbars.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>
@@ -487,8 +483,8 @@ exports[`Navbars.vue renders correctly 1`] = `
    
   <ccard-stub>
     <ccardheader-stub>
-      <i
-        class="fa fa-align-justify"
+      <cicon-stub
+        name="cil-justify-center"
       />
        
       <strong>

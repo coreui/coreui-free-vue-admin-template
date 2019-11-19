@@ -3,7 +3,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i>
+          <CIcon name="cil-justify-center"/>
           <strong> Bootstrap button group</strong>
           <div class="card-header-actions">
             <a 
@@ -41,7 +41,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i>
+          <CIcon name="cil-justify-center"/>
           <strong> Button group </strong>sizing
         </CCardHeader>
         <CCardBody>
@@ -70,7 +70,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i><strong> Button group </strong>dropdown support
+          <CIcon name="cil-justify-center"/><strong> Button group </strong>dropdown support
         </CCardHeader>
         <CCardBody>
           <div>
@@ -98,7 +98,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i>
+          <CIcon name="cil-justify-center"/>
           <strong> Button group </strong>vertical variation
         </CCardHeader>
         <CCardBody>
@@ -115,7 +115,7 @@
     <CCol col="12">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i>
+          <CIcon name="cil-justify-center"/>
           <strong> Button toolbar </strong>
           <small>with button groups</small>
           <!-- <div class="card-header-actions">
@@ -152,17 +152,17 @@
             <CInput
               class="mb-0 w-25 mx-1"
               size="sm"
-              prepend-html="$"
-              append-html=".00"
+              append=".00"
               value="100"
+              prepend="$"
             />
             <CSelect
               class="mb-0 w-25 mx-1"
               size="sm"
-              prepend-html="Size"
               value="Medium"
               :options="['Large','Medium','Small']"
               custom
+              prepend="Size"
             />
             <CButtonGroup size="sm" class="mx-1">
               <CButton color="secondary">Save</CButton>

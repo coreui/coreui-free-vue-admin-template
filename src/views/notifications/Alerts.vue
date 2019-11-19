@@ -3,7 +3,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i>
+          <CIcon name="cil-justify-center"/>
           <strong> Bootstrap Alert</strong>
           <div class="card-header-actions">
             <a 
@@ -34,7 +34,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i> Alert
+          <CIcon name="cil-justify-center"/> Alert
           <small> use <code>.alert-link</code> to provide links</small>
         </CCardHeader>
         <CCardBody>
@@ -72,7 +72,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i> Alerts <small>with additional content</small>
+          <CIcon name="cil-justify-center"/> Alerts <small>with additional content</small>
         </CCardHeader>
         <CCardBody>
           <CAlert show color="success">
@@ -93,7 +93,7 @@
     <CCol col="12" md="6">
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i> Alerts
+          <CIcon name="cil-justify-center"/> Alerts
           <small>dismissible</small>
         </CCardHeader>
         <CCardBody>
@@ -107,16 +107,7 @@
 
           <CAlert
             color="secondary"
-            closeButton
-            fade
             :show.sync="alert2"
-          >
-            Dismissible Alert with fade effect!
-          </CAlert>
-
-          <CAlert
-            color="secondary"
-            :show.sync="alert3"
             class="alert-dismissible"
           >
             Dismissible Alert with custom button!
@@ -124,7 +115,7 @@
               class="position-absolute"
               color="secondary"
               style="right:10px;top: 50%;transform: translateY(-50%);"
-              @click="alert3 = false"
+              @click="alert2 = false"
             >
               Close
             </CButton>
@@ -140,7 +131,7 @@
       </CCard>
       <CCard>
         <CCardHeader>
-          <i class="fa fa-align-justify"></i> Alerts
+          <CIcon name="cil-justify-center"/> Alerts
           <small>auto dismissible</small>
         </CCardHeader>
         <CCardBody>
@@ -186,8 +177,7 @@ export default {
       dismissSecs: 10,
       dismissCountDown: 10,
       alert1: true,
-      alert2: true,
-      alert3: true
+      alert2: true
     }
   },
   methods: {
