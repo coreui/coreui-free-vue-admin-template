@@ -14,7 +14,7 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
-    "@coreui/coreui": "3.0.0-beta.2",
+    "@coreui/coreui": "3.0.0-beta.3",
     "@coreui/coreui-vue-chartjs": "coreui/coreui-vue-chartjs#1.0.0-alpha.2",
     "@coreui/icons": "../coreui-icons",
     "@coreui/vue": "../coreui-vue",
@@ -28,13 +28,13 @@
     "@vue/cli-plugin-unit-jest": "^4.0.5",
     "@vue/cli-service": "^4.0.5",
     "@vue/test-utils": "^1.0.0-beta.29",
-    "@babel/core": "7.6.4",
+    "@babel/core": "7.7.2",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
-    "core-js": "^3.3.4",
-    "chromedriver": "^77.0.0",
-    "eslint": "^6.5.1",
-    "eslint-plugin-vue": "^5.2.3",
+    "core-js": "^3.4.1",
+    "chromedriver": "^78.0.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-vue": "^6.0.1",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
