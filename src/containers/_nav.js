@@ -216,7 +216,8 @@ export default [
         }
       },
       {
-        _name: 'CSidebarNavDivider'
+        _name: 'CSidebarNavDivider',
+        _class: 'm-2'
       },
       {
         _name: 'CSidebarNavTitle',

@@ -2,7 +2,7 @@
   <div>
     <CCard>
       <CCardHeader>
-        <CIcon name="cil-globe-alt"/>Brand icons
+        <CIcon name="cil-basket"/>Brand icons
       </CCardHeader>
       <CCardBody>
         <CRow class="text-center">
@@ -14,7 +14,7 @@
               :key="brandName"
             >
               <CIcon :height="42" :content="brand"/>
-              <div>{{brandName}}</div>
+              <div>{{toKebabCase(brandName)}}</div>
             </CCol>
           </template>
         </CRow>
@@ -27,6 +27,11 @@
 import { brandSet as brands } from '@coreui/icons'
 export default {
   name: 'Brands',
-  brands
+  brands,
+  methods: {
+    toKebabCase (str) {
+      return str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
+    }
+  }
 }
 </script>
