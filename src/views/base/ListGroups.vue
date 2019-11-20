@@ -8,7 +8,7 @@
             <strong> Bootstrap list group </strong>
             <div class="card-header-actions">
               <a 
-                href="https://coreui.io/vue/docs/3.0/components/ListGroup" 
+                href="https://coreui.io/vue/docs/components/list-group" 
                 class="card-header-action" 
                 rel="noreferrer noopener" 
                 target="_blank"

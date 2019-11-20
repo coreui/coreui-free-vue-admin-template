@@ -6,7 +6,7 @@
         <strong> Bootstrap Popovers</strong>
         <div class="card-header-actions">
           <a 
-            href="https://coreui.io/vue/docs/3.0/components/Popover" 
+            href="https://coreui.io/vue/docs/directives/popover" 
             class="card-header-action" 
             rel="noreferrer noopener" 
             target="_blank"

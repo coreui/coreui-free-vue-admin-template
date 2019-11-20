@@ -6,7 +6,7 @@
           <CIcon name="cil-justify-center"/><strong> Bootstrap Breadcrumb</strong>
           <div class="card-header-actions">
             <a 
-              href="https://coreui.io/vue/docs/3.0/components/Breadcrumb" 
+              href="https://coreui.io/vue/docs/components/breadcrumb" 
               class="card-header-action" 
               rel="noreferrer noopener" 
               target="_blank"

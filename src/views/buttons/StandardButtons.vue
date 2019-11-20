@@ -5,7 +5,7 @@
         <strong>Standard buttons</strong>
         <div class="card-header-actions">
           <a 
-            href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
+            href="https://coreui.io/vue/docs/components/button-components" 
             class="card-header-action" 
             rel="noreferrer noopener" 
             target="_blank"

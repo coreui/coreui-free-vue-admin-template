@@ -15,7 +15,7 @@
           <template #header>
             <div class="card-header-actions">
               <a 
-                href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
+                href="https://coreui.io/vue/docs/components/button-components" 
                 class="card-header-action position-absolute"
                 style="right:10px; top:10px"
                 rel="noreferrer noopener" 

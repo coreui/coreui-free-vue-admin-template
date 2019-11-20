@@ -6,7 +6,7 @@
           Line Chart
           <div class="card-header-actions">
             <a 
-              href="https://coreui.io/vue/docs/3.0/components/Charts" 
+              href="https://coreui.io/vue/docs/components/charts" 
               class="card-header-action" 
               rel="noreferrer noopener" 
               target="_blank"

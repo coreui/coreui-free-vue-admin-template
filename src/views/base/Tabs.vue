@@ -7,7 +7,7 @@
             Tabs
             <div class="card-header-actions">
               <a 
-                href="https://coreui.io/vue/docs/3.0/components/Tabs" 
+                href="https://coreui.io/vue/docs/components/tabs" 
                 class="card-header-action" 
                 rel="noreferrer noopener" 
                 target="_blank"

@@ -7,7 +7,7 @@
           <strong> Bootstrap button group</strong>
           <div class="card-header-actions">
             <a 
-              href="https://coreui.io/vue/docs/3.0/components/ButtonComponents" 
+              href="https://coreui.io/vue/docs/components/button-components" 
               class="card-header-action" 
               rel="noreferrer noopener" 
               target="_blank"
@@ -118,11 +118,6 @@
           <CIcon name="cil-justify-center"/>
           <strong> Button toolbar </strong>
           <small>with button groups</small>
-          <!-- <div class="card-header-actions">
-            <a href="https://bootstrap-vue.js.org/docs/components/button-toolbar" class="card-header-action" rel="noreferrer noopener" target="_blank">
-              <small class="text-muted">docs</small>
-            </a>
-          </div> -->
         </CCardHeader>
         <CCardBody>
           <CButtonToolbar aria-label="Toolbar with button groups" >
