@@ -17,7 +17,7 @@ exports[`Paginations.vue renders correctly 1`] = `
       >
         <a
           class="card-header-action"
-          href="https://coreui.io/vue/docs/3.0/components/Pagination"
+          href="https://coreui.io/vue/docs/components/pagination"
           rel="noreferrer noopener"
           target="_blank"
         >

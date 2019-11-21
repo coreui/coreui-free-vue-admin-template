@@ -3,7 +3,8 @@
   <div>
     <CCard>
       <CCardHeader>
-        <CIcon :content="$options.freeSet.pencil"/>CoreUI Icons
+        <CIcon :content="$options.freeSet.cilHandPointDown"/>
+        CoreUI Icons
         <CBadge color="info">New</CBadge>
         <div class="card-header-actions">
           <a
@@ -26,7 +27,7 @@
               :key="iconName"
             >
               <CIcon :height="42" :content="icon"/>
-              <div>{{iconName}}</div>
+              <div>{{toKebabCase(iconName)}}</div>
             </CCol>
           </template>
         </CRow>
@@ -39,6 +40,11 @@
 import { freeSet } from '@coreui/icons'
 export default {
   name: 'CoreUIIcons',
-  freeSet
+  freeSet,
+  methods: {
+    toKebabCase (str) {
+      return str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
+    }
+  }
 }
 </script>

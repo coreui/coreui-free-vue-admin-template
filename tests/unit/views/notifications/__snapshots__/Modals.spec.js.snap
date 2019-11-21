@@ -24,7 +24,7 @@ exports[`Modals.vue renders correctly 1`] = `
             >
               <a
                 class="card-header-action"
-                href="https://coreui.io/vue/docs/3.0/components/Modal"
+                href="https://coreui.io/vue/docs/components/modal"
                 rel="noreferrer noopener"
                 target="_blank"
               >

@@ -7,7 +7,7 @@
           <strong> Bootstrap Alert</strong>
           <div class="card-header-actions">
             <a 
-              href="https://coreui.io/vue/docs/3.0/components/Alert" 
+              href="https://coreui.io/vue/docs/components/alert" 
               class="card-header-action" 
               rel="noreferrer noopener" 
               target="_blank"

@@ -6,7 +6,7 @@
         <strong> Bootstrap Progress</strong>
         <div class="card-header-actions">
           <a 
-            href="https://coreui.io/vue/docs/3.0/components/Progress" 
+            href="https://coreui.io/vue/docs/components/progress" 
             class="card-header-action" 
             rel="noreferrer noopener" 
             target="_blank"

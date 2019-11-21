@@ -12,10 +12,36 @@ exports[`Widgets.vue renders correctly 1`] = `
     >
       <cwidgetprogress-stub
         footer="Lorem ipsum dolor sit amet enim."
-        header="89.9%"
-        text="Lorem ipsum..."
         value="25"
       >
+        <div
+          class="h4 m-0"
+        >
+          89.9%
+        </div>
+         
+        <div
+          class="card-header-actions"
+        >
+          <a
+            class="card-header-action position-absolute"
+            href="https://coreui.io/vue/docs/components/widgets"
+            rel="noreferrer noopener"
+            style="right: 5px; top: 5px;"
+            target="_blank"
+          >
+            <small
+              class="text-muted"
+            >
+              docs
+            </small>
+          </a>
+        </div>
+         
+        <div>
+          Lorem ipsum...
+        </div>
+         
         <cprogress-stub
           class="progress-xs my-3 mb-0"
           color="success"

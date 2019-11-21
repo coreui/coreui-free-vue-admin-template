@@ -8,7 +8,7 @@
               <CIcon name="cil-justify-center"/> Bootstrap Modals
               <div class="card-header-actions">
                 <a 
-                  href="https://coreui.io/vue/docs/3.0/components/Modal" 
+                  href="https://coreui.io/vue/docs/components/modal" 
                   class="card-header-action" 
                   rel="noreferrer noopener" 
                   target="_blank"

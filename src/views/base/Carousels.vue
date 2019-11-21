@@ -7,7 +7,7 @@
           <strong> Bootstrap Carousel</strong>
           <div class="card-header-actions">
             <a 
-              href="https://coreui.io/vue/docs/3.0/components/Carousel" 
+              href="https://coreui.io/vue/docs/components/carousel" 
               class="card-header-action" 
               rel="noreferrer noopener" 
               target="_blank"

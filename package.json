@@ -1,6 +1,6 @@
 {
   "name": "@coreui/coreui-free-vue-admin-template",
-  "version": "3.0.0-beta.0",
+  "version": "3.0.0-beta.1",
   "description": "Open Source Bootstrap Admin Template",
   "author": "Łukasz Holeczek",
   "homepage": "http://coreui.io",
@@ -17,7 +17,7 @@
     "@coreui/coreui": "3.0.0-beta.3",
     "@coreui/coreui-vue-chartjs": "1.0.0-alpha.2",
     "@coreui/icons": "1.0.0-beta.3",
-    "@coreui/vue": "3.0.0-beta.0",
+    "@coreui/vue": "coreui/coreui-vue#3.0.0-beta.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },

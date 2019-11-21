@@ -1,7 +1,9 @@
 <template>
   <CCard>
     <CCardHeader>
-      <CIcon name="cil-justify-center"/> {{caption}}
+      <slot name="header">
+        <CIcon name="cil-grid"/> {{caption}}
+      </slot>
     </CCardHeader>
     <CCardBody>
       <CDataTable

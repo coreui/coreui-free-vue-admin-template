@@ -4,10 +4,10 @@ exports[`Table.vue renders correctly 1`] = `
 <ccard-stub>
   <ccardheader-stub>
     <cicon-stub
-      name="cil-justify-center"
+      name="cil-grid"
     />
      Table
-  
+    
   </ccardheader-stub>
    
   <ccardbody-stub>

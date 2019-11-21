@@ -6,7 +6,7 @@
         <strong> Responsive bootstrap Pagination</strong>
         <div class="card-header-actions">
           <a 
-            href="https://coreui.io/vue/docs/3.0/components/Pagination" 
+            href="https://coreui.io/vue/docs/components/pagination" 
             class="card-header-action" 
             rel="noreferrer noopener" 
             target="_blank"

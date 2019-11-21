@@ -16,16 +16,15 @@
       width="97"
       height="46"
       alt="CoreUI Logo"
-      :wrappedInLink="{ href: 'https://coreui.io', target: '_blank'}"
     />
     <CHeaderNav class="d-md-down-none mr-auto">
-      <CHeaderNavItem class="px-3" to="/dashboard">
-        <CHeaderNavLink>
+      <CHeaderNavItem class="px-3">
+        <CHeaderNavLink to="/dashboard">
           Dashboard
         </CHeaderNavLink>
       </CHeaderNavItem>
-      <CHeaderNavItem class="px-3" to="/users" exact>
-        <CHeaderNavLink>
+      <CHeaderNavItem class="px-3">
+        <CHeaderNavLink to="/users" exact>
           Users
         </CHeaderNavLink>
       </CHeaderNavItem>

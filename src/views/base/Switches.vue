@@ -8,7 +8,7 @@
             <CBadge :color="radio" class="mr-auto">{{radio}}</CBadge>
             <div class="card-header-actions">
               <a 
-                href="https://coreui.io/vue/docs/3.0/components/Switch" 
+                href="https://coreui.io/vue/docs/components/switch" 
                 class="card-header-action" 
                 rel="noreferrer noopener" 
                 target="_blank"
