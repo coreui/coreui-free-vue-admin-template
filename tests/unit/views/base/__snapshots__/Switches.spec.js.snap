@@ -33,7 +33,7 @@ exports[`Switches.vue renders correctly 1`] = `
           >
             <a
               class="card-header-action"
-              href="https://coreui.io/vue/docs/3.0/components/Switch"
+              href="https://coreui.io/vue/docs/components/switch"
               rel="noreferrer noopener"
               target="_blank"
             >

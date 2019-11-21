@@ -22,7 +22,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
         >
           <a
             class="card-header-action"
-            href="https://coreui.io/vue/docs/3.0/components/ButtonComponents"
+            href="https://coreui.io/vue/docs/components/button-components"
             rel="noreferrer noopener"
             target="_blank"
           >

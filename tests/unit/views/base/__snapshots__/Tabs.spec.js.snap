@@ -20,7 +20,7 @@ exports[`Tabs.vue renders correctly 1`] = `
           >
             <a
               class="card-header-action"
-              href="https://coreui.io/vue/docs/3.0/components/Tabs"
+              href="https://coreui.io/vue/docs/components/tabs"
               rel="noreferrer noopener"
               target="_blank"
             >

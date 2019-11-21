@@ -28,7 +28,7 @@ exports[`Badges.vue renders correctly 1`] = `
         >
           <a
             class="card-header-action"
-            href="https://coreui.io/vue/docs/3.0/components/Badge"
+            href="https://coreui.io/vue/docs/components/badge"
             rel="noreferrer noopener"
             target="_blank"
           >

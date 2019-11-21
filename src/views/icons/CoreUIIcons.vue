@@ -43,7 +43,6 @@ export default {
   freeSet,
   methods: {
     toKebabCase (str) {
-      console.log(this.$options.freeSet, this.$options.freeSet.handPointDown)
       return str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
     }
   }

@@ -2,29 +2,25 @@
   <div>
     <CRow>
       <CCol sm="6" lg="3">
-        <CWidgetProgress
-          header="89.9%"
-          text="Lorem ipsum..."
-          footer="Lorem ipsum dolor sit amet enim."
-        >
+        <CWidgetProgress footer="Lorem ipsum dolor sit amet enim.">
+          <div class="h4 m-0">89.9%</div>
+          <div class="card-header-actions">
+            <a 
+              href="https://coreui.io/vue/docs/components/widgets" 
+              class="card-header-action position-absolute"
+              style="right:5px; top:5px"
+              rel="noreferrer noopener" 
+              target="_blank"
+            >
+              <small class="text-muted">docs</small>
+            </a>
+          </div>
+          <div>Lorem ipsum...</div>
           <CProgress
             color="success"
             :value="25"
             class="progress-xs my-3 mb-0"
           />
-          <template #header>
-            <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/button-components" 
-                class="card-header-action position-absolute"
-                style="right:10px; top:10px"
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
-          </template>
         </CWidgetProgress>
       </CCol>
       <CCol sm="6" lg="3">

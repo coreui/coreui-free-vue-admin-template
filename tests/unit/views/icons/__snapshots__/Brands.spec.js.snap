@@ -38,7 +38,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cib500px5
+            cib-500px-5
           </div>
         </div>
         <div
@@ -56,7 +56,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cib500px
+            cib-500px
           </div>
         </div>
         <div
@@ -74,7 +74,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAboutMe
+            cib-about-me
           </div>
         </div>
         <div
@@ -92,7 +92,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAbstract
+            cib-abstract
           </div>
         </div>
         <div
@@ -110,7 +110,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAddthis
+            cib-addthis
           </div>
         </div>
         <div
@@ -128,7 +128,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAcm
+            cib-acm
           </div>
         </div>
         <div
@@ -146,7 +146,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdguard
+            cib-adguard
           </div>
         </div>
         <div
@@ -164,7 +164,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeAfterEffects
+            cib-adobe-after-effects
           </div>
         </div>
         <div
@@ -182,7 +182,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeAcrobatReader
+            cib-adobe-acrobat-reader
           </div>
         </div>
         <div
@@ -200,7 +200,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeAudition
+            cib-adobe-audition
           </div>
         </div>
         <div
@@ -218,7 +218,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeCreativeCloud
+            cib-adobe-creative-cloud
           </div>
         </div>
         <div
@@ -236,7 +236,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeIllustrator
+            cib-adobe-illustrator
           </div>
         </div>
         <div
@@ -254,7 +254,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeIndesign
+            cib-adobe-indesign
           </div>
         </div>
         <div
@@ -272,7 +272,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobePhotoshop
+            cib-adobe-photoshop
           </div>
         </div>
         <div
@@ -290,7 +290,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobePremiere
+            cib-adobe-premiere
           </div>
         </div>
         <div
@@ -308,7 +308,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeDreamweaver
+            cib-adobe-dreamweaver
           </div>
         </div>
         <div
@@ -326,7 +326,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeLightroomClassic
+            cib-adobe-lightroom-classic
           </div>
         </div>
         <div
@@ -344,7 +344,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeLightroom
+            cib-adobe-lightroom
           </div>
         </div>
         <div
@@ -362,7 +362,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeTypekit
+            cib-adobe-typekit
           </div>
         </div>
         <div
@@ -380,7 +380,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAirbnb
+            cib-airbnb
           </div>
         </div>
         <div
@@ -398,7 +398,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobe
+            cib-adobe
           </div>
         </div>
         <div
@@ -416,7 +416,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAlgolia
+            cib-algolia
           </div>
         </div>
         <div
@@ -434,7 +434,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAdobeXd
+            cib-adobe-xd
           </div>
         </div>
         <div
@@ -452,7 +452,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAlipay
+            cib-alipay
           </div>
         </div>
         <div
@@ -470,7 +470,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAmazonAws
+            cib-amazon-aws
           </div>
         </div>
         <div
@@ -488,7 +488,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAllocine
+            cib-allocine
           </div>
         </div>
         <div
@@ -506,7 +506,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAmericanExpress
+            cib-american-express
           </div>
         </div>
         <div
@@ -524,7 +524,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAmazonPay
+            cib-amazon-pay
           </div>
         </div>
         <div
@@ -542,7 +542,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAmazon
+            cib-amazon
           </div>
         </div>
         <div
@@ -560,7 +560,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAmd
+            cib-amd
           </div>
         </div>
         <div
@@ -578,7 +578,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAngellist
+            cib-angellist
           </div>
         </div>
         <div
@@ -596,7 +596,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAndroid
+            cib-android
           </div>
         </div>
         <div
@@ -614,7 +614,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAnaconda
+            cib-anaconda
           </div>
         </div>
         <div
@@ -632,7 +632,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAnalogue
+            cib-analogue
           </div>
         </div>
         <div
@@ -650,7 +650,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAngularUniversal
+            cib-angular-universal
           </div>
         </div>
         <div
@@ -668,7 +668,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAndroidAlt
+            cib-android-alt
           </div>
         </div>
         <div
@@ -686,7 +686,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAngular
+            cib-angular
           </div>
         </div>
         <div
@@ -704,7 +704,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAnsible
+            cib-ansible
           </div>
         </div>
         <div
@@ -722,7 +722,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibApacheAirflow
+            cib-apache-airflow
           </div>
         </div>
         <div
@@ -740,7 +740,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibApacheSpark
+            cib-apache-spark
           </div>
         </div>
         <div
@@ -758,7 +758,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAppStore
+            cib-app-store
           </div>
         </div>
         <div
@@ -776,7 +776,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAppleMusic
+            cib-apple-music
           </div>
         </div>
         <div
@@ -794,7 +794,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibApache
+            cib-apache
           </div>
         </div>
         <div
@@ -812,7 +812,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAppStoreIos
+            cib-app-store-ios
           </div>
         </div>
         <div
@@ -830,7 +830,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibApplePay
+            cib-apple-pay
           </div>
         </div>
         <div
@@ -848,7 +848,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibApplePodcasts
+            cib-apple-podcasts
           </div>
         </div>
         <div
@@ -866,7 +866,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAppveyor
+            cib-appveyor
           </div>
         </div>
         <div
@@ -884,7 +884,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibApple
+            cib-apple
           </div>
         </div>
         <div
@@ -902,7 +902,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibArchLinux
+            cib-arch-linux
           </div>
         </div>
         <div
@@ -920,7 +920,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibArduino
+            cib-arduino
           </div>
         </div>
         <div
@@ -938,7 +938,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAral
+            cib-aral
           </div>
         </div>
         <div
@@ -956,7 +956,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibArchiveOfOurOwn
+            cib-archive-of-our-own
           </div>
         </div>
         <div
@@ -974,7 +974,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibArxiv
+            cib-arxiv
           </div>
         </div>
         <div
@@ -992,7 +992,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibArtstation
+            cib-artstation
           </div>
         </div>
         <div
@@ -1010,7 +1010,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAsana
+            cib-asana
           </div>
         </div>
         <div
@@ -1028,7 +1028,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAtAndT
+            cib-at-and-t
           </div>
         </div>
         <div
@@ -1046,7 +1046,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAtom
+            cib-atom
           </div>
         </div>
         <div
@@ -1064,7 +1064,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAtlassian
+            cib-atlassian
           </div>
         </div>
         <div
@@ -1082,7 +1082,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAudible
+            cib-audible
           </div>
         </div>
         <div
@@ -1100,7 +1100,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAurelia
+            cib-aurelia
           </div>
         </div>
         <div
@@ -1118,7 +1118,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAutomatic
+            cib-automatic
           </div>
         </div>
         <div
@@ -1136,7 +1136,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAutotask
+            cib-autotask
           </div>
         </div>
         <div
@@ -1154,7 +1154,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAzureDevops
+            cib-azure-devops
           </div>
         </div>
         <div
@@ -1172,7 +1172,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAzureArtifacts
+            cib-azure-artifacts
           </div>
         </div>
         <div
@@ -1190,7 +1190,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAventrix
+            cib-aventrix
           </div>
         </div>
         <div
@@ -1208,7 +1208,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAuth0
+            cib-auth-0
           </div>
         </div>
         <div
@@ -1226,7 +1226,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibAzurePipelines
+            cib-azure-pipelines
           </div>
         </div>
         <div
@@ -1244,7 +1244,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBancontact
+            cib-bancontact
           </div>
         </div>
         <div
@@ -1262,7 +1262,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBaidu
+            cib-baidu
           </div>
         </div>
         <div
@@ -1280,7 +1280,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBamboo
+            cib-bamboo
           </div>
         </div>
         <div
@@ -1298,7 +1298,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBathasu
+            cib-bathasu
           </div>
         </div>
         <div
@@ -1316,7 +1316,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBasecamp
+            cib-basecamp
           </div>
         </div>
         <div
@@ -1334,7 +1334,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBigCartel
+            cib-big-cartel
           </div>
         </div>
         <div
@@ -1352,7 +1352,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBandcamp
+            cib-bandcamp
           </div>
         </div>
         <div
@@ -1370,7 +1370,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBitbucket
+            cib-bitbucket
           </div>
         </div>
         <div
@@ -1388,7 +1388,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBehance
+            cib-behance
           </div>
         </div>
         <div
@@ -1406,7 +1406,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBing
+            cib-bing
           </div>
         </div>
         <div
@@ -1424,7 +1424,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBit
+            cib-bit
           </div>
         </div>
         <div
@@ -1442,7 +1442,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBitcoin
+            cib-bitcoin
           </div>
         </div>
         <div
@@ -1460,7 +1460,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBlender
+            cib-blender
           </div>
         </div>
         <div
@@ -1478,7 +1478,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBitdefender
+            cib-bitdefender
           </div>
         </div>
         <div
@@ -1496,7 +1496,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBitly
+            cib-bitly
           </div>
         </div>
         <div
@@ -1514,7 +1514,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBloggerB
+            cib-blogger-b
           </div>
         </div>
         <div
@@ -1532,7 +1532,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBlackberry
+            cib-blackberry
           </div>
         </div>
         <div
@@ -1550,7 +1550,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBlogger
+            cib-blogger
           </div>
         </div>
         <div
@@ -1568,7 +1568,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBluetooth
+            cib-bluetooth
           </div>
         </div>
         <div
@@ -1586,7 +1586,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBluetoothB
+            cib-bluetooth-b
           </div>
         </div>
         <div
@@ -1604,7 +1604,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBoost
+            cib-boost
           </div>
         </div>
         <div
@@ -1622,7 +1622,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBootstrap
+            cib-bootstrap
           </div>
         </div>
         <div
@@ -1640,7 +1640,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBoeing
+            cib-boeing
           </div>
         </div>
         <div
@@ -1658,7 +1658,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBrandAi
+            cib-brand-ai
           </div>
         </div>
         <div
@@ -1676,7 +1676,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBower
+            cib-bower
           </div>
         </div>
         <div
@@ -1694,7 +1694,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBuddy
+            cib-buddy
           </div>
         </div>
         <div
@@ -1712,7 +1712,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBuysellads
+            cib-buysellads
           </div>
         </div>
         <div
@@ -1730,7 +1730,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBrave
+            cib-brave
           </div>
         </div>
         <div
@@ -1748,7 +1748,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBtc
+            cib-btc
           </div>
         </div>
         <div
@@ -1766,7 +1766,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBuyMeACoffee
+            cib-buy-me-acoffee
           </div>
         </div>
         <div
@@ -1784,7 +1784,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBuffer
+            cib-buffer
           </div>
         </div>
         <div
@@ -1802,7 +1802,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBuzzfeed
+            cib-buzzfeed
           </div>
         </div>
         <div
@@ -1820,7 +1820,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCakephp
+            cib-cakephp
           </div>
         </div>
         <div
@@ -1838,7 +1838,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibC
+            cib-c
           </div>
         </div>
         <div
@@ -1856,7 +1856,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCashapp
+            cib-cashapp
           </div>
         </div>
         <div
@@ -1874,7 +1874,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCanva
+            cib-canva
           </div>
         </div>
         <div
@@ -1892,7 +1892,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCampaignMonitor
+            cib-campaign-monitor
           </div>
         </div>
         <div
@@ -1910,7 +1910,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCassandra
+            cib-cassandra
           </div>
         </div>
         <div
@@ -1928,7 +1928,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcAmazonPay
+            cib-cc-amazon-pay
           </div>
         </div>
         <div
@@ -1946,7 +1946,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcDiscover
+            cib-cc-discover
           </div>
         </div>
         <div
@@ -1964,7 +1964,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCastro
+            cib-castro
           </div>
         </div>
         <div
@@ -1982,7 +1982,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcAmex
+            cib-cc-amex
           </div>
         </div>
         <div
@@ -2000,7 +2000,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcApplePay
+            cib-cc-apple-pay
           </div>
         </div>
         <div
@@ -2018,7 +2018,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcJcb
+            cib-cc-jcb
           </div>
         </div>
         <div
@@ -2036,7 +2036,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcMastercard
+            cib-cc-mastercard
           </div>
         </div>
         <div
@@ -2054,7 +2054,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcPaypal
+            cib-cc-paypal
           </div>
         </div>
         <div
@@ -2072,7 +2072,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcDinersClub
+            cib-cc-diners-club
           </div>
         </div>
         <div
@@ -2090,7 +2090,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcVisa
+            cib-cc-visa
           </div>
         </div>
         <div
@@ -2108,7 +2108,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCcStripe
+            cib-cc-stripe
           </div>
         </div>
         <div
@@ -2126,7 +2126,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibChef
+            cib-chef
           </div>
         </div>
         <div
@@ -2144,7 +2144,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCentos
+            cib-centos
           </div>
         </div>
         <div
@@ -2162,7 +2162,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCevo
+            cib-cevo
           </div>
         </div>
         <div
@@ -2180,7 +2180,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibChromecast
+            cib-chromecast
           </div>
         </div>
         <div
@@ -2198,7 +2198,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCircle
+            cib-circle
           </div>
         </div>
         <div
@@ -2216,7 +2216,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibChase
+            cib-chase
           </div>
         </div>
         <div
@@ -2234,7 +2234,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCircleci
+            cib-circleci
           </div>
         </div>
         <div
@@ -2252,7 +2252,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCisco
+            cib-cisco
           </div>
         </div>
         <div
@@ -2270,7 +2270,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCirrusci
+            cib-cirrusci
           </div>
         </div>
         <div
@@ -2288,7 +2288,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibClojure
+            cib-clojure
           </div>
         </div>
         <div
@@ -2306,7 +2306,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCivicrm
+            cib-civicrm
           </div>
         </div>
         <div
@@ -2324,7 +2324,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibClockify
+            cib-clockify
           </div>
         </div>
         <div
@@ -2342,7 +2342,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCloudflare
+            cib-cloudflare
           </div>
         </div>
         <div
@@ -2360,7 +2360,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCmake
+            cib-cmake
           </div>
         </div>
         <div
@@ -2378,7 +2378,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCoOp
+            cib-co-op
           </div>
         </div>
         <div
@@ -2396,7 +2396,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCloudbees
+            cib-cloudbees
           </div>
         </div>
         <div
@@ -2414,7 +2414,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodacy
+            cib-codacy
           </div>
         </div>
         <div
@@ -2432,7 +2432,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodeClimate
+            cib-code-climate
           </div>
         </div>
         <div
@@ -2450,7 +2450,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodecademy
+            cib-codecademy
           </div>
         </div>
         <div
@@ -2468,7 +2468,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCoderwall
+            cib-coderwall
           </div>
         </div>
         <div
@@ -2486,7 +2486,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodecov
+            cib-codecov
           </div>
         </div>
         <div
@@ -2504,7 +2504,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodeigniter
+            cib-codeigniter
           </div>
         </div>
         <div
@@ -2522,7 +2522,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodesandbox
+            cib-codesandbox
           </div>
         </div>
         <div
@@ -2540,7 +2540,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodepen
+            cib-codepen
           </div>
         </div>
         <div
@@ -2558,7 +2558,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCommonWorkflowLanguage
+            cib-common-workflow-language
           </div>
         </div>
         <div
@@ -2576,7 +2576,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodeship
+            cib-codeship
           </div>
         </div>
         <div
@@ -2594,7 +2594,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCoffeescript
+            cib-coffeescript
           </div>
         </div>
         <div
@@ -2612,7 +2612,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodio
+            cib-codio
           </div>
         </div>
         <div
@@ -2630,7 +2630,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibConfluence
+            cib-confluence
           </div>
         </div>
         <div
@@ -2648,7 +2648,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCondaForge
+            cib-conda-forge
           </div>
         </div>
         <div
@@ -2666,7 +2666,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibConekta
+            cib-conekta
           </div>
         </div>
         <div
@@ -2705,7 +2705,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCoreui
+            cib-coreui
           </div>
         </div>
         <div
@@ -2726,7 +2726,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCoreuiC
+            cib-coreui-c
           </div>
         </div>
         <div
@@ -2744,7 +2744,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCoursera
+            cib-coursera
           </div>
         </div>
         <div
@@ -2762,7 +2762,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCplusplus
+            cib-cplusplus
           </div>
         </div>
         <div
@@ -2780,7 +2780,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsNcJp
+            cib-creative-commons-nc-jp
           </div>
         </div>
         <div
@@ -2798,7 +2798,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCoveralls
+            cib-coveralls
           </div>
         </div>
         <div
@@ -2816,7 +2816,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsNc
+            cib-creative-commons-nc
           </div>
         </div>
         <div
@@ -2834,7 +2834,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsNcEu
+            cib-creative-commons-nc-eu
           </div>
         </div>
         <div
@@ -2852,7 +2852,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsBy
+            cib-creative-commons-by
           </div>
         </div>
         <div
@@ -2870,7 +2870,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCpanel
+            cib-cpanel
           </div>
         </div>
         <div
@@ -2888,7 +2888,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsPdAlt
+            cib-creative-commons-pd-alt
           </div>
         </div>
         <div
@@ -2906,7 +2906,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsPd
+            cib-creative-commons-pd
           </div>
         </div>
         <div
@@ -2924,7 +2924,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsSa
+            cib-creative-commons-sa
           </div>
         </div>
         <div
@@ -2942,7 +2942,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsNd
+            cib-creative-commons-nd
           </div>
         </div>
         <div
@@ -2960,7 +2960,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsSamplingPlus
+            cib-creative-commons-sampling-plus
           </div>
         </div>
         <div
@@ -2978,7 +2978,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsRemix
+            cib-creative-commons-remix
           </div>
         </div>
         <div
@@ -2996,7 +2996,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsZero
+            cib-creative-commons-zero
           </div>
         </div>
         <div
@@ -3014,7 +3014,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsSampling
+            cib-creative-commons-sampling
           </div>
         </div>
         <div
@@ -3032,7 +3032,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommonsShare
+            cib-creative-commons-share
           </div>
         </div>
         <div
@@ -3050,7 +3050,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCreativeCommons
+            cib-creative-commons
           </div>
         </div>
         <div
@@ -3068,7 +3068,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCrunchbase
+            cib-crunchbase
           </div>
         </div>
         <div
@@ -3086,7 +3086,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCrunchyroll
+            cib-crunchyroll
           </div>
         </div>
         <div
@@ -3104,7 +3104,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCss3
+            cib-css-3
           </div>
         </div>
         <div
@@ -3122,7 +3122,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCss3Shiled
+            cib-css-3shiled
           </div>
         </div>
         <div
@@ -3140,7 +3140,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCsswizardry
+            cib-csswizardry
           </div>
         </div>
         <div
@@ -3158,7 +3158,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibD3Js
+            cib-d3js
           </div>
         </div>
         <div
@@ -3176,7 +3176,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDashlane
+            cib-dashlane
           </div>
         </div>
         <div
@@ -3194,7 +3194,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDailymotion
+            cib-dailymotion
           </div>
         </div>
         <div
@@ -3212,7 +3212,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDblp
+            cib-dblp
           </div>
         </div>
         <div
@@ -3230,7 +3230,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDazn
+            cib-dazn
           </div>
         </div>
         <div
@@ -3248,7 +3248,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDeezer
+            cib-deezer
           </div>
         </div>
         <div
@@ -3266,7 +3266,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDebian
+            cib-debian
           </div>
         </div>
         <div
@@ -3284,7 +3284,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDeepin
+            cib-deepin
           </div>
         </div>
         <div
@@ -3302,7 +3302,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDelicious
+            cib-delicious
           </div>
         </div>
         <div
@@ -3320,7 +3320,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDell
+            cib-dell
           </div>
         </div>
         <div
@@ -3338,7 +3338,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDesignerNews
+            cib-designer-news
           </div>
         </div>
         <div
@@ -3356,7 +3356,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDeviantart
+            cib-deviantart
           </div>
         </div>
         <div
@@ -3374,7 +3374,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDevTo
+            cib-dev-to
           </div>
         </div>
         <div
@@ -3392,7 +3392,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDependabot
+            cib-dependabot
           </div>
         </div>
         <div
@@ -3410,7 +3410,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDevrant
+            cib-devrant
           </div>
         </div>
         <div
@@ -3428,7 +3428,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDigitalOcean
+            cib-digital-ocean
           </div>
         </div>
         <div
@@ -3446,7 +3446,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDiaspora
+            cib-diaspora
           </div>
         </div>
         <div
@@ -3464,7 +3464,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDigg
+            cib-digg
           </div>
         </div>
         <div
@@ -3482,7 +3482,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDisqus
+            cib-disqus
           </div>
         </div>
         <div
@@ -3500,7 +3500,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDisroot
+            cib-disroot
           </div>
         </div>
         <div
@@ -3518,7 +3518,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDiscourse
+            cib-discourse
           </div>
         </div>
         <div
@@ -3536,7 +3536,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDocker
+            cib-docker
           </div>
         </div>
         <div
@@ -3554,7 +3554,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDiscover
+            cib-discover
           </div>
         </div>
         <div
@@ -3572,7 +3572,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDiscord
+            cib-discord
           </div>
         </div>
         <div
@@ -3590,7 +3590,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDocusign
+            cib-docusign
           </div>
         </div>
         <div
@@ -3608,7 +3608,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDjango
+            cib-django
           </div>
         </div>
         <div
@@ -3626,7 +3626,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDotNet
+            cib-dot-net
           </div>
         </div>
         <div
@@ -3644,7 +3644,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDrupal
+            cib-drupal
           </div>
         </div>
         <div
@@ -3662,7 +3662,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDribbble
+            cib-dribbble
           </div>
         </div>
         <div
@@ -3680,7 +3680,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDrone
+            cib-drone
           </div>
         </div>
         <div
@@ -3698,7 +3698,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDropbox
+            cib-dropbox
           </div>
         </div>
         <div
@@ -3716,7 +3716,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDraugiemLv
+            cib-draugiem-lv
           </div>
         </div>
         <div
@@ -3734,7 +3734,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDuckduckgo
+            cib-duckduckgo
           </div>
         </div>
         <div
@@ -3752,7 +3752,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDtube
+            cib-dtube
           </div>
         </div>
         <div
@@ -3770,7 +3770,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDynatrace
+            cib-dynatrace
           </div>
         </div>
         <div
@@ -3788,7 +3788,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEclipseide
+            cib-eclipseide
           </div>
         </div>
         <div
@@ -3806,7 +3806,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEbay
+            cib-ebay
           </div>
         </div>
         <div
@@ -3824,7 +3824,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibElasticCloud
+            cib-elastic-cloud
           </div>
         </div>
         <div
@@ -3842,7 +3842,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibElasticSearch
+            cib-elastic-search
           </div>
         </div>
         <div
@@ -3860,7 +3860,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibElasticStack
+            cib-elastic-stack
           </div>
         </div>
         <div
@@ -3878,7 +3878,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibElastic
+            cib-elastic
           </div>
         </div>
         <div
@@ -3896,7 +3896,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibElectron
+            cib-electron
           </div>
         </div>
         <div
@@ -3914,7 +3914,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibElementary
+            cib-elementary
           </div>
         </div>
         <div
@@ -3932,7 +3932,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEleventy
+            cib-eleventy
           </div>
         </div>
         <div
@@ -3950,7 +3950,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEmpirekred
+            cib-empirekred
           </div>
         </div>
         <div
@@ -3968,7 +3968,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEsea
+            cib-esea
           </div>
         </div>
         <div
@@ -3986,7 +3986,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEmlakjet
+            cib-emlakjet
           </div>
         </div>
         <div
@@ -4004,7 +4004,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEnvato
+            cib-envato
           </div>
         </div>
         <div
@@ -4022,7 +4022,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEllo
+            cib-ello
           </div>
         </div>
         <div
@@ -4040,7 +4040,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEslint
+            cib-eslint
           </div>
         </div>
         <div
@@ -4058,7 +4058,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEpson
+            cib-epson
           </div>
         </div>
         <div
@@ -4076,7 +4076,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEthereum
+            cib-ethereum
           </div>
         </div>
         <div
@@ -4094,7 +4094,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEventStore
+            cib-event-store
           </div>
         </div>
         <div
@@ -4112,7 +4112,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEverplaces
+            cib-everplaces
           </div>
         </div>
         <div
@@ -4130,7 +4130,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEtsy
+            cib-etsy
           </div>
         </div>
         <div
@@ -4148,7 +4148,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEventbrite
+            cib-eventbrite
           </div>
         </div>
         <div
@@ -4166,7 +4166,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEvernote
+            cib-evernote
           </div>
         </div>
         <div
@@ -4184,7 +4184,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEvry
+            cib-evry
           </div>
         </div>
         <div
@@ -4202,7 +4202,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibExpertsExchange
+            cib-experts-exchange
           </div>
         </div>
         <div
@@ -4220,7 +4220,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFSecure
+            cib-fsecure
           </div>
         </div>
         <div
@@ -4238,7 +4238,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibExercism
+            cib-exercism
           </div>
         </div>
         <div
@@ -4256,7 +4256,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibExpo
+            cib-expo
           </div>
         </div>
         <div
@@ -4274,7 +4274,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEyeem
+            cib-eyeem
           </div>
         </div>
         <div
@@ -4292,7 +4292,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFacebook
+            cib-facebook
           </div>
         </div>
         <div
@@ -4310,7 +4310,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFacebookF
+            cib-facebook-f
           </div>
         </div>
         <div
@@ -4328,7 +4328,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFaceit
+            cib-faceit
           </div>
         </div>
         <div
@@ -4346,7 +4346,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFandango
+            cib-fandango
           </div>
         </div>
         <div
@@ -4364,7 +4364,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFeathub
+            cib-feathub
           </div>
         </div>
         <div
@@ -4382,7 +4382,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFedora
+            cib-fedora
           </div>
         </div>
         <div
@@ -4400,7 +4400,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFedex
+            cib-fedex
           </div>
         </div>
         <div
@@ -4418,7 +4418,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFavro
+            cib-favro
           </div>
         </div>
         <div
@@ -4436,7 +4436,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFidoAlliance
+            cib-fido-alliance
           </div>
         </div>
         <div
@@ -4454,7 +4454,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFigma
+            cib-figma
           </div>
         </div>
         <div
@@ -4472,7 +4472,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFirebase
+            cib-firebase
           </div>
         </div>
         <div
@@ -4490,7 +4490,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFilezilla
+            cib-filezilla
           </div>
         </div>
         <div
@@ -4508,7 +4508,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFeedly
+            cib-feedly
           </div>
         </div>
         <div
@@ -4526,7 +4526,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFitbit
+            cib-fitbit
           </div>
         </div>
         <div
@@ -4544,7 +4544,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFoursquare
+            cib-foursquare
           </div>
         </div>
         <div
@@ -4562,7 +4562,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFlutter
+            cib-flutter
           </div>
         </div>
         <div
@@ -4580,7 +4580,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFlattr
+            cib-flattr
           </div>
         </div>
         <div
@@ -4598,7 +4598,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFnac
+            cib-fnac
           </div>
         </div>
         <div
@@ -4616,7 +4616,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFlickr
+            cib-flickr
           </div>
         </div>
         <div
@@ -4634,7 +4634,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFlipboard
+            cib-flipboard
           </div>
         </div>
         <div
@@ -4652,7 +4652,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFramer
+            cib-framer
           </div>
         </div>
         <div
@@ -4670,7 +4670,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFreebsd
+            cib-freebsd
           </div>
         </div>
         <div
@@ -4688,7 +4688,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFurAffinity
+            cib-fur-affinity
           </div>
         </div>
         <div
@@ -4706,7 +4706,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFreecodecamp
+            cib-freecodecamp
           </div>
         </div>
         <div
@@ -4724,7 +4724,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGarmin
+            cib-garmin
           </div>
         </div>
         <div
@@ -4742,7 +4742,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFurryNetwork
+            cib-furry-network
           </div>
         </div>
         <div
@@ -4760,7 +4760,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGauges
+            cib-gauges
           </div>
         </div>
         <div
@@ -4778,7 +4778,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGatsby
+            cib-gatsby
           </div>
         </div>
         <div
@@ -4796,7 +4796,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGenius
+            cib-genius
           </div>
         </div>
         <div
@@ -4814,7 +4814,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGentoo
+            cib-gentoo
           </div>
         </div>
         <div
@@ -4832,7 +4832,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGimp
+            cib-gimp
           </div>
         </div>
         <div
@@ -4850,7 +4850,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGeocaching
+            cib-geocaching
           </div>
         </div>
         <div
@@ -4868,7 +4868,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGhost
+            cib-ghost
           </div>
         </div>
         <div
@@ -4886,7 +4886,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGit
+            cib-git
           </div>
         </div>
         <div
@@ -4904,7 +4904,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGg
+            cib-gg
           </div>
         </div>
         <div
@@ -4922,7 +4922,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGitea
+            cib-gitea
           </div>
         </div>
         <div
@@ -4940,7 +4940,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGithub
+            cib-github
           </div>
         </div>
         <div
@@ -4958,7 +4958,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGitlab
+            cib-gitlab
           </div>
         </div>
         <div
@@ -4976,7 +4976,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGitkraken
+            cib-gitkraken
           </div>
         </div>
         <div
@@ -4994,7 +4994,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGitpod
+            cib-gitpod
           </div>
         </div>
         <div
@@ -5012,7 +5012,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGlassdoor
+            cib-glassdoor
           </div>
         </div>
         <div
@@ -5030,7 +5030,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGlitch
+            cib-glitch
           </div>
         </div>
         <div
@@ -5048,7 +5048,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGmail
+            cib-gmail
           </div>
         </div>
         <div
@@ -5066,7 +5066,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGitter
+            cib-gitter
           </div>
         </div>
         <div
@@ -5084,7 +5084,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGnuSocial
+            cib-gnu-social
           </div>
         </div>
         <div
@@ -5102,7 +5102,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGnuPrivacyGuard
+            cib-gnu-privacy-guard
           </div>
         </div>
         <div
@@ -5120,7 +5120,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGo
+            cib-go
           </div>
         </div>
         <div
@@ -5138,7 +5138,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGodotEngine
+            cib-godot-engine
           </div>
         </div>
         <div
@@ -5156,7 +5156,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGogCom
+            cib-gog-com
           </div>
         </div>
         <div
@@ -5174,7 +5174,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoodreads
+            cib-goodreads
           </div>
         </div>
         <div
@@ -5192,7 +5192,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoogleAds
+            cib-google-ads
           </div>
         </div>
         <div
@@ -5210,7 +5210,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoldenline
+            cib-goldenline
           </div>
         </div>
         <div
@@ -5228,7 +5228,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoogleAnalytics
+            cib-google-analytics
           </div>
         </div>
         <div
@@ -5246,7 +5246,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoogleAllo
+            cib-google-allo
           </div>
         </div>
         <div
@@ -5264,7 +5264,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoogleChrome
+            cib-google-chrome
           </div>
         </div>
         <div
@@ -5282,7 +5282,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGooglePodcasts
+            cib-google-podcasts
           </div>
         </div>
         <div
@@ -5300,7 +5300,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoogleKeep
+            cib-google-keep
           </div>
         </div>
         <div
@@ -5318,7 +5318,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoogleCloud
+            cib-google-cloud
           </div>
         </div>
         <div
@@ -5336,7 +5336,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGooglePlay
+            cib-google-play
           </div>
         </div>
         <div
@@ -5354,7 +5354,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGoogle
+            cib-google
           </div>
         </div>
         <div
@@ -5372,7 +5372,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGooglesCholar
+            cib-googles-cholar
           </div>
         </div>
         <div
@@ -5390,7 +5390,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGradle
+            cib-gradle
           </div>
         </div>
         <div
@@ -5408,7 +5408,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGooglePay
+            cib-google-pay
           </div>
         </div>
         <div
@@ -5426,7 +5426,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGovUk
+            cib-gov-uk
           </div>
         </div>
         <div
@@ -5444,7 +5444,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGraphcool
+            cib-graphcool
           </div>
         </div>
         <div
@@ -5462,7 +5462,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGrafana
+            cib-grafana
           </div>
         </div>
         <div
@@ -5480,7 +5480,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGreenkeeper
+            cib-greenkeeper
           </div>
         </div>
         <div
@@ -5498,7 +5498,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGrav
+            cib-grav
           </div>
         </div>
         <div
@@ -5516,7 +5516,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGraphql
+            cib-graphql
           </div>
         </div>
         <div
@@ -5534,7 +5534,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGrunt
+            cib-grunt
           </div>
         </div>
         <div
@@ -5552,7 +5552,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGravatar
+            cib-gravatar
           </div>
         </div>
         <div
@@ -5570,7 +5570,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGulp
+            cib-gulp
           </div>
         </div>
         <div
@@ -5588,7 +5588,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGroovy
+            cib-groovy
           </div>
         </div>
         <div
@@ -5606,7 +5606,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHabr
+            cib-habr
           </div>
         </div>
         <div
@@ -5624,7 +5624,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGumroad
+            cib-gumroad
           </div>
         </div>
         <div
@@ -5642,7 +5642,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGroupon
+            cib-groupon
           </div>
         </div>
         <div
@@ -5660,7 +5660,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGumtree
+            cib-gumtree
           </div>
         </div>
         <div
@@ -5678,7 +5678,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHackerearth
+            cib-hackerearth
           </div>
         </div>
         <div
@@ -5696,7 +5696,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHackaday
+            cib-hackaday
           </div>
         </div>
         <div
@@ -5714,7 +5714,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHackhands
+            cib-hackhands
           </div>
         </div>
         <div
@@ -5732,7 +5732,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHackerone
+            cib-hackerone
           </div>
         </div>
         <div
@@ -5750,7 +5750,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHappycow
+            cib-happycow
           </div>
         </div>
         <div
@@ -5768,7 +5768,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHashnode
+            cib-hashnode
           </div>
         </div>
         <div
@@ -5786,7 +5786,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHackster
+            cib-hackster
           </div>
         </div>
         <div
@@ -5804,7 +5804,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHaxe
+            cib-haxe
           </div>
         </div>
         <div
@@ -5822,7 +5822,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHackerrank
+            cib-hackerrank
           </div>
         </div>
         <div
@@ -5840,7 +5840,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHatenaBookmark
+            cib-hatena-bookmark
           </div>
         </div>
         <div
@@ -5858,7 +5858,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHelm
+            cib-helm
           </div>
         </div>
         <div
@@ -5876,7 +5876,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHaskell
+            cib-haskell
           </div>
         </div>
         <div
@@ -5894,7 +5894,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHighly
+            cib-highly
           </div>
         </div>
         <div
@@ -5912,7 +5912,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHere
+            cib-here
           </div>
         </div>
         <div
@@ -5930,7 +5930,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHeroku
+            cib-heroku
           </div>
         </div>
         <div
@@ -5948,7 +5948,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHexo
+            cib-hexo
           </div>
         </div>
         <div
@@ -5966,7 +5966,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHipchat
+            cib-hipchat
           </div>
         </div>
         <div
@@ -5984,7 +5984,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHockeyapp
+            cib-hockeyapp
           </div>
         </div>
         <div
@@ -6002,7 +6002,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHitachi
+            cib-hitachi
           </div>
         </div>
         <div
@@ -6020,7 +6020,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHotjar
+            cib-hotjar
           </div>
         </div>
         <div
@@ -6038,7 +6038,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHootsuite
+            cib-hootsuite
           </div>
         </div>
         <div
@@ -6056,7 +6056,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHouzz
+            cib-houzz
           </div>
         </div>
         <div
@@ -6074,7 +6074,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHomify
+            cib-homify
           </div>
         </div>
         <div
@@ -6092,7 +6092,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHtml5Shield
+            cib-html-5shield
           </div>
         </div>
         <div
@@ -6110,7 +6110,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHtml5
+            cib-html-5
           </div>
         </div>
         <div
@@ -6128,7 +6128,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHp
+            cib-hp
           </div>
         </div>
         <div
@@ -6146,7 +6146,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHubspot
+            cib-hubspot
           </div>
         </div>
         <div
@@ -6164,7 +6164,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHulu
+            cib-hulu
           </div>
         </div>
         <div
@@ -6182,7 +6182,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHuawei
+            cib-huawei
           </div>
         </div>
         <div
@@ -6200,7 +6200,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIata
+            cib-iata
           </div>
         </div>
         <div
@@ -6218,7 +6218,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIbm
+            cib-ibm
           </div>
         </div>
         <div
@@ -6236,7 +6236,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHtmlacademy
+            cib-htmlacademy
           </div>
         </div>
         <div
@@ -6254,7 +6254,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibHumbleBundle
+            cib-humble-bundle
           </div>
         </div>
         <div
@@ -6272,7 +6272,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIconjar
+            cib-iconjar
           </div>
         </div>
         <div
@@ -6290,7 +6290,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIcq
+            cib-icq
           </div>
         </div>
         <div
@@ -6308,7 +6308,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIdeal
+            cib-ideal
           </div>
         </div>
         <div
@@ -6326,7 +6326,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIcloud
+            cib-icloud
           </div>
         </div>
         <div
@@ -6344,7 +6344,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIfixit
+            cib-ifixit
           </div>
         </div>
         <div
@@ -6362,7 +6362,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIndeed
+            cib-indeed
           </div>
         </div>
         <div
@@ -6380,7 +6380,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibInkscape
+            cib-inkscape
           </div>
         </div>
         <div
@@ -6398,7 +6398,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibImdb
+            cib-imdb
           </div>
         </div>
         <div
@@ -6416,7 +6416,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibInstagram
+            cib-instagram
           </div>
         </div>
         <div
@@ -6434,7 +6434,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibInstapaper
+            cib-instapaper
           </div>
         </div>
         <div
@@ -6452,7 +6452,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibInstacart
+            cib-instacart
           </div>
         </div>
         <div
@@ -6470,7 +6470,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIntellijidea
+            cib-intellijidea
           </div>
         </div>
         <div
@@ -6488,7 +6488,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibInternetExplorer
+            cib-internet-explorer
           </div>
         </div>
         <div
@@ -6506,7 +6506,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIntel
+            cib-intel
           </div>
         </div>
         <div
@@ -6524,7 +6524,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJabber
+            cib-jabber
           </div>
         </div>
         <div
@@ -6542,7 +6542,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIntercom
+            cib-intercom
           </div>
         </div>
         <div
@@ -6560,7 +6560,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIonic
+            cib-ionic
           </div>
         </div>
         <div
@@ -6578,7 +6578,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibInvision
+            cib-invision
           </div>
         </div>
         <div
@@ -6596,7 +6596,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibIssuu
+            cib-issuu
           </div>
         </div>
         <div
@@ -6614,7 +6614,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJavascript
+            cib-javascript
           </div>
         </div>
         <div
@@ -6632,7 +6632,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibItchIo
+            cib-itch-io
           </div>
         </div>
         <div
@@ -6650,7 +6650,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJava
+            cib-java
           </div>
         </div>
         <div
@@ -6668,7 +6668,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJest
+            cib-jest
           </div>
         </div>
         <div
@@ -6686,7 +6686,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJekyll
+            cib-jekyll
           </div>
         </div>
         <div
@@ -6704,7 +6704,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJenkins
+            cib-jenkins
           </div>
         </div>
         <div
@@ -6722,7 +6722,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJetbrains
+            cib-jetbrains
           </div>
         </div>
         <div
@@ -6740,7 +6740,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJet
+            cib-jet
           </div>
         </div>
         <div
@@ -6758,7 +6758,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJoomla
+            cib-joomla
           </div>
         </div>
         <div
@@ -6776,7 +6776,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJquery
+            cib-jquery
           </div>
         </div>
         <div
@@ -6794,7 +6794,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJs
+            cib-js
           </div>
         </div>
         <div
@@ -6812,7 +6812,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJira
+            cib-jira
           </div>
         </div>
         <div
@@ -6830,7 +6830,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJsdelivr
+            cib-jsdelivr
           </div>
         </div>
         <div
@@ -6848,7 +6848,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJupyter
+            cib-jupyter
           </div>
         </div>
         <div
@@ -6866,7 +6866,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJsfiddle
+            cib-jsfiddle
           </div>
         </div>
         <div
@@ -6884,7 +6884,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJson
+            cib-json
           </div>
         </div>
         <div
@@ -6902,7 +6902,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibJustgiving
+            cib-justgiving
           </div>
         </div>
         <div
@@ -6920,7 +6920,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKaios
+            cib-kaios
           </div>
         </div>
         <div
@@ -6938,7 +6938,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKaggle
+            cib-kaggle
           </div>
         </div>
         <div
@@ -6956,7 +6956,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKaspersky
+            cib-kaspersky
           </div>
         </div>
         <div
@@ -6974,7 +6974,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKentico
+            cib-kentico
           </div>
         </div>
         <div
@@ -6992,7 +6992,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKeybase
+            cib-keybase
           </div>
         </div>
         <div
@@ -7010,7 +7010,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKeras
+            cib-keras
           </div>
         </div>
         <div
@@ -7028,7 +7028,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKeycdn
+            cib-keycdn
           </div>
         </div>
         <div
@@ -7046,7 +7046,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKickstarter
+            cib-kickstarter
           </div>
         </div>
         <div
@@ -7064,7 +7064,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKhanAcademy
+            cib-khan-academy
           </div>
         </div>
         <div
@@ -7082,7 +7082,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKibana
+            cib-kibana
           </div>
         </div>
         <div
@@ -7100,7 +7100,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKirby
+            cib-kirby
           </div>
         </div>
         <div
@@ -7118,7 +7118,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKik
+            cib-kik
           </div>
         </div>
         <div
@@ -7136,7 +7136,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKnown
+            cib-known
           </div>
         </div>
         <div
@@ -7154,7 +7154,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKlout
+            cib-klout
           </div>
         </div>
         <div
@@ -7172,7 +7172,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKoFi
+            cib-ko-fi
           </div>
         </div>
         <div
@@ -7190,7 +7190,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKoding
+            cib-koding
           </div>
         </div>
         <div
@@ -7208,7 +7208,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLanyrd
+            cib-lanyrd
           </div>
         </div>
         <div
@@ -7226,7 +7226,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKubernetes
+            cib-kubernetes
           </div>
         </div>
         <div
@@ -7244,7 +7244,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKodi
+            cib-kodi
           </div>
         </div>
         <div
@@ -7262,7 +7262,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKotlin
+            cib-kotlin
           </div>
         </div>
         <div
@@ -7280,7 +7280,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibKrita
+            cib-krita
           </div>
         </div>
         <div
@@ -7298,7 +7298,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLaravelHorizon
+            cib-laravel-horizon
           </div>
         </div>
         <div
@@ -7316,7 +7316,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLastFm
+            cib-last-fm
           </div>
         </div>
         <div
@@ -7334,7 +7334,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLaravelNova
+            cib-laravel-nova
           </div>
         </div>
         <div
@@ -7352,7 +7352,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLaunchpad
+            cib-launchpad
           </div>
         </div>
         <div
@@ -7370,7 +7370,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLaravel
+            cib-laravel
           </div>
         </div>
         <div
@@ -7388,7 +7388,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLatex
+            cib-latex
           </div>
         </div>
         <div
@@ -7406,7 +7406,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLenovo
+            cib-lenovo
           </div>
         </div>
         <div
@@ -7424,7 +7424,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLeetcode
+            cib-leetcode
           </div>
         </div>
         <div
@@ -7442,7 +7442,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLetsEncrypt
+            cib-lets-encrypt
           </div>
         </div>
         <div
@@ -7460,7 +7460,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLine
+            cib-line
           </div>
         </div>
         <div
@@ -7478,7 +7478,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLiberapay
+            cib-liberapay
           </div>
         </div>
         <div
@@ -7496,7 +7496,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLess
+            cib-less
           </div>
         </div>
         <div
@@ -7514,7 +7514,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLetterboxd
+            cib-letterboxd
           </div>
         </div>
         <div
@@ -7532,7 +7532,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLgtm
+            cib-lgtm
           </div>
         </div>
         <div
@@ -7550,7 +7550,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLibrarything
+            cib-librarything
           </div>
         </div>
         <div
@@ -7568,7 +7568,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLinkedin
+            cib-linkedin
           </div>
         </div>
         <div
@@ -7586,7 +7586,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLinkedinIn
+            cib-linkedin-in
           </div>
         </div>
         <div
@@ -7604,7 +7604,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLibreoffice
+            cib-libreoffice
           </div>
         </div>
         <div
@@ -7622,7 +7622,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLinuxMint
+            cib-linux-mint
           </div>
         </div>
         <div
@@ -7640,7 +7640,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLogstash
+            cib-logstash
           </div>
         </div>
         <div
@@ -7658,7 +7658,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLivejournal
+            cib-livejournal
           </div>
         </div>
         <div
@@ -7676,7 +7676,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLua
+            cib-lua
           </div>
         </div>
         <div
@@ -7694,7 +7694,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLinuxFoundation
+            cib-linux-foundation
           </div>
         </div>
         <div
@@ -7712,7 +7712,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLinux
+            cib-linux
           </div>
         </div>
         <div
@@ -7730,7 +7730,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLivestream
+            cib-livestream
           </div>
         </div>
         <div
@@ -7748,7 +7748,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMacys
+            cib-macys
           </div>
         </div>
         <div
@@ -7766,7 +7766,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLumen
+            cib-lumen
           </div>
         </div>
         <div
@@ -7784,7 +7784,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibLyft
+            cib-lyft
           </div>
         </div>
         <div
@@ -7802,7 +7802,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMagento
+            cib-magento
           </div>
         </div>
         <div
@@ -7820,7 +7820,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMailRu
+            cib-mail-ru
           </div>
         </div>
         <div
@@ -7838,7 +7838,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMagisk
+            cib-magisk
           </div>
         </div>
         <div
@@ -7856,7 +7856,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMakerbot
+            cib-makerbot
           </div>
         </div>
         <div
@@ -7874,7 +7874,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMailchimp
+            cib-mailchimp
           </div>
         </div>
         <div
@@ -7892,7 +7892,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibManjaro
+            cib-manjaro
           </div>
         </div>
         <div
@@ -7910,7 +7910,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMarketo
+            cib-marketo
           </div>
         </div>
         <div
@@ -7928,7 +7928,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMaterialDesign
+            cib-material-design
           </div>
         </div>
         <div
@@ -7946,7 +7946,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMarkdown
+            cib-markdown
           </div>
         </div>
         <div
@@ -7964,7 +7964,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMastercard
+            cib-mastercard
           </div>
         </div>
         <div
@@ -7982,7 +7982,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMastodon
+            cib-mastodon
           </div>
         </div>
         <div
@@ -8000,7 +8000,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMatrix
+            cib-matrix
           </div>
         </div>
         <div
@@ -8018,7 +8018,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMattermost
+            cib-mattermost
           </div>
         </div>
         <div
@@ -8036,7 +8036,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMatternet
+            cib-matternet
           </div>
         </div>
         <div
@@ -8054,7 +8054,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMathworks
+            cib-mathworks
           </div>
         </div>
         <div
@@ -8072,7 +8072,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMcafee
+            cib-mcafee
           </div>
         </div>
         <div
@@ -8090,7 +8090,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMediumM
+            cib-medium-m
           </div>
         </div>
         <div
@@ -8108,7 +8108,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMaxcdn
+            cib-maxcdn
           </div>
         </div>
         <div
@@ -8126,7 +8126,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMedium
+            cib-medium
           </div>
         </div>
         <div
@@ -8144,7 +8144,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMediaTemple
+            cib-media-temple
           </div>
         </div>
         <div
@@ -8162,7 +8162,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMeteor
+            cib-meteor
           </div>
         </div>
         <div
@@ -8180,7 +8180,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMediafire
+            cib-mediafire
           </div>
         </div>
         <div
@@ -8198,7 +8198,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMendeley
+            cib-mendeley
           </div>
         </div>
         <div
@@ -8216,7 +8216,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMeetup
+            cib-meetup
           </div>
         </div>
         <div
@@ -8234,7 +8234,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMega
+            cib-mega
           </div>
         </div>
         <div
@@ -8252,7 +8252,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMicroBlog
+            cib-micro-blog
           </div>
         </div>
         <div
@@ -8270,7 +8270,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMessenger
+            cib-messenger
           </div>
         </div>
         <div
@@ -8288,7 +8288,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMicrogenetics
+            cib-microgenetics
           </div>
         </div>
         <div
@@ -8306,7 +8306,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMicrosoft
+            cib-microsoft
           </div>
         </div>
         <div
@@ -8324,7 +8324,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMinutemailer
+            cib-minutemailer
           </div>
         </div>
         <div
@@ -8342,7 +8342,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMix
+            cib-mix
           </div>
         </div>
         <div
@@ -8360,7 +8360,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMixcloud
+            cib-mixcloud
           </div>
         </div>
         <div
@@ -8378,7 +8378,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMicrosoftEdge
+            cib-microsoft-edge
           </div>
         </div>
         <div
@@ -8396,7 +8396,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMixer
+            cib-mixer
           </div>
         </div>
         <div
@@ -8414,7 +8414,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMinetest
+            cib-minetest
           </div>
         </div>
         <div
@@ -8432,7 +8432,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMonero
+            cib-monero
           </div>
         </div>
         <div
@@ -8450,7 +8450,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMonogram
+            cib-monogram
           </div>
         </div>
         <div
@@ -8468,7 +8468,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMojang
+            cib-mojang
           </div>
         </div>
         <div
@@ -8486,7 +8486,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMonkeytie
+            cib-monkeytie
           </div>
         </div>
         <div
@@ -8504,7 +8504,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMxlinux
+            cib-mxlinux
           </div>
         </div>
         <div
@@ -8522,7 +8522,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMoo
+            cib-moo
           </div>
         </div>
         <div
@@ -8540,7 +8540,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMozillaFirefox
+            cib-mozilla-firefox
           </div>
         </div>
         <div
@@ -8558,7 +8558,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMongodb
+            cib-mongodb
           </div>
         </div>
         <div
@@ -8576,7 +8576,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMonzo
+            cib-monzo
           </div>
         </div>
         <div
@@ -8594,7 +8594,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMyspace
+            cib-myspace
           </div>
         </div>
         <div
@@ -8612,7 +8612,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMusescore
+            cib-musescore
           </div>
         </div>
         <div
@@ -8630,7 +8630,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMozilla
+            cib-mozilla
           </div>
         </div>
         <div
@@ -8648,7 +8648,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibMysql
+            cib-mysql
           </div>
         </div>
         <div
@@ -8666,7 +8666,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNativescript
+            cib-nativescript
           </div>
         </div>
         <div
@@ -8684,7 +8684,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNeo4j
+            cib-neo-4j
           </div>
         </div>
         <div
@@ -8702,7 +8702,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNec
+            cib-nec
           </div>
         </div>
         <div
@@ -8720,7 +8720,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNextJs
+            cib-next-js
           </div>
         </div>
         <div
@@ -8738,7 +8738,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNextdoor
+            cib-nextdoor
           </div>
         </div>
         <div
@@ -8756,7 +8756,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNintendoGamecube
+            cib-nintendo-gamecube
           </div>
         </div>
         <div
@@ -8774,7 +8774,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNetlify
+            cib-netlify
           </div>
         </div>
         <div
@@ -8792,7 +8792,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNextcloud
+            cib-nextcloud
           </div>
         </div>
         <div
@@ -8810,7 +8810,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNetflix
+            cib-netflix
           </div>
         </div>
         <div
@@ -8828,7 +8828,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNginx
+            cib-nginx
           </div>
         </div>
         <div
@@ -8846,7 +8846,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNim
+            cib-nim
           </div>
         </div>
         <div
@@ -8864,7 +8864,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNintendoSwitch
+            cib-nintendo-switch
           </div>
         </div>
         <div
@@ -8882,7 +8882,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNintendo3ds
+            cib-nintendo-3ds
           </div>
         </div>
         <div
@@ -8900,7 +8900,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNodeRed
+            cib-node-red
           </div>
         </div>
         <div
@@ -8918,7 +8918,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNodeJs
+            cib-node-js
           </div>
         </div>
         <div
@@ -8936,7 +8936,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNodemon
+            cib-nodemon
           </div>
         </div>
         <div
@@ -8954,7 +8954,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNokia
+            cib-nokia
           </div>
         </div>
         <div
@@ -8972,7 +8972,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNintendo
+            cib-nintendo
           </div>
         </div>
         <div
@@ -8990,7 +8990,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNucleo
+            cib-nucleo
           </div>
         </div>
         <div
@@ -9008,7 +9008,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNuxtJs
+            cib-nuxt-js
           </div>
         </div>
         <div
@@ -9026,7 +9026,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNotion
+            cib-notion
           </div>
         </div>
         <div
@@ -9044,7 +9044,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOcaml
+            cib-ocaml
           </div>
         </div>
         <div
@@ -9062,7 +9062,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNpm
+            cib-npm
           </div>
         </div>
         <div
@@ -9080,7 +9080,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNvidia
+            cib-nvidia
           </div>
         </div>
         <div
@@ -9098,7 +9098,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOctave
+            cib-octave
           </div>
         </div>
         <div
@@ -9116,7 +9116,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibNuget
+            cib-nuget
           </div>
         </div>
         <div
@@ -9134,7 +9134,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOctopusDeploy
+            cib-octopus-deploy
           </div>
         </div>
         <div
@@ -9152,7 +9152,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOdnoklassniki
+            cib-odnoklassniki
           </div>
         </div>
         <div
@@ -9170,7 +9170,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOculus
+            cib-oculus
           </div>
         </div>
         <div
@@ -9188,7 +9188,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpenAccess
+            cib-open-access
           </div>
         </div>
         <div
@@ -9206,7 +9206,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpenCollective
+            cib-open-collective
           </div>
         </div>
         <div
@@ -9224,7 +9224,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpenstreetmap
+            cib-openstreetmap
           </div>
         </div>
         <div
@@ -9242,7 +9242,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpenSourceInitiative
+            cib-open-source-initiative
           </div>
         </div>
         <div
@@ -9260,7 +9260,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpensuse
+            cib-opensuse
           </div>
         </div>
         <div
@@ -9278,7 +9278,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpera
+            cib-opera
           </div>
         </div>
         <div
@@ -9296,7 +9296,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpenId
+            cib-open-id
           </div>
         </div>
         <div
@@ -9314,7 +9314,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpenvpn
+            cib-openvpn
           </div>
         </div>
         <div
@@ -9332,7 +9332,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOracle
+            cib-oracle
           </div>
         </div>
         <div
@@ -9350,7 +9350,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOpsgenie
+            cib-opsgenie
           </div>
         </div>
         <div
@@ -9368,7 +9368,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOrcid
+            cib-orcid
           </div>
         </div>
         <div
@@ -9386,7 +9386,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOvercast
+            cib-overcast
           </div>
         </div>
         <div
@@ -9404,7 +9404,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOrigin
+            cib-origin
           </div>
         </div>
         <div
@@ -9422,7 +9422,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOsi
+            cib-osi
           </div>
         </div>
         <div
@@ -9440,7 +9440,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPagekit
+            cib-pagekit
           </div>
         </div>
         <div
@@ -9458,7 +9458,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOverleaf
+            cib-overleaf
           </div>
         </div>
         <div
@@ -9476,7 +9476,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOsmc
+            cib-osmc
           </div>
         </div>
         <div
@@ -9494,7 +9494,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibOvh
+            cib-ovh
           </div>
         </div>
         <div
@@ -9512,7 +9512,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPalantir
+            cib-palantir
           </div>
         </div>
         <div
@@ -9530,7 +9530,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPatreon
+            cib-patreon
           </div>
         </div>
         <div
@@ -9548,7 +9548,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPantheon
+            cib-pantheon
           </div>
         </div>
         <div
@@ -9566,7 +9566,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPeriscope
+            cib-periscope
           </div>
         </div>
         <div
@@ -9584,7 +9584,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPhp
+            cib-php
           </div>
         </div>
         <div
@@ -9602,7 +9602,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPaypal
+            cib-paypal
           </div>
         </div>
         <div
@@ -9620,7 +9620,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPicartoTv
+            cib-picarto-tv
           </div>
         </div>
         <div
@@ -9638,7 +9638,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPinterestP
+            cib-pinterest-p
           </div>
         </div>
         <div
@@ -9656,7 +9656,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPinboard
+            cib-pinboard
           </div>
         </div>
         <div
@@ -9674,7 +9674,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPinterest
+            cib-pinterest
           </div>
         </div>
         <div
@@ -9692,7 +9692,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPivotaltracker
+            cib-pivotaltracker
           </div>
         </div>
         <div
@@ -9710,7 +9710,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPingdom
+            cib-pingdom
           </div>
         </div>
         <div
@@ -9728,7 +9728,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPingup
+            cib-pingup
           </div>
         </div>
         <div
@@ -9746,7 +9746,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlayerMe
+            cib-player-me
           </div>
         </div>
         <div
@@ -9764,7 +9764,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlangrid
+            cib-plangrid
           </div>
         </div>
         <div
@@ -9782,7 +9782,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlaystation3
+            cib-playstation-3
           </div>
         </div>
         <div
@@ -9800,7 +9800,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPandora
+            cib-pandora
           </div>
         </div>
         <div
@@ -9818,7 +9818,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlayerfm
+            cib-playerfm
           </div>
         </div>
         <div
@@ -9836,7 +9836,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlex
+            cib-plex
           </div>
         </div>
         <div
@@ -9854,7 +9854,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPluralsight
+            cib-pluralsight
           </div>
         </div>
         <div
@@ -9872,7 +9872,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlaystation
+            cib-playstation
           </div>
         </div>
         <div
@@ -9890,7 +9890,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlesk
+            cib-plesk
           </div>
         </div>
         <div
@@ -9908,7 +9908,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlurk
+            cib-plurk
           </div>
         </div>
         <div
@@ -9926,7 +9926,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPlaystation4
+            cib-playstation-4
           </div>
         </div>
         <div
@@ -9944,7 +9944,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPostgresql
+            cib-postgresql
           </div>
         </div>
         <div
@@ -9962,7 +9962,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPocket
+            cib-pocket
           </div>
         </div>
         <div
@@ -9980,7 +9980,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPostwoman
+            cib-postwoman
           </div>
         </div>
         <div
@@ -9998,7 +9998,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPostman
+            cib-postman
           </div>
         </div>
         <div
@@ -10016,7 +10016,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibProbot
+            cib-probot
           </div>
         </div>
         <div
@@ -10034,7 +10034,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPrismic
+            cib-prismic
           </div>
         </div>
         <div
@@ -10052,7 +10052,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibProductHunt
+            cib-product-hunt
           </div>
         </div>
         <div
@@ -10070,7 +10070,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPowershell
+            cib-powershell
           </div>
         </div>
         <div
@@ -10088,7 +10088,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPrettier
+            cib-prettier
           </div>
         </div>
         <div
@@ -10106,7 +10106,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibProtonmail
+            cib-protonmail
           </div>
         </div>
         <div
@@ -10124,7 +10124,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibProcesswire
+            cib-processwire
           </div>
         </div>
         <div
@@ -10142,7 +10142,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibProxmox
+            cib-proxmox
           </div>
         </div>
         <div
@@ -10160,7 +10160,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibProtoIo
+            cib-proto-io
           </div>
         </div>
         <div
@@ -10178,7 +10178,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPython
+            cib-python
           </div>
         </div>
         <div
@@ -10196,7 +10196,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQgis
+            cib-qgis
           </div>
         </div>
         <div
@@ -10214,7 +10214,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPypi
+            cib-pypi
           </div>
         </div>
         <div
@@ -10232,7 +10232,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQualcomm
+            cib-qualcomm
           </div>
         </div>
         <div
@@ -10250,7 +10250,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQiita
+            cib-qiita
           </div>
         </div>
         <div
@@ -10268,7 +10268,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibPytorch
+            cib-pytorch
           </div>
         </div>
         <div
@@ -10286,7 +10286,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQq
+            cib-qq
           </div>
         </div>
         <div
@@ -10304,7 +10304,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQuantopian
+            cib-quantopian
           </div>
         </div>
         <div
@@ -10322,7 +10322,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQuantcast
+            cib-quantcast
           </div>
         </div>
         <div
@@ -10340,7 +10340,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQwiklabs
+            cib-qwiklabs
           </div>
         </div>
         <div
@@ -10358,7 +10358,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQzone
+            cib-qzone
           </div>
         </div>
         <div
@@ -10376,7 +10376,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRadiopublic
+            cib-radiopublic
           </div>
         </div>
         <div
@@ -10394,7 +10394,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQuarkus
+            cib-quarkus
           </div>
         </div>
         <div
@@ -10412,7 +10412,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibQuora
+            cib-quora
           </div>
         </div>
         <div
@@ -10430,7 +10430,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibReact
+            cib-react
           </div>
         </div>
         <div
@@ -10448,7 +10448,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRaspberryPi
+            cib-raspberry-pi
           </div>
         </div>
         <div
@@ -10466,7 +10466,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibR
+            cib-r
           </div>
         </div>
         <div
@@ -10484,7 +10484,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRails
+            cib-rails
           </div>
         </div>
         <div
@@ -10502,7 +10502,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibReadTheDocs
+            cib-read-the-docs
           </div>
         </div>
         <div
@@ -10520,7 +10520,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRedbubble
+            cib-redbubble
           </div>
         </div>
         <div
@@ -10538,7 +10538,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibReadme
+            cib-readme
           </div>
         </div>
         <div
@@ -10556,7 +10556,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRealm
+            cib-realm
           </div>
         </div>
         <div
@@ -10574,7 +10574,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibReason
+            cib-reason
           </div>
         </div>
         <div
@@ -10592,7 +10592,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRedditAlt
+            cib-reddit-alt
           </div>
         </div>
         <div
@@ -10610,7 +10610,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRedhat
+            cib-redhat
           </div>
         </div>
         <div
@@ -10628,7 +10628,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRenren
+            cib-renren
           </div>
         </div>
         <div
@@ -10646,7 +10646,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibReddit
+            cib-reddit
           </div>
         </div>
         <div
@@ -10664,7 +10664,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRedis
+            cib-redis
           </div>
         </div>
         <div
@@ -10682,7 +10682,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRedux
+            cib-redux
           </div>
         </div>
         <div
@@ -10700,7 +10700,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibReverbnation
+            cib-reverbnation
           </div>
         </div>
         <div
@@ -10718,7 +10718,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRiot
+            cib-riot
           </div>
         </div>
         <div
@@ -10736,7 +10736,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRiseup
+            cib-riseup
           </div>
         </div>
         <div
@@ -10754,7 +10754,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRipple
+            cib-ripple
           </div>
         </div>
         <div
@@ -10772,7 +10772,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRoots
+            cib-roots
           </div>
         </div>
         <div
@@ -10790,7 +10790,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRoundcube
+            cib-roundcube
           </div>
         </div>
         <div
@@ -10808,7 +10808,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRss
+            cib-rss
           </div>
         </div>
         <div
@@ -10826,7 +10826,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRunkeeper
+            cib-runkeeper
           </div>
         </div>
         <div
@@ -10844,7 +10844,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRollupJs
+            cib-rollup-js
           </div>
         </div>
         <div
@@ -10862,7 +10862,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRuby
+            cib-ruby
           </div>
         </div>
         <div
@@ -10880,7 +10880,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSahibinden
+            cib-sahibinden
           </div>
         </div>
         <div
@@ -10898,7 +10898,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRstudio
+            cib-rstudio
           </div>
         </div>
         <div
@@ -10916,7 +10916,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRust
+            cib-rust
           </div>
         </div>
         <div
@@ -10934,7 +10934,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSalesforce
+            cib-salesforce
           </div>
         </div>
         <div
@@ -10952,7 +10952,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSafari
+            cib-safari
           </div>
         </div>
         <div
@@ -10970,7 +10970,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSap
+            cib-sap
           </div>
         </div>
         <div
@@ -10988,7 +10988,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibRubygems
+            cib-rubygems
           </div>
         </div>
         <div
@@ -11006,7 +11006,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSaltstack
+            cib-saltstack
           </div>
         </div>
         <div
@@ -11024,7 +11024,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSamsung
+            cib-samsung
           </div>
         </div>
         <div
@@ -11042,7 +11042,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSamsungPay
+            cib-samsung-pay
           </div>
         </div>
         <div
@@ -11060,7 +11060,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibScala
+            cib-scala
           </div>
         </div>
         <div
@@ -11078,7 +11078,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSassAlt
+            cib-sass-alt
           </div>
         </div>
         <div
@@ -11096,7 +11096,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSass
+            cib-sass
           </div>
         </div>
         <div
@@ -11114,7 +11114,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSaucelabs
+            cib-saucelabs
           </div>
         </div>
         <div
@@ -11132,7 +11132,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibScribd
+            cib-scribd
           </div>
         </div>
         <div
@@ -11150,7 +11150,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibScaleway
+            cib-scaleway
           </div>
         </div>
         <div
@@ -11168,7 +11168,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSega
+            cib-sega
           </div>
         </div>
         <div
@@ -11186,7 +11186,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibScrutinizerci
+            cib-scrutinizerci
           </div>
         </div>
         <div
@@ -11204,7 +11204,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSeagate
+            cib-seagate
           </div>
         </div>
         <div
@@ -11222,7 +11222,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSellfy
+            cib-sellfy
           </div>
         </div>
         <div
@@ -11240,7 +11240,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSemaphoreci
+            cib-semaphoreci
           </div>
         </div>
         <div
@@ -11258,7 +11258,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSensu
+            cib-sensu
           </div>
         </div>
         <div
@@ -11276,7 +11276,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibServerFault
+            cib-server-fault
           </div>
         </div>
         <div
@@ -11294,7 +11294,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSentry
+            cib-sentry
           </div>
         </div>
         <div
@@ -11312,7 +11312,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibShopify
+            cib-shopify
           </div>
         </div>
         <div
@@ -11330,7 +11330,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibShazam
+            cib-shazam
           </div>
         </div>
         <div
@@ -11348,7 +11348,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibShell
+            cib-shell
           </div>
         </div>
         <div
@@ -11366,7 +11366,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSiemens
+            cib-siemens
           </div>
         </div>
         <div
@@ -11384,7 +11384,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibShowpad
+            cib-showpad
           </div>
         </div>
         <div
@@ -11402,7 +11402,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSinaWeibo
+            cib-sina-weibo
           </div>
         </div>
         <div
@@ -11420,7 +11420,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSitepoint
+            cib-sitepoint
           </div>
         </div>
         <div
@@ -11438,7 +11438,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSignal
+            cib-signal
           </div>
         </div>
         <div
@@ -11456,7 +11456,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSkyliner
+            cib-skyliner
           </div>
         </div>
         <div
@@ -11474,7 +11474,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSkype
+            cib-skype
           </div>
         </div>
         <div
@@ -11492,7 +11492,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSkillshare
+            cib-skillshare
           </div>
         </div>
         <div
@@ -11510,7 +11510,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSketch
+            cib-sketch
           </div>
         </div>
         <div
@@ -11528,7 +11528,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSlashdot
+            cib-slashdot
           </div>
         </div>
         <div
@@ -11546,7 +11546,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSlack
+            cib-slack
           </div>
         </div>
         <div
@@ -11564,7 +11564,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSlideshare
+            cib-slideshare
           </div>
         </div>
         <div
@@ -11582,7 +11582,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSlickpic
+            cib-slickpic
           </div>
         </div>
         <div
@@ -11600,7 +11600,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSlides
+            cib-slides
           </div>
         </div>
         <div
@@ -11618,7 +11618,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSmashingmagazine
+            cib-smashingmagazine
           </div>
         </div>
         <div
@@ -11636,7 +11636,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSnyk
+            cib-snyk
           </div>
         </div>
         <div
@@ -11654,7 +11654,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSociety6
+            cib-society-6
           </div>
         </div>
         <div
@@ -11672,7 +11672,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSnapcraft
+            cib-snapcraft
           </div>
         </div>
         <div
@@ -11690,7 +11690,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSnapchat
+            cib-snapchat
           </div>
         </div>
         <div
@@ -11708,7 +11708,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSogou
+            cib-sogou
           </div>
         </div>
         <div
@@ -11726,7 +11726,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSocketIo
+            cib-socket-io
           </div>
         </div>
         <div
@@ -11744,7 +11744,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSongkick
+            cib-songkick
           </div>
         </div>
         <div
@@ -11762,7 +11762,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSonos
+            cib-sonos
           </div>
         </div>
         <div
@@ -11780,7 +11780,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSolus
+            cib-solus
           </div>
         </div>
         <div
@@ -11798,7 +11798,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSoundcloud
+            cib-soundcloud
           </div>
         </div>
         <div
@@ -11816,7 +11816,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSourceforge
+            cib-sourceforge
           </div>
         </div>
         <div
@@ -11834,7 +11834,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSourcegraph
+            cib-sourcegraph
           </div>
         </div>
         <div
@@ -11852,7 +11852,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpacex
+            cib-spacex
           </div>
         </div>
         <div
@@ -11870,7 +11870,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpacemacs
+            cib-spacemacs
           </div>
         </div>
         <div
@@ -11888,7 +11888,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpectrum
+            cib-spectrum
           </div>
         </div>
         <div
@@ -11906,7 +11906,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpeakerDeck
+            cib-speaker-deck
           </div>
         </div>
         <div
@@ -11924,7 +11924,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSparkpost
+            cib-sparkpost
           </div>
         </div>
         <div
@@ -11942,7 +11942,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSparkfun
+            cib-sparkfun
           </div>
         </div>
         <div
@@ -11960,7 +11960,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSprint
+            cib-sprint
           </div>
         </div>
         <div
@@ -11978,7 +11978,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpdx
+            cib-spdx
           </div>
         </div>
         <div
@@ -11996,7 +11996,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpotify
+            cib-spotify
           </div>
         </div>
         <div
@@ -12014,7 +12014,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpreaker
+            cib-spreaker
           </div>
         </div>
         <div
@@ -12032,7 +12032,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpring
+            cib-spring
           </div>
         </div>
         <div
@@ -12050,7 +12050,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSquarespace
+            cib-squarespace
           </div>
         </div>
         <div
@@ -12068,7 +12068,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSpotlight
+            cib-spotlight
           </div>
         </div>
         <div
@@ -12086,7 +12086,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStackOverflow
+            cib-stack-overflow
           </div>
         </div>
         <div
@@ -12104,7 +12104,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStackexchange
+            cib-stackexchange
           </div>
         </div>
         <div
@@ -12122,7 +12122,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStackbit
+            cib-stackbit
           </div>
         </div>
         <div
@@ -12140,7 +12140,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStatamic
+            cib-statamic
           </div>
         </div>
         <div
@@ -12158,7 +12158,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStackpath
+            cib-stackpath
           </div>
         </div>
         <div
@@ -12176,7 +12176,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStaticman
+            cib-staticman
           </div>
         </div>
         <div
@@ -12194,7 +12194,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStadia
+            cib-stadia
           </div>
         </div>
         <div
@@ -12212,7 +12212,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStackshare
+            cib-stackshare
           </div>
         </div>
         <div
@@ -12230,7 +12230,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSteam
+            cib-steam
           </div>
         </div>
         <div
@@ -12248,7 +12248,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSteemit
+            cib-steemit
           </div>
         </div>
         <div
@@ -12266,7 +12266,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStitcher
+            cib-stitcher
           </div>
         </div>
         <div
@@ -12284,7 +12284,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSteem
+            cib-steem
           </div>
         </div>
         <div
@@ -12302,7 +12302,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStorify
+            cib-storify
           </div>
         </div>
         <div
@@ -12320,7 +12320,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStatuspage
+            cib-statuspage
           </div>
         </div>
         <div
@@ -12338,7 +12338,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStrapi
+            cib-strapi
           </div>
         </div>
         <div
@@ -12356,7 +12356,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStorybook
+            cib-storybook
           </div>
         </div>
         <div
@@ -12374,7 +12374,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStripe
+            cib-stripe
           </div>
         </div>
         <div
@@ -12392,7 +12392,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStrava
+            cib-strava
           </div>
         </div>
         <div
@@ -12410,7 +12410,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStumbleupon
+            cib-stumbleupon
           </div>
         </div>
         <div
@@ -12428,7 +12428,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStylus
+            cib-stylus
           </div>
         </div>
         <div
@@ -12446,7 +12446,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSublimeText
+            cib-sublime-text
           </div>
         </div>
         <div
@@ -12464,7 +12464,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStripeS
+            cib-stripe-s
           </div>
         </div>
         <div
@@ -12482,7 +12482,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStyleshare
+            cib-styleshare
           </div>
         </div>
         <div
@@ -12500,7 +12500,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibStubhub
+            cib-stubhub
           </div>
         </div>
         <div
@@ -12518,7 +12518,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSubversion
+            cib-subversion
           </div>
         </div>
         <div
@@ -12536,7 +12536,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSuperuser
+            cib-superuser
           </div>
         </div>
         <div
@@ -12554,7 +12554,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSwagger
+            cib-swagger
           </div>
         </div>
         <div
@@ -12572,7 +12572,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSvelte
+            cib-svelte
           </div>
         </div>
         <div
@@ -12590,7 +12590,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSwarm
+            cib-swarm
           </div>
         </div>
         <div
@@ -12608,7 +12608,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSynology
+            cib-synology
           </div>
         </div>
         <div
@@ -12626,7 +12626,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSwift
+            cib-swift
           </div>
         </div>
         <div
@@ -12644,7 +12644,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSvg
+            cib-svg
           </div>
         </div>
         <div
@@ -12662,7 +12662,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSymantec
+            cib-symantec
           </div>
         </div>
         <div
@@ -12680,7 +12680,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibSymfony
+            cib-symfony
           </div>
         </div>
         <div
@@ -12698,7 +12698,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTableau
+            cib-tableau
           </div>
         </div>
         <div
@@ -12716,7 +12716,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTMobile
+            cib-tmobile
           </div>
         </div>
         <div
@@ -12734,7 +12734,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTails
+            cib-tails
           </div>
         </div>
         <div
@@ -12752,7 +12752,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTapas
+            cib-tapas
           </div>
         </div>
         <div
@@ -12770,7 +12770,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTeespring
+            cib-teespring
           </div>
         </div>
         <div
@@ -12788,7 +12788,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTeamviewer
+            cib-teamviewer
           </div>
         </div>
         <div
@@ -12806,7 +12806,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTelegramPlane
+            cib-telegram-plane
           </div>
         </div>
         <div
@@ -12824,7 +12824,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTed
+            cib-ted
           </div>
         </div>
         <div
@@ -12842,7 +12842,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTelegram
+            cib-telegram
           </div>
         </div>
         <div
@@ -12860,7 +12860,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTesla
+            cib-tesla
           </div>
         </div>
         <div
@@ -12878,7 +12878,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTencentQq
+            cib-tencent-qq
           </div>
         </div>
         <div
@@ -12896,7 +12896,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTensorflow
+            cib-tensorflow
           </div>
         </div>
         <div
@@ -12914,7 +12914,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTencentWeibo
+            cib-tencent-weibo
           </div>
         </div>
         <div
@@ -12932,7 +12932,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTidal
+            cib-tidal
           </div>
         </div>
         <div
@@ -12950,7 +12950,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTheMovieDatabase
+            cib-the-movie-database
           </div>
         </div>
         <div
@@ -12968,7 +12968,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTheMighty
+            cib-the-mighty
           </div>
         </div>
         <div
@@ -12986,7 +12986,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTerraform
+            cib-terraform
           </div>
         </div>
         <div
@@ -13004,7 +13004,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTinder
+            cib-tinder
           </div>
         </div>
         <div
@@ -13022,7 +13022,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTiktok
+            cib-tiktok
           </div>
         </div>
         <div
@@ -13040,7 +13040,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibToptal
+            cib-toptal
           </div>
         </div>
         <div
@@ -13058,7 +13058,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTor
+            cib-tor
           </div>
         </div>
         <div
@@ -13076,7 +13076,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTodoist
+            cib-todoist
           </div>
         </div>
         <div
@@ -13094,7 +13094,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibToggl
+            cib-toggl
           </div>
         </div>
         <div
@@ -13112,7 +13112,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTrainerroad
+            cib-trainerroad
           </div>
         </div>
         <div
@@ -13130,7 +13130,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibToshiba
+            cib-toshiba
           </div>
         </div>
         <div
@@ -13148,7 +13148,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTrakt
+            cib-trakt
           </div>
         </div>
         <div
@@ -13166,7 +13166,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTopcoder
+            cib-topcoder
           </div>
         </div>
         <div
@@ -13184,7 +13184,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTripadvisor
+            cib-tripadvisor
           </div>
         </div>
         <div
@@ -13202,7 +13202,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTrello
+            cib-trello
           </div>
         </div>
         <div
@@ -13220,7 +13220,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTrulia
+            cib-trulia
           </div>
         </div>
         <div
@@ -13238,7 +13238,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTreehouse
+            cib-treehouse
           </div>
         </div>
         <div
@@ -13256,7 +13256,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTwitch
+            cib-twitch
           </div>
         </div>
         <div
@@ -13274,7 +13274,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTwitter
+            cib-twitter
           </div>
         </div>
         <div
@@ -13292,7 +13292,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTwoo
+            cib-twoo
           </div>
         </div>
         <div
@@ -13310,7 +13310,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTumblr
+            cib-tumblr
           </div>
         </div>
         <div
@@ -13328,7 +13328,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTypescript
+            cib-typescript
           </div>
         </div>
         <div
@@ -13346,7 +13346,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUber
+            cib-uber
           </div>
         </div>
         <div
@@ -13364,7 +13364,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTypo3
+            cib-typo-3
           </div>
         </div>
         <div
@@ -13382,7 +13382,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTwilio
+            cib-twilio
           </div>
         </div>
         <div
@@ -13400,7 +13400,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUblockOrigin
+            cib-ublock-origin
           </div>
         </div>
         <div
@@ -13418,7 +13418,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUbisoft
+            cib-ubisoft
           </div>
         </div>
         <div
@@ -13436,7 +13436,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUbuntu
+            cib-ubuntu
           </div>
         </div>
         <div
@@ -13454,7 +13454,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUdemy
+            cib-udemy
           </div>
         </div>
         <div
@@ -13472,7 +13472,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUdacity
+            cib-udacity
           </div>
         </div>
         <div
@@ -13490,7 +13490,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUnrealEngine
+            cib-unreal-engine
           </div>
         </div>
         <div
@@ -13508,7 +13508,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUmbraco
+            cib-umbraco
           </div>
         </div>
         <div
@@ -13526,7 +13526,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUntappd
+            cib-untappd
           </div>
         </div>
         <div
@@ -13544,7 +13544,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUpwork
+            cib-upwork
           </div>
         </div>
         <div
@@ -13562,7 +13562,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUikit
+            cib-uikit
           </div>
         </div>
         <div
@@ -13580,7 +13580,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUnsplash
+            cib-unsplash
           </div>
         </div>
         <div
@@ -13598,7 +13598,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVagrant
+            cib-vagrant
           </div>
         </div>
         <div
@@ -13616,7 +13616,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUnity
+            cib-unity
           </div>
         </div>
         <div
@@ -13634,7 +13634,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibV8
+            cib-v8
           </div>
         </div>
         <div
@@ -13652,7 +13652,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVenmo
+            cib-venmo
           </div>
         </div>
         <div
@@ -13670,7 +13670,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVerizon
+            cib-verizon
           </div>
         </div>
         <div
@@ -13688,7 +13688,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibUsb
+            cib-usb
           </div>
         </div>
         <div
@@ -13706,7 +13706,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibViadeo
+            cib-viadeo
           </div>
         </div>
         <div
@@ -13724,7 +13724,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibViber
+            cib-viber
           </div>
         </div>
         <div
@@ -13742,7 +13742,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVimeo
+            cib-vimeo
           </div>
         </div>
         <div
@@ -13760,7 +13760,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVimeoV
+            cib-vimeo-v
           </div>
         </div>
         <div
@@ -13778,7 +13778,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVine
+            cib-vine
           </div>
         </div>
         <div
@@ -13796,7 +13796,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVisualStudioCode
+            cib-visual-studio-code
           </div>
         </div>
         <div
@@ -13814,7 +13814,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVirb
+            cib-virb
           </div>
         </div>
         <div
@@ -13832,7 +13832,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVim
+            cib-vim
           </div>
         </div>
         <div
@@ -13850,7 +13850,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVisa
+            cib-visa
           </div>
         </div>
         <div
@@ -13868,7 +13868,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVisualStudio
+            cib-visual-studio
           </div>
         </div>
         <div
@@ -13886,7 +13886,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVsco
+            cib-vsco
           </div>
         </div>
         <div
@@ -13904,7 +13904,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVk
+            cib-vk
           </div>
         </div>
         <div
@@ -13922,7 +13922,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVueJs
+            cib-vue-js
           </div>
         </div>
         <div
@@ -13940,7 +13940,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibVlc
+            cib-vlc
           </div>
         </div>
         <div
@@ -13958,7 +13958,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWattpad
+            cib-wattpad
           </div>
         </div>
         <div
@@ -13976,7 +13976,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWeasyl
+            cib-weasyl
           </div>
         </div>
         <div
@@ -13994,7 +13994,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWebcomponentsOrg
+            cib-webcomponents-org
           </div>
         </div>
         <div
@@ -14012,7 +14012,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWechat
+            cib-wechat
           </div>
         </div>
         <div
@@ -14030,7 +14030,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWebpack
+            cib-webpack
           </div>
         </div>
         <div
@@ -14048,7 +14048,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWikipedia
+            cib-wikipedia
           </div>
         </div>
         <div
@@ -14066,7 +14066,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWhatsapp
+            cib-whatsapp
           </div>
         </div>
         <div
@@ -14084,7 +14084,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWebstorm
+            cib-webstorm
           </div>
         </div>
         <div
@@ -14102,7 +14102,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWiiu
+            cib-wiiu
           </div>
         </div>
         <div
@@ -14120,7 +14120,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWire
+            cib-wire
           </div>
         </div>
         <div
@@ -14138,7 +14138,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWix
+            cib-wix
           </div>
         </div>
         <div
@@ -14156,7 +14156,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWhenIWork
+            cib-when-iwork
           </div>
         </div>
         <div
@@ -14174,7 +14174,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWii
+            cib-wii
           </div>
         </div>
         <div
@@ -14192,7 +14192,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWindows
+            cib-windows
           </div>
         </div>
         <div
@@ -14210,7 +14210,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWolframLanguage
+            cib-wolfram-language
           </div>
         </div>
         <div
@@ -14228,7 +14228,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWireguard
+            cib-wireguard
           </div>
         </div>
         <div
@@ -14246,7 +14246,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWordpress
+            cib-wordpress
           </div>
         </div>
         <div
@@ -14264,7 +14264,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWolfram
+            cib-wolfram
           </div>
         </div>
         <div
@@ -14282,7 +14282,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWpengine
+            cib-wpengine
           </div>
         </div>
         <div
@@ -14300,7 +14300,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibWolframMathematica
+            cib-wolfram-mathematica
           </div>
         </div>
         <div
@@ -14318,7 +14318,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXcode
+            cib-xcode
           </div>
         </div>
         <div
@@ -14336,7 +14336,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXbox
+            cib-xbox
           </div>
         </div>
         <div
@@ -14354,7 +14354,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXPack
+            cib-xpack
           </div>
         </div>
         <div
@@ -14372,7 +14372,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXiaomi
+            cib-xiaomi
           </div>
         </div>
         <div
@@ -14390,7 +14390,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXing
+            cib-xing
           </div>
         </div>
         <div
@@ -14408,7 +14408,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibYCombinator
+            cib-ycombinator
           </div>
         </div>
         <div
@@ -14426,7 +14426,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXsplit
+            cib-xsplit
           </div>
         </div>
         <div
@@ -14444,7 +14444,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXrp
+            cib-xrp
           </div>
         </div>
         <div
@@ -14462,7 +14462,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibXero
+            cib-xero
           </div>
         </div>
         <div
@@ -14480,7 +14480,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibYammer
+            cib-yammer
           </div>
         </div>
         <div
@@ -14498,7 +14498,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibYahoo
+            cib-yahoo
           </div>
         </div>
         <div
@@ -14516,7 +14516,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibYarn
+            cib-yarn
           </div>
         </div>
         <div
@@ -14534,7 +14534,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibYelp
+            cib-yelp
           </div>
         </div>
         <div
@@ -14552,7 +14552,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZalando
+            cib-zalando
           </div>
         </div>
         <div
@@ -14570,7 +14570,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibYandex
+            cib-yandex
           </div>
         </div>
         <div
@@ -14588,7 +14588,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZapier
+            cib-zapier
           </div>
         </div>
         <div
@@ -14606,7 +14606,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZendesk
+            cib-zendesk
           </div>
         </div>
         <div
@@ -14624,7 +14624,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZerply
+            cib-zerply
           </div>
         </div>
         <div
@@ -14642,7 +14642,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibYoutube
+            cib-youtube
           </div>
         </div>
         <div
@@ -14660,7 +14660,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZingat
+            cib-zingat
           </div>
         </div>
         <div
@@ -14678,7 +14678,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZeit
+            cib-zeit
           </div>
         </div>
         <div
@@ -14696,7 +14696,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZorin
+            cib-zorin
           </div>
         </div>
         <div
@@ -14714,7 +14714,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZillow
+            cib-zillow
           </div>
         </div>
         <div
@@ -14732,7 +14732,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZoom
+            cib-zoom
           </div>
         </div>
         <div
@@ -14750,7 +14750,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibZulip
+            cib-zulip
           </div>
         </div>
         <div
@@ -14768,7 +14768,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibDeno
+            cib-deno
           </div>
         </div>
         <div
@@ -14786,7 +14786,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibEpicGames
+            cib-epic-games
           </div>
         </div>
         <div
@@ -14804,7 +14804,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibFlask
+            cib-flask
           </div>
         </div>
         <div
@@ -14822,7 +14822,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGerrit
+            cib-gerrit
           </div>
         </div>
         <div
@@ -14840,7 +14840,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGreensock
+            cib-greensock
           </div>
         </div>
         <div
@@ -14858,7 +14858,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibTravisci
+            cib-travisci
           </div>
         </div>
         <div
@@ -14876,7 +14876,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibApacheFlink
+            cib-apache-flink
           </div>
         </div>
         <div
@@ -14894,7 +14894,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibBabel
+            cib-babel
           </div>
         </div>
         <div
@@ -14912,7 +14912,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibCodewars
+            cib-codewars
           </div>
         </div>
         <div
@@ -14930,7 +14930,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibGnu
+            cib-gnu
           </div>
         </div>
         <div
@@ -14948,7 +14948,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibComposer
+            cib-composer
           </div>
         </div>
         <div
@@ -14966,7 +14966,7 @@ exports[`Brands.vue renders correctly 1`] = `
           </svg>
            
           <div>
-            cibElsevier
+            cib-elsevier
           </div>
         </div>
       </div>

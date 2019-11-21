@@ -36,7 +36,9 @@ export default {
           data: this.dataPoints,
           backgroundColor: getColor(this.backgroundColor),
           pointHoverBackgroundColor: getColor(this.pointHoverBackgroundColor),
-          label: this.label
+          label: this.label,
+          barPercentage: 0.5,
+          categoryPercentage: 1
         }
       ]
     },
@@ -48,9 +50,7 @@ export default {
         },
         scales: {
           xAxes: [{
-            display: false,
-            categoryPercentage: 1,
-            barPercentage: 0.5
+            display: false
           }],
           yAxes: [{
             display: false

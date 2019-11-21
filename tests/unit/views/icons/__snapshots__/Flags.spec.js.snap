@@ -34,7 +34,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAe
+            cif-ae
           </div>
         </ccol-stub>
         <ccol-stub
@@ -49,7 +49,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAm
+            cif-am
           </div>
         </ccol-stub>
         <ccol-stub
@@ -64,7 +64,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAg
+            cif-ag
           </div>
         </ccol-stub>
         <ccol-stub
@@ -79,7 +79,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAz
+            cif-az
           </div>
         </ccol-stub>
         <ccol-stub
@@ -94,7 +94,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAo
+            cif-ao
           </div>
         </ccol-stub>
         <ccol-stub
@@ -109,7 +109,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAt
+            cif-at
           </div>
         </ccol-stub>
         <ccol-stub
@@ -124,7 +124,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAu
+            cif-au
           </div>
         </ccol-stub>
         <ccol-stub
@@ -139,7 +139,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBa
+            cif-ba
           </div>
         </ccol-stub>
         <ccol-stub
@@ -154,7 +154,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBe
+            cif-be
           </div>
         </ccol-stub>
         <ccol-stub
@@ -169,7 +169,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBb
+            cif-bb
           </div>
         </ccol-stub>
         <ccol-stub
@@ -184,7 +184,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBf
+            cif-bf
           </div>
         </ccol-stub>
         <ccol-stub
@@ -199,7 +199,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBd
+            cif-bd
           </div>
         </ccol-stub>
         <ccol-stub
@@ -214,7 +214,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBh
+            cif-bh
           </div>
         </ccol-stub>
         <ccol-stub
@@ -229,7 +229,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBg
+            cif-bg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -244,7 +244,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBi
+            cif-bi
           </div>
         </ccol-stub>
         <ccol-stub
@@ -259,7 +259,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBj
+            cif-bj
           </div>
         </ccol-stub>
         <ccol-stub
@@ -274,7 +274,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBo
+            cif-bo
           </div>
         </ccol-stub>
         <ccol-stub
@@ -289,7 +289,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBr
+            cif-br
           </div>
         </ccol-stub>
         <ccol-stub
@@ -304,7 +304,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBs
+            cif-bs
           </div>
         </ccol-stub>
         <ccol-stub
@@ -319,7 +319,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBw
+            cif-bw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -334,7 +334,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCg
+            cif-cg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -349,7 +349,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCa
+            cif-ca
           </div>
         </ccol-stub>
         <ccol-stub
@@ -364,7 +364,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCd
+            cif-cd
           </div>
         </ccol-stub>
         <ccol-stub
@@ -379,7 +379,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCf
+            cif-cf
           </div>
         </ccol-stub>
         <ccol-stub
@@ -394,7 +394,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCh
+            cif-ch
           </div>
         </ccol-stub>
         <ccol-stub
@@ -409,7 +409,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCm
+            cif-cm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -424,7 +424,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCi
+            cif-ci
           </div>
         </ccol-stub>
         <ccol-stub
@@ -439,7 +439,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCn
+            cif-cn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -454,7 +454,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCu
+            cif-cu
           </div>
         </ccol-stub>
         <ccol-stub
@@ -469,7 +469,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCl
+            cif-cl
           </div>
         </ccol-stub>
         <ccol-stub
@@ -484,7 +484,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCv
+            cif-cv
           </div>
         </ccol-stub>
         <ccol-stub
@@ -499,7 +499,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCr
+            cif-cr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -514,7 +514,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCz
+            cif-cz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -529,7 +529,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifDj
+            cif-dj
           </div>
         </ccol-stub>
         <ccol-stub
@@ -544,7 +544,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifDe
+            cif-de
           </div>
         </ccol-stub>
         <ccol-stub
@@ -559,7 +559,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifDk
+            cif-dk
           </div>
         </ccol-stub>
         <ccol-stub
@@ -574,7 +574,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCo
+            cif-co
           </div>
         </ccol-stub>
         <ccol-stub
@@ -589,7 +589,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifEe
+            cif-ee
           </div>
         </ccol-stub>
         <ccol-stub
@@ -604,7 +604,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifDz
+            cif-dz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -619,7 +619,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifEr
+            cif-er
           </div>
         </ccol-stub>
         <ccol-stub
@@ -634,7 +634,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifFi
+            cif-fi
           </div>
         </ccol-stub>
         <ccol-stub
@@ -649,7 +649,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifEt
+            cif-et
           </div>
         </ccol-stub>
         <ccol-stub
@@ -664,7 +664,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifFm
+            cif-fm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -679,7 +679,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGb
+            cif-gb
           </div>
         </ccol-stub>
         <ccol-stub
@@ -694,7 +694,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifFr
+            cif-fr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -709,7 +709,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGd
+            cif-gd
           </div>
         </ccol-stub>
         <ccol-stub
@@ -724,7 +724,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGa
+            cif-ga
           </div>
         </ccol-stub>
         <ccol-stub
@@ -739,7 +739,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGm
+            cif-gm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -754,7 +754,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGh
+            cif-gh
           </div>
         </ccol-stub>
         <ccol-stub
@@ -769,7 +769,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGe
+            cif-ge
           </div>
         </ccol-stub>
         <ccol-stub
@@ -784,7 +784,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGr
+            cif-gr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -799,7 +799,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifHn
+            cif-hn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -814,7 +814,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGy
+            cif-gy
           </div>
         </ccol-stub>
         <ccol-stub
@@ -829,7 +829,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGw
+            cif-gw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -844,7 +844,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifId
+            cif-id
           </div>
         </ccol-stub>
         <ccol-stub
@@ -859,7 +859,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifHu
+            cif-hu
           </div>
         </ccol-stub>
         <ccol-stub
@@ -874,7 +874,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifIl
+            cif-il
           </div>
         </ccol-stub>
         <ccol-stub
@@ -889,7 +889,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifIq
+            cif-iq
           </div>
         </ccol-stub>
         <ccol-stub
@@ -904,7 +904,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifIn
+            cif-in
           </div>
         </ccol-stub>
         <ccol-stub
@@ -919,7 +919,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifIe
+            cif-ie
           </div>
         </ccol-stub>
         <ccol-stub
@@ -934,7 +934,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifIr
+            cif-ir
           </div>
         </ccol-stub>
         <ccol-stub
@@ -949,7 +949,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifJm
+            cif-jm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -964,7 +964,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifIs
+            cif-is
           </div>
         </ccol-stub>
         <ccol-stub
@@ -979,7 +979,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifJo
+            cif-jo
           </div>
         </ccol-stub>
         <ccol-stub
@@ -994,7 +994,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifIt
+            cif-it
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1009,7 +1009,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKe
+            cif-ke
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1024,7 +1024,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKi
+            cif-ki
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1039,7 +1039,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifJp
+            cif-jp
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1054,7 +1054,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKm
+            cif-km
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1069,7 +1069,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKn
+            cif-kn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1084,7 +1084,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKw
+            cif-kw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1099,7 +1099,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKp
+            cif-kp
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1114,7 +1114,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLa
+            cif-la
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1129,7 +1129,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKr
+            cif-kr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1144,7 +1144,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLc
+            cif-lc
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1159,7 +1159,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLs
+            cif-ls
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1174,7 +1174,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLr
+            cif-lr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1189,7 +1189,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLv
+            cif-lv
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1204,7 +1204,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLt
+            cif-lt
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1219,7 +1219,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLu
+            cif-lu
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1234,7 +1234,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLy
+            cif-ly
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1249,7 +1249,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMa
+            cif-ma
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1264,7 +1264,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMg
+            cif-mg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1279,7 +1279,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMc
+            cif-mc
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1294,7 +1294,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMh
+            cif-mh
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1309,7 +1309,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMl
+            cif-ml
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1324,7 +1324,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMn
+            cif-mn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1339,7 +1339,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMr
+            cif-mr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1354,7 +1354,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMk
+            cif-mk
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1369,7 +1369,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMv
+            cif-mv
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1384,7 +1384,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMu
+            cif-mu
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1399,7 +1399,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMm
+            cif-mm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1414,7 +1414,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMw
+            cif-mw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1429,7 +1429,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNe
+            cif-ne
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1444,7 +1444,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMz
+            cif-mz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1459,7 +1459,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMy
+            cif-my
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1474,7 +1474,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNa
+            cif-na
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1489,7 +1489,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNg
+            cif-ng
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1504,7 +1504,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNl
+            cif-nl
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1519,7 +1519,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNp
+            cif-np
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1534,7 +1534,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNo
+            cif-no
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1549,7 +1549,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNr
+            cif-nr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1564,7 +1564,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNu
+            cif-nu
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1579,7 +1579,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPe
+            cif-pe
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1594,7 +1594,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPa
+            cif-pa
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1609,7 +1609,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPh
+            cif-ph
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1624,7 +1624,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPg
+            cif-pg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1639,7 +1639,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNz
+            cif-nz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1654,7 +1654,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPk
+            cif-pk
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1669,7 +1669,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPw
+            cif-pw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1684,7 +1684,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPl
+            cif-pl
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1699,7 +1699,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifQa
+            cif-qa
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1714,7 +1714,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifRo
+            cif-ro
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1729,7 +1729,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifRu
+            cif-ru
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1744,7 +1744,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSb
+            cif-sb
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1759,7 +1759,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifRw
+            cif-rw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1774,7 +1774,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSc
+            cif-sc
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1789,7 +1789,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSd
+            cif-sd
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1804,7 +1804,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSe
+            cif-se
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1819,7 +1819,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSg
+            cif-sg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1834,7 +1834,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSk
+            cif-sk
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1849,7 +1849,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSl
+            cif-sl
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1864,7 +1864,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSi
+            cif-si
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1879,7 +1879,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSn
+            cif-sn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1894,7 +1894,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSr
+            cif-sr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1909,7 +1909,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSt
+            cif-st
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1924,7 +1924,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSo
+            cif-so
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1939,7 +1939,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSs
+            cif-ss
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1954,7 +1954,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTh
+            cif-th
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1969,7 +1969,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSy
+            cif-sy
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1984,7 +1984,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTg
+            cif-tg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -1999,7 +1999,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSz
+            cif-sz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2014,7 +2014,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTl
+            cif-tl
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2029,7 +2029,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTd
+            cif-td
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2044,7 +2044,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTn
+            cif-tn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2059,7 +2059,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTj
+            cif-tj
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2074,7 +2074,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTr
+            cif-tr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2089,7 +2089,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTo
+            cif-to
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2104,7 +2104,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTt
+            cif-tt
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2119,7 +2119,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTv
+            cif-tv
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2134,7 +2134,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifUa
+            cif-ua
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2149,7 +2149,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTw
+            cif-tw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2164,7 +2164,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTz
+            cif-tz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2179,7 +2179,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifUs
+            cif-us
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2194,7 +2194,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifUg
+            cif-ug
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2209,7 +2209,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifUy
+            cif-uy
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2224,7 +2224,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifUz
+            cif-uz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2239,7 +2239,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifVe
+            cif-ve
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2254,7 +2254,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifVc
+            cif-vc
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2269,7 +2269,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifVn
+            cif-vn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2284,7 +2284,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifWs
+            cif-ws
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2299,7 +2299,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifYe
+            cif-ye
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2314,7 +2314,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifZa
+            cif-za
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2329,7 +2329,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifXk
+            cif-xk
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2344,7 +2344,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifZm
+            cif-zm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2359,7 +2359,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifZw
+            cif-zw
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2374,7 +2374,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAr
+            cif-ar
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2389,7 +2389,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAl
+            cif-al
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2404,7 +2404,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBy
+            cif-by
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2419,7 +2419,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifCy
+            cif-cy
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2434,7 +2434,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifDm
+            cif-dm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2449,7 +2449,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGq
+            cif-gq
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2464,7 +2464,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGn
+            cif-gn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2479,7 +2479,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKg
+            cif-kg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2494,7 +2494,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLb
+            cif-lb
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2509,7 +2509,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMt
+            cif-mt
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2524,7 +2524,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKh
+            cif-kh
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2539,7 +2539,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLi
+            cif-li
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2554,7 +2554,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifNi
+            cif-ni
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2569,7 +2569,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifOm
+            cif-om
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2584,7 +2584,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSa
+            cif-sa
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2599,7 +2599,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBn
+            cif-bn
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2614,7 +2614,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifEg
+            cif-eg
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2629,7 +2629,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifKz
+            cif-kz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2644,7 +2644,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifLk
+            cif-lk
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2659,7 +2659,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMd
+            cif-md
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2674,7 +2674,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBt
+            cif-bt
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2689,7 +2689,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifHt
+            cif-ht
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2704,7 +2704,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPy
+            cif-py
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2719,7 +2719,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifPt
+            cif-pt
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2734,7 +2734,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAf
+            cif-af
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2749,7 +2749,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifTm
+            cif-tm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2764,7 +2764,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifAd
+            cif-ad
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2779,7 +2779,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifVa
+            cif-va
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2794,7 +2794,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMe
+            cif-me
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2809,7 +2809,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifBz
+            cif-bz
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2824,7 +2824,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifGt
+            cif-gt
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2839,7 +2839,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifFj
+            cif-fj
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2854,7 +2854,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifHr
+            cif-hr
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2869,7 +2869,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifEs
+            cif-es
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2884,7 +2884,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSm
+            cif-sm
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2899,7 +2899,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifDo
+            cif-do
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2914,7 +2914,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifSv
+            cif-sv
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2929,7 +2929,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifMx
+            cif-mx
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2944,7 +2944,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifEc
+            cif-ec
           </div>
         </ccol-stub>
         <ccol-stub
@@ -2959,7 +2959,7 @@ exports[`Flags.vue renders correctly 1`] = `
           />
            
           <div>
-            cifRs
+            cif-rs
           </div>
         </ccol-stub>
       </crow-stub>

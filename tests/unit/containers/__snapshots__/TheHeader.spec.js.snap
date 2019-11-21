@@ -26,7 +26,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
     height="46"
     src="img/brand/coreui-base.svg"
     width="97"
-    wrappedinlink="[object Object]"
   />
    
   <cheadernav-stub
@@ -34,7 +33,6 @@ exports[`TheHeader.vue renders correctly 1`] = `
   >
     <cheadernavitem-stub
       class="px-3"
-      to="/dashboard"
     >
       <cheadernavlink-stub
         activeclass="active"
@@ -42,6 +40,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
         exactactiveclass="active"
         routertag="a"
         target="_self"
+        to="/dashboard"
       >
         
         Dashboard
@@ -51,15 +50,15 @@ exports[`TheHeader.vue renders correctly 1`] = `
      
     <cheadernavitem-stub
       class="px-3"
-      exact=""
-      to="/users"
     >
       <cheadernavlink-stub
         activeclass="active"
         event="click"
+        exact="true"
         exactactiveclass="active"
         routertag="a"
         target="_self"
+        to="/users"
       >
         
         Users
