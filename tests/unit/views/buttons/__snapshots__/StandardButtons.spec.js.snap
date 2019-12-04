@@ -30,6 +30,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -244,6 +245,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -476,6 +478,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -719,6 +722,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -928,6 +932,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1153,6 +1158,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1391,6 +1397,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1600,6 +1607,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -1825,6 +1833,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2063,6 +2072,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2286,6 +2296,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2527,6 +2538,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -2780,6 +2792,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3003,6 +3016,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3244,6 +3258,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3498,6 +3513,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3613,6 +3629,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3723,6 +3740,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center mt-3"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-3 mb-xl-0"
@@ -3848,6 +3866,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
       <crow-stub
         class="align-items-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="text-center mt-3"
@@ -3980,6 +3999,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
     <ccardbody-stub>
       <crow-stub
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="text-center mt-3"
@@ -4106,6 +4126,7 @@ exports[`StandardButtons.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"

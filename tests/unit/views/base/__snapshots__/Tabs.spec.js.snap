@@ -4,6 +4,7 @@ exports[`Tabs.vue renders correctly 1`] = `
 <div>
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       lg="6"

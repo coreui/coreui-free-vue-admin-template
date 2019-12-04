@@ -4,6 +4,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
 <div>
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       tag="div"
@@ -156,6 +157,7 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       tag="div"

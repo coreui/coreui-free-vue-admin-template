@@ -512,6 +512,7 @@ exports[`Navs.vue renders correctly 1`] = `
     <ccardbody-stub>
       <crow-stub
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="m-0"

@@ -245,7 +245,7 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
             <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
@@ -276,7 +276,7 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
             <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
@@ -307,7 +307,7 @@
             </CForm>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
             <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
@@ -337,7 +337,7 @@
               />
             </CCardBody>
             <CCardFooter>
-              <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+              <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
               <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
             </CCardFooter>
           </CForm>
@@ -427,7 +427,7 @@
             />
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
             <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
@@ -506,7 +506,7 @@
             </CInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="success"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="submit" size="sm" color="success"><CIcon name="cil-check-circle"/> Submit</CButton>
             <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
@@ -539,15 +539,15 @@
               autocomplete="email"
             >
               <template #prepend>
-                <CButton color="primary"><CIcon name="cil-facebook" height="14"/></CButton>
+                <CButton color="primary"><CIcon name="cib-facebook" height="14"/></CButton>
               </template>
               <template #append>
-                <CButton color="primary"><CIcon name="cil-twitter" height="14"/></CButton>
+                <CButton color="primary"><CIcon name="cib-twitter" height="14"/></CButton>
               </template>
             </CInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="success"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="submit" size="sm" color="success"><CIcon name="cil-check-circle"/> Submit</CButton>
             <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>
@@ -620,7 +620,7 @@
             </CInput>
           </CCardBody>
           <CCardFooter>
-            <CButton type="submit" size="sm" color="success"><CIcon name="cil-circle-check"/> Submit</CButton>
+            <CButton type="submit" size="sm" color="success"><CIcon name="cil-check-circle"/> Submit</CButton>
             <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
           </CCardFooter>
         </CCard>

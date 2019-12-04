@@ -3,10 +3,12 @@
 exports[`Page500.vue renders correctly 1`] = `
 <ccontainer-stub
   class="d-flex align-items-center min-vh-100"
+  tag="div"
 >
   <crow-stub
     class="w-100 justify-content-center"
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"
