@@ -300,7 +300,7 @@
                       <CIcon name="cil-globe-alt" class="progress-group-icon"/>
                       <span class="title">Organic Search</span>
                       <span class="ml-auto font-weight-bold">
-                        191,235<span class="text-muted small">(56%)</span>
+                        191,235 <span class="text-muted small">(56%)</span>
                       </span>
                     </div>
                     <div class="progress-group-bars">

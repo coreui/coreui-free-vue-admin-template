@@ -4,6 +4,7 @@ exports[`Switches.vue renders correctly 1`] = `
 <div>
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"
@@ -135,6 +136,7 @@ exports[`Switches.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"

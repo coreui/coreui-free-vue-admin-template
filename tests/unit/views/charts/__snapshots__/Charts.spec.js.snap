@@ -5,6 +5,7 @@ exports[`Charts.vue renders correctly 1`] = `
   <ccardgroup-stub
     class="card-columns cols-2"
     columns="true"
+    tag="div"
   >
     <ccard-stub>
       <ccardheader-stub>

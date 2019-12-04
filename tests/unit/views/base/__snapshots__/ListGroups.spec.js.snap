@@ -4,6 +4,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
 <div>
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"
@@ -184,6 +185,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"
@@ -349,6 +351,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"
@@ -530,6 +533,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"
@@ -811,6 +815,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       col="12"
@@ -834,6 +839,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
         <ccardbody-stub>
           <ccardgroup-stub
             deck="true"
+            tag="div"
           >
             <ccard-stub>
               <ccardheader-stub>
@@ -885,6 +891,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
                  
                 <ccardtext-stub
                   class="mt-2"
+                  tag="p"
                 >
                   
                   Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex
@@ -961,6 +968,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"

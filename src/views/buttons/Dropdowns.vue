@@ -27,7 +27,7 @@
                 <CDropdownItem>First Action</CDropdownItem>
                 <CDropdownItem>Second Action</CDropdownItem>
                 <CDropdownItem>Third Action</CDropdownItem>
-                <CDropdownDivider></CDropdownDivider>
+                <CDropdownDivider/>
                 <CDropdownItem>Something else here...</CDropdownItem>
                 <CDropdownItem disabled>Disabled action</CDropdownItem>
               </CDropdown>
@@ -48,7 +48,7 @@
               >
                 <CDropdownItem>First item</CDropdownItem>
                 <CDropdownItem>Second item</CDropdownItem>
-                <CDropdownDivider></CDropdownDivider>
+                <CDropdownDivider/>
                 <CDropdownItem>Separated Item</CDropdownItem>
               </CDropdown>
             </div>
@@ -242,7 +242,7 @@
                   <CDropdownItem>Add</CDropdownItem>
                   <CDropdownItem>Delete</CDropdownItem>
                 </div>
-                <CDropdownDivider></CDropdownDivider>
+                <CDropdownDivider/>
                 <CDropdownItem>
                   Something <strong>not</strong> associated with user
                 </CDropdownItem>

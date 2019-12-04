@@ -3,10 +3,12 @@
 exports[`Register.vue renders correctly 1`] = `
 <ccontainer-stub
   class="min-vh-100 d-flex align-items-center"
+  tag="div"
 >
   <crow-stub
     class="w-100 justify-content-center"
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="6"
@@ -80,6 +82,7 @@ exports[`Register.vue renders correctly 1`] = `
         >
           <crow-stub
             gutters="true"
+            tag="div"
           >
             <ccol-stub
               col="6"

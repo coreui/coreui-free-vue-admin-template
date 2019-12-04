@@ -18,7 +18,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             class="c-icon"
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
-          />
+          >
+            <title>
+              cilJustifyCenter
+            </title>
+            undefined
+          </svg>
            
           <strong>
              Bootstrap Dropdown
@@ -226,7 +231,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             class="c-icon"
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
-          />
+          >
+            <title>
+              cilJustifyCenter
+            </title>
+            undefined
+          </svg>
            
           <strong>
              Dropdown 
@@ -490,7 +500,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             class="c-icon"
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
-          />
+          >
+            <title>
+              cilJustifyCenter
+            </title>
+            undefined
+          </svg>
            
           <strong>
              Dropdown 
@@ -573,7 +588,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             class="c-icon"
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
-          />
+          >
+            <title>
+              cilJustifyCenter
+            </title>
+            undefined
+          </svg>
            
           <strong>
              Dropdown 
@@ -791,7 +811,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             class="c-icon"
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
-          />
+          >
+            <title>
+              cilJustifyCenter
+            </title>
+            undefined
+          </svg>
            
           <strong>
              Dropdown 
@@ -916,7 +941,12 @@ exports[`Dropdowns.vue renders correctly 1`] = `
             class="c-icon"
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
-          />
+          >
+            <title>
+              cilJustifyCenter
+            </title>
+            undefined
+          </svg>
            
           <strong>
              Dropdown 

@@ -3,16 +3,20 @@
 exports[`Login.vue renders correctly 1`] = `
 <ccontainer-stub
   class="d-flex align-items-center min-vh-100"
+  tag="div"
 >
   <crow-stub
     class="justify-content-center"
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="8"
       tag="div"
     >
-      <ccardgroup-stub>
+      <ccardgroup-stub
+        tag="div"
+      >
         <ccard-stub
           class="p-4"
         >
@@ -44,6 +48,7 @@ exports[`Login.vue renders correctly 1`] = `
                
               <crow-stub
                 gutters="true"
+                tag="div"
               >
                 <ccol-stub
                   col="6"

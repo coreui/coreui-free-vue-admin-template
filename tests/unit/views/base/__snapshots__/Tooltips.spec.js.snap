@@ -40,6 +40,7 @@ exports[`Tooltips.vue renders correctly 1`] = `
     <ccardbody-stub>
       <crow-stub
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           col="6"
@@ -111,6 +112,7 @@ exports[`Tooltips.vue renders correctly 1`] = `
       >
         <crow-stub
           gutters="true"
+          tag="div"
         >
           <ccol-stub
             class="py-4 text-center"

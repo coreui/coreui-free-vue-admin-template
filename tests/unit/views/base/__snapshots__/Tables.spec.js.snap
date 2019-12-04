@@ -4,6 +4,7 @@ exports[`Tables.vue renders correctly 1`] = `
 <div>
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       lg="6"
@@ -31,6 +32,7 @@ exports[`Tables.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       lg="6"
@@ -60,6 +62,7 @@ exports[`Tables.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       sm="12"
@@ -80,6 +83,7 @@ exports[`Tables.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       sm="12"

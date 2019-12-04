@@ -154,7 +154,7 @@
     </CRow>
     <CRow>
       <CCol sm="6" md="4">
-        <CCard color="primary" class="text-center" body-wrapper>
+        <CCard color="primary" class="text-center" body-wrapper text-color="white">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -164,7 +164,12 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="success" class="text-center" body-wrapper>
+        <CCard 
+          color="success" 
+          class="text-center" 
+          body-wrapper
+          text-color="white"
+        >
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -174,7 +179,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="info" class="text-center" body-wrapper>
+        <CCard color="info" class="text-center" body-wrapper text-color="white">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -184,7 +189,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="warning" class="text-center" body-wrapper>
+        <CCard color="warning" class="text-center" body-wrapper text-color="white">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -194,7 +199,7 @@
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="danger" class="text-center" body-wrapper>
+        <CCard color="danger" class="text-center" body-wrapper text-color="white">
           <blockquote class="card-blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Someone famous in
@@ -216,27 +221,27 @@
     </CRow>
     <CRow>
       <CCol sm="6" md="4">
-        <CCard color="primary" body-wrapper>
+        <CCard color="primary" body-wrapper text-color="white">
           {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="success" body-wrapper>
+        <CCard color="success" body-wrapper text-color="white">
           {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="info" body-wrapper>
+        <CCard color="info" body-wrapper text-color="white">
           {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="warning" body-wrapper>
+        <CCard color="warning" body-wrapper text-color="white">
           {{loremIpsum}}
         </CCard>
       </CCol>
       <CCol sm="6" md="4">
-        <CCard color="danger" body-wrapper>
+        <CCard color="danger" body-wrapper text-color="white">
           {{loremIpsum}}
         </CCard>
       </CCol>

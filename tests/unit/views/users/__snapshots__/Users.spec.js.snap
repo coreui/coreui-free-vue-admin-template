@@ -3,6 +3,7 @@
 exports[`Users.vue renders correctly 1`] = `
 <crow-stub
   gutters="true"
+  tag="div"
 >
   <ccol-stub
     col="12"

@@ -8,6 +8,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
     <ccardbody-stub>
       <crow-stub
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           sm="5"
@@ -106,6 +107,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
       <crow-stub
         class="text-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-sm-2 mb-0"
@@ -238,6 +240,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
    
   <crow-stub
     gutters="true"
+    tag="div"
   >
     <ccol-stub
       md="12"
@@ -253,6 +256,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
         <ccardbody-stub>
           <crow-stub
             gutters="true"
+            tag="div"
           >
             <ccol-stub
               lg="6"
@@ -261,6 +265,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             >
               <crow-stub
                 gutters="true"
+                tag="div"
               >
                 <ccol-stub
                   sm="6"
@@ -613,6 +618,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             >
               <crow-stub
                 gutters="true"
+                tag="div"
               >
                 <ccol-stub
                   sm="6"
@@ -761,7 +767,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
                       class="ml-auto font-weight-bold"
                     >
                       
-                      191,235
+                      191,235 
                       <span
                         class="text-muted small"
                       >

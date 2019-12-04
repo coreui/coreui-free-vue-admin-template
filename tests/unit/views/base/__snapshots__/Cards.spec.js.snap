@@ -78,7 +78,12 @@ exports[`Cards.vue renders correctly 1`] = `
             class="c-icon"
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
-          />
+          >
+            <title>
+              cilCheck
+            </title>
+            undefined
+          </svg>
            Card with icon
         </header>
          
@@ -441,7 +446,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card text-center bg-primary"
+        class="card text-center bg-primary text-white"
       >
         <div
           class="card-body"
@@ -471,7 +476,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card text-center bg-success"
+        class="card text-center bg-success text-white"
       >
         <div
           class="card-body"
@@ -501,7 +506,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card text-center bg-info"
+        class="card text-center bg-info text-white"
       >
         <div
           class="card-body"
@@ -531,7 +536,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card text-center bg-warning"
+        class="card text-center bg-warning text-white"
       >
         <div
           class="card-body"
@@ -561,7 +566,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card text-center bg-danger"
+        class="card text-center bg-danger text-white"
       >
         <div
           class="card-body"
@@ -625,7 +630,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card bg-primary"
+        class="card bg-primary text-white"
       >
         <div
           class="card-body"
@@ -641,7 +646,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card bg-success"
+        class="card bg-success text-white"
       >
         <div
           class="card-body"
@@ -657,7 +662,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card bg-info"
+        class="card bg-info text-white"
       >
         <div
           class="card-body"
@@ -673,7 +678,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card bg-warning"
+        class="card bg-warning text-white"
       >
         <div
           class="card-body"
@@ -689,7 +694,7 @@ exports[`Cards.vue renders correctly 1`] = `
       class="col-sm-6 col-md-4"
     >
       <div
-        class="card bg-danger"
+        class="card bg-danger text-white"
       >
         <div
           class="card-body"
@@ -726,7 +731,12 @@ exports[`Cards.vue renders correctly 1`] = `
                 class="c-icon"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
-              />
+              >
+                <title>
+                  cilSettings
+                </title>
+                undefined
+              </svg>
             </a>
              
             <a
@@ -738,7 +748,12 @@ exports[`Cards.vue renders correctly 1`] = `
                 class="c-icon"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
-              />
+              >
+                <title>
+                  cilChevronBottom
+                </title>
+                undefined
+              </svg>
             </a>
              
             <a
@@ -750,7 +765,12 @@ exports[`Cards.vue renders correctly 1`] = `
                 class="c-icon"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
-              />
+              >
+                <title>
+                  cilXCircle
+                </title>
+                undefined
+              </svg>
             </a>
           </div>
         </header>

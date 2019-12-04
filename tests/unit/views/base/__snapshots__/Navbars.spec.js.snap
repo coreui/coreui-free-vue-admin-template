@@ -47,6 +47,7 @@ exports[`Navbars.vue renders correctly 1`] = `
           exactactiveclass="active"
           href="#"
           routertag="a"
+          tag="div"
           target="_self"
         >
           NavBar
@@ -224,6 +225,7 @@ exports[`Navbars.vue renders correctly 1`] = `
           exactactiveclass="active"
           href="#"
           routertag="a"
+          tag="div"
           target="_self"
         >
           <img
@@ -271,6 +273,7 @@ exports[`Navbars.vue renders correctly 1`] = `
           event="click"
           exactactiveclass="active"
           routertag="a"
+          tag="div"
           target="_self"
         >
           CoreuiVue

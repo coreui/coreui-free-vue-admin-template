@@ -80,14 +80,14 @@
               <CDropdown right text="Menu" color="success">
                 <CDropdownItem>Item 1</CDropdownItem>
                 <CDropdownItem>Item 2</CDropdownItem>
-                <CDropdownDivider></CDropdownDivider>
+                <CDropdownDivider/>
                 <CDropdownItem>Item 3</CDropdownItem>
               </CDropdown>
               <CButton color="secondary" class="d-sm-down-none">Button 3</CButton>
               <CDropdown right split text="Split Menu" color="info">
                 <CDropdownItem>Item 1</CDropdownItem>
                 <CDropdownItem>Item 2</CDropdownItem>
-                <CDropdownDivider></CDropdownDivider>
+                <CDropdownDivider/>
                 <CDropdownItem>Item 3</CDropdownItem>
               </CDropdown>
             </CButtonGroup>

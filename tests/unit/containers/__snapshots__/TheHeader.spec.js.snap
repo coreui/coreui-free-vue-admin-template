@@ -24,8 +24,8 @@ exports[`TheHeader.vue renders correctly 1`] = `
     alt="CoreUI Logo"
     class="mx-auto d-lg-none"
     height="46"
-    src="img/brand/coreui-base.svg"
-    width="97"
+    src="img/brand/coreui-vue-logo.svg"
+    width="190"
   />
    
   <cheadernav-stub

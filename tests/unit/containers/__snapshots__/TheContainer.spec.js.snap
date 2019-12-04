@@ -19,6 +19,7 @@ exports[`TheContainer.vue renders correctly 1`] = `
       >
         <ccontainer-stub
           fluid="true"
+          tag="div"
         >
           <router-view-stub
             name="fade"

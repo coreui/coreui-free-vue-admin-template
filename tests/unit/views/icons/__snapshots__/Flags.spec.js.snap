@@ -15,6 +15,7 @@ exports[`Flags.vue renders correctly 1`] = `
       <crow-stub
         class="text-center"
         gutters="true"
+        tag="div"
       >
         <ccol-stub
           class="mb-5"

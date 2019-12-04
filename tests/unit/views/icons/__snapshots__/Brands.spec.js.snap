@@ -12,7 +12,12 @@ exports[`Brands.vue renders correctly 1`] = `
         class="c-icon"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
-      />
+      >
+        <title>
+          cilBasket
+        </title>
+        undefined
+      </svg>
       Brand icons
     
     </header>

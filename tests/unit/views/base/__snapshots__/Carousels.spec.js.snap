@@ -17,7 +17,12 @@ exports[`Carousels.vue renders correctly 1`] = `
           class="c-icon"
           viewBox="0 0 64 64"
           xmlns="http://www.w3.org/2000/svg"
-        />
+        >
+          <title>
+            cilJustifyCenter
+          </title>
+          undefined
+        </svg>
          
         <strong>
            Bootstrap Carousel
@@ -46,26 +51,33 @@ exports[`Carousels.vue renders correctly 1`] = `
       >
         <div
           class="carousel slide"
+          data-v-9c4fbe64=""
           style="height: 400px;"
         >
           <ol
             class="carousel-indicators"
+            data-v-9c4fbe64=""
           >
             <li
               class="active"
+              data-v-9c4fbe64=""
             />
             <li
               class=""
+              data-v-9c4fbe64=""
             />
             <li
               class=""
+              data-v-9c4fbe64=""
             />
           </ol>
           <div
             class="carousel-inner"
+            data-v-9c4fbe64=""
           >
             <div
               class="carousel-item active"
+              data-v-9c4fbe64=""
             >
               <img
                 class="d-block w-100 h-100 img-fluid"
@@ -85,6 +97,7 @@ exports[`Carousels.vue renders correctly 1`] = `
              
             <div
               class="carousel-item"
+              data-v-9c4fbe64=""
             >
               <svg
                 class="d-block w-100 h-100 img-fluid"
@@ -104,6 +117,7 @@ exports[`Carousels.vue renders correctly 1`] = `
              
             <div
               class="carousel-item"
+              data-v-9c4fbe64=""
             >
               <img
                 class="d-block w-100 h-100 img-fluid"
@@ -114,18 +128,22 @@ exports[`Carousels.vue renders correctly 1`] = `
           </div>
           <a
             class="carousel-control-prev"
+            data-v-9c4fbe64=""
           >
             <span
               aria-label="Previous"
               class="carousel-control-prev-icon"
+              data-v-9c4fbe64=""
             />
           </a>
           <a
             class="carousel-control-next"
+            data-v-9c4fbe64=""
           >
             <span
               aria-label="Next"
               class="carousel-control-next-icon"
+              data-v-9c4fbe64=""
             />
           </a>
         </div>
