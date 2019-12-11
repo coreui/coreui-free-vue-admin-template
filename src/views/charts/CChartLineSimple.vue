@@ -7,8 +7,9 @@
 </template>
 
 <script>
-import { CChartLine } from '@coreui/coreui-vue-chartjs'
-import { getColor, deepObjectsMerge } from '@coreui/coreui/dist/js/coreui-utilities'
+import { CChartLine } from '@coreui/vue-chartjs'
+import { getColor, deepObjectsMerge } from '@coreui/utils/src'
+
 export default {
   name: 'CChartLineSimple',
   components: { CChartLine },
@@ -48,18 +49,11 @@ export default {
           data: this.dataPoints,
           borderColor: getColor(this.borderColor),
           backgroundColor: getColor(this.backgroundColor),
-          pointBackgroundColor: this.pointBackgroundColor,
+          pointBackgroundColor: getColor(this.pointHoverColor),
           pointHoverBackgroundColor: getColor(this.pointHoverColor),
           label: this.label
         }
       ]
-    },
-    pointBackgroundColor () {
-      if (this.backgroundColor === 'transparent') {
-        return '#fff'
-      } else {
-        return getColor(this.backgroundColor)
-      }
     },
     pointedOptions () {
       return {
