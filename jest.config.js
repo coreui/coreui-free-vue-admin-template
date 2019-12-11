@@ -1,3 +1,5 @@
+const ignoredModules = ['@coreui/icons', '@coreui/utils'].join('|')
+
 module.exports = {
   moduleFileExtensions: [
     'js',
@@ -10,7 +12,7 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
     '^.+\\.(js|jsx)?$': '<rootDir>/node_modules/babel-jest'
   },
-  transformIgnorePatterns: ['/node_modules/(?!@coreui/icons)'],
+  transformIgnorePatterns: [`<rootDir>/node_modules/(?!${ignoredModules})`],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
   },

@@ -56,9 +56,9 @@
     </CCardGroup>
   </div>
 </template>
+
 <script>
 import * as Charts from './index.js'
-
 export default {
   name: 'Charts',
   components: {
