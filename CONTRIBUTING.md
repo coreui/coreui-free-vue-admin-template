@@ -1,6 +1,6 @@
-# Contributing to CoreUI Free Bootstrap Admin Template
+# Contributing to CoreUI Vue Admin Template
 
-Looking to contribute something to CoreUI Free Bootstrap Admin Template? **Here's how you can help.**
+Looking to contribute something? **Here's how you can help.**
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
@@ -8,15 +8,22 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/coreui/coreui-free-vue-bootstrap-admin-template/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
+The [issue tracker](https://github.com/coreui/coreui-free-vue-admin-template/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
 
-* Please **do not** use the issue tracker for personal support requests.
+- Please **do not** use the issue tracker for personal support requests.
 
-* Please **do not** post comments consisting solely of "+1" or ":thumbsup:".
+- Please **do not** post comments consisting solely of "+1" or ":thumbsup:".
   Use [GitHub's "reactions" feature](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments)
   instead.
 
-* Please **do not** open issues or pull requests regarding the code in  [`@coreui/coreui`](https://github.com/coreui/coreui) (open them in their respective repositories).
+- Please **do not** open issues or pull requests regarding the code in: 
+
+  - [`@coreui/vue`](https://github.com/coreui/coreui-vue)
+  - [`@coreui/coreui`](https://github.com/coreui/coreui)
+  - [`@coreui/coreui-icons-vue`](https://github.com/coreui/coreui-icons-vue)
+  - [`@coreui/coreui-vue-chartjs`](https://github.com/coreui/coreui-vue-chartjs)
+
+Open them in their respective repositories.
 
 ## Bug reports
 
@@ -32,7 +39,6 @@ Guidelines for bug reports:
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the latest `master` or development branch in the repository.
 
 3. **Isolate the problem** &mdash; ideally create a [reduced test case](https://css-tricks.com/reduced-test-cases/) and a live example. [This JS Bin](http://jsbin.com/lefey/1/edit?html,output) is a helpful template.
-
 
 A good bug report shouldn't leave others needing to chase you up for more
 information. Please try to be as detailed as possible in your report. What is
@@ -66,7 +72,6 @@ fits with the scope and aims of the project. It's up to *you* to make a strong
 case to convince the project's developers of the merits of this feature. Please
 provide as much detail and context as possible.
 
-
 ## Pull requests
 
 Good pull requests—patches, improvements, new features—are a fantastic
@@ -86,11 +91,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/free-bootstrap-admin-template.git
+   git clone https://github.com/<your-username>/coreui-free-vue-admin-template.git
    # Navigate to the newly cloned directory
-   cd free-bootstrap-admin-template
+   cd coreui-free-vue-admin-template
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/coreui/coreui-free-bootstrap-admin-template.git
+   git remote add upstream https://github.com/coreui/coreui-free-vue-admin-template.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -133,14 +138,13 @@ included in the project:
 
 Inspired by Sparkbox's awesome article on [semantic commit messages](http://seesparkbox.com/foundry/semantic_commit_messages). Please use following commit message format.
 
-* chore (updating npm tasks etc; no production code change) -> ```git test -m 'chore: commit-message-here'```
-* docs (changes to documentation) -> ```git commit -m 'docs: commit-message-here'```
-* feat (new feature) -> ```git commit -m 'feat: commit-message-here'```
-* fix (bug fix) -> ```git commit -m 'fix: commit-message-here'```
-* refactor (refactoring production code) -> ```git commit -m 'refactor: commit-message-here'```
-* style (formatting, missing semi colons, etc; no code change) -> ```git commit -m 'style: commit-message-here'```
-* test (adding missing tests, refactoring tests; no production code change) -> ```git test -m 'refactor: commit-message-here'```
-
+- chore (updating npm tasks etc; no production code change) -> ```git test -m 'chore: commit-message-here'```
+- docs (changes to documentation) -> ```git commit -m 'docs: commit-message-here'```
+- feat (new feature) -> ```git commit -m 'feat: commit-message-here'```
+- fix (bug fix) -> ```git commit -m 'fix: commit-message-here'```
+- refactor (refactoring production code) -> ```git commit -m 'refactor: commit-message-here'```
+- style (formatting, missing semi colons, etc; no code change) -> ```git commit -m 'style: commit-message-here'```
+- test (adding missing tests, refactoring tests; no production code change) -> ```git test -m 'refactor: commit-message-here'```
 
 ## Code guidelines
 

@@ -1,76 +1,54 @@
-# CoreUI Vue - Free Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Vue%20Admin%20Template%20&url=http://coreui.io/vue/&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+# CoreUI Free Vue Bootstrap Admin Template
 
-### Check out our Vue Admin Templates and support CoreUI Development
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Vue%20Admin%20Template%20&url=http://coreui.io/vue/&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+[![NPM][npm-coreui-vue-badge-latest]][npm-coreui-vue]
+[![Downloads](https://img.shields.io/npm/dm/@coreui/vue.svg?style=flat-square)][coreui]
+[![Jest](https://img.shields.io/badge/Jest-^24.9.0-blue.svg?style=flat-square)][coreui]
+[![Vue](https://img.shields.io/badge/Vue-^2.6.10-brightgreen.svg?style=flat-square)][coreui]
 
-[![Bootstrap Admin Templates Bundle](https://genesisui.com/img/bundle2.png)](https://genesisui.com/bundle.html?support=1)
+[npm-coreui-vue]: https://www.npmjs.com/package/@coreui/vue
+[npm-coreui-vue-badge-latest]: https://img.shields.io/npm/v/@coreui/vue/latest?style=flat-square&color=brightgreen  
+[coreui]: https://coreui.io/vue
 
-[Check out Bootstrap Admin Templates Bundle](https://genesisui.com/bundle.html?support=1)
+![Template](https://coreui.io/images/github/vue-free-template-3.gif)
 
-This is Vue.js version of our Bootstrap 4 admin template [CoreUI](https://github.com/coreui/coreui-free-bootstrap-admin-template).
+## Description
 
-Please help us on [Product Hunt](https://www.producthunt.com/posts/coreui-open-source-bootstrap-4-admin-template-with-angular-2-react-js-vue-js-support) & [Designer News](https://www.designernews.co/stories/81127). Thanks in advance!
+Why we decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Boostrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
 
-Why I decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Boostrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
+**This is not just another Admin Template.** It goes way beyond hitherto admin templates thanks to:
 
-CoreUI is an Open Source Vue & Bootstrap Admin Template. But CoreUI is not just another Admin Template. It goes way beyond hitherto admin templates thanks to transparent code and file structure. And if that's not enough, let’s just add that CoreUI consists bunch of unique features and over 1000 high quality icons.
-
-CoreUI is based on Bootstrap 4 and offers 6 versions: [HTML5 AJAX](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax), [HTML5 Static](https://github.com/coreui/coreui-free-bootstrap-admin-template), [AngularJS](https://github.com/mrholek/CoreUI-AngularJS), [Angular 2+](https://github.com/coreui/coreui-free-angular-admin-template), [React.js](https://github.com/coreui/coreui-free-react-admin-template) & [Vue.js](https://github.com/coreui/coreui-free-vue-admin-template).
+- Wonderful styling delivered by bootstrap compatible css library [CoreUI](https://coreui.io/docs/3.0-beta/),
+- Dedicated [component library](https://coreui.io/vue/docs/),
+- Dedicated vue tooling libraries ([coreui-vue-chartjs](https://coreui.io/vue/docs/components/charts), [coreui-icons-vue](https://github.com/coreui/coreui-icons-vue)),
+- Over 500 [free svg icons](https://coreui.io/icons) consistent with our styling,
+- Transparent code and file structure
+- Possibility of extension to [pro version](https://coreui.io/vue) which offers even more!
 
 CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
 
-[![CoreUI Vue Free Bootstrap Admin Template](http://coreui.io/assets/img/coreui.png "CoreUI Vue Free Bootstrap Admin Template")](http://coreui.io)
+**NOTE:** Please remember to star this project to get new versions updates of this template.
 
-**NOTE:** Please remember to **STAR** this project and **FOLLOW** [my Github](https://github.com/coreui) to keep you update with this template.
+### Demo
 
-## Demo
+A fully functional demo is available at [CoreUI](http://coreui.io/vue/)
 
-A fully functional demo is available at [CoreUI](http://coreui.io/)
+### Table of Contents
 
-## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Our other products](#our-other-products)
+- [Community](#community)
+- [Community Projects](#community-projects)
+- [License](#copyright-and-license)
+- [Support CoreUI Development](#support-coreui-development)
 
-* [Versions](#versions)
-* [CoreUI Pro](#coreui-pro)
-* [Admin Templates built on top of CoreUI Pro](#admin-templates-built-on-top-of-coreui-pro)
-* [Installation](#installation)
-* [Usage](#usage)
-* [What's included](#whats-included)
-* [Documentation](#documentation)
-* [Contributing](#contributing)
-* [Versioning](#versioning)
-* [Creators](#creators)
-* [Community](#community)
-* [Community Projects](#community-projects)
-* [License](#license)
-* [Support CoreUI Development](#support-coreui-development)
+### Installation
 
-## Versions
-
-CoreUI is built on top of Bootstrap 4 and supports popular frameworks.
-
-* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
-* [CoreUI Free Bootstrap Admin Template (Ajax)](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax)
-* [CoreUI Free Angular 2+ Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
-* 🚧 [CoreUI Free .NET Core 2 Admin Template](https://github.com/mrholek/CoreUI-NET) (Available Soon)
-* [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
-* 🚧 [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
-
-## CoreUI Pro
-
-* 💪  [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Bootstrap Admin Template (Ajax)](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
-* 💪  [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
-* 💪  [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
-
-## Admin Templates built on top of CoreUI Pro
-
-| CoreUI Pro | Prime | Root | Alba | Leaf |
-| --- | --- | --- | --- | --- |
-| [![CoreUI Pro Admin Template](https://coreui.io/assets/img/example-coureui.jpg)](https://coreui.io/pro/) | [![Prime Admin Template](https://genesisui.com/assets/img/templates/prime1280.jpg)](https://genesisui.com/admin-templates/bootstrap/prime/?support=1) | [![Root Admin Template](https://genesisui.com/assets/img/templates/root1280.jpg)](https://genesisui.com/admin-templates/bootstrap/root/?support=1) | [![Alba Admin Template](https://genesisui.com/assets/img/templates/alba1280.jpg)](https://genesisui.com/admin-templates/bootstrap/alba/?support=1) | [![Leaf Admin Template](https://genesisui.com/assets/img/templates/leaf1280.jpg)](https://genesisui.com/admin-templates/bootstrap/leaf/?support=1)
-
-## Installation
-
-### Clone repo
+#### Clone repo
 
 ``` bash
 # clone the repo
@@ -83,7 +61,7 @@ $ cd CoreUI-Vue
 $ npm install
 ```
 
-## Usage
+#### Usage
 
 ``` bash
 # serve with hot reload at localhost:8080
@@ -105,70 +83,52 @@ npm run test:e2e
 
 For a detailed explanation on how things work, check out the [Vue CLI Guide](https://cli.vuejs.org/guide/).
 
-## What's included
+### Documentation
 
-Within the download you'll find the following directories and files:
+CoreUI tools documentation:
 
-```
-CoreUI-Vue/
-├── public/              # pure static assets (directly copied)
-│   └── index.html           # index.html template
-├── src/                 # project root
-│   ├── assets/                 # module assets (processed by webpack)
-│   │   └── scss/               # user styles
-│   ├── components/             # ui components
-│   ├── containers/             # ui containers
-│   ├── router/                 # routing 
-│   ├── shared/                 # utils
-│   ├── views/                  # ui views
-│   ├── _nav.js                 # sidebar nav config
-│   ├── App.vue                 # main app component
-│   └── main.js                 # app entry file
-├── test/
-│   └── unit/            # unit tests
-│   └── e2e/             # e2e tests
-├── .eslintrc.js         # eslint config
-├── .gitignore           # defaults for gitignore
-├── .postcssrc.js        # postcss config
-├── CHANGELOG.md
-├── README.md
-├── babel.config.js      # babel config
-├── jest.config.js       # jest config
-├── vue.config.js        # vue-cli config
-├── LICENSE
-└── package.json         # build scripts and dependencies
-```
+- Components documentation: [CoreUI Vue library](https://coreui.io/vue/docs)
+- Styles documentation: [CoreUI styles](https://coreui.io/docs/3.0-beta/)
+- Icons documentation: [CoreUI Icons](http://coreui.io/icons)
 
-## Bugs and feature requests
+### Bugs and feature requests
 
 Have a bug or a feature request? [Please open a new issue](https://github.com/coreui/coreui-free-vue-admin-template/issues).
 
-## Documentation
+### Contributing
 
-CoreUI's documentation, is hosted on our website [CoreUI](http://coreui.io/)
+Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/v3-next/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-## Contributing
-
-Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Editor preferences are available in the [editor config](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
-
-## Versioning
+### Versioning
 
 For transparency into our release cycle and in striving to maintain backward compatibility,CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
 See [the Releases section of our project](https://github.com/coreui/coreui-free-vue-admin-template/releases) for changelogs for each release version.
 
-## Creators
+### Our other products
 
-**Łukasz Holeczek**
+CoreUI is built on top of Bootstrap 4 and supports popular frameworks.
 
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
+#### Free version products
 
-**Andrzej Kopański**
+- [CoreUI Free Vue Laravel Admin Template](https://github.com/coreui/coreui-free-vue-laravel-admin-template)
 
-* <https://github.com/xidedix>
+- [CoreUI Free Laravel Admin Template](https://github.com/coreui/coreui-free-laravel-admin-template)
+
+- [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
+
+- [CoreUI Free Angular 2+ Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
+
+- [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
+
+#### Pro version products
+
+- 💪  [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
+- 💪  [CoreUI Pro Laravel Vue Admin Template](https://coreui.io/pro/laravel)
+- 💪  [CoreUI Pro Laravel Admin Template](https://coreui.io/pro/laravel)
+- 💪  [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
+- 💪  [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
+- 💪  [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
 
 ## Community
 
@@ -181,15 +141,16 @@ Get updates on CoreUI's development and chat with the project maintainers and co
 
 Some of projects created by community but not maintained by CoreUI team.
 
-* [NuxtJS + Vue CoreUI](https://github.com/muhibbudins/nuxt-coreui)
-* [Colmena](https://github.com/colmena/colmena)
+- [NuxtJS + Vue CoreUI](https://github.com/muhibbudins/nuxt-coreui)
+- [Colmena](https://github.com/colmena/colmena)
 
 ## Copyright and license
 
-copyright 2017 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE).
-There is only one limitation you cannot re-distribute the `CoreUI` as stock nor if you modify the `CoreUI`. In the past we faced some problems with persons who tried to sell `CoreUI` based templates.
+Copyright 2019 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE).
+There is only one limitation - you cannot re-distribute the `CoreUI` as stock nor if you modify the `CoreUI`. In the past we faced some problems with persons who tried to sell `CoreUI` based templates.
 
 ## Support CoreUI Development
+
 CoreUI is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by donating on [PayPal](https://www.paypal.me/holeczek), buying [CoreUI Pro Version](https://coreui.io/pro) or buying one of our [premium admin templates](https://genesisui.com/?support=1).
 
-As of now I am exploring the possibility of working on CoreUI fulltime - if you are a business that is building core products using CoreUI, I am also open to conversations regarding custom sponsorship / consulting arrangements. Get in touch on [Twitter](https://twitter.com/lukaszholeczek).
+If you are a business that is building core products using CoreUI, we are open to conversations regarding custom sponsorship / consulting arrangements. Get in touch on [Twitter](https://twitter.com/lukaszholeczek).

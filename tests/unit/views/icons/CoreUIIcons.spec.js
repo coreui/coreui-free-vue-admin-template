@@ -17,8 +17,4 @@ describe('CoreUIIcons.vue', () => {
     const wrapper = shallowMount(CoreUIIcons)
     expect(wrapper.is(CoreUIIcons)).toBe(true)
   })
-  test('renders correctly', () => {
-    const wrapper = shallowMount(CoreUIIcons)
-    expect(wrapper.element).toMatchSnapshot()
-  })
 })

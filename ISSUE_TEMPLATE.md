@@ -1,8 +1,7 @@
-Before opening an issue:
+# Before opening an issue
 
-- [Search for duplicate or closed issues](https://github.com/coreui/coreui-free-vue-admin-template/issues?utf8=%E2%9C%93&q=is%3Aissue)
-- Prepare a [reduced test case](https://css-tricks.com/reduced-test-cases/) for any bugs
-- Read the [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/CONTRIBUTING.md)
+- [Search for duplicate or closed issues](https://github.com/coreui/coreui-free-vue-admin-template/issues?q=is%3Aissue+is%3Aclosed)
+- Read the [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-templare/blob/v3-next/CONTRIBUTING.md)
 
 When asking general "how to" questions:
 
@@ -16,5 +15,5 @@ When reporting a bug, include:
 
 When suggesting a feature, include:
 
-- As much detail as possible for what we should add and why it's important to CoreUI Admin Template
+- As much detail as possible for what we should add and why it's important to CoreUI Vue library
 - Relevant links to prior art, screenshots, or live demos whenever possible

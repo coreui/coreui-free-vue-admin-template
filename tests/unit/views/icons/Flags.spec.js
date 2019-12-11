@@ -17,8 +17,4 @@ describe('Flags.vue', () => {
     const wrapper = shallowMount(Flags)
     expect(wrapper.is(Flags)).toBe(true)
   })
-  test('renders correctly', () => {
-    const wrapper = shallowMount(Flags)
-    expect(wrapper.element).toMatchSnapshot()
-  })
 })
