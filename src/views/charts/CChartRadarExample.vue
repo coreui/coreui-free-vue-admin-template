@@ -19,7 +19,7 @@ export default {
     defaultDatasets () {
       return [
         {
-          label: '2017',
+          label: '2019',
           backgroundColor: 'rgba(179,181,198,0.2)',
           borderColor: 'rgba(179,181,198,1)',
           pointBackgroundColor: 'rgba(179,181,198,1)',
@@ -30,7 +30,7 @@ export default {
           data: [65, 59, 90, 81, 56, 55, 40]
         },
         {
-          label: '2018',
+          label: '2020',
           backgroundColor: 'rgba(255,99,132,0.2)',
           borderColor: 'rgba(255,99,132,1)',
           pointBackgroundColor: 'rgba(255,99,132,1)',

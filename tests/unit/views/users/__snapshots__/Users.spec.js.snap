@@ -23,6 +23,7 @@ exports[`Users.vue renders correctly 1`] = `
         <cdatatable-stub
           clickablerows="true"
           fields="[object Object],[object Object],[object Object],[object Object]"
+          header="true"
           hover="true"
           index-column=""
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"

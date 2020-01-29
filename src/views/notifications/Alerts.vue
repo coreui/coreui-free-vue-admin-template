@@ -188,7 +188,7 @@ export default {
       this.dismissCountDown = this.dismissSecs
     },
     showDismissibleAlerts () {
-      ['alert1', 'alert2', 'alert3'].forEach(alert => this[alert] = true)
+      ['alert1', 'alert2'].forEach(alert => this[alert] = true)
     }
   }
 }

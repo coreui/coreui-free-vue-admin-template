@@ -2,7 +2,7 @@
   <CFooter>
     <div>
       <a href="https://coreui.io" target="_blank">CoreUI</a>
-      <span class="ml-1">&copy; 2019 creativeLabs.</span>
+      <span class="ml-1">&copy; 2020 creativeLabs.</span>
     </div>
     <div class="ml-auto">
       <span class="mr-1">Powered by</span>

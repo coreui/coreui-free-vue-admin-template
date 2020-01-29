@@ -950,6 +950,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             class="mb-0 table-outline"
             fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
             head-color="light"
+            header="true"
             hover="true"
             items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
             itemsperpage="10"
