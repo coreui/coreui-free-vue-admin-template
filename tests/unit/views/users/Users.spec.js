@@ -47,5 +47,8 @@ describe('Users.vue', () => {
     expect(Users.methods.userLink(42)).toBe('users/42')
     expect(typeof Users.methods.rowClicked ).toEqual('function')
     expect(wrapper.vm.rowClicked({id:42})).toBeUndefined()
+    expect(typeof Users.methods.getBadge ).toEqual('function')
+    expect(wrapper.vm.getBadge('Active')).toBe('success')
+    expect(wrapper.vm.getBadge('Inactive')).toBe('secondary')
   })
 })
