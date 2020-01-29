@@ -90,10 +90,11 @@ exports[`Navbars.vue renders correctly 1`] = `
             tag="ul"
           >
             <cform-stub
+              class="align-middle"
               inline="true"
             >
               <cinput-stub
-                class="mr-sm-2"
+                class="mr-2 my-0"
                 lazy="400"
                 placeholder="Search"
                 size="sm"
@@ -102,7 +103,6 @@ exports[`Navbars.vue renders correctly 1`] = `
                
               <cbutton-stub
                 activeclass="active"
-                class="my-2 my-sm-0"
                 color="light"
                 event="click"
                 exactactiveclass="active"
@@ -121,8 +121,8 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="Lang"
             >
               <cdropdownitem-stub
@@ -170,8 +170,8 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="User"
             >
               <cdropdownitem-stub
@@ -360,8 +360,8 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="Lang"
             >
               <cdropdownitem-stub
@@ -409,8 +409,8 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="User"
             >
               <cdropdownitem-stub

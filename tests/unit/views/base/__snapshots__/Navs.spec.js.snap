@@ -453,7 +453,7 @@ exports[`Navs.vue renders correctly 1`] = `
           flip="true"
           id="nav7_ddown"
           nav=""
-          offset="0"
+          offset="0,0"
           placement="bottom-end"
           togglertext="Dropdown"
         >

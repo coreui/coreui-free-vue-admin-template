@@ -68,12 +68,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFacebook
-              </title>
               undefined
             </svg>
              
@@ -88,12 +86,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTwitter
-              </title>
               undefined
             </svg>
              
@@ -108,12 +104,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibLinkedin
-              </title>
               undefined
             </svg>
              
@@ -128,12 +122,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFlickr
-              </title>
               undefined
             </svg>
              
@@ -148,12 +140,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTumblr
-              </title>
               undefined
             </svg>
              
@@ -168,12 +158,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibXing
-              </title>
               undefined
             </svg>
              
@@ -188,12 +176,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibGithub
-              </title>
               undefined
             </svg>
              
@@ -208,12 +194,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibStackOverflow
-              </title>
               undefined
             </svg>
              
@@ -228,12 +212,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYoutube
-              </title>
               undefined
             </svg>
              
@@ -248,12 +230,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibDribbble
-              </title>
               undefined
             </svg>
              
@@ -268,12 +248,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibInstagram
-              </title>
               undefined
             </svg>
              
@@ -288,12 +266,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibPinterest
-              </title>
               undefined
             </svg>
              
@@ -308,12 +284,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVk
-              </title>
               undefined
             </svg>
              
@@ -328,12 +302,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYahoo
-              </title>
               undefined
             </svg>
              
@@ -348,12 +320,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibBehance
-              </title>
               undefined
             </svg>
              
@@ -368,12 +338,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibReddit
-              </title>
               undefined
             </svg>
              
@@ -388,12 +356,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVimeo
-              </title>
               undefined
             </svg>
              
@@ -415,12 +381,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFacebook
-              </title>
               undefined
             </svg>
              
@@ -435,12 +399,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTwitter
-              </title>
               undefined
             </svg>
              
@@ -455,12 +417,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibLinkedin
-              </title>
               undefined
             </svg>
              
@@ -475,12 +435,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFlickr
-              </title>
               undefined
             </svg>
              
@@ -495,12 +453,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTumblr
-              </title>
               undefined
             </svg>
              
@@ -515,12 +471,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibXing
-              </title>
               undefined
             </svg>
              
@@ -535,12 +489,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibGithub
-              </title>
               undefined
             </svg>
              
@@ -555,12 +507,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibStackOverflow
-              </title>
               undefined
             </svg>
              
@@ -575,12 +525,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYoutube
-              </title>
               undefined
             </svg>
              
@@ -595,12 +543,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibDribbble
-              </title>
               undefined
             </svg>
              
@@ -615,12 +561,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibInstagram
-              </title>
               undefined
             </svg>
              
@@ -635,12 +579,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibPinterest
-              </title>
               undefined
             </svg>
              
@@ -655,12 +597,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVk
-              </title>
               undefined
             </svg>
              
@@ -675,12 +615,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYahoo
-              </title>
               undefined
             </svg>
              
@@ -695,12 +633,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibBehance
-              </title>
               undefined
             </svg>
              
@@ -715,12 +651,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibReddit
-              </title>
               undefined
             </svg>
              
@@ -735,12 +669,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVimeo
-              </title>
               undefined
             </svg>
              
@@ -768,12 +700,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFacebook
-              </title>
               undefined
             </svg>
              
@@ -788,12 +718,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTwitter
-              </title>
               undefined
             </svg>
              
@@ -808,12 +736,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibLinkedin
-              </title>
               undefined
             </svg>
              
@@ -828,12 +754,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFlickr
-              </title>
               undefined
             </svg>
              
@@ -848,12 +772,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTumblr
-              </title>
               undefined
             </svg>
              
@@ -868,12 +790,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibXing
-              </title>
               undefined
             </svg>
              
@@ -888,12 +808,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibGithub
-              </title>
               undefined
             </svg>
              
@@ -908,12 +826,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibStackOverflow
-              </title>
               undefined
             </svg>
              
@@ -928,12 +844,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYoutube
-              </title>
               undefined
             </svg>
              
@@ -948,12 +862,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibDribbble
-              </title>
               undefined
             </svg>
              
@@ -968,12 +880,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibInstagram
-              </title>
               undefined
             </svg>
              
@@ -988,12 +898,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibPinterest
-              </title>
               undefined
             </svg>
              
@@ -1008,12 +916,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVk
-              </title>
               undefined
             </svg>
              
@@ -1028,12 +934,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYahoo
-              </title>
               undefined
             </svg>
              
@@ -1048,12 +952,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibBehance
-              </title>
               undefined
             </svg>
              
@@ -1068,12 +970,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibReddit
-              </title>
               undefined
             </svg>
              
@@ -1088,12 +988,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVimeo
-              </title>
               undefined
             </svg>
              
@@ -1155,12 +1053,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFacebook
-              </title>
               undefined
             </svg>
           </button>
@@ -1171,12 +1067,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTwitter
-              </title>
               undefined
             </svg>
           </button>
@@ -1187,12 +1081,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibLinkedin
-              </title>
               undefined
             </svg>
           </button>
@@ -1203,12 +1095,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFlickr
-              </title>
               undefined
             </svg>
           </button>
@@ -1219,12 +1109,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTumblr
-              </title>
               undefined
             </svg>
           </button>
@@ -1235,12 +1123,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibXing
-              </title>
               undefined
             </svg>
           </button>
@@ -1251,12 +1137,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibGithub
-              </title>
               undefined
             </svg>
           </button>
@@ -1267,12 +1151,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibStackOverflow
-              </title>
               undefined
             </svg>
           </button>
@@ -1283,12 +1165,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYoutube
-              </title>
               undefined
             </svg>
           </button>
@@ -1299,12 +1179,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibDribbble
-              </title>
               undefined
             </svg>
           </button>
@@ -1315,12 +1193,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibInstagram
-              </title>
               undefined
             </svg>
           </button>
@@ -1331,12 +1207,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibPinterest
-              </title>
               undefined
             </svg>
           </button>
@@ -1347,12 +1221,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVk
-              </title>
               undefined
             </svg>
           </button>
@@ -1363,12 +1235,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYahoo
-              </title>
               undefined
             </svg>
           </button>
@@ -1379,12 +1249,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibBehance
-              </title>
               undefined
             </svg>
           </button>
@@ -1395,12 +1263,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibReddit
-              </title>
               undefined
             </svg>
           </button>
@@ -1411,12 +1277,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-sm"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVimeo
-              </title>
               undefined
             </svg>
           </button>
@@ -1434,12 +1298,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFacebook
-              </title>
               undefined
             </svg>
           </button>
@@ -1450,12 +1312,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTwitter
-              </title>
               undefined
             </svg>
           </button>
@@ -1466,12 +1326,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibLinkedin
-              </title>
               undefined
             </svg>
           </button>
@@ -1482,12 +1340,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFlickr
-              </title>
               undefined
             </svg>
           </button>
@@ -1498,12 +1354,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTumblr
-              </title>
               undefined
             </svg>
           </button>
@@ -1514,12 +1368,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibXing
-              </title>
               undefined
             </svg>
           </button>
@@ -1530,12 +1382,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibGithub
-              </title>
               undefined
             </svg>
           </button>
@@ -1546,12 +1396,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibStackOverflow
-              </title>
               undefined
             </svg>
           </button>
@@ -1562,12 +1410,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYoutube
-              </title>
               undefined
             </svg>
           </button>
@@ -1578,12 +1424,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibDribbble
-              </title>
               undefined
             </svg>
           </button>
@@ -1594,12 +1438,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibInstagram
-              </title>
               undefined
             </svg>
           </button>
@@ -1610,12 +1452,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibPinterest
-              </title>
               undefined
             </svg>
           </button>
@@ -1626,12 +1466,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVk
-              </title>
               undefined
             </svg>
           </button>
@@ -1642,12 +1480,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYahoo
-              </title>
               undefined
             </svg>
           </button>
@@ -1658,12 +1494,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibBehance
-              </title>
               undefined
             </svg>
           </button>
@@ -1674,12 +1508,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibReddit
-              </title>
               undefined
             </svg>
           </button>
@@ -1690,12 +1522,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVimeo
-              </title>
               undefined
             </svg>
           </button>
@@ -1719,12 +1549,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFacebook
-              </title>
               undefined
             </svg>
           </button>
@@ -1735,12 +1563,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTwitter
-              </title>
               undefined
             </svg>
           </button>
@@ -1751,12 +1577,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibLinkedin
-              </title>
               undefined
             </svg>
           </button>
@@ -1767,12 +1591,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibFlickr
-              </title>
               undefined
             </svg>
           </button>
@@ -1783,12 +1605,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibTumblr
-              </title>
               undefined
             </svg>
           </button>
@@ -1799,12 +1619,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibXing
-              </title>
               undefined
             </svg>
           </button>
@@ -1815,12 +1633,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibGithub
-              </title>
               undefined
             </svg>
           </button>
@@ -1831,12 +1647,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibStackOverflow
-              </title>
               undefined
             </svg>
           </button>
@@ -1847,12 +1661,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYoutube
-              </title>
               undefined
             </svg>
           </button>
@@ -1863,12 +1675,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibDribbble
-              </title>
               undefined
             </svg>
           </button>
@@ -1879,12 +1689,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibInstagram
-              </title>
               undefined
             </svg>
           </button>
@@ -1895,12 +1703,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibPinterest
-              </title>
               undefined
             </svg>
           </button>
@@ -1911,12 +1717,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVk
-              </title>
               undefined
             </svg>
           </button>
@@ -1927,12 +1731,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibYahoo
-              </title>
               undefined
             </svg>
           </button>
@@ -1943,12 +1745,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibBehance
-              </title>
               undefined
             </svg>
           </button>
@@ -1959,12 +1759,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibReddit
-              </title>
               undefined
             </svg>
           </button>
@@ -1975,12 +1773,10 @@ exports[`BrandButtons.vue renders correctly 1`] = `
           >
             <svg
               class="c-icon c-icon-lg"
+              role="img"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>
-                cibVimeo
-              </title>
               undefined
             </svg>
           </button>

@@ -1684,6 +1684,7 @@ exports[`Switches.vue renders correctly 1`] = `
           <cdatatable-stub
             class="table-align-middle mb-0"
             fields="[object Object],[object Object],[object Object]"
+            header="true"
             hover="true"
             items="[object Object],[object Object],[object Object]"
             itemsperpage="10"

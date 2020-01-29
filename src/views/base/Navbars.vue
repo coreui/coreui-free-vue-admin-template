@@ -30,13 +30,13 @@
 
             <!-- Right aligned nav items -->
             <CNavbarNav class="ml-auto">
-              <CForm inline>
+              <CForm inline class="align-middle">
                 <CInput
-                  class="mr-sm-2"
+                  class="mr-2 my-0"
                   placeholder="Search"
                   size="sm"
                 />
-                <CButton color="light" size="sm" class="my-2 my-sm-0">
+                <CButton color="light" size="sm">
                   Search
                 </CButton>
               </CForm>
@@ -44,7 +44,6 @@
               <CDropdown
                 toggler-text="Lang"
                 in-nav
-                placement="bottom-end"
               >
                   <CDropdownItem>EN</CDropdownItem>
                   <CDropdownItem>ES</CDropdownItem>
@@ -55,7 +54,6 @@
               <CDropdown
                 in-nav
                 toggler-text="User"
-                placement="bottom-end"
               >
                 <CDropdownItem>Profile</CDropdownItem>
                 <CDropdownItem>Signout</CDropdownItem>
@@ -112,7 +110,6 @@
               <!-- Navbar dropdowns -->
               <CDropdown
                 toggler-text="Lang"
-                placement="bottom-end"
                 in-nav
               >
                 <CDropdownItem>EN</CDropdownItem>
@@ -122,7 +119,6 @@
               </CDropdown>
               <CDropdown
                 toggler-text="User"
-                placement="bottom-end"
                 in-nav
               >
                 <CDropdownItem>Account</CDropdownItem>
@@ -176,7 +172,7 @@ export default {
     return {
       show: false,
       navbarText: false,
-      navbarDropdown: false,
+      navbarDropdown: false
     }
   }
 }

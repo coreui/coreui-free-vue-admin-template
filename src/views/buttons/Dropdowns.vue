@@ -111,7 +111,7 @@
             <div>
               <CDropdown
                 color="secondary"
-                :offset="25"
+                :offset="[10, 5]"
                 toggler-text="Offset Dropdown"
                 class="m-2"
               >

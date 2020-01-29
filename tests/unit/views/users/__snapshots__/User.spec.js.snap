@@ -21,6 +21,7 @@ exports[`User.vue renders correctly 1`] = `
         <cdatatable-stub
           fields="[object Object],[object Object]"
           fixed="true"
+          header="true"
           items="[object Object]"
           itemsperpage="10"
           responsive="true"

@@ -16,7 +16,7 @@ exports[`TheFooter.vue renders correctly 1`] = `
     <span
       class="ml-1"
     >
-      © 2019 creativeLabs.
+      © 2020 creativeLabs.
     </span>
   </div>
    

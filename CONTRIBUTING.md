@@ -144,7 +144,7 @@ Inspired by Sparkbox's awesome article on [semantic commit messages](http://sees
 - fix (bug fix) -> ```git commit -m 'fix: commit-message-here'```
 - refactor (refactoring production code) -> ```git commit -m 'refactor: commit-message-here'```
 - style (formatting, missing semi colons, etc; no code change) -> ```git commit -m 'style: commit-message-here'```
-- test (adding missing tests, refactoring tests; no production code change) -> ```git test -m 'refactor: commit-message-here'```
+- test (adding missing tests, refactoring tests; no production code change) -> ```git commit -m 'test: commit-message-here'```
 
 ## Code guidelines
 
