@@ -43,7 +43,8 @@ jobs:
       with:
         node-version: 12
     - name: e2e chrome test
-      run: npm i
-      run : npm run test:e2e
+      run: |
+        npm i
+        npm run test:e2e
       env:
         BROWSER: chrome
