@@ -1,8 +1,6 @@
-name: Node CI
+name: Daily project check
 
-on: 
-  push:
-  pull_request:
+on:
   schedule:
     # build runs everyday at 6AM UTC
     - cron: '0 6 * * *'
@@ -39,7 +37,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
+    - name: Use Node.js 12
+      uses: actions/setup-node@v1
       with:
         node-version: 12
     - name: e2e chrome test
