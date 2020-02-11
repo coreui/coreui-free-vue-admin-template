@@ -10,13 +10,9 @@
       class="ml-3 d-md-down-none"
       v-c-emit-root-event:toggle-sidebar
     />
-    <CHeaderBrand
-      class="mx-auto d-lg-none" 
-      src="img/brand/coreui-vue-logo.svg"
-      width="190"
-      height="46"
-      alt="CoreUI Logo"
-    />
+    <CHeaderBrand class="mx-auto d-lg-none" to="/">
+      <CIcon name="logo" height="48" alt="Logo"/>
+    </CHeaderBrand>
     <CHeaderNav class="d-md-down-none mr-auto">
       <CHeaderNavItem class="px-3">
         <CHeaderNavLink to="/dashboard">

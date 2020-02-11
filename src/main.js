@@ -2,7 +2,7 @@ import 'core-js/stable'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import CoreuiVue from '@coreui/vue'
+import CoreuiVue from '@coreui/vue/src'
 import { iconsSet as icons } from './assets/icons/icons.js'
 
 Vue.config.performance = true
@@ -15,5 +15,5 @@ new Vue({
   template: '<App/>',
   components: {
     App
-  },
+  }
 })

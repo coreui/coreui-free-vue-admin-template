@@ -10,10 +10,17 @@ exports[`TheSidebar.vue renders correctly 1`] = `
   show="responsive"
 >
   <csidebarbrand-stub
-    imgfull="[object Object]"
-    imgminimized="[object Object]"
-    wrappedinlink="[object Object]"
-  />
+    class="d-md-down-none"
+    to="/"
+  >
+    <cicon-stub
+      class="d-block"
+      height="35"
+      name="logo"
+      size="custom-size"
+      viewbox="0 0 556 134"
+    />
+  </csidebarbrand-stub>
    
   <crenderfunction-stub
     contenttorender="[object Object]"
