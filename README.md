@@ -97,7 +97,7 @@ Have a bug or a feature request? [Please open a new issue](https://github.com/co
 
 ### Contributing
 
-Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/v3-next/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/v3-next/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 ### Versioning
 
