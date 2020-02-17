@@ -1,7 +1,7 @@
 <template>
   <div class="c-app">
     <TheSidebar/>
-    <div class="c-wrapper">
+    <div class="c-wrapper c-fixed-components">
       <TheHeader/>
       <div class="c-body">
         <main class="c-main">
@@ -11,8 +11,8 @@
             </transition>
           </CContainer>
         </main>
+        <TheFooter/>
       </div>
-      <TheFooter/>
     </div>
   </div>
 </template>
