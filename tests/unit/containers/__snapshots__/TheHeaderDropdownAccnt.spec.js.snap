@@ -23,9 +23,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownheader-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -35,11 +35,11 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
      Updates
     
     <cbadge-stub
-      activeclass="active"
+      activeclass="router-link-active"
       class="ml-auto"
       color="info"
       event="click"
-      exactactiveclass="active"
+      exactactiveclass="router-link-exact-active"
       routertag="a"
       tag="span"
       target="_self"
@@ -49,9 +49,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -61,11 +61,11 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
      Messages
     
     <cbadge-stub
-      activeclass="active"
+      activeclass="router-link-active"
       class="ml-auto"
       color="success"
       event="click"
-      exactactiveclass="active"
+      exactactiveclass="router-link-exact-active"
       routertag="a"
       tag="span"
       target="_self"
@@ -75,9 +75,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -87,11 +87,11 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
      Tasks
     
     <cbadge-stub
-      activeclass="active"
+      activeclass="router-link-active"
       class="ml-auto"
       color="danger"
       event="click"
-      exactactiveclass="active"
+      exactactiveclass="router-link-exact-active"
       routertag="a"
       tag="span"
       target="_self"
@@ -101,9 +101,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -113,11 +113,11 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
      Comments
     
     <cbadge-stub
-      activeclass="active"
+      activeclass="router-link-active"
       class="ml-auto"
       color="warning"
       event="click"
-      exactactiveclass="active"
+      exactactiveclass="router-link-exact-active"
       routertag="a"
       tag="span"
       target="_self"
@@ -137,9 +137,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownheader-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -151,9 +151,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -165,9 +165,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -177,11 +177,11 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
      Payments
     
     <cbadge-stub
-      activeclass="active"
+      activeclass="router-link-active"
       class="ml-auto"
       color="secondary"
       event="click"
-      exactactiveclass="active"
+      exactactiveclass="router-link-exact-active"
       routertag="a"
       tag="span"
       target="_self"
@@ -191,9 +191,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -203,11 +203,11 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
      Projects
     
     <cbadge-stub
-      activeclass="active"
+      activeclass="router-link-active"
       class="ml-auto"
       color="primary"
       event="click"
-      exactactiveclass="active"
+      exactactiveclass="router-link-exact-active"
       routertag="a"
       tag="span"
       target="_self"
@@ -221,9 +221,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   />
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >
@@ -235,9 +235,9 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
   </cdropdownitem-stub>
    
   <cdropdownitem-stub
-    activeclass="active"
+    activeclass="router-link-active"
     event="click"
-    exactactiveclass="active"
+    exactactiveclass="router-link-exact-active"
     routertag="a"
     target="_self"
   >

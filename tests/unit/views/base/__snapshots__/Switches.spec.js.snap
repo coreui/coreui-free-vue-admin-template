@@ -17,11 +17,11 @@ exports[`Switches.vue renders correctly 1`] = `
           Radio switches
           
           <cbadge-stub
-            activeclass="active"
+            activeclass="router-link-active"
             class="mr-auto"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             tag="span"
             target="_self"
@@ -149,10 +149,10 @@ exports[`Switches.vue renders correctly 1`] = `
           Switch default
           
           <cbadge-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             tag="span"
             target="_self"

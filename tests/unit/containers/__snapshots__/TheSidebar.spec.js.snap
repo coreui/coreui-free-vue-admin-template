@@ -10,7 +10,13 @@ exports[`TheSidebar.vue renders correctly 1`] = `
   show="responsive"
 >
   <csidebarbrand-stub
+    activeclass="router-link-active"
     class="d-md-down-none"
+    event="click"
+    exactactiveclass="router-link-exact-active"
+    routertag="a"
+    tag="div"
+    target="_self"
     to="/"
   >
     <cicon-stub

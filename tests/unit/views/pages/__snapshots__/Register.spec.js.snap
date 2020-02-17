@@ -63,11 +63,11 @@ exports[`Register.vue renders correctly 1`] = `
             />
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               block="true"
               color="success"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -89,11 +89,11 @@ exports[`Register.vue renders correctly 1`] = `
               tag="div"
             >
               <cbutton-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 block="true"
                 color="facebook"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
                 type="button"
@@ -109,11 +109,11 @@ exports[`Register.vue renders correctly 1`] = `
               tag="div"
             >
               <cbutton-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 block="true"
                 color="twitter"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
                 type="button"

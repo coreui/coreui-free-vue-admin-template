@@ -52,11 +52,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -74,11 +74,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -96,11 +96,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -118,11 +118,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -140,11 +140,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -162,11 +162,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -184,11 +184,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -206,11 +206,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -228,11 +228,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="link"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -267,12 +267,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -291,12 +291,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -315,12 +315,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -339,12 +339,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -363,12 +363,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -387,12 +387,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -411,12 +411,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -435,12 +435,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -459,12 +459,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="link"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -500,12 +500,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -523,12 +523,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -546,12 +546,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -569,12 +569,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -592,12 +592,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -615,12 +615,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -638,12 +638,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -661,12 +661,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -684,12 +684,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="link"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -744,11 +744,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -767,11 +767,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -790,11 +790,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -813,11 +813,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -836,11 +836,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -859,11 +859,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -882,11 +882,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -905,11 +905,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -954,12 +954,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -979,12 +979,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1004,12 +1004,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1029,12 +1029,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1054,12 +1054,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1079,12 +1079,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1104,12 +1104,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1129,12 +1129,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1180,12 +1180,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1204,12 +1204,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1228,12 +1228,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1252,12 +1252,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1276,12 +1276,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1300,12 +1300,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1324,12 +1324,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1348,12 +1348,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1419,11 +1419,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1442,11 +1442,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1465,11 +1465,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1488,11 +1488,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1511,11 +1511,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1534,11 +1534,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1557,11 +1557,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1580,11 +1580,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1629,12 +1629,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1654,12 +1654,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1679,12 +1679,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1704,12 +1704,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1729,12 +1729,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1754,12 +1754,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1779,12 +1779,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1804,12 +1804,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             target="_self"
@@ -1855,12 +1855,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1879,12 +1879,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1903,12 +1903,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1927,12 +1927,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1951,12 +1951,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1975,12 +1975,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -1999,12 +1999,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -2023,12 +2023,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -2094,11 +2094,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2117,11 +2117,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2140,11 +2140,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2163,11 +2163,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2186,11 +2186,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2209,11 +2209,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2232,11 +2232,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2255,11 +2255,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2278,11 +2278,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="link"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2318,12 +2318,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2343,12 +2343,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2368,12 +2368,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2393,12 +2393,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2418,12 +2418,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2443,12 +2443,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2468,12 +2468,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2493,12 +2493,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2518,12 +2518,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="link"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             square=""
@@ -2560,12 +2560,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2584,12 +2584,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2608,12 +2608,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2632,12 +2632,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2656,12 +2656,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2680,12 +2680,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2704,12 +2704,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2728,12 +2728,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2752,12 +2752,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="link"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -2814,11 +2814,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2837,11 +2837,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2860,11 +2860,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2883,11 +2883,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2906,11 +2906,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2929,11 +2929,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2952,11 +2952,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2975,11 +2975,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -2998,11 +2998,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="link"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3038,12 +3038,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3063,12 +3063,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3088,12 +3088,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3113,12 +3113,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3138,12 +3138,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3163,12 +3163,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3188,12 +3188,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="light"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3213,12 +3213,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="dark"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3238,12 +3238,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             aria-pressed="true"
             block="true"
             color="link"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             pressed="true"
             routertag="a"
             shape="pill"
@@ -3280,12 +3280,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3304,12 +3304,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3328,12 +3328,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3352,12 +3352,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3376,12 +3376,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3400,12 +3400,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3424,12 +3424,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="light"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3448,12 +3448,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="dark"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3472,12 +3472,12 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xl="true"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="link"
             disabled="true"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3532,10 +3532,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="sm"
             target="_self"
@@ -3551,10 +3551,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="sm"
             target="_self"
@@ -3571,10 +3571,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="sm"
             target="_self"
@@ -3591,10 +3591,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="sm"
             square=""
@@ -3611,10 +3611,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             size="sm"
@@ -3648,10 +3648,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -3666,10 +3666,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -3685,10 +3685,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -3704,10 +3704,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -3723,10 +3723,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -3759,10 +3759,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -3778,10 +3778,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -3798,10 +3798,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -3818,10 +3818,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             square=""
@@ -3838,10 +3838,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             size="lg"
@@ -3875,10 +3875,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -3898,10 +3898,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -3922,10 +3922,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -3945,10 +3945,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             square=""
             target="_self"
@@ -3969,10 +3969,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             shape="pill"
             target="_self"
@@ -4008,10 +4008,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -4028,10 +4028,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -4048,10 +4048,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -4068,10 +4068,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -4088,10 +4088,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -4108,10 +4108,10 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           xs="12"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -4148,11 +4148,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
          
         <ccardbody-stub>
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4162,11 +4162,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4176,11 +4176,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4190,11 +4190,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4204,11 +4204,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4218,11 +4218,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4232,11 +4232,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="link"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4268,11 +4268,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
          
         <ccardbody-stub>
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4283,11 +4283,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4298,11 +4298,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4313,11 +4313,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4328,11 +4328,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="warning"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4343,11 +4343,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="danger"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"
@@ -4358,11 +4358,11 @@ exports[`StandardButtons.vue renders correctly 1`] = `
           </cbutton-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             block="true"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             size="lg"
             target="_self"

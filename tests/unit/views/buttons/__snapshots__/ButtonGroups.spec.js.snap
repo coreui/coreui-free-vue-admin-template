@@ -41,10 +41,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div>
           <cbuttongroup-stub>
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -53,10 +53,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -65,10 +65,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -77,10 +77,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -89,11 +89,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -107,11 +107,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
            
           <cbuttongroup-stub>
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="success"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -120,10 +120,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="info"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -132,10 +132,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="warning"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -144,11 +144,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -157,10 +157,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="danger"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -169,10 +169,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="link"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -206,10 +206,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div>
           <cbuttongroup-stub>
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -218,10 +218,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -230,10 +230,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -249,10 +249,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             size="sm"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -261,10 +261,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -273,10 +273,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -292,10 +292,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             size="lg"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -304,10 +304,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -316,10 +316,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -352,11 +352,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
         <div>
           <cbuttongroup-stub>
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -365,11 +365,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -388,9 +388,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               togglertext="Dropdown"
             >
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -398,9 +398,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -412,9 +412,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               />
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -423,11 +423,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cdropdown-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -447,9 +447,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               togglertext="Dropdown"
             >
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -457,9 +457,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -471,9 +471,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
               />
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -509,10 +509,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             vertical="true"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -521,10 +521,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -533,10 +533,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -576,11 +576,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             class="mx-1"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -589,10 +589,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -605,11 +605,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             class="mx-1"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -618,10 +618,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -630,10 +630,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -646,10 +646,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             class="mx-1"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -658,11 +658,11 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="d-sm-down-none"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -685,10 +685,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             size="sm"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -697,10 +697,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -733,10 +733,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             size="sm"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -745,10 +745,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -767,10 +767,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             class="mx-1 d-sm-down-none"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -779,10 +779,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -791,10 +791,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -814,9 +814,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             togglertext="Dropdown"
           >
             <cdropdownitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
             >
@@ -824,9 +824,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cdropdownitem-stub>
              
             <cdropdownitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
             >
@@ -834,9 +834,9 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cdropdownitem-stub>
              
             <cdropdownitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
             >
@@ -848,10 +848,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             class="mx-1"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -860,10 +860,10 @@ exports[`ButtonGroups.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"

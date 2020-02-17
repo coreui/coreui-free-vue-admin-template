@@ -33,9 +33,9 @@ exports[`Navs.vue renders correctly 1`] = `
       <cnav-stub>
         <cnavitem-stub
           active="true"
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -43,18 +43,18 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
           title="Link"
         />
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -62,10 +62,10 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           disabled="true"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -91,12 +91,14 @@ exports[`Navs.vue renders correctly 1`] = `
     </ccardheader-stub>
      
     <ccardbody-stub>
-      <cnav-stub>
+      <cnav-stub
+        variant="pills"
+      >
         <cnavitem-stub
           active="true"
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -106,38 +108,40 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
-          
-          Link
-        
+          <cicon-stub
+            name="cil-settings"
+          />
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
-          
-          Another Link
-        
+          <cicon-stub
+            name="cil-bell"
+          />
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           disabled="true"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
-          Disabled
+          <cicon-stub
+            name="cil-envelope-closed"
+          />
         </cnavitem-stub>
       </cnav-stub>
     </ccardbody-stub>
@@ -164,9 +168,9 @@ exports[`Navs.vue renders correctly 1`] = `
       >
         <cnavitem-stub
           active="true"
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -176,9 +180,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -188,9 +192,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -200,10 +204,10 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           disabled="true"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -234,9 +238,9 @@ exports[`Navs.vue renders correctly 1`] = `
       >
         <cnavitem-stub
           active="true"
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -244,9 +248,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -254,9 +258,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -264,10 +268,10 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           disabled="true"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -299,9 +303,9 @@ exports[`Navs.vue renders correctly 1`] = `
       >
         <cnavitem-stub
           active="true"
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -309,9 +313,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -319,9 +323,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -329,10 +333,10 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           disabled="true"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -364,9 +368,9 @@ exports[`Navs.vue renders correctly 1`] = `
       >
         <cnavitem-stub
           active="true"
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -374,9 +378,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -384,9 +388,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -394,10 +398,10 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           disabled="true"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -424,13 +428,12 @@ exports[`Navs.vue renders correctly 1`] = `
      
     <ccardbody-stub>
       <cnav-stub
-        pills=""
+        variant="pills"
       >
         <cnavitem-stub
-          active="true"
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -438,9 +441,9 @@ exports[`Navs.vue renders correctly 1`] = `
         </cnavitem-stub>
          
         <cnavitem-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
         >
@@ -451,16 +454,15 @@ exports[`Navs.vue renders correctly 1`] = `
           button-content="Dropdown"
           caret="true"
           flip="true"
-          id="nav7_ddown"
-          nav=""
+          innav="true"
           offset="0,0"
           placement="bottom-end"
           togglertext="Dropdown"
         >
           <cdropdownitem-stub
-            activeclass="active"
+            activeclass="router-link-active"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
           >
@@ -468,9 +470,9 @@ exports[`Navs.vue renders correctly 1`] = `
           </cdropdownitem-stub>
            
           <cdropdownitem-stub
-            activeclass="active"
+            activeclass="router-link-active"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
           >
@@ -482,9 +484,9 @@ exports[`Navs.vue renders correctly 1`] = `
           />
            
           <cdropdownitem-stub
-            activeclass="active"
+            activeclass="router-link-active"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
           >
@@ -526,9 +528,9 @@ exports[`Navs.vue renders correctly 1`] = `
           >
             <cnavitem-stub
               active="true"
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
             >
@@ -536,9 +538,9 @@ exports[`Navs.vue renders correctly 1`] = `
             </cnavitem-stub>
              
             <cnavitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
             >
@@ -546,9 +548,9 @@ exports[`Navs.vue renders correctly 1`] = `
             </cnavitem-stub>
              
             <cnavitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
             >
@@ -556,10 +558,10 @@ exports[`Navs.vue renders correctly 1`] = `
             </cnavitem-stub>
              
             <cnavitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
             >

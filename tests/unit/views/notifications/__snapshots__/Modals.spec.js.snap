@@ -40,11 +40,11 @@ exports[`Modals.vue renders correctly 1`] = `
            
           <ccardbody-stub>
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -55,11 +55,11 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -70,11 +70,11 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -87,11 +87,11 @@ exports[`Modals.vue renders correctly 1`] = `
             <hr />
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -102,11 +102,11 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="success"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -117,11 +117,11 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="warning"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -132,11 +132,11 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="danger"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -147,11 +147,11 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="info"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -162,11 +162,11 @@ exports[`Modals.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mr-1"
               color="dark"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"

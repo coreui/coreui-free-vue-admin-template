@@ -58,10 +58,10 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
             </p>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"
@@ -125,10 +125,10 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
             </p>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"
@@ -138,10 +138,10 @@ exports[`Jumbotrons.vue renders correctly 1`] = `
             </cbutton-stub>
              
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="success"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"

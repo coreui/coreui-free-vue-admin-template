@@ -69,11 +69,11 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       </cprogress-stub>
        
       <cbutton-stub
-        activeclass="active"
+        activeclass="router-link-active"
         class="mt-4"
         color="secondary"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
         type="button"
@@ -486,10 +486,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       />
        
       <cbutton-stub
-        activeclass="active"
+        activeclass="router-link-active"
         color="secondary"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
         type="button"
@@ -557,10 +557,10 @@ exports[`ProgressBars.vue renders correctly 1`] = `
       />
        
       <cbutton-stub
-        activeclass="active"
+        activeclass="router-link-active"
         color="secondary"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
         type="button"

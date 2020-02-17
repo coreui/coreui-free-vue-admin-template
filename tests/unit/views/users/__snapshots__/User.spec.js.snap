@@ -33,10 +33,10 @@ exports[`User.vue renders correctly 1`] = `
        
       <ccardfooter-stub>
         <cbutton-stub
-          activeclass="active"
+          activeclass="router-link-active"
           color="primary"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
           type="button"

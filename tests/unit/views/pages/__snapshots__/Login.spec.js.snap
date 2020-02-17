@@ -55,11 +55,11 @@ exports[`Login.vue renders correctly 1`] = `
                   tag="div"
                 >
                   <cbutton-stub
-                    activeclass="active"
+                    activeclass="router-link-active"
                     class="px-4"
                     color="primary"
                     event="click"
-                    exactactiveclass="active"
+                    exactactiveclass="router-link-exact-active"
                     routertag="a"
                     target="_self"
                     type="button"
@@ -74,11 +74,11 @@ exports[`Login.vue renders correctly 1`] = `
                   tag="div"
                 >
                   <cbutton-stub
-                    activeclass="active"
+                    activeclass="router-link-active"
                     class="px-0"
                     color="link"
                     event="click"
-                    exactactiveclass="active"
+                    exactactiveclass="router-link-exact-active"
                     routertag="a"
                     target="_self"
                     type="button"
@@ -106,11 +106,11 @@ exports[`Login.vue renders correctly 1`] = `
           </p>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             class="active mt-3"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"

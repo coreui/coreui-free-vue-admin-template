@@ -21,7 +21,13 @@ exports[`TheHeader.vue renders correctly 1`] = `
   />
    
   <cheaderbrand-stub
+    activeclass="router-link-active"
     class="mx-auto d-lg-none"
+    event="click"
+    exactactiveclass="router-link-exact-active"
+    routertag="a"
+    tag="div"
+    target="_self"
     to="/"
   >
     <cicon-stub
@@ -38,9 +44,9 @@ exports[`TheHeader.vue renders correctly 1`] = `
       class="px-3"
     >
       <cheadernavlink-stub
-        activeclass="active"
+        activeclass="router-link-active"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
         to="/dashboard"
@@ -55,10 +61,10 @@ exports[`TheHeader.vue renders correctly 1`] = `
       class="px-3"
     >
       <cheadernavlink-stub
-        activeclass="active"
+        activeclass="router-link-active"
         event="click"
         exact="true"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
         to="/users"
@@ -73,9 +79,9 @@ exports[`TheHeader.vue renders correctly 1`] = `
       class="px-3"
     >
       <cheadernavlink-stub
-        activeclass="active"
+        activeclass="router-link-active"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
       >
@@ -93,9 +99,9 @@ exports[`TheHeader.vue renders correctly 1`] = `
       class="d-md-down-none mx-2"
     >
       <cheadernavlink-stub
-        activeclass="active"
+        activeclass="router-link-active"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
       >
@@ -109,9 +115,9 @@ exports[`TheHeader.vue renders correctly 1`] = `
       class="d-md-down-none mx-2"
     >
       <cheadernavlink-stub
-        activeclass="active"
+        activeclass="router-link-active"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
       >
@@ -125,9 +131,9 @@ exports[`TheHeader.vue renders correctly 1`] = `
       class="d-md-down-none mx-2"
     >
       <cheadernavlink-stub
-        activeclass="active"
+        activeclass="router-link-active"
         event="click"
-        exactactiveclass="active"
+        exactactiveclass="router-link-exact-active"
         routertag="a"
         target="_self"
       >
@@ -145,7 +151,7 @@ exports[`TheHeader.vue renders correctly 1`] = `
     tag="div"
   >
     <cbreadcrumbrouter-stub
-      class="border-0"
+      class="border-0 mb-0"
     />
   </csubheader-stub>
 </cheader-stub>

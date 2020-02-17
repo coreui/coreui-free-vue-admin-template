@@ -41,6 +41,11 @@ exports[`Tabs.vue renders correctly 1`] = `
           >
             <ctab-stub
               active="true"
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
               title="Home"
             >
               
@@ -53,6 +58,11 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
               title="Profile"
             >
               
@@ -65,7 +75,12 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
+              activeclass="router-link-active"
               disabled="true"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
               title="Disabled"
             >
               
@@ -100,6 +115,11 @@ exports[`Tabs.vue renders correctly 1`] = `
           >
             <ctab-stub
               active="true"
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
               title="Home"
             >
               
@@ -112,6 +132,11 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
               title="Profile"
             >
               
@@ -124,7 +149,12 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
+              activeclass="router-link-active"
               disabled="true"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
               title="Disabled"
             >
               
@@ -159,6 +189,11 @@ exports[`Tabs.vue renders correctly 1`] = `
           >
             <ctab-stub
               active="true"
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
             >
               <template>
                 <cicon-stub
@@ -174,7 +209,13 @@ exports[`Tabs.vue renders correctly 1`] = `
             
             </ctab-stub>
              
-            <ctab-stub>
+            <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
+            >
               <template>
                 <cicon-stub
                   name="cil-basket"
@@ -189,7 +230,13 @@ exports[`Tabs.vue renders correctly 1`] = `
             
             </ctab-stub>
              
-            <ctab-stub>
+            <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
+            >
               <template>
                 <cicon-stub
                   name="cil-chart-pie"
@@ -228,6 +275,11 @@ exports[`Tabs.vue renders correctly 1`] = `
           >
             <ctab-stub
               active="true"
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
             >
               <template>
                 <cicon-stub
@@ -245,7 +297,13 @@ exports[`Tabs.vue renders correctly 1`] = `
             
             </ctab-stub>
              
-            <ctab-stub>
+            <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
+            >
               <template>
                 <cicon-stub
                   name="cil-basket"
@@ -262,7 +320,13 @@ exports[`Tabs.vue renders correctly 1`] = `
             
             </ctab-stub>
              
-            <ctab-stub>
+            <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
+            >
               <template>
                 <cicon-stub
                   name="cil-chart-pie"
@@ -303,6 +367,11 @@ exports[`Tabs.vue renders correctly 1`] = `
           >
             <ctab-stub
               active="true"
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
             >
               <template>
                 <cicon-stub
@@ -320,7 +389,13 @@ exports[`Tabs.vue renders correctly 1`] = `
             
             </ctab-stub>
              
-            <ctab-stub>
+            <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
+            >
               <template>
                 <cicon-stub
                   name="cil-basket"
@@ -337,7 +412,13 @@ exports[`Tabs.vue renders correctly 1`] = `
             
             </ctab-stub>
              
-            <ctab-stub>
+            <ctab-stub
+              activeclass="router-link-active"
+              event="click"
+              exactactiveclass="router-link-exact-active"
+              routertag="a"
+              target="_self"
+            >
               <template>
                 <cicon-stub
                   name="cil-chart-pie"
