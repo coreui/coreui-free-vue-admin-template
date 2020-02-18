@@ -1,5 +1,5 @@
 <template>
-  <CFooter>
+  <CFooter :fixed="false">
     <div>
       <a href="https://coreui.io" target="_blank">CoreUI</a>
       <span class="ml-1">&copy; 2020 creativeLabs.</span>

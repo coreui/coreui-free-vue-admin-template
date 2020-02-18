@@ -58,6 +58,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
+              active="true"
               activeclass="router-link-active"
               event="click"
               exactactiveclass="router-link-exact-active"
@@ -184,6 +185,7 @@ exports[`Tabs.vue renders correctly 1`] = `
          
         <ccardbody-stub>
           <ctabs-stub
+            activetab="1"
             fade="true"
             variant="tabs"
           >
@@ -274,7 +276,6 @@ exports[`Tabs.vue renders correctly 1`] = `
             variant="tabs"
           >
             <ctab-stub
-              active="true"
               activeclass="router-link-active"
               event="click"
               exactactiveclass="router-link-exact-active"
@@ -298,6 +299,7 @@ exports[`Tabs.vue renders correctly 1`] = `
             </ctab-stub>
              
             <ctab-stub
+              active="true"
               activeclass="router-link-active"
               event="click"
               exactactiveclass="router-link-exact-active"
