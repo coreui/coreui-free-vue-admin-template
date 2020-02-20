@@ -10,8 +10,8 @@
             striped
             small
             fixed
-            :items="getUserData($route.params.id)"
-            :fields="$options.fields"
+            :items="visibleData"
+            :fields="fields"
           />
         </CCardBody>
         <CCardFooter>
@@ -26,16 +26,28 @@
 import usersData from './UsersData'
 export default {
   name: 'User',
-  fields: [
-    { key: 'key', _style: 'width:150px' },
-    { key: 'value' , _style: 'width:150px;' }
-  ],
-  methods: {
-    getUserData (id) {
+  computed: {
+    fields () {
+      return [
+        { 
+          key: 'key', 
+          label: this.userData.filter(param => param.key === 'username')[0].value,
+          _style: 'width:150px'
+        },
+        { key: 'value', label: '', _style: 'width:150px;' }
+      ]
+    },
+    userData () {
+      const id = this.$route.params.id
       const user = usersData.find((user, index) => index + 1 == id)
       const userDetails = user ? Object.entries(user) : [['id', 'Not found']]
       return userDetails.map(([key, value]) => { return { key, value } })
     },
+    visibleData () {
+      return this.userData.filter(param => param.key !== 'username')
+    }
+  },
+  methods: {
     goBack() {
       this.$router.go(-1)
     }

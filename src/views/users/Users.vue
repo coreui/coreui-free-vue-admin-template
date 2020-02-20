@@ -12,18 +12,11 @@
               striped
               :items="items"
               :fields="fields"
-              :items-per-page="perPage"
-              @row-clicked="rowClicked"
-              :pagination="$options.paginationProps"
-              index-column
+              :items-per-page="5"
               clickable-rows
+              :active-page="activePage"
+              @row-clicked="rowClicked"
             >
-              <template #username="data">
-                <td>
-                  <strong>{{data.item.username}}</strong>
-                </td>
-              </template>
-            
               <template #status="data">
                 <td>
                   <CBadge :color="getBadge(data.item.status)">
@@ -32,6 +25,13 @@
                 </td>
               </template>
             </CDataTable>
+            <CPagination
+              align="center"
+              :double-arrows="false"
+              :active-page="activePage"
+              :pages="5"
+              @update:activePage="pageChange"
+            />
           </CCardBody>
         </CCard>
       </transition>
@@ -43,37 +43,43 @@
 import usersData from './UsersData'
 export default {
   name: 'Users',
-  data: () => {
+  data () {
     return {
       items: usersData,
       fields: [
-        { key: 'username', label: 'Name' },
+        { key: 'username', label: 'Name', _classes: 'font-weight-bold' },
         { key: 'registered' },
         { key: 'role' },
         { key: 'status' }
       ],
-      perPage: 5,
+      activePage: 1
     }
   },
-  paginationProps: {
-    align: 'center',
-    doubleArrows: false,
-    previousButtonHtml: 'prev',
-    nextButtonHtml: 'next'
+  watch: {
+    $route: {
+      immediate: true,
+      handler (route) {
+        if (route.query && route.query.page) {
+          this.activePage = Number(route.query.page)
+        }
+      }
+    }
   },
   methods: {
     getBadge (status) {
-      return status === 'Active' ? 'success'
-        : status === 'Inactive' ? 'secondary'
-          : status === 'Pending' ? 'warning'
-            : status === 'Banned' ? 'danger' : 'primary'
-    },
-    userLink (id) {
-      return `users/${id.toString()}`
+      switch (status) {
+        case 'Active': return 'success'
+        case 'Inactive': return 'secondary'
+        case 'Pending': return 'warning'
+        case 'Banned': return 'danger'
+        default: 'primary'
+      }
     },
     rowClicked (item, index) {
-      const userLink = this.userLink(index + 1)
-      this.$router.push({path: userLink})
+      this.$router.push({path: `users/${index + 1}`})
+    },
+    pageChange (val) {
+      this.$router.push({ query: { page: val }})
     }
   }
 }
