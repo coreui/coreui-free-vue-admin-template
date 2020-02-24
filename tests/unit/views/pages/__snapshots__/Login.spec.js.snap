@@ -2,16 +2,14 @@
 
 exports[`Login.vue renders correctly 1`] = `
 <ccontainer-stub
-  class="d-flex align-items-center min-vh-100"
+  class="d-flex content-center min-vh-100"
   tag="div"
 >
   <crow-stub
-    class="justify-content-center"
     gutters="true"
     tag="div"
   >
     <ccol-stub
-      md="8"
       tag="div"
     >
       <ccardgroup-stub
@@ -51,6 +49,7 @@ exports[`Login.vue renders correctly 1`] = `
                 tag="div"
               >
                 <ccol-stub
+                  class="text-left"
                   col="6"
                   tag="div"
                 >
@@ -85,6 +84,19 @@ exports[`Login.vue renders correctly 1`] = `
                   >
                     Forgot password?
                   </cbutton-stub>
+                   
+                  <cbutton-stub
+                    activeclass="router-link-active"
+                    class="d-md-none"
+                    color="link"
+                    event="click"
+                    exactactiveclass="router-link-exact-active"
+                    routertag="a"
+                    target="_self"
+                    type="button"
+                  >
+                    Register now!
+                  </cbutton-stub>
                 </ccol-stub>
               </crow-stub>
             </cform-stub>
@@ -93,7 +105,7 @@ exports[`Login.vue renders correctly 1`] = `
          
         <ccard-stub
           bodywrapper="true"
-          class="text-center py-5 d-md-down-none"
+          class="text-center py-5 d-sm-down-none"
           color="primary"
           textcolor="white"
         >

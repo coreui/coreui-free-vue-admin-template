@@ -6,8 +6,8 @@ exports[`TheContainer.vue renders correctly 1`] = `
 >
   <thesidebar-stub />
    
-  <div
-    class="c-wrapper c-fixed-components"
+  <cwrapper-stub
+    tag="div"
   >
     <theheader-stub />
      
@@ -29,6 +29,6 @@ exports[`TheContainer.vue renders correctly 1`] = `
        
       <thefooter-stub />
     </div>
-  </div>
+  </cwrapper-stub>
 </div>
 `;

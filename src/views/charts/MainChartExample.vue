@@ -8,7 +8,7 @@
 
 <script>
 import { CChartLine } from '@coreui/vue-chartjs'
-import { getColor, hexToRgba } from '@coreui/utils/src'
+import { getStyle, hexToRgba } from '@coreui/utils/src'
 
 function random (min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
@@ -21,9 +21,9 @@ export default {
   },
   computed: {
     defaultDatasets () {
-      const brandSuccess = getColor('success') || '#4dbd74'
-      const brandInfo = getColor('info') || '#20a8d8'
-      const brandDanger = getColor('danger') || '#f86c6b'
+      const brandSuccess = getStyle('success2') || '#4dbd74'
+      const brandInfo = getStyle('info') || '#20a8d8'
+      const brandDanger = getStyle('danger') || '#f86c6b'
 
       let elements = 27
       const data1 = []

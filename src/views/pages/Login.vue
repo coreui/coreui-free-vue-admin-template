@@ -1,7 +1,7 @@
 <template>
-  <CContainer class="d-flex align-items-center min-vh-100">
-    <CRow class="justify-content-center">
-      <CCol md="8">
+  <CContainer class="d-flex content-center min-vh-100">
+    <CRow>
+      <CCol>
         <CCardGroup>
           <CCard class="p-4">
             <CCardBody>
@@ -22,11 +22,12 @@
                   <template #prepend-content><CIcon name="cil-lock-locked"/></template>
                 </CInput>
                 <CRow>
-                  <CCol col="6">
+                  <CCol col="6" class="text-left">
                     <CButton color="primary" class="px-4">Login</CButton>
                   </CCol>
                   <CCol col="6" class="text-right">
                     <CButton color="link" class="px-0">Forgot password?</CButton>
+                    <CButton color="link" class="d-md-none">Register now!</CButton>
                   </CCol>
                 </CRow>
               </CForm>
@@ -35,8 +36,7 @@
           <CCard
             color="primary"
             text-color="white"
-            class="text-center py-5 d-md-down-none"
-            style="width:44%"
+            class="text-center py-5 d-sm-down-none"
             body-wrapper
           >
             <h2>Sign up</h2>

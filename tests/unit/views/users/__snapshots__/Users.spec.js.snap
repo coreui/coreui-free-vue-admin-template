@@ -21,17 +21,25 @@ exports[`Users.vue renders correctly 1`] = `
        
       <ccardbody-stub>
         <cdatatable-stub
+          activepage="1"
           clickablerows="true"
           fields="[object Object],[object Object],[object Object],[object Object]"
           header="true"
           hover="true"
-          index-column=""
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
           itemsperpage="5"
-          pagination="[object Object]"
           responsive="true"
           sortervalue="[object Object]"
           striped="true"
+        />
+         
+        <cpagination-stub
+          activepage="1"
+          align="center"
+          arrows="true"
+          dots="true"
+          limit="5"
+          pages="5"
         />
       </ccardbody-stub>
     </ccard-stub>

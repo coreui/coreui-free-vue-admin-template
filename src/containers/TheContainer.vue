@@ -1,7 +1,7 @@
 <template>
   <div class="c-app">
     <TheSidebar/>
-    <div class="c-wrapper c-fixed-components">
+    <CWrapper>
       <TheHeader/>
       <div class="c-body">
         <main class="c-main">
@@ -13,7 +13,7 @@
         </main>
         <TheFooter/>
       </div>
-    </div>
+    </CWrapper>
   </div>
 </template>
 

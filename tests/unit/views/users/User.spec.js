@@ -1,46 +1,37 @@
-import { shallowMount, createLocalVue } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils'
 import VueRouter from 'vue-router'
 import CoreuiVue from '@coreui/vue'
 import User from '@/views/users/User'
+import appRouter from '@/router'
 
 const localVue = createLocalVue()
 localVue.use(VueRouter)
-const router = new VueRouter()
+const router = appRouter
+router.push({path: '/users/1'})
 
 localVue.use(CoreuiVue)
 
 describe('User.vue', () => {
+  let wrapper
+  beforeEach(() => {
+    wrapper = mount(User, {
+      localVue,
+      router
+    })
+  })
   it('has a name', () => {
     expect(User.name).toBe('User')
   })
   it('is Vue instance', () => {
-    const wrapper = shallowMount(User, {
-      localVue,
-      router
-    })
     expect(wrapper.isVueInstance()).toBe(true)
   })
   it('is User', () => {
-    const wrapper = shallowMount(User, {
-      localVue,
-      router
-    })
     expect(wrapper.is(User)).toBe(true)
   })
   it('should have methods', () => {
-    const wrapper = shallowMount(User,{
-      localVue,
-      router
-    })
-
-    expect(typeof User.methods.goBack ).toEqual('function')
-    expect(wrapper.vm.goBack()).toBeUndefined()
+    expect(typeof User.methods.goBack).toEqual('function')
   })
   test('renders correctly', () => {
-    const wrapper = shallowMount(User, {
-      localVue,
-        router
-    })
     expect(wrapper.element).toMatchSnapshot()
   })
 })

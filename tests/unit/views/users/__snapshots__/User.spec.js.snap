@@ -1,50 +1,150 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`User.vue renders correctly 1`] = `
-<crow-stub
-  gutters="true"
-  tag="div"
+<div
+  class="row"
 >
-  <ccol-stub
-    col="12"
-    lg="6"
-    tag="div"
+  <div
+    class="col-12 col-lg-6"
   >
-    <ccard-stub>
-      <ccardheader-stub>
+    <div
+      class="card"
+    >
+      <header
+        class="card-header"
+      >
         
-        User id:  
+        User id:  1
       
-      </ccardheader-stub>
+      </header>
        
-      <ccardbody-stub>
-        <cdatatable-stub
-          fields="[object Object],[object Object]"
-          fixed="true"
-          header="true"
-          items="[object Object]"
-          itemsperpage="10"
-          responsive="true"
+      <div
+        class="card-body"
+      >
+        <div
+          data-v-31168812=""
           small=""
-          sortervalue="[object Object]"
-          striped="true"
-        />
-      </ccardbody-stub>
+        >
+          <!---->
+          <div
+            class="position-relative table-responsive"
+            data-v-31168812=""
+          >
+            <table
+              class="table table-striped b-table-fixed"
+              data-v-31168812=""
+            >
+              <thead
+                data-v-31168812=""
+              >
+                <tr
+                  data-v-31168812=""
+                >
+                  <th
+                    class=""
+                    data-v-31168812=""
+                    style="width: 150px;"
+                  >
+                    <div
+                      class="d-inline"
+                      data-v-31168812=""
+                    >
+                      Samppa Nori
+                    </div>
+                    <!---->
+                  </th>
+                  <th
+                    class=""
+                    data-v-31168812=""
+                    style="width: 150px;"
+                  >
+                    <div
+                      class="d-inline"
+                      data-v-31168812=""
+                    >
+                      
+                    </div>
+                    <!---->
+                  </th>
+                </tr>
+                <!---->
+              </thead>
+              <tbody
+                class="position-relative"
+                data-v-31168812=""
+              >
+                <tr
+                  data-v-31168812=""
+                >
+                  <td
+                    class=""
+                    data-v-31168812=""
+                  >
+                     registered 
+                  </td>
+                  <td
+                    class=""
+                    data-v-31168812=""
+                  >
+                     2012/01/01 
+                  </td>
+                </tr>
+                <!---->
+                <tr
+                  data-v-31168812=""
+                >
+                  <td
+                    class=""
+                    data-v-31168812=""
+                  >
+                     role 
+                  </td>
+                  <td
+                    class=""
+                    data-v-31168812=""
+                  >
+                     Member 
+                  </td>
+                </tr>
+                <!---->
+                <tr
+                  data-v-31168812=""
+                >
+                  <td
+                    class=""
+                    data-v-31168812=""
+                  >
+                     status 
+                  </td>
+                  <td
+                    class=""
+                    data-v-31168812=""
+                  >
+                     Active 
+                  </td>
+                </tr>
+                <!---->
+                <!---->
+              </tbody>
+              <!---->
+            </table>
+            <!---->
+          </div>
+          <!---->
+        </div>
+      </div>
        
-      <ccardfooter-stub>
-        <cbutton-stub
-          activeclass="router-link-active"
-          color="primary"
-          event="click"
-          exactactiveclass="router-link-exact-active"
-          routertag="a"
-          target="_self"
+      <footer
+        class="card-footer"
+      >
+        <button
+          class="btn btn-primary"
           type="button"
         >
           Back
-        </cbutton-stub>
-      </ccardfooter-stub>
-    </ccard-stub>
-  </ccol-stub>
-</crow-stub>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
 `;

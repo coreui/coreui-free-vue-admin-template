@@ -29,11 +29,7 @@ export default {
   computed: {
     fields () {
       return [
-        { 
-          key: 'key', 
-          label: this.userData.filter(param => param.key === 'username')[0].value,
-          _style: 'width:150px'
-        },
+        { key: 'key', label: this.username, _style: 'width:150px'},
         { key: 'value', label: '', _style: 'width:150px;' }
       ]
     },
@@ -45,6 +41,9 @@ export default {
     },
     visibleData () {
       return this.userData.filter(param => param.key !== 'username')
+    },
+    username () {
+      return this.userData.filter(param => param.key === 'username')[0].value
     }
   },
   methods: {

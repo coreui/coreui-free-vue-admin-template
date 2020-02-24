@@ -37,15 +37,4 @@ describe('Users.vue', () => {
     })
     expect(wrapper.element).toMatchSnapshot()
   })
-  it('should have methods', () => {
-    const wrapper = shallowMount(Users,{
-      localVue,
-      router
-    })
-
-    expect(typeof Users.methods.userLink  ).toEqual('function')
-    expect(Users.methods.userLink(42)).toBe('users/42')
-    expect(typeof Users.methods.rowClicked ).toEqual('function')
-    expect(wrapper.vm.rowClicked({id:42})).toBeUndefined()
-  })
 })
