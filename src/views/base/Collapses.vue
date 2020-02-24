@@ -37,6 +37,16 @@
           </CCollapse>
         </CCardBody>
       </CCard>
+      <CCard>
+        <CCardHeader @click.native="cardCollapse = !cardCollapse"> 
+          <strong>Collapsible card</strong>
+        </CCardHeader>
+        <CCardBody>
+          <CCollapse :show="cardCollapse" class="mt-2">
+            <CCardText>Collapse contents Here</CCardText>
+          </CCollapse>
+        </CCardBody>
+      </CCard>
     </CCol>
   </CRow>
 </template>
@@ -47,6 +57,7 @@ export default {
   data () {
     return {
       collapse: false,
+      cardCollapse: true,
       innerCollapse: false,
       text: `
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry

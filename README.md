@@ -3,8 +3,7 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Vue%20Admin%20Template%20&url=http://coreui.io/vue/&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 [![NPM][npm-coreui-vue-badge-latest]][npm-coreui-vue]
 [![Downloads](https://img.shields.io/npm/dm/@coreui/vue.svg?style=flat-square)][coreui]
-[![Jest](https://img.shields.io/badge/Jest-^24.9.0-blue.svg?style=flat-square)][coreui]
-[![Vue](https://img.shields.io/badge/Vue-^2.6.10-brightgreen.svg?style=flat-square)][coreui]
+[![Vue](https://img.shields.io/badge/Vue-^2.6.11-brightgreen.svg?style=flat-square)][coreui]
 
 [npm-coreui-vue]: https://www.npmjs.com/package/@coreui/vue
 [npm-coreui-vue-badge-latest]: https://img.shields.io/npm/v/@coreui/vue/latest?style=flat-square&color=brightgreen  
@@ -97,7 +96,7 @@ Have a bug or a feature request? [Please open a new issue](https://github.com/co
 
 ### Contributing
 
-Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/v3-next/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/v3-next/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 ### Versioning
 
@@ -146,7 +145,7 @@ Some of projects created by community but not maintained by CoreUI team.
 
 ## Copyright and license
 
-Copyright 2019 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE).
+Copyright 2020 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE).
 There is only one limitation - you cannot re-distribute the `CoreUI` as stock nor if you modify the `CoreUI`. In the past we faced some problems with persons who tried to sell `CoreUI` based templates.
 
 ## Support CoreUI Development

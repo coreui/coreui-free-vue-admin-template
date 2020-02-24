@@ -10,12 +10,10 @@ exports[`Colors.vue renders correctly 1`] = `
     >
       <svg
         class="c-icon"
+        role="img"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <title>
-          cilDrop
-        </title>
         undefined
       </svg>
        Theme colors
@@ -415,12 +413,10 @@ exports[`Colors.vue renders correctly 1`] = `
     >
       <svg
         class="c-icon"
+        role="img"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <title>
-          cilDrop
-        </title>
         undefined
       </svg>
        Grays

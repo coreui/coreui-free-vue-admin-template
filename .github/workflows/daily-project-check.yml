@@ -1,0 +1,49 @@
+name: Daily project check
+
+on:
+  schedule:
+    # build runs everyday at 6AM UTC
+    - cron: '0 6 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: project check
+      run: |
+        npm i
+        npm run clearCache
+        npm run build
+        npm run lint
+        npm run test:unit
+      env:
+        CI: true
+
+  e2e-chrome:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 12
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: e2e chrome test
+      run: |
+        npm i
+        npm run test:e2e
+      env:
+        BROWSER: chrome

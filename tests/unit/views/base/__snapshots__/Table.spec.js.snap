@@ -13,6 +13,7 @@ exports[`Table.vue renders correctly 1`] = `
   <ccardbody-stub>
     <cdatatable-stub
       fields="username,registered,role,status"
+      header="true"
       itemsperpage="5"
       pagination="true"
       responsive="true"

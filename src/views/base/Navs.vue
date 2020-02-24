@@ -30,17 +30,19 @@
         <small>icons</small>
       </CCardHeader>
       <CCardBody>
-        <CNav>
+        <CNav variant="pills">
           <CNavItem active>
             <CIcon name="cil-basket"/>
           </CNavItem>
           <CNavItem>
-            Link
+            <CIcon name="cil-settings"/>
           </CNavItem>
           <CNavItem>
-            Another Link
+            <CIcon name="cil-bell"/>
           </CNavItem>
-          <CNavItem disabled>Disabled</CNavItem>
+          <CNavItem disabled>
+            <CIcon name="cil-envelope-closed"/>
+          </CNavItem>
         </CNav>
       </CCardBody>
     </CCard>
@@ -117,16 +119,14 @@
         <small>dropdown support</small>
       </CCardHeader>
       <CCardBody>
-        <CNav pills>
-          <CNavItem active>Active</CNavItem>
+        <CNav variant="pills">
+          <CNavItem>Active</CNavItem>
           <CNavItem>Link</CNavItem>
           <CDropdown
-            id="nav7_ddown"
-            nav
+            in-nav
             placement="bottom-end"
             button-content="Dropdown"
           >
-            <!-- <a class="nav-link dropdown-toggle" slot="button">Dropdown</a> -->
             <CDropdownItem>one</CDropdownItem>
             <CDropdownItem>two</CDropdownItem>
             <CDropdownDivider/>
@@ -159,11 +159,6 @@
 
 <script>
 export default {
-  name: 'Navs',
-  data () {
-    return {
-      item: 2
-    }
-  }
+  name: 'Navs'
 }
 </script>

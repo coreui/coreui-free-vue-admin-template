@@ -9,8 +9,12 @@ exports[`Paginations.vue renders correctly 1`] = `
       />
        
       <strong>
-         Responsive bootstrap Pagination
+         Pagination 
       </strong>
+       
+      <small>
+        size
+      </small>
        
       <div
         class="card-header-actions"
@@ -65,7 +69,9 @@ exports[`Paginations.vue renders correctly 1`] = `
        
       <br />
        
-      <div>
+      <div
+        class="d-md-down-none"
+      >
         <h6>
           Large
         </h6>

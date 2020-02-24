@@ -42,9 +42,9 @@ exports[`Navbars.vue renders correctly 1`] = `
         />
          
         <cnavbarbrand-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           href="#"
           routertag="a"
           tag="div"
@@ -62,9 +62,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             tag="ul"
           >
             <cnavitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"
@@ -73,10 +73,10 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cnavitem-stub>
              
             <cnavitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               disabled="true"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"
@@ -90,10 +90,11 @@ exports[`Navbars.vue renders correctly 1`] = `
             tag="ul"
           >
             <cform-stub
+              class="align-middle"
               inline="true"
             >
               <cinput-stub
-                class="mr-sm-2"
+                class="mr-2 my-0"
                 lazy="400"
                 placeholder="Search"
                 size="sm"
@@ -101,11 +102,10 @@ exports[`Navbars.vue renders correctly 1`] = `
               />
                
               <cbutton-stub
-                activeclass="active"
-                class="my-2 my-sm-0"
+                activeclass="router-link-active"
                 color="light"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 size="sm"
                 target="_self"
@@ -121,14 +121,14 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="Lang"
             >
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -136,9 +136,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -146,9 +146,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -156,9 +156,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -170,14 +170,14 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="User"
             >
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -185,9 +185,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -222,9 +222,9 @@ exports[`Navbars.vue renders correctly 1`] = `
         tag="nav"
       >
         <cnavbarbrand-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           href="#"
           routertag="a"
           tag="div"
@@ -271,9 +271,9 @@ exports[`Navbars.vue renders correctly 1`] = `
         />
          
         <cnavbarbrand-stub
-          activeclass="active"
+          activeclass="router-link-active"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           tag="div"
           target="_self"
@@ -335,9 +335,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             tag="ul"
           >
             <cnavitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"
@@ -346,9 +346,9 @@ exports[`Navbars.vue renders correctly 1`] = `
             </cnavitem-stub>
              
             <cnavitem-stub
-              activeclass="active"
+              activeclass="router-link-active"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"
@@ -360,14 +360,14 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="Lang"
             >
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -375,9 +375,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -385,9 +385,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -395,9 +395,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -409,14 +409,14 @@ exports[`Navbars.vue renders correctly 1`] = `
               caret="true"
               flip="true"
               innav="true"
-              offset="0"
-              placement="bottom-end"
+              offset="0,0"
+              placement="bottom-start"
               togglertext="User"
             >
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -424,9 +424,9 @@ exports[`Navbars.vue renders correctly 1`] = `
               </cdropdownitem-stub>
                
               <cdropdownitem-stub
-                activeclass="active"
+                activeclass="router-link-active"
                 event="click"
-                exactactiveclass="active"
+                exactactiveclass="router-link-exact-active"
                 routertag="a"
                 target="_self"
               >
@@ -472,11 +472,11 @@ exports[`Navbars.vue renders correctly 1`] = `
           />
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             class="my-2 my-sm-0"
             color="outline-success"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="submit"

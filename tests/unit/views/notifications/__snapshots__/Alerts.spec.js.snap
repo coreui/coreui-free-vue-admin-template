@@ -261,10 +261,10 @@ exports[`Alerts.vue renders correctly 1`] = `
             Dark Alert with
             
             <clink-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="alert-link"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               href="#"
               routertag="a"
               target="_self"
@@ -369,11 +369,11 @@ exports[`Alerts.vue renders correctly 1`] = `
           Dismissible Alert with custom button!
           
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             class="position-absolute"
             color="secondary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -385,11 +385,11 @@ exports[`Alerts.vue renders correctly 1`] = `
         </calert-stub>
          
         <cbutton-stub
-          activeclass="active"
+          activeclass="router-link-active"
           class="m-1"
           color="info"
           event="click"
-          exactactiveclass="active"
+          exactactiveclass="router-link-exact-active"
           routertag="a"
           target="_self"
           type="button"
@@ -450,11 +450,11 @@ exports[`Alerts.vue renders correctly 1`] = `
           </calert-stub>
            
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             class="m-1"
             color="info"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"

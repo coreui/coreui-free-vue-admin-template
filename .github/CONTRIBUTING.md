@@ -36,7 +36,7 @@ Guidelines for bug reports:
 
 1. **Use the GitHub issue search** &mdash; check if the issue has already been reported.
 
-2. **Check if the issue has been fixed** &mdash; try to reproduce it using the latest `master` or development branch in the repository.
+2. **Check if the issue has been fixed** &mdash; try to reproduce it using the latest `master` or `dev` branch in the repository.
 
 3. **Isolate the problem** &mdash; ideally create a [reduced test case](https://css-tricks.com/reduced-test-cases/) and a live example. [This JS Bin](http://jsbin.com/lefey/1/edit?html,output) is a helpful template.
 
@@ -101,11 +101,11 @@ included in the project:
 2. If you cloned a while ago, get the latest changes from upstream:
 
    ```bash
-   git checkout master
-   git pull upstream master
+   git checkout dev
+   git pull upstream dev
    ```
 
-3. Create a new topic branch (off the main project development branch) to
+3. Create a new topic branch (off the development branch "dev") to
    contain your feature, change, or fix:
 
    ```bash
@@ -121,7 +121,7 @@ included in the project:
 5. Locally merge (or rebase) the upstream development branch into your topic branch:
 
    ```bash
-   git pull [--rebase] upstream master
+   git pull [--rebase] upstream dev
    ```
 
 6. Push your topic branch up to your fork:
@@ -130,7 +130,7 @@ included in the project:
    git push origin <topic-branch-name>
    ```
 
-7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description against the `master` branch.
+7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description into the `dev` branch.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under the terms of the [MIT License](LICENSE).
 
@@ -144,7 +144,7 @@ Inspired by Sparkbox's awesome article on [semantic commit messages](http://sees
 - fix (bug fix) -> ```git commit -m 'fix: commit-message-here'```
 - refactor (refactoring production code) -> ```git commit -m 'refactor: commit-message-here'```
 - style (formatting, missing semi colons, etc; no code change) -> ```git commit -m 'style: commit-message-here'```
-- test (adding missing tests, refactoring tests; no production code change) -> ```git test -m 'refactor: commit-message-here'```
+- test (adding missing tests, refactoring tests; no production code change) -> ```git commit -m 'test: commit-message-here'```
 
 ## Code guidelines
 

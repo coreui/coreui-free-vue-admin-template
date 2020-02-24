@@ -50,10 +50,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             class="text-center my-3"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -73,10 +73,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             class="text-center my-3"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -120,10 +120,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -139,10 +139,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -158,10 +158,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -177,10 +177,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -196,10 +196,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -215,10 +215,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -234,10 +234,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -253,10 +253,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -272,10 +272,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -291,10 +291,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -310,10 +310,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -329,10 +329,10 @@ exports[`Tooltips.vue renders correctly 1`] = `
             tag="div"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               color="primary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"

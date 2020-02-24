@@ -40,83 +40,67 @@ export default [
         items: [
           {
             name: 'Breadcrumbs',
-            to: '/base/breadcrumbs',
-            icon: 'cil-puzzle'
+            to: '/base/breadcrumbs'
           },
           {
             name: 'Cards',
-            to: '/base/cards',
-            icon: 'cil-puzzle'
+            to: '/base/cards'
           },
           {
             name: 'Carousels',
-            to: '/base/carousels',
-            icon: 'cil-puzzle'
+            to: '/base/carousels'
           }, 
           {
             name: 'Collapses',
-            to: '/base/collapses',
-            icon: 'cil-puzzle'
+            to: '/base/collapses'
           },
           {
             name: 'Forms',
-            to: '/base/forms',
-            icon: 'cil-puzzle'
+            to: '/base/forms'
           },
           {
             name: 'Jumbotrons',
-            to: '/base/jumbotrons',
-            icon: 'cil-puzzle'
+            to: '/base/jumbotrons'
           },
           {
             name: 'List Groups',
-            to: '/base/list-groups',
-            icon: 'cil-puzzle'
+            to: '/base/list-groups'
           },
           {
             name: 'Navs',
-            to: '/base/navs',
-            icon: 'cil-puzzle'
+            to: '/base/navs'
           },
           {
             name: 'Navbars',
-            to: '/base/navbars',
-            icon: 'cil-puzzle'
+            to: '/base/navbars'
           },
           {
             name: 'Paginations',
-            to: '/base/paginations',
-            icon: 'cil-puzzle'
+            to: '/base/paginations'
           },
           {
             name: 'Popovers',
-            to: '/base/popovers',
-            icon: 'cil-puzzle'
+            to: '/base/popovers'
           },
           {
             name: 'Progress Bars',
-            to: '/base/progress-bars',
-            icon: 'cil-puzzle'
+            to: '/base/progress-bars'
           },
           {
             name: 'Switches',
-            to: '/base/switches',
-            icon: 'cil-puzzle'
+            to: '/base/switches'
           },
           {
             name: 'Tables',
-            to: '/base/tables',
-            icon: 'cil-puzzle'
+            to: '/base/tables'
           },
           {
             name: 'Tabs',
-            to: '/base/tabs',
-            icon: 'cil-puzzle'
+            to: '/base/tabs'
           },
           {
             name: 'Tooltips',
-            to: '/base/tooltips',
-            icon: 'cil-puzzle'
+            to: '/base/tooltips'
           }
         ]
       },
@@ -128,23 +112,19 @@ export default [
         items: [
           {
             name: 'Buttons',
-            to: '/buttons/standard-buttons',
-            icon: 'cil-cursor'
+            to: '/buttons/standard-buttons'
           },
           {
             name: 'Button Dropdowns',
-            to: '/buttons/dropdowns',
-            icon: 'cil-cursor'
+            to: '/buttons/dropdowns'
           },
           {
             name: 'Button Groups',
-            to: '/buttons/button-groups',
-            icon: 'cil-cursor'
+            to: '/buttons/button-groups'
           },
           {
             name: 'Brand Buttons',
-            to: '/buttons/brand-buttons',
-            icon: 'cil-cursor'
+            to: '/buttons/brand-buttons'
           }
         ]
       },
@@ -163,7 +143,6 @@ export default [
           {
             name: 'CoreUI Icons',
             to: '/icons/coreui-icons',
-            icon: 'cil-star',
             badge: {
               color: 'info',
               text: 'NEW'
@@ -171,13 +150,11 @@ export default [
           },
           {
             name: 'Brands',
-            to: '/icons/brands',
-            icon: 'cil-star'
+            to: '/icons/brands'
           },
           {
             name: 'Flags',
-            to: '/icons/flags',
-            icon: 'cil-star'
+            to: '/icons/flags'
           }
         ]
       },
@@ -189,18 +166,15 @@ export default [
         items: [
           {
             name: 'Alerts',
-            to: '/notifications/alerts',
-            icon: 'cil-bell'
+            to: '/notifications/alerts'
           },
           {
             name: 'Badges',
-            to: '/notifications/badges',
-            icon: 'cil-bell'
+            to: '/notifications/badges'
           },
           {
             name: 'Modals',
-            to: '/notifications/modals',
-            icon: 'cil-bell'
+            to: '/notifications/modals'
           }
         ]
       },
@@ -231,23 +205,19 @@ export default [
         items: [
           {
             name: 'Login',
-            to: '/pages/login',
-            icon: 'cil-star'
+            to: '/pages/login'
           },
           {
             name: 'Register',
-            to: '/pages/register',
-            icon: 'cil-star'
+            to: '/pages/register'
           },
           {
             name: 'Error 404',
-            to: '/pages/404',
-            icon: 'cil-star'
+            to: '/pages/404'
           },
           {
             name: 'Error 500',
-            to: '/pages/500',
-            icon: 'cil-star'
+            to: '/pages/500'
           }
         ]
       },

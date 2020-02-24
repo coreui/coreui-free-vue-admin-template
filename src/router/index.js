@@ -111,21 +111,28 @@ function configRoutes () {
         },
         {
           path: 'users',
-          meta: { label: 'Users'},
+          meta: {
+            label: 'Users'
+          },
           component: {
-            render (c) { return c('router-view') }
+            render(c) {
+              return c('router-view')
+            }
           },
           children: [
             {
               path: '',
-              component: Users,
+              name: 'Users',
+              component: Users
             },
             {
               path: ':id',
-              meta: { label: 'User Details'},
+              meta: {
+                label: 'User Details'
+              },
               name: 'User',
-              component: User,
-            },
+              component: User
+            }
           ]
         },
         {

@@ -34,11 +34,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
           tag="div"
         >
           <cbutton-stub
-            activeclass="active"
+            activeclass="router-link-active"
             class="float-right"
             color="primary"
             event="click"
-            exactactiveclass="active"
+            exactactiveclass="router-link-exact-active"
             routertag="a"
             target="_self"
             type="button"
@@ -52,11 +52,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
             class="float-right mr-3"
           >
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mx-0"
               color="outline-secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -66,11 +66,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
             
             </cbutton-stub>
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mx-0"
               color="outline-secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               pressed="true"
               routertag="a"
               target="_self"
@@ -81,11 +81,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
             
             </cbutton-stub>
             <cbutton-stub
-              activeclass="active"
+              activeclass="router-link-active"
               class="mx-0"
               color="outline-secondary"
               event="click"
-              exactactiveclass="active"
+              exactactiveclass="router-link-exact-active"
               routertag="a"
               target="_self"
               type="button"
@@ -574,10 +574,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                 <small>
                   <sup>
                     <cbadge-stub
-                      activeclass="active"
+                      activeclass="router-link-active"
                       color="info"
                       event="click"
-                      exactactiveclass="active"
+                      exactactiveclass="router-link-exact-active"
                       routertag="a"
                       shape="pill"
                       tag="span"
@@ -592,10 +592,10 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   
                   <sup>
                     <cbadge-stub
-                      activeclass="active"
+                      activeclass="router-link-active"
                       color="danger"
                       event="click"
-                      exactactiveclass="active"
+                      exactactiveclass="router-link-exact-active"
                       routertag="a"
                       shape="pill"
                       tag="span"
@@ -925,11 +925,11 @@ exports[`Dashboard.vue renders correctly 1`] = `
                   class="divider text-center"
                 >
                   <cbutton-stub
-                    activeclass="active"
+                    activeclass="router-link-active"
                     class="text-muted"
                     color="link"
                     event="click"
-                    exactactiveclass="active"
+                    exactactiveclass="router-link-exact-active"
                     routertag="a"
                     size="sm"
                     target="_self"
@@ -950,6 +950,7 @@ exports[`Dashboard.vue renders correctly 1`] = `
             class="mb-0 table-outline"
             fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
             head-color="light"
+            header="true"
             hover="true"
             items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
             itemsperpage="10"

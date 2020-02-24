@@ -25,7 +25,7 @@
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab title="Profile">
+              <CTab title="Profile" active>
                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -81,7 +81,7 @@
             Tabs with icons
           </CCardHeader>
           <CCardBody>
-            <CTabs>
+            <CTabs :active-tab.sync="activeTab">
               <CTab active>
                 <template slot="title">
                   <CIcon name="cil-calculator"/>
@@ -123,7 +123,7 @@
           </CCardHeader>
           <CCardBody>
             <CTabs add-tab-classes="mt-1">
-              <CTab active>
+              <CTab>
                 <template slot="title">
                   <CIcon name="cil-calculator"/> {{tabs[0]}}
                 </template>
@@ -133,7 +133,7 @@
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                 officia deserunt mollit anim id est laborum.
               </CTab>
-              <CTab>
+              <CTab active>
                 <template slot="title">
                   <CIcon name="cil-basket"/> {{tabs[1]}}
                 </template>
@@ -211,7 +211,8 @@ export default {
         'Calculator',
         'Shopping cart',
         'Charts'
-      ]
+      ],
+      activeTab: 1
     }
   }
 }
