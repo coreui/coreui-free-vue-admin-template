@@ -32,5 +32,7 @@ describe('Alerts.vue', () => {
     expect(Alerts.methods.showAlert()).toBeUndefined()
     expect(typeof Alerts.methods.countDownChanged ).toEqual('function')
     expect(Alerts.methods.countDownChanged(10)).toBeUndefined()
+    expect(typeof Alerts.methods.showDismissibleAlerts ).toEqual('function')
+    expect(Alerts.methods.showDismissibleAlerts()).toBeUndefined()
   })
 })
