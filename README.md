@@ -96,7 +96,7 @@ Have a bug or a feature request? [Please open a new issue](https://github.com/co
 
 ### Contributing
 
-Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/v3-next/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 ### Versioning
 
@@ -150,6 +150,4 @@ There is only one limitation - you cannot re-distribute the `CoreUI` as stock no
 
 ## Support CoreUI Development
 
-CoreUI is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by donating on [PayPal](https://www.paypal.me/holeczek), buying [CoreUI Pro Version](https://coreui.io/pro) or buying one of our [premium admin templates](https://genesisui.com/?support=1).
-
-If you are a business that is building core products using CoreUI, we are open to conversations regarding custom sponsorship / consulting arrangements. Get in touch on [Twitter](https://twitter.com/lukaszholeczek).
+CoreUI is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by buying [PRO version](https://coreui.io/pro/).
