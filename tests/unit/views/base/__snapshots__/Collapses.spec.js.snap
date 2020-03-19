@@ -48,7 +48,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         class="card-body"
       >
         <button
-          class="btn btn-primary"
+          class="btn mb-2 btn-primary"
           type="button"
         >
           
@@ -57,7 +57,7 @@ exports[`Collapses.vue renders correctly 1`] = `
         </button>
          
         <div
-          class="mt-2"
+          class=""
           style="display: none;"
         >
           <div
@@ -100,12 +100,16 @@ exports[`Collapses.vue renders correctly 1`] = `
         </div>
       </div>
     </div>
-     
+  </div>
+   
+  <div
+    class="col-12 col-md-6"
+  >
     <div
       class="card"
     >
       <header
-        class="card-header"
+        class="card-header btn text-left"
       >
         <strong>
           Collapsible card
@@ -113,16 +117,23 @@ exports[`Collapses.vue renders correctly 1`] = `
       </header>
        
       <div
-        class="card-body"
+        class=""
       >
         <div
-          class="mt-2"
+          class="card-body m-1"
         >
-          <p
-            class="card-text"
-          >
-            Collapse contents Here
-          </p>
+          
+          
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+        vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+        synth nesciunt you probably haven't heard of them accusamus labore VHS.
+      
+        
         </div>
       </div>
     </div>

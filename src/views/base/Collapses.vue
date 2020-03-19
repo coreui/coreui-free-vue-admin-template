@@ -17,10 +17,10 @@
           </div>
         </CCardHeader>
         <CCardBody>
-          <CButton @click="collapse = !collapse" color="primary">
+          <CButton @click="collapse = !collapse" color="primary" class="mb-2">
             Toggle Collapse
           </CButton>
-          <CCollapse :show="collapse" class="mt-2">
+          <CCollapse :show="collapse" :duration="400">
             <CCard body-wrapper>
               <CCardText>Collapse contents Here</CCardText>
               <CButton  
@@ -37,15 +37,20 @@
           </CCollapse>
         </CCardBody>
       </CCard>
+    </CCol>
+    <CCol col="12" md="6">
       <CCard>
-        <CCardHeader @click.native="cardCollapse = !cardCollapse"> 
+        <CCardHeader 
+          @click="cardCollapse = !cardCollapse" 
+          class="btn text-left"
+        > 
           <strong>Collapsible card</strong>
         </CCardHeader>
-        <CCardBody>
-          <CCollapse :show="cardCollapse" class="mt-2">
-            <CCardText>Collapse contents Here</CCardText>
+        <CCollapse :show="cardCollapse">
+          <CCardBody class="m-1">
+            {{text}}
+          </CCardBody>
           </CCollapse>
-        </CCardBody>
       </CCard>
     </CCol>
   </CRow>

@@ -15,7 +15,7 @@
             clickable-rows
             :active-page="activePage"
             @row-clicked="rowClicked"
-            :pagination="{ doubleArrows: false, align: center}"
+            :pagination="{ doubleArrows: false, align: 'center'}"
             @page-change="pageChange"
           >
             <template #status="data">
