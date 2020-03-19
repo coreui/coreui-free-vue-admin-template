@@ -26,6 +26,16 @@
 import usersData from './UsersData'
 export default {
   name: 'User',
+  beforeRouteEnter(to, from, next) {
+    next(vm => {
+      vm.usersOpened = from.fullPath.includes('users')
+    })
+  },
+  data () {
+    return {
+      usersOpened: null
+    }
+  },
   computed: {
     fields () {
       return [
@@ -48,7 +58,7 @@ export default {
   },
   methods: {
     goBack() {
-      this.$router.go(-1)
+      this.usersOpened ? this.$router.go(-1) : this.$router.push({path: '/users'})
     }
   }
 }

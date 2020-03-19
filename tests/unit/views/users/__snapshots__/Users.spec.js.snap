@@ -10,13 +10,11 @@ exports[`Users.vue renders correctly 1`] = `
     tag="div"
     xl="8"
   >
-    <ccard-stub
-      name="slide"
-    >
+    <ccard-stub>
       <ccardheader-stub>
         
-          Users
-        
+        Users
+      
       </ccardheader-stub>
        
       <ccardbody-stub>
@@ -28,18 +26,10 @@ exports[`Users.vue renders correctly 1`] = `
           hover="true"
           items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
           itemsperpage="5"
+          pagination="[object Object]"
           responsive="true"
           sortervalue="[object Object]"
           striped="true"
-        />
-         
-        <cpagination-stub
-          activepage="1"
-          align="center"
-          arrows="true"
-          dots="true"
-          limit="5"
-          pages="5"
         />
       </ccardbody-stub>
     </ccard-stub>

@@ -1,40 +1,33 @@
 <template>
   <CRow>
     <CCol col="12" xl="8">
-      <transition name="slide">
-        <CCard>
-          <CCardHeader>
-            Users
-          </CCardHeader>
-          <CCardBody>
-            <CDataTable
-              hover
-              striped
-              :items="items"
-              :fields="fields"
-              :items-per-page="5"
-              clickable-rows
-              :active-page="activePage"
-              @row-clicked="rowClicked"
-            >
-              <template #status="data">
-                <td>
-                  <CBadge :color="getBadge(data.item.status)">
-                    {{data.item.status}}
-                  </CBadge>
-                </td>
-              </template>
-            </CDataTable>
-            <CPagination
-              align="center"
-              :double-arrows="false"
-              :active-page="activePage"
-              :pages="5"
-              @update:activePage="pageChange"
-            />
-          </CCardBody>
-        </CCard>
-      </transition>
+      <CCard>
+        <CCardHeader>
+          Users
+        </CCardHeader>
+        <CCardBody>
+          <CDataTable
+            hover
+            striped
+            :items="items"
+            :fields="fields"
+            :items-per-page="5"
+            clickable-rows
+            :active-page="activePage"
+            @row-clicked="rowClicked"
+            :pagination="{ doubleArrows: false, align: center}"
+            @page-change="pageChange"
+          >
+            <template #status="data">
+              <td>
+                <CBadge :color="getBadge(data.item.status)">
+                  {{data.item.status}}
+                </CBadge>
+              </td>
+            </template>
+          </CDataTable>
+        </CCardBody>
+      </CCard>
     </CCol>
   </CRow>
 </template>
