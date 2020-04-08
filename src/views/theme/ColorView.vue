@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { rgbToHex } from '@coreui/coreui/dist/js/coreui-utilities'
+import { rgbToHex } from '@coreui/utils/src'
 export default {
   name: 'ColorView',
   data () {
