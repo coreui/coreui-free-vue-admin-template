@@ -21,7 +21,6 @@
         <CPagination
           :active-page.sync="currentPage"
           :pages="10"
-          responsive
         />
         <br>
 
@@ -38,7 +37,6 @@
             size="lg"
             :active-page.sync="currentPage"
             :pages="10"
-            responsive
           />
           <br>
         </div>

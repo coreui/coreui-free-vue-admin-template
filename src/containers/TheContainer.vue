@@ -11,8 +11,8 @@
             </transition>
           </CContainer>
         </main>
-        <TheFooter/>
       </div>
+      <TheFooter/>
     </CWrapper>
   </div>
 </template>

@@ -188,8 +188,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-sm"
-            name="stack-overflow"
+            class="btn btn-stackoverflow btn-sm"
+            name="stackoverflow"
             type="button"
           >
             <svg
@@ -202,7 +202,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
              
             <span>
-              stack-overflow
+              stackoverflow
             </span>
           </button>
           <button
@@ -501,8 +501,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow"
-            name="stack-overflow"
+            class="btn btn-stackoverflow"
+            name="stackoverflow"
             type="button"
           >
             <svg
@@ -515,7 +515,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
              
             <span>
-              stack-overflow
+              stackoverflow
             </span>
           </button>
           <button
@@ -820,8 +820,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-lg"
-            name="stack-overflow"
+            class="btn btn-stackoverflow btn-lg"
+            name="stackoverflow"
             type="button"
           >
             <svg
@@ -834,7 +834,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
              
             <span>
-              stack-overflow
+              stackoverflow
             </span>
           </button>
           <button
@@ -1145,8 +1145,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-stack-overflow btn-sm"
-            name="stack-overflow"
+            class="btn btn-stackoverflow btn-sm"
+            name="stackoverflow"
             type="button"
           >
             <svg
@@ -1390,8 +1390,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-stack-overflow"
-            name="stack-overflow"
+            class="btn btn-stackoverflow"
+            name="stackoverflow"
             type="button"
           >
             <svg
@@ -1641,8 +1641,8 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </svg>
           </button>
           <button
-            class="btn btn-stack-overflow btn-lg"
-            name="stack-overflow"
+            class="btn btn-stackoverflow btn-lg"
+            name="stackoverflow"
             type="button"
           >
             <svg
@@ -1886,11 +1886,11 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-sm"
+            class="btn btn-stackoverflow btn-sm"
             type="button"
           >
             <span>
-              stack-overflow
+              stackoverflow
             </span>
           </button>
           <button
@@ -2029,11 +2029,11 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow"
+            class="btn btn-stackoverflow"
             type="button"
           >
             <span>
-              stack-overflow
+              stackoverflow
             </span>
           </button>
           <button
@@ -2178,11 +2178,11 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stack-overflow btn-lg"
+            class="btn btn-stackoverflow btn-lg"
             type="button"
           >
             <span>
-              stack-overflow
+              stackoverflow
             </span>
           </button>
           <button

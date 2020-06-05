@@ -859,11 +859,11 @@ export default {
       selectOptions: [
         'Option 1', 'Option 2', 'Option 3',
         { 
-          value: ['some value', 'another value'], 
+          value: 'some value', 
           label: 'Selected option'
         }
       ],
-      selectedOption: ['some value', 'another value'],
+      selectedOption: 'some value',
 
       formCollapsed: true,
       checkboxNames: ['Checkboxes', 'Inline Checkboxes',

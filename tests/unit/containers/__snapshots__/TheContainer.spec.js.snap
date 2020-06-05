@@ -26,9 +26,9 @@ exports[`TheContainer.vue renders correctly 1`] = `
           />
         </ccontainer-stub>
       </main>
-       
-      <thefooter-stub />
     </div>
+     
+    <thefooter-stub />
   </cwrapper-stub>
 </div>
 `;

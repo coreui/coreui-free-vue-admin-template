@@ -47,7 +47,6 @@ exports[`Paginations.vue renders correctly 1`] = `
         doublearrows="true"
         limit="5"
         pages="10"
-        responsive=""
       />
        
       <br />
@@ -84,7 +83,6 @@ exports[`Paginations.vue renders correctly 1`] = `
           doublearrows="true"
           limit="5"
           pages="10"
-          responsive=""
           size="lg"
         />
          
