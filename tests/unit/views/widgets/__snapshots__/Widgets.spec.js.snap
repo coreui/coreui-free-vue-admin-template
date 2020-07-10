@@ -45,7 +45,7 @@ exports[`Widgets.vue renders correctly 1`] = `
          
         <cprogress-stub
           class="progress-xs my-3 mb-0"
-          color="success"
+          color="gradient-success"
           max="100"
           precision="0"
           value="25"
@@ -59,7 +59,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
-        color="info"
+        color="gradient-info"
         footer="Lorem ipsum dolor sit amet enim."
         header="12.124"
         text="Lorem ipsum..."
@@ -73,7 +73,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
-        color="warning"
+        color="gradient-warning"
         footer="Lorem ipsum dolor sit amet enim."
         header="$98.111,00"
         text="Lorem ipsum..."
@@ -87,7 +87,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
-        color="danger"
+        color="gradient-danger"
         footer="Lorem ipsum dolor sit amet enim."
         header="2 TB"
         text="Lorem ipsum..."
@@ -106,7 +106,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
-        color="success"
+        color="gradient-success"
         footer="Lorem ipsum dolor sit amet enim."
         header="89.9%"
         inverse="true"
@@ -121,7 +121,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
-        color="info"
+        color="gradient-info"
         footer="Lorem ipsum dolor sit amet enim."
         header="12.124"
         inverse="true"
@@ -136,7 +136,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
-        color="warning"
+        color="gradient-warning"
         footer="Lorem ipsum dolor sit amet enim."
         header="$98.111,00"
         inverse="true"
@@ -151,7 +151,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogress-stub
-        color="danger"
+        color="gradient-danger"
         footer="Lorem ipsum dolor sit amet enim."
         header="2 TB"
         inverse="true"
@@ -172,7 +172,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="primary"
+        color="gradient-primary"
         header="$1.999,50"
         iconpadding="true"
         text="Income"
@@ -191,7 +191,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="info"
+        color="gradient-info"
         header="$1.999,50"
         iconpadding="true"
         text="Income"
@@ -210,7 +210,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="warning"
+        color="gradient-warning"
         header="$1.999,50"
         iconpadding="true"
         text="Income"
@@ -229,7 +229,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="danger"
+        color="gradient-danger"
         header="$1.999,50"
         iconpadding="true"
         text="Income"
@@ -253,7 +253,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="primary"
+        color="gradient-primary"
         header="$1.999,50"
         text="Income"
       >
@@ -271,7 +271,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="info"
+        color="gradient-info"
         header="$1.999,50"
         text="Income"
       >
@@ -289,7 +289,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="warning"
+        color="gradient-warning"
         header="$1.999,50"
         text="Income"
       >
@@ -307,7 +307,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="danger"
+        color="gradient-danger"
         header="$1.999,50"
         text="Income"
       >
@@ -330,7 +330,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="primary"
+        color="gradient-primary"
         header="$1.999,50"
         text="Income"
       >
@@ -349,7 +349,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="info"
+        color="gradient-info"
         header="$1.999,50"
         text="Income"
       >
@@ -368,7 +368,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgeticon-stub
-        color="warning"
+        color="gradient-warning"
         header="$1.999,50"
         text="Income"
       >
@@ -392,7 +392,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     tag="div"
   >
     <cwidgetprogressicon-stub
-      color="info"
+      color="gradient-info"
       header="87.500"
       text="Visitors"
       value="25"
@@ -404,7 +404,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
-      color="success"
+      color="gradient-success"
       header="385"
       text="New Clients"
       value="25"
@@ -416,7 +416,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
-      color="warning"
+      color="gradient-warning"
       header="1238"
       text="Products sold"
       value="25"
@@ -439,7 +439,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
-      color="danger"
+      color="gradient-danger"
       header="5:34:11"
       text="Avg. Time"
       value="25"
@@ -456,7 +456,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     tag="div"
   >
     <cwidgetprogressicon-stub
-      color="info"
+      color="gradient-info"
       header="87.500"
       inverse="true"
       text="Visitors"
@@ -469,7 +469,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
-      color="success"
+      color="gradient-success"
       header="385"
       inverse="true"
       text="New Clients"
@@ -482,7 +482,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
-      color="warning"
+      color="gradient-warning"
       header="1238"
       inverse="true"
       text="Products sold"
@@ -495,7 +495,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
-      color="primary"
+      color="gradient-primary"
       header="28%"
       inverse="true"
       text="Returning Visitors"
@@ -508,7 +508,7 @@ exports[`Widgets.vue renders correctly 1`] = `
     </cwidgetprogressicon-stub>
      
     <cwidgetprogressicon-stub
-      color="danger"
+      color="gradient-danger"
       header="5:34:11"
       inverse="true"
       text="Avg. Time"
@@ -531,7 +531,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="info"
+        color="gradient-info"
         header="87.500"
         text="Visitors"
         value="25"
@@ -549,7 +549,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="success"
+        color="gradient-success"
         header="385"
         text="New Clients"
         value="25"
@@ -567,7 +567,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="warning"
+        color="gradient-warning"
         header="1238"
         text="Products sold"
         value="25"
@@ -585,7 +585,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="primary"
+        color="gradient-primary"
         header="28%"
         text="Returning Visitors"
         value="25"
@@ -603,7 +603,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="danger"
+        color="gradient-danger"
         header="5:34:11"
         text="Avg. Time"
         value="25"
@@ -621,7 +621,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="info"
+        color="gradient-info"
         header="972"
         text="comments"
         value="25"
@@ -644,7 +644,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="info"
+        color="gradient-info"
         header="87.500"
         inverse="true"
         text="Visitors"
@@ -663,7 +663,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="success"
+        color="gradient-success"
         header="385"
         inverse="true"
         text="New Clients"
@@ -682,7 +682,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="warning"
+        color="gradient-warning"
         header="1238"
         inverse="true"
         text="Products sold"
@@ -701,7 +701,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="primary"
+        color="gradient-primary"
         header="28%"
         inverse="true"
         text="Returning Visitors"
@@ -720,7 +720,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="danger"
+        color="gradient-danger"
         header="5:34:11"
         inverse="true"
         text="Avg. Time"
@@ -739,7 +739,7 @@ exports[`Widgets.vue renders correctly 1`] = `
       tag="div"
     >
       <cwidgetprogressicon-stub
-        color="info"
+        color="gradient-info"
         header="972"
         inverse="true"
         text="comments"

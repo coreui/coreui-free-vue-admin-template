@@ -51,7 +51,7 @@ exports[`Tables.vue renders correctly 1`] = `
       tag="div"
     >
       <ctablewrapper-stub
-        bordered="true"
+        border="true"
         caption="Bordered Table"
         fields="username,registered,role,status"
         fixed="true"
@@ -69,7 +69,7 @@ exports[`Tables.vue renders correctly 1`] = `
       tag="div"
     >
       <ctablewrapper-stub
-        bordered="true"
+        border="true"
         caption="Combined All Table"
         fields="username,registered,role,status"
         fixed="true"
@@ -90,7 +90,7 @@ exports[`Tables.vue renders correctly 1`] = `
       tag="div"
     >
       <ctablewrapper-stub
-        bordered="true"
+        border="true"
         caption="Combined All dark Table"
         dark="true"
         fields="username,registered,role,status"

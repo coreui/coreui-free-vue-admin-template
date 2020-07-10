@@ -18,9 +18,9 @@
       <CCardBody>
         <CProgress :value="counter" :max="max" show-percentage animated></CProgress>
         <CProgress class="mt-1" :max="max" show-value>
-          <CProgressBar :value="counter*(6/10)" color="success"/>
-          <CProgressBar :value="counter*(2.5/10)" color="warning"/>
-          <CProgressBar :value="counter*(1.5/10)" color="danger"/>
+          <CProgressBar :value="counter*(6/10)" color="gradient-success"/>
+          <CProgressBar :value="counter*(2.5/10)" color="gradient-warning"/>
+          <CProgressBar :value="counter*(1.5/10)" color="gradient-danger"/>
         </CProgress>
         <CButton 
           @click="clicked"
@@ -73,9 +73,11 @@
         <h6>Default height</h6>
         <CProgress :value="value3" show-percentage class="mb-3"/>
         <h6>Custom heights</h6>
-        <CProgress height="2rem" :value="value3" show-percentage class="mb-2"/>
-        <CProgress height="20px" :value="value3" show-percentage class="mb-2"/>
-        <CProgress height="2px" :value="value3"/>
+        <CProgress size="xs" :value="value3" show-percentage class="mb-2"/>
+        <CProgress size="sm" :value="value3" show-percentage class="mb-2"/>
+        <CProgress style="height:2rem" :value="value3" show-percentage class="mb-2"/>
+        <CProgress style="height:20px" :value="value3" show-percentage class="mb-2"/>
+        <CProgress style="height:2px" :value="value3"/>
       </CCardBody>
     </CCard>
     <CCard>
@@ -180,24 +182,24 @@
       </CCardHeader>
       <CCardBody>
         <CProgress :max="max3" class="mb-3">
-          <CProgressBar color="primary" :value="values[0]"/>
-          <CProgressBar color="success" :value="values[1]"/>
-          <CProgressBar color="info" :value="values[2]"/>
+          <CProgressBar color="gradient-primary" :value="values[0]"/>
+          <CProgressBar color="gradient-success" :value="values[1]"/>
+          <CProgressBar color="gradient-info" :value="values[2]"/>
         </CProgress>
         <CProgress show-percentage :max="max3" class="mb-3">
-          <CProgressBar color="primary" :value="values[0]"/>
-          <CProgressBar color="success" :value="values[1]"/>
-          <CProgressBar color="info" :value="values[2]"/>
+          <CProgressBar color="gradient-primary" :value="values[0]"/>
+          <CProgressBar color="gradient-success" :value="values[1]"/>
+          <CProgressBar color="gradient-info" :value="values[2]"/>
         </CProgress>
         <CProgress show-value striped :max="max3" class="mb-3">
-          <CProgressBar color="primary" :value="values[0]"/>
-          <CProgressBar color="success" :value="values[1]"/>
-          <CProgressBar color="info" :value="values[2]"/>
+          <CProgressBar color="gradient-primary" :value="values[0]"/>
+          <CProgressBar color="gradient-success" :value="values[1]"/>
+          <CProgressBar color="gradient-info" :value="values[2]"/>
         </CProgress>
         <CProgress :max="max3" class="mb-3">
-          <CProgressBar color="primary" :value="values[0]" show-percentage/>
+          <CProgressBar color="gradient-primary" :value="values[0]" show-percentage/>
           <CProgressBar color="success" :value="values[1]" animated show-percentage/>
-          <CProgressBar color="info" :value="values[2]" striped show-percentage/>
+          <CProgressBar color="gradient-info" :value="values[2]" striped show-percentage/>
         </CProgress>
       </CCardBody>
     </CCard>
@@ -215,13 +217,13 @@ export default {
       value: 33.333333333,
       value3: 75,
       bars: [
-        {color: 'success', value: 75},
-        {color: 'info', value: 75},
-        {color: 'warning', value: 75},
-        {color: 'danger', value: 75},
-        {color: 'primary', value: 75},
-        {color: 'secondary', value: 75},
-        {color: 'dark', value: 75}
+        {color: 'gradient-success', value: 75},
+        {color: 'gradient-info', value: 75},
+        {color: 'gradient-warning', value: 75},
+        {color: 'gradient-danger', value: 75},
+        {color: 'gradient-primary', value: 75},
+        {color: 'gradient-secondary', value: 75},
+        {color: 'gradient-dark', value: 75}
       ],
       timer: null,
       striped: true,

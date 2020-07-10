@@ -519,12 +519,12 @@ exports[`Navs.vue renders correctly 1`] = `
       >
         <ccol-stub
           class="m-0"
-          col="3"
+          col="12"
           tag="div"
         >
           <cnav-stub
             pills=""
-            vertical="true"
+            vertical="lg"
           >
             <cnavitem-stub
               active="true"

@@ -22,6 +22,7 @@ exports[`TheContainer.vue renders correctly 1`] = `
           tag="div"
         >
           <router-view-stub
+            mode="out-in"
             name="fade"
           />
         </ccontainer-stub>

@@ -5,51 +5,6 @@
         <CCard>
           <CCardHeader>
             <CIcon name="cil-justify-center"/>
-            <strong> Bootstrap list group </strong>
-            <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/list-group" 
-                class="card-header-action" 
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
-          </CCardHeader>
-          <CCardBody>
-            <CListGroup>
-              <CListGroupItem>Cras justo odio</CListGroupItem>
-              <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
-              <CListGroupItem>Morbi leo risus</CListGroupItem>
-              <CListGroupItem>Porta ac consectetur ac</CListGroupItem>
-              <CListGroupItem>Vestibulum at eros</CListGroupItem>
-            </CListGroup>
-          </CCardBody>
-        </CCard>
-      </CCol>
-      <CCol md="6">
-        <CCard>
-          <CCardHeader>
-            <CIcon name="cil-justify-center"/><strong> List group </strong><small>active items</small>
-          </CCardHeader>
-          <CCardBody>
-            <CListGroup>
-              <CListGroupItem>Cras justo odio</CListGroupItem>
-              <CListGroupItem active>Dapibus ac facilisis in</CListGroupItem>
-              <CListGroupItem>Morbi leo risus</CListGroupItem>
-              <CListGroupItem>Porta ac consectetur ac</CListGroupItem>
-              <CListGroupItem>Vestibulum at eros</CListGroupItem>
-            </CListGroup>
-          </CCardBody>
-        </CCard>
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol md="6">
-        <CCard>
-          <CCardHeader>
-            <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
             <small>disabled items</small>
           </CCardHeader>
@@ -58,6 +13,7 @@
               <CListGroupItem disabled>Cras justo odio</CListGroupItem>
               <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
               <CListGroupItem>Morbi leo risus</CListGroupItem>
+              <CListGroupItemDivider/>
               <CListGroupItem disabled>Porta ac consectetur ac</CListGroupItem>
               <CListGroupItem>Vestibulum at eros</CListGroupItem>
             </CListGroup>
@@ -160,19 +116,19 @@
           <CCardHeader>
             <CIcon name="cil-justify-center"/>
             <strong> List group </strong>
-            <small>colors active</small>
+            <small>colors active accent</small>
           </CCardHeader>
           <CCardBody>
-            <CListGroup>
-              <CListGroupItem href="#">This is a default list group item</CListGroupItem>
-              <CListGroupItem href="#" color="primary">This is a primary list group item</CListGroupItem>
-              <CListGroupItem href="#" color="secondary">This is a secondary list group item</CListGroupItem>
-              <CListGroupItem href="#" color="success">This is a success list group item</CListGroupItem>
-              <CListGroupItem href="#" color="danger">This is a danger list group item</CListGroupItem>
-              <CListGroupItem href="#" color="warning">This is a warning list group item</CListGroupItem>
-              <CListGroupItem href="#" color="info">This is a info list group item</CListGroupItem>
-              <CListGroupItem href="#" color="light">This is a light list group item</CListGroupItem>
-              <CListGroupItem href="#" color="dark">This is a dark list group item</CListGroupItem>
+            <CListGroup accent>
+              <CListGroupItem href="#" accent="light">This is a default list group item</CListGroupItem>
+              <CListGroupItem href="#" color="primary" accent="primary">This is a primary list group item</CListGroupItem>
+              <CListGroupItem href="#" color="secondary" accent="secondary">This is a secondary list group item</CListGroupItem>
+              <CListGroupItem href="#" color="success" accent="success">This is a success list group item</CListGroupItem>
+              <CListGroupItem href="#" color="danger" accent="danger">This is a danger list group item</CListGroupItem>
+              <CListGroupItem href="#" color="warning" accent="warning">This is a warning list group item</CListGroupItem>
+              <CListGroupItem href="#" color="info" accent="info">This is a info list group item</CListGroupItem>
+              <CListGroupItem href="#" color="light" accent="light">This is a light list group item</CListGroupItem>
+              <CListGroupItem href="#" color="dark" accent="dark">This is a dark list group item</CListGroupItem>
             </CListGroup>
           </CCardBody>
         </CCard>
