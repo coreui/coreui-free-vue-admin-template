@@ -41,7 +41,7 @@
         <CTableWrapper
           :items="getShuffledUsersData()"
           fixed
-          bordered
+          border
           caption="Bordered Table"
         />
       </CCol>
@@ -53,7 +53,7 @@
           :items="getShuffledUsersData()"
           hover
           striped
-          bordered
+          border
           small
           fixed
           caption="Combined All Table"
@@ -67,7 +67,7 @@
           :items="getShuffledUsersData()"
           hover
           striped
-          bordered
+          border
           small
           fixed
           dark
