@@ -28,7 +28,8 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "clearCache": "jest --clearCache",
-    "release": "npm-run-all clearCache lint build test:unit test:e2e"
+    "release": "npm-run-all clearCache lint build test:unit test:e2e",
+    "auto-changelog": "auto-changelog  --hide-credit --commit-limit false --package --backfill-limit 0 --starting-version 3.0.0-beta.0"
   },
   "dependencies": {
     "@coreui/coreui": "^3.2.2",
@@ -48,6 +49,7 @@
     "@vue/cli-plugin-unit-jest": "~4.4.6",
     "@vue/cli-service": "~4.4.6",
     "@vue/test-utils": "1.0.3",
+    "auto-changelog": "~2.2.0",
     "babel-eslint": "~10.1.0",
     "babel-jest": "~26.1.0",
     "chromedriver": "83.0.1",
