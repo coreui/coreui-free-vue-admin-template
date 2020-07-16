@@ -63,7 +63,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
               Morbi leo risus
             </clistgroupitem-stub>
              
-            <clistgroupitemdivider />
+            <clistgroupitemdivider-stub />
              
             <clistgroupitem-stub
               activeclass="router-link-active"
@@ -511,7 +511,7 @@ exports[`ListGroups.vue renders correctly 1`] = `
          
         <ccardbody-stub>
           <clistgroup-stub
-            accent=""
+            accent="true"
             tag="ul"
           >
             <clistgroupitem-stub

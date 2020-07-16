@@ -707,78 +707,81 @@ exports[`Cards.vue renders correctly 1`] = `
     <div
       class="col-sm-6 col-md-4"
     >
-      <div
-        class="card bg-secondary"
+      <transition-stub
         name="fade"
       >
-        <header
-          class="card-header"
+        <div
+          class="card bg-secondary"
         >
-          
+          <header
+            class="card-header"
+          >
+            
             Card with header actions
             
+            <div
+              class="card-header-actions"
+            >
+              <a
+                class="card-header-action btn-setting"
+                href="#"
+                target="_self"
+              >
+                <svg
+                  class="c-icon"
+                  role="img"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  undefined
+                </svg>
+              </a>
+               
+              <a
+                class="card-header-action btn-minimize"
+                href="#"
+                target="_self"
+              >
+                <svg
+                  class="c-icon"
+                  role="img"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  undefined
+                </svg>
+              </a>
+               
+              <a
+                class="card-header-action btn-close"
+                href="#"
+                target="_self"
+              >
+                <svg
+                  class="c-icon"
+                  role="img"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  undefined
+                </svg>
+              </a>
+            </div>
+          </header>
+           
           <div
-            class="card-header-actions"
+            class=""
           >
-            <a
-              class="card-header-action btn-setting"
-              href="#"
-              target="_self"
+            <div
+              class="card-body"
             >
-              <svg
-                class="c-icon"
-                role="img"
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                undefined
-              </svg>
-            </a>
-             
-            <a
-              class="card-header-action btn-minimize"
-              href="#"
-              target="_self"
-            >
-              <svg
-                class="c-icon"
-                role="img"
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                undefined
-              </svg>
-            </a>
-             
-            <a
-              class="card-header-action btn-close"
-              href="#"
-              target="_self"
-            >
-              <svg
-                class="c-icon"
-                role="img"
-                viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                undefined
-              </svg>
-            </a>
-          </div>
-        </header>
-         
-        <div
-          class=""
-        >
-          <div
-            class="card-body"
-          >
-            
+              
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
             
+            </div>
           </div>
         </div>
-      </div>
+      </transition-stub>
     </div>
   </div>
 </div>

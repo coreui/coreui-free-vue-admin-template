@@ -55,26 +55,13 @@ exports[`Carousels.vue renders correctly 1`] = `
           <ol
             class="carousel-indicators"
             data-v-9c4fbe64=""
-          >
-            <li
-              class="active"
-              data-v-9c4fbe64=""
-            />
-            <li
-              class=""
-              data-v-9c4fbe64=""
-            />
-            <li
-              class=""
-              data-v-9c4fbe64=""
-            />
-          </ol>
+          />
           <div
             class="carousel-inner"
             data-v-9c4fbe64=""
           >
             <div
-              class="carousel-item active"
+              class="carousel-item"
               data-v-9c4fbe64=""
             >
               <img
