@@ -11,7 +11,7 @@ describe('Forms.vue', () => {
   })
   it('is Forms', () => {
     const wrapper = shallowMount(Forms)
-    expect(wrapper.is(Forms)).toBe(true)
+    expect(wrapper.findComponent(Forms)).toBeTruthy()
   })
   // render random chackboxes
   // test('renders correctly', () => {

@@ -11,11 +11,11 @@ describe('Login.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Login)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Login', () => {
     const wrapper = shallowMount(Login)
-    expect(wrapper.is(Login)).toBe(true)
+    expect(wrapper.findComponent(Login)).toBeTruthy()
   })
   it('should render correct content', () => {
     const wrapper = shallowMount(Login)

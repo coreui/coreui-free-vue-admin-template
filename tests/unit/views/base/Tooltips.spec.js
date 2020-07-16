@@ -14,11 +14,11 @@ describe('Tooltips.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Tooltips)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Tooltips', () => {
     const wrapper = shallowMount(Tooltips)
-    expect(wrapper.is(Tooltips)).toBe(true)
+    expect(wrapper.findComponent(Tooltips)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Tooltips)

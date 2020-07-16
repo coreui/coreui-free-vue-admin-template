@@ -19,13 +19,13 @@ describe('App.vue', () => {
       localVue,
       router
     })
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is App', () => {
     const wrapper = shallowMount(App, {
       localVue,
       router
     })
-    expect(wrapper.is(App)).toBe(true)
+    expect(wrapper.findComponent(App)).toBeTruthy()
   })
 })

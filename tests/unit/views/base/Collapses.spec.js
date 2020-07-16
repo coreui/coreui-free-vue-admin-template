@@ -11,7 +11,7 @@ describe('Collapses.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Collapses)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = mount(Collapses)

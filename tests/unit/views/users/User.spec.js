@@ -23,10 +23,10 @@ describe('User.vue', () => {
     expect(User.name).toBe('User')
   })
   it('is Vue instance', () => {
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is User', () => {
-    expect(wrapper.is(User)).toBe(true)
+    expect(wrapper.findComponent(User)).toBeTruthy()
   })
   it('should have methods', () => {
     expect(typeof User.methods.goBack).toEqual('function')

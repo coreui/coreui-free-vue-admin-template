@@ -11,11 +11,11 @@ describe('Tables.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = mount(Tables)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Tables', () => {
     const wrapper = mount(Tables)
-    expect(wrapper.is(Tables)).toBe(true)
+    expect(wrapper.findComponent(Tables)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Tables)

@@ -11,11 +11,11 @@ describe('Dropdowns.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Dropdowns)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Dropdowns', () => {
     const wrapper = shallowMount(Dropdowns)
-    expect(wrapper.is(Dropdowns)).toBe(true)
+    expect(wrapper.findComponent(Dropdowns)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = mount(Dropdowns)

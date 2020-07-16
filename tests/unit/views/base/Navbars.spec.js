@@ -11,11 +11,11 @@ describe('Navbars.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Navbars)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Navbars', () => {
     const wrapper = shallowMount(Navbars)
-    expect(wrapper.is(Navbars)).toBe(true)
+    expect(wrapper.findComponent(Navbars)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Navbars)

@@ -19,11 +19,11 @@ describe('Paginations.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Paginations)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Paginations', () => {
     const wrapper = shallowMount(Paginations)
-    expect(wrapper.is(Paginations)).toBe(true)
+    expect(wrapper.findComponent(Paginations)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Paginations)

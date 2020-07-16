@@ -11,11 +11,11 @@ describe('Typography.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Typography)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Typography', () => {
     const wrapper = shallowMount(Typography)
-    expect(wrapper.is(Typography)).toBe(true)
+    expect(wrapper.findComponent(Typography)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Typography)

@@ -20,11 +20,11 @@ describe('Dashboard.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Dashboard)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Dashboard', () => {
     const wrapper = shallowMount(Dashboard)
-    expect(wrapper.is(Dashboard)).toBe(true)
+    expect(wrapper.findComponent(Dashboard)).toBeTruthy()
   })
   it('should render correct content', () => {
     const wrapper = shallowMount(Dashboard)

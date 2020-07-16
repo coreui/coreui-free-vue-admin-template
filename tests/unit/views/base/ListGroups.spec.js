@@ -11,11 +11,11 @@ describe('ListGroups.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(ListGroups)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is ListGroups', () => {
     const wrapper = shallowMount(ListGroups)
-    expect(wrapper.is(ListGroups)).toBe(true)
+    expect(wrapper.findComponent(ListGroups)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(ListGroups)

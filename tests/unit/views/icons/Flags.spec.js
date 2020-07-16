@@ -11,10 +11,10 @@ describe('Flags.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Flags)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Flags', () => {
     const wrapper = shallowMount(Flags)
-    expect(wrapper.is(Flags)).toBe(true)
+    expect(wrapper.findComponent(Flags)).toBeTruthy()
   })
 })

@@ -11,11 +11,11 @@ describe('Page500.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Page500)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Page500', () => {
     const wrapper = shallowMount(Page500)
-    expect(wrapper.is(Page500)).toBe(true)
+    expect(wrapper.findComponent(Page500)).toBeTruthy()
   })
   it('should render correct content', () => {
     const wrapper = shallowMount(Page500)

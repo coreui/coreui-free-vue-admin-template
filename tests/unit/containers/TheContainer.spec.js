@@ -37,6 +37,6 @@ describe('TheContainer.vue', () => {
       localVue,
       router
     })
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
 })

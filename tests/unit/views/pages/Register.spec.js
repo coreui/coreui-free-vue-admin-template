@@ -11,11 +11,11 @@ describe('Register.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Register)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Register', () => {
     const wrapper = shallowMount(Register)
-    expect(wrapper.is(Register)).toBe(true)
+    expect(wrapper.findComponent(Register)).toBeTruthy()
   })
   it('should render correct content', () => {
     const wrapper = shallowMount(Register)

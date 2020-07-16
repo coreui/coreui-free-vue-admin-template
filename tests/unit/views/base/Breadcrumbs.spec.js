@@ -19,11 +19,11 @@ describe('Breadcrumbs.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Breadcrumbs)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Breadcrumbs', () => {
     const wrapper = shallowMount(Breadcrumbs)
-    expect(wrapper.is(Breadcrumbs)).toBe(true)
+    expect(wrapper.findComponent(Breadcrumbs)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = mount(Breadcrumbs)

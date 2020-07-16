@@ -11,10 +11,10 @@ describe('Brands.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Brands)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Brands', () => {
     const wrapper = shallowMount(Brands)
-    expect(wrapper.is(Brands)).toBe(true)
+    expect(wrapper.findComponent(Brands)).toBeTruthy()
   })
 })

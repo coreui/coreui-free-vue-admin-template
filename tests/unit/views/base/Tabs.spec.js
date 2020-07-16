@@ -17,11 +17,11 @@ describe('Tabs.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = mount(Tabs)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Tabs', () => {
     const wrapper = mount(Tabs)
-    expect(wrapper.is(Tabs)).toBe(true)
+    expect(wrapper.findComponent(Tabs)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Tabs)

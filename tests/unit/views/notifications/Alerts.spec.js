@@ -17,11 +17,11 @@ describe('Alerts.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Alerts)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Alerts', () => {
     const wrapper = shallowMount(Alerts)
-    expect(wrapper.is(Alerts)).toBe(true)
+    expect(wrapper.findComponent(Alerts)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Alerts)

@@ -11,11 +11,11 @@ describe('Widgets.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Widgets)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Widgets', () => {
     const wrapper = shallowMount(Widgets)
-    expect(wrapper.is(Widgets)).toBe(true)
+    expect(wrapper.findComponent(Widgets)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Widgets)

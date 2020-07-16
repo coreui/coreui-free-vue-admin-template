@@ -19,11 +19,11 @@ describe('Modals.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Modals)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Modals', () => {
     const wrapper = shallowMount(Modals)
-    expect(wrapper.is(Modals)).toBe(true)
+    expect(wrapper.findComponent(Modals)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Modals)

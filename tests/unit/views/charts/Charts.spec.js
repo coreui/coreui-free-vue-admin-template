@@ -11,11 +11,11 @@ describe('Charts.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(Charts)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is Charts', () => {
     const wrapper = shallowMount(Charts)
-    expect(wrapper.is(Charts)).toBe(true)
+    expect(wrapper.findComponent(Charts)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(Charts)

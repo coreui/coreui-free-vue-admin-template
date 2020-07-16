@@ -11,11 +11,11 @@ describe('CChartBarExample', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(CChartBarExample)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is CChartBarExample', () => {
     const wrapper = shallowMount(CChartBarExample)
-    expect(wrapper.is(CChartBarExample)).toBe(true)
+    expect(wrapper.findComponent(CChartBarExample)).toBeTruthy()
   })
   test('renders correctly', () => {
     const wrapper = shallowMount(CChartBarExample)

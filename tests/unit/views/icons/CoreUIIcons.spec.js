@@ -11,10 +11,10 @@ describe('CoreUIIcons.vue', () => {
   })
   it('is Vue instance', () => {
     const wrapper = shallowMount(CoreUIIcons)
-    expect(wrapper.isVueInstance()).toBe(true)
+    expect(wrapper.vm).toBeTruthy()
   })
   it('is CoreUIIcons', () => {
     const wrapper = shallowMount(CoreUIIcons)
-    expect(wrapper.is(CoreUIIcons)).toBe(true)
+    expect(wrapper.findComponent(CoreUIIcons)).toBeTruthy()
   })
 })
