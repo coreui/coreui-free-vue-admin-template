@@ -36,7 +36,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     
     <cbadge-stub
       activeclass="router-link-active"
-      class="ml-auto"
+      class="mfs-auto"
       color="info"
       event="click"
       exactactiveclass="router-link-exact-active"
@@ -62,7 +62,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     
     <cbadge-stub
       activeclass="router-link-active"
-      class="ml-auto"
+      class="mfs-auto"
       color="success"
       event="click"
       exactactiveclass="router-link-exact-active"
@@ -88,7 +88,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     
     <cbadge-stub
       activeclass="router-link-active"
-      class="ml-auto"
+      class="mfs-auto"
       color="danger"
       event="click"
       exactactiveclass="router-link-exact-active"
@@ -114,7 +114,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     
     <cbadge-stub
       activeclass="router-link-active"
-      class="ml-auto"
+      class="mfs-auto"
       color="warning"
       event="click"
       exactactiveclass="router-link-exact-active"
@@ -178,7 +178,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     
     <cbadge-stub
       activeclass="router-link-active"
-      class="ml-auto"
+      class="mfs-auto"
       color="secondary"
       event="click"
       exactactiveclass="router-link-exact-active"
@@ -204,7 +204,7 @@ exports[`TheHeaderDropdownAccnt.vue renders correctly 1`] = `
     
     <cbadge-stub
       activeclass="router-link-active"
-      class="ml-auto"
+      class="mfs-auto"
       color="primary"
       event="click"
       exactactiveclass="router-link-exact-active"

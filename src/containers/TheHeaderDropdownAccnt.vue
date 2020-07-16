@@ -20,19 +20,19 @@
     </CDropdownHeader>
     <CDropdownItem>
       <CIcon name="cil-bell"/> Updates
-      <CBadge color="info" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="info" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <CIcon name="cil-envelope-open" /> Messages
-      <CBadge color="success" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="success" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <CIcon name="cil-task" /> Tasks
-      <CBadge color="danger" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="danger" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <CIcon name="cil-comment-square" /> Comments
-      <CBadge color="warning" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="warning" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownHeader
       tag="div"
@@ -49,11 +49,11 @@
     </CDropdownItem>
     <CDropdownItem>
       <CIcon name="cil-dollar" /> Payments
-      <CBadge color="secondary" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="secondary" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownItem>
       <CIcon name="cil-file" /> Projects
-      <CBadge color="primary" class="ml-auto">{{ itemsCount }}</CBadge>
+      <CBadge color="primary" class="mfs-auto">{{ itemsCount }}</CBadge>
     </CDropdownItem>
     <CDropdownDivider/>
     <CDropdownItem>
