@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { mount, shallowMount } from '@vue/test-utils';
+import { shallowMount } from '@vue/test-utils';
 import CoreuiVue from '@coreui/vue'
 import ProgressBars from '@/views/base/ProgressBars'
 
@@ -8,6 +8,9 @@ Vue.use(CoreuiVue)
 jest.useFakeTimers()
 
 describe('ProgressBars.vue', () => {
+  // mount it once, to make test efficient & faster
+  const wrapper = shallowMount(ProgressBars)
+
   it('has a name', () => {
     expect(ProgressBars.name).toBe('ProgressBars')
   })
@@ -18,23 +21,34 @@ describe('ProgressBars.vue', () => {
     expect(typeof ProgressBars.data).toMatch('function')
   })
   it('is Vue instance', () => {
-    const wrapper = mount(ProgressBars)
     expect(wrapper.vm).toBeTruthy()
   })
   it('is ProgressBars', () => {
-    const wrapper = mount(ProgressBars)
     expect(wrapper.findComponent(ProgressBars)).toBeTruthy()
   })
   test('renders correctly', () => {
-    const wrapper = shallowMount(ProgressBars)
+    // mock Math.random() to always return 1
+    jest.spyOn(global.Math, 'random').mockReturnValue(1)
+
     expect(wrapper.element).toMatchSnapshot()
-  })
-  it('should be destroyed', () => {
-    const wrapper = mount(ProgressBars)
-    wrapper.destroy()
+
+    // restore Math.random()
+    jest.spyOn(global.Math, 'random').mockRestore()
   })
   it('should have methods', () => {
     expect(typeof ProgressBars.methods.clicked  ).toEqual('function')
     expect(ProgressBars.methods.clicked()).toBeUndefined()
+  })
+  it('should execute mounted', () => {
+    // mock interval 2000 ms
+    jest.advanceTimersByTime(2000);
+
+    expect(setInterval).toHaveBeenCalled();
+    expect(setInterval).toHaveBeenLastCalledWith(expect.any(Function), 2000)
+  })
+
+  // this test should be the last
+  it('should be destroyed', () => {
+    wrapper.destroy()
   })
 })
