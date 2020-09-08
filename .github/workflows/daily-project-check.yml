@@ -31,19 +31,19 @@ jobs:
       env:
         CI: true
 
-  e2e-chrome:
+  # e2e-chrome:
 
-    runs-on: windows-latest
+  #   runs-on: windows-latest
 
-    steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js 12
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12
-    - name: e2e chrome test
-      run: |
-        npm i
-        npm run test:e2e
-      env:
-        BROWSER: chrome
+  #   steps:
+  #   - uses: actions/checkout@v1
+  #   - name: Use Node.js 12
+  #     uses: actions/setup-node@v1
+  #     with:
+  #       node-version: 12
+  #   - name: e2e chrome test
+  #     run: |
+  #       npm i
+  #       npm run test:e2e
+  #     env:
+  #       BROWSER: chrome
