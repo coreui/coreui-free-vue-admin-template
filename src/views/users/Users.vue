@@ -1,6 +1,5 @@
 <template>
   <CRow>
-     <DatePicker/>
     <CCol col="12" xl="8">
       <CCard>
         
@@ -37,11 +36,9 @@
 
 <script>
 import usersData from './UsersData'
-import DatePicker from '../components/DatePicker.vue'
 export default {
   name: 'Users',
   components:{
-    DatePicker
   },
   data () {
     return {
