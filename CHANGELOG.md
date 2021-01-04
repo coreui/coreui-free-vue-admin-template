@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [3.1.2](https://github.com/coreui/coreui-free-vue-admin-template/compare/3.1.1...3.1.2)
+
+> 4 January 2021
+
+- chore: dependencies update, drop node v10, ie10 [`4f96324`](https://github.com/coreui/coreui-free-vue-admin-template/commit/4f96324e8547682b2f0af6fcf211fea86bb88fcc)
+- test: snaps update [`9286d67`](https://github.com/coreui/coreui-free-vue-admin-template/commit/9286d67e8d0a92f1db57b97b46514606fea0faa3)
+- chore: project checks update [`999e22b`](https://github.com/coreui/coreui-free-vue-admin-template/commit/999e22b7e141a55da666c4cfa826150b51b41c7f)
+- fix(vue.config): teanspileDependencies update [`9e3876f`](https://github.com/coreui/coreui-free-vue-admin-template/commit/9e3876fd7d212496b2b05165fc69a7869b858721)
+
+#### [3.1.1](https://github.com/coreui/coreui-free-vue-admin-template/compare/3.1.0...3.1.1)
+
+> 8 September 2020
+
+- test: Improve code, coverage for ProgressBar & Forms [`#230`](https://github.com/coreui/coreui-free-vue-admin-template/pull/230)
+- chore: 3.1.1 release: update dependencies [`d41f8ea`](https://github.com/coreui/coreui-free-vue-admin-template/commit/d41f8ea967e2bd35ef1126465d3c757634ac75fa)
+- chore: update package-lock.json [`e48528f`](https://github.com/coreui/coreui-free-vue-admin-template/commit/e48528fb3d777345cd9bd0ab2ca867404c0d5713)
+- chore: remove e2e tests from CI [`70a33b9`](https://github.com/coreui/coreui-free-vue-admin-template/commit/70a33b9c9180ced8cc298fd46a736bc06a033c2e)
+
 #### [3.1.0](https://github.com/coreui/coreui-free-vue-admin-template/compare/3.0.2...3.1.0)
 
 > 16 July 2020
@@ -10,6 +28,7 @@ All notable changes to this project will be documented in this file. Dates are d
 - refactor: view fixes and changes, update packages, add e2e sidebar tests [`8c14ca9`](https://github.com/coreui/coreui-free-vue-admin-template/commit/8c14ca9331753ed98ec18f8e193166423e7e219a)
 - chore: update package-lock.json [`3c0f06f`](https://github.com/coreui/coreui-free-vue-admin-template/commit/3c0f06fd5ae323f958dad39384ab145fc1bac53e)
 - fix: minor refactors and fixes [`5a23cd1`](https://github.com/coreui/coreui-free-vue-admin-template/commit/5a23cd1890b6eb747c74048d677bb5ac0c4e1db1)
+- chore: update changelog [`94d642e`](https://github.com/coreui/coreui-free-vue-admin-template/commit/94d642ef80550de293870f99fba9e01850674158)
 - chore: update login page snapshot [`a6b04a6`](https://github.com/coreui/coreui-free-vue-admin-template/commit/a6b04a6657d55165ae20b3a6e5b654b6451d1e31)
 - chore: update snapshots [`7ee3b0f`](https://github.com/coreui/coreui-free-vue-admin-template/commit/7ee3b0f4dbadecabc3558de106858c4cbfd64f92)
 - test: update tests [`a4a0b68`](https://github.com/coreui/coreui-free-vue-admin-template/commit/a4a0b68f1926315a864ad89ec57ad0d18e856fc0)
@@ -19,12 +38,12 @@ All notable changes to this project will be documented in this file. Dates are d
 - fix: fix Table border prop #224 [`d756323`](https://github.com/coreui/coreui-free-vue-admin-template/commit/d756323b917eecd661592d0d2b270eed24b226f5)
 - chore: 3.1.0 version release [`5f5a2f7`](https://github.com/coreui/coreui-free-vue-admin-template/commit/5f5a2f79d184d4b9783698b88cf22fdb82cf148b)
 - chore: merge branch 'master' into dev [`bb71694`](https://github.com/coreui/coreui-free-vue-admin-template/commit/bb71694960f86443c1b8454bf1d73d50cc15ce35)
-- chore: check if CI works on node 12 [`d06f05c`](https://github.com/coreui/coreui-free-vue-admin-template/commit/d06f05cf0f253b00a18c3ebb82c8d85ab589d1be)
-- chore: restore node 8/10 CI [`fed84e8`](https://github.com/coreui/coreui-free-vue-admin-template/commit/fed84e858b0fb01b487d938f7eb624a6ca090bd6)
-- chore: check if CI works on node 10 [`86dfcb2`](https://github.com/coreui/coreui-free-vue-admin-template/commit/86dfcb26e8a16fb438b33701fc8a02fcf32fdbb9)
 - chore: fix daily-project-check CI [`d86cba1`](https://github.com/coreui/coreui-free-vue-admin-template/commit/d86cba17ea7c3bb3b1f385130e986b82c7cd33d7)
-- chore: force chromedriver download [`abb50db`](https://github.com/coreui/coreui-free-vue-admin-template/commit/abb50db9cf1209def2df0a52fc793849dd22c288)
+- chore: check if CI works on node 10 [`86dfcb2`](https://github.com/coreui/coreui-free-vue-admin-template/commit/86dfcb26e8a16fb438b33701fc8a02fcf32fdbb9)
+- chore: restore node 8/10 CI [`fed84e8`](https://github.com/coreui/coreui-free-vue-admin-template/commit/fed84e858b0fb01b487d938f7eb624a6ca090bd6)
+- chore: check if CI works on node 12 [`d06f05c`](https://github.com/coreui/coreui-free-vue-admin-template/commit/d06f05cf0f253b00a18c3ebb82c8d85ab589d1be)
 - chore: delete .npmrc [`c428f91`](https://github.com/coreui/coreui-free-vue-admin-template/commit/c428f911512edf14748a32576f40e68a63e2ca83)
+- chore: force chromedriver download [`abb50db`](https://github.com/coreui/coreui-free-vue-admin-template/commit/abb50db9cf1209def2df0a52fc793849dd22c288)
 
 #### [3.0.2](https://github.com/coreui/coreui-free-vue-admin-template/compare/3.0.1...3.0.2)
 
