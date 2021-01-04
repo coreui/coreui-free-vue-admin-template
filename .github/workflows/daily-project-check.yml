@@ -2,8 +2,8 @@ name: Daily project check
 
 on:
   schedule:
-    # build runs everyday at 6AM UTC
-    - cron: '0 6 * * *'
+    # build runs every weekday at 5AM UTC
+    - cron: '0 5 * * 1-5'
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [12.x]
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
     steps:
