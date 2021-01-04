@@ -43,7 +43,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
         </small>
          
         <code>
-          &lt;CButton color="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;
+          &lt;CButton color="facebook"&gt;&lt;CIcon name="cib-facebook"/&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;
         </code>
          
         <hr />
@@ -62,7 +62,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-sm"
+            class="btn btn-brand btn-facebook btn-sm"
             name="facebook"
             type="button"
           >
@@ -80,7 +80,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter btn-sm"
+            class="btn btn-brand btn-twitter btn-sm"
             name="twitter"
             type="button"
           >
@@ -98,7 +98,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin btn-sm"
+            class="btn btn-brand btn-linkedin btn-sm"
             name="linkedin"
             type="button"
           >
@@ -116,7 +116,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr btn-sm"
+            class="btn btn-brand btn-flickr btn-sm"
             name="flickr"
             type="button"
           >
@@ -134,7 +134,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr btn-sm"
+            class="btn btn-brand btn-tumblr btn-sm"
             name="tumblr"
             type="button"
           >
@@ -152,7 +152,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing btn-sm"
+            class="btn btn-brand btn-xing btn-sm"
             name="xing"
             type="button"
           >
@@ -170,7 +170,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github btn-sm"
+            class="btn btn-brand btn-github btn-sm"
             name="github"
             type="button"
           >
@@ -188,7 +188,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stackoverflow btn-sm"
+            class="btn btn-brand btn-stackoverflow btn-sm"
             name="stackoverflow"
             type="button"
           >
@@ -206,7 +206,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube btn-sm"
+            class="btn btn-brand btn-youtube btn-sm"
             name="youtube"
             type="button"
           >
@@ -224,7 +224,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble btn-sm"
+            class="btn btn-brand btn-dribbble btn-sm"
             name="dribbble"
             type="button"
           >
@@ -242,7 +242,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram btn-sm"
+            class="btn btn-brand btn-instagram btn-sm"
             name="instagram"
             type="button"
           >
@@ -260,7 +260,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest btn-sm"
+            class="btn btn-brand btn-pinterest btn-sm"
             name="pinterest"
             type="button"
           >
@@ -278,7 +278,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk btn-sm"
+            class="btn btn-brand btn-vk btn-sm"
             name="vk"
             type="button"
           >
@@ -296,7 +296,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo btn-sm"
+            class="btn btn-brand btn-yahoo btn-sm"
             name="yahoo"
             type="button"
           >
@@ -314,7 +314,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance btn-sm"
+            class="btn btn-brand btn-behance btn-sm"
             name="behance"
             type="button"
           >
@@ -332,7 +332,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit btn-sm"
+            class="btn btn-brand btn-reddit btn-sm"
             name="reddit"
             type="button"
           >
@@ -350,7 +350,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo btn-sm"
+            class="btn btn-brand btn-vimeo btn-sm"
             name="vimeo"
             type="button"
           >
@@ -375,7 +375,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook"
+            class="btn btn-brand btn-facebook"
             name="facebook"
             type="button"
           >
@@ -393,7 +393,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter"
+            class="btn btn-brand btn-twitter"
             name="twitter"
             type="button"
           >
@@ -411,7 +411,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin"
+            class="btn btn-brand btn-linkedin"
             name="linkedin"
             type="button"
           >
@@ -429,7 +429,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr"
+            class="btn btn-brand btn-flickr"
             name="flickr"
             type="button"
           >
@@ -447,7 +447,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr"
+            class="btn btn-brand btn-tumblr"
             name="tumblr"
             type="button"
           >
@@ -465,7 +465,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing"
+            class="btn btn-brand btn-xing"
             name="xing"
             type="button"
           >
@@ -483,7 +483,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github"
+            class="btn btn-brand btn-github"
             name="github"
             type="button"
           >
@@ -501,7 +501,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stackoverflow"
+            class="btn btn-brand btn-stackoverflow"
             name="stackoverflow"
             type="button"
           >
@@ -519,7 +519,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube"
+            class="btn btn-brand btn-youtube"
             name="youtube"
             type="button"
           >
@@ -537,7 +537,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble"
+            class="btn btn-brand btn-dribbble"
             name="dribbble"
             type="button"
           >
@@ -555,7 +555,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram"
+            class="btn btn-brand btn-instagram"
             name="instagram"
             type="button"
           >
@@ -573,7 +573,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest"
+            class="btn btn-brand btn-pinterest"
             name="pinterest"
             type="button"
           >
@@ -591,7 +591,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk"
+            class="btn btn-brand btn-vk"
             name="vk"
             type="button"
           >
@@ -609,7 +609,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo"
+            class="btn btn-brand btn-yahoo"
             name="yahoo"
             type="button"
           >
@@ -627,7 +627,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance"
+            class="btn btn-brand btn-behance"
             name="behance"
             type="button"
           >
@@ -645,7 +645,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit"
+            class="btn btn-brand btn-reddit"
             name="reddit"
             type="button"
           >
@@ -663,7 +663,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo"
+            class="btn btn-brand btn-vimeo"
             name="vimeo"
             type="button"
           >
@@ -694,7 +694,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <p>
           <button
-            class="btn btn-facebook btn-lg"
+            class="btn btn-brand btn-facebook btn-lg"
             name="facebook"
             type="button"
           >
@@ -712,7 +712,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-twitter btn-lg"
+            class="btn btn-brand btn-twitter btn-lg"
             name="twitter"
             type="button"
           >
@@ -730,7 +730,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-linkedin btn-lg"
+            class="btn btn-brand btn-linkedin btn-lg"
             name="linkedin"
             type="button"
           >
@@ -748,7 +748,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-flickr btn-lg"
+            class="btn btn-brand btn-flickr btn-lg"
             name="flickr"
             type="button"
           >
@@ -766,7 +766,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-tumblr btn-lg"
+            class="btn btn-brand btn-tumblr btn-lg"
             name="tumblr"
             type="button"
           >
@@ -784,7 +784,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-xing btn-lg"
+            class="btn btn-brand btn-xing btn-lg"
             name="xing"
             type="button"
           >
@@ -802,7 +802,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-github btn-lg"
+            class="btn btn-brand btn-github btn-lg"
             name="github"
             type="button"
           >
@@ -820,7 +820,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-stackoverflow btn-lg"
+            class="btn btn-brand btn-stackoverflow btn-lg"
             name="stackoverflow"
             type="button"
           >
@@ -838,7 +838,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-youtube btn-lg"
+            class="btn btn-brand btn-youtube btn-lg"
             name="youtube"
             type="button"
           >
@@ -856,7 +856,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-dribbble btn-lg"
+            class="btn btn-brand btn-dribbble btn-lg"
             name="dribbble"
             type="button"
           >
@@ -874,7 +874,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-instagram btn-lg"
+            class="btn btn-brand btn-instagram btn-lg"
             name="instagram"
             type="button"
           >
@@ -892,7 +892,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-pinterest btn-lg"
+            class="btn btn-brand btn-pinterest btn-lg"
             name="pinterest"
             type="button"
           >
@@ -910,7 +910,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vk btn-lg"
+            class="btn btn-brand btn-vk btn-lg"
             name="vk"
             type="button"
           >
@@ -928,7 +928,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-yahoo btn-lg"
+            class="btn btn-brand btn-yahoo btn-lg"
             name="yahoo"
             type="button"
           >
@@ -946,7 +946,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-behance btn-lg"
+            class="btn btn-brand btn-behance btn-lg"
             name="behance"
             type="button"
           >
@@ -964,7 +964,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-reddit btn-lg"
+            class="btn btn-brand btn-reddit btn-lg"
             name="reddit"
             type="button"
           >
@@ -982,7 +982,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
             </span>
           </button>
           <button
-            class="btn btn-vimeo btn-lg"
+            class="btn btn-brand btn-vimeo btn-lg"
             name="vimeo"
             type="button"
           >
@@ -1812,7 +1812,7 @@ exports[`BrandButtons.vue renders correctly 1`] = `
          
         <code>
           
-          &lt;CButton color="facebook"&gt;&lt;CIcon name="cib-facebook"/&gt;&lt;/CButton&gt;
+          &lt;CButton color="facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/CButton&gt;
         
         </code>
          

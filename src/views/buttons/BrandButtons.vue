@@ -30,6 +30,7 @@
                 size="sm"
                 :key="key"
                 :color="brandName"
+                class="btn-brand"
               >
                 <CIcon size="sm" :name="'cib-' + brandName"/>
                 <span>{{brandName}}</span>
@@ -43,6 +44,7 @@
                 :name="brandName"
                 :key="key"
                 :color="brandName"
+                class="btn-brand"
               >
                 <CIcon :name="'cib-' + brandName"/>
                 <span>{{brandName}}</span>
@@ -57,6 +59,7 @@
                 size="lg"
                 :key="key"
                 :color="brandName"
+                class="btn-brand"
               >
                 <CIcon size="lg" :name="'cib-' + brandName"/>
                 <span>{{brandName}}</span>
@@ -172,9 +175,9 @@
 <script>
 export default {
   name: 'BrandButtons',
-  usage: '<CButton color="facebook"><span>Facebook</span></CButton>',
+  usage: '<CButton color="facebook"><CIcon name="cib-facebook"/><span>Facebook</span></CButton>',
   iconsOnlyUsage: '<CButton color="facebook"><CIcon name="cib-facebook"/></CButton>',
-  textOnlyUsage: '<CButton color="facebook"><CIcon name="cib-facebook"/></CButton>',
+  textOnlyUsage: '<CButton color="facebook"><span>Facebook</span></CButton>',
   brands: [
     'facebook',
     'twitter',
@@ -216,9 +219,22 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .btn {
   margin-bottom: 4px;
   margin-right: 6px;
+}
+// todo
+.btn-brand:not(:only-child) {
+  .c-icon {
+    margin-top: 0 !important;
+    margin-right: 8px;
+  }
+  .c-icon-sm {
+    margin-right: 5px;
+  }
+  .c-icon-lg {
+    margin-right: 12px;
+  }
 }
 </style>
