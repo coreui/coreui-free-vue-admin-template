@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file. Dates are d
 
 - chore: dependencies update, drop node v10, ie10 [`4f96324`](https://github.com/coreui/coreui-free-vue-admin-template/commit/4f96324e8547682b2f0af6fcf211fea86bb88fcc)
 - test: snaps update [`9286d67`](https://github.com/coreui/coreui-free-vue-admin-template/commit/9286d67e8d0a92f1db57b97b46514606fea0faa3)
+- fix(BrandButtons): icon spacing tempfix [`3a315ad`](https://github.com/coreui/coreui-free-vue-admin-template/commit/3a315addbd0573ab64cf349a8167713ef4857a45)
+- chore: changelog update, version bump [`bff8968`](https://github.com/coreui/coreui-free-vue-admin-template/commit/bff8968386dfafdf451f64657ca89a6ca5d1ab85)
 - chore: project checks update [`999e22b`](https://github.com/coreui/coreui-free-vue-admin-template/commit/999e22b7e141a55da666c4cfa826150b51b41c7f)
 - fix(vue.config): teanspileDependencies update [`9e3876f`](https://github.com/coreui/coreui-free-vue-admin-template/commit/9e3876fd7d212496b2b05165fc69a7869b858721)
 
