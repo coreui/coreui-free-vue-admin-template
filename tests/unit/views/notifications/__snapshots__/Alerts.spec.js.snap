@@ -375,6 +375,7 @@ exports[`Alerts.vue renders correctly 1`] = `
             event="click"
             exactactiveclass="router-link-exact-active"
             routertag="a"
+            style="right: 10px; top: 50%; transform: translateY(-50%);"
             target="_self"
             type="button"
           >
