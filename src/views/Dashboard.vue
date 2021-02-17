@@ -82,6 +82,32 @@
         </CRow>
       </CCardFooter>
     </CCard>
+    <CCard>
+      <CCardHeader>
+        <h4 id="chart" class="card-title mb-0">Charts</h4>
+      </CCardHeader>
+      <CCardBody>
+        <CRow>
+          <CButton
+            color="primary"
+            shape='pill'
+            class="m-2"
+            @click="$router.push({name: 'HighCharts'})"
+          > HighCarts </CButton>
+          <CButton
+            color="info"
+            shape='pill'
+            class="m-2"
+          > JsCharting </CButton>
+          <CButton
+            color="primary"
+            shape='pill'
+            class="m-2"
+
+          > AmCharts </CButton>
+        </CRow>
+      </CCardBody>
+    </CCard>
     <WidgetsBrand/>
     <CRow>
       <CCol md="12">

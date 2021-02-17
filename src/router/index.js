@@ -11,6 +11,7 @@ const Colors = () => import('@/views/theme/Colors')
 const Typography = () => import('@/views/theme/Typography')
 
 const Charts = () => import('@/views/charts/Charts')
+const HighCharts = () => import('@/views/charts/HighCharts')
 const Widgets = () => import('@/views/widgets/Widgets')
 
 // Views - Components
@@ -103,6 +104,11 @@ function configRoutes () {
           path: 'charts',
           name: 'Charts',
           component: Charts
+        },
+        {
+          path: 'high-charts',
+          name: 'HighCharts',
+          component: HighCharts
         },
         {
           path: 'widgets',
