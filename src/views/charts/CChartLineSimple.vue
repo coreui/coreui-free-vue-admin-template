@@ -1,136 +1,85 @@
 <template>
-  <CChartLine
-    :datasets="computedDatasets"
-    :options="computedOptions"
-    :labels="labels"
-  />
+  <JSCharting :options="options" style="height: 90px" />
 </template>
 
 <script>
-import { CChartLine } from '@coreui/vue-chartjs'
-import { getColor, deepObjectsMerge } from '@coreui/utils/src'
+import JSCharting from "jscharting-vue";
 
 export default {
   name: 'CChartLineSimple',
-  components: { CChartLine },
   props: {
-    ...CChartLine.props,
-    borderColor: {
+    color: {
       type: String,
-      default: 'rgba(255,255,255,.55)'
+      required: true
     },
-    backgroundColor: {
+    type: {
       type: String,
-      default: 'transparent'
+      required: true
     },
-    dataPoints: {
-      type: Array,
-      default: () => [10, 22, 34, 46, 58, 70, 46, 23, 45, 78, 34, 12]
+    marker: {
+      type: Boolean,
+      default: true
     },
-    label: {
-      type: String,
-      default: 'Sales'
-    },
-    pointed: Boolean,
-    pointHoverBackgroundColor: String
-  },
-  computed: {
-    pointHoverColor () {
-      if (this.pointHoverBackgroundColor) {
-        return this.pointHoverBackgroundColor
-      } else if (this.backgroundColor !== 'transparent') {
-        return this.backgroundColor
-      }
-      return this.borderColor
-    },
-    defaultDatasets () {
-      return [
-        {
-          data: this.dataPoints,
-          borderColor: getColor(this.borderColor),
-          backgroundColor: getColor(this.backgroundColor),
-          pointBackgroundColor: getColor(this.pointHoverColor),
-          pointHoverBackgroundColor: getColor(this.pointHoverColor),
-          label: this.label
-        }
-      ]
-    },
-    pointedOptions () {
-      return {
-        scales: {
-          xAxes: [
-            {
-              offset: true,
-              gridLines: {
-                color: 'transparent',
-                zeroLineColor: 'transparent'
-              },
-              ticks: {
-                fontSize: 2,
-                fontColor: 'transparent'
-              }
-            }
-          ],
-          yAxes: [
-            {
-              display: false,
-              ticks: {
-                display: false,
-                min: Math.min.apply(Math, this.dataPoints) - 5,
-                max: Math.max.apply(Math, this.dataPoints) + 5
-              }
-            }
-          ]
-        },
-        elements: {
-          line: {
-            borderWidth: 1
-          },
-          point: {
-            radius: 4,
-            hitRadius: 10,
-            hoverRadius: 4
-          }
-        }
-      }
-    },
-    straightOptions () {
-      return {
-        scales: {
-          xAxes: [{
-            display: false
-          }],
-          yAxes: [{
-            display: false
-          }]
-        },
-        elements: {
-          line: {
-            borderWidth: 2
-          },
-          point: {
-            radius: 0,
-            hitRadius: 10,
-            hoverRadius: 4
-          }
-        }
-      }
-    },
-    defaultOptions () {
-      const options = this.pointed ? this.pointedOptions : this.straightOptions
-      return Object.assign({}, options, {
-        maintainAspectRatio: false,
-        legend: {
-          display: false
-        }
-      })
-    },
-    computedDatasets () {
-      return deepObjectsMerge(this.defaultDatasets, this.datasets || {})
-    },
-    computedOptions () {
-      return deepObjectsMerge(this.defaultOptions, this.options || {})
+    boxPadding: {
+      type: Number,
+      default: 0
     }
+  },
+  data() {
+    return {
+      options: {
+        type: this.type,
+        defaultPoint: { 
+          color: "white",
+          fill: 'white',
+          focusGlow: {
+            color: 'white',
+            width: this.marker ? 1 : 0
+          }
+        },
+        box_padding_left: this.boxPadding,
+        box_padding_right: this.boxPadding,
+        box_fill: 'none',
+        defaultTooltip: {
+          combined: true,
+          label_text:'<b>%xValue</b><br>%points',
+          fill: 'rgba(0, 0, 0, 0.7)',
+          radius: 0,
+          outline: {
+            color: 'rgba(0, 0, 0, 0.7)'
+          },
+          label: {
+            color: 'white'
+          }
+        },
+        xAxis: {
+          visible: false,
+        },
+        yAxis: {
+          visible: false,
+        },
+        legend_visible: false,
+        defaultPoint_marker: { fill: 'white', outline_width: 0.5, type: 'circle', size: 8 },
+        series: [
+          {
+            defaultPoint_marker_visible: this.marker,
+            line_width: 1,
+            points: [
+              { x: 'January', y: 40 },
+              { x: 'February', y: 30 },
+              { x: 'March', y: 35 },
+              { x: 'April', y: 30 },
+              { x: 'May', y: 45 },
+              { x: 'June', y:  28 },
+              { x: 'July', y: 32 },
+            ]
+          }
+        ],
+      }
+    };
+  },
+  components: {
+    JSCharting
   }
-}
+};
 </script>

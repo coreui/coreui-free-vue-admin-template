@@ -17,9 +17,9 @@
           <CChartLineSimple
             class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
-            :data-points="[65, 59, 84, 84, 51, 55, 40]"
-            label="Friends"
-            labels="months"
+            type="line"
+            :marker="false"
+            :boxPadding="-21"
           />
         </CWidgetBrand>
        </CCol>
@@ -39,9 +39,9 @@
           <CChartLineSimple
             class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
-            :data-points="[1, 13, 9, 17, 34, 41, 38]"
-            label="Followers"
-            labels="months"
+            type="line"
+            :marker="false"
+            :boxPadding="-21"
           />
         </CWidgetBrand>
        </CCol>
@@ -61,9 +61,9 @@
           <CChartLineSimple
             class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
-            :data-points="[78, 81, 80, 45, 34, 12, 40]"
-            label="Contracts"
-            labels="months"
+            type="line"
+            :marker="false"
+            :boxPadding="-21"
           />
         </CWidgetBrand>
        </CCol>
@@ -83,9 +83,9 @@
           <CChartLineSimple
             class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
-            :data-points="[35, 23, 56, 22, 97, 23, 64]"
-            label="Followers"
-            labels="months"
+            type="line"
+            :marker="false"
+            :boxPadding="-21"
           />
         </CWidgetBrand>
       </CCol>
