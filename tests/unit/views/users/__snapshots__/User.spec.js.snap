@@ -22,31 +22,31 @@ exports[`User.vue renders correctly 1`] = `
         class="card-body"
       >
         <div
-          data-v-44c7b9c7=""
+          data-v-1c2db5c2=""
           small=""
         >
           <!---->
           <div
             class="position-relative table-responsive"
-            data-v-44c7b9c7=""
+            data-v-1c2db5c2=""
           >
             <table
               class="table table-striped table-fixed"
-              data-v-44c7b9c7=""
+              data-v-1c2db5c2=""
             >
               <thead
-                data-v-44c7b9c7=""
+                data-v-1c2db5c2=""
               >
                 <tr
-                  data-v-44c7b9c7=""
+                  data-v-1c2db5c2=""
                 >
                   <th
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                     style="vertical-align: middle; overflow: hidden; width: 150px;"
                   >
                     <div
-                      data-v-44c7b9c7=""
+                      data-v-1c2db5c2=""
                     >
                       Samppa Nori
                     </div>
@@ -54,11 +54,11 @@ exports[`User.vue renders correctly 1`] = `
                   </th>
                   <th
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                     style="vertical-align: middle; overflow: hidden; width: 150px;"
                   >
                     <div
-                      data-v-44c7b9c7=""
+                      data-v-1c2db5c2=""
                     >
                       
                     </div>
@@ -69,54 +69,54 @@ exports[`User.vue renders correctly 1`] = `
               </thead>
               <tbody
                 class="position-relative"
-                data-v-44c7b9c7=""
+                data-v-1c2db5c2=""
               >
                 <tr
-                  data-v-44c7b9c7=""
+                  data-v-1c2db5c2=""
                 >
                   <td
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                   >
                      registered 
                   </td>
                   <td
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                   >
                      2012/01/01 
                   </td>
                 </tr>
                 <!---->
                 <tr
-                  data-v-44c7b9c7=""
+                  data-v-1c2db5c2=""
                 >
                   <td
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                   >
                      role 
                   </td>
                   <td
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                   >
                      Member 
                   </td>
                 </tr>
                 <!---->
                 <tr
-                  data-v-44c7b9c7=""
+                  data-v-1c2db5c2=""
                 >
                   <td
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                   >
                      status 
                   </td>
                   <td
                     class=""
-                    data-v-44c7b9c7=""
+                    data-v-1c2db5c2=""
                   >
                      Active 
                   </td>

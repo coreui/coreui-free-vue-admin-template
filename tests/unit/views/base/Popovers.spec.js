@@ -21,3 +21,14 @@ describe('Popovers.vue', () => {
     expect(wrapper.findComponent(Popovers)).toBeTruthy()
   })
 })
+
+if (global.document) {
+  document.createRange = () => ({
+    setStart: () => {},
+    setEnd: () => {},
+    commonAncestorContainer: {
+      nodeName: 'BODY',
+      ownerDocument: document,
+    },
+  });
+}

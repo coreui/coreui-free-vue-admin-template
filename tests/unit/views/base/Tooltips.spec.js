@@ -25,3 +25,14 @@ describe('Tooltips.vue', () => {
     // expect(wrapper.element).toMatchSnapshot()
   // })
 })
+
+if (global.document) {
+  document.createRange = () => ({
+    setStart: () => {},
+    setEnd: () => {},
+    commonAncestorContainer: {
+      nodeName: 'BODY',
+      ownerDocument: document,
+    },
+  });
+}
