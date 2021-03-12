@@ -1,6 +1,6 @@
 {
   "name": "@coreui/coreui-free-vue-admin-template",
-  "version": "3.1.2",
+  "version": "3.1.4",
   "description": "Open Source Bootstrap Admin Template",
   "author": {
     "name": "CoreUI",
@@ -19,7 +19,7 @@
     "url": "git@github.com:coreui/coreui-free-vue-admin-template.git"
   },
   "homepage": "http://coreui.io",
-  "copyright": "Copyright 2020 creativeLabs Łukasz Holeczek",
+  "copyright": "Copyright 2021 creativeLabs Łukasz Holeczek",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",

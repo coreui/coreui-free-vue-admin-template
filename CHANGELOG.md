@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [3.1.4](https://github.com/coreui/coreui-free-vue-admin-template/compare/3.1.2...3.1.4)
+
+> 12 March 2021
+
+- test: snapshot update, createRange mock [`0370878`](https://github.com/coreui/coreui-free-vue-admin-template/commit/0370878bff47bcdfb48090437e6f836d373e7691)
+- chore: dependencies update [`c22a75b`](https://github.com/coreui/coreui-free-vue-admin-template/commit/c22a75b3cd733e1fa95808a17b91a3bdbea5c44e)
+- chore: github workflows update [`405b7c8`](https://github.com/coreui/coreui-free-vue-admin-template/commit/405b7c814bdb4ca87569f024bef26bf0334d83ec)
+
 #### [3.1.2](https://github.com/coreui/coreui-free-vue-admin-template/compare/3.1.1...3.1.2)
 
 > 4 January 2021
@@ -12,6 +20,7 @@ All notable changes to this project will be documented in this file. Dates are d
 - chore: changelog update, version bump [`bff8968`](https://github.com/coreui/coreui-free-vue-admin-template/commit/bff8968386dfafdf451f64657ca89a6ca5d1ab85)
 - chore: project checks update [`999e22b`](https://github.com/coreui/coreui-free-vue-admin-template/commit/999e22b7e141a55da666c4cfa826150b51b41c7f)
 - fix(vue.config): teanspileDependencies update [`9e3876f`](https://github.com/coreui/coreui-free-vue-admin-template/commit/9e3876fd7d212496b2b05165fc69a7869b858721)
+- chore: 3.1.2 version release [`5fa4ddb`](https://github.com/coreui/coreui-free-vue-admin-template/commit/5fa4ddbd9149e62daa8f4c0b5f7601aaf67da19f)
 
 #### [3.1.1](https://github.com/coreui/coreui-free-vue-admin-template/compare/3.1.0...3.1.1)
 
