@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [14.x]
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
     steps:
@@ -37,10 +37,10 @@ jobs:
 
   #   steps:
   #   - uses: actions/checkout@v1
-  #   - name: Use Node.js 12
+  #   - name: Use Node.js 14
   #     uses: actions/setup-node@v1
   #     with:
-  #       node-version: 12
+  #       node-version: 14
   #   - name: e2e chrome test
   #     run: |
   #       npm i
