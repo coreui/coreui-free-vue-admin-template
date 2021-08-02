@@ -1,0 +1,8 @@
+node_modules/*
+./node_modules/**
+**/node_modules/**
+/dist/**
+.eslintrc.js
+/Users/lukaszholeczek/CoreUI/@coreui/icons-vue/**/*
+/Users/lukaszholeczek/CoreUI/@coreui/icons-vue/
+**/*

@@ -1,17 +1,14 @@
 // If you want to override variables do it here
 @import "variables";
 
+$enable-ltr: true;
+$enable-rtl: true;
+
 // Import styles
 @import "~@coreui/coreui/scss/coreui";
 
+@import "layout";
+@import "example";
+
 // If you want to add something do it here
 @import "custom";
-
-.card-header:not(.content-center) > .c-icon:first-child {
-  margin-right: 0.1rem;
-  margin-top: 0.1rem;
-  vertical-align: top;
-  width: 1.2rem;
-  height: 1.2rem;
-  font-size: 1.2rem;
-}
