@@ -39,6 +39,83 @@ const routes = [
                 /* webpackChunkName: "dashboard" */ "@/views/base/Breadcrumbs.vue"
               ),
           },
+          {
+            path: "/base/cards",
+            name: "Cards",
+            component: () => import("@/views/base/Cards.vue"),
+          },
+          {
+            path: "/base/carousels",
+            name: "Carousels",
+            component: () => import("@/views/base/Carousels.vue"),
+          },
+          {
+            path: "/base/collapses",
+            name: "Collapses",
+            component: () => import("@/views/base/Collapses.vue"),
+          },
+          {
+            path: "/base/forms",
+            name: "Forms",
+            component: () => import("@/views/base/Forms.vue"),
+          },
+          /*
+          {
+            path: "/base/jumbotrons",
+            name: "Jumbotrons",
+            component: () => import("@/views/base/Jumbotrons.vue"),
+          },
+          */
+          {
+            path: "/base/list-groups",
+            name: "List Groups",
+            component: () => import("@/views/base/ListGroups.vue"),
+          },
+          {
+            path: "/base/navs",
+            name: "Navs",
+            component: () => import("@/views/base/Navs.vue"),
+          },
+          {
+            path: "/base/navbars",
+            name: "Navbars",
+            component: () => import("@/views/base/Navbars.vue"),
+          },    
+          {
+            path: "/base/paginations",
+            name: "Paginations",
+            component: () => import("@/views/base/Paginations.vue"),
+          }, 
+          {
+            path: "/base/popovers",
+            name: "Popovers",
+            component: () => import("@/views/base/Popovers.vue"),
+          },
+          {
+            path: "/base/progress-bars",
+            name: "Progress Bars",
+            component: () => import("@/views/base/ProgressBars.vue"),
+          }, 
+          {
+            path: "/base/switches",
+            name: "Switches",
+            component: () => import("@/views/base/Switches.vue"),
+          }, 
+          {
+            path: "/base/tables",
+            name: "Tables",
+            component: () => import("@/views/base/Tables.vue"),
+          }, 
+          {
+            path: "/base/tabs",
+            name: "Tabs",
+            component: () => import("@/views/base/Tabs.vue"),
+          },
+          {
+            path: "/base/tooltips",
+            name: "Tooltips",
+            component: () => import("@/views/base/Tooltips.vue"),
+          }, 
         ],
       },
     ],

@@ -40,81 +40,83 @@ export default [
         name: 'Breadcrumbs',
         to: '/base/breadcrumbs'
       },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Cards',
-      //   to: '/base/cards'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Carousels',
-      //   to: '/base/carousels'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Collapses',
-      //   to: '/base/collapses'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Forms',
-      //   to: '/base/forms'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Jumbotrons',
-      //   to: '/base/jumbotrons'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'List Groups',
-      //   to: '/base/list-groups'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Navs',
-      //   to: '/base/navs'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Navbars',
-      //   to: '/base/navbars'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Paginations',
-      //   to: '/base/paginations'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Popovers',
-      //   to: '/base/popovers'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Progress Bars',
-      //   to: '/base/progress-bars'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Switches',
-      //   to: '/base/switches'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Tables',
-      //   to: '/base/tables'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Tabs',
-      //   to: '/base/tabs'
-      // },
-      // {
-      //   _name: 'CNavItem',
-      //   name: 'Tooltips',
-      //   to: '/base/tooltips'
-      // }
+      {
+        _name: 'CNavItem',
+        name: 'Cards',
+        to: '/base/cards'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Carousels',
+        to: '/base/carousels'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Collapses',
+        to: '/base/collapses'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Forms',
+        to: '/base/forms'
+      },
+      /*
+      {
+        _name: 'CNavItem',
+        name: 'Jumbotrons',
+        to: '/base/jumbotrons'
+      },
+      */
+      {
+        _name: 'CNavItem',
+        name: 'List Groups',
+        to: '/base/list-groups'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Navs',
+        to: '/base/navs'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Navbars',
+        to: '/base/navbars'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Paginations',
+        to: '/base/paginations'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Popovers',
+        to: '/base/popovers'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Progress Bars',
+        to: '/base/progress-bars'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Switches',
+        to: '/base/switches'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Tables',
+        to: '/base/tables'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Tabs',
+        to: '/base/tabs'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Tooltips',
+        to: '/base/tooltips'
+      }
     ]
   },
   // {
