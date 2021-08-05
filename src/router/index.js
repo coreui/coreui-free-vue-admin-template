@@ -118,6 +118,94 @@ const routes = [
           }, 
         ],
       },
+      {
+        path: "/buttons",
+        name: "Buttons",
+        component: {
+          render() {
+            return h(resolveComponent('router-view'))
+          }
+        },
+        children: [
+          {
+            path: "/buttons/standard-buttons",
+            name: "Buttons",
+            component: () => import("@/views/buttons/Buttons.vue"),
+          }, 
+          {
+            path: "/buttons/dropdowns",
+            name: "Button Dropdowns",
+            component: () => import("@/views/buttons/ButtonDropdowns.vue"),
+          }, 
+          {
+            path: "/buttons/button-groups",
+            name: "Button Groups",
+            component: () => import("@/views/buttons/ButtonGroups.vue"),
+          }, 
+          {
+            path: "/buttons/brand-buttons",
+            name: "Brand Buttons",
+            component: () => import("@/views/buttons/BrandButtons.vue"),
+          }, 
+        ]
+      },
+      {
+        path: "/icons",
+        name: "Icons",
+        component: {
+          render() {
+            return h(resolveComponent('router-view'))
+          }
+        },
+        children: [
+          {
+            path: "/icons/coreui-icons",
+            name: "CoreUI Icons",
+            component: () => import("@/views/icons/CoreUIIcons.vue"),
+          },
+          {
+            path: "/icons/brands",
+            name: "Brands",
+            component: () => import("@/views/icons/Brands.vue"),
+          },
+          {
+            path: "/icons/flags",
+            name: "Flags",
+            component: () => import("@/views/icons/Flags.vue"),
+          }, 
+        ]
+      },
+      {
+        path: "/notifications",
+        name: "Notifications",
+        component: {
+          render() {
+            return h(resolveComponent('router-view'))
+          }
+        },
+        children: [
+          {
+            path: "/notifications/alerts",
+            name: "Alerts",
+            component: () => import("@/views/notifications/Alerts.vue"),
+          },
+          {
+            path: "/notifications/badges",
+            name: "Badges",
+            component: () => import("@/views/notifications/Badges.vue"),
+          },
+          {
+            path: "/notifications/modals",
+            name: "Modals",
+            component: () => import("@/views/notifications/Modals.vue"),
+          },
+        ]
+      },
+      {
+        path: "/widgets",
+        name: "Widgets",
+        component: () => import("@/views/Widgets.vue"),
+      },
     ],
   },
   // {

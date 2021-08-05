@@ -119,101 +119,101 @@ export default [
       }
     ]
   },
-  // {
-  //   _name: 'CNavGroup',
-  //   name: 'Buttons',
-  //   route: '/buttons',
-  //   icon: 'cil-cursor',
-  //   children: [
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Buttons',
-  //       to: '/buttons/standard-buttons'
-  //     },
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Button Dropdowns',
-  //       to: '/buttons/dropdowns'
-  //     },
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Button Groups',
-  //       to: '/buttons/button-groups'
-  //     },
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Brand Buttons',
-  //       to: '/buttons/brand-buttons'
-  //     }
-  //   ]
-  // },
+  {
+    _name: 'CNavGroup',
+    name: 'Buttons',
+    route: '/buttons',
+    icon: 'cil-cursor',
+    children: [
+      {
+        _name: 'CNavItem',
+        name: 'Buttons',
+        to: '/buttons/standard-buttons'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Button Dropdowns',
+        to: '/buttons/dropdowns'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Button Groups',
+        to: '/buttons/button-groups'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Brand Buttons',
+        to: '/buttons/brand-buttons'
+      }
+    ]
+  },
   // {
   //   _name: 'CNavItem',
   //   name: 'Charts',
   //   to: '/charts',
   //   icon: 'cil-chart-pie'
   // },
-  // {
-  //   _name: 'CNavGroup',
-  //   name: 'Icons',
-  //   route: '/icons',
-  //   icon: 'cil-star',
-  //   children: [
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'CoreUI Icons',
-  //       to: '/icons/coreui-icons',
-  //       badge: {
-  //         color: 'info',
-  //         text: 'NEW'
-  //       }
-  //     },
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Brands',
-  //       to: '/icons/brands'
-  //     },
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Flags',
-  //       to: '/icons/flags'
-  //     }
-  //   ]
-  // },
-  // {
-  //   _name: 'CNavGroup',
-  //   name: 'Notifications',
-  //   route: '/notifications',
-  //   icon: 'cil-bell',
-  //   children: [
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Alerts',
-  //       to: '/notifications/alerts'
-  //     },
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Badges',
-  //       to: '/notifications/badges'
-  //     },
-  //     {
-  //       _name: 'CNavItem',
-  //       name: 'Modals',
-  //       to: '/notifications/modals'
-  //     }
-  //   ]
-  // },
-  // {
-  //   _name: 'CNavItem',
-  //   name: 'Widgets',
-  //   to: '/widgets',
-  //   icon: 'cil-calculator',
-  //   badge: {
-  //     color: 'primary',
-  //     text: 'NEW',
-  //     shape: 'pill'
-  //   }
-  // },
+  {
+   _name: 'CNavGroup',
+    name: 'Icons',
+    route: '/icons',
+    icon: 'cil-star',
+    children: [
+      {
+        _name: 'CNavItem',
+        name: 'CoreUI Icons',
+        to: '/icons/coreui-icons',
+        badge: {
+          color: 'info',
+          text: 'NEW'
+        }
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Brands',
+        to: '/icons/brands'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Flags',
+        to: '/icons/flags'
+      }
+    ]
+  },
+  {
+    _name: 'CNavGroup',
+    name: 'Notifications',
+    route: '/notifications',
+    icon: 'cil-bell',
+    children: [
+      {
+        _name: 'CNavItem',
+        name: 'Alerts',
+        to: '/notifications/alerts'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Badges',
+        to: '/notifications/badges'
+      },
+      {
+        _name: 'CNavItem',
+        name: 'Modals',
+        to: '/notifications/modals'
+      }
+    ]
+  },
+  {
+    _name: 'CNavItem',
+    name: 'Widgets',
+    to: '/widgets',
+    icon: 'cil-calculator',
+    badge: {
+      color: 'primary',
+      text: 'NEW',
+      shape: 'pill'
+    }
+  },
   // {
   //   _name: 'CSidebarNavDivider',
   //   _class: 'm-2'
