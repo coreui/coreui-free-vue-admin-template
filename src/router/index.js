@@ -23,6 +23,16 @@ const routes = [
           import(/* webpackChunkName: "dashboard" */ "@/views/Dashboard.vue"),
       },
       {
+        path: "/theme/colors",
+        name: "Colors",
+        component: () => import("@/views/theme/Colors.vue"),
+      },
+      {
+        path: "/theme/typography",
+        name: "Typography",
+        component: () => import("@/views/theme/Typography.vue"),
+      },
+      {
         path: "/base",
         name: "Base",
         component: {

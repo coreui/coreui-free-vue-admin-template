@@ -13,18 +13,18 @@ export default [
   //   _name: 'CNavTitle',
   //   name: 'Theme'
   // },
-  // {
-  //   _name: 'CNavItem',
-  //   name: 'Colors',
-  //   to: '/theme/colors',
-  //   icon: 'cil-drop'
-  // },
-  // {
-  //   _name: 'CNavItem',
-  //   name: 'Typography',
-  //   to: '/theme/typography',
-  //   icon: 'cil-pencil'
-  // },
+  {
+    _name: 'CNavItem',
+    name: 'Colors',
+    to: '/theme/colors',
+    icon: 'cil-drop'
+  },
+  {
+    _name: 'CNavItem',
+    name: 'Typography',
+    to: '/theme/typography',
+    icon: 'cil-pencil'
+  },
   // {
   //   _name: 'CNavTitle',
   //   name: 'Components'
