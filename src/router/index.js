@@ -23,6 +23,11 @@ const routes = [
           import(/* webpackChunkName: "dashboard" */ "@/views/Dashboard.vue"),
       },
       {
+        path: "/theme",
+        name: "Theme",
+        redirect: "/theme/typography"
+      },
+      {
         path: "/theme/colors",
         name: "Colors",
         component: () => import("@/views/theme/Colors.vue"),
@@ -40,6 +45,7 @@ const routes = [
             return h(resolveComponent('router-view'))
           }
         },
+        redirect: '/base/breadcrumbs',
         children: [
           {
             path: "/base/breadcrumbs",
@@ -136,6 +142,7 @@ const routes = [
             return h(resolveComponent('router-view'))
           }
         },
+        redirect: '/buttons/standard-buttons',
         children: [
           {
             path: "/buttons/standard-buttons",
@@ -152,11 +159,13 @@ const routes = [
             name: "Button Groups",
             component: () => import("@/views/buttons/ButtonGroups.vue"),
           }, 
+          /*
           {
             path: "/buttons/brand-buttons",
             name: "Brand Buttons",
             component: () => import("@/views/buttons/BrandButtons.vue"),
-          }, 
+          },
+          */ 
         ]
       },
       {
@@ -167,6 +176,7 @@ const routes = [
             return h(resolveComponent('router-view'))
           }
         },
+        redirect: '/icons/coreui-icons',
         children: [
           {
             path: "/icons/coreui-icons",
@@ -193,6 +203,7 @@ const routes = [
             return h(resolveComponent('router-view'))
           }
         },
+        redirect: '/notifications/alerts',
         children: [
           {
             path: "/notifications/alerts",

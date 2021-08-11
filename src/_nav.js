@@ -140,11 +140,11 @@ export default [
         name: 'Button Groups',
         to: '/buttons/button-groups'
       },
-      {
-        _name: 'CNavItem',
-        name: 'Brand Buttons',
-        to: '/buttons/brand-buttons'
-      }
+//      {
+//        _name: 'CNavItem',
+//        name: 'Brand Buttons',
+//       to: '/buttons/brand-buttons'
+//      }
     ]
   },
   // {
