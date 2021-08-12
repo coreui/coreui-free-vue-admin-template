@@ -147,12 +147,12 @@ export default [
 //      }
     ]
   },
-  // {
-  //   _name: 'CNavItem',
-  //   name: 'Charts',
-  //   to: '/charts',
-  //   icon: 'cil-chart-pie'
-  // },
+  {
+    _name: 'CNavItem',
+    name: 'Charts',
+    to: '/charts',
+    icon: 'cil-chart-pie'
+  },
   {
    _name: 'CNavGroup',
     name: 'Icons',
