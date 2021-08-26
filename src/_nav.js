@@ -60,11 +60,6 @@ export default [
         name: "Collapses",
         to: "/base/collapses",
       },
-      {
-        _name: "CNavItem",
-        name: "Forms",
-        to: "/base/forms",
-      },
       /*
       {
         _name: 'CNavItem',
@@ -79,14 +74,14 @@ export default [
       },
       {
         _name: "CNavItem",
-        name: "Navs",
+        name: "Navs & Tabs",
         to: "/base/navs",
       },
-      {
-        _name: "CNavItem",
-        name: "Navbars",
-        to: "/base/navbars",
-      },
+      // {
+      //   _name: "CNavItem",
+      //   name: "Navbars",
+      //   to: "/base/navbars",
+      // },
       {
         _name: "CNavItem",
         name: "Paginations",
@@ -104,19 +99,19 @@ export default [
       },
       {
         _name: "CNavItem",
-        name: "Switches",
-        to: "/base/switches",
+        name: "Spinners",
+        to: "/base/spinners",
       },
       {
         _name: "CNavItem",
         name: "Tables",
         to: "/base/tables",
       },
-      {
-        _name: "CNavItem",
-        name: "Tabs",
-        to: "/base/tabs",
-      },
+      // {
+      //   _name: "CNavItem",
+      //   name: "Tabs",
+      //   to: "/base/tabs",
+      // },
       {
         _name: "CNavItem",
         name: "Tooltips",

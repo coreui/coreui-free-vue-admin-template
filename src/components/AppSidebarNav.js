@@ -1,19 +1,49 @@
-import { defineComponent, h, resolveComponent } from "vue";
-import { RouterLink } from "vue-router";
+import { defineComponent, h, resolveComponent } from 'vue'
+import { RouterLink } from 'vue-router'
 
-import { CSidebarNav, CNavItem, CNavGroup, CNavTitle } from "@coreui/vue";
-import nav from "@/_nav.js";
+import { CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
+import nav from '@/_nav.js'
 
 const AppSidebarNav = defineComponent({
-  name: "AppSidebarNav",
+  name: 'AppSidebarNav',
   components: {
     CNavItem,
     CNavGroup,
     CNavTitle,
   },
   setup() {
-    const singleItem = (item) =>
-      item.to
+    const renderItem = (item) => {
+      if (item.children) {
+        return h(
+          RouterLink,
+          {
+            to: item.route,
+            custom: true,
+          },
+          {
+            default: (props) =>
+              h(
+                resolveComponent('CNavGroup'),
+                {
+                  visible: props.isActive,
+                },
+                {
+                  togglerContent: () => [
+                    h(resolveComponent('CIcon'), {
+                      customClassName: 'nav-icon',
+                      name: item.icon,
+                    }),
+                    item.name,
+                  ],
+                  default: () =>
+                    item.children.map((child) => renderItem(child)),
+                },
+              ),
+          },
+        )
+      }
+
+      return item.to
         ? h(
             RouterLink,
             {
@@ -27,63 +57,49 @@ const AppSidebarNav = defineComponent({
                   {
                     active: props.isActive,
                     href: props.href,
-                    icon: "cil-speedometer",
                     onClick: () => props.navigate(),
                   },
-                  [
-                    item.icon &&
-                      h(resolveComponent("CIcon"), {
-                        customClassName: "nav-icon",
-                        name: item.icon,
-                      }),
-                    item.name,
-                    item.badge &&
-                    h(resolveComponent("CBadge"), {
-                      class: 'ms-auto',
-                      color: item.badge.color,
-                    }, item.badge.text),
-                  ]
+                  {
+                    default: () => [
+                      item.icon &&
+                        h(resolveComponent('CIcon'), {
+                          customClassName: 'nav-icon',
+                          name: item.icon,
+                        }),
+                      item.name,
+                      item.badge &&
+                        h(
+                          resolveComponent('CBadge'),
+                          {
+                            class: 'ms-auto',
+                            color: item.badge.color,
+                          },
+                          {
+                            default: () => item.badge.text,
+                          }
+                        ),
+                    ],
+                  },
                 ),
-            }
+            },
           )
-        : h(resolveComponent(item._name), {}, item.name);
-
-    const group = (item) =>
-      h(
-        RouterLink,
-        {
-          to: item.route,
-          custom: true,
-        },
-        {
-          default: (props) =>
-            h(
-              resolveComponent("CNavGroup"),
-              {
-                visible: props.isActive
-              },
-              {
-                togglerContent: () => [
-                  h(resolveComponent("CIcon"), {
-                    customClassName: "nav-icon",
-                    name: item.icon,
-                  }),
-                  item.name,
-                ],
-                default: () => item.children.map((child) => singleItem(child)),
-              }
-            ),
-        }
-      );
+        : h(
+            resolveComponent(item._name),
+            {},
+            {
+              default: () => item.name,
+            },
+          )
+    }
 
     return () =>
       h(
         CSidebarNav,
         {},
-        nav.map((item) =>
-          typeof item.children === "undefined" ? singleItem(item) : group(item)
-        )
-      );
+        {
+          default: () => nav.map((item) => renderItem(item)),
+        },
+      )
   },
-});
-export { AppSidebarNav };
+})
+export { AppSidebarNav }

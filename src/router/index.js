@@ -121,9 +121,9 @@ const routes = [
             component: () => import("@/views/base/Progress.vue"),
           },
           {
-            path: "/base/switches",
-            name: "Switches",
-            component: () => import("@/views/base/Switches.vue"),
+            path: "/base/spinners",
+            name: "Spinners",
+            component: () => import("@/views/base/Spinners.vue"),
           },
           {
             path: "/base/tables",
@@ -159,8 +159,8 @@ const routes = [
           },
           {
             path: "/buttons/dropdowns",
-            name: "Button Dropdowns",
-            component: () => import("@/views/buttons/ButtonDropdowns.vue"),
+            name: "Dropdowns",
+            component: () => import("@/views/buttons/Dropdowns.vue"),
           },
           {
             path: "/buttons/button-groups",

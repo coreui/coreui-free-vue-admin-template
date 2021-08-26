@@ -1,35 +1,43 @@
 <template>
-  <CSidebar position="fixed" selfHiding="md" :class="sidebarClass">
+  <CSidebar position="fixed" selfHiding="md" :unfoldable="sidebarUnfoldable" :visible="sidebarVisible">
     <CSidebarBrand>
       <CIcon
-        customClasses="sidebar-brand-full"
+        customClassName="sidebar-brand-full"
         name="logo"
         size="custom-size"
         :height="35"
-        viewBox="0 0 556 134" />
+        viewBox="0 0 556 134"
+      />
       <CIcon
-        customClasses="sidebar-brand-narrow"
+        customClassName="sidebar-brand-narrow"
         name="logo"
         size="custom-size"
         :height="35"
         viewBox="0 0 110 134"
-    /></CSidebarBrand>
-
+      />
+    </CSidebarBrand>
     <AppSidebarNav />
+    <CSidebarToggler
+      class="d-none d-lg-flex"
+      @click="$store.commit('toggleUnfoldable')"
+    />
   </CSidebar>
 </template>
 
 <script>
-import { AppSidebarNav } from "./AppSidebarNav";
+import { AppSidebarNav } from './AppSidebarNav'
 export default {
-  name: "AppSidebar",
+  name: 'AppSidebar',
   components: {
     AppSidebarNav,
   },
   computed: {
-    sidebarClass () {
-      return this.$store.state.sidebarClass
-    }
-  }
-};
+    sidebarUnfoldable() {
+      return this.$store.state.sidebarUnfoldable
+    },
+    sidebarVisible() {
+      return this.$store.state.sidebarVisible
+    },
+  },
+}
 </script>

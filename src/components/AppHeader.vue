@@ -44,6 +44,7 @@
           v-for="item in currentRoute"
           :href="item.to"
           :active="item.to === '' ? true : false"
+          :key="item"
         >
           {{ item.name }}
         </CBreadcrumbItem>
