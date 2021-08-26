@@ -3,12 +3,12 @@
     <CNav variant="tabs">
       <CNavItem>
         <CNavLink href="#" active>
-          <CIcon name="cil-media-play" class="me-2" />
+          <CIcon icon="cil-media-play" class="me-2" />
         </CNavLink>
       </CNavItem>
       <CNavItem>
         <CNavLink :href="href" target="_blank">
-          <CIcon name="cil-code" class="me-2" />
+          <CIcon icon="cil-code" class="me-2" />
           Code
         </CNavLink>
       </CNavItem>

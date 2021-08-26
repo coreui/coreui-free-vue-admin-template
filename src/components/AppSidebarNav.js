@@ -33,7 +33,7 @@ const AppSidebarNav = defineComponent({
                   [
                     item.icon &&
                       h(resolveComponent("CIcon"), {
-                        customClasses: "nav-icon",
+                        customClassName: "nav-icon",
                         name: item.icon,
                       }),
                     item.name,
@@ -65,7 +65,7 @@ const AppSidebarNav = defineComponent({
               {
                 togglerContent: () => [
                   h(resolveComponent("CIcon"), {
-                    customClasses: "nav-icon",
+                    customClassName: "nav-icon",
                     name: item.icon,
                   }),
                   item.name,

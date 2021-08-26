@@ -1,5 +1,5 @@
 <template>
-  <CSidebar position="fixed" selfHiding="md">
+  <CSidebar position="fixed" selfHiding="md" :class="sidebarClass">
     <CSidebarBrand>
       <CIcon
         customClasses="sidebar-brand-full"
@@ -26,5 +26,10 @@ export default {
   components: {
     AppSidebarNav,
   },
+  computed: {
+    sidebarClass () {
+      return this.$store.state.sidebarClass
+    }
+  }
 };
 </script>

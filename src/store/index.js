@@ -2,9 +2,17 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    sidebarShow: true,
+    sidebarClass: '',
   },
-  mutations: {},
+  mutations: {
+    toggleSidebar (state) {
+      if(state.sidebarClass === ''){
+        state.sidebarClass = 'sidebar-self-hiding-xxl'
+      }else{
+        state.sidebarClass = ''
+      }
+    }
+  },
   actions: {},
   modules: {},
 });
