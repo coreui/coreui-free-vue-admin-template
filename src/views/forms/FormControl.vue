@@ -43,8 +43,7 @@
         <CCardBody>
           <p class="text-medium-emphasis small">
             Set heights using <code>size</code> property like
-            <code>size=&#34;lg&#34;</code> and
-            <code>size=&#34;sm&#34;</code>.
+            <code>size=&#34;lg&#34;</code> and <code>size=&#34;sm&#34;</code>.
           </p>
           <Example href="forms/form-control#sizing">
             <CFormInput
@@ -137,10 +136,7 @@
           </p>
           <Example href="components/accordion">
             <CRow class="mb-3">
-              <CFormLabel
-                for="staticEmail"
-                class="col-sm-2 col-form-label"
-              >
+              <CFormLabel for="staticEmail" class="col-sm-2 col-form-label">
                 Email
               </CFormLabel>
               <div class="col-sm-10">
@@ -154,10 +150,7 @@
               </div>
             </CRow>
             <CRow class="mb-3">
-              <CFormLabel
-                for="inputPassword"
-                class="col-sm-2 col-form-label"
-              >
+              <CFormLabel for="inputPassword" class="col-sm-2 col-form-label">
                 Password
               </CFormLabel>
               <div class="col-sm-10">
@@ -180,10 +173,7 @@
                 />
               </div>
               <div class="col-auto">
-                <CFormLabel
-                  for="inputPassword2"
-                  class="visually-hidden"
-                >
+                <CFormLabel for="inputPassword2" class="visually-hidden">
                   Password
                 </CFormLabel>
                 <CFormInput
@@ -193,9 +183,7 @@
                 />
               </div>
               <div class="col-auto">
-                <CButton type="submit" class="mb-3">
-                  Confirm identity
-                </CButton>
+                <CButton type="submit" class="mb-3"> Confirm identity </CButton>
               </div>
             </CForm>
           </Example>
@@ -210,9 +198,7 @@
         <CCardBody>
           <Example href="forms/form-control#file-input">
             <div class="mb-3">
-              <CFormLabel for="formFile"
-                >Default file input example</CFormLabel
-              >
+              <CFormLabel for="formFile">Default file input example</CFormLabel>
               <CFormInput type="file" id="formFile" />
             </div>
             <div class="mb-3">
@@ -228,15 +214,11 @@
               <CFormInput type="file" id="formFileDisabled" disabled />
             </div>
             <div class="mb-3">
-              <CFormLabel for="formFileSm"
-                >Small file input example</CFormLabel
-              >
+              <CFormLabel for="formFileSm">Small file input example</CFormLabel>
               <CFormInput type="file" size="sm" id="formFileSm" />
             </div>
             <div>
-              <CFormLabel for="formFileLg"
-                >Large file input example</CFormLabel
-              >
+              <CFormLabel for="formFileLg">Large file input example</CFormLabel>
               <CFormInput type="file" size="lg" id="formFileLg" />
             </div>
           </Example>
@@ -266,6 +248,6 @@
 
 <script>
 export default {
-  name: "FormControl",
-};
+  name: 'FormControl',
+}
 </script>

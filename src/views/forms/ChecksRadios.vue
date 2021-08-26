@@ -6,7 +6,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Checkbox</strong>
+          <strong>Vue Checkbox</strong>
         </CCardHeader>
         <CCardBody>
           <Example href="forms/checks-radios">
@@ -23,7 +23,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Checkbox</strong> <small>Disabled</small>
+          <strong>Vue Checkbox</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -45,7 +45,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Radio</strong>
+          <strong>Vue Radio</strong>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -74,7 +74,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Radio</strong> <small>Disabled</small>
+          <strong>Vue Radio</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
           <Example href="forms/checks-radios#disabled-1">
@@ -100,7 +100,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Switches</strong>
+          <strong>Vue Switches</strong>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -136,7 +136,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Switches</strong> <small>Sizes</small>
+          <strong>Vue Switches</strong> <small>Sizes</small>
         </CCardHeader>
         <CCardBody>
           <Example href="forms/checks-radios#sizes">
@@ -161,7 +161,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Checks and Radios</strong>
+          <strong>Vue Checks and Radios</strong>
           <small>Default layout (stacked)</small>
         </CCardHeader>
         <CCardBody>
@@ -204,7 +204,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Checks and Radios</strong> <small>Inline</small>
+          <strong>Vue Checks and Radios</strong> <small>Inline</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -256,7 +256,7 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Checks and Radios</strong> <small>Without labels</small>
+          <strong>Vue Checks and Radios</strong> <small>Without labels</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">

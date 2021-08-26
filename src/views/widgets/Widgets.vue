@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol>
-      <CCard>
+      <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Widgets</strong>
         </CCardHeader>

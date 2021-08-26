@@ -453,7 +453,7 @@ export default {
           activity: "1 hour ago",
         },
         {
-          avatar: { src: avatar4, status: "" },
+          avatar: { src: avatar4, status: "secondary" },
           user: { name: "Enéas Kwadwo", new: true, registered: "Jan 1, 2021" },
           country: { name: "France", flag: "cif-fr" },
           usage: {

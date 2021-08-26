@@ -12,7 +12,7 @@ export default {
   computed: {
     defaultData () {
       return {
-        labels: ['VueJs', 'EmberJs', 'ReactJs', 'AngularJs'],
+        labels: ['VueJs', 'EmberJs', 'VueJs', 'AngularJs'],
         datasets: [
           {
             backgroundColor: [
