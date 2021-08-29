@@ -1,11 +1,11 @@
 <template>
   <CDropdown variant="nav-item">
     <CDropdownToggle placement="bottom-end" class="py-0" :caret="false">
-      <CAvatar :src="avatar" size="md"/>
+      <CAvatar :src="avatar" size="md" />
     </CDropdownToggle>
-    <CDropdownMenu>
-      <CDropdownHeader tag="div" class="text-center" color="light">
-        <strong>Account</strong>
+    <CDropdownMenu class="pt-0">
+      <CDropdownHeader component="h6" class="bg-light fw-semibold py-2">
+        Account
       </CDropdownHeader>
       <CDropdownItem>
         <CIcon icon="cil-bell" /> Updates
@@ -23,7 +23,7 @@
         <CIcon icon="cil-comment-square" /> Comments
         <CBadge color="warning" class="ms-auto">{{ itemsCount }}</CBadge>
       </CDropdownItem>
-      <CDropdownHeader tag="div" class="text-center" color="light">
+      <CDropdownHeader component="h6" class="bg-light fw-semibold py-2">
         <strong>Settings</strong>
       </CDropdownHeader>
       <CDropdownItem> <CIcon icon="cil-user" /> Profile </CDropdownItem>
@@ -48,12 +48,12 @@
 <script>
 import avatar from './../assets/images/avatars/8.jpg'
 export default {
-  name: "AppHeaderDropdownAccnt",
+  name: 'AppHeaderDropdownAccnt',
   data() {
     return {
       avatar: avatar,
       itemsCount: 42,
-    };
+    }
   },
-};
+}
 </script>

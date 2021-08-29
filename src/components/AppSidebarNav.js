@@ -1,5 +1,5 @@
 import { defineComponent, h, resolveComponent } from 'vue'
-import { RouterLink } from 'vue-router'
+import { RouterLink, useRoute } from 'vue-router'
 
 import { CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
 import nav from '@/_nav.js'
@@ -12,33 +12,56 @@ const AppSidebarNav = defineComponent({
     CNavTitle,
   },
   setup() {
+    const normalizePath = (path) =>
+      decodeURI(path)
+        .replace(/#.*$/, '')
+        .replace(/(index)?\.(html)$/, '')
+
+    const isActiveLink = (route, link) => {
+      if (link === undefined) {
+        return false
+      }
+
+      if (route.hash === link) {
+        return true
+      }
+
+      const currentPath = normalizePath(route.path)
+      const targetPath = normalizePath(link)
+
+      return currentPath === targetPath
+    }
+
+    const isActiveItem = (route, item) => {
+      if (isActiveLink(route, item.to)) {
+        return true
+      }
+
+      if (item.children) {
+        return item.children.some((child) => isActiveItem(route, child))
+      }
+
+      return false
+    }
+
     const renderItem = (item) => {
+      const route = useRoute()
+
       if (item.children) {
         return h(
-          RouterLink,
+          resolveComponent('CNavGroup'),
           {
-            to: item.route,
-            custom: true,
+            visible: item.children.some((child) => isActiveItem(route, child)),
           },
           {
-            default: (props) =>
-              h(
-                resolveComponent('CNavGroup'),
-                {
-                  visible: props.isActive,
-                },
-                {
-                  togglerContent: () => [
-                    h(resolveComponent('CIcon'), {
-                      customClassName: 'nav-icon',
-                      name: item.icon,
-                    }),
-                    item.name,
-                  ],
-                  default: () =>
-                    item.children.map((child) => renderItem(child)),
-                },
-              ),
+            togglerContent: () => [
+              h(resolveComponent('CIcon'), {
+                customClassName: 'nav-icon',
+                name: item.icon,
+              }),
+              item.name,
+            ],
+            default: () => item.children.map((child) => renderItem(child)),
           },
         )
       }
@@ -76,7 +99,7 @@ const AppSidebarNav = defineComponent({
                           },
                           {
                             default: () => item.badge.text,
-                          }
+                          },
                         ),
                     ],
                   },

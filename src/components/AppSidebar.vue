@@ -1,5 +1,17 @@
 <template>
-  <CSidebar position="fixed" selfHiding="md" :unfoldable="sidebarUnfoldable" :visible="sidebarVisible">
+  <CSidebar
+    position="fixed"
+    selfHiding="md"
+    :unfoldable="sidebarUnfoldable"
+    :visible="sidebarVisible"
+    @visible-change="
+      (event) =>
+        $store.commit({
+          type: 'updateSidebarVisible',
+          value: event,
+        })
+    "
+  >
     <CSidebarBrand>
       <CIcon
         customClassName="sidebar-brand-full"

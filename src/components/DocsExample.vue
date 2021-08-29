@@ -24,7 +24,7 @@
 <script>
 import packageJson from "../../package.json";
 export default {
-  name: "Example",
+  name: "DocsExample",
   props: {
     href: {
       type: String,
