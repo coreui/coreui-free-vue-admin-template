@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Button" href="components/buttons" />
+      <DocsCallout name="Button" href="components/button.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
@@ -16,7 +16,7 @@
             to initialize operations, both in the background or foreground of an
             experience.
           </p>
-          <DocsExample href="components/buttons">
+          <DocsExample href="components/button.html">
             <template
               v-for="state in ['normal', 'active', 'disabled']"
               :key="state"
@@ -64,7 +64,7 @@
             You can combine button with our
             <a href="https://icons.coreui.io/">CoreUI Icons</a>.
           </p>
-          <DocsExample href="components/buttons">
+          <DocsExample href="components/button.html">
             <template
               v-for="state in ['normal', 'active', 'disabled']"
               :key="state"
@@ -124,7 +124,7 @@
             <code>role=&#34;button&#34;</code> to adequately communicate their
             meaning to assistive technologies such as screen readers.
           </p>
-          <DocsExample href="components/buttons#button-components">
+          <DocsExample href="components/button.html#button-components">
             <CButton component="a" color="primary" href="#" role="button">
               Link
             </CButton>
@@ -162,7 +162,7 @@
             <code>variant=&#34;outline&#34;</code> prop to remove all background
             colors.
           </p>
-          <DocsExample href="components/buttons#outline-buttons">
+          <DocsExample href="components/button.html#outline-buttons">
             <template
               v-for="state in ['normal', 'active', 'disabled']"
               :key="state"
@@ -213,7 +213,7 @@
             <code>variant=&#34;ghost&#34;</code> prop to remove all background
             colors.
           </p>
-          <DocsExample href="components/buttons#ghost-buttons">
+          <DocsExample href="components/button.html#ghost-buttons">
             <template
               v-for="state in ['normal', 'active', 'disabled']"
               :key="state"
@@ -263,11 +263,11 @@
             Larger or smaller buttons? Add <code>size=&#34;lg&#34;</code> or
             <code>size=&#34;sm&#34;</code> for additional sizes.
           </p>
-          <DocsExample href="components/buttons#sizes">
+          <DocsExample href="components/button.html#sizes">
             <CButton color="primary" size="lg"> Large button </CButton>
             <CButton color="secondary" size="lg"> Large button </CButton>
           </DocsExample>
-          <DocsExample href="components/buttons#sizes">
+          <DocsExample href="components/button.html#sizes">
             <CButton color="primary" size="sm"> Small button </CButton>
             <CButton color="secondary" size="sm"> Small button </CButton>
           </DocsExample>
@@ -280,7 +280,7 @@
           <strong>Vue Button</strong> <small>Pill</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="components/buttons#pill-buttons">
+          <DocsExample href="components/button.html#pill-buttons">
             <template
               v-for="color in [
                 'primary',
@@ -313,7 +313,7 @@
           <strong>Vue Button</strong> <small>Square</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="components/buttons#square">
+          <DocsExample href="components/button.html#square">
             <template
               v-for="color in [
                 'primary',
@@ -353,7 +353,7 @@
             <code>pointer-events: none</code> applied to, disabling hover and
             active states from triggering.
           </p>
-          <DocsExample href="components/buttons#disabled-state">
+          <DocsExample href="components/button.html#disabled-state">
             <CButton color="primary" size="lg" disabled>
               Primary button
             </CButton>
@@ -371,7 +371,7 @@
             <code>aria-disabled=&#34;true&#34;</code> attribute to show the
             state of the component to assistive technologies.
           </p>
-          <DocsExample href="components/buttons#disabled-state">
+          <DocsExample href="components/button.html#disabled-state">
             <CButton component="a" href="#" color="primary" size="lg" disabled>
               Primary link
             </CButton>
@@ -398,7 +398,7 @@
             Create buttons that span the full width of a parent—by using
             utilities.
           </p>
-          <DocsExample href="components/buttons#block-buttons">
+          <DocsExample href="components/button.html#block-buttons">
             <div class="d-grid gap-2">
               <CButton color="primary">Button</CButton>
               <CButton color="primary">Button</CButton>
@@ -411,7 +411,7 @@
             thus nullifying the <code>gap-2</code> utility. Resize your browser
             to see them change.
           </p>
-          <DocsExample href="components/buttons#block-buttons">
+          <DocsExample href="components/button.html#block-buttons">
             <div class="d-grid gap-2 d-md-block">
               <CButton color="primary">Button</CButton>
               <CButton color="primary">Button</CButton>
@@ -423,7 +423,7 @@
             use <code>.col-6</code>. Center it horizontally with
             <code>.mx-auto</code>, too.
           </p>
-          <DocsExample href="components/buttons#block-buttons">
+          <DocsExample href="components/button.html#block-buttons">
             <div class="d-grid gap-2 col-6 mx-auto">
               <CButton color="primary">Button</CButton>
               <CButton color="primary">Button</CButton>
@@ -436,7 +436,7 @@
             button to right align the buttons when they&#39;re no longer
             stacked.
           </p>
-          <DocsExample href="components/buttons#block-buttons">
+          <DocsExample href="components/button.html#block-buttons">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <CButton color="primary" class="me-md-2"> Button </CButton>
               <CButton color="primary">Button</CButton>

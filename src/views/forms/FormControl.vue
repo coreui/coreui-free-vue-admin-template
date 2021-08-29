@@ -1,15 +1,15 @@
 <template>
   <CRow>
-    <CCol xs="12">
-      <DocsCallout name="Form Control" href="forms/form-control" />
+    <CCol :xs="12">
+      <DocsCallout name="Form Control" href="forms/form-control.html" />
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Form Control</strong>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="forms/form-control">
+          <DocsExample href="forms/form-control.html">
             <CForm>
               <div class="mb-3">
                 <CFormLabel for="exampleFormControlInput1"
@@ -35,7 +35,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Form Control</strong> <small>Sizing</small>
@@ -45,7 +45,7 @@
             Set heights using <code>size</code> property like
             <code>size=&#34;lg&#34;</code> and <code>size=&#34;sm&#34;</code>.
           </p>
-          <DocsExample href="forms/form-control#sizing">
+          <DocsExample href="forms/form-control.html#sizing">
             <CFormInput
               type="text"
               size="lg"
@@ -69,7 +69,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Form Control</strong> <small>Disabled</small>
@@ -79,7 +79,7 @@
             Add the <code>disabled</code> boolean attribute on an input to give
             it a grayed out appearance and remove pointer events.
           </p>
-          <DocsExample href="forms/form-control#disabled">
+          <DocsExample href="forms/form-control.html#disabled">
             <CFormInput
               type="text"
               placeholder="Disabled input"
@@ -99,7 +99,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Form Control</strong> <small>Readonly</small>
@@ -111,7 +111,7 @@
             appear lighter (just like disabled inputs), but retain the standard
             cursor.
           </p>
-          <DocsExample href="forms/form-control#readonly">
+          <DocsExample href="forms/form-control.html#readonly">
             <CFormInput
               type="text"
               placeholder="Readonly input here..."
@@ -122,7 +122,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Form Control</strong> <small>Readonly plain text</small>
@@ -190,13 +190,13 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Form Control</strong> <small>File input</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="forms/form-control#file-input">
+          <DocsExample href="forms/form-control.html#file-input">
             <div class="mb-3">
               <CFormLabel for="formFile">Default file input example</CFormLabel>
               <CFormInput type="file" id="formFile" />
@@ -225,13 +225,13 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Form Control</strong> <small>Color</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="forms/form-control#color">
+          <DocsExample href="forms/form-control.html#color">
             <CFormLabel for="exampleColorInput">Color picker</CFormLabel>
             <CFormInput
               type="color"

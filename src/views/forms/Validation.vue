@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Validation" href="forms/validation" />
-    </CCol>
-    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Validation</strong> <small>Custom styles</small>
@@ -24,7 +21,7 @@
             Custom feedback styles apply custom colors, borders, focus styles,
             and background icons to better communicate feedback.
           </p>
-          <DocsExample href="forms/validation">
+          <DocsExample href="forms/validation.html">
             <CForm
               class="row g-3 needs-validation"
               noValidate
@@ -88,7 +85,7 @@
                   Please provide a valid zip.
                 </CFormFeedback>
               </CCol>
-              <CCol xs="12">
+              <CCol :xs="12">
                 <CFormCheck
                   type="checkbox"
                   id="invalidCheck"
@@ -99,7 +96,7 @@
                   You must agree before submitting.
                 </CFormFeedback>
               </CCol>
-              <CCol xs="12">
+              <CCol :xs="12">
                 <CButton color="primary" type="submit">Submit form</CButton>
               </CCol>
             </CForm>
@@ -124,7 +121,7 @@
             While these feedback styles cannot be styled with CSS, you can still
             customize the feedback text through JavaScript.
           </p>
-          <DocsExample href="forms/validation#browser-defaults">
+          <DocsExample href="forms/validation.html#browser-defaults">
             <CForm
               class="row g-3 needs-validation"
               :validated="validatedDefault01"
@@ -189,7 +186,7 @@
                   Please provide a valid zip.
                 </CFormFeedback>
               </CCol>
-              <CCol xs="12">
+              <CCol :xs="12">
                 <CFormCheck
                   type="checkbox"
                   id="invalidCheck"
@@ -200,7 +197,7 @@
                   You must agree before submitting.
                 </CFormFeedback>
               </CCol>
-              <CCol xs="12">
+              <CCol :xs="12">
                 <CButton color="primary" type="submit">Submit form</CButton>
               </CCol>
             </CForm>
@@ -227,7 +224,7 @@
             more than one <code>id</code> to be referenced, in case the field
             already points to additional form text).
           </p>
-          <DocsExample href="forms/validation#server-side">
+          <DocsExample href="forms/validation.html#server-side">
             <CForm class="row g-3 needs-validation">
               <CCol :md="4">
                 <CFormLabel htmlFor="validationServer01">Email</CFormLabel>
@@ -339,7 +336,7 @@
             <li><code>&lt;CFormSelect&gt;</code>s</li>
             <li><code>&lt;CFormCheck&gt;</code>s</li>
           </ul>
-          <DocsExample href="forms/validation#supported-elements">
+          <DocsExample href="forms/validation.html#supported-elements">
             <CForm :validated="true">
               <div class="mb-3">
                 <CFormLabel for="validationTextarea" class="form-label"
@@ -428,7 +425,7 @@
             the example below, our column classes have this already, but your
             project may require an alternative setup.
           </p>
-          <DocsExample href="forms/validation#tooltips">
+          <DocsExample href="forms/validation.html#tooltips">
             <CForm
               class="row g-3 needs-validation"
               noValidate
@@ -494,7 +491,7 @@
                   Please provide a valid zip.
                 </CFormFeedback>
               </CCol>
-              <CCol xs="12" class="position-relative">
+              <CCol :xs="12" class="position-relative">
                 <CButton color="primary" type="submit">Submit form</CButton>
               </CCol>
             </CForm>

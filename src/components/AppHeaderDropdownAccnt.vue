@@ -24,7 +24,7 @@
         <CBadge color="warning" class="ms-auto">{{ itemsCount }}</CBadge>
       </CDropdownItem>
       <CDropdownHeader component="h6" class="bg-light fw-semibold py-2">
-        <strong>Settings</strong>
+        Settings
       </CDropdownHeader>
       <CDropdownItem> <CIcon icon="cil-user" /> Profile </CDropdownItem>
       <CDropdownItem> <CIcon icon="cil-settings" /> Settings </CDropdownItem>

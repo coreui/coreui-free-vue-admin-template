@@ -11,7 +11,7 @@
             for form layouts that require multiple columns, varied widths, and
             additional alignment options.
           </p>
-          <DocsExample href="forms/layout#form-grid">
+          <DocsExample href="forms/layout.html#form-grid">
             <CRow>
               <CCol xs>
                 <CFormInput placeholder="First name" aria-label="First name" />
@@ -38,7 +38,7 @@
             , you can have control over the gutter width in as well the inline
             as block direction.
           </p>
-          <DocsExample href="forms/layout#gutters">
+          <DocsExample href="forms/layout.html#gutters">
             <CRow class="g-3">
               <CCol xs>
                 <CFormInput placeholder="First name" aria-label="First name" />
@@ -51,7 +51,7 @@
           <p class="text-medium-emphasis small">
             More complex layouts can also be created with the grid system.
           </p>
-          <DocsExample href="forms/layout#gutters">
+          <DocsExample href="forms/layout.html#gutters">
             <CForm class="row g-3">
               <CCol :md="6">
                 <CFormLabel for="inputEmail4">Email</CFormLabel>
@@ -122,13 +122,10 @@
             removed the <code>padding-top</code> on our stacked radio inputs
             label to better align the text baseline.
           </p>
-          <DocsExample href="forms/layout#horizontal-form">
+          <DocsExample href="forms/layout.html#horizontal-form">
             <CForm>
               <CRow class="mb-3">
-                <CFormLabel
-                  for="inputEmail3"
-                  class="col-sm-2 col-form-label"
-                >
+                <CFormLabel for="inputEmail3" class="col-sm-2 col-form-label">
                   Email
                 </CFormLabel>
                 <CCol :sm="10">
@@ -202,7 +199,7 @@
             correctly follow the size of <code>.form-control-lg</code> and
             <code>.form-control-sm</code>.
           </p>
-          <DocsExample href="forms/layout#horizontal-form-label-sizing">
+          <DocsExample href="forms/layout.html#horizontal-form-label-sizing">
             <CRow class="mb-3">
               <CFormLabel
                 for="colFormLabelSm"
@@ -220,10 +217,7 @@
               </CCol>
             </CRow>
             <CRow class="mb-3">
-              <CFormLabel
-                for="colFormLabel"
-                class="col-sm-2 col-form-label"
-              >
+              <CFormLabel for="colFormLabel" class="col-sm-2 col-form-label">
                 Email
               </CFormLabel>
               <CCol :sm="10">
@@ -270,7 +264,7 @@
             rest, with specific column classes like
             <code>&lt;CCol sm=&#34;7&#34;&gt;</code>.
           </p>
-          <DocsExample href="forms/layout#column-sizing">
+          <DocsExample href="forms/layout.html#column-sizing">
             <CRow class="g-3">
               <CCol sm="{7}">
                 <CFormInput placeholder="City" aria-label="City" />
@@ -300,22 +294,16 @@
             only take up as much space as needed. Put another way, the column
             sizes itself based on the contents.
           </p>
-          <DocsExample href="forms/layout#auto-sizing">
+          <DocsExample href="forms/layout.html#auto-sizing">
             <CForm class="row gy-2 gx-3 align-items-center">
               <CCol xs="auto">
-                <CFormLabel
-                  class="visually-hidden"
-                  for="autoSizingInput"
-                >
+                <CFormLabel class="visually-hidden" for="autoSizingInput">
                   Name
                 </CFormLabel>
                 <CFormInput id="autoSizingInput" placeholder="Jane Doe" />
               </CCol>
               <CCol xs="auto">
-                <CFormLabel
-                  class="visually-hidden"
-                  for="autoSizingInputGroup"
-                >
+                <CFormLabel class="visually-hidden" for="autoSizingInputGroup">
                   Username
                 </CFormLabel>
                 <CInputGroup>
@@ -327,10 +315,7 @@
                 </CInputGroup>
               </CCol>
               <CCol xs="auto">
-                <CFormLabel
-                  class="visually-hidden"
-                  for="autoSizingSelect"
-                >
+                <CFormLabel class="visually-hidden" for="autoSizingSelect">
                   Preference
                 </CFormLabel>
                 <CFormSelect id="autoSizingSelect">
@@ -356,13 +341,10 @@
             You can then remix that once again with size-specific column
             classes.
           </p>
-          <DocsExample href="forms/layout#auto-sizing">
+          <DocsExample href="forms/layout.html#auto-sizing">
             <CForm class="row gx-3 gy-2 align-items-center">
               <CCol :sm="3">
-                <CFormLabel
-                  class="visually-hidden"
-                  for="specificSizeInputName"
-                >
+                <CFormLabel class="visually-hidden" for="specificSizeInputName">
                   Name
                 </CFormLabel>
                 <CFormInput id="specificSizeInputName" placeholder="Jane Doe" />
@@ -383,10 +365,7 @@
                 </CInputGroup>
               </CCol>
               <CCol :sm="3">
-                <CFormLabel
-                  class="visually-hidden"
-                  for="specificSizeSelect"
-                >
+                <CFormLabel class="visually-hidden" for="specificSizeSelect">
                   Preference
                 </CFormLabel>
                 <CFormSelect id="specificSizeSelect">
@@ -426,7 +405,7 @@
             <code>.align-items-center</code> aligns the form elements to the
             middle, making the <code>&lt;CFormCheck&gt;</code> align properly.
           </p>
-          <DocsExample href="forms/layout#inline-forms">
+          <DocsExample href="forms/layout.html#inline-forms">
             <CForm class="row row-cols-lg-auto g-3 align-items-center">
               <CCol :xs="12">
                 <CFormLabel
@@ -444,10 +423,7 @@
                 </CInputGroup>
               </CCol>
               <CCol :xs="12">
-                <CFormLabel
-                  class="visually-hidden"
-                  for="inlineFormSelectPref"
-                >
+                <CFormLabel class="visually-hidden" for="inlineFormSelectPref">
                   Preference
                 </CFormLabel>
                 <CFormSelect id="inlineFormSelectPref">
@@ -477,6 +453,6 @@
 
 <script>
 export default {
-  name: "Layout",
-};
+  name: 'Layout',
+}
 </script>

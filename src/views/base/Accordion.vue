@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Breadcrumb" href="components/breadcrumb" />
+      <DocsCallout name="Accordion" href="components/accordion" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">

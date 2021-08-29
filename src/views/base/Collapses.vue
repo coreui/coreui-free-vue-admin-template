@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Collapse" href="components/breadcrumb" />
+      <DocsCallout name="Collapse" href="components/collapse.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">

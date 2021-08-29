@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Button Group" href="components/button-group" />
+      <DocsCallout name="Button Group" href="components/button-group.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
@@ -13,7 +13,7 @@
             Wrap a series of <code>&lt;CButton&gt;</code> components in
             <code>&lt;CButtonGroup&gt;</code>.
           </p>
-          <DocsExample href="components/button-group">
+          <DocsExample href="components/button-group.html">
             <CButtonGroup role="group" aria-label="Basic example">
               <CButton color="primary">Left</CButton>
               <CButton color="primary">Middle</CButton>
@@ -25,7 +25,7 @@
             alternative to the
             <code>&lt;CNav&gt;</code> components.
           </p>
-          <DocsExample href="components/button-group">
+          <DocsExample href="components/button-group.html">
             <CButtonGroup>
               <CButton href="#" color="primary" active> Active link </CButton>
               <CButton href="#" color="primary"> Link </CButton>
@@ -41,7 +41,7 @@
           <strong>Vue Button Group</strong> <span>Mixed styles</span>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="components/button-group#mixed-styles">
+          <DocsExample href="components/button-group.html#mixed-styles">
             <CButtonGroup role="group" aria-label="Basic mixed styles example">
               <CButton color="danger">Left</CButton>
               <CButton color="warning">Middle</CButton>
@@ -57,7 +57,7 @@
           <strong>Vue Button Group</strong> <span>Outlined styles</span>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="components/button-group#outlined-styles">
+          <DocsExample href="components/button-group.html#outlined-styles">
             <CButtonGroup role="group" aria-label="Basic outlined example">
               <CButton color="primary" variant="outline"> Left </CButton>
               <CButton color="primary" variant="outline"> Middle </CButton>
@@ -78,7 +78,7 @@
             seamless looking button group.
           </p>
           <DocsExample
-            href="components/button-group#checkbox-and-radio-button-groups"
+            href="components/button-group.html#checkbox-and-radio-button-groups"
           >
             <CButtonGroup
               role="group"
@@ -93,7 +93,7 @@
             </CButtonGroup>
           </DocsExample>
           <DocsExample
-            href="components/button-group#checkbox-and-radio-button-groups"
+            href="components/button-group.html#checkbox-and-radio-button-groups"
           >
             <CButtonGroup
               role="group"
@@ -122,7 +122,7 @@
             components. Use utility classes as needed to space out groups,
             buttons, and more.
           </p>
-          <DocsExample href="components/button-group#button-toolbar">
+          <DocsExample href="components/button-group.html#button-toolbar">
             <CButtonToolbar
               role="group"
               aria-label="Toolbar with button groups"
@@ -160,7 +160,7 @@
             toolbars. Similar to the example above, you’ll likely need some
             utilities through to space items correctly.
           </p>
-          <DocsExample href="components/button-group#button-toolbar">
+          <DocsExample href="components/button-group.html#button-toolbar">
             <CButtonToolbar
               class="mb-3"
               role="group"
@@ -226,7 +226,7 @@
             <code>&lt;CButtonGroup&gt;</code>&#39;s, including each one when
             nesting multiple groups.
           </p>
-          <DocsExample href="components/button-group#sizing">
+          <DocsExample href="components/button-group.html#sizing">
             <CButtonGroup
               size="lg"
               role="group"
@@ -267,7 +267,7 @@
             <code>&lt;CButtonGroup&gt;</code> when you need dropdown menus
             combined with a series of buttons.
           </p>
-          <DocsExample href="components/button-group#nesting">
+          <DocsExample href="components/button-group.html#nesting">
             <CButtonGroup
               role="group"
               aria-label="Button group with nested dropdown"
@@ -300,7 +300,7 @@
             horizontally.
             <strong>Split button dropdowns are not supported here.</strong>
           </p>
-          <DocsExample href="components/button-group/#vertical-variation">
+          <DocsExample href="components/button-group.html/#vertical-variation">
             <CButtonGroup
               vertical
               role="group"
@@ -315,7 +315,7 @@
               <CButton color="dark">Button</CButton>
             </CButtonGroup>
           </DocsExample>
-          <DocsExample href="components/button-group/#vertical-variation">
+          <DocsExample href="components/button-group.html/#vertical-variation">
             <CButtonGroup
               vertical
               role="group"
@@ -367,7 +367,7 @@
               </CDropdown>
             </CButtonGroup>
           </DocsExample>
-          <DocsExample href="components/button-group/#vertical-variation">
+          <DocsExample href="components/button-group.html/#vertical-variation">
             <CButtonGroup
               vertical
               role="group"

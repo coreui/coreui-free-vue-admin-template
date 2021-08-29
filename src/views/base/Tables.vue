@@ -1,9 +1,9 @@
 <template>
   <CRow>
-    <CCol xs="12">
-      <DocsCallout name="Table" href="components/table" />
+    <CCol :xs="12">
+      <DocsCallout name="Table" href="components/table.html" />
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Basic example</small>
@@ -13,7 +13,7 @@
             Using the most basic table CoreUI, here&#39;s how
             <code>&lt;CTable&gt;</code>-based tables look in CoreUI.
           </p>
-          <DocsExample href="components/table">
+          <DocsExample href="components/table.html">
             <CTable>
               <CTableHead>
                 <CTableRow>
@@ -47,7 +47,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Variants</small>
@@ -57,7 +57,7 @@
             Use contextual classes to color tables, table rows or individual
             cells.
           </p>
-          <DocsExample href="components/table#variants">
+          <DocsExample href="components/table.html#variants">
             <CTable>
               <CTableHead>
                 <CTableRow>
@@ -118,7 +118,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Striped rows</small>
@@ -128,7 +128,7 @@
             Use <code>striped</code> property to add zebra-striping to any table
             row within the <code>&lt;CTableBody&gt;</code>.
           </p>
-          <DocsExample href="components/table#striped-rows">
+          <DocsExample href="components/table.html#striped-rows">
             <CTable striped>
               <CTableHead>
                 <CTableRow>
@@ -162,7 +162,7 @@
           <p class="text-medium-emphasis small">
             These classes can also be added to table variants:
           </p>
-          <DocsExample href="components/table#striped-rows">
+          <DocsExample href="components/table.html#striped-rows">
             <CTable color="dark" striped>
               <CTableHead>
                 <CTableRow>
@@ -193,7 +193,7 @@
               </CTableBody>
             </CTable>
           </DocsExample>
-          <DocsExample href="components/table#striped-rows">
+          <DocsExample href="components/table.html#striped-rows">
             <CTable color="success" striped>
               <CTableHead>
                 <CTableRow>
@@ -227,7 +227,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Hoverable rows</small>
@@ -237,7 +237,7 @@
             Use <code>hover</code> property to enable a hover state on table
             rows within a <code>&lt;CTableBody&gt;</code>.
           </p>
-          <DocsExample href="components/table#hoverable-rows">
+          <DocsExample href="components/table.html#hoverable-rows">
             <CTable hover>
               <CTableHead>
                 <CTableRow>
@@ -268,7 +268,7 @@
               </CTableBody>
             </CTable>
           </DocsExample>
-          <DocsExample href="components/table#hoverable-rows">
+          <DocsExample href="components/table.html#hoverable-rows">
             <CTable color="dark" hover>
               <CTableHead>
                 <CTableRow>
@@ -299,7 +299,7 @@
               </CTableBody>
             </CTable>
           </DocsExample>
-          <DocsExample href="components/table#hoverable-rows">
+          <DocsExample href="components/table.html#hoverable-rows">
             <CTable striped hover>
               <CTableHead>
                 <CTableRow>
@@ -333,13 +333,13 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Active tables</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="components/table#active-tables">
+          <DocsExample href="components/table.html#active-tables">
             <CTable>
               <CTableHead>
                 <CTableRow>
@@ -372,7 +372,7 @@
               </CTableBody>
             </CTable>
           </DocsExample>
-          <DocsExample href="components/table#active-tables">
+          <DocsExample href="components/table.html#active-tables">
             <CTable color="dark">
               <CTableHead>
                 <CTableRow>
@@ -408,7 +408,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Bordered tables</small>
@@ -418,7 +418,7 @@
             Add <code>bordered</code> property for borders on all sides of the
             table and cells.
           </p>
-          <DocsExample href="components/table#bordered-tables">
+          <DocsExample href="components/table.html#bordered-tables">
             <CTable bordered>
               <CTableHead>
                 <CTableRow>
@@ -454,7 +454,7 @@
               Border color utilities </a
             > can be added to change colors:
           </p>
-          <DocsExample href="components/table#bordered-tables">
+          <DocsExample href="components/table.html#bordered-tables">
             <CTable bordered borderColor="primary">
               <CTableHead>
                 <CTableRow>
@@ -488,7 +488,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Tables without borders</small>
@@ -497,7 +497,7 @@
           <p class="text-medium-emphasis small">
             Add <code>borderless</code> property for a table without borders.
           </p>
-          <DocsExample href="components/table#tables-without-borders">
+          <DocsExample href="components/table.html#tables-without-borders">
             <CTable borderless>
               <CTableHead>
                 <CTableRow>
@@ -528,7 +528,7 @@
               </CTableBody>
             </CTable>
           </DocsExample>
-          <DocsExample href="components/table#tables-without-borders">
+          <DocsExample href="components/table.html#tables-without-borders">
             <CTable color="dark" borderless>
               <CTableHead>
                 <CTableRow>
@@ -562,7 +562,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Small tables</small>
@@ -573,7 +573,7 @@
             <code>&lt;CTable&gt;</code> more compact by cutting all cell
             <code>padding</code> in half.
           </p>
-          <DocsExample href="components/table#small-tables">
+          <DocsExample href="components/table.html#small-tables">
             <CTable small>
               <CTableHead>
                 <CTableRow>
@@ -607,7 +607,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Vertical alignment</small>
@@ -620,7 +620,7 @@
             <code>&lt;CTable&gt;</code> and are aligned to the the top by
             default. Use the align property to re-align where needed.
           </p>
-          <DocsExample href="components/table#vertical-alignment">
+          <DocsExample href="components/table.html#vertical-alignment">
             <CTable align="middle" responsive>
               <CTableHead>
                 <CTableRow>
@@ -701,7 +701,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Nesting</small>
@@ -711,7 +711,7 @@
             Border styles, active styles, and table variants are not inherited
             by nested tables.
           </p>
-          <DocsExample href="components/table#nesting">
+          <DocsExample href="components/table.html#nesting">
             <CTable striped>
               <CTableHead>
                 <CTableRow>
@@ -775,7 +775,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Table head</small>
@@ -787,7 +787,7 @@
             <code>color=&#34;dark&#34;</code> to make
             <code>&lt;CTableHead&gt;</code>s appear light or dark gray.
           </p>
-          <DocsExample href="components/table#table-head">
+          <DocsExample href="components/table.html#table-head">
             <CTable>
               <CTableHead color="light">
                 <CTableRow>
@@ -819,7 +819,7 @@
               </CTableBody>
             </CTable>
           </DocsExample>
-          <DocsExample href="components/table#table-head">
+          <DocsExample href="components/table.html#table-head">
             <CTable>
               <CTableHead color="dark">
                 <CTableRow>
@@ -853,13 +853,13 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Table foot</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="components/table#table-foot">
+          <DocsExample href="components/table.html#table-foot">
             <CTable>
               <CTableHead color="light">
                 <CTableRow>
@@ -901,7 +901,7 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Table</strong> <small>Captions</small>
@@ -912,7 +912,7 @@
             table. It helps users with screen readers to find a table and
             understand what it&#39;s about and decide if they want to read it.
           </p>
-          <DocsExample href="components/table#captions">
+          <DocsExample href="components/table.html#captions">
             <CTable>
               <CTableCaption>List of users</CTableCaption>
               <CTableHead>
@@ -949,7 +949,7 @@
             You can also put the <code>&lt;CTableCaption&gt;</code> on the top
             of the table with <code>caption=&#34;top&#34;</code>.
           </p>
-          <DocsExample href="components/table#captions">
+          <DocsExample href="components/table.html#captions">
             <CTable caption="top">
               <CTableCaption>List of users</CTableCaption>
               <CTableHead>

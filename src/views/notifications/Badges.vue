@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Badges" href="components/badge" />
+      <DocsCallout name="Badges" href="components/badge.html" />
     </CCol>
     <CCol :lg="6">
       <CCard class="mb-4">
@@ -13,7 +13,7 @@
             Bootstrap badge scale to suit the size of the parent element by
             using relative font sizing and <code>em</code> units.
           </p>
-          <DocsExample href="components/badge">
+          <DocsExample href="components/badge.html">
             <h1>Example heading <CBadge color="secondary">New</CBadge></h1>
             <h2>Example heading <CBadge color="secondary">New</CBadge></h2>
             <h3>Example heading <CBadge color="secondary">New</CBadge></h3>
@@ -24,7 +24,7 @@
           <p class="text-medium-emphasis small">
             Badges can be used as part of links or buttons to provide a counter.
           </p>
-          <DocsExample href="components/badge">
+          <DocsExample href="components/badge.html">
             <CButton color="primary">
               Notifications <CBadge color="secondary">4</CBadge>
             </CButton>
@@ -37,7 +37,7 @@
             Unless the context is clear, consider including additional context
             with a visually hidden piece of additional text.
           </p>
-          <DocsExample href="components/badge">
+          <DocsExample href="components/badge.html">
             <CButton color="primary">
               Profile <CBadge color="secondary">9</CBadge>
               <span class="visually-hidden">unread messages</span>
@@ -56,7 +56,7 @@
             Add any of the below-mentioned <code>color</code> props to modify
             the presentation of a badge.
           </p>
-          <DocsExample href="components/badge#contextual-variations">
+          <DocsExample href="components/badge.html#contextual-variations">
             <CBadge color="primary">primary</CBadge>
             <CBadge color="success">success</CBadge>
             <CBadge color="danger">danger</CBadge>
@@ -76,7 +76,7 @@
             Apply the <code>shape=&#34;rounded-pill&#34;</code> prop to make
             badges rounded.
           </p>
-          <DocsExample href="components/badge#pill-badges">
+          <DocsExample href="components/badge.html#pill-badges">
             <CBadge color="primary" shape="rounded-pill"> primary </CBadge>
             <CBadge color="success" shape="rounded-pill"> success </CBadge>
             <CBadge color="danger" shape="rounded-pill"> danger </CBadge>

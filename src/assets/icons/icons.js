@@ -18,9 +18,9 @@ import {
   cibVimeo,
   cibCcMastercard,
   cibCcVisa,
-  cibStripe,
-  cibPaypal,
-  cibGooglePay,
+  cibCcStripe,
+  cibCcPaypal,
+  cibCcApplePay,
   cibCcAmex
 } from "@coreui/icons";
 import { cifUs, cifBr, cifIn, cifFr, cifEs, cifPl } from "@coreui/icons";
@@ -161,9 +161,9 @@ export const iconsSet = Object.assign(
     cibVimeo,
     cibCcMastercard,
     cibCcVisa,
-    cibStripe,
-    cibPaypal,
-    cibGooglePay,
+    cibCcStripe,
+    cibCcPaypal,
+    cibCcApplePay,
     cibCcAmex
   }
 );

@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Pagination" href="components/pagination" />
+      <DocsCallout name="Pagination" href="components/pagination.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
@@ -25,7 +25,7 @@
             navigate between a set of search results, an appropriate label could
             be <code>aria-label=&#34;Search results pages&#34;</code>.
           </p>
-          <DocsExample href="components/pagination">
+          <DocsExample href="components/pagination.html">
             <CPagination aria-label="Page navigation example">
               <CPaginationItem>Previous</CPaginationItem>
               <CPaginationItem>1</CPaginationItem>
@@ -48,7 +48,7 @@
             pagination links? Be sure to provide proper screen reader support
             with <code>aria</code> attributes.
           </p>
-          <DocsExample href="components/pagination#working-with-icons">
+          <DocsExample href="components/pagination.html#working-with-icons">
             <CPagination aria-label="Page navigation example">
               <CPaginationItem aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
@@ -84,7 +84,7 @@
             disabled links and use custom JavaScript to fully disable their
             functionality.
           </p>
-          <DocsExample href="components/pagination#disabled-and-active-states">
+          <DocsExample href="components/pagination.html#disabled-and-active-states">
             <CPagination aria-label="Page navigation example">
               <CPaginationItem aria-label="Previous" disabled>
                 <span aria-hidden="true">&laquo;</span>
@@ -111,7 +111,7 @@
             <code>size=&#34;lg&#34;</code> or <code>size=&#34;sm&#34;</code> for
             additional sizes.
           </p>
-          <DocsExample href="components/pagination#sizing">
+          <DocsExample href="components/pagination.html#sizing">
             <CPagination size="lg" aria-label="Page navigation example">
               <CPaginationItem>Previous</CPaginationItem>
               <CPaginationItem>1</CPaginationItem>
@@ -120,7 +120,7 @@
               <CPaginationItem>Next</CPaginationItem>
             </CPagination>
           </DocsExample>
-          <DocsExample href="components/pagination#sizing">
+          <DocsExample href="components/pagination.html#sizing">
             <CPagination size="sm" aria-label="Page navigation example">
               <CPaginationItem>Previous</CPaginationItem>
               <CPaginationItem>1</CPaginationItem>
@@ -144,7 +144,7 @@
               >flexbox utilities</a
             >.
           </p>
-          <DocsExample href="components/pagination#aligment">
+          <DocsExample href="components/pagination.html#aligment">
             <CPagination
               class="justify-content-center"
               aria-label="Page navigation example"
@@ -156,7 +156,7 @@
               <CPaginationItem>Next</CPaginationItem>
             </CPagination>
           </DocsExample>
-          <DocsExample href="components/pagination#aligment">
+          <DocsExample href="components/pagination.html#aligment">
             <CPagination
               class="justify-content-end"
               aria-label="Page navigation example"

@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Modal" href="components/spinner" />
+      <DocsCallout name="Modal" href="components/modal.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">

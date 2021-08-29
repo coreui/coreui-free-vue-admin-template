@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Tooltip" href="components/breadcrumb" />
+      <DocsCallout name="Tooltip" href="components/tooltip.html" />
     </CCol>
     <CCol :xs="12">
       <CCard>
@@ -12,7 +12,7 @@
           <p class="text-medium-emphasis small">
             Hover over the links below to see tooltips:
           </p>
-          <DocsExample href="directives/tooltip.html">
+          <DocsExample href="components/tooltip.html">
             <p class="text-medium-emphasis">
               Tight pants next level keffiyeh
               <CLink v-c-tooltip="'Tooltip text'"> you probably </CLink>
@@ -32,7 +32,7 @@
           <p class="text-medium-emphasis small">
             Hover over the links below to see tooltips:
           </p>
-          <DocsExample href="directives/tooltip.html">
+          <DocsExample href="components/tooltip.html">
             <CButton
               color="secondary"
               v-c-tooltip="{

@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Check and Radios" href="forms/checks-radios" />
+      <DocsCallout name="Check and Radios" href="forms/checks-radios.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
@@ -9,7 +9,7 @@
           <strong>Vue Checkbox</strong>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="forms/checks-radios">
+          <DocsExample href="forms/checks-radios.html">
             <CFormCheck id="flexCheckDefault" label="Default checkbox" />
             <CFormCheck
               id="flexCheckChecked"
@@ -31,7 +31,7 @@
             <code>&lt;label&gt;</code>s are automatically styled to match with a
             lighter color to help indicate the input&#39;s state.
           </p>
-          <DocsExample href="forms/checks-radios#disabled">
+          <DocsExample href="forms/checks-radios.html#disabled">
             <CFormCheck label="Disabled checkbox" disabled />
             <CFormCheck
               label="Disabled checked checkbox"
@@ -53,7 +53,7 @@
             <code>&lt;label&gt;</code>s are automatically styled to match with a
             lighter color to help indicate the input&#39;s state.
           </p>
-          <DocsExample href="forms/checks-radios#radios">
+          <DocsExample href="forms/checks-radios.html#radios">
             <CFormCheck
               type="radio"
               name="flexRadioDefault"
@@ -77,7 +77,7 @@
           <strong>Vue Radio</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="forms/checks-radios#disabled-1">
+          <DocsExample href="forms/checks-radios.html#disabled-1">
             <CFormCheck
               type="radio"
               name="flexRadioDisabled"
@@ -108,7 +108,7 @@
             <code>switch</code> boolean properly to render a toggle switch.
             Switches also support the <code>disabled</code> attribute.
           </p>
-          <DocsExample href="forms/checks-radios#switches">
+          <DocsExample href="forms/checks-radios.html#switches">
             <CFormSwitch
               label="Default switch checkbox input"
               id="formSwitchCheckDefault"
@@ -139,7 +139,7 @@
           <strong>Vue Switches</strong> <small>Sizes</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="forms/checks-radios#sizes">
+          <DocsExample href="forms/checks-radios.html#sizes">
             <CFormSwitch
               label="Default switch checkbox input"
               id="formSwitchCheckDefault"
@@ -169,11 +169,11 @@
             By default, any number of checkboxes and radios that are immediate
             sibling will be vertically stacked and appropriately spaced.
           </p>
-          <DocsExample href="forms/checks-radios#default-stacked">
+          <DocsExample href="forms/checks-radios.html#default-stacked">
             <CFormCheck id="defaultCheck1" label="Default checkbox" />
             <CFormCheck id="defaultCheck2" label="Disabled checkbox" disabled />
           </DocsExample>
-          <DocsExample href="forms/checks-radios#default-stacked">
+          <DocsExample href="forms/checks-radios.html#default-stacked">
             <CFormCheck
               type="radio"
               name="exampleRadios"
@@ -212,7 +212,7 @@
             <code>inline</code>  boolean property to any
             <code>&lt;CFormCheck&gt;</code>.
           </p>
-          <DocsExample href="forms/checks-radios#inline">
+          <DocsExample href="forms/checks-radios.html#inline">
             <CFormCheck inline id="inlineCheckbox1" value="option1" label="1" />
             <CFormCheck inline id="inlineCheckbox2" value="option2" label="2" />
             <CFormCheck
@@ -223,7 +223,7 @@
               disabled
             />
           </DocsExample>
-          <DocsExample href="forms/checks-radios#inline">
+          <DocsExample href="forms/checks-radios.html#inline">
             <CFormCheck
               inline
               type="radio"
@@ -263,7 +263,7 @@
             Remember to still provide some form of accessible name for assistive
             technologies (for instance, using <code>aria-label</code>).
           </p>
-          <DocsExample href="forms/checks-radios#without-labels">
+          <DocsExample href="forms/checks-radios.html#without-labels">
             <div>
               <CFormCheck id="checkboxNoLabel" value="" aria-label="..." />
             </div>
@@ -292,7 +292,7 @@
             <code>&lt;CFormCheck&gt;</code> component. These toggle buttons can
             further be grouped in a button group if needed.
           </p>
-          <DocsExample href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios.html#toggle-buttons">
             <CFormCheck
               :button="{ color: 'primary' }"
               id="btn-check"
@@ -300,7 +300,7 @@
               label="Single toggle"
             />
           </DocsExample>
-          <DocsExample href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios.html#toggle-buttons">
             <CFormCheck
               :button="{ color: 'primary' }"
               id="btn-check-2"
@@ -309,7 +309,7 @@
               defaultChecked
             />
           </DocsExample>
-          <DocsExample href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios.html#toggle-buttons">
             <CFormCheck
               :button="{ color: 'primary' }"
               id="btn-check-3"
@@ -319,7 +319,7 @@
             />
           </DocsExample>
           <h3>Radio toggle buttons</h3>
-          <DocsExample href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios.html#toggle-buttons">
             <CFormCheck
               :button="{ color: 'secondary' }"
               type="radio"
@@ -360,7 +360,7 @@
             Different variants of button, such at the various outlined styles,
             are supported.
           </p>
-          <DocsExample href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios.html#toggle-buttons">
             <div>
               <CFormCheck
                 :button="{ color: 'primary', variant: 'outline' }"

@@ -4,17 +4,15 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import DefaultLayout from "@/layouts/DefaultLayout";
 
-// Views - Components
-// const Breadcrumbs = () => import("@/views/base/Breadcrumbs");
-
 const routes = [
   {
     path: "/",
     name: "Home",
     component: DefaultLayout,
+    redirect: "/dashboard",
     children: [
       {
-        path: "dashboard",
+        path: "/dashboard",
         name: "Dashboard",
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -78,11 +76,6 @@ const routes = [
             name: "Collapses",
             component: () => import("@/views/base/Collapses.vue"),
           },
-          {
-            path: "/base/forms",
-            name: "Forms",
-            component: () => import("@/views/base/Forms.vue"),
-          },
           /*
           {
             path: "/base/jumbotrons",
@@ -129,11 +122,6 @@ const routes = [
             path: "/base/tables",
             name: "Tables",
             component: () => import("@/views/base/Tables.vue"),
-          },
-          {
-            path: "/base/tabs",
-            name: "Tabs",
-            component: () => import("@/views/base/Tabs.vue"),
           },
           {
             path: "/base/tooltips",

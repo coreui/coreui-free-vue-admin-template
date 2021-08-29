@@ -1,12 +1,12 @@
 <template>
   <CRow>
-    <CCol xs="12">
-      <DocsCallout name="Dropdown" href="components/dropdown" />
+    <CCol :xs="12">
+      <DocsCallout name="Dropdown" href="components/dropdown.html" />
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Dropdown</strong> <small>Single button</small>
+          <strong>Vue Dropdown</strong> <small>Single button</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -14,7 +14,7 @@
             <code>&lt;button&gt;</code>
             elements:
           </p>
-          <DocsExample href="components/dropdown#single-button">
+          <DocsExample href="components/dropdown.html#single-button">
             <CDropdown>
               <CDropdownToggle color="secondary"
                 >Dropdown button</CDropdownToggle
@@ -29,7 +29,7 @@
           <p class="text-medium-emphasis small">
             The best part is you can do this with any button variant, too:
           </p>
-          <DocsExample href="components/dropdown#single-button">
+          <DocsExample href="components/dropdown.html#single-button">
             <template
               v-for="color in [
                 'primary',
@@ -58,10 +58,10 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Dropdown</strong> <small>Split button</small>
+          <strong>Vue Dropdown</strong> <small>Split button</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -78,7 +78,7 @@
             split button and implement a more properly sized hit area next to
             the main button.
           </p>
-          <DocsExample href="components/dropdown#split-button">
+          <DocsExample href="components/dropdown.html#split-button">
             <template
               v-for="color in [
                 'primary',
@@ -110,17 +110,17 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Dropdown</strong> <small>Sizing</small>
+          <strong>Vue Dropdown</strong> <small>Sizing</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
             Button dropdowns work with buttons of all sizes, including default
             and split dropdown buttons.
           </p>
-          <DocsExample href="components/dropdown#sizing">
+          <DocsExample href="components/dropdown.html#sizing">
             <CDropdown variant="btn-group">
               <CDropdownToggle color="secondary" size="lg">
                 Large button
@@ -147,7 +147,7 @@
               </CDropdownMenu>
             </CDropdown>
           </DocsExample>
-          <DocsExample href="components/dropdown#sizing">
+          <DocsExample href="components/dropdown.html#sizing">
             <CDropdown variant="btn-group">
               <CDropdownToggle color="secondary" size="sm">
                 Small button
@@ -177,10 +177,10 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Dropdown</strong> <small>Single button</small>
+          <strong>Vue Dropdown</strong> <small>Single button</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -189,7 +189,7 @@
             <code>dark</code> property. No changes are required to the dropdown
             items.
           </p>
-          <DocsExample href="components/dropdown#dark-dropdowns">
+          <DocsExample href="components/dropdown.html#dark-dropdowns">
             <CDropdown dark>
               <CDropdownToggle color="secondary"
                 >Dropdown button</CDropdownToggle
@@ -206,10 +206,10 @@
           <p class="text-medium-emphasis small">
             And putting it to use in a navbar:
           </p>
-          <DocsExample href="components/dropdown#dark-dropdowns">
+          <DocsExample href="components/dropdown.html#dark-dropdowns">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
               <div class="container-fluid">
-                <a class="navbar-brand" href="https://coreui.io/react/">
+                <a class="navbar-brand" href="https://coreui.io/vue/">
                   Navbar
                 </a>
                 <button
@@ -248,10 +248,10 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Dropdown</strong> <small>Dropup</small>
+          <strong>Vue Dropdown</strong> <small>Dropup</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -260,7 +260,7 @@
             <code>&lt;CDropdown&gt;</code>
             component.
           </p>
-          <DocsExample href="components/dropdown#dropup">
+          <DocsExample href="components/dropdown.html#dropup">
             <CDropdown variant="btn-group" direction="dropup">
               <CDropdownToggle color="secondary">Dropdown</CDropdownToggle>
               <CDropdownMenu>
@@ -286,10 +286,10 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Dropdown</strong> <small>Dropright</small>
+          <strong>Vue Dropdown</strong> <small>Dropright</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -298,7 +298,7 @@
             <code>&lt;CDropdown&gt;</code>
             component.
           </p>
-          <DocsExample href="components/dropdown#dropright">
+          <DocsExample href="components/dropdown.html#dropright">
             <CDropdown variant="btn-group" direction="dropend">
               <CDropdownToggle color="secondary">Dropdown</CDropdownToggle>
               <CDropdownMenu>
@@ -324,10 +324,10 @@
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>React Dropdown</strong> <small>Dropleft</small>
+          <strong>Vue Dropdown</strong> <small>Dropleft</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -336,7 +336,7 @@
             <code>&lt;CDropdown&gt;</code>
             component.
           </p>
-          <DocsExample href="components/dropdown#dropleft">
+          <DocsExample href="components/dropdown.html#dropleft">
             <CButtonGroup>
               <CDropdown variant="btn-group" direction="dropstart">
                 <CDropdownToggle color="secondary" split />

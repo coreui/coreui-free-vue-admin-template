@@ -29,6 +29,7 @@ export default {
       default: undefined,
       required: false,
     },
+    plural: Boolean
   },
   setup(props) {
     const href = `https://coreui.io/vue/docs/${packageJson.config.coreui_library_short_version}/${props.href}`

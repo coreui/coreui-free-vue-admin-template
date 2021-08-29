@@ -32,7 +32,7 @@ export default [
   {
     _name: "CNavGroup",
     name: "Base",
-    route: "/base",
+    to: "/base",
     icon: "cil-puzzle",
     children: [
       {
@@ -122,7 +122,7 @@ export default [
   {
     _name: "CNavGroup",
     name: "Buttons",
-    route: "/buttons",
+    to: "/buttons",
     icon: "cil-cursor",
     children: [
       {
@@ -132,25 +132,20 @@ export default [
       },
       {
         _name: "CNavItem",
-        name: "Button Dropdowns",
-        to: "/buttons/dropdowns",
-      },
-      {
-        _name: "CNavItem",
         name: "Button Groups",
         to: "/buttons/button-groups",
       },
-      //      {
-      //        _name: 'CNavItem',
-      //        name: 'Brand Buttons',
-      //       to: '/buttons/brand-buttons'
-      //      }
+      {
+        _name: "CNavItem",
+        name: "Dropdowns",
+        to: "/buttons/dropdowns",
+      },
     ],
   },
   {
     _name: "CNavGroup",
     name: "Forms",
-    route: "/forms",
+    to: "/forms",
     icon: "cil-star",
     children: [
       {
@@ -204,7 +199,7 @@ export default [
   {
     _name: "CNavGroup",
     name: "Icons",
-    route: "/icons",
+    to: "/icons",
     icon: "cil-star",
     children: [
       {
@@ -231,7 +226,7 @@ export default [
   {
     _name: "CNavGroup",
     name: "Notifications",
-    route: "/notifications",
+    to: "/notifications",
     icon: "cil-bell",
     children: [
       {
@@ -273,7 +268,7 @@ export default [
   // {
   //   _name: 'CNavGroup',
   //   name: 'Pages',
-  //   route: '/pages',
+  //   to: '/pages',
   //   icon: 'cil-star',
   //   children: [
   //     {

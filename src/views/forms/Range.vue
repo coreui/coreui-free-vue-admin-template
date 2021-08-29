@@ -1,9 +1,9 @@
 <template>
   <CRow>
-    <CCol xs="12">
-      <DocsCallout name="Range" href="forms/range" />
+    <CCol :xs="12">
+      <DocsCallout name="Range" href="forms/range.html" />
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Range</strong> <small></small>
@@ -14,14 +14,14 @@
             <code>&lt;input type=&#34;range&#34;&gt;</code> controls with
             <code>&lt;CFormRange&gt;</code>.
           </p>
-          <DocsExample href="forms/range">
+          <DocsExample href="forms/range.html">
             <CFormLabel for="customRange1">Example range</CFormLabel>
             <CFormRange id="customRange1" />
           </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Range</strong> <small>Disabled</small>
@@ -31,14 +31,14 @@
             Add the <code>disabled</code> boolean attribute on an input to give
             it a grayed out appearance and remove pointer events.
           </p>
-          <DocsExample href="forms/range#disabled">
+          <DocsExample href="forms/range.html#disabled">
             <CFormLabel for="disabledRange">Disabled range</CFormLabel>
             <CFormRange id="disabledRange" disabled />
           </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Range</strong> <small>Min and max</small>
@@ -50,14 +50,14 @@
             You may specify new values for those using the <code>min</code> and
             <code>max</code> attributes.
           </p>
-          <DocsExample href="forms/range#min-and-max">
+          <DocsExample href="forms/range.html#min-and-max">
             <CFormLabel for="customRange2">Example range</CFormLabel>
             <CFormRange :min="0" :max="5" defaultValue="3" id="customRange2" />
           </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
-    <CCol xs="12">
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Range</strong> <small>Steps</small>
@@ -69,7 +69,7 @@
             below, we double the number of steps by using
             <code>step=&#34;0.5&#34;</code>.
           </p>
-          <DocsExample href="forms/range#steps">
+          <DocsExample href="forms/range.html#steps">
             <CFormLabel for="customRange3">Example range</CFormLabel>
             <CFormRange
               :min="0"

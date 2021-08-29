@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Alert" href="components/alert" />
+      <DocsCallout name="Alert" href="components/alert.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
@@ -15,13 +15,13 @@
             <strong>required</strong> contextual <code>color</code> props
             (e.g., <code>primary</code>). For inline dismissal, use the
             <a
-              href="https://coreui.io/react/docs/4.0/components/alert#dismissing"
+              href="https://coreui.io/vue/docs/4.0/components/alert.html#dismissing"
             >
               dismissing prop
             </a>
             .
           </p>
-          <DocsExample href="components/alert">
+          <DocsExample href="components/alert.html">
             <CAlert color="primary"
               >A simple primary alert—check it out!</CAlert
             >
@@ -52,7 +52,7 @@
             Use the <code>&lt;CAlertLink&gt;</code> component to immediately
             give matching colored links inside any alert.
           </p>
-          <DocsExample href="components/alert#link-color">
+          <DocsExample href="components/alert.html#link-color">
             <CAlert color="primary">
               A simple primary alert with
               <CAlertLink href="#">an example link</CAlertLink>. Give it a click
@@ -107,7 +107,7 @@
             Alert can also incorporate supplementary components &amp; elements
             like heading, paragraph, and divider.
           </p>
-          <DocsExample href="components/alert#additional-content">
+          <DocsExample href="components/alert.html#additional-content">
             <CAlert color="success">
               <CAlertHeading tag="h4">Well done!</CAlertHeading>
               <p>
@@ -135,7 +135,7 @@
             Alerts can also be easily dismissed. Just add the
             <code>dismissible</code> prop.
           </p>
-          <DocsExample href="components/alert#dismissing">
+          <DocsExample href="components/alert.html#dismissing">
             <CAlert color="warning" dismissible @dismiss="alert">
               <strong>Go right ahead</strong> and click that dimiss over there
               on the right.

@@ -1,7 +1,7 @@
 <template>
 <CRow>
       <CCol xs=12>
-        <DocsCallout name="Input Group" href="forms/input-group" />
+        <DocsCallout name="Input Group" href="forms/input-group.html" />
       </CCol>
       <CCol xs=12>
         <CCard class="mb-4">
@@ -14,7 +14,7 @@
               sides of an input. Remember to place <code>&lt;CFormLabel&gt;</code>s outside the
               input group.
             </p>
-            <DocsExample href="forms/input-group">
+            <DocsExample href="forms/input-group.html">
               <CInputGroup class="mb-3">
                 <CInputGroupText id="basic-addon1">@</CInputGroupText>
                 <CFormInput
@@ -65,7 +65,7 @@
               custom form field validation within an input group. You may disable this with
               <code>.flex-nowrap</code>.
             </p>
-            <DocsExample href="forms/input-group#wrapping">
+            <DocsExample href="forms/input-group.html#wrapping">
               <CInputGroup class="flex-nowrap">
                 <CInputGroupText id="addon-wrapping">@</CInputGroupText>
                 <CFormInput
@@ -92,7 +92,7 @@
             <p class="text-medium-emphasis small">
               <strong>Sizing on the individual input group elements isn&#39;tsupported.</strong>
             </p>
-            <DocsExample href="forms/input-group#sizing">
+            <DocsExample href="forms/input-group.html#sizing">
               <CInputGroup size="sm" class="mb-3">
                 <CInputGroupText id="inputGroup-sizing-sm">Small</CInputGroupText>
                 <CFormInput
@@ -127,7 +127,7 @@
             <p class="text-medium-emphasis small">
               Place any checkbox or radio option within an input group&#39;s addon instead of text.
             </p>
-            <DocsExample href="forms/input-group#checkboxes-and-radios">
+            <DocsExample href="forms/input-group.html#checkboxes-and-radios">
               <CInputGroup class="mb-3">
                 <CInputGroupText>
                   <CFormCheck
@@ -163,7 +163,7 @@
               styles are only available for input groups with a single
               <code>&lt;CFormInput&gt;</code>.
             </p>
-            <DocsExample href="forms/input-group#multiple-inputs">
+            <DocsExample href="forms/input-group.html#multiple-inputs">
               <CInputGroup>
                 <CInputGroupText>First and last name</CInputGroupText>
                 <CFormInput aria-label="First name" />
@@ -183,7 +183,7 @@
               Multiple add-ons are supported and can be mixed with checkbox and radio input
               versions..
             </p>
-            <DocsExample href="forms/input-group#multiple-addons">
+            <DocsExample href="forms/input-group.html#multiple-addons">
               <CInputGroup class="mb-3">
                 <CInputGroupText>$</CInputGroupText>
                 <CInputGroupText>0.00</CInputGroupText>
@@ -208,7 +208,7 @@
               Multiple add-ons are supported and can be mixed with checkbox and radio input
               versions..
             </p>
-            <DocsExample href="forms/input-group#button-addons">
+            <DocsExample href="forms/input-group.html#button-addons">
               <CInputGroup class="mb-3">
                 <CButton type="button" color="secondary" variant="outline" id="button-addon1">
                   Button
@@ -260,7 +260,7 @@
             <strong>Vue Input group</strong> <small>Buttons with dropdowns</small>
           </CCardHeader>
           <CCardBody>
-            <DocsExample href="forms/input-group#buttons-with-dropdowns">
+            <DocsExample href="forms/input-group.html#buttons-with-dropdowns">
               <CInputGroup class="mb-3">
                 <CDropdown variant="input-group">
                   <CDropdownToggle color="secondary" variant="outline">
@@ -328,7 +328,7 @@
             <strong>Vue Input group</strong> <small>Segmented buttons</small>
           </CCardHeader>
           <CCardBody>
-            <DocsExample href="forms/input-group#segmented-buttons">
+            <DocsExample href="forms/input-group.html#segmented-buttons">
               <CInputGroup class="mb-3">
                 <CDropdown variant="input-group">
                   <CButton type="button" color="secondary" variant="outline">
@@ -371,7 +371,7 @@
             <strong>Vue Input group</strong> <small>Custom select</small>
           </CCardHeader>
           <CCardBody>
-            <DocsExample href="forms/input-group#custom-select">
+            <DocsExample href="forms/input-group.html#custom-select">
               <CInputGroup class="mb-3">
                 <CInputGroupText component="label" for="inputGroupSelect01">
                   Options
@@ -426,7 +426,7 @@
             <strong>Vue Input group</strong> <small>Custom file input</small>
           </CCardHeader>
           <CCardBody>
-            <DocsExample href="forms/input-group#custom-file-input">
+            <DocsExample href="forms/input-group.html#custom-file-input">
               <CInputGroup class="mb-3">
                 <CInputGroupText component="label" for="inputGroupFile01">
                   Upload

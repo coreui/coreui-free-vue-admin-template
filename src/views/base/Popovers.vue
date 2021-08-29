@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Popover" href="components/breadcrumb" />
+      <DocsCallout name="Popover" href="components/popover.html" />
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
@@ -9,7 +9,7 @@
           <strong>Vue Popovers</strong> <small>Basic example</small>
         </CCardHeader>
         <CCardBody>
-          <DocsExample href="directives/popover.html#example">
+          <DocsExample href="components/popover.html#example">
             <CButton
               color="danger"
               size="lg"
@@ -36,7 +36,7 @@
             Four options are available: top, right, bottom, and left aligned.
             Directions are mirrored when using CoreUI for Vue in RTL.
           </p>
-          <DocsExample href="directives/popover.html#four-directions">
+          <DocsExample href="components/popover.html#four-directions">
             <CButton
               color="secondary"
               v-c-popover="{
