@@ -1,6 +1,9 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsCallout name="Modal" href="components/spinner" />
+    </CCol>
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Modals</strong>
@@ -14,7 +17,7 @@
             include modal headers with dismiss actions whenever possible, or
             provide another explicit dismiss action.
           </p>
-          <Example href="components/modal.html#modal-components">
+          <DocsExample href="components/modal.html#modal-components">
             <CModal
               class="show d-block position-static"
               :backdrop="false"
@@ -30,7 +33,7 @@
                 <CButton color="primary">Save changes</CButton>
               </CModalFooter>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -44,7 +47,7 @@
             Toggle a working modal demo by clicking the button below. It will
             slide down and fade in from the top of the page.
           </p>
-          <Example href="components/modal.html#live-demo">
+          <DocsExample href="components/modal.html#live-demo">
             <CButton
               color="primary"
               @click="
@@ -89,7 +92,7 @@
                 <CButton color="primary">Save changes</CButton>
               </CModalFooter>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -105,7 +108,7 @@
             meaning it will not close when clicking outside it. Click the button
             below to try it.
           </p>
-          <Example href="components/modal.html#static-backdrop">
+          <DocsExample href="components/modal.html#static-backdrop">
             <CButton
               color="primary"
               @click="
@@ -151,7 +154,7 @@
                 <CButton color="primary">Save changes</CButton>
               </CModalFooter>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -167,7 +170,7 @@
             meaning it will not close when clicking outside it. Click the button
             below to try it.
           </p>
-          <Example href="components/modal.html#scrolling-long-content">
+          <DocsExample href="components/modal.html#scrolling-long-content">
             <CButton
               color="primary"
               @click="
@@ -294,13 +297,13 @@
                 </p>
               </CModalBody>
             </CModal>
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             You can also create a scrollable modal that allows scroll the modal
             body by adding
             <code>scrollable</code> prop.
           </p>
-          <Example href="components/modal.html#scrolling-long-content">
+          <DocsExample href="components/modal.html#scrolling-long-content">
             <CButton
               color="primary"
               @click="
@@ -428,7 +431,7 @@
                 </p>
               </CModalBody>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -442,7 +445,7 @@
             Add <code>alignment=&#34;center&#34;</code> to
             <code>&lt;CModal&gt;</code> to vertically center the modal.
           </p>
-          <Example href="components/modal.html#vertically-centered">
+          <DocsExample href="components/modal.html#vertically-centered">
             <CButton
               color="primary"
               @click="
@@ -490,9 +493,9 @@
                 <CButton color="primary">Save changes</CButton>
               </CModalFooter>
             </CModal>
-          </Example>
+          </DocsExample>
 
-          <Example href="components/modal.html#vertically-centered">
+          <DocsExample href="components/modal.html#vertically-centered">
             <CButton
               color="primary"
               @click="
@@ -541,7 +544,7 @@
                 <CButton color="primary">Save changes</CButton>
               </CModalFooter>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -557,7 +560,7 @@
             needed. When modals are closed, any tooltips and popovers within are
             also automatically dismissed.
           </p>
-          <Example href="components/modal.html#tooltips-and-popovers">
+          <DocsExample href="components/modal.html#tooltips-and-popovers">
             <CButton
               color="primary"
               @click="
@@ -620,7 +623,7 @@
                 <CButton color="primary">Save changes</CButton>
               </CModalFooter>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -681,7 +684,7 @@
               </tr>
             </tbody>
           </table>
-          <Example href="components/modal.html#optional-sizes">
+          <DocsExample href="components/modal.html#optional-sizes">
             <CButton
               color="primary"
               @click="
@@ -772,7 +775,7 @@
               </CModalHeader>
               <CModalBody> ... </CModalBody>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -832,7 +835,7 @@
               </tr>
             </tbody>
           </table>
-          <Example href="components/modal.html#fullscreen-modal">
+          <DocsExample href="components/modal.html#fullscreen-modal">
             <CButton
               color="primary"
               @click="
@@ -1013,7 +1016,7 @@
               </CModalHeader>
               <CModalBody> ... </CModalBody>
             </CModal>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

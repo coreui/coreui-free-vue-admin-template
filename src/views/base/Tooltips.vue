@@ -1,6 +1,9 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsCallout name="Tooltip" href="components/breadcrumb" />
+    </CCol>
+    <CCol :xs="12">
       <CCard>
         <CCardHeader>
           <strong>Vue Tooltips</strong> <small>Basic example</small>
@@ -9,7 +12,7 @@
           <p class="text-medium-emphasis small">
             Hover over the links below to see tooltips:
           </p>
-          <Example href="directives/tooltip.html">
+          <DocsExample href="directives/tooltip.html">
             <p class="text-medium-emphasis">
               Tight pants next level keffiyeh
               <CLink v-c-tooltip="'Tooltip text'"> you probably </CLink>
@@ -25,11 +28,11 @@
               <CLink v-c-tooltip="'Tooltip text'"> twitter handle </CLink>
               freegan cred raw denim single-origin coffee viral.
             </p>
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             Hover over the links below to see tooltips:
           </p>
-          <Example href="directives/tooltip.html">
+          <DocsExample href="directives/tooltip.html">
             <CButton
               color="secondary"
               v-c-tooltip="{
@@ -66,7 +69,7 @@
               }"
               >Tooltip on left</CButton
             >
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

@@ -12,7 +12,7 @@
           <p class="text-medium-emphasis small">
             Click the accordions below to expand/collapse the accordion content.
           </p>
-          <Example href="components/accordion">
+          <DocsExample href="components/accordion">
             <CAccordion>
               <CAccordionItem>
                 <CAccordionHeader>
@@ -96,7 +96,7 @@
                 </CAccordionCollapse>
               </CAccordionItem>
             </CAccordion>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
       <CCard class="mb-4">
@@ -110,7 +110,7 @@
             corners to render accordions edge-to-edge with their parent
             container.
           </p>
-          <Example href="components/accordion#flush">
+          <DocsExample href="components/accordion#flush">
             <CAccordion flush>
               <CAccordionItem>
                 <CAccordionHeader>
@@ -200,7 +200,7 @@
                 </CAccordionCollapse>
               </CAccordionItem>
             </CAccordion>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

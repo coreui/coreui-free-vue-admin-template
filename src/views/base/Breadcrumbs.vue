@@ -23,7 +23,7 @@
             </a>
             .
           </p>
-          <Example href="components/breadcrumb">
+          <DocsExample href="components/breadcrumb">
             <CBreadcrumb>
               <CBreadcrumbItem>
                 <CLink href="#">Home</CLink>
@@ -51,7 +51,7 @@
               </CBreadcrumbItem>
               <CBreadcrumbItem active>Bootstrap</CBreadcrumbItem>
             </CBreadcrumb>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

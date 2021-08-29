@@ -6,10 +6,10 @@
           <strong>Vue Widgets</strong>
         </CCardHeader>
         <CCardBody>
-          <Example href="">
+          <DocsExample href="">
             <WidgetsStatsA />
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CRow>
               <CCol :xs="3">
                 <CWidgetStatsB
@@ -49,8 +49,8 @@
                 />
               </CCol>
             </CRow>
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CRow>
               <CCol :xs="3">
                 <CWidgetStatsB
@@ -98,9 +98,9 @@
                 />
               </CCol>
             </CRow>
-          </Example>
+          </DocsExample>
 
-          <Example href="">
+          <DocsExample href="">
             <CRow>
               <CCol :xs="2">
                 <CWidgetStatsE title="title" value="1,123">
@@ -247,8 +247,8 @@
                 </CWidgetStatsE>
               </CCol>
             </CRow>
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CRow>
               <CCol :xs="3">
                 <CWidgetStatsF color="primary" title="Title" value="$1.999,50">
@@ -279,8 +279,8 @@
                 </CWidgetStatsF>
               </CCol>
             </CRow>
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CRow>
               <CCol :xs="3">
                 <CWidgetStatsF color="primary" title="Title" value="$1.999,50">
@@ -371,8 +371,8 @@
                 </CWidgetStatsF>
               </CCol>
             </CRow>
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CRow>
               <CCol :xs="3">
                 <CWidgetStatsF
@@ -423,11 +423,11 @@
                 </CWidgetStatsF>
               </CCol>
             </CRow>
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <WidgetsStatsD />
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CCardGroup>
               <CWidgetStatsC
                 class="mb-3"
@@ -480,8 +480,8 @@
                 /></template>
               </CWidgetStatsC>
             </CCardGroup>
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CRow>
               <CCol :xs="2">
                 <CWidgetStatsC
@@ -556,8 +556,8 @@
                 </CWidgetStatsC>
               </CCol>
             </CRow>
-          </Example>
-          <Example href="">
+          </DocsExample>
+          <DocsExample href="">
             <CRow>
               <CCol :xs="2">
                 <CWidgetStatsC
@@ -644,7 +644,7 @@
                 </CWidgetStatsC>
               </CCol>
             </CRow>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -656,7 +656,7 @@ import { getStyle } from "@coreui/utils";
 import { CChart } from "@coreui/vue-chartjs";
 import WidgetsStatsA from "./WidgetsStatsTypeA.vue";
 import WidgetsStatsD from "./WidgetsStatsTypeD.vue";
-import Example from "../../components/Example.vue";
+import Example from "../../components/DocsExample.vue";
 export default {
   name: "Widgets",
   components: {

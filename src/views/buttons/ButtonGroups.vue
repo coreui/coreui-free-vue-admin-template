@@ -13,25 +13,25 @@
             Wrap a series of <code>&lt;CButton&gt;</code> components in
             <code>&lt;CButtonGroup&gt;</code>.
           </p>
-          <Example href="components/button-group">
+          <DocsExample href="components/button-group">
             <CButtonGroup role="group" aria-label="Basic example">
               <CButton color="primary">Left</CButton>
               <CButton color="primary">Middle</CButton>
               <CButton color="primary">Right</CButton>
             </CButtonGroup>
-          </Example>
+          </DocsExample>
           <p>
             These classes can also be added to groups of links, as an
             alternative to the
             <code>&lt;CNav&gt;</code> components.
           </p>
-          <Example href="components/button-group">
+          <DocsExample href="components/button-group">
             <CButtonGroup>
               <CButton href="#" color="primary" active> Active link </CButton>
               <CButton href="#" color="primary"> Link </CButton>
               <CButton href="#" color="primary"> Link </CButton>
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -41,13 +41,13 @@
           <strong>Vue Button Group</strong> <span>Mixed styles</span>
         </CCardHeader>
         <CCardBody>
-          <Example href="components/button-group#mixed-styles">
+          <DocsExample href="components/button-group#mixed-styles">
             <CButtonGroup role="group" aria-label="Basic mixed styles example">
               <CButton color="danger">Left</CButton>
               <CButton color="warning">Middle</CButton>
               <CButton color="success">Right</CButton>
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -57,13 +57,13 @@
           <strong>Vue Button Group</strong> <span>Outlined styles</span>
         </CCardHeader>
         <CCardBody>
-          <Example href="components/button-group#outlined-styles">
+          <DocsExample href="components/button-group#outlined-styles">
             <CButtonGroup role="group" aria-label="Basic outlined example">
               <CButton color="primary" variant="outline"> Left </CButton>
               <CButton color="primary" variant="outline"> Middle </CButton>
               <CButton color="primary" variant="outline"> Right </CButton>
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -77,7 +77,7 @@
             Combine button-like checkbox and radio toggle buttons into a
             seamless looking button group.
           </p>
-          <Example
+          <DocsExample
             href="components/button-group#checkbox-and-radio-button-groups"
           >
             <CButtonGroup
@@ -91,8 +91,8 @@
               <CFormCheck :button="{ color: 'primary', variant: 'outline' }"
               id="btncheck3" autoComplete="off" label="Checkbox 3" />
             </CButtonGroup>
-          </Example>
-          <Example
+          </DocsExample>
+          <DocsExample
             href="components/button-group#checkbox-and-radio-button-groups"
           >
             <CButtonGroup
@@ -107,7 +107,7 @@
               name="btnradio" id="btnradio3" autoComplete="off" label="Radio 3"
               />
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -122,7 +122,7 @@
             components. Use utility classes as needed to space out groups,
             buttons, and more.
           </p>
-          <Example href="components/button-group#button-toolbar">
+          <DocsExample href="components/button-group#button-toolbar">
             <CButtonToolbar
               role="group"
               aria-label="Toolbar with button groups"
@@ -154,13 +154,13 @@
                 <CButton color="info">8</CButton>
               </CButtonGroup>
             </CButtonToolbar>
-          </Example>
+          </DocsExample>
           <p>
             Feel free to combine input groups with button groups in your
             toolbars. Similar to the example above, you’ll likely need some
             utilities through to space items correctly.
           </p>
-          <Example href="components/button-group#button-toolbar">
+          <DocsExample href="components/button-group#button-toolbar">
             <CButtonToolbar
               class="mb-3"
               role="group"
@@ -209,7 +209,7 @@
                 />
               </CInputGroup>
             </CButtonToolbar>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -226,7 +226,7 @@
             <code>&lt;CButtonGroup&gt;</code>&#39;s, including each one when
             nesting multiple groups.
           </p>
-          <Example href="components/button-group#sizing">
+          <DocsExample href="components/button-group#sizing">
             <CButtonGroup
               size="lg"
               role="group"
@@ -252,7 +252,7 @@
               <CButton color="dark" variant="outline"> Middle </CButton>
               <CButton color="dark" variant="outline"> Right </CButton>
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -267,7 +267,7 @@
             <code>&lt;CButtonGroup&gt;</code> when you need dropdown menus
             combined with a series of buttons.
           </p>
-          <Example href="components/button-group#nesting">
+          <DocsExample href="components/button-group#nesting">
             <CButtonGroup
               role="group"
               aria-label="Button group with nested dropdown"
@@ -285,7 +285,7 @@
                 </CDropdownMenu>
               </CDropdown>
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -300,7 +300,7 @@
             horizontally.
             <strong>Split button dropdowns are not supported here.</strong>
           </p>
-          <Example href="components/button-group/#vertical-variation">
+          <DocsExample href="components/button-group/#vertical-variation">
             <CButtonGroup
               vertical
               role="group"
@@ -314,8 +314,8 @@
               <CButton color="dark">Button</CButton>
               <CButton color="dark">Button</CButton>
             </CButtonGroup>
-          </Example>
-          <Example href="components/button-group/#vertical-variation">
+          </DocsExample>
+          <DocsExample href="components/button-group/#vertical-variation">
             <CButtonGroup
               vertical
               role="group"
@@ -366,8 +366,8 @@
                 </CDropdownMenu>
               </CDropdown>
             </CButtonGroup>
-          </Example>
-          <Example href="components/button-group/#vertical-variation">
+          </DocsExample>
+          <DocsExample href="components/button-group/#vertical-variation">
             <CButtonGroup
               vertical
               role="group"
@@ -381,7 +381,7 @@
               name="vbtnradio" id="vbtnradio3" autoComplete="off" label="Radio
               3" />
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

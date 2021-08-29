@@ -8,7 +8,7 @@
         <CCardBody>
 
             <h4 class="mt-4">Basic usage of navbar</h4>
-            <Example href="components/navbar.html#basic-usage">
+            <DocsExample href="components/navbar.html#basic-usage">
                 <CNavbar expand="lg" colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Navbar</CNavbarBrand>
@@ -45,30 +45,30 @@
                         </CCollapse>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
             <h4 class="mt-4">Vue nav brand</h4>
             <CRow>
             <CCol md="6">
-            <Example href="components/navbar.html#brand">
+            <DocsExample href="components/navbar.html#brand">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Brand as link</CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             <CCol md="6">
-            <Example href="components/navbar.html#brand">
+            <DocsExample href="components/navbar.html#brand">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand class="mb-0 h1">Brand</CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             <CCol md="6">
-            <Example href="components/navbar.html#brand">
+            <DocsExample href="components/navbar.html#brand">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">
@@ -76,10 +76,10 @@
                         </CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             <CCol md="6">
-            <Example href="components/navbar.html#brand">
+            <DocsExample href="components/navbar.html#brand">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">
@@ -87,12 +87,12 @@
                         </CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             </CRow>
 
             <h4 class="mt-4">Vue navbar with nav</h4>
-            <Example href="components/navbar.html#nav">
+            <DocsExample href="components/navbar.html#nav">
                 <CNavbar expand="lg" colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Navbar</CNavbarBrand>
@@ -123,10 +123,10 @@
                         </CCollapse>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
             <h4 class="mt-4">Vue navbar with form</h4>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CForm class="d-flex">
@@ -135,9 +135,9 @@
                         </CForm>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             <h4 class="mt-4">Vue navbar with form on right side</h4>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Navbar</CNavbarBrand>
@@ -148,40 +148,40 @@
                     </CContainer>
                 </CNavbar>
 
-            </Example>
+            </DocsExample>
             <h4 class="mt-4">Vue navbar with input group</h4>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CForm class="container-fluid">
                         <CInputGroup>
                         <CInputGroupText id="basic-addon1">@</CInputGroupText>
-                        <CFormInput placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/> 
+                        <CFormInput placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
                         </CInputGroup>
                     </CForm>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
             <h4 class="mt-4">Vue navbar with buttons</h4>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CForm class="container-fluid justify-content-start">
                         <CButton type="button" color="success" variant="outline" class="me-2">Main button</CButton>
                         <CButton type="button" color="secondary" variant="outline" size="sm">Smaller button</CButton>
                     </CForm>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
             <h4 class="mt-4">Vue navbar with text</h4>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarText>Navbar text with an inline element</CNavbarText>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
             <h4 class="mt-4">Vue navbar color schemes</h4>
-            <Example href="components/navbar.html#color-schemes">
+            <DocsExample href="components/navbar.html#color-schemes">
                 <CNavbar expand="lg" colorScheme="dark" class="bg-dark">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Navbar</CNavbarBrand>
@@ -292,51 +292,51 @@
                         </CCollapse>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
             <h4 class="mt-4">Vue navbar placement</h4>
             <CRow>
             <CCol md="6">
-            <Example href="components/navbar.html#placement">
+            <DocsExample href="components/navbar.html#placement">
                 <CNavbar colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Default</CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             <CCol md="6">
-            <Example href="components/navbar.html#placement">
+            <DocsExample href="components/navbar.html#placement">
                 <CNavbar colorScheme="light" class="bg-light" placement="fixed-top">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Fixed top</CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             <CCol md="6">
-            <Example href="components/navbar.html#placement">
+            <DocsExample href="components/navbar.html#placement">
                 <CNavbar colorScheme="light" class="bg-light" placement="fixed-bottom">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Fixed bottom</CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             <CCol md="6">
-            <Example href="components/navbar.html#placement">
+            <DocsExample href="components/navbar.html#placement">
                 <CNavbar colorScheme="light" class="bg-light" placement="sticky-top">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Sticky top</CNavbarBrand>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             </CCol>
             </CRow>
 
             <h4 class="mt-4">Vue navbar responsive</h4>
             <p>With no CNavbarBrand shown at the smallest breakpoint:</p>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar expand="lg" colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarToggler aria-label="Toggle navigation" aria-expanded={visible} @click="visible = !visible"/>
@@ -364,9 +364,9 @@
                         </CCollapse>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
             <p>With a brand name shown on the left and toggler on the right:</p>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar expand="lg" colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarBrand href="#">Navbar</CNavbarBrand>
@@ -394,10 +394,10 @@
                         </CCollapse>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
             <p>With a toggler on the left and brand name on the right:</p>
-            <Example href="components/navbar.html#forms">
+            <DocsExample href="components/navbar.html#forms">
                 <CNavbar expand="lg" colorScheme="light" class="bg-light">
                     <CContainer fluid>
                         <CNavbarToggler aria-label="Toggle navigation" aria-expanded={visible} @click="visible = !visible"/>
@@ -425,7 +425,7 @@
                         </CCollapse>
                     </CContainer>
                 </CNavbar>
-            </Example>
+            </DocsExample>
 
         </CCardBody>
       </CCard>

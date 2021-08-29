@@ -14,7 +14,7 @@
             <code>&lt;button&gt;</code>
             elements:
           </p>
-          <Example href="components/dropdown#single-button">
+          <DocsExample href="components/dropdown#single-button">
             <CDropdown>
               <CDropdownToggle color="secondary"
                 >Dropdown button</CDropdownToggle
@@ -25,11 +25,11 @@
                 <CDropdownItem href="#">Something else here</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             The best part is you can do this with any button variant, too:
           </p>
-          <Example href="components/dropdown#single-button">
+          <DocsExample href="components/dropdown#single-button">
             <template
               v-for="color in [
                 'primary',
@@ -54,7 +54,7 @@
                 </CDropdownMenu>
               </CDropdown>
             </template>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -78,7 +78,7 @@
             split button and implement a more properly sized hit area next to
             the main button.
           </p>
-          <Example href="components/dropdown#split-button">
+          <DocsExample href="components/dropdown#split-button">
             <template
               v-for="color in [
                 'primary',
@@ -106,7 +106,7 @@
                 </CDropdownMenu>
               </CDropdown>
             </template>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -120,7 +120,7 @@
             Button dropdowns work with buttons of all sizes, including default
             and split dropdown buttons.
           </p>
-          <Example href="components/dropdown#sizing">
+          <DocsExample href="components/dropdown#sizing">
             <CDropdown variant="btn-group">
               <CDropdownToggle color="secondary" size="lg">
                 Large button
@@ -146,8 +146,8 @@
                 <CDropdownItem href="#">Separated link</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
-          </Example>
-          <Example href="components/dropdown#sizing">
+          </DocsExample>
+          <DocsExample href="components/dropdown#sizing">
             <CDropdown variant="btn-group">
               <CDropdownToggle color="secondary" size="sm">
                 Small button
@@ -173,7 +173,7 @@
                 <CDropdownItem href="#">Separated link</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -189,7 +189,7 @@
             <code>dark</code> property. No changes are required to the dropdown
             items.
           </p>
-          <Example href="components/dropdown#dark-dropdowns">
+          <DocsExample href="components/dropdown#dark-dropdowns">
             <CDropdown dark>
               <CDropdownToggle color="secondary"
                 >Dropdown button</CDropdownToggle
@@ -202,11 +202,11 @@
                 <CDropdownItem href="#">Separated link</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             And putting it to use in a navbar:
           </p>
-          <Example href="components/dropdown#dark-dropdowns">
+          <DocsExample href="components/dropdown#dark-dropdowns">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
               <div class="container-fluid">
                 <a class="navbar-brand" href="https://coreui.io/react/">
@@ -244,7 +244,7 @@
                 </div>
               </div>
             </nav>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -260,7 +260,7 @@
             <code>&lt;CDropdown&gt;</code>
             component.
           </p>
-          <Example href="components/dropdown#dropup">
+          <DocsExample href="components/dropdown#dropup">
             <CDropdown variant="btn-group" direction="dropup">
               <CDropdownToggle color="secondary">Dropdown</CDropdownToggle>
               <CDropdownMenu>
@@ -282,7 +282,7 @@
                 <CDropdownItem href="#">Separated link</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -298,7 +298,7 @@
             <code>&lt;CDropdown&gt;</code>
             component.
           </p>
-          <Example href="components/dropdown#dropright">
+          <DocsExample href="components/dropdown#dropright">
             <CDropdown variant="btn-group" direction="dropend">
               <CDropdownToggle color="secondary">Dropdown</CDropdownToggle>
               <CDropdownMenu>
@@ -320,7 +320,7 @@
                 <CDropdownItem href="#">Separated link</CDropdownItem>
               </CDropdownMenu>
             </CDropdown>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -336,7 +336,7 @@
             <code>&lt;CDropdown&gt;</code>
             component.
           </p>
-          <Example href="components/dropdown#dropleft">
+          <DocsExample href="components/dropdown#dropleft">
             <CButtonGroup>
               <CDropdown variant="btn-group" direction="dropstart">
                 <CDropdownToggle color="secondary" split />
@@ -350,7 +350,7 @@
               </CDropdown>
               <CButton color="secondary">Small split button</CButton>
             </CButtonGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

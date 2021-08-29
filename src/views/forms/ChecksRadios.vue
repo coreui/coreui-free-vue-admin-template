@@ -9,14 +9,14 @@
           <strong>Vue Checkbox</strong>
         </CCardHeader>
         <CCardBody>
-          <Example href="forms/checks-radios">
+          <DocsExample href="forms/checks-radios">
             <CFormCheck id="flexCheckDefault" label="Default checkbox" />
             <CFormCheck
               id="flexCheckChecked"
               label="Checked checkbox"
               defaultChecked
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -31,14 +31,14 @@
             <code>&lt;label&gt;</code>s are automatically styled to match with a
             lighter color to help indicate the input&#39;s state.
           </p>
-          <Example href="forms/checks-radios#disabled">
+          <DocsExample href="forms/checks-radios#disabled">
             <CFormCheck label="Disabled checkbox" disabled />
             <CFormCheck
               label="Disabled checked checkbox"
               defaultChecked
               disabled
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -53,7 +53,7 @@
             <code>&lt;label&gt;</code>s are automatically styled to match with a
             lighter color to help indicate the input&#39;s state.
           </p>
-          <Example href="forms/checks-radios#radios">
+          <DocsExample href="forms/checks-radios#radios">
             <CFormCheck
               type="radio"
               name="flexRadioDefault"
@@ -67,7 +67,7 @@
               label="Checked radio"
               defaultChecked
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -77,7 +77,7 @@
           <strong>Vue Radio</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
-          <Example href="forms/checks-radios#disabled-1">
+          <DocsExample href="forms/checks-radios#disabled-1">
             <CFormCheck
               type="radio"
               name="flexRadioDisabled"
@@ -93,7 +93,7 @@
               defaultChecked
               disabled
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -108,7 +108,7 @@
             <code>switch</code> boolean properly to render a toggle switch.
             Switches also support the <code>disabled</code> attribute.
           </p>
-          <Example href="forms/checks-radios#switches">
+          <DocsExample href="forms/checks-radios#switches">
             <CFormSwitch
               label="Default switch checkbox input"
               id="formSwitchCheckDefault"
@@ -129,7 +129,7 @@
               defaultChecked
               disabled
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -139,7 +139,7 @@
           <strong>Vue Switches</strong> <small>Sizes</small>
         </CCardHeader>
         <CCardBody>
-          <Example href="forms/checks-radios#sizes">
+          <DocsExample href="forms/checks-radios#sizes">
             <CFormSwitch
               label="Default switch checkbox input"
               id="formSwitchCheckDefault"
@@ -154,7 +154,7 @@
               label="Extra large switch checkbox input"
               id="formSwitchCheckDefaultXL"
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -169,11 +169,11 @@
             By default, any number of checkboxes and radios that are immediate
             sibling will be vertically stacked and appropriately spaced.
           </p>
-          <Example href="forms/checks-radios#default-stacked">
+          <DocsExample href="forms/checks-radios#default-stacked">
             <CFormCheck id="defaultCheck1" label="Default checkbox" />
             <CFormCheck id="defaultCheck2" label="Disabled checkbox" disabled />
-          </Example>
-          <Example href="forms/checks-radios#default-stacked">
+          </DocsExample>
+          <DocsExample href="forms/checks-radios#default-stacked">
             <CFormCheck
               type="radio"
               name="exampleRadios"
@@ -197,7 +197,7 @@
               label="Disabled radio"
               disabled
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -212,7 +212,7 @@
             <code>inline</code>  boolean property to any
             <code>&lt;CFormCheck&gt;</code>.
           </p>
-          <Example href="forms/checks-radios#inline">
+          <DocsExample href="forms/checks-radios#inline">
             <CFormCheck inline id="inlineCheckbox1" value="option1" label="1" />
             <CFormCheck inline id="inlineCheckbox2" value="option2" label="2" />
             <CFormCheck
@@ -222,8 +222,8 @@
               label="3 (disabled)"
               disabled
             />
-          </Example>
-          <Example href="forms/checks-radios#inline">
+          </DocsExample>
+          <DocsExample href="forms/checks-radios#inline">
             <CFormCheck
               inline
               type="radio"
@@ -249,7 +249,7 @@
               label="3 (disabled)"
               disabled
             />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -263,7 +263,7 @@
             Remember to still provide some form of accessible name for assistive
             technologies (for instance, using <code>aria-label</code>).
           </p>
-          <Example href="forms/checks-radios#without-labels">
+          <DocsExample href="forms/checks-radios#without-labels">
             <div>
               <CFormCheck id="checkboxNoLabel" value="" aria-label="..." />
             </div>
@@ -276,7 +276,7 @@
                 aria-label="..."
               />
             </div>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -292,15 +292,15 @@
             <code>&lt;CFormCheck&gt;</code> component. These toggle buttons can
             further be grouped in a button group if needed.
           </p>
-          <Example href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios#toggle-buttons">
             <CFormCheck
               :button="{ color: 'primary' }"
               id="btn-check"
               autoComplete="off"
               label="Single toggle"
             />
-          </Example>
-          <Example href="forms/checks-radios#toggle-buttons">
+          </DocsExample>
+          <DocsExample href="forms/checks-radios#toggle-buttons">
             <CFormCheck
               :button="{ color: 'primary' }"
               id="btn-check-2"
@@ -308,8 +308,8 @@
               label="Checked"
               defaultChecked
             />
-          </Example>
-          <Example href="forms/checks-radios#toggle-buttons">
+          </DocsExample>
+          <DocsExample href="forms/checks-radios#toggle-buttons">
             <CFormCheck
               :button="{ color: 'primary' }"
               id="btn-check-3"
@@ -317,9 +317,9 @@
               label="Disabled"
               disabled
             />
-          </Example>
+          </DocsExample>
           <h3>Radio toggle buttons</h3>
-          <Example href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios#toggle-buttons">
             <CFormCheck
               :button="{ color: 'secondary' }"
               type="radio"
@@ -354,13 +354,13 @@
               autoComplete="off"
               label="Radio"
             />
-          </Example>
+          </DocsExample>
           <h3>Outlined styles</h3>
           <p class="text-medium-emphasis small">
             Different variants of button, such at the various outlined styles,
             are supported.
           </p>
-          <Example href="forms/checks-radios#toggle-buttons">
+          <DocsExample href="forms/checks-radios#toggle-buttons">
             <div>
               <CFormCheck
                 :button="{ color: 'primary', variant: 'outline' }"
@@ -397,7 +397,7 @@
                 label="Radio"
               />
             </div>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

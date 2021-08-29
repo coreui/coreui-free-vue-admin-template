@@ -17,7 +17,7 @@
               pseudo-element. Also note that the <code>&lt;CFormInput&gt;</code> must come first so
               we can utilize a sibling selector (e.g., <code>~</code>).
             </p>
-            <Example href="forms/floating-labels">
+            <DocsExample href="forms/floating-labels">
               <CFormFloating class="mb-3">
                 <CFormInput type="email" id="floatingInput" placeholder="name@example.com" />
                 <CFormLabel htmlFor="floatingInput">Email address</CFormLabel>
@@ -26,12 +26,12 @@
                 <CFormInput type="password" id="floatingPassword" placeholder="Password" />
                 <CFormLabel htmlFor="floatingPassword">Password</CFormLabel>
               </CFormFloating>
-            </Example>
+            </DocsExample>
             <p class="text-medium-emphasis small">
               When there&#39;s a <code>value</code> already defined, <code>&lt;CFormLabel&gt;</code>
               s will automatically adjust to their floated position.
             </p>
-            <Example href="forms/floating-labels">
+            <DocsExample href="forms/floating-labels">
               <CFormFloating>
                 <CFormInput
                   type="email"
@@ -41,7 +41,7 @@
                 />
                 <CFormLabel htmlFor="floatingInputValue">Input with value</CFormLabel>
               </CFormFloating>
-            </Example>
+            </DocsExample>
           </CCardBody>
         </CCard>
       </CCol>
@@ -55,7 +55,7 @@
               By default, <code>&lt;CFormTextarea&gt;</code>s will be the same height as
               <code>&lt;CFormInput&gt;</code>s.
             </p>
-            <Example href="forms/floating-labels#textareas">
+            <DocsExample href="forms/floating-labels#textareas">
               <CFormFloating>
                 <CFormTextarea
                   id="floatingTextarea"
@@ -63,13 +63,13 @@
                 ></CFormTextarea>
                 <CFormLabel htmlFor="floatingTextarea">Comments</CFormLabel>
               </CFormFloating>
-            </Example>
+            </DocsExample>
             <p class="text-medium-emphasis small">
               To set a custom height on your <code>&lt;CFormTextarea;&gt;</code>, do not use the
               <code>rows</code> attribute. Instead, set an explicit <code>height</code> (either
               inline or via custom CSS).
             </p>
-            <Example href="forms/floating-labels#textareas">
+            <DocsExample href="forms/floating-labels#textareas">
               <CFormFloating>
                 <CFormTextarea
                   placeholder="Leave a comment here"
@@ -78,7 +78,7 @@
                 ></CFormTextarea>
                 <CFormLabel htmlFor="floatingTextarea2">Comments</CFormLabel>
               </CFormFloating>
-            </Example>
+            </DocsExample>
           </CCardBody>
         </CCard>
       </CCol>
@@ -97,7 +97,7 @@
                 Selects with <code>size</code> and <code>multiple</code> are not supported.
               </strong>
             </p>
-            <Example href="forms/floating-labels#selects">
+            <DocsExample href="forms/floating-labels#selects">
               <CFormFloating>
                 <CFormSelect id="floatingSelect" aria-label="Floating label select example">
                   <option>Open this select menu</option>
@@ -107,7 +107,7 @@
                 </CFormSelect>
                 <CFormLabel htmlFor="floatingSelect">Works with selects</CFormLabel>
               </CFormFloating>
-            </Example>
+            </DocsExample>
           </CCardBody>
         </CCard>
       </CCol>
@@ -121,7 +121,7 @@
               When working with the CoreUI for Bootstrap grid system, be sure to place form elements
               within column classes.
             </p>
-            <Example href="forms/floating-labels#layout">
+            <DocsExample href="forms/floating-labels#layout">
               <CRow :xs="{ gutter: 2 }">
                 <CCol md>
                   <CFormFloating>
@@ -146,7 +146,7 @@
                   </CFormFloating>
                 </CCol>
               </CRow>
-            </Example>
+            </DocsExample>
           </CCardBody>
         </CCard>
       </CCol>

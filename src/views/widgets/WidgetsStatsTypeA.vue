@@ -46,7 +46,7 @@
                   backgroundColor: 'transparent',
                   borderColor: 'rgba(255,255,255,.55)',
                   pointBackgroundColor: '#321fdb',
-                  data: [65, 59, 84, 84, 51, 55, 40],
+                  data: [68, 59, 84, 84, 51, 55, 40],
                 },
               ],
             }"

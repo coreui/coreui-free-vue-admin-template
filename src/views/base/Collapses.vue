@@ -1,6 +1,9 @@
 <template>
   <CRow>
-    <CCol>
+    <CCol :xs="12">
+      <DocsCallout name="Collapse" href="components/breadcrumb" />
+    </CCol>
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Collapse</strong>
@@ -9,7 +12,7 @@
           <p class="text-medium-emphasis small">
             You can use a link or a button component.
           </p>
-          <Example href="components/collapse.html#example">
+          <DocsExample href="components/collapse.html#example">
             <CButton color="primary" href="#" @click="visible = !visible"
               >Link</CButton
             >
@@ -26,7 +29,7 @@
                 </CCardBody>
               </CCard>
             </CCollapse>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
       <CCard class="mb-4">
@@ -38,7 +41,7 @@
             A <code>&lt;CButton&gt;</code> can show and hide multiple elements.
           </p>
           <h4 class="mt-4">Toggle multiple targets</h4>
-          <Example href="components/collapse.html#multiple-targets">
+          <DocsExample href="components/collapse.html#multiple-targets">
             <CButton color="primary" @click="visibleA = !visibleA"
               >Toggle first element</CButton
             >
@@ -49,8 +52,8 @@
               color="primary"
               @click="
                 () => {
-                  visibleA = !visibleA;
-                  visibleB = !visibleB;
+                  visibleA = !visibleA
+                  visibleB = !visibleB
                 }
               "
             >
@@ -82,7 +85,7 @@
                 </CCollapse>
               </CCol>
             </CRow>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -91,13 +94,13 @@
 
 <script>
 export default {
-  name: "Breadcrumbs",
+  name: 'Breadcrumbs',
   data() {
     return {
       visible: false,
       visibleA: false,
       visibleB: false,
-    };
+    }
   },
-};
+}
 </script>

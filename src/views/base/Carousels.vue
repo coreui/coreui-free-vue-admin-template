@@ -1,6 +1,9 @@
 <template>
   <CRow>
-    <CCol>
+    <CCol :xs="12">
+      <DocsCallout name="Carousel" href="components/breadcrumb" />
+    </CCol>
+    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Carousels</strong> <small>Slide only</small>
@@ -9,7 +12,7 @@
           <p class="text-medium-emphasis small">
             Here’s a carousel with slides
           </p>
-          <Example href="components/carousel.html#slides-only">
+          <DocsExample href="components/carousel.html#slides-only">
             <CCarousel>
               <CCarouselItem>
                 <img
@@ -33,7 +36,7 @@
                 />
               </CCarouselItem>
             </CCarousel>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
       <CCard class="mb-4">
@@ -45,7 +48,7 @@
             Adding in the previous and next controls by
             <code>controls</code> property.
           </p>
-          <Example href="components/carousel.html#with-controls">
+          <DocsExample href="components/carousel.html#with-controls">
             <CCarousel controls>
               <CCarouselItem>
                 <img
@@ -69,7 +72,7 @@
                 />
               </CCarouselItem>
             </CCarousel>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
       <CCard class="mb-4">
@@ -81,7 +84,7 @@
             You can attach the indicators to the carousel, lengthwise the
             controls, too.
           </p>
-          <Example href="components/carousel.html#with-indicators">
+          <DocsExample href="components/carousel.html#with-indicators">
             <CCarousel controls indicators>
               <CCarouselItem>
                 <img
@@ -105,7 +108,7 @@
                 />
               </CCarouselItem>
             </CCarousel>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
       <CCard class="mb-4">
@@ -123,7 +126,7 @@
             >. We hide them with <code>.d-none</code> and draw them back on
             medium-sized devices with <code>.d-md-block</code>.
           </p>
-          <Example href="components/carousel.html#with-captions">
+          <DocsExample href="components/carousel.html#with-captions">
             <CCarousel controls indicators>
               <CCarouselItem>
                 <img
@@ -165,7 +168,7 @@
                 </CCarouselCaption>
               </CCarouselItem>
             </CCarousel>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
       <CCard class="mb-4">
@@ -177,7 +180,7 @@
             Add <code>transition=&#34;crossfade&#34;</code> to your carousel to
             animate slides with a fade transition instead of a slide.
           </p>
-          <Example href="components/carousel.html#crossfade">
+          <DocsExample href="components/carousel.html#crossfade">
             <CCarousel controls indicators transition="crossfade">
               <CCarouselItem>
                 <img
@@ -201,7 +204,7 @@
                 />
               </CCarouselItem>
             </CCarousel>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
       <CCard class="mb-4">
@@ -217,7 +220,7 @@
             additional Sass variables that customize the <code>color</code> and
             <code>background-color</code>.
           </p>
-          <Example href="components/carousel.html#dark-variant">
+          <DocsExample href="components/carousel.html#dark-variant">
             <CCarousel controls indicators dark>
               <CCarouselItem>
                 <img
@@ -241,7 +244,7 @@
                 />
               </CCarouselItem>
             </CCarousel>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -250,6 +253,6 @@
 
 <script>
 export default {
-  name: "Carousels",
-};
+  name: 'Carousels',
+}
 </script>

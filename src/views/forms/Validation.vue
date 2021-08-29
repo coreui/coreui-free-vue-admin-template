@@ -24,7 +24,7 @@
             Custom feedback styles apply custom colors, borders, focus styles,
             and background icons to better communicate feedback.
           </p>
-          <Example href="forms/validation">
+          <DocsExample href="forms/validation">
             <CForm
               class="row g-3 needs-validation"
               noValidate
@@ -103,7 +103,7 @@
                 <CButton color="primary" type="submit">Submit form</CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -124,7 +124,7 @@
             While these feedback styles cannot be styled with CSS, you can still
             customize the feedback text through JavaScript.
           </p>
-          <Example href="forms/validation#browser-defaults">
+          <DocsExample href="forms/validation#browser-defaults">
             <CForm
               class="row g-3 needs-validation"
               :validated="validatedDefault01"
@@ -204,7 +204,7 @@
                 <CButton color="primary" type="submit">Submit form</CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -227,7 +227,7 @@
             more than one <code>id</code> to be referenced, in case the field
             already points to additional form text).
           </p>
-          <Example href="forms/validation#server-side">
+          <DocsExample href="forms/validation#server-side">
             <CForm class="row g-3 needs-validation">
               <CCol :md="4">
                 <CFormLabel htmlFor="validationServer01">Email</CFormLabel>
@@ -320,7 +320,7 @@
                 <CButton color="primary" type="submit"> Submit form </CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -339,7 +339,7 @@
             <li><code>&lt;CFormSelect&gt;</code>s</li>
             <li><code>&lt;CFormCheck&gt;</code>s</li>
           </ul>
-          <Example href="forms/validation#supported-elements">
+          <DocsExample href="forms/validation#supported-elements">
             <CForm :validated="true">
               <div class="mb-3">
                 <CFormLabel for="validationTextarea" class="form-label"
@@ -410,7 +410,7 @@
                 >
               </div>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -428,7 +428,7 @@
             the example below, our column classes have this already, but your
             project may require an alternative setup.
           </p>
-          <Example href="forms/validation#tooltips">
+          <DocsExample href="forms/validation#tooltips">
             <CForm
               class="row g-3 needs-validation"
               noValidate
@@ -498,7 +498,7 @@
                 <CButton color="primary" type="submit">Submit form</CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

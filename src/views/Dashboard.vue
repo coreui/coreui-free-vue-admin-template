@@ -8,7 +8,7 @@
             <CRow>
               <CCol sm="5">
                 <h4 id="traffic" class="card-title mb-0">Traffic</h4>
-                <div class="small text-medium-emphasis">November 2017</div>
+                <div class="small text-medium-emphasis">January 2021</div>
               </CCol>
               <CCol sm="7" class="d-none d-md-block">
                 <CButton color="primary" class="float-end">
@@ -316,7 +316,7 @@
               <CTableHead color="light">
                 <CTableRow>
                   <CTableHeaderCell class="text-center">
-                    <CIcon name="{cilPeople}" />
+                    <CIcon name="cil-people" />
                   </CTableHeaderCell>
                   <CTableHeaderCell>User</CTableHeaderCell>
                   <CTableHeaderCell class="text-center"
@@ -449,7 +449,7 @@ export default {
             period: "Jun 11, 2021 - Jul 10, 2021",
             color: "warning",
           },
-          payment: { name: "Stripe", icon: "cib-stripe" },
+          payment: { name: "Stripe", icon: "cib-cc-stripe" },
           activity: "1 hour ago",
         },
         {
@@ -461,7 +461,7 @@ export default {
             period: "Jun 11, 2021 - Jul 10, 2021",
             color: "danger",
           },
-          payment: { name: "PayPal", icon: "cib-paypal" },
+          payment: { name: "PayPal", icon: "cib-cc-paypal" },
           activity: "Last month",
         },
         {
@@ -477,7 +477,7 @@ export default {
             period: "Jun 11, 2021 - Jul 10, 2021",
             color: "primary",
           },
-          payment: { name: "Google Wallet", icon: "cib-google-pay" },
+          payment: { name: "Google Wallet", icon: "cib-cc-apple-pay" },
           activity: "Last week",
         },
         {

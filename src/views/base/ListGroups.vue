@@ -14,7 +14,7 @@
             proper CSS classes. Build upon it with the options that follow, or
             with your CSS as required.
           </p>
-          <Example href="components/list-group">
+          <DocsExample href="components/list-group">
             <CListGroup>
               <CListGroupItem>Cras justo odio</CListGroupItem>
               <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
@@ -22,7 +22,7 @@
               <CListGroupItem>Porta ac consectetur ac</CListGroupItem>
               <CListGroupItem>Vestibulum at eros</CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -37,7 +37,7 @@
             <code>&lt;CListGroupItem&gt;</code> to show the current active
             selection.
           </p>
-          <Example href="components/list-group/#active-items">
+          <DocsExample href="components/list-group/#active-items">
             <CListGroup>
               <CListGroupItem active>Cras justo odio</CListGroupItem>
               <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
@@ -45,7 +45,7 @@
               <CListGroupItem>Porta ac consectetur ac</CListGroupItem>
               <CListGroupItem>Vestibulum at eros</CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -59,7 +59,7 @@
             Add <code>disabled</code> boolean property to a
             <code>&lt;CListGroupItem&gt;</code> to make it appear disabled.
           </p>
-          <Example href="components/list-group/#disabled-items">
+          <DocsExample href="components/list-group/#disabled-items">
             <CListGroup>
               <CListGroupItem disabled>Cras justo odio</CListGroupItem>
               <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
@@ -67,7 +67,7 @@
               <CListGroupItem>Porta ac consectetur ac</CListGroupItem>
               <CListGroupItem>Vestibulum at eros</CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -87,7 +87,7 @@
             <code>&lt;div&gt;</code>
             s) don&#39;tprovide a click or tap affordance.
           </p>
-          <Example href="components/list-group/#links-and-buttons">
+          <DocsExample href="components/list-group/#links-and-buttons">
             <CListGroup>
               <CListGroupItem component="a" href="#" active>
                 Cras justo odio
@@ -105,7 +105,7 @@
                 Vestibulum at eros
               </CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -120,7 +120,7 @@
             rounded corners to render list group items edge-to-edge in a parent
             container (e.g., cards).
           </p>
-          <Example href="components/list-group/#flush">
+          <DocsExample href="components/list-group/#flush">
             <CListGroup flush>
               <CListGroupItem>Cras justo odio</CListGroupItem>
               <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
@@ -128,7 +128,7 @@
               <CListGroupItem>Porta ac consectetur ac</CListGroupItem>
               <CListGroupItem>Vestibulum at eros</CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -153,7 +153,7 @@
               groups.</strong
             >
           </p>
-          <Example href="components/list-group/#flush">
+          <DocsExample href="components/list-group/#flush">
             <template
               v-for="item in ['', '-sm', '-md', '-lg', '-xl', '-xxl']"
               :key="item"
@@ -164,7 +164,7 @@
                 <CListGroupItem>Morbi leo risus</CListGroupItem>
               </CListGroup>
             </template>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -178,7 +178,7 @@
             Use contextual classes to style list items with a stateful
             background and color.
           </p>
-          <Example href="components/list-group/#contextual-classes">
+          <DocsExample href="components/list-group/#contextual-classes">
             <CListGroup>
               <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
               <CListGroupItem
@@ -197,7 +197,7 @@
                 >A simple {{ item }} list group item</CListGroupItem
               >
             </CListGroup>
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             Contextual classes also work with <code>&lt;a&gt;</code>s or
             <code>&lt;button&gt;</code>s. Note the addition of the hover styles
@@ -205,7 +205,7 @@
             <code>active</code> state; apply it to indicate an active selection
             on a contextual list group item.
           </p>
-          <Example href="components/list-group/#contextual-classes">
+          <DocsExample href="components/list-group/#contextual-classes">
             <CListGroup>
               <CListGroupItem component="a" href="#"
                 >Dapibus ac facilisis in</CListGroupItem
@@ -228,7 +228,7 @@
                 >A simple {{ item }} list group item</CListGroupItem
               >
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -242,7 +242,7 @@
             Add badges to any list group item to show unread counts, activity,
             and more.
           </p>
-          <Example href="components/list-group/#with-badges">
+          <DocsExample href="components/list-group/#with-badges">
             <CListGroup>
               <CListGroupItem
                 class="d-flex justify-content-between align-items-center"
@@ -263,7 +263,7 @@
                 <CBadge color="primary" shape="rounded-pill"> 1 </CBadge>
               </CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -280,7 +280,7 @@
               >flexbox utilities</a
             >.
           </p>
-          <Example href="components/list-group/#custom-content">
+          <DocsExample href="components/list-group/#custom-content">
             <CListGroup>
               <CListGroupItem component="a" href="#" active>
                 <div class="d-flex w-100 justify-content-between">
@@ -320,7 +320,7 @@
                 >
               </CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -334,7 +334,7 @@
             Place CoreUI&#39;s checkboxes and radios within list group items and
             customize as needed.
           </p>
-          <Example href="components/list-group/#checkboxes-and-radios">
+          <DocsExample href="components/list-group/#checkboxes-and-radios">
             <CListGroup>
               <CListGroupItem>
                 <CFormCheck label="Cras justo odio" />
@@ -352,7 +352,7 @@
                 <CFormCheck label="Vestibulum at eros" />
               </CListGroupItem>
             </CListGroup>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

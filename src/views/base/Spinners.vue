@@ -12,15 +12,15 @@
           <p class="text-medium-emphasis small">
             Use the border spinners for a lightweight loading indicator.
           </p>
-          <Example href="components/spinner">
+          <DocsExample href="components/spinner">
             <CSpinner />
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             The border spinner uses <code>currentColor</code> for its
             <code>border-color</code>. You can use any of our text color
             utilities on the standard spinner.
           </p>
-          <Example href="components/spinner#colors">
+          <DocsExample href="components/spinner#colors">
             <CSpinner color="primary" />
             <CSpinner color="secondary" />
             <CSpinner color="success" />
@@ -29,7 +29,7 @@
             <CSpinner color="info" />
             <CSpinner color="light" />
             <CSpinner color="dark" />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -43,15 +43,15 @@
             If you don&#39;tfancy a border spinner, switch to the grow spinner.
             While it doesn&#39;t technically spin, it does repeatedly grow!
           </p>
-          <Example href="components/spinner#growing-spinner">
+          <DocsExample href="components/spinner#growing-spinner">
             <CSpinner variant="grow" />
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             Once again, this spinner is built with <code>currentColor</code>, so
             you can easily change its appearance. Here it is in blue, along with
             the supported variants.
           </p>
-          <Example href="components/spinner#growing-spinner">
+          <DocsExample href="components/spinner#growing-spinner">
             <CSpinner color="primary" variant="grow" />
             <CSpinner color="secondary" variant="grow" />
             <CSpinner color="success" variant="grow" />
@@ -60,7 +60,7 @@
             <CSpinner color="info" variant="grow" />
             <CSpinner color="light" variant="grow" />
             <CSpinner color="dark" variant="grow" />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -74,10 +74,10 @@
             Add <code>size=&#34;sm&#34;</code> property to make a smaller
             spinner that can quickly be used within other components.
           </p>
-          <Example href="components/spinner#size">
+          <DocsExample href="components/spinner#size">
             <CSpinner size="sm" />
             <CSpinner size="sm" variant="grow" />
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -92,7 +92,7 @@
             processing or taking place. You may also swap the text out of the
             spinner element and utilize button text as needed.
           </p>
-          <Example href="components/spinner#buttons">
+          <DocsExample href="components/spinner#buttons">
             <CButton disabled>
               <CSpinner component="span" size="sm" aria-hidden="true" />
             </CButton>
@@ -100,8 +100,8 @@
               <CSpinner component="span" size="sm" aria-hidden="true" />
               Loading...
             </CButton>
-          </Example>
-          <Example href="components/spinner#buttons">
+          </DocsExample>
+          <DocsExample href="components/spinner#buttons">
             <CButton disabled>
               <CSpinner
                 component="span"
@@ -119,7 +119,7 @@
               />
               Loading...
             </CButton>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

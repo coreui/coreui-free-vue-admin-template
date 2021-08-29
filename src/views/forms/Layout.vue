@@ -11,7 +11,7 @@
             for form layouts that require multiple columns, varied widths, and
             additional alignment options.
           </p>
-          <Example href="forms/layout#form-grid">
+          <DocsExample href="forms/layout#form-grid">
             <CRow>
               <CCol xs>
                 <CFormInput placeholder="First name" aria-label="First name" />
@@ -20,7 +20,7 @@
                 <CFormInput placeholder="Last name" aria-label="Last name" />
               </CCol>
             </CRow>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -38,7 +38,7 @@
             , you can have control over the gutter width in as well the inline
             as block direction.
           </p>
-          <Example href="forms/layout#gutters">
+          <DocsExample href="forms/layout#gutters">
             <CRow class="g-3">
               <CCol xs>
                 <CFormInput placeholder="First name" aria-label="First name" />
@@ -47,11 +47,11 @@
                 <CFormInput placeholder="Last name" aria-label="Last name" />
               </CCol>
             </CRow>
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             More complex layouts can also be created with the grid system.
           </p>
-          <Example href="forms/layout#gutters">
+          <DocsExample href="forms/layout#gutters">
             <CForm class="row g-3">
               <CCol :md="6">
                 <CFormLabel for="inputEmail4">Email</CFormLabel>
@@ -98,7 +98,7 @@
                 <CButton type="submit" color="primary">Sign in</CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -122,7 +122,7 @@
             removed the <code>padding-top</code> on our stacked radio inputs
             label to better align the text baseline.
           </p>
-          <Example href="forms/layout#horizontal-form">
+          <DocsExample href="forms/layout#horizontal-form">
             <CForm>
               <CRow class="mb-3">
                 <CFormLabel
@@ -185,7 +185,7 @@
               </CRow>
               <CButton type="submit" color="primary">Sign in</CButton>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -202,7 +202,7 @@
             correctly follow the size of <code>.form-control-lg</code> and
             <code>.form-control-sm</code>.
           </p>
-          <Example href="forms/layout#horizontal-form-label-sizing">
+          <DocsExample href="forms/layout#horizontal-form-label-sizing">
             <CRow class="mb-3">
               <CFormLabel
                 for="colFormLabelSm"
@@ -250,7 +250,7 @@
                 />
               </CCol>
             </CRow>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -270,7 +270,7 @@
             rest, with specific column classes like
             <code>&lt;CCol sm=&#34;7&#34;&gt;</code>.
           </p>
-          <Example href="forms/layout#column-sizing">
+          <DocsExample href="forms/layout#column-sizing">
             <CRow class="g-3">
               <CCol sm="{7}">
                 <CFormInput placeholder="City" aria-label="City" />
@@ -282,7 +282,7 @@
                 <CFormInput placeholder="Zip" aria-label="Zip" />
               </CCol>
             </CRow>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -300,7 +300,7 @@
             only take up as much space as needed. Put another way, the column
             sizes itself based on the contents.
           </p>
-          <Example href="forms/layout#auto-sizing">
+          <DocsExample href="forms/layout#auto-sizing">
             <CForm class="row gy-2 gx-3 align-items-center">
               <CCol xs="auto">
                 <CFormLabel
@@ -351,12 +351,12 @@
                 <CButton type="submit" color="primary">Submit</CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
           <p class="text-medium-emphasis small">
             You can then remix that once again with size-specific column
             classes.
           </p>
-          <Example href="forms/layout#auto-sizing">
+          <DocsExample href="forms/layout#auto-sizing">
             <CForm class="row gx-3 gy-2 align-items-center">
               <CCol :sm="3">
                 <CFormLabel
@@ -407,7 +407,7 @@
                 <CButton type="submit" color="primary">Submit</CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -426,7 +426,7 @@
             <code>.align-items-center</code> aligns the form elements to the
             middle, making the <code>&lt;CFormCheck&gt;</code> align properly.
           </p>
-          <Example href="forms/layout#inline-forms">
+          <DocsExample href="forms/layout#inline-forms">
             <CForm class="row row-cols-lg-auto g-3 align-items-center">
               <CCol :xs="12">
                 <CFormLabel
@@ -468,7 +468,7 @@
                 <CButton type="submit" color="primary">Submit</CButton>
               </CCol>
             </CForm>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

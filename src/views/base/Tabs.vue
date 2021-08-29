@@ -6,7 +6,7 @@
           <strong>Vue Tabs</strong>
         </CCardHeader>
         <CCardBody>
-          <Example href="components/tabs.html">
+          <DocsExample href="components/tabs.html">
             <CNav variant="tabs">
               <CNavItem>
                 <CNavLink href="#" @click="activeTabA=1">
@@ -53,7 +53,7 @@
                 craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.
               </CTabPane>
             </CTabContent>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>

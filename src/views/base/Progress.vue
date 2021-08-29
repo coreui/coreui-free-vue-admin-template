@@ -20,7 +20,7 @@
             , ensuring you can stack progress bars, animate them, and place text
             labels over them.
           </p>
-          <Example href="components/progress">
+          <DocsExample href="components/progress">
             <CProgress class="mb-3">
               <CProgressBar :value="0" />
             </CProgress>
@@ -36,7 +36,7 @@
             <CProgress class="mb-3">
               <CProgressBar :value="100" />
             </CProgress>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -50,11 +50,11 @@
             Add labels to your progress bars by placing text within the
             <code>&lt;CProgressBar&gt;</code>.
           </p>
-          <Example href="components/progress#labels">
+          <DocsExample href="components/progress#labels">
             <CProgress class="mb-3">
               <CProgressBar :value="25">25%</CProgressBar>
             </CProgress>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -70,14 +70,14 @@
             inner <code>&lt;CProgressBar&gt;</code> will automatically resize
             accordingly.
           </p>
-          <Example href="components/progress#height">
+          <DocsExample href="components/progress#height">
             <CProgress :height="1" class="mb-3">
               <CProgressBar :value="25"></CProgressBar>
             </CProgress>
             <CProgress :height="20" class="mb-3">
               <CProgressBar :value="25"></CProgressBar>
             </CProgress>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -91,7 +91,7 @@
             Use <code>color</code> prop to change the appearance of individual
             progress bars.
           </p>
-          <Example href="components/progress#backgrounds">
+          <DocsExample href="components/progress#backgrounds">
             <CProgress class="mb-3">
               <CProgressBar color="success" :value="25" />
             </CProgress>
@@ -104,7 +104,7 @@
             <CProgress class="mb-3">
               <CProgressBar color="danger" :value="100" />
             </CProgress>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -117,13 +117,13 @@
           <p class="text-medium-emphasis small">
             Include multiple progress bars in a progress component if you need.
           </p>
-          <Example href="components/progress#multiple-bars">
+          <DocsExample href="components/progress#multiple-bars">
             <CProgress class="mb-3">
               <CProgressBar :value="15" />
               <CProgressBar color="success" :value="30" />
               <CProgressBar color="info" :value="20" />
             </CProgress>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -138,7 +138,7 @@
             <code>&lt;CProgressBar&gt;</code> to apply a stripe via CSS gradient
             over the progress bar&#39;s background color.
           </p>
-          <Example href="components/progress#striped">
+          <DocsExample href="components/progress#striped">
             <CProgress class="mb-3">
               <CProgressBar color="success" variant="striped" :value="25" />
             </CProgress>
@@ -151,7 +151,7 @@
             <CProgress class="mb-3">
               <CProgressBar color="danger" variant="striped" :value="100" />
             </CProgress>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
@@ -167,7 +167,7 @@
             <code>&lt;CProgressBar&gt;</code> to animate the stripes right to
             left via CSS3 animations.
           </p>
-          <Example href="components/progress#animated-stripes">
+          <DocsExample href="components/progress#animated-stripes">
             <CProgress class="mb-3">
               <CProgressBar
                 color="success"
@@ -200,7 +200,7 @@
                 :value="100"
               />
             </CProgress>
-          </Example>
+          </DocsExample>
         </CCardBody>
       </CCard>
     </CCol>
