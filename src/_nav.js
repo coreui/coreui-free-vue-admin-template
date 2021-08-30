@@ -246,9 +246,6 @@ export default [
     },
   },
   {
-    _name: 'CNavDivider',
-  },
-  {
     _name: 'CNavTitle',
     name: 'Extras',
   },
