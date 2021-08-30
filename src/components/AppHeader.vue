@@ -57,8 +57,8 @@
 import { onMounted, ref, watch } from 'vue'
 import { onBeforeRouteUpdate } from 'vue-router'
 import AppHeaderDropdownAccnt from './AppHeaderDropdownAccnt'
-import router from '../router'
-import { logo } from './../assets/brand/logo'
+import router from '@/router'
+import { logo } from '@/assets/brand/logo'
 export default {
   name: 'AppHeader',
   components: {

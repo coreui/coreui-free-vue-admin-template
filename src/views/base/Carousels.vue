@@ -17,21 +17,21 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/vue.jpg"
+                  :src="VueImg"
                   alt="slide 1"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/react.jpg"
+                  :src="ReactImg"
                   alt="slide 2"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/angular.jpg"
+                  :src="AngularImg"
                   alt="slide 3"
                 />
               </CCarouselItem>
@@ -53,21 +53,21 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/vue.jpg"
+                  :src="VueImg"
                   alt="slide 1"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/react.jpg"
+                  :src="ReactImg"
                   alt="slide 2"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/angular.jpg"
+                  :src="AngularImg"
                   alt="slide 3"
                 />
               </CCarouselItem>
@@ -89,21 +89,21 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/vue.jpg"
+                  :src="VueImg"
                   alt="slide 1"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/react.jpg"
+                  :src="ReactImg"
                   alt="slide 2"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/angular.jpg"
+                  :src="AngularImg"
                   alt="slide 3"
                 />
               </CCarouselItem>
@@ -131,7 +131,7 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/vue.jpg"
+                  :src="VueImg"
                   alt="slide 1"
                 />
                 <CCarouselCaption class="d-none d-md-block">
@@ -144,7 +144,7 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/react.jpg"
+                  :src="ReactImg"
                   alt="slide 2"
                 />
                 <CCarouselCaption class="d-none d-md-block">
@@ -157,7 +157,7 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/angular.jpg"
+                  :src="AngularImg"
                   alt="slide 3"
                 />
                 <CCarouselCaption class="d-none d-md-block">
@@ -185,21 +185,21 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/vue.jpg"
+                  :src="VueImg"
                   alt="slide 1"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/react.jpg"
+                  :src="ReactImg"
                   alt="slide 2"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/angular.jpg"
+                  :src="AngularImg"
                   alt="slide 3"
                 />
               </CCarouselItem>
@@ -225,21 +225,21 @@
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/vue.jpg"
+                  :src="VueImg"
                   alt="slide 1"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/react.jpg"
+                  :src="ReactImg"
                   alt="slide 2"
                 />
               </CCarouselItem>
               <CCarouselItem>
                 <img
                   class="d-block w-100"
-                  src="/images/angular.jpg"
+                  :src="AngularImg"
                   alt="slide 3"
                 />
               </CCarouselItem>
@@ -252,7 +252,17 @@
 </template>
 
 <script>
+import AngularImg from '@/assets/images/angular.jpg'
+import ReactImg from '@/assets/images/react.jpg'
+import VueImg from '@/assets/images/vue.jpg'
 export default {
   name: 'Carousels',
+  setup() {
+    return {
+      AngularImg,
+      ReactImg,
+      VueImg,
+    }
+  }
 }
 </script>

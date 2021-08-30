@@ -28,24 +28,7 @@
           </p>
           <DocsExample href="components/card">
             <CCard style="width: 18rem">
-              <CCardImage
-                component="svg"
-                orientation="top"
-                class="docs-placeholder-img"
-                width="100%"
-                height="180"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Image cap"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  Image cap
-                </text>
-              </CCardImage>
+              <CCardImage orientation="top" :src="VueImg" />
               <CCardBody>
                 <CCardTitle>Card title</CCardTitle>
                 <CCardText>
@@ -127,24 +110,7 @@
           </p>
           <DocsExample href="components/card/#images">
             <CCard style="width: 18rem">
-              <CCardImage
-                component="svg"
-                orientation="top"
-                class="docs-placeholder-img"
-                width="100%"
-                height="180"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Image cap"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  Image cap
-                </text>
-              </CCardImage>
+              <CCardImage orientation="top" :src="VueImg" />
               <CCardBody>
                 <CCardText>
                   Some quick example text to build on the card title and make up
@@ -214,24 +180,7 @@
           </p>
           <DocsExample href="components/card/#kitchen-sink">
             <CCard style="width: 18rem">
-              <CCardImage
-                component="svg"
-                orientation="top"
-                class="docs-placeholder-img"
-                width="100%"
-                height="180"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Image cap"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  Image cap
-                </text>
-              </CCardImage>
+              <CCardImage orientation="top" :src="VueImg" />
               <CCardBody>
                 <CCardTitle>Card title</CCardTitle>
                 <CCardText>
@@ -544,24 +493,7 @@
             <CRow>
               <CCol :lg="6">
                 <CCard class="mb-3">
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -592,24 +524,7 @@
                       >
                     </CCardText>
                   </CCardBody>
-                  <CCardImage
-                    component="svg"
-                    orientation="bottom"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="bottom" :src="VueImg" />
                 </CCard>
               </CCol>
             </CRow>
@@ -633,28 +548,42 @@
           </p>
           <DocsExample href="components/card/#background-and-color">
             <CRow>
-              {[ { color: 'primary', textColor: 'white' }, { color: 'secondary',
-              textColor: 'white' }, { color: 'success', textColor: 'white' }, {
-              color: 'danger', textColor: 'white' }, { color: 'warning' }, {
-              color: 'info', textColor: 'white' }, { color: 'light' }, { color:
-              'dark', textColor: 'white' }, ].map((item, index) => (
-              <CCol :lg="4" key="{index}">
-                <CCard
-                  color="{item.color}"
-                  textColor="{item.textColor}"
-                  class="mb-3"
-                >
-                  <CCardHeader>Header</CCardHeader>
-                  <CCardBody>
-                    <CCardTitle>{item.color} card title</CCardTitle>
-                    <CCardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card&#39;s content.
-                    </CCardText>
-                  </CCardBody>
-                </CCard>
-              </CCol>
-              ))}
+              <template
+                v-for="item in [
+                  { color: 'primary', textColor: 'white' },
+                  { color: 'secondary', textColor: 'white' },
+                  { color: 'success', textColor: 'white' },
+                  {
+                    color: 'danger',
+                    textColor: 'white',
+                  },
+                  { color: 'warning' },
+                  {
+                    color: 'info',
+                    textColor: 'white',
+                  },
+                  { color: 'light' },
+                  { color: 'dark', textColor: 'white' },
+                ]"
+                :key="item"
+              >
+                <CCol :lg="4">
+                  <CCard
+                    class="mb-3"
+                    :color="item.color"
+                    :textColor="item.textColor"
+                  >
+                    <CCardHeader>Header</CCardHeader>
+                    <CCardBody>
+                      <CCardTitle>{{ item.color }} card title</CCardTitle>
+                      <CCardText>
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card&#39;s content.
+                      </CCardText>
+                    </CCardBody>
+                  </CCard>
+                </CCol>
+              </template>
             </CRow>
           </DocsExample>
           <h3>Border</h3>
@@ -680,6 +609,7 @@
                 { color: 'light' },
                 { color: 'dark' },
               ]"
+              :key="item"
             >
               <CCard
                 :textColor="item.textColor"
@@ -758,24 +688,7 @@
           <DocsExample href="components/card/#card-groups">
             <CCardGroup>
               <CCard>
-                <CCardImage
-                  component="svg"
-                  orientation="top"
-                  class="docs-placeholder-img"
-                  width="100%"
-                  height="180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Image cap"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#868e96"></rect>
-                  <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                    Image cap
-                  </text>
-                </CCardImage>
+                <CCardImage orientation="top" :src="VueImg" />
                 <CCardBody>
                   <CCardTitle>Card title</CCardTitle>
                   <CCardText>
@@ -791,24 +704,7 @@
                 </CCardBody>
               </CCard>
               <CCard>
-                <CCardImage
-                  component="svg"
-                  orientation="top"
-                  class="docs-placeholder-img"
-                  width="100%"
-                  height="180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Image cap"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#868e96"></rect>
-                  <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                    Image cap
-                  </text>
-                </CCardImage>
+                <CCardImage orientation="top" :src="VueImg" />
                 <CCardBody>
                   <CCardTitle>Card title</CCardTitle>
                   <CCardText>
@@ -823,24 +719,7 @@
                 </CCardBody>
               </CCard>
               <CCard>
-                <CCardImage
-                  component="svg"
-                  orientation="top"
-                  class="docs-placeholder-img"
-                  width="100%"
-                  height="180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Image cap"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#868e96"></rect>
-                  <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                    Image cap
-                  </text>
-                </CCardImage>
+                <CCardImage orientation="top" :src="VueImg" />
                 <CCardBody>
                   <CCardTitle>Card title</CCardTitle>
                   <CCardText>
@@ -864,24 +743,7 @@
           <DocsExample href="components/card/#card-groups">
             <CCardGroup>
               <CCard>
-                <CCardImage
-                  component="svg"
-                  orientation="top"
-                  class="docs-placeholder-img"
-                  width="100%"
-                  height="180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Image cap"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#868e96"></rect>
-                  <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                    Image cap
-                  </text>
-                </CCardImage>
+                <CCardImage orientation="top" :src="VueImg" />
                 <CCardBody>
                   <CCardTitle>Card title</CCardTitle>
                   <CCardText>
@@ -897,24 +759,7 @@
                 </CCardFooter>
               </CCard>
               <CCard>
-                <CCardImage
-                  component="svg"
-                  orientation="top"
-                  class="docs-placeholder-img"
-                  width="100%"
-                  height="180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Image cap"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#868e96"></rect>
-                  <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                    Image cap
-                  </text>
-                </CCardImage>
+                <CCardImage orientation="top" :src="VueImg" />
                 <CCardBody>
                   <CCardTitle>Card title</CCardTitle>
                   <CCardText>
@@ -929,24 +774,7 @@
                 </CCardFooter>
               </CCard>
               <CCard>
-                <CCardImage
-                  component="svg"
-                  orientation="top"
-                  class="docs-placeholder-img"
-                  width="100%"
-                  height="180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Image cap"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#868e96"></rect>
-                  <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                    Image cap
-                  </text>
-                </CCardImage>
+                <CCardImage orientation="top" :src="VueImg" />
                 <CCardBody>
                   <CCardTitle>Card title</CCardTitle>
                   <CCardText>
@@ -975,38 +803,21 @@
           <p class="text-medium-emphasis small">
             Use the <code>CRow</code> component and set
             <code
-              >&#123;xs|sm|md|lg|xl|xxl&#125;=&#123;&#123; cols: *
-              &#125;&#125;</code
+              >&#123;xs|sm|md|lg|xl|xxl&#125;="&#123; cols: *
+              &#125;"</code
             >
             property to control how many grid columns (wrapped around your
             cards) you show per row. For example, here&#39;s
-            <code>xs=&#123;&#123;cols: 1&#125;&#125;</code> laying out the cards
+            <code>xs="&#123;cols: 1&#125;"</code> laying out the cards
             on one column, and
-            <code>md=&#123;&#123;cols: 1&#125;&#125;</code> splitting four cards
+            <code>md="&#123;cols: 1&#125;"</code> splitting four cards
             to equal width across multiple rows, from the medium breakpoint up.
           </p>
           <DocsExample href="components/card/#grid-cards">
             <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 2 }">
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1024,24 +835,7 @@
               </CCol>
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1059,24 +853,7 @@
               </CCol>
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1094,24 +871,7 @@
               </CCol>
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1130,31 +890,14 @@
             </CRow>
           </DocsExample>
           <p class="text-medium-emphasis small">
-            Change it to <code>md=&#123;&#123; cols: 3&#125;&#125;</code> and
+            Change it to <code>md="&#123; cols: 3&#125;"</code> and
             you&#39;ll see the fourth card wrap.
           </p>
           <DocsExample href="components/card/#grid-cards">
             <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 3 }">
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1172,24 +915,7 @@
               </CCol>
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1207,24 +933,7 @@
               </CCol>
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1242,24 +951,7 @@
               </CCol>
               <CCol xs>
                 <CCard>
-                  <CCardImage
-                    component="svg"
-                    orientation="top"
-                    class="docs-placeholder-img"
-                    width="100%"
-                    height="180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                      Image cap
-                    </text>
-                  </CCardImage>
+                  <CCardImage orientation="top" :src="VueImg" />
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
                     <CCardText>
@@ -1284,7 +976,13 @@
 </template>
 
 <script>
+import VueImg from '@/assets/images/vue.jpg'
 export default {
   name: 'Cards',
+  setup() {
+    return {
+      VueImg,
+    }
+  },
 }
 </script>
