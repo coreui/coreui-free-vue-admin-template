@@ -80,11 +80,6 @@ const routes = [
             component: () => import('@/views/base/Navs.vue'),
           },
           {
-            path: '/base/navbars',
-            name: 'Navbars',
-            component: () => import('@/views/base/Navbars.vue'),
-          },
-          {
             path: '/base/paginations',
             name: 'Paginations',
             component: () => import('@/views/base/Paginations.vue'),
