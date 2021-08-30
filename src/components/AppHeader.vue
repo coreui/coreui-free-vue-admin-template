@@ -41,7 +41,7 @@
     <CContainer fluid>
       <CBreadcrumb class="d-md-down-none me-auto mb-0">
         <CBreadcrumbItem
-          v-for="item in currentRoute"
+          v-for="item in breadcrumbs"
           :href="item.to"
           :active="item.to === '' ? true : false"
           :key="item"
@@ -54,49 +54,53 @@
 </template>
 
 <script>
-import AppHeaderDropdownAccnt from "./AppHeaderDropdownAccnt";
-
-import router from "../router";
+import { onMounted, ref, watch } from 'vue'
+import { onBeforeRouteUpdate } from 'vue-router'
+import AppHeaderDropdownAccnt from './AppHeaderDropdownAccnt'
+import router from '../router'
 export default {
-  name: "AppHeader",
+  name: 'AppHeader',
   components: {
     AppHeaderDropdownAccnt,
   },
-  data: function () {
-    return {
-      currentRoute: [],
-    };
-  },
-  methods: {
-    upperCaseFirstChar: function (string) {
-      return string.substr(0, 1).toUpperCase() + string.substr(1);
-    },
-    makeCurrentRoute: function () {
-      let result = [];
-      let path = router.currentRoute._value.path;
-      let temp = path.split("/");
-      let to = "";
+  setup() {
+    const upperCaseFirstChar = (string) =>
+      string.substr(0, 1).toUpperCase() + string.substr(1)
+
+    const makeCurrentRoute = () => {
+      let result = [
+        { to: '/', name: 'Home'}
+      ]
+      let path = router.currentRoute._value.path
+      let temp = path.split('/')
+      let to = ''
       if (temp.length <= 2) {
-        result.push({ to: "", name: router.currentRoute._value.name });
+        result.push({ to: '', name: router.currentRoute._value.name })
       } else {
         for (let i = 1; i < temp.length - 1; i++) {
           for (let j = 1; j <= i; j++) {
-            to += `/${temp[j]}`;
+            to += `/${temp[j]}`
           }
-          result.push({ to: to, name: this.upperCaseFirstChar(temp[i]) });
+          result.push({ to: to, name: upperCaseFirstChar(temp[i]) })
         }
-        result.push({ to: "", name: router.currentRoute._value.name });
+        result.push({ to: '', name: router.currentRoute._value.name })
       }
-      return result;
-    },
+      return result
+    }
+
+    const breadcrumbs = ref([])
+
+    onBeforeRouteUpdate(() => {
+      breadcrumbs.value = makeCurrentRoute()
+    })
+
+    onMounted(() => {
+      breadcrumbs.value = makeCurrentRoute()
+    })
+
+    return {
+      breadcrumbs,
+    }
   },
-  watch: {
-    $route(to, from) {
-      this.currentRoute = this.makeCurrentRoute();
-    },
-  },
-  mounted: function () {
-    this.currentRoute = this.makeCurrentRoute();
-  },
-};
+}
 </script>
