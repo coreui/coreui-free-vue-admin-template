@@ -209,7 +209,7 @@
         <CCardBody>
           <p class="text-medium-emphasis small">
             Group checkboxes or radios on the same horizontal row by adding
-            <code>inline</code>  boolean property to any
+            <code>inline</code> boolean property to any
             <code>&lt;CFormCheck&gt;</code>.
           </p>
           <DocsExample href="forms/checks-radios.html#inline">
@@ -406,6 +406,6 @@
 
 <script>
 export default {
-  name: "ChecksRadios",
-};
+  name: 'ChecksRadios',
+}
 </script>

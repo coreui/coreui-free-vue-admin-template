@@ -167,7 +167,7 @@
           </p>
           <DocsExample href="components/card/#list-groups">
             <CRow>
-              <CCol lg="{4}">
+              <CCol :lg="4">
                 <CCard>
                   <CListGroup flush>
                     <CListGroupItem>Cras justo odio</CListGroupItem>
@@ -176,7 +176,7 @@
                   </CListGroup>
                 </CCard>
               </CCol>
-              <CCol lg="{4}">
+              <CCol :lg="4">
                 <CCard>
                   <CCardHeader>Header</CCardHeader>
                   <CListGroup flush>
@@ -186,7 +186,7 @@
                   </CListGroup>
                 </CCard>
               </CCol>
-              <CCol lg="{4}">
+              <CCol :lg="4">
                 <CCard>
                   <CListGroup flush>
                     <CListGroupItem>Cras justo odio</CListGroupItem>
@@ -342,7 +342,7 @@
           </p>
           <DocsExample href="components/card/#sizing">
             <CRow>
-              <CCol sm="{6}">
+              <CCol :sm="6">
                 <CCard>
                   <CCardBody>
                     <CCardTitle>Special title treatment</CCardTitle>
@@ -354,7 +354,7 @@
                   </CCardBody>
                 </CCard>
               </CCol>
-              <CCol sm="{6}">
+              <CCol :sm="6">
                 <CCard>
                   <CCardBody>
                     <CCardTitle>Special title treatment</CCardTitle>
@@ -542,7 +542,7 @@
           </p>
           <DocsExample href="components/card/#image-caps">
             <CRow>
-              <CCol lg="{6}">
+              <CCol :lg="6">
                 <CCard class="mb-3">
                   <CCardImage
                     component="svg"
@@ -577,7 +577,7 @@
                   </CCardBody>
                 </CCard>
               </CCol>
-              <CCol lg="{6}">
+              <CCol :lg="6">
                 <CCard class="mb-3">
                   <CCardBody>
                     <CCardTitle>Card title</CCardTitle>
@@ -638,7 +638,7 @@
               color: 'danger', textColor: 'white' }, { color: 'warning' }, {
               color: 'info', textColor: 'white' }, { color: 'light' }, { color:
               'dark', textColor: 'white' }, ].map((item, index) => (
-              <CCol lg="{4}" key="{index}">
+              <CCol :lg="4" key="{index}">
                 <CCard
                   color="{item.color}"
                   textColor="{item.textColor}"
@@ -710,21 +710,32 @@
             shown below.
           </p>
           <DocsExample href="components/card/#top-border">
-            <template v-for="(item) in [
-              { color: 'primary', textColor: 'primary' },
-              { color: 'secondary', textColor: 'secondary' },
-              { color: 'success', textColor: 'success' },
-              { color: 'danger', textColor: 'danger' },
-              { color: 'warning', textColor: 'warning' },
-              { color: 'info', textColor: 'info' },
-              { color: 'light'},
-              { color: 'dark'}
-            ]" :key="item.color">
-              <CCard :textColor="item.textColor" class="mb-3 border-top-3" :class="'border-top-' + item.color" style="max-width: 18rem">
+            <template
+              v-for="item in [
+                { color: 'primary', textColor: 'primary' },
+                { color: 'secondary', textColor: 'secondary' },
+                { color: 'success', textColor: 'success' },
+                { color: 'danger', textColor: 'danger' },
+                { color: 'warning', textColor: 'warning' },
+                { color: 'info', textColor: 'info' },
+                { color: 'light' },
+                { color: 'dark' },
+              ]"
+              :key="item.color"
+            >
+              <CCard
+                :textColor="item.textColor"
+                class="mb-3 border-top-3"
+                :class="'border-top-' + item.color"
+                style="max-width: 18rem"
+              >
                 <CCardHeader>Header</CCardHeader>
                 <CCardBody>
-                  <CCardTitle>{{item.color}} card title</CCardTitle>
-                  <CCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CCardText>
+                  <CCardTitle>{{ item.color }} card title</CCardTitle>
+                  <CCardText
+                    >Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</CCardText
+                  >
                 </CCardBody>
               </CCard>
             </template>
@@ -975,7 +986,7 @@
             to equal width across multiple rows, from the medium breakpoint up.
           </p>
           <DocsExample href="components/card/#grid-cards">
-            <CRow xs="{ cols: 1, gutter: 4 }" md="{ cols: 2 }">
+            <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 2 }">
               <CCol xs>
                 <CCard>
                   <CCardImage
@@ -1123,7 +1134,7 @@
             you&#39;ll see the fourth card wrap.
           </p>
           <DocsExample href="components/card/#grid-cards">
-            <CRow xs="{ cols: 1, gutter: 4 }" md="{ cols: 3 }">
+            <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 3 }">
               <CCol xs>
                 <CCard>
                   <CCardImage
@@ -1274,6 +1285,6 @@
 
 <script>
 export default {
-  name: "Cards",
-};
+  name: 'Cards',
+}
 </script>

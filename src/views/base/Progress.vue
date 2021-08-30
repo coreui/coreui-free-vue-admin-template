@@ -209,6 +209,6 @@
 
 <script>
 export default {
-  name: "Progress",
-};
+  name: 'Progress',
+}
 </script>

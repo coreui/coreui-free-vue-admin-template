@@ -11,5 +11,5 @@ export {
   CChartDoughnutExample,
   CChartRadarExample,
   CChartPieExample,
-  CChartPolarAreaExample
+  CChartPolarAreaExample,
 }

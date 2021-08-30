@@ -3,14 +3,14 @@
     <CCol>
       <CCard>
         <CCardHeader>
-          <strong>Vue Brands</strong>
+          <strong>Vue CoreUI Brand Icons</strong>
         </CCardHeader>
         <CCardBody>
           <CRow class="text-center">
-            <template v-for="(brand, brandName) in brands" :key="brandName">
-              <CCol class="mb-5" col="3" sm="2">
-                <CIcon size="lg" :content="brand" />
-                <div>{{ toKebabCase(brandName) }}</div>
+            <template v-for="(icon, iconName) in icons" :key="iconName">
+              <CCol class="mb-5" :xs="3" :sm="2">
+                <CIcon :content="icon" size="xxl" />
+                <div>{{ toKebabCase(iconName) }}</div>
               </CCol>
             </template>
           </CRow>
@@ -21,18 +21,17 @@
 </template>
 
 <script>
-import { brandSet as brands } from '@coreui/icons'
+import { brandSet } from '@coreui/icons'
 export default {
-  name: 'Brands',
-  data: function () {
+  name: 'CoreUIIcons',
+  setup() {
+    const toKebabCase = (str) => str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
+    const icons = brandSet
+
     return {
-      brands: brands,
+      icons,
+      toKebabCase
     }
-  },
-  methods: {
-    toKebabCase(str) {
-      return str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
-    },
-  },
+  }
 }
 </script>

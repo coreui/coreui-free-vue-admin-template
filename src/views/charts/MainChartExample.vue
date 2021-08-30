@@ -10,27 +10,27 @@
 </template>
 
 <script>
-import { CChart } from "@coreui/vue-chartjs";
-import { getStyle, hexToRgba } from "@coreui/utils/src";
+import { CChart } from '@coreui/vue-chartjs'
+import { getStyle, hexToRgba } from '@coreui/utils/src'
 
 function random(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 export default {
-  name: "MainChartExample",
+  name: 'MainChartExample',
   components: {
     CChart,
   },
   setup() {
     const data = {
-      labels: ["January", "February", "March", "April", "May", "June", "July"],
+      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [
         {
-          label: "My First dataset",
-          backgroundColor: hexToRgba(getStyle("--cui-info"), 10),
-          borderColor: getStyle("--cui-info"),
-          pointHoverBackgroundColor: getStyle("--cui-info"),
+          label: 'My First dataset',
+          backgroundColor: hexToRgba(getStyle('--cui-info'), 10),
+          borderColor: getStyle('--cui-info'),
+          pointHoverBackgroundColor: getStyle('--cui-info'),
           borderWidth: 2,
           data: [
             random(50, 200),
@@ -44,10 +44,10 @@ export default {
           fill: true,
         },
         {
-          label: "My Second dataset",
-          backgroundColor: "transparent",
-          borderColor: getStyle("--cui-success"),
-          pointHoverBackgroundColor: getStyle("--cui-success"),
+          label: 'My Second dataset',
+          backgroundColor: 'transparent',
+          borderColor: getStyle('--cui-success'),
+          pointHoverBackgroundColor: getStyle('--cui-success'),
           borderWidth: 2,
           data: [
             random(50, 200),
@@ -60,16 +60,16 @@ export default {
           ],
         },
         {
-          label: "My Third dataset",
-          backgroundColor: "transparent",
-          borderColor: getStyle("--cui-danger"),
-          pointHoverBackgroundColor: getStyle("--cui-danger"),
+          label: 'My Third dataset',
+          backgroundColor: 'transparent',
+          borderColor: getStyle('--cui-danger'),
+          pointHoverBackgroundColor: getStyle('--cui-danger'),
           borderWidth: 1,
           borderDash: [8, 5],
           data: [65, 65, 65, 65, 65, 65, 65],
         },
       ],
-    };
+    }
 
     const options = {
       maintainAspectRatio: false,
@@ -104,18 +104,18 @@ export default {
           hoverBorderWidth: 3,
         },
       },
-    };
+    }
 
     return {
       data,
       options,
-    };
+    }
   },
   methods: {
     aa(value, value2) {
-      console.log(value);
-      console.log(value2);
+      console.log(value)
+      console.log(value2)
     },
   },
-};
+}
 </script>

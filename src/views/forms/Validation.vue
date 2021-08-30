@@ -28,7 +28,7 @@
               :validated="validatedCustom01"
               @submit="handleSubmitCustom01"
             >
-              <CCol md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationCustom01">Email</CFormLabel>
                 <CFormInput
                   id="validationCustom01"
@@ -37,7 +37,7 @@
                 />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
-              <CCol md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationCustom02">Email</CFormLabel>
                 <CFormInput
                   id="validationCustom02"
@@ -46,7 +46,7 @@
                 />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
-              <CCol md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationCustomUsername">Username</CFormLabel>
                 <CInputGroup class="has-validation">
                   <CInputGroupText id="inputGroupPrepend">@</CInputGroupText>
@@ -61,14 +61,14 @@
                   </CFormFeedback>
                 </CInputGroup>
               </CCol>
-              <CCol md="6">
+              <CCol :md="6">
                 <CFormLabel for="validationCustom03">City</CFormLabel>
                 <CFormInput id="validationCustom03" required />
                 <CFormFeedback invalid>
                   Please provide a valid city.
                 </CFormFeedback>
               </CCol>
-              <CCol md="3">
+              <CCol :md="3">
                 <CFormLabel for="validationCustom04">City</CFormLabel>
                 <CFormSelect id="validationCustom04">
                   <option disabled>Choose...</option>
@@ -78,7 +78,7 @@
                   Please provide a valid city.
                 </CFormFeedback>
               </CCol>
-              <CCol md="3">
+              <CCol :md="3">
                 <CFormLabel for="validationCustom05">City</CFormLabel>
                 <CFormInput id="validationCustom05" required />
                 <CFormFeedback invalid>
@@ -127,7 +127,7 @@
               :validated="validatedDefault01"
               @submit="handleSubmitDefault01"
             >
-              <CCol md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationDefault01">Email</CFormLabel>
                 <CFormInput
                   id="validationDefault01"
@@ -136,7 +136,7 @@
                 />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
-              <CCol md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationDefault02">Email</CFormLabel>
                 <CFormInput
                   id="validationDefault02"
@@ -145,7 +145,7 @@
                 />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
-              <CCol md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationDefaultUsername"
                   >Username</CFormLabel
                 >
@@ -162,14 +162,14 @@
                   </CFormFeedback>
                 </CInputGroup>
               </CCol>
-              <CCol md="6">
+              <CCol :md="6">
                 <CFormLabel for="validationDefault03">City</CFormLabel>
                 <CFormInput id="validationDefault03" required />
                 <CFormFeedback invalid>
                   Please provide a valid city.
                 </CFormFeedback>
               </CCol>
-              <CCol md="3">
+              <CCol :md="3">
                 <CFormLabel for="validationDefault04">City</CFormLabel>
                 <CFormSelect id="validationDefault04">
                   <option disabled>Choose...</option>
@@ -179,7 +179,7 @@
                   Please provide a valid city.
                 </CFormFeedback>
               </CCol>
-              <CCol md="3">
+              <CCol :md="3">
                 <CFormLabel for="validationDefault05">City</CFormLabel>
                 <CFormInput id="validationDefault05" required />
                 <CFormFeedback invalid>
@@ -226,7 +226,7 @@
           </p>
           <DocsExample href="forms/validation.html#server-side">
             <CForm class="row g-3 needs-validation">
-              <CCol :md="4">
+              <CCol ::md="4">
                 <CFormLabel htmlFor="validationServer01">Email</CFormLabel>
                 <CFormInput
                   type="text"
@@ -237,7 +237,7 @@
                 />
                 <CFormFeedback valid>Looks good!</CFormFeedback>
               </CCol>
-              <CCol :md="4">
+              <CCol ::md="4">
                 <CFormLabel htmlFor="validationServer02">Email</CFormLabel>
                 <CFormInput
                   type="text"
@@ -248,7 +248,7 @@
                 />
                 <CFormFeedback valid>Looks good!</CFormFeedback>
               </CCol>
-              <CCol :md="4">
+              <CCol ::md="4">
                 <CFormLabel htmlFor="validationServerUsername"
                   >Username</CFormLabel
                 >
@@ -432,7 +432,7 @@
               :validated="validatedTooltip01"
               @submit="handleSubmitTooltip01"
             >
-              <CCol md="4" class="position-relative">
+              <CCol :md="4" class="position-relative">
                 <CFormLabel for="validationTooltip01">Email</CFormLabel>
                 <CFormInput
                   id="validationTooltip01"
@@ -441,7 +441,7 @@
                 />
                 <CFormFeedback tooltip valid> Looks good! </CFormFeedback>
               </CCol>
-              <CCol md="4" class="position-relative">
+              <CCol :md="4" class="position-relative">
                 <CFormLabel for="validationTooltip02">Email</CFormLabel>
                 <CFormInput
                   id="validationTooltip02"
@@ -450,7 +450,7 @@
                 />
                 <CFormFeedback tooltip valid> Looks good! </CFormFeedback>
               </CCol>
-              <CCol md="4" class="position-relative">
+              <CCol :md="4" class="position-relative">
                 <CFormLabel for="validationTooltipUsername"
                   >Username</CFormLabel
                 >
@@ -467,14 +467,14 @@
                   </CFormFeedback>
                 </CInputGroup>
               </CCol>
-              <CCol md="6" class="position-relative">
+              <CCol :md="6" class="position-relative">
                 <CFormLabel for="validationTooltip03">City</CFormLabel>
                 <CFormInput id="validationTooltip03" required />
                 <CFormFeedback tooltip invalid>
                   Please provide a valid city.
                 </CFormFeedback>
               </CCol>
-              <CCol md="3" class="position-relative">
+              <CCol :md="3" class="position-relative">
                 <CFormLabel for="validationTooltip04">City</CFormLabel>
                 <CFormSelect id="validationTooltip04" required>
                   <option disabled value="">Choose...</option>
@@ -484,7 +484,7 @@
                   Please provide a valid city.
                 </CFormFeedback>
               </CCol>
-              <CCol md="3" class="position-relative">
+              <CCol :md="3" class="position-relative">
                 <CFormLabel for="validationTooltip05">City</CFormLabel>
                 <CFormInput id="validationTooltip05" required />
                 <CFormFeedback tooltip invalid>
@@ -504,39 +504,39 @@
 
 <script>
 export default {
-  name: "Validation",
+  name: 'Validation',
   data: () => {
     return {
       validatedCustom01: null,
       validatedDefault01: null,
       validatedTooltip01: null,
-    };
+    }
   },
   methods: {
     handleSubmitCustom01(event) {
-      const form = event.currentTarget;
+      const form = event.currentTarget
       if (form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
+        event.preventDefault()
+        event.stopPropagation()
       }
-      this.validatedCustom01 = true;
+      this.validatedCustom01 = true
     },
     handleSubmitDefault01(event) {
-      const form = event.currentTarget;
+      const form = event.currentTarget
       if (form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
+        event.preventDefault()
+        event.stopPropagation()
       }
-      this.validatedDefault01 = true;
+      this.validatedDefault01 = true
     },
     handleSubmitTooltip01(event) {
-      const form = event.currentTarget;
+      const form = event.currentTarget
       if (form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
+        event.preventDefault()
+        event.stopPropagation()
       }
-      this.validatedTooltip01 = true;
+      this.validatedTooltip01 = true
     },
   },
-};
+}
 </script>

@@ -76,14 +76,14 @@
                 <CFormLabel for="inputCity">City</CFormLabel>
                 <CFormInput id="inputCity" />
               </CCol>
-              <CCol md="{4}">
+              <CCol :md="4">
                 <CFormLabel for="inputState">State</CFormLabel>
                 <CFormSelect id="inputState">
                   <option>Choose...</option>
                   <option>...</option>
                 </CFormSelect>
               </CCol>
-              <CCol md="{2}">
+              <CCol :md="2">
                 <CFormLabel for="inputZip">Zip</CFormLabel>
                 <CFormInput id="inputZip" />
               </CCol>
@@ -266,7 +266,7 @@
           </p>
           <DocsExample href="forms/layout.html#column-sizing">
             <CRow class="g-3">
-              <CCol sm="{7}">
+              <CCol :sm="7">
                 <CFormInput placeholder="City" aria-label="City" />
               </CCol>
               <CCol sm>

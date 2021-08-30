@@ -5,9 +5,7 @@
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
-        <CCardHeader>
-          <strong>Vue Range</strong> <small></small>
-        </CCardHeader>
+        <CCardHeader> <strong>Vue Range</strong> <small></small> </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
             Create custom
@@ -87,6 +85,6 @@
 
 <script>
 export default {
-  name: "Range",
-};
+  name: 'Range',
+}
 </script>

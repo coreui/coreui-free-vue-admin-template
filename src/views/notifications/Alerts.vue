@@ -10,10 +10,10 @@
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
-            Vue Alert is prepared for any length of text, as well as an
-            optional close button. For a styling, use one of the
-            <strong>required</strong> contextual <code>color</code> props
-            (e.g., <code>primary</code>). For inline dismissal, use the
+            Vue Alert is prepared for any length of text, as well as an optional
+            close button. For a styling, use one of the
+            <strong>required</strong> contextual <code>color</code> props (e.g.,
+            <code>primary</code>). For inline dismissal, use the
             <a
               href="https://coreui.io/vue/docs/4.0/components/alert.html#dismissing"
             >
@@ -149,11 +149,11 @@
 
 <script>
 export default {
-  name: "Alerts",
+  name: 'Alerts',
   methods: {
     alert: function () {
-      alert("👋 Well, hi there! Thanks for dismissing me.");
+      alert('👋 Well, hi there! Thanks for dismissing me.')
     },
   },
-};
+}
 </script>

@@ -242,7 +242,7 @@
                       :disabled="state === 'disabled' ? true : false"
                       variant="ghost"
                     >
-                      <CIcon icon="{cilBell}" class="me-2" />
+                      <CIcon icon="cil-bell" class="me-2" />
                       {{ color.charAt(0).toUpperCase() + color.slice(1) }}
                     </CButton>
                   </template>

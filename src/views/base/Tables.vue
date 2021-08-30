@@ -451,8 +451,9 @@
           </DocsExample>
           <p class="text-medium-emphasis small">
             <a href="https://coreui.io/docs/4.0/utilities/borders#border-color">
-              Border color utilities </a
-            > can be added to change colors:
+              Border color utilities
+            </a>
+            can be added to change colors:
           </p>
           <DocsExample href="components/table.html#bordered-tables">
             <CTable bordered borderColor="primary">
@@ -990,6 +991,6 @@
 
 <script>
 export default {
-  name: "Tables",
-};
+  name: 'Tables',
+}
 </script>

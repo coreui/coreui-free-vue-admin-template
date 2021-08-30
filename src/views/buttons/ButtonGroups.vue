@@ -70,7 +70,8 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>Vue Button Group</strong> <span>Checkbox and radio button groups</span>
+          <strong>Vue Button Group</strong>
+          <span>Checkbox and radio button groups</span>
         </CCardHeader>
         <CCardBody>
           <p>
@@ -84,12 +85,24 @@
               role="group"
               aria-label="Basic checkbox toggle button group"
             >
-              <CFormCheck :button="{ color: 'primary', variant: 'outline' }" id="btncheck1"
-              autoComplete="off" label="Checkbox 1" />
-              <CFormCheck :button="{ color: 'primary', variant: 'outline' }"
-              id="btncheck2" autoComplete="off" label="Checkbox 2" />
-              <CFormCheck :button="{ color: 'primary', variant: 'outline' }"
-              id="btncheck3" autoComplete="off" label="Checkbox 3" />
+              <CFormCheck
+                :button="{ color: 'primary', variant: 'outline' }"
+                id="btncheck1"
+                autoComplete="off"
+                label="Checkbox 1"
+              />
+              <CFormCheck
+                :button="{ color: 'primary', variant: 'outline' }"
+                id="btncheck2"
+                autoComplete="off"
+                label="Checkbox 2"
+              />
+              <CFormCheck
+                :button="{ color: 'primary', variant: 'outline' }"
+                id="btncheck3"
+                autoComplete="off"
+                label="Checkbox 3"
+              />
             </CButtonGroup>
           </DocsExample>
           <DocsExample
@@ -99,12 +112,29 @@
               role="group"
               aria-label="Basic checkbox toggle button group"
             >
-              <CFormCheck type="radio" :button="{ color: 'primary', variant: 'outline' }"
-              name="btnradio" id="btnradio1" autoComplete="off" label="Radio 1"
-              /> <CFormCheck type="radio" :button="{ color: 'primary', variant: 'outline' }"
-              name="btnradio" id="btnradio2" autoComplete="off" label="Radio 2"
-              /> <CFormCheck type="radio" :button="{ color: 'primary', variant: 'outline' }"
-              name="btnradio" id="btnradio3" autoComplete="off" label="Radio 3"
+              <CFormCheck
+                type="radio"
+                :button="{ color: 'primary', variant: 'outline' }"
+                name="btnradio"
+                id="btnradio1"
+                autoComplete="off"
+                label="Radio 1"
+              />
+              <CFormCheck
+                type="radio"
+                :button="{ color: 'primary', variant: 'outline' }"
+                name="btnradio"
+                id="btnradio2"
+                autoComplete="off"
+                label="Radio 2"
+              />
+              <CFormCheck
+                type="radio"
+                :button="{ color: 'primary', variant: 'outline' }"
+                name="btnradio"
+                id="btnradio3"
+                autoComplete="off"
+                label="Radio 3"
               />
             </CButtonGroup>
           </DocsExample>
@@ -127,30 +157,18 @@
               role="group"
               aria-label="Toolbar with button groups"
             >
-              <CButtonGroup
-                class="me-2"
-                role="group"
-                aria-label="First group"
-              >
+              <CButtonGroup class="me-2" role="group" aria-label="First group">
                 <CButton color="primary">1</CButton>
                 <CButton color="primary">2</CButton>
                 <CButton color="primary">3</CButton>
                 <CButton color="primary">4</CButton>
               </CButtonGroup>
-              <CButtonGroup
-                class="me-2"
-                role="group"
-                aria-label="Second group"
-              >
+              <CButtonGroup class="me-2" role="group" aria-label="Second group">
                 <CButton color="secondary">5</CButton>
                 <CButton color="secondary">6</CButton>
                 <CButton color="secondary">7</CButton>
               </CButtonGroup>
-              <CButtonGroup
-                class="me-2"
-                role="group"
-                aria-label="Third group"
-              >
+              <CButtonGroup class="me-2" role="group" aria-label="Third group">
                 <CButton color="info">8</CButton>
               </CButtonGroup>
             </CButtonToolbar>
@@ -166,11 +184,7 @@
               role="group"
               aria-label="Toolbar with button groups"
             >
-              <CButtonGroup
-                class="me-2"
-                role="group"
-                aria-label="First group"
-              >
+              <CButtonGroup class="me-2" role="group" aria-label="First group">
                 <CButton color="secondary" variant="outline"> 1 </CButton>
                 <CButton color="secondary" variant="outline"> 2 </CButton>
                 <CButton color="secondary" variant="outline"> 3 </CButton>
@@ -190,11 +204,7 @@
               role="group"
               aria-label="Toolbar with button groups"
             >
-              <CButtonGroup
-                class="me-2"
-                role="group"
-                aria-label="First group"
-              >
+              <CButtonGroup class="me-2" role="group" aria-label="First group">
                 <CButton color="secondary" variant="outline"> 1 </CButton>
                 <CButton color="secondary" variant="outline"> 2 </CButton>
                 <CButton color="secondary" variant="outline"> 3 </CButton>
@@ -373,13 +383,34 @@
               role="group"
               aria-label="Vertical button group"
             >
-              <CFormCheck type="radio" :button="{ color: 'danger', variant: 'outline' }"
-              name="vbtnradio" id="vbtnradio1" autoComplete="off" label="Radio
-              1" defaultChecked /> <CFormCheck type="radio" :button="{ color: 'danger', variant: 'outline' }"
-              name="vbtnradio" id="vbtnradio2" autoComplete="off" label="Radio
-              2" /> <CFormCheck type="radio" :button="{ color: 'danger', variant: 'outline' }"
-              name="vbtnradio" id="vbtnradio3" autoComplete="off" label="Radio
-              3" />
+              <CFormCheck
+                type="radio"
+                :button="{ color: 'danger', variant: 'outline' }"
+                name="vbtnradio"
+                id="vbtnradio1"
+                autoComplete="off"
+                label="Radio
+              1"
+                defaultChecked
+              />
+              <CFormCheck
+                type="radio"
+                :button="{ color: 'danger', variant: 'outline' }"
+                name="vbtnradio"
+                id="vbtnradio2"
+                autoComplete="off"
+                label="Radio
+              2"
+              />
+              <CFormCheck
+                type="radio"
+                :button="{ color: 'danger', variant: 'outline' }"
+                name="vbtnradio"
+                id="vbtnradio3"
+                autoComplete="off"
+                label="Radio
+              3"
+              />
             </CButtonGroup>
           </DocsExample>
         </CCardBody>

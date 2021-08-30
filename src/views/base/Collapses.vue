@@ -60,7 +60,7 @@
               Toggle both elements
             </CButton>
             <CRow>
-              <CCol xs="6">
+              <CCol :xs="6">
                 <CCollapse :visible="visibleA">
                   <CCard class="mt-3">
                     <CCardBody>
@@ -72,7 +72,7 @@
                   </CCard>
                 </CCollapse>
               </CCol>
-              <CCol xs="6">
+              <CCol :xs="6">
                 <CCollapse :visible="visibleB">
                   <CCard class="mt-3">
                     <CCardBody>
@@ -93,13 +93,17 @@
 </template>
 
 <script>
+import { ref } from 'vue'
 export default {
-  name: 'Breadcrumbs',
-  data() {
+  name: 'Collapse',
+  setup() {
+    const visible = ref(false)
+    const visibleA = ref(false)
+    const visibleB = ref(false)
     return {
-      visible: false,
-      visibleA: false,
-      visibleB: false,
+      visible,
+      visibleA,
+      visibleB,
     }
   },
 }

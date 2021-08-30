@@ -67,7 +67,8 @@
     <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
-          <strong>Vue Pagination</strong> <small>Disabled and active states</small>
+          <strong>Vue Pagination</strong>
+          <small>Disabled and active states</small>
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
@@ -84,7 +85,9 @@
             disabled links and use custom JavaScript to fully disable their
             functionality.
           </p>
-          <DocsExample href="components/pagination.html#disabled-and-active-states">
+          <DocsExample
+            href="components/pagination.html#disabled-and-active-states"
+          >
             <CPagination aria-label="Page navigation example">
               <CPaginationItem aria-label="Previous" disabled>
                 <span aria-hidden="true">&laquo;</span>
@@ -176,6 +179,6 @@
 
 <script>
 export default {
-  name: "Paginations",
-};
+  name: 'Paginations',
+}
 </script>

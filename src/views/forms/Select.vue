@@ -111,6 +111,6 @@
 
 <script>
 export default {
-  name: "Select",
-};
+  name: 'Select',
+}
 </script>

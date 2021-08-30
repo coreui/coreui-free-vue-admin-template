@@ -20,7 +20,7 @@
                     :collapsed="activeKey !== 1"
                     @click="
                       () => {
-                        activeKey === 1 ? (activeKey = 0) : (activeKey = 1);
+                        activeKey === 1 ? (activeKey = 0) : (activeKey = 1)
                       }
                     "
                   >
@@ -47,7 +47,7 @@
                     :collapsed="activeKey !== 2"
                     @click="
                       () => {
-                        activeKey === 2 ? (activeKey = 0) : (activeKey = 2);
+                        activeKey === 2 ? (activeKey = 0) : (activeKey = 2)
                       }
                     "
                   >
@@ -74,7 +74,7 @@
                     :collapsed="activeKey !== 3"
                     @click="
                       () => {
-                        activeKey === 3 ? (activeKey = 0) : (activeKey = 3);
+                        activeKey === 3 ? (activeKey = 0) : (activeKey = 3)
                       }
                     "
                   >
@@ -120,7 +120,7 @@
                       () => {
                         flushActiveKey === 1
                           ? (flushActiveKey = 0)
-                          : (flushActiveKey = 1);
+                          : (flushActiveKey = 1)
                       }
                     "
                   >
@@ -149,7 +149,7 @@
                       () => {
                         flushActiveKey === 2
                           ? (flushActiveKey = 0)
-                          : (flushActiveKey = 2);
+                          : (flushActiveKey = 2)
                       }
                     "
                   >
@@ -178,7 +178,7 @@
                       () => {
                         flushActiveKey === 3
                           ? (flushActiveKey = 0)
-                          : (flushActiveKey = 3);
+                          : (flushActiveKey = 3)
                       }
                     "
                   >
@@ -210,15 +210,15 @@
 <script>
 import { ref } from 'vue'
 export default {
-  name: "Accordion",
+  name: 'Accordion',
   setup() {
     const activeKey = ref(1)
     const flushActiveKey = ref(1)
 
     return {
-        activeKey,
-        flushActiveKey,
+      activeKey,
+      flushActiveKey,
     }
-  }
-};
+  },
+}
 </script>

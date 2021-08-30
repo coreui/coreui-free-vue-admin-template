@@ -1024,25 +1024,42 @@
 </template>
 
 <script>
+import { ref } from 'vue'
 export default {
   name: 'Modals',
-  data: function () {
+  setup() {
+    const visibleLiveDemo = ref(false)
+    const visibleStaticBackdropDemo = ref(false)
+    const visibleScrollingLongContentDemo = ref(false)
+    const visibleScrollableDemo = ref(false)
+    const visibleVerticallyCenteredDemo = ref(false)
+    const visibleVerticallyCenteredScrollableDemo = ref(false)
+    const xlDemo = ref(false)
+    const lgDemo = ref(false)
+    const smDemo = ref(false)
+    const fullscreenDemo = ref(false)
+    const fullscreenSmDemo = ref(false)
+    const fullscreenMdDemo = ref(false)
+    const fullscreenLgDemo = ref(false)
+    const fullscreenXlDemo = ref(false)
+    const fullscreenXxlDemo = ref(false)
+
     return {
-      visibleLiveDemo: false,
-      visibleStaticBackdropDemo: false,
-      visibleScrollingLongContentDemo: false,
-      visibleScrollableDemo: false,
-      visibleVerticallyCenteredDemo: false,
-      visibleVerticallyCenteredScrollableDemo: false,
-      xlDemo: false,
-      lgDemo: false,
-      smDemo: false,
-      fullscreenDemo: false,
-      fullscreenSmDemo: false,
-      fullscreenMdDemo: false,
-      fullscreenLgDemo: false,
-      fullscreenXlDemo: false,
-      fullscreenXxlDemo: false,
+      visibleLiveDemo,
+      visibleStaticBackdropDemo,
+      visibleScrollingLongContentDemo,
+      visibleScrollableDemo,
+      visibleVerticallyCenteredDemo,
+      visibleVerticallyCenteredScrollableDemo,
+      xlDemo,
+      lgDemo,
+      smDemo,
+      fullscreenDemo,
+      fullscreenSmDemo,
+      fullscreenMdDemo,
+      fullscreenLgDemo,
+      fullscreenXlDemo,
+      fullscreenXxlDemo,
     }
   },
 }
