@@ -37,19 +37,20 @@
 </template>
 
 <script>
+import { computed } from 'vue'
+import { useStore } from 'vuex'
 import { AppSidebarNav } from './AppSidebarNav'
 export default {
   name: 'AppSidebar',
   components: {
     AppSidebarNav,
   },
-  computed: {
-    sidebarUnfoldable() {
-      return this.$store.state.sidebarUnfoldable
-    },
-    sidebarVisible() {
-      return this.$store.state.sidebarVisible
-    },
+  setup() {
+    const store = useStore()
+    return {
+      sidebarUnfoldable: computed(() => store.state.sidebarUnfoldable),
+      sidebarVisible: computed(() => store.state.sidebarVisible),
+    }
   },
 }
 </script>

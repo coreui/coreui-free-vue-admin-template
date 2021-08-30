@@ -49,7 +49,7 @@
 import avatar from './../assets/images/avatars/8.jpg'
 export default {
   name: 'AppHeaderDropdownAccnt',
-  data() {
+  setup() {
     return {
       avatar: avatar,
       itemsCount: 42,
