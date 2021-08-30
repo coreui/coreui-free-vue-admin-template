@@ -22,9 +22,9 @@
 </template>
 
 <script>
-import packageJson from "../../package.json";
+import pkg from '../../package.json'
 export default {
-  name: "DocsExample",
+  name: 'DocsExample',
   props: {
     href: {
       type: String,
@@ -33,11 +33,11 @@ export default {
     },
   },
   setup(props) {
-    const href = `https://coreui.io/vue/docs/${packageJson.config.coreui_library_short_version}/${props.href}`;
+    const href = `https://coreui.io/vue/docs/${pkg.config.coreui_library_short_version}/${props.href}`
 
     return {
       href,
-    };
+    }
   },
-};
+}
 </script>
