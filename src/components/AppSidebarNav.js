@@ -37,8 +37,8 @@ const AppSidebarNav = defineComponent({
         return true
       }
 
-      if (item.children) {
-        return item.children.some((child) => isActiveItem(route, child))
+      if (item.items) {
+        return item.items.some((child) => isActiveItem(route, child))
       }
 
       return false
@@ -47,11 +47,11 @@ const AppSidebarNav = defineComponent({
     const renderItem = (item) => {
       const route = useRoute()
 
-      if (item.children) {
+      if (item.items) {
         return h(
           resolveComponent('CNavGroup'),
           {
-            visible: item.children.some((child) => isActiveItem(route, child)),
+            visible: item.items.some((child) => isActiveItem(route, child)),
           },
           {
             togglerContent: () => [
@@ -61,7 +61,7 @@ const AppSidebarNav = defineComponent({
               }),
               item.name,
             ],
-            default: () => item.children.map((child) => renderItem(child)),
+            default: () => item.items.map((child) => renderItem(child)),
           },
         )
       }
@@ -76,7 +76,7 @@ const AppSidebarNav = defineComponent({
             {
               default: (props) =>
                 h(
-                  resolveComponent(item._name),
+                  resolveComponent(item.component),
                   {
                     active: props.isActive,
                     href: props.href,
@@ -107,7 +107,7 @@ const AppSidebarNav = defineComponent({
             },
           )
         : h(
-            resolveComponent(item._name),
+            resolveComponent(item.component),
             {},
             {
               default: () => item.name,
