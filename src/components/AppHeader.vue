@@ -5,9 +5,9 @@
         <CIcon icon="cil-menu" size="lg" />
       </CHeaderToggler>
       <CHeaderBrand class="mx-auto d-lg-none" to="/">
-        <CIcon name="logo" height="48" alt="Logo" />
+        <CIcon :icon="logo" height="48" alt="Logo" />
       </CHeaderBrand>
-      <CHeaderNav class="d-md-down-none me-auto">
+      <CHeaderNav class="d-none d-md-flex me-auto">
         <CNavItem>
           <CNavLink href="/dashboard"> Dashboard </CNavLink>
         </CNavItem>
@@ -19,19 +19,19 @@
         </CNavItem>
       </CHeaderNav>
       <CHeaderNav class="me-4">
-        <CNavItem class="d-md-down-none mx-2">
-          <CNavLink>
-            <CIcon icon="cil-bell" size="lg" />
+        <CNavItem>
+          <CNavLink href="#">
+            <CIcon class="mx-2" icon="cil-bell" size="lg" />
           </CNavLink>
         </CNavItem>
-        <CNavItem class="d-md-down-none mx-2">
-          <CNavLink>
-            <CIcon icon="cil-list" size="lg" />
+        <CNavItem>
+          <CNavLink href="#">
+            <CIcon class="mx-2" icon="cil-list" size="lg" />
           </CNavLink>
         </CNavItem>
-        <CNavItem class="d-md-down-none mx-2">
-          <CNavLink>
-            <CIcon icon="cil-envelope-open" size="lg" />
+        <CNavItem>
+          <CNavLink href="#">
+            <CIcon class="mx-2" icon="cil-envelope-open" size="lg" />
           </CNavLink>
         </CNavItem>
         <AppHeaderDropdownAccnt />
@@ -58,6 +58,7 @@ import { onMounted, ref, watch } from 'vue'
 import { onBeforeRouteUpdate } from 'vue-router'
 import AppHeaderDropdownAccnt from './AppHeaderDropdownAccnt'
 import router from '../router'
+import { logo } from './../assets/brand/logo'
 export default {
   name: 'AppHeader',
   components: {
@@ -100,6 +101,7 @@ export default {
 
     return {
       breadcrumbs,
+      logo,
     }
   },
 }
