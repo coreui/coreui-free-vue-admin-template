@@ -68,15 +68,15 @@ export default {
     const upperCaseFirstChar = (string) =>
       string.substr(0, 1).toUpperCase() + string.substr(1)
 
-    const makeCurrentRoute = () => {
+    const makeCurrentRoute = (nav_to) => {
       let result = [
         { to: '/', name: 'Home'}
       ]
-      let path = router.currentRoute._value.path
+      let path = nav_to ? nav_to.path : router.currentRoute._value.path
       let temp = path.split('/')
       let to = ''
       if (temp.length <= 2) {
-        result.push({ to: '', name: router.currentRoute._value.name })
+        result.push({ to: '', name: upperCaseFirstChar(temp.at(-1)) })
       } else {
         for (let i = 1; i < temp.length - 1; i++) {
           for (let j = 1; j <= i; j++) {
@@ -84,15 +84,15 @@ export default {
           }
           result.push({ to: to, name: upperCaseFirstChar(temp[i]) })
         }
-        result.push({ to: '', name: router.currentRoute._value.name })
+        result.push({ to: '', name: upperCaseFirstChar(temp.at(-1)) })
       }
       return result
     }
 
     const breadcrumbs = ref([])
 
-    onBeforeRouteUpdate(() => {
-      breadcrumbs.value = makeCurrentRoute()
+    onBeforeRouteUpdate((to) => {
+      breadcrumbs.value = makeCurrentRoute(to)
     })
 
     onMounted(() => {
