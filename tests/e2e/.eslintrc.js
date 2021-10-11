@@ -1,5 +1,10 @@
 module.exports = {
-  rules: {
-    "no-unused-expressions": "off",
+  plugins: ['cypress'],
+  env: {
+    mocha: true,
+    'cypress/globals': true,
   },
-};
+  rules: {
+    strict: 'off',
+  },
+}
