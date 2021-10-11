@@ -39,68 +39,24 @@
     </CContainer>
     <CHeaderDivider />
     <CContainer fluid>
-      <CBreadcrumb class="d-md-down-none me-auto mb-0">
-        <CBreadcrumbItem
-          v-for="item in breadcrumbs"
-          :href="item.to"
-          :active="item.to === '' ? true : false"
-          :key="item"
-        >
-          {{ item.name }}
-        </CBreadcrumbItem>
-      </CBreadcrumb>
+      <AppBreadcrumb />
     </CContainer>
   </CHeader>
 </template>
 
 <script>
-import { onMounted, ref, watch } from 'vue'
-import { onBeforeRouteUpdate } from 'vue-router'
+import AppBreadcrumb from './AppBreadcrumb'
 import AppHeaderDropdownAccnt from './AppHeaderDropdownAccnt'
-import router from '@/router'
 import { logo } from '@/assets/brand/logo'
 export default {
   name: 'AppHeader',
   components: {
+    AppBreadcrumb,
     AppHeaderDropdownAccnt,
   },
   setup() {
-    const upperCaseFirstChar = (string) =>
-      string.substr(0, 1).toUpperCase() + string.substr(1)
-
-    const makeCurrentRoute = () => {
-      let result = [
-        { to: '/', name: 'Home'}
-      ]
-      let path = router.currentRoute._value.path
-      let temp = path.split('/')
-      let to = ''
-      if (temp.length <= 2) {
-        result.push({ to: '', name: router.currentRoute._value.name })
-      } else {
-        for (let i = 1; i < temp.length - 1; i++) {
-          for (let j = 1; j <= i; j++) {
-            to += `/${temp[j]}`
-          }
-          result.push({ to: to, name: upperCaseFirstChar(temp[i]) })
-        }
-        result.push({ to: '', name: router.currentRoute._value.name })
-      }
-      return result
-    }
-
-    const breadcrumbs = ref([])
-
-    onBeforeRouteUpdate(() => {
-      breadcrumbs.value = makeCurrentRoute()
-    })
-
-    onMounted(() => {
-      breadcrumbs.value = makeCurrentRoute()
-    })
 
     return {
-      breadcrumbs,
       logo,
     }
   },
