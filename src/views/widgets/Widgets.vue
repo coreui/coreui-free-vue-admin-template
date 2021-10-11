@@ -289,7 +289,7 @@
                   </template>
                   <template #footer>
                     <CLink
-                      class="font-weight-bold font-xs text-medium-emphasis"
+                      class="fw-semibold font-xs text-medium-emphasis"
                       href="https://coreui.io/"
                       rel="noopener norefferer"
                       target="_blank"
@@ -311,7 +311,7 @@
                   </template>
                   <template #footer>
                     <CLink
-                      class="font-weight-bold font-xs text-medium-emphasis"
+                      class="fw-semibold font-xs text-medium-emphasis"
                       href="https://coreui.io/"
                       rel="noopener norefferer"
                       target="_blank"
@@ -333,7 +333,7 @@
                   </template>
                   <template #footer>
                     <CLink
-                      class="font-weight-bold font-xs text-medium-emphasis"
+                      class="fw-semibold font-xs text-medium-emphasis"
                       href="https://coreui.io/"
                       rel="noopener norefferer"
                       target="_blank"
@@ -355,7 +355,7 @@
                   </template>
                   <template #footer>
                     <CLink
-                      class="font-weight-bold font-xs text-medium-emphasis"
+                      class="fw-semibold font-xs text-medium-emphasis"
                       href="https://coreui.io/"
                       rel="noopener norefferer"
                       target="_blank"

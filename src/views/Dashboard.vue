@@ -128,67 +128,13 @@
                   </CCol>
                 </CRow>
                 <hr class="mt-0" />
-                <div class="progress-group mb-4">
+                <div class="progress-group mb-4" v-for="item in progressGroupExample1" :key="item.title">
                   <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Monday </span>
+                    <span class="text-medium-emphasis small">{{item.title}}</span>
                   </div>
                   <div class="progress-group-bars">
-                    <CProgress thin color="info" :value="34" />
-                    <CProgress thin color="danger" :value="78" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Tuesday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="56" color="info" />
-                    <CProgress thin :value="94" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Wednesday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="12" color="info" />
-                    <CProgress thin :value="67" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Thursday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="43" color="info" />
-                    <CProgress thin :value="91" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Friday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="22" color="info" />
-                    <CProgress thin :value="73" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Saturday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="53" color="info" />
-                    <CProgress thin :value="82" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Sunday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="9" color="info" />
-                    <CProgress thin :value="69" color="danger" />
+                    <CProgress thin color="info" :value="item.value1" />
+                    <CProgress thin color="danger" :value="item.value2" />
                   </div>
                 </div>
               </CCol>
@@ -222,91 +168,30 @@
                   </CCol>
                 </CRow>
                 <hr class="mt-0" />
-                <div class="progress-group">
+                <div class="progress-group" v-for="item in progressGroupExample2" :key="item.title">
                   <div class="progress-group-header">
-                    <CIcon icon="cil-user" class="me-2" size="lg" />
-                    <span class="title">Male</span>
-                    <span class="ms-auto font-weight-bold">43%</span>
+                    <CIcon :icon="item.icon" class="me-2" size="lg" />
+                    <span class="title">{{item.title}}</span>
+                    <span class="ms-auto fw-semibold">{{item.value}}%</span>
                   </div>
                   <div class="progress-group-bars">
-                    <CProgress thin :value="43" color="warning" />
+                    <CProgress thin :value="item.value" color="warning" />
                   </div>
                 </div>
-                <div class="progress-group mb-5">
+
+                <div class="mb-5"></div>
+
+                <div class="progress-group" v-for="item in progressGroupExample3" :key="item.title">
                   <div class="progress-group-header">
-                    <CIcon icon="cil-user-female" class="me-2" size="lg" />
-                    <span class="title">Female</span>
-                    <span class="ms-auto font-weight-bold">37%</span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="37" color="warning" />
-                  </div>
-                </div>
-                <div class="progress-group">
-                  <div class="progress-group-header">
-                    <CIcon icon="cil-globe-alt" class="me-2" size="lg" />
+                    <CIcon :icon="item.icon" class="me-2" size="lg" />
                     <span class="title">Organic Search</span>
-                    <span class="ms-auto font-weight-bold">
-                      191,235
-                      <span class="text-medium-emphasis small">(56%)</span>
+                    <span class="ms-auto fw-semibold">
+                      {{item.value}}
+                      <span class="text-medium-emphasis small">({{item.percent}}%)</span>
                     </span>
                   </div>
                   <div class="progress-group-bars">
-                    <CProgress thin :value="56" color="success" />
-                  </div>
-                </div>
-                <div class="progress-group">
-                  <div class="progress-group-header">
-                    <CIcon
-                      icon="cib-facebook"
-                      height="17"
-                      class="me-2"
-                      size="lg"
-                    />
-                    <span class="title">Facebook</span>
-                    <span class="ms-auto font-weight-bold">
-                      51,223
-                      <span class="text-medium-emphasis small">(15%)</span>
-                    </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="15" color="success" />
-                  </div>
-                </div>
-                <div class="progress-group">
-                  <div class="progress-group-header">
-                    <CIcon
-                      icon="cib-twitter"
-                      height="17"
-                      class="me-2"
-                      size="lg"
-                    />
-                    <span class="title">Twitter</span>
-                    <span class="ms-auto font-weight-bold">
-                      37,564
-                      <span class="text-medium-emphasis small">(11%)</span>
-                    </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="11" color="success" />
-                  </div>
-                </div>
-                <div class="progress-group">
-                  <div class="progress-group-header">
-                    <CIcon
-                      icon="cib-linkedin"
-                      height="17"
-                      class="me-2"
-                      size="lg"
-                    />
-                    <span class="title">LinkedIn</span>
-                    <span class="ms-auto font-weight-bold">
-                      27,319
-                      <span class="text-medium-emphasis small">&nbsp;(8%)</span>
-                    </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress thin :value="8" color="success" />
+                    <CProgress thin :value="item.percent" color="success" />
                   </div>
                 </div>
               </CCol>
@@ -330,7 +215,7 @@
                 </CTableRow>
               </CTableHead>
               <CTableBody>
-                <CTableRow v-for="item in tableItems" :key="item.name">
+                <CTableRow v-for="item in tableExample" :key="item.name">
                   <CTableDataCell class="text-center">
                     <CAvatar
                       size="md"
@@ -406,7 +291,31 @@ export default {
     WidgetsStatsD,
   },
   setup() {
-    const tableItems = [
+    const progressGroupExample1 = [
+      { title: 'Monday', value1: 34, value2: 78 },
+      { title: 'Tuesday', value1: 56, value2: 94 },
+      { title: 'Wednesday', value1: 12, value2: 67 },
+      { title: 'Thursday', value1: 43, value2: 91 },
+      { title: 'Friday', value1: 22, value2: 73 },
+      { title: 'Saturday', value1: 53, value2: 82 },
+      { title: 'Sunday', value1: 9, value2: 69 },
+    ]
+    const progressGroupExample2 = [
+      { title: 'Male', icon: 'cil-user', value: 53 },
+      { title: 'Female', icon: 'cil-user-female', value: 43 },
+    ]
+    const progressGroupExample3 = [
+      {
+        title: 'Organic Search',
+        icon: 'cib-google',
+        percent: 56,
+        value: '191,235',
+      },
+      { title: 'Facebook', icon: 'cib-facebook', percent: 15, value: '51,223' },
+      { title: 'Twitter', icon: 'cib-twitter', percent: 11, value: '37,564' },
+      { title: 'LinkedIn', icon: 'cib-linkedin', percent: 8, value: '27,319' },
+    ]
+    const tableExample = [
       {
         avatar: { src: avatar1, status: 'success' },
         user: {
@@ -498,7 +407,10 @@ export default {
     ]
 
     return {
-      tableItems,
+      tableExample,
+      progressGroupExample1,
+      progressGroupExample2,
+      progressGroupExample3,
     }
   },
 }

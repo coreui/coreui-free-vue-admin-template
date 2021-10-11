@@ -59,7 +59,7 @@
             >
             <CModal
               :visible="visibleLiveDemo"
-              @dismiss="
+              @close="
                 () => {
                   visibleLiveDemo = false
                 }
@@ -67,7 +67,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     visibleLiveDemo = false
                   }
@@ -121,7 +121,7 @@
             <CModal
               backdrop="static"
               :visible="visibleStaticBackdropDemo"
-              @dismiss="
+              @close="
                 () => {
                   visibleStaticBackdropDemo = false
                 }
@@ -129,7 +129,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     visibleStaticBackdropDemo = false
                   }
@@ -182,7 +182,7 @@
             >
             <CModal
               :visible="visibleScrollingLongContentDemo"
-              @dismiss="
+              @close="
                 () => {
                   visibleScrollingLongContentDemo = false
                 }
@@ -190,7 +190,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     visibleScrollingLongContentDemo = false
                   }
@@ -316,7 +316,7 @@
             <CModal
               scrollable
               :visible="visibleScrollableDemo"
-              @dismiss="
+              @close="
                 () => {
                   visibleScrollableDemo = false
                 }
@@ -324,7 +324,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     visibleScrollableDemo = false
                   }
@@ -458,7 +458,7 @@
             <CModal
               alignment="center"
               :visible="visibleVerticallyCenteredDemo"
-              @dismiss="
+              @close="
                 () => {
                   visibleVerticallyCenteredDemo = false
                 }
@@ -466,7 +466,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     visibleVerticallyCenteredDemo = false
                   }
@@ -509,7 +509,7 @@
               alignment="center"
               scrollable
               :visible="visibleVerticallyCenteredScrollableDemo"
-              @dismiss="
+              @close="
                 () => {
                   visibleVerticallyCenteredScrollableDemo = false
                 }
@@ -517,7 +517,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     visibleVerticallyCenteredScrollableDemo = false
                   }
@@ -572,7 +572,7 @@
             >
             <CModal
               :visible="tooltipsAndPopoversDemo"
-              @dismiss="
+              @close="
                 () => {
                   tooltipsAndPopoversDemo = false
                 }
@@ -580,7 +580,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     tooltipsAndPopoversDemo = false
                   }
@@ -715,7 +715,7 @@
             <CModal
               size="xl"
               :visible="xlDemo"
-              @dismiss="
+              @close="
                 () => {
                   xlDemo = false
                 }
@@ -723,7 +723,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     xlDemo = false
                   }
@@ -736,7 +736,7 @@
             <CModal
               size="lg"
               :visible="lgDemo"
-              @dismiss="
+              @close="
                 () => {
                   lgDemo = false
                 }
@@ -744,7 +744,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     lgDemo = false
                   }
@@ -757,7 +757,7 @@
             <CModal
               size="sm"
               :visible="smDemo"
-              @dismiss="
+              @close="
                 () => {
                   smDemo = false
                 }
@@ -765,7 +765,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     smDemo = false
                   }
@@ -893,7 +893,7 @@
             <CModal
               fullscreen
               :visible="fullscreenDemo"
-              @dismiss="
+              @close="
                 () => {
                   fullscreenDemo = false
                 }
@@ -901,7 +901,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     xlDemo = false
                   }
@@ -914,7 +914,7 @@
             <CModal
               fullscreen="sm"
               :visible="fullscreenSmDemo"
-              @dismiss="
+              @close="
                 () => {
                   fullscreenSmDemo = false
                 }
@@ -922,7 +922,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     fullscreenSmDemo = false
                   }
@@ -935,7 +935,7 @@
             <CModal
               fullscreen="md"
               :visible="fullscreenMdDemo"
-              @dismiss="
+              @close="
                 () => {
                   fullscreenMdDemo = false
                 }
@@ -943,7 +943,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     fullscreenMdDemo = false
                   }
@@ -956,7 +956,7 @@
             <CModal
               fullscreen="lg"
               :visible="fullscreenLgDemo"
-              @dismiss="
+              @close="
                 () => {
                   fullscreenLgDemo = false
                 }
@@ -964,7 +964,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     fullscreenLgDemo = false
                   }
@@ -977,7 +977,7 @@
             <CModal
               fullscreen="xl"
               :visible="fullscreenXlDemo"
-              @dismiss="
+              @close="
                 () => {
                   fullscreenXlDemo = false
                 }
@@ -985,7 +985,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     fullscreenXlDemo = false
                   }
@@ -998,7 +998,7 @@
             <CModal
               fullscreen="xxl"
               :visible="fullscreenXxlDemo"
-              @dismiss="
+              @close="
                 () => {
                   fullscreenXxlDemo = false
                 }
@@ -1006,7 +1006,7 @@
             >
               <CModalHeader
                 dismiss
-                @dismiss="
+                @close="
                   () => {
                     fullscreenXxlDemo = false
                   }
