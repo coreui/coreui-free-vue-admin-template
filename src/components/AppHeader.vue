@@ -18,7 +18,7 @@
           <CNavLink href="#">Settings</CNavLink>
         </CNavItem>
       </CHeaderNav>
-      <CHeaderNav class="me-4">
+      <CHeaderNav>
         <CNavItem>
           <CNavLink href="#">
             <CIcon class="mx-2" icon="cil-bell" size="lg" />

@@ -1,7 +1,7 @@
 import { defineComponent, h, resolveComponent } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
-import { CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
+import { CBadge, CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
 import nav from '@/_nav.js'
 
 const AppSidebarNav = defineComponent({
@@ -49,9 +49,9 @@ const AppSidebarNav = defineComponent({
 
       if (item.items) {
         return h(
-          resolveComponent('CNavGroup'),
+          CNavGroup,
           {
-            visible: item.items.some((child) => isActiveItem(route, child)),
+            active: item.items.some((child) => isActiveItem(route, child)),
           },
           {
             togglerContent: () => [
@@ -92,7 +92,7 @@ const AppSidebarNav = defineComponent({
                       item.name,
                       item.badge &&
                         h(
-                          resolveComponent('CBadge'),
+                          CBadge,
                           {
                             class: 'ms-auto',
                             color: item.badge.color,

@@ -1,7 +1,7 @@
 <template>
   <CRow>
     <CCol>
-      <CCard>
+      <CCard class="mb-4">
         <CCardHeader> Headings </CCardHeader>
         <CCardBody>
           <p>
@@ -92,7 +92,7 @@
           </CTable>
         </CCardBody>
       </CCard>
-      <CCard>
+      <CCard class="mb-4">
         <CCardHeader> Headings </CCardHeader>
         <CCardBody>
           <p>
@@ -111,7 +111,7 @@
           </div>
         </CCardBody>
       </CCard>
-      <CCard>
+      <CCard class="mb-4">
         <CCardHeader> Display headings </CCardHeader>
         <CCardBody>
           <p>
@@ -148,7 +148,7 @@
           </div>
         </CCardBody>
       </CCard>
-      <CCard>
+      <CCard class="mb-4">
         <CCardHeader> Inline text elements </CCardHeader>
         <CCardBody>
           <p>
@@ -182,13 +182,13 @@
               </small>
             </p>
             <p>
-              <sCTableRowong>This line rendered as bold text.</sCTableRowong>
+              <strong>This line rendered as bold text.</strong>
             </p>
             <p><em>This line rendered as italicized text.</em></p>
           </div>
         </CCardBody>
       </CCard>
-      <CCard>
+      <CCard class="mb-4">
         <CCardHeader> Description list alignment </CCardHeader>
         <CCardBody>
           <p>
