@@ -6,4 +6,4 @@ See the [contributing guidelines](CONTRIBUTING.md) for sharing bug reports.
 
 For general troubleshooting or help getting started:
 
-- Join [the official community](https://community.coreui.io/).
+- Go to [Discussions](https://github.com/coreui/coreui-free-vue-admin-template/discussions).
