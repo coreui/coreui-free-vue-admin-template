@@ -1,8 +1,40 @@
-import { defineComponent, h, resolveComponent } from 'vue'
+import { defineComponent, h, onMounted, ref, resolveComponent } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
 import { CBadge, CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
 import nav from '@/_nav.js'
+
+const normalizePath = (path) =>
+decodeURI(path)
+  .replace(/#.*$/, '')
+  .replace(/(index)?\.(html)$/, '')
+
+const isActiveLink = (route, link) => {
+if (link === undefined) {
+  return false
+}
+
+if (route.hash === link) {
+  return true
+}
+
+const currentPath = normalizePath(route.path)
+const targetPath = normalizePath(link)
+
+return currentPath === targetPath
+}
+
+const isActiveItem = (route, item) => {
+if (isActiveLink(route, item.to)) {
+  return true
+}
+
+if (item.items) {
+  return item.items.some((child) => isActiveItem(route, child))
+}
+
+return false
+}
 
 const AppSidebarNav = defineComponent({
   name: 'AppSidebarNav',
@@ -12,46 +44,19 @@ const AppSidebarNav = defineComponent({
     CNavTitle,
   },
   setup() {
-    const normalizePath = (path) =>
-      decodeURI(path)
-        .replace(/#.*$/, '')
-        .replace(/(index)?\.(html)$/, '')
+    const route = useRoute()
+    const firstRender = ref(true)
 
-    const isActiveLink = (route, link) => {
-      if (link === undefined) {
-        return false
-      }
-
-      if (route.hash === link) {
-        return true
-      }
-
-      const currentPath = normalizePath(route.path)
-      const targetPath = normalizePath(link)
-
-      return currentPath === targetPath
-    }
-
-    const isActiveItem = (route, item) => {
-      if (isActiveLink(route, item.to)) {
-        return true
-      }
-
-      if (item.items) {
-        return item.items.some((child) => isActiveItem(route, child))
-      }
-
-      return false
-    }
+    onMounted(() => {
+      firstRender.value = false
+    })
 
     const renderItem = (item) => {
-      const route = useRoute()
-
       if (item.items) {
         return h(
           CNavGroup,
           {
-            active: item.items.some((child) => isActiveItem(route, child)),
+            ...firstRender.value && { visible: item.items.some((child) => isActiveItem(route, child))}
           },
           {
             togglerContent: () => [
