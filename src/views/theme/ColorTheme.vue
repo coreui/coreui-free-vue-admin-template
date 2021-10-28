@@ -5,7 +5,6 @@
       style="padding-top: 75%"
     ></div>
     <slot></slot>
-    <ColorView />
   </CCol>
 </template>
 

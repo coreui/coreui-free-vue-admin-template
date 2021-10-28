@@ -1,7 +1,6 @@
 <template>
   <CSidebar
     position="fixed"
-    selfHiding="md"
     :unfoldable="sidebarUnfoldable"
     :visible="sidebarVisible"
     @visible-change="

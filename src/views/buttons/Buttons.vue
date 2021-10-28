@@ -296,8 +296,6 @@
             >
               <CButton
                 :color="color"
-                :active="state === 'active' ? true : false"
-                :disabled="state === 'disabled' ? true : false"
                 shape="rounded-pill"
               >
                 {{ color.charAt(0).toUpperCase() + color.slice(1) }}
@@ -329,8 +327,6 @@
             >
               <CButton
                 :color="color"
-                :active="state === 'active' ? true : false"
-                :disabled="state === 'disabled' ? true : false"
                 shape="rounded-0"
               >
                 {{ color.charAt(0).toUpperCase() + color.slice(1) }}

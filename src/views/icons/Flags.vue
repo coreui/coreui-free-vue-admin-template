@@ -1,9 +1,14 @@
 <template>
   <CRow>
     <CCol>
+      <DocsCallout
+        name="CoreUI Flag Icons"
+        href="components/chart"
+        content="CoreUI Flag Icons. CoreUI Icons package is delivered with more than 1500 icons in multiple formats SVG, PNG, and Webfonts. CoreUI Icons are beautifully crafted symbols for common actions and items. You can use them in your digital products for web or mobile app."
+      />
       <CCard>
         <CCardHeader>
-          <strong>Vue CoreUI Flag Icons</strong>
+          CoreUI Icons - Flag
         </CCardHeader>
         <CCardBody>
           <CRow class="text-center">
