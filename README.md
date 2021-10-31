@@ -70,7 +70,7 @@ $ yarn install
 
 ``` bash
 # dev server with hot reload at http://localhost:3000
-$ npm serve
+$ npm run serve
 ```
 
 or 
