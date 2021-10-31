@@ -134,7 +134,7 @@
             <code>plain-text</code> boolean property to remove the default form
             field styling and preserve the correct margin and padding.
           </p>
-          <DocsExample href="components/accordion">
+          <DocsExample href="forms/form-control.html#readonly-plain-text">
             <CRow class="mb-3">
               <CFormLabel for="staticEmail" class="col-sm-2 col-form-label">
                 Email
@@ -158,7 +158,7 @@
               </div>
             </CRow>
           </DocsExample>
-          <DocsExample href="components/accordion">
+          <DocsExample href="forms/form-control.html#readonly-plain-text">
             <CForm class="row g-3">
               <div class="col-auto">
                 <CFormLabel for="staticEmail2" class="visually-hidden">

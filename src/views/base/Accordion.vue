@@ -125,7 +125,7 @@
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
-            Add <code>alwaysOpen</code> property to make accordion items stay
+            Add <code>always-open</code> property to make accordion items stay
             open when another item is opened.
           </p>
           <DocsExample href="components/accordion#always-open">

@@ -593,7 +593,7 @@
               >border utilities</a
             >
             to change just the <code>border-color</code> of a card. Note that
-            you can set <code>textColor</code> property on the
+            you can set <code>text-color</code> property on the
             <code>&lt;CCard&gt;</code> or a subset of the card&#39;s contents as
             shown below.
           </p>
@@ -635,7 +635,7 @@
               >border utilities</a
             >
             to change just the <code>border-color</code> of a card. Note that
-            you can set <code>textColor</code> property on the
+            you can set <code>text-color</code> property on the
             <code>&lt;CCard&gt;</code> or a subset of the card&#39;s contents as
             shown below.
           </p>
