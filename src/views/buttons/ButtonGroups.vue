@@ -86,21 +86,21 @@
               aria-label="Basic checkbox toggle button group"
             >
               <CFormCheck
-                :button="{ color: 'primary', variant: 'outline' }"
                 id="btncheck1"
-                autoComplete="off"
+                :button="{ color: 'primary', variant: 'outline' }"
+                autocomplete="off"
                 label="Checkbox 1"
               />
               <CFormCheck
-                :button="{ color: 'primary', variant: 'outline' }"
                 id="btncheck2"
-                autoComplete="off"
+                :button="{ color: 'primary', variant: 'outline' }"
+                autocomplete="off"
                 label="Checkbox 2"
               />
               <CFormCheck
-                :button="{ color: 'primary', variant: 'outline' }"
                 id="btncheck3"
-                autoComplete="off"
+                :button="{ color: 'primary', variant: 'outline' }"
+                autocomplete="off"
                 label="Checkbox 3"
               />
             </CButtonGroup>
@@ -113,27 +113,27 @@
               aria-label="Basic checkbox toggle button group"
             >
               <CFormCheck
+                id="btnradio1"
                 type="radio"
                 :button="{ color: 'primary', variant: 'outline' }"
                 name="btnradio"
-                id="btnradio1"
-                autoComplete="off"
+                autocomplete="off"
                 label="Radio 1"
               />
               <CFormCheck
+                id="btnradio2"
                 type="radio"
                 :button="{ color: 'primary', variant: 'outline' }"
                 name="btnradio"
-                id="btnradio2"
-                autoComplete="off"
+                autocomplete="off"
                 label="Radio 2"
               />
               <CFormCheck
+                id="btnradio3"
                 type="radio"
                 :button="{ color: 'primary', variant: 'outline' }"
                 name="btnradio"
-                id="btnradio3"
-                autoComplete="off"
+                autocomplete="off"
                 label="Radio 3"
               />
             </CButtonGroup>
@@ -384,30 +384,30 @@
               aria-label="Vertical button group"
             >
               <CFormCheck
+                id="vbtnradio1"
                 type="radio"
                 :button="{ color: 'danger', variant: 'outline' }"
                 name="vbtnradio"
-                id="vbtnradio1"
-                autoComplete="off"
+                autocomplete="off"
                 label="Radio
               1"
-                defaultChecked
+                checked
               />
               <CFormCheck
+                id="vbtnradio2"
                 type="radio"
                 :button="{ color: 'danger', variant: 'outline' }"
                 name="vbtnradio"
-                id="vbtnradio2"
-                autoComplete="off"
+                autocomplete="off"
                 label="Radio
               2"
               />
               <CFormCheck
+                id="vbtnradio3"
                 type="radio"
                 :button="{ color: 'danger', variant: 'outline' }"
                 name="vbtnradio"
-                id="vbtnradio3"
-                autoComplete="off"
+                autocomplete="off"
                 label="Radio
               3"
               />

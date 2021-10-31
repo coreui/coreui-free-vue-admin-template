@@ -14,7 +14,7 @@
           </p>
           <DocsExample href="components/accordion">
             <CAccordion>
-              <CAccordionItem :itemKey="1">
+              <CAccordionItem :item-key="1">
                 <CAccordionHeader> Accordion Item #1 </CAccordionHeader>
                 <CAccordionBody>
                   <strong>This is the first item's accordion body.</strong> It
@@ -28,7 +28,7 @@
                   overflow.
                 </CAccordionBody>
               </CAccordionItem>
-              <CAccordionItem :itemKey="2">
+              <CAccordionItem :item-key="2">
                 <CAccordionHeader> Accordion Item #2 </CAccordionHeader>
                 <CAccordionBody>
                   <strong>This is the second item's accordion body.</strong> It
@@ -42,7 +42,7 @@
                   overflow.
                 </CAccordionBody>
               </CAccordionItem>
-              <CAccordionItem :itemKey="3">
+              <CAccordionItem :item-key="3">
                 <CAccordionHeader> Accordion Item #3 </CAccordionHeader>
                 <CAccordionBody>
                   <strong>This is the third item's accordion body.</strong> It
@@ -129,8 +129,8 @@
             open when another item is opened.
           </p>
           <DocsExample href="components/accordion#always-open">
-            <CAccordion :activeItemKey="2" alwaysOpen>
-              <CAccordionItem :itemKey="1">
+            <CAccordion :active-item-key="2" always-open>
+              <CAccordionItem :item-key="1">
                 <CAccordionHeader> Accordion Item #1 </CAccordionHeader>
                 <CAccordionBody>
                   <strong>This is the first item's accordion body.</strong> It
@@ -144,7 +144,7 @@
                   overflow.
                 </CAccordionBody>
               </CAccordionItem>
-              <CAccordionItem :itemKey="2">
+              <CAccordionItem :item-key="2">
                 <CAccordionHeader> Accordion Item #2 </CAccordionHeader>
                 <CAccordionBody>
                   <strong>This is the second item's accordion body.</strong> It
@@ -158,7 +158,7 @@
                   overflow.
                 </CAccordionBody>
               </CAccordionItem>
-              <CAccordionItem :itemKey="3">
+              <CAccordionItem :item-key="3">
                 <CAccordionHeader> Accordion Item #3 </CAccordionHeader>
                 <CAccordionBody>
                   <strong>This is the third item's accordion body.</strong> It

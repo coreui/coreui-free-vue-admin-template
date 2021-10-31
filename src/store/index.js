@@ -14,7 +14,7 @@ export default createStore({
     },
     updateSidebarVisible(state, payload) {
       state.sidebarVisible = payload.value
-    }
+    },
   },
   actions: {},
   modules: {},

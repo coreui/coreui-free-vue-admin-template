@@ -192,8 +192,8 @@
                   'light',
                   'dark',
                 ]"
-                :color="item"
                 :key="item"
+                :color="item"
                 >A simple {{ item }} list group item</CListGroupItem
               >
             </CListGroup>
@@ -221,10 +221,10 @@
                   'light',
                   'dark',
                 ]"
+                :key="item"
                 component="a"
                 href="#"
                 :color="item"
-                :key="item"
                 >A simple {{ item }} list group item</CListGroupItem
               >
             </CListGroup>
@@ -340,10 +340,10 @@
                 <CFormCheck label="Cras justo odio" />
               </CListGroupItem>
               <CListGroupItem>
-                <CFormCheck label="Dapibus ac facilisis in" defaultChecked />
+                <CFormCheck label="Dapibus ac facilisis in" checked />
               </CListGroupItem>
               <CListGroupItem>
-                <CFormCheck label="Morbi leo risus" defaultChecked />
+                <CFormCheck label="Morbi leo risus" checked />
               </CListGroupItem>
               <CListGroupItem>
                 <CFormCheck label="orta ac consectetur ac" />

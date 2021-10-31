@@ -11,14 +11,14 @@
         <CCardBody>
           <DocsExample href="components/popover.html#example">
             <CButton
-              color="danger"
-              size="lg"
               v-c-popover="{
                 header: 'Popover title',
                 content:
                   'And here\’s some amazing content. It’s very engaging. Right?',
                 placement: 'right',
               }"
+              color="danger"
+              size="lg"
             >
               Click to toggle popover
             </CButton>
@@ -38,39 +38,39 @@
           </p>
           <DocsExample href="components/popover.html#four-directions">
             <CButton
-              color="secondary"
               v-c-popover="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'top',
               }"
+              color="secondary"
               >Popover on top</CButton
             >
             <CButton
-              color="secondary"
               v-c-popover="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'right',
               }"
+              color="secondary"
               >Popover on right</CButton
             >
             <CButton
-              color="secondary"
               v-c-popover="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'bottom',
               }"
+              color="secondary"
               >Popover on bottom</CButton
             >
             <CButton
-              color="secondary"
               v-c-popover="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'left',
               }"
+              color="secondary"
               >Popover on left</CButton
             >
           </DocsExample>

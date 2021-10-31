@@ -224,10 +224,10 @@
           <DocsExample href="forms/input-group.html#button-addons">
             <CInputGroup class="mb-3">
               <CButton
+                id="button-addon1"
                 type="button"
                 color="secondary"
                 variant="outline"
-                id="button-addon1"
               >
                 Button
               </CButton>
@@ -244,10 +244,10 @@
                 aria-describedby="button-addon2"
               />
               <CButton
+                id="button-addon2"
                 type="button"
                 color="secondary"
                 variant="outline"
-                id="button-addon2"
               >
                 Button
               </CButton>
@@ -467,42 +467,42 @@
               <CInputGroupText component="label" for="inputGroupFile01">
                 Upload
               </CInputGroupText>
-              <CFormInput type="file" id="inputGroupFile01" />
+              <CFormInput id="inputGroupFile01" type="file" />
             </CInputGroup>
             <CInputGroup class="mb-3">
-              <CFormInput type="file" id="inputGroupFile02" />
+              <CFormInput id="inputGroupFile02" type="file" />
               <CInputGroupText component="label" for="inputGroupFile02">
                 Upload
               </CInputGroupText>
             </CInputGroup>
             <CInputGroup class="mb-3">
               <CButton
+                id="inputGroupFileAddon03"
                 type="button"
                 color="secondary"
                 variant="outline"
-                id="inputGroupFileAddon03"
               >
                 Button
               </CButton>
               <CFormInput
-                type="file"
                 id="inputGroupFile03"
+                type="file"
                 aria-describedby="inputGroupFileAddon03"
                 aria-label="Upload"
               />
             </CInputGroup>
             <CInputGroup>
               <CFormInput
-                type="file"
                 id="inputGroupFile04"
+                type="file"
                 aria-describedby="inputGroupFileAddon04"
                 aria-label="Upload"
               />
               <CButton
+                id="inputGroupFileAddon04"
                 type="button"
                 color="secondary"
                 variant="outline"
-                id="inputGroupFileAddon04"
               >
                 Button
               </CButton>

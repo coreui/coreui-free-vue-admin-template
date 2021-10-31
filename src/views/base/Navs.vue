@@ -34,9 +34,8 @@
           </DocsExample>
           <p class="text-medium-emphasis small">
             Classes are used throughout, so your markup can be super flexible.
-            Use{' '}
-            <code>&lt;ul&gt;</code>s like above, <code>&lt;ol&gt;</code> if the
-            order of your items is important, or roll your own with a
+            Use <code>&lt;ul&gt;</code>s like above, <code>&lt;ol&gt;</code> if
+            the order of your items is important, or roll your own with a
             <code>&lt;nav&gt;</code> element. Because the .nav uses display:
             flex, the nav links behave the same as nav items would, but without
             the extra markup.
@@ -59,7 +58,7 @@
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
-            Change the horizontal alignment of your nav with{' '}
+            Change the horizontal alignment of your nav with
             <a href="https://coreui.io/docs/layout/grid/#horizontal-alignment">
               flexbox utilities
             </a>
@@ -207,7 +206,7 @@
           <p class="text-medium-emphasis small">
             Force your <code>.nav</code>&#39;s contents to extend the full
             available width one of two modifier classes. To proportionately fill
-            all available space with your{' '} <code>.nav-item</code>s, use
+            all available space with your <code>.nav-item</code>s, use
             <code>layout=&#34;fill&#34;</code>. Notice that all horizontal space
             is occupied, but not every nav item has the same width.
           </p>

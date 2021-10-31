@@ -274,17 +274,17 @@ const routes = [
       {
         path: '500',
         name: 'Page500',
-        component: () => import('@/views/pages/Page500')
+        component: () => import('@/views/pages/Page500'),
       },
       {
         path: 'login',
         name: 'Login',
-        component: () => import('@/views/pages/Login')
+        component: () => import('@/views/pages/Login'),
       },
       {
         path: 'register',
         name: 'Register',
-        component: () => import('@/views/pages/Register')
+        component: () => import('@/views/pages/Register'),
       },
     ],
   },

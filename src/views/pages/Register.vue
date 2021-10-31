@@ -12,11 +12,11 @@
                   <CInputGroupText>
                     <CIcon icon="cil-user" />
                   </CInputGroupText>
-                  <CFormInput placeholder="Username" autoComplete="username" />
+                  <CFormInput placeholder="Username" autocomplete="username" />
                 </CInputGroup>
                 <CInputGroup class="mb-3">
                   <CInputGroupText>@</CInputGroupText>
-                  <CFormInput placeholder="Email" autoComplete="email" />
+                  <CFormInput placeholder="Email" autocomplete="email" />
                 </CInputGroup>
                 <CInputGroup class="mb-3">
                   <CInputGroupText>
@@ -25,7 +25,7 @@
                   <CFormInput
                     type="password"
                     placeholder="Password"
-                    autoComplete="new-password"
+                    autocomplete="new-password"
                   />
                 </CInputGroup>
                 <CInputGroup class="mb-4">
@@ -35,7 +35,7 @@
                   <CFormInput
                     type="password"
                     placeholder="Repeat password"
-                    autoComplete="new-password"
+                    autocomplete="new-password"
                   />
                 </CInputGroup>
                 <div class="d-grid">
