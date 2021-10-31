@@ -964,10 +964,10 @@
   resolved "https://registry.yarnpkg.com/@coreui/vue-chartjs/-/vue-chartjs-2.0.0.tgz#80cd8a0ac0abc2f6bc362280bc84bfdecc8e1be4"
   integrity sha512-suL4F2ZQyEC0YTSFe66FfCHuMXTvKXY+roPa7naahdrIcl1uEk65ffDVEqPjk8HmKSOywBi9I04AXmt3Ru5G9Q==
 
-"@coreui/vue@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@coreui/vue/-/vue-4.0.0.tgz#2d9e271120648526c7e460b9c67411a31a1c571a"
-  integrity sha512-7AL6Sb6PPYQWHGIrX+V2RS1yW3jCwbBc3krgJ64/gtKX42okUvvDRbyxvVj0Ooci/NlVgQ24iPcpIbso8EINtA==
+"@coreui/vue@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@coreui/vue/-/vue-4.0.1.tgz#b10143f539aa98f788f59040e6b9cb3ff90c92b8"
+  integrity sha512-46n/EWgn44QywjCcNDfV2AXomOBmIUWoI60vMDXi5LJr16klEd15Pwd4CR5Pj9J4IGOn5i+KfWI9J1AxsvCZ/A==
 
 "@cypress/listr-verbose-renderer@0.4.1":
   version "0.4.1"
