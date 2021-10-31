@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.14",
-    "@vue/cli-plugin-e2e-nightwatch": "~4.5.14",
+    "@vue/cli-plugin-e2e-cypress": "~4.5.14",
     "@vue/cli-plugin-eslint": "~4.5.14",
     "@vue/cli-plugin-router": "~4.5.14",
     "@vue/cli-plugin-unit-jest": "~4.5.14",
@@ -49,7 +49,6 @@
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^7.20.0",
-    "geckodriver": "^2.0.4",
     "prettier": "^2.4.1",
     "sass": "^1.43.3",
     "sass-loader": "^10.2.0",
