@@ -130,7 +130,7 @@ export default [
     component: 'CNavGroup',
     name: 'Forms',
     to: '/forms',
-    icon: 'cil-star',
+    icon: 'cil-notes',
     items: [
       {
         component: 'CNavItem',
