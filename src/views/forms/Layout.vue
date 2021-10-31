@@ -55,11 +55,11 @@
             <CForm class="row g-3">
               <CCol :md="6">
                 <CFormLabel for="inputEmail4">Email</CFormLabel>
-                <CFormInput type="email" id="inputEmail4" />
+                <CFormInput id="inputEmail4" type="email" />
               </CCol>
               <CCol :md="6">
                 <CFormLabel for="inputPassword4">Password</CFormLabel>
-                <CFormInput type="password" id="inputPassword4" />
+                <CFormInput id="inputPassword4" type="password" />
               </CCol>
               <CCol :xs="12">
                 <CFormLabel for="inputAddress">Address</CFormLabel>
@@ -89,8 +89,8 @@
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
-                  type="checkbox"
                   id="gridCheck"
+                  type="checkbox"
                   label="Check me out"
                 />
               </CCol>
@@ -129,7 +129,7 @@
                   Email
                 </CFormLabel>
                 <CCol :sm="10">
-                  <CFormInput type="email" id="inputEmail3" />
+                  <CFormInput id="inputEmail3" type="email" />
                 </CCol>
               </CRow>
               <CRow class="mb-3">
@@ -140,31 +140,31 @@
                   Password
                 </CFormLabel>
                 <CCol :sm="10">
-                  <CFormInput type="password" id="inputPassword3" />
+                  <CFormInput id="inputPassword3" type="password" />
                 </CCol>
               </CRow>
               <fieldset class="row mb-3">
                 <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
                 <CCol :sm="10">
                   <CFormCheck
+                    id="gridRadios1"
                     type="radio"
                     name="gridRadios"
-                    id="gridRadios1"
                     value="option1"
                     label="First radio"
-                    defaultChecked
+                    checked
                   />
                   <CFormCheck
+                    id="gridRadios2"
                     type="radio"
                     name="gridRadios"
-                    id="gridRadios2"
                     value="option2"
                     label="Second radio"
                   />
                   <CFormCheck
+                    id="gridRadios3"
                     type="radio"
                     name="gridRadios"
-                    id="gridRadios3"
                     value="option3"
                     label="Third disabled radio"
                     disabled
@@ -174,8 +174,8 @@
               <CRow class="mb-3">
                 <div class="col-sm-10 offset-sm-2">
                   <CFormCheck
-                    type="checkbox"
                     id="gridCheck1"
+                    type="checkbox"
                     label="Example checkbox"
                   />
                 </div>
@@ -209,9 +209,9 @@
               </CFormLabel>
               <CCol :sm="10">
                 <CFormInput
+                  id="colFormLabelSm"
                   type="email"
                   class="form-control form-control-sm"
-                  id="colFormLabelSm"
                   placeholder="col-form-label-sm"
                 />
               </CCol>
@@ -222,8 +222,8 @@
               </CFormLabel>
               <CCol :sm="10">
                 <CFormInput
-                  type="email"
                   id="colFormLabel"
+                  type="email"
                   placeholder="col-form-label"
                 />
               </CCol>
@@ -237,9 +237,9 @@
               </CFormLabel>
               <CCol :sm="10">
                 <CFormInput
+                  id="colFormLabelLg"
                   type="email"
                   class="form-control form-control-lg"
-                  id="colFormLabelLg"
                   placeholder="col-form-label-lg"
                 />
               </CCol>
@@ -327,8 +327,8 @@
               </CCol>
               <CCol xs="auto">
                 <CFormCheck
-                  type="checkbox"
                   id="autoSizingCheck"
+                  type="checkbox"
                   label="Remember me"
                 />
               </CCol>
@@ -377,8 +377,8 @@
               </CCol>
               <CCol xs="auto">
                 <CFormCheck
-                  type="checkbox"
                   id="autoSizingCheck2"
+                  type="checkbox"
                   label="Remember me"
                 />
               </CCol>
@@ -435,8 +435,8 @@
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
-                  type="checkbox"
                   id="inlineFormCheck"
+                  type="checkbox"
                   label="Remember me"
                 />
               </CCol>

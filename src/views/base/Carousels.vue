@@ -15,25 +15,13 @@
           <DocsExample href="components/carousel.html#slides-only">
             <CCarousel>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="VueImg"
-                  alt="slide 1"
-                />
+                <img class="d-block w-100" :src="VueImg" alt="slide 1" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="ReactImg"
-                  alt="slide 2"
-                />
+                <img class="d-block w-100" :src="ReactImg" alt="slide 2" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="AngularImg"
-                  alt="slide 3"
-                />
+                <img class="d-block w-100" :src="AngularImg" alt="slide 3" />
               </CCarouselItem>
             </CCarousel>
           </DocsExample>
@@ -51,25 +39,13 @@
           <DocsExample href="components/carousel.html#with-controls">
             <CCarousel controls>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="VueImg"
-                  alt="slide 1"
-                />
+                <img class="d-block w-100" :src="VueImg" alt="slide 1" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="ReactImg"
-                  alt="slide 2"
-                />
+                <img class="d-block w-100" :src="ReactImg" alt="slide 2" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="AngularImg"
-                  alt="slide 3"
-                />
+                <img class="d-block w-100" :src="AngularImg" alt="slide 3" />
               </CCarouselItem>
             </CCarousel>
           </DocsExample>
@@ -87,25 +63,13 @@
           <DocsExample href="components/carousel.html#with-indicators">
             <CCarousel controls indicators>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="VueImg"
-                  alt="slide 1"
-                />
+                <img class="d-block w-100" :src="VueImg" alt="slide 1" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="ReactImg"
-                  alt="slide 2"
-                />
+                <img class="d-block w-100" :src="ReactImg" alt="slide 2" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="AngularImg"
-                  alt="slide 3"
-                />
+                <img class="d-block w-100" :src="AngularImg" alt="slide 3" />
               </CCarouselItem>
             </CCarousel>
           </DocsExample>
@@ -129,11 +93,7 @@
           <DocsExample href="components/carousel.html#with-captions">
             <CCarousel controls indicators>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="VueImg"
-                  alt="slide 1"
-                />
+                <img class="d-block w-100" :src="VueImg" alt="slide 1" />
                 <CCarouselCaption class="d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>
@@ -142,11 +102,7 @@
                 </CCarouselCaption>
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="ReactImg"
-                  alt="slide 2"
-                />
+                <img class="d-block w-100" :src="ReactImg" alt="slide 2" />
                 <CCarouselCaption class="d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>
@@ -155,11 +111,7 @@
                 </CCarouselCaption>
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="AngularImg"
-                  alt="slide 3"
-                />
+                <img class="d-block w-100" :src="AngularImg" alt="slide 3" />
                 <CCarouselCaption class="d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>
@@ -183,25 +135,13 @@
           <DocsExample href="components/carousel.html#crossfade">
             <CCarousel controls indicators transition="crossfade">
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="VueImg"
-                  alt="slide 1"
-                />
+                <img class="d-block w-100" :src="VueImg" alt="slide 1" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="ReactImg"
-                  alt="slide 2"
-                />
+                <img class="d-block w-100" :src="ReactImg" alt="slide 2" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="AngularImg"
-                  alt="slide 3"
-                />
+                <img class="d-block w-100" :src="AngularImg" alt="slide 3" />
               </CCarouselItem>
             </CCarousel>
           </DocsExample>
@@ -223,25 +163,13 @@
           <DocsExample href="components/carousel.html#dark-variant">
             <CCarousel controls indicators dark>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="VueImg"
-                  alt="slide 1"
-                />
+                <img class="d-block w-100" :src="VueImg" alt="slide 1" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="ReactImg"
-                  alt="slide 2"
-                />
+                <img class="d-block w-100" :src="ReactImg" alt="slide 2" />
               </CCarouselItem>
               <CCarouselItem>
-                <img
-                  class="d-block w-100"
-                  :src="AngularImg"
-                  alt="slide 3"
-                />
+                <img class="d-block w-100" :src="AngularImg" alt="slide 3" />
               </CCarouselItem>
             </CCarousel>
           </DocsExample>
@@ -263,6 +191,6 @@ export default {
       ReactImg,
       VueImg,
     }
-  }
+  },
 }
 </script>

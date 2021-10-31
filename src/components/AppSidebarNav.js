@@ -1,39 +1,45 @@
 import { defineComponent, h, onMounted, ref, resolveComponent } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
-import { CBadge, CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
+import {
+  CBadge,
+  CSidebarNav,
+  CNavItem,
+  CNavGroup,
+  CNavTitle,
+} from '@coreui/vue'
 import nav from '@/_nav.js'
 
 const normalizePath = (path) =>
-decodeURI(path)
-  .replace(/#.*$/, '')
-  .replace(/(index)?\.(html)$/, '')
+  decodeURI(path)
+    .replace(/#.*$/, '')
+    .replace(/(index)?\.(html)$/, '')
 
 const isActiveLink = (route, link) => {
-if (link === undefined) {
-  return false
-}
+  if (link === undefined) {
+    return false
+  }
 
-if (route.hash === link) {
-  return true
-}
+  if (route.hash === link) {
+    return true
+  }
 
-const currentPath = normalizePath(route.path)
-const targetPath = normalizePath(link)
+  const currentPath = normalizePath(route.path)
+  const targetPath = normalizePath(link)
 
-return currentPath === targetPath
+  return currentPath === targetPath
 }
 
 const isActiveItem = (route, item) => {
-if (isActiveLink(route, item.to)) {
-  return true
-}
+  if (isActiveLink(route, item.to)) {
+    return true
+  }
 
-if (item.items) {
-  return item.items.some((child) => isActiveItem(route, child))
-}
+  if (item.items) {
+    return item.items.some((child) => isActiveItem(route, child))
+  }
 
-return false
+  return false
 }
 
 const AppSidebarNav = defineComponent({
@@ -56,7 +62,9 @@ const AppSidebarNav = defineComponent({
         return h(
           CNavGroup,
           {
-            ...firstRender.value && { visible: item.items.some((child) => isActiveItem(route, child))}
+            ...(firstRender.value && {
+              visible: item.items.some((child) => isActiveItem(route, child)),
+            }),
           },
           {
             togglerContent: () => [

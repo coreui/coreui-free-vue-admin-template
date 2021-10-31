@@ -22,19 +22,19 @@
           <DocsExample href="forms/floating-labels.html">
             <CFormFloating class="mb-3">
               <CFormInput
-                type="email"
                 id="floatingInput"
+                type="email"
                 placeholder="name@example.com"
               />
-              <CFormLabel htmlFor="floatingInput">Email address</CFormLabel>
+              <CFormLabel for="floatingInput">Email address</CFormLabel>
             </CFormFloating>
             <CFormFloating>
               <CFormInput
-                type="password"
                 id="floatingPassword"
+                type="password"
                 placeholder="Password"
               />
-              <CFormLabel htmlFor="floatingPassword">Password</CFormLabel>
+              <CFormLabel for="floatingPassword">Password</CFormLabel>
             </CFormFloating>
           </DocsExample>
           <p class="text-medium-emphasis small">
@@ -45,14 +45,12 @@
           <DocsExample href="forms/floating-labels.html">
             <CFormFloating>
               <CFormInput
-                type="email"
                 id="floatingInputValue"
+                type="email"
                 placeholder="name@example.com"
-                defaultValue="test@example.com"
+                value="test@example.com"
               />
-              <CFormLabel htmlFor="floatingInputValue"
-                >Input with value</CFormLabel
-              >
+              <CFormLabel for="floatingInputValue">Input with value</CFormLabel>
             </CFormFloating>
           </DocsExample>
         </CCardBody>
@@ -74,7 +72,7 @@
                 id="floatingTextarea"
                 placeholder="Leave a comment here"
               ></CFormTextarea>
-              <CFormLabel htmlFor="floatingTextarea">Comments</CFormLabel>
+              <CFormLabel for="floatingTextarea">Comments</CFormLabel>
             </CFormFloating>
           </DocsExample>
           <p class="text-medium-emphasis small">
@@ -85,11 +83,11 @@
           <DocsExample href="forms/floating-labels.html#textareas">
             <CFormFloating>
               <CFormTextarea
-                placeholder="Leave a comment here"
                 id="floatingTextarea2"
+                placeholder="Leave a comment here"
                 style="height: 100px"
               ></CFormTextarea>
-              <CFormLabel htmlFor="floatingTextarea2">Comments</CFormLabel>
+              <CFormLabel for="floatingTextarea2">Comments</CFormLabel>
             </CFormFloating>
           </DocsExample>
         </CCardBody>
@@ -123,9 +121,7 @@
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </CFormSelect>
-              <CFormLabel htmlFor="floatingSelect"
-                >Works with selects</CFormLabel
-              >
+              <CFormLabel for="floatingSelect">Works with selects</CFormLabel>
             </CFormFloating>
           </DocsExample>
         </CCardBody>
@@ -146,14 +142,12 @@
               <CCol md>
                 <CFormFloating>
                   <CFormInput
-                    type="email"
                     id="floatingInputGrid"
+                    type="email"
                     placeholder="name@example.com"
-                    defaultValue="email@example.com"
+                    value="email@example.com"
                   />
-                  <CFormLabel htmlFor="floatingInputGrid"
-                    >Email address</CFormLabel
-                  >
+                  <CFormLabel for="floatingInputGrid">Email address</CFormLabel>
                 </CFormFloating>
               </CCol>
               <CCol md>
@@ -167,7 +161,7 @@
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                   </CFormSelect>
-                  <CFormLabel htmlFor="floatingSelectGrid"
+                  <CFormLabel for="floatingSelectGrid"
                     >Works with selects</CFormLabel
                   >
                 </CFormFloating>

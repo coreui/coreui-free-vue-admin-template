@@ -571,7 +571,7 @@
                   <CCard
                     class="mb-3"
                     :color="item.color"
-                    :textColor="item.textColor"
+                    :text-color="item.textColor"
                   >
                     <CCardHeader>Header</CCardHeader>
                     <CCardBody>
@@ -593,7 +593,7 @@
               >border utilities</a
             >
             to change just the <code>border-color</code> of a card. Note that
-            you can set <code>textColor</code> property on the
+            you can set <code>text-color</code> property on the
             <code>&lt;CCard&gt;</code> or a subset of the card&#39;s contents as
             shown below.
           </p>
@@ -612,7 +612,7 @@
               :key="item"
             >
               <CCard
-                :textColor="item.textColor"
+                :text-color="item.textColor"
                 class="mb-3"
                 :class="'border-' + item.color"
                 style="max-width: 18rem"
@@ -635,7 +635,7 @@
               >border utilities</a
             >
             to change just the <code>border-color</code> of a card. Note that
-            you can set <code>textColor</code> property on the
+            you can set <code>text-color</code> property on the
             <code>&lt;CCard&gt;</code> or a subset of the card&#39;s contents as
             shown below.
           </p>
@@ -654,7 +654,7 @@
               :key="item.color"
             >
               <CCard
-                :textColor="item.textColor"
+                :text-color="item.textColor"
                 class="mb-3 border-top-3"
                 :class="'border-top-' + item.color"
                 style="max-width: 18rem"
@@ -802,16 +802,13 @@
         <CCardBody>
           <p class="text-medium-emphasis small">
             Use the <code>CRow</code> component and set
-            <code
-              >&#123;xs|sm|md|lg|xl|xxl&#125;="&#123; cols: *
-              &#125;"</code
-            >
+            <code>&#123;xs|sm|md|lg|xl|xxl&#125;="&#123; cols: * &#125;"</code>
             property to control how many grid columns (wrapped around your
             cards) you show per row. For example, here&#39;s
-            <code>xs="&#123;cols: 1&#125;"</code> laying out the cards
-            on one column, and
-            <code>md="&#123;cols: 1&#125;"</code> splitting four cards
-            to equal width across multiple rows, from the medium breakpoint up.
+            <code>xs="&#123;cols: 1&#125;"</code> laying out the cards on one
+            column, and <code>md="&#123;cols: 1&#125;"</code> splitting four
+            cards to equal width across multiple rows, from the medium
+            breakpoint up.
           </p>
           <DocsExample href="components/card/#grid-cards">
             <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 2 }">
@@ -890,8 +887,8 @@
             </CRow>
           </DocsExample>
           <p class="text-medium-emphasis small">
-            Change it to <code>md="&#123; cols: 3&#125;"</code> and
-            you&#39;ll see the fourth card wrap.
+            Change it to <code>md="&#123; cols: 3&#125;"</code> and you&#39;ll
+            see the fourth card wrap.
           </p>
           <DocsExample href="components/card/#grid-cards">
             <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 3 }">

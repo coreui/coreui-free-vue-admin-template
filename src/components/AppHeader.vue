@@ -55,7 +55,6 @@ export default {
     AppHeaderDropdownAccnt,
   },
   setup() {
-
     return {
       logo,
     }

@@ -34,39 +34,39 @@
           </p>
           <DocsExample href="components/tooltip.html">
             <CButton
-              color="secondary"
               v-c-tooltip="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'top',
               }"
+              color="secondary"
               >Tooltip on top</CButton
             >
             <CButton
-              color="secondary"
               v-c-tooltip="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'right',
               }"
+              color="secondary"
               >Tooltip on right</CButton
             >
             <CButton
-              color="secondary"
               v-c-tooltip="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'bottom',
               }"
+              color="secondary"
               >Tooltip on bottom</CButton
             >
             <CButton
-              color="secondary"
               v-c-tooltip="{
                 content:
                   'Vivamus sagittis lacus vel augue laoreet rutrum faucibus.',
                 placement: 'left',
               }"
+              color="secondary"
               >Tooltip on left</CButton
             >
           </DocsExample>

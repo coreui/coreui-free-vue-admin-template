@@ -7,7 +7,7 @@
         </CNavLink>
       </CNavItem>
       <CNavItem>
-        <CNavLink :href="href" target="_blank">
+        <CNavLink :href="url" target="_blank">
           <CIcon icon="cil-code" class="me-2" />
           Code
         </CNavLink>
@@ -33,10 +33,10 @@ export default {
     },
   },
   setup(props) {
-    const href = `https://coreui.io/vue/docs/${pkg.config.coreui_library_short_version}/${props.href}`
+    const url = `https://coreui.io/vue/docs/${pkg.config.coreui_library_short_version}/${props.href}`
 
     return {
-      href,
+      url,
     }
   },
 }

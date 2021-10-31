@@ -38,7 +38,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -153,7 +153,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -187,7 +187,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -218,7 +218,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -262,7 +262,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -293,7 +293,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -324,7 +324,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -364,7 +364,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2" active>
+                  <CTableDataCell colspan="2" active>
                     Larry the Bird
                   </CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
@@ -397,7 +397,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2" active>
+                  <CTableDataCell colspan="2" active>
                     Larry the Bird
                   </CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
@@ -443,7 +443,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -456,7 +456,7 @@
             can be added to change colors:
           </p>
           <DocsExample href="components/table.html#bordered-tables">
-            <CTable bordered borderColor="primary">
+            <CTable bordered border-color="primary">
               <CTableHead>
                 <CTableRow>
                   <CTableHeaderCell scope="col">#</CTableHeaderCell>
@@ -480,7 +480,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -523,7 +523,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -554,7 +554,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -599,7 +599,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -730,7 +730,7 @@
                   <CTableDataCell>@mdo</CTableDataCell>
                 </CTableRow>
                 <CTableRow>
-                  <CTableHeaderCell colSpan="4">
+                  <CTableHeaderCell colspan="4">
                     <CTable>
                       <CTableHead>
                         <CTableRow>
@@ -767,7 +767,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -845,7 +845,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>
@@ -885,7 +885,7 @@
                 </CTableRow>
                 <CTableRow>
                   <CTableHeaderCell scope="row">3</CTableHeaderCell>
-                  <CTableDataCell colSpan="2">Larry the Bird</CTableDataCell>
+                  <CTableDataCell colspan="2">Larry the Bird</CTableDataCell>
                   <CTableDataCell>@twitter</CTableDataCell>
                 </CTableRow>
               </CTableBody>

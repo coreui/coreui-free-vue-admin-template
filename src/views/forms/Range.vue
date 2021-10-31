@@ -50,7 +50,7 @@
           </p>
           <DocsExample href="forms/range.html#min-and-max">
             <CFormLabel for="customRange2">Example range</CFormLabel>
-            <CFormRange :min="0" :max="5" defaultValue="3" id="customRange2" />
+            <CFormRange id="customRange2" :min="0" :max="5" value="3" />
           </DocsExample>
         </CCardBody>
       </CCard>
@@ -70,11 +70,11 @@
           <DocsExample href="forms/range.html#steps">
             <CFormLabel for="customRange3">Example range</CFormLabel>
             <CFormRange
+              id="customRange3"
               :min="0"
               :max="5"
               :step="0.5"
-              defaultValue="3"
-              id="customRange3"
+              value="3"
             />
           </DocsExample>
         </CCardBody>

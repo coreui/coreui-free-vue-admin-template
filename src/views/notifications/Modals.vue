@@ -103,10 +103,10 @@
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
-            If you don’t provide an <code>onDimsiss</code> handler to the Modal
-            component, your modal will behave as though the backdrop is static,
-            meaning it will not close when clicking outside it. Click the button
-            below to try it.
+            If you set <code>backdrop</code> property to <code>static</code>,
+            your modal will behave as though the backdrop is static, meaning it
+            will not close when clicking outside it. Click the button below to
+            try it.
           </p>
           <DocsExample href="components/modal.html#static-backdrop">
             <CButton
@@ -165,10 +165,9 @@
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
-            If you don’t provide an <code>onDimsiss</code> handler to the Modal
-            component, your modal will behave as though the backdrop is static,
-            meaning it will not close when clicking outside it. Click the button
-            below to try it.
+            When modals become too long for the user's viewport or device, they
+            scroll independent of the page itself. Try the demo below to see
+            what we mean.
           </p>
           <DocsExample href="components/modal.html#scrolling-long-content">
             <CButton
@@ -593,11 +592,11 @@
                 <p>
                   This
                   <CButton
-                    color="secondary"
                     v-c-popover="{
                       header: 'Popover title',
                       content: 'Popover body content is set in this property.',
                     }"
+                    color="secondary"
                     >button</CButton
                   >
                 </p>

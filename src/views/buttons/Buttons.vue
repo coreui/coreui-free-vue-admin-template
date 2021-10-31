@@ -294,10 +294,7 @@
               ]"
               :key="color"
             >
-              <CButton
-                :color="color"
-                shape="rounded-pill"
-              >
+              <CButton :color="color" shape="rounded-pill">
                 {{ color.charAt(0).toUpperCase() + color.slice(1) }}
               </CButton>
             </template>
@@ -325,10 +322,7 @@
               ]"
               :key="color"
             >
-              <CButton
-                :color="color"
-                shape="rounded-0"
-              >
+              <CButton :color="color" shape="rounded-0">
                 {{ color.charAt(0).toUpperCase() + color.slice(1) }}
               </CButton>
             </template>

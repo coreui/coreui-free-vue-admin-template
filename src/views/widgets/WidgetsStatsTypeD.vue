@@ -132,7 +132,7 @@
         color="warning"
         :values="[
           { title: 'events', value: '12+' },
-            { title: 'meetings', value: '4' },
+          { title: 'meetings', value: '4' },
         ]"
       >
         <template #icon
@@ -155,11 +155,11 @@
               datasets: [
                 {
                   backgroundColor: 'rgba(255,255,255,.1)',
-                      borderColor: 'rgba(255,255,255,.55)',
-                      pointHoverBackgroundColor: '#fff',
-                      borderWidth: 2,
-                      data: [35, 23, 56, 22, 97, 23, 64],
-                      fill: true,
+                  borderColor: 'rgba(255,255,255,.55)',
+                  pointHoverBackgroundColor: '#fff',
+                  borderWidth: 2,
+                  data: [35, 23, 56, 22, 97, 23, 64],
+                  fill: true,
                 },
               ],
             }"
@@ -172,9 +172,9 @@
 </template>
 
 <script>
-import { CChart } from "@coreui/vue-chartjs";
+import { CChart } from '@coreui/vue-chartjs'
 export default {
-  name: "WidgetsStatsD",
+  name: 'WidgetsStatsD',
   components: {
     CChart,
   },
@@ -205,11 +205,11 @@ export default {
           display: false,
         },
       },
-    };
+    }
 
     return {
       options,
-    };
+    }
   },
-};
+}
 </script>

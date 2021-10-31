@@ -9,7 +9,7 @@
           <p class="text-medium-emphasis small">
             For custom CoreUI form validation messages, you&#39;ll need to add
             the
-            <code>noValidate</code> boolean property to your
+            <code>novalidate</code> boolean property to your
             <code>&lt;CForm&gt;</code>. This disables the browser default
             feedback tooltips, but still provides access to the form validation
             APIs in JavaScript. Try to submit the form below; our JavaScript
@@ -24,26 +24,18 @@
           <DocsExample href="forms/validation.html">
             <CForm
               class="row g-3 needs-validation"
-              noValidate
+              novalidate
               :validated="validatedCustom01"
               @submit="handleSubmitCustom01"
             >
               <CCol :md="4">
                 <CFormLabel for="validationCustom01">Email</CFormLabel>
-                <CFormInput
-                  id="validationCustom01"
-                  defaultValue="Mark"
-                  required
-                />
+                <CFormInput id="validationCustom01" value="Mark" required />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4">
                 <CFormLabel for="validationCustom02">Email</CFormLabel>
-                <CFormInput
-                  id="validationCustom02"
-                  defaultValue="Otto"
-                  required
-                />
+                <CFormInput id="validationCustom02" value="Otto" required />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4">
@@ -52,7 +44,7 @@
                   <CInputGroupText id="inputGroupPrepend">@</CInputGroupText>
                   <CFormInput
                     id="validationCustomUsername"
-                    defaultValue=""
+                    value=""
                     aria-describedby="inputGroupPrepend"
                     required
                   />
@@ -87,8 +79,8 @@
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
-                  type="checkbox"
                   id="invalidCheck"
+                  type="checkbox"
                   label="Agree to terms and conditions"
                   required
                 />
@@ -129,20 +121,12 @@
             >
               <CCol :md="4">
                 <CFormLabel for="validationDefault01">Email</CFormLabel>
-                <CFormInput
-                  id="validationDefault01"
-                  defaultValue="Mark"
-                  required
-                />
+                <CFormInput id="validationDefault01" value="Mark" required />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4">
                 <CFormLabel for="validationDefault02">Email</CFormLabel>
-                <CFormInput
-                  id="validationDefault02"
-                  defaultValue="Otto"
-                  required
-                />
+                <CFormInput id="validationDefault02" value="Otto" required />
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4">
@@ -153,7 +137,7 @@
                   <CInputGroupText id="inputGroupPrepend02">@</CInputGroupText>
                   <CFormInput
                     id="validationDefaultUsername"
-                    defaultValue=""
+                    value=""
                     aria-describedby="inputGroupPrepend02"
                     required
                   />
@@ -188,8 +172,8 @@
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
-                  type="checkbox"
                   id="invalidCheck"
+                  type="checkbox"
                   label="Agree to terms and conditions"
                   required
                 />
@@ -227,37 +211,35 @@
           <DocsExample href="forms/validation.html#server-side">
             <CForm class="row g-3 needs-validation">
               <CCol ::md="4">
-                <CFormLabel htmlFor="validationServer01">Email</CFormLabel>
+                <CFormLabel for="validationServer01">Email</CFormLabel>
                 <CFormInput
-                  type="text"
                   id="validationServer01"
-                  defaultValue="Mark"
-                  valid
-                  required
-                />
-                <CFormFeedback valid>Looks good!</CFormFeedback>
-              </CCol>
-              <CCol ::md="4">
-                <CFormLabel htmlFor="validationServer02">Email</CFormLabel>
-                <CFormInput
                   type="text"
-                  id="validationServer02"
-                  defaultValue="Otto"
+                  value="Mark"
                   valid
                   required
                 />
                 <CFormFeedback valid>Looks good!</CFormFeedback>
               </CCol>
               <CCol ::md="4">
-                <CFormLabel htmlFor="validationServerUsername"
-                  >Username</CFormLabel
-                >
+                <CFormLabel for="validationServer02">Email</CFormLabel>
+                <CFormInput
+                  id="validationServer02"
+                  type="text"
+                  value="Otto"
+                  valid
+                  required
+                />
+                <CFormFeedback valid>Looks good!</CFormFeedback>
+              </CCol>
+              <CCol ::md="4">
+                <CFormLabel for="validationServerUsername">Username</CFormLabel>
                 <CInputGroup class="has-validation">
                   <CInputGroupText id="inputGroupPrepend03">@</CInputGroupText>
                   <CFormInput
-                    type="text"
                     id="validationServerUsername"
-                    defaultValue=""
+                    type="text"
+                    value=""
                     aria-describedby="inputGroupPrepend03"
                     invalid
                     required
@@ -268,10 +250,10 @@
                 </CInputGroup>
               </CCol>
               <CCol :md="6">
-                <CFormLabel htmlFor="validationServer03">City</CFormLabel>
+                <CFormLabel for="validationServer03">City</CFormLabel>
                 <CFormInput
-                  type="text"
                   id="validationServer03"
+                  type="text"
                   invalid
                   required
                 />
@@ -280,7 +262,7 @@
                 >
               </CCol>
               <CCol :md="3">
-                <CFormLabel htmlFor="validationServer04">City</CFormLabel>
+                <CFormLabel for="validationServer04">City</CFormLabel>
                 <CFormSelect id="validationServer04" invalid>
                   <option disabled>Choose...</option>
                   <option>...</option>
@@ -290,10 +272,10 @@
                 >
               </CCol>
               <CCol :md="3">
-                <CFormLabel htmlFor="validationServer05">City</CFormLabel>
+                <CFormLabel for="validationServer05">City</CFormLabel>
                 <CFormInput
-                  type="text"
                   id="validationServer05"
+                  type="text"
                   invalid
                   required
                 />
@@ -303,8 +285,8 @@
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
-                  type="checkbox"
                   id="invalidCheck"
+                  type="checkbox"
                   label="Agree to terms and conditions"
                   invalid
                   required
@@ -353,8 +335,8 @@
                 </CFormFeedback>
               </div>
               <CFormCheck
-                class="mb-3"
                 id="validationFormCheck1"
+                class="mb-3"
                 label="Check this checkbox"
                 required
               />
@@ -362,17 +344,17 @@
                 >Example invalid feedback text</CFormFeedback
               >
               <CFormCheck
+                id="validationFormCheck2"
                 type="radio"
                 name="radio-stacked"
-                id="validationFormCheck2"
                 label="Check this checkbox"
                 required
               />
               <CFormCheck
+                id="validationFormCheck3"
                 class="mb-3"
                 type="radio"
                 name="radio-stacked"
-                id="validationFormCheck3"
                 label="Or toggle this other radio"
                 required
               />
@@ -392,8 +374,8 @@
               </div>
               <div class="mb-3">
                 <CFormInput
-                  type="file"
                   id="validationTextarea"
+                  type="file"
                   aria-label="file example"
                   required
                 />
@@ -428,26 +410,18 @@
           <DocsExample href="forms/validation.html#tooltips">
             <CForm
               class="row g-3 needs-validation"
-              noValidate
+              novalidate
               :validated="validatedTooltip01"
               @submit="handleSubmitTooltip01"
             >
               <CCol :md="4" class="position-relative">
                 <CFormLabel for="validationTooltip01">Email</CFormLabel>
-                <CFormInput
-                  id="validationTooltip01"
-                  defaultValue="Mark"
-                  required
-                />
+                <CFormInput id="validationTooltip01" value="Mark" required />
                 <CFormFeedback tooltip valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4" class="position-relative">
                 <CFormLabel for="validationTooltip02">Email</CFormLabel>
-                <CFormInput
-                  id="validationTooltip02"
-                  defaultValue="Otto"
-                  required
-                />
+                <CFormInput id="validationTooltip02" value="Otto" required />
                 <CFormFeedback tooltip valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4" class="position-relative">
@@ -458,7 +432,7 @@
                   <CInputGroupText id="inputGroupPrepend">@</CInputGroupText>
                   <CFormInput
                     id="validationTooltipUsername"
-                    defaultValue=""
+                    value=""
                     aria-describedby="inputGroupPrepend"
                     required
                   />

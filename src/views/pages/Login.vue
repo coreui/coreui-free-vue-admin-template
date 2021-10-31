@@ -15,7 +15,7 @@
                     </CInputGroupText>
                     <CFormInput
                       placeholder="Username"
-                      autoComplete="username"
+                      autocomplete="username"
                     />
                   </CInputGroup>
                   <CInputGroup class="mb-4">
@@ -25,7 +25,7 @@
                     <CFormInput
                       type="password"
                       placeholder="Password"
-                      autoComplete="current-password"
+                      autocomplete="current-password"
                     />
                   </CInputGroup>
                   <CRow>

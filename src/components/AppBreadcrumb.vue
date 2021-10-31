@@ -2,9 +2,9 @@
   <CBreadcrumb class="d-md-down-none me-auto mb-0">
     <CBreadcrumbItem
       v-for="item in breadcrumbs"
+      :key="item"
       :href="item.active ? '' : item.path"
       :active="item.active"
-      :key="item"
     >
       {{ item.name }}
     </CBreadcrumbItem>

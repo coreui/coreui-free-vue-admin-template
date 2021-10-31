@@ -128,9 +128,15 @@
                   </CCol>
                 </CRow>
                 <hr class="mt-0" />
-                <div class="progress-group mb-4" v-for="item in progressGroupExample1" :key="item.title">
+                <div
+                  v-for="item in progressGroupExample1"
+                  :key="item.title"
+                  class="progress-group mb-4"
+                >
                   <div class="progress-group-prepend">
-                    <span class="text-medium-emphasis small">{{item.title}}</span>
+                    <span class="text-medium-emphasis small">{{
+                      item.title
+                    }}</span>
                   </div>
                   <div class="progress-group-bars">
                     <CProgress thin color="info" :value="item.value1" />
@@ -168,11 +174,15 @@
                   </CCol>
                 </CRow>
                 <hr class="mt-0" />
-                <div class="progress-group" v-for="item in progressGroupExample2" :key="item.title">
+                <div
+                  v-for="item in progressGroupExample2"
+                  :key="item.title"
+                  class="progress-group"
+                >
                   <div class="progress-group-header">
                     <CIcon :icon="item.icon" class="me-2" size="lg" />
-                    <span class="title">{{item.title}}</span>
-                    <span class="ms-auto fw-semibold">{{item.value}}%</span>
+                    <span class="title">{{ item.title }}</span>
+                    <span class="ms-auto fw-semibold">{{ item.value }}%</span>
                   </div>
                   <div class="progress-group-bars">
                     <CProgress thin :value="item.value" color="warning" />
@@ -181,13 +191,19 @@
 
                 <div class="mb-5"></div>
 
-                <div class="progress-group" v-for="item in progressGroupExample3" :key="item.title">
+                <div
+                  v-for="item in progressGroupExample3"
+                  :key="item.title"
+                  class="progress-group"
+                >
                   <div class="progress-group-header">
                     <CIcon :icon="item.icon" class="me-2" size="lg" />
                     <span class="title">Organic Search</span>
                     <span class="ms-auto fw-semibold">
-                      {{item.value}}
-                      <span class="text-medium-emphasis small">({{item.percent}}%)</span>
+                      {{ item.value }}
+                      <span class="text-medium-emphasis small"
+                        >({{ item.percent }}%)</span
+                      >
                     </span>
                   </div>
                   <div class="progress-group-bars">

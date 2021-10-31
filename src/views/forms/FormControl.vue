@@ -16,8 +16,8 @@
                   >Email address</CFormLabel
                 >
                 <CFormInput
-                  type="email"
                   id="exampleFormControlInput1"
+                  type="email"
                   placeholder="name@example.com"
                 />
               </div>
@@ -92,7 +92,7 @@
               placeholder="Disabled readonly input"
               aria-label="Disabled input example"
               disabled
-              readOnly
+              readonly
             />
             <br />
           </DocsExample>
@@ -106,7 +106,7 @@
         </CCardHeader>
         <CCardBody>
           <p class="text-medium-emphasis small">
-            Add the <code>readOnly</code> boolean attribute on an input to
+            Add the <code>readonly</code> boolean attribute on an input to
             prevent modification of the input&#39;s value. Read-only inputs
             appear lighter (just like disabled inputs), but retain the standard
             cursor.
@@ -116,7 +116,7 @@
               type="text"
               placeholder="Readonly input here..."
               aria-label="readonly input example"
-              readOnly
+              readonly
             />
           </DocsExample>
         </CCardBody>
@@ -131,21 +131,21 @@
           <p class="text-medium-emphasis small">
             If you want to have <code>&lt;input readonly&gt;</code> elements in
             your form styled as plain text, use the
-            <code>plainText</code> boolean property to remove the default form
+            <code>plain-text</code> boolean property to remove the default form
             field styling and preserve the correct margin and padding.
           </p>
-          <DocsExample href="components/accordion">
+          <DocsExample href="forms/form-control.html#readonly-plain-text">
             <CRow class="mb-3">
               <CFormLabel for="staticEmail" class="col-sm-2 col-form-label">
                 Email
               </CFormLabel>
               <div class="col-sm-10">
                 <CFormInput
-                  type="text"
                   id="staticEmail"
-                  defaultValue="email@example.com"
-                  readOnly
-                  plainText
+                  type="text"
+                  value="email@example.com"
+                  readonly
+                  plain-text
                 />
               </div>
             </CRow>
@@ -154,22 +154,22 @@
                 Password
               </CFormLabel>
               <div class="col-sm-10">
-                <CFormInput type="password" id="inputPassword" />
+                <CFormInput id="inputPassword" type="password" />
               </div>
             </CRow>
           </DocsExample>
-          <DocsExample href="components/accordion">
+          <DocsExample href="forms/form-control.html#readonly-plain-text">
             <CForm class="row g-3">
               <div class="col-auto">
                 <CFormLabel for="staticEmail2" class="visually-hidden">
                   Email
                 </CFormLabel>
                 <CFormInput
-                  type="text"
                   id="staticEmail2"
-                  defaultValue="email@example.com"
-                  readOnly
-                  plainText
+                  type="text"
+                  value="email@example.com"
+                  readonly
+                  plain-text
                 />
               </div>
               <div class="col-auto">
@@ -177,8 +177,8 @@
                   Password
                 </CFormLabel>
                 <CFormInput
-                  type="password"
                   id="inputPassword2"
+                  type="password"
                   placeholder="Password"
                 />
               </div>
@@ -199,27 +199,27 @@
           <DocsExample href="forms/form-control.html#file-input">
             <div class="mb-3">
               <CFormLabel for="formFile">Default file input example</CFormLabel>
-              <CFormInput type="file" id="formFile" />
+              <CFormInput id="formFile" type="file" />
             </div>
             <div class="mb-3">
               <CFormLabel for="formFileMultiple"
                 >Multiple files input example</CFormLabel
               >
-              <CFormInput type="file" id="formFileMultiple" multiple />
+              <CFormInput id="formFileMultiple" type="file" multiple />
             </div>
             <div class="mb-3">
               <CFormLabel for="formFileDisabled"
                 >Disabled file input example</CFormLabel
               >
-              <CFormInput type="file" id="formFileDisabled" disabled />
+              <CFormInput id="formFileDisabled" type="file" disabled />
             </div>
             <div class="mb-3">
               <CFormLabel for="formFileSm">Small file input example</CFormLabel>
-              <CFormInput type="file" size="sm" id="formFileSm" />
+              <CFormInput id="formFileSm" type="file" size="sm" />
             </div>
             <div>
               <CFormLabel for="formFileLg">Large file input example</CFormLabel>
-              <CFormInput type="file" size="lg" id="formFileLg" />
+              <CFormInput id="formFileLg" type="file" size="lg" />
             </div>
           </DocsExample>
         </CCardBody>
@@ -234,9 +234,9 @@
           <DocsExample href="forms/form-control.html#color">
             <CFormLabel for="exampleColorInput">Color picker</CFormLabel>
             <CFormInput
-              type="color"
               id="exampleColorInput"
-              defaultValue="#563d7c"
+              type="color"
+              value="#563d7c"
               title="Choose your color"
             />
           </DocsExample>

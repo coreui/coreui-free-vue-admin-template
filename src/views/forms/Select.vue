@@ -68,7 +68,7 @@
             </CFormSelect>
           </DocsExample>
           <p class="text-medium-emphasis small">
-            As is the <code>htmlSize</code> property:
+            As is the <code>html-size</code> property:
           </p>
           <DocsExample href="forms/select.html#sizing">
             <CFormSelect

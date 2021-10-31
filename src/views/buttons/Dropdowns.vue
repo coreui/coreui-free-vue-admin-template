@@ -224,8 +224,8 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div
-                  class="collapse navbar-collapse"
                   id="navbarNavDarkDropdown"
+                  class="collapse navbar-collapse"
                 >
                   <ul class="navbar-nav">
                     <CDropdown dark component="li" variant="nav-item">
