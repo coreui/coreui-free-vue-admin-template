@@ -1,6 +1,6 @@
 {
   "name": "@coreui/coreui-free-vue-admin-template",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "CoreUI Free Vue Admin Template",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-vue-admin-template/issues"
@@ -19,7 +19,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "config": {
-    "coreui_library_short_version": "4.0"
+    "coreui_library_short_version": "4.1"
   },
   "dependencies": {
     "@coreui/chartjs": "^3.0.0",
