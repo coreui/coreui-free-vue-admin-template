@@ -966,10 +966,10 @@
   resolved "https://registry.yarnpkg.com/@coreui/coreui/-/coreui-4.0.0.tgz#52ebe0197411a829ba48057ade61923e05859eec"
   integrity sha512-8vH6fJrmvCR/Oy5v0E+/1AL3Ygb4jhQ7NXK2fMYWJyK13BePDm9muB3y6S0IdqkpBwjY3hHVwHyt2lJqJdesmQ==
 
-"@coreui/coreui@^4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@coreui/coreui/-/coreui-4.0.5.tgz#b2fd0d3ab4d0887ef42c628cbd6f1ecca3d4c62c"
-  integrity sha512-6T9ezeRUIalo4UhQ9/E4COzyFwUqEUYgJcFyuu394qtvMcdoxqSSYQL6LLs/TkaDBN5vdbdLtNDdIWe+/CWG+Q==
+"@coreui/coreui@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@coreui/coreui/-/coreui-4.1.0.tgz#24abbd88ead2fef0360a208ac752f2bb8e4a8f7d"
+  integrity sha512-2iMKPpxXquN3ZyL44s6Urvsnk03iw+KuJk/AKz5spSgKReUr7AM3WEiaTNFNo1/ZypB67pg0966tT22BSmgkGg==
 
 "@coreui/icons-vue@2.0.0":
   version "2.0.0"
@@ -991,10 +991,10 @@
   resolved "https://registry.yarnpkg.com/@coreui/vue-chartjs/-/vue-chartjs-2.0.0.tgz#80cd8a0ac0abc2f6bc362280bc84bfdecc8e1be4"
   integrity sha512-suL4F2ZQyEC0YTSFe66FfCHuMXTvKXY+roPa7naahdrIcl1uEk65ffDVEqPjk8HmKSOywBi9I04AXmt3Ru5G9Q==
 
-"@coreui/vue@^4.0.1":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@coreui/vue/-/vue-4.0.3.tgz#2609bc1bccce6fd9ced17d3580310a8ceb3ea82f"
-  integrity sha512-42ksOhDyJd4PCyM7IWqQBX0XJJ4ekWVgLXKFdapKyahpb4X6JNKtPu29sHvBAQ/yLXusbduDvRQgYWrGdvjmxA==
+"@coreui/vue@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@coreui/vue/-/vue-4.1.0.tgz#d462e5d32578244fc364c28ecb4622cd075480e2"
+  integrity sha512-tYkzi+xER3kIXktlxelNN/KxUzzFR4l4iJcpF3H5BWzcCF7LPFIuiOYdVHNV94y1XEh1SnNl0nfN/Lf8ljvyhA==
 
 "@cypress/request@^2.88.6":
   version "2.88.9"
