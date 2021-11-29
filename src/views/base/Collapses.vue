@@ -34,6 +34,39 @@
       </CCard>
       <CCard class="mb-4">
         <CCardHeader>
+          <strong>Vue Collapse</strong> <small> Horizontal</small>
+        </CCardHeader>
+        <CCardBody>
+          <p class="text-medium-emphasis small">
+            The collapse plugin also supports horizontal collapsing. Add the
+            <code>horizontal</code> property to transition the
+            <code>width</code> instead of <code>height</code> and set a
+            <code>width</code> on the immediate child element.
+          </p>
+          <DocsExample href="components/collapse.html#horizontal">
+            <CButton
+              class="mb-3"
+              color="primary"
+              aria-expanded="{visible}"
+              aria-controls="collapseWidthExample"
+              @click="visibleHorizontal = !visibleHorizontal"
+              >Button</CButton
+            >
+            <div style="min-height: 120px">
+              <CCollapse horizontal :visible="visibleHorizontal">
+                <CCard style="width: 300px">
+                  <CCardBody>
+                    This is some placeholder content for a horizontal collapse.
+                    It's hidden by default and shown when triggered.
+                  </CCardBody>
+                </CCard>
+              </CCollapse>
+            </div>
+          </DocsExample>
+        </CCardBody>
+      </CCard>
+      <CCard class="mb-4">
+        <CCardHeader>
           <strong>Vue Collapse</strong> <small> multi target</small>
         </CCardHeader>
         <CCardBody>
@@ -100,10 +133,12 @@ export default {
     const visible = ref(false)
     const visibleA = ref(false)
     const visibleB = ref(false)
+    const visibleHorizontal = ref(false)
     return {
       visible,
       visibleA,
       visibleB,
+      visibleHorizontal,
     }
   },
 }

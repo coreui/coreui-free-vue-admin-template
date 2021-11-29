@@ -70,11 +70,15 @@ export default [
         name: 'Navs & Tabs',
         to: '/base/navs',
       },
-
       {
         component: 'CNavItem',
         name: 'Paginations',
         to: '/base/paginations',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Placeholders',
+        to: '/base/placeholders',
       },
       {
         component: 'CNavItem',

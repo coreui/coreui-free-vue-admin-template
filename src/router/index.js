@@ -85,6 +85,11 @@ const routes = [
             component: () => import('@/views/base/Paginations.vue'),
           },
           {
+            path: '/base/placeholders',
+            name: 'Placeholders',
+            component: () => import('@/views/base/Placeholders.vue'),
+          },
+          {
             path: '/base/popovers',
             name: 'Popovers',
             component: () => import('@/views/base/Popovers.vue'),
