@@ -100,12 +100,7 @@
                 <CRow>
                   <CCol :sm="6">
                     <div
-                      class="
-                        border-start border-start-4 border-start-info
-                        py-1
-                        px-3
-                        mb-3
-                      "
+                      class="border-start border-start-4 border-start-info py-1 px-3 mb-3"
                     >
                       <div class="text-medium-emphasis small">New Clients</div>
                       <div class="fs-5 fw-semibold">9,123</div>
@@ -113,12 +108,7 @@
                   </CCol>
                   <CCol :sm="6">
                     <div
-                      class="
-                        border-start border-start-4 border-start-danger
-                        py-1
-                        px-3
-                        mb-3
-                      "
+                      class="border-start border-start-4 border-start-danger py-1 px-3 mb-3"
                     >
                       <div class="text-medium-emphasis small">
                         Recurring Clients
@@ -148,12 +138,7 @@
                 <CRow>
                   <CCol :sm="6">
                     <div
-                      class="
-                        border-start border-start-4 border-start-warning
-                        py-1
-                        px-3
-                        mb-3
-                      "
+                      class="border-start border-start-4 border-start-warning py-1 px-3 mb-3"
                     >
                       <div class="text-medium-emphasis small">Pageviews</div>
                       <div class="fs-5 fw-semibold">78,623</div>
@@ -161,12 +146,7 @@
                   </CCol>
                   <CCol :sm="6">
                     <div
-                      class="
-                        border-start border-start-4 border-start-success
-                        py-1
-                        px-3
-                        mb-3
-                      "
+                      class="border-start border-start-4 border-start-success py-1 px-3 mb-3"
                     >
                       <div class="text-medium-emphasis small">Organic</div>
                       <div class="fs-5 fw-semibold">49,123</div>
