@@ -22,7 +22,8 @@
 </template>
 
 <script>
-import packageJson from '../../package.json'
+import { useStore } from 'vuex'
+
 export default {
   name: 'DocsCallout',
   props: {
@@ -44,7 +45,8 @@ export default {
     plural: Boolean,
   },
   setup(props) {
-    const url = `https://coreui.io/vue/docs/${packageJson.config.coreui_library_short_version}/${props.url}`
+    const store = useStore()
+    const url = `https://coreui.io/vue/docs/${store.getters.coreuiLibraryShortVersion}/${props.href}`
 
     return {
       url,
