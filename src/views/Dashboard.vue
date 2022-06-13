@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Hallo</h1>
     <WidgetsStatsA />
     <CRow>
       <CCol :md="12">
