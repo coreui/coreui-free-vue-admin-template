@@ -7,6 +7,11 @@ tests/e2e/reports/
 .env.local
 .env.*.local
 
+# dependencies
+/node_modules
+package-lock.json
+yarn.lock
+
 # OS or Editor folders
 ._*
 .cache
