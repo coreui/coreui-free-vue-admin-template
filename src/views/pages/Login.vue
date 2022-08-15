@@ -41,7 +41,7 @@
                 </CForm>
               </CCardBody>
             </CCard>
-            <CCard class="text-white bg-primary py-5" style="width: 44%">
+            <CCard class="text-white bg-primary py-5">
               <CCardBody class="text-center">
                 <div>
                   <h2>Sign up</h2>
