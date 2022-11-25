@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import pkg from '../../package.json'
 export default {
   name: 'DocsExample',
   props: {
@@ -33,7 +32,7 @@ export default {
     },
   },
   setup(props) {
-    const url = `https://coreui.io/vue/docs/${pkg.config.coreui_library_short_version}/${props.href}`
+    const url = `https://coreui.io/vue/docs/${props.href}`
 
     return {
       url,

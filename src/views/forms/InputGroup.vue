@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Input Group" href="forms/input-group.html" />
-    </CCol>
-    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Input group</strong> <small>Basic example</small>

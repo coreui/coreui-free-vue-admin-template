@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="List Group" href="components/list-group.html" />
-    </CCol>
-    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue List Group</strong> <small>Basic example</small>

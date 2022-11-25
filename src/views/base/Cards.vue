@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Card" href="components/card" />
-    </CCol>
-    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Card</strong> <small>Example</small>

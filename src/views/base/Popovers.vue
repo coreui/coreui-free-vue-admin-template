@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Popover" href="components/popover.html" />
-    </CCol>
-    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Popovers</strong> <small>Basic example</small>

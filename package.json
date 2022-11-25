@@ -18,9 +18,6 @@
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
-  "config": {
-    "coreui_library_short_version": "4.1"
-  },
   "dependencies": {
     "@coreui/chartjs": "^3.0.0",
     "@coreui/coreui": "^4.2.3",

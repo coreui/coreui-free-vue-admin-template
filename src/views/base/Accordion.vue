@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Accordion" href="components/accordion" />
-    </CCol>
-    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Accordion</strong>

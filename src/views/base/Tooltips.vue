@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Tooltip" href="components/tooltip.html" />
-    </CCol>
-    <CCol :xs="12">
       <CCard>
         <CCardHeader>
           <strong>Vue Tooltips</strong> <small>Basic example</small>

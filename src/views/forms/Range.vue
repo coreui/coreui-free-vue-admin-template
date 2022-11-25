@@ -1,9 +1,6 @@
 <template>
   <CRow>
     <CCol :xs="12">
-      <DocsCallout name="Range" href="forms/range.html" />
-    </CCol>
-    <CCol :xs="12">
       <CCard class="mb-4">
         <CCardHeader> <strong>Vue Range</strong> <small></small> </CCardHeader>
         <CCardBody>
