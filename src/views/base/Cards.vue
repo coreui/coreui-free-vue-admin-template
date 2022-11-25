@@ -23,7 +23,7 @@
             width. Cards have no fixed width to start, so they&#39;ll naturally
             fill the full width of its parent element.
           </p>
-          <DocsExample href="components/card">
+          <DocsExample href="components/card.html">
             <CCard style="width: 18rem">
               <CCardImage orientation="top" :src="VueImg" />
               <CCardBody>
@@ -47,7 +47,7 @@
             The main block of a card is the <code>&lt;CCardBody&gt;</code>. Use
             it whenever you need a padded section within a card.
           </p>
-          <DocsExample href="components/card/#body">
+          <DocsExample href="components/card.html/#body">
             <CCard>
               <CCardBody>This is some text within a card body.</CCardBody>
             </CCard>
@@ -76,7 +76,7 @@
             <code>&lt;CCardBody&gt;</code> item, the card title, and subtitle
             are arranged rightly.
           </p>
-          <DocsExample href="components/card/#titles-text-and-links">
+          <DocsExample href="components/card.html/#titles-text-and-links">
             <CCard style="width: 18rem">
               <CCardBody>
                 <CCardTitle>Card title</CCardTitle>
@@ -105,7 +105,7 @@
             within <code>.card-text</code> can additionally be styled with the
             regular HTML tags.
           </p>
-          <DocsExample href="components/card/#images">
+          <DocsExample href="components/card.html/#images">
             <CCard style="width: 18rem">
               <CCardImage orientation="top" :src="VueImg" />
               <CCardBody>
@@ -128,7 +128,7 @@
           <p class="text-medium-emphasis small">
             Create lists of content in a card with a flush list group.
           </p>
-          <DocsExample href="components/card/#list-groups">
+          <DocsExample href="components/card.html/#list-groups">
             <CRow>
               <CCol :lg="4">
                 <CCard>
@@ -175,7 +175,7 @@
             throw everything in there. Shown below are image styles, blocks,
             text styles, and a list group—all wrapped in a fixed-width card.
           </p>
-          <DocsExample href="components/card/#kitchen-sink">
+          <DocsExample href="components/card.html/#kitchen-sink">
             <CCard style="width: 18rem">
               <CCardImage orientation="top" :src="VueImg" />
               <CCardBody>
@@ -208,7 +208,7 @@
           <p class="text-medium-emphasis small">
             Add an optional header and/or footer within a card.
           </p>
-          <DocsExample href="components/card/#header-and-footer">
+          <DocsExample href="components/card.html/#header-and-footer">
             <CCard>
               <CCardHeader>Header</CCardHeader>
               <CCardBody>
@@ -225,7 +225,7 @@
             Card headers can be styled by adding ex.
             <code>component=&#34;h5&#34;</code>.
           </p>
-          <DocsExample href="components/card/#header-and-footer">
+          <DocsExample href="components/card.html/#header-and-footer">
             <CCard>
               <CCardHeader component="h5">Header</CCardHeader>
               <CCardBody>
@@ -238,7 +238,7 @@
               </CCardBody>
             </CCard>
           </DocsExample>
-          <DocsExample href="components/card/#header-and-footer">
+          <DocsExample href="components/card.html/#header-and-footer">
             <CCard>
               <CCardHeader>Quote</CCardHeader>
               <CCardBody>
@@ -255,7 +255,7 @@
               </CCardBody>
             </CCard>
           </DocsExample>
-          <DocsExample href="components/card/#header-and-footer">
+          <DocsExample href="components/card.html/#header-and-footer">
             <CCard class="text-center">
               <CCardHeader>Header</CCardHeader>
               <CCardBody>
@@ -286,7 +286,7 @@
           <p class="text-medium-emphasis small">
             Using the grid, wrap cards in columns and rows as needed.
           </p>
-          <DocsExample href="components/card/#sizing">
+          <DocsExample href="components/card.html/#sizing">
             <CRow>
               <CCol :sm="6">
                 <CCard>
@@ -322,7 +322,7 @@
             >
             to rapidly set a card&#39;s width.
           </p>
-          <DocsExample href="components/card/#sizing">
+          <DocsExample href="components/card.html/#sizing">
             <CCard class="w-75">
               <CCardBody>
                 <CCardTitle>Card title</CCardTitle>
@@ -349,7 +349,7 @@
             Use custom CSS in your stylesheets or as inline styles to set a
             width.
           </p>
-          <DocsExample href="components/card/#sizing">
+          <DocsExample href="components/card.html/#sizing">
             <CCard style="width: 18rem">
               <CCardBody>
                 <CCardTitle>Special title treatment</CCardTitle>
@@ -378,7 +378,7 @@
             >
             .
           </p>
-          <DocsExample href="components/card/#text-alignment">
+          <DocsExample href="components/card.html/#text-alignment">
             <CCard style="width: 18rem">
               <CCardBody>
                 <CCardTitle>Special title treatment</CCardTitle>
@@ -423,7 +423,7 @@
             Add some navigation to a <code>&lt;CCardHeader&gt;</code> with our
             <code>&lt;CNav&gt;</code> component.
           </p>
-          <DocsExample href="components/card/##navigation">
+          <DocsExample href="components/card.html/##navigation">
             <CCard class="text-center">
               <CCardHeader>
                 <CNav variant="tabs" class="card-header-tabs">
@@ -448,7 +448,7 @@
               </CCardBody>
             </CCard>
           </DocsExample>
-          <DocsExample href="components/card/##navigation">
+          <DocsExample href="components/card.html/##navigation">
             <CCard class="text-center">
               <CCardHeader>
                 <CNav variant="pills" class="card-header-pills">
@@ -486,7 +486,7 @@
             Similar to headers and footers, cards can include top and bottom
             &#34;image caps&#34;—images at the top or bottom of a card.
           </p>
-          <DocsExample href="components/card/#image-caps">
+          <DocsExample href="components/card.html/#image-caps">
             <CRow>
               <CCol :lg="6">
                 <CCard class="mb-3">
@@ -543,7 +543,7 @@
           <p class="text-medium-emphasis small">
             Use <code>color</code> property to change the appearance of a card.
           </p>
-          <DocsExample href="components/card/#background-and-color">
+          <DocsExample href="components/card.html/#background-and-color">
             <CRow>
               <template
                 v-for="item in [
@@ -594,7 +594,7 @@
             <code>&lt;CCard&gt;</code> or a subset of the card&#39;s contents as
             shown below.
           </p>
-          <DocsExample href="components/card/#border">
+          <DocsExample href="components/card.html/#border">
             <template
               v-for="item in [
                 { color: 'primary', textColor: 'primary' },
@@ -636,7 +636,7 @@
             <code>&lt;CCard&gt;</code> or a subset of the card&#39;s contents as
             shown below.
           </p>
-          <DocsExample href="components/card/#top-border">
+          <DocsExample href="components/card.html/#top-border">
             <template
               v-for="item in [
                 { color: 'primary', textColor: 'primary' },
@@ -682,7 +682,7 @@
             use <code>display: flex;</code> to become attached with uniform
             dimensions starting at the <code>sm</code> breakpoint.
           </p>
-          <DocsExample href="components/card/#card-groups">
+          <DocsExample href="components/card.html/#card-groups">
             <CCardGroup>
               <CCard>
                 <CCardImage orientation="top" :src="VueImg" />
@@ -737,7 +737,7 @@
             When using card groups with footers, their content will
             automatically line up.
           </p>
-          <DocsExample href="components/card/#card-groups">
+          <DocsExample href="components/card.html/#card-groups">
             <CCardGroup>
               <CCard>
                 <CCardImage orientation="top" :src="VueImg" />
@@ -807,7 +807,7 @@
             cards to equal width across multiple rows, from the medium
             breakpoint up.
           </p>
-          <DocsExample href="components/card/#grid-cards">
+          <DocsExample href="components/card.html/#grid-cards">
             <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 2 }">
               <CCol xs>
                 <CCard>
@@ -887,7 +887,7 @@
             Change it to <code>md="&#123; cols: 3&#125;"</code> and you&#39;ll
             see the fourth card wrap.
           </p>
-          <DocsExample href="components/card/#grid-cards">
+          <DocsExample href="components/card.html/#grid-cards">
             <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 3 }">
               <CCol xs>
                 <CCard>

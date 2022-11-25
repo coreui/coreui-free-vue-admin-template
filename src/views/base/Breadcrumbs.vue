@@ -20,7 +20,7 @@
             </a>
             .
           </p>
-          <DocsExample href="components/breadcrumb">
+          <DocsExample href="components/breadcrumb.html">
             <CBreadcrumb>
               <CBreadcrumbItem>
                 <CLink href="#">Home</CLink>

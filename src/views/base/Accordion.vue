@@ -9,7 +9,7 @@
           <p class="text-medium-emphasis small">
             Click the accordions below to expand/collapse the accordion content.
           </p>
-          <DocsExample href="components/accordion">
+          <DocsExample href="components/accordion.html">
             <CAccordion>
               <CAccordionItem :item-key="1">
                 <CAccordionHeader> Accordion Item #1 </CAccordionHeader>
@@ -68,7 +68,7 @@
             corners to render accordions edge-to-edge with their parent
             container.
           </p>
-          <DocsExample href="components/accordion#flush">
+          <DocsExample href="components/accordion.html#flush">
             <CAccordion flush>
               <CAccordionItem>
                 <CAccordionHeader> Accordion Item #1 </CAccordionHeader>
@@ -125,7 +125,7 @@
             Add <code>always-open</code> property to make accordion items stay
             open when another item is opened.
           </p>
-          <DocsExample href="components/accordion#always-open">
+          <DocsExample href="components/accordion.html#always-open">
             <CAccordion :active-item-key="2" always-open>
               <CAccordionItem :item-key="1">
                 <CAccordionHeader> Accordion Item #1 </CAccordionHeader>

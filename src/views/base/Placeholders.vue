@@ -11,7 +11,7 @@
             it with placeholders applied to create a "loading card". Size and
             proportions are the same between the two.
           </p>
-          <DocsExample href="components/placeholder">
+          <DocsExample href="components/placeholder.html">
             <div class="d-flex justify-content-around">
               <CCard style="width: 18rem">
                 <CCardImage orientation="top" :src="VueImg" />
@@ -75,7 +75,7 @@
             replace the text inside an element or be added as a modifier class
             to an existing component.
           </p>
-          <DocsExample href="components/placeholder">
+          <DocsExample href="components/placeholder.html">
             <p aria-hidden="true">
               <CPlaceholder :xs="6" />
             </p>
@@ -99,7 +99,7 @@
             You can change the <code>width</code> through grid column classes,
             width utilities, or inline styles.
           </p>
-          <DocsExample href="components/placeholder#width">
+          <DocsExample href="components/placeholder.html#width">
             <CPlaceholder :xs="6" />
             <CPlaceholder class="w-75" />
             <CPlaceholder style="width: 30%" />
@@ -116,7 +116,7 @@
             <code>currentColor</code>. This can be overridden with a custom
             color or utility class.
           </p>
-          <DocsExample href="components/placeholder#color">
+          <DocsExample href="components/placeholder.html#color">
             <CPlaceholder :xs="12" />
 
             <CPlaceholder color="primary" :xs="12" />
@@ -141,7 +141,7 @@
             <code>size</code> prop: <code>lg</code>, <code>sm</code>, or
             <code>xs</code>.
           </p>
-          <DocsExample href="components/placeholder#color">
+          <DocsExample href="components/placeholder.html#color">
             <CPlaceholder :xs="12" size="lg" />
             <CPlaceholder :xs="12" />
             <CPlaceholder :xs="12" size="sm" />
@@ -159,7 +159,7 @@
             <code>animation="wave"</code> to better convey the perception of
             something being <em>actively</em> loaded.
           </p>
-          <DocsExample href="components/placeholder#animation">
+          <DocsExample href="components/placeholder.html#animation">
             <CPlaceholder component="p" animation="glow">
               <CPlaceholder :xs="12" />
             </CPlaceholder>
