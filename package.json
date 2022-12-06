@@ -16,7 +16,10 @@
     "lint": "vue-cli-service lint",
     "serve": "vue-cli-service serve",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "vite-dev": "vite",
+    "vite-build": "vite build",
+    "vite-preview": "vite preview"
   },
   "dependencies": {
     "@coreui/chartjs": "^3.0.0",
@@ -34,6 +37,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/eslint-parser": "^7.19.1",
+    "@vitejs/plugin-vue": "^3.2.0",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-e2e-cypress": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
@@ -52,6 +56,7 @@
     "jest": "^27.5.1",
     "prettier": "^2.8.0",
     "sass": "^1.56.1",
-    "sass-loader": "^12.0.0"
+    "sass-loader": "^12.0.0",
+    "vite": "^3.2.5"
   }
 }
