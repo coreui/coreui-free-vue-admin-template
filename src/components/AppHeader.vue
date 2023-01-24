@@ -1,7 +1,7 @@
 <template>
   <CHeader position="sticky" class="mb-4">
     <CContainer fluid>
-      <CHeaderToggler class="ps-1" @click="$store.commit('toggleSidebar')">
+      <CHeaderToggler class="ps-1" @click="sidebarStore.toggleSidebar">
         <CIcon icon="cil-menu" size="lg" />
       </CHeaderToggler>
       <CHeaderBrand class="mx-auto d-lg-none" to="/">
@@ -48,6 +48,7 @@
 import AppBreadcrumb from './AppBreadcrumb'
 import AppHeaderDropdownAccnt from './AppHeaderDropdownAccnt'
 import { logo } from '@/assets/brand/logo'
+import useSidebarStore from '@/stores/sidebar'
 export default {
   name: 'AppHeader',
   components: {
@@ -55,8 +56,11 @@ export default {
     AppHeaderDropdownAccnt,
   },
   setup() {
+    const sidebarStore = useSidebarStore()
+
     return {
       logo,
+      sidebarStore,
     }
   },
 }

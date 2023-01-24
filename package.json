@@ -27,9 +27,9 @@
     "@coreui/vue": "^4.5.0",
     "@coreui/vue-chartjs": "2.0.1",
     "core-js": "^3.26.1",
+    "pinia": "^2.0.29",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6",
-    "vuex": "^4.1.0"
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
