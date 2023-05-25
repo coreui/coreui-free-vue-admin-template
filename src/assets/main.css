@@ -1,0 +1,74 @@
+.glassbackground form {
+  background: rgba( 255, 255, 255, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  text-align: center;
+  height: 450px;
+  width: 350px;
+}
+
+.glassbackground {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  background: url(backround.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mona Sans';
+  transition: all .2s linear;
+}
+
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('Mona-Sans.woff2') format('woff2 supports variations'),
+    url('Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+
+.glassbackground form input{
+  height: 40px;
+  width: 15vw;
+  margin:2px 0;
+  margin:auto;
+  align-items: center;
+  background: rgba(255, 254, 254, 0.644);
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
+  text-align: center;
+  
+}
+
+.glassbackground form button{
+  height: 40px;
+  width: 15vw;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+@font-face{
+  font-family: 'Mona Sans';
+  src:url('./SFProDisplay-Regular.woff2');
+  unicode-range: U+0400-04FF;
+}

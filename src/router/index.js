@@ -1,5 +1,8 @@
 import { h, resolveComponent } from 'vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
+import Login from '../pages/login/Login.vue'
+import Forgot from '../pages/login/Forgot.vue'
+import Recovery from '../pages/login/Recovery.vue'
 
 import DefaultLayout from '@/layouts/DefaultLayout'
 
@@ -113,6 +116,18 @@ const routes = [
             path: '/base/tooltips',
             name: 'Tooltips',
             component: () => import('@/views/base/Tooltips.vue'),
+          },
+          {
+            path: '/login',
+            component: Login,
+          },
+          {
+            path: '/forgotpassword',
+            component: Forgot,
+          },
+          {
+            path: '/passwordrecovery',
+            component: Recovery,
           },
         ],
       },
