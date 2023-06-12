@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!--
-* CoreUI Vue.js Admin Template
+* CoreUI Free Vue.js Admin Template
 * @version v4.2.0
-* @link https://coreui.io/vue/
-* Copyright (c) 2021 creativeLabs Łukasz Holeczek
-* License (https://coreui.io/pro/license)
+* @link https://coreui.io/product/free-vue-admin-template/
+* Copyright (c) 2023 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://github.com/coreui/coreui-free-vue-admin-template/blob/main/LICENSE)
 -->
 <html>
   <head>
@@ -32,6 +32,13 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <script>
+      const userMode = localStorage.getItem('coreui-free-vue-admin-template-theme');
+	    const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.dataset.coreuiTheme = 'dark';
+			}
+    </script>
   </head>
   <body>
     <noscript>

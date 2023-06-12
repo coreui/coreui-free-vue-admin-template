@@ -194,7 +194,7 @@
             </CRow>
             <br />
             <CTable align="middle" class="mb-0 border" hover responsive>
-              <CTableHead color="light">
+              <CTableHead class="bg-body-secondary">
                 <CTableRow>
                   <CTableHeaderCell class="text-center">
                     <CIcon name="cil-people" />

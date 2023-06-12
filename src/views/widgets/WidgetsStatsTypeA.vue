@@ -30,6 +30,7 @@
             type="line"
             class="mt-3 mx-3"
             style="height: 70px"
+            ref="widgetChartRef1"
             :data="{
               labels: [
                 'January',
@@ -45,7 +46,7 @@
                   label: 'My First dataset',
                   backgroundColor: 'transparent',
                   borderColor: 'rgba(255,255,255,.55)',
-                  pointBackgroundColor: '#321fdb',
+                  pointBackgroundColor: getStyle('--cui-primary'),
                   data: [68, 59, 84, 84, 51, 55, 40],
                 },
               ],
@@ -125,6 +126,7 @@
             type="line"
             class="mt-3 mx-3"
             style="height: 70px"
+            ref="widgetChartRef2"
             :data="{
               labels: [
                 'January',
@@ -140,7 +142,7 @@
                   label: 'My First dataset',
                   backgroundColor: 'transparent',
                   borderColor: 'rgba(255,255,255,.55)',
-                  pointBackgroundColor: '#39f',
+                  pointBackgroundColor: getStyle('--cui-info'),
                   data: [1, 18, 9, 17, 34, 22, 11],
                 },
               ],
@@ -369,11 +371,31 @@
 </template>
 
 <script>
+import { onMounted, ref } from 'vue'
 import { CChart } from '@coreui/vue-chartjs'
+import { getStyle } from '@coreui/utils'
+
 export default {
   name: 'WidgetsStatsA',
   components: {
     CChart,
+  },
+  setup() {
+    const widgetChartRef1 = ref()
+    const widgetChartRef2 = ref()
+
+    onMounted(() => {
+      document.documentElement.addEventListener('ColorSchemeChange', () => {
+        widgetChartRef1.value.chart.data.datasets[0].pointBackgroundColor =
+          getStyle('--cui-primary')
+        widgetChartRef2.value.chart.data.datasets[0].pointBackgroundColor =
+          getStyle('--cui-info')
+        widgetChartRef1.value.chart.update()
+        widgetChartRef2.value.chart.update()
+      })
+    })
+
+    return { getStyle, widgetChartRef1, widgetChartRef2 }
   },
 }
 </script>

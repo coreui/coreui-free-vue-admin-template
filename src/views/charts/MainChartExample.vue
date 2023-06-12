@@ -1,21 +1,13 @@
 <template>
-  <CChart
-    type="line"
-    :data="data"
-    :options="options"
-    @get-dataset-at-event="aa"
-    @get-element-at-event="aa"
-    @get-elements-at-event="aa"
-  />
+  <CChart type="line" :data="data" :options="options" ref="mainChartRef" />
 </template>
 
 <script>
+import { onMounted, ref } from 'vue'
 import { CChart } from '@coreui/vue-chartjs'
-import { getStyle, hexToRgba } from '@coreui/utils/src'
+import { getStyle } from '@coreui/utils'
 
-function random(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min)
-}
+const random = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
 
 export default {
   name: 'MainChartExample',
@@ -23,12 +15,13 @@ export default {
     CChart,
   },
   setup() {
+    const mainChartRef = ref()
     const data = {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [
         {
           label: 'My First dataset',
-          backgroundColor: hexToRgba(getStyle('--cui-info'), 10),
+          backgroundColor: `rgba(${getStyle('--cui-info-rgb')}, .1)`,
           borderColor: getStyle('--cui-info'),
           pointHoverBackgroundColor: getStyle('--cui-info'),
           borderWidth: 2,
@@ -81,15 +74,26 @@ export default {
       scales: {
         x: {
           grid: {
+            color: getStyle('--cui-border-color-translucent'),
             drawOnChartArea: false,
+          },
+          ticks: {
+            color: getStyle('--cui-body-color'),
           },
         },
         y: {
+          border: {
+            color: getStyle('--cui-border-color-translucent'),
+          },
+          grid: {
+            color: getStyle('--cui-border-color-translucent'),
+          },
           ticks: {
             beginAtZero: true,
+            color: getStyle('--cui-body-color'),
+            max: 250,
             maxTicksLimit: 5,
             stepSize: Math.ceil(250 / 5),
-            max: 250,
           },
         },
       },
@@ -106,16 +110,39 @@ export default {
       },
     }
 
+    onMounted(() => {
+      document.documentElement.addEventListener('ColorSchemeChange', () => {
+        if (mainChartRef.value) {
+          mainChartRef.value.chart,
+            (options.scales.x.grid.borderColor = getStyle(
+              '--cui-border-color-translucent',
+            ))
+          mainChartRef.value.chart,
+            (options.scales.x.grid.color = getStyle(
+              '--cui-border-color-translucent',
+            ))
+          mainChartRef.value.chart,
+            (options.scales.x.ticks.color = getStyle('--cui-body-color'))
+          mainChartRef.value.chart,
+            (options.scales.y.grid.borderColor = getStyle(
+              '--cui-border-color-translucent',
+            ))
+          mainChartRef.value.chart,
+            (options.scales.y.grid.color = getStyle(
+              '--cui-border-color-translucent',
+            ))
+          mainChartRef.value.chart,
+            (options.scales.y.ticks.color = getStyle('--cui-body-color'))
+          mainChartRef.value.chart.update()
+        }
+      })
+    })
+
     return {
       data,
+      mainChartRef,
       options,
     }
-  },
-  methods: {
-    aa(value, value2) {
-      console.log(value)
-      console.log(value2)
-    },
   },
 }
 </script>
