@@ -108,6 +108,7 @@
 
 <script>
 export default {
+  // eslint-disable-next-line
   name: 'Select',
 }
 </script>
