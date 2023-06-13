@@ -97,7 +97,7 @@
 </template>
 
 <script>
-import { useColorModes } from '@coreui/vue/'
+import { useColorModes } from '@coreui/vue'
 import AppBreadcrumb from './AppBreadcrumb'
 import AppHeaderDropdownAccnt from './AppHeaderDropdownAccnt'
 import { logo } from '@/assets/brand/logo'

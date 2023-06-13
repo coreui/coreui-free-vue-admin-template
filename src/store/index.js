@@ -4,6 +4,7 @@ export default createStore({
   state: {
     sidebarVisible: '',
     sidebarUnfoldable: false,
+    theme: 'light',
   },
   mutations: {
     toggleSidebar(state) {

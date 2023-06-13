@@ -386,12 +386,17 @@ export default {
 
     onMounted(() => {
       document.documentElement.addEventListener('ColorSchemeChange', () => {
-        widgetChartRef1.value.chart.data.datasets[0].pointBackgroundColor =
-          getStyle('--cui-primary')
-        widgetChartRef2.value.chart.data.datasets[0].pointBackgroundColor =
-          getStyle('--cui-info')
-        widgetChartRef1.value.chart.update()
-        widgetChartRef2.value.chart.update()
+        if (widgetChartRef1.value) {
+          widgetChartRef1.value.chart.data.datasets[0].pointBackgroundColor =
+            getStyle('--cui-primary')
+          widgetChartRef1.value.chart.update()
+        }
+
+        if (widgetChartRef2.value) {
+          widgetChartRef2.value.chart.data.datasets[0].pointBackgroundColor =
+            getStyle('--cui-info')
+          widgetChartRef2.value.chart.update()
+        }
       })
     })
 
