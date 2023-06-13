@@ -11,7 +11,7 @@
           </DocsExample>
           <DocsExample href="">
             <CRow>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   :progress="{ color: 'success', value: 75 }"
@@ -21,7 +21,7 @@
                   <template #value>89.9%</template>
                 </CWidgetStatsB>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   :progress="{ color: 'info', value: 75 }"
@@ -30,7 +30,7 @@
                   value="12.124"
                 />
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   :progress="{ color: 'warning', value: 75 }"
@@ -39,7 +39,7 @@
                   value="$98.111,00"
                 />
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   :progress="{ color: 'primary', value: 75 }"
@@ -52,7 +52,7 @@
           </DocsExample>
           <DocsExample href="">
             <CRow>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   color="success"
@@ -64,7 +64,7 @@
                   <template #value>89.9%</template>
                 </CWidgetStatsB>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   color="info"
@@ -75,7 +75,7 @@
                   value="12.124"
                 />
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   color="warning"
@@ -86,7 +86,7 @@
                   value="$98.111,00"
                 />
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3">
                 <CWidgetStatsB
                   class="mb-3"
                   color="primary"
@@ -102,7 +102,7 @@
 
           <DocsExample href="">
             <CRow>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2" class="mb-3 mb-lg-0">
                 <CWidgetStatsE title="title" value="1,123">
                   <CChart
                     class="mx-auto"
@@ -126,7 +126,7 @@
                   />
                 </CWidgetStatsE>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2" class="mb-3 mb-lg-0">
                 <CWidgetStatsE title="title" value="1,123">
                   <CChart
                     class="mx-auto"
@@ -150,7 +150,7 @@
                   />
                 </CWidgetStatsE>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2" class="mb-3 mb-lg-0">
                 <CWidgetStatsE title="title" value="1,123">
                   <CChart
                     class="mx-auto"
@@ -174,7 +174,7 @@
                   />
                 </CWidgetStatsE>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2" class="mb-3 mb-lg-0">
                 <CWidgetStatsE title="title" value="1,123">
                   <CChart
                     class="mx-auto"
@@ -198,7 +198,7 @@
                   />
                 </CWidgetStatsE>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2" class="mb-3 mb-lg-0">
                 <CWidgetStatsE title="title" value="1,123">
                   <CChart
                     class="mx-auto"
@@ -222,7 +222,7 @@
                   />
                 </CWidgetStatsE>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2" class="mb-3 mb-lg-0">
                 <CWidgetStatsE title="title" value="1,123">
                   <CChart
                     class="mx-auto"
@@ -250,28 +250,28 @@
           </DocsExample>
           <DocsExample href="">
             <CRow>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="primary" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-settings" size="xl" />
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="info" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-user" size="xl" />
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="warning" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-moon" size="xl" />
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="danger" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-bell" size="xl" />
@@ -282,7 +282,7 @@
           </DocsExample>
           <DocsExample href="">
             <CRow>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="primary" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-settings" size="xl" />
@@ -304,7 +304,7 @@
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="info" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-user" size="xl" />
@@ -326,7 +326,7 @@
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="warning" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-moon" size="xl" />
@@ -348,7 +348,7 @@
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF color="danger" title="Title" value="$1.999,50">
                   <template #icon>
                     <CIcon icon="cil-bell" size="xl" />
@@ -374,7 +374,7 @@
           </DocsExample>
           <DocsExample href="">
             <CRow>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF
                   color="primary"
                   :padding="false"
@@ -386,7 +386,7 @@
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF
                   color="info"
                   :padding="false"
@@ -398,7 +398,7 @@
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF
                   color="warning"
                   :padding="false"
@@ -410,7 +410,7 @@
                   </template>
                 </CWidgetStatsF>
               </CCol>
-              <CCol :xs="3">
+              <CCol :xs="12" :sm="6" :lg="3" class="mb-3 mb-lg-0">
                 <CWidgetStatsF
                   color="danger"
                   :padding="false"
@@ -483,7 +483,7 @@
           </DocsExample>
           <DocsExample href="">
             <CRow>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   :progress="{ color: 'info', value: 75 }"
@@ -495,7 +495,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   :progress="{ color: 'success', value: 75 }"
@@ -507,7 +507,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   :progress="{ color: 'warning', value: 75 }"
@@ -519,7 +519,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   :progress="{ color: 'primary', value: 75 }"
@@ -531,7 +531,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   :progress="{ color: 'danger', value: 75 }"
@@ -543,7 +543,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   :progress="{ color: 'info', value: 75 }"
@@ -559,7 +559,7 @@
           </DocsExample>
           <DocsExample href="">
             <CRow>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   color="info"
@@ -573,7 +573,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   color="success"
@@ -587,7 +587,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   color="warning"
@@ -601,7 +601,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   color="primary"
@@ -615,7 +615,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   color="danger"
@@ -629,7 +629,7 @@
                   /></template>
                 </CWidgetStatsC>
               </CCol>
-              <CCol :xs="2">
+              <CCol :sm="4" :md="3" :lg="2">
                 <CWidgetStatsC
                   class="mb-3"
                   color="info"

@@ -178,7 +178,7 @@
                 >
                   <div class="progress-group-header">
                     <CIcon :icon="item.icon" class="me-2" size="lg" />
-                    <span class="title">Organic Search</span>
+                    <span class="title">{{ item.title }}</span>
                     <span class="ms-auto fw-semibold">
                       {{ item.value }}
                       <span class="text-medium-emphasis small"
@@ -221,7 +221,7 @@
                   </CTableDataCell>
                   <CTableDataCell>
                     <div>{{ item.user.name }}</div>
-                    <div class="small text-medium-emphasis">
+                    <div class="small text-medium-emphasis text-nowrap">
                       <span>{{ item.user.new ? 'New' : 'Recurring' }}</span> |
                       {{ item.user.registered }}
                     </div>
@@ -234,11 +234,11 @@
                     />
                   </CTableDataCell>
                   <CTableDataCell>
-                    <div class="clearfix">
-                      <div class="float-start">
+                    <div class="d-flex justify-content-between text-nowrap">
+                      <div>
                         <strong>{{ item.usage.value }}%</strong>
                       </div>
-                      <div class="float-end">
+                      <div class="ms-1">
                         <small class="text-medium-emphasis">
                           {{ item.usage.period }}
                         </small>
@@ -255,10 +255,11 @@
                   </CTableDataCell>
                   <CTableDataCell>
                     <div class="small text-medium-emphasis">Last login</div>
-                    <strong>{{ item.activity }}</strong>
+                    <div class="fw-semibold text-nowrap">
+                      {{ item.activity }}
+                    </div>
                   </CTableDataCell>
                 </CTableRow>
-                <CTableRow> </CTableRow>
               </CTableBody>
             </CTable>
           </CCardBody>

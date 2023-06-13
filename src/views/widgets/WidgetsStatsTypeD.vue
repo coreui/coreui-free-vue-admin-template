@@ -1,6 +1,6 @@
 <template>
   <CRow>
-    <CCol :sm="6" :lg="3">
+    <CCol :xs="12" :sm="6" :lg="3">
       <CWidgetStatsD
         class="mb-4"
         style="--cui-card-cap-bg: #3b5998"
@@ -42,7 +42,7 @@
         </template>
       </CWidgetStatsD>
     </CCol>
-    <CCol :sm="6" :lg="3">
+    <CCol :xs="12" :sm="6" :lg="3">
       <CWidgetStatsD
         class="mb-4"
         style="--cui-card-cap-bg: #00aced"
@@ -84,7 +84,7 @@
         </template>
       </CWidgetStatsD>
     </CCol>
-    <CCol :sm="6" :lg="3">
+    <CCol :xs="12" :sm="6" :lg="3">
       <CWidgetStatsD
         class="mb-4"
         style="--cui-card-cap-bg: #4875b4"
@@ -126,7 +126,7 @@
         </template>
       </CWidgetStatsD>
     </CCol>
-    <CCol :sm="6" :lg="3">
+    <CCol :xs="12" :sm="6" :lg="3">
       <CWidgetStatsD
         class="mb-4"
         color="warning"
