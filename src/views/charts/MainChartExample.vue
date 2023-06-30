@@ -11,7 +11,7 @@
 
 <script>
 import { CChart } from '@coreui/vue-chartjs'
-import { getStyle, hexToRgba } from '@coreui/utils/src'
+import { getStyle, hexToRgba } from '@coreui/utils'
 
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
