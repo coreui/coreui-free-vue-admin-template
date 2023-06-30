@@ -108,6 +108,6 @@
 
 <script>
 export default {
-  name: 'Select',
+  name: 'SelectView',
 }
 </script>

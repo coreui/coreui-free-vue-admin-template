@@ -206,6 +206,6 @@
 
 <script>
 export default {
-  name: 'Progress',
+  name: 'ProgressView',
 }
 </script>
