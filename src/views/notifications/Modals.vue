@@ -1030,6 +1030,7 @@ export default {
     const visibleScrollableDemo = ref(false)
     const visibleVerticallyCenteredDemo = ref(false)
     const visibleVerticallyCenteredScrollableDemo = ref(false)
+    const tooltipsAndPopoversDemo = ref(false)
     const xlDemo = ref(false)
     const lgDemo = ref(false)
     const smDemo = ref(false)
@@ -1047,6 +1048,7 @@ export default {
       visibleScrollableDemo,
       visibleVerticallyCenteredDemo,
       visibleVerticallyCenteredScrollableDemo,
+      tooltipsAndPopoversDemo,
       xlDemo,
       lgDemo,
       smDemo,
