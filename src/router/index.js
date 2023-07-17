@@ -304,4 +304,13 @@ const router = createRouter({
   },
 })
 
+router.beforeResolve(() => {
+  // Google Tag Manager
+  window.dataLayer = window.dataLayer || []
+  window.dataLayer.push({
+    event: 'pageview',
+    page_location: window.location.href,
+  })
+})
+
 export default router
