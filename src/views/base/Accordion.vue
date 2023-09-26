@@ -6,7 +6,7 @@
           <strong>Vue Accordion</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Click the accordions below to expand/collapse the accordion content.
           </p>
           <DocsExample href="components/accordion.html">
@@ -62,7 +62,7 @@
           <strong>Vue Accordion</strong> <small>Flush</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add <code>flush</code> to remove the default
             <code>background-color</code>, some borders, and some rounded
             corners to render accordions edge-to-edge with their parent
@@ -121,7 +121,7 @@
           <strong>Vue Accordion</strong> <small>Always open</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add <code>always-open</code> property to make accordion items stay
             open when another item is opened.
           </p>

@@ -23,7 +23,7 @@
           <strong>Vue Select</strong> <small>Sizing</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             You may also choose from small and large custom selects to match our
             similarly sized text inputs.
           </p>
@@ -49,7 +49,7 @@
               <option value="3">Three</option>
             </CFormSelect>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             The <code>multiple</code> attribute is also supported:
           </p>
           <DocsExample href="forms/select.html#sizing">
@@ -64,7 +64,7 @@
               <option value="3">Three</option>
             </CFormSelect>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             As is the <code>html-size</code> property:
           </p>
           <DocsExample href="forms/select.html#sizing">
@@ -88,7 +88,7 @@
           <strong>Vue Select</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the <code>disabled</code> boolean attribute on a select to give
             it a grayed out appearance and remove pointer events.
           </p>

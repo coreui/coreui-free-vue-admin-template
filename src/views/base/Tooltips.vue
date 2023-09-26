@@ -6,11 +6,11 @@
           <strong>Vue Tooltips</strong> <small>Basic example</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Hover over the links below to see tooltips:
           </p>
           <DocsExample href="components/tooltip.html">
-            <p class="text-medium-emphasis">
+            <p class="text-body-secondary">
               Tight pants next level keffiyeh
               <CLink v-c-tooltip="'Tooltip text'"> you probably </CLink>
               haven't heard of them. Photo booth beard raw denim letterpress
@@ -26,7 +26,7 @@
               freegan cred raw denim single-origin coffee viral.
             </p>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Hover over the links below to see tooltips:
           </p>
           <DocsExample href="components/tooltip.html">

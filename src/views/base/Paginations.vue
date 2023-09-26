@@ -6,7 +6,7 @@
           <strong>Vue Pagination</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             We use a large block of connected links for our pagination, making
             links hard to miss and easily scalable—all while providing large hit
             areas. Pagination is built with list HTML elements so screen readers
@@ -14,7 +14,7 @@
             <code>&lt;nav&gt;</code> element to identify it as a navigation
             section to screen readers and other assistive technologies.
           </p>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             In addition, as pages likely have more than one such navigation
             section, it&#39;s advisable to provide a descriptive
             <code>aria-label</code> for the <code>&lt;nav&gt;</code> to reflect
@@ -40,7 +40,7 @@
           <strong>Vue Pagination</strong> <small>Working with icons</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Looking to use an icon or symbol in place of text for some
             pagination links? Be sure to provide proper screen reader support
             with <code>aria</code> attributes.
@@ -68,12 +68,12 @@
           <small>Disabled and active states</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Pagination links are customizable for different circumstances. Use
             <code>disabled</code> for links that appear un-clickable and
             <code>.active</code> to indicate the current page.
           </p>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             While the <code>disabled</code> prop uses
             <code>pointer-events: none</code> to <em>try</em> to disable the
             link functionality of <code>&lt;a&gt;</code>s, that CSS property is
@@ -106,7 +106,7 @@
           <strong>Vue Pagination</strong> <small>Sizing</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Fancy larger or smaller pagination? Add
             <code>size=&#34;lg&#34;</code> or <code>size=&#34;sm&#34;</code> for
             additional sizes.
@@ -138,7 +138,7 @@
           <strong>Vue Pagination</strong> <small>Alignment</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Change the alignment of pagination components with
             <a href="https://coreui.io/docs/utilities/flex/"
               >flexbox utilities</a

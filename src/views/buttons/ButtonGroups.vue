@@ -269,7 +269,7 @@
           <strong>Vue Button Group</strong> <span>Nesting</span>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Put a <code>&lt;CButtonGroup&gt;</code> inside another
             <code>&lt;CButtonGroup&gt;</code> when you need dropdown menus
             combined with a series of buttons.
@@ -302,7 +302,7 @@
           <strong>Vue Button Group</strong> <span>Vertical variation</span>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Create a set of buttons that appear vertically stacked rather than
             horizontally.
             <strong>Split button dropdowns are not supported here.</strong>

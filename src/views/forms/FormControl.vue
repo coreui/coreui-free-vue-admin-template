@@ -38,7 +38,7 @@
           <strong>Vue Form Control</strong> <small>Sizing</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Set heights using <code>size</code> property like
             <code>size=&#34;lg&#34;</code> and <code>size=&#34;sm&#34;</code>.
           </p>
@@ -72,7 +72,7 @@
           <strong>Vue Form Control</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the <code>disabled</code> boolean attribute on an input to give
             it a grayed out appearance and remove pointer events.
           </p>
@@ -102,7 +102,7 @@
           <strong>Vue Form Control</strong> <small>Readonly</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the <code>readonly</code> boolean attribute on an input to
             prevent modification of the input&#39;s value. Read-only inputs
             appear lighter (just like disabled inputs), but retain the standard
@@ -125,7 +125,7 @@
           <strong>Vue Form Control</strong> <small>Readonly plain text</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             If you want to have <code>&lt;input readonly&gt;</code> elements in
             your form styled as plain text, use the
             <code>plain-text</code> boolean property to remove the default form

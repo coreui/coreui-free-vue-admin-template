@@ -6,7 +6,7 @@
           <strong>Vue Floating labels</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Wrap a pair of <code>&lt;CFormInput&gt;</code> and
             <code>&lt;CFormLabel&gt;</code> elements in
             <code>CFormFloating</code> to enable floating labels with textual
@@ -34,7 +34,7 @@
               <CFormLabel for="floatingPassword">Password</CFormLabel>
             </CFormFloating>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             When there&#39;s a <code>value</code> already defined,
             <code>&lt;CFormLabel&gt;</code>
             s will automatically adjust to their floated position.
@@ -59,7 +59,7 @@
           <strong>Vue Floating labels</strong> <small>Textareas</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             By default, <code>&lt;CFormTextarea&gt;</code>s will be the same
             height as <code>&lt;CFormInput&gt;</code>s.
           </p>
@@ -72,7 +72,7 @@
               <CFormLabel for="floatingTextarea">Comments</CFormLabel>
             </CFormFloating>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             To set a custom height on your <code>&lt;CFormTextarea;&gt;</code>,
             do not use the <code>rows</code> attribute. Instead, set an explicit
             <code>height</code> (either inline or via custom CSS).
@@ -96,7 +96,7 @@
           <strong>Vue Floating labels</strong> <small>Selects</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Other than <code>&lt;CFormInput&gt;</code>, floating labels are only
             available on <code>&lt;CFormSelect&gt;</code>s. They work in the
             same way, but unlike <code>&lt;CFormInput&gt;</code>s, they&#39;ll
@@ -130,7 +130,7 @@
           <strong>Vue Floating labels</strong> <small>Layout</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             When working with the CoreUI for Bootstrap grid system, be sure to
             place form elements within column classes.
           </p>

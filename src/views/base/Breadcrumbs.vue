@@ -6,7 +6,7 @@
           <strong>Vue Breadcrumb</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             The breadcrumb navigation provides links back to each previous page
             the user navigated through and shows the current location in a
             website or an application. You don’t have to add separators, because

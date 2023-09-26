@@ -6,7 +6,7 @@
           <strong>Vue Input group</strong> <small>Basic example</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Place one add-on or button on either side of an input. You may also
             place one on both sides of an input. Remember to place
             <code>&lt;CFormLabel&gt;</code>s outside the input group.
@@ -59,7 +59,7 @@
           <strong>Vue Input group</strong> <small>Wrapping</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Input groups wrap by default via <code>flex-wrap: wrap</code> in
             order to accommodate custom form field validation within an input
             group. You may disable this with <code>.flex-nowrap</code>.
@@ -83,13 +83,13 @@
           <strong>Vue Input group</strong> <small>Sizing</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the relative form sizing classes to the
             <code>&lt;CInputGroup&gt;</code> itself and contents within will
             automatically resize—no need for repeating the form control size
             classes on each element.
           </p>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             <strong
               >Sizing on the individual input group elements
               isn&#39;tsupported.</strong
@@ -129,7 +129,7 @@
           <strong>Vue Input group</strong> <small>Checkboxes and radios</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Place any checkbox or radio option within an input group&#39;s addon
             instead of text.
           </p>
@@ -164,7 +164,7 @@
           <strong>Vue Input group</strong> <small>Multiple inputs</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             While multiple <code>&lt;CFormInput&gt;</code>s are supported
             visually, validation styles are only available for input groups with
             a single <code>&lt;CFormInput&gt;</code>.
@@ -185,7 +185,7 @@
           <strong>Vue Input group</strong> <small>Multiple addons</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Multiple add-ons are supported and can be mixed with checkbox and
             radio input versions..
           </p>
@@ -214,7 +214,7 @@
           <strong>Vue Input group</strong> <small>Button addons</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Multiple add-ons are supported and can be mixed with checkbox and
             radio input versions..
           </p>

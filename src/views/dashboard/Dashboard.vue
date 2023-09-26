@@ -8,7 +8,7 @@
             <CRow>
               <CCol :sm="5">
                 <h4 id="traffic" class="card-title mb-0">Traffic</h4>
-                <div class="small text-medium-emphasis">January 2021</div>
+                <div class="small text-body-secondary">January 2021</div>
               </CCol>
               <CCol :sm="7" class="d-none d-md-block">
                 <CButton color="primary" class="float-end">
@@ -36,7 +36,7 @@
           <CCardFooter>
             <CRow :xs="{ cols: 1 }" :md="{ cols: 5 }" class="text-center">
               <CCol class="mb-sm-2 mb-0">
-                <div class="text-medium-emphasis">Visits</div>
+                <div class="text-body-secondary">Visits</div>
                 <strong>29.703 Users (40%)</strong>
                 <CProgress
                   class="mt-2"
@@ -47,7 +47,7 @@
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0 d-md-down-none">
-                <div class="text-medium-emphasis">Unique</div>
+                <div class="text-body-secondary">Unique</div>
                 <strong>24.093 Users (20%)</strong>
                 <CProgress
                   class="mt-2"
@@ -58,7 +58,7 @@
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0">
-                <div class="text-medium-emphasis">Pageviews</div>
+                <div class="text-body-secondary">Pageviews</div>
                 <strong>78.706 Views (60%)</strong>
                 <CProgress
                   class="mt-2"
@@ -69,7 +69,7 @@
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0">
-                <div class="text-medium-emphasis">New Users</div>
+                <div class="text-body-secondary">New Users</div>
                 <strong>22.123 Users (80%)</strong>
                 <CProgress
                   class="mt-2"
@@ -80,7 +80,7 @@
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0 d-md-down-none">
-                <div class="text-medium-emphasis">Bounce Rate</div>
+                <div class="text-body-secondary">Bounce Rate</div>
                 <strong>Average Rate (40.15%)</strong>
                 <CProgress class="mt-2" :value="40" thin :precision="1" />
               </CCol>
@@ -102,7 +102,7 @@
                     <div
                       class="border-start border-start-4 border-start-info py-1 px-3 mb-3"
                     >
-                      <div class="text-medium-emphasis small">New Clients</div>
+                      <div class="text-body-secondary small">New Clients</div>
                       <div class="fs-5 fw-semibold">9,123</div>
                     </div>
                   </CCol>
@@ -110,7 +110,7 @@
                     <div
                       class="border-start border-start-4 border-start-danger py-1 px-3 mb-3"
                     >
-                      <div class="text-medium-emphasis small">
+                      <div class="text-body-secondary small">
                         Recurring Clients
                       </div>
                       <div class="fs-5 fw-semibold">22,643</div>
@@ -124,7 +124,7 @@
                   class="progress-group mb-4"
                 >
                   <div class="progress-group-prepend">
-                    <span class="text-medium-emphasis small">{{
+                    <span class="text-body-secondary small">{{
                       item.title
                     }}</span>
                   </div>
@@ -140,7 +140,7 @@
                     <div
                       class="border-start border-start-4 border-start-warning py-1 px-3 mb-3"
                     >
-                      <div class="text-medium-emphasis small">Pageviews</div>
+                      <div class="text-body-secondary small">Pageviews</div>
                       <div class="fs-5 fw-semibold">78,623</div>
                     </div>
                   </CCol>
@@ -148,7 +148,7 @@
                     <div
                       class="border-start border-start-4 border-start-success py-1 px-3 mb-3"
                     >
-                      <div class="text-medium-emphasis small">Organic</div>
+                      <div class="text-body-secondary small">Organic</div>
                       <div class="fs-5 fw-semibold">49,123</div>
                     </div>
                   </CCol>
@@ -181,7 +181,7 @@
                     <span class="title">{{ item.title }}</span>
                     <span class="ms-auto fw-semibold">
                       {{ item.value }}
-                      <span class="text-medium-emphasis small"
+                      <span class="text-body-secondary small"
                         >({{ item.percent }}%)</span
                       >
                     </span>
@@ -221,7 +221,7 @@
                   </CTableDataCell>
                   <CTableDataCell>
                     <div>{{ item.user.name }}</div>
-                    <div class="small text-medium-emphasis text-nowrap">
+                    <div class="small text-body-secondary text-nowrap">
                       <span>{{ item.user.new ? 'New' : 'Recurring' }}</span> |
                       {{ item.user.registered }}
                     </div>
@@ -239,7 +239,7 @@
                         <strong>{{ item.usage.value }}%</strong>
                       </div>
                       <div class="ms-1">
-                        <small class="text-medium-emphasis">
+                        <small class="text-body-secondary">
                           {{ item.usage.period }}
                         </small>
                       </div>
@@ -254,7 +254,7 @@
                     <CIcon size="xl" :name="item.payment.icon" />
                   </CTableDataCell>
                   <CTableDataCell>
-                    <div class="small text-medium-emphasis">Last login</div>
+                    <div class="small text-body-secondary">Last login</div>
                     <div class="fw-semibold text-nowrap">
                       {{ item.activity }}
                     </div>

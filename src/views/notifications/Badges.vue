@@ -6,7 +6,7 @@
           <strong>Vue Badges</strong> <small>Dismissing</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Bootstrap badge scale to suit the size of the parent element by
             using relative font sizing and <code>em</code> units.
           </p>
@@ -18,7 +18,7 @@
             <h5>Example heading <CBadge color="secondary">New</CBadge></h5>
             <h6>Example heading <CBadge color="secondary">New</CBadge></h6>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Badges can be used as part of links or buttons to provide a counter.
           </p>
           <DocsExample href="components/badge.html">
@@ -26,11 +26,11 @@
               Notifications <CBadge color="secondary">4</CBadge>
             </CButton>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Remark that depending on how you use them, badges may be complicated
             for users of screen readers and related assistive technologies.
           </p>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Unless the context is clear, consider including additional context
             with a visually hidden piece of additional text.
           </p>
@@ -49,7 +49,7 @@
           <strong>Vue Badges</strong> <small>Contextual variations</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add any of the below-mentioned <code>color</code> props to modify
             the presentation of a badge.
           </p>
@@ -69,7 +69,7 @@
           <strong>Vue Badges</strong> <small>Pill badges</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Apply the <code>shape=&#34;rounded-pill&#34;</code> prop to make
             badges rounded.
           </p>

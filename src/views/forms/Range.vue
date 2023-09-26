@@ -4,7 +4,7 @@
       <CCard class="mb-4">
         <CCardHeader> <strong>Vue Range</strong> <small></small> </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Create custom
             <code>&lt;input type=&#34;range&#34;&gt;</code> controls with
             <code>&lt;CFormRange&gt;</code>.
@@ -22,7 +22,7 @@
           <strong>Vue Range</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the <code>disabled</code> boolean attribute on an input to give
             it a grayed out appearance and remove pointer events.
           </p>
@@ -39,7 +39,7 @@
           <strong>Vue Range</strong> <small>Min and max</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Range inputs have implicit values for <code>min</code> and
             <code>max</code>— <code>0</code> and <code>100</code>, respectively.
             You may specify new values for those using the <code>min</code> and
@@ -58,7 +58,7 @@
           <strong>Vue Range</strong> <small>Steps</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             By default, range inputs &#34;snap&#34; to integer values. To change
             this, you can specify a <code>step</code> value. In the example
             below, we double the number of steps by using

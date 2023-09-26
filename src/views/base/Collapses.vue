@@ -6,7 +6,7 @@
           <strong>Vue Collapse</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             You can use a link or a button component.
           </p>
           <DocsExample href="components/collapse.html#example">
@@ -34,7 +34,7 @@
           <strong>Vue Collapse</strong> <small> Horizontal</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             The collapse plugin also supports horizontal collapsing. Add the
             <code>horizontal</code> property to transition the
             <code>width</code> instead of <code>height</code> and set a
@@ -67,7 +67,7 @@
           <strong>Vue Collapse</strong> <small> multi target</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             A <code>&lt;CButton&gt;</code> can show and hide multiple elements.
           </p>
           <h4 class="mt-4">Toggle multiple targets</h4>

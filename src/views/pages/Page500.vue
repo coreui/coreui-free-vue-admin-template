@@ -6,7 +6,7 @@
           <span class="clearfix">
             <h1 class="float-start display-3 me-4">500</h1>
             <h4 class="pt-3">Houston, we have a problem!</h4>
-            <p class="text-medium-emphasis float-start">
+            <p class="text-body-secondary float-start">
               The page you are looking for is temporarily unavailable.
             </p>
           </span>

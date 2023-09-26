@@ -23,7 +23,7 @@
           <strong>Vue Checkbox</strong> <small>Disabled</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the <code>disabled</code> attribute and the associated
             <code>&lt;label&gt;</code>s are automatically styled to match with a
             lighter color to help indicate the input&#39;s state.
@@ -41,7 +41,7 @@
           <strong>Vue Radio</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the <code>disabled</code> attribute and the associated
             <code>&lt;label&gt;</code>s are automatically styled to match with a
             lighter color to help indicate the input&#39;s state.
@@ -96,7 +96,7 @@
           <strong>Vue Switches</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             A switch has the markup of a custom checkbox but uses the
             <code>switch</code> boolean properly to render a toggle switch.
             Switches also support the <code>disabled</code> attribute.
@@ -158,7 +158,7 @@
           <small>Default layout (stacked)</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             By default, any number of checkboxes and radios that are immediate
             sibling will be vertically stacked and appropriately spaced.
           </p>
@@ -200,7 +200,7 @@
           <strong>Vue Checks and Radios</strong> <small>Inline</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Group checkboxes or radios on the same horizontal row by adding
             <code>inline</code> boolean property to any
             <code>&lt;CFormCheck&gt;</code>.
@@ -252,7 +252,7 @@
           <strong>Vue Checks and Radios</strong> <small>Without labels</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Remember to still provide some form of accessible name for assistive
             technologies (for instance, using <code>aria-label</code>).
           </p>
@@ -279,7 +279,7 @@
           <strong>Toggle buttons</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Create button-like checkboxes and radio buttons by using
             <code>button</code> boolean property on the
             <code>&lt;CFormCheck&gt;</code> component. These toggle buttons can
@@ -349,7 +349,7 @@
             />
           </DocsExample>
           <h3>Outlined styles</h3>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Different variants of button, such at the various outlined styles,
             are supported.
           </p>

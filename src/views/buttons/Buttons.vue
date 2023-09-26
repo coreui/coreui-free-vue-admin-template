@@ -6,7 +6,7 @@
           <strong>Vue Button</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             CoreUI includes a bunch of predefined buttons components, each
             serving its own semantic purpose. Buttons show what action will
             happen when the user clicks or touches it. CoreUI buttons are used
@@ -57,7 +57,7 @@
           <strong>Vue Button</strong> <small>with icons</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             You can combine button with our
             <a href="https://icons.coreui.io/">CoreUI Icons</a>.
           </p>
@@ -107,14 +107,14 @@
           <strong>Vue Button</strong> <small>Button components</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             The <code>&lt;CButton&gt;</code> component are designed for
             <code>&lt;button&gt;</code> , <code>&lt;a&gt;</code> or
             <code>&lt;input&gt;</code>
             elements (though some browsers may apply a slightly different
             rendering).
           </p>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             If you&#39;re using <code>&lt;CButton&gt;</code> component as
             <code>&lt;a&gt;</code> elements that are used to trigger
             functionality ex. collapsing content, these links should be given a
@@ -154,7 +154,7 @@
           <strong>Vue Button</strong> <small>outline</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             If you need a button, but without the strong background colors. Set
             <code>variant=&#34;outline&#34;</code> prop to remove all background
             colors.
@@ -205,7 +205,7 @@
           <strong>Vue Button</strong> <small>ghost</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             If you need a ghost variant of button, set
             <code>variant=&#34;ghost&#34;</code> prop to remove all background
             colors.
@@ -256,7 +256,7 @@
           <strong>Vue Button</strong> <small>Sizes</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Larger or smaller buttons? Add <code>size=&#34;lg&#34;</code> or
             <code>size=&#34;sm&#34;</code> for additional sizes.
           </p>
@@ -333,7 +333,7 @@
           <strong>Vue Button</strong> <small>Disabled state</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add the <code>disabled</code> boolean prop to any
             <code>&lt;CButton&gt;</code>
             component to make buttons look inactive. Disabled button has
@@ -346,11 +346,11 @@
             </CButton>
             <CButton color="secondary" size="lg" disabled> Button </CButton>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Disabled buttons using the <code>&lt;a&gt;</code> component act a
             little different:
           </p>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             <code>&lt;a&gt;</code>s don&#39;tsupport the
             <code>disabled</code> attribute, so CoreUI has to add
             <code>.disabled</code> class to make buttons look inactive. CoreUI
@@ -381,7 +381,7 @@
           <strong>Vue Button</strong> <small>Block buttons</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Create buttons that span the full width of a parent—by using
             utilities.
           </p>
@@ -391,7 +391,7 @@
               <CButton color="primary">Button</CButton>
             </div>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Here we create a responsive variation, starting with vertically
             stacked buttons until the <code>md</code> breakpoint, where
             <code>.d-md-block</code> replaces the <code>.d-grid</code> class,
@@ -404,7 +404,7 @@
               <CButton color="primary">Button</CButton>
             </div>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             You can adjust the width of your block buttons with grid column
             width classes. For example, for a half-width &#34;block button&#34;,
             use <code>.col-6</code>. Center it horizontally with
@@ -416,7 +416,7 @@
               <CButton color="primary">Button</CButton>
             </div>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Additional utilities can be used to adjust the alignment of buttons
             when horizontal. Here we&#39;ve taken our previous responsive
             example and added some flex utilities and a margin utility on the

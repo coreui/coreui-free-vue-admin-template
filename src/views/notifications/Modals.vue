@@ -6,7 +6,7 @@
           <strong>Vue Modals</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Below is a static modal example (meaning its
             <code>position</code> and <code>display</code> have been
             overridden). Included are the modal header, modal body (required for
@@ -40,7 +40,7 @@
           <strong>Vue Modal</strong> <small>Live demo</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Toggle a working modal demo by clicking the button below. It will
             slide down and fade in from the top of the page.
           </p>
@@ -99,7 +99,7 @@
           <strong>Vue Modal</strong> <small>Static backdrop</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             If you set <code>backdrop</code> property to <code>static</code>,
             your modal will behave as though the backdrop is static, meaning it
             will not close when clicking outside it. Click the button below to
@@ -161,7 +161,7 @@
           <strong>Vue Modal</strong> <small>Scrolling long content</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             When modals become too long for the user's viewport or device, they
             scroll independent of the page itself. Try the demo below to see
             what we mean.
@@ -294,7 +294,7 @@
               </CModalBody>
             </CModal>
           </DocsExample>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             You can also create a scrollable modal that allows scroll the modal
             body by adding
             <code>scrollable</code> prop.
@@ -437,7 +437,7 @@
           <strong>Vue Modal</strong> <small>Vertically centered</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Add <code>alignment=&#34;center&#34;</code> to
             <code>&lt;CModal&gt;</code> to vertically center the modal.
           </p>
@@ -550,7 +550,7 @@
           <strong>Vue Modal</strong> <small>Tooltips and popovers</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             <code>&lt;CTooltips&gt;</code> and
             <code>&lt;CPopovers&gt;</code> can be placed within modals as
             needed. When modals are closed, any tooltips and popovers within are
@@ -629,7 +629,7 @@
           <strong>Vue Modal</strong> <small>Optional sizes</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Modals have three optional sizes, available via modifier classes to
             be placed on a
             <code>&lt;CModal&gt;</code>. These sizes kick in at certain
@@ -655,7 +655,7 @@
               </tr>
               <tr>
                 <td>Default</td>
-                <td class="text-medium-emphasis">None</td>
+                <td class="text-body-secondary">None</td>
                 <td>
                   <code>500px</code>
                 </td>
@@ -781,7 +781,7 @@
           <strong>Vue Modal</strong> <small>Fullscreen Modal</small>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             Another override is the option to pop up a modal that covers the
             user viewport, available via property <code>fullscrean</code>.
           </p>

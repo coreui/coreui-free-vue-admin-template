@@ -6,7 +6,7 @@
           <strong>Vue Placeholder</strong>
         </CCardHeader>
         <CCardBody>
-          <p class="text-medium-emphasis small">
+          <p class="text-body-secondary small">
             In the example below, we take a typical card component and recreate
             it with placeholders applied to create a "loading card". Size and
             proportions are the same between the two.
