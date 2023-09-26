@@ -19,11 +19,11 @@
   },
   "dependencies": {
     "@coreui/chartjs": "^3.1.2",
-    "@coreui/coreui": "^4.3.0-beta.0",
+    "@coreui/coreui": "^5.0.0-alpha.2",
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-vue": "2.0.0",
     "@coreui/utils": "^2.0.2",
-    "@coreui/vue": "^4.9.0-beta.1",
+    "@coreui/vue": "^5.0.0-alpha.0",
     "@coreui/vue-chartjs": "2.1.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2",
