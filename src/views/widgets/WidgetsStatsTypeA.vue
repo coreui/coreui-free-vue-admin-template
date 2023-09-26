@@ -16,7 +16,7 @@
               class="p-0 text-white"
               :caret="false"
             >
-              <CIcon icon="cil-options" class="text-high-emphasis-inverse" />
+              <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
               <CDropdownItem href="#">Action</CDropdownItem>
@@ -112,7 +112,7 @@
               class="p-0 text-white"
               :caret="false"
             >
-              <CIcon icon="cil-options" class="text-high-emphasis-inverse" />
+              <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
               <CDropdownItem href="#">Action</CDropdownItem>
@@ -207,7 +207,7 @@
               class="p-0 text-white"
               :caret="false"
             >
-              <CIcon icon="cil-options" class="text-high-emphasis-inverse" />
+              <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
               <CDropdownItem href="#">Action</CDropdownItem>
@@ -288,7 +288,7 @@
               class="p-0 text-white"
               :caret="false"
             >
-              <CIcon icon="cil-options" class="text-high-emphasis-inverse" />
+              <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
               <CDropdownItem href="#">Action</CDropdownItem>
