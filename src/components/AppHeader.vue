@@ -1,6 +1,6 @@
 <template>
   <CHeader position="sticky" class="mb-4">
-    <CContainer fluid>
+    <CContainer class="border-bottom" fluid>
       <CHeaderToggler class="ps-1" @click="$store.commit('toggleSidebar')">
         <CIcon icon="cil-menu" size="lg" />
       </CHeaderToggler>
@@ -42,9 +42,9 @@
         </li>
         <CDropdown variant="nav-item" placement="bottom-end">
           <CDropdownToggle :caret="false">
-            <CIcon v-if="getColorMode() === 'dark'" icon="cil-moon" size="xl" />
+            <CIcon v-if="colorMode === 'dark'" icon="cil-moon" size="xl" />
             <CIcon
-              v-else-if="getColorMode() === 'light'"
+              v-else-if="colorMode === 'light'"
               icon="cil-sun"
               size="xl"
             />
@@ -52,7 +52,7 @@
           </CDropdownToggle>
           <CDropdownMenu>
             <CDropdownItem
-              :active="getColorMode() === 'light'"
+              :active="colorMode === 'light'"
               class="d-flex align-items-center"
               component="button"
               type="button"
@@ -61,7 +61,7 @@
               <CIcon class="me-2" icon="cil-sun" size="lg" /> Light
             </CDropdownItem>
             <CDropdownItem
-              :active="getColorMode() === 'dark'"
+              :active="colorMode === 'dark'"
               class="d-flex align-items-center"
               component="button"
               type="button"
@@ -70,7 +70,7 @@
               <CIcon class="me-2" icon="cil-moon" size="lg" /> Dark
             </CDropdownItem>
             <CDropdownItem
-              :active="getColorMode() === 'auto'"
+              :active="colorMode === 'auto'"
               class="d-flex align-items-center"
               component="button"
               type="button"
@@ -89,7 +89,6 @@
         <AppHeaderDropdownAccnt />
       </CHeaderNav>
     </CContainer>
-    <CHeaderDivider />
     <CContainer fluid>
       <AppBreadcrumb />
     </CContainer>
@@ -108,13 +107,13 @@ export default {
     AppHeaderDropdownAccnt,
   },
   setup() {
-    const { getColorMode, setColorMode } = useColorModes(
+    const { colorMode, setColorMode } = useColorModes(
       'coreui-free-vue-admin-template-theme',
     )
     return {
       logo,
+      colorMode,
       setColorMode,
-      getColorMode,
     }
   },
 }

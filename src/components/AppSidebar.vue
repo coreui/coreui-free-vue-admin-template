@@ -1,5 +1,6 @@
 <template>
   <CSidebar
+    class="border-end"
     position="fixed"
     :unfoldable="sidebarUnfoldable"
     :visible="sidebarVisible"
@@ -11,23 +12,27 @@
         })
     "
   >
-    <CSidebarBrand>
-      <CIcon
-        custom-class-name="sidebar-brand-full"
-        :icon="logoNegative"
-        :height="35"
-      />
-      <CIcon
-        custom-class-name="sidebar-brand-narrow"
-        :icon="sygnet"
-        :height="35"
-      />
-    </CSidebarBrand>
+    <CSidebarHeader class="border-bottom">
+      <CSidebarBrand>
+        <CIcon
+          custom-class-name="sidebar-brand-full"
+          :icon="logoNegative"
+          :height="32"
+        />
+        <CIcon
+          custom-class-name="sidebar-brand-narrow"
+          :icon="sygnet"
+          :height="32"
+        />
+      </CSidebarBrand>
+    </CSidebarHeader>
     <AppSidebarNav />
-    <CSidebarToggler
-      class="d-none d-lg-flex"
-      @click="$store.commit('toggleUnfoldable')"
-    />
+    <CSidebarFooter class="border-top">
+      <CSidebarToggler
+        class="d-none d-lg-flex"
+        @click="$store.commit('toggleUnfoldable')"
+      />
+    </CSidebarFooter>
   </CSidebar>
 </template>
 
