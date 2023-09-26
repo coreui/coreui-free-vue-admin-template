@@ -1,6 +1,7 @@
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'node:path'
+import autoprefixer from 'autoprefixer'
 
 export default defineConfig(({ mode }) => {
   // Load .env
@@ -9,6 +10,13 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [vue()],
+    css: {
+      postcss: {
+        plugins: [
+          autoprefixer({}) // add options if needed
+        ],
+      }
+    },
     resolve: {
       alias: [
         // webpack path resolve to vitejs
