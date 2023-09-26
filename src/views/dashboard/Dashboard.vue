@@ -194,20 +194,26 @@
             </CRow>
             <br />
             <CTable align="middle" class="mb-0 border" hover responsive>
-              <CTableHead class="bg-body-secondary">
+              <CTableHead>
                 <CTableRow>
-                  <CTableHeaderCell class="text-center">
+                  <CTableHeaderCell class="bg-body-secondary text-center">
                     <CIcon name="cil-people" />
                   </CTableHeaderCell>
-                  <CTableHeaderCell>User</CTableHeaderCell>
-                  <CTableHeaderCell class="text-center"
-                    >Country</CTableHeaderCell
-                  >
-                  <CTableHeaderCell>Usage</CTableHeaderCell>
-                  <CTableHeaderCell class="text-center"
-                    >Payment Method</CTableHeaderCell
-                  >
-                  <CTableHeaderCell>Activity</CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary">
+                    User
+                  </CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary text-center">
+                    Country
+                  </CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary">
+                    Usage
+                  </CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary text-center">
+                    Payment Method
+                  </CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary">
+                    Activity
+                  </CTableHeaderCell>
                 </CTableRow>
               </CTableHead>
               <CTableBody>
@@ -234,14 +240,10 @@
                     />
                   </CTableDataCell>
                   <CTableDataCell>
-                    <div class="d-flex justify-content-between text-nowrap">
-                      <div>
-                        <strong>{{ item.usage.value }}%</strong>
-                      </div>
-                      <div class="ms-1">
-                        <small class="text-body-secondary">
-                          {{ item.usage.period }}
-                        </small>
+                    <div class="d-flex justify-content-between align-items-baseline">
+                      <div class="fw-semibold">{{ item.usage.value }}%</div>
+                      <div class="ms-1 text-nowrap small text-body-secondary">
+                        {{ item.usage.period }}
                       </div>
                     </div>
                     <CProgress
