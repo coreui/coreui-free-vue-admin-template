@@ -37,7 +37,7 @@
             <CRow :xs="{ cols: 1 }" :md="{ cols: 5 }" class="text-center">
               <CCol class="mb-sm-2 mb-0">
                 <div class="text-body-secondary">Visits</div>
-                <strong>29.703 Users (40%)</strong>
+                <div class="fw-semibold">29.703 Users (40%)</div>
                 <CProgress
                   class="mt-2"
                   color="success"
@@ -48,7 +48,7 @@
               </CCol>
               <CCol class="mb-sm-2 mb-0 d-md-down-none">
                 <div class="text-body-secondary">Unique</div>
-                <strong>24.093 Users (20%)</strong>
+                <div class="fw-semibold">24.093 Users (20%)</div>
                 <CProgress
                   class="mt-2"
                   color="info"
@@ -59,7 +59,7 @@
               </CCol>
               <CCol class="mb-sm-2 mb-0">
                 <div class="text-body-secondary">Pageviews</div>
-                <strong>78.706 Views (60%)</strong>
+                <div class="fw-semibold">78.706 Views (60%)</div>
                 <CProgress
                   class="mt-2"
                   color="warning"
@@ -70,7 +70,7 @@
               </CCol>
               <CCol class="mb-sm-2 mb-0">
                 <div class="text-body-secondary">New Users</div>
-                <strong>22.123 Users (80%)</strong>
+                <div class="fw-semibold">22.123 Users (80%)</div>
                 <CProgress
                   class="mt-2"
                   color="danger"
@@ -81,7 +81,7 @@
               </CCol>
               <CCol class="mb-sm-2 mb-0 d-md-down-none">
                 <div class="text-body-secondary">Bounce Rate</div>
-                <strong>Average Rate (40.15%)</strong>
+                <div class="fw-semibold">Average Rate (40.15%)</div>
                 <CProgress class="mt-2" :value="40" thin :precision="1" />
               </CCol>
             </CRow>
