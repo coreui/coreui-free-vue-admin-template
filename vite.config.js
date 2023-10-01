@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [vue()],
+    base: './',
     css: {
       postcss: {
         plugins: [
