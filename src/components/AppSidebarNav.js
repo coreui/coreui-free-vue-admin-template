@@ -62,6 +62,7 @@ const AppSidebarNav = defineComponent({
         return h(
           CNavGroup,
           {
+            compact: true,
             ...(firstRender.value && {
               visible: item.items.some((child) => isActiveItem(route, child)),
             }),
@@ -97,11 +98,16 @@ const AppSidebarNav = defineComponent({
                   },
                   {
                     default: () => [
-                      item.icon &&
-                        h(resolveComponent('CIcon'), {
-                          customClassName: 'nav-icon',
-                          name: item.icon,
-                        }),
+                      item.icon
+                        ? h(resolveComponent('CIcon'), {
+                            customClassName: 'nav-icon',
+                            name: item.icon,
+                          })
+                        : h(
+                            'span',
+                            { class: 'nav-icon' },
+                            h('span', { class: 'nav-icon-bullet' }),
+                          ),
                       item.name,
                       item.badge &&
                         h(

@@ -1,6 +1,6 @@
 <template>
   <CSidebar
-    class="border-end"
+    class="sidebar-dark border-end"
     position="fixed"
     :unfoldable="sidebarUnfoldable"
     :visible="sidebarVisible"
