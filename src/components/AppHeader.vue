@@ -1,10 +1,10 @@
 <template>
   <CHeader position="sticky" :class="headerClassNames">
-    <CContainer class="border-bottom" fluid>
-      <CHeaderToggler class="ps-1" @click="$store.commit('toggleSidebar')">
+    <CContainer class="border-bottom px-4" fluid>
+      <CHeaderToggler @click="$store.commit('toggleSidebar')" style="margin-inline-start: -14px">
         <CIcon icon="cil-menu" size="lg" />
       </CHeaderToggler>
-      <CHeaderNav class="d-none d-md-flex me-auto">
+      <CHeaderNav class="d-none d-md-flex">
         <CNavItem>
           <CNavLink href="/dashboard"> Dashboard </CNavLink>
         </CNavItem>
@@ -15,33 +15,32 @@
           <CNavLink href="#">Settings</CNavLink>
         </CNavItem>
       </CHeaderNav>
+      <CHeaderNav class="ms-auto">
+        <CNavItem>
+          <CNavLink href="#">
+            <CIcon icon="cil-bell" size="lg" />
+          </CNavLink>
+        </CNavItem>
+        <CNavItem>
+          <CNavLink href="#">
+            <CIcon icon="cil-list" size="lg" />
+          </CNavLink>
+        </CNavItem>
+        <CNavItem>
+          <CNavLink href="#">
+            <CIcon icon="cil-envelope-open" size="lg" />
+          </CNavLink>
+        </CNavItem>
+      </CHeaderNav>
       <CHeaderNav>
-        <CNavItem>
-          <CNavLink href="#">
-            <CIcon class="mx-2" icon="cil-bell" size="lg" />
-          </CNavLink>
-        </CNavItem>
-        <CNavItem>
-          <CNavLink href="#">
-            <CIcon class="mx-2" icon="cil-list" size="lg" />
-          </CNavLink>
-        </CNavItem>
-        <CNavItem>
-          <CNavLink href="#">
-            <CIcon class="mx-2" icon="cil-envelope-open" size="lg" />
-          </CNavLink>
-        </CNavItem>
-        <li class="nav-item py-2 py-lg-1">
-          <div
-            class="vr d-none d-lg-flex h-100 mx-lg-2 text-body text-opacity-75"
-          ></div>
-          <hr class="d-lg-none my-2 text-white-50" />
+        <li class="nav-item py-1">
+          <div class="vr h-100 mx-2 text-body text-opacity-75"></div>
         </li>
         <CDropdown variant="nav-item" placement="bottom-end">
           <CDropdownToggle :caret="false">
-            <CIcon v-if="colorMode === 'dark'" icon="cil-moon" size="xl" />
-            <CIcon v-else-if="colorMode === 'light'" icon="cil-sun" size="xl" />
-            <CIcon v-else icon="cil-contrast" size="xl" />
+            <CIcon v-if="colorMode === 'dark'" icon="cil-moon" size="lg" />
+            <CIcon v-else-if="colorMode === 'light'" icon="cil-sun" size="lg" />
+            <CIcon v-else icon="cil-contrast" size="lg" />
           </CDropdownToggle>
           <CDropdownMenu>
             <CDropdownItem
@@ -73,16 +72,13 @@
             </CDropdownItem>
           </CDropdownMenu>
         </CDropdown>
-        <li class="nav-item py-2 py-lg-1">
-          <div
-            class="vr d-none d-lg-flex h-100 mx-lg-2 text-body text-opacity-75"
-          ></div>
-          <hr class="d-lg-none my-2 text-white-50" />
+        <li class="nav-item py-1">
+          <div class="vr h-100 mx-2 text-body text-opacity-75"></div>
         </li>
         <AppHeaderDropdownAccnt />
       </CHeaderNav>
     </CContainer>
-    <CContainer fluid>
+    <CContainer class="px-4" fluid>
       <AppBreadcrumb />
     </CContainer>
   </CHeader>
@@ -100,17 +96,15 @@ export default {
     AppHeaderDropdownAccnt,
   },
   setup() {
-    const headerClassNames = ref('mb-4')
-    const { colorMode, setColorMode } = useColorModes(
-      'coreui-free-vue-admin-template-theme',
-    )
+    const headerClassNames = ref('mb-4 p-0')
+    const { colorMode, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
 
     onMounted(() => {
       document.addEventListener('scroll', () => {
         if (document.documentElement.scrollTop > 0) {
-          headerClassNames.value = 'mb-4 shadow-sm'
+          headerClassNames.value = 'mb-4 p-0 shadow-sm'
         } else {
-          headerClassNames.value = 'mb-4'
+          headerClassNames.value = 'mb-4 p-0'
         }
       })
     })

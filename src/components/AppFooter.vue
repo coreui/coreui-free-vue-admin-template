@@ -1,5 +1,5 @@
 <template>
-  <CFooter>
+  <CFooter class="px-4">
     <div>
       <a href="https://coreui.io" target="_blank">CoreUI</a>
       <span class="ms-1"
