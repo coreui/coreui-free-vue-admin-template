@@ -60,6 +60,9 @@
               maintainAspectRatio: false,
               scales: {
                 x: {
+                  border: {
+                    display: false,
+                  },
                   grid: {
                     display: false,
                     drawBorder: false,
@@ -156,6 +159,9 @@
               maintainAspectRatio: false,
               scales: {
                 x: {
+                  border: {
+                    display: false,
+                  },
                   grid: {
                     display: false,
                     drawBorder: false,
@@ -250,6 +256,9 @@
               maintainAspectRatio: false,
               scales: {
                 x: {
+                  border: {
+                    display: false,
+                  },
                   display: false,
                 },
                 y: {
@@ -352,6 +361,9 @@
                   },
                 },
                 y: {
+                  border: {
+                    display: false,
+                  },
                   grid: {
                     display: false,
                     drawBorder: false,
