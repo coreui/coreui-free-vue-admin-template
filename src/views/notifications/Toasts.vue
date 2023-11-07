@@ -174,7 +174,7 @@
           <p class="text-body-secondary small">
             Building on the above example, you can create different toast color schemes with our
             <a href="https://coreui.io/docs/utilities/colors">color</a> and
-            <a href="https://coreui.io/docs//utilities/background">background</a> utilities.
+            <a href="https://coreui.io/docs/utilities/background">background</a> utilities.
             Here we&#39;ve set <code>color=&#34;primary&#34;</code> and added
             <code>.text-white</code> class to the <code>&lt;Ctoast&gt;</code>, and then set
             <code>white</code> property to our close button. For a crisp edge, we remove the default
