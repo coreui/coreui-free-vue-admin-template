@@ -12,30 +12,32 @@
   "license": "MIT",
   "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --force",
     "build": "vite build",
     "lint": "eslint \"src/**/*.{js,vue}\"",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coreui/chartjs": "^3.1.2",
-    "@coreui/coreui": "^5.0.0-alpha.2",
+    "@coreui/chartjs": "^4.0.0-beta.0",
+    "@coreui/coreui": "^5.0.0-beta.1",
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-vue": "2.0.0",
     "@coreui/utils": "^2.0.2",
-    "@coreui/vue": "^5.0.0-alpha.0",
-    "@coreui/vue-chartjs": "2.1.0",
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.2",
+    "@coreui/vue": "^5.0.0-beta.1",
+    "@coreui/vue-chartjs": "^3.0.0-beta.0",
+    "@popperjs/core": "^2.11.8",
+    "chart.js": "^4.4.0",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue": "^4.4.0",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.50.0",
-    "eslint-plugin-vue": "^9.17.0",
-    "postcss": "^8.4.30",
-    "sass": "^1.68.0",
-    "vite": "^4.4.5"
+    "eslint": "^8.53.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.5",
+    "vite": "^4.5.0"
   }
 }
