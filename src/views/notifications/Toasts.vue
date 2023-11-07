@@ -133,11 +133,11 @@
         <CCardBody>
           <p class="text-body-secondary small">
             Customize your toasts by removing sub-components, tweaking them with
-            <a href="https://coreui.io/docs/4.0/utilities/api">utilities</a>, or by adding your own
+            <a href="https://coreui.io/docs/utilities/api">utilities</a>, or by adding your own
             markup. Here we&#39;ve created a simpler toast by removing the default
             <code>&lt;CToastHeader&gt;</code>, adding a custom hide icon from
-            <a href="https://icons.coreui.io">CoreUI Icons</a>, and using some
-            <a href="https://coreui.io/docs/4.0/utilities/flex">flexbox utilities</a> to adjust the
+            <a href="https://coreui.io/icons/">CoreUI Icons</a>, and using some
+            <a href="https://coreui.io/docs/utilities/flex">flexbox utilities</a> to adjust the
             layout.
           </p>
           <DocsExample href="components/toast.html#custom-content">
@@ -173,8 +173,8 @@
         <CCardBody>
           <p class="text-body-secondary small">
             Building on the above example, you can create different toast color schemes with our
-            <a href="https://coreui.io/docs/4.0/utilities/colors">color</a> and
-            <a href="https://coreui.io/docs/4.0//utilities/background">background</a> utilities.
+            <a href="https://coreui.io/docs/utilities/colors">color</a> and
+            <a href="https://coreui.io/docs//utilities/background">background</a> utilities.
             Here we&#39;ve set <code>color=&#34;primary&#34;</code> and added
             <code>.text-white</code> class to the <code>&lt;Ctoast&gt;</code>, and then set
             <code>white</code> property to our close button. For a crisp edge, we remove the default

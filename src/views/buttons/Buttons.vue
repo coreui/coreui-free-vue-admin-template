@@ -59,7 +59,7 @@
         <CCardBody>
           <p class="text-body-secondary small">
             You can combine button with our
-            <a href="https://icons.coreui.io/">CoreUI Icons</a>.
+            <a href="https://coreui.io/icons/">CoreUI Icons</a>.
           </p>
           <DocsExample href="components/button.html">
             <template

@@ -12,7 +12,7 @@
             <strong>required</strong> contextual <code>color</code> props (e.g.,
             <code>primary</code>). For inline dismissal, use the
             <a
-              href="https://coreui.io/vue/docs/4.0/components/alert.html#dismissing"
+              href="https://coreui.io/vue/docs/components/alert.html#dismissing"
             >
               dismissing prop
             </a>
