@@ -254,6 +254,11 @@ const routes = [
             name: 'Modals',
             component: () => import('@/views/notifications/Modals.vue'),
           },
+          {
+            path: '/notifications/toasts',
+            name: 'Toasts',
+            component: () => import('@/views/notifications/Toasts.vue'),
+          },
         ],
       },
       {

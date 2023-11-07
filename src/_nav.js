@@ -232,6 +232,11 @@ export default [
         name: 'Modals',
         to: '/notifications/modals',
       },
+      {
+        component: 'CNavItem',
+        name: 'Toasts',
+        to: '/notifications/toasts',
+      },
     ],
   },
   {
