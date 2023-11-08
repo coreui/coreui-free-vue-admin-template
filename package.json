@@ -18,8 +18,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coreui/chartjs": "^4.0.0-beta.0",
-    "@coreui/coreui": "^5.0.0-beta.1",
+    "@coreui/chartjs": "^4.0.0-beta.1",
+    "@coreui/coreui": "^5.0.0-beta.2",
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-vue": "2.0.0",
     "@coreui/utils": "^2.0.2",
