@@ -1,6 +1,7 @@
 <template>
   <CSidebar
-    class="sidebar-dark border-end"
+    class="border-end"
+    colorScheme="dark"
     position="fixed"
     :unfoldable="sidebarUnfoldable"
     :visible="sidebarVisible"
@@ -25,6 +26,7 @@
           :height="32"
         />
       </CSidebarBrand>
+      <CCloseButton class="d-lg-none" dark @click="$store.commit('toggleSidebar')" />
     </CSidebarHeader>
     <AppSidebarNav />
     <CSidebarFooter class="border-top">
