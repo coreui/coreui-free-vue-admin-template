@@ -1,7 +1,7 @@
 <template>
-  <CRow>
-    <CCol :xs="12" :sm="6" :lg="3">
-      <CWidgetStatsA class="mb-4" color="primary">
+  <CRow :xs="{ gutter: 4 }">
+    <CCol :sm="6" :xl="4" :xxl="3">
+      <CWidgetStatsA color="primary">
         <template #value
           >26K
           <span class="fs-6 fw-normal">
@@ -99,8 +99,8 @@
         </template>
       </CWidgetStatsA>
     </CCol>
-    <CCol :xs="12" :sm="6" :lg="3">
-      <CWidgetStatsA class="mb-4" color="info">
+    <CCol :sm="6" :xl="4" :xxl="3">
+      <CWidgetStatsA color="info">
         <template #value
           >$6.200
           <span class="fs-6 fw-normal">
@@ -197,8 +197,8 @@
         </template>
       </CWidgetStatsA>
     </CCol>
-    <CCol :xs="12" :sm="6" :lg="3">
-      <CWidgetStatsA class="mb-4" color="warning">
+    <CCol :sm="6" :xl="4" :xxl="3">
+      <CWidgetStatsA color="warning">
         <template #value
           >2.49%
           <span class="fs-6 fw-normal">
@@ -281,8 +281,8 @@
         </template>
       </CWidgetStatsA>
     </CCol>
-    <CCol :xs="12" :sm="6" :lg="3">
-      <CWidgetStatsA class="mb-4" color="danger">
+    <CCol :sm="6" :xl="4" :xxl="3">
+      <CWidgetStatsA color="danger">
         <template #value
           >44K
           <span class="fs-6 fw-normal">

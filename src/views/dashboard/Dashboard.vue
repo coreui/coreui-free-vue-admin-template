@@ -1,6 +1,6 @@
 <template>
   <div>
-    <WidgetsStatsA />
+    <WidgetsStatsA class="mb-4" />
     <CRow>
       <CCol :md="12">
         <CCard class="mb-4">
@@ -20,68 +20,46 @@
                   aria-label="Basic outlined example"
                 >
                   <CButton color="secondary" variant="outline">Day</CButton>
-                  <CButton color="secondary" variant="outline" active
-                    >Month</CButton
-                  >
+                  <CButton color="secondary" variant="outline" active>Month</CButton>
                   <CButton color="secondary" variant="outline">Year</CButton>
                 </CButtonGroup>
               </CCol>
             </CRow>
             <CRow>
-              <MainChart
-                style="height: 300px; max-height: 300px; margin-top: 40px"
-              />
+              <MainChart style="height: 300px; max-height: 300px; margin-top: 40px" />
             </CRow>
           </CCardBody>
           <CCardFooter>
-            <CRow :xs="{ cols: 1 }" :md="{ cols: 5 }" class="text-center">
-              <CCol class="mb-sm-2 mb-0">
+            <CRow
+              :xs="{ cols: 1, gutter: 4 }"
+              :sm="{ cols: 2 }"
+              :lg="{ cols: 4 }"
+              :xl="{ cols: 5 }"
+              class="mb-2 text-center"
+            >
+              <CCol>
                 <div class="text-body-secondary">Visits</div>
-                <div class="fw-semibold">29.703 Users (40%)</div>
-                <CProgress
-                  class="mt-2"
-                  color="success"
-                  thin
-                  :precision="1"
-                  :value="40"
-                />
+                <div class="fw-semibold text-truncate">29.703 Users (40%)</div>
+                <CProgress class="mt-2" color="success" thin :precision="1" :value="40" />
               </CCol>
-              <CCol class="mb-sm-2 mb-0 d-md-down-none">
+              <CCol>
                 <div class="text-body-secondary">Unique</div>
-                <div class="fw-semibold">24.093 Users (20%)</div>
-                <CProgress
-                  class="mt-2"
-                  color="info"
-                  thin
-                  :precision="1"
-                  :value="20"
-                />
+                <div class="fw-semibold text-truncate">24.093 Users (20%)</div>
+                <CProgress class="mt-2" color="info" thin :precision="1" :value="20" />
               </CCol>
-              <CCol class="mb-sm-2 mb-0">
+              <CCol>
                 <div class="text-body-secondary">Pageviews</div>
-                <div class="fw-semibold">78.706 Views (60%)</div>
-                <CProgress
-                  class="mt-2"
-                  color="warning"
-                  thin
-                  :precision="1"
-                  :value="60"
-                />
+                <div class="fw-semibold text-truncate">78.706 Views (60%)</div>
+                <CProgress class="mt-2" color="warning" thin :precision="1" :value="60" />
               </CCol>
-              <CCol class="mb-sm-2 mb-0">
+              <CCol>
                 <div class="text-body-secondary">New Users</div>
-                <div class="fw-semibold">22.123 Users (80%)</div>
-                <CProgress
-                  class="mt-2"
-                  color="danger"
-                  thin
-                  :precision="1"
-                  :value="80"
-                />
+                <div class="fw-semibold text-truncate">22.123 Users (80%)</div>
+                <CProgress class="mt-2" color="danger" thin :precision="1" :value="80" />
               </CCol>
-              <CCol class="mb-sm-2 mb-0 d-md-down-none">
+              <CCol class="d-none d-xl-block">
                 <div class="text-body-secondary">Bounce Rate</div>
-                <div class="fw-semibold">Average Rate (40.15%)</div>
+                <div class="fw-semibold text-truncate">Average Rate (40.15%)</div>
                 <CProgress class="mt-2" :value="40" thin :precision="1" />
               </CCol>
             </CRow>
@@ -89,7 +67,7 @@
         </CCard>
       </CCol>
     </CRow>
-    <WidgetsStatsD />
+    <WidgetsStatsD class="mb-4" />
     <CRow>
       <CCol :md="12">
         <CCard class="mb-4">
@@ -98,21 +76,15 @@
             <CRow>
               <CCol :sm="12" :lg="6">
                 <CRow>
-                  <CCol :sm="6">
-                    <div
-                      class="border-start border-start-4 border-start-info py-1 px-3 mb-3"
-                    >
+                  <CCol :xs="6">
+                    <div class="border-start border-start-4 border-start-info py-1 px-3 mb-3">
                       <div class="text-body-secondary small">New Clients</div>
                       <div class="fs-5 fw-semibold">9,123</div>
                     </div>
                   </CCol>
-                  <CCol :sm="6">
-                    <div
-                      class="border-start border-start-4 border-start-danger py-1 px-3 mb-3"
-                    >
-                      <div class="text-body-secondary small">
-                        Recurring Clients
-                      </div>
+                  <CCol :xs="6">
+                    <div class="border-start border-start-4 border-start-danger py-1 px-3 mb-3">
+                      <div class="text-body-secondary small">Recurring Clients</div>
                       <div class="fs-5 fw-semibold">22,643</div>
                     </div>
                   </CCol>
@@ -124,9 +96,7 @@
                   class="progress-group mb-4"
                 >
                   <div class="progress-group-prepend">
-                    <span class="text-body-secondary small">{{
-                      item.title
-                    }}</span>
+                    <span class="text-body-secondary small">{{ item.title }}</span>
                   </div>
                   <div class="progress-group-bars">
                     <CProgress thin color="info" :value="item.value1" />
@@ -136,29 +106,21 @@
               </CCol>
               <CCol :sm="12" :lg="6">
                 <CRow>
-                  <CCol :sm="6">
-                    <div
-                      class="border-start border-start-4 border-start-warning py-1 px-3 mb-3"
-                    >
+                  <CCol :xs="6">
+                    <div class="border-start border-start-4 border-start-warning py-1 px-3 mb-3">
                       <div class="text-body-secondary small">Pageviews</div>
                       <div class="fs-5 fw-semibold">78,623</div>
                     </div>
                   </CCol>
-                  <CCol :sm="6">
-                    <div
-                      class="border-start border-start-4 border-start-success py-1 px-3 mb-3"
-                    >
+                  <CCol :xs="6">
+                    <div class="border-start border-start-4 border-start-success py-1 px-3 mb-3">
                       <div class="text-body-secondary small">Organic</div>
                       <div class="fs-5 fw-semibold">49,123</div>
                     </div>
                   </CCol>
                 </CRow>
                 <hr class="mt-0" />
-                <div
-                  v-for="item in progressGroupExample2"
-                  :key="item.title"
-                  class="progress-group"
-                >
+                <div v-for="item in progressGroupExample2" :key="item.title" class="progress-group">
                   <div class="progress-group-header">
                     <CIcon :icon="item.icon" class="me-2" size="lg" />
                     <span class="title">{{ item.title }}</span>
@@ -171,19 +133,13 @@
 
                 <div class="mb-5"></div>
 
-                <div
-                  v-for="item in progressGroupExample3"
-                  :key="item.title"
-                  class="progress-group"
-                >
+                <div v-for="item in progressGroupExample3" :key="item.title" class="progress-group">
                   <div class="progress-group-header">
                     <CIcon :icon="item.icon" class="me-2" size="lg" />
                     <span class="title">{{ item.title }}</span>
                     <span class="ms-auto fw-semibold">
                       {{ item.value }}
-                      <span class="text-body-secondary small"
-                        >({{ item.percent }}%)</span
-                      >
+                      <span class="text-body-secondary small">({{ item.percent }}%)</span>
                     </span>
                   </div>
                   <div class="progress-group-bars">
@@ -194,36 +150,26 @@
             </CRow>
             <br />
             <CTable align="middle" class="mb-0 border" hover responsive>
-              <CTableHead>
+              <CTableHead class="text-nowrap">
                 <CTableRow>
                   <CTableHeaderCell class="bg-body-secondary text-center">
                     <CIcon name="cil-people" />
                   </CTableHeaderCell>
-                  <CTableHeaderCell class="bg-body-secondary">
-                    User
-                  </CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary"> User </CTableHeaderCell>
                   <CTableHeaderCell class="bg-body-secondary text-center">
                     Country
                   </CTableHeaderCell>
-                  <CTableHeaderCell class="bg-body-secondary">
-                    Usage
-                  </CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary"> Usage </CTableHeaderCell>
                   <CTableHeaderCell class="bg-body-secondary text-center">
                     Payment Method
                   </CTableHeaderCell>
-                  <CTableHeaderCell class="bg-body-secondary">
-                    Activity
-                  </CTableHeaderCell>
+                  <CTableHeaderCell class="bg-body-secondary"> Activity </CTableHeaderCell>
                 </CTableRow>
               </CTableHead>
               <CTableBody>
                 <CTableRow v-for="item in tableExample" :key="item.name">
                   <CTableDataCell class="text-center">
-                    <CAvatar
-                      size="md"
-                      :src="item.avatar.src"
-                      :status="item.avatar.status"
-                    />
+                    <CAvatar size="md" :src="item.avatar.src" :status="item.avatar.status" />
                   </CTableDataCell>
                   <CTableDataCell>
                     <div>{{ item.user.name }}</div>
@@ -233,24 +179,16 @@
                     </div>
                   </CTableDataCell>
                   <CTableDataCell class="text-center">
-                    <CIcon
-                      size="xl"
-                      :name="item.country.flag"
-                      :title="item.country.name"
-                    />
+                    <CIcon size="xl" :name="item.country.flag" :title="item.country.name" />
                   </CTableDataCell>
                   <CTableDataCell>
                     <div class="d-flex justify-content-between align-items-baseline">
                       <div class="fw-semibold">{{ item.usage.value }}%</div>
-                      <div class="ms-1 text-nowrap small text-body-secondary">
+                      <div class="text-nowrap text-body-secondary small ms-3">
                         {{ item.usage.period }}
                       </div>
                     </div>
-                    <CProgress
-                      thin
-                      :color="item.usage.color"
-                      :value="item.usage.value"
-                    />
+                    <CProgress thin :color="item.usage.color" :value="item.usage.value" />
                   </CTableDataCell>
                   <CTableDataCell class="text-center">
                     <CIcon size="xl" :name="item.payment.icon" />
