@@ -12,7 +12,7 @@
   "license": "MIT",
   "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
   "scripts": {
-    "dev": "vite --force",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint \"src/**/*.{js,vue}\"",
     "preview": "vite preview"
