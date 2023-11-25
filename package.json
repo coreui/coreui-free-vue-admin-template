@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@coreui/chartjs": "^4.0.0-rc.0",
-    "@coreui/coreui": "^5.0.0-rc.0",
+    "@coreui/coreui": "^5.0.0-rc.1",
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-vue": "2.0.0",
     "@coreui/utils": "^2.0.2",
@@ -27,14 +27,14 @@
     "@coreui/vue-chartjs": "^3.0.0-rc.0",
     "@popperjs/core": "^2.11.8",
     "chart.js": "^4.4.0",
-    "vue": "^3.3.8",
+    "vue": "^3.3.9",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.4.1",
+    "@vitejs/plugin-vue": "^4.5.0",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-plugin-vue": "^9.18.1",
     "postcss": "^8.4.31",
     "sass": "^1.69.5",
