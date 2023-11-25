@@ -6,7 +6,7 @@
     <CDropdownMenu class="pt-0">
       <CDropdownHeader
         component="h6"
-        class="bg-body-secondary text-body-secondary fw-semibold py-2 rounded-top"
+        class="bg-body-secondary text-body-secondary fw-semibold mb-2 rounded-top"
       >
         Account
       </CDropdownHeader>
@@ -28,7 +28,7 @@
       </CDropdownItem>
       <CDropdownHeader
         component="h6"
-        class="bg-body-secondary text-body-secondary fw-semibold py-2"
+        class="bg-body-secondary text-body-secondary fw-semibold my-2"
       >
         Settings
       </CDropdownHeader>
