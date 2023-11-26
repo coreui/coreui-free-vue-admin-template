@@ -81,14 +81,14 @@ $ yarn install
 
 ``` bash
 # dev server with hot reload at http://localhost:3000
-$ npm run serve
+$ npm run dev
 ```
 
 or 
 
 ``` bash
 # dev server with hot reload at http://localhost:3000
-$ yarn serve
+$ yarn dev
 ```
 
 Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
