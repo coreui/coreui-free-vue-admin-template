@@ -65,7 +65,6 @@
                   },
                   grid: {
                     display: false,
-                    drawBorder: false,
                   },
                   ticks: {
                     display: false,
@@ -164,7 +163,6 @@
                   },
                   grid: {
                     display: false,
-                    drawBorder: false,
                   },
                   ticks: {
                     display: false,
@@ -366,7 +364,6 @@
                   },
                   grid: {
                     display: false,
-                    drawBorder: false,
                     drawTicks: false,
                   },
                   ticks: {
