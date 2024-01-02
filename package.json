@@ -26,19 +26,19 @@
     "@coreui/vue": "^5.0.0-rc.0",
     "@coreui/vue-chartjs": "^3.0.0-rc.0",
     "@popperjs/core": "^2.11.8",
-    "chart.js": "^4.4.0",
+    "chart.js": "^4.4.1",
     "simplebar-vue": "^2.3.3",
-    "vue": "^3.3.9",
+    "vue": "^3.4.3",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.0",
+    "@vitejs/plugin-vue": "^4.6.2",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.54.0",
-    "eslint-plugin-vue": "^9.18.1",
-    "postcss": "^8.4.31",
-    "sass": "^1.69.5",
-    "vite": "^4.5.0"
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "postcss": "^8.4.32",
+    "sass": "^1.69.6",
+    "vite": "^4.5.1"
   }
 }
