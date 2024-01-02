@@ -23,8 +23,8 @@
       <CCloseButton class="d-lg-none" dark @click="$store.commit('toggleSidebar')" />
     </CSidebarHeader>
     <AppSidebarNav />
-    <CSidebarFooter class="border-top">
-      <CSidebarToggler class="d-none d-lg-flex" @click="$store.commit('toggleUnfoldable')" />
+    <CSidebarFooter class="border-top d-none d-lg-flex">
+      <CSidebarToggler @click="$store.commit('toggleUnfoldable')" />
     </CSidebarFooter>
   </CSidebar>
 </template>
