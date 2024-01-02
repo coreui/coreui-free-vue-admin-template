@@ -1,14 +1,11 @@
 import { defineComponent, h, onMounted, ref, resolveComponent } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
-import {
-  CBadge,
-  CSidebarNav,
-  CNavItem,
-  CNavGroup,
-  CNavTitle,
-} from '@coreui/vue'
+import { CBadge, CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
 import nav from '@/_nav.js'
+
+import simplebar from 'simplebar-vue'
+import 'simplebar-vue/dist/simplebar.min.css'
 
 const normalizePath = (path) =>
   decodeURI(path)
@@ -62,6 +59,7 @@ const AppSidebarNav = defineComponent({
         return h(
           CNavGroup,
           {
+            as: 'div',
             compact: true,
             ...(firstRender.value && {
               visible: item.items.some((child) => isActiveItem(route, child)),
@@ -93,6 +91,7 @@ const AppSidebarNav = defineComponent({
                   resolveComponent(item.component),
                   {
                     active: props.isActive,
+                    as: 'div',
                     href: props.href,
                     onClick: () => props.navigate(),
                   },
@@ -103,11 +102,7 @@ const AppSidebarNav = defineComponent({
                             customClassName: 'nav-icon',
                             name: item.icon,
                           })
-                        : h(
-                            'span',
-                            { class: 'nav-icon' },
-                            h('span', { class: 'nav-icon-bullet' }),
-                          ),
+                        : h('span', { class: 'nav-icon' }, h('span', { class: 'nav-icon-bullet' })),
                       item.name,
                       item.badge &&
                         h(
@@ -127,7 +122,9 @@ const AppSidebarNav = defineComponent({
           )
         : h(
             resolveComponent(item.component),
-            {},
+            {
+              as: 'div',
+            },
             {
               default: () => item.name,
             },
@@ -137,7 +134,9 @@ const AppSidebarNav = defineComponent({
     return () =>
       h(
         CSidebarNav,
-        {},
+        {
+          as: simplebar,
+        },
         {
           default: () => nav.map((item) => renderItem(item)),
         },
