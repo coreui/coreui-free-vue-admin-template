@@ -23,7 +23,7 @@
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-vue": "2.0.0",
     "@coreui/utils": "^2.0.2",
-    "@coreui/vue": "^5.0.0-rc.0",
+    "@coreui/vue": "^5.0.0-rc.1",
     "@coreui/vue-chartjs": "^3.0.0-rc.0",
     "@popperjs/core": "^2.11.8",
     "chart.js": "^4.4.1",
