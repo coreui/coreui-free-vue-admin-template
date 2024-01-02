@@ -8,7 +8,7 @@
             <CRow>
               <CCol :sm="5">
                 <h4 id="traffic" class="card-title mb-0">Traffic</h4>
-                <div class="small text-body-secondary">January 2021</div>
+                <div class="small text-body-secondary">January - July 2023</div>
               </CCol>
               <CCol :sm="7" class="d-none d-md-block">
                 <CButton color="primary" class="float-end">
@@ -258,12 +258,12 @@ export default {
         user: {
           name: 'Yiorgos Avraamu',
           new: true,
-          registered: 'Jan 1, 2021',
+          registered: 'Jan 1, 2023',
         },
         country: { name: 'USA', flag: 'cif-us' },
         usage: {
           value: 50,
-          period: 'Jun 11, 2021 - Jul 10, 2021',
+          period: 'Jun 11, 2023 - Jul 10, 2023',
           color: 'success',
         },
         payment: { name: 'Mastercard', icon: 'cib-cc-mastercard' },
@@ -274,12 +274,12 @@ export default {
         user: {
           name: 'Avram Tarasios',
           new: false,
-          registered: 'Jan 1, 2021',
+          registered: 'Jan 1, 2023',
         },
         country: { name: 'Brazil', flag: 'cif-br' },
         usage: {
           value: 22,
-          period: 'Jun 11, 2021 - Jul 10, 2021',
+          period: 'Jun 11, 2023 - Jul 10, 2023',
           color: 'info',
         },
         payment: { name: 'Visa', icon: 'cib-cc-visa' },
@@ -287,11 +287,11 @@ export default {
       },
       {
         avatar: { src: avatar3, status: 'warning' },
-        user: { name: 'Quintin Ed', new: true, registered: 'Jan 1, 2021' },
+        user: { name: 'Quintin Ed', new: true, registered: 'Jan 1, 2023' },
         country: { name: 'India', flag: 'cif-in' },
         usage: {
           value: 74,
-          period: 'Jun 11, 2021 - Jul 10, 2021',
+          period: 'Jun 11, 2023 - Jul 10, 2023',
           color: 'warning',
         },
         payment: { name: 'Stripe', icon: 'cib-cc-stripe' },
@@ -299,11 +299,11 @@ export default {
       },
       {
         avatar: { src: avatar4, status: 'secondary' },
-        user: { name: 'Enéas Kwadwo', new: true, registered: 'Jan 1, 2021' },
+        user: { name: 'Enéas Kwadwo', new: true, registered: 'Jan 1, 2023' },
         country: { name: 'France', flag: 'cif-fr' },
         usage: {
           value: 98,
-          period: 'Jun 11, 2021 - Jul 10, 2021',
+          period: 'Jun 11, 2023 - Jul 10, 2023',
           color: 'danger',
         },
         payment: { name: 'PayPal', icon: 'cib-cc-paypal' },
@@ -314,12 +314,12 @@ export default {
         user: {
           name: 'Agapetus Tadeáš',
           new: true,
-          registered: 'Jan 1, 2021',
+          registered: 'Jan 1, 2023',
         },
         country: { name: 'Spain', flag: 'cif-es' },
         usage: {
           value: 22,
-          period: 'Jun 11, 2021 - Jul 10, 2021',
+          period: 'Jun 11, 2023 - Jul 10, 2023',
           color: 'primary',
         },
         payment: { name: 'Google Wallet', icon: 'cib-cc-apple-pay' },
@@ -330,12 +330,12 @@ export default {
         user: {
           name: 'Friderik Dávid',
           new: true,
-          registered: 'Jan 1, 2021',
+          registered: 'Jan 1, 2023',
         },
         country: { name: 'Poland', flag: 'cif-pl' },
         usage: {
           value: 43,
-          period: 'Jun 11, 2021 - Jul 10, 2021',
+          period: 'Jun 11, 2023 - Jul 10, 2023',
           color: 'success',
         },
         payment: { name: 'Amex', icon: 'cib-cc-amex' },
