@@ -33,12 +33,12 @@
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.6.2",
+    "@vitejs/plugin-vue": "^5.0.2",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.19.2",
     "postcss": "^8.4.32",
     "sass": "^1.69.6",
-    "vite": "^4.5.1"
+    "vite": "^5.0.10"
   }
 }

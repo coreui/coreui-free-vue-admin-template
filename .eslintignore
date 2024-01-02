@@ -1,4 +1,4 @@
 node_modules/*
 /dist/**
 .eslintrc.js
-vite.config.js
+vite.config.mjs
