@@ -19,26 +19,26 @@
   },
   "dependencies": {
     "@coreui/chartjs": "^4.0.0-rc.0",
-    "@coreui/coreui": "^5.0.0-rc.1",
+    "@coreui/coreui": "^5.0.0-rc.3",
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-vue": "2.0.0",
     "@coreui/utils": "^2.0.2",
-    "@coreui/vue": "^5.0.0-rc.1",
+    "@coreui/vue": "^5.0.0-rc.3",
     "@coreui/vue-chartjs": "^3.0.0-rc.0",
     "@popperjs/core": "^2.11.8",
-    "chart.js": "^4.4.1",
+    "chart.js": "^4.4.2",
     "simplebar-vue": "^2.3.3",
-    "vue": "^3.4.3",
-    "vue-router": "^4.2.5",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.2",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.56.0",
-    "eslint-plugin-vue": "^9.19.2",
-    "postcss": "^8.4.32",
-    "sass": "^1.69.6",
-    "vite": "^5.0.10"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.72.0",
+    "vite": "^5.2.4"
   }
 }
