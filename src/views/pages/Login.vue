@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-body-tertiary min-vh-100 d-flex flex-row align-items-center">
+  <div class="wrapper min-vh-100 d-flex flex-row align-items-center">
     <CContainer>
       <CRow class="justify-content-center">
         <CCol :md="8">
@@ -62,9 +62,3 @@
     </CContainer>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'Login',
-}
-</script>

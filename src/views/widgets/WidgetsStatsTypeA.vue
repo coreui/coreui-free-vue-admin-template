@@ -1,21 +1,38 @@
+<script setup>
+import { onMounted, ref } from 'vue'
+import { CChart } from '@coreui/vue-chartjs'
+import { getStyle } from '@coreui/utils'
+
+const widgetChartRef1 = ref()
+const widgetChartRef2 = ref()
+
+onMounted(() => {
+  document.documentElement.addEventListener('ColorSchemeChange', () => {
+    if (widgetChartRef1.value) {
+      widgetChartRef1.value.chart.data.datasets[0].pointBackgroundColor = getStyle('--cui-primary')
+      widgetChartRef1.value.chart.update()
+    }
+
+    if (widgetChartRef2.value) {
+      widgetChartRef2.value.chart.data.datasets[0].pointBackgroundColor = getStyle('--cui-info')
+      widgetChartRef2.value.chart.update()
+    }
+  })
+})
+</script>
+
 <template>
   <CRow :xs="{ gutter: 4 }">
     <CCol :sm="6" :xl="4" :xxl="3">
       <CWidgetStatsA color="primary">
         <template #value
           >26K
-          <span class="fs-6 fw-normal">
-            (-12.4% <CIcon icon="cil-arrow-bottom" />)
-          </span>
+          <span class="fs-6 fw-normal"> (-12.4% <CIcon icon="cil-arrow-bottom" />) </span>
         </template>
         <template #title>Users</template>
         <template #action>
           <CDropdown placement="bottom-end">
-            <CDropdownToggle
-              color="transparent"
-              class="p-0 text-white"
-              :caret="false"
-            >
+            <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">
               <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
@@ -32,15 +49,7 @@
             style="height: 70px"
             ref="widgetChartRef1"
             :data="{
-              labels: [
-                'January',
-                'February',
-                'March',
-                'April',
-                'May',
-                'June',
-                'July',
-              ],
+              labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
               datasets: [
                 {
                   label: 'My First dataset',
@@ -102,18 +111,12 @@
       <CWidgetStatsA color="info">
         <template #value
           >$6.200
-          <span class="fs-6 fw-normal">
-            (40.9% <CIcon icon="cil-arrow-top" />)
-          </span>
+          <span class="fs-6 fw-normal"> (40.9% <CIcon icon="cil-arrow-top" />) </span>
         </template>
         <template #title>Income</template>
         <template #action>
           <CDropdown placement="bottom-end">
-            <CDropdownToggle
-              color="transparent"
-              class="p-0 text-white"
-              :caret="false"
-            >
+            <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">
               <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
@@ -130,15 +133,7 @@
             style="height: 70px"
             ref="widgetChartRef2"
             :data="{
-              labels: [
-                'January',
-                'February',
-                'March',
-                'April',
-                'May',
-                'June',
-                'July',
-              ],
+              labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
               datasets: [
                 {
                   label: 'My First dataset',
@@ -199,18 +194,12 @@
       <CWidgetStatsA color="warning">
         <template #value
           >2.49%
-          <span class="fs-6 fw-normal">
-            (84.7% <CIcon icon="cil-arrow-top" />)
-          </span>
+          <span class="fs-6 fw-normal"> (84.7% <CIcon icon="cil-arrow-top" />) </span>
         </template>
         <template #title>Conversion Rate</template>
         <template #action>
           <CDropdown placement="bottom-end">
-            <CDropdownToggle
-              color="transparent"
-              class="p-0 text-white"
-              :caret="false"
-            >
+            <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">
               <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
@@ -226,15 +215,7 @@
             class="mt-3"
             style="height: 70px"
             :data="{
-              labels: [
-                'January',
-                'February',
-                'March',
-                'April',
-                'May',
-                'June',
-                'July',
-              ],
+              labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
               datasets: [
                 {
                   label: 'My First dataset',
@@ -283,18 +264,12 @@
       <CWidgetStatsA color="danger">
         <template #value
           >44K
-          <span class="fs-6 fw-normal">
-            (-23.6% <CIcon icon="cil-arrow-bottom" />)
-          </span>
+          <span class="fs-6 fw-normal"> (-23.6% <CIcon icon="cil-arrow-bottom" />) </span>
         </template>
         <template #title>Sessions</template>
         <template #action>
           <CDropdown placement="bottom-end">
-            <CDropdownToggle
-              color="transparent"
-              class="p-0 text-white"
-              :caret="false"
-            >
+            <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">
               <CIcon icon="cil-options" class="text-white" />
             </CDropdownToggle>
             <CDropdownMenu>
@@ -333,10 +308,7 @@
                   label: 'My First dataset',
                   backgroundColor: 'rgba(255,255,255,.2)',
                   borderColor: 'rgba(255,255,255,.55)',
-                  data: [
-                    78, 81, 80, 45, 34, 12, 40, 85, 65, 23, 12, 98, 34, 84, 67,
-                    82,
-                  ],
+                  data: [78, 81, 80, 45, 34, 12, 40, 85, 65, 23, 12, 98, 34, 84, 67, 82],
                   barPercentage: 0.6,
                 },
               ],
@@ -378,38 +350,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-import { onMounted, ref } from 'vue'
-import { CChart } from '@coreui/vue-chartjs'
-import { getStyle } from '@coreui/utils'
-
-export default {
-  name: 'WidgetsStatsA',
-  components: {
-    CChart,
-  },
-  setup() {
-    const widgetChartRef1 = ref()
-    const widgetChartRef2 = ref()
-
-    onMounted(() => {
-      document.documentElement.addEventListener('ColorSchemeChange', () => {
-        if (widgetChartRef1.value) {
-          widgetChartRef1.value.chart.data.datasets[0].pointBackgroundColor =
-            getStyle('--cui-primary')
-          widgetChartRef1.value.chart.update()
-        }
-
-        if (widgetChartRef2.value) {
-          widgetChartRef2.value.chart.data.datasets[0].pointBackgroundColor =
-            getStyle('--cui-info')
-          widgetChartRef2.value.chart.update()
-        }
-      })
-    })
-
-    return { getStyle, widgetChartRef1, widgetChartRef2 }
-  },
-}
-</script>

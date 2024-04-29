@@ -1,3 +1,17 @@
+
+<script setup>
+import { computed } from 'vue'
+import { RouterLink } from 'vue-router'
+import { useStore } from 'vuex'
+import { AppSidebarNav } from './AppSidebarNav'
+import { logo } from '@/assets/brand/logo'
+import { sygnet } from '@/assets/brand/sygnet'
+
+const store = useStore()
+const sidebarUnfoldable =  computed(() => store.state.sidebarUnfoldable)
+const sidebarVisible = computed(() => store.state.sidebarVisible)
+</script>
+
 <template>
   <CSidebar
     class="border-end"
@@ -28,28 +42,3 @@
     </CSidebarFooter>
   </CSidebar>
 </template>
-
-<script>
-import { computed } from 'vue'
-import { RouterLink } from 'vue-router'
-import { useStore } from 'vuex'
-import { AppSidebarNav } from './AppSidebarNav'
-import { logo } from '@/assets/brand/logo'
-import { sygnet } from '@/assets/brand/sygnet'
-export default {
-  name: 'AppSidebar',
-  components: {
-    AppSidebarNav,
-    RouterLink,
-  },
-  setup() {
-    const store = useStore()
-    return {
-      logo,
-      sygnet,
-      sidebarUnfoldable: computed(() => store.state.sidebarUnfoldable),
-      sidebarVisible: computed(() => store.state.sidebarVisible),
-    }
-  },
-}
-</script>

@@ -173,9 +173,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Paginations',
-}
-</script>

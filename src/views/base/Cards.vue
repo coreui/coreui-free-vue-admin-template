@@ -1,3 +1,8 @@
+
+<script setup>
+import VueImg from '@/assets/images/vue.jpg'
+</script>
+
 <template>
   <CRow>
     <CCol :xs="12">
@@ -227,7 +232,7 @@
           </p>
           <DocsExample href="components/card.html/#header-and-footer">
             <CCard>
-              <CCardHeader component="h5">Header</CCardHeader>
+              <CCardHeader as="h5">Header</CCardHeader>
               <CCardBody>
                 <CCardTitle>Special title treatment</CCardTitle>
                 <CCardText>
@@ -968,15 +973,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-import VueImg from '@/assets/images/vue.jpg'
-export default {
-  name: 'Cards',
-  setup() {
-    return {
-      VueImg,
-    }
-  },
-}
-</script>

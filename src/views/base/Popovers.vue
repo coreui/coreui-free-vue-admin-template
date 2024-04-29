@@ -76,9 +76,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Popovers',
-}
-</script>

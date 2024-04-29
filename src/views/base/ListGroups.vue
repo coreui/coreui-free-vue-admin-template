@@ -86,19 +86,19 @@
           </p>
           <DocsExample href="components/list-group.html#links-and-buttons">
             <CListGroup>
-              <CListGroupItem component="a" href="#" active>
+              <CListGroupItem as="a" href="#" active>
                 Cras justo odio
               </CListGroupItem>
-              <CListGroupItem component="a" href="#">
+              <CListGroupItem as="a" href="#">
                 Dapibus ac facilisis in
               </CListGroupItem>
-              <CListGroupItem component="a" href="#">
+              <CListGroupItem as="a" href="#">
                 Morbi leo risus
               </CListGroupItem>
-              <CListGroupItem component="a" href="#">
+              <CListGroupItem as="a" href="#">
                 Porta ac consectetur ac
               </CListGroupItem>
-              <CListGroupItem component="a" href="#" disabled>
+              <CListGroupItem as="a" href="#" disabled>
                 Vestibulum at eros
               </CListGroupItem>
             </CListGroup>
@@ -204,7 +204,7 @@
           </p>
           <DocsExample href="components/list-group.html#contextual-classes">
             <CListGroup>
-              <CListGroupItem component="a" href="#"
+              <CListGroupItem as="a" href="#"
                 >Dapibus ac facilisis in</CListGroupItem
               >
               <CListGroupItem
@@ -219,7 +219,7 @@
                   'dark',
                 ]"
                 :key="item"
-                component="a"
+                as="a"
                 href="#"
                 :color="item"
                 >A simple {{ item }} list group item</CListGroupItem
@@ -279,7 +279,7 @@
           </p>
           <DocsExample href="components/list-group.html#custom-content">
             <CListGroup>
-              <CListGroupItem component="a" href="#" active>
+              <CListGroupItem as="a" href="#" active>
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1">List group item heading</h5>
                   <small>3 days ago</small>
@@ -290,7 +290,7 @@
                 </p>
                 <small>Donec id elit non mi porta.</small>
               </CListGroupItem>
-              <CListGroupItem component="a" href="#">
+              <CListGroupItem as="a" href="#">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1">List group item heading</h5>
                   <small class="text-body-secondary">3 days ago</small>
@@ -303,7 +303,7 @@
                   >Donec id elit non mi porta.</small
                 >
               </CListGroupItem>
-              <CListGroupItem component="a" href="#">
+              <CListGroupItem as="a" href="#">
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1">List group item heading</h5>
                   <small class="text-body-secondary">3 days ago</small>
@@ -355,9 +355,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'ListGroups',
-}
-</script>

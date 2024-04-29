@@ -91,17 +91,17 @@
           </p>
           <DocsExample href="components/spinner.html#buttons">
             <CButton disabled>
-              <CSpinner component="span" size="sm" aria-hidden="true" />
+              <CSpinner as="span" size="sm" aria-hidden="true" />
             </CButton>
             <CButton disabled>
-              <CSpinner component="span" size="sm" aria-hidden="true" />
+              <CSpinner as="span" size="sm" aria-hidden="true" />
               Loading...
             </CButton>
           </DocsExample>
           <DocsExample href="components/spinner.html#buttons">
             <CButton disabled>
               <CSpinner
-                component="span"
+                as="span"
                 size="sm"
                 variant="grow"
                 aria-hidden="true"
@@ -109,7 +109,7 @@
             </CButton>
             <CButton disabled>
               <CSpinner
-                component="span"
+                as="span"
                 size="sm"
                 variant="grow"
                 aria-hidden="true"
@@ -122,9 +122,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Spinners',
-}
-</script>

@@ -450,9 +450,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Layout',
-}
-</script>

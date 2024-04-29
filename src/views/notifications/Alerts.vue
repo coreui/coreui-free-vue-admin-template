@@ -1,3 +1,9 @@
+<script setup>
+const alert = () => {
+  console.log('👋 Well, hi there! Thanks for dismissing me.')
+}
+</script>
+
 <template>
   <CRow>
     <CCol :xs="12">
@@ -133,7 +139,7 @@
             <code>dismissible</code> prop.
           </p>
           <DocsExample href="components/alert.html#dismissing">
-            <CAlert color="warning" dismissible @dismiss="alert">
+            <CAlert color="warning" dismissible @close="alert()">
               <strong>Go right ahead</strong> and click that dimiss over there
               on the right.
             </CAlert>
@@ -143,14 +149,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Alerts',
-  methods: {
-    alert: function () {
-      alert('👋 Well, hi there! Thanks for dismissing me.')
-    },
-  },
-}
-</script>

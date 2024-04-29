@@ -1,25 +1,58 @@
+<script setup>
+import { ref } from 'vue'
+const validatedCustom01 = ref(false)
+const validatedDefault01 = ref(false)
+const validatedTooltip01 = ref(false)
+
+const handleSubmitCustom01 = (event) => {
+  const form = event.currentTarget
+  if (form.checkValidity() === false) {
+    event.preventDefault()
+    event.stopPropagation()
+  }
+
+  validatedCustom01.value = true
+}
+
+const handleSubmitDefault01 = (event) => {
+  const form = event.currentTarget
+  if (form.checkValidity() === false) {
+    event.preventDefault()
+    event.stopPropagation()
+  }
+
+  validatedDefault01.value = true
+}
+
+const handleSubmitTooltip01 = (event) => {
+  const form = event.currentTarget
+  if (form.checkValidity() === false) {
+    event.preventDefault()
+    event.stopPropagation()
+  }
+  
+  validatedTooltip01.value = true
+}
+</script>
+
 <template>
   <CRow>
     <CCol :xs="12">
       <CCard class="mb-4">
-        <CCardHeader>
-          <strong>Validation</strong> <small>Custom styles</small>
-        </CCardHeader>
+        <CCardHeader> <strong>Validation</strong> <small>Custom styles</small> </CCardHeader>
         <CCardBody>
           <p class="text-body-secondary small">
-            For custom CoreUI form validation messages, you&#39;ll need to add
-            the
-            <code>novalidate</code> boolean property to your
-            <code>&lt;CForm&gt;</code>. This disables the browser default
-            feedback tooltips, but still provides access to the form validation
-            APIs in JavaScript. Try to submit the form below; our JavaScript
-            will intercept the submit button and relay feedback to you. When
-            attempting to submit, you&#39;ll see the <code>:invalid</code> and
-            <code>:valid</code> styles applied to your form controls.
+            For custom CoreUI form validation messages, you&#39;ll need to add the
+            <code>novalidate</code> boolean property to your <code>&lt;CForm&gt;</code>. This
+            disables the browser default feedback tooltips, but still provides access to the form
+            validation APIs in JavaScript. Try to submit the form below; our JavaScript will
+            intercept the submit button and relay feedback to you. When attempting to submit,
+            you&#39;ll see the <code>:invalid</code> and <code>:valid</code> styles applied to your
+            form controls.
           </p>
           <p class="text-body-secondary small">
-            Custom feedback styles apply custom colors, borders, focus styles,
-            and background icons to better communicate feedback.
+            Custom feedback styles apply custom colors, borders, focus styles, and background icons
+            to better communicate feedback.
           </p>
           <DocsExample href="forms/validation.html">
             <CForm
@@ -48,17 +81,13 @@
                     aria-describedby="inputGroupPrepend"
                     required
                   />
-                  <CFormFeedback invalid>
-                    Please choose a username.
-                  </CFormFeedback>
+                  <CFormFeedback invalid> Please choose a username. </CFormFeedback>
                 </CInputGroup>
               </CCol>
               <CCol :md="6">
                 <CFormLabel for="validationCustom03">City</CFormLabel>
                 <CFormInput id="validationCustom03" required />
-                <CFormFeedback invalid>
-                  Please provide a valid city.
-                </CFormFeedback>
+                <CFormFeedback invalid> Please provide a valid city. </CFormFeedback>
               </CCol>
               <CCol :md="3">
                 <CFormLabel for="validationCustom04">City</CFormLabel>
@@ -66,16 +95,12 @@
                   <option disabled>Choose...</option>
                   <option>...</option>
                 </CFormSelect>
-                <CFormFeedback invalid>
-                  Please provide a valid city.
-                </CFormFeedback>
+                <CFormFeedback invalid> Please provide a valid city. </CFormFeedback>
               </CCol>
               <CCol :md="3">
                 <CFormLabel for="validationCustom05">City</CFormLabel>
                 <CFormInput id="validationCustom05" required />
-                <CFormFeedback invalid>
-                  Please provide a valid zip.
-                </CFormFeedback>
+                <CFormFeedback invalid> Please provide a valid zip. </CFormFeedback>
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
@@ -84,9 +109,7 @@
                   label="Agree to terms and conditions"
                   required
                 />
-                <CFormFeedback invalid>
-                  You must agree before submitting.
-                </CFormFeedback>
+                <CFormFeedback invalid> You must agree before submitting. </CFormFeedback>
               </CCol>
               <CCol :xs="12">
                 <CButton color="primary" type="submit">Submit form</CButton>
@@ -98,20 +121,17 @@
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
-        <CCardHeader>
-          <strong>Validation</strong> <small>Browser defaults</small>
-        </CCardHeader>
+        <CCardHeader> <strong>Validation</strong> <small>Browser defaults</small> </CCardHeader>
         <CCardBody>
           <p class="text-body-secondary small">
-            Not interested in custom validation feedback messages or writing
-            JavaScript to change form behaviors? All good, you can use the
-            browser defaults. Try submitting the form below. Depending on your
-            browser and OS, you&#39;ll see a slightly different style of
+            Not interested in custom validation feedback messages or writing JavaScript to change
+            form behaviors? All good, you can use the browser defaults. Try submitting the form
+            below. Depending on your browser and OS, you&#39;ll see a slightly different style of
             feedback.
           </p>
           <p class="text-body-secondary small">
-            While these feedback styles cannot be styled with CSS, you can still
-            customize the feedback text through JavaScript.
+            While these feedback styles cannot be styled with CSS, you can still customize the
+            feedback text through JavaScript.
           </p>
           <DocsExample href="forms/validation.html#browser-defaults">
             <CForm
@@ -130,9 +150,7 @@
                 <CFormFeedback valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4">
-                <CFormLabel for="validationDefaultUsername"
-                  >Username</CFormLabel
-                >
+                <CFormLabel for="validationDefaultUsername">Username</CFormLabel>
                 <CInputGroup class="has-validation">
                   <CInputGroupText id="inputGroupPrepend02">@</CInputGroupText>
                   <CFormInput
@@ -141,17 +159,13 @@
                     aria-describedby="inputGroupPrepend02"
                     required
                   />
-                  <CFormFeedback invalid>
-                    Please choose a username.
-                  </CFormFeedback>
+                  <CFormFeedback invalid> Please choose a username. </CFormFeedback>
                 </CInputGroup>
               </CCol>
               <CCol :md="6">
                 <CFormLabel for="validationDefault03">City</CFormLabel>
                 <CFormInput id="validationDefault03" required />
-                <CFormFeedback invalid>
-                  Please provide a valid city.
-                </CFormFeedback>
+                <CFormFeedback invalid> Please provide a valid city. </CFormFeedback>
               </CCol>
               <CCol :md="3">
                 <CFormLabel for="validationDefault04">City</CFormLabel>
@@ -159,16 +173,12 @@
                   <option disabled>Choose...</option>
                   <option>...</option>
                 </CFormSelect>
-                <CFormFeedback invalid>
-                  Please provide a valid city.
-                </CFormFeedback>
+                <CFormFeedback invalid> Please provide a valid city. </CFormFeedback>
               </CCol>
               <CCol :md="3">
                 <CFormLabel for="validationDefault05">City</CFormLabel>
                 <CFormInput id="validationDefault05" required />
-                <CFormFeedback invalid>
-                  Please provide a valid zip.
-                </CFormFeedback>
+                <CFormFeedback invalid> Please provide a valid zip. </CFormFeedback>
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
@@ -177,9 +187,7 @@
                   label="Agree to terms and conditions"
                   required
                 />
-                <CFormFeedback invalid>
-                  You must agree before submitting.
-                </CFormFeedback>
+                <CFormFeedback invalid> You must agree before submitting. </CFormFeedback>
               </CCol>
               <CCol :xs="12">
                 <CButton color="primary" type="submit">Submit form</CButton>
@@ -191,48 +199,33 @@
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
-        <CCardHeader>
-          <strong>Validation</strong> <small>Server side</small>
-        </CCardHeader>
+        <CCardHeader> <strong>Validation</strong> <small>Server side</small> </CCardHeader>
         <CCardBody>
           <p class="text-body-secondary small">
-            We recommend using client-side validation, but in case you require
-            server-side validation, you can indicate invalid and valid form
-            fields with <code>invalid</code> and <code>valid</code> boolean
-            properties.
+            We recommend using client-side validation, but in case you require server-side
+            validation, you can indicate invalid and valid form fields with <code>invalid</code> and
+            <code>valid</code> boolean properties.
           </p>
           <p class="text-body-secondary small">
-            For invalid fields, ensure that the invalid feedback/error message
-            is associated with the relevant form field using
-            <code>aria-describedby</code> (noting that this attribute allows
-            more than one <code>id</code> to be referenced, in case the field
-            already points to additional form text).
+            For invalid fields, ensure that the invalid feedback/error message is associated with
+            the relevant form field using
+            <code>aria-describedby</code> (noting that this attribute allows more than one
+            <code>id</code> to be referenced, in case the field already points to additional form
+            text).
           </p>
           <DocsExample href="forms/validation.html#server-side">
             <CForm class="row g-3 needs-validation">
-              <CCol ::md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationServer01">Email</CFormLabel>
-                <CFormInput
-                  id="validationServer01"
-                  type="text"
-                  value="Mark"
-                  valid
-                  required
-                />
+                <CFormInput id="validationServer01" type="text" value="Mark" valid required />
                 <CFormFeedback valid>Looks good!</CFormFeedback>
               </CCol>
-              <CCol ::md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationServer02">Email</CFormLabel>
-                <CFormInput
-                  id="validationServer02"
-                  type="text"
-                  value="Otto"
-                  valid
-                  required
-                />
+                <CFormInput id="validationServer02" type="text" value="Otto" valid required />
                 <CFormFeedback valid>Looks good!</CFormFeedback>
               </CCol>
-              <CCol ::md="4">
+              <CCol :md="4">
                 <CFormLabel for="validationServerUsername">Username</CFormLabel>
                 <CInputGroup class="has-validation">
                   <CInputGroupText id="inputGroupPrepend03">@</CInputGroupText>
@@ -244,22 +237,13 @@
                     invalid
                     required
                   />
-                  <CFormFeedback invalid
-                    >Please choose a username.</CFormFeedback
-                  >
+                  <CFormFeedback invalid>Please choose a username.</CFormFeedback>
                 </CInputGroup>
               </CCol>
               <CCol :md="6">
                 <CFormLabel for="validationServer03">City</CFormLabel>
-                <CFormInput
-                  id="validationServer03"
-                  type="text"
-                  invalid
-                  required
-                />
-                <CFormFeedback invalid
-                  >Please provide a valid city.</CFormFeedback
-                >
+                <CFormInput id="validationServer03" type="text" invalid required />
+                <CFormFeedback invalid>Please provide a valid city.</CFormFeedback>
               </CCol>
               <CCol :md="3">
                 <CFormLabel for="validationServer04">City</CFormLabel>
@@ -267,21 +251,12 @@
                   <option disabled>Choose...</option>
                   <option>...</option>
                 </CFormSelect>
-                <CFormFeedback invalid
-                  >Please provide a valid city.</CFormFeedback
-                >
+                <CFormFeedback invalid>Please provide a valid city.</CFormFeedback>
               </CCol>
               <CCol :md="3">
                 <CFormLabel for="validationServer05">City</CFormLabel>
-                <CFormInput
-                  id="validationServer05"
-                  type="text"
-                  invalid
-                  required
-                />
-                <CFormFeedback invalid
-                  >Please provide a valid zip.</CFormFeedback
-                >
+                <CFormInput id="validationServer05" type="text" invalid required />
+                <CFormFeedback invalid>Please provide a valid zip.</CFormFeedback>
               </CCol>
               <CCol :xs="12">
                 <CFormCheck
@@ -291,9 +266,7 @@
                   invalid
                   required
                 />
-                <CFormFeedback invalid
-                  >You must agree before submitting.</CFormFeedback
-                >
+                <CFormFeedback invalid>You must agree before submitting.</CFormFeedback>
               </CCol>
               <CCol :xs="12">
                 <CButton color="primary" type="submit"> Submit form </CButton>
@@ -305,13 +278,10 @@
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
-        <CCardHeader>
-          <strong>Validation</strong> <small>Supported elements</small>
-        </CCardHeader>
+        <CCardHeader> <strong>Validation</strong> <small>Supported elements</small> </CCardHeader>
         <CCardBody>
           <p class="text-body-secondary small">
-            Validation styles are available for the following form controls and
-            components:
+            Validation styles are available for the following form controls and components:
           </p>
           <ul>
             <li><code>&lt;CFormInput&gt;</code>s</li>
@@ -321,18 +291,14 @@
           <DocsExample href="forms/validation.html#supported-elements">
             <CForm :validated="true">
               <div class="mb-3">
-                <CFormLabel for="validationTextarea" class="form-label"
-                  >Textarea</CFormLabel
-                >
+                <CFormLabel for="validationTextarea" class="form-label">Textarea</CFormLabel>
                 <CFormTextarea
                   id="validationTextarea"
                   placeholder="Required example textarea"
                   invalid
                   required
                 ></CFormTextarea>
-                <CFormFeedback invalid>
-                  Please enter a message in the textarea.
-                </CFormFeedback>
+                <CFormFeedback invalid> Please enter a message in the textarea. </CFormFeedback>
               </div>
               <CFormCheck
                 id="validationFormCheck1"
@@ -340,9 +306,7 @@
                 label="Check this checkbox"
                 required
               />
-              <CFormFeedback invalid
-                >Example invalid feedback text</CFormFeedback
-              >
+              <CFormFeedback invalid>Example invalid feedback text</CFormFeedback>
               <CFormCheck
                 id="validationFormCheck2"
                 type="radio"
@@ -358,9 +322,7 @@
                 label="Or toggle this other radio"
                 required
               />
-              <CFormFeedback invalid
-                >More example invalid feedback text</CFormFeedback
-              >
+              <CFormFeedback invalid>More example invalid feedback text</CFormFeedback>
               <div class="mb-3">
                 <CFormSelect required aria-label="select example">
                   <option>Open this select menu</option>
@@ -368,9 +330,7 @@
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </CFormSelect>
-                <CFormFeedback invalid
-                  >Example invalid select feedback</CFormFeedback
-                >
+                <CFormFeedback invalid>Example invalid select feedback</CFormFeedback>
               </div>
               <div class="mb-3">
                 <CFormInput
@@ -379,14 +339,10 @@
                   aria-label="file example"
                   required
                 />
-                <CFormFeedback invalid
-                  >Example invalid form file feedback</CFormFeedback
-                >
+                <CFormFeedback invalid>Example invalid form file feedback</CFormFeedback>
               </div>
               <div class="mb-3">
-                <CButton type="submit" color="primary" disabled
-                  >Submit form</CButton
-                >
+                <CButton type="submit" color="primary" disabled>Submit form</CButton>
               </div>
             </CForm>
           </DocsExample>
@@ -395,17 +351,13 @@
     </CCol>
     <CCol :xs="12">
       <CCard class="mb-4">
-        <CCardHeader>
-          <strong>Validation</strong> <small>Tooltips</small>
-        </CCardHeader>
+        <CCardHeader> <strong>Validation</strong> <small>Tooltips</small> </CCardHeader>
         <CCardBody>
           <p class="text-body-secondary small">
-            If your form layout allows it, you can swap the text for the tooltip
-            to display validation feedback in a styled tooltip. Be sure to have
-            a parent with
-            <code>position: relative</code> on it for tooltip positioning. In
-            the example below, our column classes have this already, but your
-            project may require an alternative setup.
+            If your form layout allows it, you can swap the text for the tooltip to display
+            validation feedback in a styled tooltip. Be sure to have a parent with
+            <code>position: relative</code> on it for tooltip positioning. In the example below, our
+            column classes have this already, but your project may require an alternative setup.
           </p>
           <DocsExample href="forms/validation.html#tooltips">
             <CForm
@@ -425,9 +377,7 @@
                 <CFormFeedback tooltip valid> Looks good! </CFormFeedback>
               </CCol>
               <CCol :md="4" class="position-relative">
-                <CFormLabel for="validationTooltipUsername"
-                  >Username</CFormLabel
-                >
+                <CFormLabel for="validationTooltipUsername">Username</CFormLabel>
                 <CInputGroup class="has-validation">
                   <CInputGroupText id="inputGroupPrepend">@</CInputGroupText>
                   <CFormInput
@@ -436,17 +386,13 @@
                     aria-describedby="inputGroupPrepend"
                     required
                   />
-                  <CFormFeedback tooltip invalid>
-                    Please choose a username.
-                  </CFormFeedback>
+                  <CFormFeedback tooltip invalid> Please choose a username. </CFormFeedback>
                 </CInputGroup>
               </CCol>
               <CCol :md="6" class="position-relative">
                 <CFormLabel for="validationTooltip03">City</CFormLabel>
                 <CFormInput id="validationTooltip03" required />
-                <CFormFeedback tooltip invalid>
-                  Please provide a valid city.
-                </CFormFeedback>
+                <CFormFeedback tooltip invalid> Please provide a valid city. </CFormFeedback>
               </CCol>
               <CCol :md="3" class="position-relative">
                 <CFormLabel for="validationTooltip04">City</CFormLabel>
@@ -454,16 +400,12 @@
                   <option disabled value="">Choose...</option>
                   <option>...</option>
                 </CFormSelect>
-                <CFormFeedback tooltip invalid>
-                  Please provide a valid city.
-                </CFormFeedback>
+                <CFormFeedback tooltip invalid> Please provide a valid city. </CFormFeedback>
               </CCol>
               <CCol :md="3" class="position-relative">
                 <CFormLabel for="validationTooltip05">City</CFormLabel>
                 <CFormInput id="validationTooltip05" required />
-                <CFormFeedback tooltip invalid>
-                  Please provide a valid zip.
-                </CFormFeedback>
+                <CFormFeedback tooltip invalid> Please provide a valid zip. </CFormFeedback>
               </CCol>
               <CCol :xs="12" class="position-relative">
                 <CButton color="primary" type="submit">Submit form</CButton>
@@ -475,42 +417,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Validation',
-  data: () => {
-    return {
-      validatedCustom01: null,
-      validatedDefault01: null,
-      validatedTooltip01: null,
-    }
-  },
-  methods: {
-    handleSubmitCustom01(event) {
-      const form = event.currentTarget
-      if (form.checkValidity() === false) {
-        event.preventDefault()
-        event.stopPropagation()
-      }
-      this.validatedCustom01 = true
-    },
-    handleSubmitDefault01(event) {
-      const form = event.currentTarget
-      if (form.checkValidity() === false) {
-        event.preventDefault()
-        event.stopPropagation()
-      }
-      this.validatedDefault01 = true
-    },
-    handleSubmitTooltip01(event) {
-      const form = event.currentTarget
-      if (form.checkValidity() === false) {
-        event.preventDefault()
-        event.stopPropagation()
-      }
-      this.validatedTooltip01 = true
-    },
-  },
-}
-</script>

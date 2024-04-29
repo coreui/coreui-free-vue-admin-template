@@ -400,7 +400,7 @@
         <CCardBody>
           <DocsExample href="forms/input-group.html#custom-select">
             <CInputGroup class="mb-3">
-              <CInputGroupText component="label" for="inputGroupSelect01">
+              <CInputGroupText as="label" for="inputGroupSelect01">
                 Options
               </CInputGroupText>
               <CFormSelect id="inputGroupSelect01">
@@ -417,7 +417,7 @@
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </CFormSelect>
-              <CInputGroupText component="label" for="inputGroupSelect02">
+              <CInputGroupText as="label" for="inputGroupSelect02">
                 Options
               </CInputGroupText>
             </CInputGroup>
@@ -461,14 +461,14 @@
         <CCardBody>
           <DocsExample href="forms/input-group.html#custom-file-input">
             <CInputGroup class="mb-3">
-              <CInputGroupText component="label" for="inputGroupFile01">
+              <CInputGroupText as="label" for="inputGroupFile01">
                 Upload
               </CInputGroupText>
               <CFormInput id="inputGroupFile01" type="file" />
             </CInputGroup>
             <CInputGroup class="mb-3">
               <CFormInput id="inputGroupFile02" type="file" />
-              <CInputGroupText component="label" for="inputGroupFile02">
+              <CInputGroupText as="label" for="inputGroupFile02">
                 Upload
               </CInputGroupText>
             </CInputGroup>
@@ -510,9 +510,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'InputGroup',
-}
-</script>

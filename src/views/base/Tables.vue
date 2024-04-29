@@ -985,9 +985,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Tables',
-}
-</script>

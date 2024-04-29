@@ -1,3 +1,7 @@
+<script setup>
+import VueImg from '@/assets/images/vue.jpg'
+</script>
+
 <template>
   <CRow>
     <CCol :xs="12">
@@ -26,7 +30,7 @@
               </CCard>
               <CCard style="width: 18rem">
                 <CCardImage
-                  component="svg"
+                  as="svg"
                   orientation="top"
                   width="100%"
                   height="162"
@@ -160,11 +164,11 @@
             something being <em>actively</em> loaded.
           </p>
           <DocsExample href="components/placeholder.html#animation">
-            <CPlaceholder component="p" animation="glow">
+            <CPlaceholder as="p" animation="glow">
               <CPlaceholder :xs="12" />
             </CPlaceholder>
 
-            <CPlaceholder component="p" animation="wave">
+            <CPlaceholder as="p" animation="wave">
               <CPlaceholder :xs="12" />
             </CPlaceholder>
           </DocsExample>
@@ -173,15 +177,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-import VueImg from '@/assets/images/vue.jpg'
-export default {
-  name: 'Placeholders',
-  setup() {
-    return {
-      VueImg,
-    }
-  },
-}
-</script>

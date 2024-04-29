@@ -1,37 +1,35 @@
-<template>
-  <router-view />
-</template>
-<script>
+<script setup>
 import { onBeforeMount } from 'vue'
 import { useStore } from 'vuex'
 import { useColorModes } from '@coreui/vue'
 
-export default {
-  setup() {
-    const { isColorModeSet, setColorMode } = useColorModes(
-      'coreui-free-vue-admin-template-theme',
-    )
-    const store = useStore()
+const { isColorModeSet, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
+const store = useStore()
 
-    onBeforeMount(() => {
-      const urlParams = new URLSearchParams(window.location.href.split('?')[1])
-      const theme =
-        urlParams.get('theme') &&
-        urlParams.get('theme').match(/^[A-Za-z0-9\s]+/)[0]
-      if (theme) {
-        setColorMode(theme)
-        return
-      }
+onBeforeMount(() => {
+  const urlParams = new URLSearchParams(window.location.href.split('?')[1])
+  let theme = urlParams.get('theme')
 
-      if (isColorModeSet()) {
-        return
-      }
+  if (theme !== null && theme.match(/^[A-Za-z0-9\s]+/)) {
+    theme = theme.match(/^[A-Za-z0-9\s]+/)[0]
+  }
 
-      setColorMode(store.state.theme)
-    })
-  },
-}
+  if (theme) {
+    setColorMode(theme)
+    return
+  }
+
+  if (isColorModeSet()) {
+    return
+  }
+
+  setColorMode(store.state.theme)
+})
 </script>
+
+<template>
+  <router-view />
+</template>
 
 <style lang="scss">
 // Import Main styles for this application

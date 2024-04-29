@@ -415,9 +415,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'ButtonGroups',
-}
-</script>

@@ -54,11 +54,11 @@
             the presentation of a badge.
           </p>
           <DocsExample href="components/badge.html#contextual-variations">
-            <CBadge color="primary">primary</CBadge>
-            <CBadge color="success">success</CBadge>
-            <CBadge color="danger">danger</CBadge>
-            <CBadge color="warning">warning</CBadge>
-            <CBadge color="info">info</CBadge>
+            <CBadge color="primary-gradient">primary</CBadge>
+            <CBadge color="success-gradient">success</CBadge>
+            <CBadge color="danger-gradient">danger</CBadge>
+            <CBadge color="warning-gradient">warning</CBadge>
+            <CBadge color="info-gradient">info</CBadge>
             <CBadge color="light">light</CBadge>
             <CBadge color="dark">dark</CBadge>
           </DocsExample>
@@ -74,11 +74,19 @@
             badges rounded.
           </p>
           <DocsExample href="components/badge.html#pill-badges">
-            <CBadge color="primary" shape="rounded-pill"> primary </CBadge>
-            <CBadge color="success" shape="rounded-pill"> success </CBadge>
-            <CBadge color="danger" shape="rounded-pill"> danger </CBadge>
-            <CBadge color="warning" shape="rounded-pill"> warning </CBadge>
-            <CBadge color="info" shape="rounded-pill"> info </CBadge>
+            <CBadge color="primary-gradient" shape="rounded-pill">
+              primary
+            </CBadge>
+            <CBadge color="success-gradient" shape="rounded-pill">
+              success
+            </CBadge>
+            <CBadge color="danger-gradient" shape="rounded-pill">
+              danger
+            </CBadge>
+            <CBadge color="warning-gradient" shape="rounded-pill">
+              warning
+            </CBadge>
+            <CBadge color="info-gradient" shape="rounded-pill"> info </CBadge>
             <CBadge color="light" shape="rounded-pill"> light </CBadge>
             <CBadge color="dark" shape="rounded-pill"> dark </CBadge>
           </DocsExample>
@@ -87,9 +95,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Badges',
-}
-</script>

@@ -143,4 +143,5 @@ const AppSidebarNav = defineComponent({
       )
   },
 })
+
 export { AppSidebarNav }

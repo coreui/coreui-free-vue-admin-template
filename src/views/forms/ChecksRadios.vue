@@ -396,9 +396,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'ChecksRadios',
-}
-</script>

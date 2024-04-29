@@ -47,7 +47,7 @@
           </p>
           <DocsExample href="forms/range.html#min-and-max">
             <CFormLabel for="customRange2">Example range</CFormLabel>
-            <CFormRange id="customRange2" :min="0" :max="5" value="3" />
+            <CFormRange id="customRange2" :min="0" :max="5" :value="3" />
           </DocsExample>
         </CCardBody>
       </CCard>
@@ -71,7 +71,7 @@
               :min="0"
               :max="5"
               :step="0.5"
-              value="3"
+              :value="3"
             />
           </DocsExample>
         </CCardBody>
@@ -79,9 +79,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Range',
-}
-</script>

@@ -38,7 +38,7 @@
             the extra markup.
           </p>
           <DocsExample href="components/nav.html#base-nav">
-            <CNav component="nav">
+            <CNav as="nav">
               <CNavLink href="#" active> Active </CNavLink>
               <CNavLink href="#">Link</CNavLink>
               <CNavLink href="#">Link</CNavLink>
@@ -265,7 +265,7 @@
           </p>
           <DocsExample href="components/nav.html#working-with-flex-utilities">
             <CNav
-              component="nav"
+              as="nav"
               variant="pills"
               class="flex-column flex-sm-row"
             >
@@ -344,9 +344,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Navs',
-}
-</script>

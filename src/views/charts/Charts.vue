@@ -1,3 +1,14 @@
+<script setup>
+import {
+  CChartLineExample,
+  CChartBarExample,
+  CChartDoughnutExample,
+  CChartRadarExample,
+  CChartPieExample,
+  CChartPolarAreaExample,
+} from './index.js'
+</script>
+
 <template>
   <CRow>
     <CCol :md="6" class="mb-4">
@@ -40,13 +51,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-import * as Charts from './index.js'
-export default {
-  name: 'Charts',
-  components: {
-    ...Charts,
-  },
-}
-</script>

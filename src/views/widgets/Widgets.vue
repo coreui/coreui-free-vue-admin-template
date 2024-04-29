@@ -1,3 +1,55 @@
+<script setup>
+import { getStyle } from '@coreui/utils'
+import { CChart } from '@coreui/vue-chartjs'
+
+import WidgetsStatsA from './WidgetsStatsTypeA.vue'
+import WidgetsStatsD from './WidgetsStatsTypeD.vue'
+
+const widgetStatsE = {
+  labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M'],
+  optionsBar: {
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+    scales: {
+      x: {
+        display: false,
+      },
+      y: {
+        display: false,
+      },
+    },
+  },
+  optionsLine: {
+    maintainAspectRatio: false,
+    elements: {
+      line: {
+        tension: 0.4,
+      },
+      point: {
+        radius: 0,
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+    scales: {
+      x: {
+        display: false,
+      },
+      y: {
+        display: false,
+      },
+    },
+  },
+}
+</script>
+
 <template>
   <CCard class="mb-4">
     <CCardHeader>
@@ -514,75 +566,3 @@
     </CCardBody>
   </CCard>
 </template>
-
-<script>
-import { getStyle } from '@coreui/utils'
-import { CChart } from '@coreui/vue-chartjs'
-import WidgetsStatsA from './WidgetsStatsTypeA.vue'
-import WidgetsStatsD from './WidgetsStatsTypeD.vue'
-export default {
-  name: 'Widgets',
-  components: {
-    CChart,
-    WidgetsStatsA,
-    WidgetsStatsD,
-  },
-  setup() {
-    const widgetStatsE = {
-      labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M'],
-      optionsBar: {
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false,
-          },
-        },
-        scales: {
-          x: {
-            display: false,
-          },
-          y: {
-            display: false,
-          },
-        },
-      },
-      optionsLine: {
-        maintainAspectRatio: false,
-        elements: {
-          line: {
-            tension: 0.4,
-          },
-          point: {
-            radius: 0,
-          },
-        },
-        plugins: {
-          legend: {
-            display: false,
-          },
-        },
-        scales: {
-          x: {
-            display: false,
-          },
-          y: {
-            display: false,
-          },
-        },
-      },
-    }
-
-    return {
-      getStyle,
-      widgetStatsE,
-      widgetProgressIconItems: [
-        { color: 'primary', icon: 'cil-puzzle' },
-        { color: 'success', icon: 'cil-speedometer' },
-        { color: 'danger', icon: 'cil-cursor' },
-        { color: 'info', icon: 'cil-drop' },
-        { color: 'secondary', icon: 'cil-pencil' },
-      ],
-    }
-  },
-}
-</script>

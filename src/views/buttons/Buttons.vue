@@ -122,24 +122,24 @@
             meaning to assistive technologies such as screen readers.
           </p>
           <DocsExample href="components/button.html#button-components">
-            <CButton component="a" color="primary" href="#" role="button">
+            <CButton as="a" color="primary" href="#" role="button">
               Link
             </CButton>
             <CButton type="submit" color="primary"> Button </CButton>
             <CButton
-              component="input"
+              as="input"
               type="button"
               color="primary"
               value="Input"
             />
             <CButton
-              component="input"
+              as="input"
               type="submit"
               color="primary"
               value="Submit"
             />
             <CButton
-              component="input"
+              as="input"
               type="reset"
               color="primary"
               value="Reset"
@@ -359,11 +359,11 @@
             state of the component to assistive technologies.
           </p>
           <DocsExample href="components/button.html#disabled-state">
-            <CButton component="a" href="#" color="primary" size="lg" disabled>
+            <CButton as="a" href="#" color="primary" size="lg" disabled>
               Primary link
             </CButton>
             <CButton
-              component="a"
+              as="a"
               href="#"
               color="secondary"
               size="lg"
@@ -434,9 +434,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Buttons',
-}
-</script>

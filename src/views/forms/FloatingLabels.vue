@@ -170,9 +170,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'FloatingLabels',
-}
-</script>

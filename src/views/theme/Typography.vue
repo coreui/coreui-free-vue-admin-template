@@ -243,9 +243,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  name: 'Typography',
-}
-</script>

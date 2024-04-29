@@ -1,3 +1,10 @@
+<script setup>
+import { flagSet } from '@coreui/icons'
+
+const toKebabCase = (str) => str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
+const icons = flagSet
+</script>
+
 <template>
   <CRow>
     <CCol>
@@ -17,20 +24,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-import { flagSet } from '@coreui/icons'
-export default {
-  name: 'CoreUIIcons',
-  setup() {
-    const toKebabCase = (str) =>
-      str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
-    const icons = flagSet
-
-    return {
-      icons,
-      toKebabCase,
-    }
-  },
-}
-</script>

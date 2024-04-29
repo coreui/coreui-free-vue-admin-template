@@ -1,3 +1,13 @@
+<script setup>
+const props = defineProps({
+  href: String,
+  tabContentClass: String,
+})
+
+const url = `https://coreui.io/vue/docs/${props.href}`
+const addClass = props.tabContentClass
+</script>
+
 <template>
   <div class="example">
     <CNav variant="underline-border">
@@ -21,22 +31,3 @@
     </CTabContent>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'DocsExample',
-  props: {
-    href: String,
-    tabContentClass: String,
-  },
-  setup(props) {
-    const url = `https://coreui.io/vue/docs/${props.href}`
-    const addClass = props.tabContentClass
- 
-    return {
-      addClass,
-      url,
-    }
-  },
-}
-</script>

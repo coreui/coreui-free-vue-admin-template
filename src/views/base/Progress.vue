@@ -137,16 +137,32 @@
           </p>
           <DocsExample href="components/progress.html#striped">
             <CProgress class="mb-3">
-              <CProgressBar color="success" variant="striped" :value="25" />
+              <CProgressBar
+                color="success"
+                variant="striped"
+                :value="25"
+              />
             </CProgress>
             <CProgress class="mb-3">
-              <CProgressBar color="info" variant="striped" :value="50" />
+              <CProgressBar
+                color="info"
+                variant="striped"
+                :value="50"
+              />
             </CProgress>
             <CProgress class="mb-3">
-              <CProgressBar color="warning" variant="striped" :value="75" />
+              <CProgressBar
+                color="warning"
+                variant="striped"
+                :value="75"
+              />
             </CProgress>
             <CProgress class="mb-3">
-              <CProgressBar color="danger" variant="striped" :value="100" />
+              <CProgressBar
+                color="danger"
+                variant="striped"
+                :value="100"
+              />
             </CProgress>
           </DocsExample>
         </CCardBody>
@@ -203,10 +219,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  // eslint-disable-next-line
-  name: 'Progress',
-}
-</script>

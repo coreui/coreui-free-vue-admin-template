@@ -1,3 +1,9 @@
+<script setup>
+import AngularImg from '@/assets/images/angular.jpg'
+import ReactImg from '@/assets/images/react.jpg'
+import VueImg from '@/assets/images/vue.jpg'
+</script>
+
 <template>
   <CRow>
     <CCol :xs="12">
@@ -82,7 +88,7 @@
             <code>&lt;CCarouselCaption&gt;</code> element within any
             <code>&lt;CCarouselItem&gt;</code>. They can be immediately hidden
             on smaller viewports, as shown below, with optional
-            <a href="https://coreui.io/4.0/utilities/display"
+            <a href="https://coreui.io/docs/utilities/display"
               >display utilities</a
             >. We hide them with <code>.d-none</code> and draw them back on
             medium-sized devices with <code>.d-md-block</code>.
@@ -175,19 +181,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-import AngularImg from '@/assets/images/angular.jpg'
-import ReactImg from '@/assets/images/react.jpg'
-import VueImg from '@/assets/images/vue.jpg'
-export default {
-  name: 'Carousels',
-  setup() {
-    return {
-      AngularImg,
-      ReactImg,
-      VueImg,
-    }
-  },
-}
-</script>

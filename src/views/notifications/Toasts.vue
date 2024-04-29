@@ -1,3 +1,14 @@
+<script setup>
+const toasts = []
+
+const createToast = () => {
+  toasts.push({
+    title: 'new toast',
+    content: 'Lorem ipsum dolor cet emit',
+  })
+}
+</script>
+
 <template>
   <CRow>
     <CCol :xs="12">
@@ -32,7 +43,7 @@
           <DocsExample href="components/toast.html">
             <CButton color="primary" @click="createToast">Send a toast</CButton>
             <CToaster placement="top-end">
-              <CToast v-for="(toast, index) in toasts" visible :key="index">
+              <CToast v-for="(toast, index) in toasts" :visible="true" :key="index">
                 <CToastHeader closeButton>
                   <span class="me-auto fw-bold">{{ toast.title }}</span>
                   <small>7 min ago</small>
@@ -157,7 +168,7 @@
                 Hello, world! This is a toast message.
                 <div class="mt-2 pt-2 border-top">
                   <CButton type="button" color="primary" size="sm"> Take action </CButton>
-                  <CToastClose component="CButton" color="secondary" size="sm" class="ms-1"
+                  <CToastClose as="CButton" color="secondary" size="sm" class="ms-1"
                     >Close</CToastClose
                   >
                 </div>
@@ -174,8 +185,8 @@
           <p class="text-body-secondary small">
             Building on the above example, you can create different toast color schemes with our
             <a href="https://coreui.io/docs/utilities/colors">color</a> and
-            <a href="https://coreui.io/docs/utilities/background">background</a> utilities.
-            Here we&#39;ve set <code>color=&#34;primary&#34;</code> and added
+            <a href="https://coreui.io/docs/utilities/background">background</a> utilities. Here
+            we&#39;ve set <code>color=&#34;primary&#34;</code> and added
             <code>.text-white</code> class to the <code>&lt;Ctoast&gt;</code>, and then set
             <code>white</code> property to our close button. For a crisp edge, we remove the default
             border with <code>.border-0</code>.
@@ -198,22 +209,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      toasts: [],
-    }
-  },
-
-  methods: {
-    createToast() {
-      this.toasts.push({
-        title: 'new toast',
-        content: 'Lorem ipsum dolor cet emit',
-      })
-    },
-  },
-}
-</script>

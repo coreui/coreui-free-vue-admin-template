@@ -1,3 +1,10 @@
+<script setup>
+import { brandSet } from '@coreui/icons'
+
+const toKebabCase = (str) => str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
+const icons = brandSet
+</script>
+
 <template>
   <CRow>
     <CCol>
@@ -17,20 +24,3 @@
     </CCol>
   </CRow>
 </template>
-
-<script>
-import { brandSet } from '@coreui/icons'
-export default {
-  name: 'CoreUIIcons',
-  setup() {
-    const toKebabCase = (str) =>
-      str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase()
-    const icons = brandSet
-
-    return {
-      icons,
-      toKebabCase,
-    }
-  },
-}
-</script>
