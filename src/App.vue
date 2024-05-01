@@ -1,10 +1,13 @@
 <script setup>
 import { onBeforeMount } from 'vue'
-import { useStore } from 'vuex'
 import { useColorModes } from '@coreui/vue'
 
-const { isColorModeSet, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
-const store = useStore()
+import { useThemeStore } from '@/stores/theme.js'
+
+const { isColorModeSet, setColorMode } = useColorModes(
+  'coreui-free-vue-admin-template-theme',
+)
+const currentTheme = useThemeStore()
 
 onBeforeMount(() => {
   const urlParams = new URLSearchParams(window.location.href.split('?')[1])
@@ -23,7 +26,7 @@ onBeforeMount(() => {
     return
   }
 
-  setColorMode(store.state.theme)
+  setColorMode(currentTheme.theme)
 })
 </script>
 

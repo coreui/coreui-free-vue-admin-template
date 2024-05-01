@@ -1,11 +1,14 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import { useColorModes } from '@coreui/vue'
-import AppBreadcrumb from './AppBreadcrumb'
-import AppHeaderDropdownAccnt from './AppHeaderDropdownAccnt'
+
+import AppBreadcrumb from '@/components/AppBreadcrumb.vue'
+import AppHeaderDropdownAccnt from '@/components/AppHeaderDropdownAccnt.vue'
+import { useSidebarStore } from '@/stores/sidebar.js'
 
 const headerClassNames = ref('mb-4 p-0')
 const { colorMode, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
+const sidebar = useSidebarStore()
 
 onMounted(() => {
   document.addEventListener('scroll', () => {
@@ -21,7 +24,7 @@ onMounted(() => {
 <template>
   <CHeader position="sticky" :class="headerClassNames">
     <CContainer class="border-bottom px-4" fluid>
-      <CHeaderToggler @click="$store.commit('toggleSidebar')" style="margin-inline-start: -14px">
+      <CHeaderToggler @click="sidebar.toggleVisible()" style="margin-inline-start: -14px">
         <CIcon icon="cil-menu" size="lg" />
       </CHeaderToggler>
       <CHeaderNav class="d-none d-md-flex">
