@@ -56,9 +56,9 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 | --- | --- |
 | [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_default_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=default) | [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_light_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=light)|
 
-| Default Theme v3 | Light Theme v3 |
+| Modern Theme | Bright Theme |
 | --- | --- |
-| [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_default_v3_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=default-v3) | [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_light_v3_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=light)|
+| [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_default_v3_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=modern) | [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_light_v3_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=bright)|
 
 ## Quick Start
 
@@ -122,7 +122,7 @@ coreui-free-vue-admin-template
 │   ├── layouts/     # layout containers
 │   ├── scss/        # scss styles
 │   ├── router       # routes config
-│   ├── store        # template state example 
+│   ├── stores/      # template state example 
 │   ├── views/       # application views
 │   ├── _nav.js      # sidebar navigation config
 │   ├── App.vue
@@ -130,7 +130,7 @@ coreui-free-vue-admin-template
 │   └── main.js
 ├── index.html   # html template
 ├── package.json
-└── vite.config.js
+└── vite.config.mjs
 ```
 
 ## Documentation
