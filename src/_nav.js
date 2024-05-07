@@ -9,6 +9,12 @@ export default [
       text: 'NEW',
     },
   },
+  // {
+  //   component: 'CNavItem',
+  //   name: 'Examination',
+  //   to: '/exam',
+  //   icon: 'cil-notes',
+  // },
   {
     component: 'CNavTitle',
     name: 'Theme',

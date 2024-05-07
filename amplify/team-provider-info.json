@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-coreuifreevueadminte-dev-3084a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590183969838:role/amplify-coreuifreevueadminte-dev-3084a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590183969838:role/amplify-coreuifreevueadminte-dev-3084a-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-coreuifreevueadminte-dev-3084a-deployment",
+      "UnauthRoleName": "amplify-coreuifreevueadminte-dev-3084a-unauthRole",
+      "StackName": "amplify-coreuifreevueadminte-dev-3084a",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:590183969838:stack/amplify-coreuifreevueadminte-dev-3084a/50c48fd0-0c79-11ef-b93d-06c8b6197539",
+      "AmplifyAppId": "d3m5s31qhs79o0"
+    },
+    "categories": {
+      "auth": {
+        "coreuifreevueadmintec6cf2a16": {}
+      }
+    }
+  }
+}
