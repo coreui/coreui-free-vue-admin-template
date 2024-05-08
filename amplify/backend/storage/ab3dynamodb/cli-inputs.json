@@ -1,0 +1,14 @@
+{
+  "resourceName": "ab3dynamodb",
+  "tableName": "ab3examtable",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "subject",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

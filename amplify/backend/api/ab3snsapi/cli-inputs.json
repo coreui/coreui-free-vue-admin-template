@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/sns": {
+      "name": "/sns",
+      "lambdaFunction": "ab3snsapi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

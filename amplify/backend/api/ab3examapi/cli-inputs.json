@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/exam": {
+      "name": "/exam",
+      "lambdaFunction": "ab3examapi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
