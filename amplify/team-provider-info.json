@@ -14,6 +14,23 @@
     "categories": {
       "auth": {
         "coreuifreevueadmintec6cf2a16": {}
+      },
+      "function": {
+        "ab3examapi": {
+          "deploymentBucketName": "amplify-coreuifreevueadminte-dev-3084a-deployment",
+          "s3Key": "amplify-builds/ab3examapi-4575667447613558666e-build.zip"
+        },
+        "ab3snsapi": {
+          "deploymentBucketName": "amplify-coreuifreevueadminte-dev-3084a-deployment",
+          "s3Key": "amplify-builds/ab3snsapi-49597163366773355466-build.zip"
+        }
+      },
+      "storage": {
+        "ab3dynamodb": {}
+      },
+      "api": {
+        "ab3examapi": {},
+        "ab3snsapi": {}
       }
     }
   }

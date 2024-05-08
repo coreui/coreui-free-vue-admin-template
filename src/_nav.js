@@ -9,12 +9,28 @@ export default [
       text: 'NEW',
     },
   },
-  // {
-  //   component: 'CNavItem',
-  //   name: 'Examination',
-  //   to: '/exam',
-  //   icon: 'cil-notes',
-  // },
+  {
+    component: 'CNavTitle',
+    name: 'Examination',
+  },
+  {
+    component: 'CNavItem',
+    name: 'Result List',
+    to: '/exam/resultlist',
+    icon: 'cil-school',
+  },
+  {
+    component: 'CNavItem',
+    name: 'Submission',
+    to: '/exam/submission',
+    icon: 'cil-pencil',
+  },
+  {
+    component: 'CNavItem',
+    name: 'My Result',
+    to: '/exam/myresult',
+    icon: 'cil-notes',
+  },
   {
     component: 'CNavTitle',
     name: 'Theme',

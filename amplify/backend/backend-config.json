@@ -1,4 +1,34 @@
 {
+  "api": {
+    "ab3examapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ab3examapi"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "ab3snsapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ab3snsapi"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "coreuifreevueadmintec6cf2a16": {
       "customAuth": false,
@@ -23,6 +53,72 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "function": {
+    "ab3examapi": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributeEnvMap": {
+            "Arn": "TABLE_ARN",
+            "Name": "TABLE_NAME"
+          },
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "storage",
+          "resourceName": "ab3dynamodb"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ab3snsapi": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_ab3examapi_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ab3examapi"
+        }
+      ]
+    },
+    "AMPLIFY_function_ab3examapi_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ab3examapi"
+        }
+      ]
+    },
+    "AMPLIFY_function_ab3snsapi_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ab3snsapi"
+        }
+      ]
+    },
+    "AMPLIFY_function_ab3snsapi_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ab3snsapi"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "ab3dynamodb": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
     }
   }
 }

@@ -22,6 +22,26 @@ const routes = [
           ),
       },
       {
+        path: '/exam',
+        name: 'Exam',
+        redirect: '/exam/resultlist',
+      },
+      {
+        path: '/exam/resultlist',
+        name: 'Result List',
+        component: () => import('@/views/exam/ResultList.vue'),
+      },
+      {
+        path: '/exam/submission',
+        name: 'Submission',
+        component: () => import('@/views/exam/Submission.vue'),
+      },
+      {
+        path: '/exam/myresult',
+        name: 'My Result',
+        component: () => import('@/views/exam/Result.vue'),
+      },
+      {
         path: '/theme',
         name: 'Theme',
         redirect: '/theme/typography',
