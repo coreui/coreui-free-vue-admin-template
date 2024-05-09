@@ -26,7 +26,7 @@ onMounted(() => {
     <CCol :sm="6" :xl="4" :xxl="3">
       <CWidgetStatsA color="primary">
         <template #value
-          >26K
+          >22K
           <span class="fs-6 fw-normal"> (-12.4% <CIcon icon="cil-arrow-bottom" />) </span>
         </template>
         <template #title>Students</template>
