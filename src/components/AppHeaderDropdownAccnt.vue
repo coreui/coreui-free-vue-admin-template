@@ -1,7 +1,16 @@
 <script setup>
-import avatar from '@/assets/images/avatars/8.jpg'
+import avatar from '@/assets/images/avatars/9.jpg'
+import { signOut } from 'aws-amplify/auth';
 
 const itemsCount = 42
+
+async function handleSignOut() {
+  try {
+    await signOut();
+  } catch (error) {
+    console.log('error signing out: ', error);
+  }
+}
 </script>
 
 <template>
@@ -50,7 +59,7 @@ const itemsCount = 42
       </CDropdownItem>
       <CDropdownDivider />
       <CDropdownItem> <CIcon icon="cil-shield-alt" /> Lock Account </CDropdownItem>
-      <CDropdownItem> <CIcon icon="cil-lock-locked" /> Logout </CDropdownItem>
+      <CDropdownItem @click="handleSignOut"> <CIcon icon="cil-lock-locked" /> Logout </CDropdownItem>
     </CDropdownMenu>
   </CDropdown>
 </template>

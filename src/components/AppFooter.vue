@@ -1,9 +1,9 @@
 <template>
   <CFooter class="px-4">
     <div>
-      <a href="https://coreui.io" target="_blank">CoreUI</a>
+      <a href="https://coreui.io" target="_blank">AE Portal </a>
       <span class="ms-1"
-        >&copy; {{ new Date().getFullYear() }} creativeLabs.</span
+        >&copy; {{ new Date().getFullYear() }} Any Edu Inc</span
       >
     </div>
     <div class="ms-auto">

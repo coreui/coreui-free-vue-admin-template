@@ -29,7 +29,7 @@ onMounted(() => {
           >26K
           <span class="fs-6 fw-normal"> (-12.4% <CIcon icon="cil-arrow-bottom" />) </span>
         </template>
-        <template #title>Users</template>
+        <template #title>Students</template>
         <template #action>
           <CDropdown placement="bottom-end">
             <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">
@@ -113,7 +113,7 @@ onMounted(() => {
           >$6.200
           <span class="fs-6 fw-normal"> (40.9% <CIcon icon="cil-arrow-top" />) </span>
         </template>
-        <template #title>Income</template>
+        <template #title>Outstanding Fees</template>
         <template #action>
           <CDropdown placement="bottom-end">
             <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">
@@ -196,7 +196,7 @@ onMounted(() => {
           >2.49%
           <span class="fs-6 fw-normal"> (84.7% <CIcon icon="cil-arrow-top" />) </span>
         </template>
-        <template #title>Conversion Rate</template>
+        <template #title>Pass Rate</template>
         <template #action>
           <CDropdown placement="bottom-end">
             <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">
@@ -266,7 +266,7 @@ onMounted(() => {
           >44K
           <span class="fs-6 fw-normal"> (-23.6% <CIcon icon="cil-arrow-bottom" />) </span>
         </template>
-        <template #title>Sessions</template>
+        <template #title>Class Sessions</template>
         <template #action>
           <CDropdown placement="bottom-end">
             <CDropdownToggle color="transparent" class="p-0 text-white" :caret="false">

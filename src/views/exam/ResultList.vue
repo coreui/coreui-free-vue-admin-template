@@ -4,7 +4,10 @@
         <input type="text" v-model="classFilter" placeholder="Filter by class..." class="form-control" />
         <input type="text" v-model="subjectFilter" placeholder="Filter by subject..." class="form-control" />
       </div>
-      <CTable striped :columns="columns" :items="filteredExams" />
+      <CTable v-if="filteredExams.length > 0" striped :columns="columns" :items="filteredExams" />
+      <div v-else>
+        <p>Loading exam results list...</p>
+      </div>
     </div>
 </template>
   
@@ -19,10 +22,10 @@ export default {
             classFilter: '',
             subjectFilter: '',
             columns: [
-                {
-                key: 'id',
-                _props: { scope: 'col' },
-                },
+                // {
+                // key: 'id',
+                // _props: { scope: 'col' },
+                // },
                 {
                 key: 'name',
                 _props: { scope: 'col' },

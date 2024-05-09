@@ -14,7 +14,17 @@
             <CTableDataCell>{{ exam.subject }}</CTableDataCell>
             <CTableDataCell :class="getResultClass(exam.result)">{{ exam.result }}</CTableDataCell>
             <CTableDataCell>
-              <CButton v-if="exam.result === 'Failed'" color="primary" @click="handleRetake(exam)">Retake Exam</CButton>
+              <CButton
+                v-if="exam.result === 'Failed' && !exam.retakeButtonDisabled"
+                color="primary"
+                @click="handleRetake(exam)"
+                :disabled="exam.retakeButtonDisabled"
+              >
+                Retake Exam
+              </CButton>
+              <div v-else-if="exam.retakeButtonDisabled">
+                Retake request submitted
+              </div>
             </CTableDataCell>
           </CTableRow>
         </CTableBody>
@@ -59,6 +69,10 @@
           });
           const { body } = await restOperation.response;
           this.examResults = await body.json();
+          // Initialize the retakeButtonDisabled property for each exam
+          this.examResults.forEach(exam => {
+            exam.retakeButtonDisabled = false;
+          });
         } catch (error) {
           console.error('Error fetching exam results:', error);
         }
@@ -72,23 +86,25 @@
       },
       async handleRetake(exam) {
         try {
-            const response = await axios.post(
+          const response = await axios.post(
             'https://svmb6a6rch.execute-api.ap-southeast-1.amazonaws.com/default/ab3-sns',
             {
-                subject: exam.subject
+              subject: exam.subject
             },
             {
-                headers: {
+              headers: {
                 'Content-Type': 'application/json'
-                }
+              }
             }
-            );
-
-            console.log('Exam retake request submitted successfully:', response.data);
-            } catch (error) {
-                console.error('Error submitting exam retake request:', error);
-            }
+          );
+  
+          console.log('Exam retake request submitted successfully:', response.data);
+          // Disable the retake button for the current exam
+          exam.retakeButtonDisabled = true;
+        } catch (error) {
+          console.error('Error submitting exam retake request:', error);
         }
+      }
     }
   };
   </script>
