@@ -1,25 +1,25 @@
 <template>
     <div>
-      <h2>Exam Data Entry</h2>
-      <form @submit.prevent="postExaminationsResult">
-        <div class="form-group">
-          <label for="class">Class:</label>
-          <CFormSelect id="class" v-model="exam.class" :options="['', ...classOptions]" @change="updateNameOptions" required></CFormSelect>
-        </div>
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <CFormSelect id="name" v-model="exam.name" :options="['', ...nameOptions]" required></CFormSelect>
-        </div>
-        <div class="form-group">
-          <label for="subject">Subject:</label>
-          <CFormSelect id="subject" v-model="exam.subject" :options="['', ...subjects]" required></CFormSelect>
-        </div>
-        <div class="form-group">
-          <label for="result">Result:</label>
-          <CFormSelect id="result" v-model="exam.result" :options="['', 'Passed', 'Failed']" required></CFormSelect>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        <h2>Exam Data Entry</h2>
+        <form @submit.prevent="postExaminationsResult">
+            <div class="form-group">
+            <label for="class">Class:</label>
+            <CFormSelect id="class" v-model="exam.class" :options="['', ...classOptions]" @change="updateNameOptions" required></CFormSelect>
+            </div>
+            <div class="form-group">
+            <label for="name">Name:</label>
+            <CFormSelect id="name" v-model="exam.name" :options="['', ...nameOptions]" required></CFormSelect>
+            </div>
+            <div class="form-group">
+            <label for="subject">Subject:</label>
+            <CFormSelect id="subject" v-model="exam.subject" :options="['', ...subjects]" required></CFormSelect>
+            </div>
+            <div class="form-group">
+            <label for="result">Result:</label>
+            <CFormSelect id="result" v-model="exam.result" :options="['', 'Passed', 'Failed']" required></CFormSelect>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
   </template>
   
@@ -45,7 +45,8 @@
         students,
         classOptions: ['Class A', 'Class B', 'Class C'],
         nameOptions: [],
-        subjects: ['Math', 'English', 'Science', 'History']
+        subjects: ['Math', 'English', 'Science', 'History'],
+        toasts: []
       }
     },
     mounted() {
