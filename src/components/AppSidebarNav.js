@@ -64,8 +64,7 @@ const AppSidebarNav = defineComponent({
     });
 
     const renderItem = (item) => {
-      // Check if the current user is 'khairikz' (the admin)
-      if (currentUser.value === 'khairikz' || !item.can_access || item.can_access.includes(currentUser.value)) {
+      if (!item.can_access || item.can_access.includes(currentUser.value)) {
         if (item.items) {
           return h(
             CNavGroup,

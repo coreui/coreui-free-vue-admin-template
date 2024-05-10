@@ -1,11 +1,15 @@
 <script setup>
+import { useRouter } from 'vue-router';
 import avatar from '@/assets/images/avatars/9.jpg'
 import { signOut } from 'aws-amplify/auth';
 
+const router = useRouter();
 const itemsCount = 42
 
 async function handleSignOut() {
   try {
+    // Redirect the user to the dashboard before signing out
+    await router.push('/dashboard');
     await signOut();
   } catch (error) {
     console.log('error signing out: ', error);

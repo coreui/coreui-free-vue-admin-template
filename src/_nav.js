@@ -18,20 +18,21 @@ export default [
     name: 'Result List',
     to: '/exam/resultlist',
     icon: 'cil-school',
-    can_access: ['admin']
+    can_access: ['khairikz']
   },
   {
     component: 'CNavItem',
     name: 'Submission',
     to: '/exam/submission',
     icon: 'cil-pencil',
-    can_access: ['admin']
+    can_access: ['khairikz']
   },
   {
     component: 'CNavItem',
     name: 'My Result',
     to: '/exam/myresult',
     icon: 'cil-notes',
+    can_access: ['ronaldo', 'abdullah', 'alphonso']
   },
   {
     component: 'CNavTitle',
