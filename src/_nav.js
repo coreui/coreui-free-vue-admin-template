@@ -18,12 +18,14 @@ export default [
     name: 'Result List',
     to: '/exam/resultlist',
     icon: 'cil-school',
+    can_access: ['admin']
   },
   {
     component: 'CNavItem',
     name: 'Submission',
     to: '/exam/submission',
     icon: 'cil-pencil',
+    can_access: ['admin']
   },
   {
     component: 'CNavItem',

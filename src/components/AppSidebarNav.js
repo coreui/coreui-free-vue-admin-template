@@ -7,6 +7,8 @@ import nav from '@/_nav.js'
 import simplebar from 'simplebar-vue'
 import 'simplebar-vue/dist/simplebar.min.css'
 
+import { getCurrentUser } from 'aws-amplify/auth';
+
 const normalizePath = (path) =>
   decodeURI(path)
     .replace(/#.*$/, '')
@@ -47,89 +49,101 @@ const AppSidebarNav = defineComponent({
     CNavTitle,
   },
   setup() {
-    const route = useRoute()
-    const firstRender = ref(true)
+    const route = useRoute();
+    const firstRender = ref(true);
+    const currentUser = ref(null);
 
-    onMounted(() => {
-      firstRender.value = false
-    })
+    onMounted(async () => {
+      firstRender.value = false;
+      try {
+        const { username } = await getCurrentUser();
+        currentUser.value = username;
+      } catch (error) {
+        console.error('Error fetching current user:', error);
+      }
+    });
 
     const renderItem = (item) => {
-      if (item.items) {
-        return h(
-          CNavGroup,
-          {
-            as: 'div',
-            compact: true,
-            ...(firstRender.value && {
-              visible: item.items.some((child) => isActiveItem(route, child)),
-            }),
-          },
-          {
-            togglerContent: () => [
-              h(resolveComponent('CIcon'), {
-                customClassName: 'nav-icon',
-                name: item.icon,
-              }),
-              item.name,
-            ],
-            default: () => item.items.map((child) => renderItem(child)),
-          },
-        )
-      }
-
-      return item.to
-        ? h(
-            RouterLink,
-            {
-              to: item.to,
-              custom: true,
-            },
-            {
-              default: (props) =>
-                h(
-                  resolveComponent(item.component),
-                  {
-                    active: props.isActive,
-                    as: 'div',
-                    href: props.href,
-                    onClick: () => props.navigate(),
-                  },
-                  {
-                    default: () => [
-                      item.icon
-                        ? h(resolveComponent('CIcon'), {
-                            customClassName: 'nav-icon',
-                            name: item.icon,
-                          })
-                        : h('span', { class: 'nav-icon' }, h('span', { class: 'nav-icon-bullet' })),
-                      item.name,
-                      item.badge &&
-                        h(
-                          CBadge,
-                          {
-                            class: 'ms-auto',
-                            color: item.badge.color,
-                          },
-                          {
-                            default: () => item.badge.text,
-                          },
-                        ),
-                    ],
-                  },
-                ),
-            },
-          )
-        : h(
-            resolveComponent(item.component),
+      // Check if the current user is 'khairikz' (the admin)
+      if (currentUser.value === 'khairikz' || !item.can_access || item.can_access.includes(currentUser.value)) {
+        if (item.items) {
+          return h(
+            CNavGroup,
             {
               as: 'div',
+              compact: true,
+              ...(firstRender.value && {
+                visible: item.items.some((child) => isActiveItem(route, child)),
+              }),
             },
             {
-              default: () => item.name,
-            },
-          )
-    }
+              togglerContent: () => [
+                h(resolveComponent('CIcon'), {
+                  customClassName: 'nav-icon',
+                  name: item.icon,
+                }),
+                item.name,
+              ],
+              default: () => item.items.map((child) => renderItem(child)),
+            }
+          );
+        }
+
+        return item.to
+          ? h(
+              RouterLink,
+              {
+                to: item.to,
+                custom: true,
+              },
+              {
+                default: (props) =>
+                  h(
+                    resolveComponent(item.component),
+                    {
+                      active: props.isActive,
+                      as: 'div',
+                      href: props.href,
+                      onClick: () => props.navigate(),
+                    },
+                    {
+                      default: () => [
+                        item.icon
+                          ? h(resolveComponent('CIcon'), {
+                              customClassName: 'nav-icon',
+                              name: item.icon,
+                            })
+                          : h('span', { class: 'nav-icon' }, h('span', { class: 'nav-icon-bullet' })),
+                        item.name,
+                        item.badge &&
+                          h(
+                            CBadge,
+                            {
+                              class: 'ms-auto',
+                              color: item.badge.color,
+                            },
+                            {
+                              default: () => item.badge.text,
+                            }
+                          ),
+                      ],
+                    }
+                  ),
+              }
+            )
+          : h(
+              resolveComponent(item.component),
+              {
+                as: 'div',
+              },
+              {
+                default: () => item.name,
+              }
+            );
+      }
+      // If the current user is not 'khairikz' and the item is not accessible, return null to hide the item
+      return null;
+    };
 
     return () =>
       h(
@@ -139,9 +153,9 @@ const AppSidebarNav = defineComponent({
         },
         {
           default: () => nav.map((item) => renderItem(item)),
-        },
-      )
+        }
+      );
   },
-})
+});
 
 export { AppSidebarNav }

@@ -37,6 +37,8 @@
   
   <script>
   import { get } from 'aws-amplify/api';
+  import { getCurrentUser } from 'aws-amplify/auth';
+  import { students } from './students.js';
   import axios from 'axios';
   import { CTable, CTableBody, CTableDataCell, CTableHead, CTableHeaderCell, CTableRow, CButton } from '@coreui/vue';
   
@@ -53,7 +55,8 @@
     },
     data() {
       return {
-        examResults: []
+        examResults: [],
+        students
       };
     },
     mounted() {
@@ -62,8 +65,10 @@
     methods: {
       async fetchExamResults() {
         try {
-          const userId = 1;
-          const restOperation = get({
+            const { username } = await getCurrentUser();
+            console.log(username);
+            const userId = this.students.find(student => student.name.toLowerCase() === username).id;
+            const restOperation = get({
             apiName: 'ab3examapi',
             path: `/exam/${userId}`
           });
