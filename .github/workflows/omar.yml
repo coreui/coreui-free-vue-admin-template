@@ -1,0 +1,24 @@
+name: build and push to docker-hub 
+on:
+  push:
+    branches:
+      - omar
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: omar8magdy
+          password: "${{ secrets.DOCKERHUB_TOKEN }}"
+
+      - name: Build Docker image
+        run: |
+         docker build -t omar .
+         docker tag omar omar8magdy/nodejs-test:omar 
+         docker push omar8magdy/nodejs-test:omar
+      
