@@ -9,9 +9,9 @@ export default defineConfig(({ mode }) => {
   const env = {}
 
   // Filter env to variables starting with VITE_APP or VUE_APP
-  Object.keys({...process.env, ...viteEnv}).forEach(key => {
+  Object.entries({...process.env, ...viteEnv}).forEach(([key, value]) => {
     if (key.startsWith('VITE_APP') || key.startsWith('VUE_APP')) {
-      env[key] = viteEnv[key]
+      env[key] = value
     }
   })
 
