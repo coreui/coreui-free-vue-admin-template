@@ -5,8 +5,15 @@ import autoprefixer from 'autoprefixer'
 
 export default defineConfig(({ mode }) => {
   // Load .env
-  const env = loadEnv(mode, process.cwd(), '')
-  process.env = { ...process.env, ...env }
+  const viteEnv = loadEnv(mode, process.cwd(), '')
+  const env = {}
+
+  // Filter env to variables starting with VITE_APP or VUE_APP
+  Object.keys({...process.env, ...viteEnv}).forEach(key => {
+    if (key.startsWith('VITE_APP') || key.startsWith('VUE_APP')) {
+      env[key] = viteEnv[key]
+    }
+  })
 
   return {
     plugins: [vue()],
@@ -53,7 +60,7 @@ export default defineConfig(({ mode }) => {
     },
     define: {
       // vitejs does not support process.env so we have to redefine it
-      'process.env': process.env,
+      'process.env': env,
     },
   }
 })
