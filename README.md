@@ -47,6 +47,7 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 
 * 💪  [CoreUI PRO Angular Admin Template](https://coreui.io/product/angular-dashboard-template/)
 * 💪  [CoreUI PRO Bootstrap Admin Template](https://coreui.io/product/bootstrap-dashboard-template/)
+* 💪  [CoreUI PRO Next.js Admin Template](https://coreui.io/product/next-js-dashboard-template/)
 * 💪  [CoreUI PRO React Admin Template](https://coreui.io/product/react-dashboard-template/)
 * 💪  [CoreUI PRO Vue Admin Template](https://coreui.io/product/vue-dashboard-template/)
 
