@@ -19,6 +19,6 @@ jobs:
       - name: Build Docker image
         run: |
          docker build -t omar .
-         docker tag Omar omar8magdy/vue-test:Omar 
-         docker push omar8magdy/vue-test:Omar
+         docker tag omar omar8magdy/vue-test:omar 
+         docker push omar8magdy/vue-test:omar
       
