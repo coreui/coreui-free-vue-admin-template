@@ -16,12 +16,6 @@ COPY . .
 # Build the Vue.js application for production
 RUN npm run build
 
-# Use the official Nginx image to serve the Vue.js application
-FROM nginx:alpine
-
-# Copy the built files from the previous stage to the Nginx web directory
-COPY --from=0 /app/dist /usr/share/nginx/html
-
 # Expose port 80
 EXPOSE 80
 
