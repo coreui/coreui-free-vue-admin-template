@@ -19,5 +19,5 @@ RUN npm run build
 # Expose port 80
 EXPOSE 80
 
-# Start Nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Define the command to run your application
+CMD ["node", "start"]
