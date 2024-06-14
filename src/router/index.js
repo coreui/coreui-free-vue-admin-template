@@ -112,6 +112,11 @@ const routes = [
             component: () => import('@/views/base/Tables.vue'),
           },
           {
+            path: '/base/tabs',
+            name: 'Tabs',
+            component: () => import('@/views/base/Tabs.vue'),
+          },
+          {
             path: '/base/tooltips',
             name: 'Tooltips',
             component: () => import('@/views/base/Tooltips.vue'),
