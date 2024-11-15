@@ -1,6 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/button-group.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Button Group</strong> <span>Basic example</span>

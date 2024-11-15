@@ -1,6 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/nav.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Navs</strong> <small>Base navs</small>

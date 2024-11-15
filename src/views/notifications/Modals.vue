@@ -22,6 +22,7 @@ const fullscreenXxlDemo = ref(false)
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/modal.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Modals</strong>

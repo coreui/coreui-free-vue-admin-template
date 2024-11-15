@@ -1,6 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="forms/layout.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Layout</strong> <small>Form grid</small>

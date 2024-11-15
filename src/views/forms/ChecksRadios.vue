@@ -1,6 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="forms/checks-radios.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Checkbox</strong>

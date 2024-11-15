@@ -12,6 +12,7 @@ const createToast = () => {
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/toast.html" />
       <CCard class="mb-4">
         <CCardHeader> <strong>Vue Toast</strong> <small>Basic</small> </CCardHeader>
         <CCardBody>

@@ -1,6 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/dropdown.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Dropdown</strong> <small>Single button</small>

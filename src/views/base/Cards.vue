@@ -6,6 +6,7 @@ import VueImg from '@/assets/images/vue.jpg'
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/card.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Card</strong> <small>Example</small>

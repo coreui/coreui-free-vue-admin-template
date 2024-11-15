@@ -1,6 +1,7 @@
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/progress.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Progress</strong> <small>Basic example</small>

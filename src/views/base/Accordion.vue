@@ -1,7 +1,7 @@
-
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/accordion.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Accordion</strong>

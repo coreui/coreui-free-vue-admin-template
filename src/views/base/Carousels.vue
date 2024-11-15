@@ -7,6 +7,7 @@ import VueImg from '@/assets/images/vue.jpg'
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/carousel.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Carousels</strong> <small>Slide only</small>

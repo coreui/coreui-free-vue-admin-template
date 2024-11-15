@@ -7,6 +7,7 @@ const alert = () => {
 <template>
   <CRow>
     <CCol :xs="12">
+      <DocsComponents href="components/alert.html" />
       <CCard class="mb-4">
         <CCardHeader>
           <strong>Vue Alert</strong>
