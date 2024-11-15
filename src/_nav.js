@@ -52,6 +52,16 @@ export default [
       },
       {
         component: 'CNavItem',
+        name: 'Calendar',
+        href: 'https://coreui.io/vue/docs/components/calendar.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
         name: 'Carousels',
         to: '/base/carousels',
       },
@@ -92,6 +102,25 @@ export default [
       },
       {
         component: 'CNavItem',
+        name: 'Smart Pagination',
+        href: 'https://coreui.io/vue/docs/components/smart-pagination.html',
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
+        name: 'Smart Table',
+        external: true,
+        href: 'https://coreui.io/vue/docs/components/smart-table.html',
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
         name: 'Spinners',
         to: '/base/spinners',
       },
@@ -110,6 +139,16 @@ export default [
         name: 'Tooltips',
         to: '/base/tooltips',
       },
+      {
+        component: 'CNavItem',
+        name: 'Virtual Scroller',
+        href: 'https://coreui.io/vue/docs/components/virtual-scroller.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      }
     ],
   },
   {
@@ -127,6 +166,16 @@ export default [
         component: 'CNavItem',
         name: 'Button Groups',
         to: '/buttons/button-groups',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Loading Button',
+        href: 'https://coreui.io/vue/docs/components/loading-button.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
       },
       {
         component: 'CNavItem',
@@ -163,6 +212,16 @@ export default [
       },
       {
         component: 'CNavItem',
+        name: 'Range Slider',
+        href: 'https://coreui.io/vue/docs/forms/range-slider.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
         name: 'Input Group',
         to: '/forms/input-group',
       },
@@ -170,6 +229,45 @@ export default [
         component: 'CNavItem',
         name: 'Floating Labels',
         to: '/forms/floating-labels',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Date Picker',
+        href: 'https://coreui.io/vue/docs/forms/date-picker.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
+        name: 'Date Range Picker',
+        href: 'https://coreui.io/vue/docs/forms/date-range-picker.html',
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
+        name: 'Rating',
+        href: 'https://coreui.io/vue/docs/forms/rating.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
+        name: 'Time Picker',
+        href: 'https://coreui.io/vue/docs/forms/time-picker.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
       },
       {
         component: 'CNavItem',

@@ -1,6 +1,7 @@
 import { defineComponent, h, onMounted, ref, resolveComponent } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
+import { cilExternalLink } from '@coreui/icons'
 import { CBadge, CSidebarNav, CNavItem, CNavGroup, CNavTitle } from '@coreui/vue'
 import nav from '@/_nav.js'
 
@@ -78,6 +79,45 @@ const AppSidebarNav = defineComponent({
         )
       }
 
+      if (item.href) {
+        return h(
+          resolveComponent(item.component),
+          {
+            href: item.href,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+          },
+          {
+            default: () => [
+              item.icon
+                ? h(resolveComponent('CIcon'), {
+                    customClassName: 'nav-icon',
+                    name: item.icon,
+                  })
+                : h('span', { class: 'nav-icon' }, h('span', { class: 'nav-icon-bullet' })),
+              item.name,
+              item.external && h(resolveComponent('CIcon'), {
+                class: 'ms-2',
+                name: cilExternalLink,
+                size: 'sm'
+              }),
+              item.badge &&
+                h(
+                  CBadge,
+                  {
+                    class: 'ms-auto',
+                    color: item.badge.color,
+                    size: 'sm',
+                  },
+                  {
+                    default: () => item.badge.text,
+                  },
+                ),
+            ],
+          },
+        )
+      }
+
       return item.to
         ? h(
             RouterLink,
@@ -110,6 +150,7 @@ const AppSidebarNav = defineComponent({
                           {
                             class: 'ms-auto',
                             color: item.badge.color,
+                            size: 'sm',
                           },
                           {
                             default: () => item.badge.text,
