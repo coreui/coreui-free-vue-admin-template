@@ -98,7 +98,7 @@ const AppSidebarNav = defineComponent({
               item.name,
               item.external && h(resolveComponent('CIcon'), {
                 class: 'ms-2',
-                name: cilExternalLink,
+                name: 'cil-external-link',
                 size: 'sm'
               }),
               item.badge &&
