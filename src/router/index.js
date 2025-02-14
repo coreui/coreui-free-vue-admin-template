@@ -135,7 +135,7 @@ const routes = [
         children: [
           {
             path: '/buttons/standard-buttons',
-            name: 'Buttons',
+            name: 'Button Component',
             component: () => import('@/views/buttons/Buttons.vue'),
           },
           {
