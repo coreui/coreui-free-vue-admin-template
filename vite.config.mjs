@@ -13,12 +13,6 @@ export default defineConfig(() => {
           autoprefixer({}), // add options if needed
         ],
       },
-      preprocessorOptions: {
-        scss: {
-          quietDeps: true,
-          silenceDeprecations: ['import', 'legacy-js-api'],
-        },
-      },
     },
     resolve: {
       alias: [
