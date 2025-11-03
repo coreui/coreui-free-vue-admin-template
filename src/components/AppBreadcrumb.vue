@@ -27,7 +27,7 @@ onMounted(() => {
   <CBreadcrumb class="my-0">
     <CBreadcrumbItem
       v-for="item in breadcrumbs"
-      :key="item"
+      :key="item.path"
       :href="item.active ? '' : item.path"
       :active="item.active"
     >

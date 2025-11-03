@@ -67,7 +67,7 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 - [Download the latest release](https://github.com/coreui/coreui-free-vue-admin-template/archive/refs/heads/main.zip)
 - Clone the repo: `git clone https://github.com/coreui/coreui-free-vue-admin-template.git`
 
-### Instalation
+### Installation
 
 ``` bash
 $ npm install
