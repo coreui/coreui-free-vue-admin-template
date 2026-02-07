@@ -5,7 +5,7 @@ const data = {
   labels: ['VueJs', 'EmberJs', 'VueJs', 'AngularJs'],
   datasets: [
     {
-      backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],
+      backgroundColor: ['#764ba2', '#42e695', '#ff416c', '#56ccf2'],
       data: [40, 20, 80, 10],
     },
   ],

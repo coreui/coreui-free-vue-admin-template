@@ -5,10 +5,12 @@ import { useColorModes } from '@coreui/vue'
 import AppBreadcrumb from '@/components/AppBreadcrumb.vue'
 import AppHeaderDropdownAccnt from '@/components/AppHeaderDropdownAccnt.vue'
 import { useSidebarStore } from '@/stores/sidebar.js'
+import { useThemeStore } from '@/stores/theme.js'
 
 const headerClassNames = ref('mb-4 p-0')
 const { colorMode, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
 const sidebar = useSidebarStore()
+const themeStore = useThemeStore()
 
 onMounted(() => {
   document.addEventListener('scroll', () => {
@@ -92,6 +94,34 @@ onMounted(() => {
               @click="setColorMode('auto')"
             >
               <CIcon class="me-2" icon="cil-contrast" size="lg" /> Auto
+            </CDropdownItem>
+          </CDropdownMenu>
+        </CDropdown>
+        <li class="nav-item py-1">
+          <div class="vr h-100 mx-2 text-body text-opacity-75"></div>
+        </li>
+        <CDropdown variant="nav-item" placement="bottom-end">
+          <CDropdownToggle :caret="false">
+            <CIcon icon="cil-drop" size="lg" />
+          </CDropdownToggle>
+          <CDropdownMenu>
+            <CDropdownItem
+              :active="themeStore.visualTheme === 'default'"
+              class="d-flex align-items-center"
+              component="button"
+              type="button"
+              @click="themeStore.setVisualTheme('default')"
+            >
+              <CIcon class="me-2" icon="cil-layers" size="lg" /> Default
+            </CDropdownItem>
+            <CDropdownItem
+              :active="themeStore.visualTheme === 'liquid'"
+              class="d-flex align-items-center"
+              component="button"
+              type="button"
+              @click="themeStore.setVisualTheme('liquid')"
+            >
+              <CIcon class="me-2" icon="cil-drop" size="lg" /> Liquid Glass
             </CDropdownItem>
           </CDropdownMenu>
         </CDropdown>

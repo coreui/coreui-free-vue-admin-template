@@ -4,9 +4,7 @@ import { useColorModes } from '@coreui/vue'
 
 import { useThemeStore } from '@/stores/theme.js'
 
-const { isColorModeSet, setColorMode } = useColorModes(
-  'coreui-free-vue-admin-template-theme',
-)
+const { isColorModeSet, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
 const currentTheme = useThemeStore()
 
 onBeforeMount(() => {
@@ -28,6 +26,19 @@ onBeforeMount(() => {
 
   setColorMode(currentTheme.theme)
 })
+
+import { watch } from 'vue'
+watch(
+  () => currentTheme.visualTheme,
+  (newTheme) => {
+    if (newTheme === 'liquid') {
+      document.body.classList.add('theme-liquid')
+    } else {
+      document.body.classList.remove('theme-liquid')
+    }
+  },
+  { immediate: true },
+)
 </script>
 
 <template>

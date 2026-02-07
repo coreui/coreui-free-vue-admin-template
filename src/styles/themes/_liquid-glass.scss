@@ -1,0 +1,631 @@
+// iOS 26 "Liquid Glass" Theme
+// Deep vibrant gradients, heavy blur, glossy surfaces, floating elements.
+
+:root,
+[data-coreui-theme='light'] {
+  --liquid-bg-gradient: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  --liquid-card-bg: rgba(255, 255, 255, 0.6);
+  --liquid-sidebar-bg: rgba(255, 255, 255, 0.85);
+  --liquid-header-bg: rgba(255, 255, 255, 0.4);
+  --liquid-border-color: rgba(255, 255, 255, 0.4);
+  --liquid-text-color: #1a1a1a;
+  --liquid-text-muted: #555555;
+  --liquid-input-bg: rgba(255, 255, 255, 0.5);
+  --liquid-input-border: rgba(255, 255, 255, 0.6);
+  --liquid-hover-bg: rgba(102, 126, 234, 0.2);
+  --liquid-active-bg: rgba(255, 255, 255, 0.5);
+  --liquid-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  --liquid-invert: 1;
+}
+
+[data-coreui-theme='dark'] {
+  --liquid-bg-gradient: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  --liquid-card-bg: rgba(30, 30, 40, 0.5);
+  --liquid-sidebar-bg: rgba(20, 20, 30, 0.4);
+  --liquid-header-bg: rgba(20, 20, 30, 0.3);
+  --liquid-border-color: rgba(255, 255, 255, 0.15);
+  --liquid-text-color: #ffffff;
+  --liquid-text-muted: rgba(255, 255, 255, 0.6);
+  --liquid-input-bg: rgba(0, 0, 0, 0.3);
+  --liquid-input-border: rgba(255, 255, 255, 0.2);
+  --liquid-hover-bg: rgba(255, 255, 255, 0.1);
+  --liquid-active-bg: rgba(255, 255, 255, 0.05);
+  --liquid-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  --liquid-invert: 0;
+}
+
+$liquid-blur: blur(25px);
+$liquid-radius: 20px;
+
+body.theme-liquid {
+  background: var(--liquid-bg-gradient);
+  background-attachment: fixed;
+  color: var(--liquid-text-color);
+
+  // CSS Variable Overrides for JS access (Charts etc)
+  --cui-body-color: var(--liquid-text-color);
+  --cui-body-bg: transparent;
+  --cui-border-color-translucent: var(--liquid-border-color);
+  --cui-card-cap-bg: var(--liquid-hover-bg);
+
+  // Global resets for transparency
+  .wrapper {
+    background: transparent;
+  }
+
+  // Sidebar specific
+  .sidebar,
+  .sidebar-dark {
+    background: var(--liquid-sidebar-bg) !important;
+    backdrop-filter: $liquid-blur;
+    -webkit-backdrop-filter: $liquid-blur;
+    border-right: 1px solid var(--liquid-border-color) !important;
+    box-shadow: var(--liquid-shadow);
+
+    .border-bottom,
+    .border-top,
+    .border-end {
+      border-color: var(--liquid-border-color) !important;
+    }
+
+    .nav-link {
+      color: var(--liquid-text-color);
+      border-radius: 12px;
+      margin: 4px 10px;
+      width: auto;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background: rgba(118, 75, 162, 0.1);
+        color: var(--liquid-text-color) !important;
+      }
+
+      &.active {
+        background: rgba(118, 75, 162, 0.15); // Tinted glass
+        border: 1px solid rgba(118, 75, 162, 0.3); // Subtle border
+        color: #764ba2 !important; // Primary color
+        font-weight: 600;
+        box-shadow: 0 0 15px rgba(118, 75, 162, 0.1);
+
+        .nav-icon {
+          color: #764ba2 !important;
+          opacity: 1;
+        }
+      }
+
+      .nav-icon {
+        color: var(--liquid-text-color);
+        opacity: 0.7;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+
+    .nav-group-toggle::after {
+      filter: invert(var(--liquid-invert));
+    }
+
+    .nav-title {
+      color: var(--liquid-text-muted);
+    }
+  }
+
+  // Active state for expanded parent menu
+  .nav-group.show {
+    .nav-group-toggle {
+      color: var(--liquid-text-color);
+      font-weight: 700;
+      background: var(--liquid-hover-bg);
+      border-radius: 12px;
+      margin: 4px 10px;
+      width: auto;
+    }
+  }
+
+  // Header specific
+  .header {
+    background: var(--liquid-header-bg) !important;
+    backdrop-filter: $liquid-blur;
+    -webkit-backdrop-filter: $liquid-blur;
+    border-bottom: 1px solid var(--liquid-border-color) !important;
+    margin-bottom: 20px;
+
+    .border-bottom {
+      border-bottom: none !important;
+    }
+
+    .header-toggler,
+    .header-nav .nav-link,
+    .header-brand {
+      color: var(--liquid-text-color) !important;
+    }
+
+    .header-nav .nav-link:hover {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  // Footer
+  .footer {
+    background: var(--liquid-sidebar-bg) !important;
+    backdrop-filter: $liquid-blur;
+    border-top: 1px solid var(--liquid-border-color) !important;
+    color: var(--liquid-text-muted);
+  }
+
+  // Cards and Widgets
+  .card {
+    background: var(--liquid-card-bg) !important;
+    backdrop-filter: $liquid-blur;
+    -webkit-backdrop-filter: $liquid-blur;
+    border: 1px solid var(--liquid-border-color);
+    border-radius: $liquid-radius;
+    box-shadow: var(--liquid-shadow);
+    color: var(--liquid-text-color);
+    margin-bottom: 24px;
+    overflow: hidden; /* For inner borders/radius */
+
+    .card-header {
+      background: var(--liquid-hover-bg);
+      border-bottom: 1px solid var(--liquid-border-color);
+      color: var(--liquid-text-color);
+      font-weight: 600;
+    }
+
+    .card-body {
+      color: var(--liquid-text-color);
+    }
+
+    .text-body-secondary,
+    .text-muted,
+    .text-medium-emphasis {
+      color: var(--liquid-text-muted) !important;
+    }
+  }
+
+  // Color Overrides for Widgets (Glass style) - Placed here to override .card styles
+  .bg-primary,
+  .card.bg-primary,
+  .widget-stats-a.bg-primary {
+    background: linear-gradient(
+      135deg,
+      rgba(102, 126, 234, 0.85) 0%,
+      rgba(118, 75, 162, 0.85) 100%
+    ) !important;
+    backdrop-filter: $liquid-blur;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+
+    .text-body-secondary,
+    .text-muted,
+    .text-medium-emphasis {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+  }
+
+  .bg-info,
+  .card.bg-info,
+  .widget-stats-a.bg-info {
+    background: linear-gradient(
+      135deg,
+      rgba(57, 185, 237, 0.85) 0%,
+      rgba(50, 150, 250, 0.85) 100%
+    ) !important;
+    backdrop-filter: $liquid-blur;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+
+    .text-body-secondary,
+    .text-muted,
+    .text-medium-emphasis {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+  }
+
+  .bg-warning,
+  .card.bg-warning,
+  .widget-stats-a.bg-warning {
+    background: linear-gradient(
+      135deg,
+      rgba(253, 189, 42, 0.85) 0%,
+      rgba(255, 150, 50, 0.85) 100%
+    ) !important;
+    backdrop-filter: $liquid-blur;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+
+    .text-body-secondary,
+    .text-muted,
+    .text-medium-emphasis {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+  }
+
+  .bg-danger,
+  .card.bg-danger,
+  .widget-stats-a.bg-danger {
+    background: linear-gradient(
+      135deg,
+      rgba(239, 83, 80, 0.85) 0%,
+      rgba(229, 57, 53, 0.85) 100%
+    ) !important;
+    backdrop-filter: $liquid-blur;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+
+    .text-body-secondary,
+    .text-muted,
+    .text-medium-emphasis {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+  }
+
+  // Tables
+  .table {
+    --cui-table-color: var(--liquid-text-color);
+    --cui-table-bg: transparent;
+    --cui-table-border-color: var(--liquid-border-color);
+    --cui-table-striped-bg: var(--liquid-hover-bg);
+    --cui-table-hover-bg: var(--liquid-active-bg);
+    color: var(--liquid-text-color);
+
+    th,
+    td {
+      border-color: var(--liquid-border-color);
+    }
+  }
+
+  // Forms
+  .form-control,
+  .form-select {
+    background: var(--liquid-input-bg);
+    border: 1px solid var(--liquid-input-border);
+    color: var(--liquid-text-color);
+    border-radius: 10px;
+    &:focus {
+      background: var(--liquid-active-bg);
+      border-color: var(--liquid-input-border);
+      color: var(--liquid-text-color);
+      box-shadow: 0 0 0 0.25rem var(--liquid-hover-bg);
+    }
+    &::placeholder {
+      color: var(--liquid-text-muted);
+    }
+  }
+
+  // Buttons
+  .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 50px; /* Pill shape for futuristic look */
+    box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(118, 75, 162, 0.6);
+    }
+  }
+
+  .btn-secondary {
+    background: linear-gradient(135deg, #9599a2 0%, #6c757d 100%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(108, 117, 125, 0.4);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #9599a2 0%, #6c757d 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(108, 117, 125, 0.6);
+      color: #fff;
+    }
+  }
+
+  .btn-success {
+    background: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(59, 178, 184, 0.4);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(59, 178, 184, 0.6);
+      color: #fff;
+    }
+  }
+
+  .btn-danger {
+    background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 75, 43, 0.4);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(255, 75, 43, 0.6);
+      color: #fff;
+    }
+  }
+
+  .btn-warning {
+    background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 210, 0, 0.4);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(255, 210, 0, 0.6);
+      color: #fff;
+    }
+  }
+
+  .btn-info {
+    background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(47, 128, 237, 0.4);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(47, 128, 237, 0.6);
+      color: #fff;
+    }
+  }
+
+  .btn-light {
+    background: linear-gradient(135deg, #e0e0e0 0%, #ffffff 100%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #e0e0e0 0%, #ffffff 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(255, 255, 255, 0.6);
+      color: #333;
+    }
+  }
+
+  .btn-dark {
+    background: linear-gradient(135deg, #434343 0%, #000000 100%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    &:hover,
+    &:active,
+    &.active {
+      background: linear-gradient(135deg, #434343 0%, #000000 100%);
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+      color: #fff;
+    }
+  }
+
+  // Breadcrumbs
+  .breadcrumb-item {
+    &.active {
+      color: var(--liquid-text-muted);
+    }
+    a {
+      color: var(--liquid-text-color);
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &::before {
+      color: var(--liquid-text-muted);
+    }
+  }
+
+  // Dropdowns
+  .dropdown-menu {
+    background: var(--liquid-card-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--liquid-border-color);
+    box-shadow: var(--liquid-shadow);
+
+    .dropdown-item {
+      color: var(--liquid-text-color);
+      border-radius: 8px;
+      margin: 2px 0;
+
+      &:hover {
+        background: var(--liquid-hover-bg);
+        color: var(--liquid-text-color);
+      }
+
+      &.active,
+      &:active {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: #fff !important;
+      }
+    }
+  }
+
+  // Tabs and Navs (Fixing "Preview" and DocsExample)
+  .nav-tabs {
+    border-bottom-color: var(--liquid-border-color);
+
+    .nav-link {
+      color: var(--liquid-text-muted);
+      &:hover {
+        border-color: var(--liquid-border-color);
+        color: var(--liquid-text-color);
+      }
+      &.active {
+        background-color: var(--liquid-active-bg);
+        border-color: var(--liquid-border-color);
+        color: var(--liquid-text-color);
+      }
+    }
+  }
+
+  .tab-content {
+    background: transparent;
+    color: var(--liquid-text-color);
+
+    .tab-pane {
+      background: transparent;
+    }
+
+    // Specifically targeting the white box in DocsExample
+    .p-3.preview {
+      background: var(--liquid-card-bg) !important;
+      backdrop-filter: $liquid-blur;
+      border: 1px solid var(--liquid-border-color);
+      border-top: none;
+      color: var(--liquid-text-color);
+    }
+  }
+
+  // Accordion
+  .accordion-item {
+    background: transparent;
+    border-color: var(--liquid-border-color);
+    color: var(--liquid-text-color);
+
+    .accordion-button {
+      background: var(--liquid-hover-bg);
+      color: var(--liquid-text-color);
+      box-shadow: none; // remove default blue shadow
+
+      &:not(.collapsed) {
+        background: var(--liquid-active-bg);
+        color: var(--liquid-text-color);
+        box-shadow: none;
+        &::after {
+          filter: invert(var(--liquid-invert));
+        }
+      }
+      &::after {
+        filter: invert(var(--liquid-invert));
+      }
+    }
+  }
+
+  // List Groups
+  .list-group-item {
+    background: var(--liquid-sidebar-bg);
+    border-color: var(--liquid-border-color);
+    color: var(--liquid-text-color);
+
+    &.active {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-color: transparent;
+    }
+
+    &.disabled {
+      background: var(--liquid-hover-bg);
+      color: var(--liquid-text-muted);
+    }
+  }
+
+  // Pagination
+  .pagination {
+    .page-item {
+      .page-link {
+        background: var(--liquid-sidebar-bg);
+        border-color: var(--liquid-border-color);
+        color: var(--liquid-text-color);
+
+        &:hover {
+          background: var(--liquid-hover-bg);
+        }
+      }
+      &.active .page-link {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-color: transparent;
+        color: #fff;
+      }
+      &.disabled .page-link {
+        background: var(--liquid-hover-bg);
+        color: var(--liquid-text-muted);
+      }
+    }
+  }
+
+  // Modals
+  .modal-content {
+    background: var(--liquid-card-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--liquid-border-color);
+    color: var(--liquid-text-color);
+    box-shadow: var(--liquid-shadow);
+
+    .modal-header,
+    .modal-footer {
+      border-color: var(--liquid-border-color);
+    }
+
+    .btn-close {
+      filter: invert(var(--liquid-invert));
+    }
+  }
+
+  // Checkboxes and Radios Customization (if not already covered by form-control)
+  .form-check-input {
+    background-color: var(--liquid-input-bg);
+    border-color: var(--liquid-text-muted);
+
+    &:checked {
+      background-color: #764ba2; // Theme accent
+      border-color: #764ba2;
+    }
+  }
+
+  // Code blocks in docs
+  pre {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 8px;
+    color: #e0cffc;
+  }
+}
