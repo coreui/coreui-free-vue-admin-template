@@ -1,3 +1,29 @@
+<!--
+/**
+ * AppSidebar Component
+ *
+ * Main navigation sidebar with collapsible menu and branding.
+ * Integrates with Pinia store for state management.
+ *
+ * Features:
+ * - Collapsible sidebar with responsive behavior
+ * - Dark color scheme
+ * - Branding header with logo (full/narrow versions)
+ * - Navigation menu from _nav.js configuration
+ * - Toggle button to unfold/fold sidebar
+ * - Mobile close button
+ * - Fixed positioning
+ *
+ * State management:
+ * - visible: Controls sidebar visibility (responsive)
+ * - unfoldable: Controls whether sidebar stays expanded
+ *
+ * @component
+ * @example
+ * // Used in DefaultLayout.vue
+ * <AppSidebar />
+ */
+-->
 <script setup>
 import { RouterLink } from 'vue-router'
 
@@ -6,6 +32,10 @@ import { sygnet } from '@/assets/brand/sygnet'
 import { AppSidebarNav } from '@/components/AppSidebarNav.js'
 import { useSidebarStore } from '@/stores/sidebar.js'
 
+/**
+ * Sidebar state from Pinia store
+ * Manages visibility and unfoldable state
+ */
 const sidebar = useSidebarStore()
 </script>
 

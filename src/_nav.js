@@ -1,3 +1,76 @@
+/**
+ * Sidebar Navigation Configuration
+ *
+ * Defines the structure and content of the sidebar navigation menu.
+ * Supports multiple navigation component types from CoreUI Vue:
+ * - CNavItem: Single navigation link
+ * - CNavGroup: Collapsible group of links
+ * - CNavTitle: Section title/divider
+ *
+ * @module _nav
+ */
+
+/**
+ * Navigation menu structure array
+ *
+ * @type {Array<Object>}
+ * @property {string} component - CoreUI nav component name ('CNavItem', 'CNavGroup', 'CNavTitle')
+ * @property {string} name - Display text for the nav item
+ * @property {string} [to] - Internal route path (for CNavItem with routing)
+ * @property {string} [href] - External URL (for CNavItem with external links)
+ * @property {boolean} [external] - Whether link is external (shows icon)
+ * @property {string} [icon] - Icon name from CoreUI Icons
+ * @property {Object} [badge] - Optional badge configuration
+ * @property {string} badge.color - Badge color (primary, danger, info, etc.)
+ * @property {string} badge.text - Badge text content
+ * @property {string} [badge.shape] - Badge shape ('pill' or default)
+ * @property {Array<Object>} [items] - Child items for CNavGroup
+ *
+ * @example
+ * // Simple navigation item
+ * {
+ *   component: 'CNavItem',
+ *   name: 'Dashboard',
+ *   to: '/dashboard',
+ *   icon: 'cil-speedometer',
+ * }
+ *
+ * @example
+ * // Navigation group with children
+ * {
+ *   component: 'CNavGroup',
+ *   name: 'Base',
+ *   to: '/base',
+ *   icon: 'cil-puzzle',
+ *   items: [
+ *     {
+ *       component: 'CNavItem',
+ *       name: 'Cards',
+ *       to: '/base/cards',
+ *     },
+ *   ],
+ * }
+ *
+ * @example
+ * // Section title
+ * {
+ *   component: 'CNavTitle',
+ *   name: 'Theme',
+ * }
+ *
+ * @example
+ * // External link with badge
+ * {
+ *   component: 'CNavItem',
+ *   name: 'Pro Component',
+ *   href: 'https://coreui.io/vue/docs/',
+ *   external: true,
+ *   badge: {
+ *     color: 'danger',
+ *     text: 'PRO',
+ *   },
+ * }
+ */
 export default [
   {
     component: 'CNavItem',

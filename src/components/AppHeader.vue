@@ -1,3 +1,26 @@
+<!--
+/**
+ * AppHeader Component
+ *
+ * Top navigation bar with breadcrumbs, navigation links, and user menu.
+ * Features dynamic shadow effect on scroll and theme switcher.
+ *
+ * Features:
+ * - Sticky positioning
+ * - Sidebar toggle button (mobile/desktop)
+ * - Horizontal navigation links (desktop only)
+ * - Icon buttons (notifications, tasks, messages)
+ * - Theme switcher dropdown (light/dark/auto)
+ * - User account dropdown menu
+ * - Breadcrumb navigation
+ * - Dynamic shadow on scroll
+ *
+ * @component
+ * @example
+ * // Used in DefaultLayout.vue
+ * <AppHeader />
+ */
+-->
 <script setup>
 import { onMounted, ref } from 'vue'
 import { useColorModes } from '@coreui/vue'
@@ -6,10 +29,28 @@ import AppBreadcrumb from '@/components/AppBreadcrumb.vue'
 import AppHeaderDropdownAccnt from '@/components/AppHeaderDropdownAccnt.vue'
 import { useSidebarStore } from '@/stores/sidebar.js'
 
+/**
+ * Dynamic header CSS classes
+ * Adds shadow when page is scrolled
+ */
 const headerClassNames = ref('mb-4 p-0')
+
+/**
+ * CoreUI color mode management
+ * Provides theme switching functionality
+ */
 const { colorMode, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
+
+/**
+ * Sidebar state from Pinia store
+ * Used to toggle sidebar visibility
+ */
 const sidebar = useSidebarStore()
 
+/**
+ * Add scroll listener to toggle shadow effect
+ * Shadow appears when user scrolls down
+ */
 onMounted(() => {
   document.addEventListener('scroll', () => {
     if (document.documentElement.scrollTop > 0) {

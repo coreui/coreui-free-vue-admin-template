@@ -1,8 +1,53 @@
+/**
+ * Vue Router Configuration
+ *
+ * Defines application routing with hash-based navigation and lazy-loaded components.
+ * Uses hierarchical route structure with nested children for layout composition.
+ *
+ * Features:
+ * - Hash-based routing (GitHub Pages compatible)
+ * - Lazy loading for all route components
+ * - Code splitting per route for optimal performance
+ * - Nested routes with DefaultLayout wrapper
+ * - Public pages (login, register, error pages)
+ * - Automatic scroll to top on navigation
+ *
+ * @module router
+ */
+
 import { h, resolveComponent } from 'vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 import DefaultLayout from '@/layouts/DefaultLayout'
 
+/**
+ * Application route definitions
+ *
+ * @type {Array<import('vue-router').RouteRecordRaw>}
+ *
+ * Route structure:
+ * - Root path (/) wraps all routes in DefaultLayout
+ * - Lazy-loaded components with Webpack chunk names
+ * - Nested children for grouped pages (base, buttons, forms, etc.)
+ * - Public routes for authentication and error pages
+ *
+ * @example
+ * // Route with lazy loading
+ * {
+ *   path: '/dashboard',
+ *   name: 'Dashboard',
+ *   component: () => import('@/views/dashboard/Dashboard.vue')
+ * }
+ *
+ * @example
+ * // Nested route group
+ * {
+ *   path: '/base',
+ *   name: 'Base',
+ *   component: { render: () => h(resolveComponent('router-view')) },
+ *   children: [...]
+ * }
+ */
 const routes = [
   {
     path: '/',
@@ -307,11 +352,30 @@ const routes = [
   },
 ]
 
+/**
+ * Router instance with hash-based history
+ *
+ * Uses createWebHashHistory for compatibility with static hosting
+ * (e.g., GitHub Pages, Netlify) where server-side routing is unavailable.
+ *
+ * Configuration:
+ * - Hash-based URLs (/#/dashboard)
+ * - Scroll to top on every navigation
+ * - Base URL from environment variable
+ *
+ * @type {import('vue-router').Router}
+ *
+ * @example
+ * // In components
+ * import { useRouter } from 'vue-router'
+ * const router = useRouter()
+ * router.push('/dashboard')
+ */
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior() {
-    // always scroll to top
+    // Always scroll to top on route change
     return { top: 0 }
   },
 })

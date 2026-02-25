@@ -1,0 +1,398 @@
+# CoreUI Free Vue Admin Template - AI Assistant Rules
+
+You are working with the CoreUI Free Vue Admin Template, a professional admin dashboard built with Vue 3, CoreUI Vue components, and modern build tools. This project uses Vite for development and building, Vue Router for navigation, Pinia for state management, and Sass for styling.
+
+## Critical Rules
+
+**Component Library**: ALWAYS use CoreUI Vue components from https://coreui.io/vue/docs/. NEVER use Tailwind CSS, Element Plus, Vuetify, or other component libraries. This project is built on Bootstrap 5 and CoreUI Vue components exclusively.
+
+**Technology Stack**: This project uses:
+- Vue 3.5.x with Composition API and `<script setup>` syntax
+- Single File Components (.vue files)
+- CoreUI Vue 5.x and @coreui/coreui 5.x
+- Vue Router 4.x for client-side routing
+- Pinia 3.x for state management
+- Vite 7.x for development server and building
+- Sass/SCSS for styling with Bootstrap 5 variables
+- Chart.js 4.x with @coreui/vue-chartjs for data visualization
+
+## Code Conventions
+
+**Vue/JavaScript Standards**:
+- Use `<script setup>` syntax in Single File Components (recommended)
+- Follow Composition API patterns with composables
+- Use reactive refs and computed properties from Vue 3
+- Prettier formatting: no semicolons, single quotes, 2-space indentation
+- Enforce ESLint rules with Vue and Prettier plugins
+- Use template refs for DOM access
+- Prefer composition functions over mixins
+
+**File Organization**:
+- `src/` - All source code
+  - `components/` - Reusable Vue components (AppHeader.vue, AppSidebar.vue, etc.)
+  - `views/` - Page components organized by feature (dashboard, forms, charts, etc.)
+  - `layouts/` - Layout wrapper components (DefaultLayout.vue)
+  - `router/` - Vue Router configuration (index.js)
+  - `stores/` - Pinia store modules (sidebar.js, theme.js)
+  - `assets/` - Static assets (images, brand logos, icons)
+  - `styles/` - Global styles and theme customization
+  - `_nav.js` - Navigation/sidebar menu configuration
+  - `App.vue` - Root application component
+  - `main.js` - Application entry point
+
+**Vue Component Practices**:
+- Use `<script setup>` for cleaner, more concise components
+- Define props with `defineProps()` and emits with `defineEmits()`
+- Use `ref()` for reactive primitive values
+- Use `reactive()` for reactive objects
+- Use `computed()` for derived state
+- Use `watch()` or `watchEffect()` for side effects
+- Keep components focused and single-responsibility
+- Extract reusable logic into composables (useXxx pattern)
+
+**Template Best Practices**:
+- Use `v-bind` shorthand (`:prop="value"`)
+- Use `v-on` shorthand (`@event="handler"`)
+- Use `v-if` for conditional rendering (not `v-show` unless needed)
+- Use `v-for` with `:key` for lists
+- Keep templates clean and readable
+- Extract complex logic into computed properties or methods
+
+**CSS/Sass Practices**:
+- Import global styles in App.vue: `@use 'styles/style';`
+- Use Bootstrap utilities first before custom CSS
+- Leverage CoreUI CSS custom properties for theming
+- Support dark mode through CoreUI's color mode system
+- File: `src/styles/style.scss` - main stylesheet importing CoreUI and Bootstrap
+- File: `src/styles/_custom.scss` - custom style overrides
+- Use scoped styles in components: `<style scoped>`
+- Use SCSS variables from Bootstrap and CoreUI when possible
+
+**Routing Conventions**:
+- Use createWebHashHistory for client-side routing (GitHub Pages compatible)
+- Define routes hierarchically with nested children
+- Lazy load route components with dynamic imports
+- Use route-level code splitting for better performance
+- Nested routes for grouped pages (base, forms, etc.)
+- DefaultLayout wraps all authenticated routes
+
+**State Management (Pinia)**:
+- Create separate stores for different domains (theme, sidebar)
+- Use composition-style stores with `defineStore`
+- Access stores with `useSidebarStore()`, `useThemeStore()`
+- Keep stores focused and modular
+- Use computed properties from stores for derived state
+
+**Naming Conventions**:
+- PascalCase for component files and component names (AppHeader.vue, DefaultLayout.vue)
+- camelCase for variables, functions, and composables (useTheme, isVisible)
+- UPPER_SNAKE_CASE for constants (API_URL, MAX_ITEMS)
+- kebab-case for CSS classes (following Bootstrap/CoreUI conventions)
+- Descriptive names that indicate purpose (AppHeaderDropdown vs Dropdown)
+
+## Project Structure
+
+```
+coreui-free-vue-admin-template/
+├── public/              # Static assets served directly
+├── src/
+│   ├── assets/         # Images, logos, icons
+│   │   ├── brand/     # Logo components (JS files)
+│   │   ├── icons/     # Icon sets
+│   │   └── images/    # Image files
+│   ├── components/     # Reusable Vue components
+│   │   ├── AppHeader.vue
+│   │   ├── AppSidebar.vue
+│   │   ├── AppFooter.vue
+│   │   ├── AppBreadcrumb.vue
+│   │   └── AppHeaderDropdownAccnt.vue
+│   ├── layouts/        # Layout components
+│   │   └── DefaultLayout.vue
+│   ├── router/         # Vue Router configuration
+│   │   └── index.js
+│   ├── stores/         # Pinia stores
+│   │   ├── sidebar.js
+│   │   └── theme.js
+│   ├── views/          # Page components
+│   │   ├── dashboard/  # Dashboard page
+│   │   ├── base/      # Base UI components examples
+│   │   ├── buttons/   # Button examples
+│   │   ├── forms/     # Form examples
+│   │   ├── charts/    # Chart examples
+│   │   ├── icons/     # Icon examples
+│   │   ├── notifications/ # Notification examples
+│   │   ├── widgets/   # Widget examples
+│   │   └── pages/     # Auth & error pages
+│   ├── styles/         # Stylesheets
+│   │   ├── style.scss # Main stylesheet
+│   │   └── _custom.scss # Custom overrides
+│   ├── App.vue         # Root component
+│   ├── main.js         # Entry point
+│   └── _nav.js         # Navigation config
+├── index.html          # HTML template
+├── vite.config.mjs     # Vite configuration
+├── eslint.config.mjs   # ESLint configuration
+├── package.json        # Dependencies
+└── README.md           # Documentation
+```
+
+## Development Workflow
+
+**Starting Development**:
+```bash
+npm install          # Install dependencies
+npm run dev          # Start dev server (http://localhost:3000)
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm run lint         # Run ESLint
+```
+
+**Adding a New Page**:
+1. Create component in `src/views/[feature]/ComponentName.vue`
+2. Add route to `src/router/index.js`
+3. Add navigation item to `src/_nav.js` (if needed)
+4. Import and use CoreUI components from '@coreui/vue'
+
+**Creating Components with `<script setup>`**:
+```vue
+<script setup>
+import { ref, computed } from 'vue'
+import { CCard, CCardBody, CCardHeader } from '@coreui/vue'
+
+// Props
+const props = defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+  items: {
+    type: Array,
+    default: () => [],
+  },
+})
+
+// Emits
+const emit = defineEmits(['update', 'delete'])
+
+// State
+const isLoading = ref(false)
+const selectedItem = ref(null)
+
+// Computed
+const itemCount = computed(() => props.items.length)
+
+// Methods
+const handleUpdate = () => {
+  emit('update', selectedItem.value)
+}
+</script>
+
+<template>
+  <CCard>
+    <CCardHeader>{{ title }}</CCardHeader>
+    <CCardBody>
+      <p>Items: {{ itemCount }}</p>
+      <!-- Template content -->
+    </CCardBody>
+  </CCard>
+</template>
+
+<style scoped lang="scss">
+// Component-specific styles
+</style>
+```
+
+**Using Pinia Stores**:
+```vue
+<script setup>
+import { useSidebarStore } from '@/stores/sidebar'
+import { useThemeStore } from '@/stores/theme'
+
+const sidebarStore = useSidebarStore()
+const themeStore = useThemeStore()
+
+// Access state
+console.log(sidebarStore.visible)
+
+// Update state
+sidebarStore.toggleSidebar()
+themeStore.setTheme('dark')
+</script>
+```
+
+**Composables Pattern**:
+```javascript
+// composables/useFetch.js
+import { ref } from 'vue'
+
+export function useFetch(url) {
+  const data = ref(null)
+  const error = ref(null)
+  const loading = ref(false)
+
+  const fetchData = async () => {
+    loading.value = true
+    try {
+      const response = await fetch(url)
+      data.value = await response.json()
+    } catch (e) {
+      error.value = e
+    } finally {
+      loading.value = false
+    }
+  }
+
+  return { data, error, loading, fetchData }
+}
+```
+
+## Code Quality
+
+**Linting**:
+- ESLint configuration in `eslint.config.mjs`
+- Prettier integration for code formatting
+- Vue-specific rules with eslint-plugin-vue
+- Run `npm run lint` before committing
+
+**Best Practices**:
+- Use `<script setup>` for cleaner syntax
+- Keep components small and focused
+- Extract complex logic into composables
+- Use TypeScript JSDoc comments for better IDE support
+- Test in both light and dark themes
+- Ensure responsive design works on all screen sizes
+- Use Vue DevTools for debugging
+
+**Git Commits**:
+Follow conventional commit format:
+- feat: New feature
+- fix: Bug fix
+- docs: Documentation changes
+- style: Code style changes (formatting)
+- refactor: Code refactoring
+- test: Adding tests
+- chore: Maintenance tasks
+
+## Common Patterns
+
+**Lazy Loading Routes**:
+```javascript
+const Dashboard = () => import('@/views/dashboard/Dashboard.vue')
+```
+
+**Theme Management**:
+```vue
+<script setup>
+import { useColorModes } from '@coreui/vue'
+
+const { colorMode, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
+
+// Change theme
+setColorMode('dark') // 'light', 'dark', or 'auto'
+</script>
+```
+
+**Navigation Configuration** (`_nav.js`):
+```javascript
+export default [
+  {
+    component: 'CNavItem',
+    name: 'Dashboard',
+    to: '/dashboard',
+    icon: 'cil-speedometer',
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    },
+  },
+  {
+    component: 'CNavGroup',
+    name: 'Base',
+    to: '/base',
+    icon: 'cil-puzzle',
+    items: [
+      {
+        component: 'CNavItem',
+        name: 'Cards',
+        to: '/base/cards',
+      },
+    ],
+  },
+]
+```
+
+**Pinia Store Definition**:
+```javascript
+import { ref, computed } from 'vue'
+import { defineStore } from 'pinia'
+
+export const useSidebarStore = defineStore('sidebar', () => {
+  const visible = ref(true)
+  const unfoldable = ref(false)
+
+  const toggleSidebar = () => {
+    visible.value = !visible.value
+  }
+
+  return { visible, unfoldable, toggleSidebar }
+})
+```
+
+## AI Assistant Guidelines
+
+**What AI Should Do**:
+- Generate code using CoreUI Vue components
+- Follow `<script setup>` syntax patterns
+- Use Composition API with ref, reactive, computed
+- Implement responsive designs
+- Follow the project's file organization
+- Use existing composables and stores
+- Suggest performance optimizations when appropriate
+- Add JSDoc comments for complex logic
+
+**What AI Should NOT Do**:
+- Use Options API (use Composition API with `<script setup>` instead)
+- Import components from libraries other than CoreUI/Vue
+- Suggest Tailwind CSS or other CSS frameworks
+- Ignore ESLint/Prettier rules
+- Create files outside the src/ directory structure
+- Modify build configuration without clear reason
+- Use deprecated Vue 2 patterns
+- Use mixins (use composables instead)
+
+## External Dependencies
+
+**Core Libraries**:
+- @coreui/coreui: ^5.5.0 - CoreUI CSS framework
+- @coreui/vue: ^5.7.0 - CoreUI Vue components
+- @coreui/icons-vue: 2.2.0 - CoreUI icons for Vue
+- vue: ^3.5.26 - Vue.js framework
+- vue-router: ^4.6.4 - Vue Router for routing
+- pinia: ^3.0.4 - State management
+
+**Additional Libraries**:
+- chart.js: ^4.5.1 - Charting library
+- @coreui/vue-chartjs: ^3.0.0 - CoreUI Chart.js wrapper for Vue
+- simplebar-vue: ^2.4.2 - Custom scrollbars
+- @coreui/utils: ^2.0.2 - Utility functions
+
+## Browser Support
+
+Modern browsers with ES6+ support:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Resources
+
+- CoreUI Vue Documentation: https://coreui.io/vue/docs/
+- CoreUI Components: https://coreui.io/vue/docs/components/
+- Vue 3 Documentation: https://vuejs.org/
+- Vue Router: https://router.vuejs.org/
+- Pinia: https://pinia.vuejs.org/
+- Vite: https://vitejs.dev/
+
+---
+
+Remember: This is a Vue 3 application using CoreUI Vue components with Composition API and `<script setup>` syntax. Always check CoreUI Vue documentation for component APIs and usage examples. Keep the code clean, maintainable, and following Vue 3 best practices.

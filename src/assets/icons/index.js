@@ -1,3 +1,29 @@
+/**
+ * Icon Set Configuration
+ *
+ * Centralized export of all CoreUI icons used in the application.
+ * Combines three icon types from @coreui/icons:
+ * - cil: CoreUI line icons (UI elements, actions, objects)
+ * - cif: CoreUI flag icons (country flags)
+ * - cib: CoreUI brand icons (company/service logos)
+ *
+ * Icons are provided globally via app.provide('icons', icons) in main.js
+ * and can be used with the CIcon component.
+ *
+ * @module assets/icons
+ *
+ * @example
+ * // In Vue templates
+ * <CIcon icon="cil-user" />
+ * <CIcon icon="cib-facebook" />
+ * <CIcon icon="cif-us" />
+ *
+ * @example
+ * // Using inject in components
+ * import { inject } from 'vue'
+ * const icons = inject('icons')
+ */
+
 import {
   cibFacebook,
   cibTwitter,
@@ -82,6 +108,17 @@ import {
   cilXCircle,
 } from '@coreui/icons'
 
+/**
+ * Combined icon set object
+ *
+ * Merges all icon categories into a single object for global access.
+ * This set is provided to all components via Vue's provide/inject API.
+ *
+ * @type {Object}
+ * @property {Array} cil* - CoreUI line icons (UI and interface icons)
+ * @property {Array} cif* - CoreUI flag icons (country flags)
+ * @property {Array} cib* - CoreUI brand icons (company/service logos)
+ */
 export const iconsSet = Object.assign(
   {},
   {

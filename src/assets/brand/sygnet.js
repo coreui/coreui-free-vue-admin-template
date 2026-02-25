@@ -1,3 +1,21 @@
+/**
+ * CoreUI Sygnet (Icon Mark) SVG
+ *
+ * Compact icon version of the CoreUI logo (the "C" symbol).
+ * Used in condensed sidebar and mobile views.
+ *
+ * Format: [viewBox, svgContent]
+ * - viewBox: '102 115' (width height)
+ * - svgContent: SVG path elements as string
+ *
+ * @module assets/brand/sygnet
+ * @type {Array<string>}
+ *
+ * @example
+ * // Usage in sygnet component
+ * import { sygnet } from '@/assets/brand/sygnet'
+ * const [viewBox, content] = sygnet
+ */
 export const sygnet = [
   '102 115',
   `<g style="fill: currentColor">

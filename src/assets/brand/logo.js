@@ -1,3 +1,21 @@
+/**
+ * CoreUI Logo SVG
+ *
+ * Vector graphic logo for CoreUI branding.
+ * Exported as an array with viewBox dimensions and SVG path data.
+ *
+ * Format: [viewBox, svgContent]
+ * - viewBox: '532 116' (width height)
+ * - svgContent: SVG path elements as string
+ *
+ * @module assets/brand/logo
+ * @type {Array<string>}
+ *
+ * @example
+ * // Usage in logo component
+ * import { logo } from '@/assets/brand/logo'
+ * const [viewBox, content] = logo
+ */
 export const logo = [
   '532 116',
   `<g>

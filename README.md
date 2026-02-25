@@ -1,4 +1,4 @@
-# CoreUI Free Vue Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%Vue%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+# CoreUI Free Vue Admin Template - Built for AI-Assisted Development [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%Vue%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
@@ -29,6 +29,7 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 * [Installation](#installation)
 * [Basic usage](#basic-usage)
 * [What's included](#whats-included)
+* [AI-Friendly Development](#ai-friendly-development)
 * [Documentation](#documentation)
 * [Components](#components)
 * [Versioning](#versioning)
@@ -134,6 +135,32 @@ coreui-free-vue-admin-template
 ├── package.json
 └── vite.config.mjs
 ```
+
+## AI-Friendly Development
+
+This template is optimized for AI-assisted development with comprehensive context files and documentation:
+
+### Context Files
+- **`.cursorrules`** - Comprehensive AI context file with project conventions, patterns, and guidelines for working with Vue 3, Composition API, CoreUI Vue, and the template architecture
+- **`ARCHITECTURE.md`** - Detailed technical documentation covering the project structure, component hierarchy, routing system, Pinia state management, and build pipeline
+- **`DEVELOPMENT.md`** - Practical developer guide with setup instructions, development workflows, code examples, and best practices for Vue 3 development
+
+### Code Documentation
+- All Vue components and JavaScript files include detailed JSDoc comments with parameter types and descriptions
+- Inline documentation explaining complex logic and patterns
+- Clear examples using `<script setup>` syntax and Composition API
+
+### Benefits for AI Coding Assistants
+
+When using AI coding assistants like Cursor, Claude Code, or GitHub Copilot, these context files help the AI to:
+
+- **Understand the Stack**: Recognize that this is a Vue 3 application using CoreUI Vue components with Composition API and `<script setup>` syntax (not Vue 2, Options API, or other frameworks)
+- **Follow Patterns**: Generate code that matches the project's component structure, using `<script setup>`, Composition API, and Pinia stores
+- **Use Correct Components**: Suggest appropriate CoreUI Vue components from `@coreui/vue`
+- **Maintain Code Style**: Follow ESLint and Prettier rules automatically
+- **Respect Architecture**: Work within the established routing, state management (Pinia), and styling patterns
+
+Simply open the project in your AI-enabled IDE, and the assistant will automatically have context about the Vue 3 architecture, CoreUI Vue component usage, Composition API patterns, and coding standards.
 
 ## Documentation
 
