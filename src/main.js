@@ -1,19 +1,18 @@
 /**
- * Application Entry Point
+ * main.js - Application Entry Point
  *
- * Initializes the Vue 3 application with all necessary plugins, components,
- * and global providers. Sets up Pinia for state management, Vue Router for
- * navigation, and CoreUI Vue components.
- *
- * Configuration:
- * - Vue 3 with Composition API
+ * This file initializes the Vue 3 application and configures:
  * - Pinia for state management
  * - Vue Router for client-side routing
  * - CoreUI Vue component library
- * - Global icon system with CoreUI Icons
+ * - Global icon system
  * - Documentation helper components
  *
- * @module main
+ * The application uses:
+ * - Vue 3 Composition API
+ * - Vite for building and development
+ * - CoreUI Vue components
+ * - Hash-based routing for static hosting compatibility
  */
 
 import { createApp } from 'vue'
@@ -22,53 +21,32 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
+// CoreUI Vue components and icons
 import CoreuiVue from '@coreui/vue'
 import CIcon from '@coreui/icons-vue'
 import { iconsSet as icons } from '@/assets/icons'
+
+// Documentation components (remove in production if not needed)
 import DocsComponents from '@/components/DocsComponents'
 import DocsExample from '@/components/DocsExample'
 import DocsIcons from '@/components/DocsIcons'
 
-/**
- * Create and configure the Vue application instance
- */
+// Create Vue application instance
 const app = createApp(App)
 
-/**
- * Register Pinia for state management
- * Provides reactive stores throughout the application
- */
-app.use(createPinia())
+// Install plugins
+app.use(createPinia()) // State management
+app.use(router) // Router for SPA navigation
+app.use(CoreuiVue) // CoreUI component library
 
-/**
- * Register Vue Router for client-side navigation
- * Enables hash-based routing with lazy-loaded components
- */
-app.use(router)
-
-/**
- * Register CoreUI Vue component library
- * Provides Bootstrap 5-based UI components
- */
-app.use(CoreuiVue)
-
-/**
- * Provide CoreUI icon set globally
- * Makes icons available via inject() in all components
- */
+// Provide icons globally
 app.provide('icons', icons)
 
-/**
- * Register global components
- * These components are available in all templates without importing
- */
+// Register global components
 app.component('CIcon', CIcon)
 app.component('DocsComponents', DocsComponents)
 app.component('DocsExample', DocsExample)
 app.component('DocsIcons', DocsIcons)
 
-/**
- * Mount the application to the DOM
- * Connects Vue app to the #app element in index.html
- */
+// Mount application to DOM
 app.mount('#app')

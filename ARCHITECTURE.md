@@ -14,10 +14,11 @@ This document provides a comprehensive overview of the CoreUI Free Vue Admin Tem
 - [Styling Architecture](#styling-architecture)
 - [Build System](#build-system)
 - [Performance Optimizations](#performance-optimizations)
+- [Browser Support](#browser-support)
 
 ## Project Overview
 
-The CoreUI Free Vue Admin Template is a professional admin dashboard built on Vue 3, CoreUI Vue components, and Bootstrap 5. It follows modern Vue patterns with Composition API, `<script setup>` syntax, and a component-based architecture.
+The CoreUI Free Vue Admin Template is a professional admin dashboard built on Vue 3, CoreUI Vue components, and Bootstrap 5. It follows modern Vue patterns with Composition API, script setup syntax, and a component-based architecture.
 
 **Key Features**:
 - Single Page Application (SPA) with client-side routing
@@ -26,7 +27,6 @@ The CoreUI Free Vue Admin Template is a professional admin dashboard built on Vu
 - Lazy loading and code splitting for optimal performance
 - Pinia-based state management
 - Modular and extensible component architecture
-- Composition API with `<script setup>` syntax
 
 ## Technology Stack
 
@@ -34,66 +34,74 @@ The CoreUI Free Vue Admin Template is a professional admin dashboard built on Vu
 
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| Vue | 3.5.26 | Progressive JavaScript framework for building UIs |
-| Vue Router | 4.6.4 | Official router for Vue.js |
-| Pinia | 3.0.4 | Intuitive state management for Vue |
+| Vue | 3.5.31 | Progressive framework for building user interfaces |
+| Vue Router | 5.0.4 | Official router for Vue.js |
+| Pinia | 3.0.4 | Official state management library for Vue |
 
 ### UI Framework
 
 | Library | Version | Purpose |
 |---------|---------|---------|
-| @coreui/coreui | 5.5.0 | CoreUI CSS framework based on Bootstrap 5 |
-| @coreui/vue | 5.7.0 | CoreUI Vue components |
+| @coreui/coreui | 5.6.1 | CoreUI CSS framework based on Bootstrap 5 |
+| @coreui/vue | 5.8.0 | CoreUI Vue components |
 | @coreui/icons | 3.0.1 | CoreUI icon set |
 | @coreui/icons-vue | 2.2.0 | CoreUI icons as Vue components |
 | @coreui/utils | 2.0.2 | Utility functions for CoreUI |
-| simplebar-vue | 2.4.2 | Custom scrollbar component for Vue |
+| simplebar-vue | 2.4.2 | Custom scrollbar component |
 
 ### Data Visualization
 
 | Library | Version | Purpose |
 |---------|---------|---------|
 | Chart.js | 4.5.1 | HTML5 charting library |
-| @coreui/chartjs | 4.1.0 | CoreUI Chart.js themes and defaults |
+| @coreui/chartjs | 4.2.0 | CoreUI Chart.js themes and defaults |
 | @coreui/vue-chartjs | 3.0.0 | Vue wrapper for Chart.js with CoreUI styling |
 
 ### Build Tools & Development
 
 | Tool | Version | Purpose |
 |------|---------|---------|
-| Vite | 7.3.0 | Fast build tool and dev server with HMR |
-| @vitejs/plugin-vue | 6.0.3 | Official Vue plugin for Vite |
-| Sass | 1.97.0 | CSS preprocessor for styling |
-| PostCSS | 8.5.6 | CSS transformation with autoprefixer |
-| Autoprefixer | 10.4.23 | Automatic vendor prefixing |
-| ESLint | 9.39.2 | JavaScript linting and code quality |
+| Vite | 8.0.3 | Fast build tool and dev server with HMR |
+| @vitejs/plugin-vue | 6.0.5 | Vite plugin for Vue 3 |
+| Sass | 1.98.0 | CSS preprocessor for styling |
+| PostCSS | 8.5.8 | CSS transformation with autoprefixer |
+| Autoprefixer | 10.4.27 | Automatic vendor prefixing |
+| ESLint | 9.39.4 | JavaScript linting and code quality |
+| eslint-plugin-vue | 10.8.0 | Vue-specific ESLint rules |
+
+### Utilities
+
+| Library | Version | Purpose |
+|---------|---------|---------|
+| @popperjs/core | 2.11.8 | Tooltip and popover positioning |
 
 ## Architectural Pattern
 
 ### Component-Based Architecture
 
-The application follows a **Composition API architecture** with `<script setup>`:
+The application follows a **Composition API architecture** with script setup syntax:
 
 ```
-┌─────────────────────────────────────────┐
-│        Application (App.vue)            │
-│  - Router View                          │
-│  - Theme Management                     │
-└─────────────────────────────────────────┘
+┌──────────────────────────────────────────┐
+│         Application (App.vue)            │
+│  - Router View                           │
+│  - Theme Management                      │
+│  - Route Configuration                   │
+└──────────────────────────────────────────┘
                     ↓
-    ┌───────────────┴───────────────┐
-    │                               │
-┌───▼────┐                  ┌───────▼───────┐
-│ Public │                  │   Protected   │
-│ Routes │                  │    Routes     │
-│        │                  │(DefaultLayout)│
-│ Login  │                  └───────┬───────┘
+    ┌───────────────┴────────────────┐
+    │                                │
+┌───▼────┐                  ┌────────▼───────┐
+│ Public │                  │   Protected    │
+│ Routes │                  │     Routes     │
+│        │                  │(DefaultLayout) │
+│ Login  │                  └───────┬────────┘
 │Register│                          │
-│ 404    │              ┌───────────┼───────────┐
-│ 500    │              │           │           │
-└────────┘         ┌────▼────┐ ┌────▼─────┐ ┌───▼────┐
-                   │AppHeader│ │AppSidebar│ │Content │
-                   └─────────┘ └──────────┘ └───┬────┘
+│ 404    │              ┌───────────┼────────────┐
+│ 500    │              │           │            │
+└────────┘         ┌────▼────┐ ┌────▼─────┐ ┌────▼─────┐
+                   │AppHeader│ │AppSidebar│ │AppContent│
+                   └─────────┘ └──────────┘ └────┬─────┘
                                                  │
                                          ┌───────▼─────────┐
                                          │ View Components │
@@ -104,7 +112,7 @@ The application follows a **Composition API architecture** with `<script setup>`
 
 ### Single Page Application (SPA) Pattern
 
-The template uses client-side routing with Vue Router:
+The template uses client-side routing with createWebHashHistory:
 1. **Initial Load**: HTML shell loads, Vue initializes
 2. **Route Matching**: Vue Router matches URL to component
 3. **Lazy Loading**: Component bundles load on-demand
@@ -113,18 +121,16 @@ The template uses client-side routing with Vue Router:
 
 ### State Management Pattern
 
-Pinia manages global application state with composition-style stores:
+Pinia manages global application state:
 
 ```javascript
-Stores
-  ├── sidebar (stores/sidebar.js)
-  │   ├── visible (boolean)
-  │   └── unfoldable (boolean)
-  └── theme (stores/theme.js)
-      └── theme (string: 'light'/'dark'/'auto')
+Store (stores/)
+  ├── sidebarVisible (boolean)
+  ├── sidebarUnfoldable (boolean)
+  └── theme (string: light/dark/auto)
 ```
 
-Component-level state uses Composition API (ref, reactive, computed).
+Component-level state uses Vue's Composition API (ref, reactive).
 
 ## Directory Structure
 
@@ -139,65 +145,76 @@ coreui-free-vue-admin-template/
 │   │
 │   ├── assets/                  # Application assets
 │   │   ├── brand/              # Logo components (logo.js, sygnet.js)
-│   │   ├── icons/              # Icon set exports
 │   │   └── images/             # Image files (avatars, etc.)
 │   │
-│   ├── components/              # Reusable Vue components
+│   ├── components/              # Reusable UI components
 │   │   ├── AppBreadcrumb.vue   # Breadcrumb navigation
+│   │   ├── AppContent.vue      # Main content area wrapper
 │   │   ├── AppFooter.vue       # Footer component
 │   │   ├── AppHeader.vue       # Header component
-│   │   ├── AppHeaderDropdownAccnt.vue  # User dropdown menu
+│   │   ├── AppHeaderDropdown.vue # User dropdown menu
 │   │   ├── AppSidebar.vue      # Sidebar navigation
-│   │   ├── AppSidebarNav.js    # Sidebar navigation renderer
 │   │   ├── DocsComponents.vue  # Documentation component showcase
-│   │   ├── DocsExample.vue     # Code example wrapper
-│   │   └── DocsIcons.vue       # Icon showcase
+│   │   └── DocsExample.vue     # Code example wrapper
 │   │
 │   ├── layouts/                 # Layout wrapper components
 │   │   └── DefaultLayout.vue   # Main application layout
 │   │
-│   ├── router/                  # Vue Router configuration
-│   │   └── index.js            # Route definitions and router setup
-│   │
-│   ├── stores/                  # Pinia stores
-│   │   ├── sidebar.js          # Sidebar state management
-│   │   └── theme.js            # Theme state management
-│   │
 │   ├── views/                   # Page/view components
 │   │   ├── dashboard/          # Dashboard page
-│   │   │   └── Dashboard.vue
+│   │   │   ├── Dashboard.vue
+│   │   │   └── MainChart.vue
 │   │   ├── base/               # Base UI component examples
 │   │   │   ├── Accordion.vue
+│   │   │   ├── Breadcrumbs.vue
 │   │   │   ├── Cards.vue
-│   │   │   └── ...
+│   │   │   ├── Carousels.vue
+│   │   │   ├── Chips.vue
+│   │   │   ├── Collapses.vue
+│   │   │   ├── ListGroups.vue
+│   │   │   ├── Navs.vue
+│   │   │   ├── Paginations.vue
+│   │   │   ├── Placeholders.vue
+│   │   │   ├── Popovers.vue
+│   │   │   ├── Progress.vue
+│   │   │   ├── Spinners.vue
+│   │   │   ├── Tables.vue
+│   │   │   ├── Tabs.vue
+│   │   │   └── Tooltips.vue
 │   │   ├── buttons/            # Button examples
 │   │   ├── charts/             # Chart examples
 │   │   ├── forms/              # Form examples
+│   │   │   └── ChipInput.vue
 │   │   ├── icons/              # Icon examples
 │   │   ├── notifications/      # Notification examples
 │   │   ├── widgets/            # Widget examples
+│   │   ├── theme/              # Theme examples
 │   │   └── pages/              # Special pages
-│   │       ├── Login.vue
-│   │       ├── Register.vue
-│   │       ├── Page404.vue
-│   │       └── Page500.vue
+│   │       ├── Login.vue       # Login page
+│   │       ├── Register.vue    # Registration page
+│   │       ├── Page404.vue     # 404 error page
+│   │       └── Page500.vue     # 500 error page
 │   │
-│   ├── styles/                  # Global stylesheets
+│   ├── router/                  # Router configuration
+│   │   └── index.js            # Route definitions
+│   │
+│   ├── stores/                  # Pinia stores (if created)
+│   │
+│   ├── scss/                    # Global stylesheets
 │   │   ├── style.scss          # Main stylesheet (imports CoreUI)
-│   │   ├── _custom.scss        # Custom style overrides
-│   │   ├── examples.scss       # Documentation example styles
-│   │   └── vendors/            # Third-party style overrides
+│   │   └── _custom.scss        # Custom style overrides
 │   │
 │   ├── App.vue                  # Root application component
 │   ├── main.js                  # Application entry point
 │   └── _nav.js                  # Sidebar navigation configuration
 │
+├── node_modules/                # Dependencies
 ├── index.html                   # HTML entry point
 ├── vite.config.mjs              # Vite build configuration
 ├── eslint.config.mjs            # ESLint configuration
 ├── package.json                 # Project metadata and dependencies
-├── .prettierrc.js               # Prettier configuration
 ├── .browserslistrc              # Browser compatibility targets
+├── .editorconfig                # Editor configuration
 └── README.md                    # Project documentation
 ```
 
@@ -206,15 +223,14 @@ coreui-free-vue-admin-template/
 ### Application Component (App.vue)
 
 The root component that:
-- Renders `<router-view>` for route-based rendering
-- Manages theme initialization and persistence
-- Uses `<script setup>` with Composition API
-- Imports global styles
+- Sets up router-view for component rendering
+- Manages theme initialization
+- Provides the application shell
 
 **Key Features**:
-- Theme detection from URL parameters
-- Pinia integration for theme state
-- CoreUI useColorModes hook
+- Theme detection and persistence
+- Suspense boundaries for lazy-loaded routes
+- Global error handling boundaries
 
 ### Layout System
 
@@ -223,7 +239,7 @@ The root component that:
 The main application layout wrapper that composes:
 - **AppSidebar**: Collapsible navigation sidebar
 - **AppHeader**: Top navigation bar with breadcrumbs and user menu
-- **router-view**: Main content area with routing
+- **AppContent**: Main content area with routing
 - **AppFooter**: Footer with version and links
 
 **Responsibility**: Provides consistent layout structure for authenticated views.
@@ -231,74 +247,107 @@ The main application layout wrapper that composes:
 #### Navigation Components
 
 **AppSidebar** (`components/AppSidebar.vue`):
-- Renders collapsible sidebar using CoreUI CSidebar
-- Integrates with Pinia for show/hide state
-- Uses AppSidebarNav for menu rendering
-- Includes branding section with logo
-
-**AppSidebarNav** (`components/AppSidebarNav.js`):
-- Functional component rendering navigation from _nav.js
-- Supports nested menu items recursively
-- Renders CoreUI nav components dynamically
-- Handles active state based on current route
+- Renders collapsible sidebar
+- Uses Pinia for show/hide state
+- Integrates with _nav.js for menu structure
+- Includes branding section
 
 **AppHeader** (`components/AppHeader.vue`):
-- Fixed top navigation bar using CoreUI CHeader
+- Fixed top navigation bar
 - Sidebar toggle button
-- Breadcrumb navigation (AppBreadcrumb)
-- User dropdown menu (AppHeaderDropdownAccnt)
-- Theme switcher dropdown
+- Breadcrumb navigation
+- User dropdown menu
+- Theme switcher
 
 ### View Components
 
-View components are page-level Vue components that:
+View components are page-level components that:
 - Render specific application features (Dashboard, Forms, Charts)
 - Use CoreUI Vue components for UI
-- Connect to Pinia stores when needed for global state
+- Connect to Pinia when needed for global state
 - Implement business logic and data fetching
-- Use `<script setup>` syntax
+
+**Example Structure**:
+```vue
+<template>
+  <CCard>
+    <CCardBody>
+      {{ data }}
+    </CCardBody>
+  </CCard>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+
+const data = ref([])
+
+onMounted(() => {
+  // Fetch dashboard data
+})
+</script>
+```
 
 ## Routing System
 
-### Vue Router 4
+### Vue Router v5
 
-The application uses Vue Router 4 with createWebHashHistory:
+The application uses Vue Router for declarative routing:
 
 **Configuration** (`router/index.js`):
 ```javascript
-const router = createRouter({
-  history: createWebHashHistory(),
-  routes: [
-    {
-      path: '/',
-      component: DefaultLayout,
-      redirect: '/dashboard',
-      children: [
-        {
-          path: '/dashboard',
-          name: 'Dashboard',
-          component: () => import('@/views/dashboard/Dashboard.vue'),
-        },
-        // ... more routes
-      ],
+import { createRouter, createWebHashHistory } from 'vue-router'
+
+const routes = [
+  {
+    path: '/',
+    name: 'Home',
+    component: DefaultLayout,
+    redirect: '/dashboard',
+    children: [
+      {
+        path: '/dashboard',
+        name: 'Dashboard',
+        component: () => import('@/views/dashboard/Dashboard.vue'),
+      },
+    ],
+  },
+  {
+    path: '/pages',
+    redirect: '/pages/404',
+    name: 'Pages',
+    component: {
+      render() {
+        return h(resolveComponent('router-view'))
+      },
     },
-  ],
+    children: [
+      {
+        path: '404',
+        name: 'Page404',
+        component: () => import('@/views/pages/Page404'),
+      },
+    ],
+  },
+]
+
+const router = createRouter({
+  history: createWebHashHistory(import.meta.env.BASE_URL),
+  routes,
+  scrollBehavior() {
+    return { top: 0 }
+  },
 })
+
+export default router
 ```
-
-### Nested Routes
-
-Routes are organized hierarchically:
-- Root route (`/`) uses DefaultLayout
-- Child routes render in `<router-view>` within layout
-- Nested groups (base, forms) use intermediate router-view
 
 ### Lazy Loading & Code Splitting
 
-All routes use dynamic imports:
+All routes use dynamic imports for lazy loading:
 
 ```javascript
-component: () => import('@/views/dashboard/Dashboard.vue')
+component: () => import('./views/dashboard/Dashboard.vue')
 ```
 
 **Benefits**:
@@ -318,17 +367,20 @@ export default [
     name: 'Dashboard',
     to: '/dashboard',
     icon: 'cil-speedometer',
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    },
   },
   {
     component: 'CNavGroup',
     name: 'Base',
-    to: '/base',
     icon: 'cil-puzzle',
     items: [
       {
         component: 'CNavItem',
-        name: 'Cards',
-        to: '/base/cards',
+        name: 'Accordion',
+        to: '/base/accordion',
       },
     ],
   },
@@ -339,58 +391,64 @@ export default [
 
 ### Pinia Store Architecture
 
-**Sidebar Store** (`stores/sidebar.js`):
+Pinia uses the Composition API pattern:
+
+**Store Example** (`stores/main.js`):
 
 ```javascript
-import { ref } from 'vue'
 import { defineStore } from 'pinia'
-
-export const useSidebarStore = defineStore('sidebar', () => {
-  const visible = ref(true)
-  const unfoldable = ref(false)
-
-  const toggleSidebar = () => {
-    visible.value = !visible.value
-  }
-
-  const toggleUnfoldable = () => {
-    unfoldable.value = !unfoldable.value
-  }
-
-  return { visible, unfoldable, toggleSidebar, toggleUnfoldable }
-})
-```
-
-**Theme Store** (`stores/theme.js`):
-
-```javascript
 import { ref } from 'vue'
-import { defineStore } from 'pinia'
 
-export const useThemeStore = defineStore('theme', () => {
+export const useStore = defineStore('main', () => {
+  const sidebarVisible = ref(true)
+  const sidebarUnfoldable = ref(false)
   const theme = ref('light')
 
-  const setTheme = (newTheme) => {
-    theme.value = newTheme
+  function toggleSidebar() {
+    sidebarVisible.value = !sidebarVisible.value
   }
 
-  return { theme, setTheme }
+  function setSidebarUnfoldable(value) {
+    sidebarUnfoldable.value = value
+  }
+
+  function setTheme(value) {
+    theme.value = value
+  }
+
+  return {
+    sidebarVisible,
+    sidebarUnfoldable,
+    theme,
+    toggleSidebar,
+    setSidebarUnfoldable,
+    setTheme,
+  }
 })
 ```
 
-### Store Usage in Components
+### State Usage in Components
 
+**Reading State**:
 ```vue
 <script setup>
-import { useSidebarStore } from '@/stores/sidebar'
+import { useStore } from '@/stores/main'
 
-const sidebarStore = useSidebarStore()
+const store = useStore()
+// Access: store.sidebarVisible
+</script>
+```
 
-// Read state
-console.log(sidebarStore.visible)
+**Updating State**:
+```vue
+<script setup>
+import { useStore } from '@/stores/main'
 
-// Update state
-sidebarStore.toggleSidebar()
+const store = useStore()
+
+const toggleSidebar = () => {
+  store.toggleSidebar()
+}
 </script>
 ```
 
@@ -398,19 +456,21 @@ sidebarStore.toggleSidebar()
 
 ### Sass/SCSS Structure
 
-**Main Stylesheet** (`src/styles/style.scss`):
+**Main Stylesheet** (`src/scss/style.scss`):
 ```scss
-// Import CoreUI and Bootstrap
-@import '@coreui/coreui/scss/coreui';
+@use "@coreui/coreui/scss/coreui" as * with (
+  $enable-deprecation-messages: false
+);
 
 // Custom variables and overrides
 @import 'custom';
 ```
 
-**Custom Overrides** (`src/styles/_custom.scss`):
+**Custom Overrides** (`src/scss/_custom.scss`):
 ```scss
 // Override CoreUI/Bootstrap variables
 $primary: #321fdb;
+$secondary: #ced2d8;
 
 // Custom styles
 .my-custom-class {
@@ -418,34 +478,60 @@ $primary: #321fdb;
 }
 ```
 
-### Component Scoped Styles
+### CSS Custom Properties (CSS Variables)
 
-```vue
-<style scoped lang="scss">
-.my-component {
-  padding: 1rem;
-  background-color: var(--cui-light);
-
-  &__title {
-    color: var(--cui-primary);
-  }
-}
-</style>
-```
-
-### CSS Custom Properties
-
-CoreUI uses CSS variables for theming:
+CoreUI uses CSS custom properties for theming:
 
 ```css
 :root {
   --cui-primary: #321fdb;
+  --cui-secondary: #ced2d8;
   --cui-body-bg: #ebedef;
+  --cui-body-color: #4f5d73;
 }
 
 [data-coreui-theme="dark"] {
   --cui-body-bg: #2b3035;
+  --cui-body-color: #b4bac0;
 }
+```
+
+**Usage in Components**:
+```vue
+<template>
+  <div :style="{ backgroundColor: 'var(--cui-primary)' }">Content</div>
+</template>
+```
+
+### Component Styling
+
+**Scoped Styles**:
+```vue
+<style scoped>
+.my-component {
+  padding: 1rem;
+  background-color: var(--cui-light);
+}
+</style>
+```
+
+**Class Bindings**:
+```vue
+<template>
+  <button :class="['btn', { 'btn-primary': isPrimary, 'active': isActive }]">
+    Click
+  </button>
+</template>
+```
+
+**Bootstrap Utilities**:
+```vue
+<template>
+  <CCard class="mb-4 shadow-sm">
+    <CCardBody class="p-4 d-flex justify-content-between">
+    </CCardBody>
+  </CCard>
+</template>
 ```
 
 ## Build System
@@ -455,35 +541,68 @@ CoreUI uses CSS variables for theming:
 **File**: `vite.config.mjs`
 
 ```javascript
+import { fileURLToPath, URL } from 'node:url'
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import autoprefixer from 'autoprefixer'
+
 export default defineConfig({
   plugins: [vue()],
-  base: './',
   resolve: {
     alias: {
-      '@/': `${path.resolve(__dirname, 'src')}/`,
-      '@': path.resolve(__dirname, '/src'),
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
+    extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx', '.vue'],
   },
   server: {
     port: 3000,
+  },
+  css: {
+    postcss: {
+      plugins: [autoprefixer()],
+    },
   },
 })
 ```
 
 ### Build Process
 
-**Development**:
+**Development Build**:
 1. Vite starts dev server on port 3000
-2. Vue components compile with SFC support
+2. esbuild compiles Vue SFC components
 3. PostCSS processes Sass/SCSS with autoprefixer
 4. Hot Module Replacement (HMR) for instant updates
 
-**Production**:
+**Production Build**:
 1. `vite build` command
 2. Code minification and tree-shaking
-3. Asset optimization
+3. Asset optimization (images, fonts)
 4. CSS extraction and minification
-5. Output to `dist/` directory
+5. Source maps generation
+6. Output to `dist/` directory
+
+**Build Output**:
+```
+dist/
+├── assets/
+│   ├── index-[hash].js      # Main bundle
+│   ├── [component]-[hash].js # Lazy-loaded chunks
+│   └── index-[hash].css     # Extracted CSS
+├── index.html               # HTML entry
+└── favicon.ico              # Static assets
+```
+
+### Code Splitting Strategy
+
+**Automatic Splitting**:
+- Each lazy-loaded route becomes a separate chunk
+- Vendor libraries (Vue, CoreUI) in separate vendor chunk
+- Dynamic imports create split points
+
+**Manual Splitting** (if needed):
+```javascript
+const HeavyComponent = () => import(/* webpackChunkName: "heavy" */ './HeavyComponent.vue')
+```
 
 ## Performance Optimizations
 
@@ -494,13 +613,103 @@ export default defineConfig({
 3. **Tree Shaking**: Unused code eliminated by Vite
 4. **Asset Optimization**: Images and fonts optimized
 5. **CSS Extraction**: Separate CSS bundle for caching
+6. **Hash-based Caching**: File names include content hash
 
-### Vue 3 Performance
+### Component Optimization
 
-- Reactivity with Proxy (faster than Vue 2)
-- Composition API reduces overhead
-- Fragment support (no wrapper divs needed)
-- Teleport for better DOM management
+**v-memo** for expensive renders:
+```vue
+<template>
+  <div v-memo="[valueA, valueB]">
+    <!-- Heavy rendering -->
+  </div>
+</template>
+```
+
+**computed** for derived values:
+```vue
+<script setup>
+import { computed } from 'vue'
+
+const sortedData = computed(() => {
+  return data.value.sort((a, b) => a.value - b.value)
+})
+</script>
+```
+
+### Bundle Size Management
+
+**Strategies**:
+- Use named imports: `import { CButton } from '@coreui/vue'`
+- Avoid importing entire libraries
+- Check bundle size with `npm run build`
+- Use Vite's rollup visualizer for analysis
+
+## Browser Support
+
+### Target Browsers
+
+Defined in `.browserslistrc`:
+```
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+not IE 11
+```
+
+### Polyfills
+
+Modern browsers support Vue 3 natively. No additional polyfills needed for ES6+ features.
+
+### Progressive Enhancement
+
+- Modern features with fallbacks
+- CSS Grid with flexbox fallback
+- Modern color modes with theme classes
+
+## Security Considerations
+
+### Best Practices
+
+1. **Content Security Policy**: Configure CSP headers
+2. **XSS Prevention**: Vue escapes content by default
+3. **Dependency Auditing**: Run `npm audit` regularly
+4. **Environment Variables**: Use `.env` files (not committed)
+5. **HTTPS**: Serve over HTTPS in production
+
+### Vue Security
+
+- Avoid `v-html` unless necessary and sanitize content
+- Validate user input before rendering
+- Use prop validation for type safety
+- Keep dependencies updated
+
+## Deployment
+
+### Static Hosting
+
+The application builds to static files suitable for:
+- Netlify
+- Vercel
+- GitHub Pages
+- AWS S3 + CloudFront
+- Any static file server
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Output in `dist/` directory ready for deployment.
+
+### HashRouter for Static Hosts
+
+Uses createWebHashHistory for GitHub Pages compatibility:
+- URLs: `https://example.com/#/dashboard`
+- No server-side routing configuration needed
+- Works with any static host
 
 ---
 

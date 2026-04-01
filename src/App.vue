@@ -24,15 +24,25 @@
  */
 -->
 <script setup>
+/**
+ * App.vue - Main Application Component
+ *
+ * This is the root component of the CoreUI Free Vue Admin Template.
+ * It handles theme initialization and provides the router-view for all routes.
+ *
+ * Key responsibilities:
+ * - Theme detection from URL parameters
+ * - Theme persistence with localStorage
+ * - Router view rendering for SPA navigation
+ *
+ * @component
+ */
 import { onBeforeMount } from 'vue'
 import { useColorModes } from '@coreui/vue'
 
 import { useThemeStore } from '@/stores/theme.js'
 
-/**
- * CoreUI color mode management
- * Provides theme persistence and detection
- */
+// Initialize CoreUI color modes with local storage key
 const { isColorModeSet, setColorMode } = useColorModes(
   'coreui-free-vue-admin-template-theme',
 )

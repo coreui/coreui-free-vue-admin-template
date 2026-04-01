@@ -1,18 +1,25 @@
 /**
- * Vue Router Configuration
+ * router/index.js - Vue Router Configuration
  *
- * Defines application routing with hash-based navigation and lazy-loaded components.
- * Uses hierarchical route structure with nested children for layout composition.
+ * This file configures the application routing using Vue Router 5.
+ * It defines all routes and navigation structure for the SPA.
  *
- * Features:
- * - Hash-based routing (GitHub Pages compatible)
- * - Lazy loading for all route components
- * - Code splitting per route for optimal performance
- * - Nested routes with DefaultLayout wrapper
- * - Public pages (login, register, error pages)
+ * Routing Features:
+ * - Hash-based routing (createWebHashHistory) for static hosting compatibility
+ * - Lazy loading for all route components (code splitting)
+ * - Nested routes for layout-based navigation
  * - Automatic scroll to top on navigation
  *
- * @module router
+ * Route Structure:
+ * - Protected routes: Wrapped in DefaultLayout with sidebar and header
+ * - Public routes: Login, Register, 404, 500 pages without layout
+ *
+ * Adding New Routes:
+ * 1. Import component (use dynamic import for code splitting)
+ * 2. Add route object to appropriate section
+ * 3. Update _nav.js for sidebar navigation (if needed)
+ *
+ * @see https://router.vuejs.org/
  */
 
 import { h, resolveComponent } from 'vue'
@@ -21,32 +28,8 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import DefaultLayout from '@/layouts/DefaultLayout'
 
 /**
- * Application route definitions
- *
- * @type {Array<import('vue-router').RouteRecordRaw>}
- *
- * Route structure:
- * - Root path (/) wraps all routes in DefaultLayout
- * - Lazy-loaded components with Webpack chunk names
- * - Nested children for grouped pages (base, buttons, forms, etc.)
- * - Public routes for authentication and error pages
- *
- * @example
- * // Route with lazy loading
- * {
- *   path: '/dashboard',
- *   name: 'Dashboard',
- *   component: () => import('@/views/dashboard/Dashboard.vue')
- * }
- *
- * @example
- * // Nested route group
- * {
- *   path: '/base',
- *   name: 'Base',
- *   component: { render: () => h(resolveComponent('router-view')) },
- *   children: [...]
- * }
+ * Application routes configuration
+ * @type {Array<Object>}
  */
 const routes = [
   {
@@ -110,6 +93,11 @@ const routes = [
             path: '/base/carousels',
             name: 'Carousels',
             component: () => import('@/views/base/Carousels.vue'),
+          },
+          {
+            path: '/base/chips',
+            name: 'Chips',
+            component: () => import('@/views/base/Chips.vue'),
           },
           {
             path: '/base/collapses',
@@ -219,6 +207,11 @@ const routes = [
             path: '/forms/checks-radios',
             name: 'Checks & Radios',
             component: () => import('@/views/forms/ChecksRadios.vue'),
+          },
+          {
+            path: '/forms/chip-input',
+            name: 'Chip Input',
+            component: () => import('@/views/forms/ChipInput.vue'),
           },
           {
             path: '/forms/range',

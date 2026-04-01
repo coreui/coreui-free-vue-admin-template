@@ -1,75 +1,25 @@
 /**
- * Sidebar Navigation Configuration
+ * _nav.js - Sidebar Navigation Configuration
  *
- * Defines the structure and content of the sidebar navigation menu.
- * Supports multiple navigation component types from CoreUI Vue:
+ * This file defines the structure and content of the sidebar navigation menu.
+ * The navigation is rendered by AppSidebar component using CoreUI nav components.
+ *
+ * Navigation item types:
  * - CNavItem: Single navigation link
- * - CNavGroup: Collapsible group of links
+ * - CNavGroup: Expandable group of navigation items
  * - CNavTitle: Section title/divider
  *
- * @module _nav
- */
-
-/**
- * Navigation menu structure array
+ * Each item can have:
+ * - component: CoreUI component type ('CNavItem', 'CNavGroup', 'CNavTitle')
+ * - name: Display text
+ * - to: Vue Router path (for CNavItem)
+ * - icon: CoreUI icon name (from @coreui/icons)
+ * - badge: Optional badge with color and text
+ * - items: Array of child items (for CNavGroup)
+ * - href: External link URL
+ * - external: Boolean for external links
  *
  * @type {Array<Object>}
- * @property {string} component - CoreUI nav component name ('CNavItem', 'CNavGroup', 'CNavTitle')
- * @property {string} name - Display text for the nav item
- * @property {string} [to] - Internal route path (for CNavItem with routing)
- * @property {string} [href] - External URL (for CNavItem with external links)
- * @property {boolean} [external] - Whether link is external (shows icon)
- * @property {string} [icon] - Icon name from CoreUI Icons
- * @property {Object} [badge] - Optional badge configuration
- * @property {string} badge.color - Badge color (primary, danger, info, etc.)
- * @property {string} badge.text - Badge text content
- * @property {string} [badge.shape] - Badge shape ('pill' or default)
- * @property {Array<Object>} [items] - Child items for CNavGroup
- *
- * @example
- * // Simple navigation item
- * {
- *   component: 'CNavItem',
- *   name: 'Dashboard',
- *   to: '/dashboard',
- *   icon: 'cil-speedometer',
- * }
- *
- * @example
- * // Navigation group with children
- * {
- *   component: 'CNavGroup',
- *   name: 'Base',
- *   to: '/base',
- *   icon: 'cil-puzzle',
- *   items: [
- *     {
- *       component: 'CNavItem',
- *       name: 'Cards',
- *       to: '/base/cards',
- *     },
- *   ],
- * }
- *
- * @example
- * // Section title
- * {
- *   component: 'CNavTitle',
- *   name: 'Theme',
- * }
- *
- * @example
- * // External link with badge
- * {
- *   component: 'CNavItem',
- *   name: 'Pro Component',
- *   href: 'https://coreui.io/vue/docs/',
- *   external: true,
- *   badge: {
- *     color: 'danger',
- *     text: 'PRO',
- *   },
- * }
  */
 export default [
   {
@@ -137,6 +87,11 @@ export default [
         component: 'CNavItem',
         name: 'Carousels',
         to: '/base/carousels',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Chips',
+        to: '/base/chips',
       },
       {
         component: 'CNavItem',
@@ -277,6 +232,11 @@ export default [
         component: 'CNavItem',
         name: 'Checks & Radios',
         to: '/forms/checks-radios',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Chip Input',
+        to: '/forms/chip-input',
       },
       {
         component: 'CNavItem',

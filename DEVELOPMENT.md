@@ -1,6 +1,6 @@
 # CoreUI Free Vue Admin Template - Development Guide
 
-A comprehensive guide for developers working with the CoreUI Free Vue Admin Template built with Vue 3, Composition API, and CoreUI Vue components.
+A comprehensive guide for developers working with the CoreUI Free Vue Admin Template. This guide covers setup, development workflows, common patterns, and best practices.
 
 ## Table of Contents
 
@@ -11,9 +11,12 @@ A comprehensive guide for developers working with the CoreUI Free Vue Admin Temp
 - [Creating Components](#creating-components)
 - [Adding New Pages](#adding-new-pages)
 - [Working with Routes](#working-with-routes)
-- [State Management with Pinia](#state-management-with-pinia)
+- [State Management](#state-management)
 - [Styling Components](#styling-components)
+- [Working with Forms](#working-with-forms)
+- [Data Visualization](#data-visualization)
 - [Code Quality](#code-quality)
+- [Testing](#testing)
 - [Build and Deployment](#build-and-deployment)
 - [Troubleshooting](#troubleshooting)
 - [Best Practices](#best-practices)
@@ -33,20 +36,22 @@ A comprehensive guide for developers working with the CoreUI Free Vue Admin Temp
   - ESLint
   - Prettier
   - Auto Import
+  - GitLens
 - **Vue DevTools** browser extension
 
 ### Knowledge Requirements
 
-- JavaScript ES6+ features
-- Vue 3 fundamentals (Composition API, `<script setup>`)
+- JavaScript ES6+ features (arrow functions, destructuring, modules)
+- Vue 3 fundamentals (Composition API, reactive, ref, computed)
 - HTML5 and CSS3
 - Sass/SCSS basics
+- Git version control
 
 ## Getting Started
 
 ### Installation
 
-1. **Clone the repository**:
+1. **Clone the repository** (or download the source):
 ```bash
 git clone https://github.com/coreui/coreui-free-vue-admin-template.git
 cd coreui-free-vue-admin-template
@@ -68,6 +73,11 @@ yarn dev
 
 4. **Open your browser** to [http://localhost:3000](http://localhost:3000)
 
+The development server includes:
+- Hot Module Replacement (HMR) for instant updates
+- Automatic browser refresh on file changes
+- Error overlay for compile-time and runtime errors
+
 ### Available Scripts
 
 | Command | Description |
@@ -85,17 +95,24 @@ yarn dev
 
 ```
 src/
-├── assets/          # Static assets (images, logos, icons)
-├── components/      # Reusable Vue components
+├── assets/          # Static assets (images, logos)
+├── components/      # Reusable UI components
 ├── layouts/         # Layout wrapper components
-├── router/          # Vue Router configuration
-├── stores/          # Pinia store modules
 ├── views/           # Page/route components
-├── styles/          # Global styles and themes
+├── router/          # Router configuration
+├── stores/          # Pinia stores (optional)
+├── scss/            # Global styles and themes
 ├── App.vue          # Root component
 ├── main.js          # Application entry point
 └── _nav.js          # Navigation menu configuration
 ```
+
+### Key Files
+
+- **`App.vue`**: Main application component with router-view
+- **`main.js`**: Vue app creation, plugins, and mounting
+- **`router/index.js`**: Route definitions and configuration
+- **`_nav.js`**: Navigation menu structure for sidebar
 
 ## Development Workflow
 
@@ -112,25 +129,53 @@ src/
 ### Hot Module Replacement (HMR)
 
 Vite provides instant feedback:
-- **Vue component changes**: Component updates without page reload
+- **Vue SFC changes**: Component updates without page reload
 - **CSS/SCSS changes**: Style updates without reload
 - **Configuration changes**: Require server restart
 
+### Development Server Features
+
+**Port**: 3000 (configurable in `vite.config.mjs`)
+
+**Features**:
+- Fast cold start (~500ms)
+- Instant HMR (<50ms)
+- Error overlay with stack traces
+- Network access for mobile testing
+
+**Access from mobile**:
+```bash
+# Find your local IP
+# Windows: ipconfig
+# Mac/Linux: ifconfig
+
+# Access from mobile device:
+http://192.168.1.X:3000
+```
+
 ## Creating Components
 
-### Component with `<script setup>` (Recommended)
+### Component Structure
+
+**Composition API with script setup**:
 
 ```vue
-<script setup>
-import { ref, computed, onMounted } from 'vue'
-import { CCard, CCardBody, CCardHeader } from '@coreui/vue'
+<template>
+  <CCard>
+    <CCardHeader>{{ name }}</CCardHeader>
+    <CCardBody>
+      <img v-if="avatar" :src="avatar" :alt="name" />
+      <p>{{ email }}</p>
+    </CCardBody>
+  </CCard>
+</template>
 
+<script setup>
 /**
  * UserCard component displays user information in a card format
- * @component
  */
+import { defineProps } from 'vue'
 
-// Props
 const props = defineProps({
   /** User's full name */
   name: {
@@ -148,71 +193,45 @@ const props = defineProps({
     default: null,
   },
 })
-
-// Emits
-const emit = defineEmits(['update', 'delete'])
-
-// State
-const isLoading = ref(false)
-const userDetails = ref(null)
-
-// Computed
-const displayName = computed(() => props.name.toUpperCase())
-
-// Lifecycle
-onMounted(() => {
-  console.log('UserCard mounted')
-})
-
-// Methods
-const handleUpdate = () => {
-  emit('update', { name: props.name, email: props.email })
-}
 </script>
 
-<template>
-  <CCard>
-    <CCardHeader>{{ displayName }}</CCardHeader>
-    <CCardBody>
-      <img v-if="avatar" :src="avatar" :alt="name" />
-      <p>{{ email }}</p>
-      <button @click="handleUpdate">Update</button>
-    </CCardBody>
-  </CCard>
-</template>
-
-<style scoped lang="scss">
-.card {
-  margin-bottom: 1rem;
-}
+<style scoped>
+/* Component-specific styles */
 </style>
 ```
 
-### Composables
+### Component Best Practices
+
+1. **Keep components focused**: One responsibility per component
+2. **Use prop validation**: Define types and required props
+3. **Add JSDoc comments**: Document component purpose and props
+4. **Extract logic**: Use composables for reusable logic
+5. **Name meaningfully**: Clear, descriptive component names
+
+### Composables (Custom Hooks)
 
 Extract reusable logic into composables:
 
 ```javascript
 // composables/useFetch.js
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 /**
- * Composable for fetching data from an API
- * @param {string} url - API endpoint URL
- * @returns {Object} { data, loading, error, fetchData }
+ * Custom composable for fetching data from an API
+ * @param {String} url - API endpoint URL
+ * @returns {Object} { data, loading, error, refetch }
  */
 export function useFetch(url) {
   const data = ref(null)
-  const loading = ref(false)
+  const loading = ref(true)
   const error = ref(null)
 
   const fetchData = async () => {
-    loading.value = true
-    error.value = null
-
     try {
+      loading.value = true
       const response = await fetch(url)
       data.value = await response.json()
+      error.value = null
     } catch (err) {
       error.value = err.message
     } finally {
@@ -220,21 +239,18 @@ export function useFetch(url) {
     }
   }
 
-  return { data, loading, error, fetchData }
+  watch(() => url, fetchData, { immediate: true })
+
+  return { data, loading, error, refetch: fetchData }
 }
 ```
 
 **Usage**:
 ```vue
 <script setup>
-import { onMounted } from 'vue'
 import { useFetch } from '@/composables/useFetch'
 
-const { data, loading, error, fetchData } = useFetch('/api/users')
-
-onMounted(() => {
-  fetchData()
-})
+const { data, loading, error } = useFetch('/api/users')
 </script>
 
 <template>
@@ -252,27 +268,24 @@ onMounted(() => {
 
 ```vue
 <!-- src/views/products/Products.vue -->
-<script setup>
-import { ref, onMounted } from 'vue'
-import { CCard, CCardBody, CCardHeader } from '@coreui/vue'
-
-const products = ref([])
-
-onMounted(() => {
-  // Fetch products
-})
-</script>
-
 <template>
-  <CCard>
-    <CCardHeader>
-      <strong>Products</strong>
-    </CCardHeader>
-    <CCardBody>
-      <!-- Your content here -->
-    </CCardBody>
-  </CCard>
+  <CRow>
+    <CCol :xs="12">
+      <CCard class="mb-4">
+        <CCardHeader>
+          <strong>Products</strong>
+        </CCardHeader>
+        <CCardBody>
+          <!-- Your content here -->
+        </CCardBody>
+      </CCard>
+    </CCol>
+  </CRow>
 </template>
+
+<script setup>
+// Component logic
+</script>
 ```
 
 **2. Add route to `src/router/index.js`**:
@@ -301,136 +314,230 @@ onMounted(() => {
 - Check that navigation highlights correctly
 - Verify breadcrumb displays properly
 
+### Page Templates
+
+**List Page**:
+```vue
+<template>
+  <CCard>
+    <CCardHeader>Items</CCardHeader>
+    <CCardBody>
+      <CTable>
+        <CTableHead>
+          <CTableRow>
+            <CTableHeaderCell>Name</CTableHeaderCell>
+            <CTableHeaderCell>Status</CTableHeaderCell>
+          </CTableRow>
+        </CTableHead>
+        <CTableBody>
+          <CTableRow v-for="item in items" :key="item.id">
+            <CTableDataCell>{{ item.name }}</CTableDataCell>
+            <CTableDataCell>{{ item.status }}</CTableDataCell>
+          </CTableRow>
+        </CTableBody>
+      </CTable>
+    </CCardBody>
+  </CCard>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+
+const items = ref([])
+
+onMounted(async () => {
+  // Fetch items
+})
+</script>
+```
+
+**Detail Page**:
+```vue
+<template>
+  <CSpinner v-if="!item" />
+  <CCard v-else>
+    <CCardHeader>{{ item.name }}</CCardHeader>
+    <CCardBody>
+      <p>{{ item.description }}</p>
+    </CCardBody>
+  </CCard>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const item = ref(null)
+
+onMounted(async () => {
+  // Fetch item by route.params.id
+})
+</script>
+```
+
 ## Working with Routes
 
 ### Route Configuration
 
-Routes are defined hierarchically in `src/router/index.js`:
+Routes are defined in `src/router/index.js`:
 
 ```javascript
 const routes = [
   {
     path: '/',
-    component: DefaultLayout,
     redirect: '/dashboard',
+    name: 'Home',
+    component: DefaultLayout,
     children: [
       {
         path: '/dashboard',
         name: 'Dashboard',
         component: () => import('@/views/dashboard/Dashboard.vue'),
       },
-      {
-        path: '/products/:id',
-        name: 'ProductDetail',
-        component: () => import('@/views/products/ProductDetail.vue'),
-      },
     ],
   },
 ]
 ```
 
+### Dynamic Routes
+
+**With URL parameters**:
+
+```javascript
+// Route definition
+{
+  path: '/products/:id',
+  name: 'Product Detail',
+  component: () => import('@/views/products/ProductDetail.vue'),
+}
+
+// Component usage
+<script setup>
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const productId = route.params.id
+</script>
+```
+
 ### Programmatic Navigation
+
+**Using useRouter hook**:
 
 ```vue
 <script setup>
-import { useRouter, useRoute } from 'vue-router'
+import { useRouter } from 'vue-router'
 
 const router = useRouter()
-const route = useRoute()
 
-// Navigate to a route
 const goToProducts = () => {
   router.push('/products')
 }
 
-// Navigate with params
-const goToProduct = (id) => {
-  router.push({ name: 'ProductDetail', params: { id } })
-}
-
-// Go back
 const goBack = () => {
-  router.go(-1)
-}
-
-// Access route params
-console.log(route.params.id)
-</script>
-```
-
-## State Management with Pinia
-
-### Creating a Store
-
-```javascript
-// stores/products.js
-import { ref, computed } from 'vue'
-import { defineStore } from 'pinia'
-
-export const useProductsStore = defineStore('products', () => {
-  // State
-  const products = ref([])
-  const loading = ref(false)
-
-  // Getters (computed)
-  const productCount = computed(() => products.value.length)
-  const activeProducts = computed(() =>
-    products.value.filter((p) => p.active),
-  )
-
-  // Actions
-  const fetchProducts = async () => {
-    loading.value = true
-    try {
-      const response = await fetch('/api/products')
-      products.value = await response.json()
-    } finally {
-      loading.value = false
-    }
-  }
-
-  const addProduct = (product) => {
-    products.value.push(product)
-  }
-
-  return {
-    products,
-    loading,
-    productCount,
-    activeProducts,
-    fetchProducts,
-    addProduct,
-  }
-})
-```
-
-### Using a Store
-
-```vue
-<script setup>
-import { onMounted } from 'vue'
-import { useProductsStore } from '@/stores/products'
-
-const productsStore = useProductsStore()
-
-onMounted(() => {
-  productsStore.fetchProducts()
-})
-
-const handleAddProduct = (product) => {
-  productsStore.addProduct(product)
+  router.back()
 }
 </script>
 
 <template>
-  <div>
-    <p>Total: {{ productsStore.productCount }}</p>
-    <div v-if="productsStore.loading">Loading...</div>
-    <div v-for="product in productsStore.products" :key="product.id">
-      {{ product.name }}
-    </div>
-  </div>
+  <CButton @click="goToProducts">View Products</CButton>
+  <CButton @click="goBack">Go Back</CButton>
 </template>
+```
+
+### Protected Routes
+
+Add authentication logic in `router/index.js`:
+
+```javascript
+router.beforeEach((to, from, next) => {
+  const isAuthenticated = localStorage.getItem('token')
+
+  if (to.meta.requiresAuth && !isAuthenticated) {
+    next('/pages/login')
+  } else {
+    next()
+  }
+})
+```
+
+## State Management
+
+### Using Pinia
+
+**Creating a store**:
+
+```javascript
+// stores/main.js
+import { defineStore } from 'pinia'
+import { ref, computed } from 'vue'
+
+export const useStore = defineStore('main', () => {
+  // State
+  const sidebarVisible = ref(true)
+  const theme = ref('light')
+
+  // Getters
+  const isDark = computed(() => theme.value === 'dark')
+
+  // Actions
+  function toggleSidebar() {
+    sidebarVisible.value = !sidebarVisible.value
+  }
+
+  function setTheme(newTheme) {
+    theme.value = newTheme
+  }
+
+  return { sidebarVisible, theme, isDark, toggleSidebar, setTheme }
+})
+```
+
+**Using the store**:
+
+```vue
+<script setup>
+import { useStore } from '@/stores/main'
+
+const store = useStore()
+
+// Read state
+console.log(store.sidebarVisible)
+console.log(store.isDark)
+
+// Call actions
+store.toggleSidebar()
+store.setTheme('dark')
+</script>
+```
+
+### Local Component State
+
+**ref for simple state**:
+
+```vue
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0)
+const isOpen = ref(false)
+const formData = ref({ name: '', email: '' })
+</script>
+```
+
+**reactive for complex state**:
+
+```vue
+<script setup>
+import { reactive } from 'vue'
+
+const state = reactive({
+  count: 0,
+  step: 1,
+  history: [],
+})
+</script>
 ```
 
 ## Styling Components
@@ -440,17 +547,6 @@ const handleAddProduct = (product) => {
 **ALWAYS use CoreUI Vue components** from `@coreui/vue`:
 
 ```vue
-<script setup>
-import {
-  CButton,
-  CCard,
-  CCardBody,
-  CCardHeader,
-  CCol,
-  CRow,
-} from '@coreui/vue'
-</script>
-
 <template>
   <CRow>
     <CCol :md="6">
@@ -467,12 +563,12 @@ import {
 
 ### Bootstrap Utilities
 
-Use Bootstrap utility classes:
+Use Bootstrap utility classes for quick styling:
 
 ```vue
 <template>
   <CCard class="mb-4 shadow-sm">
-    <CCardBody class="p-4 d-flex justify-content-between">
+    <CCardBody class="p-4 d-flex justify-content-between align-items-center">
       <span class="text-muted">Left</span>
       <span class="fw-bold">Right</span>
     </CCardBody>
@@ -480,9 +576,23 @@ Use Bootstrap utility classes:
 </template>
 ```
 
-### Scoped Styles
+**Common utilities**:
+- Spacing: `m-3`, `mt-2`, `mb-4`, `p-3`, `px-4`, `py-2`
+- Display: `d-flex`, `d-none`, `d-block`, `d-inline`
+- Flexbox: `justify-content-between`, `align-items-center`
+- Text: `text-center`, `text-muted`, `fw-bold`, `fs-5`
+
+### Custom Styles
+
+**Component-level SCSS** (scoped):
 
 ```vue
+<template>
+  <div class="my-component">
+    <h1 class="my-component__title">Title</h1>
+  </div>
+</template>
+
 <style scoped lang="scss">
 .my-component {
   padding: 1rem;
@@ -498,6 +608,8 @@ Use Bootstrap utility classes:
 
 ### CSS Custom Properties
 
+Use CoreUI CSS variables for theming:
+
 ```vue
 <template>
   <div :style="{
@@ -510,38 +622,290 @@ Use Bootstrap utility classes:
 </template>
 ```
 
+**Common variables**:
+- Colors: `--cui-primary`, `--cui-secondary`, `--cui-success`, `--cui-danger`
+- Background: `--cui-body-bg`, `--cui-light`, `--cui-dark`
+- Text: `--cui-body-color`, `--cui-text-muted`
+- Spacing: `--cui-spacer-1` through `--cui-spacer-5`
+
+### Conditional Styling
+
+Use class or style bindings:
+
+```vue
+<template>
+  <button
+    :class="['btn', { 'btn-primary': isPrimary, 'btn-secondary': !isPrimary, 'active': isActive }]"
+  >
+    Button
+  </button>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const isPrimary = ref(true)
+const isActive = ref(false)
+</script>
+```
+
+## Working with Forms
+
+### Form Component Example
+
+```vue
+<template>
+  <CCard>
+    <CCardHeader>Contact Form</CCardHeader>
+    <CCardBody>
+      <CForm
+        class="row g-3"
+        :noValidate="true"
+        :validated="validated"
+        @submit.prevent="handleSubmit"
+      >
+        <CCol :md="6">
+          <CFormLabel for="name">Name</CFormLabel>
+          <CFormInput
+            type="text"
+            id="name"
+            v-model="formData.name"
+            required
+          />
+        </CCol>
+        <CCol :md="6">
+          <CFormLabel for="email">Email</CFormLabel>
+          <CFormInput
+            type="email"
+            id="email"
+            v-model="formData.email"
+            required
+          />
+        </CCol>
+        <CCol :xs="12">
+          <CFormLabel for="message">Message</CFormLabel>
+          <CFormTextarea
+            id="message"
+            :rows="3"
+            v-model="formData.message"
+            required
+          />
+        </CCol>
+        <CCol :xs="12">
+          <CButton color="primary" type="submit">
+            Submit
+          </CButton>
+        </CCol>
+      </CForm>
+    </CCardBody>
+  </CCard>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const formData = ref({
+  name: '',
+  email: '',
+  message: '',
+})
+const validated = ref(false)
+
+const handleSubmit = (event) => {
+  const form = event.target
+
+  if (!form.checkValidity()) {
+    validated.value = true
+    return
+  }
+
+  // Submit form data
+  console.log('Form data:', formData.value)
+}
+</script>
+```
+
+### Form Validation
+
+**HTML5 validation**:
+```vue
+<CFormInput
+  type="email"
+  required
+  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+/>
+```
+
+**Custom validation**:
+```vue
+<script setup>
+import { ref } from 'vue'
+
+const errors = ref({})
+
+const validate = () => {
+  const newErrors = {}
+
+  if (!formData.value.name) {
+    newErrors.name = 'Name is required'
+  }
+
+  if (!formData.value.email.includes('@')) {
+    newErrors.email = 'Invalid email address'
+  }
+
+  errors.value = newErrors
+  return Object.keys(newErrors).length === 0
+}
+
+const handleSubmit = () => {
+  if (validate()) {
+    // Submit form
+  }
+}
+</script>
+```
+
+## Data Visualization
+
+### Using Chart.js with CoreUI
+
+```vue
+<template>
+  <CCard>
+    <CCardHeader>Sales Overview</CCardHeader>
+    <CCardBody>
+      <CChartLine
+        :data="chartData"
+        :options="chartOptions"
+        style="height: 300px"
+      />
+    </CCardBody>
+  </CCard>
+</template>
+
+<script setup>
+import { CChartLine } from '@coreui/vue-chartjs'
+
+const chartData = {
+  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  datasets: [
+    {
+      label: 'Sales 2024',
+      backgroundColor: 'rgba(220, 53, 69, 0.1)',
+      borderColor: 'rgba(220, 53, 69, 1)',
+      data: [40, 20, 12, 39, 10, 40, 39],
+    },
+  ],
+}
+
+const chartOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      display: true,
+    },
+  },
+}
+</script>
+```
+
+### Chart Types
+
+CoreUI provides Vue wrappers for Chart.js:
+
+- `CChartLine` - Line charts
+- `CChartBar` - Bar charts
+- `CChartDoughnut` - Doughnut charts
+- `CChartPie` - Pie charts
+- `CChartPolarArea` - Polar area charts
+- `CChartRadar` - Radar charts
+
 ## Code Quality
 
 ### ESLint Configuration
 
-Run linting:
+The project uses ESLint with Vue and Prettier plugins:
 
 ```bash
+# Check for issues
 npm run lint
+
+# Auto-fix issues (when possible)
+npm run lint -- --fix
 ```
 
 ### Code Style Guidelines
 
-**Vue**:
-- Use `<script setup>` syntax
-- Composition API patterns
-- Destructure composables and stores
-- Use TypeScript JSDoc comments
-
 **JavaScript**:
-- No semicolons (Prettier enforced)
+- No semicolons (enforced by Prettier)
 - Single quotes for strings
 - 2-space indentation
 - Arrow functions preferred
+- Destructuring when possible
+
+**Vue**:
+- Composition API with script setup
+- Props defined with defineProps()
+- Meaningful component names
+- Scoped styles
 
 **File naming**:
 - PascalCase for components: `UserCard.vue`
-- camelCase for composables: `useFetch.js`
-- camelCase for stores: `products.js`
+- camelCase for utilities: `dateHelper.js`
+- kebab-case for styles: `user-card.scss`
+
+### Pre-commit Checks
+
+**Recommended**: Set up pre-commit hooks with Husky:
+
+```bash
+npm install --save-dev husky lint-staged
+
+# Add to package.json
+{
+  "lint-staged": {
+    "src/**/*.{js,vue}": ["eslint --fix", "prettier --write"]
+  }
+}
+```
+
+## Testing
+
+### Manual Testing Checklist
+
+Before committing changes:
+
+- [ ] Test in both light and dark themes
+- [ ] Test responsive design (mobile, tablet, desktop)
+- [ ] Check browser console for errors
+- [ ] Verify all links and navigation work
+- [ ] Test form validation and submission
+- [ ] Check accessibility (keyboard navigation, screen readers)
+
+### Browser Testing
+
+Test in modern browsers:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+### Responsive Testing
+
+Test at common breakpoints:
+- Mobile: 375px, 414px
+- Tablet: 768px, 1024px
+- Desktop: 1366px, 1920px
+
+**Tip**: Use Chrome DevTools device toolbar (Cmd/Ctrl + Shift + M)
 
 ## Build and Deployment
 
 ### Production Build
+
+Create optimized production build:
 
 ```bash
 npm run build
@@ -551,28 +915,68 @@ Output in `dist/` directory:
 - Minified JavaScript bundles
 - Extracted and minified CSS
 - Optimized assets
+- Source maps
+
+### Build Analysis
+
+Check bundle size:
+
+```bash
+npm run build
+
+# Output shows:
+# - Total bundle size
+# - Individual chunk sizes
+# - Asset sizes
+```
 
 ### Preview Production Build
+
+Test production build locally:
 
 ```bash
 npm run preview
 ```
 
+Opens preview server at `http://localhost:4173`
+
 ### Deployment Platforms
 
-**Static hosting**:
+**Static hosting** (builds to static files):
 
 1. **Netlify**:
+   - Connect GitHub repository
    - Build command: `npm run build`
    - Publish directory: `dist`
 
 2. **Vercel**:
+   - Import Git repository
    - Framework preset: Vite
    - Build command: `npm run build`
 
 3. **GitHub Pages**:
    - Build locally: `npm run build`
    - Push `dist/` folder to `gh-pages` branch
+
+4. **AWS S3 + CloudFront**:
+   - Upload `dist/` contents to S3 bucket
+   - Configure CloudFront distribution
+
+### Environment Variables
+
+Create `.env` file (not committed to Git):
+
+```bash
+VITE_API_URL=https://api.example.com
+VITE_APP_NAME=My App
+```
+
+**Usage in code**:
+```javascript
+const apiUrl = import.meta.env.VITE_API_URL
+```
+
+**IMPORTANT**: Only variables prefixed with `VITE_` are exposed to the app.
 
 ## Troubleshooting
 
@@ -583,7 +987,12 @@ npm run preview
 **Solution**:
 ```bash
 # Kill process on port 3000
+# Mac/Linux:
 lsof -ti:3000 | xargs kill
+
+# Windows:
+netstat -ano | findstr :3000
+taskkill /PID <PID> /F
 
 # Or change port in vite.config.mjs
 ```
@@ -608,39 +1017,73 @@ npm install
 - Hard refresh (Cmd/Ctrl + Shift + R)
 - Restart dev server
 
+---
+
+**Problem**: HMR not working
+
+**Solution**:
+- Check file is saved
+- Restart dev server
+- Check for syntax errors in console
+
+---
+
+**Problem**: Build fails with memory error
+
+**Solution**:
+```bash
+# Increase Node memory limit
+NODE_OPTIONS="--max-old-space-size=4096" npm run build
+```
+
+### Debugging Tips
+
+**Vue DevTools**:
+- Inspect component hierarchy
+- View props and state
+- Profile component renders
+- Inspect Pinia stores
+
+**Console logging**:
+```javascript
+console.log('Variable:', variable)
+console.table(arrayOfObjects)
+console.error('Error:', error)
+```
+
 ## Best Practices
 
 ### Performance
 
-1. Use lazy loading for routes
-2. Use `computed()` for derived state
-3. Avoid unnecessary watchers
-4. Use `v-show` vs `v-if` appropriately
-5. Optimize images (WebP format)
+1. **Lazy load routes**: Use dynamic imports for code splitting
+2. **Use computed**: For derived values instead of methods
+3. **Optimize re-renders**: Use v-memo for expensive renders
+4. **Virtualize long lists**: Use libraries like vue-virtual-scroller
+5. **Optimize images**: Use WebP format, lazy loading
 
 ### Accessibility
 
-1. Use semantic HTML
-2. Add ARIA labels for icon buttons
-3. Ensure keyboard navigation
-4. Meet color contrast standards
-5. Associate form inputs with labels
+1. **Semantic HTML**: Use proper heading hierarchy (h1-h6)
+2. **ARIA labels**: Add aria-label for icon buttons
+3. **Keyboard navigation**: Ensure all interactive elements are keyboard-accessible
+4. **Color contrast**: Meet WCAG AA standards (4.5:1 for text)
+5. **Form labels**: Associate all form inputs with labels
 
 ### Security
 
-1. Validate user input
-2. Use HTTPS in production
-3. Configure CSP headers
-4. Run `npm audit` regularly
-5. Never commit secrets to Git
+1. **Validate input**: Sanitize user input before rendering
+2. **Use HTTPS**: Always serve over HTTPS in production
+3. **Content Security Policy**: Configure CSP headers
+4. **Dependency audits**: Run `npm audit` regularly
+5. **Environment variables**: Never commit secrets to Git
 
 ### Code Organization
 
-1. Single Responsibility principle
-2. DRY (Don't Repeat Yourself)
-3. Consistent naming conventions
-4. Group related files together
-5. Document complex logic
+1. **Single Responsibility**: One component does one thing well
+2. **DRY Principle**: Don't Repeat Yourself - extract reusable code
+3. **Consistent naming**: Follow naming conventions throughout
+4. **File organization**: Group related files together
+5. **Documentation**: Comment complex logic and add JSDoc
 
 ### Git Workflow
 
@@ -651,11 +1094,20 @@ fix: resolve navigation bug on mobile
 docs: update README with deployment instructions
 style: format code with Prettier
 refactor: extract form validation logic
+test: add tests for UserCard component
 chore: update dependencies
+```
+
+**Branch naming**:
+```
+feature/user-profile
+fix/navigation-bug
+refactor/form-validation
+docs/deployment-guide
 ```
 
 ---
 
-This guide covers essential workflows and patterns for developing with the CoreUI Free Vue Admin Template. For additional questions, consult the [CoreUI Vue Documentation](https://coreui.io/vue/docs/) or the [Vue 3 Documentation](https://vuejs.org/).
+This guide covers the essential workflows and patterns for developing with the CoreUI Free Vue Admin Template. For additional questions, consult the [CoreUI Vue Documentation](https://coreui.io/vue/docs/) or the [Vue 3 Documentation](https://vuejs.org/).
 
 Happy coding! 🚀

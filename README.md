@@ -138,29 +138,40 @@ coreui-free-vue-admin-template
 
 ## AI-Friendly Development
 
-This template is optimized for AI-assisted development with comprehensive context files and documentation:
+This template is designed to work seamlessly with AI coding assistants like Cursor, GitHub Copilot, and Claude Code. We've included comprehensive documentation and configuration files to help AI understand the project structure and conventions.
 
-### Context Files
-- **`.cursorrules`** - Comprehensive AI context file with project conventions, patterns, and guidelines for working with Vue 3, Composition API, CoreUI Vue, and the template architecture
-- **`ARCHITECTURE.md`** - Detailed technical documentation covering the project structure, component hierarchy, routing system, Pinia state management, and build pipeline
-- **`DEVELOPMENT.md`** - Practical developer guide with setup instructions, development workflows, code examples, and best practices for Vue 3 development
+### Features for AI Development
 
-### Code Documentation
-- All Vue components and JavaScript files include detailed JSDoc comments with parameter types and descriptions
-- Inline documentation explaining complex logic and patterns
-- Clear examples using `<script setup>` syntax and Composition API
+- **`.cursorrules`**: Complete AI assistant configuration with project conventions, technology stack, and coding patterns
+- **`ARCHITECTURE.md`**: Detailed technical architecture documentation covering components, routing, state management, and build system
+- **`DEVELOPMENT.md`**: Comprehensive development guide with setup instructions, workflows, and best practices
+- **JSDoc Comments**: Main Vue components include documentation for better AI understanding
 
-### Benefits for AI Coding Assistants
+### Getting Started with AI Assistants
 
-When using AI coding assistants like Cursor, Claude Code, or GitHub Copilot, these context files help the AI to:
+1. **Open the project** in your AI-powered IDE (VS Code with Cursor, GitHub Copilot, or Claude Code)
+2. **Review `.cursorrules`** to understand the project conventions
+3. **Ask your AI assistant** to help you build features - it will automatically follow the project patterns
+4. **Use natural language** to describe components, pages, or features you want to add
 
-- **Understand the Stack**: Recognize that this is a Vue 3 application using CoreUI Vue components with Composition API and `<script setup>` syntax (not Vue 2, Options API, or other frameworks)
-- **Follow Patterns**: Generate code that matches the project's component structure, using `<script setup>`, Composition API, and Pinia stores
-- **Use Correct Components**: Suggest appropriate CoreUI Vue components from `@coreui/vue`
-- **Maintain Code Style**: Follow ESLint and Prettier rules automatically
-- **Respect Architecture**: Work within the established routing, state management (Pinia), and styling patterns
+### What AI Assistants Know About This Project
 
-Simply open the project in your AI-enabled IDE, and the assistant will automatically have context about the Vue 3 architecture, CoreUI Vue component usage, Composition API patterns, and coding standards.
+Your AI assistant understands:
+- **Component Library**: Always use CoreUI Vue components (never Tailwind, Vuetify, or other libraries)
+- **Code Style**: Vue 3 Composition API with `<script setup>` syntax, Prettier formatting, ESLint rules
+- **Architecture**: Single Page Application with Vue Router, Pinia for state management, Vite for building
+- **File Organization**: Where to create components, views, routes, and styles
+- **Common Patterns**: Lazy loading, composables, navigation configuration, theming
+
+### Example AI Prompts
+
+Try asking your AI assistant:
+- "Create a new products page with a table showing product name, price, and status"
+- "Add a user profile form with validation"
+- "Create a chart showing monthly sales data"
+- "Add a new navigation item for the settings page"
+
+For more information, see the [DEVELOPMENT.md](DEVELOPMENT.md) guide.
 
 ## Documentation
 
@@ -182,6 +193,8 @@ CoreUI Vue.js Admin Templates are built on top of CoreUI and CoreUI PRO UI compo
 - [Vue Card](https://coreui.io/vue/docs/components/card.html)
 - [Vue Carousel](https://coreui.io/vue/docs/components/carousel.html)
 - [Vue Checkbox](https://coreui.io/vue/docs/forms/checkbox.html)
+- [Vue Chip](https://coreui.io/vue/docs/components/chip.html)
+- [Vue Chip Input](https://coreui.io/vue/docs/forms/chip-input.html)
 - [Vue Close Button](https://coreui.io/vue/docs/components/close-button.html)
 - [Vue Collapse](https://coreui.io/vue/docs/components/collapse.html)
 - [Vue Date Picker](https://coreui.io/vue/docs/forms/date-picker.html) **PRO**
@@ -258,6 +271,6 @@ CoreUI is an MIT-licensed open source project and is completely free to use. How
 
 ## Copyright and License
 
-copyright 2025 creativeLabs Łukasz Holeczek.   
+copyright 2026 creativeLabs Łukasz Holeczek.   
 
 Code released under [the MIT license](https://github.com/coreui/coreui-free-react-admin-template/blob/main/LICENSE).

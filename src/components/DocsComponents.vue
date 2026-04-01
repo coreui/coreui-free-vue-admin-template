@@ -28,7 +28,7 @@ import ComponentsImg from '@/assets/images/components.webp'
         explore extended examples, detailed API documentation, and customization options, refer to
         our docs.
       </div>
-      <div class="col-md-auto col-12 mt-3 mt-lg-0">
+      <div class="col-md-auto col-12 mt-3 mt-lg-0 d-flex flex-column">
         <a
           class="btn btn-primary text-nowrap text-white"
           :href="`https://coreui.io/vue/docs/${props.href}`"
@@ -36,6 +36,15 @@ import ComponentsImg from '@/assets/images/components.webp'
           rel="noopener noreferrer"
         >
           Explore Documentation
+        </a>
+        <div class="text-center my-1">or</div>
+        <a
+          class="btn btn-danger text-nowrap text-white"
+          href="https://coreui.io/pricing/?framework=vue&src=free-vue-admin-template-docs-banner"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get CoreUI PRO →
         </a>
       </div>
     </div>
