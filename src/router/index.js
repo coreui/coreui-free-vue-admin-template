@@ -105,6 +105,11 @@ const routes = [
             component: () => import('@/views/components/Chip.vue'),
           },
           {
+            path: '/components/chip-set',
+            name: 'Chip Set',
+            component: () => import('@/views/components/ChipSet.vue'),
+          },
+          {
             path: '/components/collapse',
             name: 'Collapse',
             component: () => import('@/views/components/Collapse.vue'),
@@ -148,6 +153,11 @@ const routes = [
             path: '/components/progress',
             name: 'Progress',
             component: () => import('@/views/components/Progress.vue'),
+          },
+          {
+            path: '/components/search-button',
+            name: 'Search Button',
+            component: () => import('@/views/components/SearchButton.vue'),
           },
           {
             path: '/components/spinners',
