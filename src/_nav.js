@@ -34,44 +34,49 @@ export default [
   },
   {
     component: 'CNavTitle',
-    name: 'Theme',
+    name: 'UI Elements',
   },
   {
     component: 'CNavItem',
-    name: 'Colors',
-    to: '/theme/colors',
-    icon: 'cil-drop',
-  },
-  {
-    component: 'CNavItem',
-    name: 'Typography',
-    to: '/theme/typography',
-    icon: 'cil-pencil',
-  },
-  {
-    component: 'CNavTitle',
-    name: 'Components',
+    name: 'Charts',
+    to: '/charts',
+    icon: 'cil-chart-pie',
   },
   {
     component: 'CNavGroup',
-    name: 'Base',
-    to: '/base',
+    name: 'Components',
+    to: '/components',
     icon: 'cil-puzzle',
     items: [
       {
         component: 'CNavItem',
         name: 'Accordion',
-        to: '/base/accordion',
+        to: '/components/accordion',
       },
       {
         component: 'CNavItem',
-        name: 'Breadcrumbs',
-        to: '/base/breadcrumbs',
+        name: 'Alerts',
+        to: '/components/alerts',
       },
       {
         component: 'CNavItem',
-        name: 'Cards',
-        to: '/base/cards',
+        name: 'Badge',
+        to: '/components/badge',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Breadcrumb',
+        to: '/components/breadcrumb',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Buttons',
+        to: '/components/buttons',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Buttons Group',
+        to: '/components/button-group',
       },
       {
         component: 'CNavItem',
@@ -85,48 +90,73 @@ export default [
       },
       {
         component: 'CNavItem',
-        name: 'Carousels',
-        to: '/base/carousels',
+        name: 'Cards',
+        to: '/components/cards',
       },
       {
         component: 'CNavItem',
-        name: 'Chips',
-        to: '/base/chips',
+        name: 'Carousel',
+        to: '/components/carousel',
       },
       {
         component: 'CNavItem',
-        name: 'Collapses',
-        to: '/base/collapses',
+        name: 'Chip',
+        to: '/components/chip',
       },
       {
         component: 'CNavItem',
-        name: 'List Groups',
-        to: '/base/list-groups',
+        name: 'Collapse',
+        to: '/components/collapse',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Dropdowns',
+        to: '/components/dropdowns',
+      },
+      {
+        component: 'CNavItem',
+        name: 'List group',
+        to: '/components/list-group',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Loading Buttons',
+        href: 'https://coreui.io/vue/docs/components/loading-button.html',
+        external: true,
+        badge: {
+          color: 'danger',
+          text: 'PRO',
+        },
+      },
+      {
+        component: 'CNavItem',
+        name: 'Modals',
+        to: '/components/modals',
       },
       {
         component: 'CNavItem',
         name: 'Navs & Tabs',
-        to: '/base/navs',
+        to: '/components/navs-tabs',
       },
       {
         component: 'CNavItem',
-        name: 'Paginations',
-        to: '/base/paginations',
+        name: 'Pagination',
+        to: '/components/pagination',
       },
       {
         component: 'CNavItem',
         name: 'Placeholders',
-        to: '/base/placeholders',
+        to: '/components/placeholders',
       },
       {
         component: 'CNavItem',
         name: 'Popovers',
-        to: '/base/popovers',
+        to: '/components/popovers',
       },
       {
         component: 'CNavItem',
         name: 'Progress',
-        to: '/base/progress',
+        to: '/components/progress',
       },
       {
         component: 'CNavItem',
@@ -150,22 +180,27 @@ export default [
       {
         component: 'CNavItem',
         name: 'Spinners',
-        to: '/base/spinners',
+        to: '/components/spinners',
       },
       {
         component: 'CNavItem',
         name: 'Tables',
-        to: '/base/tables',
+        to: '/components/tables',
       },
       {
         component: 'CNavItem',
         name: 'Tabs',
-        to: '/base/tabs',
+        to: '/components/tabs',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Toasts',
+        to: '/components/toasts',
       },
       {
         component: 'CNavItem',
         name: 'Tooltips',
-        to: '/base/tooltips',
+        to: '/components/tooltips',
       },
       {
         component: 'CNavItem',
@@ -176,39 +211,6 @@ export default [
           color: 'danger',
           text: 'PRO',
         },
-      }
-    ],
-  },
-  {
-    component: 'CNavGroup',
-    name: 'Buttons',
-    to: '/buttons',
-    icon: 'cil-cursor',
-    items: [
-      {
-        component: 'CNavItem',
-        name: 'Buttons',
-        to: '/buttons/standard-buttons',
-      },
-      {
-        component: 'CNavItem',
-        name: 'Button Groups',
-        to: '/buttons/button-groups',
-      },
-      {
-        component: 'CNavItem',
-        name: 'Loading Button',
-        href: 'https://coreui.io/vue/docs/components/loading-button.html',
-        external: true,
-        badge: {
-          color: 'danger',
-          text: 'PRO',
-        },
-      },
-      {
-        component: 'CNavItem',
-        name: 'Dropdowns',
-        to: '/buttons/dropdowns',
       },
     ],
   },
@@ -345,12 +347,6 @@ export default [
     ],
   },
   {
-    component: 'CNavItem',
-    name: 'Charts',
-    to: '/charts',
-    icon: 'cil-chart-pie',
-  },
-  {
     component: 'CNavGroup',
     name: 'Icons',
     to: '/icons',
@@ -378,34 +374,6 @@ export default [
     ],
   },
   {
-    component: 'CNavGroup',
-    name: 'Notifications',
-    to: '/notifications',
-    icon: 'cil-bell',
-    items: [
-      {
-        component: 'CNavItem',
-        name: 'Alerts',
-        to: '/notifications/alerts',
-      },
-      {
-        component: 'CNavItem',
-        name: 'Badges',
-        to: '/notifications/badges',
-      },
-      {
-        component: 'CNavItem',
-        name: 'Modals',
-        to: '/notifications/modals',
-      },
-      {
-        component: 'CNavItem',
-        name: 'Toasts',
-        to: '/notifications/toasts',
-      },
-    ],
-  },
-  {
     component: 'CNavItem',
     name: 'Widgets',
     to: '/widgets',
@@ -422,29 +390,61 @@ export default [
   },
   {
     component: 'CNavGroup',
-    name: 'Pages',
-    to: '/pages',
-    icon: 'cil-star',
+    name: 'Authentication',
+    icon: 'cil-lock-locked',
     items: [
       {
         component: 'CNavItem',
         name: 'Login',
-        to: '/pages/login',
+        to: '/authentication/login',
       },
       {
         component: 'CNavItem',
         name: 'Register',
-        to: '/pages/register',
+        to: '/authentication/register',
       },
       {
         component: 'CNavItem',
+        name: 'Check Email',
+        to: '/authentication/check-email',
+      },
+      {
+        component: 'CNavGroup',
+        name: 'Forgot password',
+        items: [
+          {
+            component: 'CNavItem',
+            name: 'Reset Password',
+            to: '/authentication/reset-password',
+          },
+          {
+            component: 'CNavItem',
+            name: 'Change Password',
+            to: '/authentication/change-password',
+          },
+          {
+            component: 'CNavItem',
+            name: 'Password Changed',
+            to: '/authentication/password-changed',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    component: 'CNavGroup',
+    name: 'Error pages',
+    icon: 'cil-bug',
+    items: [
+      {
+        component: 'CNavItem',
         name: 'Error 404',
-        to: '/pages/404',
+        to: '/error-pages/404',
       },
       {
         component: 'CNavItem',
         name: 'Error 500',
-        to: '/pages/500',
+        to: '/error-pages/500',
       },
     ],
   },
