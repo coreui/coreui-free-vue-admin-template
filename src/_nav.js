@@ -165,6 +165,11 @@ export default [
       },
       {
         component: 'CNavItem',
+        name: 'Search Button',
+        to: '/components/search-button',
+      },
+      {
+        component: 'CNavItem',
         name: 'Smart Pagination',
         href: 'https://coreui.io/vue/docs/components/smart-pagination.html',
         badge: {

@@ -155,6 +155,11 @@ const routes = [
             component: () => import('@/views/components/Progress.vue'),
           },
           {
+            path: '/components/search-button',
+            name: 'Search Button',
+            component: () => import('@/views/components/SearchButton.vue'),
+          },
+          {
             path: '/components/spinners',
             name: 'Spinners',
             component: () => import('@/views/components/Spinners.vue'),
