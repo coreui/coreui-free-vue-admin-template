@@ -105,6 +105,11 @@ const routes = [
             component: () => import('@/views/components/Chip.vue'),
           },
           {
+            path: '/components/chip-set',
+            name: 'Chip Set',
+            component: () => import('@/views/components/ChipSet.vue'),
+          },
+          {
             path: '/components/collapse',
             name: 'Collapse',
             component: () => import('@/views/components/Collapse.vue'),
