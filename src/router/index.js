@@ -115,6 +115,11 @@ const routes = [
             component: () => import('@/views/components/Collapse.vue'),
           },
           {
+            path: '/components/data-grid',
+            name: 'Data Grid',
+            component: () => import('@/views/components/DataGrid.vue'),
+          },
+          {
             path: '/components/dropdowns',
             name: 'Dropdowns',
             component: () => import('@/views/components/Dropdowns.vue'),

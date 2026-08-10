@@ -28,6 +28,7 @@ import { iconsSet as icons } from '@/assets/icons'
 
 // Documentation components (remove in production if not needed)
 import DocsComponents from '@/components/DocsComponents'
+import DocsDataGrid from '@/components/DocsDataGrid'
 import DocsExample from '@/components/DocsExample'
 import DocsIcons from '@/components/DocsIcons'
 
@@ -45,6 +46,7 @@ app.provide('icons', icons)
 // Register global components
 app.component('CIcon', CIcon)
 app.component('DocsComponents', DocsComponents)
+app.component('DocsDataGrid', DocsDataGrid)
 app.component('DocsExample', DocsExample)
 app.component('DocsIcons', DocsIcons)
 

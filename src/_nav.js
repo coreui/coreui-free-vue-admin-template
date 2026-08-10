@@ -225,6 +225,16 @@ export default [
     ],
   },
   {
+    component: 'CNavItem',
+    name: 'Data Grid',
+    to: '/components/data-grid',
+    icon: 'cil-grid',
+    badge: {
+      color: 'warning',
+      text: 'ADD-ON',
+    },
+  },
+  {
     component: 'CNavGroup',
     name: 'Forms',
     to: '/forms',
