@@ -25,6 +25,7 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 * [Versions](#versions)
 * [CoreUI PRO](#coreui-pro)
 * [CoreUI PRO Vue Admin Templates](#coreui-pro-vue-admin-templates)
+* [Data Grid](#data-grid)
 * [Quick Start](#quick-start)
 * [Installation](#installation)
 * [Basic usage](#basic-usage)
@@ -62,6 +63,19 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 | Modern Theme | Bright Theme |
 | --- | --- |
 | [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_default_v3_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=modern) | [![CoreUI PRO Vue Admin Template](https://coreui.io/images/templates/coreui_pro_light_v3_light_dark.webp)](https://coreui.io/product/vue-dashboard-template/?theme=bright)|
+
+## Data Grid
+
+CoreUI Vue Data Grid handles 100,000+ rows with sorting, filtering, virtualization, column pinning, inline editing and CSV export — using the same markup and stylesheet this template already uses.
+
+```bash
+npm install @coreui/vue-data-grid
+```
+
+One license also covers JavaScript, React and Angular. It's a separate add-on, not part of CoreUI PRO.
+
+- [Vue Data Grid](https://coreui.io/data-grid/vue/?src=readme-free-vue)
+- [Documentation](https://coreui.io/data-grid/vue/docs/getting-started/introduction/?src=readme-free-vue)
 
 ## Quick Start
 
