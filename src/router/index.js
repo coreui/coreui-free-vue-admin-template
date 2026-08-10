@@ -50,136 +50,139 @@ const routes = [
           ),
       },
       {
-        path: '/theme',
-        name: 'Theme',
-        redirect: '/theme/typography',
-      },
-      {
-        path: '/theme/colors',
-        name: 'Colors',
-        component: () => import('@/views/theme/Colors.vue'),
-      },
-      {
-        path: '/theme/typography',
-        name: 'Typography',
-        component: () => import('@/views/theme/Typography.vue'),
-      },
-      {
-        path: '/base',
-        name: 'Base',
+        path: '/components',
+        name: 'Components',
         component: {
           render() {
             return h(resolveComponent('router-view'))
           },
         },
-        redirect: '/base/breadcrumbs',
+        redirect: '/components/accordion',
         children: [
           {
-            path: '/base/accordion',
+            path: '/components/accordion',
             name: 'Accordion',
-            component: () => import('@/views/base/Accordion.vue'),
+            component: () => import('@/views/components/Accordion.vue'),
           },
           {
-            path: '/base/breadcrumbs',
-            name: 'Breadcrumbs',
-            component: () => import('@/views/base/Breadcrumbs.vue'),
+            path: '/components/alerts',
+            name: 'Alerts',
+            component: () => import('@/views/components/Alerts.vue'),
           },
           {
-            path: '/base/cards',
+            path: '/components/badge',
+            name: 'Badge',
+            component: () => import('@/views/components/Badge.vue'),
+          },
+          {
+            path: '/components/breadcrumb',
+            name: 'Breadcrumb',
+            component: () => import('@/views/components/Breadcrumb.vue'),
+          },
+          {
+            path: '/components/buttons',
+            name: 'Buttons',
+            component: () => import('@/views/components/Buttons.vue'),
+          },
+          {
+            path: '/components/button-group',
+            name: 'Button Group',
+            component: () => import('@/views/components/ButtonGroup.vue'),
+          },
+          {
+            path: '/components/cards',
             name: 'Cards',
-            component: () => import('@/views/base/Cards.vue'),
+            component: () => import('@/views/components/Cards.vue'),
           },
           {
-            path: '/base/carousels',
-            name: 'Carousels',
-            component: () => import('@/views/base/Carousels.vue'),
+            path: '/components/carousel',
+            name: 'Carousel',
+            component: () => import('@/views/components/Carousel.vue'),
           },
           {
-            path: '/base/chips',
-            name: 'Chips',
-            component: () => import('@/views/base/Chips.vue'),
+            path: '/components/chip',
+            name: 'Chip',
+            component: () => import('@/views/components/Chip.vue'),
           },
           {
-            path: '/base/collapses',
-            name: 'Collapses',
-            component: () => import('@/views/base/Collapses.vue'),
+            path: '/components/chip-set',
+            name: 'Chip Set',
+            component: () => import('@/views/components/ChipSet.vue'),
           },
           {
-            path: '/base/list-groups',
-            name: 'List Groups',
-            component: () => import('@/views/base/ListGroups.vue'),
+            path: '/components/collapse',
+            name: 'Collapse',
+            component: () => import('@/views/components/Collapse.vue'),
           },
           {
-            path: '/base/navs',
-            name: 'Navs',
-            component: () => import('@/views/base/Navs.vue'),
-          },
-          {
-            path: '/base/paginations',
-            name: 'Paginations',
-            component: () => import('@/views/base/Paginations.vue'),
-          },
-          {
-            path: '/base/placeholders',
-            name: 'Placeholders',
-            component: () => import('@/views/base/Placeholders.vue'),
-          },
-          {
-            path: '/base/popovers',
-            name: 'Popovers',
-            component: () => import('@/views/base/Popovers.vue'),
-          },
-          {
-            path: '/base/progress',
-            name: 'Progress',
-            component: () => import('@/views/base/Progress.vue'),
-          },
-          {
-            path: '/base/spinners',
-            name: 'Spinners',
-            component: () => import('@/views/base/Spinners.vue'),
-          },
-          {
-            path: '/base/tables',
-            name: 'Tables',
-            component: () => import('@/views/base/Tables.vue'),
-          },
-          {
-            path: '/base/tabs',
-            name: 'Tabs',
-            component: () => import('@/views/base/Tabs.vue'),
-          },
-          {
-            path: '/base/tooltips',
-            name: 'Tooltips',
-            component: () => import('@/views/base/Tooltips.vue'),
-          },
-        ],
-      },
-      {
-        path: '/buttons',
-        name: 'Buttons',
-        component: {
-          render() {
-            return h(resolveComponent('router-view'))
-          },
-        },
-        redirect: '/buttons/standard-buttons',
-        children: [
-          {
-            path: '/buttons/standard-buttons',
-            name: 'Button Component',
-            component: () => import('@/views/buttons/Buttons.vue'),
-          },
-          {
-            path: '/buttons/dropdowns',
+            path: '/components/dropdowns',
             name: 'Dropdowns',
-            component: () => import('@/views/buttons/Dropdowns.vue'),
+            component: () => import('@/views/components/Dropdowns.vue'),
           },
           {
-            path: '/buttons/button-groups',
-            name: 'Button Groups',
-            component: () => import('@/views/buttons/ButtonGroups.vue'),
+            path: '/components/list-group',
+            name: 'List group',
+            component: () => import('@/views/components/ListGroup.vue'),
+          },
+          {
+            path: '/components/modals',
+            name: 'Modals',
+            component: () => import('@/views/components/Modals.vue'),
+          },
+          {
+            path: '/components/navs-tabs',
+            name: 'Navs & Tabs',
+            component: () => import('@/views/components/NavsTabs.vue'),
+          },
+          {
+            path: '/components/pagination',
+            name: 'Pagination',
+            component: () => import('@/views/components/Pagination.vue'),
+          },
+          {
+            path: '/components/placeholders',
+            name: 'Placeholders',
+            component: () => import('@/views/components/Placeholders.vue'),
+          },
+          {
+            path: '/components/popovers',
+            name: 'Popovers',
+            component: () => import('@/views/components/Popovers.vue'),
+          },
+          {
+            path: '/components/progress',
+            name: 'Progress',
+            component: () => import('@/views/components/Progress.vue'),
+          },
+          {
+            path: '/components/search-button',
+            name: 'Search Button',
+            component: () => import('@/views/components/SearchButton.vue'),
+          },
+          {
+            path: '/components/spinners',
+            name: 'Spinners',
+            component: () => import('@/views/components/Spinners.vue'),
+          },
+          {
+            path: '/components/tables',
+            name: 'Tables',
+            component: () => import('@/views/components/Tables.vue'),
+          },
+          {
+            path: '/components/tabs',
+            name: 'Tabs',
+            component: () => import('@/views/components/Tabs.vue'),
+          },
+          {
+            path: '/components/toasts',
+            name: 'Toasts',
+            component: () => import('@/views/components/Toasts.vue'),
+          },
+          {
+            path: '/components/tooltips',
+            name: 'Tooltips',
+            component: () => import('@/views/components/Tooltips.vue'),
           },
         ],
       },
@@ -273,38 +276,6 @@ const routes = [
         ],
       },
       {
-        path: '/notifications',
-        name: 'Notifications',
-        component: {
-          render() {
-            return h(resolveComponent('router-view'))
-          },
-        },
-        redirect: '/notifications/alerts',
-        children: [
-          {
-            path: '/notifications/alerts',
-            name: 'Alerts',
-            component: () => import('@/views/notifications/Alerts.vue'),
-          },
-          {
-            path: '/notifications/badges',
-            name: 'Badges',
-            component: () => import('@/views/notifications/Badges.vue'),
-          },
-          {
-            path: '/notifications/modals',
-            name: 'Modals',
-            component: () => import('@/views/notifications/Modals.vue'),
-          },
-          {
-            path: '/notifications/toasts',
-            name: 'Toasts',
-            component: () => import('@/views/notifications/Toasts.vue'),
-          },
-        ],
-      },
-      {
         path: '/widgets',
         name: 'Widgets',
         component: () => import('@/views/widgets/Widgets.vue'),
@@ -312,9 +283,51 @@ const routes = [
     ],
   },
   {
-    path: '/pages',
-    redirect: '/pages/404',
-    name: 'Pages',
+    path: '/authentication',
+    redirect: '/authentication/login',
+    name: 'Authentication',
+    component: {
+      render() {
+        return h(resolveComponent('router-view'))
+      },
+    },
+    children: [
+      {
+        path: 'login',
+        name: 'Login',
+        component: () => import('@/views/authentication/Login.vue'),
+      },
+      {
+        path: 'register',
+        name: 'Register',
+        component: () => import('@/views/authentication/Register.vue'),
+      },
+      {
+        path: 'check-email',
+        name: 'Check Email',
+        component: () => import('@/views/authentication/CheckEmail.vue'),
+      },
+      {
+        path: 'reset-password',
+        name: 'Reset Password',
+        component: () => import('@/views/authentication/ResetPassword.vue'),
+      },
+      {
+        path: 'change-password',
+        name: 'Change Password',
+        component: () => import('@/views/authentication/ChangePassword.vue'),
+      },
+      {
+        path: 'password-changed',
+        name: 'Password Changed',
+        component: () => import('@/views/authentication/PasswordChanged.vue'),
+      },
+    ],
+  },
+  {
+    path: '/error-pages',
+    redirect: '/error-pages/404',
+    name: 'Error pages',
     component: {
       render() {
         return h(resolveComponent('router-view'))
@@ -324,22 +337,12 @@ const routes = [
       {
         path: '404',
         name: 'Page404',
-        component: () => import('@/views/pages/Page404'),
+        component: () => import('@/views/error-pages/Page404.vue'),
       },
       {
         path: '500',
         name: 'Page500',
-        component: () => import('@/views/pages/Page500'),
-      },
-      {
-        path: 'login',
-        name: 'Login',
-        component: () => import('@/views/pages/Login'),
-      },
-      {
-        path: 'register',
-        name: 'Register',
-        component: () => import('@/views/pages/Register'),
+        component: () => import('@/views/error-pages/Page500.vue'),
       },
     ],
   },

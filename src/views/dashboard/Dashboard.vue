@@ -5,9 +5,13 @@ import avatar3 from '@/assets/images/avatars/3.jpg'
 import avatar4 from '@/assets/images/avatars/4.jpg'
 import avatar5 from '@/assets/images/avatars/5.jpg'
 import avatar6 from '@/assets/images/avatars/6.jpg'
+import { chatgpt } from '@/assets/brand/chatgpt'
+import { google } from '@/assets/brand/google'
+import { linkedinBadge } from '@/assets/brand/linkedin-badge'
+import { twitterX } from '@/assets/brand/twitter-x'
+import DashboardBrand from './DashboardBrand.vue'
 import MainChart from './MainChart.vue'
 import WidgetsStatsA from './../widgets/WidgetsStatsTypeA.vue'
-import WidgetsStatsD from './../widgets/WidgetsStatsTypeD.vue'
 
 const progressGroupExample1 = [
   { title: 'Monday', value1: 34, value2: 78 },
@@ -23,15 +27,10 @@ const progressGroupExample2 = [
   { title: 'Female', icon: 'cil-user-female', value: 43 },
 ]
 const progressGroupExample3 = [
-  {
-    title: 'Organic Search',
-    icon: 'cib-google',
-    percent: 56,
-    value: '191,235',
-  },
-  { title: 'Facebook', icon: 'cib-facebook', percent: 15, value: '51,223' },
-  { title: 'Twitter', icon: 'cib-twitter', percent: 11, value: '37,564' },
-  { title: 'LinkedIn', icon: 'cib-linkedin', percent: 8, value: '27,319' },
+  { title: 'Organic Search', icon: google, percent: 56, value: '191,235' },
+  { title: 'ChatGPT', icon: chatgpt, percent: 15, value: '51,223' },
+  { title: 'Twitter', icon: twitterX, percent: 11, value: '37,564' },
+  { title: 'LinkedIn', icon: linkedinBadge, percent: 8, value: '27,319' },
 ]
 const tableExample = [
   {
@@ -39,12 +38,12 @@ const tableExample = [
     user: {
       name: 'Yiorgos Avraamu',
       new: true,
-      registered: 'Jan 1, 2023',
+      registered: 'Mar 15, 2025',
     },
     country: { name: 'USA', flag: 'cif-us' },
     usage: {
       value: 50,
-      period: 'Jun 11, 2023 - Jul 10, 2023',
+      period: 'Mar 1, 2026 - Apr 30, 2026',
       color: 'success',
     },
     payment: { name: 'Mastercard', icon: 'cib-cc-mastercard' },
@@ -55,12 +54,12 @@ const tableExample = [
     user: {
       name: 'Avram Tarasios',
       new: false,
-      registered: 'Jan 1, 2023',
+      registered: 'Aug 22, 2024',
     },
     country: { name: 'Brazil', flag: 'cif-br' },
     usage: {
       value: 22,
-      period: 'Jun 11, 2023 - Jul 10, 2023',
+      period: 'Jan 15, 2026 - Feb 14, 2026',
       color: 'info',
     },
     payment: { name: 'Visa', icon: 'cib-cc-visa' },
@@ -68,11 +67,11 @@ const tableExample = [
   },
   {
     avatar: { src: avatar3, status: 'warning' },
-    user: { name: 'Quintin Ed', new: true, registered: 'Jan 1, 2023' },
+    user: { name: 'Quintin Ed', new: true, registered: 'Nov 7, 2024' },
     country: { name: 'India', flag: 'cif-in' },
     usage: {
       value: 74,
-      period: 'Jun 11, 2023 - Jul 10, 2023',
+      period: 'Feb 10, 2026 - Mar 11, 2026',
       color: 'warning',
     },
     payment: { name: 'Stripe', icon: 'cib-cc-stripe' },
@@ -80,11 +79,11 @@ const tableExample = [
   },
   {
     avatar: { src: avatar4, status: 'secondary' },
-    user: { name: 'Enéas Kwadwo', new: true, registered: 'Jan 1, 2023' },
+    user: { name: 'Enéas Kwadwo', new: true, registered: 'Jan 30, 2025' },
     country: { name: 'France', flag: 'cif-fr' },
     usage: {
       value: 98,
-      period: 'Jun 11, 2023 - Jul 10, 2023',
+      period: 'Apr 1, 2026 - Apr 30, 2026',
       color: 'danger',
     },
     payment: { name: 'PayPal', icon: 'cib-cc-paypal' },
@@ -95,12 +94,12 @@ const tableExample = [
     user: {
       name: 'Agapetus Tadeáš',
       new: true,
-      registered: 'Jan 1, 2023',
+      registered: 'Jun 12, 2024',
     },
     country: { name: 'Spain', flag: 'cif-es' },
     usage: {
       value: 22,
-      period: 'Jun 11, 2023 - Jul 10, 2023',
+      period: 'Mar 20, 2026 - Apr 19, 2026',
       color: 'primary',
     },
     payment: { name: 'Google Wallet', icon: 'cib-cc-apple-pay' },
@@ -111,12 +110,12 @@ const tableExample = [
     user: {
       name: 'Friderik Dávid',
       new: true,
-      registered: 'Jan 1, 2023',
+      registered: 'Dec 3, 2025',
     },
     country: { name: 'Poland', flag: 'cif-pl' },
     usage: {
       value: 43,
-      period: 'Jun 11, 2023 - Jul 10, 2023',
+      period: 'Apr 5, 2026 - May 4, 2026',
       color: 'success',
     },
     payment: { name: 'Amex', icon: 'cib-cc-amex' },
@@ -135,7 +134,7 @@ const tableExample = [
             <CRow>
               <CCol :sm="5">
                 <h4 id="traffic" class="card-title mb-0">Traffic</h4>
-                <div class="small text-body-secondary">January - July 2023</div>
+                <div class="small text-body-secondary">October 2025 - April 2026</div>
               </CCol>
               <CCol :sm="7" class="d-none d-md-block">
                 <CButton color="primary" class="float-end">
@@ -194,7 +193,7 @@ const tableExample = [
         </CCard>
       </CCol>
     </CRow>
-    <WidgetsStatsD class="mb-4" />
+    <DashboardBrand class="mb-4" />
     <CRow>
       <CCol :md="12">
         <CCard class="mb-4">

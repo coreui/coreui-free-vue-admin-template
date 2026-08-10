@@ -34,11 +34,7 @@ import { useSidebarStore } from '@/stores/sidebar.js'
  * Adds shadow when page is scrolled
  */
 const headerClassNames = ref('mb-4 p-0')
-
-/**
- * CoreUI color mode management
- * Provides theme switching functionality
- */
+const searchModalVisible = ref(false)
 const { colorMode, setColorMode } = useColorModes('coreui-free-vue-admin-template-theme')
 
 /**
@@ -68,17 +64,43 @@ onMounted(() => {
       <CHeaderToggler @click="sidebar.toggleVisible()" style="margin-inline-start: -14px">
         <CIcon icon="cil-menu" size="lg" />
       </CHeaderToggler>
-      <CHeaderNav class="d-none d-md-flex">
-        <CNavItem>
-          <CNavLink href="/dashboard"> Dashboard </CNavLink>
-        </CNavItem>
-        <CNavItem>
-          <CNavLink href="#">Users</CNavLink>
-        </CNavItem>
-        <CNavItem>
-          <CNavLink href="#">Settings</CNavLink>
-        </CNavItem>
-      </CHeaderNav>
+      <CSearchButton
+        class="ms-2"
+        @trigger="searchModalVisible = true"
+        aria-label="Open search dialog"
+        aria-controls="headerSearchModal"
+      />
+      <CModal
+        id="headerSearchModal"
+        :visible="searchModalVisible"
+        @close="
+          () => {
+            searchModalVisible = false
+          }
+        "
+        aria-labelledby="headerSearchModalTitle"
+      >
+        <CModalHeader
+          dismiss
+          @close="
+            () => {
+              searchModalVisible = false
+            }
+          "
+        >
+          <CModalTitle id="headerSearchModalTitle" class="w-100">
+            <CFormInput type="search" placeholder="Search" aria-label="Search" />
+          </CModalTitle>
+        </CModalHeader>
+        <CModalBody>
+          <p class="text-body-secondary small mb-2">Recent searches</p>
+          <CListGroup flush>
+            <CListGroupItem as="a" href="#">CoreUI components overview</CListGroupItem>
+            <CListGroupItem as="a" href="#">Modal dialog examples</CListGroupItem>
+            <CListGroupItem as="a" href="#">Sidebar navigation customization</CListGroupItem>
+          </CListGroup>
+        </CModalBody>
+      </CModal>
       <CHeaderNav class="ms-auto">
         <CNavItem>
           <CNavLink href="#">

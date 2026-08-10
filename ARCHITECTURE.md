@@ -144,69 +144,97 @@ coreui-free-vue-admin-template/
 ├── src/                         # Source code
 │   │
 │   ├── assets/                  # Application assets
-│   │   ├── brand/              # Logo components (logo.js, sygnet.js)
-│   │   └── images/             # Image files (avatars, etc.)
+│   │   ├── brand/               # Logo components (logo.js, sygnet.js, …)
+│   │   ├── icons/                # Local icon set (eye.js, index.js)
+│   │   └── images/               # Image files (avatars, screenshots, …)
 │   │
 │   ├── components/              # Reusable UI components
-│   │   ├── AppBreadcrumb.vue   # Breadcrumb navigation
-│   │   ├── AppContent.vue      # Main content area wrapper
-│   │   ├── AppFooter.vue       # Footer component
-│   │   ├── AppHeader.vue       # Header component
-│   │   ├── AppHeaderDropdown.vue # User dropdown menu
-│   │   ├── AppSidebar.vue      # Sidebar navigation
-│   │   ├── DocsComponents.vue  # Documentation component showcase
-│   │   └── DocsExample.vue     # Code example wrapper
+│   │   ├── AppBreadcrumb.vue      # Breadcrumb navigation
+│   │   ├── AppFooter.vue          # Footer component
+│   │   ├── AppHeader.vue          # Header component
+│   │   ├── AppHeaderDropdownAccnt.vue # User dropdown menu
+│   │   ├── AppSidebar.vue         # Sidebar navigation
+│   │   ├── AppSidebarNav.js       # Sidebar nav renderer (reads _nav.js)
+│   │   ├── DocsComponents.vue     # Documentation component showcase
+│   │   ├── DocsExample.vue        # Code example wrapper
+│   │   └── DocsIcons.vue          # Icon example wrapper
 │   │
 │   ├── layouts/                 # Layout wrapper components
-│   │   └── DefaultLayout.vue   # Main application layout
+│   │   └── DefaultLayout.vue      # Main application layout
 │   │
 │   ├── views/                   # Page/view components
-│   │   ├── dashboard/          # Dashboard page
+│   │   ├── dashboard/            # Dashboard pages
 │   │   │   ├── Dashboard.vue
+│   │   │   ├── DashboardBrand.vue
 │   │   │   └── MainChart.vue
-│   │   ├── base/               # Base UI component examples
+│   │   ├── components/           # Component demo pages (flat, alphabetized)
 │   │   │   ├── Accordion.vue
-│   │   │   ├── Breadcrumbs.vue
+│   │   │   ├── Alerts.vue
+│   │   │   ├── Badge.vue
+│   │   │   ├── Breadcrumb.vue
+│   │   │   ├── ButtonGroup.vue
+│   │   │   ├── Buttons.vue
 │   │   │   ├── Cards.vue
-│   │   │   ├── Carousels.vue
-│   │   │   ├── Chips.vue
-│   │   │   ├── Collapses.vue
-│   │   │   ├── ListGroups.vue
-│   │   │   ├── Navs.vue
-│   │   │   ├── Paginations.vue
+│   │   │   ├── Carousel.vue
+│   │   │   ├── Chip.vue
+│   │   │   ├── ChipSet.vue
+│   │   │   ├── Collapse.vue
+│   │   │   ├── Dropdowns.vue
+│   │   │   ├── ListGroup.vue
+│   │   │   ├── Modals.vue
+│   │   │   ├── NavsTabs.vue
+│   │   │   ├── Pagination.vue
 │   │   │   ├── Placeholders.vue
 │   │   │   ├── Popovers.vue
 │   │   │   ├── Progress.vue
+│   │   │   ├── SearchButton.vue
 │   │   │   ├── Spinners.vue
 │   │   │   ├── Tables.vue
 │   │   │   ├── Tabs.vue
+│   │   │   ├── Toasts.vue
 │   │   │   └── Tooltips.vue
-│   │   ├── buttons/            # Button examples
-│   │   ├── charts/             # Chart examples
-│   │   ├── forms/              # Form examples
-│   │   │   └── ChipInput.vue
-│   │   ├── icons/              # Icon examples
-│   │   ├── notifications/      # Notification examples
-│   │   ├── widgets/            # Widget examples
-│   │   ├── theme/              # Theme examples
-│   │   └── pages/              # Special pages
-│   │       ├── Login.vue       # Login page
-│   │       ├── Register.vue    # Registration page
-│   │       ├── Page404.vue     # 404 error page
-│   │       └── Page500.vue     # 500 error page
+│   │   ├── forms/                # Form examples
+│   │   │   ├── ChecksRadios.vue
+│   │   │   ├── ChipInput.vue
+│   │   │   ├── FloatingLabels.vue
+│   │   │   ├── FormControl.vue
+│   │   │   ├── InputGroup.vue
+│   │   │   ├── Layout.vue
+│   │   │   ├── Range.vue
+│   │   │   ├── Select.vue
+│   │   │   └── Validation.vue
+│   │   ├── charts/               # Chart examples (Charts.vue + CChart*Example.vue)
+│   │   ├── icons/                # Icon examples (CoreUIIcons, Brands, Flags)
+│   │   ├── widgets/               # Widget examples
+│   │   ├── authentication/       # Login, Register, password-reset flow
+│   │   │   ├── Login.vue
+│   │   │   ├── Register.vue
+│   │   │   ├── CheckEmail.vue
+│   │   │   ├── ResetPassword.vue
+│   │   │   ├── ChangePassword.vue
+│   │   │   └── PasswordChanged.vue
+│   │   ├── error-pages/          # Error pages
+│   │   │   ├── Page404.vue
+│   │   │   └── Page500.vue
+│   │   └── theme/                # ColorTheme.vue — orphaned: still on disk after the
+│   │                             # nav/IA reorg, no route or nav entry links to it
 │   │
-│   ├── router/                  # Router configuration
-│   │   └── index.js            # Route definitions
+│   ├── router/                   # Router configuration
+│   │   └── index.js               # Route definitions
 │   │
-│   ├── stores/                  # Pinia stores (if created)
+│   ├── stores/                   # Pinia stores
+│   │   ├── sidebar.js             # Sidebar visible/unfoldable state
+│   │   └── theme.js               # Color mode (light/dark/auto) state
 │   │
-│   ├── scss/                    # Global stylesheets
-│   │   ├── style.scss          # Main stylesheet (imports CoreUI)
-│   │   └── _custom.scss        # Custom style overrides
+│   ├── styles/                   # Global stylesheets
+│   │   ├── style.scss             # Main stylesheet (imports CoreUI)
+│   │   ├── examples.scss           # Docs example styling
+│   │   └── vendors/
+│   │       └── simplebar.scss     # Simplebar overrides
 │   │
-│   ├── App.vue                  # Root application component
-│   ├── main.js                  # Application entry point
-│   └── _nav.js                  # Sidebar navigation configuration
+│   ├── App.vue                   # Root application component
+│   ├── main.js                   # Application entry point
+│   └── _nav.js                   # Sidebar navigation configuration
 │
 ├── node_modules/                # Dependencies
 ├── index.html                   # HTML entry point
@@ -313,9 +341,9 @@ const routes = [
     ],
   },
   {
-    path: '/pages',
-    redirect: '/pages/404',
-    name: 'Pages',
+    path: '/error-pages',
+    redirect: '/error-pages/404',
+    name: 'Error pages',
     component: {
       render() {
         return h(resolveComponent('router-view'))
@@ -325,7 +353,7 @@ const routes = [
       {
         path: '404',
         name: 'Page404',
-        component: () => import('@/views/pages/Page404'),
+        component: () => import('@/views/error-pages/Page404.vue'),
       },
     ],
   },
@@ -374,13 +402,14 @@ export default [
   },
   {
     component: 'CNavGroup',
-    name: 'Base',
+    name: 'Components',
+    to: '/components',
     icon: 'cil-puzzle',
     items: [
       {
         component: 'CNavItem',
         name: 'Accordion',
-        to: '/base/accordion',
+        to: '/components/accordion',
       },
     ],
   },
@@ -456,27 +485,21 @@ const toggleSidebar = () => {
 
 ### Sass/SCSS Structure
 
-**Main Stylesheet** (`src/scss/style.scss`):
+**Main Stylesheet** (`src/styles/style.scss`):
 ```scss
 @use "@coreui/coreui/scss/coreui" as * with (
   $enable-deprecation-messages: false
 );
+@use "@coreui/chartjs/scss/coreui-chartjs";
+@use "vendors/simplebar";
 
-// Custom variables and overrides
-@import 'custom';
-```
-
-**Custom Overrides** (`src/scss/_custom.scss`):
-```scss
-// Override CoreUI/Bootstrap variables
-$primary: #321fdb;
-$secondary: #ced2d8;
-
-// Custom styles
-.my-custom-class {
-  // styles
+// Layout overrides (wrapper padding, sidebar header height, …)
+body {
+  background-color: var(--cui-tertiary-bg);
 }
 ```
+
+Bootstrap/CoreUI variable overrides go through the `@use … with (…)` config map above, not a separate `_custom.scss` partial — there isn't one in this template.
 
 ### CSS Custom Properties (CSS Variables)
 
@@ -541,27 +564,47 @@ CoreUI uses CSS custom properties for theming:
 **File**: `vite.config.mjs`
 
 ```javascript
-import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import path from 'node:path'
 import autoprefixer from 'autoprefixer'
 
-export default defineConfig({
-  plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
+export default defineConfig(() => {
+  return {
+    plugins: [vue()],
+    base: './',
+    css: {
+      postcss: {
+        plugins: [
+          autoprefixer({}), // add options if needed
+        ],
+      },
     },
-    extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx', '.vue'],
-  },
-  server: {
-    port: 3000,
-  },
-  css: {
-    postcss: {
-      plugins: [autoprefixer()],
+    resolve: {
+      alias: [
+        // webpack path resolve to vitejs
+        {
+          find: /^~(.*)$/,
+          replacement: '$1',
+        },
+        {
+          find: '@/',
+          replacement: `${path.resolve(__dirname, 'src')}/`,
+        },
+        {
+          find: '@',
+          replacement: path.resolve(__dirname, '/src'),
+        },
+      ],
+      extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue', '.scss'],
     },
-  },
+    server: {
+      port: 3000,
+      proxy: {
+        // https://vitejs.dev/config/server-options.html
+      },
+    },
+  }
 })
 ```
 
