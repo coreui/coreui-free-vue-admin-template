@@ -26,6 +26,7 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 * [CoreUI PRO](#coreui-pro)
 * [CoreUI PRO Vue Admin Templates](#coreui-pro-vue-admin-templates)
 * [Data Grid](#data-grid)
+* [Scheduler](#scheduler)
 * [Quick Start](#quick-start)
 * [Installation](#installation)
 * [Basic usage](#basic-usage)
@@ -76,6 +77,19 @@ One license also covers JavaScript, React and Angular. It's a separate add-on, n
 
 - [Vue Data Grid](https://coreui.io/data-grid/vue/?src=readme-free-vue)
 - [Documentation](https://coreui.io/data-grid/vue/docs/getting-started/introduction/?src=readme-free-vue)
+
+## Scheduler
+
+CoreUI Vue Scheduler ships six views — day, week, month, agenda, resources, and timeline — with drag & drop, RFC 5545 recurrence, and DST-safe time handling, using the same markup and stylesheet this template already uses.
+
+```bash
+npm install @coreui/vue-scheduler
+```
+
+One license also covers JavaScript, React and Angular. It's a separate add-on, not part of CoreUI PRO.
+
+- [Vue Scheduler](https://coreui.io/scheduler/vue/?src=readme-free-vue)
+- [Documentation](https://coreui.io/scheduler/vue/docs/getting-started/introduction/?src=readme-free-vue)
 
 ## Quick Start
 
