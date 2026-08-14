@@ -31,6 +31,7 @@ import DocsComponents from '@/components/DocsComponents'
 import DocsDataGrid from '@/components/DocsDataGrid'
 import DocsExample from '@/components/DocsExample'
 import DocsIcons from '@/components/DocsIcons'
+import DocsScheduler from '@/components/DocsScheduler'
 
 // Create Vue application instance
 const app = createApp(App)
@@ -49,6 +50,7 @@ app.component('DocsComponents', DocsComponents)
 app.component('DocsDataGrid', DocsDataGrid)
 app.component('DocsExample', DocsExample)
 app.component('DocsIcons', DocsIcons)
+app.component('DocsScheduler', DocsScheduler)
 
 // Mount application to DOM
 app.mount('#app')

@@ -281,6 +281,11 @@ const routes = [
         ],
       },
       {
+        path: '/scheduler',
+        name: 'Scheduler',
+        component: () => import('@/views/scheduler/Scheduler.vue'),
+      },
+      {
         path: '/widgets',
         name: 'Widgets',
         component: () => import('@/views/widgets/Widgets.vue'),

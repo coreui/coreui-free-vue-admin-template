@@ -395,6 +395,16 @@ export default [
   },
   {
     component: 'CNavItem',
+    name: 'Scheduler',
+    to: '/scheduler',
+    icon: 'cil-calendar',
+    badge: {
+      color: 'warning',
+      text: 'ADD-ON',
+    },
+  },
+  {
+    component: 'CNavItem',
     name: 'Widgets',
     to: '/widgets',
     icon: 'cil-calculator',
