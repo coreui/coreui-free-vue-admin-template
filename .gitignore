@@ -9,7 +9,6 @@ tests/e2e/reports/
 
 # dependencies
 /node_modules
-package-lock.json
 yarn.lock
 
 # OS or Editor folders
