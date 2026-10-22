@@ -140,6 +140,12 @@ or
 $ yarn build
 ```
 
+#### Deploy on Wasmer
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=coreui%2Fcoreui-free-vue-admin-template)
+
+Wasmer detects the Vite app, runs `npm install` and `npm run build`, and serves the generated `dist` folder as static files. The button opens Wasmer's import page for this public repository, where you review the configuration and click Deploy; it does not create a copy of the repository in your GitHub account. To customize the site and redeploy on every push, fork this repository and import your own repository on Wasmer.
+
 ## What's included
 
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
